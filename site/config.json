@@ -1,0 +1,11 @@
+{
+  "name": "Mostly Markets",
+  "tagline": "Why stocks moved, explained the same day.",
+  "base_url": "https://mostlymarkets.org",
+  "base_path": "/",
+  "substack": "https://mostlymarkets.substack.com",
+  "subscribe": "https://mostlymarkets.substack.com/subscribe",
+  "instagram": "https://www.instagram.com/mostlymarkets/",
+  "launched": false,
+  "feed_page_size": 40
+}

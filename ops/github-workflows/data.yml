@@ -1,0 +1,82 @@
+name: data
+# Watches the market: refreshes quotes, calendars, prices and filings, queues story events for the writer,
+# rebuilds the site with fresh prices, and deploys it.
+on:
+  schedule:
+    - cron: "*/15 12-23 * * 1-5"   # every 15 minutes, 7 a.m.-7 p.m. ET (EST) on weekdays
+    - cron: "30 0-3 * * 2-6"       # hourly into the evening, ET
+    - cron: "15 */4 * * 0,6"       # weekends: previews and the week ahead
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: data
+  cancel-in-progress: false
+jobs:
+  data:
+    if: vars.MM_ENABLED == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull market data
+        run: bash pipeline/data_pull.sh
+      - name: Refresh market data
+        run: python3 pipeline/refresh.py
+      - name: Detect events
+        id: detect
+        run: python3 pipeline/detect.py
+      - name: Save data and events
+        run: |
+          git config user.name "mm-bot"
+          git config user.email "bot@mostlymarkets.org"
+          bash pipeline/data_push.sh
+          git add events
+          if ! git diff --cached --quiet; then
+            git commit -m "events: $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
+            for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
+          fi
+      - name: Wake the writer for urgent events
+        if: steps.detect.outputs.wake == 'true'
+        env:
+          FIRE_URL: ${{ secrets.MM_ROUTINE_FIRE_URL }}
+          FIRE_TOKEN: ${{ secrets.MM_ROUTINE_FIRE_TOKEN }}
+        run: |
+          if [ -z "$FIRE_URL" ] || [ -z "$FIRE_TOKEN" ]; then echo "no routine token set; the scheduled writer runs will pick these up"; exit 0; fi
+          curl -sS -X POST "$FIRE_URL" -H "Authorization: Bearer $FIRE_TOKEN" -H "anthropic-version: 2026-10-21" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\": \"Urgent events were queued at $(TZ=America/New_York date '+%H:%M ET'). Follow pipeline/WRITER.md now.\"}" || true
+      - name: Build site
+        env:
+          MM_BASE_PATH: ${{ vars.MM_BASE_PATH || '/' }}
+          MM_BASE_URL: ${{ vars.MM_BASE_URL || 'https://mostlymarkets.org' }}
+          MM_CNAME: ${{ vars.MM_CNAME }}
+          MM_LAUNCHED: ${{ vars.MM_LAUNCHED || 'false' }}
+        run: python3 site/build.py
+      - name: Package for GitHub Pages
+        if: vars.MM_DEPLOY == 'pages'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy to Vercel
+        if: vars.MM_DEPLOY == 'vercel'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+        run: npx --yes vercel@39 deploy dist --prod --yes --token "$VERCEL_TOKEN"
+  deploy:
+    needs: data
+    if: vars.MM_DEPLOY == 'pages'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

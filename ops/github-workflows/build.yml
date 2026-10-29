@@ -1,0 +1,56 @@
+name: build
+# Publishes the site whenever stories or the site code change on main (the writer's pushes land here).
+on:
+  push:
+    branches: [main]
+    paths: ["content/**", "site/**", "assets/**", "data/universe/**", "data/authors.json"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: data
+  cancel-in-progress: false
+jobs:
+  build:
+    if: vars.MM_ENABLED == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: bash pipeline/data_pull.sh
+      - name: Check stories
+        run: python3 pipeline/check.py || echo "::warning::some stories fail checks"
+      - name: Build site
+        env:
+          MM_BASE_PATH: ${{ vars.MM_BASE_PATH || '/' }}
+          MM_BASE_URL: ${{ vars.MM_BASE_URL || 'https://mostlymarkets.org' }}
+          MM_CNAME: ${{ vars.MM_CNAME }}
+          MM_LAUNCHED: ${{ vars.MM_LAUNCHED || 'false' }}
+        run: python3 site/build.py
+      - name: Package for GitHub Pages
+        if: vars.MM_DEPLOY == 'pages'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy to Vercel
+        if: vars.MM_DEPLOY == 'vercel'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+        run: npx --yes vercel@39 deploy dist --prod --yes --token "$VERCEL_TOKEN"
+  deploy:
+    needs: build
+    if: vars.MM_DEPLOY == 'pages'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

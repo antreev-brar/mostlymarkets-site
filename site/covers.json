@@ -1,0 +1,428 @@
+{
+ "covers": {
+  "aerospace": {
+   "alt": "A jet engine being assembled in a hangar"
+  },
+  "ai-datacenter": {
+   "alt": "An aisle of servers in a data center"
+  },
+  "airlines": {
+   "alt": "A parked jet at sunrise"
+  },
+  "asia-markets": {
+   "alt": "An Asian city at night in the rain"
+  },
+  "autos-ev": {
+   "alt": "An electric car charging"
+  },
+  "autos-factory": {
+   "alt": "Robots welding car bodies"
+  },
+  "banks": {
+   "alt": "An old bank hall"
+  },
+  "beverages": {
+   "alt": "Bottles on a bottling line"
+  },
+  "biotech": {
+   "alt": "A scientist at a microscope"
+  },
+  "bonds": {
+   "alt": "Papers and a pen on a desk"
+  },
+  "china-trade": {
+   "alt": "Container cranes at a port"
+  },
+  "crypto": {
+   "alt": "Crypto mining rigs"
+  },
+  "cybersecurity": {
+   "alt": "A security operations room"
+  },
+  "data-center-power": {
+   "alt": "A data center campus at dusk"
+  },
+  "dollar": {
+   "alt": "Dollar bills under a desk lamp"
+  },
+  "earnings-call": {
+   "alt": "A conference room after hours"
+  },
+  "ecommerce": {
+   "alt": "A fulfillment warehouse"
+  },
+  "fed": {
+   "alt": "A government building with columns"
+  },
+  "gaming": {
+   "alt": "A gaming setup in a dark room"
+  },
+  "gold": {
+   "alt": "Gold bars in a vault"
+  },
+  "grocery": {
+   "alt": "Supermarket shelves"
+  },
+  "housing": {
+   "alt": "New houses under construction"
+  },
+  "industrials": {
+   "alt": "Heavy equipment lined up in a yard"
+  },
+  "inflation": {
+   "alt": "A petrol station at dusk"
+  },
+  "insurance-health": {
+   "alt": "A hospital corridor"
+  },
+  "ipo": {
+   "alt": "Confetti outside an exchange"
+  },
+  "jobs": {
+   "alt": "Workers arriving at a factory"
+  },
+  "market-screens": {
+   "alt": "Screens of market charts"
+  },
+  "markets-calm": {
+   "alt": "Commuters in a financial district at dawn"
+  },
+  "medical-devices": {
+   "alt": "An operating theatre"
+  },
+  "mining": {
+   "alt": "An open-pit mine"
+  },
+  "nuclear": {
+   "alt": "Cooling towers at a nuclear plant"
+  },
+  "oil-gas": {
+   "alt": "Oil pumpjacks at sunset"
+  },
+  "payments": {
+   "alt": "Paying by card at a cafe"
+  },
+  "pharma-lab": {
+   "alt": "A pharmaceutical lab"
+  },
+  "rail-freight": {
+   "alt": "A freight train on a plain"
+  },
+  "real-estate": {
+   "alt": "Office towers"
+  },
+  "refinery": {
+   "alt": "A refinery at night"
+  },
+  "restaurants": {
+   "alt": "A restaurant kitchen"
+  },
+  "retail-store": {
+   "alt": "A big-box store aisle"
+  },
+  "semis-fab": {
+   "alt": "Inside a chip factory's cleanroom"
+  },
+  "semis-wafer": {
+   "alt": "A silicon wafer"
+  },
+  "shipping-port": {
+   "alt": "A container port at dusk"
+  },
+  "smartphones": {
+   "alt": "A smartphone at a cafe table"
+  },
+  "social-media": {
+   "alt": "Commuters on their phones"
+  },
+  "software": {
+   "alt": "A software office at night"
+  },
+  "solar": {
+   "alt": "A solar farm"
+  },
+  "space": {
+   "alt": "A rocket on the launch pad"
+  },
+  "streaming": {
+   "alt": "A living room lit by a TV"
+  },
+  "telecom": {
+   "alt": "A cell tower at dusk"
+  },
+  "trading-floor": {
+   "alt": "A trading floor"
+  },
+  "travel": {
+   "alt": "Travellers in a hotel lobby"
+  },
+  "utilities-grid": {
+   "alt": "Transmission towers"
+  },
+  "wall-street-rain": {
+   "alt": "A financial district in the rain"
+  },
+  "wall-street-sun": {
+   "alt": "A financial district in the morning"
+  },
+  "weight-loss-drugs": {
+   "alt": "Injection pens on a pharmacy counter"
+  }
+ },
+ "sector": {
+  "Information Technology": [
+   "software",
+   "ai-datacenter",
+   "semis-fab",
+   "cybersecurity"
+  ],
+  "Communication Services": [
+   "social-media",
+   "streaming",
+   "telecom",
+   "gaming"
+  ],
+  "Consumer Discretionary": [
+   "retail-store",
+   "ecommerce",
+   "autos-factory",
+   "restaurants",
+   "travel"
+  ],
+  "Consumer Staples": [
+   "grocery",
+   "beverages",
+   "retail-store"
+  ],
+  "Health Care": [
+   "pharma-lab",
+   "biotech",
+   "insurance-health",
+   "medical-devices"
+  ],
+  "Financials": [
+   "banks",
+   "trading-floor",
+   "payments",
+   "wall-street-sun"
+  ],
+  "Industrials": [
+   "industrials",
+   "aerospace",
+   "rail-freight",
+   "shipping-port"
+  ],
+  "Energy": [
+   "oil-gas",
+   "refinery"
+  ],
+  "Utilities": [
+   "utilities-grid",
+   "nuclear",
+   "solar"
+  ],
+  "Real Estate": [
+   "real-estate",
+   "housing"
+  ],
+  "Materials": [
+   "mining",
+   "gold"
+  ]
+ },
+ "industry": {
+  "Semiconductor": [
+   "semis-fab",
+   "semis-wafer"
+  ],
+  "Application Software": [
+   "software"
+  ],
+  "Systems Software": [
+   "software",
+   "cybersecurity"
+  ],
+  "Internet Services": [
+   "ai-datacenter",
+   "data-center-power"
+  ],
+  "Technology Hardware": [
+   "smartphones",
+   "ai-datacenter"
+  ],
+  "Interactive Media": [
+   "social-media"
+  ],
+  "Movies & Entertainment": [
+   "streaming"
+  ],
+  "Interactive Home Entertainment": [
+   "gaming"
+  ],
+  "Broadline Retail": [
+   "ecommerce"
+  ],
+  "Automobile": [
+   "autos-ev",
+   "autos-factory"
+  ],
+  "Restaurants": [
+   "restaurants"
+  ],
+  "Hotels": [
+   "travel"
+  ],
+  "Casinos": [
+   "gaming"
+  ],
+  "Passenger Airlines": [
+   "airlines"
+  ],
+  "Aerospace": [
+   "aerospace",
+   "space"
+  ],
+  "Pharmaceuticals": [
+   "pharma-lab",
+   "weight-loss-drugs"
+  ],
+  "Biotechnology": [
+   "biotech"
+  ],
+  "Managed Health Care": [
+   "insurance-health"
+  ],
+  "Health Care Equipment": [
+   "medical-devices"
+  ],
+  "Banks": [
+   "banks"
+  ],
+  "Investment Banking": [
+   "trading-floor"
+  ],
+  "Transaction & Payment": [
+   "payments"
+  ],
+  "Financial Exchanges": [
+   "trading-floor",
+   "market-screens"
+  ],
+  "Oil & Gas": [
+   "oil-gas",
+   "refinery"
+  ],
+  "Integrated Oil": [
+   "oil-gas",
+   "refinery"
+  ],
+  "Electric Utilities": [
+   "utilities-grid"
+  ],
+  "Independent Power": [
+   "utilities-grid",
+   "nuclear"
+  ],
+  "Gold": [
+   "gold"
+  ],
+  "Copper": [
+   "mining"
+  ],
+  "Diversified Metals": [
+   "mining"
+  ],
+  "Rail": [
+   "rail-freight"
+  ],
+  "Marine": [
+   "shipping-port"
+  ],
+  "Air Freight": [
+   "shipping-port"
+  ],
+  "Homebuilding": [
+   "housing"
+  ],
+  "Soft Drinks": [
+   "beverages"
+  ],
+  "Brewers": [
+   "beverages"
+  ],
+  "Food Retail": [
+   "grocery"
+  ],
+  "Consumer Staples Merchandise": [
+   "retail-store",
+   "grocery"
+  ],
+  "Telecom": [
+   "telecom"
+  ],
+  "Wireless": [
+   "telecom"
+  ],
+  "Alternative Carriers": [
+   "telecom",
+   "space"
+  ],
+  "Data Center REITs": [
+   "data-center-power"
+  ],
+  "Electronic Components": [
+   "semis-wafer"
+  ],
+  "Communications Equipment": [
+   "telecom",
+   "ai-datacenter"
+  ],
+  "Construction Machinery": [
+   "industrials"
+  ],
+  "Heavy Electrical": [
+   "data-center-power",
+   "utilities-grid"
+  ],
+  "Electrical Components": [
+   "data-center-power"
+  ],
+  "Coal & Consumable": [
+   "nuclear",
+   "mining"
+  ]
+ },
+ "type": {
+  "market-wrap": [
+   "wall-street-sun",
+   "wall-street-rain",
+   "trading-floor",
+   "market-screens",
+   "markets-calm"
+  ],
+  "macro": [
+   "fed",
+   "inflation",
+   "bonds",
+   "jobs",
+   "dollar"
+  ],
+  "movers": [
+   "market-screens",
+   "trading-floor"
+  ],
+  "chart": [
+   "market-screens"
+  ],
+  "earnings-preview": [
+   "earnings-call"
+  ],
+  "list": [
+   "markets-calm",
+   "bonds"
+  ],
+  "analysis": [
+   "markets-calm"
+  ]
+ }
+}
