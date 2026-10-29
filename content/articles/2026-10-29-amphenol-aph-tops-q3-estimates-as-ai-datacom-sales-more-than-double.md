@@ -19,6 +19,7 @@ sources = [
   "https://finance.yahoo.com/markets/stocks/articles/amphenol-q3-earnings-call-highlights-000412310.html",
   "https://finance.biggo.com/news/US_APH_2026-10-28",
   "https://www.tradingkey.com/news/transcripts/262249102-tradingkey",
+  "https://www.tradingview.com/news/seekingalpha:9e0d9337a094b:0-amphenol-jumps-on-q3-revenue-surge-guidance-tops-consensus/",
   "https://www.chartmill.com/news/APH/Chartmill-57060-Amphenol-Corp-Cl-A-NYSEAPH-Q3-Earnings-Beat-and-Above-Consensus-Guidance",
   "https://www.gurufocus.com/news/9147602/amphenol-corp-reports-q3-2026-earnings-eps-of-079-and-revenue-of-102-billion-exceed-analyst-estimates",
   "https://www.businesswire.com/news/home/20260806315820/en/",
@@ -51,11 +52,11 @@ Per-share figures reflect the two-for-one stock split Amphenol completed in earl
 
 ## What stood out
 
-The engine is IT datacom, Amphenol's business selling connectors, cables, and related parts into data centers. Sales there rose 117% from a year earlier, or 77% excluding acquisitions, and the market now makes up 48% of the company's revenue, according to the release and call coverage by Yahoo Finance and TradingKey. Roughly three-quarters of that business is tied to artificial-intelligence systems, Yahoo Finance reported from the call.
+The engine is IT datacom, Amphenol's business selling connectors, cables, and related parts into data centers. Sales there rose 117% from a year earlier, or 77% excluding acquisitions, and the market now makes up 48% of the company's revenue, according to the release and call coverage by Yahoo Finance and TradingKey.
 
 Orders show that demand has not peaked yet. Amphenol booked a record $12.17 billion of new orders, up 99% year on year, for a book-to-bill ratio of 1.19. That means it took in $1.19 of new business for every dollar it shipped, Benzinga and Investing.com reported.
 
-Acquisitions, including the CommScope connectivity business it bought earlier this year, added to growth, but most of the gain was organic: sales rose 37% on that basis. Both sales and adjusted EPS came in above the top of the company's own guidance, Amphenol said in the release.
+Acquisitions added to growth, but most of the gain was organic: sales rose 37% on that basis. Both sales and adjusted EPS came in above the top of the company's own guidance, Amphenol said in the release.
 
 ## The outlook
 
