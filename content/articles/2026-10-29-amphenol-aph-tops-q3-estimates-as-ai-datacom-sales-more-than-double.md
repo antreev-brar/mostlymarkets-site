@@ -54,13 +54,13 @@ Per-share figures reflect the two-for-one stock split Amphenol completed in earl
 
 The engine is IT datacom, Amphenol's business selling connectors, cables, and related parts into data centers. Sales there rose 117% from a year earlier, or 77% excluding acquisitions, and the market now makes up 48% of the company's revenue, according to the release and call coverage by Yahoo Finance and TradingKey.
 
-Orders show that demand has not peaked yet. Amphenol booked a record $12.17 billion of new orders, up 99% year on year, for a book-to-bill ratio of 1.19. That means it took in $1.19 of new business for every dollar it shipped, Benzinga and Investing.com reported.
+Orders point to more growth ahead. Amphenol booked $12.17 billion of new orders, up 99% year on year, for a book-to-bill ratio of 1.19. That means it took in $1.19 of new business for every dollar it shipped, Benzinga and Investing.com reported.
 
 Acquisitions added to growth, but most of the gain was organic: sales rose 37% on that basis. Both sales and adjusted EPS came in above the top of the company's own guidance, Amphenol said in the release.
 
 ## The outlook
 
-For the fourth quarter, Amphenol expects sales of $10.3 billion to $10.5 billion and adjusted earnings of 81 to 83 cents a share. At the midpoint that would be about 62% sales growth from the $6.44 billion it reported a year earlier. Chartmill and Seeking Alpha both described the forecast as above consensus.
+For the fourth quarter, Amphenol expects sales of $10.3 billion to $10.5 billion and adjusted earnings of 81 to 83 cents a share. At the midpoint that would be about 62% sales growth from the $6.44 billion it reported a year earlier.
 
 The company also raised its 2026 outlook to sales of $36.9 billion to $37.1 billion and adjusted earnings of $2.82 to $2.84 a share. The forecasts exclude deals that have not closed yet. Alongside the results, Amphenol raised its quarterly dividend 20% to 15 cents a share and approved a new $4 billion, three-year share buyback.
 
