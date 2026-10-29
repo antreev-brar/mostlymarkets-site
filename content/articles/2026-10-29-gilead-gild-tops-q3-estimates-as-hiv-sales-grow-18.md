@@ -45,11 +45,11 @@ Gilead Sciences (GILD) Q3 2026 highlights
 
 ## What stood out
 
-HIV drugs did the heavy lifting. Sales in the unit rose 18% to $6.25 billion, which Gilead put down to higher realized prices, more demand for HIV prevention, and what it called favorable inventory dynamics.
+HIV drugs did the heavy lifting. Sales in the unit rose 18% to $6.25 billion.
 
 Biktarvy, its main HIV treatment pill, brought in $4.06 billion. Descovy, a daily pill used largely for prevention, grew 49% to $1.05 billion, and Yeztugo, the twice-yearly lenacapavir shot for prevention, reached $305 million. "Our HIV business grew 18% and HIV prevention sales nearly doubled year-over-year," Chairman and Chief Executive Daniel O'Day said in the release.
 
-Outside HIV, Trodelvy, a breast cancer drug, rose 42% to $506 million, and liver disease sales rose 13% to $927 million. Veklury, the COVID-19 treatment, fell 69% to $86 million, and cell therapy fell 18% to $355 million. Total revenue rose 7%, slower than the 13% growth in product sales, because year-earlier income from an intellectual property sale did not repeat.
+Outside HIV, Trodelvy, a breast cancer drug, rose 42% to $506 million, and liver disease sales rose 13% to $927 million. Veklury, the COVID-19 treatment, fell 69% to $86 million, and cell therapy fell 18% to $355 million. Total revenue rose 7%, slower than the 13% growth in product sales, because royalty, contract and other revenues fell, the release showed.
 
 The profit gap between the two measures is wide this quarter. GAAP earnings fell to $1.94 a share from $2.43, mainly because of losses on equity investments, while adjusted earnings rose from $2.47.
 
@@ -68,4 +68,4 @@ The earnings forecast moved the other way. Gilead now expects an adjusted loss o
 
 ## Our take
 
-This was a clear beat, led by HIV prevention, and a sales forecast raised by more than the quarter's surprise. The paper loss forecast reflects deal charges rather than the business. Next quarter we'd watch whether HIV growth holds once the inventory help fades, and how Gilead prepares for the Medicare price on Biktarvy, which the release said will hit revenue from 1 January 2028.
+This was a clear beat, led by HIV prevention, and a sales forecast raised by more than the quarter's surprise. The paper loss forecast reflects deal charges rather than the business. Next quarter we'd watch whether Yeztugo keeps adding to HIV prevention sales, and how Gilead prepares for the Medicare price set for Biktarvy under the Inflation Reduction Act.

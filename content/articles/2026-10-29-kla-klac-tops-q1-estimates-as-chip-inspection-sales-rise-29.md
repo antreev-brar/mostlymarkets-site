@@ -4,7 +4,7 @@ dek = "KLA's September-quarter revenue rose 29% to a record $4.14 billion, ahead
 type = "earnings-recap"
 published = 2026-10-29T17:57:30-04:00
 author = "dev-malhotra"
-tickers = ["KLAC", "LRCX", "AMAT"]
+tickers = ["KLAC", "LRCX"]
 cover = "semis-fab"
 event = "recap-KLAC-2026-10-28"
 moves = [
@@ -76,4 +76,4 @@ That forecast matters because of what happened a week ago. On 22 October, [KLA f
 
 ## Our take
 
-This was a solid beat with a stronger guide: revenue jumped 13% in a single quarter, and the December forecast points to faster growth still. The beat over estimates was modest, at 2% on revenue, so most of the good news sits in the forecast. Next quarter we'd watch whether KLA hits that $4.7 billion midpoint despite the parts shortages Lam described, and whether memory keeps taking a bigger share of sales.
+This was a solid beat with a stronger guide: revenue jumped 13% in a single quarter, and the December forecast points to faster growth still. The beat over estimates was modest, at 2% on revenue, so most of the good news sits in the forecast. Next quarter we'd watch whether KLA hits that $4.7 billion midpoint despite the parts shortages Lam described, and how the split between foundry-logic and memory customers shifts.
