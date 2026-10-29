@@ -13,5 +13,8 @@
   "theme": "profitable-small-caps",
   "screen": "operating margin among companies worth $5-30 billion",
   "candidates": []
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-10-29T18:51:43-04:00",
+ "reason": "no candidates in pack; data/fundamentals missing"
 }
