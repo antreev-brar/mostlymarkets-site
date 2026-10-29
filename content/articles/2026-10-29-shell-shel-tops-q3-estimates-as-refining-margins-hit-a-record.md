@@ -31,17 +31,17 @@ sources = [
 ]
 +++
 
-Shell ($SHEL) reported third-quarter adjusted earnings of $10.81 billion, nearly double the $5.43 billion of a year earlier, as record refining margins lifted its fuel business. That beat the $10.33 billion average of an analyst poll compiled by the company, Reuters reported, and the $9.92 billion LSEG consensus cited by CNBC. We lead with profit rather than revenue because that is the number Shell, and the press, judge it on. Shell's US-listed shares rose 2.4% on Thursday to close at $107.67, after the results came out in London before the US open.
+Shell ($SHEL) reported third-quarter adjusted earnings of $10.81 billion, nearly double the $5.43 billion of a year earlier, as record refining margins lifted its fuel business. That beat the $10.33 billion average of an analyst poll compiled by the company, Reuters reported. Shell's US-listed shares rose 2.4% on Thursday to close at $107.67, after the results came out in London before the US open.
 
 ```highlights
 Shell (SHEL) Q3 2026 highlights
-- **Adjusted earnings:** $10.81 billion vs $10.33 billion in a company-compiled poll and $9.92 billion per LSEG (up from $5.43 billion a year earlier)
+- **Adjusted earnings:** $10.81 billion vs $10.33 billion in a company-compiled analyst poll (up from $5.43 billion a year earlier)
 - **Cash flow from operations:** $21.0 billion, vs $21.4 billion in the second quarter and $12.2 billion a year earlier
 - **Free cash flow:** $16.3 billion, up from $10.0 billion a year earlier
 - **Buyback:** $5.0 billion over the next three months, up from $3 billion
 - **Net debt:** $39.7 billion, down from $41.8 billion at the end of June
 - **2026 cash capital spending:** $23-25 billion, down from $24-26 billion
-- **Market value:** about $307 billion for the US-listed shares at Thursday's close
+- **Market value:** about $307 billion at Thursday's close, based on the US-listed shares
 ```
 
 ## What stood out
@@ -56,7 +56,7 @@ The cash backed up the profit. Cash flow from operations was $21.0 billion, clos
 
 ## The outlook
 
-Shell will buy back $5 billion of its shares before it reports fourth-quarter results, up from $3 billion a quarter, Reuters and CNBC reported. It trimmed its 2026 cash spending plan to $23 billion to $25 billion, from $24 billion to $26 billion. The company said its policy of handing 40% to 50% of cash flow from operations back to shareholders over the cycle is unchanged.
+Shell will buy back $5 billion of its shares before it reports fourth-quarter results, up from $3 billion in the previous round, Reuters and CNBC reported. It trimmed its 2026 cash spending plan to $23 billion to $25 billion, from $24 billion to $26 billion. The company said its policy of handing 40% to 50% of cash flow from operations back to shareholders over the cycle is unchanged.
 
 ```chart
 {"kind": "bars", "labels": ["Q3 25", "Q4 25", "Q1 26", "Q2 26", "Q3 26"],
