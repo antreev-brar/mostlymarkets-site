@@ -1,0 +1,87 @@
+{
+ "id": "recap-SHEL-2026-10-29",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-10-29T17:11:47-04:00",
+ "expires": "2026-10-30T20:00:00-04:00",
+ "tickers": [
+  "SHEL"
+ ],
+ "headline_hint": "Shell (SHEL) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-10-29T17:10:58-04:00",
+ "pack": {
+  "calendar": {
+   "ticker": "SHEL",
+   "name": "Shell PLC",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.54,
+   "n_estimates": 3,
+   "eps_last_year": 1.86,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 289100726000.0
+  },
+  "quote": {
+   "price": 107.67,
+   "change_pct": 2.36,
+   "prev_close": 105.19,
+   "time": "2026-10-29T16:10:00.000-0400",
+   "mktcap": "307.064B",
+   "pe": 11.88,
+   "fpe": 9.3,
+   "yr_high": 108.43,
+   "yr_low": 68.63,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 107.96,
+    "change_pct": 0.27,
+    "time": "2026-10-29T16:43:51.118-0400"
+   }
+  },
+  "facts": {
+   "ticker": "SHEL",
+   "name": "Shell",
+   "date": "2026-10-29",
+   "close": 107.67,
+   "prev_close": 105.19,
+   "change_pct": 2.36,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 28,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": 3.0
+   },
+   "ytd_pct": 46.53,
+   "return_1m_pct": 13.28,
+   "return_6m_pct": 18.75,
+   "return_1y_pct": 43.43,
+   "high_52w": {
+    "close": 108.18,
+    "date": "2026-10-23"
+   },
+   "low_52w": {
+    "close": 70.31,
+    "date": "2026-01-08"
+   },
+   "pct_below_52w_high": 0.47,
+   "thousand_dollars_5y_ago_now": 2345,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 6961092,
+   "volume_vs_20d_avg": 1.15,
+   "sentences": [
+    "Shell's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock rose 3.0%.",
+    "The stock is up 46.5% this year, and at $107.67 it sits 0.5% below its 52-week closing high of $108.18 from 23 October 2026.",
+    "$1,000 invested in Shell five years ago would be worth $2,345 today."
+   ]
+  },
+  "sector": "Energy",
+  "industry": "Integrated Oil & Gas",
+  "recent_stories": []
+ }
+}

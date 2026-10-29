@@ -1,0 +1,17 @@
+{
+ "id": "list-2026-10-29",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 30,
+ "created": "2026-10-29T17:11:47-04:00",
+ "expires": "2026-10-29T23:59:00-04:00",
+ "tickers": [],
+ "headline_hint": "3 Under-the-Radar Stocks We Love and 1 We Hate",
+ "instructions": "Theme: Under-the-Radar, screened on operating margin among companies worth $5-30 billion. Pick 3 to love and 1 to hate from pack.candidates; every reason must rest on a dated number from data/fundamentals or the latest results.",
+ "quotes_asof": "2026-10-29T17:10:58-04:00",
+ "pack": {
+  "theme": "profitable-small-caps",
+  "screen": "operating margin among companies worth $5-30 billion",
+  "candidates": []
+ }
+}

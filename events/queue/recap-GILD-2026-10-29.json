@@ -1,0 +1,90 @@
+{
+ "id": "recap-GILD-2026-10-29",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-10-29T17:11:47-04:00",
+ "expires": "2026-10-30T20:00:00-04:00",
+ "tickers": [
+  "GILD"
+ ],
+ "headline_hint": "Gilead Sciences (GILD) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-10-29T17:10:58-04:00",
+ "pack": {
+  "calendar": {
+   "ticker": "GILD",
+   "name": "Gilead Sciences, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.17,
+   "n_estimates": 6,
+   "eps_last_year": 2.47,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 197400855000.0
+  },
+  "quote": {
+   "price": 165.61,
+   "change_pct": 4.03,
+   "prev_close": 159.2,
+   "time": "2026-10-29T16:00:00.000-0400",
+   "mktcap": "205.349B",
+   "pe": -62.38,
+   "fpe": 18.78,
+   "yr_high": 165.7,
+   "yr_low": 114.02,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 170.55,
+    "change_pct": 2.98,
+    "time": "2026-10-29T17:10:33.437-0400"
+   }
+  },
+  "facts": {
+   "ticker": "GILD",
+   "name": "Gilead Sciences",
+   "date": "2026-10-29",
+   "close": 165.61,
+   "prev_close": 159.2,
+   "change_pct": 4.03,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-07",
+    "change_pct": 5.21
+   },
+   "ytd_pct": 34.93,
+   "return_1m_pct": 11.11,
+   "return_6m_pct": 26.57,
+   "return_1y_pct": 40.49,
+   "high_52w": {
+    "close": 165.61,
+    "date": "2026-10-29"
+   },
+   "low_52w": {
+    "close": 118.15,
+    "date": "2025-11-10"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 2553,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 7580915,
+   "volume_vs_20d_avg": 1.32,
+   "sentences": [
+    "Gilead Sciences's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 7 July 2026, when the stock rose 5.2%.",
+    "The stock is up 34.9% this year, and at $165.61 it sits 0.0% below its 52-week closing high of $165.61 from 29 October 2026.",
+    "$1,000 invested in Gilead Sciences five years ago would be worth $2,553 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Biotechnology",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000037/0000882095-26-000037-index.htm",
+  "release_text": "events/packs/recap-GILD-2026-10-29.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000037/exhibit991earningspressrel.htm"
+ }
+}

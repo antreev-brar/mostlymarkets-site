@@ -267,6 +267,10 @@ class Detector:
             eid = f"recap-{t}-{day}"
             if eid in self.seen or self.count_today("earnings-recap") >= DAILY_CAP["earnings-recap"]:
                 continue
+            if t in DUP_CLASS or self.written("earnings-recap", [t], day):
+                self.seen.setdefault(eid, {"kind": "earnings-recap", "day": self.today.isoformat(),
+                                           "created": self.now.isoformat(timespec="seconds"), "outcome": "already-written"})
+                continue
             u = self.univ.get(t, {})
             f = by_cik.get(str(u.get("cik", "")).zfill(10))
             due = (day < self.today.isoformat() or (r["time"] == "bmo" and self.now.time() >= dt.time(8, 0))
@@ -343,8 +347,11 @@ class Detector:
                          "Stocks Making the Biggest Moves This Week", "The week's five biggest moves, Monday open to Friday close.",
                          {"week_ending": d.isoformat(), "moves": self.week_moves()})
             if d.weekday() in (1, 3) and self.now.time() >= dt.time(11, 30):
-                k = (d.toordinal() // 2) % len(LIST_THEMES)
-                theme = LIST_THEMES[k]
+                recent = " ".join(x["title"].lower() for x in self.stories
+                                  if x["type"] == "list" and x["date"] >= (d - dt.timedelta(days=21)).isoformat())
+                fresh = [th for th in LIST_THEMES if th[1].lower() not in recent]
+                k = (d.toordinal() // 2) % len(fresh or LIST_THEMES)
+                theme = (fresh or LIST_THEMES)[k]
                 self.add(f"list-{d}", "list", "list", 30, self.at(23, 59), [],
                          f"3 {theme[1]} Stocks We Love and 1 We Hate",
                          f"Theme: {theme[1]}, screened on {theme[2]}. Pick 3 to love and 1 to hate from pack.candidates; "
