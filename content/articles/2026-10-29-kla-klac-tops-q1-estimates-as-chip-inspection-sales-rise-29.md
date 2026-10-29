@@ -1,6 +1,6 @@
 +++
 title = "KLA (KLAC) Tops Q1 Estimates as Chip-Inspection Sales Rise 29%"
-dek = "KLA's September-quarter revenue rose 29% to a record $4.14 billion, ahead of the $4.05 billion expected, and it guided to $4.7 billion for December. The stock rose 5.5% on Thursday."
+dek = "KLA's September-quarter revenue rose 29% to $4.14 billion, ahead of the $4.05 billion expected, and it guided to $4.7 billion for December. The stock rose 5.5% on Thursday."
 type = "earnings-recap"
 published = 2026-10-29T17:57:30-04:00
 author = "dev-malhotra"
@@ -39,7 +39,7 @@ sources = [
 ]
 +++
 
-KLA ($KLAC), which makes the machines chipmakers use to inspect and measure wafers, reported record revenue of $4.14 billion for its fiscal first quarter, the three months to September, up 29% year on year. That beat the $4.05 billion analysts expected, according to Zacks. Adjusted earnings of $1.22 a share topped the Zacks consensus of $1.18. The results came out after the close on Wednesday, and the shares rose 5.5% on Thursday to close at $167.43.
+KLA ($KLAC), which makes the machines chipmakers use to inspect and measure wafers, reported revenue of $4.14 billion for its fiscal first quarter, the three months to September, up 29% year on year. That beat the $4.05 billion analysts expected, according to Zacks. Adjusted earnings of $1.22 a share topped the Zacks consensus of $1.18. The results came out after the close on Wednesday, and the shares rose 5.5% on Thursday to close at $167.43.
 
 All per-share figures here are after KLA's ten-for-one stock split, which took effect in June. That is why the earnings look about a tenth the size of last year's.
 
@@ -57,7 +57,7 @@ KLA (KLAC) fiscal Q1 2027 highlights
 
 Almost all of the growth came from KLA's core business. Semiconductor process control, the inspection and measurement tools that catch defects on a chip production line, brought in $3.75 billion, 29% more than a year earlier and 15% more than in the June quarter, according to KLA's quarterly filing and its letter to shareholders.
 
-Chief Executive Rick Wallace said in the results release that the quarter beat the midpoint of KLA's guidance on all key measures, and Benzinga and Investing.com reported the same. The company tied the growth to spending on AI chips, both at the leading-edge factories that make processors and at memory makers. Foundry and logic customers took 72% of process-control systems sales, and memory makers took 28%.
+Chief Executive Rick Wallace said in the results release that the quarter beat the midpoint of KLA's guidance on all key measures, and Benzinga and Investing.com reported the same. Foundry and logic customers took 72% of process-control systems sales, and memory makers took 28%.
 
 The company is also turning that revenue into cash. Operating cash flow was $1.53 billion, free cash flow $1.34 billion, and KLA returned $1.24 billion to shareholders through dividends and buybacks, the release showed.
 
