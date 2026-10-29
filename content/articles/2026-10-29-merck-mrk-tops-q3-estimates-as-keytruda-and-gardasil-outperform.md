@@ -47,7 +47,7 @@ Merck (MRK) Q3 2026 highlights
 
 ## What stood out
 
-Keytruda, Merck's cancer immunotherapy and its biggest product, brought in $8.6 billion with its newer under-the-skin version, Keytruda Qlex, the release showed. Qlex alone sold $830 million, its best quarter since it launched in 2025 and well above the $649 million analysts expected, according to StreetAccount estimates cited by CNBC and Quartz.
+Keytruda, Merck's cancer immunotherapy and its biggest product, brought in $8.6 billion with its newer under-the-skin version, Keytruda Qlex, the release showed. Qlex alone sold $830 million, well above the $649 million analysts expected, according to StreetAccount estimates cited by CNBC and Quartz.
 
 Gardasil, the HPV vaccine whose sales fell sharply last year, grew again. Sales rose 14% to just under $2 billion, helped by early purchases by the US Centers for Disease Control and Prevention, Reuters and CNBC reported. Winrevair, a lung blood-pressure drug, nearly doubled its sales to $694 million.
 
@@ -57,17 +57,17 @@ Part of the beat was timing, not demand. Merck said about $550 million of third-
 
 ## The outlook
 
-Merck raised its 2026 adjusted earnings forecast to $2.77 to $2.82 a share, from $2.66 to $2.76. The new range includes a one-time charge of about $400 million, or 12 cents a share, for a licensing deal with SciBrunch, Quartz and CNBC reported. The forecast is low by Merck's usual standards because it also carries large charges for this year's purchases of Cidara and Terns.
+Merck raised its 2026 adjusted earnings forecast to $2.77 to $2.82 a share, from $2.66 to $2.76. The new range includes a one-time charge of about $400 million, or 12 cents a share, for a licensing deal with SciBrunch, Quartz and CNBC reported. The forecast also carries large charges for this year's purchases of Cidara and Terns.
 
 The company also narrowed its sales forecast to $66.8 billion to $67.3 billion, lifting the bottom of the range from $66.3 billion and keeping the top unchanged.
 
 ```chart
 {"kind": "bars", "labels": ["Q4 24", "Q1 25", "Q2 25", "Q3 25", "Q4 25", "Q1 26", "Q2 26", "Q3 26"],
  "values": [15.62, 15.53, 15.81, 17.28, 16.40, 16.29, 16.61, 18.09], "unit": "$bn", "highlight": -1,
- "title": "Merck's quarterly sales reached a new high", "subtitle": "Quarterly worldwide sales, $bn",
+ "title": "Merck's sales were the highest of the past two years", "subtitle": "Quarterly worldwide sales, $bn",
  "source": "Merck results releases and SEC filings"}
 ```
 
 ## Our take
 
-This was a solid beat, but about $550 million of it was borrowed from coming quarters, so the fourth quarter will look weaker against it. The Qlex numbers matter most, since moving patients to the new version is Merck's main defense as key Keytruda patents begin expiring in 2028. Next quarter we'd watch how much of the early buying unwinds and whether Qlex keeps growing.
+This was a solid beat, but about $550 million of it was borrowed from coming quarters, so the fourth quarter will look weaker against it. The Qlex numbers matter most, since moving patients to the new version is Merck's main defense against Keytruda's coming patent expirations. Next quarter we'd watch how much of the early buying unwinds and whether Qlex keeps growing.
