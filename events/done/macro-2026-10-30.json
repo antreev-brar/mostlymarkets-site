@@ -252,5 +252,8 @@
     "name": "US dollar index"
    }
   }
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-10-30T12:59:57-04:00",
+ "reason": "no top-tier release today (September PCE came out 29 October)"
 }
