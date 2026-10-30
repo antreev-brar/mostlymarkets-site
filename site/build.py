@@ -566,8 +566,10 @@ def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
     newest_day = pool[0].pub.date()
     recent = [s for s in pool if (pool[0].pub - s.pub) < dt.timedelta(hours=30)]
     feat = [s for s in recent if s.featured]
-    lead = feat[0] if feat else max(recent, key=lambda s: (s.weight(), s.pub))
-    rest = sorted([s for s in recent if s is not lead], key=lambda s: (s.weight(), s.pub), reverse=True)
+    def score(s):  # importance, minus a point for every three hours of age
+        return s.weight() - (NOW - s.pub).total_seconds() / 3600 / 3
+    lead = feat[0] if feat else max(recent, key=lambda s: (score(s), s.pub))
+    rest = sorted([s for s in recent if s is not lead], key=lambda s: (score(s), s.pub), reverse=True)
     tops, seen_t = [], set(lead.tickers[:1])
     for s in rest:
         if s.type == "movers" or (s.tickers and s.tickers[0] in seen_t):
@@ -735,10 +737,10 @@ def fund_section(t: str) -> str:
              "Price to earnings": ("is cheaper than", "is pricier than")}
     vl = "".join(f'<li class="{"g" if b else "b"}">{esc(name)} {words[lab][0 if b else 1]} the median {esc(sec.lower())} stock ({fmt_cmp(lab, v)} vs {fmt_cmp(lab, m)}).</li>'
                  for b, lab, v, m in verdicts)
-    table = (f'<div class="tbl"><table class="cmp"><thead><tr><th>Last 12 months</th><th class="n">{t}</th><th class="n">{esc(sec)} median</th></tr></thead>'
+    table = (f'<div class="tbl"><table class="cmp"><thead><tr><th>Last 12 months</th><th class="n">{t}</th><th class="n">Sector median</th></tr></thead>'
              f'<tbody>{"".join(rows)}</tbody></table></div>') if rows else ""
     upd = f.get("quarters", [{}])[-1].get("end", "")
-    return (f'<h2 class="sh2" id="financials">The business</h2><p class="lede">From {esc(name)}\'s SEC filings, through the quarter ending '
+    return (f'<h2 class="sh2" id="financials">The business</h2><p class="lede">Compared with the median {esc(sec.lower())} stock we cover. From {esc(name)}\'s SEC filings, through the quarter ending '
             f'{C.human(upd) if upd else "–"}.</p>'
             f'<ul class="verdicts">{vl}</ul>{table}<div class="fundgrid">{"".join(out)}</div>')
 
