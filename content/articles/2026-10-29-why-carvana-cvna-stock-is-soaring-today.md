@@ -24,17 +24,19 @@ sources = [
 
 ## What happened
 
-Shares of online used-car seller Carvana ($CVNA) soared 15.7% on Thursday after it sold a record number of cars in the third quarter. The company sold 217,385 cars to retail customers, up 39% year on year, in results released after the close on Wednesday.
+Shares of online used-car seller Carvana ($CVNA) soared 15.7% on Thursday after it sold a record number of cars in the third quarter, Investing.com and 24/7 Wall St reported. The company sold 217,385 cars to retail customers, up 39% year on year, in results released after the close on Wednesday.
 
-Revenue rose 42% to a record $8.04 billion, ahead of the roughly $7.67 billion analysts expected, according to Investing.com and 24/7 Wall St. Earnings per share fell short of estimates, both outlets reported, but investors looked past that to the sales.
+Revenue rose 42% to a record $8.04 billion, ahead of the roughly $7.67 billion analysts expected, according to Investing.com and 24/7 Wall St. Earnings per share fell short of estimates, both outlets reported, but 24/7 Wall St said the record sales overshadowed the miss.
 
-"This is our first quarter with over 200,000 sales. Our run rate is now 870,000, double what it was just two years ago," founder and Chief Executive Ernie Garcia said on the earnings call. The shares closed at $68.31, up 15.7% from the previous close.
+"This is our first quarter with over 200,000 sales. Our run rate is now 870,000, double what it was just 2 years ago," founder and Chief Executive Ernie Garcia said on the earnings call. The shares closed at $68.31, up 15.7% from the previous close.
 
 ## Why it matters
 
-Volume is the story Carvana investors buy. The company said the used-car market was roughly flat in the quarter, so a 39% jump in units means it is taking customers from dealers. It expects to sell more cars in the fourth quarter than in the third, and for 2026 adjusted EBITDA, a measure of operating profit before interest, taxes, depreciation and amortization, at the higher end of its $2.7 billion to $3.0 billion range.
+Volume is the story Carvana investors buy. The company said the used-car market was roughly flat in the quarter, so its 39% jump in units came from winning market share. If conditions stay stable, it expects to sell more cars in the fourth quarter than in the third, and 2026 adjusted EBITDA, a measure of operating profit before interest, taxes, depreciation and amortization, at the higher end of its $2.7 billion to $3.0 billion range.
 
-Profit per car is the weak spot. Adjusted EBITDA came to $800 million, but the margin slipped to 10.0% of revenue from 11.3% a year earlier. Carvana said in its shareholder letter that high fuel prices and "rapidly rising benchmark interest rates" cost it about $200 a car. Before the report, worries about rates and margins had pushed the stock toward multi-month lows, Investing.com and 24/7 Wall St noted.
+Profit per car is the weak spot. Adjusted EBITDA came to a record $800 million, but that was $3,680 a car, down from $4,085 a year earlier, and the margin slipped to 10.0% of revenue from 11.3%. Carvana said in its shareholder letter that high fuel prices and "rapidly rising benchmark interest rates" cost it about $200 a car.
+
+Before the report, the stock had been trading near multi-month lows on worries about rising rates and margins, Investing.com said, and 24/7 Wall St called rising rates and fuel costs the bears' main concerns.
 
 ## What the market is telling us
 

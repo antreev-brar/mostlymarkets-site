@@ -30,15 +30,15 @@ AI stocks sank on Thursday, while most of the rest of the market rose. Chip stoc
 
 ## Only the AI corner fell
 
-The PHLX Semiconductor index, which tracks 30 big chip companies, fell 6.72%, its worst day since 23 June. Yet 337 of the 503 stocks in the S&P 500 rose, by our count. The index is weighted by company size, so a few AI giants can outweigh hundreds of smaller companies; an equal-weight S&P 500 fund, which gives every company the same say, rose 0.73%.
+The PHLX Semiconductor index, which tracks 30 big chip companies, sank 6.72%, its worst day since 23 June. Yet 337 of the 503 stocks in the S&P 500 rose, by our count. The index is weighted by company size, so a few AI giants can outweigh hundreds of smaller companies; an equal-weight S&P 500 fund, which gives every company the same say, rose 0.73%.
 
-Nvidia ($NVDA) fell 4.4%, its worst day since August and the biggest drag on the S&P 500. Chief Executive Jensen Huang told CNBC that the growth of neoclouds, companies that buy Nvidia chips and rent them out, is limited because "there's a scarcity of capital." CoreWeave ($CRWV), one of those neoclouds, fell 10.1%, and AP said it "has been particularly shaky in recent weeks because of worries about its debt."
+Nvidia ($NVDA) slid 4.4%, its worst day since August and the biggest drag on the S&P 500. Chief Executive Jensen Huang told CNBC that the growth of neoclouds, companies that buy Nvidia chips and rent them out, is limited because "there's a scarcity of capital." CoreWeave ($CRWV), one of those neoclouds, plunged 10.1%, and AP said it "has been particularly shaky in recent weeks because of worries about its debt."
 
 ## Meta and Lam set the tone
 
 Meta ($META) [slid 7.0%](/news/2026-10-22/meta-meta-shares-slide-after-free-cash-flow-turns-negative/) after spending $34.91 billion on data centers and equipment in the quarter, more than its operations brought in, and creating a new class of nonvoting shares it could sell to raise money.
 
-Lam Research ($LRCX) [sank 11.8%](/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/) after saying short supplies of clean-room space and parts will keep limiting chipmakers into 2027. KLA ($KLAC) fell 9.5% and Applied Materials ($AMAT) 8.2%.
+Lam Research ($LRCX) [plunged 11.8%](/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/) after saying short supplies of clean-room space and parts will keep limiting chipmakers into 2027. KLA ($KLAC) lost 9.5% and Applied Materials ($AMAT) 8.2%.
 
 ## Moderna's results came out too soon
 
@@ -48,7 +48,7 @@ Moderna ($MRNA) [plunged 17.6%](/news/2026-10-22/why-moderna-mrna-stock-is-sinki
 
 The biggest hiding place was US government bonds. The 10-year Treasury yield fell to about 4.95% from 5.15%, its first close below 5% since 22 September. Going by the funds that track each sector, consumer staples, makers of everyday goods, were the best S&P 500 sector, up 3.3%, while technology was the worst, down 3.3%.
 
-Procter & Gamble ($PG) rose 5.6%, its best day since March 2020, Benzinga reported, after it [beat sales and profit forecasts](/news/2026-10-22/procter-gamble-pg-tops-fiscal-q1-estimates-as-volumes-grow-2/). Lockheed Martin ($LMT) rose 7.0% after beating forecasts and raising its outlook, and Blackstone ($BX) gained 8.4% after its results. Spotify ($SPOT) [soared 11.1%](/news/2026-10-22/why-spotify-spot-stock-is-soaring-today/) on a profit forecast above estimates.
+Procter & Gamble ($PG) jumped 5.6%, its best day since March 2020, Benzinga reported, after it [beat sales and profit forecasts](/news/2026-10-22/procter-gamble-pg-tops-fiscal-q1-estimates-as-volumes-grow-2/). Lockheed Martin ($LMT) jumped 7.0% after beating forecasts and raising its outlook, and Blackstone ($BX) soared 8.4% after its results. Spotify ($SPOT) [soared 11.1%](/news/2026-10-22/why-spotify-spot-stock-is-soaring-today/) on a profit forecast above estimates.
 
 Oil climbed too. Brent crude, the global benchmark, rose 4% to settle at $113.17 a barrel, its highest in five months, AP reported. Houthi attacks in Saudi Arabia stoked supply fears, Reuters reported, a day after The New York Times reported that the US and Israel have drawn up plans for renewed strikes on Iran after the 3 November midterms. Gold futures fell 2.6%.
 

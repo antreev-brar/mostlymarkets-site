@@ -1,6 +1,6 @@
 +++
 title = "Lam Research (LRCX), KLA (KLAC) and Applied Materials (AMAT) Shares Slide: What Happened"
-dek = "Lam Research sank 11.8% on Thursday after warning that short supplies of factory space and parts will limit chipmakers into 2027. KLA fell 9.5% and Applied Materials 8.2%."
+dek = "Lam Research plunged 11.8% on Thursday after warning that short supplies of factory space and parts will limit chipmakers into 2027. KLA lost 9.5% and Applied Materials 8.2%."
 type = "why-it-moved"
 published = 2026-10-22T16:15:00-04:00
 author = "dev-malhotra"
@@ -25,7 +25,7 @@ sources = [
 
 ## What happened
 
-Shares of the companies that build chipmaking machines slid on Thursday after Lam Research ($LRCX) said its forecast would have been higher if not for supply shortages. Lam sank 11.8%, KLA ($KLAC) fell 9.5% and Applied Materials ($AMAT) dropped 8.2%. ASML ($ASML), another maker of chipmaking machines, fell 6.9%.
+Shares of the companies that build chipmaking machines slid on Thursday after Lam Research ($LRCX) said its forecast would have been higher if not for supply shortages. Lam plunged 11.8%, KLA ($KLAC) 9.5% and Applied Materials ($AMAT) 8.2%. ASML ($ASML), another maker of chipmaking machines, slid 6.9%.
 
 Lam reported record quarterly revenue of $8.22 billion on Wednesday and forecast $8.60 billion, plus or minus $400 million, for the quarter ending in December, according to its results release. Finance chief Doug Bettinger said on the earnings call that the forecast "would have been a bit higher if not for some near-term supply chain constraints."
 
@@ -37,7 +37,7 @@ Lam's shares closed at $230.15, down 11.8% from the previous close. KLA closed a
 
 A clean room is the dust-free space inside a chip factory where these machines are installed. If chipmakers run short of that space and of certain parts, they can't add equipment as fast as they would like, however strong demand is. For the toolmakers, that means growth arrives later than investors had priced in.
 
-The warning landed on a day when investors were already nervous about how the AI build-out gets paid for. Nvidia ($NVDA) Chief Executive Jensen Huang told CNBC that the growth of neoclouds, companies that buy Nvidia chips and rent them out, is limited because "there's a scarcity of capital." The PHLX Semiconductor index, which tracks 30 big chip companies, fell 6.72%, its worst day since 23 June.
+The warning landed on a day when investors were already nervous about how the AI build-out gets paid for. Nvidia ($NVDA) Chief Executive Jensen Huang told CNBC that the growth of neoclouds, companies that buy Nvidia chips and rent them out, is limited because "there's a scarcity of capital." The PHLX Semiconductor index, which tracks 30 big chip companies, sank 6.72%, its worst day since 23 June.
 
 ## What the market is telling us
 

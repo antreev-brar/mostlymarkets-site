@@ -1,6 +1,6 @@
 +++
 title = "Meta (META) Shares Slide After Free Cash Flow Turns Negative"
-dek = "Meta fell 7.0% on Thursday after spending $34.91 billion on data centers and equipment in a quarter, leaving free cash flow at -$2.12 billion, and creating new nonvoting shares."
+dek = "Meta slid 7.0% on Thursday after spending $34.91 billion on data centers and equipment in a quarter, leaving free cash flow at -$2.12 billion, and creating new nonvoting shares."
 type = "why-it-moved"
 published = 2026-10-22T16:15:00-04:00
 author = "marcus-lindqvist"

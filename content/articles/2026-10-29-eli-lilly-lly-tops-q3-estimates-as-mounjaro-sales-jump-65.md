@@ -1,6 +1,6 @@
 +++
 title = "Eli Lilly (LLY) Tops Q3 Estimates as Mounjaro Sales Jump 65%"
-dek = "Lilly's revenue rose 39% to $24.40 billion, beating the $22.61 billion expected, and it raised its 2026 sales forecast by $5.5 billion. The stock jumped 6.6% to a record close."
+dek = "Lilly's revenue rose 39% to $24.40 billion, beating the $22.61 billion expected, and it raised its 2026 sales forecast by $5.5 billion at the midpoint. The stock jumped 6.6% to a record close."
 type = "earnings-recap"
 published = 2026-10-29T16:15:00-04:00
 author = "claire-okafor"
@@ -21,7 +21,7 @@ sources = [
 ]
 +++
 
-Eli Lilly ($LLY) reported third-quarter revenue of $24.40 billion, up 39% year on year, beating the $22.61 billion analysts expected, according to LSEG data cited by Reuters and CNBC. Adjusted earnings of $7.48 a share topped the $6.26 estimate. The shares jumped 6.6% on Thursday to close at a record $1,373.70, after the results came out at 6:45 a.m. ET.
+Eli Lilly ($LLY) reported third-quarter revenue of $24.40 billion, up 39% year on year, beating the $22.61 billion analysts expected, according to LSEG data cited by Reuters. Adjusted earnings of $7.48 a share topped the $6.26 estimate. The shares jumped 6.6% on Thursday to close at a record $1,373.70, after the results came out at 6:45 a.m. ET.
 
 ```highlights
 Eli Lilly (LLY) Q3 2026 highlights
@@ -29,8 +29,8 @@ Eli Lilly (LLY) Q3 2026 highlights
 - **Adjusted EPS:** $7.48 vs analyst estimates of $6.26 (a 19% beat); GAAP EPS $7.22
 - **Mounjaro revenue:** $10.72 billion, up 65% year on year
 - **Zepbound revenue:** $5.35 billion, up 49% year on year
-- **2026 revenue guidance:** $91.0-92.0 billion, up from $85-87 billion
-- **2026 adjusted EPS guidance:** $35.00-36.00, down from $35.50-36.50 after deal charges
+- **2026 revenue guidance:** $91.0–92.0 billion, up from $85–87 billion
+- **2026 adjusted EPS guidance:** $35.00–36.00, down from $35.50–36.50 after deal charges
 - **Market value:** $1.29 trillion at Thursday's close
 ```
 
@@ -40,11 +40,11 @@ Lilly is selling far more of its weight-loss and diabetes drugs, even at lower p
 
 Growth outside the US was faster. International revenue rose 47% to $9.3 billion as volume rose 76%, while prices fell 29%, mainly because Mounjaro joined China's national list of drugs covered by public insurance. US revenue rose 34% to $15.1 billion.
 
-"Revenue growth was driven by broad global consumer demand for Mounjaro and Zepbound, the global launches of Foundayo, expanded U.S. coverage for obesity care and a doubling in our newest products in oncology, immunology and neuroscience," Chair and Chief Executive David Ricks said in the release. Foundayo, Lilly's new pill in the same class of drugs, was the weak spot: its $184 million of sales fell short of expectations, Reuters and CNBC reported. The quarter also included about $900 million of one-time benefits, mostly $410 million of milestone payments tied to Jardiance.
+"Revenue growth was driven by broad global consumer demand for Mounjaro and Zepbound, the global launches of Foundayo, expanded U.S. coverage for obesity care and a doubling in our newest products in oncology, immunology and neuroscience," Chair and Chief Executive David Ricks said in the release. Foundayo, Lilly's new pill in the same class of drugs, was the weak spot: its $184 million of sales fell short of the roughly $217 million analysts expected, Reuters reported. Revenue also included about $900 million of benefits, mainly $410 million of milestone payments tied to the diabetes drug Jardiance, the last Lilly expects to receive, and favorable changes to its estimates for rebates and discounts, the release said.
 
 ## The outlook
 
-Lilly raised its 2026 revenue forecast to $91.0 billion to $92.0 billion, $5.5 billion higher at the midpoint. Yahoo Finance and Reuters noted it was the third time this year the company has lifted its sales outlook.
+Lilly raised its 2026 revenue forecast to $91.0 billion to $92.0 billion, $5.5 billion higher at the midpoint. It was the third time this year Lilly has raised its revenue forecast, Yahoo Finance noted, a point Aptus Capital Advisors analyst David Wagner also made to Reuters.
 
 The profit forecast went the other way on paper. Lilly now expects adjusted earnings of $35.00 to $36.00 a share, down 50 cents, because it booked $4.57 a share of charges for research it bought through acquisitions, mainly AtaiBeckley and Curevo. Without those charges, Lilly said, its earnings forecast would have risen by $4.07 a share at the midpoint.
 

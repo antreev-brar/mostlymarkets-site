@@ -1,6 +1,6 @@
 +++
 title = "Microsoft (MSFT) Shares Give Back Their After-Hours Gain as Investors Weigh Spending"
-dek = "Microsoft closed down 0.2% at $530.14 on Thursday, erasing a 4% after-hours jump, as investors looked past its earnings beat to capex $5.5 billion below estimates."
+dek = "Microsoft closed down 0.2% at $530.14 on Thursday, erasing a 4% jump in Wednesday's after-hours trading, as investors looked past its earnings beat to capex $5.5 billion below estimates."
 type = "why-it-moved"
 published = 2026-10-29T16:15:00-04:00
 author = "marcus-lindqvist"
@@ -18,16 +18,17 @@ sources = [
   "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
   "https://www.tradingkey.com/news/transcripts/262249601-tradingkey",
   "https://www.xtb.com/en/market-analysis/us-open-alphabet-sends-nasdaq-plunging-strong-us-data-fails-to-rescue-wall-street",
+  "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
 ]
 +++
 
 ## What happened
 
-Shares of Microsoft ($MSFT), the software company behind Windows and the Azure cloud, slipped 0.2% on Thursday. That erased the 4% gain they had made in after-hours trading on Wednesday, when results beat estimates.
+Shares of Microsoft ($MSFT), the software company behind Windows and the Azure cloud, slipped 0.2% on Thursday. That erased the 4% gain they had made in after-hours trading on Wednesday evening, after results beat estimates.
 
-The stock opened at $540.22 and fell as low as $519.56 during the session. On Wednesday evening it had traded as high as $552.33, Investing.com reported. The shares closed at $530.14, down 0.2% from the previous close.
+The shares were up 4.0% at $552.22 at 5:53 p.m. ET on Wednesday, by our quote data, and touched $552.33 after hours, Investing.com reported. During Thursday's session they slipped below $530 and toward $520, FX Leaders reported. The shares closed at $530.14, down 0.2% from the previous close.
 
-The quarter itself was strong. Revenue rose 19% to $92.28 billion, ahead of the $90.69 billion LSEG estimate, and Azure grew 48% ([our recap](/news/2026-10-28/microsoft-msft-beats-q1-estimates-as-azure-growth-speeds-up-to-48/)). What changed overnight was the focus on spending. "The market liked the numbers but is still weighing the spending," Investing.com wrote.
+The quarter itself was strong. Revenue rose 19% to $92.28 billion, ahead of the $90.69 billion analysts expected, SiliconANGLE reported, and Azure grew 48% ([our recap](/news/2026-10-28/microsoft-msft-beats-q1-estimates-as-azure-growth-speeds-up-to-48/)). What changed overnight was the focus on spending: "The market liked the numbers but is still weighing the spending," Investing.com wrote.
 
 ## Why it matters
 
@@ -35,11 +36,11 @@ Microsoft spent $45.2 billion on data centers and equipment in the quarter, incl
 
 Less capacity now can mean less cloud revenue later, because Microsoft says demand already exceeds what it can supply. Scotiabank was less worried: it said the capacity shifts into the second half of Microsoft's fiscal year and raised its price target to $650, according to Investing.com.
 
-The market didn't help. Alphabet ($GOOGL), whose shares fell 12.6% after its own results, pulled the Nasdaq Composite down 1.4%, Investing.com reported, and XTB said Alphabet sent the Nasdaq lower from the open.
+The market didn't help. The Nasdaq Composite fell 1.4% as technology and communication services stocks slid, Investing.com reported, with Alphabet ($GOOGL), which plunged 12.6% after its own results, the biggest drag on communication services. XTB said Alphabet sent the Nasdaq lower from the open.
 
 ## What the market is telling us
 
-Microsoft's shares moved 5% or more on 4 of the last 252 sessions. The last move at least this big in the same direction was on 27 October 2026, when the stock fell 0.2%. The stock is up 9.6% this year, and at $530.14 it sits 2.5% below its 52-week closing high of $543.45 from 13 October 2026. $1,000 invested in Microsoft five years ago would be worth $1,599 today.
+Microsoft's shares moved 5% or more on 4 of the last 252 sessions. The stock is up 9.6% this year, and at $530.14 it sits 2.5% below its 52-week closing high of $543.45 from 13 October 2026. $1,000 invested in Microsoft five years ago would be worth $1,599 today.
 
 We don't read Thursday as a verdict on the quarter. The stock had already risen 30% in six months, by our price files, and a flat close after a beat says investors want to see the delayed capacity arrive before paying more.
 

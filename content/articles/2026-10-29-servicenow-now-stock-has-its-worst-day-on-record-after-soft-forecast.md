@@ -23,15 +23,17 @@ sources = [
 
 ## What happened
 
-Shares of ServiceNow ($NOW), whose software runs IT, HR and customer-service work inside big companies, plunged 27.0% on Thursday after a forecast showed its sales pipeline growing more slowly. Yahoo Finance called it the stock's worst day ever, and Bloomberg said it was the biggest intraday drop since the company listed in 2012, The Next Web reported.
+Shares of ServiceNow ($NOW), whose software runs IT, HR and customer-service work inside big companies, plunged 27.0% on Thursday after it forecast slower growth in its contracted future revenue. Yahoo Finance called it the stock's worst day ever, and The Next Web reported that Bloomberg called it the biggest intraday drop since the company listed in 2012.
 
-The measure that mattered is cRPO, the contracted revenue ServiceNow expects to book over the next 12 months. It grew 21% in the third quarter, adjusting for currency, but the company forecast 18.5% growth for the fourth. Analysts had expected 19% to 19.4%, according to figures cited by Bloomberg and Yahoo Finance. Adjusted earnings of $1.00 a share also missed the $1.02 analysts expected, according to LSEG, even as revenue rose 20.5% to $4.11 billion.
+The measure that mattered is cRPO, the contracted revenue ServiceNow expects to recognize over the next 12 months. It grew 21% in the third quarter, adjusting for currency, but the company forecast 18.5% growth for the fourth. Analysts had expected about 19%, according to Bloomberg data cited by The Next Web; Yahoo Finance put the estimate at 19.4%.
+
+Adjusted earnings of $1.00 a share also missed the $1.02 analysts expected, according to LSEG, even as revenue rose 20.5% to $4.11 billion.
 
 On the call, President and Chief Financial Officer Gina Mastantuono said some renewals came early, in the third quarter instead of the fourth. "cRPO is a very nuanced accounting metric, and it does not necessarily capture all of the momentum in the business," she said. The shares closed at $109.67, down 27.0% from the previous close.
 
 ## Why it matters
 
-Much business software is sold by the seat, a price for each employee who uses it. Investors worry that AI agents will mean companies need fewer seats, a fear CNBC and Yahoo Finance have dubbed the "SaaSpocalypse." That made a slowdown in future bookings, however technical the reason, the one number nobody wanted to see.
+Investors have worried that AI will upend the business models of traditional software companies, a fear nicknamed the "SaaSpocalypse." CNBC said ServiceNow's results did little to ease it, The Next Web reported. That made a slowdown in future bookings, however technical the reason, the one number nobody wanted to see.
 
 The AI business itself is growing. ServiceNow raised its target for new annual AI contract value in 2026 to $1.7 billion, from $1.5 billion a quarter ago, and raised its full-year subscription revenue forecast. Analysts trimmed their price targets anyway: UBS cut its target to $140 from $150, MarketBeat and Rallies reported.
 
