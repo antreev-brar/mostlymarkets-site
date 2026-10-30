@@ -85,6 +85,11 @@
 "day": "2026-10-30",
 "kind": "movers"
 },
+"movers-week-2026-10-30": {
+"created": "2026-10-30T18:48:32-04:00",
+"day": "2026-10-30",
+"kind": "movers"
+},
 "recap-AJG-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
@@ -236,5 +241,10 @@
 "day": "2026-10-29",
 "kind": "market-wrap",
 "outcome": "already-written"
+},
+"wrap-2026-10-30": {
+"created": "2026-10-30T18:48:32-04:00",
+"day": "2026-10-30",
+"kind": "market-wrap"
 }
 }

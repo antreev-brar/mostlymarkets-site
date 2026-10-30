@@ -1,0 +1,89 @@
+{
+ "id": "movers-week-2026-10-30",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 50,
+ "created": "2026-10-30T18:48:32-04:00",
+ "expires": "2026-10-30T23:59:00-04:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves This Week",
+ "instructions": "The week's five biggest moves, Monday open to Friday close.",
+ "quotes_asof": "2026-10-30T18:43:18-04:00",
+ "pack": {
+  "week_ending": "2026-10-30",
+  "moves": [
+   {
+    "ticker": "RDDT",
+    "name": "Reddit",
+    "close": 91.73,
+    "change_pct": -36.41
+   },
+   {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "close": 105.12,
+    "change_pct": -33.87
+   },
+   {
+    "ticker": "FFIV",
+    "name": "F5",
+    "close": 338.34,
+    "change_pct": -25.71
+   },
+   {
+    "ticker": "FTNT",
+    "name": "Fortinet",
+    "close": 136.08,
+    "change_pct": -24.4
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "close": 65.76,
+    "change_pct": -24.38
+   },
+   {
+    "ticker": "NU",
+    "name": "Nu Holdings",
+    "close": 11.61,
+    "change_pct": -23.42
+   },
+   {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "close": 205.03,
+    "change_pct": -21.68
+   },
+   {
+    "ticker": "PNR",
+    "name": "Pentair",
+    "close": 66.26,
+    "change_pct": 19.82
+   },
+   {
+    "ticker": "VRT",
+    "name": "Vertiv",
+    "close": 232.5,
+    "change_pct": 19.65
+   },
+   {
+    "ticker": "CVNA",
+    "name": "Carvana",
+    "close": 68.29,
+    "change_pct": 18.13
+   },
+   {
+    "ticker": "GEN",
+    "name": "Gen Digital",
+    "close": 29.13,
+    "change_pct": 17.08
+   },
+   {
+    "ticker": "GPN",
+    "name": "Global Payments",
+    "close": 96.84,
+    "change_pct": 16.93
+   }
+  ]
+ }
+}
