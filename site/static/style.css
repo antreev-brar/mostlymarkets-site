@@ -344,6 +344,7 @@ a.pc:hover { background: var(--rule); }
 .sh2 + p.lede { color: var(--ink-3); font-size: 14px; margin: 0 0 6px; }
 .fundgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
 .fundgrid .chart { margin: 14px 0; }
+.fundgrid .cv.d { display: none; } .fundgrid .cv.m { display: block; }
 .cmp td:first-child { color: var(--ink-2); }
 .verdicts { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }
 .verdicts li { display: flex; gap: 10px; align-items: flex-start; font-size: 14.5px; line-height: 1.45; }

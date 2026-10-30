@@ -27,7 +27,7 @@ DIST = ROOT / "dist"
 sys.path.insert(0, str(ROOT / "pipeline"))
 sys.path.insert(0, str(SITE))
 import charts as C  # noqa: E402
-from marketdata import read_prices  # noqa: E402
+from marketdata import quote_time, read_prices  # noqa: E402
 from md import Renderer  # noqa: E402
 
 ET = ZoneInfo("America/New_York")
@@ -760,7 +760,7 @@ def stock_page(t: str) -> str:
         chg = (bars[-1]["close"] / bars[-2]["close"] - 1) * 100
     asof = ""
     if q.get("time"):
-        qt = dt.datetime.fromisoformat(q["time"].replace("-0400", "-04:00").replace("-0500", "-05:00")).astimezone(ET)
+        qt = quote_time(q)
         asof = (f"At the close, {qt.day} {MON[qt.month - 1]}" if qt.time() >= dt.time(16, 0) else f"As of {when(qt)}") + " · Prices from CNBC, may be delayed"
     elif bars:
         asof = f"At the close, {C.human(bars[-1]['date'])}"
@@ -1083,7 +1083,7 @@ def feeds():
         ext = q.get("ext") or {}
         lab = ""
         if q.get("time"):
-            qt = dt.datetime.fromisoformat(q["time"].replace("-0400", "-04:00").replace("-0500", "-05:00")).astimezone(ET)
+            qt = quote_time(q)
             lab = f"At the close, {qt.day} {MON[qt.month - 1]}" if qt.time() >= dt.time(16, 0) else f"As of {when(qt)}"
         qd[t] = [q.get("price"), q.get("change_pct"), ext.get("price"), ext.get("change_pct"), lab,
                  "After hours" if ext.get("session") == "POST_MKT" else "Before the open"]

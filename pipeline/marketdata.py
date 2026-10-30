@@ -12,6 +12,7 @@ import csv
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -95,6 +96,18 @@ def price_path(t: str) -> Path:
 
 
 _QUOTES = None
+
+
+def quote_time(q: dict) -> dt.datetime | None:
+    """A quote's time in New York. CNBC sends a bare date before the open; that means that day's close."""
+    t = (q or {}).get("time")
+    if not t:
+        return None
+    if len(t) == 10:
+        return dt.datetime.combine(dt.date.fromisoformat(t), dt.time(16, 0), tzinfo=ET)
+    t = re.sub(r"([+-]\d\d)(\d\d)$", r"\1:\2", t)
+    d = dt.datetime.fromisoformat(t)
+    return (d if d.tzinfo else d.replace(tzinfo=ET)).astimezone(ET)
 _ADJ = DATA / "universe" / "adjustments.json"
 ADJUSTMENTS = json.loads(_ADJ.read_text()) if _ADJ.exists() else {}
 
@@ -126,8 +139,7 @@ def read_prices(t: str, with_today: bool = True) -> list[dict]:
     if with_today and bars:
         q = latest_quotes()["quotes"].get(t)
         if q and q.get("time") and q.get("price"):
-            qt = dt.datetime.fromisoformat(q["time"].replace("-0400", "-04:00").replace("-0500", "-05:00"))
-            qd = qt.astimezone(ET)
+            qd = quote_time(q)
             closed = qd.time() >= dt.time(16, 0) or (q.get("status") or "").upper() in ("POST_MKT", "CLOSED")
             if qd.date().isoformat() > bars[-1]["date"] and closed and q.get("prev_close"):
                 if abs(q["prev_close"] / bars[-1]["close"] - 1) < 0.002:  # the quote follows our last bar

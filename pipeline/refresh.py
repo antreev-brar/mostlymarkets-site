@@ -69,7 +69,16 @@ def main() -> None:
     if cal_missing or (now.hour in (6, 12, 17, 20) and now.minute < 15) or not done_today("calendar"):
         run(["pipeline/marketdata.py", "calendar", "--days", "14"])
         mark("calendar")
-    if now.hour >= 18 and not done_today("history") and now.weekday() < 5:
+    stale = False
+    try:
+        bars = md.read_prices("AAPL", with_today=False)
+        prev = now.date() - dt.timedelta(days=1)
+        while prev.weekday() >= 5:
+            prev -= dt.timedelta(days=1)
+        stale = bool(bars) and bars[-1]["date"] < prev.isoformat() and now.hour >= 6
+    except Exception:  # noqa: BLE001
+        pass
+    if (stale or (now.hour >= 18 and now.weekday() < 5)) and not done_today("history"):
         run(["pipeline/marketdata.py", "history"])
         mark("history")
     if now.hour >= 5 and not done_today("fundamentals") and (md.ROOT / "pipeline/fundamentals.py").exists():
