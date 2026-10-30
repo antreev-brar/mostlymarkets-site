@@ -121,5 +121,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-10-30T16:55:07-04:00",
+ "reason": "covered by the semiconductor basket story content/articles/2026-10-30-amd-arm-and-qualcomm-shares-slide-what-happened.md"
 }
