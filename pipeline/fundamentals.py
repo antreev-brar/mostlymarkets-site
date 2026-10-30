@@ -19,14 +19,35 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import math
 import sys
 import threading
 import time
 from collections import Counter, defaultdict
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+_HERE = Path(__file__).resolve().parent
+
+
+def _stdlib_queue() -> None:
+    """pipeline/storyqueue.py (the story queue) shadows the standard library's queue module, which ThreadPoolExecutor
+    imports, whenever this directory is on sys.path (it is sys.path[0] when a script here is run)."""
+    q = sys.modules.get("queue")
+    if q is not None and hasattr(q, "SimpleQueue"):
+        return
+    saved = sys.path[:]
+    sys.path[:] = [p for p in saved if Path(p or ".").resolve() != _HERE]
+    try:
+        sys.modules.pop("queue", None)
+        import queue  # noqa: F401  - the standard library's, now that pipeline/ is off the path
+    finally:
+        sys.path[:] = saved
+
+
+_stdlib_queue()
+from concurrent.futures import ThreadPoolExecutor  # noqa: E402
+
+sys.path.insert(0, str(_HERE))
 from marketdata import DATA, now_et, sec_get_json, universe  # noqa: E402
 
 OUT = DATA / "fundamentals"
@@ -80,9 +101,12 @@ GAAP = {
     "cash": ["CashAndCashEquivalentsAtCarryingValue", "Cash",
              "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents", "CashAndDueFromBanks"],
     "equity": ["StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"],
-    "debt_total": ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount"],
-    "debt_noncurrent": ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations"],
-    "debt_current_ltd": ["LongTermDebtCurrent", "LongTermDebtAndCapitalLeaseObligationsCurrent"],
+    "debt_total": ["LongTermDebt", "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+                   "DebtLongtermAndShorttermCombinedAmount", "DebtInstrumentCarryingAmount"],
+    "debt_noncurrent": ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations", "LongTermNotesPayable",
+                        "SeniorLongTermNotes", "ConvertibleDebtNoncurrent", "ConvertibleNotesPayable"],
+    "debt_current_ltd": ["LongTermDebtCurrent", "LongTermDebtAndCapitalLeaseObligationsCurrent",
+                         "ConvertibleDebtCurrent", "ConvertibleNotesPayableCurrent"],
     "debt_current": ["DebtCurrent"],
     "debt_short": ["ShortTermBorrowings", "CommercialPaper", "OtherShortTermBorrowings"],
     "shares_out_bs": ["CommonStockSharesOutstanding"],
@@ -116,16 +140,20 @@ IFRS = {
 }
 TAXONOMY = {"us-gaap": GAAP, "ifrs-full": IFRS}
 
-# Durations (end minus start, in days) of a period covering 1-4 fiscal quarters. A 3-month value is 80-100 days;
-# a year-to-date period that starts on the first day of the fiscal year may run 120 days for one quarter, since
-# some retailers (Kroger, Cava) have a 16-week first quarter.
+# Durations (end minus start, in days) of a period covering 1-4 fiscal quarters. A 3-month value is 80-100 days.
+# Year-to-date periods (which start on the first day of the fiscal year) are allowed more slack, since some
+# retailers have uneven quarters: Kroger and Cava a 16-week first quarter, Costco 12-12-12-16 weeks.
 SPAN = {1: (80, 100), 2: (170, 200), 3: (260, 290), 4: (350, 380)}
-SPAN_YTD = {**SPAN, 1: (80, 120)}
+SPAN_YTD = {1: (80, 120), 2: (155, 205), 3: (245, 295), 4: (350, 380)}
 QDAYS = 91.31
 
 
 def _d(s: str | None) -> dt.date | None:
     return dt.date.fromisoformat(s) if s else None
+
+
+def _shift(day: str, days: int) -> str:
+    return (dt.date.fromisoformat(day) + dt.timedelta(days=days)).isoformat()
 
 
 _NICE = sorted({1.25, 1.5, 2, 2.5, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25, 30, 40, 50, 100}
@@ -180,15 +208,23 @@ def fetch_companyfacts(cik: str) -> dict:
 class Rec:
     """One reporting period of one tag: the latest-filed value plus who first reported the period."""
     __slots__ = ("s", "e", "val", "filed", "form", "tag", "accn",
-                 "first_filed", "first_form", "first_fy", "first_fp", "first_accn")
+                 "first_filed", "first_form", "first_fy", "first_fp", "first_accn", "restated")
 
     def __init__(self, s, e, val, filed, form, tag, accn, fy, fp):
         self.s, self.e, self.val, self.filed, self.form, self.tag, self.accn = s, e, val, filed, form, tag, accn
         self.first_filed, self.first_form, self.first_fy, self.first_fp, self.first_accn = filed, form, fy, fp, accn
+        self.restated = False  # some filing reported a materially different value for the same period
 
     @property
     def days(self) -> int | None:
         return (self.e - self.s).days if self.s else None
+
+
+def _rank(s, e, form: str, filed: str, accn: str) -> tuple:
+    """Which of two filings' values for one period wins: the latest filed, except that an interim report never
+    displaces an annual report's figure for a full-year period."""
+    interim_year = bool(s) and (e - s).days >= SPAN[4][0] and form.startswith(("10-Q", "6-K"))
+    return (not interim_year, filed, accn)
 
 
 class Facts:
@@ -241,7 +277,28 @@ class Facts:
                     break
             else:
                 events.append({"lo": f1, "hi": f2, "n": n, "count": 1, "shares": int(is_shares)})
-        self.splits = sorted((e["lo"], e["hi"], e["n"]) for e in events if e["count"] >= 2 and e["shares"])
+        events = [e for e in events if e["count"] >= 2 and e["shares"]]
+        # Filings between the last restated-before and first restated-after dates (a quarter not yet restated)
+        # are placed by their share counts: nearer the old level means filed before the split.
+        for ev in events:
+            pre, post, mid = [], [], []
+            for tag in share_tags:
+                for f in self.units(tax, tag).get("shares", []):
+                    v, filed = _num(f.get("val")), f.get("filed") or ""
+                    if not v or v <= 0 or not f.get("start"):
+                        continue
+                    if filed <= ev["lo"] and filed >= _shift(ev["lo"], -400):
+                        pre.append(v)
+                    elif filed >= ev["hi"] and filed <= _shift(ev["hi"], 400):
+                        post.append(v)
+                    elif ev["lo"] < filed < ev["hi"]:
+                        mid.append((filed, v))
+            if pre and post:
+                a, b = sorted(pre)[len(pre) // 2], sorted(post)[len(post) // 2]
+                for filed, v in mid:
+                    if abs(math.log(v / a)) < abs(math.log(v / b)):
+                        ev["lo"] = max(ev["lo"], filed)
+        self.splits = sorted((e["lo"], e["hi"], e["n"]) for e in events)
         self._split_units = {f"{cur}/shares", "shares"}
         self._cache.clear()
 
@@ -283,7 +340,12 @@ class Facts:
             if r is None:
                 out[k] = Rec(s, e, val, filed, f.get("form") or "", tag, f.get("accn") or "", f.get("fy"), f.get("fp"))
                 continue
-            if (filed, f.get("accn") or "") > (r.filed, r.accn):
+            if abs(val - r.val) > 0.01 * max(abs(val), abs(r.val)):
+                r.restated = True
+            # A 10-Q has no business reporting a full fiscal year; when one does (Comfort Systems' Q1 2026 10-Q
+            # tags Q1 revenue with a full-year context), the annual report's value stands.
+            if (_rank(s, e, f.get("form") or "", filed, f.get("accn") or "")
+                    > _rank(s, e, r.form, r.filed, r.accn)):
                 r.val, r.filed, r.form, r.accn = val, filed, f.get("form") or "", f.get("accn") or ""
             if (filed, f.get("accn") or "") < (r.first_filed, r.first_accn):
                 r.first_filed, r.first_form, r.first_fy, r.first_fp = filed, f.get("form") or "", f.get("fy"), f.get("fp")
@@ -305,6 +367,7 @@ class Facts:
                     r = Rec(ra.s, ra.e, ra.val + rb.val, max(ra.filed, rb.filed), ra.form, f"{a}+{b}", ra.accn,
                             ra.first_fy, ra.first_fp)
                     r.first_filed, r.first_form, r.first_accn = ra.first_filed, ra.first_form, ra.first_accn
+                    r.restated = ra.restated or rb.restated
                     out[k] = r
             else:
                 for k, r in self.periods(tax, src, unit).items():
@@ -315,13 +378,17 @@ class Facts:
 # ------------------------------------------------------------------ fiscal calendar
 
 class FY:
-    __slots__ = ("start", "end", "num", "known")
+    """A fiscal year. Quarters are numbered from `anchor`, which is the start except in the short transition
+    period of a company that moved its year end (FedEx's June-December 2026 counts quarters from 1 January)."""
+    __slots__ = ("start", "end", "num", "known", "anchor", "transition")
 
-    def __init__(self, start: dt.date, end: dt.date, known: bool):
+    def __init__(self, start: dt.date, end: dt.date, known: bool, anchor: dt.date | None = None,
+                 transition: bool = False):
         self.start, self.end, self.known, self.num = start, end, known, None
+        self.anchor, self.transition = anchor or start, transition
 
     def __repr__(self):
-        return f"FY{self.num}({self.start}..{self.end}{'' if self.known else '?'})"
+        return f"FY{self.num}({self.start}..{self.end}{'' if self.known else '?'}{'T' if self.transition else ''})"
 
 
 def _add_year(d: dt.date, n: int = 1) -> dt.date:
@@ -331,14 +398,31 @@ def _add_year(d: dt.date, n: int = 1) -> dt.date:
         return d.replace(year=d.year + n, day=28)
 
 
+def _month_end(d: dt.date, months: int) -> dt.date:
+    """Last day of the month `months` after d's month."""
+    y, m = divmod(d.month - 1 + months + 1, 12)  # first day of the month after the target month
+    return dt.date(d.year + y, m + 1, 1) - dt.timedelta(days=1)
+
+
 def _label_year(fy_end: dt.date) -> int:
     # A year ending on 2 January belongs with the one ending on 31 December.
     return (fy_end - dt.timedelta(days=15)).year
 
 
+MISALIGNED = 0.28  # a period end this far (in quarters) from a fiscal-quarter end belongs to another calendar
+
+
 class Calendar:
     def __init__(self, years: list[FY]):
         self.years = years
+
+    @staticmethod
+    def _extend(years: list[FY], limit: dt.date) -> None:
+        while years[-1].end < limit:
+            last = years[-1]
+            length = (last.end - last.anchor).days
+            end = _add_year(last.end) if 360 <= length <= 366 else last.end + dt.timedelta(days=364)
+            years.append(FY(last.end + dt.timedelta(days=1), end, False))
 
     @classmethod
     def build(cls, maps: list[dict[tuple, Rec]], latest: dt.date | None) -> "Calendar":
@@ -377,41 +461,70 @@ class Calendar:
             first = years[0]
             years.insert(0, FY(_add_year(first.start, -1), first.start - dt.timedelta(days=1), False))
         limit = (latest or years[-1].end) + dt.timedelta(days=200)
-        while years[-1].end < limit:
-            last = years[-1]
-            length = (last.end - last.start).days
-            end = _add_year(last.end) if 360 <= length <= 366 else last.end + dt.timedelta(days=364)
-            years.append(FY(last.end + dt.timedelta(days=1), end, False))
-        return cls(years)
+        cls._extend(years, limit)
+        cal = cls(years)
 
-    def locate(self, e: dt.date) -> tuple[int, int] | None:
-        """(year index, quarter 1-4) for a period ending on e."""
+        # A changed fiscal year end: 3-month periods after the last annual report that don't line up with the
+        # old calendar. The latest one's own filing says which quarter it is (fp), which fixes the new year end.
+        known = [y for y in years if y.known]
+        if known:
+            last = known[-1]
+            odd = []
+            for m in maps:
+                for (s, e), r in m.items():
+                    if s is None or e <= last.end or not (SPAN[1][0] <= (e - s).days <= SPAN[1][1]):
+                        continue
+                    loc = cal.locate(e)
+                    if loc is None or loc[2] > MISALIGNED:
+                        odd.append(r)
+            k = None
+            if odd:
+                r = max(odd, key=lambda r: (r.e, r.first_filed))
+                k = {"Q1": 1, "Q2": 2, "Q3": 3}.get(r.first_fp or "")
+            if k:
+                new_end = _month_end(r.e, (4 - k) * 3)
+                anchor = _add_year(new_end, -1) + dt.timedelta(days=1)
+                t_start = last.end + dt.timedelta(days=1)
+                years = [y for y in years if y.end <= last.end]
+                if anchor > t_start + dt.timedelta(days=20):
+                    years.append(FY(t_start, anchor - dt.timedelta(days=1), False, transition=True))
+                    years.append(FY(anchor, new_end, False))
+                else:
+                    years.append(FY(t_start, new_end, False, anchor=anchor))
+                cls._extend(years, limit)
+                cal = cls(years)
+        return cal
+
+    def locate(self, e: dt.date) -> tuple[int, int, float] | None:
+        """(year index, quarter 1-4, misalignment in quarters) for a period ending on e."""
         best = None
         for i, y in enumerate(self.years):
-            x = ((e - y.start).days + 1) / QDAYS
+            if e < y.start + dt.timedelta(days=25) or e > y.end + dt.timedelta(days=20):
+                continue
+            x = ((e - y.anchor).days + 1) / QDAYS
             if 0.5 <= x <= 4.6:
                 k = min(4, max(1, round(x)))
                 err = abs(x - k)
                 if best is None or err < best[0]:
                     best = (err, i, k)
-        return (best[1], best[2]) if best else None
+        return (best[1], best[2], best[0]) if best else None
 
     def number(self, filings: dict[str, tuple]) -> None:
         """Name each fiscal year (fy) from the fy the filings themselves report, using the most common offset
         among the latest 16 filings (some filers changed convention years ago; a few report a stale fy now
-        and then, which the majority outvotes)."""
+        and then, which the majority outvotes). A transition period takes the number after the year before it."""
         votes: Counter = Counter()
         recent = sorted(filings.items(), key=lambda kv: kv[1][2])[-16:]
         for accn, (fy, end, _filed) in recent:
             if not isinstance(fy, int):
                 continue
             loc = self.locate(end)
-            if loc is None:
+            if loc is None or loc[2] > MISALIGNED:
                 continue
             votes[fy - _label_year(self.years[loc[0]].end)] += 1
         off = votes.most_common(1)[0][0] if votes else 0
-        for y in self.years:
-            y.num = _label_year(y.end) + off
+        for i, y in enumerate(self.years):
+            y.num = self.years[i - 1].num + 1 if (y.transition and i) else _label_year(y.end) + off
 
 
 # ------------------------------------------------------------------ building one company
@@ -440,7 +553,6 @@ class Builder:
         self.tax = self._pick_taxonomy()
         self.T = TAXONOMY[self.tax]
         self.cur = self._pick_currency()
-        self.notes: list[str] = []
 
     # -- which taxonomy and currency
 
@@ -531,9 +643,10 @@ class Builder:
                 continue
             d = (e - s).days
             loc = cal.locate(e)
-            if loc is None:
+            if loc is None or loc[2] > MISALIGNED:
                 continue
-            i, k = loc
+            i, k, _ = loc
+            loc = (i, k)
             if SPAN[1][0] <= d <= SPAN[1][1]:
                 old = q3.get(loc)
                 if old is None or r.filed > old.filed:
@@ -610,6 +723,18 @@ class Builder:
 
         slots: dict[str, tuple] = {k: self.slotify(cal, m) for k, m in maps.items()}
 
+        # A 3-month fourth quarter tagged with the full year's value (L3Harris's 10-K does this) is a tagging
+        # error: drop it, and the quarter is derived as full year minus nine months like everyone else's.
+        # Likewise a fourth-quarter revenue larger than the first nine months put together.
+        for name, (q3, cum) in slots.items():
+            for (i, k), r in list(q3.items()):
+                y, c3 = cum.get((i, 4)), cum.get((i, 3))
+                if k != 4 or c3 is None:
+                    continue
+                if ((y is not None and abs(r.val - y.val) <= 0.001 * abs(y.val) and abs(c3.val) > 0.01 * abs(y.val))
+                        or (name == "revenue" and c3.val > 0 and r.val > c3.val)):
+                    del q3[(i, k)]
+
         # ---- quarters
         n_years = len(cal.years)
         qvals: dict[tuple, dict] = {}
@@ -623,13 +748,31 @@ class Builder:
                     continue
                 qvals[(i, q)] = row
 
+        # When a year was restated (discontinued operations), the 10-K's full year can be on the new basis while
+        # the 9-month figure is still the old one, and full year minus nine months is meaningless. If any of the
+        # year's revenue figures was restated and the derived Q4 is far from the year's other quarters, Q4's
+        # continuing-operations lines (revenue, gross profit, operating income) are left unknown.
+        rq3, rcum = slots["revenue"]
+        for (i, q), row in qvals.items():
+            v, derived = row["revenue"]
+            if q != 4 or not derived or v is None:
+                continue
+            recs = [r for r in [rq3.get((i, j)) for j in (1, 2, 3)] + [rcum.get((i, j)) for j in (2, 3, 4)] if r]
+            others = [qvals.get((i, j), {}).get("revenue", (None, False))[0] for j in (1, 2, 3)]
+            if any(r.restated for r in recs) and all(o and o > 0 for o in others):
+                mean = sum(others) / 3
+                if not 0.4 * mean <= v <= 2.5 * mean:
+                    for k in ("revenue", "gross_profit", "operating_income"):
+                        row[k] = (None, False)
+
         # Q4 share counts and EPS are not additive, so they are rebuilt rather than subtracted.
         #   Shares: a year's weighted average is (in practice) the mean of its quarters' averages, so
         #   Q4 = 4 x year - (Q1 + Q2 + Q3); with uneven quarters (a 16-week Q1) the mean is day-weighted. In a loss
         #   quarter diluted shares equal basic shares, so basic counts are used.
         #   EPS: Q4 earnings for common holders over those Q4 shares. Full-year EPS minus Q1-Q3 EPS is the
-        #   fallback: tested on ~3,700 fiscal years whose 10-K printed Q4 EPS, the rebuild hits the cent 71% of
-        #   the time (89% within a cent) against 44% (77%) for the subtraction.
+        #   fallback, also used when the rebuild is more than 25% away from it. Tested on ~3,700 fiscal years whose
+        #   10-K printed Q4 EPS, this hits the cent 70% of the time (89% within a cent) against 44% (77%) for
+        #   the subtraction alone.
         q3e, cume = slots["eps_diluted"]
         numer = slots["eps_numerator"] = self.slotify(cal, f.merged(self.tax, self.T["eps_numerator"], self.cur))
         basic = self.slotify(cal, f.merged(self.tax, self.T["shares_basic"], "shares"))
@@ -648,15 +791,47 @@ class Builder:
                 v = ((yr.e - edges[0]).days * yr.val - sum(d * p.val for d, p in zip(days, parts))) / days[3]
             else:
                 v = 4 * yr.val - sum(p.val for p in parts)
-            return v if 0.8 * yr.val <= v <= 1.25 * yr.val else None
+            return v if 0.8 * yr.val <= v <= 1.25 * yr.val and plausible(v) else None
+
+        def numerator(i, q, row):
+            n = self.quarter_values(*numer, i)[q][0]
+            return row["net_income"][0] if n is None else n
+
+        # Share counts must be on the right scale: a few filers tag them without it (McDonald's in millions,
+        # Tempus in thousands). A quarter's count more than 2.5x away from the cover page's latest count is
+        # dropped; without a cover-page count, the counts must agree with the reported EPS.
+        dei = f.periods("dei", "EntityCommonStockSharesOutstanding", "shares")
+        ref = dei[max(dei, key=lambda k: (k[1], dei[k].filed))].val if dei else None
+
+        def plausible(v):
+            return bool(v) and (ref is None or 0.4 * ref <= v <= 2.5 * ref)
+        for row in qvals.values():
+            if row["shares_diluted"][0] and not plausible(row["shares_diluted"][0]):
+                row["shares_diluted"] = (None, False)
+        ratios = sorted(numerator(i, q, row) / row["shares_diluted"][0] / row["eps_diluted"][0]
+                        for (i, q), row in qvals.items()
+                        if row["shares_diluted"][0] and row["eps_diluted"][0] and not row["eps_diluted"][1]
+                        and abs(row["eps_diluted"][0]) >= 0.05 and numerator(i, q, row))
+        shares_ok = not ratios or 0.5 <= ratios[len(ratios) // 2] <= 2
+        if not shares_ok:
+            for row in qvals.values():
+                row["shares_diluted"] = (None, False)
+        else:
+            # ...and with the shares trusted, a reported EPS a world away from earnings / shares is a scale slip
+            # in the EPS tag (Bloom Energy's Q3 2024: -60.0 for -$0.07).
+            for (i, q), row in qvals.items():
+                e, sh = row["eps_diluted"][0], row["shares_diluted"][0]
+                n = numerator(i, q, row)
+                if e is not None and sh and n is not None:
+                    implied = n / sh
+                    if abs(e - implied) > 0.10 and not (1 / 3 <= (e / implied if implied else 0) <= 3):
+                        row["eps_diluted"] = (implied, True)
 
         for (i, q), row in qvals.items():
             if q != 4:
                 continue
-            n4 = self.quarter_values(*numer, i)[4][0]
-            if n4 is None:
-                n4 = row["net_income"][0]
-            if (i, 4) not in slots["shares_diluted"][0]:
+            n4 = numerator(i, 4, row)
+            if (i, 4) not in slots["shares_diluted"][0] and shares_ok:
                 sh = q4_shares(i, basic) if n4 is not None and n4 < 0 else None
                 if sh is None:
                     sh = q4_shares(i, slots["shares_diluted"])
@@ -664,19 +839,20 @@ class Builder:
             if (i, 4) in q3e:
                 continue
             sh = row["shares_diluted"][0]
-            if sh and n4 is not None:
-                row["eps_diluted"] = (n4 / sh, True)
-            elif (i, 4) in cume and all((i, j) in q3e for j in (1, 2, 3)):
-                row["eps_diluted"] = (cume[(i, 4)].val - sum(q3e[(i, j)].val for j in (1, 2, 3)), True)
-            else:
-                row["eps_diluted"] = (None, False)
+            by_ni = n4 / sh if sh and n4 is not None else None
+            by_diff = None
+            if (i, 4) in cume and all(qvals.get((i, j), {}).get("eps_diluted", (None,))[0] is not None
+                                      for j in (1, 2, 3)):
+                by_diff = cume[(i, 4)].val - sum(qvals[(i, j)]["eps_diluted"][0] for j in (1, 2, 3))
+            if by_ni is not None and (by_diff is None or abs(by_ni - by_diff) <= 0.05 + 0.25 * abs(by_diff)):
+                row["eps_diluted"] = (by_ni, True)
+            else:  # no rebuild, or one far off (earnings for common holders aren't net income): subtract
+                row["eps_diluted"] = (by_diff, by_diff is not None)
         # Some filers' EPS reaches companyfacts only with a share-class dimension (so not at all here). Where a
         # quarter has diluted shares but no EPS, EPS is earnings for common holders over diluted shares.
         for (i, q), row in qvals.items():
             if row["eps_diluted"][0] is None and row["shares_diluted"][0]:
-                n = self.quarter_values(*numer, i)[q][0]
-                if n is None:
-                    n = row["net_income"][0]
+                n = numerator(i, q, row)
                 if n is not None:
                     row["eps_diluted"] = (n / row["shares_diluted"][0], True)
 
@@ -721,22 +897,28 @@ class Builder:
                 "capex": _round(capex),
                 "fcf": _round(ocf - capex) if ocf is not None and capex is not None else None,
                 "shares_diluted": _round(row["shares_diluted"][0]),
-                "_gi": y.num * 4 + q - 1,
             })
+        rows.sort(key=lambda r: r["end"])
         if rows:
             # The window ends at the latest quarter or the latest fiscal year, whichever is later, so a foreign
             # filer whose quarterly XBRL stopped years ago doesn't show those old quarters as current.
-            last_year = max((i for i in range(n_years) if (i, 4) in slots["revenue"][1] or (i, 4) in slots["net_income"][1]),
-                            default=None)
-            last_gi = rows[-1]["_gi"]
-            if last_year is not None:
-                last_gi = max(last_gi, cal.years[last_year].num * 4 + 3)
-            rows = [r for r in rows if r["_gi"] > last_gi - N_QUARTERS]
+            last_end = dt.date.fromisoformat(rows[-1]["end"])
+            for i in range(n_years):
+                for k in ("revenue", "net_income"):
+                    r = slots[k][1].get((i, 4))
+                    if r is not None and r.e > last_end:
+                        last_end = r.e
+            cutoff = (last_end - dt.timedelta(days=1046)).isoformat()  # 12 quarter ends span 11 gaps of ~91 days
+            rows = [r for r in rows if r["end"] > cutoff][-N_QUARTERS:]
         quarters = rows
+
+        def consecutive(rs):
+            ends = [dt.date.fromisoformat(r["end"]) for r in rs]
+            return all(75 <= (b - a).days <= 116 for a, b in zip(ends, ends[1:]))  # a 16-week Q1 is 112 days
 
         # ---- ttm
         ttm = None
-        if len(quarters) >= 4 and quarters[-1]["_gi"] - quarters[-4]["_gi"] == 3:
+        if len(quarters) >= 4 and consecutive(quarters[-4:]):
             last4 = quarters[-4:]
 
             def tsum(k, rs=last4, nd=None):
@@ -744,8 +926,7 @@ class Builder:
                 if any(v is None for v in vals):
                     return None
                 return round(sum(vals), nd) if nd else sum(vals)
-            prev4 = quarters[-8:-4] if (len(quarters) >= 8 and quarters[-5]["_gi"] - quarters[-8]["_gi"] == 3
-                                        and quarters[-4]["_gi"] - quarters[-5]["_gi"] == 1) else None
+            prev4 = quarters[-8:-4] if len(quarters) >= 8 and consecutive(quarters[-8:-3]) else None
             r_now = tsum("revenue")
             r_prev = tsum("revenue", prev4) if prev4 else None
             ttm = {
@@ -761,8 +942,6 @@ class Builder:
                 "fcf": tsum("fcf"),
                 "fcf_margin_pct": _pct(tsum("fcf"), r_now) if r_now and r_now > 0 else None,
             }
-        for r in quarters:
-            r.pop("_gi", None)
 
         # ---- annual
         annual = []
@@ -840,6 +1019,13 @@ class Builder:
                 so = same[0].val
         if so is None:
             so = at("shares_out_bs", "shares")
+        if so is None:
+            # Multi-class filers tag share counts only per class, which companyfacts leaves out; their basic
+            # weighted-average count for the latest quarter (all classes) is the nearest stand-in.
+            wb = [r for (s, e), r in f.merged(self.tax, self.T["shares_basic"], "shares").items()
+                  if s is not None and SPAN[1][0] <= (e - s).days <= SPAN[1][1] and e >= as_of - dt.timedelta(days=120)]
+            if wb:
+                so = max(wb, key=lambda r: r.e).val
         return {
             "as_of": as_of.isoformat(),
             "cash": _round(at("cash")),
@@ -913,6 +1099,7 @@ def update(ticker: str, meta: dict) -> tuple[str, str]:
 def main(argv: list[str]) -> None:
     univ = {u["ticker"]: u for u in universe()}
     tickers = [t.upper() for t in argv] if argv else list(univ)
+    tickers = [t if t in univ else t.replace("-", ".") for t in tickers]  # BRK-B -> BRK.B
     unknown = [t for t in tickers if t not in univ]
     tickers = [t for t in tickers if t in univ]
     started = time.monotonic()

@@ -1,9 +1,9 @@
 """The story queue the writer works through.
 
-  python3 pipeline/queue.py list                 # open events, highest priority first
-  python3 pipeline/queue.py show <id>            # one event with its data pack
-  python3 pipeline/queue.py done <id> <story.md> # mark written (moves it to events/done/)
-  python3 pipeline/queue.py skip <id> "<why>"    # mark skipped, with the reason
+  python3 pipeline/storystoryqueue.py list                 # open events, highest priority first
+  python3 pipeline/storyqueue.py show <id>            # one event with its data pack
+  python3 pipeline/storyqueue.py done <id> <story.md> # mark written (moves it to events/done/)
+  python3 pipeline/storyqueue.py skip <id> "<why>"    # mark skipped, with the reason
 """
 from __future__ import annotations
 

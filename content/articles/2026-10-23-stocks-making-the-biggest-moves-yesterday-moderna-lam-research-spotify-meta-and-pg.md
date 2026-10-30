@@ -1,6 +1,6 @@
 +++
 title = "Stocks Making the Biggest Moves Yesterday: Moderna, Lam Research, Spotify, Meta and P&G"
-dek = "Moderna plunged 17.6% on Thursday after its melanoma data posted early, Lam Research sank 11.8% on a supply warning, and Spotify soared 11.1% on its profit forecast."
+dek = "Moderna plunged 17.6% on Thursday after its melanoma data posted early, Lam Research plunged 11.8% on a supply warning, and Spotify soared 11.1% on its profit forecast."
 type = "movers"
 published = 2026-10-23T09:00:00-04:00
 author = "nora-whitfield"
@@ -23,7 +23,7 @@ sources = [
 
 **Moderna ($MRNA)**, -17.6%: the vaccine maker plunged after Phase 3 results for its melanoma vaccine with Merck appeared on a medical news site two days early, showing a 42% cut in the risk of the cancer returning or death. That fell short of the 49% an earlier, smaller study showed, and the shares had risen more than eightfold this year before Thursday. [Full story](/news/2026-10-22/why-moderna-mrna-stock-is-sinking-today/)
 
-**Lam Research ($LRCX)**, -11.8%: the chip-equipment maker sank after warning that shortages of clean-room space and some parts will keep limiting chipmakers into 2027, even as its quarterly revenue hit a record $8.22 billion. It was the stock's worst day in our price history, which starts in October 2021, and KLA and Applied Materials fell with it. [Full story](/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/)
+**Lam Research ($LRCX)**, -11.8%: the chip-equipment maker plunged after warning that shortages of clean-room space and some parts will keep limiting chipmakers into 2027, even as its quarterly revenue hit a record $8.22 billion. It was the stock's worst day in our price history, which starts in October 2021, and KLA and Applied Materials fell with it. [Full story](/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/)
 
 **Spotify ($SPOT)**, +11.1%: the music-streaming company soared after forecasting €820 million of fourth-quarter operating income, above the €813.4 million analysts expected, according to LSEG data cited by Reuters. It also ended the third quarter with 306 million paying subscribers, 1 million more than it had guided to. [Full story](/news/2026-10-22/why-spotify-spot-stock-is-soaring-today/)
 

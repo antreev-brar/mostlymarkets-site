@@ -20,7 +20,9 @@ sources = [
   "https://www.regionalmedianews.com/news/national/business/us-business-activity-cools-in-october-strong-demand-fueling-price-pressures/",
   "https://pro.thestreet.com/market-commentary/flash-pmi-holds-near-5-year-high-but-prices-jump-the-most-since-2022",
   "https://www.bloomberg.com/news/articles/2026-10-23/us-consumer-sentiment-slips-to-five-month-low-on-inflation-woes",
-  "https://finance.yahoo.com/economy/article/consumer-sentiment-falls-to-5-month-low-as-frustration-mounts-over-higher-costs-143114047.html",
+  "https://www.sca.isr.umich.edu/",
+  "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+  "https://247wallst.com/investing/2026/10/23/cybersecurity-stocks-rise-as-evercore-survey-flags-strengthening-demand-okta-crowdstrike-and-palo-alto-climb-4/",
   "https://www.tradingpedia.com/2026/10/23/kiwi-nears-0-5700-as-rbnz-hawkish-bets-meet-fed-outlook/",
   "https://www.fxstreet.com/analysis/gold-weekly-forecast-inflation-fears-attract-bears-ahead-of-critical-fed-meeting-202610231503",
   "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
@@ -38,15 +40,15 @@ Oil set the tone on Friday. Brent crude, the global benchmark, settled at $116.7
 
 ## Oil rose for a third week
 
-Yemen's Houthi rebels launched another wave of attacks on Saudi Arabia on Friday, The National reported, a day after Saudi Aramco evacuated its headquarters in Dhahran. The New York Times reported this week that the US and Israel have drawn up plans for renewed strikes on Iran after the 3 November midterms. "We could end it very quickly. Do we want to finish it off or just want to let it wither?" President Trump told reporters on Friday.
+Yemen's Houthi rebels launched another wave of attacks on Saudi Arabia, The National reported on Friday, a day after Saudi Aramco evacuated its headquarters in Dhahran. The New York Times reported this week that the US and Israel have drawn up plans for renewed strikes on Iran after the 3 November midterms. "We could end it very quickly. Do we want to finish it off or just want to let it wither?" President Trump told reporters on Friday.
 
 US crude settled at $103.27, up 3.8%, and Brent gained about 6% for the week, its third weekly rise. Energy was the best S&P 500 sector, up 2.51%, and Exxon Mobil ($XOM) and Chevron ($CVX) closed at record highs. Airlines paid the bill: United Airlines ($UAL) fell 4.0% and Delta Air Lines ($DAL) 3.1%.
 
 ## Inflation worries spread
 
-S&P Global's monthly survey of US companies found the prices they charge rising at the fastest pace since August 2022. "Cost pressures remain a key concern," said Chris Williamson of S&P Global Market Intelligence. The University of Michigan's consumer sentiment index fell to 48.0, a five-month low.
+S&P Global's monthly survey of US companies found the prices they charge rising at the fastest pace since August 2022. "Cost pressures remain a key concern," said Chris Williamson of S&P Global Market Intelligence. The University of Michigan's final October reading of consumer sentiment slipped to 48.0 from 48.1 in September, a five-month low, Bloomberg reported.
 
-That leaves the Federal Reserve, which raised rates in September, in a bind. Traders expect it to hold at next week's meeting but put the odds of a December hike at about 80%, according to CME FedWatch.
+That leaves the Federal Reserve, which raised rates by a quarter point on 16 September, in a bind. Traders expect it to hold at next week's meeting but put the odds of a December hike at about 80%, according to CME FedWatch.
 
 ## Nowhere left to hide
 
@@ -56,13 +58,13 @@ The Dow gives more weight to pricier shares, so drops in Caterpillar ($CAT), dow
 
 ## SpaceX rattled the phone companies
 
-AT&T ($T) [slid 8.0%](/news/2026-10-23/att-t-shares-slide-after-report-spacex-is-seeking-80000-cell-sites/) and T-Mobile US ($TMUS) 7.7% after Bloomberg reported that SpaceX is in talks for at least 80,000 US cell sites for a phone network of its own. Tower owner Crown Castle ($CCI) rose 9.1%, the best performer in the S&P 500.
+AT&T ($T) [slid 8.0%](/news/2026-10-23/att-t-shares-slide-after-report-spacex-is-seeking-80000-cell-sites/) and T-Mobile US ($TMUS) 7.7% after Bloomberg reported that SpaceX is in talks for at least 80,000 US cell sites for a phone network of its own. Tower owner Crown Castle ($CCI) soared 9.1%, the best performer in the S&P 500.
 
 ## Job cuts at AmEx, a rally in security
 
-American Express ($AXP) fell 3.7% after [beating profit forecasts](/news/2026-10-23/american-express-axp-tops-q3-profit-estimates-as-card-spending-rises-8/) and then saying on its call that it would cut about 5% of its global workforce, roughly 3,500 jobs. Finance chief Christophe Le Caillec told CNBC the aim is to make AmEx "leaner, more agile, and also to prepare for AI."
+American Express ($AXP) fell 3.7% after [beating profit forecasts](/news/2026-10-23/american-express-axp-tops-q3-profit-estimates-as-card-spending-rises-8/) and then saying on its call that it would cut about 5% of its global workforce, roughly 3,500 jobs by 24/7 Wall St's count. Finance chief Christophe Le Caillec told CNBC the aim is to make AmEx "leaner, more agile, and also to prepare for AI."
 
-Cybersecurity was the one corner of tech that rallied hard: CrowdStrike ($CRWD) [soared 8.3%](/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/) on an upbeat Evercore ISI survey, and Palo Alto Networks ($PANW) rose 7.2%. Apple ($AAPL) briefly passed Nvidia ($NVDA) as the world's most valuable company at the open as its first foldable iPhone went on sale, but Nvidia was back ahead within about ten minutes, by our estimate from five-minute prices; Apple closed down 0.14%.
+Cybersecurity was the one corner of tech that rallied hard: CrowdStrike ($CRWD) [soared 8.3%](/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/) on an upbeat Evercore ISI survey of security resellers, 24/7 Wall St reported, and Palo Alto Networks ($PANW) jumped 7.2%. Apple ($AAPL) briefly passed Nvidia ($NVDA) as the world's most valuable company at the open as its first foldable iPhone went on sale, but Nvidia was back ahead within about ten minutes, by our estimate from five-minute prices; Apple closed down 0.14%.
 
 ## The numbers
 

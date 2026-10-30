@@ -7,6 +7,7 @@ author = "theo-park"
 tickers = ["AXP"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm",
+  "https://www.sec.gov/Archives/edgar/data/4962/000000496226000318/q226exhibit991.htm",
   "https://247wallst.com/investing/2026/10/24/amex-raised-its-profit-forecast-and-announced-layoffs-on-the-same-day/",
   "https://www.theglobeandmail.com/business/article-american-express-third-quarter-results-annual-profit-outlook/",
   "https://247wallst.com/cards/american-express-q3-2026-earnings-axp-01m5m6zq01vcns9g97a051hrxm",
@@ -22,12 +23,12 @@ American Express ($AXP) reported third-quarter revenue of $20.06 billion, net of
 ```highlights
 American Express (AXP) Q3 2026 highlights
 - **Revenue, net of interest expense:** $20.06 billion vs analyst estimates of $20.12 billion (LSEG), up 9% year on year, a 0.3% miss
-- **Adjusted EPS:** $4.68 vs analyst estimates of $4.48 (LSEG), up 13% year on year, a 4% beat
+- **Adjusted EPS:** $4.68 vs analyst estimates of $4.48 (LSEG), up 13% year on year, a 4.5% beat
 - **GAAP EPS:** $5.42, up 31%, including a $982 million pretax gain and a $336 million restructuring charge
 - **Billed business:** $454.0 billion of card spending, up 8%
 - **Provisions for credit losses:** $1.0 billion, down from $1.3 billion a year earlier
 - **2026 guidance:** GAAP EPS of $18.30 to $18.60, or $17.60 to $17.90 adjusted
-- **Market value:** about $220 billion at Thursday's close
+- **Market value:** about $218 billion at Thursday's close
 ```
 
 ## What stood out
@@ -36,13 +37,13 @@ Card members kept spending. Billed business, the total charged on AmEx cards, ro
 
 Credit also improved: provisions for bad loans fell to $1.0 billion from $1.3 billion, helped by a release of reserves, and the net write-off rate dipped to 1.8% from 1.9%.
 
-The gap between the two EPS figures comes from two one-off items. AmEx booked a $982 million pretax gain on selling its stake in Global Business Travel Group, worth $1.11 a share, and a $336 million pretax restructuring charge for what it called efficiency initiatives, worth $0.37 a share. The release didn't say what the restructuring involves; management hosts its call at 8:30 a.m. ET.
+The gap between the two EPS figures comes from two one-off items. AmEx booked a $982 million pretax gain on selling its stake in Global Business Travel Group, worth $1.11 a share after tax, and a $336 million pretax restructuring charge for what it called efficiency initiatives, worth $0.37 a share after tax. The release didn't say what the restructuring involves; management hosts its call at 8:30 a.m. ET.
 
 > "We had another strong quarter, delivering 9 percent revenue growth and EPS of $5.42," said Chief Executive Stephen Squeri.
 
 ## The outlook
 
-AmEx raised its 2026 GAAP EPS forecast to $18.30 to $18.60, from a prior range of $17.30 to $17.90, according to 24/7 Wall St. Most of that raise is the one-time gain. On an adjusted basis, the range is $17.60 to $17.90, so only the low end moved.
+AmEx raised its 2026 GAAP EPS forecast to $18.30 to $18.60, from the $17.30 to $17.90 it forecast in July, according to its second-quarter release. Most of that raise is the one-time gain. On an adjusted basis, the range is $17.60 to $17.90, so only the low end moved.
 
 The adjusted midpoint of $17.75 is above the $17.63 analysts expected, according to LSEG data cited by Reuters. Squeri said AmEx is on track for "another year of 10 percent revenue growth."
 
@@ -55,4 +56,4 @@ The adjusted midpoint of $17.75 is above the $17.63 analysts expected, according
 
 ## Our take
 
-The good: adjusted profit grew 13% on 8% more spending, and credit losses are falling. The less good: revenue was a hair light and the headline guidance raise is mostly a one-time gain. On the call, we want to hear what the $336 million restructuring covers and how much it saves.
+The good: adjusted profit grew 13% on 8% more spending, and provisions for bad loans fell. The less good: revenue was a hair light and the headline guidance raise is mostly a one-time gain. On the call, we want to hear what the $336 million restructuring covers and how much it saves.

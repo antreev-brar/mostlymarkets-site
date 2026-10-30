@@ -25,7 +25,7 @@ sources = [
 
 ## What happened
 
-Shares of CrowdStrike ($CRWD), the cybersecurity software company, soared 8.3% on Friday as security stocks rallied on an upbeat broker survey and a fresh hacking scare. Palo Alto Networks ($PANW) rose 7.2%, Zscaler ($ZS) 7.3% and Cloudflare ($NET) 7.3%, while the S&P 500 fell 0.52%.
+Shares of CrowdStrike ($CRWD), the cybersecurity software company, soared 8.3% on Friday as security stocks rallied on an upbeat broker survey and a fresh hacking scare. Palo Alto Networks ($PANW) jumped 7.2%, Zscaler ($ZS) 7.3% and Cloudflare ($NET) 7.3%, while the S&P 500 fell 0.52%.
 
 Evercore ISI's quarterly survey of channel partners, the resellers that sell security software to companies, found healthy pipelines and an improving budget outlook into year-end, with no sign of demand dropping off, 24/7 Wall St and TIKR reported. Partners ranked identity protection, AI governance and cloud security as top priorities, and the survey named CrowdStrike and Palo Alto "the leading beneficiaries of AI-driven security spending," according to GuruFocus, syndicated by Yahoo Finance.
 

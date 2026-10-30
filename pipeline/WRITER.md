@@ -7,7 +7,7 @@ A GitHub Actions job (`.github/workflows/data.yml`) watches the market every 15 
 ## 0. Setup (every run)
 ```bash
 bash pipeline/data_pull.sh          # prices, quotes, calendars and fundamentals from the data branch
-python3 pipeline/queue.py list      # open events, highest priority first
+python3 pipeline/storystoryqueue.py list      # open events, highest priority first
 TZ=America/New_York date            # the time now, in New York
 ```
 If the queue is empty, stop. Don't commit.
@@ -16,12 +16,12 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
 
 ## 1. Pick the work
 - Work through the queue in the listed order, **at most 8 stories per run**, and stop starting new ones after about 45 minutes.
-- **Expired events:** `python3 pipeline/queue.py skip <id> "expired"`.
+- **Expired events:** `python3 pipeline/storyqueue.py skip <id> "expired"`.
 - **Already covered:** if a story on the same thing already exists in `content/articles/` (same company, same type, same day), skip the event with the reason.
 - **Overtaken by events:** a why-it-moved event for a company that has since reported results is covered by the recap. Skip it, or fold it into the recap.
 
 ## 2. For each event
-1. **Read it:** `python3 pipeline/queue.py show <id>`.
+1. **Read it:** `python3 pipeline/storyqueue.py show <id>`.
    - `instructions` says what the story must do.
    - `pack` has the numbers: quote, facts, calendar row (consensus EPS), markets table, top moves.
    - For earnings, `pack.release_text` is the path to the company's press release, taken from its SEC 8-K. That's the primary source for the results.
@@ -39,7 +39,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    - `moves` from the pack's quote, with the right `session`
    - at least one chart (a `price` chart unless the template says otherwise), and links to related stories in `pack.recent_stories` or `pack.todays_stories`
 5. **Check:** `python3 pipeline/check.py content/articles/<file>`. Fix it until it passes. Warnings are allowed; errors aren't.
-6. **Close the event:** `python3 pipeline/queue.py done <id> content/articles/<file>`.
+6. **Close the event:** `python3 pipeline/storyqueue.py done <id> content/articles/<file>`.
 7. **Publish it now, one story at a time:**
    ```bash
    git add content/articles events && git commit -m "story: <slug>" && git push origin HEAD:main
