@@ -1,6 +1,6 @@
 +++
-title = "Alphabet (GOOGL) Q3: Cloud Sales Double, Stock Falls 11% After Hours"
-dek = "Alphabet fell 10.8% after hours as revenue of $127.58 billion just missed estimates, search fell short and free cash flow turned to a $9.07 billion outflow."
+title = "Alphabet (GOOGL) Q3: Cloud Sales Double, Stock Plunges 11% After Hours"
+dek = "Alphabet plunged 10.8% after hours as revenue of $127.58 billion just missed estimates, search fell short and free cash flow turned to a $9.07 billion outflow."
 type = "earnings-recap"
 published = 2026-10-28T17:55:00-04:00
 author = "marcus-lindqvist"
@@ -19,24 +19,24 @@ sources = [
 ]
 +++
 
-Alphabet ($GOOGL) reported third-quarter revenue of $127.58 billion, up 25% year on year but just short of the $128.2 billion analysts expected, according to LSEG data cited by Investing.com. Earnings fell to $2.12 a share from $2.87, dragged down by an $8.66 billion loss on its stakes in other companies. The stock fell 10.8% in after-hours trading to $289.89 as of 5:53 p.m. ET.
+Alphabet ($GOOGL) reported third-quarter revenue of $127.58 billion, up 25% year on year but just short of the $128.2 billion analysts expected, according to LSEG data cited by Investing.com. Diluted earnings fell to $2.12 a share from $2.87 a year earlier, dragged down by an $8.66 billion loss on its stakes in other companies. The stock plunged 10.8% in after-hours trading to $289.89 as of 5:53 p.m. ET.
 
 ```highlights
 Alphabet (GOOGL) Q3 2026 highlights
 - **Revenue:** $127.58 billion vs analyst estimates of $128.2 billion (LSEG), up 25% year on year, a 0.5% miss
-- **EPS:** $2.12, or $2.67 without the 55-cent hit from equity losses, vs about $3.02 expected (Wall Street estimates cited by Investing.com and SiliconANGLE)
-- **Google Cloud revenue:** $30.71 billion, up 103% year on year, vs $28.7 billion expected (SiliconANGLE)
-- **Search revenue:** $63.35 billion, up 12% year on year, vs about $65.0 billion expected
+- **EPS:** $2.12, or $2.67 without the 55-cent hit from equity losses, vs about $3.02 expected (consensus cited by Investing.com and SiliconANGLE, neither of which named a provider)
+- **Google Cloud revenue:** $30.71 billion, up 103% year on year, vs $28.7 billion expected (SiliconANGLE, no provider named)
+- **Search revenue:** $63.35 billion, up 12% year on year, vs $64.96 billion expected (SiliconANGLE, no provider named)
 - **Capex:** $51.36 billion in the quarter, up 114%; the 2026 forecast of $195 billion to $205 billion is unchanged
 - **Free cash flow:** an outflow of $9.07 billion, against analyst estimates of roughly breaking even (LSEG)
-- **Market value:** $3.97 trillion at Wednesday's close
+- **Market value:** about $3.98 trillion at Wednesday's close, using the share counts in its 10-Q
 ```
 
 ## What stood out
 
 Google Cloud, which rents computing power and Alphabet's own AI chips to other companies, more than doubled. The release said sales of TPU systems, Google's in-house AI processors, were "a meaningful contributor." Cloud's operating income rose to $11.12 billion from $3.59 billion a year earlier.
 
-The problem was the core business. Search revenue grew 12% to $63.35 billion, below the $64.96 billion SiliconANGLE said analysts expected. Total advertising revenue grew at its slowest pace in five quarters, Investing.com reported, even though Chief Executive Sundar Pichai said search queries were growing at their fastest rate in five years.
+The problem was the core business. Search revenue grew 12% to $63.35 billion, below the $64.96 billion analysts expected, according to SiliconANGLE, which did not name a data provider. Total advertising revenue grew at its slowest pace in five quarters, Investing.com reported, even though Chief Executive Sundar Pichai said search queries were growing at their fastest rate in five years.
 
 "We had a strong quarter and are now on a half-trillion dollar revenue run rate," Pichai said in the release.
 

@@ -29,23 +29,25 @@ sources = [
 
 Shares of F5 ($FFIV), whose software and hardware keep big websites and apps running and secure, plunged 20.4% on Wednesday after its outlook for the new fiscal year disappointed and Piper Sandler downgraded the stock. It was the worst performer in the S&P 500 on the day.
 
-The quarter itself, reported after the close on Tuesday, beat estimates. Revenue for the three months to September rose 13% to $917 million, above the roughly $884 million analysts expected, Yahoo Finance reported. Adjusted earnings were $4.42 a share, the release showed.
+The quarter itself, reported after the close on Tuesday, beat estimates. Revenue for the three months to September rose 13% to $917 million, above the roughly $884 million analysts expected, according to consensus figures cited by Yahoo Finance and Investing.com, neither of which named the data provider. Adjusted earnings were $4.42 a share, the release showed.
 
-The forecast was the problem. F5 expects revenue to grow 8% to 9% in fiscal 2027, after 11% in fiscal 2026, and an adjusted gross margin of 80.5% to 82.5%, down from 84% in the quarter just ended. The margin range reflects "the higher component costs we have discussed previously," Chief Financial Officer Cooper Werner said on the call, and management named memory and storage chips as the main pressure.
+The forecast was the problem. F5 expects revenue to grow 8% to 9% in fiscal 2027, after 11% in fiscal 2026, and an adjusted gross margin of 80.5% to 82.5%, down from 84% in the quarter just ended. The margin range reflects "the higher component costs we have discussed previously," Chief Financial Officer Cooper Werner said on the call, and he called memory and storage "the area that we felt like would be at most at risk."
 
-Piper Sandler analyst James Fish cut the stock to Neutral from Overweight, TipRanks reported, as analysts flagged that a cycle of customers replacing F5's hardware is slowing. The shares closed at $365.53, down 20.4% from the previous close.
+Piper Sandler analyst James Fish cut the stock to Neutral from Overweight and kept his $461 price target, TipRanks reported. Analysts at Needham and RBC said a cycle of customers replacing F5's hardware is waning, according to Seeking Alpha. The shares closed at $365.53, down 20.4% from the previous close.
 
 ## Why it matters
 
-Hardware drove the quarter. Systems revenue, from F5's appliances, rose 29% to $239 million, while services grew 3%. A refresh like that lifts sales while it lasts, and the downgrade argues this one is ending.
+Hardware drove the quarter. Systems revenue, from F5's appliances, rose 29% to $239 million, while services grew 3%. A refresh like that lifts sales while it lasts, and Werner said systems growth will likely be slower in the second half of fiscal 2027 as this one runs its course.
 
-The stock was also priced for more. F5 had risen about 80% this year before Wednesday, Yahoo Finance noted. GeekWire and Barron's both called it the stock's worst day in more than a decade. Not every analyst turned: Evercore ISI, Barclays, and Morgan Stanley raised their price targets after the report.
+The stock was also priced for more. F5 had risen about 80% this year before Wednesday, Yahoo Finance and 24/7 Wall St. noted, and GeekWire and Barron's both called Wednesday the stock's worst day in more than a decade.
+
+Not every analyst turned: RBC kept its Outperform rating and raised its price target to $540 from $525, Seeking Alpha and Big Moves reported.
 
 ## What the market is telling us
 
 F5's shares moved 5% or more on 6 of the last 252 sessions. The stock is up 43.2% this year, and at $365.53 it sits 23.8% below its 52-week closing high of $479.83 from 9 October 2026. $1,000 invested in F5 five years ago would be worth $1,712 today.
 
-A 20% drop on a beat says the price had assumed the hardware cycle would run longer. And the memory shortage that gave SK hynix a [record quarter](/news/2026-10-28/sandisk-sndk-and-micron-mu-shares-jump-after-sk-hynixs-record-quarter/) is the same one eating into F5's margin.
+A 20% drop on a beat says the price had assumed the hardware cycle would run longer. And the memory shortage that gave SK hynix a [record quarter](/news/2026-10-28/sandisk-sndk-and-micron-mu-shares-jump-after-sk-hynixs-record-quarter/) is the same one pushing up the component costs behind F5's lower margin forecast.
 
 ```chart
 {"kind": "price", "ticker": "FFIV", "range": "1y", "end": "2026-10-28",

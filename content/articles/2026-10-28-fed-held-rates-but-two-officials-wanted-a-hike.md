@@ -1,8 +1,8 @@
 +++
 title = "The Fed Held Rates, but Two Officials Wanted a Hike"
-dek = "The Fed kept its key rate at 3.75%-4.00% on Wednesday in a 10-2 vote. Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted another quarter-point increase."
+dek = "The Fed kept its key rate at 3.75%–4.00% on Wednesday in a 10-2 vote. Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted another quarter-point increase."
 type = "macro"
-published = 2026-10-28T15:15:00-04:00
+published = 2026-10-28T15:45:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "fed"
@@ -26,7 +26,7 @@ sources = [
 ]
 +++
 
-The Federal Reserve kept its benchmark interest rate in a range of 3.75% to 4.00% on Wednesday, a month after raising it in September. The vote was 10 to 2. Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented, and both wanted another quarter-point increase now, the Fed said in its 2 p.m. ET statement.
+The Federal Reserve kept its benchmark interest rate in a range of 3.75% to 4.00% on Wednesday, six weeks after raising it in September. The vote was 10 to 2. Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented, and both wanted another quarter-point increase now, the Fed said in its 2 p.m. ET statement.
 
 A hold was widely expected six days before the 3 November midterm elections. The two dissents were not.
 
@@ -50,15 +50,15 @@ The sentence that explained September's hike is gone. In its place, the Fed said
 
 He also rejected the idea that the election shaped the call. "Politics played no role in the decision," Warsh said. He gave no firm signal about December.
 
-Cook's vote stood out. Governors rarely vote against the chair, and she had not dissented since joining the board in 2022, CNBC noted. Hammack was one of three regional presidents who wanted a hike in July. By our count from the Fed's statements, five of this year's seven meetings have had at least one dissent.
+Cook's vote stood out: by our count from the Fed's statements, it was her first dissent since she joined the board in 2022. Hammack was one of three regional presidents who wanted a hike in July. Five of this year's seven meetings have had at least one dissent, by the same count.
 
 ## How markets took it
 
-Stocks dipped after the statement and recovered while Warsh spoke. The S&P 500 slipped to almost flat about 15 minutes after 2 p.m., then traded between 0.1% and 0.3% higher through the press conference, according to Yahoo Finance data.
+Stocks dipped after the statement and recovered while Warsh spoke. The S&P 500 slipped to almost flat about 15 minutes after 2 p.m., then traded mostly between 0.1% and 0.3% higher through the press conference, according to Yahoo Finance data.
 
-The 10-year Treasury yield rose about 4 basis points (hundredths of a percentage point) to about 5.04% just after the statement, Wolf Street and Admiral Markets reported. Higher yields raise borrowing costs for mortgages and companies.
+The 10-year Treasury yield rose 4 to 5 basis points (hundredths of a percentage point) to about 5.04% after the statement and as Warsh spoke, Wolf Street and Admiral Markets reported. Higher yields raise borrowing costs for mortgages and companies.
 
-Traders now see about an 85% chance of a quarter-point hike in December, up from 78% before the decision, according to CME FedWatch data cited by CNN and Fortune. Futures data from Bloomberg, cited by Yahoo Finance, showed about the same odds.
+Traders now see about an 85% chance of a quarter-point hike in December, according to Bloomberg futures data cited by Yahoo Finance. Before the decision, CME FedWatch put the odds at 78%, Fortune reported.
 
 "I think the probability of a hike in December is very, very high," Laura Ullrich of the Indeed Hiring Lab told Fortune.
 

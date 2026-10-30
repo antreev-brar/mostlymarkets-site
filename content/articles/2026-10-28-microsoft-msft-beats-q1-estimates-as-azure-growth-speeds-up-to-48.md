@@ -24,21 +24,21 @@ sources = [
 ]
 +++
 
-Microsoft ($MSFT) reported revenue of $92.28 billion for its fiscal first quarter, the three months to September, up 19% year on year and ahead of the $90.69 billion analysts expected, according to LSEG data cited by CNBC. Earnings excluding the effect of its OpenAI stake came to $4.89 a share, against $4.73 expected. The shares rose 4.0% in after-hours trading to $552.22 as of 5:53 p.m. ET.
+Microsoft ($MSFT) reported revenue of $92.28 billion for its fiscal first quarter, the three months to September, up 19% year on year and ahead of the $90.69 billion analysts expected, according to LSEG data cited by CNBC. Earnings excluding the effect of its OpenAI stake came to $4.89 a share, against the $4.73 analysts expected, according to SiliconANGLE, which did not name a data provider. The shares rose 4.0% in after-hours trading to $552.22 as of 5:53 p.m. ET.
 
 ```highlights
 Microsoft (MSFT) fiscal Q1 2027 highlights
 - **Revenue:** $92.28 billion vs analyst estimates of $90.69 billion (LSEG), up 19% year on year, a 1.8% beat
-- **Adjusted EPS:** $4.89 excluding OpenAI vs analyst estimates of $4.73 (LSEG), a 3.4% beat; GAAP EPS was $4.92
+- **Adjusted EPS:** $4.89 excluding OpenAI vs analyst estimates of $4.73 (SiliconANGLE, no provider named), a 3.4% beat; GAAP EPS was $4.92
 - **Azure growth:** 48% year on year, and 48% in constant currency, above Microsoft's own forecast of 44% to 45%
-- **Capex:** $45.2 billion including finance leases, below the roughly $50.7 billion analysts expected
-- **Q2 guidance:** revenue of $96.0 billion to $97.1 billion vs about $95.6 billion expected; Azure growth of 49% to 50% in constant currency
+- **Capex:** $45.2 billion including finance leases, below the roughly $50.7 billion analysts expected on average (FXLeaders, no provider named)
+- **Q2 guidance:** revenue of $96.0 billion to $97.1 billion vs about $95.6 billion expected (SiliconANGLE, no provider named); Azure growth of 49% to 50% in constant currency
 - **Market value:** $3.94 trillion at Wednesday's close
 ```
 
 ## What stood out
 
-Azure, Microsoft's cloud-computing business, grew faster than the 44% to 45% the company itself had forecast. For the first time, the company also gave Azure's revenue in dollars: $33.2 billion for the quarter, SiliconANGLE and GeekWire reported. The wider Microsoft Cloud, which adds Office and other online services, brought in $63.9 billion, up 30%.
+Azure, Microsoft's cloud-computing business, grew faster than the 44% to 45% the company itself had forecast. For the first time, the company also gave Azure's revenue in dollars: $33.2 billion for the quarter, SiliconANGLE and StockTitan reported. The wider Microsoft Cloud, which adds Office and other online services, brought in $63.9 billion, up 30%.
 
 Customers have also signed up for far more than Microsoft has delivered. Its commercial remaining performance obligation, the value of contracts not yet turned into revenue, rose 73% to $677 billion, the release showed.
 
@@ -48,9 +48,9 @@ Not everything grew. Revenue in Devices and Consumer, the smaller of Microsoft's
 
 ## The outlook
 
-Microsoft expects revenue of $96.0 billion to $97.1 billion in the December quarter, growth of 18% to 19%, Hood said on the call. SiliconANGLE put analysts' expectation at $95.6 billion. She forecast Azure growth of 49% to 50% in constant currency, above the 45.1% SiliconANGLE said analysts had modeled.
+Microsoft expects revenue of $96.0 billion to $97.1 billion in the December quarter, growth of 18% to 19%, Hood said on the call. SiliconANGLE put analysts' expectation at $95.6 billion, without naming a data provider. She forecast Azure growth of 49% to 50% in constant currency, above the 45.1% SiliconANGLE said analysts had modeled.
 
-Spending was the surprise. Capital expenditure, the money spent on data centers and chips, came to $45.2 billion, about $5.5 billion below the roughly $50.7 billion analysts had expected. "Capital expenditures were $45.2 billion as some third-party capacity deliveries we expected in Q1 were delayed," Hood said on the call, according to a transcript from TradingKey.
+Spending was the surprise. Capital expenditure, the money spent on data centers and chips, came to $45.2 billion, about $5.5 billion below the average analyst estimate of roughly $50.7 billion cited by FXLeaders, which did not name a provider. "Capital expenditures were $45.2 billion as some third-party capacity deliveries we expected in Q1 were delayed," Hood said on the call, according to a transcript from TradingKey.
 
 ```chart
 {"kind": "bars", "labels": ["Dec 2024", "Mar 2025", "Jun 2025", "Sep 2025", "Dec 2025", "Mar 2026", "Jun 2026", "Sep 2026"],

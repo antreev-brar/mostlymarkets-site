@@ -1,6 +1,6 @@
 +++
 title = "Stocks Making the Biggest Moves Yesterday: Xylem, SoFi, Pentair, Celestica and Boeing"
-dek = "Xylem sank 14.2% on a forecast cut and Boeing 10.7% on a slower 737 ramp, while SoFi rose 13.4%, Pentair 12.8% and Celestica 12.1% on strong results on Tuesday."
+dek = "Xylem plunged 14.2% on a forecast cut and Boeing 10.7% on a slower 737 ramp, while SoFi soared 13.4%, Pentair 12.8%, and Celestica 12.1% on strong results on Tuesday."
 type = "movers"
 published = 2026-10-28T09:00:00-04:00
 author = "nora-whitfield"
@@ -25,10 +25,10 @@ sources = [
 
 **Xylem ($XYL)**, -14.2%: The water-technology company had its worst day in at least five years after cutting its 2026 forecast to about $8.95 billion of revenue and $5.40 to $5.45 of adjusted earnings a share, from $5.55 to $5.70, as customers delayed projects, even though orders rose 10% organically. [Full story](/news/2026-10-27/xylem-xyl-shares-slide-after-it-cuts-its-2026-forecast/)
 
-**SoFi Technologies ($SOFI)**, +13.4%: The online bank reported record adjusted net revenue of about $1.4 billion for the third quarter, added a record 1.2 million members to reach 17.1 million, and raised its full-year guidance to $5.04 billion of adjusted net revenue, according to its results release and Yahoo Finance.
+**SoFi Technologies ($SOFI)**, +13.4%: The online bank reported record adjusted net revenue of about $1.4 billion for the third quarter, added a record 1.2 million members to reach 17.1 million, and raised its full-year guidance to $5.04 billion of adjusted net revenue, according to its results release.
 
-**Pentair ($PNR)**, +12.8%: The pool and water-equipment maker earned $1.18 a share on an adjusted basis, beating the roughly $1.08 analysts expected, Investing.com reported, and Chief Executive John Stauch said in the release that his teams responded "with focus and urgency following a challenging second quarter" in its pool business.
+**Pentair ($PNR)**, +12.8%: The pool and water-equipment maker earned $1.18 a share on an adjusted basis, beating the roughly $1.08 analysts expected, according to a consensus Investing.com cited without naming a provider, and Chief Executive John Stauch said in the release that his teams responded "with focus and urgency following a challenging second quarter" in its pool business.
 
 **Celestica ($CLS)**, +12.1%: The contract manufacturer of AI servers and networking gear, which reported after Monday's close, raised its 2026 outlook to $21.0 billion of revenue and $11.55 of adjusted earnings a share, and gave a first 2027 forecast of $40.0 billion of revenue, according to its release and Investing.com.
 
-**Boeing ($BA)**, -10.7%: The planemaker had its biggest one-day drop in at least five years after saying it will reach 52 737 jets a month only in the second half of 2027 and forecasting about $3 billion of free cash flow next year, short of the roughly $5.5 billion Wall Street expected, Reuters reported. [Full story](/news/2026-10-27/boeing-ba-shares-slide-after-it-delays-its-737-production-ramp/)
+**Boeing ($BA)**, -10.7%: The planemaker had its biggest one-day drop in at least five years after saying it will reach 52 737 jets a month only in the second half of 2027 and forecasting about $3 billion of free cash flow next year, short of the roughly $5.5 billion Wall Street consensus cited by Jefferies analyst Sheila Kahyaoglu, Investing.com reported. [Full story](/news/2026-10-27/boeing-ba-shares-slide-after-it-delays-its-737-production-ramp/)

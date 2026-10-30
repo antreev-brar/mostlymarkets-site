@@ -25,17 +25,19 @@ sources = [
 
 Shares of Oracle ($ORCL), the database company that now also rents out computing power for AI, soared 10.7% on Wednesday. At its investor day, it set long-term targets and put a ceiling on how much more money it will raise.
 
-Oracle said it expects revenue of $225 billion or more in fiscal 2030, up from $67.4 billion in fiscal 2026, a growth rate of more than 35% a year. It also targeted an adjusted operating margin of 40% or more and adjusted earnings of at least $21 a share, investingLive and Yahoo Finance reported. Chief Financial Officer Hilary Maxson laid out the numbers.
+Oracle said it expects revenue of $225 billion or more in fiscal 2030, up from the $67.4 billion in its annual report for fiscal 2026, a growth rate of more than 35% a year. It also targeted an adjusted operating margin of 40% or more and adjusted earnings of at least $21 a share, investingLive and Yahoo Finance reported. Co-Chief Executives Clay Magouyrk and Mike Sicilia presented the plan with Chief Financial Officer Hilary Maxson, Investing.com reported.
 
-The second promise mattered as much. Oracle capped new money from bond and stock sales at $20 billion across fiscal 2027 to 2030, split roughly evenly between the two and not counting refinancing. It expects free cash flow, the cash left after building data centers, to turn positive in the second half of fiscal 2028 and to top $30 billion in fiscal 2029.
+The second promise mattered as much. Oracle capped new money from debt and stock sales at $20 billion across fiscal 2027 to 2030, split roughly evenly between the two and not counting refinancing, investingLive reported. That comes on top of a $20 billion share sale completed in the first quarter of fiscal 2027, according to Investing.com.
+
+Oracle expects free cash flow, the cash left after building data centers, to turn positive in the second half of fiscal 2028 and to top $30 billion in fiscal 2029, Yahoo Finance and the Motley Fool reported.
 
 The shares closed at $144.54, up 10.7% from the previous close.
 
 ## Why it matters
 
-Oracle's problem this year has been money, not demand. Investors have worried about how much it is borrowing to build data centers for AI customers, CNBC and the Motley Fool reported. Before Wednesday, the stock had lost about a third of its value this year.
+Oracle's problem this year has been money, not demand. Investors have worried about how much it is borrowing to build data centers for AI customers, and its credit rating was cut this year to BBB-, one notch above junk, the Motley Fool reported. Before Wednesday, the stock had lost about a third of its value this year.
 
-A ceiling on new funding speaks to both worries at once: how much more debt Oracle takes on, and how many new shares it sells. CNBC said the clarity on financing eased debt concerns, and investingLive argued the cap did as much work as the revenue target.
+A ceiling on new funding speaks to both worries at once: how much more debt Oracle takes on, and how many new shares it sells. The Motley Fool said the cash-flow plan eased worries about Oracle's AI spending, and investingLive argued the cap did as much work as the revenue target.
 
 ## What the market is telling us
 

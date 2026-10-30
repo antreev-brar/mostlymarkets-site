@@ -1,6 +1,6 @@
 +++
 title = "Sandisk (SNDK) and Micron (MU) Shares Jump After SK Hynix's Record Quarter"
-dek = "Sandisk rose 7.7% and Micron 5.9% on Wednesday after SK hynix posted its first quarter above 100 trillion won in revenue and said memory demand will outrun supply through 2030."
+dek = "Sandisk jumped 7.7% and Micron 5.9% on Wednesday after SK hynix posted its first quarter above 100 trillion won in revenue and said memory demand will outrun supply through 2030."
 type = "why-it-moved"
 published = 2026-10-28T16:15:00-04:00
 author = "dev-malhotra"
@@ -26,17 +26,17 @@ sources = [
 
 ## What happened
 
-Shares of the memory-chip makers Sandisk ($SNDK) and Micron ($MU) rose 7.7% and 5.9% on Wednesday after their South Korean rival SK hynix reported the best quarter in its history and said the shortage of memory chips will last for years.
+Shares of the memory-chip makers Sandisk ($SNDK) and Micron ($MU) jumped 7.7% and 5.9% on Wednesday after their South Korean rival SK hynix reported the best quarter in its history and said the shortage of memory chips will last for years.
 
-SK hynix's revenue rose 32% from the previous quarter to 104.6 trillion won, its first quarter above 100 trillion, the company said. Operating profit was 83.3 trillion won, up 632% from a year earlier, an operating margin of 80%. It expects demand for memory to keep exceeding supply through 2030 and said more than half of its 2027 and 2028 capacity is already committed under long-term contracts, 24/7 Wall St. reported.
+SK hynix's revenue rose 32% from the previous quarter to 104.6 trillion won, its first quarter above 100 trillion, the company said. Operating profit was 83.3 trillion won, up 632% from a year earlier, an operating margin of 80%. It expects demand for memory to keep exceeding supply through 2030 and said more than half of its 2027 and 2028 capacity is already committed under long-term contracts, it said in its results release.
 
-FXStreet and 24/7 Wall St. both tied the gains in Micron and Sandisk to the SK hynix results. Prices are still climbing: SK hynix said the average selling price of its DRAM rose by a high-20s percentage from the second quarter, Fast Company reported.
+FXStreet and 24/7 Wall St. both tied the gains in Micron and Sandisk to the SK hynix results. Prices are still climbing: the average selling price of SK hynix's DRAM rose by a high-20s percentage from the second quarter, FXStreet reported.
 
 Sandisk closed at $1,404.77, up 7.7% from the previous close, and Micron at $983.23, up 5.9%.
 
 ## Why it matters
 
-Memory chips hold the data that AI processors work on, and SK hynix, Samsung, and Micron are the three leading makers. Micron and Sandisk investors took SK hynix's rising prices as a sign that memory prices are not leveling off, Fast Company wrote.
+Memory chips hold the data that AI processors work on, and SK hynix, Samsung, and Micron are the three leading makers. Micron and Sandisk investors took SK hynix's rising prices as a sign that memory prices are not leveling off, FXStreet wrote.
 
 Customers are asking for "more than double that of what we can supply today," Kim Ki-tae, SK hynix's head of HBM sales, said on the earnings call. HBM is the stacked, high-speed memory packed next to AI chips. Korea's KOSPI index jumped 6.6% on the day.
 
