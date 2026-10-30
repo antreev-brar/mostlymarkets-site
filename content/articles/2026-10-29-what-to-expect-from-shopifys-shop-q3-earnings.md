@@ -28,7 +28,7 @@ Last quarter revenue rose 34% from a year earlier to $3.58 billion, well above t
 
 ## What analysts expect
 
-Analysts expect revenue of $3.74 billion, up 31% from $2.84 billion a year ago, and adjusted EPS of 45 cents, according to Zacks via Yahoo Finance. FactSet's consensus, shown on TradingView, is a little lower on sales, at $3.70 billion, and 46 cents a share.
+Analysts expect revenue of $3.74 billion, up 31% from $2.84 billion a year ago, and adjusted EPS of 45 cents, up from 34 cents, according to Zacks via Yahoo Finance. TradingView's consensus, which doesn't name its provider, is a little lower on sales, at $3.70 billion, and 46 cents a share, measured against the same 34 cents a year ago.
 
 Both fit Shopify's own forecast, which calls for revenue growth "at a low-thirties percentage rate." The company also guided gross profit to grow at a "mid-to-high twenties" rate and a free cash flow margin "in the high-teens to low-twenties."
 
@@ -36,7 +36,7 @@ Both fit Shopify's own forecast, which calls for revenue growth "at a low-thirti
 
 - **GMV growth.** It rose 32% last quarter, or 30% excluding currency moves. It's the clearest read on how much Shopify's merchants are selling going into the holidays.
 - **Gross profit against revenue.** Shopify's guidance has gross profit growing more slowly than sales, so each dollar of revenue earns a little less. Investors will look for that gap to narrow, not widen.
-- **Shopping through AI chatbots.** Shopify has partnerships with OpenAI, Google parent Alphabet ($GOOGL), Meta Platforms ($META) and Microsoft ($MSFT), Zacks noted. On 28 October it launched shop.dev, which connects AI assistants including ChatGPT, Copilot and Meta's Muse to its catalog of more than a billion products and to its checkout. Any sign that these sales are adding up will count.
+- **Shopping through AI chatbots.** Shopify has partnerships with OpenAI, Google parent Alphabet ($GOOGL), Meta Platforms ($META) and Microsoft ($MSFT), Zacks noted. On 28 October it launched shop.dev, which gives any AI agent or app one connection to its catalog of more than a billion products and to its checkout, the same ones behind ChatGPT, Copilot and Meta's Muse. Any sign that these sales are adding up will count.
 
 ## How the stock has done
 

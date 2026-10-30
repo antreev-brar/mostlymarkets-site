@@ -1,6 +1,6 @@
 +++
 title = "AbbVie (ABBV) Reports Earnings Tomorrow: What to Watch"
-dek = "AbbVie reports before the open on Friday. Analysts expect adjusted EPS of $3.74 to $3.79, at or above the $3.73 to $3.77 the company guided to after an 11-cent research charge."
+dek = "AbbVie reports before the open on Friday. Analysts expect adjusted EPS of $3.74 to $3.79, within or above the $3.73 to $3.77 the company guided to after an 11-cent charge for acquired research."
 type = "earnings-preview"
 published = 2026-10-29T16:45:00-04:00
 author = "claire-okafor"
@@ -25,11 +25,11 @@ Last quarter was a beat with a catch. Revenue rose 10.2% from a year earlier to 
 
 ## What analysts expect
 
-Analysts expect adjusted EPS of $3.74, according to Nasdaq's earnings calendar, which counts five estimates. Zacks's consensus, reported by Yahoo Finance, is $3.79, on revenue of $17.37 billion, up 10.1% from $15.78 billion a year ago.
+Analysts expect adjusted EPS of $3.74, according to Nasdaq's earnings calendar, which counts five estimates. Zacks's consensus, reported by Yahoo Finance on 22 October, was $3.79, on revenue of $17.37 billion, up 10.1% from $15.78 billion a year ago.
 
 Profit looks set to double, but that's mostly an easy comparison. A year ago adjusted EPS was $1.86, after a $1.50-a-share charge for acquired IPR&D and milestones, the money AbbVie pays to license or buy drugs still in development.
 
-The company has already moved its own target. In a 5 October filing it said the quarter will carry $216 million of those charges, an 11-cent hit, and put adjusted EPS at $3.73 to $3.77. It cut the full-year range by the same 11 cents, to $13.76 to $13.96. The consensus sits at or above the top of the quarterly range.
+The company has already moved its own target. In a 5 October filing it said the quarter will carry $216 million of those charges, an 11-cent hit, and put adjusted EPS at $3.73 to $3.77. It cut the full-year range by the same 11 cents, to $13.76 to $13.96. The $3.74 consensus sits inside that range, and the $3.79 sits above its top.
 
 ## What to watch
 
@@ -37,7 +37,7 @@ The company has already moved its own target. In a 5 October filing it said the 
 - **Humira's slide.** Sales of the old blockbuster fell 35.9% in the second quarter, to $756 million.
 - **Aesthetics.** Sales of Botox Cosmetic, Juvederm fillers and the rest rose just 0.3% last quarter, and fell 0.9% excluding currency moves. Juvederm was down 6.0%.
 
-Beyond the drugs, the question is the full-year range. Investors will want to know whether AbbVie raises it again or holds it after the Apogee deal and October's charge.
+Beyond the drugs, the question is the full-year range. Investors will want to know whether AbbVie raises it or holds it after the Apogee deal and October's charge.
 
 ## How the stock has done
 

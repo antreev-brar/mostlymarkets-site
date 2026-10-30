@@ -29,15 +29,15 @@ Last quarter Exxon fell short. Earnings excluding identified items, Exxon's term
 
 ## What analysts expect
 
-Analysts expect adjusted EPS of $3.90, according to Nasdaq's earnings calendar and Zacks, more than double the $1.88 of a year ago. A wider count of 19 analysts on Yahoo Finance averages $4.04. Revenue is expected at about $105 billion, according to the consensus on Yahoo Finance and MarketBeat, up from $85.3 billion a year ago.
+Analysts expect adjusted EPS of $3.90, according to Nasdaq's earnings calendar and Zacks, more than double the $1.88 of a year ago, a figure that, unlike this year's adjusted measure, didn't strip out timing effects. A wider count of 19 analysts on Yahoo Finance averages $4.04. Revenue is expected at about $105 billion, according to the consensus on Yahoo Finance and MarketBeat, up from $85.3 billion a year ago.
 
 Exxon has already shown its hand. In a 16 October filing it said that, against the second quarter, stronger refining margins should add about $4.5 billion to earnings and lower oil and other liquids prices should take away about $1.3 billion. The filing "is not an estimate of 3Q 2026 earnings," it added.
 
 ## What to watch
 
 - **Refining.** That $4.5 billion lift is the biggest single swing in Exxon's filing, and it more than covers the drag from oil prices. A shortfall here would hurt most.
-- **The gap between reported and adjusted profit.** Exxon expects about $2.5 billion of negative "timing effects," mostly from derivatives in refining, which its adjusted figure leaves out. Reported profit could look much weaker than the headline adjusted number.
-- **The Gulf and the buyback.** The filing assumes no change in Middle East disruptions from the second quarter, when the Qatari gas was offline. Reuters reported in July that Exxon was on track to buy back $20 billion of stock this year, after $5.1 billion in the second quarter.
+- **The gap between reported and adjusted profit.** Exxon expects about $2.5 billion of negative "timing effects," mostly from crude and fuel trading in its refining segment, which its adjusted figure leaves out. Reported profit could look much weaker than the headline adjusted number.
+- **The Gulf and the buyback.** The filing estimates no change from the second quarter in output lost to Middle East disruptions, the quarter when the Qatari gas was offline. Reuters reported in July that Exxon was on track to buy back $20 billion of stock this year, after $5.1 billion in the second quarter.
 
 ## How the stock has done
 

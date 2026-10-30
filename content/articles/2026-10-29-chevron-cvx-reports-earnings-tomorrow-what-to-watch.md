@@ -25,19 +25,19 @@ sources = [
 
 Chevron ($CVX) reports third-quarter results before the market opens on Friday, 30 October, with a call at 11 a.m. ET.
 
-Last quarter it beat comfortably. Adjusted earnings were $12.0 billion, or $6.06 a share, against the $5.56 analysts expected, according to LSEG data cited by Reuters, which called it Chevron's highest quarterly profit in six years. Production rose 20% from a year earlier, to about 4.07 million barrels of oil equivalent a day, and refining and fuel sales earned $4.9 billion. The stock rose 2.4% on 31 July, to $196.83.
+Last quarter it beat comfortably. Adjusted earnings were $12.0 billion, or $6.06 a share, against the $5.56 analysts expected, according to LSEG data cited by Reuters, which called it Chevron's highest quarterly profit in at least six years. Production rose 20% from a year earlier, to about 4.07 million barrels of oil equivalent a day, and refining and fuel sales earned $4.9 billion. The stock rose 2.4% on 31 July, to $196.83.
 
 Chief Executive Mike Wirth was blunt about the war with Iran. "Every day that goes by, the situation gets more difficult," he told CNBC, according to Reuters.
 
 ## What analysts expect
 
-Analysts expect adjusted EPS of $4.78, according to Nasdaq's earnings calendar and Zacks, up from $1.85 a year ago. A wider count of 22 analysts on Yahoo Finance averages $4.83. Revenue estimates run from $61.3 billion on MarketBeat to $62.2 billion on Yahoo Finance, against $49.7 billion of total revenue a year ago.
+Analysts expect adjusted EPS of $4.78, according to Nasdaq's earnings calendar and Zacks, up from $1.85 a year ago. A wider count of 22 analysts on Yahoo Finance averages $4.87. Revenue estimates run from $61.8 billion on MarketBeat to $62.0 billion on Yahoo Finance, against $49.7 billion of total revenue a year ago.
 
 ## What to watch
 
 - **Refining.** Downstream, Chevron's refining and fuel-selling business, was the star of the last quarter. Exxon Mobil ($XOM) said on 16 October that stronger refining margins should add about $4.5 billion to its own earnings compared with the second quarter, a good sign for the industry's refiners.
-- **Production.** The 20% growth rate is unlikely to repeat. Output in last year's third quarter was already 4.09 million barrels a day, about the same as the latest quarter's, so this time the test is whether it holds up rather than how fast it grows.
-- **Where the cash goes.** Chevron bought back $3.1 billion of stock in the second quarter and kept its full-year buyback range of $10 billion to $20 billion, Reuters reported. On 6 October it agreed to exit Hess Midstream, taking about $3.7 billion of debt off its books by year-end. It expects a one-time after-tax loss of $3 billion to $4 billion at closing.
+- **Production.** The 20% growth rate is unlikely to repeat. Output in last year's third quarter was already 4.09 million barrels of oil equivalent a day, about the same as the latest quarter's, so this time the test is whether it holds up rather than how fast it grows.
+- **Where the cash goes.** Chevron bought back $3.1 billion of stock in the second quarter, its release showed, and kept its full-year buyback target of $10 billion to $20 billion, Reuters reported. On 6 October it agreed to exit Hess Midstream, taking about $3.7 billion of debt off its books by year-end. It expects a one-time after-tax loss of $3 billion to $4 billion at closing.
 
 ## How the stock has done
 

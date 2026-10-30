@@ -24,21 +24,21 @@ sources = [
 
 Uber ($UBER) reports third-quarter results before the market opens on Wednesday, 4 November, with a call at 8 a.m. ET. The stock goes in near its lowest in a year, as investors worry that robotaxis will take its riders.
 
-Last quarter the business grew, but the forecast disappointed. Gross bookings, the total value of rides and orders on the app, rose 24% to $58.0 billion, above the $57.06 billion analysts expected, Reuters reported. But Uber guided third-quarter adjusted EPS to 84 to 88 cents, short of the 89 cents analysts wanted, and said it would spend more than $10 billion on robotaxis over the coming years. The stock slid 5.3% on 5 August.
+Last quarter the business grew, but the forecast disappointed. Gross bookings, the value of all rides and orders, rose 24% to $58.0 billion, above the $57.06 billion analysts expected, according to LSEG data cited by Reuters. But Uber guided third-quarter adjusted EPS to 84 to 88 cents, short of the 89 cents analysts wanted, and said it would spend more than $10 billion on robotaxis over the coming years. The stock slid 5.3% on 5 August.
 
 ## What analysts expect
 
 - **Gross bookings:** $59.7 billion, according to Zacks via Yahoo Finance, up from $49.7 billion a year ago. Bank of America expects $59.8 billion, Proactive reported. Uber's own range is $58.25 billion to $60.25 billion, 18% to 22% growth excluding currency moves.
 - **Revenue:** $14.74 billion, up 9.4% (Zacks). Fiscal.ai's figure, cited by Stocktwits, is about $14.68 billion.
-- **Adjusted EBITDA:** Uber guided to $2.86 billion to $2.96 billion, up from $2.3 billion a year ago. We found only one published consensus for it, so we've left it out.
+- **Adjusted EBITDA:** Uber guided to $2.86 billion to $2.96 billion, up from $2.3 billion a year ago. Proactive put Wall Street's forecast at $2.93 billion, without naming a provider, and Bank of America expects $2.94 billion.
 
-Profit per share is harder to compare. Zacks's consensus is 94 cents and Fiscal.ai's about 90 cents, both above the company's non-GAAP range, so they may not be on the same basis. A year ago Uber earned $3.11 a share under standard accounting, inflated by a $4.9 billion tax benefit.
+Profit per share is harder to compare. Zacks's consensus of 94 cents is measured against the $3.11 a share Uber earned under standard (GAAP) accounting a year ago, a figure inflated by a $4.9 billion tax benefit, so it isn't on the same basis as the company's non-GAAP range of 84 to 88 cents. Stocktwits cited about 90 cents, naming neither a provider nor a basis.
 
 ## What to watch
 
-- **Robotaxis.** Investors fear robotaxi rivals "could eventually capture a large share of trips or force Uber to lower rates," Stocktwits reported, and BNN Bloomberg tied the stock's 15% fall by early October to the same worry. Any update on Uber's own self-driving partners and the more than $10 billion it plans to spend will be read closely.
-- **Delivery.** Uber agreed on 6 October to buy ezCater, a workplace catering platform, for $2.3 billion in cash. "Bringing workplace buyers into the ecosystem supports the membership flywheel," Rosenblatt analyst Scott Devitt said, according to BNN Bloomberg.
-- **The fourth-quarter forecast.** In August the quarter beat, but the profit guidance sank the stock. The new range for the holiday quarter may matter more than the results.
+- **Robotaxis.** Investors worry that robotaxi rivals could take a large share of trips or force Uber to lower its prices, Stocktwits reported, and BNN Bloomberg tied the stock's 15% drop this year, as of 6 October, to the same worry. Any update on its self-driving partners and the more than $10 billion it plans to spend will be read closely.
+- **Delivery.** Uber agreed on 6 October to buy ezCater, a workplace catering platform, for $2.3 billion in cash. Rosenblatt analyst Scott Devitt said that "bringing workplace buyers into the ecosystem supports the membership flywheel," according to BNN Bloomberg.
+- **The fourth-quarter forecast.** In August the quarter beat, but the profit guidance sank the stock. The holiday-quarter range may matter more than the results.
 
 ## How the stock has done
 

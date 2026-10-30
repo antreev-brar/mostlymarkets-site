@@ -1,6 +1,6 @@
 +++
 title = "AMD (AMD) Reports Earnings on Tuesday: What to Watch"
-dek = "AMD reports after the close on Tuesday, 3 November. Analysts expect revenue of about $13.1 billion, up 41%, and the forecast for its Helios AI servers may matter more."
+dek = "AMD reports after the close on Tuesday, 3 November. Analysts expect revenue of about $13.1 billion, up 41%, and its forecast for the quarter when its Helios AI racks ramp up may matter more."
 type = "earnings-preview"
 published = 2026-10-29T17:00:00-04:00
 author = "dev-malhotra"
@@ -23,13 +23,13 @@ sources = [
 
 AMD ($AMD) reports third-quarter results after the market closes on Tuesday, 3 November, with a call at 5 p.m. ET.
 
-Last quarter beat estimates and the stock still fell. Revenue rose 50% from a year earlier to $11.5 billion, and adjusted EPS of $1.66 topped the $1.62 analysts expected, according to LSEG data cited by CNBC. The data center business, which sells server processors and Instinct AI chips, more than doubled to $6.7 billion. AMD guided to about $13 billion of third-quarter revenue, above the $12.52 billion consensus, but some analysts had hoped for as much as $14 billion. The stock sank 7.0% on 5 August.
+Last quarter beat estimates and the stock still fell. Revenue rose 50% from a year earlier to $11.5 billion, and adjusted EPS of $1.66 topped the $1.62 analysts expected, according to LSEG data cited by CNBC. The data center business, which sells server processors and Instinct AI chips, more than doubled to $6.7 billion. AMD guided to about $13 billion of third-quarter revenue, above the $12.52 billion LSEG consensus, but some analysts had hoped for as much as $14 billion. The stock sank 7.0% on 5 August.
 
-"Market wanted a blowout guide driven by Helios," Daniel Newman, chief executive of the Futurum Group, said at the time.
+"Market wanted a blowout guide driven by Helios," Daniel Newman, chief executive of the Futurum Group, wrote on X at the time.
 
 ## What analysts expect
 
-The consensus on Yahoo Finance is revenue of $13.08 billion, up from $9.25 billion a year ago, and adjusted EPS of $1.94, up from $1.20. Investing.com's figures are almost the same, at $13.06 billion and $1.94. That's in line with AMD's own forecast of $13 billion, give or take $300 million, and an adjusted gross margin of about 56%.
+The average on Yahoo Finance, which doesn't name its data provider, is revenue of $13.08 billion, up from $9.25 billion a year ago, and adjusted EPS of $1.94, up from $1.20. Investing.com's consensus, also unattributed, is almost the same, at $13.06 billion and $1.94. That's in line with AMD's own forecast of $13 billion, give or take $300 million, and an adjusted gross margin of about 56%.
 
 ## What to watch
 

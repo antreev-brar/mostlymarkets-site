@@ -31,4 +31,4 @@ Thursday's big change came from Alphabet ($GOOGL). It fell 12.6% to $283.82, its
 
 That leaves three of the seven below where they began the year: Meta ($META), down 5.4%, Alphabet, down 9.3%, and Tesla ($TSLA), down 10.3%.
 
-What to watch: Amazon's results, due after Thursday's close, and Apple's on Monday, 2 November.
+What to watch: Amazon's results, out after Thursday's close, and Apple's on Monday, 2 November.

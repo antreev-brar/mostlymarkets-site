@@ -1,5 +1,5 @@
 +++
-title = "US Crude Is Up 80% This Year Despite Giving Back Its Whole Spring Spike"
+title = "US Crude Is Up 80% This Year Despite Giving Back Almost All of Its Spring Spike"
 dek = "US crude settled at $103.27 on Friday, up 79.9% from $57.42 at the end of 2025, after topping $105 in April and sliding to $69.50 by the end of June."
 type = "chart"
 published = 2026-10-23T17:00:00-04:00
@@ -13,6 +13,8 @@ sources = [
   "https://www.investing.com/news/commodities-news/oil-jumps-more-than-2-after-us-attack-on-irans-larak-island-4882075",
   "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907",
   "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+  "https://www.investing.com/commodities/crude-oil-historical-data",
+  "https://www.eia.gov/dnav/pet/hist/RWTCD.htm",
   "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-to-highest-since-late-april-on-middle-east-fears",
   "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
   "https://www.timesofisrael.com/us-israel-said-to-draft-plans-for-resumed-strikes-on-iran-after-midterm-elections/",
@@ -31,9 +33,9 @@ sources = [
  "source": "NYMEX settlements via Yahoo Finance, checked against Reuters settlement reports"}
 ```
 
-US crude settled at $103.27 a barrel on Friday, up 3.8% on the day and 79.9% from $57.42 at the end of 2025. Brent, the global benchmark, settled at $116.72, its highest since 29 April and up 91.8% from $60.85, according to Reuters and CNBC.
+US crude settled at $103.27 a barrel on Friday, up 3.8% on the day and 79.9% from $57.42 at the end of 2025. Brent, the global benchmark, settled at $116.72, its highest since 29 April and up 91.8% from $60.85, according to Reuters and The National.
 
-The road there was a round trip. US crude jumped 51% in March alone, ended April at $105.07, then gave all of it back: by 30 June it was $69.50, not far above its end-of-January level of $65.21. The second climb began in July and has run for four months.
+The road there was a round trip. US crude jumped by about half in March, ended April at $105.07, then gave almost all of it back: by 30 June it was $69.50, only a few dollars above where it stood before the spike. The second climb began in July and has run for four months.
 
 This week's push came from the Gulf, where Yemen's Houthi rebels kept up attacks on Saudi Arabia, The National reported.
 
