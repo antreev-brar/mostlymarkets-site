@@ -1,0 +1,87 @@
+{
+ "id": "recap-AJG-2026-10-29",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-10-30T06:23:25-04:00",
+ "expires": "2026-10-30T20:00:00-04:00",
+ "tickers": [
+  "AJG"
+ ],
+ "headline_hint": "Arthur J. Gallagher (AJG) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-10-30T06:22:23-04:00",
+ "pack": {
+  "calendar": {
+   "ticker": "AJG",
+   "name": "Arthur J. Gallagher & Co.",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.01,
+   "n_estimates": 8,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 3.0,
+   "surprise_pct": -0.33,
+   "mktcap": 66745647000.0
+  },
+  "quote": {
+   "price": 268.2,
+   "change_pct": 2.99,
+   "prev_close": 268.2,
+   "time": "2026-10-29",
+   "mktcap": "68.74B",
+   "pe": 44.34,
+   "fpe": 19.15,
+   "yr_high": 272.8,
+   "yr_low": 190.75,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 270.71,
+    "change_pct": 0.94,
+    "time": "2026-10-30T05:51:23.790-0400"
+   }
+  },
+  "facts": {
+   "ticker": "AJG",
+   "name": "Arthur J. Gallagher",
+   "date": "2026-10-28",
+   "close": 260.42,
+   "prev_close": 259.01,
+   "change_pct": 0.54,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 190,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 4.88
+   },
+   "ytd_pct": 0.63,
+   "return_1m_pct": 14.34,
+   "return_6m_pct": 22.95,
+   "return_1y_pct": -6.66,
+   "high_52w": {
+    "close": 271.99,
+    "date": "2026-08-24"
+   },
+   "low_52w": {
+    "close": 192.0,
+    "date": "2026-05-13"
+   },
+   "pct_below_52w_high": 4.25,
+   "thousand_dollars_5y_ago_now": 1587,
+   "five_years_ago_date": "2021-10-28",
+   "volume": 2017785,
+   "volume_vs_20d_avg": 1.37,
+   "sentences": [
+    "Arthur J. Gallagher's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 4.9%.",
+    "The stock is up 0.6% this year, and at $260.42 it sits 4.2% below its 52-week closing high of $271.99 from 24 August 2026.",
+    "$1,000 invested in Arthur J. Gallagher five years ago would be worth $1,587 today."
+   ]
+  },
+  "sector": "Financials",
+  "industry": "Insurance Brokers",
+  "recent_stories": []
+ }
+}

@@ -15,6 +15,11 @@
 "kind": "movers",
 "outcome": "already-written"
 },
+"recap-AJG-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
 "recap-AMZN-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -26,11 +31,26 @@
 "day": "2026-10-29",
 "kind": "earnings-recap"
 },
+"recap-BMY-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
 "recap-CAT-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-CVX-2026-10-30": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-DASH-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
 },
 "recap-GEV-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -47,6 +67,16 @@
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-HWM-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-ICE-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
 },
 "recap-INTC-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -75,6 +105,16 @@
 "day": "2026-10-29",
 "kind": "earnings-recap"
 },
+"recap-MDLZ-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-MO-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
 "recap-MRK-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -86,9 +126,39 @@
 "kind": "earnings-recap",
 "outcome": "already-written"
 },
+"recap-PWR-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-RSG-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-SBUX-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
 "recap-SHEL-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
+"kind": "earnings-recap"
+},
+"recap-SNDK-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-SYK-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
+"kind": "earnings-recap"
+},
+"recap-TT-2026-10-29": {
+"created": "2026-10-30T06:23:25-04:00",
+"day": "2026-10-30",
 "kind": "earnings-recap"
 },
 "wrap-2026-10-29": {

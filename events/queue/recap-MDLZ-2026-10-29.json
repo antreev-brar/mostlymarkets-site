@@ -1,0 +1,87 @@
+{
+ "id": "recap-MDLZ-2026-10-29",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-10-30T06:23:25-04:00",
+ "expires": "2026-10-30T20:00:00-04:00",
+ "tickers": [
+  "MDLZ"
+ ],
+ "headline_hint": "Mondelez International (MDLZ) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-10-30T06:22:23-04:00",
+ "pack": {
+  "calendar": {
+   "ticker": "MDLZ",
+   "name": "Mondelez International, Inc.",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.72,
+   "n_estimates": 7,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 0.78,
+   "surprise_pct": 8.33,
+   "mktcap": 78965178000.0
+  },
+  "quote": {
+   "price": 62.53,
+   "change_pct": 1.07,
+   "prev_close": 62.53,
+   "time": "2026-10-29",
+   "mktcap": "79.808B",
+   "pe": 22.94,
+   "fpe": 19.44,
+   "yr_high": 66.65,
+   "yr_low": 51.2,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 67.43,
+    "change_pct": 7.84,
+    "time": "2026-10-30T06:17:29.016-0400"
+   }
+  },
+  "facts": {
+   "ticker": "MDLZ",
+   "name": "Mondelez International",
+   "date": "2026-10-28",
+   "close": 61.87,
+   "prev_close": 62.35,
+   "change_pct": -0.77,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 137,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": -0.98
+   },
+   "ytd_pct": 14.94,
+   "return_1m_pct": 4.3,
+   "return_6m_pct": 1.36,
+   "return_1y_pct": 0.34,
+   "high_52w": {
+    "close": 65.19,
+    "date": "2026-10-22"
+   },
+   "low_52w": {
+    "close": 51.51,
+    "date": "2026-01-07"
+   },
+   "pct_below_52w_high": 5.09,
+   "thousand_dollars_5y_ago_now": 1015,
+   "five_years_ago_date": "2021-10-28",
+   "volume": 5797827,
+   "volume_vs_20d_avg": 0.76,
+   "sentences": [
+    "Mondelez International's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock fell 1.0%.",
+    "The stock is up 14.9% this year, and at $61.87 it sits 5.1% below its 52-week closing high of $65.19 from 22 October 2026.",
+    "$1,000 invested in Mondelez International five years ago would be worth $1,015 today."
+   ]
+  },
+  "sector": "Consumer Staples",
+  "industry": "Packaged Foods & Meats",
+  "recent_stories": []
+ }
+}

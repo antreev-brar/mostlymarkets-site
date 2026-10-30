@@ -1,0 +1,87 @@
+{
+ "id": "recap-SYK-2026-10-29",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-10-30T06:23:25-04:00",
+ "expires": "2026-10-30T20:00:00-04:00",
+ "tickers": [
+  "SYK"
+ ],
+ "headline_hint": "Stryker (SYK) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-10-30T06:22:23-04:00",
+ "pack": {
+  "calendar": {
+   "ticker": "SYK",
+   "name": "Stryker Corporation",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.56,
+   "n_estimates": 9,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 3.52,
+   "surprise_pct": -1.12,
+   "mktcap": 116606206000.0
+  },
+  "quote": {
+   "price": 311.75,
+   "change_pct": 2.55,
+   "prev_close": 311.75,
+   "time": "2026-10-29",
+   "mktcap": "119.579B",
+   "pe": 32.3,
+   "fpe": 19.57,
+   "yr_high": 389.33,
+   "yr_low": 267.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 278.91,
+    "change_pct": -10.53,
+    "time": "2026-10-30T06:02:04.065-0400"
+   }
+  },
+  "facts": {
+   "ticker": "SYK",
+   "name": "Stryker",
+   "date": "2026-10-28",
+   "close": 304.0,
+   "prev_close": 301.42,
+   "change_pct": 0.86,
+   "moves_over_5pct_last_year": 6,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 148,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 3.19
+   },
+   "ytd_pct": -13.51,
+   "return_1m_pct": 9.05,
+   "return_6m_pct": -3.53,
+   "return_1y_pct": -20.78,
+   "high_52w": {
+    "close": 387.46,
+    "date": "2026-02-27"
+   },
+   "low_52w": {
+    "close": 269.75,
+    "date": "2026-09-24"
+   },
+   "pct_below_52w_high": 21.54,
+   "thousand_dollars_5y_ago_now": 1132,
+   "five_years_ago_date": "2021-10-28",
+   "volume": 2325666,
+   "volume_vs_20d_avg": 0.93,
+   "sentences": [
+    "Stryker's shares moved 5% or more on 6 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 3.2%.",
+    "The stock is down 13.5% this year, and at $304.00 it sits 21.5% below its 52-week closing high of $387.46 from 27 February 2026.",
+    "$1,000 invested in Stryker five years ago would be worth $1,132 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Health Care Equipment",
+  "recent_stories": []
+ }
+}
