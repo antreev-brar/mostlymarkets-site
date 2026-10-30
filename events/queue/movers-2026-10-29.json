@@ -1,0 +1,115 @@
+{
+ "id": "movers-2026-10-29",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-10-30T09:37:13-04:00",
+ "expires": "2026-10-30T12:00:00-04:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Thursday 29 October)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-10-30T09:31:52-04:00",
+ "pack": {
+  "session": "2026-10-29",
+  "moves": [
+   {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "close": 109.67,
+    "change_pct": -26.95,
+    "our_stories": [
+     "/news/2026-10-29/servicenow-now-stock-has-its-worst-day-on-record-after-soft-forecast/"
+    ]
+   },
+   {
+    "ticker": "FTNT",
+    "name": "Fortinet",
+    "close": 139.1,
+    "change_pct": -20.09,
+    "our_stories": [
+     "/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/"
+    ]
+   },
+   {
+    "ticker": "GEN",
+    "name": "Gen Digital",
+    "close": 28.2,
+    "change_pct": 15.81,
+    "our_stories": []
+   },
+   {
+    "ticker": "CVNA",
+    "name": "Carvana",
+    "close": 68.31,
+    "change_pct": 15.68,
+    "our_stories": [
+     "/news/2026-10-29/why-carvana-cvna-stock-is-soaring-today/"
+    ]
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "close": 218.34,
+    "change_pct": -13.24,
+    "our_stories": []
+   },
+   {
+    "ticker": "HII",
+    "name": "Huntington Ingalls Industries",
+    "close": 316.21,
+    "change_pct": 13.23,
+    "our_stories": []
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "close": 283.82,
+    "change_pct": -12.64,
+    "our_stories": [
+     "/news/2026-10-29/stocks-making-the-biggest-moves-yesterday-f5-vertiv-oracle-alphabet-and-sandisk/",
+     "/news/2026-10-29/apple-leads-the-magnificent-seven-in-2026-as-alphabet-slides-into-the-red/",
+     "/news/2026-10-29/alphabet-googl-shares-plunge-after-search-falls-short-and-cash-burn-grows/"
+    ]
+   },
+   {
+    "ticker": "GOOG",
+    "name": "Alphabet (Class C)",
+    "close": 282.32,
+    "change_pct": -12.29,
+    "our_stories": [
+     "/news/2026-10-29/alphabet-googl-shares-plunge-after-search-falls-short-and-cash-burn-grows/"
+    ]
+   },
+   {
+    "ticker": "TXT",
+    "name": "Textron",
+    "close": 87.46,
+    "change_pct": 11.67,
+    "our_stories": []
+   },
+   {
+    "ticker": "HONA",
+    "name": "Honeywell Aerospace",
+    "close": 160.04,
+    "change_pct": -9.6,
+    "our_stories": []
+   },
+   {
+    "ticker": "CAT",
+    "name": "Caterpillar",
+    "close": 647.39,
+    "change_pct": -9.25,
+    "our_stories": [
+     "/news/2026-10-29/caterpillar-cat-beats-q3-profit-estimates-but-shares-plunge-on-its-outlook/"
+    ]
+   },
+   {
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill",
+    "close": 31.28,
+    "change_pct": 8.88,
+    "our_stories": []
+   }
+  ]
+ }
+}

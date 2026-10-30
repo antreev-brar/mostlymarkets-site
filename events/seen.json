@@ -9,11 +9,21 @@
 "day": "2026-10-29",
 "kind": "macro-check"
 },
+"macro-2026-10-30": {
+"created": "2026-10-30T09:37:13-04:00",
+"day": "2026-10-30",
+"kind": "macro-check"
+},
 "movers-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "movers",
 "outcome": "already-written"
+},
+"movers-2026-10-29": {
+"created": "2026-10-30T09:37:13-04:00",
+"day": "2026-10-30",
+"kind": "movers"
 },
 "recap-AJG-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
