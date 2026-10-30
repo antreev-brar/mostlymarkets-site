@@ -1,0 +1,75 @@
+{
+ "id": "move-ILMN-2026-10-30",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 93,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-11-02T12:00:00-05:00",
+ "tickers": [
+  "ILMN"
+ ],
+ "headline_hint": "Why Illumina (ILMN) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 234.23,
+   "change_pct": -19.25,
+   "prev_close": 290.06,
+   "time": "2026-10-30T14:51:20.545-0400",
+   "mktcap": "35.369B",
+   "pe": 43.54,
+   "fpe": 41.26,
+   "yr_high": 309.35,
+   "yr_low": 94.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 255.01,
+    "change_pct": -12.08,
+    "time": "2026-10-30T09:30:00.428-0400"
+   }
+  },
+  "facts": {
+   "ticker": "ILMN",
+   "name": "Illumina",
+   "date": "2026-10-29",
+   "close": 290.06,
+   "prev_close": 288.79,
+   "change_pct": 0.44,
+   "moves_over_5pct_last_year": 21,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 219,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": 3.33
+   },
+   "ytd_pct": 121.15,
+   "return_1m_pct": 5.99,
+   "return_6m_pct": 128.86,
+   "return_1y_pct": 196.58,
+   "high_52w": {
+    "close": 293.69,
+    "date": "2026-10-05"
+   },
+   "low_52w": {
+    "close": 95.03,
+    "date": "2025-10-29"
+   },
+   "pct_below_52w_high": 1.24,
+   "thousand_dollars_5y_ago_now": 712,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 2035238,
+   "volume_vs_20d_avg": 0.86,
+   "sentences": [
+    "Illumina's shares moved 5% or more on 21 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 3.3%.",
+    "The stock is up 121.2% this year, and at $290.06 it sits 1.2% below its 52-week closing high of $293.69 from 5 October 2026.",
+    "$1,000 invested in Illumina five years ago would be worth $712 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Life Sciences Tools & Services",
+  "recent_stories": []
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "basket-internet-services-infrastructure-down-2026-10-30",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-10-30T23:59:00-04:00",
+ "tickers": [
+  "NBIS",
+  "CRWV",
+  "NET",
+  "AKAM",
+  "SHOP"
+ ],
+ "headline_hint": "NBIS, CRWV, NET shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "industry": "Internet Services & Infrastructure",
+  "quotes": {
+   "NBIS": {
+    "price": 150.25,
+    "change_pct": -12.64,
+    "prev_close": 171.99,
+    "time": "2026-10-30T14:51:18.477-0400",
+    "mktcap": "40.846B",
+    "pe": -379.04,
+    "fpe": -46.65,
+    "yr_high": 299.86,
+    "yr_low": 73.52,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 157.37,
+     "change_pct": -8.5,
+     "time": "2026-10-30T09:30:00.458-0400"
+    }
+   },
+   "CRWV": {
+    "price": 53.95,
+    "change_pct": -11.19,
+    "prev_close": 60.74,
+    "time": "2026-10-30T14:51:16.418-0400",
+    "mktcap": "29.753B",
+    "pe": -14.19,
+    "fpe": -18.97,
+    "yr_high": 138.36,
+    "yr_low": 51.24,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 56.28,
+     "change_pct": -7.34,
+     "time": "2026-10-30T09:30:00.797-0400"
+    }
+   },
+   "NET": {
+    "price": 276.82,
+    "change_pct": -10.79,
+    "prev_close": 310.3,
+    "time": "2026-10-30T14:51:09.132-0400",
+    "mktcap": "98.57B",
+    "pe": -473.52,
+    "fpe": 187.55,
+    "yr_high": 370.35,
+    "yr_low": 158.83,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 297.7,
+     "change_pct": -4.06,
+     "time": "2026-10-30T09:27:07.351-0400"
+    }
+   },
+   "AKAM": {
+    "price": 92.08,
+    "change_pct": -7.35,
+    "prev_close": 99.38,
+    "time": "2026-10-30T14:51:11.496-0400",
+    "mktcap": "13.233B",
+    "pe": 33.21,
+    "fpe": 13.98,
+    "yr_high": 165.45,
+    "yr_low": 70.82,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 96.1,
+     "change_pct": -3.3,
+     "time": "2026-10-30T09:28:28.114-0400"
+    }
+   },
+   "SHOP": {
+    "price": 155.01,
+    "change_pct": -7.12,
+    "prev_close": 166.89,
+    "time": "2026-10-30T14:51:21.548-0400",
+    "mktcap": "199.443B",
+    "pe": 104.52,
+    "fpe": 73.71,
+    "yr_high": 180.88,
+    "yr_low": 94.0,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 161.82,
+     "change_pct": -3.04,
+     "time": "2026-10-30T09:30:00.762-0400"
+    }
+   }
+  },
+  "facts": {
+   "NBIS": {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "date": "2026-10-29",
+    "close": 171.99,
+    "prev_close": 182.34,
+    "change_pct": -5.68,
+    "moves_over_5pct_last_year": 101,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 89,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-22",
+     "change_pct": -7.23
+    },
+    "ytd_pct": 105.47,
+    "return_1m_pct": -27.09,
+    "return_6m_pct": 24.42,
+    "return_1y_pct": 41.17,
+    "high_52w": {
+     "close": 286.69,
+     "date": "2026-06-18"
+    },
+    "low_52w": {
+     "close": 73.87,
+     "date": "2026-02-05"
+    },
+    "pct_below_52w_high": 40.01,
+    "thousand_dollars_5y_ago_now": 2076,
+    "five_years_ago_date": "2021-10-29",
+    "volume": 17700310,
+    "volume_vs_20d_avg": 0.8,
+    "sentences": [
+     "Nebius Group's shares moved 5% or more on 101 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 7.2%.",
+     "The stock is up 105.5% this year, and at $171.99 it sits 40.0% below its 52-week closing high of $286.69 from 18 June 2026.",
+     "$1,000 invested in Nebius Group five years ago would be worth $2,076 today."
+    ]
+   }
+  }
+ }
+}

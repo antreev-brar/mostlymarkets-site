@@ -1,0 +1,75 @@
+{
+ "id": "move-MRVL-2026-10-30",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 83,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-11-02T12:00:00-05:00",
+ "tickers": [
+  "MRVL"
+ ],
+ "headline_hint": "Why Marvell Technology (MRVL) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 191.57,
+   "change_pct": -12.26,
+   "prev_close": 218.34,
+   "time": "2026-10-30T14:51:21.732-0400",
+   "mktcap": "167.988B",
+   "pe": 63.22,
+   "fpe": 33.95,
+   "yr_high": 329.88,
+   "yr_low": 70.69,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 205.81,
+    "change_pct": -5.74,
+    "time": "2026-10-30T09:29:58.348-0400"
+   }
+  },
+  "facts": {
+   "ticker": "MRVL",
+   "name": "Marvell Technology",
+   "date": "2026-10-29",
+   "close": 218.34,
+   "prev_close": 251.65,
+   "change_pct": -13.24,
+   "moves_over_5pct_last_year": 64,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-05",
+    "change_pct": -16.74
+   },
+   "ytd_pct": 156.93,
+   "return_1m_pct": -17.36,
+   "return_6m_pct": 32.21,
+   "return_1y_pct": 146.82,
+   "high_52w": {
+    "close": 316.43,
+    "date": "2026-06-04"
+   },
+   "low_52w": {
+    "close": 73.73,
+    "date": "2026-02-04"
+   },
+   "pct_below_52w_high": 31.0,
+   "thousand_dollars_5y_ago_now": 3187,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 42028020,
+   "volume_vs_20d_avg": 2.05,
+   "sentences": [
+    "Marvell Technology's shares moved 5% or more on 64 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 June 2026, when the stock fell 16.7%.",
+    "The stock is up 156.9% this year, and at $218.34 it sits 31.0% below its 52-week closing high of $316.43 from 4 June 2026.",
+    "$1,000 invested in Marvell Technology five years ago would be worth $3,187 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "move-ARM-2026-10-30",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 91,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-11-02T12:00:00-05:00",
+ "tickers": [
+  "ARM"
+ ],
+ "headline_hint": "Why Arm Holdings (ARM) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 199.78,
+   "change_pct": -12.67,
+   "prev_close": 228.77,
+   "time": "2026-10-30T14:51:17.611-0400",
+   "mktcap": "213.36B",
+   "pe": 204.94,
+   "fpe": 83.69,
+   "yr_high": 452.7,
+   "yr_low": 100.02,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 206.2,
+    "change_pct": -9.87,
+    "time": "2026-10-30T09:28:51.652-0400"
+   }
+  },
+  "facts": {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "date": "2026-10-29",
+   "close": 228.77,
+   "prev_close": 235.9,
+   "change_pct": -3.02,
+   "moves_over_5pct_last_year": 61,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 107,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": -7.28
+   },
+   "ytd_pct": 109.29,
+   "return_1m_pct": -21.02,
+   "return_6m_pct": 8.77,
+   "return_1y_pct": 32.17,
+   "high_52w": {
+    "close": 439.46,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 104.55,
+    "date": "2026-02-03"
+   },
+   "pct_below_52w_high": 47.94,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 4662549,
+   "volume_vs_20d_avg": 1.02,
+   "sentences": [
+    "Arm Holdings's shares moved 5% or more on 61 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 7.3%.",
+    "The stock is up 109.3% this year, and at $228.77 it sits 47.9% below its 52-week closing high of $439.46 from 18 June 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": []
+ }
+}

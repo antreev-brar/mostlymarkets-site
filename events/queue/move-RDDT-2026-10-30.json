@@ -1,0 +1,89 @@
+{
+ "id": "move-RDDT-2026-10-30",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 95,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-11-02T12:00:00-05:00",
+ "tickers": [
+  "RDDT"
+ ],
+ "headline_hint": "Why Reddit (RDDT) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 89.94,
+   "change_pct": -30.6,
+   "prev_close": 129.6,
+   "time": "2026-10-30T14:51:22.411-0400",
+   "mktcap": "17.304B",
+   "pe": 18.4,
+   "fpe": 14.6,
+   "yr_high": 263.5,
+   "yr_low": 89.28,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 101.0,
+    "change_pct": -22.07,
+    "time": "2026-10-30T09:30:00.504-0400"
+   }
+  },
+  "facts": {
+   "ticker": "RDDT",
+   "name": "Reddit",
+   "date": "2026-10-29",
+   "close": 129.6,
+   "prev_close": 134.7,
+   "change_pct": -3.79,
+   "moves_over_5pct_last_year": 59,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 82,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-26",
+    "change_pct": -4.02
+   },
+   "ytd_pct": -43.62,
+   "return_1m_pct": -9.01,
+   "return_6m_pct": -11.97,
+   "return_1y_pct": -39.15,
+   "high_52w": {
+    "close": 258.93,
+    "date": "2026-01-13"
+   },
+   "low_52w": {
+    "close": 121.84,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 49.95,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 17872160,
+   "volume_vs_20d_avg": 4.21,
+   "sentences": [
+    "Reddit's shares moved 5% or more on 59 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 26 October 2026, when the stock fell 4.0%.",
+    "The stock is down 43.6% this year, and at $129.60 it sits 50.0% below its 52-week closing high of $258.93 from 13 January 2026."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Interactive Media & Services",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-29/stocks-making-the-biggest-moves-after-hours-intel-reddit-stryker-pinterest-and-amazon/",
+    "date": "2026-10-29",
+    "title": "Stocks Making the Biggest Moves After Hours: Intel, Reddit, Stryker, Pinterest and Amazon",
+    "type": "movers",
+    "tickers": [
+     "INTC",
+     "RDDT",
+     "SYK",
+     "PINS",
+     "AMZN",
+     "TWLO"
+    ]
+   }
+  ]
+ }
+}

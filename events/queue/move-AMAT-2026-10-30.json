@@ -1,0 +1,89 @@
+{
+ "id": "move-AMAT-2026-10-30",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 82,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-11-02T12:00:00-05:00",
+ "tickers": [
+  "AMAT"
+ ],
+ "headline_hint": "Why Applied Materials (AMAT) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 382.94,
+   "change_pct": -9.18,
+   "prev_close": 421.66,
+   "time": "2026-10-30T14:51:16.543-0400",
+   "mktcap": "303.898B",
+   "pe": 33.03,
+   "fpe": 21.55,
+   "yr_high": 739.67,
+   "yr_low": 203.4,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 397.61,
+    "change_pct": -5.7,
+    "time": "2026-10-30T09:30:00.297-0400"
+   }
+  },
+  "facts": {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "date": "2026-10-29",
+   "close": 421.66,
+   "prev_close": 416.0,
+   "change_pct": 1.36,
+   "moves_over_5pct_last_year": 43,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 162,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": 5.07
+   },
+   "ytd_pct": 64.08,
+   "return_1m_pct": -17.54,
+   "return_6m_pct": 6.89,
+   "return_1y_pct": 85.23,
+   "high_52w": {
+    "close": 723.0,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 220.23,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 41.68,
+   "thousand_dollars_5y_ago_now": 3086,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 6701591,
+   "volume_vs_20d_avg": 0.96,
+   "sentences": [
+    "Applied Materials's shares moved 5% or more on 43 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 5.1%.",
+    "The stock is up 64.1% this year, and at $421.66 it sits 41.7% below its 52-week closing high of $723.00 from 30 June 2026.",
+    "$1,000 invested in Applied Materials five years ago would be worth $3,086 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductor Materials & Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/",
+    "date": "2026-10-22",
+    "title": "Lam Research (LRCX), KLA (KLAC) and Applied Materials (AMAT) Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "NVDA"
+    ]
+   }
+  ]
+ }
+}

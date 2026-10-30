@@ -1,0 +1,75 @@
+{
+ "id": "move-QCOM-2026-10-30",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 84,
+ "created": "2026-10-30T14:51:25-04:00",
+ "expires": "2026-11-02T12:00:00-05:00",
+ "tickers": [
+  "QCOM"
+ ],
+ "headline_hint": "Why Qualcomm (QCOM) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-10-30T14:51:25-04:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 162.26,
+   "change_pct": -12.49,
+   "prev_close": 185.41,
+   "time": "2026-10-30T14:51:22.564-0400",
+   "mktcap": "170.373B",
+   "pe": 18.78,
+   "fpe": 17.49,
+   "yr_high": 259.92,
+   "yr_low": 121.99,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 174.68,
+    "change_pct": -5.79,
+    "time": "2026-10-30T09:30:00.571-0400"
+   }
+  },
+  "facts": {
+   "ticker": "QCOM",
+   "name": "Qualcomm",
+   "date": "2026-10-29",
+   "close": 185.41,
+   "prev_close": 182.97,
+   "change_pct": 1.33,
+   "moves_over_5pct_last_year": 26,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 138,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": 2.54
+   },
+   "ytd_pct": 8.4,
+   "return_1m_pct": 0.74,
+   "return_6m_pct": 3.25,
+   "return_1y_pct": 2.42,
+   "high_52w": {
+    "close": 251.02,
+    "date": "2026-05-29"
+   },
+   "low_52w": {
+    "close": 124.07,
+    "date": "2026-04-07"
+   },
+   "pct_below_52w_high": 26.14,
+   "thousand_dollars_5y_ago_now": 1394,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 8225071,
+   "volume_vs_20d_avg": 0.82,
+   "sentences": [
+    "Qualcomm's shares moved 5% or more on 26 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock rose 2.5%.",
+    "The stock is up 8.4% this year, and at $185.41 it sits 26.1% below its 52-week closing high of $251.02 from 29 May 2026.",
+    "$1,000 invested in Qualcomm five years ago would be worth $1,394 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": []
+ }
+}

@@ -1,4 +1,14 @@
 {
+"basket-internet-services-infrastructure-down-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "basket"
+},
+"basket-semiconductors-down-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "basket"
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -13,6 +23,56 @@
 "created": "2026-10-30T09:37:13-04:00",
 "day": "2026-10-30",
 "kind": "macro-check"
+},
+"move-AMAT-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-AMD-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-ARM-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-ASML-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-DELL-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-ILMN-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-LRCX-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-MRVL-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-QCOM-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
+},
+"move-RDDT-2026-10-30": {
+"created": "2026-10-30T14:51:25-04:00",
+"day": "2026-10-30",
+"kind": "why-it-moved"
 },
 "movers-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
