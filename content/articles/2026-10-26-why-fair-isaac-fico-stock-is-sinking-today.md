@@ -31,7 +31,7 @@ Haas had expected meaningful price increases in 2027. The program should help Fa
 
 Investors had valued Fair Isaac on the idea that it could keep raising what lenders pay for its scores. Holding the mortgage price flat to keep lenders on board suggests that pricing power now has limits, and CNBC described the downgrade as a response to the company deciding not to raise prices.
 
-The pressure comes from competition. A rival score, VantageScore 4.0, is gaining ground under updated guidelines from the Federal Housing Finance Agency, the regulator of mortgage giants Fannie Mae and Freddie Mac, StockStory noted. A fixed $10 price is Fair Isaac's way of making lenders choose its score anyway.
+The pressure comes from competition. A rival score, VantageScore 4.0, is gaining ground under updated guidelines from the Federal Housing Finance Agency, the regulator of mortgage giants Fannie Mae and Freddie Mac, StockStory noted. A fixed $10 price is Fair Isaac's way of giving lenders a reason to keep choosing its score.
 
 ## What the market is telling us
 

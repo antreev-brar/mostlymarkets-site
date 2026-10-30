@@ -13,6 +13,8 @@ sources = [
   "https://www.wral.com/news/ap/10aae-u-s-consumer-confidence-recovers-in-october-as-gas-prices-eased-a-bit/",
   "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-917-in-october-202610271412",
   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
+  "https://see.news/fed-decision-preview-rates-expected-to-hold-wednesday-as-december-hike-remains-on-table",
+  "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
 ]
 +++
 
@@ -20,23 +22,23 @@ American consumers turned more cheerful in October. The Conference Board's consu
 
 Both halves of the index improved. The Present Situation Index, which measures how people judge business conditions and jobs today, rose 8.6 points to 120.4. The Expectations Index, their view of the next six months, rose 6.9 points to 72.6, partly reversing three straight monthly declines.
 
-## Cheaper gas did much of the work
+## The rebound came as gas prices eased
 
-"The recovery was in line with retail gasoline prices easing from September to October," Fergus McCormick, senior economist at the Conference Board, said in the release. The job market also looked a little better to respondents: 26.7% said jobs were "plentiful", up from 24.3% in September, while the share saying jobs were "hard to get" held at 21.4%.
+"The recovery was in line with retail gasoline prices easing from September to October," Fergus McCormick, senior economist at the Conference Board, said in the release. The job market also looked a little better to respondents: 26.7% said jobs were "plentiful," up from 24.3% in September, while the share saying jobs were "hard to get" held at 21.4%.
 
 The good mood has limits. McCormick said confidence "remained on the long-term downward trend" of the past few years, AP reported. Consumers expect prices to rise 5.8% over the next 12 months, less than they expected in September but still high, and they plan to spend less on services and on durable goods such as electronics over the next six months, the Conference Board said.
 
 ## What markets did
 
-Bonds barely reacted. The 10-year Treasury yield rose less than 1 basis point, or 0.01 percentage point, to 4.995%, while the 2-year yield, which follows expectations for Fed rates more closely, rose about 2 basis points to 4.737%, CNBC reported.
+Bonds barely moved. The 10-year Treasury yield ended little changed at 4.99%, while the 2-year yield, which follows expectations for Fed rates more closely, rose 2 basis points, or 0.02 percentage point, to 4.70%, according to the Treasury's daily yield curve.
 
-Stocks rose for a second day. The S&P 500 gained 0.60% to 7,722.60, helped by chip stocks, while energy shares fell as oil slipped for a second day.
+Stocks rose for a second day. The S&P 500 gained 0.60% to 7,722.60, helped by chip stocks, while energy shares fell as oil dropped for a second day.
 
 ## What it means for the Fed
 
-A stronger consumer is mixed news for the Federal Reserve. The Fed raised its benchmark rate by a quarter point in September, to a range of 3.75% to 4.00%, its first increase since 2023, after consumer prices rose 3.7% in the year to September, AP reported. Shoppers who keep spending make it harder for inflation to cool.
+A stronger consumer is mixed news for the Federal Reserve. The Fed raised its benchmark rate by a quarter point in September, to a range of 3.75%–4.00%, its first increase since 2023, AP and SEE News reported. Since then, data have shown consumer prices up 3.7% in the year to September, AP reported, and shoppers who keep spending make it harder for inflation to cool.
 
-Traders still expect a pause this week. Fed funds futures price a nearly 93% chance that the Fed holds rates steady on Wednesday, according to the CME FedWatch tool cited by CNBC. The bigger question is whether Chair Kevin Warsh signals another increase later this year.
+Traders still expect a pause this week. Fed funds futures price about a 90% chance that the Fed holds rates steady on Wednesday, according to CME Group data cited by Yahoo Finance. The bigger question is whether Chair Kevin Warsh signals another increase later this year.
 
 ## What's next
 

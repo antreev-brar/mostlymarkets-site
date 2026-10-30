@@ -1,6 +1,6 @@
 +++
 title = "3 AI Infrastructure Stocks We Love and 1 We Hate"
-dek = "Micron, Nvidia and Vertiv grow fast and keep the cash they make. CoreWeave more than doubled its revenue but burned $13.65 billion in a year building data centers."
+dek = "Micron, Nvidia and Vertiv grow fast and bring in more cash than they spend. CoreWeave more than doubled its revenue but burned $13.66 billion in a year building data centers."
 type = "list"
 published = 2026-10-26T12:30:00-04:00
 author = "dev-malhotra"
@@ -22,7 +22,7 @@ sources = [
 
 The AI build-out is still the market's biggest story, but last week investors started asking who pays for it. On Thursday, 22 October, Nvidia Chief Executive Jensen Huang told CNBC that demand from neoclouds, companies that buy AI chips and rent out the computing power, is "off the charts." The catch, he said: "there's a scarcity of capital."
 
-So we looked for the companies that get paid for the build-out, not the ones borrowing to fund it. We took the 33 chip, memory, networking, power and cooling stocks we track and pulled their latest four quarters of results from SEC filings. We kept those with revenue growth of 25% or more, an operating margin (operating profit as a share of revenue) of at least 15%, and positive free cash flow, which is cash from operations minus capital spending. Fifteen passed. Prices are Friday's closes, 23 October.
+So we looked for the companies that get paid for the build-out, not the ones borrowing to fund it. We took the chip, chip-equipment, networking, power and cooling stocks we track and pulled their latest four quarters of results from SEC filings. We kept those with revenue growth of 25% or more, an operating margin (operating profit as a share of revenue) of at least 15%, and positive free cash flow, which is cash from operations minus capital spending. Fifteen passed. Prices are Friday's closes, 23 October.
 
 ```picks
 love: MU, NVDA, VRT
@@ -47,7 +47,7 @@ At $877.55, Micron is valued at about $993 billion, or 11.7 times its fiscal 202
 
 1. Revenue was $302.97 billion in the 12 months to 26 July 2026, up 83.4% from $165.22 billion a year earlier. Demand has not slowed at this size.
 2. The operating margin rose to 65.2% from 58.1%, so the company is earning more on each sale even as it grows.
-3. Free cash flow was $127.01 billion. Capital spending was only $7.35 billion because Nvidia doesn't own chip factories, and it spent $55.31 billion buying back its own shares.
+3. Free cash flow was $127.01 billion. Capital spending was only $7.35 billion because Nvidia doesn't own chip factories, and it spent $55.32 billion buying back its own shares.
 
 At $210.96, Nvidia is worth $5.08 trillion, or 26.4 times its trailing net income of $192.88 billion. The stock is up 13.1% this year and 11.8% below its 6 October closing high of $239.24. That is a fair price for 83% growth.
 
@@ -67,9 +67,9 @@ At $194.32, Vertiv is worth $74.8 billion: 43 times trailing net income of $1.73
 
 **Revenue growth, last 12 months: 115%**. CoreWeave is the best-known neocloud: it buys Nvidia chips and rents the computing power to AI companies.
 
-1. Capital spending was $20.57 billion in the 12 months to 30 June 2026, against $6.91 billion of cash from operations. Free cash flow was negative $13.65 billion, deeper than negative $7.94 billion a year earlier. The business grows only as fast as lenders and investors will fund it.
+1. Capital spending was $20.57 billion in the 12 months to 30 June 2026, against $6.91 billion of cash from operations. Free cash flow was negative $13.66 billion, deeper than negative $7.94 billion a year earlier. The business grows only as fast as lenders and investors will fund it.
 2. Revenue more than doubled to $7.59 billion, yet CoreWeave made an operating loss of $231 million, against an operating profit of $221 million a year earlier. The net loss was $1.93 billion.
-3. It had $5.52 billion of cash on 30 June, less than five months of last year's cash burn. AP noted on 22 October that the stock "has been particularly shaky in recent weeks because of worries about its debt."
+3. It had $5.52 billion of cash on 30 June, under five months of burn at the past year's rate. AP noted on 22 October that the stock "has been particularly shaky in recent weeks because of worries about its debt."
 
 At $54.23, CoreWeave is worth $29.9 billion, about 3.9 times its trailing revenue. The stock is down 24.3% this year and 61.2% below its 52-week closing high of $139.93. That looks cheap, but there is no profit or free cash flow yet to value it on, and Huang's "scarcity of capital" lands hardest on companies like this one.
 

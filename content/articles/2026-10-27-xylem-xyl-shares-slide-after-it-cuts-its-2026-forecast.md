@@ -1,6 +1,6 @@
 +++
 title = "Xylem (XYL) Shares Slide After It Cuts Its 2026 Forecast"
-dek = "Xylem plunged 14.2% on Tuesday, its worst day in at least five years, after the water-technology company cut its 2026 earnings forecast to $5.40 to $5.45 a share."
+dek = "Xylem plunged 14.2% on Tuesday, its worst day in at least five years, after the water-technology company cut its 2026 earnings forecast to $5.40–5.45 a share."
 type = "why-it-moved"
 published = 2026-10-27T16:15:00-04:00
 author = "theo-park"
@@ -23,9 +23,9 @@ sources = [
 
 Shares of Xylem ($XYL), which sells equipment and services to move, treat and measure water, plunged 14.2% on Tuesday after it cut its forecast for the year.
 
-Xylem now expects 2026 revenue of about $8.95 billion, down 1% from last year, after previously guiding to growth of 2%, it said in its results release. It cut its adjusted earnings forecast to $5.40 to $5.45 a share, from $5.55 to $5.70. Analysts had expected about $9.19 billion of revenue, Investing.com and Chartmill reported.
+Xylem now expects 2026 revenue of about $8.95 billion, down 1% from last year, after previously guiding to growth of 2%, it said in its results release. It cut its adjusted earnings forecast to $5.40–5.45 a share, from $5.55–5.70.
 
-Third-quarter revenue fell 3% to $2.2 billion, which Xylem blamed on project timing and "more cautious spending decisions" by customers. Adjusted earnings of $1.44 a share were a penny below the $1.45 analysts expected, according to Investing.com and Chartmill. The shares closed at $92.86, down 14.2% from the previous close.
+Third-quarter revenue fell 3% to $2.2 billion, which Xylem blamed on project timing and "more cautious spending decisions" by customers; analysts had expected $2.28 billion, according to StockStory and 24/7 Wall St. Adjusted earnings of $1.44 a share were a penny below the $1.45 analysts expected, according to Investing.com and StockStory. The shares closed at $92.86, down 14.2% from the previous close.
 
 ## Why it matters
 

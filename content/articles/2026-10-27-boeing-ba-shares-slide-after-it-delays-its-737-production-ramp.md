@@ -1,6 +1,6 @@
 +++
 title = "Boeing (BA) Shares Slide After It Delays Its 737 Production Ramp"
-dek = "Boeing plunged 10.7% on Tuesday, its worst day in at least five years, after it pushed its 737 ramp into late 2027 and forecast about $3 billion of free cash flow next year."
+dek = "Boeing plunged 10.7% on Tuesday, its worst day in at least five years, after it said steady 737 output will slip to early 2027 and forecast about $3 billion of free cash flow next year."
 type = "why-it-moved"
 published = 2026-10-27T16:15:00-04:00
 author = "theo-park"
@@ -17,6 +17,7 @@ sources = [
   "https://virginiabusiness.com/boeing-delays-737-production-ramp-up-slows-cash-flow-growth/",
   "https://finance.yahoo.com/markets/stocks/articles/boeing-reports-smaller-loss-aims-143815629.html",
   "https://www.aerotime.aero/articles/boeing-q3-2026-results-record-backlog-737-7-and-737-10-certified-loss-narrows",
+  "https://www.sec.gov/Archives/edgar/data/12927/000162828026067411/0001628280-26-067411-index.htm",
 ]
 +++
 
@@ -24,9 +25,9 @@ sources = [
 
 Shares of Boeing ($BA), the maker of the 737 and 787 jets, plunged 10.7% on Tuesday after it said it will take longer to speed up production of its best-selling plane, and that cash will come in more slowly than investors expected.
 
-On the earnings call, Chief Executive Kelly Ortberg said Boeing is targeting 52 737 Max jets a month in the second half of 2027, CNBC and AFP reported. It has been building about 47 a month, and it now expects that rate to be stable only in early 2027, after aiming for this past summer, Reuters reported. Boeing also forecast about $3 billion of free cash flow next year, against the roughly $5.5 billion Wall Street expected, according to a Jefferies note cited by Reuters.
+On the earnings call, Chief Executive Kelly Ortberg said Boeing is targeting 52 737 Max jets a month in the second half of 2027, Reuters and AFP reported. Boeing is still working to steady output at 47 a month, and now expects to get there in early 2027, after saying as recently as May that it would do so this summer, Reuters reported. Boeing also forecast about $3 billion of free cash flow next year, against the roughly $5.5 billion Wall Street expected, according to a Jefferies note cited by Reuters.
 
-The quarter itself was mixed. Revenue rose 4% to $24.19 billion, above the $23.84 billion analysts expected, but the adjusted loss of 34 cents a share was wider than the 21-cent loss forecast, according to LSEG data cited by CNBC. The shares closed at $168.18, down 10.7% from the previous close, making Boeing the worst performer in the Dow, AFP noted.
+The quarter itself was mixed. Revenue rose 4% to $24.19 billion, Boeing said, but the adjusted loss of 34 cents a share was wider than the 21-cent loss analysts expected, according to LSEG data cited by Reuters. The shares closed at $168.18, down 10.7% from the previous close, making Boeing the worst performer in the Dow, AFP noted.
 
 ## Why it matters
 

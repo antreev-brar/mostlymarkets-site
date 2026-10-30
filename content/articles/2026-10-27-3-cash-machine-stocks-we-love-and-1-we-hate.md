@@ -1,6 +1,6 @@
 +++
 title = "3 Cash Machine Stocks We Love and 1 We Hate"
-dek = "GoDaddy, Salesforce and Altria turn a third or more of their revenue into free cash and trade at 8 to 14 times it. Meta's AI spending cut its free cash flow by 36%."
+dek = "GoDaddy, Salesforce and Altria turn a third or more of their revenue into free cash and trade at 8–14 times it. Meta's AI spending cut its free cash flow by 36%."
 type = "list"
 published = 2026-10-27T12:30:00-04:00
 author = "theo-park"
@@ -24,9 +24,9 @@ sources = [
 ]
 +++
 
-Free cash flow is the money a company has left after running the business and paying for new equipment: cash from operations minus capital spending. It pays for dividends, buybacks and debt repayment without borrowing. With the 10-year Treasury yield at 5.00% on Monday, according to Treasury data, a stock has to earn its keep in cash.
+Free cash flow is what a company has left after running the business and paying for new equipment: cash from operations minus capital spending. It pays for dividends, buybacks and debt repayment without borrowing. With the 10-year Treasury yield at 5.00% on Monday, Treasury data show, a stock has to earn its keep in cash.
 
-So we screened the 117 large companies we track, most of them in the S&P 500. We kept those that turned at least 30% of revenue into free cash flow over their latest four quarters reported to the SEC, and whose market value was no more than 20 times that free cash flow. That means a free-cash-flow yield of at least 5%, the same as the Treasury. Sixteen passed. Three of the cheapest, Adobe, Intuit and Booking Holdings, are also 28% to 50% below their 52-week highs, so we're saving them for Wednesday's list of beaten-down quality stocks. Prices are Monday's closes, 26 October.
+So we screened the companies we track, most of them in the S&P 500, leaving out financial firms and property trusts, whose cash flows don't compare. We kept those that turned at least 30% of revenue into free cash flow over their latest four quarters reported to the SEC, and whose market value was no more than 20 times that free cash flow. That means a free-cash-flow yield of at least 5%, the same as the Treasury. Sixteen passed. Three of the cheapest, Adobe, Intuit and Booking Holdings, are also 28–50% below their 52-week highs, so we're saving them for Wednesday's list of beaten-down quality stocks. Prices are Monday's closes, 26 October.
 
 ```picks
 love: GDDY, CRM, MO
@@ -39,9 +39,9 @@ hate: META
 
 **Free-cash-flow margin, last 12 months: 33.4%**. GoDaddy sells web domains, hosting and website tools, mostly to small businesses.
 
-1. Free cash flow was $1.70 billion in the 12 months to 30 June 2026 on revenue of $5.10 billion, up 17% from $1.45 billion a year earlier.
-2. Capital spending was just $26 million, so nearly all of its $1.73 billion of operating cash flow was free to use.
-3. It spent $1.63 billion buying back shares, close to every dollar of free cash flow. The catch is the balance sheet: $3.78 billion of debt and only $7 million of shareholders' equity on 30 June.
+1. Free cash flow was $1.70 billion in the 12 months to 30 June 2026, up 17% from $1.45 billion a year earlier, on revenue of $5.10 billion.
+2. Capital spending was just $26 million, so nearly all of its $1.73 billion of operating cash was free.
+3. It spent $1.63 billion buying back shares, nearly all its free cash flow. The catch is the balance sheet: $3.82 billion of debt and only $7 million of shareholders' equity on 30 June.
 
 At $109.82, GoDaddy is worth $13.9 billion, or 8.2 times free cash flow, a 12.2% yield. It also trades at 15.3 times net income of $910 million. The stock is down 11.5% this year, and we think the market is paying too little for a business that grew revenue 7.4%.
 
@@ -72,9 +72,9 @@ At $73.62, Altria is worth $122.9 billion: 13.5 times free cash flow (a 7.4% yie
 **Free-cash-flow margin, last 12 months: 11.9%**. Meta owns Facebook, Instagram and WhatsApp, and is one of the biggest spenders on AI data centers.
 
 1. Capital spending jumped to $104.44 billion in the 12 months to 30 September 2026 from $62.73 billion. Free cash flow fell 36% to $28.65 billion, even though revenue rose 27.5% to $241.6 billion. In the third quarter alone, free cash flow by Meta's own measure was negative $2.12 billion, and Meta raised the low end of its 2026 spending forecast to $135 billion.
-2. Operating income slipped to $79.38 billion from $81.89 billion, and the operating margin fell to 32.9% from 43.2%.
+2. Operating income slipped to $79.38 billion from $81.90 billion, partly on a $9.89 billion legal charge in the third quarter, and the operating margin fell to 32.9% from 43.2%.
 3. Meta bought back no stock in the first nine months of 2026, against $26.25 billion a year earlier. On Monday it said it plans to sell up to $95 billion of new shares, which would shrink each existing holder's slice.
 
-At $630.56, Meta is worth $1.61 trillion. That is a reasonable 21.4 times net income, but 56 times free cash flow, a 1.8% yield, well below the 10-year Treasury. Meta is still very profitable; we just wouldn't pay that much for cash it is spending on construction.
+At $630.56, Meta is worth $1.61 trillion. That is a reasonable 21.4 times net income, but 56 times free cash flow, a 1.8% yield, well below the 10-year Treasury. Meta is still very profitable; we just wouldn't pay that much for cash it spends on construction.
 
 We'll rerun this screen in mid-November, once the third-quarter filings are in.

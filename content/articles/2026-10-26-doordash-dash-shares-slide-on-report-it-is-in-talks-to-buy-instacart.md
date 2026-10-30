@@ -1,6 +1,6 @@
 +++
 title = "DoorDash (DASH) Shares Slide on Report It Is in Talks to Buy Instacart"
-dek = "DoorDash fell 6.1% on Monday after The Wall Street Journal reported it is in advanced talks to buy delivery rival Instacart, in a deal Reuters valued at about $17 billion."
+dek = "DoorDash slid 6.1% on Monday after The Wall Street Journal reported it is in advanced talks to buy delivery rival Instacart, in a deal that a source told Reuters would value Instacart at about $17 billion."
 type = "why-it-moved"
 published = 2026-10-26T16:15:00-04:00
 author = "claire-okafor"
@@ -23,11 +23,11 @@ sources = [
 
 ## What happened
 
-Shares of DoorDash ($DASH), the restaurant- and grocery-delivery app, fell 6.1% on Monday after The Wall Street Journal reported that it is in advanced talks to buy Instacart, its rival in grocery delivery.
+Shares of DoorDash ($DASH), the restaurant- and grocery-delivery app, slid 6.1% on Monday after The Wall Street Journal reported that it is in advanced talks to buy Instacart, its rival in grocery delivery.
 
 A person familiar with the matter told Reuters the deal would value Instacart at about $17 billion and could be finalized as soon as Wednesday, though there is no guarantee. Bloomberg separately reported advanced talks at about the same price. Instacart, whose parent company is Maplebear, was worth about $13 billion at Friday's close, Reuters said, and its talks with Uber are no longer active.
 
-The talks were not a complete surprise: on Friday, The Information reported that Instacart was exploring a sale and had held early talks with DoorDash and Uber. Instacart's own shares rose on Monday, Reuters and CNBC reported. DoorDash closed at $168.44, down 6.1% from the previous close.
+The talks were not a complete surprise: on Friday, The Information reported that Instacart was exploring a sale and had held early talks with DoorDash and Uber. Instacart's own shares rose about 8% on Monday, Reuters and Investing.com reported. DoorDash closed at $168.44, down 6.1% from the previous close.
 
 ## Why it matters
 

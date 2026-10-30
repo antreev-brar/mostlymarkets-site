@@ -23,7 +23,7 @@ UPS (UPS) Q3 2026 highlights
 - **Adjusted EPS:** $1.69 vs analyst estimates of $1.63 (a 3.7% beat; LSEG via CNBC)
 - **GAAP EPS:** $1.37, after a net charge of $279 million
 - **US revenue per piece:** up 6.1%, while average daily US package volume fell 3.3% to about 15.6 million
-- **2026 guidance:** revenue of about $92.6 billion, up from about $91.2 billion; adjusted EPS of about $7.28
+- **2026 guidance:** revenue of about $92.6 billion, up from about $91.2 billion; adjusted EPS of about $7.28, up from about $7.22
 - **Q4 guidance:** revenue of about $25.7 billion and adjusted operating profit of about $3.3 billion
 ```
 
@@ -37,7 +37,7 @@ The international segment grew revenue 7.1% to $5.01 billion, with revenue per p
 
 ## The outlook
 
-UPS raised its full-year guidance for the second quarter in a row, CNBC reported. It now expects 2026 revenue of about $92.6 billion, up from about $91.2 billion, adjusted operating profit of about $8.75 billion, adjusted EPS of about $7.28 and adjusted free cash flow of about $6.1 billion.
+UPS raised its full-year guidance for the second quarter in a row, CNBC reported. It now expects 2026 revenue of about $92.6 billion, up from about $91.2 billion, adjusted operating profit of about $8.75 billion, up from about $8.65 billion, adjusted EPS of about $7.28, up from about $7.22, and adjusted free cash flow of about $6.1 billion.
 
 For the fourth quarter, the busiest of UPS's year, it expects revenue of about $25.7 billion, about 5% more than the $24.48 billion it reported a year earlier, by our calculation from its filings. It kept its plans for about $3.0 billion of capital spending and about $5.4 billion of dividends this year.
 
@@ -52,4 +52,4 @@ For the fourth quarter, the busiest of UPS's year, it expects revenue of about $
 
 ## Our take
 
-The good: UPS is earning more on each package while carrying fewer, which is the point of its turnaround, and that plan includes shrinking its Amazon volume, CNBC noted. A second guidance raise in a row says the strategy is working. The bad: the GAAP numbers still carry restructuring costs and a write-down, and US volume is still falling. What to watch is whether the holiday quarter delivers the $25.7 billion UPS now promises.
+The good: UPS is earning more on each package while carrying fewer, which is the point of a turnaround that included cutting its Amazon volume on purpose. A second guidance raise in a row says the strategy is working. The bad: the GAAP numbers still carry restructuring costs and a write-down, and US volume is still falling. What to watch is whether the holiday quarter delivers the $25.7 billion UPS now promises.

@@ -1,6 +1,6 @@
 +++
 title = "Nu Holdings (NU) and MercadoLibre (MELI) Shares Slide After Lula Wins in Brazil"
-dek = "Nu Holdings fell 17.0% and MercadoLibre 7.8% on Monday after President Lula won Brazil's runoff, unwinding bets on a Bolsonaro win. Brazil's main index fell 13.88%."
+dek = "Nu Holdings plunged 17.0% and MercadoLibre slid 7.8% on Monday after President Lula won Brazil's runoff, unwinding bets on a Bolsonaro win. Brazil's main index plunged 13.88%."
 type = "why-it-moved"
 published = 2026-10-26T16:15:00-04:00
 author = "theo-park"
@@ -25,9 +25,9 @@ sources = [
 
 ## What happened
 
-Shares of Nu Holdings ($NU), the Brazil-based owner of the digital bank Nubank, fell 17.0% on Monday, and MercadoLibre ($MELI), the online marketplace and payments company, fell 7.8%, after President Luiz Inácio Lula da Silva won Sunday's presidential runoff.
+Shares of Nu Holdings ($NU), the Brazil-based owner of the digital bank Nubank, plunged 17.0% on Monday, and MercadoLibre ($MELI), the online marketplace and payments company, slid 7.8%, after President Luiz Inácio Lula da Silva won Sunday's presidential runoff.
 
-Lula beat Senator Flávio Bolsonaro 51.8% to 48.2%, according to Brazil's electoral court, CNBC reported. Investors had bet on the other result. After Bolsonaro finished first in the opening round on 4 October, Brazilian stocks rallied on hopes of tighter government spending, and by Friday they stood almost 7% above their level before that vote, Al Jazeera and Nikkei Asia reported.
+Lula beat Senator Flávio Bolsonaro 51.8% to 48.2%, according to Brazil's electoral court, CNBC reported. Investors had bet on the other result. After Bolsonaro finished first in the opening round on 4 October, Brazilian stocks rallied on bets of a shift to the right, and by Friday they stood almost 7% above their level before that vote, Al Jazeera and Nikkei Asia reported.
 
 The whole market fell at once. Brazil's Bovespa index closed down 13.88%, its worst day since March 2020, and a 10% drop set off a 30-minute trading halt on the B3 exchange, Reuters reported. The real ended about 8% weaker against the dollar, and Bolsonaro refused to concede. Nu closed at $12.59, down 17.0% from the previous close, and MercadoLibre at $1,668.72, down 7.8%.
 
@@ -35,7 +35,7 @@ The whole market fell at once. Brazil's Bovespa index closed down 13.88%, its wo
 
 The worry is Brazil's budget: investors fear a fourth Lula term means more spending and less pressure to cut deficits. "Investors want a clear and credible commitment to fiscal discipline," Alejo Czerwonko of UBS Global Wealth Management told Reuters.
 
-For these two companies, the currency matters as much as the politics. Brazil is MercadoLibre's biggest market, Yahoo Finance noted, and both companies report in dollars, so a weaker real shrinks the dollar value of the same Brazilian sales. Neither company reported news of its own on Monday; they were sold along with the country.
+For these two companies, the currency matters as much as the politics. Brazil is MercadoLibre's biggest market, Yahoo Finance noted, and both companies report in dollars, so a weaker real shrinks the dollar value of the same Brazilian sales. Neither company was cited for news of its own on Monday; they were sold along with the country.
 
 ## What the market is telling us
 

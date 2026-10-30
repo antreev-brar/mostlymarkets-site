@@ -19,7 +19,7 @@ sources = [
 ]
 +++
 
-Visa ($V) reported fiscal fourth-quarter revenue of $12.14 billion for the three months to September, up 13% year on year, edging past the roughly $12.09 billion analysts expected, according to Investing.com. Adjusted earnings were $3.48 a share, up 17% and above the $3.44 expected, according to LSEG estimates cited by Reuters. The shares, which closed the regular session at $401.86, down 0.6%, slipped in after-hours trading as investors weighed next year's forecast, Reuters and Investing.com reported.
+Visa ($V) reported fiscal fourth-quarter revenue of $12.14 billion for the three months to September, up 13% year on year, edging past the roughly $12.09 billion analysts expected, according to Investing.com. Adjusted earnings were $3.48 a share, up 17% and above the $3.44 expected, according to LSEG estimates cited by Reuters. The shares, which closed the regular session at $401.86, down 0.6%, fell in after-hours trading as investors weighed next year's forecast, by about 1.4% according to Reuters and 2.3% according to Investing.com.
 
 ```highlights
 Visa (V) fiscal Q4 2026 highlights
@@ -33,7 +33,7 @@ Visa (V) fiscal Q4 2026 highlights
 
 ## What stood out
 
-Travel spending was the bright spot. Cross-border volume excluding transactions within Europe, which drives Visa's international transaction revenue, rose 14% in constant dollars, Visa said. Overall payments volume grew 9%, and processed transactions rose 10% to 74.2 billion.
+Cross-border spending, a gauge of international travel, was the bright spot, Reuters reported. Cross-border volume excluding transactions within Europe, which drives Visa's international transaction revenue, rose 14% in constant dollars, Visa said. Overall payments volume grew 9%, and processed transactions rose 10% to 74.2 billion.
 
 Every revenue line grew. Data processing revenue rose 16% to $6.2 billion, service revenue 14% to $5.3 billion, international transaction revenue 8% to $4.1 billion and other revenue 40% to $1.6 billion. Client incentives, the payments Visa makes to banks and merchants to win and keep their business, rose 21% to $5.1 billion. Visa subtracts them from its revenue, so incentives growing faster than the business hold back the top line.
 
@@ -41,7 +41,7 @@ Every revenue line grew. Data processing revenue rose 16% to $6.2 billion, servi
 
 ## The outlook
 
-For fiscal 2027, which ends in September 2027, Visa expects net revenue to grow in the low double digits and adjusted EPS to grow in the low double digits to low teens, on an adjusted constant-dollar basis, according to its results presentation. That is slower than fiscal 2026, when adjusted EPS rose 16% to $13.27. For the December quarter, it expects EPS growth at the low end of the mid-teens.
+For fiscal 2027, which ends in September 2027, Visa expects net revenue to grow in the low double digits and adjusted EPS to grow in the low double digits to low teens, on an adjusted constant-dollar basis, according to its results presentation. That is slower than fiscal 2026, when adjusted EPS rose 16% to $13.27. For the December quarter, it expects adjusted EPS growth at the low end of the mid-teens.
 
 Investing.com said the weaker growth outlook overshadowed the beat. Visa also kept returning cash: it spent $5.2 billion on buybacks and dividends in the quarter.
 
@@ -56,4 +56,4 @@ Investing.com said the weaker growth outlook overshadowed the beat. Visa also ke
 
 ## Our take
 
-The good: 13% revenue growth at Visa's size, with cross-border travel still accelerating and a 16% dividend increase. The bad: incentives paid to clients are rising faster than revenue, and the 2027 guide implies earnings growth slowing from 16% to the low teens at best. What to watch next quarter is whether payments volume holds at about 9% growth, the clearest read on how much consumers are still spending.
+The good: 13% revenue growth at Visa's size, with cross-border volume up 14% and a 16% dividend increase. The bad: incentives paid to clients are rising faster than revenue, and the 2027 guide implies earnings growth slowing from 16% to the low teens at best. What to watch next quarter is whether payments volume holds at about 9% growth, the clearest read on how much consumers are still spending.

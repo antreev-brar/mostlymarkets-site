@@ -1,6 +1,6 @@
 +++
 title = "General Motors (GM) Shares Jump After It Moves Its Listing to the Nasdaq"
-dek = "GM rose 5.5% on Tuesday, its best day since January, after saying it will move its stock listing from the NYSE to the Nasdaq on 17 November, making it eligible for the Nasdaq-100."
+dek = "GM jumped 5.5% on Tuesday, its best day since January, after saying it will move its stock listing from the NYSE to the Nasdaq on 17 November, making it eligible for the Nasdaq-100."
 type = "why-it-moved"
 published = 2026-10-27T16:15:00-04:00
 author = "claire-okafor"
@@ -30,9 +30,9 @@ GM's last day of trading on the NYSE will be 16 November, and it expects to star
 
 ## Why it matters
 
-Nothing about GM's trucks, factories or profits changes. What changes is which index the stock can join. A Nasdaq listing makes GM eligible for the Nasdaq-100, GM said, and 24/7 Wall St. and TipRanks both tied Tuesday's rise to that possibility; TipRanks noted that inclusion is not guaranteed.
+Nothing about GM's trucks, factories or profits changes. What changes is which index the stock can join. A Nasdaq listing makes GM eligible for the Nasdaq-100, GM said, and 24/7 Wall St. tied Tuesday's rise to that possibility, though Fox Business noted that inclusion is not guaranteed.
 
-The Nasdaq-100 holds the 100 largest non-financial companies listed on the Nasdaq, and funds that track it would have to buy GM's shares if it gets in. Traders were buying ahead of that possible demand, which is a bet on a decision the index's rules, not GM, will make.
+The Nasdaq-100 tracks 100 of the largest non-financial companies listed on the Nasdaq, according to Fox Business, and funds that track it would have to buy GM's shares if it gets in, TipRanks and 24/7 Wall St. said. Traders were buying ahead of that possible demand, which is a bet on a decision the index's rules, not GM, will make.
 
 ## What the market is telling us
 
