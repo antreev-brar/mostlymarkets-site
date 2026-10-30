@@ -78,9 +78,11 @@ def main() -> None:
         stale = bool(bars) and bars[-1]["date"] < prev.isoformat() and now.hour >= 6
     except Exception:  # noqa: BLE001
         pass
-    if (stale or (now.hour >= 18 and now.weekday() < 5)) and not done_today("history"):
+    evening = now.hour >= 18 and now.weekday() < 5
+    key = "history" if evening else "history-catchup"
+    if (stale or evening) and not done_today(key):
         run(["pipeline/marketdata.py", "history"])
-        mark("history")
+        mark(key)
     if now.hour >= 5 and not done_today("fundamentals") and (md.ROOT / "pipeline/fundamentals.py").exists():
         if now.weekday() == 6:
             run(["pipeline/fundamentals.py"])
