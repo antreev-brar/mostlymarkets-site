@@ -55,7 +55,7 @@ Profitability was the problem. The adjusted operating margin slipped about 0.4 p
 
 Trane raised its 2026 forecast for organic revenue growth to about 11%, or about 13.5% including currency and acquisitions. It kept its adjusted earnings forecast at $15.20 to $15.30 a share and guided to about $3.40 to $3.50 for the fourth quarter, according to the release and Investing.com.
 
-That combination, more sales with no more profit, is what greeted investors. Investing.com's coverage of the results set the share drop against the unchanged earnings forecast and the pressure on margins. For a stock that had run up on the data center story, a beat with no raise to profit guidance was not enough.
+That combination, more sales with no more profit, is what greeted investors. Investing.com's coverage of the results set the share drop against the unchanged earnings forecast and the pressure on margins. A beat on both lines, it turned out, was not enough without a higher profit target.
 
 ```chart
 {"kind": "price", "ticker": "TT", "range": "1y", "end": "2026-10-29",
