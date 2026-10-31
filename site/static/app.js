@@ -224,7 +224,8 @@
     var n = idx.n.filter(function (x) { return x[0].toLowerCase().indexOf(q) > -1; }).slice(0, 6);
     var h = s.map(function (x) {
       var lg = x[3] ? '<span class="lg"><img src="' + B + 'static/logos/' + x[0] + '.png" alt=""></span>' : '<span class="lg"><b>' + esc(x[0].slice(0, 4)) + '</b></span>';
-      return '<a href="' + B + 'stocks/' + x[0] + '/">' + lg + '<b>' + x[0] + "</b>" + esc(x[1]) + '<span class="sec">' + esc(x[2]) + "</span></a>";
+      var rt = x[4] ? '<span class="rt good">' + esc(x[4]) + "</span>" : "";
+      return '<a href="' + B + 'stocks/' + x[0] + '/">' + lg + '<b>' + x[0] + "</b>" + esc(x[1]) + rt + '<span class="sec">' + esc(x[2]) + "</span></a>";
     }).join("");
     h += n.map(function (x) { return '<a href="' + B + x[1] + '">' + esc(x[0]) + '<span class="sec">' + esc(x[2]) + "</span></a>"; }).join("");
     res.innerHTML = h || '<div class="hint">Nothing found.</div>';
@@ -265,6 +266,13 @@
     var q = tf.value.trim().toLowerCase();
     $$("table.big tbody tr").forEach(function (r) { r.hidden = q && r.textContent.toLowerCase().indexOf(q) === -1; });
   });
+  /* Discover: show a whole group */
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest("[data-more]"); if (!b) return;
+    var g = b.closest(".grp"); g.classList.toggle("open");
+    b.textContent = g.classList.contains("open") ? "Show fewer" : "Show all " + g.querySelectorAll(".sk").length;
+  });
+
   /* copy a take's link */
   document.addEventListener("click", function (e) {
     var b = e.target.closest && e.target.closest("[data-copy]"); if (!b) return;

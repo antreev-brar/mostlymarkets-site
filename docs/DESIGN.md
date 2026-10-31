@@ -70,3 +70,34 @@ The brief: make it addictive for people who scroll. Daily editions with stories 
   - House style is a torn-paper halftone collage in our palette: navy ink, cobalt `#3355ff` and lemon `#ffe45c` on warm paper. Red and green appear only as chart lines.
   - Opening Bell Daily uses red/navy/cream with photo cut-outs of real executives. We never depict real people, logos or text: covers are symbolic scenes.
   - Prompt prefix in `pipeline/covers.py`. Briefs come from the writer (`cover_brief`); `.github/workflows/covers.yml` draws them after each push when the `OPENAI_API_KEY` secret is set.
+
+## v4 (31 Oct 2026): one calm system
+
+The user's feedback on v3:
+- the hover colour changes felt cheap
+- Discover's mover charts were useless, and the earnings calendar had too many numbers
+- StockStory's home lets you see the top stories, discover stocks and their ratings in one place, carrying the same design all the way down
+
+They want Apple-style minimalism: a lot in one place, but not so many numbers that you don't know where to look. In articles, the number in focus should stand out, as it does in Carbon Finance.
+
+- **Hovers:** none change colour or lift a card. Cards are plain links, like StockStory's. Buttons dim slightly, links underline, and ghost buttons get a faint grey fill.
+- **Home is the hub.** One section frame (serif title, one-line intro, "See all →") and one story tile (picture, logos and type, headline, two-line dek, one price tag), in this order:
+  1. the Stories rail
+  2. top stories (the lead plus three tiles)
+  3. The Daily
+  4. Earnings this week (logos)
+  5. Discover (rated stock cards)
+  6. latest stories in a three-up grid
+  On phones the tiles become compact rows and the Discover cards swipe.
+- **Ratings, descriptive and never buy/sell.** Tags come from the sector-relative scores:
+  - quality: "High quality" (green) or "Solid business" (grey)
+  - price: "Cheaper than peers" (blue), "Pricier than peers" (pink) or "No profits yet"
+  - list tags: "Fast grower" (amber) and "Cash machine" (teal)
+  They show on Discover, the stock hero and search.
+- **Discover:** StockStory's shape, with our data.
+  - Tabs: High quality, Cheaper than peers, Fast growers, Cash machines and Our picks.
+  - Cards are grouped by sector, three per row with "Show all".
+  - Each card: logo, tags, name, industry, and one or two plain sentences on why it stands out, with at most two numbers (`why_line`).
+  - No price charts.
+- **Earnings:** logo tiles only, for companies worth $25 billion or more, biggest first, with a Preview or Recap tag when we've written one. No EPS figures.
+- **Articles:** the figure a section is about gets a highlighter mark (`strong.fig`). The build marks the price move, or else the first figure, in each opening paragraph that has no bold. Cashtags are quiet grey text instead of chips.

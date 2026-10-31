@@ -432,7 +432,7 @@ def chips(s: Story, limit=3) -> str:
         return ""
     extra = len(s.moves) - limit
     return '<span class="pcs">' + "".join(chip(m) for m in s.moves[:limit]) + (
-        f'<span class="pc">+{extra}</span>' if extra > 0 else "") + "</span>"
+        f'<span class="pc">+{extra}</span>' if extra > 0 and limit > 1 else "") + "</span>"
 
 
 def cover_img(key: str, size: int, cls: str = "", lazy=True, alt=True) -> str:
@@ -453,7 +453,7 @@ def row(s: Story) -> str:
             f'<a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a><div>'
             f'<div class="c-top">{logos(s.tickers)}<span class="tag">{TYPE_LABEL[s.type]}</span>{time_tag(s)}</div>'
             f'<h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p>'
-            f'<div class="c-ft">{chips(s)}<span class="by">{esc(s.author["name"])}</span>{time_tag(s)}<span class="hide-m">· {s.minutes} min read</span></div></div>'
+            f'<div class="c-ft">{chips(s, 1)}{time_tag(s)}</div></div>'
             f'<div class="th">{cover_img(s.cover, 480)}</div></article>')
 
 
@@ -963,24 +963,6 @@ def story_rail(groups: list[dict]) -> str:
     return f'<section class="rail wrap" aria-label="Stories"><div class="rail-in">{items}</div></section>{story_templates(groups)}'
 
 
-def daily_hero(s: Story) -> str:
-    render_body(s)
-    lis = "".join(f'<li><a href="{u(s.path)}#{tk["id"]}"><b>{tk["n"]}</b><span>{esc(tk["title"])}</span></a></li>' for tk in s.takes[:5])
-    return f"""<section class="wrap dhero"><article class="dh">
- <a class="dh-cv" href="{u(s.path)}" aria-label="{esc(s.title)}">{cover_img(s.cover, 1600, lazy=False)}<span class="dh-badge">Mostly Markets <b>Daily</b> · No. {s.edition}</span></a>
- <div class="dh-tx"><div class="dh-k">{esc(long_date(s.pub.date()))}</div><h1><a href="{u(s.path)}">{esc(s.title)}</a></h1><p class="dek">{esc(s.dek)}</p>
- <ol class="dh-takes">{lis}</ol>
- <div class="dh-acts"><a class="btn" href="{u(s.path)}">Read the edition</a><button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through it</span></button></div></div>
-</article></section>"""
-
-
-def take_card(s: Story, tk: dict) -> str:
-    vis, text = take_parts(tk)
-    return (f'<article class="card takecard" data-type="daily"><div class="tc-top"><span class="tag dl">From The Daily</span>'
-            f'<span class="tc-n">{tk["n"]}/{tk["total"]}</span></div><h3><a href="{u(s.path)}#{tk["id"]}">{esc(tk["title"])}</a></h3>'
-            f'{vis}<p class="dk">{esc(clip(text, 240))}</p><a class="tc-more" href="{u(s.path)}#{tk["id"]}">Read the take in today’s edition</a></article>')
-
-
 # ---------------------------------------------------------------------- home / feed
 
 def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
@@ -1005,6 +987,29 @@ def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
     return lead, tops
 
 
+def tile(s: Story, size: int = 800) -> str:
+    """The home page's one story card: picture on top, logos and type, headline, two-line dek, one price tag."""
+    return (f'<article class="tile" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
+            f'<div class="th">{cover_img(s.cover, size)}</div><div class="tx"><div class="c-top">{logos(s.tickers, 28)}<span class="tag">{TYPE_LABEL[s.type]}</span>'
+            f'<time datetime="{s.pub.isoformat()}" data-rel>{s.pub.day} {MON[s.pub.month - 1]}</time></div><h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p><div class="c-ft">{chips(s, 1)}</div></div></article>')
+
+
+def hsec(title: str, inner: str, more: tuple[str, str] | None = None, sub: str = "", cls: str = "") -> str:
+    link = f'<a class="see" href="{u(more[0])}">{esc(more[1])}</a>' if more else ""
+    return (f'<section class="wrap hsec{(" " + cls) if cls else ""}"><div class="hsec-h"><div><h2>{esc(title)}</h2>'
+            f'{f"<p>{esc(sub)}</p>" if sub else ""}</div>{link}</div>{inner}</section>')
+
+
+def daily_card(s: Story) -> str:
+    render_body(s)
+    lis = "".join(f'<li><a href="{u(s.path)}#{tk["id"]}"><b>{tk["n"]}</b>{esc(tk["title"])}</a></li>' for tk in s.takes[:4])
+    return (f'<article class="lead dly"><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
+            f'<div class="cv">{cover_img(s.cover, 1600)}</div><div class="tx"><div class="c-top"><span class="ed-name">Mostly Markets <b>Daily</b></span>'
+            f'<span class="meta">{esc(day_title(s.pub.date()))} · No. {s.edition}</span></div><h2>{esc(s.title)}</h2>'
+            f'<ol class="tks">{lis}</ol><div class="acts"><a class="btn" href="{u(s.path)}">Read the edition</a>'
+            f'<button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through</span></button></div></div></article>')
+
+
 def home_pages():
     size = CFG["feed_page_size"]
     lead, tops = pick_lead([x for x in STORIES if x.type != "daily"])
@@ -1012,52 +1017,42 @@ def home_pages():
     skip = {id(lead)} | {id(x) for x in tops} | ({id(hero)} if hero else set())
     feed = [s for s in STORIES if id(s) not in skip]
     pages = max(1, math.ceil(len(feed) / size))
-    chips_ = "".join(f'<button class="chip" type="button" data-filter="{k}" aria-pressed="{"true" if k == "all" else "false"}">{n}</button>'
-                     for k, n in FILTERS)
-    takes_for_feed = [tk for tk in (render_body(hero) and hero.takes if hero else []) if take_parts(tk)[0]][:3]
     for pi in range(pages):
         items = feed[pi * size:(pi + 1) * size]
-        top_html = ""
+        parts = []
         if pi == 0 and lead:
-            tops_html = "".join(
-                f'<article class="top"><a class="cover-link" href="{u(t.path)}" aria-label="{esc(t.title)}"></a>'
-                f'<div class="th">{cover_img(t.cover, 800)}</div><div class="tx"><div class="c-top" style="display:flex;gap:8px;align-items:center">'
-                f'{logos(t.tickers, 28)}<span class="tag">{TYPE_LABEL[t.type]}</span></div><h2>{esc(t.title)}</h2><p>{esc(t.dek)}</p>'
-                f'<div class="c-ft">{chips(t)}</div></div></article>' for t in tops)
-            top_html = story_rail(story_groups()) + (daily_hero(hero) if hero else "")
-            top_html += f"""<section class="wrap home-top"><article class="lead"><a class="cover-link" href="{u(lead.path)}" aria-label="{esc(lead.title)}"></a>
+            parts.append(story_rail(story_groups()))
+            parts.append(f"""<section class="wrap home-top"><article class="lead"><a class="cover-link" href="{u(lead.path)}" aria-label="{esc(lead.title)}"></a>
  <div class="cv">{cover_img(lead.cover, 1600, lazy=False)}</div>
- <div class="tx"><div class="c-top">{logos(lead.tickers, 36)}<span class="kick hl">{TYPE_LABEL[lead.type]}</span></div><h1>{esc(lead.title)}</h1><p class="dek">{esc(lead.dek)}</p>
- {chips(lead, 4)}<div class="meta">{time_tag(lead)}<span>·</span><span>{esc(lead.author['name'])}</span><span>·</span><span>{lead.minutes} min read</span></div></div></article>
- <div class="tops">{tops_html}</div></section>"""
-        rows_html = []
-        last_day = None
-        for i, s in enumerate(items):
-            d = s.pub.date()
-            if d != last_day:
-                rows_html.append(f'<div class="day"><span>{day_title(d)}</span><small>{sum(1 for x in items if x.pub.date() == d)} stories</small></div>')
-                last_day = d
-            rows_html.append(row(s))
-            if pi == 0 and i == 5:
-                rows_html.append(subscribe_box(wide=True))
-            if pi == 0 and i in (2, 9, 16) and takes_for_feed:
-                rows_html.append(take_card(hero, takes_for_feed.pop(0)))
+ <div class="tx"><div class="c-top">{logos(lead.tickers, 32)}<span class="tag">{TYPE_LABEL[lead.type]}</span></div><h1>{esc(lead.title)}</h1><p class="dek">{esc(lead.dek)}</p>
+ <div class="meta">{chips(lead, 1)}{time_tag(lead)}</div></div></article>
+ <div class="tiles t3">{"".join(tile(t) for t in tops)}</div></section>""")
+            if hero:
+                parts.append(hsec("The Daily", daily_card(hero), ("daily/", "All editions"),
+                                  "The story behind the market every morning, in charts."))
+            start = week_start(NOW.date())
+            parts.append(hsec("Earnings this week" if NOW.weekday() < 5 else "Earnings next week", earnings_days([start + dt.timedelta(days=i) for i in range(5)], 6),
+                              ("earnings/", "Full calendar"), "The big reporters. Tap a logo for our preview or recap."))
+            dl = discover_lists_cache()
+            hq = dl[0][6]
+            k = NOW.toordinal() % max(1, len(hq) // 3)
+            pick3 = (hq[k * 3:k * 3 + 3] if len(hq) >= 3 else hq) or hq[:3]
+            pills = "".join(f'<a href="{u("discover/" + key)}">{esc(tab)}</a>' for key, tab, *_ in dl) + f'<a href="{u("discover/picks/")}">Our picks</a>'
+            parts.append(hsec("Discover", f'<div class="pills">{pills}</div><div class="sks">{"".join(stock_card(t) for t in pick3)}</div>',
+                              ("discover/", "Explore"), "High-quality businesses, cheaper than their peers, growing fast, or throwing off cash."))
+        tiles_html = "".join(tile(s) for s in items)
         nav = []
         if pi > 0:
             nav.append(f'<a class="btn ghost" href="{u("" if pi == 1 else f"page/{pi}/")}">Newer stories</a>')
         if pi < pages - 1:
-            nav.append(f'<a class="btn ghost" href="{u(f"page/{pi + 2}/")}">Older stories</a>')
-        body = f"""{top_html}
-<section class="wrap"><div class="feed-wrap"><div class="feed">
- <div class="feed-head"><h2>{"Latest stories" if pi == 0 else f"Latest stories, page {pi + 1}"}</h2></div>
- <div class="chips" role="toolbar" aria-label="Filter stories">{chips_}</div>
- <div class="cards-col">{''.join(rows_html)}</div>
- <p class="empty" hidden></p>
- <div class="more">{''.join(nav)}</div>
-</div></div></section>"""
+            nav.append(f'<a class="btn ghost" href="{u(f"page/{pi + 2}/")}">More stories</a>')
+        parts.append(hsec("Latest stories" if pi == 0 else f"Latest stories, page {pi + 1}",
+                          f'<div class="tiles t3 feed">{tiles_html}</div><div class="more">{"".join(nav)}</div>'))
+        if pi == 0:
+            parts.append(f'<div class="wrap">{subscribe_box(wide=True)}</div>')
         path = "" if pi == 0 else f"page/{pi + 1}/"
         title = CFG["name"] + (": " + CFG["tagline"] if pi == 0 else f" | Latest stories, page {pi + 1}")
-        write(path, page(path, title, body, CFG["tagline"] + " Why-it-moved stories, earnings, and our picks.",
+        write(path, page(path, title, "\n".join(parts), CFG["tagline"] + " Why-it-moved stories, earnings, and our picks.",
                          f"static/covers/{lead.cover}-1600.webp" if lead else None, active=""))
     return pages
 
@@ -1066,6 +1061,7 @@ def home_pages():
 
 SECTOR_MED: dict[str, dict] = {}
 SCORES: dict[str, dict] = {}
+PCT: dict[str, dict] = {}  # each stock's percentile within its sector, per metric (0 = lowest, 1 = highest)
 QUALITY_KEYS = ("revenue_growth_yoy_pct", "gross_margin_pct", "operating_margin_pct", "fcf_margin_pct")
 
 
@@ -1112,6 +1108,7 @@ def compute_sector_medians():
         cols = {k: [ttm(t)[k] for t in ts if ttm(t).get(k) is not None] for k in keys}
         mults = {kind: [(Q.get(t) or {}).get(kind) for t in ts if ((Q.get(t) or {}).get(kind) or 0) > 0] for kind in ("fpe", "pe")}
         for t in ts:
+            PCT[t] = {k: pctile(cols[k], ttm(t)[k]) for k in keys if ttm(t).get(k) is not None and len(cols[k]) > 4}
             ps = [pctile(cols[k], ttm(t)[k]) for k in QUALITY_KEYS if ttm(t).get(k) is not None and len(cols[k]) > 4]
             if len(ps) < 2 and ttm(t).get("net_margin_pct") is not None and len(cols["net_margin_pct"]) > 4:
                 ps.append(pctile(cols["net_margin_pct"], ttm(t)["net_margin_pct"]))  # banks and insurers report no gross/operating margin
@@ -1125,6 +1122,89 @@ def band(score):
     if score is None:
         return None
     return "good" if score >= 0.33 else "bad" if score <= -0.33 else "mid"
+
+
+# ---------------------------------------------------------------------- ratings (descriptive, never buy/sell)
+
+RATING_ICON = {
+    "quality": '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6 3h4v10H6zM1 8h4v5H1zm10-2h4v7h-4z"/></svg>',
+    "price": '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8.6 1.5H14v5.4l-7.2 7.2a1 1 0 0 1-1.4 0L1.9 10.6a1 1 0 0 1 0-1.4zM11.5 5.6a1.1 1.1 0 1 0 0-2.2 1.1 1.1 0 0 0 0 2.2z"/></svg>',
+    "growth": '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12l4-4 3 3 5-6M10 5h4v4"/></svg>',
+    "cash": '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="6.5"/><path d="M8.6 4.5v.8c.9.2 1.5.8 1.6 1.6H9c-.1-.4-.4-.6-1-.6-.6 0-.9.2-.9.6 0 .3.3.5 1.1.7 1.3.3 2 .8 2 1.8 0 .9-.7 1.5-1.6 1.7v.8H7.4v-.8c-1-.2-1.7-.9-1.7-1.8h1.2c.1.5.5.8 1.1.8.6 0 1-.3 1-.7 0-.3-.3-.5-1.1-.7-1.2-.3-1.9-.8-1.9-1.8 0-.8.6-1.4 1.6-1.6v-.8z" fill="#fff"/></svg>',
+}
+
+
+def ratings(t: str) -> list[tuple[str, str, str]]:
+    """(css tone, icon, label) tags for a stock, from its sector-relative scores. Descriptive only."""
+    sc = SCORES.get(t) or {}
+    out = []
+    qb, vb = band(sc.get("q")), band(sc.get("v"))
+    if qb == "good":
+        out.append(("good", "quality", "High quality"))
+    elif qb == "mid":
+        out.append(("mid", "quality", "Solid business"))
+    if sc.get("kind") is None and sc.get("v") is not None:
+        out.append(("bad", "price", "No profits yet"))
+    elif vb == "good":
+        out.append(("good-2", "price", "Cheaper than peers"))
+    elif vb == "bad":
+        out.append(("bad", "price", "Pricier than peers"))
+    return out
+
+
+def rating_chips(t: str, extra: list | None = None, limit: int = 2) -> str:
+    tags = (extra or []) + ratings(t)
+    return "".join(f'<span class="rt {tone_}">{RATING_ICON[ic]}{esc(lab)}</span>' for tone_, ic, lab in tags[:limit])
+
+
+SECTOR_NOUN = {"Information Technology": "tech", "Health Care": "health-care", "Financials": "financial",
+               "Consumer Discretionary": "consumer", "Communication Services": "media and telecom", "Industrials": "industrial",
+               "Consumer Staples": "consumer-staples", "Energy": "energy", "Utilities": "utility", "Real Estate": "real-estate",
+               "Materials": "materials"}
+
+
+def rank_words(p: float) -> str:
+    return "almost all" if p >= 0.9 else "most"
+
+
+def than(p: float | None, text: str) -> str:
+    """A comparison clause, only when it's true of most peers."""
+    return f", {text.format(rank_words(p))}" if p is not None and p >= 0.7 else ""
+
+
+def why_line(t: str, focus: str = "quality") -> str:
+    """One or two plain sentences on why a stock stands out, with at most two numbers."""
+    m, pc = ttm(t), PCT.get(t, {})
+    noun = SECTOR_NOUN.get(UMAP[t]["sector"], "")
+    parts = {}
+    g = m.get("revenue_growth_yoy_pct")
+    if g is not None and pc.get("revenue_growth_yoy_pct") is not None:
+        parts["growth"] = (pc["revenue_growth_yoy_pct"], f"Sales grew {g:.0f}% over the past year{than(pc['revenue_growth_yoy_pct'], 'faster than {} ' + noun + ' companies we cover')}.")
+    f = m.get("fcf_margin_pct")
+    if f is not None and f > 0 and pc.get("fcf_margin_pct") is not None:
+        parts["cash"] = (pc["fcf_margin_pct"], f"It turns {f:.0f} cents of every sales dollar into free cash.")
+    o = m.get("operating_margin_pct")
+    if o is not None and o > 0 and pc.get("operating_margin_pct") is not None:
+        parts["margin"] = (pc["operating_margin_pct"], f"It keeps {o:.0f} cents of each sales dollar as operating profit{than(pc['operating_margin_pct'], 'more than {} peers')}.")
+    gm = m.get("gross_margin_pct")
+    if gm is not None and gm > 0 and pc.get("gross_margin_pct") is not None:
+        parts["gross"] = (pc["gross_margin_pct"] - 0.05, f"It keeps {gm:.0f} cents of each sales dollar after the cost of what it sells.")
+    n = m.get("net_margin_pct")
+    if n is not None and n > 0 and pc.get("net_margin_pct") is not None and "margin" not in parts:
+        parts["net"] = (pc["net_margin_pct"] - 0.02, f"It keeps {n:.0f}% of its revenue as profit{than(pc['net_margin_pct'], 'more than {} peers')}.")
+    sc = SCORES.get(t) or {}
+    med = SECTOR_MED.get(UMAP[t]["sector"], {}).get(sc.get("kind") or "")
+    if sc.get("mult") and med and sc["mult"] < med:
+        basis = "next year's" if sc["kind"] == "fpe" else "the past year's"
+        parts["value"] = (1 - sc["mult"] / med / 2, f"At {sc['mult']:.0f} times {basis} earnings, it costs less than the {noun} median of {med:.0f} times.")
+    first = {"growth": "growth", "cash": "cash", "value": "value"}.get(focus)
+    order = sorted(parts, key=lambda k: -parts[k][0])
+    if first in parts:
+        order = [first] + [k for k in order if k != first]
+    a, b = [parts[k][1] for k in order[:2]] + [""] * (2 - len(order[:2]))
+    if b.startswith("It ") and a.startswith("It "):
+        b = "It also " + b[3:]
+    return (a + " " + b).strip()
 
 
 def qlabel(q) -> str:
@@ -1421,7 +1501,8 @@ def stock_page(t: str) -> str:
  <div class="crumbs"><a class="kick" href="{u('stocks/')}">Stocks</a><span class="kick">/</span><a class="kick" href="{u('sectors/' + slugify(x['sector']) + '/')}">{esc(x['sector'])}</a><span class="kick hide-m">/</span><span class="kick hide-m">{esc(x['industry'])}</span></div>
  <div class="sp-hero">
   <div><div class="sp-id">{logo(t, 64)}<div><h1>{esc(name)}<small>{t}</small></h1>
-   <div class="sect">{esc(x['industry'])}{(' · ' + esc(x['hq'])) if x.get('hq') else ''}{' · In the S&amp;P 500' if 'S&P 500' in x.get('index', []) else ''}</div></div></div>
+   <div class="sect">{esc(x['industry'])}{(' · ' + esc(x['hq'])) if x.get('hq') else ''}{' · In the S&amp;P 500' if 'S&P 500' in x.get('index', []) else ''}</div>
+   {f'<div class="rts">{rating_chips(t)}</div>' if ratings(t) else ''}</div></div>
    <div class="px"><b data-live="{t}" data-k="price">{money(price)}</b><span class="chg {tone(chg)}" data-live="{t}" data-k="chg">{pct(chg)}</span>{ext_html}<span class="asof">{esc(asof)}</span></div>
   </div>
   <div><button class="btn" type="button" data-follow="{t}" aria-pressed="false">{ICON['plus']}<span>Follow</span></button></div>
@@ -1456,79 +1537,85 @@ def week_change(t):
     return (bars[-1]["close"] / before[-1]["close"] - 1) * 100 if before else None
 
 
-def card(t, metric_label, metric_value, tone_v=None) -> str:
+def stock_card(t: str, focus: str = "quality", extra: list | None = None, hidden: bool = False) -> str:
+    """The Discover card: logo and rating tags, the name, the industry, and one plain line on why it stands out."""
     x = UMAP[t]
-    q = Q.get(t) or {}
-    sp = C.spark([b["close"] for b in prices(t)[-63:]], 240, 44)
-    return (f'<a class="sc" href="{u(tpath(t))}"><div class="r1">{logo(t, 40)}<div class="id"><b>{t}</b><span>{esc(x["name"])}</span></div>'
-            f'<div class="cg">{money(q.get("price"))}<small class="{tone(q.get("change_pct"))}">{pct(q.get("change_pct"), 1)}</small></div></div>'
-            f'{sp}<div class="ml">{esc(metric_label)} <b class="{tone(tone_v) if tone_v is not None else ""}">{metric_value}</b></div></a>')
+    return (f'<a class="sk{" more" if hidden else ""}" href="{u(tpath(t))}"><div class="sk-top">{logo(t, 44)}<span class="rts">{rating_chips(t, extra)}</span></div>'
+            f'<h3>{esc(x["name"])}</h3><div class="sk-ind">{esc(x["industry"])}</div><p>{esc(why_line(t, focus))}</p></a>')
 
 
 def discover_lists():
-    sp = [x["ticker"] for x in UNIV if "S&P 500" in x.get("index", [])]
-    allt = [x["ticker"] for x in UNIV]
-    wk = {t: week_change(t) for t in allt}
-    lists = []
-    g = sorted([t for t in allt if wk[t] is not None], key=lambda t: -wk[t])
-    lists.append(("gainers-this-week", "Biggest gainers this week", "The stocks up most since last Friday's close.",
-                  [(t, "This week", pct(wk[t], 1), wk[t]) for t in g[:30]]))
-    lists.append(("losers-this-week", "Biggest losers this week", "The stocks down most since last Friday's close.",
-                  [(t, "This week", pct(wk[t], 1), wk[t]) for t in g[::-1][:30]]))
-    hi = []
-    for t in sp:
-        b = prices(t)[-252:]
-        if len(b) > 200:
-            m = max(x["close"] for x in b)
-            off = (1 - b[-1]["close"] / m) * 100
-            hi.append((t, off))
-    near = sorted([h for h in hi if h[1] <= 1.5], key=lambda h: -(ytd(h[0]) or 0))
-    lists.append(("near-highs", "At or near a 52-week high", "S&P 500 stocks within 1.5% of their highest close in a year, best year first.",
-                  [(t, "Year to date", pct(ytd(t), 1), ytd(t)) for t, _ in near[:30]]))
-    down = sorted([h for h in hi if h[1] >= 30 and ((Q.get(h[0]) or {}).get("cap") or 0) > 2e10], key=lambda h: -h[1])
-    lists.append(("beaten-down", "Beaten down", "Large S&P 500 companies at least 30% below their 52-week high.",
-                  [(t, "Below 52-week high", f"−{off:.1f}%", -off) for t, off in down[:30]]))
-    gr = sorted([t for t in sp if (ttm(t).get("revenue_growth_yoy_pct") is not None and (ttm(t).get("revenue") or 0) > 1e9)],
-                key=lambda t: -ttm(t)["revenue_growth_yoy_pct"])
-    if gr:
-        lists.append(("fastest-growers", "Fastest growers", "S&P 500 companies with the fastest revenue growth over the last 12 months (revenue over $1 billion).",
-                      [(t, "Revenue growth", pct(ttm(t)["revenue_growth_yoy_pct"], 1), ttm(t)["revenue_growth_yoy_pct"]) for t in gr[:30]]))
-    cm = sorted([t for t in sp if (ttm(t).get("fcf_margin_pct") or 0) >= 25 and (ttm(t).get("revenue_growth_yoy_pct") or 0) > 5
-                 and (ttm(t).get("revenue") or 0) > 1e9], key=lambda t: -ttm(t)["fcf_margin_pct"])
-    if cm:
-        lists.append(("cash-machines", "Cash machines", "Free cash flow of at least 25 cents per dollar of sales, with sales still growing.",
-                      [(t, "Free cash flow margin", pct(ttm(t)["fcf_margin_pct"], 1, sign=False), None) for t in cm[:30]]))
-    return lists
+    """Discover's lists: quality first, then price, growth and cash. Each is (key, tab, title, intro, focus, extra tag, tickers)."""
+    cap = lambda t: (Q.get(t) or {}).get("cap") or 0  # noqa: E731
+    pool = [t for t in UMAP if t not in SECOND_CLASS and SCORES.get(t) and cap(t) > 5e9]
+    q = lambda t: SCORES[t].get("q")  # noqa: E731
+    v = lambda t: SCORES[t].get("v")  # noqa: E731
+    hq = [t for t in pool if band(q(t)) == "good"]
+    cheap = [t for t in pool if band(v(t)) == "good" and band(q(t)) in ("good", "mid") and SCORES[t].get("kind")]
+    grow = [t for t in pool if (ttm(t).get("revenue_growth_yoy_pct") or 0) >= 20 and (ttm(t).get("revenue") or 0) > 1e9
+            and band(q(t)) != "bad"]
+    cash = [t for t in pool if (ttm(t).get("fcf_margin_pct") or 0) >= 25 and (ttm(t).get("revenue_growth_yoy_pct") or 0) > 3
+            and (ttm(t).get("revenue") or 0) > 1e9]
+    by_cap = lambda ts: sorted(ts, key=lambda t: -cap(t))  # noqa: E731
+    return [
+        ("", "High quality", "High-quality businesses",
+         "Companies that grow faster and keep more of each sales dollar than most of their sector, from their SEC filings.",
+         "quality", None, by_cap(hq)),
+        ("cheaper/", "Cheaper than peers", "Good businesses at a lower price",
+         "Solid or better businesses whose shares cost less than most of their sector's, measured by price to earnings.",
+         "value", None, by_cap(cheap)),
+        ("growers/", "Fast growers", "Fast growers",
+         "Sales up 20% or more over the past year, at companies with more than $1 billion in revenue.",
+         "growth", [("amber", "growth", "Fast grower")], by_cap(grow)),
+        ("cash-machines/", "Cash machines", "Cash machines",
+         "At least 25 cents of free cash from every sales dollar, with sales still growing.",
+         "cash", [("teal", "cash", "Cash machine")], by_cap(cash)),
+    ]
+
+
+def discover_tabs(active: str) -> str:
+    tabs = [(k, tab) for k, tab, *_ in discover_lists_cache()] + [("picks/", "Our picks")]
+    return '<nav class="tabs" aria-label="Discover">' + "".join(
+        f'<a href="{u("discover/" + k)}"{" aria-current=page" if k == active else ""}>{esc(tab)}</a>' for k, tab in tabs) + "</nav>"
+
+
+_DL = None
+
+
+def discover_lists_cache():
+    global _DL
+    if _DL is None:
+        _DL = discover_lists()
+    return _DL
+
+
+def grouped_cards(ts: list[str], focus: str, extra, per: int = 3) -> str:
+    by = defaultdict(list)
+    for t in ts:
+        by[UMAP[t]["sector"]].append(t)
+    secs = []
+    for sec in sorted(by, key=lambda k: -len(by[k])):
+        items = by[sec]
+        cards = "".join(stock_card(t, focus, extra, hidden=i >= per) for i, t in enumerate(items))
+        more = (f'<button class="lnk" type="button" data-more>Show all {len(items)}</button>' if len(items) > per else "")
+        secs.append(f'<section class="grp"><div class="grp-h"><h2>{esc(sec)}</h2>{more}</div><div class="sks">{cards}</div></section>')
+    return "".join(secs)
 
 
 def discover_pages():
-    lists = discover_lists()
-    secs = []
-    for key, title, desc, items in lists:
-        cards = "".join(card(t, ml, mv, tv) for t, ml, mv, tv in items[:6])
-        secs.append(f'<section class="dsec"><div class="dsec-h"><div><h2>{esc(title)}</h2><p>{esc(desc)}</p></div>'
-                    f'<a href="{u(f"discover/{key}/")}">View all</a></div><div class="cards">{cards}</div></section>')
-        rows = "".join(
-            f'<tr><td class="nm"><a href="{u(tpath(t))}">{logo(t, 30)}<span class="t"><b>{t}</b><i>{esc(UMAP[t]["name"])}</i></span></a></td>'
-            f'<td class="hide-m">{esc(UMAP[t]["industry"])}</td><td class="n">{money((Q.get(t) or {}).get("price"))}</td>'
-            f'<td class="n {tone(tv)}" data-v="{tv if tv is not None else ""}">{mv}</td></tr>' for t, ml, mv, tv in items)
-        body = (f'<div class="wrap"><div class="ph"><div class="crumbs"><a class="kick" href="{u("discover/")}">Discover</a></div><h1>{esc(title)}</h1><p>{esc(desc)}</p></div>'
-                f'<table class="big" data-sort style="margin-top:22px"><thead><tr><th>Company</th><th class="hide-m">Industry</th><th class="n">Price</th>'
-                f'<th class="n">{esc(items[0][1] if items else "")}</th></tr></thead><tbody>{rows}</tbody></table></div>')
-        write(f"discover/{key}/", page(f"discover/{key}/", title, body, desc, active="discover/"))
-    picks = [s for s in STORIES if s.type == "list"][:6]
-    picks_html = ""
-    if picks:
-        picks_html = (f'<section class="dsec"><div class="dsec-h"><div><h2>Our picks</h2><p>Three stocks we love and one we hate, on one theme at a time.</p></div></div>'
-                      f'<div class="feed cards-col">{"".join(row(s) for s in picks)}</div></section>')
-    by = defaultdict(int)
-    for x in UNIV:
-        by[x["sector"]] += 1
-    sectors = "".join(f'<a href="{u("sectors/" + slugify(k) + "/")}">{esc(k)}<span>{v}</span></a>' for k, v in sorted(by.items()))
-    body = f"""<div class="wrap"><div class="ph"><h1>Discover</h1><p>Lists that update every market day from prices and SEC filings, plus our own picks. Tap any stock for its chart, financials and stories.</p></div>
-{picks_html}{''.join(secs)}
-<section class="dsec"><div class="dsec-h"><div><h2>Browse by sector</h2><p>All {len(UNIV)} stocks we cover.</p></div><a href="{u('stocks/')}">All stocks</a></div><div class="sectors">{sectors}</div></section></div>"""
-    write("discover/", page("discover/", "Discover stocks", body, "Stock lists that update every market day: movers, highs, growers, cash machines and our picks.", active="discover/"))
+    for key, tab, title, intro, focus, extra, ts in discover_lists_cache():
+        body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
+                f'and the price against its sector; they aren\'t advice to buy or sell.</p></div>{discover_tabs(key)}'
+                f'<div class="lst-h"><h2>{esc(title)}</h2><p>{esc(intro)} <span class="cnt">{len(ts)} stocks</span></p></div>'
+                f'{grouped_cards(ts, focus, extra)}</div>')
+        path = "discover/" + key
+        write(path, page(path, f"{title} | Discover", body, intro, active="discover/"))
+    picks = [s for s in STORIES if s.type == "list"][:9]
+    body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
+            f'and the price against its sector; they aren\'t advice to buy or sell.</p></div>{discover_tabs("picks/")}'
+            f'<div class="lst-h"><h2>Our picks</h2><p>Three stocks we love and one we hate, on one theme at a time, with the reasons in numbers.</p></div>'
+            f'<div class="feed-wrap" style="margin:8px 0 0"><div class="cards-col">{"".join(row(s) for s in picks)}</div></div></div>')
+    write("discover/picks/", page("discover/picks/", "Our picks | Discover", body, "Three stocks we love and one we hate.", active="discover/"))
 
 
 def table_rows(ts):
@@ -1580,48 +1667,54 @@ def stocks_index():
 
 # ---------------------------------------------------------------------- earnings
 
-def earnings_page():
+EARN_MIN_CAP = 2.5e10  # the calendar shows the companies people follow: $25bn+ (always at least the biggest few)
+
+
+def earnings_days(days: list[dt.date], per_day: int = 8) -> str:
+    """A week of reporters as logo tiles, biggest first. Reports already out carry a Recap tag when we wrote one."""
     today = NOW.date()
-    start = today - dt.timedelta(days=today.weekday())
-    if today.weekday() >= 5:
-        start += dt.timedelta(days=7)
+    cols = []
+    for d in days:
+        rows = [r for r in CAL.get(d.isoformat(), []) if r["ticker"] in UMAP and r["ticker"] not in SECOND_CLASS | {"BF.B"}]
+        rows.sort(key=lambda r: -((Q.get(r["ticker"]) or {}).get("cap") or r.get("mktcap") or 0))
+        big = [r for r in rows if ((Q.get(r["ticker"]) or {}).get("cap") or r.get("mktcap") or 0) >= EARN_MIN_CAP]
+        rows = (big or rows[:3])[:per_day]
+        tiles = []
+        for r in rows:
+            t = r["ticker"]
+            out = d < today or (d == today and (r["time"] == "bmo" and NOW.hour >= 9 or r["time"] == "amc" and NOW.hour >= 17))
+            st = next((x for x in BY_TICKER.get(t, []) if x.type == "earnings-recap" and 0 <= (x.pub.date() - d).days <= 2), None) if out else \
+                next((x for x in BY_TICKER.get(t, []) if x.type == "earnings-preview" and 0 <= (d - x.pub.date()).days <= 6), None)
+            tag = (f'<span class="et-tag{" rc" if st.type == "earnings-recap" else ""}">{"Recap" if st.type == "earnings-recap" else "Preview"}</span>'
+                   if st else "")
+            when_ = {"bmo": "Before the open", "amc": "After the close"}.get(r["time"], "Time not confirmed")
+            href = u(st.path) if st else u(tpath(t))
+            tiles.append(f'<a class="et{" done" if out else ""}" href="{href}" title="{esc(UMAP[t]["name"])}: {when_}">{logo(t, 44)}'
+                         f'<b>{t}</b>{tag}</a>')
+        cols.append(f'<div class="eday{" today" if d == today else ""}"><h3>{WD[d.weekday()][:3]}<span>{d.day} {MON[d.month - 1]}</span></h3>'
+                    f'<div class="ets">{"".join(tiles) or "<p class=none>None</p>"}</div></div>')
+    return f'<div class="ecal">{"".join(cols)}</div>'
+
+
+def week_start(d: dt.date) -> dt.date:
+    s0 = d - dt.timedelta(days=d.weekday())
+    return s0 + dt.timedelta(days=7) if d.weekday() >= 5 else s0
+
+
+def earnings_page():
+    start = week_start(NOW.date())
     weeks = []
-    for w in range(2):
+    labels = ("This week", "Next week") if NOW.weekday() < 5 else ("Next week", "The week after")
+    for w, label in enumerate(labels):
         days = [start + dt.timedelta(days=7 * w + i) for i in range(5)]
-        cols = []
-        for d in days:
-            rows = [r for r in CAL.get(d.isoformat(), []) if r["ticker"] not in ("GOOG", "FOX", "NWS", "BF.B")]
-            rows = sorted(rows, key=lambda r: -((Q.get(r["ticker"]) or {}).get("cap") or r.get("mktcap") or 0))
-            groups = []
-            for tm, lab in (("bmo", "Before the open"), ("amc", "After the close"),
-                            ("unknown", "Reported" if d < today else "Time not confirmed")):
-                g = [r for r in rows if r["time"] == tm][:12]
-                if not g:
-                    continue
-                items = []
-                for r in g:
-                    t = r["ticker"]
-                    st = [s for s in BY_TICKER.get(t, []) if s.type in ("earnings-recap", "earnings-preview")
-                          and abs((s.pub.date() - d).days) <= 2]
-                    if r.get("eps_actual") is not None and r.get("eps_forecast") is not None:
-                        sp = r.get("surprise_pct")
-                        info = f'<span class="{tone(sp)}">EPS {money(r["eps_actual"])} vs {money(r["eps_forecast"])}</span>'
-                    elif r.get("eps_forecast") is not None:
-                        info = f'<span>Est. EPS {money(r["eps_forecast"])}</span>'
-                    else:
-                        info = "<span></span>"
-                    link = f'<a class="st" href="{u(st[0].path)}">{"Recap" if st[0].type == "earnings-recap" else "Preview"}</a>' if st else ""
-                    items.append(f'<div class="cal-e"><a class="co" href="{u(tpath(t))}">{logo(t, 22)}<b>{t}</b></a>{info}{link}</div>')
-                more = len([r for r in rows if r["time"] == tm]) - len(g)
-                groups.append(f'<div class="tm">{lab}</div>{"".join(items)}' + (f'<div class="cal-e"><span>+{more} more</span></div>' if more > 0 else ""))
-            cols.append(f'<div class="cal-d{" today" if d == today else ""}"><h3>{WD[d.weekday()][:3]} {d.day} {MON[d.month - 1]}<small>{len(rows)}</small></h3>'
-                        f'{"".join(groups) or "<p class=empty style=text-align:left;padding:12px 0>No reports we cover.</p>"}</div>')
-        label = "This week" if w == 0 else "Next week"
-        weeks.append(f'<section class="dsec"><div class="dsec-h"><div><h2>{label}</h2><p>Week of {days[0].day} {MONTH[days[0].month - 1]}. Consensus EPS from Nasdaq; the biggest companies first.</p></div></div><div class="cal">{"".join(cols)}</div></section>')
-    recaps = [s for s in STORIES if s.type in ("earnings-recap", "earnings-preview")][:20]
-    rec = f'<section class="dsec"><div class="dsec-h"><div><h2>Latest earnings stories</h2></div></div><div class="read" style="max-width:780px;margin:0"><div class="feed">{mini_rows(recaps)}</div></div></section>' if recaps else ""
-    body = f'<div class="wrap"><div class="ph"><h1>Earnings</h1><p>Who reports, when, and what Wall Street expects. We publish a recap minutes to hours after each big release, and a preview the evening before.</p></div>{"".join(weeks)}{rec}</div>'
-    write("earnings/", page("earnings/", "Earnings Calendar", body, "This week's and next week's earnings calendar with consensus estimates, previews and recaps.", active="earnings/"))
+        weeks.append(f'<section class="hsec"><div class="hsec-h"><div><h2>{label}</h2><p>Week of {days[0].day} {MONTH[days[0].month - 1]}</p></div></div>'
+                     f'{earnings_days(days)}</section>')
+    recaps = [s for s in STORIES if s.type in ("earnings-recap", "earnings-preview")][:12]
+    rec = (f'<section class="hsec"><div class="hsec-h"><div><h2>Latest earnings stories</h2></div></div>'
+           f'<div class="tiles t3">{"".join(tile(x) for x in recaps)}</div></section>') if recaps else ""
+    body = (f'<div class="wrap"><div class="ph"><h1>Earnings</h1><p>The big companies reporting this week and next. We publish a preview '
+            f'before each one and a recap within hours: tap a logo to read it.</p></div>{"".join(weeks)}{rec}</div>')
+    write("earnings/", page("earnings/", "Earnings Calendar", body, "This week's and next week's big earnings reports, with our previews and recaps.", active="earnings/"))
 
 
 # ---------------------------------------------------------------------- misc pages
@@ -1685,7 +1778,8 @@ def feeds():
                  "After hours" if ext.get("session") == "POST_MKT" else "Before the open"]
     (DIST / "data").mkdir(exist_ok=True)
     (DIST / "data/quotes.json").write_text(json.dumps({"asof": QUOTES.get("asof"), "q": qd}, separators=(",", ":")))
-    search = {"s": [[t, x["name"], x["sector"], 1 if t in LOGOS else 0] for t, x in sorted(UMAP.items())],
+    search = {"s": [[t, x["name"], x["sector"], 1 if t in LOGOS else 0, "High quality" if band((SCORES.get(t) or {}).get("q")) == "good" else ""]
+                    for t, x in sorted(UMAP.items())],
               "n": [[s.title, s.path, f"{s.pub.day} {MON[s.pub.month - 1]}"] for s in STORIES[:400]]}
     (DIST / "data/search.json").write_text(json.dumps(search, separators=(",", ":")))
 

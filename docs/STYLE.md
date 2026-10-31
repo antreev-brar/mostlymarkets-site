@@ -24,6 +24,7 @@ We publish StockStory's kinds of stories, but written by people who explain: one
 - Explain any jargon in the same sentence: "AWS, Amazon's cloud-computing arm, ...".
 - Verbs scale with the move. Up: edged up (<1%), rose (1–4%), jumped (4–8%), soared (8%+). Down: slipped (<1%), fell (1–4%), slid or sank (4–8%), plunged (8%+), "worst day since ..." when `facts.py` supports it.
 - Write "Nvidia ($NVDA)" on first mention in the body and "Nvidia" after that.
+- **Point at the number.** Each section is about one figure. Bold it, with its verb: "Intel **plunged 28.6%**", "revenue of **$15.0 billion to $16.0 billion**". The page marks bold figures like a highlighter, so bold one or two per section, never a whole sentence of numbers. If a paragraph that opens the story or a section has no bold, the build marks its price move (or else its first figure) for you.
 
 ## Bylines (pen names, from `data/authors.json`)
 

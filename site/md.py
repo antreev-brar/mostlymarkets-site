@@ -16,6 +16,29 @@ def esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
+_NUM = r"(?:\$\d[\d,]*(?:\.\d+)?(?:\s(?:billion|million|trillion))?|\d[\d,]*(?:\.\d+)?%)"
+_RANGE = _NUM + r"(?:\s?(?:to|–|-)\s?" + _NUM + r")?"
+_MOVE = (r"\b(?:edged up|edged down|slipped|rose|fell|jumped|soared|slid|sank|plunged|tumbled|surged|climbed|dropped|"
+         r"gained|lost|grew|declined|increased|shrank)\s+(?:about |nearly |more than |almost )?")
+# In order of preference: a price move ("plunged 19.6%"), any change with its verb, then a bare figure or range.
+FIGURES = [re.compile(_MOVE + r"\d[\d,]*(?:\.\d+)?%"), re.compile(_MOVE + _RANGE), re.compile(_RANGE)]
+MDLINK = re.compile(r"\[[^\]]*\]\([^)]*\)")
+
+
+def emphasize(text: str) -> str:
+    """Bold the figure a paragraph is about (when it has no bold of its own): its price move if it has one,
+    otherwise its first figure."""
+    if "**" in text:
+        return text
+    spans = [m.span() for m in MDLINK.finditer(text)]
+    for rx in FIGURES:
+        for m in rx.finditer(text):
+            if any(a <= m.start() < b for a, b in spans):
+                continue
+            return text[:m.start()] + "**" + m.group(0) + "**" + text[m.end():]
+    return text
+
+
 class Renderer:
     def __init__(self, link_ticker: Callable[[str], str | None], url: Callable[[str], str],
                  blocks: dict[str, Callable[[str], str]], takes: bool = False, page_url: str = ""):
@@ -66,7 +89,7 @@ class Renderer:
             p = esc(p).replace("&#x27;", "’").replace("'", "’")
             p = re.sub(r"&quot;(?=\S)(.+?)(?<=\S)&quot;", r"“\1”", p)
             p = re.sub(r"(^|[\s(—–-])&quot;", r"\1“", p).replace("&quot;", "”")
-            p = BOLD.sub(r"<strong>\1</strong>", p)
+            p = BOLD.sub(lambda m: f'<strong class="fig">{m.group(1)}</strong>' if re.search(r"\d", m.group(1)) else f"<strong>{m.group(1)}</strong>", p)
             p = ITAL.sub(r"<em>\1</em>", p)
             p = p.replace(" -- ", " – ")
             out.append(p)
@@ -111,9 +134,15 @@ class Renderer:
             elif not fenced and ln.strip().startswith("### "):
                 total += 1
 
+        emph = [True]  # the next paragraph opens the story or a section
+
         def flush():
             if para:
-                out.append(f"<p>{self.inline(' '.join(x.strip() for x in para))}</p>")
+                text = " ".join(x.strip() for x in para)
+                if emph[0]:
+                    text = emphasize(text)
+                    emph[0] = False
+                out.append(f"<p>{self.inline(text)}</p>")
                 para.clear()
 
         while i < len(lines):
@@ -142,6 +171,7 @@ class Renderer:
                 h = self.inline(txt)
                 sid = self.slug(h)
                 self.headings.append((level, sid, re.sub(r"<[^>]+>", "", h)))
+                emph[0] = True
                 if self.take_mode:
                     self._close_take(out)
                     if level == 3:
