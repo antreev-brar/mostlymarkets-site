@@ -11,6 +11,8 @@ event = "move-RDDT-2026-10-30"
 moves = [
   { ticker = "RDDT", price = 89.94, change_pct = -30.6, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
+cover_brief = "a towering stack of blank cartoon speech bubbles toppling over like dominoes, tumbling off the edge of a cliff of red candlesticks into a halftone canyon"
+cover_alt = "A collage of a tower of speech bubbles toppling off a cliff of red candlesticks"
 sources = [
   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
   "https://cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",

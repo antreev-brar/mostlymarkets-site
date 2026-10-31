@@ -133,3 +133,40 @@ It leads with the decision or the number against expectations, then the quotes, 
 
 ### `chart`
 Title: the insight as a sentence. One chart block, then 80–180 words explaining it, ending with what to watch.
+
+### `daily` (Mostly Markets Daily)
+The newsletter edition, published at `/daily/<date>/`, fronted on the home page and played as tap-through Stories. It's the most-read thing we publish, so it has to be **the best few minutes of a reader's morning**: a story, then sharp, visual takes they'd screenshot and share.
+
+Three editions:
+- **Morning**, every trading day except Monday, before 9:30 a.m. ET: the last session's story and today's setup.
+- **Monday**: the weekend's news and what this week will decide.
+- **Weekend** (`edition = "weekend"`), after Friday's close: the week in eight charts.
+
+**Title:** the finding, as a sentence ("Intel's Worst Day Since 1974 Capped the Nasdaq's Worst Month Since March 2025"). **Dek:** the main number and a promise ("The week in eight charts.").
+
+**Shape:**
+```
+{Lede: 2 short paragraphs. The story of the session as a narrative: what happened, to whom, and why. No index-move list here.}
+## {The thread's heading, e.g. "The week in eight charts" or "Yesterday in six takes"}
+### {Take 1: one claim, stated as a fact, under 70 characters}
+{1–3 sentences with the evidence and the cause, linked to our full story.}
+```chart or ```stat block
+### {Take 2} ...            (6 to 8 takes; weekend edition 7 or 8)
+## What's next
+{Today's or this week's reporters, data and events as a short list, each linked to our preview when one exists.}
+## The numbers
+{The markets table from pack.markets, like the market wrap.}
+```
+
+**What makes a take X-worthy** (our version of the best market threads, with our sourcing rules):
+1. **One claim per take, and the headline is the claim.** "Nvidia did more damage to the S&P 500 than Intel", not "Chip stocks".
+2. **Context makes the number land:** a record or "worst since", a rank ("the S&P 500's worst performer"), a comparison ("more than Intel"), or a twist ("Even after Friday, Intel is up 78% this year"). Each must come from `facts.py`, our price files or two outlets.
+3. **Every take has one picture**, and the picture is the proof: a `price` chart with a `notes` marker on the event, a `compare` or `moves` chart computed from our prices, the `treemap` market map, the `contrib` chart of who moved the index, or a `stat` block of big numbers. Prefer the computed kinds: their numbers are right by construction.
+4. **Mix the pictures.** No more than three price charts in a thread; use at least one market-wide picture (`treemap` or `contrib`) after a big market day.
+5. **Short.** A take's text is at most three sentences. Detail lives in the linked story.
+6. **Twists beat summaries.** If the obvious take is "X fell", look for the surprising one: the stock that rose against the tide, the record hidden in the drop, the bigger company that mattered more.
+7. Still no advice, no hype words and no emojis. "We think" is allowed once per edition, with the reason in numbers.
+
+**Cover:** write a `cover_brief`, one or two sentences describing a single symbolic scene for the AI cover (objects, places, weather, chart shapes), and a `cover_alt`. The house style (navy, cobalt and lemon-yellow torn-paper collage) is added automatically. Never ask for real people, faces, logos, brand products or any text: the art illustrates the story, it doesn't report it. Good: "an enormous vintage microchip cracking in half and falling off a cliff made of red candlesticks". Bad: "Lip-Bu Tan looking worried in front of the Intel logo".
+
+**Other covers:** also write a `cover_brief` (and `cover_alt`) for the day's `market-wrap`, and for any story about a company worth $100 billion or more or a move of 10% or more. Other stories use the photo library.

@@ -1,0 +1,46 @@
+name: covers
+# Draws AI cover art (pipeline/covers.py) for stories the writer pushes with a cover_brief, commits it and redeploys.
+# Without an OPENAI_API_KEY secret it does nothing and stories keep their library photos.
+on:
+  push:
+    branches: [main]
+    paths: ["content/articles/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: covers
+  cancel-in-progress: false
+jobs:
+  draw:
+    if: vars.MM_ENABLED == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Draw missing covers
+        id: draw
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MM_COVER_MASTERS: ${{ runner.temp }}/cover-masters
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then echo "No OPENAI_API_KEY secret: stories keep their library covers."; exit 0; fi
+          pip install --quiet pillow
+          python3 pipeline/covers.py --max 6
+          if [ -n "$(git status --porcelain assets/covers/story)" ]; then echo "new=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Commit and redeploy
+        if: steps.draw.outputs.new == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "mm-bot"
+          git config user.email "bot@mostlymarkets.org"
+          git add assets/covers/story
+          git commit -m "covers: AI art for new stories"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
+          # A push made with the job token doesn't start other workflows, so ask for the deploy directly.
+          gh workflow run build.yml --ref main

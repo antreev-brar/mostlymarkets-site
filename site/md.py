@@ -18,11 +18,15 @@ def esc(s: str) -> str:
 
 class Renderer:
     def __init__(self, link_ticker: Callable[[str], str | None], url: Callable[[str], str],
-                 blocks: dict[str, Callable[[str], str]]):
+                 blocks: dict[str, Callable[[str], str]], takes: bool = False, page_url: str = ""):
         self.link_ticker = link_ticker  # ticker -> href or None
         self.url = url                  # site path -> prefixed path
         self.blocks = blocks            # fenced block kind -> html
         self.headings: list[tuple[int, str, str]] = []
+        # Thread mode (daily editions): every ### opens a numbered take card that runs to the next heading.
+        self.take_mode = takes
+        self.page_url = page_url
+        self.takes: list[dict] = []
 
     # ------------------------------------------------------------ inline
     def inline(self, s: str) -> str:
@@ -77,11 +81,35 @@ class Renderer:
             s, n = f"{base}-{n}", n + 1
         return s
 
+    def _open_take(self, out: list[str], sid: str, h: str, total: int):
+        n = len(self.takes) + 1
+        plain = re.sub(r"<[^>]+>", "", h)
+        self.takes.append({"id": sid, "n": n, "total": total, "title": html.unescape(plain), "start": len(out) + 1})
+        out.append(f'<article class="take" id="{sid}"><div class="tk-n">{n}<i>/{total}</i></div><h3>{h}</h3>')
+
+    def _close_take(self, out: list[str]):
+        if not self.takes or "end" in self.takes[-1]:
+            return
+        tk = self.takes[-1]
+        tk["end"] = len(out)
+        tk["body"] = out[tk["start"]:tk["end"]]
+        link = f"{self.page_url}#{tk['id']}"
+        from urllib.parse import quote
+        x = f"https://x.com/intent/post?text={quote(tk['title'])}&url={quote(link, safe='')}"
+        out.append(f'<footer class="tk-ft"><button type="button" class="tk-b" data-copy="{esc(link)}">Copy link</button>'
+                   f'<a class="tk-b" href="{esc(x)}" target="_blank" rel="noopener">Post on X</a></footer></article>')
+
     def render(self, text: str) -> str:
         lines = text.replace("\r\n", "\n").split("\n")
         out: list[str] = []
         i = 0
         para: list[str] = []
+        total, fenced = 0, False
+        for ln in lines:
+            if ln.strip().startswith("```"):
+                fenced = not fenced
+            elif not fenced and ln.strip().startswith("### "):
+                total += 1
 
         def flush():
             if para:
@@ -114,6 +142,12 @@ class Renderer:
                 h = self.inline(txt)
                 sid = self.slug(h)
                 self.headings.append((level, sid, re.sub(r"<[^>]+>", "", h)))
+                if self.take_mode:
+                    self._close_take(out)
+                    if level == 3:
+                        self._open_take(out, sid, h, total)
+                        i += 1
+                        continue
                 out.append(f'<h{level} id="{sid}">{h}</h{level}>')
                 i += 1
                 continue
@@ -159,6 +193,8 @@ class Renderer:
             para.append(line)
             i += 1
         flush()
+        if self.take_mode:
+            self._close_take(out)
         return "\n".join(out)
 
     def table(self, rows: list[str]) -> str:

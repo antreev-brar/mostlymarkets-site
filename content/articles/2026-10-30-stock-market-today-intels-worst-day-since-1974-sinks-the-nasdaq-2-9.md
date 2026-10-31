@@ -6,6 +6,8 @@ published = 2026-10-30T18:52:21-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "wall-street-rain"
+cover_brief = "a towering stack of glowing data-centre server racks shaped like a skyscraper, with a giant red downward stock-chart arrow slicing through it diagonally; torn fragments of a classical stock-exchange facade and a sea of tiny anonymous traders in silhouette at the bottom looking up"
+cover_alt = "A collage of a data-center tower split by a falling red stock-chart arrow, watched by a crowd of traders"
 event = "wrap-2026-10-30"
 moves = [
   { ticker = "INTC", price = 65.76, change_pct = -28.58, session = "close", asof = 2026-10-30T16:00:00-04:00 },

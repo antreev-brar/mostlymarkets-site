@@ -9,6 +9,8 @@ cover = "ecommerce"
 moves = [
   { ticker = "AMZN", price = 227.99, change_pct = -6.48, session = "after-hours", asof = 2026-10-29T17:20:47-04:00 },
 ]
+cover_brief = "an endless conveyor belt of plain brown cardboard parcels rising up and turning into glowing server towers in the clouds, a red downward arrow cutting across the scene"
+cover_alt = "A collage of a conveyor of cardboard parcels rising into glowing server towers, crossed by a red arrow"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
   "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",

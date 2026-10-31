@@ -20,7 +20,7 @@ from marketdata import price_path, read_prices  # noqa: E402
 TYPES = {
     "market-wrap": (450, 800), "why-it-moved": (280, 520), "movers": (220, 420),
     "earnings-recap": (380, 750), "earnings-preview": (260, 480), "list": (500, 850),
-    "macro": (350, 700), "chart": (100, 260), "analysis": (600, 1200),
+    "macro": (350, 700), "chart": (100, 260), "analysis": (600, 1200), "daily": (650, 1500),
 }
 REASONS = {"Earnings", "Guidance", "Analyst upgrade", "Analyst downgrade", "Deal", "Product",
            "Legal or regulatory", "Management", "Peer news", "Macro", "Sector move", "No clear news"}
@@ -28,7 +28,8 @@ BANNED = ["as an ai", "in conclusion", "delve", "it's worth noting", "it is wort
           "game-changer", "game changer", "to the moon", "skyrocket", "insane"]
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\U00002600-\U000027BF\U0001F000-\U0001F2FF⭐⬆⬇✅❌]")
 FENCE = re.compile(r"^```(\w+)\s*\n(.*?)^```\s*$", re.S | re.M)
-CHART_KINDS = {"price", "bars", "hbars", "line"}
+CHART_KINDS = {"price", "bars", "hbars", "line", "compare", "moves", "treemap", "contrib"}
+COMPUTED = {"price", "compare", "moves", "treemap", "contrib"}  # drawn from our own price files: no source needed
 
 
 def split(text: str) -> tuple[dict, str]:
@@ -124,7 +125,20 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
             if c.get("kind") == "price":
                 if not price_path(c.get("ticker", "")).exists():
                     errs.append(f"price chart: no price file for {c.get('ticker')}")
-            elif not c.get("source"):
+                for n in c.get("notes", []):
+                    if not re.match(r"^\d{4}-\d\d-\d\d$", str(n.get("date", ""))) or not n.get("label"):
+                        errs.append("price chart notes look like {\"date\": \"2026-10-29\", \"label\": \"Q3 results\"}")
+                    elif len(n["label"]) > 28:
+                        warns.append(f"price chart note {n['label']!r} is long; keep notes under 28 characters")
+            elif c.get("kind") in ("compare", "moves"):
+                for tk in c.get("tickers", []):
+                    if not price_path(tk).exists():
+                        errs.append(f"{c['kind']} chart: no price file for {tk}")
+                if not c.get("tickers"):
+                    errs.append(f"{c['kind']} chart needs tickers")
+                if c.get("kind") == "moves" and not re.match(r"^\d{4}-\d\d-\d\d$", str(c.get("from", ""))):
+                    errs.append("moves chart needs \"from\": \"YYYY-MM-DD\" (the close the change is measured from)")
+            elif c.get("kind") not in COMPUTED and not c.get("source"):
                 errs.append(f"{c.get('kind')} chart needs a source")
             if c.get("kind") in ("bars", "hbars"):
                 if len(c.get("labels", [])) != len(c.get("values", [])):
@@ -141,10 +155,45 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
                 for tk in [x.strip() for x in line.split(":", 1)[1].split(",") if x.strip()]:
                     if tk not in universe:
                         errs.append(f"picks: {tk} not in the universe")
+        elif kind == "stat":
+            try:
+                items = json.loads(content)
+            except json.JSONDecodeError as e:
+                errs.append(f"stat JSON: {e}")
+                continue
+            for it in (items if isinstance(items, list) else [items]):
+                if not it.get("label"):
+                    errs.append("stat needs a label")
+                if not it.get("value") and not (it.get("ticker") in universe and it.get("metric") in ("day", "week", "month", "ytd")):
+                    errs.append("stat needs a value, or a ticker plus metric (day, week, month or ytd) to compute it")
+            if isinstance(items, list) and len(items) > 3:
+                errs.append("stat: at most 3 numbers in a row")
         elif kind not in ("highlights",):
             errs.append(f"unknown fenced block ```{kind}")
     if t == "earnings-recap" and "highlights" not in kinds:
         errs.append("earnings-recap needs a ```highlights block")
+    if t == "daily":
+        # The thread: every ### is a take card, and each take carries one picture (a chart or big numbers).
+        takes = re.split(r"^### ", FENCE.sub(lambda m: "```" + m.group(1) + "```", body), flags=re.M)[1:]
+        if not 5 <= len(takes) <= 9:
+            errs.append(f"daily: {len(takes)} takes (### headings); write 5 to 9")
+        for tk in takes:
+            head = tk.splitlines()[0]
+            seg = tk.split("\n## ")[0]
+            if "```chart```" not in seg and "```stat```" not in seg:
+                errs.append(f"daily take {head!r} has no chart or stat block")
+            if len(head) > 70:
+                warns.append(f"daily take headline is long ({len(head)} chars): {head!r}")
+        if not fm.get("cover_brief"):
+            errs.append("daily needs a cover_brief (the scene for its AI cover)")
+    if fm.get("cover_brief"):
+        cb = re.sub(r"\bno (text|logos?|words|letters|faces|people)\b", "", fm["cover_brief"].lower())
+        if len(cb) < 60:
+            warns.append("cover_brief is short; describe one strong scene in a sentence or two")
+        if re.search(r"\b(logo|text|words|letters|caption|headline|portrait of|photo of)\b", cb):
+            errs.append("cover_brief must not ask for text, logos or a portrait: the art is symbolic, never a real person")
+        if not fm.get("cover_alt"):
+            errs.append("cover_brief needs a cover_alt (alt text describing the art)")
     for tag in re.findall(r"(?<![\w/])\$([A-Z]{1,5}(?:\.[A-Z])?)\b", body):
         if tag not in universe:
             errs.append(f"cashtag ${tag} not in the universe")

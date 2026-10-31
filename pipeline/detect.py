@@ -103,7 +103,8 @@ class Detector:
             t = re.search(r'^tickers\s*=\s*\[(.*?)\]', text, re.M)
             ty = re.search(r'^type\s*=\s*"(.*?)"', text, re.M)
             d, slug = p.name[:10], p.name[11:-3]
-            out.append({"path": f"/news/{d}/{slug}/", "date": d, "title": m.group(1) if m else slug,
+            path = f"/daily/{d}/" if ty and ty.group(1) == "daily" else f"/news/{d}/{slug}/"
+            out.append({"path": path, "date": d, "title": m.group(1) if m else slug,
                         "type": ty.group(1) if ty else "", "tickers": re.findall(r'"([A-Z.]+)"', t.group(1)) if t else []})
         return out
 
@@ -144,9 +145,9 @@ class Detector:
             return False
         if any(t in DUP_CLASS for t in tickers[:1]):
             return False
-        since = (self.today if kind in ("market-wrap", "movers", "list", "macro-check", "fomc", "week-ahead", "basket")
+        since = (self.today if kind in ("market-wrap", "movers", "list", "macro-check", "fomc", "week-ahead", "basket", "daily")
                  else prev_trading_day(self.today)).isoformat()
-        if kind != "basket" and self.written(story_type, tickers, since):
+        if kind != "basket" and not eid.startswith("daily-weekend") and self.written(story_type, tickers, since):
             self.seen[eid] = {"kind": kind, "day": self.today.isoformat(), "created": self.now.isoformat(timespec="seconds"),
                               "outcome": "already-written"}
             return False
@@ -318,6 +319,43 @@ class Detector:
                      {"calendar": r, "report_date": nxt.isoformat(), "quote": self.quote(t), "facts": self.facts(t),
                       "recent_stories": self.stories_for(t), "last_recap": [s for s in self.stories_for(t, 20) if s["type"] == "earnings-recap"][:1]})
 
+    def edition_pack(self, since: dt.date, session: dt.date) -> dict:
+        """What the Daily is written from: the markets, the session's biggest moves, our stories since the last
+        edition, and today's earnings calendar."""
+        today_cal = sorted(self.cal.get(self.today.isoformat(), []), key=lambda r: -cap_of(self.quotes.get(r["ticker"])))[:10]
+        return {"markets": self.markets, "session": session.isoformat(), "moves": self.session_moves(session),
+                "stories_since": [{"title": x["title"], "path": x["path"], "type": x["type"], "date": x["date"]}
+                                  for x in self.stories if x["date"] >= since.isoformat()][:40],
+                "reporting_today": [{"ticker": r["ticker"], "time": r["time"], "eps_forecast": r["eps_forecast"]} for r in today_cal]}
+
+    def rule_edition(self):
+        """The Daily: a morning edition before every session, and a weekend edition after Friday's close."""
+        d = self.today
+        if is_trading_day(d) and self.now.time() >= dt.time(5, 30) and d.weekday() != 0:
+            prev = prev_trading_day(d)
+            self.add(f"daily-{d}", "daily", "daily", 96, self.at(10, 30), [],
+                     "Mostly Markets Daily: <the one story behind yesterday's market>",
+                     f"The morning edition before the open on {d:%A %d %B}. Tell the story of the last session ({prev:%A %d %B}) "
+                     "and set up today: a narrative lede, then a thread of 6 to 8 takes, each one claim with one chart or stat "
+                     "block, then What's next (today's reporters and data) and The numbers. Follow the daily template in "
+                     "docs/STYLE.md. Write a cover_brief.",
+                     self.edition_pack(prev, prev))
+        if d.weekday() == 0 and is_trading_day(d) and self.now.time() >= dt.time(5, 30):
+            self.add(f"daily-{d}", "daily", "daily", 96, self.at(10, 30), [],
+                     "Mostly Markets Daily: <the week's big test>",
+                     "The Monday edition. Weekend news that moves stocks today, then the thread: 6 to 8 takes on what this "
+                     "week will decide (the big reporters, the data, the Fed), each with one chart or stat block. "
+                     "Follow the daily template in docs/STYLE.md. Write a cover_brief.",
+                     self.edition_pack(d - dt.timedelta(days=3), prev_trading_day(d)))
+        if d.weekday() == 4 and is_trading_day(d) and self.now.time() >= dt.time(19, 30):
+            monday = d - dt.timedelta(days=d.weekday())
+            self.add(f"daily-weekend-{d}", "daily", "daily", 90, dt.datetime.combine(d + dt.timedelta(days=1), dt.time(23, 59), tzinfo=ET), [],
+                     "Mostly Markets Daily, weekend edition: <the week in eight charts>",
+                     "The weekend edition: the week's story in a narrative lede, then a thread of 7 or 8 takes (one chart or "
+                     "stat block each; use moves charts from Friday a week ago to this Friday), What's next for next week, "
+                     "and The numbers. Follow the daily template in docs/STYLE.md. Write a cover_brief.",
+                     {**self.edition_pack(monday - dt.timedelta(days=3), d), "week_moves": self.week_moves()})
+
     def rule_daily(self):
         d = self.today
         if is_trading_day(d):
@@ -448,7 +486,7 @@ class Detector:
 
     # ------------------------------------------------------------- run
     def run(self):
-        for rule in (self.rule_recaps, self.rule_moves, self.rule_previews, self.rule_daily):
+        for rule in (self.rule_recaps, self.rule_moves, self.rule_previews, self.rule_edition, self.rule_daily):
             try:
                 rule()
             except Exception as e:  # noqa: BLE001

@@ -137,8 +137,8 @@ def _date_ticks(dates: list[str], max_ticks: int) -> list[tuple[int, str]]:
 def line_svg(key: str, W: int, H: int, fs: float, dates: list[str], series: list[dict], unit: str,
              mark: str | None = None, area: bool = True, date_axis: bool = True, labels: list[str] | None = None,
              zero: bool = False, tone: str = "", avg: float | None = None, band: tuple | None = None,
-             avg_label: str = "") -> str:
-    l, r, t, b = 4, (58 if key == "d" else 48), 16, 26
+             avg_label: str = "", notes: list | None = None) -> str:
+    l, r, t, b = 4, (58 if key == "d" else 48), (16 + (fs * 1.6 if notes else 0)), 26
     pw, ph = W - l - r, H - t - b
     vals = [v for s in series for v in s["values"] if v is not None]
     extra = [x for x in ((band or ()) + ((avg,) if avg is not None else ())) if x is not None]
@@ -224,9 +224,32 @@ def line_svg(key: str, W: int, H: int, fs: float, dates: list[str], series: list
             ty = my - 10 if my > t + 20 else my + 18
             parts.append(f'<circle class="mk" cx="{mx:.1f}" cy="{my:.1f}" r="4"/>'
                          f'<text class="ml" x="{mx + dx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">{esc(txt)}</text>')
+    if notes:
+        parts.append(_notes(notes, X, lambda i: Y(s0[i]) if s0[i] is not None else None, l, pw, t, ph, fs))
     parts.append(f'<g class="hv"><line class="hl" y1="{t}" y2="{t + ph}"/><circle class="hd" r="4.5"/></g>')
     parts.append("</svg>")
     return "".join(parts)
+
+
+def _notes(notes, X, Yi, l, pw, t, ph, fs) -> str:
+    """Event annotations: a dashed rule at each dated note, a ring on the line, and the label above the plot.
+    Labels that would collide drop to a second row."""
+    out, rows = [], [[], []]
+    for idx, label in sorted(notes):
+        x = X(idx)
+        anchor = "end" if x > l + pw * 0.62 else "start"
+        w = _tw(label, fs * 0.95) + 10
+        x0, x1 = (x - w, x) if anchor == "end" else (x, x + w)
+        row = 0 if all(x1 < a or x0 > b for a, b in rows[0]) else 1
+        rows[row].append((x0, x1))
+        ty = t - fs * 0.55 - (0 if row == 0 else -fs * 1.25)
+        out.append(f'<line class="nt-l" x1="{x:.1f}" x2="{x:.1f}" y1="{ty + 3:.1f}" y2="{t + ph}"/>')
+        y = Yi(idx)
+        if y is not None:
+            out.append(f'<circle class="nt-d" cx="{x:.1f}" cy="{y:.1f}" r="4.5"/>')
+        dx = -5 if anchor == "end" else 5
+        out.append(f'<text class="nt-t" x="{x + dx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">{esc(label)}</text>')
+    return "".join(out)
 
 
 def hover_data(dates: list[str], values: list[float], unit: str) -> str:
@@ -238,7 +261,7 @@ RANGE_LABEL = {"1m": "1 month", "3m": "3 months", "6m": "6 months", "1y": "1 yea
 
 
 def price_chart(bars: list[dict], rng: str, end: str | None, title: str, subtitle: str = "",
-                mark: str | None = "last", cls: str = "", size: str = "full") -> str:
+                mark: str | None = "last", cls: str = "", size: str = "full", notes: list | None = None) -> str:
     if end:
         bars = [b for b in bars if b["date"] <= end]
     if not bars:
@@ -255,10 +278,22 @@ def price_chart(bars: list[dict], rng: str, end: str | None, title: str, subtitl
     chg = (vals[-1] / vals[0] - 1) * 100 if vals[0] else 0
     tone = "up" if chg >= 0 else "down"
     head = f'<span class="crng {tone}">{"▲" if chg >= 0 else "▼"} {abs(chg):.1f}% over {RANGE_LABEL.get(rng, rng)}</span>'
-    inner = both(lambda k, W, H, fs: line_svg(k, W, H, fs, dates, [{"name": "", "values": vals}], "$", mark=mark, tone=tone), size)
+    nts = _note_idx(dates, notes)
+    inner = both(lambda k, W, H, fs: line_svg(k, W, H, fs, dates, [{"name": "", "values": vals}], "$", mark=mark, tone=tone,
+                                              notes=nts), size)
     return (f'<div class="hov" data-h="{hover_data(dates, vals, "$")}">' +
             figure(inner, title, subtitle or f"Daily close, $, to {human(dates[-1])}", "Source: Nasdaq daily closes", head, cls)
             + "</div>")
+
+
+def _note_idx(dates: list[str], notes) -> list:
+    """[{date, label}] -> [(index, label)] at the first trading day on or after each date."""
+    out = []
+    for n in notes or []:
+        i = next((j for j, d in enumerate(dates) if d >= str(n.get("date", ""))), None)
+        if i is not None and n.get("label"):
+            out.append((i, str(n["label"])))
+    return out
 
 
 def line_chart(spec: dict) -> str:
@@ -373,8 +408,8 @@ def hbars_svg(key, W, H_unused, fs, labels, values, unit, highlight=None, median
     H = int(t + b + row * n)
     lab_w = max(_tw(str(x), fs) for x in labels) + 12
     lab_w = min(lab_w, W * 0.42)
-    val_w = fs * 4.8
     vals = [v for v in values if v is not None]
+    val_w = max(fs * 4.8, max([_tw(("+" if v > 0 else "") + fmt(v, unit), fs) for v in vals] or [0]) + 12)
     mx = max([abs(v) for v in vals] + ([abs(median)] if median is not None else [])) or 1
     has_neg = any(v < 0 for v in vals)
     has_pos = any(v > 0 for v in vals)
@@ -491,3 +526,183 @@ def spark(values: list[float], w: int = 96, h: int = 28) -> str:
     tone = "up" if vals[-1] >= vals[0] else "down"
     return (f'<svg class="spk {tone}" viewBox="0 0 {w} {h}" preserveAspectRatio="none" width="{w}" height="{h}" aria-hidden="true">'
             f'<path d="{d}" vector-effect="non-scaling-stroke"/></svg>')
+
+
+# ------------------------------------------------------------------ compare (rebased % change, several lines)
+
+def _spread(ys: list[float], gap: float, lo: float, hi: float) -> list[float]:
+    """Nudge end labels apart vertically, keeping their order and staying inside lo..hi."""
+    order = sorted(range(len(ys)), key=lambda i: ys[i])
+    out = list(ys)
+    for _ in range(40):
+        moved = False
+        for a, b in zip(order, order[1:]):
+            if out[b] - out[a] < gap:
+                mid = (out[a] + out[b]) / 2
+                out[a], out[b] = mid - gap / 2, mid + gap / 2
+                moved = True
+        for i in order:
+            out[i] = min(hi, max(lo, out[i]))
+        if not moved:
+            break
+    return out
+
+
+def compare_svg(key, W, H, fs, dates, series, highlight=None) -> str:
+    labs = [f"{s['name']} {'+' if s['values'][-1] >= 0 else '−'}{abs(s['values'][-1]):.1f}%" for s in series]
+    l, t, b = 4, 14, 26
+    r = max(_tw(x, fs) for x in labs) + 18
+    pw, ph = W - l - r, H - t - b
+    vals = [v for s in series for v in s["values"] if v is not None] + [0]
+    lo, hi = min(vals), max(vals)
+    pad = (hi - lo) * 0.06 or 1
+    ticks = nice_ticks(lo - pad, hi + pad, 4 if key == "d" else 3)
+    y0, y1 = min(ticks[0], lo), max(ticks[-1], hi)
+    n = len(dates)
+
+    def X(i):
+        return l + pw * (i / max(1, n - 1))
+
+    def Y(v):
+        return t + ph * (1 - (v - y0) / ((y1 - y0) or 1))
+    step = ticks[1] - ticks[0] if len(ticks) > 1 else 1
+    out = [f'<svg class="cv {key}" viewBox="0 0 {W} {H}" role="img" style="--fs:{fs}px">']
+    for tv in ticks:
+        y = Y(tv)
+        out.append(f'<line class="{"g0" if abs(tv) < 1e-9 else "g"}" x1="{l}" x2="{l + pw}" y1="{y:.1f}" y2="{y:.1f}"/>')
+        out.append(f'<text x="{l + 2}" y="{y - 4:.1f}">{esc(axis_fmt(tv, "%", step))}</text>')
+    for i, lab in _date_ticks(dates, 6 if key == "d" else 3):
+        out.append(f'<text x="{X(i):.1f}" y="{H - 6}" text-anchor="middle">{esc(lab)}</text>')
+    hl = highlight if highlight is not None else None
+    order = [i for i in range(len(series)) if i != hl] + ([hl] if hl is not None else [])
+    ends = []
+    for si in order:
+        s = series[si]
+        pts = [(X(i), Y(v)) for i, v in enumerate(s["values"]) if v is not None]
+        cls = f"s{si}" if hl is None else ("s0 on" if si == hl else "q")
+        d = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+        out.append(f'<path class="ln {cls}" d="{d}"/>')
+        out.append(f'<circle class="ed {cls}" cx="{pts[-1][0]:.1f}" cy="{pts[-1][1]:.1f}" r="3.5"/>')
+        ends.append((si, pts[-1][1], cls))
+    ys = _spread([e[1] for e in ends], fs * 1.35, t + fs * 0.5, t + ph)
+    for (si, _, cls), y in zip(ends, ys):
+        out.append(f'<text class="sl {cls}" x="{l + pw + 8:.1f}" y="{y + fs * 0.35:.1f}">{esc(labs[si])}</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def compare_chart(dates: list[str], series: list[dict], title: str, subtitle: str, source: str = "Source: Nasdaq daily closes",
+                  highlight=None, size: str = "full") -> str:
+    inner = both(lambda k, W, H, fs: compare_svg(k, W, H, fs, dates, series, highlight), size)
+    return figure(inner, title, subtitle, source)
+
+
+# ------------------------------------------------------------------ market map (squarified treemap)
+
+def _worst(row, side):
+    s = sum(row)
+    return max(max(side * side * r / (s * s), (s * s) / (side * side * r)) for r in row)
+
+
+def squarify(vals: list[float], x: float, y: float, w: float, h: float) -> list[tuple]:
+    """Bruls et al. squarified layout. vals sorted descending and summing to w*h."""
+    rects, vals = [], list(vals)
+    while vals:
+        if w <= 0 or h <= 0:
+            rects += [(x, y, 0, 0)] * len(vals)
+            break
+        side = min(w, h)
+        row, i = [vals[0]], 1
+        while i < len(vals) and _worst(row + [vals[i]], side) <= _worst(row, side):
+            row.append(vals[i])
+            i += 1
+        s = sum(row)
+        if w >= h:
+            rw, yy = s / h, y
+            for v in row:
+                rects.append((x, yy, rw, v / rw))
+                yy += v / rw
+            x, w = x + rw, w - rw
+        else:
+            rh, xx = s / w, x
+            for v in row:
+                rects.append((xx, y, v / rh, rh))
+                xx += v / rh
+            y, h = y + rh, h - rh
+        vals = vals[i:]
+    return rects
+
+
+SHORT_SECTOR = {"Information Technology": "Tech", "Communication Services": "Communication", "Consumer Discretionary": "Discretionary",
+                "Consumer Staples": "Staples", "Health Care": "Health care", "Real Estate": "Real estate"}
+
+HEAT = [(-3, (246, 53, 56)), (-2, (191, 64, 69)), (-1, (139, 68, 78)), (0, (65, 69, 84)),
+        (1, (53, 118, 78)), (2, (47, 158, 79)), (3, (48, 204, 90))]
+
+
+def heat(v: float, scale: float = 3.0) -> str:
+    x = max(-3.0, min(3.0, v * 3.0 / scale))
+    for (a, ca), (b, cb) in zip(HEAT, HEAT[1:]):
+        if x <= b:
+            f = (x - a) / (b - a)
+            return "#%02x%02x%02x" % tuple(round(ca[k] + (cb[k] - ca[k]) * f) for k in range(3))
+    return "#30cc5a"
+
+
+def treemap_svg(key, W, H, fs, groups, scale=3.0) -> str:
+    groups = [g for g in groups if g["items"]]
+    tot = sum(i["w"] for g in groups for i in g["items"]) or 1
+    gs = sorted(groups, key=lambda g: -sum(i["w"] for i in g["items"]))
+    grects = squarify([sum(i["w"] for i in g["items"]) / tot * W * H for g in gs], 0, 0, W, H)
+    head = fs * 1.45
+    out = [f'<svg class="cv tm {key}" viewBox="0 0 {W} {H}" role="img" style="--fs:{fs}px">']
+    for g, (gx, gy, gw, gh) in zip(gs, grects):
+        show_head = gw > fs * 5 and gh > head * 2.6
+        ix, iy, iw, ih = gx + 1, gy + (head if show_head else 1), gw - 2, gh - (head if show_head else 1) - 1
+        items = sorted(g["items"], key=lambda i: -i["w"])
+        gt = sum(i["w"] for i in items) or 1
+        if show_head:
+            name = SHORT_SECTOR.get(g["name"], g["name"])
+            name = name if _tw(name.upper(), fs * 0.82) < gw - 8 else ""
+            out.append(f'<text class="tmh" x="{gx + 4:.1f}" y="{gy + head * 0.72:.1f}">{esc(name.upper())}</text>')
+        for it, (x, y, w, h) in zip(items, squarify([i["w"] / gt * iw * ih for i in items], ix, iy, iw, ih)):
+            if w < 0.5 or h < 0.5:
+                continue
+            tip = f'{it["t"]} · {it.get("name", "")}: {"+" if it["v"] >= 0 else "−"}{abs(it["v"]):.2f}%'
+            out.append(f'<g class="tile" data-tip="{esc(tip)}"><rect x="{x + .5:.1f}" y="{y + .5:.1f}" width="{max(0, w - 1):.1f}" '
+                       f'height="{max(0, h - 1):.1f}" fill="{heat(it["v"], scale)}"/>')
+            tsz = min(fs * 2.4, w / (len(it["t"]) * 0.68 + 0.6), h / 2.5)
+            if tsz >= fs * 0.78:
+                cy = y + h / 2
+                two = h >= tsz * 2.5
+                out.append(f'<text class="tmt" x="{x + w / 2:.1f}" y="{cy + (-tsz * 0.12 if two else tsz * 0.35):.1f}" '
+                           f'text-anchor="middle" style="font-size:{tsz:.1f}px">{esc(it["t"])}</text>')
+                if two:
+                    vs = max(fs * 0.72, tsz * 0.62)
+                    out.append(f'<text class="tmv" x="{x + w / 2:.1f}" y="{cy + tsz * 0.95:.1f}" text-anchor="middle" '
+                               f'style="font-size:{vs:.1f}px">{"+" if it["v"] >= 0 else "−"}{abs(it["v"]):.1f}%</text>')
+            out.append("</g>")
+    out.append("</svg>")
+    return "".join(out)
+
+
+def treemap_chart(groups, title, subtitle, source, scale=3.0) -> str:
+    sizes = {"d": (680, 440, 12.5), "m": (360, 500, 11.5)}
+    inner = "".join(treemap_svg(k, *sizes[k], groups, scale) for k in ("d", "m"))
+    stops = "".join(f'<i style="background:{heat(v, 3)}"><b>{"+" if v > 0 else "−" if v < 0 else ""}{abs(v * scale / 3):g}%</b></i>'
+                    for v in (-3, -2, -1, 0, 1, 2, 3))
+    legend = f'<div class="tml">{stops}</div>'
+    return figure(inner + legend, title, subtitle, source, cls="tmap")
+
+
+# ------------------------------------------------------------------ big numbers
+
+def stat_cards(items: list[dict]) -> str:
+    """items: {value, label, note, tone (up/down/''), logo (html), spark (svg)}."""
+    cells = []
+    for it in items:
+        tone = it.get("tone", "")
+        note = f'<span class="nt">{esc(it["note"])}</span>' if it.get("note") else ""
+        cells.append(f'<div class="sb {tone}"><span class="l">{it.get("logo", "")}{esc(it.get("label", ""))}</span>'
+                     f'<b class="v">{esc(it["value"])}</b>{note}{it.get("spark", "")}</div>')
+    return f'<div class="bigstats n{min(len(items), 3)}">{"".join(cells)}</div>'

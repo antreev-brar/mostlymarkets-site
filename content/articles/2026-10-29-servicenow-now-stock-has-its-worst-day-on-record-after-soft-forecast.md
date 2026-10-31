@@ -10,6 +10,8 @@ cover = "software"
 moves = [
   { ticker = "NOW", price = 109.67, change_pct = -26.95, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "an office conveyor belt carrying neat stacks of paper forms snapping in the middle, papers exploding into the air, a red stock-chart line diving through a glass skyscraper lobby"
+cover_alt = "A collage of an office conveyor belt of paperwork snapping in half as a red chart line dives"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm",
   "https://thenextweb.com/news/servicenow-results-shares-record-drop-crpo-outlook",

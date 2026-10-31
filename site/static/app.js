@@ -265,4 +265,104 @@
     var q = tf.value.trim().toLowerCase();
     $$("table.big tbody tr").forEach(function (r) { r.hidden = q && r.textContent.toLowerCase().indexOf(q) === -1; });
   });
+  /* copy a take's link */
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest("[data-copy]"); if (!b) return;
+    var url = b.getAttribute("data-copy");
+    function done() { b.textContent = "Link copied"; b.classList.add("ok"); setTimeout(function () { b.textContent = "Copy link"; b.classList.remove("ok"); }, 2200); }
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { toast(url); }); else toast(url);
+  });
+
+  /* stories: tap-through slides (templates rendered by the build) */
+  var groups = $$("template.stg");
+  if (groups.length) {
+    var seen = store.get("mm-seen-stories", []);
+    var rail = $(".rail-in");
+    function paintSeen() {
+      $$(".ring[data-story-open]").forEach(function (r) { r.classList.toggle("seen", seen.indexOf(r.getAttribute("data-story-open")) > -1); });
+    }
+    if (rail) {  // unseen first, like every stories rail
+      $$(".ring", rail).filter(function (r) { return seen.indexOf(r.getAttribute("data-story-open")) > -1; })
+        .forEach(function (r) { rail.appendChild(r); });
+    }
+    paintSeen();
+    var ov, bars, hd, stage, gi = 0, si = 0, t0 = 0, elapsed = 0, paused = false, raf = 0, DUR = 7000, down = null;
+    function slidesOf(g) { return $$(".sl", g.content); }
+    function markSeen(g) {
+      var id = g.getAttribute("data-id");
+      if (seen.indexOf(id) < 0) { seen.push(id); seen = seen.slice(-60); store.set("mm-seen-stories", seen); }
+    }
+    function build() {
+      ov = document.createElement("div"); ov.className = "stv"; ov.setAttribute("role", "dialog"); ov.setAttribute("aria-modal", "true"); ov.setAttribute("aria-label", "Stories");
+      ov.innerHTML = '<button class="stv-nav p" type="button" aria-label="Previous">‹</button><div class="stv-fr"><div class="stv-bars"></div><div class="stv-hd"></div>' +
+        '<div class="stv-stage"></div><div class="stv-tap p"></div><div class="stv-tap n"></div></div><button class="stv-nav n" type="button" aria-label="Next">›</button>';
+      document.body.appendChild(ov);
+      bars = $(".stv-bars", ov); hd = $(".stv-hd", ov); stage = $(".stv-stage", ov);
+      $(".stv-nav.p", ov).addEventListener("click", prev); $(".stv-nav.n", ov).addEventListener("click", next);
+      ov.addEventListener("click", function (e) {
+        if (e.target === ov) close();
+        if (e.target.closest(".stv-x")) close();
+      });
+      var fr = $(".stv-fr", ov);
+      fr.addEventListener("pointerdown", function (e) {
+        if (e.target.closest("a, button")) return;
+        down = { x: e.clientX, y: e.clientY, t: Date.now(), zone: e.target.closest(".stv-tap") }; paused = true;
+      });
+      fr.addEventListener("pointerup", function (e) {
+        if (!down) return;
+        var dx = e.clientX - down.x, dy = e.clientY - down.y, dt = Date.now() - down.t, z = down.zone; down = null; paused = false;
+        if (dy > 90 && Math.abs(dy) > Math.abs(dx)) { close(); return; }
+        if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)) { if (dx < 0) nextGroup(); else prevGroup(); return; }
+        if (dt < 300 && Math.abs(dx) < 12 && Math.abs(dy) < 12 && z) { if (z.classList.contains("p")) prev(); else next(); }
+      });
+      fr.addEventListener("pointercancel", function () { down = null; paused = false; });
+    }
+    function show() {
+      var g = groups[gi], sl = slidesOf(g);
+      bars.innerHTML = sl.map(function (_, i) { return '<i><b style="width:' + (i < si ? 100 : 0) + '%"></b></i>'; }).join("");
+      hd.innerHTML = "";
+      hd.appendChild(g.content.querySelector(".stg-av").cloneNode(true));
+      var nm = document.createElement("span"); nm.innerHTML = esc(g.getAttribute("data-name")) + " <small>" + esc(g.getAttribute("data-when")) + "</small>";
+      hd.appendChild(nm);
+      var x = document.createElement("button"); x.className = "stv-x"; x.type = "button"; x.setAttribute("aria-label", "Close"); x.innerHTML = "×"; hd.appendChild(x);
+      stage.innerHTML = ""; stage.appendChild(sl[si].cloneNode(true));
+      elapsed = 0; t0 = performance.now();
+      if (si === sl.length - 1) markSeen(g);
+    }
+    function tick(now) {
+      if (!paused && !document.hidden) elapsed += now - t0;
+      t0 = now;
+      var b = bars.children[si] && bars.children[si].firstChild;
+      if (b) b.style.width = Math.min(100, elapsed / DUR * 100) + "%";
+      if (elapsed >= DUR) next();
+      raf = requestAnimationFrame(tick);
+    }
+    function next() { if (si < slidesOf(groups[gi]).length - 1) { si++; show(); } else nextGroup(); }
+    function prev() { if (si > 0) { si--; show(); } else prevGroup(); }
+    function nextGroup() { markSeen(groups[gi]); if (gi < groups.length - 1) { gi++; si = 0; show(); } else close(); }
+    function prevGroup() { if (gi > 0) { gi--; si = 0; } show(); }
+    function open(id) {
+      if (!ov) build();
+      gi = 0; groups.forEach(function (g, i) { if (g.getAttribute("data-id") === id) gi = i; });
+      si = 0; ov.classList.add("on"); document.documentElement.style.overflow = "hidden"; paused = false;
+      show(); cancelAnimationFrame(raf); t0 = performance.now(); raf = requestAnimationFrame(tick);
+      try { history.pushState({ stv: 1 }, ""); } catch (e) {}
+      $(".stv-nav.n", ov).focus({ preventScroll: true });
+    }
+    function close(fromPop) {
+      if (!ov || !ov.classList.contains("on")) return;
+      ov.classList.remove("on"); document.documentElement.style.overflow = ""; cancelAnimationFrame(raf);
+      paintSeen();
+      if (fromPop !== true && history.state && history.state.stv) history.back();
+    }
+    window.addEventListener("popstate", function () { close(true); });
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest && e.target.closest("[data-story-open]"); if (!b) return;
+      e.preventDefault(); open(b.getAttribute("data-story-open"));
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!ov || !ov.classList.contains("on")) return;
+      if (e.key === "ArrowRight") next(); else if (e.key === "ArrowLeft") prev(); else if (e.key === "Escape") close();
+    });
+  }
 })();

@@ -7,7 +7,7 @@ A GitHub Actions job (`.github/workflows/data.yml`) watches the market every 15 
 ## 0. Setup (every run)
 ```bash
 bash pipeline/data_pull.sh          # prices, quotes, calendars and fundamentals from the data branch
-python3 pipeline/storystoryqueue.py list      # open events, highest priority first
+python3 pipeline/storyqueue.py list      # open events, highest priority first
 TZ=America/New_York date            # the time now, in New York
 ```
 If the queue is empty, stop. Don't commit.
@@ -38,6 +38,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    - `event` = the event id
    - `moves` from the pack's quote, with the right `session`
    - at least one chart (a `price` chart unless the template says otherwise), and links to related stories in `pack.recent_stories` or `pack.todays_stories`
+   - a `cover_brief` and `cover_alt` for the cases STYLE.md lists (the daily, the market wrap, $100bn+ companies, 10%+ moves)
 5. **Check:** `python3 pipeline/check.py content/articles/<file>`. Fix it until it passes. Warnings are allowed; errors aren't.
 6. **Close the event:** `python3 pipeline/storyqueue.py done <id> content/articles/<file>`.
 7. **Publish it now, one story at a time:**
@@ -47,6 +48,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    If the push is rejected, run `git pull --rebase origin main`, then push again.
 
 ## 3. Special events
+- **`daily` (Mostly Markets Daily):** the most important story of the day; write it first when it's queued. Follow the `daily` template in STYLE.md exactly. The pack has `markets`, the session's biggest `moves`, `stories_since` (our stories to build on and link; they're already fact-checked, so their facts can be reused with their attribution) and `reporting_today`. Build each take around one picture, preferring the computed chart kinds (`moves`, `compare`, `treemap`, `contrib`, `price` with `notes`, `stat` with `metric`). Before pushing, render it (`python3 site/build.py`) and open `dist/daily/<date>/index.html` to check each chart says what its take claims. Add `cover_brief` and `cover_alt`; the art is drawn automatically after you push. For the weekend edition set `edition = "weekend"`.
 - **`macro-check`:** write a `macro` story only if a top-tier release (CPI, PPI, jobs, GDP, PCE, retail sales, JOLTS) came out today. Otherwise skip it with "no top-tier release today".
 - **`market-wrap`:** use `pack.markets` for "## The numbers". The 10-year yield's `price` is the yield in %, and its `change` is in percentage points. Link today's stories (`pack.todays_stories`) where they fit.
 - **`movers`:** five paragraphs from `pack.moves`. Each links to our story about that stock when one exists (`our_stories`). If a stock has none, give its cause in one sourced sentence, or leave it out.

@@ -42,3 +42,31 @@ We copy what works there, fix what's weak, and keep our own identity: a navy-ink
 - Value score: sector percentile of forward P/E (trailing P/E if there's no forward), lower = cheaper, mapped to −1…+1. No positive earnings = treated as expensive.
 - Bands: ≥ +0.33 strong / cheaper, ≤ −0.33 weak / pricier, otherwise average / fair.
 - The quadrant shows the stock plus up to 7 industry peers by market value; points are pushed apart before render so nothing overlaps at rest.
+
+## v3 (31 Oct 2026): The Daily, takes and Stories
+
+The brief: make it addictive for people who scroll. Daily editions with stories and X-level analysis, AI covers like Opening Bell Daily's, more visual, full of storytelling charts.
+
+- **The Daily** (`type = "daily"`, `/daily/<date>/`, archive at `/daily/`):
+  - Masthead with edition number, then a big serif headline and a full-width 16:9 AI cover.
+  - "In this edition" pills, then a drop-cap narrative lede.
+  - Then the thread: every `###` becomes a numbered **take card** (`1/8`) with one picture and Copy link / Post on X buttons. Takes are deep-linkable at `#<id>`.
+- **Home:**
+  - A **Stories rail** (rings, unseen first): The Daily, Movers (gainers, losers, market map, who moved the index), Earnings, Charts, Our picks.
+  - Under it, the **Daily hero**: a dark navy card with the cover, the first five takes, "Read the edition" and "Swipe through it".
+  - Up to three take cards are mixed into the river.
+- **Stories viewer** (`app.js`):
+  - Full-screen 9:16 slides with progress bars and seven-second auto-advance.
+  - Tap left or right to move; hold to pause; swipe sideways to change group, down to close; arrow keys and Esc on desktop.
+  - The back button closes it. Slides reuse the phone render of each chart on a dark navy surface.
+- **Storytelling charts**, all computed from our prices so their numbers are right by construction:
+  - `price` with `notes`: an event marker on the line
+  - `compare`: rebased lines with end labels
+  - `moves`: change between two closes
+  - `treemap`: the S&P 500 market map, sized by market value, with a finviz-style diverging red/green that reads in both themes
+  - `contrib`: each stock's contribution to the index move
+  - `stat`: big-number cards, written or computed
+- **Covers:**
+  - House style is a torn-paper halftone collage in our palette: navy ink, cobalt `#3355ff` and lemon `#ffe45c` on warm paper. Red and green appear only as chart lines.
+  - Opening Bell Daily uses red/navy/cream with photo cut-outs of real executives. We never depict real people, logos or text: covers are symbolic scenes.
+  - Prompt prefix in `pipeline/covers.py`. Briefs come from the writer (`cover_brief`); `.github/workflows/covers.yml` draws them after each push when the `OPENAI_API_KEY` secret is set.

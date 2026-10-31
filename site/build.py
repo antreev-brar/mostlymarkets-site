@@ -42,11 +42,11 @@ MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "No
 MONTH = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
          "November", "December"]
 WD = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-TYPE_LABEL = {"market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Big movers",
+TYPE_LABEL = {"daily": "The Daily", "market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Big movers",
               "earnings-recap": "Earnings", "earnings-preview": "Earnings preview", "list": "Our picks",
               "macro": "Economy", "chart": "Chart", "analysis": "Analysis"}
 FILTERS = [("all", "All"), ("why-it-moved,movers", "Why it moved"), ("earnings-recap,earnings-preview", "Earnings"),
-           ("market-wrap,macro,chart", "Markets & economy"), ("list,analysis", "Our picks & analysis"),
+           ("daily,market-wrap,macro,chart", "Markets & economy"), ("list,analysis", "Our picks & analysis"),
            ("mine", "My stocks")]
 
 
@@ -141,6 +141,7 @@ UNIV = json.loads((ROOT / "data/universe/universe.json").read_text())
 UMAP = {x["ticker"]: x for x in UNIV}
 AUTHORS = {a["id"]: a for a in json.loads((ROOT / "data/authors.json").read_text())}
 COVERS = json.loads((SITE / "covers.json").read_text())
+COVER_ALT: dict[str, str] = {}  # alt text for AI story covers (assets/covers/story/)
 QPATH = ROOT / "data/quotes/latest.json"
 QUOTES = json.loads(QPATH.read_text()) if QPATH.exists() else {"asof": None, "quotes": {}}
 Q = QUOTES["quotes"]
@@ -222,7 +223,8 @@ class Story:
         self.body = body.strip()
         m = re.match(r"(\d{4}-\d{2}-\d{2})-(.+)\.md$", path.name)
         self.date, self.slug = m.group(1), m.group(2)
-        self.path = f"news/{self.date}/{self.slug}/"
+        self.type = self.fm["type"]
+        self.path = f"daily/{self.date}/" if self.type == "daily" else f"news/{self.date}/{self.slug}/"
         self.title = self.fm["title"]
         self.dek = self.fm["dek"]
         self.type = self.fm["type"]
@@ -233,6 +235,7 @@ class Story:
         self.featured = bool(self.fm.get("featured"))
         self.moves = self._moves()
         self.cover = self._cover()
+        self._rendered = None
         words = len(re.findall(r"\w+", re.sub(r"```.*?```", " ", self.body, flags=re.S)))
         self.minutes = max(1, round(words / 230))
 
@@ -253,6 +256,9 @@ class Story:
 
     def _cover(self):
         keys = COVERS["covers"]
+        if (ROOT / f"assets/covers/story/{self.slug}-800.webp").exists():  # AI art drawn for this story
+            COVER_ALT[f"story/{self.slug}"] = self.fm.get("cover_alt") or "Illustration for this story"
+            return f"story/{self.slug}"
         want = self.fm.get("cover")
         if want in keys:
             return want
@@ -273,7 +279,7 @@ class Story:
         return opts[h % len(opts)] if opts else "markets-calm"
 
     def weight(self) -> float:
-        base = {"market-wrap": 6, "earnings-recap": 5, "macro": 5, "analysis": 4, "why-it-moved": 3, "list": 3,
+        base = {"daily": 7, "market-wrap": 6, "earnings-recap": 5, "macro": 5, "analysis": 4, "why-it-moved": 3, "list": 3,
                 "earnings-preview": 2, "movers": 2, "chart": 1}[self.type]
         mv = max([abs(m["c"]) for m in self.moves if m.get("c") is not None] or [0])
         cap = max([(Q.get(t) or {}).get("cap") or 0 for t in self.tickers] or [0])
@@ -296,15 +302,24 @@ for s in STORIES:
     for t in s.tickers:
         BY_TICKER[t].append(s)
 BY_PATH = {f"/{s.path}": s for s in STORIES}
+DAILIES = [s for s in STORIES if s.type == "daily"]  # newest first
+for i, s in enumerate(reversed(DAILIES)):
+    s.edition = i + 1
+    # A weekend edition published on a Friday evening shares its date with that morning's edition.
+    if s.fm.get("edition") == "weekend" and any(x is not s and x.date == s.date for x in DAILIES):
+        del BY_PATH[f"/{s.path}"]
+        s.path = f"daily/{s.date}/weekend/"
+        BY_PATH[f"/{s.path}"] = s
 
 # ---------------------------------------------------------------------- page shell
 
 ICON = {
     "search": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>',
     "theme": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>',
+    "play": '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.2-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>',
     "plus": '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
 }
-NAV = [("", "Latest"), ("discover/", "Discover"), ("earnings/", "Earnings"), ("stocks/", "Stocks")]
+NAV = [("", "Latest"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings"), ("stocks/", "Stocks")]
 
 
 def page(path: str, title: str, body: str, desc: str = "", image: str | None = None, active: str = "",
@@ -421,7 +436,7 @@ def chips(s: Story, limit=3) -> str:
 
 
 def cover_img(key: str, size: int, cls: str = "", lazy=True, alt=True) -> str:
-    a = esc(COVERS["covers"].get(key, {}).get("alt", "")) if alt else ""
+    a = esc(COVERS["covers"].get(key, {}).get("alt", "") or COVER_ALT.get(key, "")) if alt else ""
     srcset = ""
     if size == 1600:
         srcset = f' srcset="{u(f"static/covers/{key}-800.webp")} 800w, {u(f"static/covers/{key}-1600.webp")} 1600w" sizes="(max-width: 760px) 100vw, 680px"'
@@ -462,6 +477,92 @@ def subscribe_box(wide=False, title="The close, in your inbox", text=None) -> st
 
 # ---------------------------------------------------------------------- story page
 
+SECOND_CLASS = {"GOOG", "FOX", "NWS"}  # CNBC gives each class the whole company's market value; count the company once
+SP500 = [t for t, x in UMAP.items() if "S&P 500" in x.get("index", []) and t not in SECOND_CLASS]
+
+
+def day_moves(day: str, members: list[str] | None = None) -> list[dict]:
+    """Each stock's close-to-close move on `day`, with its market value then (today's value scaled by price)."""
+    out = []
+    for t in [x for x in (members or SP500) if x not in SECOND_CLASS]:
+        bars = prices(t)
+        c = close_on(t, day)
+        cap = (Q.get(t) or {}).get("cap")
+        if not c or c[0]["date"] != day or not cap or not bars:
+            continue
+        last = bars[-1]["close"]
+        out.append({"t": t, "name": UMAP[t]["name"], "sector": UMAP[t]["sector"], "v": (c[0]["close"] / c[1]["close"] - 1) * 100,
+                    "cap": cap * c[0]["close"] / last, "cap_prev": cap * c[1]["close"] / last})
+    return out
+
+
+def last_trading_day(day: str | None = None) -> str:
+    bars = [b for b in prices("AAPL") if not day or b["date"] <= day]
+    return bars[-1]["date"]
+
+
+def day_label(day: str) -> str:
+    d = dt.date.fromisoformat(day)
+    return f"{WD[d.weekday()]} {d.day} {MON[d.month - 1]}"
+
+
+def treemap_html(day: str, title: str | None = None, subtitle: str | None = None, n: int = 220) -> str:
+    mv = sorted(day_moves(day), key=lambda m: -m["cap"])[:n]
+    groups = defaultdict(list)
+    for m in mv:
+        groups[m["sector"]].append({"t": m["t"], "name": m["name"], "v": m["v"], "w": m["cap"]})
+    allm = day_moves(day)
+    up = sum(1 for m in allm if m["v"] > 0)
+    return C.treemap_chart([{"name": k, "items": v} for k, v in groups.items()],
+                           title or f"{up} of {len(allm)} S&P 500 stocks rose on {day_label(day)}",
+                           subtitle or f"The {len(mv)} biggest S&P 500 companies, sized by market value, coloured by the day's move",
+                           "Source: Nasdaq daily closes; market values from CNBC")
+
+
+def contrib_html(day: str, n: int = 10, title: str | None = None, subtitle: str | None = None, size: str = "full") -> str:
+    mv = day_moves(day)
+    tot = sum(m["cap_prev"] for m in mv) or 1
+    for m in mv:
+        m["c"] = m["cap_prev"] / tot * m["v"]
+    est = sum(m["c"] for m in mv)
+    neg = sorted([m for m in mv if m["c"] < 0], key=lambda m: m["c"])
+    pos = sorted([m for m in mv if m["c"] > 0], key=lambda m: -m["c"])
+    k_pos = min(len(pos), max(2, n // 3)) if est < 0 else min(len(pos), n - max(2, n // 3))
+    pick = (neg[:n - k_pos] + pos[:k_pos]) if est < 0 else (pos[:k_pos] + neg[:n - k_pos])
+    pick.sort(key=lambda m: m["c"])
+    spec = {"labels": [m["t"] for m in pick], "values": [round(m["c"], 3) for m in pick], "unit": " pts"}
+    inner = C.both(lambda k, W, H, fs: C.hbars_svg(k, W, H, fs, spec["labels"], spec["values"], spec["unit"]), size)
+    big = pick[0] if est < 0 else pick[-1]
+    return C.figure(inner, title or f"{UMAP[big['t']]['name']} did the most to move the S&P 500 on {day_label(day)}",
+                    subtitle or (f"Each stock's contribution to the S&P 500's move, in percentage points. "
+                                 f"Together our estimate comes to {est:+.2f}%".replace("-", "−")),
+                    "Mostly Markets estimate from Nasdaq closes and CNBC market values")
+
+
+def compare_html(spec: dict, story_date: str) -> str:
+    ts = [t for t in spec["tickers"] if t in UMAP and prices(t)]
+    end = spec.get("end") or story_date
+    rng = spec.get("range", "3m")
+    last = dt.date.fromisoformat(last_trading_day(end))
+    start = {"1w": last - dt.timedelta(days=7), "1m": last - dt.timedelta(days=31), "3m": last - dt.timedelta(days=92),
+             "6m": last - dt.timedelta(days=183), "1y": last - dt.timedelta(days=366),
+             "ytd": dt.date(last.year - 1, 12, 31)}.get(rng, last - dt.timedelta(days=92))
+    dates = [b["date"] for b in prices(ts[0]) if start.isoformat() <= b["date"] <= last.isoformat()]
+    series = []
+    for t in ts:
+        m = {b["date"]: b["close"] for b in prices(t)}
+        base = next((m[d] for d in dates if d in m), None)
+        vals, prev = [], None
+        for d in dates:
+            prev = m.get(d, prev)
+            vals.append((prev / base - 1) * 100 if prev and base else None)
+        series.append({"name": t, "values": vals})
+    hl = spec.get("highlight")
+    hi = ts.index(hl) if hl in ts else None
+    return C.compare_chart(dates, series, spec["title"], spec.get("subtitle") or f"Change in share price since {C.human(dates[0])}, %",
+                           highlight=hi)
+
+
 def block_chart(spec_text: str, story: Story) -> str:
     try:
         spec = json.loads(spec_text)
@@ -473,7 +574,29 @@ def block_chart(spec_text: str, story: Story) -> str:
             t = spec["ticker"]
             name = UMAP.get(t, {}).get("name", t)
             return C.price_chart(prices(t), spec.get("range", "1y"), spec.get("end") or story.date, spec["title"],
-                                 spec.get("subtitle") or f"{name}, daily close, $", spec.get("mark", "last"))
+                                 spec.get("subtitle") or f"{name}, daily close, $", spec.get("mark", "last"),
+                                 notes=spec.get("notes"))
+        if k == "compare":
+            return compare_html(spec, story.date)
+        if k == "moves":  # close-to-close moves over a period, computed from our prices
+            a, b = spec["from"], spec.get("to") or story.date
+            rows = []
+            for t in spec["tickers"]:
+                m = {x["date"]: x["close"] for x in prices(t)}
+                da = max((d for d in m if d <= a), default=None)
+                db = max((d for d in m if d <= b), default=None)
+                if da and db and da < db:
+                    rows.append((t, (m[db] / m[da] - 1) * 100))
+            rows.sort(key=lambda r: r[1], reverse=not all(v < 0 for _, v in rows))
+            lab = [UMAP[t]["name"].replace(", Inc.", "").replace(" Inc.", "") if spec.get("names") else t for t, _ in rows]
+            return C.hbars_chart({"labels": lab, "values": [round(v, 2) for _, v in rows], "unit": "%", "title": spec["title"],
+                                  "subtitle": spec.get("subtitle") or f"Share price change, {C.human(a)} close to {C.human(b)} close, %",
+                                  "source": "Source: Nasdaq daily closes", "highlight": spec.get("highlight")})
+        if k == "treemap":
+            return treemap_html(spec.get("date") or last_trading_day(story.date), spec.get("title"), spec.get("subtitle"))
+        if k == "contrib":
+            return contrib_html(spec.get("date") or last_trading_day(story.date), spec.get("n", 10), spec.get("title"),
+                                spec.get("subtitle"))
         if k == "bars":
             return C.bars_chart(spec)
         if k == "hbars":
@@ -483,6 +606,34 @@ def block_chart(spec_text: str, story: Story) -> str:
     except Exception as e:  # noqa: BLE001
         print(f"  chart failed in {story.slug}: {e}")
     return ""
+
+
+def block_stat(text: str, story: Story) -> str:
+    """Big numbers. A value can be written out, or computed from our prices: {"ticker", "metric": day|week|month|ytd, "date"}."""
+    try:
+        spec = json.loads(text)
+    except json.JSONDecodeError:
+        return ""
+    items = []
+    for it in (spec if isinstance(spec, list) else [spec]):
+        t = it.get("ticker") if it.get("ticker") in UMAP else None
+        val, tone_ = it.get("value"), it.get("tone", "")
+        if not val and t:
+            day = last_trading_day(it.get("date") or story.date)
+            v = {"day": lambda: (close_on(t, day)[0]["close"] / close_on(t, day)[1]["close"] - 1) * 100,
+                 "week": lambda: ret_since(t, 5, day), "month": lambda: ret_since(t, 21, day),
+                 "ytd": lambda: ytd(t, day)}[it.get("metric", "day")]()
+            val = f"{'+' if v >= 0 else '−'}{abs(v):.1f}%"
+            tone_ = tone_ or ("up" if v >= 0 else "down")
+        if not val:
+            continue
+        sp = ""
+        if t and it.get("spark"):
+            n = {"1w": 6, "1m": 22, "3m": 64, "6m": 127, "1y": 253}.get(it["spark"], 22)
+            sp = C.spark([b["close"] for b in [b for b in prices(t) if b["date"] <= (it.get("date") or story.date)][-n:]], 120, 34)
+        items.append({"value": str(val).replace("-", "−"), "label": it.get("label", ""), "note": it.get("note", ""),
+                      "tone": tone_, "logo": logo(t, 34) if t else "", "spark": sp})
+    return C.stat_cards(items) if items else ""
 
 
 def block_picks(text: str, story: Story) -> str:
@@ -519,10 +670,15 @@ def block_highlights(text: str, r: Renderer) -> str:
 
 
 def render_body(s: Story) -> str:
-    r = Renderer(link_ticker=lambda t: u(tpath(t)) if t in UMAP else None, url=u, blocks={})
-    r.blocks = {"chart": lambda x: block_chart(x, s), "picks": lambda x: block_picks(x, s),
-                "highlights": lambda x: block_highlights(x, r)}
-    return r.render(s.body)
+    if s._rendered is None:
+        r = Renderer(link_ticker=lambda t: u(tpath(t)) if t in UMAP else None, url=u, blocks={},
+                     takes=s.type == "daily", page_url=absu(s.path))
+        r.blocks = {"chart": lambda x: block_chart(x, s), "picks": lambda x: block_picks(x, s),
+                    "highlights": lambda x: block_highlights(x, r), "stat": lambda x: block_stat(x, s)}
+        s._rendered = r.render(s.body)
+        s.takes = r.takes
+        s.headings = r.headings
+    return s._rendered
 
 
 def stockbar(s: Story) -> str:
@@ -555,7 +711,7 @@ def story_page(s: Story) -> str:
     crumbs = f'<span class="kick hl">{TYPE_LABEL[s.type]}</span>'
     if sector:
         crumbs += f'<a class="kick" href="{u("sectors/" + slugify(sector) + "/")}">{esc(sector)}</a>'
-    cap = COVERS["covers"].get(s.cover, {}).get("alt", "")
+    cap = COVERS["covers"].get(s.cover, {}).get("alt", "") or COVER_ALT.get(s.cover, "")
     more = []
     if s.tickers:
         t = s.tickers[0]
@@ -595,6 +751,236 @@ def story_page(s: Story) -> str:
     return page(s.path, s.title, html_, s.dek, f"static/covers/{s.cover}-1600.webp", og_type="article")
 
 
+# ---------------------------------------------------------------------- the daily edition
+
+def long_date(d: dt.date) -> str:
+    return f"{WD[d.weekday()]}, {d.day} {MONTH[d.month - 1]} {d.year}"
+
+
+def strip_tags(h: str) -> str:
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h))).strip()
+
+
+def take_parts(tk: dict) -> tuple[str, str]:
+    """A take's first visual (chart, market map or big numbers) and its first paragraph as plain text."""
+    vis, text = "", ""
+    for blk in tk.get("body", []):
+        if not vis and (blk.startswith("<figure") or blk.startswith('<div class="hov"') or blk.startswith('<div class="bigstats')):
+            vis = blk
+        elif not text and blk.startswith("<p>"):
+            text = strip_tags(blk)
+    return vis, text
+
+
+def clip(t: str, n: int) -> str:
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def edition_card(s: Story, size: int = 800) -> str:
+    render_body(s)
+    return (f'<article class="ed-card"><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
+            f'<div class="th">{cover_img(s.cover, size)}</div><div class="tx"><span class="ed-k">No. {s.edition} · {esc(day_title(s.pub.date()))}</span>'
+            f'<h3>{esc(s.title)}</h3><p>{esc(s.dek)}</p><span class="ed-m">{len(s.takes)} takes · {s.minutes} min read</span></div></article>')
+
+
+def daily_page(s: Story) -> str:
+    body = render_body(s)
+    d = s.pub.date()
+    toc = "".join(f'<a href="#{sid}">{esc(t)}</a>' for lv, sid, t in s.headings if lv == 2)
+    others = [x for x in DAILIES if x is not s][:3]
+    more = ""
+    if others:
+        more = f'<section class="related"><h3>More editions</h3><div class="ed-grid">{"".join(edition_card(x, 480) for x in others)}</div></section>'
+    latest = [x for x in STORIES if x.type != "daily"][:5]
+    more += f'<section class="related"><h3>Latest stories</h3><div class="cards-col">{"".join(row(x) for x in latest)}</div></section>'
+    initials = "".join(w[0] for w in s.author["name"].split()[:2])
+    ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": s.title, "description": s.dek,
+          "datePublished": s.pub.isoformat(), "author": {"@type": "Person", "name": s.author["name"]},
+          "image": [absu(f"static/covers/{s.cover}-1600.webp")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
+    play = (f'<button class="btn sm play" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through it</span></button>'
+            if s.takes else "")
+    html_ = f"""<article class="daily">
+ <header class="ed-head wrap">
+  <div class="ed-mast"><a href="{u('daily/')}" class="ed-name">Mostly Markets <b>Daily</b></a><span>{"Weekend edition · " if s.fm.get("edition") == "weekend" else ""}{esc(long_date(d))}</span><span class="ed-no">No. {s.edition}</span></div>
+  <h1>{esc(s.title)}</h1>
+  <p class="dek">{esc(s.dek)}</p>
+  <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span>{s.minutes} min read</span><span class="sep">·</span><span>{len(s.takes)} takes</span>{play}</div>
+ </header>
+ <figure class="ed-cover"><div class="ci">{cover_img(s.cover, 1600, lazy=False)}</div><figcaption>{esc(COVER_ALT.get(s.cover) or COVERS["covers"].get(s.cover, {}).get("alt", ""))}. Illustration: AI-generated.</figcaption></figure>
+ {f'<nav class="ed-toc wrap" aria-label="In this edition"><span>In this edition</span>{toc}</nav>' if toc else ''}
+ <div class="story-body">
+  <div class="prose daily-prose">{body}</div>
+  <div class="endbox"><div><h4>Get The Daily in your inbox</h4><p>The story behind the market every morning, in charts. Free.</p></div><div class="acts"><a class="btn" href="{CFG["subscribe"]}">Subscribe free</a></div></div>
+  <p class="disc">Mostly Markets is for information and education only and isn't investment advice. {esc(s.author['name'])} is a pen name. Prices are from Nasdaq and CNBC as of the time stated.</p>
+  {more}
+ </div>
+</article>
+{story_templates([edition_group(s)])}
+<script type="application/ld+json">{json.dumps(ld)}</script>"""
+    return page(s.path, s.title, html_, s.dek, f"static/covers/{s.cover}-1600.webp", og_type="article", active="daily/")
+
+
+def daily_index():
+    if not DAILIES:
+        body = f'<div class="wrap pagehead"><h1>The Daily</h1><p>The first edition is on its way.</p></div>'
+    else:
+        first, rest = DAILIES[0], DAILIES[1:]
+        body = f"""<div class="wrap pagehead ed-ph"><span class="ed-name big">Mostly Markets <b>Daily</b></span>
+<p>The story behind the market every morning: one big story, a thread of sharp takes, and the charts that explain them. Free.</p>
+<a class="btn" href="{CFG["subscribe"]}">Get it in your inbox</a></div>
+<section class="wrap"><div class="ed-feature">{edition_card(first, 1600)}</div>
+{f'<div class="ed-grid">{"".join(edition_card(x) for x in rest)}</div>' if rest else ''}</section>"""
+    write("daily/", page("daily/", "The Daily", body, "The story behind the market every morning, in charts.", active="daily/"))
+
+
+# ---------------------------------------------------------------------- stories (tap-through slides)
+
+def slide(kind: str, inner: str, bg: str = "", href: str = "") -> str:
+    style = f' style="--img:url({bg})"' if bg else ""
+    link = f' data-href="{esc(href)}"' if href else ""
+    return f'<section class="sl {kind}{" hasbg" if bg else ""}"{style}{link}>{inner}</section>'
+
+
+def edition_group(s: Story) -> dict:
+    render_body(s)
+    slides = [slide("cover", f'<div class="sl-k">Mostly Markets Daily · No. {s.edition}</div><h2>{esc(s.title)}</h2>'
+                             f'<p>{esc(s.dek)}</p><div class="sl-hint">Tap to start · {len(s.takes)} takes</div>',
+                    u(f"static/covers/{s.cover}-800.webp"), u(s.path))]
+    for tk in s.takes:
+        vis, text = take_parts(tk)
+        slides.append(slide("take", f'<div class="sl-n">{tk["n"]}<i>/{tk["total"]}</i></div><h3>{esc(tk["title"])}</h3>'
+                                    f'<div class="sl-v">{vis}</div><p>{esc(clip(text, 210))}</p>'
+                                    f'<a class="sl-cta" href="{u(s.path)}#{tk["id"]}">Read the take</a>', href=f'{u(s.path)}#{tk["id"]}'))
+    slides.append(slide("end", f'<div class="sl-k">That was The Daily</div><h2>Get it in your inbox every morning</h2>'
+                               f'<a class="sl-cta big" href="{CFG["subscribe"]}">Subscribe free</a>'
+                               f'<a class="sl-cta ghost" href="{u(s.path)}">Read the full edition</a>'))
+    return {"id": f"ed-{s.date}", "name": "The Daily", "when": day_title(s.pub.date()),
+            "avatar": f'<img src="{u(f"static/covers/{s.cover}-480.webp")}" alt="">', "slides": slides}
+
+
+def movers_group(day: str) -> dict | None:
+    mv = day_moves(day, list(UMAP))
+    if len(mv) < 50:
+        return None
+    ups = sorted(mv, key=lambda m: -m["v"])[:6]
+    downs = sorted(mv, key=lambda m: m["v"])[:6]
+
+    def rows(ms):
+        out = []
+        for m in ms:
+            st = next((x for x in BY_TICKER.get(m["t"], []) if x.date >= day), None)
+            href = u(st.path) if st else u(tpath(m["t"]))
+            out.append(f'<a class="mv" href="{href}">{logo(m["t"], 40)}<span class="nm"><b>{m["t"]}</b><i>{esc(m["name"])}</i></span>'
+                       f'<span class="pc {tone(m["v"])}"><i>{"▲" if m["v"] >= 0 else "▼"} {abs(m["v"]):.1f}%</i></span></a>')
+        return "".join(out)
+    lab = day_label(day)
+    sub = f'<p class="sl-sub">Of the {len(UMAP)} stocks we cover, close to close</p>'
+    slides = [slide("list", f'<div class="sl-k">Biggest gainers · {lab}</div><h3>What went up</h3>{sub}<div class="mvs">{rows(ups)}</div>'),
+              slide("list", f'<div class="sl-k">Biggest losers · {lab}</div><h3>What went down</h3>{sub}<div class="mvs">{rows(downs)}</div>'),
+              slide("take", f'<div class="sl-k">Market map · {lab}</div><div class="sl-v">{treemap_html(day, n=120)}</div>'),
+              slide("take", f'<div class="sl-k">Who moved the index · {lab}</div><div class="sl-v">{contrib_html(day, 8)}</div>')]
+    return {"id": f"mv-{day}", "name": "Movers", "when": lab,
+            "avatar": '<span class="av-ic tmi" aria-hidden="true"><i></i><i></i><i></i><i></i></span>', "slides": slides}
+
+
+def hl_lines(st: Story, n: int = 3) -> list[str]:
+    m = re.search(r"```highlights\n(.*?)```", st.body, re.S)
+    if not m:
+        return []
+    return [re.sub(r"\*\*|\$(?=[A-Z])", "", x.strip()[2:]) for x in m.group(1).splitlines() if x.strip().startswith("- ")][:n]
+
+
+def earnings_group() -> dict | None:
+    recs = [x for x in STORIES if x.type == "earnings-recap"]
+    if not recs:
+        return None
+    newest = recs[0].pub.date()
+    recs = [x for x in recs if (newest - x.pub.date()).days <= 1][:8]
+    slides = []
+    for st in recs:
+        lis = "".join(f"<li>{esc(clip(x, 120))}</li>" for x in hl_lines(st))
+        slides.append(slide("story", f'<div class="sl-img">{cover_img(st.cover, 800, lazy=True, alt=False)}</div>'
+                                     f'<div class="sl-b"><div class="sl-row">{logo(st.tickers[0] if st.tickers else None, 36)}{chips(st, 2)}</div>'
+                                     f'<h3>{esc(st.title)}</h3><ul class="sl-hl">{lis}</ul>'
+                                     f'<a class="sl-cta" href="{u(st.path)}">Read the story</a></div>', href=u(st.path)))
+    t0 = recs[0].tickers[0] if recs[0].tickers else None
+    return {"id": f"er-{recs[0].date}-{len(recs)}", "name": "Earnings", "when": day_title(newest),
+            "avatar": logo(t0, 64) if t0 else "", "slides": slides}
+
+
+def charts_group() -> dict | None:
+    cs = [x for x in STORIES if x.type == "chart"][:5]
+    if not cs:
+        return None
+    slides = []
+    for st in cs:
+        figs = re.findall(r'(<div class="hov".*?</figure></div>|<figure class="chart.*?</figure>)', render_body(st), re.S)
+        slides.append(slide("take", f'<div class="sl-k">Chart · {esc(day_title(st.pub.date()))}</div><h3>{esc(st.title)}</h3>'
+                                    f'<div class="sl-v">{figs[0] if figs else ""}</div><a class="sl-cta" href="{u(st.path)}">Read it</a>',
+                            href=u(st.path)))
+    return {"id": f"ch-{cs[0].date}-{cs[0].slug[:12]}", "name": "Charts", "when": day_title(cs[0].pub.date()),
+            "avatar": '<span class="av-ic chi" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l5-6 4 3 7-9"/></svg></span>',
+            "slides": slides}
+
+
+def picks_group() -> dict | None:
+    ls = [x for x in STORIES if x.type == "list"]
+    if not ls:
+        return None
+    st = ls[0]
+    m = re.search(r"```picks\n(.*?)```", st.body, re.S)
+    if not m:
+        return None
+    cards = block_picks(m.group(1), st)
+    return {"id": f"pk-{st.date}-{st.slug[:12]}", "name": "Our picks", "when": day_title(st.pub.date()),
+            "avatar": logo(st.tickers[0], 64) if st.tickers else "",
+            "slides": [slide("story", f'<div class="sl-img">{cover_img(st.cover, 800, alt=False)}</div><div class="sl-b"><div class="sl-k">Our picks</div>'
+                                      f'<h3>{esc(st.title)}</h3><p>{esc(clip(st.dek, 200))}</p><a class="sl-cta" href="{u(st.path)}">Read our reasons</a></div>', href=u(st.path)),
+                       slide("list", f'<div class="sl-k">Our picks</div><h3>{esc(st.title)}</h3>{cards}', href=u(st.path))]}
+
+
+def story_groups() -> list[dict]:
+    gs = []
+    if DAILIES:
+        gs.append(edition_group(DAILIES[0]))
+    for g in (movers_group(last_trading_day()), earnings_group(), charts_group(), picks_group()):
+        if g and g["slides"]:
+            gs.append(g)
+    return gs
+
+
+def story_templates(groups: list[dict]) -> str:
+    out = []
+    for g in groups:
+        out.append(f'<template class="stg" data-id="{esc(g["id"])}" data-name="{esc(g["name"])}" data-when="{esc(g["when"])}">'
+                   f'<div class="stg-av">{g["avatar"]}</div>{"".join(g["slides"])}</template>')
+    return "".join(out)
+
+
+def story_rail(groups: list[dict]) -> str:
+    items = "".join(f'<button class="ring" type="button" data-story-open="{esc(g["id"])}"><span class="rg">{g["avatar"]}</span>'
+                    f'<span class="rn">{esc(g["name"])}</span></button>' for g in groups)
+    return f'<section class="rail wrap" aria-label="Stories"><div class="rail-in">{items}</div></section>{story_templates(groups)}'
+
+
+def daily_hero(s: Story) -> str:
+    render_body(s)
+    lis = "".join(f'<li><a href="{u(s.path)}#{tk["id"]}"><b>{tk["n"]}</b><span>{esc(tk["title"])}</span></a></li>' for tk in s.takes[:5])
+    return f"""<section class="wrap dhero"><article class="dh">
+ <a class="dh-cv" href="{u(s.path)}" aria-label="{esc(s.title)}">{cover_img(s.cover, 1600, lazy=False)}<span class="dh-badge">Mostly Markets <b>Daily</b> · No. {s.edition}</span></a>
+ <div class="dh-tx"><div class="dh-k">{esc(long_date(s.pub.date()))}</div><h1><a href="{u(s.path)}">{esc(s.title)}</a></h1><p class="dek">{esc(s.dek)}</p>
+ <ol class="dh-takes">{lis}</ol>
+ <div class="dh-acts"><a class="btn" href="{u(s.path)}">Read the edition</a><button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through it</span></button></div></div>
+</article></section>"""
+
+
+def take_card(s: Story, tk: dict) -> str:
+    vis, text = take_parts(tk)
+    return (f'<article class="card takecard" data-type="daily"><div class="tc-top"><span class="tag dl">From The Daily</span>'
+            f'<span class="tc-n">{tk["n"]}/{tk["total"]}</span></div><h3><a href="{u(s.path)}#{tk["id"]}">{esc(tk["title"])}</a></h3>'
+            f'{vis}<p class="dk">{esc(clip(text, 240))}</p><a class="tc-more" href="{u(s.path)}#{tk["id"]}">Read the take in today’s edition</a></article>')
+
+
 # ---------------------------------------------------------------------- home / feed
 
 def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
@@ -621,12 +1007,14 @@ def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
 
 def home_pages():
     size = CFG["feed_page_size"]
-    lead, tops = pick_lead(STORIES)
-    skip = {id(lead)} | {id(x) for x in tops}
+    lead, tops = pick_lead([x for x in STORIES if x.type != "daily"])
+    hero = DAILIES[0] if DAILIES else None
+    skip = {id(lead)} | {id(x) for x in tops} | ({id(hero)} if hero else set())
     feed = [s for s in STORIES if id(s) not in skip]
     pages = max(1, math.ceil(len(feed) / size))
     chips_ = "".join(f'<button class="chip" type="button" data-filter="{k}" aria-pressed="{"true" if k == "all" else "false"}">{n}</button>'
                      for k, n in FILTERS)
+    takes_for_feed = [tk for tk in (render_body(hero) and hero.takes if hero else []) if take_parts(tk)[0]][:3]
     for pi in range(pages):
         items = feed[pi * size:(pi + 1) * size]
         top_html = ""
@@ -636,7 +1024,8 @@ def home_pages():
                 f'<div class="th">{cover_img(t.cover, 800)}</div><div class="tx"><div class="c-top" style="display:flex;gap:8px;align-items:center">'
                 f'{logos(t.tickers, 28)}<span class="tag">{TYPE_LABEL[t.type]}</span></div><h2>{esc(t.title)}</h2><p>{esc(t.dek)}</p>'
                 f'<div class="c-ft">{chips(t)}</div></div></article>' for t in tops)
-            top_html = f"""<section class="wrap home-top"><article class="lead"><a class="cover-link" href="{u(lead.path)}" aria-label="{esc(lead.title)}"></a>
+            top_html = story_rail(story_groups()) + (daily_hero(hero) if hero else "")
+            top_html += f"""<section class="wrap home-top"><article class="lead"><a class="cover-link" href="{u(lead.path)}" aria-label="{esc(lead.title)}"></a>
  <div class="cv">{cover_img(lead.cover, 1600, lazy=False)}</div>
  <div class="tx"><div class="c-top">{logos(lead.tickers, 36)}<span class="kick hl">{TYPE_LABEL[lead.type]}</span></div><h1>{esc(lead.title)}</h1><p class="dek">{esc(lead.dek)}</p>
  {chips(lead, 4)}<div class="meta">{time_tag(lead)}<span>·</span><span>{esc(lead.author['name'])}</span><span>·</span><span>{lead.minutes} min read</span></div></div></article>
@@ -651,6 +1040,8 @@ def home_pages():
             rows_html.append(row(s))
             if pi == 0 and i == 5:
                 rows_html.append(subscribe_box(wide=True))
+            if pi == 0 and i in (2, 9, 16) and takes_for_feed:
+                rows_html.append(take_card(hero, takes_for_feed.pop(0)))
         nav = []
         if pi > 0:
             nav.append(f'<a class="btn ghost" href="{u("" if pi == 1 else f"page/{pi}/")}">Newer stories</a>')
@@ -1277,7 +1668,7 @@ def feeds():
     (DIST / "feed.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{CFG["name"]}</title><link>{BASE_URL}/</link>'
         f'<description>{esc(CFG["tagline"])}</description><language>en-us</language>{"".join(items)}</channel></rss>')
-    urls = [""] + [s.path for s in STORIES] + [tpath(t) for t in UMAP] + ["discover/", "earnings/", "stocks/", "about/"]
+    urls = [""] + [s.path for s in STORIES] + [tpath(t) for t in UMAP] + ["daily/", "discover/", "earnings/", "stocks/", "about/"]
     (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                                       + "".join(f"<url><loc>{absu(p)}</loc></url>" for p in urls) + "</urlset>")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n" if LAUNCHED else
@@ -1304,8 +1695,9 @@ def static():
     shutil.copytree(SITE / "static", out, dirs_exist_ok=True)
     cov = out / "covers"
     cov.mkdir(exist_ok=True)
-    for f in (ROOT / "assets/covers").glob("*.webp"):
-        dst = cov / f.name
+    for f in (ROOT / "assets/covers").rglob("*.webp"):
+        dst = cov / f.relative_to(ROOT / "assets/covers")
+        dst.parent.mkdir(parents=True, exist_ok=True)
         if not dst.exists() or dst.stat().st_size != f.stat().st_size:
             shutil.copy2(f, dst)
     lg = out / "logos"
@@ -1330,7 +1722,8 @@ def main():
     compute_sector_medians()
     n = home_pages()
     for s in STORIES:
-        write(s.path, story_page(s))
+        write(s.path, daily_page(s) if s.type == "daily" else story_page(s))
+    daily_index()
     for t in UMAP:
         write(tpath(t), stock_page(t))
     discover_pages()

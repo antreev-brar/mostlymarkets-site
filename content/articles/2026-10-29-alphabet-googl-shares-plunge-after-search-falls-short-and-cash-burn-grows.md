@@ -10,6 +10,8 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "GOOGL", price = 283.82, change_pct = -12.64, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "a giant antique brass magnifying glass cracking apart in mid-air, lens shards raining down onto rows of glowing data-centre servers below, a steep red candlestick trail plunging behind it"
+cover_alt = "A collage of a giant magnifying glass cracking apart above rows of data-center servers"
 sources = [
   "https://abc.xyz/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
   "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",

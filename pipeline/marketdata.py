@@ -120,7 +120,7 @@ def latest_quotes() -> dict:
     return _QUOTES
 
 
-def read_prices(t: str, with_today: bool = True) -> list[dict]:
+def read_prices(t: str, with_today: bool = True, adjust: bool = True) -> list[dict]:
     """Daily bars from data/prices/<T>.csv. When the history feed hasn't posted the latest finished session yet,
     the regular-session close from data/quotes/latest.json is appended as that day's bar."""
     p = price_path(t)
@@ -131,7 +131,7 @@ def read_prices(t: str, with_today: bool = True) -> list[dict]:
                  "low": float(r["low"] or 0), "close": float(r["close"]), "volume": int(r["volume"] or 0)}
                 for r in csv.DictReader(f) if r["close"]]
     # Corporate actions the feed doesn't adjust for (spin-offs): scale earlier prices by the factor.
-    for adj in ADJUSTMENTS.get(t, []):
+    for adj in (ADJUSTMENTS.get(t, []) if adjust else []):
         for b in bars:
             if b["date"] < adj["date"]:
                 for k in ("open", "high", "low", "close"):
@@ -152,10 +152,14 @@ def read_prices(t: str, with_today: bool = True) -> list[dict]:
 def update_history(t: str, years: int = 5) -> int:
     """Fetch new bars and merge them into data/prices/<T>.csv. Returns the number of rows written."""
     p = price_path(t)
+    # The file holds the feed's raw prices; adjustments are applied on read. (Reading adjusted bars here and writing
+    # them back compounded HON's spin-off factor on every refresh until 31 Oct 2026.) Tickers with an adjustment
+    # refetch their whole history each time, so a file damaged that way heals itself.
     old = {r["date"]: [r["date"], r["open"], r["high"], r["low"], r["close"], r["volume"]]
-           for r in read_prices(t, with_today=False)}
+           for r in read_prices(t, with_today=False, adjust=False)}
     today = now_et().date()
-    start = (max(old) and dt.date.fromisoformat(max(old)) - dt.timedelta(days=10)) if old else today - dt.timedelta(days=365 * years + 7)
+    full = not old or t in ADJUSTMENTS
+    start = today - dt.timedelta(days=365 * years + 7) if full else dt.date.fromisoformat(max(old)) - dt.timedelta(days=10)
     new = nasdaq_history(t, start, today)
     # Today's bar during the session is partial; keep it only after the close.
     if new and new[-1][0] == today.isoformat() and now_et().time() < dt.time(16, 10):

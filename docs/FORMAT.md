@@ -38,6 +38,9 @@ sources = [
 | `tickers` | yes | Universe tickers, primary first. Use `[]` for macro and market stories with no single stock. |
 | `reason` | why-it-moved only | One of: Earnings, Guidance, Analyst upgrade, Analyst downgrade, Deal, Product, Legal or regulatory, Management, Peer news, Macro, Sector move, No clear news. |
 | `cover` | no | A cover-library key (see `site/covers.json`). By default it's chosen from the type and the primary ticker's sector. |
+| `cover_brief` | `daily` only (and see STYLE.md) | One or two sentences describing a symbolic scene. The cover job (`pipeline/covers.py`) draws it in the house style into `assets/covers/story/<slug>-*.webp`, and that art then replaces the library cover. No people, logos or text. |
+| `cover_alt` | with `cover_brief` | Alt text for the drawn cover. |
+| `edition` | `daily` only | `"weekend"` for the weekend edition. |
 | `moves` | no | Price chips printed on the card and the story: the price and % move **at the time the story describes**. Copy them from `pipeline/facts.py` (regular-session close) or `data/quotes/latest.json` (live and after-hours). `session` is one of `regular`, `close`, `after-hours` or `pre-market`. |
 | `sources` | yes | URLs for every fact that isn't from our price files: at least two independent outlets for the cause of a move, and the company's release for earnings numbers. They're kept for checking and never printed. |
 | `featured` | no | `true` pins the story as the lead on the front page until a newer featured story arrives. |
@@ -57,6 +60,7 @@ sources = [
 | `macro` | Economy | The Fed, inflation, jobs, GDP, yields, oil | 350–700 |
 | `chart` | Chart | One chart, a headline that states the insight, ~150 words | 100–260 |
 | `analysis` | Analysis | A longer explainer on a theme | 600–1,200 |
+| `daily` | The Daily | The newsletter edition: lede, a thread of 5–9 `###` takes (each with a chart or stat block), What's next, The numbers. Published at `/daily/<date>/` | 650–1,500 |
 
 ## Body
 
@@ -87,6 +91,18 @@ Chart kinds:
 | `hbars` | `labels`, `values`, `unit`; colours follow the sign | Comparing moves or metrics across stocks |
 | `line` | `x` (labels), `series`: [{`name`, `values`}], `unit` | Yields, inflation, any time series that isn't a stock price |
 
+Charts computed from our own price files (no `source` needed, and the numbers are right by construction):
+
+| `kind` | Fields | Use |
+|---|---|---|
+| `price` + `notes` | `notes`: [{`date`, `label`}] (labels under 28 characters) | Marks the event on the line: "Q3 results", "Weak Q4 forecast" |
+| `compare` | `tickers` (2–5), `range` (1w, 1m, 3m, 6m, ytd, 1y), `end`, optional `highlight` (one ticker; the rest go grey) | Several stocks rebased to the same start, % change, labelled at the line ends |
+| `moves` | `tickers`, `from` (the close the change starts from), `to`, optional `names: true` (company names instead of tickers) | Horizontal bars of each stock's change between two closes, sorted |
+| `treemap` | `date` | The market map: the 220 biggest S&P 500 companies sized by market value and coloured by the day's move, grouped by sector |
+| `contrib` | `date`, `n` (bars, default 10) | Who moved the S&P 500: each stock's contribution in percentage points (market value × move), biggest drags and lifts |
+
+The `title` can be left to the build for `treemap` and `contrib`, but a title that states the day's finding is better.
+
 Every chart needs a `title` that **states the insight** ("Amazon gave back its summer gains", not "Amazon stock price"), a `subtitle` that says the measure and unit, and a `source` (except `price`, which is always Nasdaq daily closes).
 
 ````
@@ -108,6 +124,15 @@ love: NVDA, AVGO, TSM
 hate: INTC
 ```
 ````
+
+````
+```stat
+[{"ticker": "INTC", "metric": "ytd", "date": "2026-10-30", "label": "Intel this year", "note": "After falling 28.6% on Friday"},
+ {"value": "-3.6%", "label": "Gold on Friday", "note": "To $3,884.90 an ounce", "tone": "down"}]
+```
+````
+
+`stat` draws one to three big numbers side by side. Give a `value` (from a sourced fact; `tone` up or down colours it), or a universe `ticker` with `metric` (`day`, `week`, `month` or `ytd`) and `date` and the build computes it from our prices. `label` says what the number is; `note` gives the context.
 
 `picks` draws stock cards (price, 1-day and 1-year moves, sector) at that point in a `list` story.
 
