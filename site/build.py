@@ -758,7 +758,7 @@ def long_date(d: dt.date) -> str:
 
 
 def strip_tags(h: str) -> str:
-    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h))).strip()
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", h))).strip()
 
 
 def take_parts(tk: dict) -> tuple[str, str]:
