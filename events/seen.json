@@ -9,10 +9,22 @@
 "day": "2026-10-30",
 "kind": "basket"
 },
+"daily-2026-10-31": {
+"created": "2026-10-31T15:18:41-04:00",
+"day": "2026-10-31",
+"kind": "daily",
+"outcome": "already-written"
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "list"
+},
+"list-2026-10-31": {
+"created": "2026-10-31T15:18:41-04:00",
+"day": "2026-10-31",
+"kind": "list",
+"outcome": "already-written"
 },
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
