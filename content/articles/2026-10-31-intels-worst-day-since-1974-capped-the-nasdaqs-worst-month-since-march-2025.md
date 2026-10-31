@@ -11,6 +11,8 @@ moves = [
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "LLY", price = 1417.54, change_pct = 3.19, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
+cover_brief = "A narrow canyon-like financial district street in light midday drizzle, sheer plain stone and glass office towers with blank stone walls at street level filling both sides, wet asphalt shining silver under a hazy sun, one commuter with a black umbrella walking away from the camera down the centre."
+cover_alt = "A lone commuter with an umbrella walks down a rainy financial district street"
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",

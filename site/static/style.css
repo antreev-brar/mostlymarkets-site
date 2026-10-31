@@ -979,7 +979,7 @@ time.ago.b { font: 650 13.5px/1 var(--sans); color: var(--ink); }
 .newb { display: none; align-items: center; height: 20px; padding: 0 7px; border-radius: 999px; background: var(--now); color: #fff;
   font: 750 10.5px/1 var(--sans); letter-spacing: .05em; text-transform: uppercase; flex: none; }
 .is-new .newb { display: inline-flex; }
-.unseen h3::before, .unseen h1 a::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+.unseen h3::before, .unseen h1 a::before, .topst.unseen h1::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
   margin-right: 8px; vertical-align: .18em; }
 .fresh-line { display: inline-flex; align-items: center; gap: 8px; margin-left: auto; font: 500 13.5px/1 var(--sans); color: var(--ink-3); }
 
@@ -1145,7 +1145,8 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
 .p-f { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; font: 500 13px/1 var(--sans); color: var(--ink-3); }
 .ps:hover h3, .pn:hover .p-t { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .p-t { margin-top: 4px; font: 600 16.5px/1.42 var(--sans); color: var(--ink); text-wrap: pretty; }
-.p-tks { position: relative; z-index: 2; display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.p-tks { position: relative; z-index: 2; display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; pointer-events: none; }
+.ptk { pointer-events: auto; }
 .ptk { display: inline-flex; align-items: center; gap: 5px; height: 26px; padding: 0 10px 0 4px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); font: 600 12px/1 var(--sans); color: var(--ink-2); }
 .ptk:hover { border-color: var(--line-2); }
 .ptk .lg { --s: 18px !important; }

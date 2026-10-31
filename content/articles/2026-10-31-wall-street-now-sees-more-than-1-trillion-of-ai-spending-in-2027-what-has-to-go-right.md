@@ -6,6 +6,8 @@ published = 2026-10-31T10:27:47-04:00
 author = "marcus-lindqvist"
 tickers = ["AMZN", "GOOGL", "MSFT", "META", "ORCL"]
 themes = ["ai-capex"]
+cover_brief = "A vast plain unmarked windowless data-centre building fills the centre of the frame beyond wet farmland, seen with a long lens in light rain; a row of steel pylons carries high-voltage lines toward it. Puddles in the muddy foreground reflect the grey sky and its wall lights, late afternoon."
+cover_alt = "Pylons carry power lines toward a windowless data centre across rain-soaked farmland"
 sources = [
   "https://www.pymnts.com/?p=4233514",
   "https://www.briefs.co/news/goldman-says-hyperscaler-ai-spend-could-jump-to-1-2-trillion/",

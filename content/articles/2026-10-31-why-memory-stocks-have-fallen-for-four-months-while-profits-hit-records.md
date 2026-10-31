@@ -10,6 +10,8 @@ moves = [
   { ticker = "MU", price = 884.74, change_pct = -5.30, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "SNDK", price = 1150.89, change_pct = -13.47, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
+cover_brief = "A quiet memory-chip factory at blue hour, vast, low and windowless, plain unmarked white walls, steel ducts and exhaust stacks on its roof, a long glass corridor along its base glowing with cool fluorescent light, a row of maple trees in orange autumn leaves in front, fallen leaves on the lawn"
+cover_alt = "A memory-chip factory at dusk, its glass corridor lit, autumn trees in front"
 sources = [
   "https://www.itiger.com/news/2636098211",
   "https://www.pzena.com/americas/investment-professionals/insights/memorys-margins-2q-2026/",

@@ -6,6 +6,8 @@ published = 2026-10-31T10:27:31-04:00
 author = "marcus-lindqvist"
 tickers = ["AAPL", "AMD", "ARM", "QCOM", "PLTR", "SHOP", "UBER", "COP"]
 themes = ["big-tech-earnings", "fed-rates"]
+cover_brief = "A row of plain unmarked voting booths with half-drawn navy fabric curtains, standing in the centre of an empty wooden-floored community hall at night, set up for morning voters, warm pendant lamps glowing overhead, tall windows deep blue with darkness, bare walls, folding chairs stacked against a wall"
+cover_alt = "Curtained voting booths stand in an empty wooden-floored hall at night"
 sources = [
   "https://www.bls.gov/schedule/2026/11_sched.htm",
   "https://www.bls.gov/news.release/archives/empsit_10022026.htm",

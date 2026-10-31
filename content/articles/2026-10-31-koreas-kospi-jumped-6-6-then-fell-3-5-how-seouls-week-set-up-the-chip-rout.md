@@ -6,6 +6,8 @@ published = 2026-10-31T10:27:59-04:00
 author = "dev-malhotra"
 tickers = ["SNDK", "MU", "WDC", "STX"]
 themes = ["korea-chips", "chip-selloff", "memory-cycle"]
+cover_brief = "Seoul's Yeouido financial district at sunrise, seen from the bank of the wide, calm Han River: a tight cluster of plain glass towers fills the centre, their tops fading into low morning mist, warm low sun glinting on the glass and on the still water in front."
+cover_alt = "The sun rises between glass office towers and glints on a wide river"
 sources = [
   "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123",
   "https://www.koreatimes.co.kr/economy/20261030/seoul-stocks-down-over-5-late-fri-morning-on-tech-losses-amid-ai-concerns",

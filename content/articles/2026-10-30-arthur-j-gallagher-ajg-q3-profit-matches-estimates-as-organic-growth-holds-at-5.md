@@ -10,6 +10,8 @@ moves = [
   { ticker = "AJG", price = 268.20, change_pct = 2.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "AJG", price = 276.38, change_pct = 3.05, session = "regular", asof = 2026-10-30T09:31:35-04:00 },
 ]
+cover_brief = "A large broken tree limb lying across the torn roof of a two-storey suburban house after a storm, loose shingles on the wet lawn, an insurance adjuster in a plain navy jacket standing in the centre foreground with his back to the camera, looking up at the roof, soft golden early-morning light"
+cover_alt = "A man looks at a fallen tree on a storm-damaged house at dawn"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000354190/000162828026068263/a3rdquarter2026earningsrel.htm",
   "https://www.stocktitan.net/news/AJG/arthur-j-gallagher-co-announces-third-quarter-2026-financial-5zf3k5gjkia8.html",

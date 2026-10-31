@@ -10,6 +10,8 @@ cover = "software"
 moves = [
   { ticker = "NOW", price = 109.67, change_pct = -26.95, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A deserted open-plan software office after hours, seen straight down a central aisle between long rows of identical desks with black chairs pushed in and dark blank monitors, cool white fluorescent strip lights hanging from a dark exposed ceiling, the far end of the floor fading into darkness."
+cover_alt = "A deserted open-plan office with rows of empty desks under fluorescent strip lights"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm",
   "https://thenextweb.com/news/servicenow-results-shares-record-drop-crpo-outlook",

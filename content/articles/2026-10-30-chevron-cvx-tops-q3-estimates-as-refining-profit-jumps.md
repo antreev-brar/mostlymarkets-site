@@ -9,6 +9,8 @@ event = "recap-CVX-2026-10-30"
 moves = [
   { ticker = "CVX", price = 235.64, change_pct = 1.81, session = "regular", asof = 2026-10-30T09:31:00-04:00 },
 ]
+cover_brief = "A cluster of tall steel refinery distillation columns with railed platforms and ladders stands in the centre, plain and unmarked, thick insulated pipes curving between them, white steam rising, their bases softened by low morning mist, warm golden-hour sunlight from the side"
+cover_alt = "Tall refinery distillation columns with steam rising in warm morning light"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/a09302026ex9918-k.htm",
   "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/0000093410-26-000196-index.htm",
