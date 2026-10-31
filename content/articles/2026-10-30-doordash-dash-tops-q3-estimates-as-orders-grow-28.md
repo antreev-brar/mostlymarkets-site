@@ -11,6 +11,8 @@ moves = [
   { ticker = "DASH", price = 179.00, change_pct = 5.61, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "DASH", price = 176.89, change_pct = -1.18, session = "regular", asof = 2026-10-30T09:31:43-04:00 },
 ]
+cover_brief = "A delivery scooter launching off a ramp carrying a towering stack of paper takeout bags and a grocery basket"
+cover_alt = "A delivery scooter jumping a ramp with a tower of takeout bags"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
   "https://finance.yahoo.com/markets/stocks/articles/doordash-releases-third-quarter-2026-112000047.html",

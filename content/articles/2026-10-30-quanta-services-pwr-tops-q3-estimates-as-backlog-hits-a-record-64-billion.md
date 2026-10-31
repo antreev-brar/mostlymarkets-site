@@ -10,6 +10,8 @@ moves = [
   { ticker = "PWR", price = 635.18, change_pct = 4.66, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "PWR", price = 609.00, change_pct = -4.12, session = "regular", asof = 2026-10-30T09:31:49-04:00 },
 ]
+cover_brief = "A forest of electricity pylons marching across rolling hills, cables glowing yellow, a long line of cable spools stretching to the horizon"
+cover_alt = "Electricity pylons across rolling hills with a long line of cable spools"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001050915/000119312526436949/d77812dex991.htm",
   "https://investors.quantaservices.com/news-events/press-releases/detail/407/quanta-services-reports-third-quarter-2026-results",

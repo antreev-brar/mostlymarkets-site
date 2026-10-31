@@ -1,6 +1,6 @@
 name: covers
 # Draws AI cover art (pipeline/covers.py) for stories the writer pushes with a cover_brief, commits it and redeploys.
-# Without an OPENAI_API_KEY secret it does nothing and stories keep their library photos.
+# Free by default: FLUX.1 schnell on AI Horde, no key needed (an optional AIHORDE_API_KEY secret buys queue priority).
 on:
   push:
     branches: [main]
@@ -16,7 +16,7 @@ jobs:
   draw:
     if: vars.MM_ENABLED == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,12 +25,11 @@ jobs:
       - name: Draw missing covers
         id: draw
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AIHORDE_API_KEY: ${{ secrets.AIHORDE_API_KEY }}
           MM_COVER_MASTERS: ${{ runner.temp }}/cover-masters
         run: |
-          if [ -z "$OPENAI_API_KEY" ]; then echo "No OPENAI_API_KEY secret: stories keep their library covers."; exit 0; fi
           pip install --quiet pillow
-          python3 pipeline/covers.py --max 6
+          python3 pipeline/covers.py --max 12 --workers 3 || echo "::warning::some covers failed; they'll be retried on the next push"
           if [ -n "$(git status --porcelain assets/covers/story)" ]; then echo "new=true" >> "$GITHUB_OUTPUT"; fi
       - name: Commit and redeploy
         if: steps.draw.outputs.new == 'true'

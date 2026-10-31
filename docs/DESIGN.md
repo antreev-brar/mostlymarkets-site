@@ -101,3 +101,8 @@ They want Apple-style minimalism: a lot in one place, but not so many numbers th
   - No price charts.
 - **Earnings:** logo tiles only, for companies worth $25 billion or more, biggest first, with a Preview or Recap tag when we've written one. No EPS figures.
 - **Articles:** the figure a section is about gets a highlighter mark (`strong.fig`). The build marks the price move, or else the first figure, in each opening paragraph that has no bold. Cashtags are quiet grey text instead of chips.
+
+**Covers (31 Oct, later the same day):**
+- They're free now: FLUX.1 schnell on AI Horde, drawn for every story with a `cover_brief` after each push.
+- OpenAI remains as an optional, richer provider.
+- The FLUX art is flatter and more graphic than the first seven OpenAI covers, but it keeps the same palette and rules.

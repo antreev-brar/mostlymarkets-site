@@ -10,6 +10,8 @@ moves = [
   { ticker = "SBUX", price = 104.83, change_pct = -0.64, session = "regular", asof = 2026-10-30T09:31:52-04:00 },
   { ticker = "SBUX", price = 105.51, change_pct = 2.24, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A tall plain white paper coffee cup only half full, steam curling up, alone on an empty cafe counter against a plain navy wall"
+cover_alt = "A half-full paper coffee cup alone on a cafe counter"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000154/sbux-09272026xearningsrele.htm",
   "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",

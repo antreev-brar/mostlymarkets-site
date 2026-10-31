@@ -9,6 +9,8 @@ event = "recap-CVX-2026-10-30"
 moves = [
   { ticker = "CVX", price = 235.64, change_pct = 1.81, session = "regular", asof = 2026-10-30T09:31:00-04:00 },
 ]
+cover_brief = "A single oil refinery tower at dusk with a tall golden flame rising into a clear sky, pipes snaking around its base"
+cover_alt = "An oil refinery tower at dusk with a tall golden flame"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/a09302026ex9918-k.htm",
   "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/0000093410-26-000196-index.htm",

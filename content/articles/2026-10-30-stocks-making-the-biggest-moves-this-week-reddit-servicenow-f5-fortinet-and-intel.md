@@ -10,6 +10,8 @@ moves = [
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "INTC", price = 65.76, change_pct = -28.58, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
+cover_brief = "Five tall dominoes toppling one after another across a city rooftop, the last one shattering into paper shards"
+cover_alt = "Five dominoes toppling across a rooftop"
 sources = [
   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
   "https://cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",

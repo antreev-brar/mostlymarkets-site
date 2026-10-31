@@ -9,6 +9,8 @@ event = "recap-GEV-2026-10-28"
 moves = [
   { ticker = "GEV", price = 887.85, change_pct = 1.12, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Giant wind turbines and a gas turbine standing together on a hill, blades spinning, a long line of crates waiting below"
+cover_alt = "Wind turbines and a gas turbine on a hill with a line of crates"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
   "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gev3q2026form8-k10282026.pdf",

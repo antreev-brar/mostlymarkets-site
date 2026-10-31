@@ -11,6 +11,8 @@ moves = [
   { ticker = "SYK", price = 288.00, change_pct = -7.62, session = "regular", asof = 2026-10-30T09:31:50-04:00 },
   { ticker = "SYK", price = 311.75, change_pct = 2.55, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A shiny metal artificial knee joint resting on an empty hospital tray beside a slowly draining hourglass, against a plain pale wall"
+cover_alt = "An artificial knee joint beside an hourglass on a hospital tray"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm",
   "https://s22.q4cdn.com/857738142/files/doc_financials/2026/q3/SYK-Ex-99-1-Earnings-Q3-2026.pdf",

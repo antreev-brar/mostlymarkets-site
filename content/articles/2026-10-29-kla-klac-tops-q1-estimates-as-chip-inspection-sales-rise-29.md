@@ -10,6 +10,8 @@ event = "recap-KLAC-2026-10-28"
 moves = [
   { ticker = "KLAC", price = 167.43, change_pct = 5.45, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A huge lens hovering over a shimmering silicon wafer, beams of yellow light scanning its surface"
+cover_alt = "A lens scanning a silicon wafer with yellow light"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm",
   "https://stockhouse.com/news/press-releases/2026/10/28/kla-corporation-reports-fiscal-2027-first-quarter-results",

@@ -13,6 +13,8 @@ moves = [
   { ticker = "QCOM", price = 162.26, change_pct = -12.49, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
   { ticker = "INTC", price = 63.42, change_pct = -31.12, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
+cover_brief = "Three giant computer chips sliding down a steep icy slope like sleds, sparks flying, one cracked chip at the bottom of the hill"
+cover_alt = "Three computer chips sliding down an icy slope"
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed",

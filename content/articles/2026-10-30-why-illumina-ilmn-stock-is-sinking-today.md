@@ -10,6 +10,8 @@ event = "move-ILMN-2026-10-30"
 moves = [
   { ticker = "ILMN", price = 234.23, change_pct = -19.25, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
+cover_brief = "A glowing glass DNA double helix cracking in the middle, fragments drifting down onto a laboratory bench"
+cover_alt = "A glass DNA helix cracking above a lab bench"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000202/q326earningsrelease.htm",
   "https://investor.illumina.com/news-releases/news-release-details/illumina-reports-financial-results-third-quarter-fiscal-year-8",

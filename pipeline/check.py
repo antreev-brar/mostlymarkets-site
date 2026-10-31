@@ -186,6 +186,10 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
                 warns.append(f"daily take headline is long ({len(head)} chars): {head!r}")
         if not fm.get("cover_brief"):
             errs.append("daily needs a cover_brief (the scene for its AI cover)")
+    if not fm.get("cover_brief"):
+        warns.append("no cover_brief: every story should describe a scene for its cover (STYLE.md, Covers)")
+    elif len(fm["cover_brief"].split()) > 45:
+        warns.append("cover_brief is long; keep it to one scene in under 35 words")
     if fm.get("cover_brief"):
         cb = re.sub(r"\bno (text|logos?|words|letters|faces|people)\b", "", fm["cover_brief"].lower())
         if len(cb) < 60:

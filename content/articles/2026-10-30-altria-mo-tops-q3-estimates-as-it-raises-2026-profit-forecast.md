@@ -10,6 +10,8 @@ moves = [
   { ticker = "MO", price = 76.75, change_pct = 5.15, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "MO", price = 79.29, change_pct = 3.30, session = "regular", asof = 2026-10-30T09:31:46-04:00 },
 ]
+cover_brief = "Bundles of broad golden dried leaves tied with string, hanging in neat rows from the wooden rafters of an old barn, sunlight through the slats"
+cover_alt = "Bundles of dried golden leaves hanging from barn rafters"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/exhibit991erq32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/mo-20261028.htm",

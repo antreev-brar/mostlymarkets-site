@@ -4,13 +4,20 @@
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
     python3 pipeline/covers.py --brief "..." --name test-1   # a one-off test into assets/covers/story/
 
-Needs OPENAI_API_KEY. Writes assets/covers/story/<slug>-{1600,800,480}.webp (3:2) and keeps the PNG master in
-$MM_COVER_MASTERS (default ../cover-masters/story next to the repo, else a temp folder). Pillow is the only
-dependency outside the standard library."""
+Two providers (MM_IMAGE_PROVIDER):
+  horde   (default, free) FLUX.1 [schnell] on AI Horde (aihorde.net), the volunteer-run Stable Horde. FLUX.1 schnell is
+          Apache-2.0, so its images can be used commercially. Works anonymously; an AIHORDE_API_KEY (free sign-up)
+          only buys queue priority. A cover takes 1-5 minutes in the queue, so several are drawn at once.
+  openai  (paid, richer) needs OPENAI_API_KEY. Only used when asked for.
+
+Writes assets/covers/story/<slug>-{1600,800,480}.webp and keeps the master in $MM_COVER_MASTERS (default
+../cover-masters/story next to the repo, else a temp folder). Pillow is the only dependency outside the standard
+library."""
 from __future__ import annotations
 
 import argparse
 import base64
+import concurrent.futures as cf
 import json
 import os
 import re
@@ -25,11 +32,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/covers/story"
-MODEL = os.environ.get("MM_IMAGE_MODEL", "gpt-image-2.5-sunburst")
-SIZE = "1536x1024"
+PROVIDER = os.environ.get("MM_IMAGE_PROVIDER", "horde")
 
-# The house style. Our palette, not anyone else's: navy ink, cobalt, lemon yellow on warm paper; red/green only
-# where a chart line means down/up. Never real people, logos or lettering: the art illustrates, it doesn't report.
+# The house style. Our palette, not anyone else's: navy ink, cobalt, lemon yellow on warm paper. Never real people,
+# logos or lettering: the art illustrates, it doesn't report.
 HOUSE = (
     "Editorial collage illustration for the cover of a modern financial newsletter. Layered torn-paper shapes and "
     "cut-out photographic objects with a white cut-out outline, halftone dot texture, risograph grain and visible "
@@ -41,18 +47,13 @@ HOUSE = (
     "or recognisable people: any human figures are anonymous, in silhouette or seen from behind. "
     "Scene: "
 )
-
-
-def key() -> str:
-    k = os.environ.get("OPENAI_API_KEY")
-    if not k:
-        env = Path.home() / ".config/video-studio/openai.env"
-        if env.exists():
-            m = re.search(r"OPENAI_API_KEY\s*=\s*['\"]?([^'\"\s]+)", env.read_text())
-            k = m.group(1) if m else None
-    if not k:
-        sys.exit("OPENAI_API_KEY is not set")
-    return k
+# FLUX reads about 256 tokens, so the scene goes first and the style stays short.
+HOUSE_SHORT = (
+    "Editorial torn-paper collage illustration for a financial newsletter cover: layered cut paper, halftone dots, "
+    "risograph grain, warm off-white paper background, palette of deep navy, cobalt blue and lemon yellow with small red "
+    "accents, bold graphic shapes, one central subject. No text, no letters, no numbers, no logos, no faces."
+)
+UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
 
 
 def masters_dir() -> Path:
@@ -67,15 +68,66 @@ def masters_dir() -> Path:
     return p
 
 
-def generate(prompt: str, quality: str) -> tuple[bytes, dict]:
-    body = json.dumps({"model": MODEL, "prompt": prompt, "size": SIZE, "quality": quality, "n": 1}).encode()
+# ---------------------------------------------------------------- AI Horde (free)
+
+HORDE = "https://aihorde.net/api/v2"
+HORDE_MODEL = os.environ.get("MM_HORDE_MODEL", "Flux.1-Schnell fp8 (Compact)")
+
+
+def _horde(path: str, body: dict | None = None) -> dict:
+    h = {"User-Agent": UA, "apikey": os.environ.get("AIHORDE_API_KEY") or "0000000000",
+         "Client-Agent": "mostlymarkets-covers:1.0:bot@mostlymarkets.org", "Content-Type": "application/json"}
+    req = urllib.request.Request(HORDE + path, data=json.dumps(body).encode() if body else None, headers=h,
+                                 method="POST" if body else "GET")
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read())
+
+
+def generate_horde(brief: str) -> tuple[bytes, dict]:
+    prompt = brief.strip().rstrip(".") + ". " + HOUSE_SHORT
+    body = {"prompt": prompt, "models": [HORDE_MODEL], "nsfw": False, "censor_nsfw": True, "r2": True,
+            "params": {"width": 1024, "height": 640, "steps": 4, "cfg_scale": 1, "sampler_name": "k_euler", "n": 1,
+                       "post_processing": ["RealESRGAN_x2plus"]}}
+    for attempt in range(3):
+        try:
+            gid = _horde("/generate/async", body)["id"]
+            t = time.time()
+            while time.time() - t < 1200:
+                time.sleep(10)
+                if _horde(f"/generate/check/{gid}").get("done"):
+                    break
+            else:
+                raise TimeoutError("queue took over 20 minutes")
+            g = _horde(f"/generate/status/{gid}")["generations"][0]
+            if g.get("censored"):
+                raise RuntimeError("the worker censored the image")
+            img = urllib.request.urlopen(urllib.request.Request(g["img"], headers={"User-Agent": UA}), timeout=120).read()
+            return img, {"model": g.get("model"), "worker": g.get("worker_name"), "seed": g.get("seed"), "prompt": prompt}
+        except (urllib.error.URLError, TimeoutError, RuntimeError, KeyError) as e:
+            if attempt == 2:
+                raise SystemExit(f"AI Horde: {e}")
+            time.sleep(30)
+    raise SystemExit("AI Horde: gave up")
+
+
+# ---------------------------------------------------------------- OpenAI (paid, optional)
+
+OPENAI_MODEL = os.environ.get("MM_IMAGE_MODEL", "gpt-image-2.5-sunburst")
+
+
+def generate_openai(brief: str, quality: str = "high") -> tuple[bytes, dict]:
+    k = os.environ.get("OPENAI_API_KEY")
+    if not k:
+        raise SystemExit("OPENAI_API_KEY is not set (or use the free default, MM_IMAGE_PROVIDER=horde)")
+    body = json.dumps({"model": OPENAI_MODEL, "prompt": HOUSE + brief.strip(), "size": "1536x1024", "quality": quality,
+                       "n": 1}).encode()
     for attempt in range(4):
         req = urllib.request.Request("https://api.openai.com/v1/images/generations", data=body, method="POST",
-                                     headers={"Authorization": f"Bearer {key()}", "Content-Type": "application/json"})
+                                     headers={"Authorization": f"Bearer {k}", "Content-Type": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=600) as r:
                 d = json.loads(r.read())
-            return base64.b64decode(d["data"][0]["b64_json"]), d.get("usage", {})
+            return base64.b64decode(d["data"][0]["b64_json"]), {"model": OPENAI_MODEL, "usage": d.get("usage", {})}
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")[:400]
             # A 429 is either a rate limit (retry) or an empty prepaid balance (stop): read the body.
@@ -86,16 +138,18 @@ def generate(prompt: str, quality: str) -> tuple[bytes, dict]:
     raise SystemExit("image API: gave up after retries")
 
 
-def save(png: bytes, name: str) -> list[Path]:
+# ---------------------------------------------------------------- output
+
+def save(img: bytes, name: str) -> list[Path]:
     from PIL import Image  # only the cover job needs Pillow
-    (masters_dir() / f"{name}.png").write_bytes(png)
-    im = Image.open(BytesIO(png)).convert("RGB")
+    im = Image.open(BytesIO(img)).convert("RGB")
+    im.save(masters_dir() / f"{name}.jpg", "JPEG", quality=92)
     OUT.mkdir(parents=True, exist_ok=True)
     out = []
-    for w, q in ((1600, 68), (800, 70), (480, 68)):
-        h = round(w * im.height / im.width)
-        p = OUT / f"{name}-{w}.webp"
-        im.resize((w, h), Image.LANCZOS).save(p, "WEBP", quality=q, method=6)
+    # The large size is 1280 wide (served as -1600): the art is graphic, and the repo stays small.
+    for label, w, q in (("1600", 1280, 70), ("800", 800, 72), ("480", 480, 70)):
+        p = OUT / f"{name}-{label}.webp"
+        im.resize((w, round(w * im.height / im.width)), Image.LANCZOS).save(p, "WEBP", quality=q, method=6)
         out.append(p)
     return out
 
@@ -110,14 +164,25 @@ def stories():
             yield p.stem[11:], fm
 
 
+def draw(job, provider: str, quality: str) -> str:
+    name, brief = job
+    t = time.time()
+    img, meta = generate_horde(brief) if provider == "horde" else generate_openai(brief, quality)
+    save(img, name)
+    (masters_dir() / f"{name}.json").write_text(json.dumps({"brief": brief, "provider": provider, **meta}, indent=1))
+    return f"covers: {name} drawn in {time.time() - t:.0f}s ({provider})"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--brief")
     ap.add_argument("--name")
-    ap.add_argument("--quality", default=os.environ.get("MM_IMAGE_QUALITY", "high"))
-    ap.add_argument("--max", type=int, default=6, help="covers per run, a cost cap")
+    ap.add_argument("--provider", default=PROVIDER, choices=("horde", "openai"))
+    ap.add_argument("--quality", default=os.environ.get("MM_IMAGE_QUALITY", "high"), help="openai only")
+    ap.add_argument("--max", type=int, default=12, help="covers per run")
+    ap.add_argument("--workers", type=int, default=3, help="covers drawn at once")
     ap.add_argument("--dry", action="store_true")
     a = ap.parse_args()
     jobs = []
@@ -130,21 +195,25 @@ def main():
             if (OUT / f"{slug}-800.webp").exists() and not (a.force and a.only):
                 continue
             jobs.append((slug, fm["cover_brief"]))
-    jobs = jobs[:a.max]
+    jobs = jobs[::-1][:a.max]  # newest first
     if not jobs:
         print("covers: nothing to draw")
         return
-    for name, brief in jobs:
-        prompt = HOUSE + brief.strip()
-        if a.dry:
-            print(f"{name}: {prompt}\n")
-            continue
-        t = time.time()
-        png, usage = generate(prompt, a.quality)
-        save(png, name)
-        (masters_dir() / f"{name}.json").write_text(json.dumps({"prompt": prompt, "model": MODEL, "quality": a.quality,
-                                                                 "usage": usage}, indent=1))
-        print(f"covers: {name} drawn in {time.time() - t:.0f}s ({usage.get('output_tokens', '?')} output tokens)", flush=True)
+    if a.dry:
+        for name, brief in jobs:
+            print(f"{name}: {brief}")
+        return
+    failed = 0
+    with cf.ThreadPoolExecutor(max(1, a.workers)) as ex:
+        futs = {ex.submit(draw, j, a.provider, a.quality): j for j in jobs}
+        for f in cf.as_completed(futs):
+            try:
+                print(f.result(), flush=True)
+            except SystemExit as e:
+                failed += 1
+                print(f"covers: {futs[f][0]} failed: {e}", flush=True)
+    if failed == len(jobs):
+        sys.exit(1)
 
 
 if __name__ == "__main__":

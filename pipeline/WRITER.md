@@ -38,7 +38,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    - `event` = the event id
    - `moves` from the pack's quote, with the right `session`
    - at least one chart (a `price` chart unless the template says otherwise), and links to related stories in `pack.recent_stories` or `pack.todays_stories`
-   - a `cover_brief` and `cover_alt` for the cases STYLE.md lists (the daily, the market wrap, $100bn+ companies, 10%+ moves)
+   - a `cover_brief` and `cover_alt` (STYLE.md, "Covers"): every story gets its own illustrated cover, drawn free after you push
 5. **Check:** `python3 pipeline/check.py content/articles/<file>`. Fix it until it passes. Warnings are allowed; errors aren't.
 6. **Close the event:** `python3 pipeline/storyqueue.py done <id> content/articles/<file>`.
 7. **Publish it now, one story at a time:**

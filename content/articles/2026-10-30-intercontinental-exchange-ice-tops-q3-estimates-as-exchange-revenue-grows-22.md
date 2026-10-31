@@ -10,6 +10,8 @@ event = "recap-ICE-2026-10-29"
 moves = [
   { ticker = "ICE", price = 163.04, change_pct = 4.54, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A huge brass trading bell swinging high above a stock exchange floor, sound waves rippling out as paper slips fly upward"
+cover_alt = "A brass trading bell ringing above an exchange floor"
 sources = [
   "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Reports-Third-Quarter-2026/default.aspx",
   "https://www.sec.gov/Archives/edgar/data/0001571949/000110465926119880/tm2628301d1_ex99-1.htm",

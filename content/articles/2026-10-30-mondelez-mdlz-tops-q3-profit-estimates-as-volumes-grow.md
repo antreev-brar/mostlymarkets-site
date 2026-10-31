@@ -10,6 +10,8 @@ moves = [
   { ticker = "MDLZ", price = 62.53, change_pct = 1.07, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "MDLZ", price = 65.11, change_pct = 4.13, session = "regular", asof = 2026-10-30T09:31:47-04:00 },
 ]
+cover_brief = "A mountain of chocolate bars and biscuits rising toward the sky like a staircase, crumbs floating like confetti"
+cover_alt = "A staircase of chocolate bars and biscuits rising into the sky"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001103982/000162828026068233/mdlzearningsreleasecontent.htm",
   "https://www.sec.gov/Archives/edgar/data/0001103982/000162828026068256/mdlz-20260930.htm",

@@ -10,6 +10,8 @@ moves = [
   { ticker = "AJG", price = 268.20, change_pct = 2.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "AJG", price = 276.38, change_pct = 3.05, session = "regular", asof = 2026-10-30T09:31:35-04:00 },
 ]
+cover_brief = "A giant umbrella sheltering a neat row of small houses from a paper rainstorm"
+cover_alt = "A giant umbrella sheltering a row of houses from the rain"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000354190/000162828026068263/a3rdquarter2026earningsrel.htm",
   "https://www.stocktitan.net/news/AJG/arthur-j-gallagher-co-announces-third-quarter-2026-financial-5zf3k5gjkia8.html",

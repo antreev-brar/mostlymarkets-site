@@ -9,6 +9,8 @@ event = "recap-APH-2026-10-28"
 moves = [
   { ticker = "APH", price = 82.08, change_pct = 1.38, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Thick bundles of glowing cables and connectors spiraling upward like vines around a tall server tower"
+cover_alt = "Glowing cables spiraling like vines around a server tower"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000820313/000110465926119421/aph-ex99d1.htm",
   "https://investors.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Third-Quarter-2026-Results-and-Announces-Dividend-Increase-and-New-Stock-Repurchase-Program/default.aspx",

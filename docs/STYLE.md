@@ -168,6 +168,22 @@ Three editions:
 6. **Twists beat summaries.** If the obvious take is "X fell", look for the surprising one: the stock that rose against the tide, the record hidden in the drop, the bigger company that mattered more.
 7. Still no advice, no hype words and no emojis. "We think" is allowed once per edition, with the reason in numbers.
 
-**Cover:** write a `cover_brief`, one or two sentences describing a single symbolic scene for the AI cover (objects, places, weather, chart shapes), and a `cover_alt`. The house style (navy, cobalt and lemon-yellow torn-paper collage) is added automatically. Never ask for real people, faces, logos, brand products or any text: the art illustrates the story, it doesn't report it. Good: "an enormous vintage microchip cracking in half and falling off a cliff made of red candlesticks". Bad: "Lip-Bu Tan looking worried in front of the Intel logo".
+**Cover:** see "Covers" below.
 
-**Other covers:** also write a `cover_brief` (and `cover_alt`) for the day's `market-wrap`, and for any story about a company worth $100 billion or more or a move of 10% or more. Other stories use the photo library.
+
+## Covers (every story)
+
+Every story gets its own illustrated cover. The art is free (FLUX.1 schnell on AI Horde) and is drawn automatically after you push. Write two front-matter fields:
+
+- `cover_brief`: **one sentence, under 35 words, describing one physical scene.** Put the subject first, then the action, then the setting. The house style (navy, cobalt and lemon-yellow torn-paper collage) is added for you.
+- `cover_alt`: a plain description of that scene for screen readers.
+
+Rules for the brief:
+1. **Show the story with objects, not charts.** The model draws chart lines going up whatever you ask, so show a fall physically: something cracking, toppling, sinking, deflating or melting. Show a rise as something launching, climbing or blooming.
+2. **Use symbols of the business, not its brand:** a cracked microchip, cardboard parcels, a giant pill bottle, an oil derrick, a jet engine, a shopping cart, server racks, a bank vault door.
+3. **Never** real people, faces, logos, brand products, flags of companies, or any text, numbers or tickers.
+4. **One subject and one action**, plus at most one background element. Busy briefs come out muddy.
+
+Good: "A giant microchip cracking in half and falling off a cliff edge, shards flying, a storm of paper clouds behind it."
+Good: "A towering stack of cardboard parcels toppling over in a warehouse aisle."
+Bad: "Intel stock chart falling 28% with the Intel logo and CEO Lip-Bu Tan looking worried."

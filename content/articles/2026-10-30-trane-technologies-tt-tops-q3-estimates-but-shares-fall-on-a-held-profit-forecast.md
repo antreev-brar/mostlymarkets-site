@@ -10,6 +10,8 @@ moves = [
   { ticker = "TT", price = 431.10, change_pct = -3.87, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "TT", price = 419.97, change_pct = -2.58, session = "regular", asof = 2026-10-30T09:31:40-04:00 },
 ]
+cover_brief = "A large rooftop air-conditioning unit slowly sinking into a pool of navy water, its fan still spinning"
+cover_alt = "A rooftop air-conditioning unit sinking into water"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001466258/000146625826000001/exhibit991-q32026earningsr.htm",
   "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Reports-Strong-Third-Quarter-Results-Raises-Full-Year-Revenue-Guidance-Reaffirms-Full-Year-EPS-Guidance/default.aspx",
