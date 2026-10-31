@@ -105,4 +105,5 @@ They want Apple-style minimalism: a lot in one place, but not so many numbers th
 **Covers (31 Oct, later the same day):**
 - They're free now: FLUX.1 schnell on AI Horde, drawn for every story with a `cover_brief` after each push.
 - OpenAI remains as an optional, richer provider.
-- The FLUX art is flatter and more graphic than the first seven OpenAI covers, but it keeps the same palette and rules.
+- The first FLUX prompt ("bold graphic shapes") came out as flat vector art. On 31 Oct the prompt became a dense mixed-media collage (photo cut-outs with white borders, a torn yellow paper sun, torn navy and cobalt layers, a photographic backdrop), which is close to the first seven OpenAI covers. All 22 FLUX covers were redrawn in it.
+- Tested and rejected the same day: AlbedoBase XL and Juggernaut XL (photographic, drew a brand logo and faces, read "lemon-yellow" as lemons) and Z-Image-Turbo (blurry on the Horde's workers).

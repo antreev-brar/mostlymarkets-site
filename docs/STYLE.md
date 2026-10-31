@@ -175,7 +175,7 @@ Three editions:
 
 Every story gets its own illustrated cover. The art is free (FLUX.1 schnell on AI Horde) and is drawn automatically after you push. Write two front-matter fields:
 
-- `cover_brief`: **one sentence, under 35 words, describing one physical scene.** Put the subject first, then the action, then the setting. The house style (navy, cobalt and lemon-yellow torn-paper collage) is added for you.
+- `cover_brief`: **one sentence, under 35 words, describing one physical scene.** Put the subject first, then the action, then the setting. The house style (a mixed-media collage of photo cut-outs and torn navy, cobalt and yellow paper, with a paper sun and a photographic backdrop) is added for you, so don't describe colours or style.
 - `cover_alt`: a plain description of that scene for screen readers.
 
 Rules for the brief:
@@ -183,6 +183,8 @@ Rules for the brief:
 2. **Use symbols of the business, not its brand:** a cracked microchip, cardboard parcels, a giant pill bottle, an oil derrick, a jet engine, a shopping cart, server racks, a bank vault door.
 3. **Never** real people, faces, logos, brand products, flags of companies, or any text, numbers or tickers.
 4. **One subject and one action**, plus at most one background element. Busy briefs come out muddy.
+5. **Say "plain" or "unmarked" for anything that normally carries printing** (jet engines, camera lenses, memory cards, packaging, computer cases). Otherwise the model invents garbled lettering on it.
+6. **Don't add a sun or a sky.** The house style already adds a paper sun and a backdrop; a second one gives two suns.
 
 Good: "A giant microchip cracking in half and falling off a cliff edge, shards flying, a storm of paper clouds behind it."
 Good: "A towering stack of cardboard parcels toppling over in a warehouse aisle."

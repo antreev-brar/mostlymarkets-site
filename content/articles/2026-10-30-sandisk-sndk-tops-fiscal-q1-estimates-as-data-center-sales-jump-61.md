@@ -11,7 +11,7 @@ moves = [
   { ticker = "SNDK", price = 1205.13, change_pct = -9.39, session = "regular", asof = 2026-10-30T09:31:49-04:00 },
   { ticker = "SNDK", price = 1330.05, change_pct = -5.32, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A giant blank unlabelled memory card cracking down the middle as it falls from a high shelf, small square chips scattering"
+cover_brief = "A giant plain black memory card split in two by a jagged crack, falling from a high wooden shelf, small square chips scattering"
 cover_alt = "A blank memory card cracking as it falls from a shelf"
 sources = [
   "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",

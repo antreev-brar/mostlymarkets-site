@@ -11,7 +11,7 @@ moves = [
   { ticker = "DELL", price = 415.48, change_pct = -12.62, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
   { ticker = "HPQ", price = 28.34, change_pct = -10.96, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "A desktop computer tower tipping over the edge of a desk, its keyboard keys spilling into the air like confetti"
+cover_brief = "A plain beige desktop computer tower toppling off the edge of a wooden desk mid-fall, tilted sharply, plastic keyboard keys spilling into the air"
 cover_alt = "A desktop computer tipping off a desk as keyboard keys spill into the air"
 sources = [
   "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages",

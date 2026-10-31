@@ -47,11 +47,14 @@ HOUSE = (
     "or recognisable people: any human figures are anonymous, in silhouette or seen from behind. "
     "Scene: "
 )
-# FLUX reads about 256 tokens, so the scene goes first and the style stays short.
+# FLUX reads about 256 tokens, so the scene goes first and the style stays short. Asking for photo cut-outs, a torn
+# paper sun and a photographic backdrop gives the rich collage of the first OpenAI covers; the older "bold graphic
+# shapes" wording came out as flat vector art. FLUX turns any chart into a rising line, hence "no charts".
 HOUSE_SHORT = (
-    "Editorial torn-paper collage illustration for a financial newsletter cover: layered cut paper, halftone dots, "
-    "risograph grain, warm off-white paper background, palette of deep navy, cobalt blue and lemon yellow with small red "
-    "accents, bold graphic shapes, one central subject. No text, no letters, no numbers, no logos, no faces."
+    "Dense layered mixed-media editorial collage for a magazine cover: cut-out vintage photographs of real objects and "
+    "landscapes with white paper borders, a big torn lemon-yellow paper sun, torn navy and cobalt blue paper layers, "
+    "photographic mountains or city backdrop, halftone print texture, risograph grain, visible paper fibres, cinematic "
+    "depth, cream paper background, highly detailed. No text, no lettering, no charts, no logos, no people, no faces."
 )
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
 
@@ -77,10 +80,17 @@ HORDE_MODEL = os.environ.get("MM_HORDE_MODEL", "Flux.1-Schnell fp8 (Compact)")
 def _horde(path: str, body: dict | None = None) -> dict:
     h = {"User-Agent": UA, "apikey": os.environ.get("AIHORDE_API_KEY") or "0000000000",
          "Client-Agent": "mostlymarkets-covers:1.0:bot@mostlymarkets.org", "Content-Type": "application/json"}
-    req = urllib.request.Request(HORDE + path, data=json.dumps(body).encode() if body else None, headers=h,
-                                 method="POST" if body else "GET")
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+    for attempt in range(8):
+        req = urllib.request.Request(HORDE + path, data=json.dumps(body).encode() if body else None, headers=h,
+                                     method="POST" if body else "GET")
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 7:  # the Horde allows about 2 requests a second
+                time.sleep(2 + attempt * 2)
+                continue
+            raise
 
 
 def generate_horde(brief: str) -> tuple[bytes, dict]:

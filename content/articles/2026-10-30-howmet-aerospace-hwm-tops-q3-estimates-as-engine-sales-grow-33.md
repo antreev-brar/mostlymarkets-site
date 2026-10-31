@@ -10,7 +10,7 @@ moves = [
   { ticker = "HWM", price = 205.94, change_pct = 5.51, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "HWM", price = 203.07, change_pct = -1.39, session = "regular", asof = 2026-10-30T09:31:36-04:00 },
 ]
-cover_brief = "A gleaming jet engine turbine climbing a staircase of stacked paper toward a bursting yellow sun"
+cover_brief = "A gleaming unmarked jet engine turbine with a smooth bare silver casing, climbing a staircase of stacked paper"
 cover_alt = "A jet engine climbing a staircase toward the sun"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000004281/000110465926119857/tm2628456d1_ex99-1.htm",
