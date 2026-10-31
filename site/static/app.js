@@ -53,7 +53,7 @@
   /* feed filters */
   var current = "all";
   function applyFilter() {
-    var rows = $$(".feed .row");
+    var rows = $$(".feed .card");
     if (!rows.length) return;
     var f = follows(), shown = 0;
     rows.forEach(function (r) {
@@ -65,7 +65,7 @@
     });
     $$(".feed .day").forEach(function (d) {
       var n = d.nextElementSibling, any = false;
-      while (n && !n.classList.contains("day")) { if (n.classList.contains("row") && !n.hidden) any = true; n = n.nextElementSibling; }
+      while (n && !n.classList.contains("day")) { if (n.classList.contains("card") && !n.hidden) any = true; n = n.nextElementSibling; }
       d.hidden = !any;
     });
     var em = $(".feed .empty");
@@ -113,18 +113,16 @@
     var tip = document.createElement("div"); tip.className = "htip"; tip.hidden = true;
     var fig = h.querySelector("figure"); fig.appendChild(tip);
     $$("svg.cv", h).forEach(function (svg) {
-      var key = svg.classList.contains("m") ? "m" : "d", g = data.g[key], vb = svg.viewBox.baseVal;
+      var g = (svg.getAttribute("data-g") || "0,1").split(",").map(Number), vb = svg.viewBox.baseVal;
       var hv = svg.querySelector(".hv"); if (!hv) return;
       var line = hv.querySelector(".hl"), dot = hv.querySelector(".hd");
       var n = data.v.length;
-      var vals = data.v.filter(function (v) { return v != null; });
+      var pts = svg.querySelector(".ln.s0").getAttribute("d").slice(1).split(" L");
       function move(ev) {
         var r = svg.getBoundingClientRect(), x = (ev.clientX - r.left) / r.width * vb.width;
         var i = Math.round((x - g[0]) / (g[1] - g[0]) * (n - 1)); i = Math.max(0, Math.min(n - 1, i));
         if (data.v[i] == null) return;
-        var px = g[0] + (g[1] - g[0]) * i / Math.max(1, n - 1);
-        var ys = svg.querySelector(".ln").getAttribute("d");
-        var pts = ys.slice(1).split(" L"), pt = pts[Math.min(i, pts.length - 1)].split(",");
+        var pt = pts[Math.min(i, pts.length - 1)].split(","), px = +pt[0];
         line.setAttribute("x1", px); line.setAttribute("x2", px); dot.setAttribute("cx", px); dot.setAttribute("cy", pt[1]);
         hv.style.display = "block";
         var fr = fig.getBoundingClientRect();
@@ -133,10 +131,51 @@
         tip.style.top = (r.top - fr.top + (+pt[1]) / vb.height * r.height) + "px";
       }
       function out() { hv.style.display = "none"; tip.hidden = true; }
-      svg.addEventListener("pointermove", move); svg.addEventListener("pointerleave", out);
-      svg.addEventListener("touchend", out);
+      svg.addEventListener("pointermove", move); svg.addEventListener("pointerdown", move);
+      svg.addEventListener("pointerleave", out);
     });
   });
+
+  /* tooltips on bars and quadrant points */
+  var tipEl = null, tipOwner = null;
+  function showTip(el) {
+    var host = el.closest("figure, .quad"); if (!host) return;
+    if (!tipEl || tipEl.parentNode !== host) {
+      if (tipEl) tipEl.remove();
+      tipEl = document.createElement("div"); tipEl.className = "tip"; host.appendChild(tipEl);
+    }
+    var t = el.getAttribute("data-tip"), i = t.indexOf(": ");
+    tipEl.innerHTML = i > -1 ? esc(t.slice(0, i)) + " &nbsp;<b>" + esc(t.slice(i + 2)) + "</b>" : esc(t);
+    var hr = host.getBoundingClientRect(), shape = el.querySelector("path, rect:not(.hit)") || el, er = shape.getBoundingClientRect();
+    var x = er.left - hr.left + er.width / 2, y = er.top - hr.top;
+    tipEl.style.left = Math.max(70, Math.min(hr.width - 70, x)) + "px"; tipEl.style.top = y + "px"; tipEl.hidden = false;
+    tipOwner = el;
+  }
+  function hideTip() { if (tipEl) tipEl.hidden = true; tipOwner = null; }
+  document.addEventListener("pointerover", function (e) {
+    var el = e.target.closest && e.target.closest("[data-tip]"); if (el && e.pointerType === "mouse") showTip(el);
+  });
+  document.addEventListener("pointerout", function (e) {
+    var el = e.target.closest && e.target.closest("[data-tip]");
+    if (el && e.pointerType === "mouse" && !el.contains(e.relatedTarget)) hideTip();
+  });
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest && e.target.closest("[data-tip]");
+    if (!el) { hideTip(); return; }
+    if (matchMedia("(hover: none)").matches && tipOwner !== el) { e.preventDefault(); showTip(el); }
+  });
+
+  /* stock page section nav */
+  var sn = $(".secnav");
+  if (sn && "IntersectionObserver" in window) {
+    var links = $$("a", sn), secs = links.map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); });
+    var io = new IntersectionObserver(function () {
+      var best = 0;
+      secs.forEach(function (s, i) { if (s && s.getBoundingClientRect().top < 160) best = i; });
+      links.forEach(function (a, i) { a.classList.toggle("on", i === best); });
+    }, { rootMargin: "-140px 0px -55% 0px", threshold: [0, 1] });
+    secs.forEach(function (s) { if (s) io.observe(s); });
+  }
 
   /* relative times */
   function rel(iso) {
@@ -183,8 +222,11 @@
     var s = idx.s.filter(function (x) { return x[0].toLowerCase() === q || x[0].toLowerCase().indexOf(q) === 0 || x[1].toLowerCase().indexOf(q) > -1; })
       .sort(function (a, b) { return (a[0].toLowerCase() === q ? -1 : 0) - (b[0].toLowerCase() === q ? -1 : 0); }).slice(0, 6);
     var n = idx.n.filter(function (x) { return x[0].toLowerCase().indexOf(q) > -1; }).slice(0, 6);
-    var h = s.map(function (x) { return '<a href="' + B + 'stocks/' + x[0] + '/"><b>' + x[0] + "</b>" + esc(x[1]) + "<span>" + esc(x[2]) + "</span></a>"; }).join("");
-    h += n.map(function (x) { return '<a href="' + B + x[1] + '">' + esc(x[0]) + "<span>" + esc(x[2]) + "</span></a>"; }).join("");
+    var h = s.map(function (x) {
+      var lg = x[3] ? '<span class="lg"><img src="' + B + 'static/logos/' + x[0] + '.png" alt=""></span>' : '<span class="lg"><b>' + esc(x[0].slice(0, 4)) + '</b></span>';
+      return '<a href="' + B + 'stocks/' + x[0] + '/">' + lg + '<b>' + x[0] + "</b>" + esc(x[1]) + '<span class="sec">' + esc(x[2]) + "</span></a>";
+    }).join("");
+    h += n.map(function (x) { return '<a href="' + B + x[1] + '">' + esc(x[0]) + '<span class="sec">' + esc(x[2]) + "</span></a>"; }).join("");
     res.innerHTML = h || '<div class="hint">Nothing found.</div>';
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }

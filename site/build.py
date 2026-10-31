@@ -314,8 +314,8 @@ def page(path: str, title: str, body: str, desc: str = "", image: str | None = N
     img = absu(image) if image else absu("static/og.jpg")
     robots = "" if LAUNCHED else '<meta name="robots" content="noindex, nofollow">'
     nav = "".join(f'<a href="{u(p)}"{" aria-current=page" if active == p else ""}>{n}</a>' for p, n in NAV)
-    fonts = ("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@"
-             "0,6..72,400..700;1,6..72,400&family=IBM+Plex+Mono:wght@500;600&display=swap")
+    fonts = ("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@"
+             "0,8..60,400..700;1,8..60,400&display=swap")
     return f"""<!doctype html>
 <html lang="en" data-base="{BASE}">
 <head>
@@ -332,8 +332,8 @@ def page(path: str, title: str, body: str, desc: str = "", image: str | None = N
 <meta property="og:url" content="{absu(path)}">
 <meta property="og:image" content="{img}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#faf8f3" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#12110e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="{u('static/favicon.svg')}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{CFG['name']}" href="{u('feed.xml')}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -381,13 +381,35 @@ def write(path: str, content: str):
 
 # ---------------------------------------------------------------------- components
 
+LOGOS = {p.stem for p in (ROOT / "assets/logos").glob("*.png")} if (ROOT / "assets/logos").exists() else set()
+MARKET_ICON = ('<svg viewBox="0 0 24 24" width="55%" height="55%" fill="none" stroke="currentColor" stroke-width="2" '
+               'stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent)"><path d="M3 17l5-5 4 4 8-9"/><path d="M15 7h5v5"/></svg>')
+
+
+def logo(t: str | None, size: int = 36) -> str:
+    """A company logo in a white circle; a monogram when we have no logo; a market icon for no ticker."""
+    st = f' style="--s:{size}px"'
+    if not t:
+        return f'<span class="lg"{st} aria-hidden="true">{MARKET_ICON}</span>'
+    if t in LOGOS:
+        return f'<span class="lg"{st}><img src="{u(f"static/logos/{t}.png")}" alt="" loading="lazy" decoding="async"></span>'
+    return f'<span class="lg"{st} aria-hidden="true"><b>{esc(t[:4])}</b></span>'
+
+
+def logos(ts: list[str], size: int = 36, limit: int = 3) -> str:
+    if not ts:
+        return f'<span class="lgs" style="--s:{size}px">{logo(None, size)}</span>'
+    return f'<span class="lgs" style="--s:{size}px">' + "".join(logo(t, size) for t in ts[:limit]) + "</span>"
+
+
 def chip(m: dict) -> str:
     s = m.get("s")
     tag = {"after-hours": "AH", "pre-market": "PM"}.get(s, "")
     c = m.get("c")
-    arrow = "" if c is None else ("▲" if c >= 0 else "▼")
-    return (f'<span class="pc">{m["t"]}<i class="{tone(c)}">{arrow}{abs(c):.1f}%</i>'
-            f'{f"<small>{tag}</small>" if tag else ""}</span>') if c is not None else f'<span class="pc">{m["t"]}</span>'
+    if c is None:
+        return f'<span class="pc"><b>{m["t"]}</b></span>'
+    return (f'<span class="pc {tone(c)}"><b>{m["t"]}</b><i>{"▲" if c >= 0 else "▼"} {abs(c):.1f}%</i>'
+            f'{f"<small>{tag}</small>" if tag else ""}</span>')
 
 
 def chips(s: Story, limit=3) -> str:
@@ -412,11 +434,12 @@ def time_tag(s: Story, rel=True) -> str:
 
 
 def row(s: Story) -> str:
-    return (f'<article class="row" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"><a href="{u(s.path)}">'
-            f'<div><div class="top-l"><span class="kick">{TYPE_LABEL[s.type]}</span>{chips(s)}</div>'
-            f'<h3>{esc(s.title)}</h3><p>{esc(s.dek)}</p>'
-            f'<div class="meta" style="margin-top:8px">{time_tag(s)}<span class="sep"></span><span>{esc(s.author["name"])}</span></div></div>'
-            f'<div class="th">{cover_img(s.cover, 480)}</div></a></article>')
+    return (f'<article class="card" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}">'
+            f'<a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a><div>'
+            f'<div class="c-top">{logos(s.tickers)}<span class="tag">{TYPE_LABEL[s.type]}</span>{time_tag(s)}</div>'
+            f'<h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p>'
+            f'<div class="c-ft">{chips(s)}<span class="by">{esc(s.author["name"])}</span>{time_tag(s)}<span class="hide-m">· {s.minutes} min read</span></div></div>'
+            f'<div class="th">{cover_img(s.cover, 480)}</div></article>')
 
 
 def mini_rows(stories: list[Story]) -> str:
@@ -428,12 +451,12 @@ def mini_rows(stories: list[Story]) -> str:
             out.append(f'<div class="day"><span>{day_title(d)}</span></div>')
             last_day = d
         out.append(row(s))
-    return "".join(out)
+    return '<div class="cards-col">' + "".join(out) + "</div>"
 
 
 def subscribe_box(wide=False, title="The close, in your inbox", text=None) -> str:
     text = text or "Every market day, the stories that moved stocks and why. Free, from the Mostly Markets newsletter."
-    return (f'<aside class="sub{" wide" if wide else ""}"><div><h4>{esc(title)}</h4><p>{esc(text)}</p></div>'
+    return (f'<aside class="sub{"" if wide else " col"}"><div><h4>{esc(title)}</h4><p>{esc(text)}</p></div>'
             f'<a class="btn" href="{CFG["subscribe"]}">Subscribe free</a></aside>')
 
 
@@ -473,7 +496,7 @@ def block_picks(text: str, story: Story) -> str:
             c = close_on(t, story.date)
             r1 = ret_since(t, 252, story.date)
             price = c[0]["close"] if c else None
-            cards.append(f'<a class="pk {kind}" href="{u(tpath(t))}"><span class="lab">{"We love" if kind == "love" else "We hate"}</span>'
+            cards.append(f'<a class="pk {kind}" href="{u(tpath(t))}">{logo(t, 44)}<span class="lab">{"We love" if kind == "love" else "We hate"}</span>'
                          f'<span class="tt">{t}</span><span class="nm">{esc(UMAP[t]["name"])} · {esc(UMAP[t]["industry"])}</span>'
                          f'<span class="pr"><span>{money(price)}</span><span class="{tone(r1)}">{pct(r1, 1)} 1y</span></span></a>')
     return f'<div class="picks">{"".join(cards)}</div>'
@@ -483,7 +506,15 @@ def block_highlights(text: str, r: Renderer) -> str:
     lines = [x for x in text.strip().splitlines() if x.strip()]
     title = lines[0].lstrip("# ").strip() if lines and not lines[0].lstrip().startswith("-") else "Highlights"
     items = [x.strip()[2:] for x in lines if x.strip().startswith("- ")]
-    lis = "".join(f"<li>{r.inline(x)}</li>" for x in items)
+
+    def badge(x: str) -> str:
+        m = re.search(r"(\d+(?:\.\d+)?)%\s+(beat|miss)\b", x)
+        if m:
+            return f'<span class="bdg {m.group(2)}">{"▲" if m.group(2) == "beat" else "▼"} {m.group(1)}% {m.group(2)}</span>'
+        if re.search(r"\b(in line|matched|met) (with )?(analyst )?(estimates|expectations|consensus)", x):
+            return '<span class="bdg inline">In line</span>'
+        return "<span></span>"
+    lis = "".join(f"<li><span>{r.inline(x)}</span>{badge(x)}</li>" for x in items)
     return f'<aside class="hlbox"><p class="ht">{esc(title)}</p><ul>{lis}</ul></aside>'
 
 
@@ -503,14 +534,17 @@ def stockbar(s: Story) -> str:
         m = mv.get(t)
         sess = {"after-hours": "after hours", "pre-market": "before the open", "regular": "intraday", "close": "at the close"}.get(
             (m or {}).get("s"), "")
-        moved = (f'<span class="{tone(m["c"])}">{"▲" if m["c"] >= 0 else "▼"} {abs(m["c"]):.2f}%</span> {money(m["p"])}'
-                 if m and m.get("c") is not None else "")
-        q = Q.get(t)
-        now = (f'<small>Now <span data-live="{t}" data-k="price">{money(q["price"])}</span> '
-               f'<span data-live="{t}" data-k="chg" class="{tone(q.get("change_pct"))}">{pct(q.get("change_pct"))}</span></small>'
-               if q else "")
-        rows.append(f'<div class="sbr"><a class="t" href="{u(tpath(t))}">{t}</a><a class="n" href="{u(tpath(t))}">{esc(UMAP[t]["name"])}</a>'
-                    f'<div class="p">{moved}{f" <small>{sess}, {s.pub.day} {MON[s.pub.month - 1]}</small>" if moved else ""}{now if not moved else ""}</div>'
+        if m and m.get("c") is not None:
+            p = (f'<span class="{tone(m["c"])}">{"▲" if m["c"] >= 0 else "▼"} {abs(m["c"]):.2f}%</span> {money(m["p"])}'
+                 f'<small>{sess}, {s.pub.day} {MON[s.pub.month - 1]}</small>')
+        elif Q.get(t):
+            q = Q[t]
+            p = (f'<span data-live="{t}" data-k="price">{money(q["price"])}</span> '
+                 f'<span data-live="{t}" data-k="chg" class="{tone(q.get("change_pct"))}">{pct(q.get("change_pct"))}</span><small>latest</small>')
+        else:
+            p = ""
+        rows.append(f'<div class="sbr"><a href="{u(tpath(t))}">{logo(t, 40)}</a><a class="nm" href="{u(tpath(t))}"><b>{t}</b><span>{esc(UMAP[t]["name"])}</span></a>'
+                    f'<div class="p">{p}</div>'
                     f'<button class="btn sm ghost" type="button" data-follow="{t}" aria-pressed="false">{ICON["plus"]}<span>Follow</span></button></div>')
     return f'<div class="stockbar">{"".join(rows)}</div>'
 
@@ -527,9 +561,9 @@ def story_page(s: Story) -> str:
         t = s.tickers[0]
         others = [x for x in BY_TICKER[t] if x is not s][:4]
         if others:
-            more.append(f'<section class="related"><h3>More on {esc(UMAP[t]["name"])}</h3>{"".join(row(x) for x in others)}</section>')
+            more.append(f'<section class="related"><h3>More on {esc(UMAP[t]["name"])}</h3><div class="cards-col">{"".join(row(x) for x in others)}</div></section>')
     latest = [x for x in STORIES if x is not s and x not in BY_TICKER.get(s.tickers[0] if s.tickers else "", [])][:5]
-    more.append(f'<section class="related"><h3>Latest from Mostly Markets</h3>{"".join(row(x) for x in latest)}</section>')
+    more.append(f'<section class="related"><h3>Latest from Mostly Markets</h3><div class="cards-col">{"".join(row(x) for x in latest)}</div></section>')
     follow_t = s.tickers[0] if s.tickers else None
     endbox = (f'<div class="endbox"><div><h4>Follow {esc(UMAP[follow_t]["name"])}</h4><p>Its stories collect under My stocks on the front page. '
               f'For the daily email, subscribe to the newsletter.</p></div><div class="acts">'
@@ -540,15 +574,18 @@ def story_page(s: Story) -> str:
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": s.title, "description": s.dek,
           "datePublished": s.pub.isoformat(), "author": {"@type": "Person", "name": s.author["name"]},
           "image": [absu(f"static/covers/{s.cover}-1600.webp")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
+    initials = "".join(w[0] for w in s.author["name"].split()[:2])
     html_ = f"""<article class="story wrap">
- <div class="read">
+ <header class="story-head">
   <div class="crumbs">{crumbs}</div>
   <h1>{esc(s.title)}</h1>
   <p class="dek">{esc(s.dek)}</p>
-  <div class="byl"><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span>{esc(s.author.get('role', ''))}</span><span class="sep">·</span><time datetime="{s.pub.isoformat()}">{esc(when(s.pub, True))}</time><span class="sep">·</span><span>{s.minutes} min read</span></div>
+  <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><time datetime="{s.pub.isoformat()}">{esc(when(s.pub, True))}</time><span class="sep">·</span><span>{s.minutes} min read</span></div>
+ </header>
+ <figure class="cover"><div class="ci">{cover_img(s.cover, 1600, lazy=False)}</div><figcaption>{esc(cap)}. Image: AI-generated.</figcaption></figure>
+ <div class="story-body">
   {stockbar(s)}
-  <figure class="cover"><div class="ci">{cover_img(s.cover, 1600, lazy=False)}</div><figcaption>{esc(cap)}. Image: AI-generated.</figcaption></figure>
-  <div class="prose">{body}</div>
+  <div class="prose" style="margin-top:28px">{body}</div>
   {endbox}
   <p class="disc">Mostly Markets is for information and education only and isn't investment advice. {esc(s.author['name'])} is a pen name. Prices are from Nasdaq and CNBC as of the time stated.</p>
   {''.join(more)}
@@ -594,10 +631,16 @@ def home_pages():
         items = feed[pi * size:(pi + 1) * size]
         top_html = ""
         if pi == 0 and lead:
-            top_html = f"""<section class="wrap"><div class="lead"><a href="{u(lead.path)}" class="cv-img">{cover_img(lead.cover, 1600, lazy=False)}</a>
- <a href="{u(lead.path)}"><div><span class="kick hl">{TYPE_LABEL[lead.type]}</span></div><h1>{esc(lead.title)}</h1><p class="dek">{esc(lead.dek)}</p>
- {chips(lead, 4)}<div class="meta">{time_tag(lead)}<span class="sep"></span><span>{esc(lead.author['name'])}</span><span class="sep"></span><span>{lead.minutes} min read</span></div></a></div>
- <div class="tops">{''.join(f'<article class="top"><a href="{u(t.path)}"><div class="cv-img">{cover_img(t.cover, 800)}</div><div><span class="kick">{TYPE_LABEL[t.type]}</span><h2>{esc(t.title)}</h2><p class="dek" style="margin:0;color:var(--ink-2);font-size:14.5px">{esc(t.dek)}</p>{chips(t)}</div></a></article>' for t in tops)}</div></section>"""
+            tops_html = "".join(
+                f'<article class="top"><a class="cover-link" href="{u(t.path)}" aria-label="{esc(t.title)}"></a>'
+                f'<div class="th">{cover_img(t.cover, 800)}</div><div class="tx"><div class="c-top" style="display:flex;gap:8px;align-items:center">'
+                f'{logos(t.tickers, 28)}<span class="tag">{TYPE_LABEL[t.type]}</span></div><h2>{esc(t.title)}</h2><p>{esc(t.dek)}</p>'
+                f'<div class="c-ft">{chips(t)}</div></div></article>' for t in tops)
+            top_html = f"""<section class="wrap home-top"><article class="lead"><a class="cover-link" href="{u(lead.path)}" aria-label="{esc(lead.title)}"></a>
+ <div class="cv">{cover_img(lead.cover, 1600, lazy=False)}</div>
+ <div class="tx"><div class="c-top">{logos(lead.tickers, 36)}<span class="kick hl">{TYPE_LABEL[lead.type]}</span></div><h1>{esc(lead.title)}</h1><p class="dek">{esc(lead.dek)}</p>
+ {chips(lead, 4)}<div class="meta">{time_tag(lead)}<span>·</span><span>{esc(lead.author['name'])}</span><span>·</span><span>{lead.minutes} min read</span></div></div></article>
+ <div class="tops">{tops_html}</div></section>"""
         rows_html = []
         last_day = None
         for i, s in enumerate(items):
@@ -606,7 +649,7 @@ def home_pages():
                 rows_html.append(f'<div class="day"><span>{day_title(d)}</span><small>{sum(1 for x in items if x.pub.date() == d)} stories</small></div>')
                 last_day = d
             rows_html.append(row(s))
-            if pi == 0 and i == 7:
+            if pi == 0 and i == 5:
                 rows_html.append(subscribe_box(wide=True))
         nav = []
         if pi > 0:
@@ -614,11 +657,12 @@ def home_pages():
         if pi < pages - 1:
             nav.append(f'<a class="btn ghost" href="{u(f"page/{pi + 2}/")}">Older stories</a>')
         body = f"""{top_html}
-<section class="wrap"><div class="read" style="max-width:780px"><div class="feed">
+<section class="wrap"><div class="feed-wrap"><div class="feed">
+ <div class="feed-head"><h2>{"Latest stories" if pi == 0 else f"Latest stories, page {pi + 1}"}</h2></div>
  <div class="chips" role="toolbar" aria-label="Filter stories">{chips_}</div>
- {''.join(rows_html)}
+ <div class="cards-col">{''.join(rows_html)}</div>
  <p class="empty" hidden></p>
- <div class="more" style="gap:10px">{''.join(nav)}</div>
+ <div class="more">{''.join(nav)}</div>
 </div></div></section>"""
         path = "" if pi == 0 else f"page/{pi + 1}/"
         title = CFG["name"] + (": " + CFG["tagline"] if pi == 0 else f" | Latest stories, page {pi + 1}")
@@ -630,6 +674,8 @@ def home_pages():
 # ---------------------------------------------------------------------- stock pages
 
 SECTOR_MED: dict[str, dict] = {}
+SCORES: dict[str, dict] = {}
+QUALITY_KEYS = ("revenue_growth_yoy_pct", "gross_margin_pct", "operating_margin_pct", "fcf_margin_pct")
 
 
 def ttm(t):
@@ -645,14 +691,49 @@ def median(xs):
     return xs[n // 2] if n % 2 else (xs[n // 2 - 1] + xs[n // 2]) / 2
 
 
+def multiple(t):
+    """The valuation multiple we rank on: forward P/E when there is one, else trailing P/E. None = no profits."""
+    q = Q.get(t) or {}
+    if (q.get("fpe") or 0) > 0:
+        return "fpe", q["fpe"]
+    if (q.get("pe") or 0) > 0:
+        return "pe", q["pe"]
+    return None, None
+
+
 def compute_sector_medians():
     by = defaultdict(list)
     for x in UNIV:
         by[x["sector"]].append(x["ticker"])
     for sec, ts in by.items():
-        SECTOR_MED[sec] = {k: median([ttm(t).get(k) for t in ts]) for k in
-                           ("revenue_growth_yoy_pct", "operating_margin_pct", "fcf_margin_pct", "gross_margin_pct")}
+        SECTOR_MED[sec] = {k: median([ttm(t).get(k) for t in ts]) for k in QUALITY_KEYS + ("net_margin_pct",)}
         SECTOR_MED[sec]["pe"] = median([(Q.get(t) or {}).get("pe") for t in ts if ((Q.get(t) or {}).get("pe") or 0) > 0])
+        SECTOR_MED[sec]["fpe"] = median([(Q.get(t) or {}).get("fpe") for t in ts if ((Q.get(t) or {}).get("fpe") or 0) > 0])
+        SECTOR_MED[sec]["n"] = len(ts)
+
+        def pctile(vals, v):  # share of the sector below v (ties count half), 0..1
+            if len(vals) < 2:
+                return 0.5
+            below = sum(1 for x in vals if x < v)
+            same = sum(1 for x in vals if x == v) - 1
+            return (below + same / 2) / (len(vals) - 1)
+        keys = QUALITY_KEYS + ("net_margin_pct",)
+        cols = {k: [ttm(t)[k] for t in ts if ttm(t).get(k) is not None] for k in keys}
+        mults = {kind: [(Q.get(t) or {}).get(kind) for t in ts if ((Q.get(t) or {}).get(kind) or 0) > 0] for kind in ("fpe", "pe")}
+        for t in ts:
+            ps = [pctile(cols[k], ttm(t)[k]) for k in QUALITY_KEYS if ttm(t).get(k) is not None and len(cols[k]) > 4]
+            if len(ps) < 2 and ttm(t).get("net_margin_pct") is not None and len(cols["net_margin_pct"]) > 4:
+                ps.append(pctile(cols["net_margin_pct"], ttm(t)["net_margin_pct"]))  # banks and insurers report no gross/operating margin
+            qs = (sum(ps) / len(ps) * 2 - 1) if len(ps) >= 2 else None
+            kind, m = multiple(t)
+            vs = (1 - 2 * pctile(mults[kind], m)) if kind and len(mults[kind]) > 4 else (-0.9 if kind is None else None)
+            SCORES[t] = {"q": qs, "v": vs, "kind": kind, "mult": m}
+
+
+def band(score):
+    if score is None:
+        return None
+    return "good" if score >= 0.33 else "bad" if score <= -0.33 else "mid"
 
 
 def qlabel(q) -> str:
@@ -666,89 +747,214 @@ def unit_for(vals):
     return ("$bn", 1e9) if mx >= 1e9 else ("$m", 1e6)
 
 
+def pe_history(t):
+    """Daily close over the trailing-12-month diluted EPS known on that day (from each quarter's filing date)."""
+    qs = [q for q in (FUND.get(t) or {}).get("quarters", []) if q.get("eps_diluted") is not None and q.get("filed")]
+    known = []
+    for i in range(3, len(qs)):
+        win = qs[i - 3:i + 1]
+        known.append((win[-1]["filed"], sum(q["eps_diluted"] for q in win)))
+    if len(known) < 3:
+        return None
+    dates, pes = [], []
+    k = 0
+    for bar in prices(t):
+        while k + 1 < len(known) and known[k + 1][0] <= bar["date"]:
+            k += 1
+        if bar["date"] < known[0][0]:
+            continue
+        eps = known[k][1]
+        if eps <= 0:
+            return None
+        dates.append(bar["date"])
+        pes.append(round(bar["close"] / eps, 2))
+    if len(dates) < 120:
+        return None
+    step = 3
+    idx = list(range(0, len(dates), step))
+    if idx[-1] != len(dates) - 1:
+        idx.append(len(dates) - 1)
+    return [dates[i] for i in idx], [pes[i] for i in idx]
+
+
+def peers_of(t, n=7):
+    x = UMAP[t]
+    peers = [p["ticker"] for p in UNIV if p["industry"] == x["industry"] and p["ticker"] != t]
+    if len(peers) < 4:
+        peers += [p["ticker"] for p in UNIV if p["sector"] == x["sector"] and p["ticker"] != t and p["ticker"] not in peers]
+    peers = [p for p in peers if p not in ("GOOG", "FOX", "NWS")]
+    peers.sort(key=lambda p: -((Q.get(p) or {}).get("cap") or 0))
+    return peers[:n]
+
+
+def valuation_section(t: str) -> str:
+    x = UMAP[t]
+    name, sec = x["name"], x["sector"]
+    sc = SCORES.get(t) or {}
+    med = SECTOR_MED.get(sec, {})
+    qb, vb = band(sc.get("q")), band(sc.get("v"))
+    if qb is None and vb is None:
+        return ""
+    secl = sec.lower()
+    chips_ = []
+    if qb:
+        chips_.append(f'<span class="vchip {qb}"><i></i>Business quality: {"stronger than most" if qb == "good" else "weaker than most" if qb == "bad" else "about average"}</span>')
+    if sc.get("kind") is None:
+        chips_.append('<span class="vchip bad"><i></i>Valuation: no profits to value</span>')
+    elif vb:
+        chips_.append(f'<span class="vchip {vb}"><i></i>Valuation: {"cheaper than most" if vb == "good" else "pricier than most" if vb == "bad" else "in line with its sector"}</span>')
+    qpart = ({"good": "A stronger business than most", "mid": "An average business among", "bad": "A weaker business than most"}[qb]
+             + f" {secl} companies") if qb else f"Next to other {secl} companies, it is"
+    vpart = ("with no profits yet to value" if sc.get("kind") is None else
+             {"good": "priced below most of them", "mid": "priced about in line with them", "bad": "priced above most of them",
+              None: "with too few peers to rank its price"}[vb])
+    kind, m = sc.get("kind"), sc.get("mult")
+    medm = med.get(kind) if kind else None
+    what = "the next 12 months of expected earnings" if kind == "fpe" else "its last 12 months of earnings"
+    para = (f"{esc(name)} trades at {m:.1f} times {what}, against a median of {medm:.1f}x for the {med.get('n', 0)} {esc(secl)} stocks we cover. "
+            if kind and medm else f"{esc(name)} has no positive earnings to put a price-to-earnings multiple on. ")
+    if qb:
+        para += ("The quality score blends where it ranks on revenue growth, gross margin, operating margin and free-cash-flow margin "
+                 "(net margin for banks and insurers) over the last 12 months, from SEC filings.")
+    # facts vs the sector median
+    tt = ttm(t)
+    words = {"revenue_growth_yoy_pct": ("Revenue grew faster than the sector median", "Revenue grew slower than the sector median", True),
+             "gross_margin_pct": ("Keeps more of each sale (gross margin)", "Keeps less of each sale (gross margin)", False),
+             "operating_margin_pct": ("More profitable (operating margin)", "Less profitable (operating margin)", False),
+             "fcf_margin_pct": ("Turns more of its sales into cash", "Turns less of its sales into cash", False),
+             "net_margin_pct": ("Keeps more of its revenue as profit (net margin)", "Keeps less of its revenue as profit (net margin)", False)}
+    facts = []
+    for k, (gw, bw, sign) in words.items():
+        if k == "net_margin_pct" and tt.get("operating_margin_pct") is not None:
+            continue
+        v, mm = tt.get(k), med.get(k)
+        if v is None or mm is None:
+            continue
+        good = v > mm
+        facts.append(f'<li class="{"g" if good else "b"}">{gw if good else bw}: {pct(v, 1, sign=sign)} vs {pct(mm, 1, sign=sign)}</li>')
+    # quadrant against industry peers
+    pts = []
+    for p in [t] + peers_of(t):
+        ps = SCORES.get(p) or {}
+        if ps.get("q") is None or ps.get("v") is None:
+            continue
+        pk, pm = ps.get("kind"), ps.get("mult")
+        mtxt = f"{pm:.1f}x {'fwd P/E' if pk == 'fpe' else 'P/E'}" if pk else "no profits"
+        g = ttm(p).get("revenue_growth_yoy_pct")
+        om = ttm(p).get("operating_margin_pct")
+        tip = f"{p}: {mtxt}" + (f", growth {pct(g, 0)}" if g is not None else "") + (f", op. margin {pct(om, 0, sign=False)}" if om is not None else "")
+        pts.append({"t": p, "x": ps["v"], "y": ps["q"], "me": p == t, "url": u(tpath(p)), "logo": logo(p, 34), "tip": tip})
+    quad = ""
+    if len(pts) >= 3:
+        hi = max((SCORES[p["t"]]["mult"] or 0) for p in pts)
+        lo = min((SCORES[p["t"]]["mult"] or 1e9) for p in pts)
+        quad = (C.quadrant(pts, f"Pricier · {hi:.0f}x", f"{lo:.0f}x · Cheaper") +
+                f'<p class="qlegend">{esc(name)} and {len(pts) - 1} {esc(x["industry"].lower())} peers. Across: valuation (P/E) against '
+                f'the sector. Up: business quality against the sector. Hover or tap a logo for its numbers.</p>')
+    # charts: multiple vs peers, P/E history
+    charts = []
+    if kind:
+        rows = [(p, (SCORES.get(p) or {}).get("mult")) for p in [t] + peers_of(t) if (SCORES.get(p) or {}).get("kind") == kind]
+        rows.sort(key=lambda r: r[1])
+        if len(rows) >= 3:
+            labels = [r[0] for r in rows]
+            vals = [round(r[1], 1) for r in rows]
+            lab = "forward P/E" if kind == "fpe" else "P/E"
+            rel = "below" if medm and m < medm else "above"
+            charts.append(C.hbars_chart({
+                "title": f"{t} trades at {m:.1f}x {'forward ' if kind == 'fpe' else ''}earnings, {rel} the sector median" if medm else f"{t} on {lab} against its peers",
+                "subtitle": f"{lab.capitalize()}, {x['industry']} peers", "labels": labels, "values": vals, "unit": "x",
+                "highlight": labels.index(t), "median": medm, "median_label": f"Sector median {medm:.1f}x" if medm else "",
+                "neutral": True, "size": "half", "source": "CNBC quotes; Mostly Markets"}))
+    ph = pe_history(t)
+    if ph:
+        d, v = ph
+        avg = sum(v) / len(v)
+        now = v[-1]
+        charts.append(C.pe_history_chart(
+            d, v, f"At {now:.1f}x earnings, {t} is {'cheaper' if now < avg else 'pricier'} than its average since {C.human(d[0])[-8:]}",
+            "Price over the last 12 months of reported (GAAP) diluted EPS", "Source: Nasdaq prices; SEC filings"))
+    valcharts = f'<div class="valgrid">{"".join(charts)}</div>' if charts else ""
+    return (f'<section id="quality"><h2 class="sh2">Quality and valuation</h2>'
+            f'<p class="lede">How {esc(name)} compares with other {esc(secl)} stocks. A description, not a recommendation.</p>'
+            f'<div class="verdict{"" if quad else " solo"}">{f"<div>{quad}</div>" if quad else ""}<div class="vtext"><div class="vchips">{"".join(chips_)}</div>'
+            f'<h3>{qpart}, {vpart}.</h3><p>{para}</p><ul class="facts">{"".join(facts)}</ul></div></div>{valcharts}</section>')
+
+
 def fund_section(t: str) -> str:
     f = FUND.get(t)
     if not f or not f.get("quarters"):
         return ""
-    qs = [q for q in f["quarters"] if q.get("revenue") is not None][-8:]
+    allq = [q for q in f["quarters"] if q.get("revenue") is not None]
+    qs = allq[-8:]
     if len(qs) < 4:
         return ""
     name = UMAP[t]["name"]
     out = []
+    labels = [qlabel(q) for q in qs]
     rev = [q["revenue"] for q in qs]
     unit, div = unit_for(rev)
-    labels = [qlabel(q) for q in qs]
-    allq = [q for q in f["quarters"] if q.get("revenue") is not None]
     yoy = None
     if len(allq) >= 5 and allq[-5]["revenue"]:
         yoy = (allq[-1]["revenue"] / allq[-5]["revenue"] - 1) * 100
     rt = (f"Revenue {'grew' if yoy >= 0 else 'fell'} {abs(yoy):.1f}% from a year earlier" if yoy is not None
           else f"{name}'s quarterly revenue")
-    out.append(C.bars_chart({"title": rt, "subtitle": f"Quarterly revenue, {unit.replace('$', '$ ')}, latest {labels[-1]}",
-                             "labels": labels, "values": [round(v / div, 2) for v in rev], "unit": "$bn" if unit == "$bn" else "",
-                             "source": "SEC filings", "highlight": -1}).replace('class="chart "', 'class="chart"'))
-    oi = [q.get("operating_income") for q in qs]
-    if sum(1 for v in oi if v is not None) >= 4:
-        u2, d2 = unit_for(oi)
-        m = (qs[-1]["operating_income"] / qs[-1]["revenue"] * 100) if qs[-1].get("operating_income") is not None and qs[-1]["revenue"] else None
-        title = f"Operating margin was {m:.1f}% last quarter" if m is not None else "Operating income by quarter"
-        out.append(C.bars_chart({"title": title, "subtitle": f"Quarterly operating income, {u2.replace('$', '$ ')}",
-                                 "labels": labels, "values": [round(v / d2, 2) if v is not None else None for v in oi],
-                                 "unit": "$bn" if u2 == "$bn" else "", "source": "SEC filings", "highlight": -1}))
+    out.append(C.bars_chart({"title": rt, "subtitle": f"Quarterly revenue, {unit}, latest {labels[-1]}",
+                             "labels": labels, "values": [round(v / div, 2) for v in rev], "unit": unit,
+                             "source": "SEC filings", "highlight": -1, "size": "half"}))
+    growth = []
+    for i, q in enumerate(allq):
+        if i >= 4 and allq[i - 4]["revenue"]:
+            growth.append((qlabel(q), (q["revenue"] / allq[i - 4]["revenue"] - 1) * 100))
+    if len(growth) >= 4:
+        g = growth[-8:]
+        out.append(C.bars_chart({"title": f"Growth {'sped up' if g[-1][1] > g[-2][1] else 'slowed'} to {pct(g[-1][1], 1)} last quarter",
+                                 "subtitle": "Revenue growth, year on year, %", "labels": [x[0] for x in g],
+                                 "values": [round(x[1], 1) for x in g], "unit": "%", "tone": "sign", "highlight": -1,
+                                 "source": "SEC filings", "size": "half"}))
+    om = [(q["operating_income"] / q["revenue"] * 100) if q.get("operating_income") is not None and q["revenue"] else None for q in qs]
+    if sum(1 for v in om if v is not None) >= 4 and om[-1] is not None:
+        out.append(C.bars_chart({"title": f"Operating margin was {om[-1]:.1f}% last quarter",
+                                 "subtitle": "Operating income as a share of revenue, %", "labels": labels,
+                                 "values": [round(v, 1) if v is not None else None for v in om], "unit": "%",
+                                 "tone": "sign" if any(v is not None and v < 0 for v in om) else "", "highlight": -1,
+                                 "source": "SEC filings", "size": "half"}))
     fcf = [q.get("fcf") for q in qs]
     if sum(1 for v in fcf if v is not None) >= 4:
         u3, d3 = unit_for(fcf)
         tt = ttm(t)
         title = (f"Free cash flow was {big_money(tt.get('fcf'))} over 12 months" if tt.get("fcf") is not None
                  else "Free cash flow by quarter")
-        out.append(C.bars_chart({"title": title, "subtitle": f"Quarterly free cash flow (operating cash flow minus capex), {u3.replace('$', '$ ')}",
+        out.append(C.bars_chart({"title": title, "subtitle": f"Quarterly free cash flow (operating cash flow minus capex), {u3}",
                                  "labels": labels, "values": [round(v / d3, 2) if v is not None else None for v in fcf],
-                                 "unit": "$bn" if u3 == "$bn" else "", "source": "SEC filings", "highlight": -1}))
+                                 "unit": u3, "tone": "sign", "source": "SEC filings", "highlight": -1, "size": "half"}))
     eps = [q.get("eps_diluted") for q in qs]
-    if sum(1 for v in eps if v is not None) >= 4:
+    if sum(1 for v in eps if v is not None) >= 4 and len(out) < 4:
         out.append(C.bars_chart({"title": f"Diluted EPS was {money(eps[-1])} last quarter" if eps[-1] is not None else "Earnings per share",
                                  "subtitle": "Quarterly diluted earnings per share, $", "labels": labels,
-                                 "values": eps, "unit": "$", "source": "SEC filings", "highlight": -1}))
+                                 "values": eps, "unit": "$", "tone": "sign", "source": "SEC filings", "highlight": -1, "size": "half"}))
     sec = UMAP[t]["sector"]
     med = SECTOR_MED.get(sec, {})
     tt = ttm(t)
     q = Q.get(t) or {}
     rows = []
-    verdicts = []
 
-    def cmp_row(label, v, m, good_high=True, fmtf=lambda x: pct(x, 1, sign=False)):
+    def cmp_row(label, v, m, fmtf=lambda x: pct(x, 1, sign=False)):
         if v is None:
             return
-        rows.append(f"<tr><td>{label}</td><td class='n'>{fmtf(v)}</td><td class='n'>{fmtf(m) if m is not None else '–'}</td></tr>")
-        if m is not None:
-            better = (v > m) if good_high else (v < m)
-            verdicts.append((better, label, v, m))
-    cmp_row("Revenue growth, last 12 months", tt.get("revenue_growth_yoy_pct"), med.get("revenue_growth_yoy_pct"),
-            fmtf=lambda x: pct(x, 1))
+        rows.append(f"<tr><td>{label}</td><td class='n me'>{fmtf(v)}</td><td class='n'>{fmtf(m) if m is not None else '–'}</td></tr>")
+    cmp_row("Revenue growth", tt.get("revenue_growth_yoy_pct"), med.get("revenue_growth_yoy_pct"), fmtf=lambda x: pct(x, 1))
     cmp_row("Gross margin", tt.get("gross_margin_pct"), med.get("gross_margin_pct"))
     cmp_row("Operating margin", tt.get("operating_margin_pct"), med.get("operating_margin_pct"))
     cmp_row("Free cash flow margin", tt.get("fcf_margin_pct"), med.get("fcf_margin_pct"))
     if (q.get("pe") or 0) > 0:
-        cmp_row("Price to earnings", q.get("pe"), med.get("pe"), good_high=False, fmtf=lambda x: f"{x:.1f}x")
-    words = {"Revenue growth, last 12 months": ("grows faster than", "grows slower than"),
-             "Gross margin": ("keeps more of each sale than", "keeps less of each sale than"),
-             "Operating margin": ("is more profitable than", "is less profitable than"),
-             "Free cash flow margin": ("turns more of its sales into cash than", "turns less of its sales into cash than"),
-             "Price to earnings": ("is cheaper than", "is pricier than")}
-    vl = "".join(f'<li class="{"g" if b else "b"}">{esc(name)} {words[lab][0 if b else 1]} the median {esc(sec.lower())} stock ({fmt_cmp(lab, v)} vs {fmt_cmp(lab, m)}).</li>'
-                 for b, lab, v, m in verdicts)
-    table = (f'<div class="tbl"><table class="cmp"><thead><tr><th>Last 12 months</th><th class="n">{t}</th><th class="n">Sector median</th></tr></thead>'
+        cmp_row("Price to earnings", q.get("pe"), med.get("pe"), fmtf=lambda x: f"{x:.1f}x")
+    table = (f'<div class="tbl" style="margin-top:20px"><table class="cmp"><thead><tr><th>Last 12 months</th><th class="n">{t}</th><th class="n">Sector median</th></tr></thead>'
              f'<tbody>{"".join(rows)}</tbody></table></div>') if rows else ""
     upd = f.get("quarters", [{}])[-1].get("end", "")
-    return (f'<h2 class="sh2" id="financials">The business</h2><p class="lede">Compared with the median {esc(sec.lower())} stock we cover. From {esc(name)}\'s SEC filings, through the quarter ending '
-            f'{C.human(upd) if upd else "–"}.</p>'
-            f'<ul class="verdicts">{vl}</ul>{table}<div class="fundgrid">{"".join(out)}</div>')
-
-
-def fmt_cmp(label, v):
-    if v is None:
-        return "–"
-    return f"{v:.1f}x" if label == "Price to earnings" else pct(v, 1, sign=label.startswith("Revenue"))
+    return (f'<section id="financials"><h2 class="sh2">Financials</h2><p class="lede">From {esc(name)}\'s SEC filings, through the quarter ending '
+            f'{C.human(upd) if upd else "–"}. Hover or tap a bar for its value.</p>'
+            f'<div class="fundgrid">{"".join(out[:4])}</div>{table}</section>')
 
 
 def stock_page(t: str) -> str:
@@ -770,20 +976,19 @@ def stock_page(t: str) -> str:
     ext_html = (f'<span class="ext" data-live="{t}" data-k="ext">{"After hours" if ext.get("session") == "POST_MKT" else "Before the open"}: '
                 f'<span>{money(ext.get("price"))} ({pct(ext.get("change_pct"))})</span></span>' if ext.get("price") else
                 f'<span class="ext" data-live="{t}" data-k="ext" hidden></span>')
-    # charts by range
     rngs = [("1m", "1M"), ("6m", "6M"), ("ytd", "YTD"), ("1y", "1Y"), ("5y", "5Y")]
     panels = []
     for k, lab in rngs:
         ch = C.price_chart(bars, k, None, f"{name} over {C.RANGE_LABEL[k]}", f"Daily close, $, to {C.human(bars[-1]['date'])}" if bars else "",
-                           "last") if bars else ""
+                           "last", size="wide") if bars else ""
         panels.append(f'<div class="rng-panel" data-r="{k}"{"" if k == "1y" else " hidden"}>{ch}</div>')
     ranges = "".join(f'<button type="button" data-r="{k}" aria-pressed="{"true" if k == "1y" else "false"}">{lab}</button>' for k, lab in rngs)
-    # stats
     hi52 = max((b["close"] for b in bars[-252:]), default=None)
     lo52 = min((b["close"] for b in bars[-252:]), default=None)
     pos = ((price - lo52) / (hi52 - lo52) * 100) if price and hi52 and lo52 and hi52 > lo52 else None
+    pos = max(0, min(100, pos)) if pos is not None else None
     ne = next_earnings(t)
-    ne_s = "–"
+    ne_s = "Not scheduled"
     if ne:
         d = dt.date.fromisoformat(ne[0])
         ne_s = f"{WD[d.weekday()][:3]} {d.day} {MON[d.month - 1]}" + {"bmo": ", before the open", "amc": ", after the close"}.get(ne[1]["time"], "")
@@ -800,53 +1005,51 @@ def stock_page(t: str) -> str:
         ("Sector", f'<a href="{u("sectors/" + slugify(x["sector"]) + "/")}">{esc(x["sector"])}</a>'),
     ]
     stat_html = "".join(f'<div class="stat">{k}<b>{v}</b></div>' for k, v in stats)
-    rangebar = (f'<div class="stat" style="grid-column:1/-1">52-week range (closes)<div class="rangebar"><i style="left:calc({pos:.1f}% - 1px)"></i></div>'
+    rangebar = (f'<div class="stat full">52-week range (closes)<div class="rangebar"><i style="left:calc({pos:.1f}% - 2px)"></i></div>'
                 f'<div><span>{money(lo52)}</span><span>{money(hi52)}</span></div></div>') if pos is not None else ""
-    # stories
     st = BY_TICKER.get(t, [])
-    if st:
-        stories_html = mini_rows(st[:12])
-    else:
-        stories_html = (f'<p class="empty" style="text-align:left;padding:18px 0">We haven\'t written about {esc(name)} yet. '
-                        f'Follow it, and its first story will show under My stocks on the front page.</p>')
-    # peers
-    peers = [p for p in UNIV if p["industry"] == x["industry"] and p["ticker"] != t]
-    if len(peers) < 4:
-        peers = [p for p in UNIV if p["sector"] == x["sector"] and p["ticker"] != t]
-    peers.sort(key=lambda p: -((Q.get(p["ticker"]) or {}).get("cap") or 0))
+    stories_html = (mini_rows(st[:12]) if st else
+                    f'<p class="empty" style="text-align:left;padding:18px 0">We haven\'t written about {esc(name)} yet. '
+                    f'Follow it, and its first story will show under My stocks on the front page.</p>')
     prow = []
-    for p in peers[:8]:
-        pq = Q.get(p["ticker"]) or {}
-        py = ytd(p["ticker"])
-        prow.append(f'<tr><td class="nm"><a href="{u(tpath(p["ticker"]))}"><span class="tt">{p["ticker"]}</span>{esc(p["name"])}</a></td>'
+    for p in peers_of(t, 8):
+        pq = Q.get(p) or {}
+        py = ytd(p)
+        prow.append(f'<tr><td class="nm"><a href="{u(tpath(p))}">{logo(p, 30)}<span class="t"><b>{p}</b><i>{esc(UMAP[p]["name"])}</i></span></a></td>'
                     f'<td class="n">{money(pq.get("price"))}</td><td class="n {tone(pq.get("change_pct"))}">{pct(pq.get("change_pct"))}</td>'
-                    f'<td class="n {tone(py)}">{pct(py, 1)}</td><td class="n hide-m">{short_money(pq.get("cap"))}</td></tr>')
-    peers_html = (f'<h2 class="sh2">Similar companies</h2><p class="lede">{esc(x["industry"])}, by market value.</p>'
-                  f'<table class="big"><thead><tr><th>Company</th><th class="n">Price</th><th class="n">Today</th><th class="n">YTD</th><th class="n hide-m">Value</th></tr></thead>'
-                  f'<tbody>{"".join(prow)}</tbody></table>') if prow else ""
+                    f'<td class="n hide-s {tone(py)}">{pct(py, 1)}</td><td class="n hide-m">{short_money(pq.get("cap"))}</td></tr>')
+    peers_html = (f'<section id="peers"><h2 class="sh2">Similar companies</h2><p class="lede">{esc(x["industry"])}, by market value.</p>'
+                  f'<table class="big" style="margin-top:16px"><thead><tr><th>Company</th><th class="n">Price</th><th class="n">Today</th><th class="n hide-s">YTD</th><th class="n hide-m">Value</th></tr></thead>'
+                  f'<tbody>{"".join(prow)}</tbody></table></section>') if prow else ""
+    val = valuation_section(t)
+    fin = fund_section(t)
+    nav = [("overview", "Overview")] + ([("quality", "Quality & valuation")] if val else []) + (
+        [("financials", "Financials")] if fin else []) + [("stories", "Stories")] + ([("peers", "Peers")] if prow else [])
+    navh = "".join(f'<a href="#{k}"{" class=on" if i == 0 else ""}>{v}</a>' for i, (k, v) in enumerate(nav))
     body = f"""<div class="sp wrap">
- <div class="sp-top">
-  <div><div class="crumbs" style="margin:0"><a class="kick" href="{u('stocks/')}">Stocks</a><span class="kick">/</span><a class="kick" href="{u('sectors/' + slugify(x['sector']) + '/')}">{esc(x['sector'])}</a></div>
-   <h1>{esc(name)}<small>{t}</small></h1>
-   <div class="sect">{esc(x['industry'])}{(' · ' + esc(x['hq'])) if x.get('hq') else ''}{' · In the S&amp;P 500' if 'S&P 500' in x.get('index', []) else ''}</div>
+ <div class="crumbs"><a class="kick" href="{u('stocks/')}">Stocks</a><span class="kick">/</span><a class="kick" href="{u('sectors/' + slugify(x['sector']) + '/')}">{esc(x['sector'])}</a><span class="kick hide-m">/</span><span class="kick hide-m">{esc(x['industry'])}</span></div>
+ <div class="sp-hero">
+  <div><div class="sp-id">{logo(t, 64)}<div><h1>{esc(name)}<small>{t}</small></h1>
+   <div class="sect">{esc(x['industry'])}{(' · ' + esc(x['hq'])) if x.get('hq') else ''}{' · In the S&amp;P 500' if 'S&P 500' in x.get('index', []) else ''}</div></div></div>
    <div class="px"><b data-live="{t}" data-k="price">{money(price)}</b><span class="chg {tone(chg)}" data-live="{t}" data-k="chg">{pct(chg)}</span>{ext_html}<span class="asof">{esc(asof)}</span></div>
   </div>
   <div><button class="btn" type="button" data-follow="{t}" aria-pressed="false">{ICON['plus']}<span>Follow</span></button></div>
  </div>
- <div class="sp-grid">
-  <div style="min-width:0">
-   <div class="ranges" role="group" aria-label="Chart range">{ranges}</div>
-   {''.join(panels)}
-   <h2 class="sh2" id="stories">Stories on {esc(name)}</h2>
-   <div class="feed">{stories_html}</div>
-   {fund_section(t)}
-   {peers_html}
-  </div>
-  <aside><div class="stats" style="margin-top:6px">{stat_html}{rangebar}</div>
-   <div style="margin-top:28px">{subscribe_box(title='Follow the market with us', text='The stories that moved stocks, every market day, free by email.')}</div></aside>
+</div>
+<nav class="secnav" aria-label="Sections"><div class="wrap"><div class="in">{navh}</div></div></nav>
+<div class="wrap"><div class="sp-grid">
+ <div class="sp-main">
+  <section id="overview"><div class="ranges" role="group" aria-label="Chart range">{ranges}</div><div class="pchart">{''.join(panels)}</div>
+   <div class="stats show-t">{stat_html}{rangebar}</div></section>
+  {val}
+  {fin}
+  <section id="stories"><h2 class="sh2">Stories on {esc(name)}</h2><div class="feed">{stories_html}</div></section>
+  {peers_html}
  </div>
-</div>"""
-    desc = f"{name} ({t}) stock: price, chart, financials and the latest stories explaining why it moved."
+ <aside class="side"><div class="stats hide-t">{stat_html}{rangebar}</div>
+  {subscribe_box(title='Follow the market with us', text='The stories that moved stocks, every market day, free by email.')}</aside>
+</div></div>"""
+    desc = f"{name} ({t}) stock: price, chart, quality and valuation against peers, financials and the latest stories explaining why it moved."
     return page(tpath(t), f"{name} ({t}) Stock: Price, News and Analysis", body, desc, active="stocks/")
 
 
@@ -865,10 +1068,10 @@ def week_change(t):
 def card(t, metric_label, metric_value, tone_v=None) -> str:
     x = UMAP[t]
     q = Q.get(t) or {}
-    sp = C.spark([b["close"] for b in prices(t)[-63:]], 200, 30)
-    return (f'<a class="sc" href="{u(tpath(t))}"><div class="r1"><span class="tt">{t}</span><span class="cg {tone(q.get("change_pct"))}">'
-            f'{money(q.get("price"))} {pct(q.get("change_pct"), 1)}</span></div><div class="nm">{esc(x["name"])}</div>'
-            f'<div class="ind">{esc(x["industry"])}</div>{sp}<div class="ml">{esc(metric_label)}: <b class="{tone(tone_v) if tone_v is not None else ""}">{metric_value}</b></div></a>')
+    sp = C.spark([b["close"] for b in prices(t)[-63:]], 240, 44)
+    return (f'<a class="sc" href="{u(tpath(t))}"><div class="r1">{logo(t, 40)}<div class="id"><b>{t}</b><span>{esc(x["name"])}</span></div>'
+            f'<div class="cg">{money(q.get("price"))}<small class="{tone(q.get("change_pct"))}">{pct(q.get("change_pct"), 1)}</small></div></div>'
+            f'{sp}<div class="ml">{esc(metric_label)} <b class="{tone(tone_v) if tone_v is not None else ""}">{metric_value}</b></div></a>')
 
 
 def discover_lists():
@@ -915,7 +1118,7 @@ def discover_pages():
         secs.append(f'<section class="dsec"><div class="dsec-h"><div><h2>{esc(title)}</h2><p>{esc(desc)}</p></div>'
                     f'<a href="{u(f"discover/{key}/")}">View all</a></div><div class="cards">{cards}</div></section>')
         rows = "".join(
-            f'<tr><td class="nm"><a href="{u(tpath(t))}"><span class="tt">{t}</span>{esc(UMAP[t]["name"])}</a></td>'
+            f'<tr><td class="nm"><a href="{u(tpath(t))}">{logo(t, 30)}<span class="t"><b>{t}</b><i>{esc(UMAP[t]["name"])}</i></span></a></td>'
             f'<td class="hide-m">{esc(UMAP[t]["industry"])}</td><td class="n">{money((Q.get(t) or {}).get("price"))}</td>'
             f'<td class="n {tone(tv)}" data-v="{tv if tv is not None else ""}">{mv}</td></tr>' for t, ml, mv, tv in items)
         body = (f'<div class="wrap"><div class="ph"><div class="crumbs"><a class="kick" href="{u("discover/")}">Discover</a></div><h1>{esc(title)}</h1><p>{esc(desc)}</p></div>'
@@ -926,7 +1129,7 @@ def discover_pages():
     picks_html = ""
     if picks:
         picks_html = (f'<section class="dsec"><div class="dsec-h"><div><h2>Our picks</h2><p>Three stocks we love and one we hate, on one theme at a time.</p></div></div>'
-                      f'<div class="feed">{"".join(row(s) for s in picks)}</div></section>')
+                      f'<div class="feed cards-col">{"".join(row(s) for s in picks)}</div></section>')
     by = defaultdict(int)
     for x in UNIV:
         by[x["sector"]] += 1
@@ -943,16 +1146,16 @@ def table_rows(ts):
         x = UMAP[t]
         q = Q.get(t) or {}
         y = ytd(t)
-        out.append(f'<tr><td class="nm"><a href="{u(tpath(t))}"><span class="tt">{t}</span>{esc(x["name"])}</a></td>'
+        out.append(f'<tr><td class="nm"><a href="{u(tpath(t))}">{logo(t, 30)}<span class="t"><b>{t}</b><i>{esc(x["name"])}</i></span></a></td>'
                    f'<td class="hide-m">{esc(x["industry"])}</td><td class="n" data-v="{q.get("price") or ""}">{money(q.get("price"))}</td>'
                    f'<td class="n {tone(q.get("change_pct"))}" data-v="{q.get("change_pct") if q.get("change_pct") is not None else ""}">{pct(q.get("change_pct"))}</td>'
-                   f'<td class="n {tone(y)}" data-v="{y if y is not None else ""}">{pct(y, 1)}</td>'
+                   f'<td class="n hide-s {tone(y)}" data-v="{y if y is not None else ""}">{pct(y, 1)}</td>'
                    f'<td class="n hide-m" data-v="{q.get("cap") or 0}">{short_money(q.get("cap"))}</td></tr>')
     return "".join(out)
 
 
 TABLE_HEAD = ('<thead><tr><th>Company</th><th class="hide-m">Industry</th><th class="n">Price</th><th class="n">Today</th>'
-              '<th class="n">YTD</th><th class="n hide-m">Value</th></tr></thead>')
+              '<th class="n hide-s">YTD</th><th class="n hide-m">Value</th></tr></thead>')
 
 
 def sector_pages():
@@ -962,7 +1165,7 @@ def sector_pages():
     for sec, ts in by.items():
         ts.sort(key=lambda t: -((Q.get(t) or {}).get("cap") or 0))
         st = [s for s in STORIES if s.tickers and UMAP[s.tickers[0]]["sector"] == sec][:8]
-        stories = f'<section class="dsec"><div class="dsec-h"><div><h2>Latest stories</h2></div></div><div class="feed">{"".join(row(s) for s in st)}</div></section>' if st else ""
+        stories = f'<section class="dsec"><div class="dsec-h"><div><h2>Latest stories</h2></div></div><div class="feed cards-col">{"".join(row(s) for s in st)}</div></section>' if st else ""
         med = SECTOR_MED.get(sec, {})
         meds = []
         if med.get("revenue_growth_yoy_pct") is not None:
@@ -1017,7 +1220,7 @@ def earnings_page():
                     else:
                         info = "<span></span>"
                     link = f'<a class="st" href="{u(st[0].path)}">{"Recap" if st[0].type == "earnings-recap" else "Preview"}</a>' if st else ""
-                    items.append(f'<div class="cal-e"><a href="{u(tpath(t))}"><b>{t}</b></a>{info}{link}</div>')
+                    items.append(f'<div class="cal-e"><a class="co" href="{u(tpath(t))}">{logo(t, 22)}<b>{t}</b></a>{info}{link}</div>')
                 more = len([r for r in rows if r["time"] == tm]) - len(g)
                 groups.append(f'<div class="tm">{lab}</div>{"".join(items)}' + (f'<div class="cal-e"><span>+{more} more</span></div>' if more > 0 else ""))
             cols.append(f'<div class="cal-d{" today" if d == today else ""}"><h3>{WD[d.weekday()][:3]} {d.day} {MON[d.month - 1]}<small>{len(rows)}</small></h3>'
@@ -1091,7 +1294,7 @@ def feeds():
                  "After hours" if ext.get("session") == "POST_MKT" else "Before the open"]
     (DIST / "data").mkdir(exist_ok=True)
     (DIST / "data/quotes.json").write_text(json.dumps({"asof": QUOTES.get("asof"), "q": qd}, separators=(",", ":")))
-    search = {"s": [[t, x["name"], x["sector"]] for t, x in sorted(UMAP.items())],
+    search = {"s": [[t, x["name"], x["sector"], 1 if t in LOGOS else 0] for t, x in sorted(UMAP.items())],
               "n": [[s.title, s.path, f"{s.pub.day} {MON[s.pub.month - 1]}"] for s in STORIES[:400]]}
     (DIST / "data/search.json").write_text(json.dumps(search, separators=(",", ":")))
 
@@ -1103,6 +1306,12 @@ def static():
     cov.mkdir(exist_ok=True)
     for f in (ROOT / "assets/covers").glob("*.webp"):
         dst = cov / f.name
+        if not dst.exists() or dst.stat().st_size != f.stat().st_size:
+            shutil.copy2(f, dst)
+    lg = out / "logos"
+    lg.mkdir(exist_ok=True)
+    for f in (ROOT / "assets/logos").glob("*.png"):
+        dst = lg / f.name
         if not dst.exists() or dst.stat().st_size != f.stat().st_size:
             shutil.copy2(f, dst)
 
