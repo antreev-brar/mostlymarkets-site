@@ -270,11 +270,15 @@ class Story:
                 continue  # the story says which moves matter; don't mix in other sessions
             if t in given:
                 m = given[t]
-                out.append({"t": t, "p": m.get("price"), "c": m.get("change_pct"), "s": m.get("session", "close")})
+                asof = m.get("asof")
+                day = (asof.astimezone(ET).date().isoformat() if isinstance(asof, dt.datetime) else
+                       asof.isoformat() if isinstance(asof, dt.date) else None)
+                out.append({"t": t, "p": m.get("price"), "c": m.get("change_pct"), "s": m.get("session", "close"), "d": day})
                 continue
             c = close_on(t, self.date)
             if c and c[0]["date"] == self.date:
-                out.append({"t": t, "p": c[0]["close"], "c": (c[0]["close"] / c[1]["close"] - 1) * 100, "s": "close"})
+                out.append({"t": t, "p": c[0]["close"], "c": (c[0]["close"] / c[1]["close"] - 1) * 100, "s": "close",
+                            "d": self.date})
         return out
 
     def _cover(self):
@@ -917,8 +921,11 @@ def stockbar(s: Story) -> str:
         sess = {"after-hours": "after hours", "pre-market": "before the open", "regular": "intraday", "close": "at the close"}.get(
             (m or {}).get("s"), "")
         if m and m.get("c") is not None:
+            # The move's own date: its asof, or for a close the last session on or before the story (a weekend
+            # story about Friday says Friday).
+            d = dt.date.fromisoformat(m.get("d") or (last_trading_day(s.date) if m.get("s") in ("close", "regular") else s.date))
             p = (f'<span class="{tone(m["c"])}">{"▲" if m["c"] >= 0 else "▼"} {abs(m["c"]):.2f}%</span> {money(m["p"])}'
-                 f'<small>{sess}, {s.pub.day} {MON[s.pub.month - 1]}</small>')
+                 f'<small>{sess}, {d.day} {MON[d.month - 1]}</small>')
         elif Q.get(t):
             q = Q[t]
             p = (f'<span data-live="{t}" data-k="price">{money(q["price"])}</span> '

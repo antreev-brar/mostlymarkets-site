@@ -19,7 +19,7 @@ from marketdata import price_path, read_prices  # noqa: E402
 
 TYPES = {
     "market-wrap": (450, 800), "why-it-moved": (280, 520), "movers": (220, 420),
-    "earnings-recap": (380, 750), "earnings-preview": (260, 480), "list": (500, 850),
+    "earnings-recap": (380, 750), "earnings-preview": (260, 480), "list": (550, 1000),
     "macro": (350, 700), "chart": (100, 260), "analysis": (600, 1200), "daily": (650, 1500),
     "narrative": (800, 1700), "viewpoints": (650, 1400), "breakdown": (1100, 2300), "brief": (110, 280),
 }
@@ -169,7 +169,7 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
                     errs.append("stat needs a value, or a ticker plus metric (day, week, month or ytd) to compute it")
             if isinstance(items, list) and len(items) > 3:
                 errs.append("stat: at most 3 numbers in a row")
-        elif kind not in ("highlights",):
+        elif kind not in ("highlights", "tweet"):
             errs.append(f"unknown fenced block ```{kind}")
     if t == "earnings-recap" and "highlights" not in kinds:
         errs.append("earnings-recap needs a ```highlights block")
@@ -189,7 +189,7 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
     vis = [m.start() for m in re.finditer(r"^```(chart|stat)\s*$", body, re.M)]
     if t not in ("brief", "movers") and not vis:
         warns.append("no chart or stat block: the page will fall back to a plain price chart; give it a picture that proves the point")
-    elif vis and words(body[:vis[0]]) > 260:
+    elif vis and t not in ("list", "movers") and words(body[:vis[0]]) > 260:
         warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening (the page shows it first anyway)")
     for kind, content in blocks:
         if kind == "tweet" and not re.match(r"\s*https://(x|twitter)\.com/\w+/status/\d+\s*$", content):
