@@ -143,17 +143,22 @@ class Detector:
         return False
 
     def add(self, eid: str, kind: str, story_type: str, priority: int, expires: dt.datetime, tickers: list[str],
-            hint: str, instructions: str, pack: dict):
+            hint: str, instructions: str, pack: dict, check_written: bool = True):
         if eid in self.seen or (QUEUE / f"{eid}.json").exists():
             return False
         if any(t in DUP_CLASS for t in tickers[:1]):
             return False
+        if not check_written:  # the caller counted today's stories itself (the daily analysis slots)
+            return self._queue(eid, kind, story_type, priority, expires, tickers, hint, instructions, pack)
         since = (self.today if kind in ("market-wrap", "movers", "list", "macro-check", "fomc", "week-ahead", "basket", "daily")
                  else prev_trading_day(self.today)).isoformat()
         if kind != "basket" and not eid.startswith("daily-weekend") and self.written(story_type, tickers, since):
             self.seen[eid] = {"kind": kind, "day": self.today.isoformat(), "created": self.now.isoformat(timespec="seconds"),
                               "outcome": "already-written"}
             return False
+        return self._queue(eid, kind, story_type, priority, expires, tickers, hint, instructions, pack)
+
+    def _queue(self, eid, kind, story_type, priority, expires, tickers, hint, instructions, pack) -> bool:
         ev = {"id": eid, "kind": kind, "story_type": story_type, "priority": priority,
               "created": self.now.isoformat(timespec="seconds"), "expires": expires.isoformat(timespec="seconds"),
               "tickers": tickers, "headline_hint": hint, "instructions": instructions,
@@ -481,25 +486,29 @@ class Detector:
                 "our_recent": [{"title": x["title"], "path": x["path"], "type": x["type"], "date": x["date"]}
                                for x in self.stories if x["date"] >= (self.today - dt.timedelta(days=7)).isoformat()][-60:]}
 
+    def n_today(self, story_type: str) -> int:
+        return sum(1 for x in self.stories if x["type"] == story_type and x["date"] == self.today.isoformat())
+
     def rule_analysis(self):
-        """The moat: every day, the story Wall Street is building, who's arguing what, and one business taken apart."""
+        """The moat: every day, the story Wall Street is building, who's arguing what, and one business taken apart.
+        Each slot is counted against today's published stories of that type, so a desk-written piece fills it."""
         d = self.today
         wkend = d.weekday() >= 5
-        if self.now.time() >= dt.time(7, 0):
+        if self.now.time() >= dt.time(7, 0) and self.n_today("narrative") < 1:
             self.add(f"narrative-{d}", "narrative", "narrative", 62, self.at(23, 59), [],
                      "The story Wall Street is telling about <theme>",
                      "Pick the single biggest story investors are building right now (pack.headlines, pack.in_the_news, our recent "
                      "stories): the thesis, the evidence for it, the evidence against it, what would change minds, and the stocks "
                      "exposed. Don't repeat a narrative we published in the last 5 days unless the story has moved; then say what's "
-                     "new. Follow the narrative template in docs/STYLE.md.", self.analysis_pack())
-        if self.now.time() >= dt.time(10, 0) and (d.weekday() in (0, 2, 4) or wkend):
+                     "new. Follow the narrative template in docs/STYLE.md.", self.analysis_pack(), check_written=False)
+        if self.now.time() >= dt.time(10, 0) and (d.weekday() in (0, 2, 4) or wkend) and self.n_today("viewpoints") < 1:
             self.add(f"viewpoints-{d}", "viewpoints", "viewpoints", 52, self.at(23, 59), [],
                      "Bulls vs Bears on <the debate>",
                      "The market's loudest debate this week, as 3 to 6 named, documented viewpoints (analysts, fund managers, "
                      "economists, finance voices on X with real analysis), each with its argument and evidence, then our read. "
-                     "Follow the viewpoints template in docs/STYLE.md.", self.analysis_pack())
+                     "Follow the viewpoints template in docs/STYLE.md.", self.analysis_pack(), check_written=False)
         for k, h in ((1, 11), (2, 14)) if wkend else ((1, 11),):
-            if self.now.time() >= dt.time(h, 0):
+            if self.now.time() >= dt.time(h, 0) and self.n_today("breakdown") < k:
                 cands = [r["ticker"] for r in self.in_the_news(120, 15)]
                 cands += [m["ticker"] for m in self.week_moves() if m["ticker"] not in cands]
                 self.add(f"breakdown-{d}-{k}", "breakdown", "breakdown", 46, self.at(23, 59), [],
@@ -507,7 +516,7 @@ class Detector:
                          "Take apart one company in the news (choose from pack.candidates; skip any we broke down in the last 30 "
                          "days): what it sells, how it makes money, the numbers that matter (data/fundamentals/<T>.json), its moat "
                          "and competition, the risks, the valuation against peers, and our verdict. Follow the breakdown template "
-                         "in docs/STYLE.md.", {"candidates": cands[:15], "markets": self.markets})
+                         "in docs/STYLE.md.", {"candidates": cands[:15], "markets": self.markets}, check_written=False)
         if d.weekday() == 5 and self.now.time() >= dt.time(11, 30):
             fresh = LIST_THEMES[d.toordinal() % len(LIST_THEMES)]
             self.queue_list(d, fresh)
@@ -587,7 +596,7 @@ class Detector:
         for t, u in self.univ.items():
             q = self.quotes.get(t) or {}
             fp = md.DATA / "fundamentals" / f"{t.replace('.', '-')}.json"
-            ttm = json.loads(fp.read_text()).get("ttm", {}) if fp.exists() else {}
+            ttm = (json.loads(fp.read_text()).get("ttm") or {}) if fp.exists() else {}
             cap = cap_of(q)
             if cap < 5e9:
                 continue

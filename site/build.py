@@ -23,7 +23,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
-DIST = ROOT / "dist"
+DIST = Path(os.environ.get("MM_DIST") or ROOT / "dist")  # MM_DIST lets several writers render at once
 sys.path.insert(0, str(ROOT / "pipeline"))
 sys.path.insert(0, str(SITE))
 import charts as C  # noqa: E402
