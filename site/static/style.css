@@ -1118,8 +1118,8 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
 .topst:hover h1 { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px; }
 
 /* the timeline: tabs, then posts */
-.tl { margin-top: 30px; }
-.tl-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
+.tline { margin-top: 30px; }
+.tline-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
 .ftabs { display: flex; overflow-x: auto; scrollbar-width: none; min-width: 0; }
 .ftabs::-webkit-scrollbar { display: none; }
 .ftab { flex: none; position: relative; height: 48px; padding: 0 14px; border: 0; background: none; cursor: pointer; font: 600 14.5px/1 var(--sans); color: var(--ink-3); }
@@ -1127,8 +1127,8 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
 .ftab[aria-pressed="true"] { color: var(--ink); }
 .ftab[aria-pressed="true"]::after { content: ""; position: absolute; left: 14px; right: 14px; bottom: -1px; height: 3px; border-radius: 3px; background: var(--accent); }
 .ftab:first-child[aria-pressed="true"]::after { left: 2px; }
-.tl-h .rv-up { flex: none; }
-.tl-pg { font: 650 22px/1.2 var(--serif); margin-top: 22px; }
+.tline-h .rv-up { flex: none; }
+.tline-pg { font: 650 22px/1.2 var(--serif); margin-top: 22px; }
 .feed .day { margin: 0; padding: 22px 0 10px; border-bottom: 1px solid var(--line); }
 .feed .day span { font-size: 12px; color: var(--ink-3); }
 .post { position: relative; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; padding: 18px 0 20px; border-bottom: 1px solid var(--line); }
@@ -1156,11 +1156,11 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
 .sav.mono b { font: 700 13px/1 var(--sans); color: var(--ink-2); }
 .lg.mm { background: #101a3a; border-color: #101a3a; }
 .lg.mm b { color: var(--hl); font-weight: 800; }
-.px .p-x { margin-left: auto; font: 700 16px/1 var(--sans); color: var(--ink); }
-.px .p-tx { margin-top: 6px; font: 400 15.5px/1.5 var(--sans); color: var(--ink); }
-.px .p-f { justify-content: space-between; }
-.px .p-f a { font-weight: 600; color: var(--ink-2); }
-.px .p-f a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.pxp .p-x { margin-left: auto; font: 700 16px/1 var(--sans); color: var(--ink); }
+.pxp .p-tx { margin-top: 6px; font: 400 15.5px/1.5 var(--sans); color: var(--ink); }
+.pxp .p-f { justify-content: space-between; }
+.pxp .p-f a { font-weight: 600; color: var(--ink-2); }
+.pxp .p-f a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .fcol .sub { margin-top: 36px; }
 .pn.xtra { display: none; }
 .feed.wide .pn.xtra { display: grid; }
@@ -1171,10 +1171,10 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
   .t-tx { padding: 16px 18px 20px; }
   .topst h1 { font-size: 27px; line-height: 1.15; }
   .topst .dek { font-size: 16px; }
-  .tl { margin-top: 22px; }
+  .tline { margin-top: 22px; }
   .ftab { padding: 0 11px; font-size: 14px; }
   .ftab[aria-pressed="true"]::after { left: 11px; right: 11px; }
-  .tl-h .rv-up { display: none; }
+  .tline-h .rv-up { display: none; }
   .post { grid-template-columns: 40px minmax(0, 1fr); gap: 10px; padding: 16px 0 18px; }
   .p-av .lg, .p-av .sav { --s: 40px !important; }
   .post h3 { font-size: 19px; }

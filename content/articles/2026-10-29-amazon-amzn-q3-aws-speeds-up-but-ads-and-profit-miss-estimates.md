@@ -9,6 +9,8 @@ cover = "ecommerce"
 moves = [
   { ticker = "AMZN", price = 227.99, change_pct = -6.48, session = "after-hours", asof = 2026-10-29T17:20:47-04:00 },
 ]
+cover_brief = "A long moving conveyor belt in a vast fulfilment warehouse, seen low along the belt: plain blank brown cardboard boxes travel away in soft motion blur toward one worker standing far off at the end of the line, seen from behind, bare steel mezzanines, flat overcast daylight from high skylights."
+cover_alt = "Brown boxes ride a conveyor through a vast warehouse toward a lone worker"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
   "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",

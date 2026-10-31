@@ -1378,7 +1378,7 @@ def post_x(x: dict) -> str:
     av = f'<img src="{esc(x["avatar"])}" alt="" loading="lazy">' if x.get("avatar") else "<b>X</b>"
     s = x["story"]
     text = esc(clip(x["text"], 280)).replace("\n", "<br>")
-    return (f'<article class="post px" data-kind="x" data-tickers="{" ".join(s.tickers)}" data-pub="{x["dt"].isoformat()}">'
+    return (f'<article class="post pxp" data-kind="x" data-tickers="{" ".join(s.tickers)}" data-pub="{x["dt"].isoformat()}">'
             f'<div class="p-av"><span class="sav" style="--s:40px">{av}</span></div><div class="p-b">'
             f'<div class="p-h"><b>{esc(x.get("author") or "")}</b><i>@{esc(x.get("handle") or "")}</i>{ago(x["dt"], "ago q")}'
             f'<span class="p-x" aria-label="on X">𝕏</span></div><p class="p-tx">{text}</p>'
@@ -1427,10 +1427,10 @@ def home_pages():
         top = ""
         if pi == 0 and lead:
             top = story_rail(groups, inner=True) + top_card(lead)
-        body = (f'<div class="fcol">{top}<section class="tl" aria-label="Latest">'
-                f'<div class="tl-h"><div class="ftabs" role="group" aria-label="Show">{tabs}</div>'
+        body = (f'<div class="fcol">{top}<section class="tline" aria-label="Latest">'
+                f'<div class="tline-h"><div class="ftabs" role="group" aria-label="Show">{tabs}</div>'
                 f'<span class="rv-up">Updated {ago(STORIES[0].pub, "ago q")}</span></div>'
-                f'{"" if pi == 0 else f"<h2 class=tl-pg>Older stories, page {pi + 1}</h2>"}'
+                f'{"" if pi == 0 else f"<h2 class=tline-pg>Older stories, page {pi + 1}</h2>"}'
                 f'<div class="feed">{timeline(items, news, xs)}<p class="empty" hidden></p></div>'
                 f'<div class="more">{"".join(nav)}</div></section>{subscribe_box(wide=True) if pi == 0 else ""}</div>')
         path = "" if pi == 0 else f"page/{pi + 1}/"
