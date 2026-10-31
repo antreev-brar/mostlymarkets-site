@@ -11,6 +11,8 @@ moves = [
   { ticker = "AMD", price = 504.80, change_pct = -10.88, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "QCOM", price = 164.79, change_pct = -11.12, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
+cover_brief = "Two men in pale shirts seen from a few metres directly behind, centred at an office desk: one seated, one standing beside him, hands in pockets, facing three plain unmarked monitors with blank screens glowing solid red, the red glow spilling over their shoulders and the desk. Cool fluorescent ceiling light."
+cover_alt = "Two men seen from behind face three office monitors glowing red"
 sources = [
   "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

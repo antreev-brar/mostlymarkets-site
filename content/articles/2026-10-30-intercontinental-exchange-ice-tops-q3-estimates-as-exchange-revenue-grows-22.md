@@ -10,6 +10,8 @@ event = "recap-ICE-2026-10-29"
 moves = [
   { ticker = "ICE", price = 163.04, change_pct = 4.54, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Symmetrical view up the wide wet stone steps of an old stock-exchange building on a grey rainy morning, six tall fluted columns filling the frame under a plain blank pediment, warm light glowing in the tall windows behind them, one small figure with a black umbrella climbing the steps, seen from behind"
+cover_alt = "Someone with an umbrella climbs the stone steps of an old columned exchange building"
 sources = [
   "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Reports-Third-Quarter-2026/default.aspx",
   "https://www.sec.gov/Archives/edgar/data/0001571949/000110465926119880/tm2628301d1_ex99-1.htm",

@@ -7,6 +7,8 @@ author = "dev-malhotra"
 tickers = ["MU", "NVDA", "SNDK", "WDC"]
 themes = ["hbm-pricing", "korea-chips", "memory-cycle"]
 cover = "semis-wafer"
+cover_brief = "Inside a memory-chip factory cleanroom, one sealed translucent plastic pod holding a neat stack of silicon wafers rides beneath a ceiling rail in the centre of the frame, gripped by a small grey carriage, sharp; identical pods recede along the rail into soft haze. Muted blue-grey light, warm amber lamps far away."
+cover_alt = "A sealed clear pod of stacked memory chips hanging from a factory ceiling rail"
 sources = [
   "https://www.investing.com/news/transcripts/earnings-call-transcript-samsung-electronics-posts-record-q3-2026-profit-93CH-4981365",
   "https://www.koreajoongangdaily.com/business/samsungs-record-804b-q3-profit-fails-to-impress-investors/12944742",

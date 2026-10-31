@@ -188,10 +188,14 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
     # Pictures: every story but a brief or a movers list has one, and the reader meets it right after the opening
     # (the page moves a late first picture up there, and adds the main stock's price chart when there is none).
     vis = [m.start() for m in re.finditer(r"^```(chart|stat)\s*$", body, re.M)]
+    no_move = {"list", "movers", "brief", "daily"}  # site/build.py NO_PICTURE_MOVE: the page leaves these as written
     if t not in ("brief", "movers") and not vis:
-        warns.append("no chart or stat block: the page will add the main stock's three-month price chart; give it a picture that proves the point")
+        warns.append("no chart or stat block: add the list's compare chart (a list gets no fallback)" if t in no_move else
+                     "no chart or stat block: the page will add the main stock's three-month price chart, or the day's "
+                     "market map if the story names no stock; give it a picture that proves the point")
     elif vis and t not in ("list", "movers") and words(body[:vis[0]]) > 260:
-        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening paragraph (the page moves it there)")
+        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening paragraph"
+                     + ("" if t in no_move else " (the page moves it there)"))
     # The cover photo (STYLE.md, "Covers"): a documentary scene for FLUX, no text, charts or real people.
     brief = fm.get("cover_brief") or ""
     if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":

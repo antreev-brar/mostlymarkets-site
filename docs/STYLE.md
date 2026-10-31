@@ -182,7 +182,7 @@ An edition every day:
 6. **Twists beat summaries.** If the obvious take is "X fell", look for the surprising one: the stock that rose against the tide, the record hidden in the drop, the bigger company that mattered more.
 7. Still no advice, no hype words and no emojis. "We think" is allowed once per edition, with the reason in numbers.
 
-**Pictures:** each take's chart or stat block is the proof, and the first one opens the edition on the Daily page.
+**Pictures:** the edition opens with its cover photo; each take's chart or stat block is that take's proof.
 
 
 ### The analysis types: the evidence ladder and the verdict words

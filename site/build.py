@@ -284,7 +284,7 @@ class Story:
     def _cover(self):
         keys = COVERS["covers"]
         if (ROOT / f"assets/covers/story/{self.slug}-800.webp").exists():  # AI art drawn for this story
-            COVER_ALT[f"story/{self.slug}"] = self.fm.get("cover_alt") or "Cover image for this story"
+            COVER_ALT[f"story/{self.slug}"] = self.fm.get("cover_alt") or ""
             return f"story/{self.slug}"
         want = self.fm.get("cover")
         if want in keys:
@@ -885,11 +885,14 @@ def rail_news(t: str | None, n: int = 6) -> str:
                     (u(tpath(t)) + "#latest", "More") if t else None, "Headlines from around the web")
 
 
+NO_PICTURE_MOVE = {"list", "movers", "brief", "daily"}  # pipeline/check.py mirrors this
+
+
 def picture_first(s: Story, body: str) -> str:
     """Readers should meet the evidence early. If a story's first chart or stat block sits deep in the text (older
     templates put it last), move it up to right after the opening paragraph; a story with no picture at all gets the
     main stock's last three months there, or that day's market map. Lists, movers and briefs keep their own order."""
-    if s.type in ("list", "movers", "brief", "daily"):
+    if s.type in NO_PICTURE_MOVE:
         return body
     end = body.find("</p>")
     if end < 0:
@@ -1055,7 +1058,7 @@ def daily_page(s: Story) -> str:
 
 
 def daily_index():
-    """Every edition we've published, newest first: the latest one opened up with its first take's chart, then the
+    """Every edition we've published, newest first: the latest one opened up with its cover and its takes, then the
     archive by month."""
     if not DAILIES:
         body = f'<div class="wrap ph"><h1>The Daily</h1><p>The first edition is on its way.</p></div>'
@@ -1284,6 +1287,11 @@ def _words(t: str) -> set[str]:
     return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if len(w) > 3 and w not in STOP}
 
 
+def _key(t: str) -> str:
+    """A headline with curly quotes, spacing and case ironed out: the same article in two feeds is one post."""
+    return re.sub(r"\s+", " ", t.translate({0x2018: "'", 0x2019: "'", 0x201C: '"', 0x201D: '"'})).strip().casefold()
+
+
 def feed_news(since: dt.datetime, until: dt.datetime) -> list[dict]:
     """Newsroom headlines published between since and until, newest first: the market wires plus each company's
     news, without personal-finance columns. One post per story: the same headline from several tickers' feeds, or
@@ -1308,17 +1316,17 @@ def feed_news(since: dt.datetime, until: dt.datetime) -> list[dict]:
     raw.sort(key=lambda x: x["dt"])  # oldest first: the first report keeps the post
     out: list[dict] = []
     for it in raw:
-        w = _words(it["title"])
-        # A close rewrite only merges with a post about the same company (or both market-wide).
-        dup = next((x for x in out if (x["title"] == it["title"] or (
-            (it["t"] in x["tickers"] if it["t"] else not x["tickers"]) and
-            abs((x["dt"] - it["dt"]).total_seconds()) < 6 * 3600 and len(w & x["w"]) >= 4 and
-            len(w & x["w"]) / len(w | x["w"]) >= .34))), None)
+        w, k = _words(it["title"]), _key(it["title"])
+        # A close rewrite only merges with a post from the same feed (the same company, or both market-wide).
+        dup = next((x for x in out if x["k"] == k or (
+            it["t"] in x["feeds"] and abs((x["dt"] - it["dt"]).total_seconds()) < 6 * 3600 and len(w & x["w"]) >= 4 and
+            len(w & x["w"]) / len(w | x["w"]) >= .34)), None)
         if dup is None:
-            dup = {**it, "w": w, "tickers": [], "also": list(it.get("also") or [])}
+            dup = {**it, "w": w, "k": k, "feeds": set(), "tickers": [], "also": list(it.get("also") or [])}
             out.append(dup)
         elif it["source"] != dup["source"] and it["source"] not in dup["also"]:
             dup["also"].append(it["source"])
+        dup["feeds"].add(it["t"])
         if it["t"] and it["t"] not in dup["tickers"]:
             dup["tickers"].append(it["t"])
     return sorted(out, key=lambda x: x["dt"], reverse=True)
@@ -1402,11 +1410,15 @@ def post_news(x: dict) -> str:
 
 def post_x(x: dict) -> str:
     """An X post one of our stories quotes, drawn from the cache, linking to the post and to our story."""
-    av = f'<img src="{esc(x["avatar"])}" alt="" loading="lazy">' if x.get("avatar") else "<b>X</b>"
+    if x.get("avatar"):
+        av = f'<span class="sav" style="--s:40px"><img src="{esc(x["avatar"])}" alt="" loading="lazy"></span>'
+    else:
+        av = (f'<span class="sav mono" style="--s:40px" aria-hidden="true">'
+              f'<b>{esc((x.get("author") or x.get("handle") or "X")[:1].upper())}</b></span>')
     s = x["story"]
     text = esc(clip(x["text"], 280)).replace("\n", "<br>")
     return (f'<article class="post pxp" data-kind="x" data-tickers="{" ".join(s.tickers)}" data-pub="{x["dt"].isoformat()}">'
-            f'<div class="p-av"><span class="sav" style="--s:40px">{av}</span></div><div class="p-b">'
+            f'<div class="p-av">{av}</div><div class="p-b">'
             f'<div class="p-h"><b>{esc(x.get("author") or "")}</b><i>@{esc(x.get("handle") or "")}</i>{ago(x["dt"], "ago q")}'
             f'<span class="p-x" aria-label="on X">𝕏</span></div><p class="p-tx">{text}</p>'
             f'<div class="p-f"><a href="{u(s.path)}">In our story: {esc(clip(s.title, 64))}</a>'
