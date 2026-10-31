@@ -1370,7 +1370,8 @@ def feed_rail() -> str:
 
 def home_pages():
     size = CFG["feed_page_size"]
-    lead, tops = pick_lead(STORIES)
+    # The Daily has its own box in the rail and its own page, so the feed leads with a story.
+    lead, tops = pick_lead([x for x in STORIES if x.type != "daily"])
     skip = {id(lead)} | {id(x) for x in tops}
     feed = [s for s in STORIES if id(s) not in skip]
     pages = max(1, math.ceil(len(feed) / size))
