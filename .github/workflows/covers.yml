@@ -1,5 +1,6 @@
 name: covers
-# Draws AI cover art (pipeline/covers.py) for stories the writer pushes with a cover_brief, commits it and redeploys.
+# Draws AI cover photos (pipeline/covers.py, documentary style) for stories the writer pushes with a cover_brief,
+# commits them and redeploys.
 # Free by default: FLUX.1 schnell on AI Horde, no key needed (an optional AIHORDE_API_KEY secret buys queue priority).
 on:
   push:
@@ -39,7 +40,7 @@ jobs:
           git config user.name "mm-bot"
           git config user.email "bot@mostlymarkets.org"
           git add assets/covers/story
-          git commit -m "covers: AI art for new stories"
+          git commit -m "covers: cover photos for new stories"
           for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
           # A push made with the job token doesn't start other workflows, so ask for the deploy directly.
           gh workflow run build.yml --ref main

@@ -1,4 +1,5 @@
-"""AI cover art for stories that ask for it (front matter `cover_brief`), in the Mostly Markets house style.
+"""AI cover photos for stories that ask for one (front matter `cover_brief`), in the Mostly Markets house style:
+documentary editorial photography (see HOUSE_SHORT and docs/STYLE.md, "Covers").
 
     python3 pipeline/covers.py                 # every story with a cover_brief and no cover yet
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
@@ -34,27 +35,23 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/covers/story"
 PROVIDER = os.environ.get("MM_IMAGE_PROVIDER", "horde")
 
-# The house style. Our palette, not anyone else's: navy ink, cobalt, lemon yellow on warm paper. Never real people,
-# logos or lettering: the art illustrates, it doesn't report.
+# The house style: documentary editorial photography, like a wire photo made cinematic. Never real people, logos or
+# lettering: the picture sets the scene, it doesn't report.
 HOUSE = (
-    "Editorial collage illustration for the cover of a modern financial newsletter. Layered torn-paper shapes and "
-    "cut-out photographic objects with a white cut-out outline, halftone dot texture, risograph grain and visible "
-    "paper fibres, on a warm off-white paper ground. Limited palette: deep navy ink (#101a3a), electric cobalt blue "
-    "(#3355ff) and bright lemon yellow (#ffe45c), with small accents of signal red and signal green used only for "
-    "stock-chart lines and candlesticks. Bold, graphic and high-contrast, cinematic depth, one dominant subject in the "
-    "centre of the frame so it survives a square or vertical crop, generous breathing room around it. "
-    "Strictly no text, letters, numbers, words, tickers or logos anywhere, no brand marks or trade dress, and no real "
-    "or recognisable people: any human figures are anonymous, in silhouette or seen from behind. "
-    "Scene: "
+    "Documentary editorial photograph for a financial news site, shot on 35mm film with natural light, real-world "
+    "detail, restrained natural colour grade, eye-level and candid, shallow depth of field, cinematic composition with "
+    "one dominant subject in the centre of the frame so it survives a square or vertical crop. Strictly no text, "
+    "letters, numbers, signage or logos anywhere, no brand marks or trade dress, and no real or recognisable people: "
+    "any human figures are anonymous, seen from behind or far away. Scene: "
 )
-# FLUX reads about 256 tokens, so the scene goes first and the style stays short. Asking for photo cut-outs, a torn
-# paper sun and a photographic backdrop gives the rich collage of the first OpenAI covers; the older "bold graphic
-# shapes" wording came out as flat vector art. FLUX turns any chart into a rising line, hence "no charts".
+# FLUX reads about 256 tokens, so the scene goes first and the style stays short. Since 2026-11-01 the house look is
+# documentary photography, the look of the 56 topic covers in assets/covers/: the collage art read as busy and the
+# owner rejected it. FLUX turns any chart into a rising line and invents lettering on signs, so briefs describe a real
+# place or object, unmarked, and people only from behind or far away.
 HOUSE_SHORT = (
-    "Dense layered mixed-media editorial collage for a magazine cover: cut-out vintage photographs of real objects and "
-    "landscapes with white paper borders, a big torn lemon-yellow paper sun, torn navy and cobalt blue paper layers, "
-    "photographic mountains or city backdrop, halftone print texture, risograph grain, visible paper fibres, cinematic "
-    "depth, cream paper background, highly detailed. No text, no lettering, no charts, no logos, no people, no faces."
+    "Documentary editorial photograph for a financial news site, shot on 35mm film, natural light, restrained natural "
+    "colour grade, candid, cinematic, shallow depth of field, real-world detail. No text, no lettering, no signage, "
+    "no logos, no faces: any people are seen from behind or far away."
 )
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
 

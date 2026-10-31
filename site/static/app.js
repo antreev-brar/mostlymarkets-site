@@ -50,40 +50,47 @@
   });
   paintFollow();
 
-  /* feed filters */
+  /* feed filters: All, Our stories, Headlines (newsrooms and X posts), My stocks; story-type chips on other pages */
   var current = "all";
   function applyFilter() {
-    var rows = $$(".feed .card");
+    var rows = $$(".feed .card, .feed .post");
     if (!rows.length) return;
+    $$(".feed").forEach(function (x) { x.classList.toggle("wide", current !== "all"); });
     var f = follows(), shown = 0;
     rows.forEach(function (r) {
-      var type = r.getAttribute("data-type"), tks = (r.getAttribute("data-tickers") || "").split(" ");
-      var ok = current === "all" ||
-        (current === "mine" ? tks.some(function (t) { return f.indexOf(t) > -1; }) :
-          current.split(",").indexOf(type) > -1);
+      var type = r.getAttribute("data-type"), kind = r.getAttribute("data-kind") || "story",
+        tks = (r.getAttribute("data-tickers") || "").split(" ");
+      var ok = current === "all" ? !r.classList.contains("xtra") :  // All shows a few headlines between stories
+        (current === "mine" ? tks.some(function (t) { return t && f.indexOf(t) > -1; }) :
+          current === "story" ? kind === "story" : current === "news" ? kind !== "story" :
+            current.split(",").indexOf(type) > -1);
       r.hidden = !ok; if (ok) shown++;
     });
     $$(".feed .day").forEach(function (d) {
       var n = d.nextElementSibling, any = false;
-      while (n && !n.classList.contains("day")) { if (n.classList.contains("card") && !n.hidden) any = true; n = n.nextElementSibling; }
+      while (n && !n.classList.contains("day")) {
+        if ((n.classList.contains("card") || n.classList.contains("post")) && !n.hidden) any = true;
+        n = n.nextElementSibling;
+      }
       d.hidden = !any;
     });
     var em = $(".feed .empty");
     if (em) {
       em.hidden = shown > 0;
       em.textContent = current === "mine" ?
-        (f.length ? "No recent stories on the stocks you follow." : "Follow a stock from its page or any story, and its stories will collect here.") :
-        "No stories of this kind on this page.";
+        (f.length ? "Nothing new on the stocks you follow on this page." : "Follow a stock from its page or any story, and its stories and headlines will collect here.") :
+        "Nothing of this kind on this page.";
     }
   }
-  $$(".chips .chip").forEach(function (c) {
+  $$(".chips .chip, .ftabs .ftab").forEach(function (c) {
     c.addEventListener("click", function () {
-      $$(".chips .chip").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+      $$(".chips .chip, .ftabs .ftab").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
       c.setAttribute("aria-pressed", "true");
       current = c.getAttribute("data-filter");
       applyFilter();
     });
   });
+  applyFilter();
 
   /* chart ranges on stock pages */
   $$(".ranges").forEach(function (g) {
@@ -218,16 +225,6 @@
       if (!sp.getAttribute("data-full")) sp.setAttribute("data-full", sp.textContent);
       sp.textContent = k === n.day ? "Today · " + sp.getAttribute("data-full") : k === y.day ? "Yesterday · " + sp.getAttribute("data-full") : sp.getAttribute("data-full");
     });
-    var st = $("[data-mstatus]");
-    if (st) {
-      var hol = (($(".mstrip") || {}).getAttribute ? $(".mstrip").getAttribute("data-hol") : "") || "";
-      var mins = n.h * 60 + n.m, wk = WDS.indexOf(n.wd) > 0 && WDS.indexOf(n.wd) < 6 && hol.indexOf(n.day) < 0;
-      var lab = "Markets closed", cls = "";
-      if (wk && mins >= 570 && mins < 960) { lab = "Markets open"; cls = "open"; }
-      else if (wk && mins >= 240 && mins < 570) { lab = "Pre-market"; cls = "ext"; }
-      else if (wk && mins >= 960 && mins < 1200) { lab = "After hours"; cls = "ext"; }
-      st.className = "ms-st " + cls; st.querySelector("span").textContent = lab;
-    }
   }
   paintTimes();
   setInterval(paintTimes, 30000);

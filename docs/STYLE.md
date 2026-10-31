@@ -310,3 +310,31 @@ themes = ["ai-capex", "memory-cycle"]
 ```
 
 Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, `oil-shock`, `chip-selloff`, `tariffs`...). Reuse an existing key when it fits: `grep -h '^themes' content/articles/*.md | sort | uniq -c`. A `narrative` page lists every story that shares its themes as a dated story log, and every story in a theme links back to the newest narrative on it. Briefs and why-it-moved stories should carry a theme whenever they're part of a bigger story.
+
+## Covers
+
+Every story gets a cover photo: a documentary editorial picture drawn for free with FLUX.1 schnell on AI Horde
+(`pipeline/covers.py`, run by `.github/workflows/covers.yml` after each push). Write the scene in the front matter:
+
+```toml
+cover_brief = "A memory-chip plant at dusk with its lights on and an almost empty car park, autumn trees in the foreground"
+cover_alt = "A memory-chip plant at dusk with an almost empty car park"
+```
+
+The look is a calm news photograph, like a Reuters or Bloomberg feature picture: a real place or object, natural light,
+one clear subject. The house prompt adds the style, so the brief is only the scene, 25–55 words:
+
+1. **One concrete subject in the centre** (it's cropped to 16:9, 2:1 and square): the factory, the product, the place, the
+   people at work. Name the setting and the light (dawn, overcast, golden hour, blue hour, night, rain, fluorescent).
+2. **No real or recognisable people**, never executives. People are optional and only seen from behind or far away.
+3. **No text anywhere.** FLUX invents lettering on anything that usually carries it, so say "plain", "unmarked" or
+   "blank" for chips, signs, trucks, billboards, screens, packaging and named buildings, or pick a subject without text.
+4. **No charts, candlesticks, arrows, tickers or numbers**: FLUX draws them wrong. Show the real world the numbers
+   describe.
+5. **No trade dress**: no brand's store design, colours or uniforms. Generic and plausible.
+6. **Vary it.** Look at the day's other covers (`grep -h '^cover_brief' content/articles/<today>-*.md`) and don't repeat
+   a scene or a light.
+
+`cover_alt` says plainly what the photo shows, under 15 words. Story pages caption every cover "Image: AI-generated".
+A story without a brief gets one of the 56 topic photos in `assets/covers/` (`site/covers.json`).
+

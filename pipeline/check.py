@@ -190,7 +190,20 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
     if t not in ("brief", "movers") and not vis:
         warns.append("no chart or stat block: the page will fall back to a plain price chart; give it a picture that proves the point")
     elif vis and t not in ("list", "movers") and words(body[:vis[0]]) > 260:
-        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening (the page shows it first anyway)")
+        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening paragraph")
+    # The cover photo (STYLE.md, "Covers"): a documentary scene for FLUX, no text, charts or real people.
+    brief = fm.get("cover_brief") or ""
+    if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":
+        warns.append("no cover_brief: the story will get a stock topic photo; write a scene (STYLE.md, Covers)")
+    if brief:
+        nb = len(brief.split())
+        if not 12 <= nb <= 70:
+            warns.append(f"cover_brief is {nb} words (aim for 25-55)")
+        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|arrows?|logos?|tickers?|text|words|headlines?|CEO|chief executive|face|faces)\b", brief, re.I)
+        if bad:
+            warns.append(f"cover_brief mentions {sorted(set(b.lower() for b in bad))}: FLUX draws these badly; describe a real scene")
+        if not fm.get("cover_alt"):
+            warns.append("cover_brief without cover_alt: add a plain alt text (under 15 words)")
     for kind, content in blocks:
         if kind == "tweet" and not re.match(r"\s*https://(x|twitter)\.com/\w+/status/\d+\s*$", content):
             errs.append(f"tweet block must hold one post URL (https://x.com/<handle>/status/<id>): {content.strip()[:60]!r}")

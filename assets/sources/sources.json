@@ -1,0 +1,192 @@
+{
+ "Reuters": {
+  "key": "reuters",
+  "domain": "reuters.com",
+  "px": 128
+ },
+ "Bloomberg": {
+  "key": "bloomberg",
+  "domain": "bloomberg.com",
+  "px": 48
+ },
+ "WSJ": {
+  "key": "wsj",
+  "domain": "wsj.com",
+  "px": 128
+ },
+ "Dow Jones": {
+  "key": "dow-jones",
+  "domain": "dowjones.com",
+  "px": 128
+ },
+ "Barron's": {
+  "key": "barron-s",
+  "domain": "barrons.com",
+  "px": 48
+ },
+ "CNBC": {
+  "key": "cnbc",
+  "domain": "cnbc.com",
+  "px": 128
+ },
+ "MarketWatch": {
+  "key": "marketwatch",
+  "domain": "marketwatch.com",
+  "px": 128
+ },
+ "Financial Times": {
+  "key": "financial-times",
+  "domain": "ft.com",
+  "px": 128
+ },
+ "The New York Times": {
+  "key": "the-new-york-times",
+  "domain": "nytimes.com",
+  "px": 128
+ },
+ "AP": {
+  "key": "ap",
+  "domain": "apnews.com",
+  "px": 128
+ },
+ "Nikkei Asia": {
+  "key": "nikkei-asia",
+  "domain": "asia.nikkei.com",
+  "px": 128
+ },
+ "Fortune": {
+  "key": "fortune",
+  "domain": "fortune.com",
+  "px": 128
+ },
+ "Business Insider": {
+  "key": "business-insider",
+  "domain": "businessinsider.com",
+  "px": 128
+ },
+ "The Economist": {
+  "key": "the-economist",
+  "domain": "economist.com",
+  "px": 128
+ },
+ "Investor's Business Daily": {
+  "key": "investor-s-business-daily",
+  "domain": "investors.com",
+  "px": 64
+ },
+ "Morningstar": {
+  "key": "morningstar",
+  "domain": "morningstar.com",
+  "px": 128
+ },
+ "Yahoo Finance": {
+  "key": "yahoo-finance",
+  "domain": "finance.yahoo.com",
+  "px": 128
+ },
+ "SEC filing": {
+  "key": "sec-filing",
+  "domain": "sec.gov",
+  "px": 128
+ },
+ "Business Wire": {
+  "key": "business-wire",
+  "domain": "businesswire.com",
+  "px": 48
+ },
+ "PR Newswire": {
+  "key": "pr-newswire",
+  "domain": "prnewswire.com",
+  "px": 32
+ },
+ "GlobeNewswire": {
+  "key": "globenewswire",
+  "domain": "globenewswire.com",
+  "px": 32
+ },
+ "Seeking Alpha": {
+  "key": "seeking-alpha",
+  "domain": "seekingalpha.com",
+  "px": 128
+ },
+ "Benzinga": {
+  "key": "benzinga",
+  "domain": "benzinga.com",
+  "px": 128
+ },
+ "Investing.com": {
+  "key": "investing-com",
+  "domain": "investing.com",
+  "px": 128
+ },
+ "The Motley Fool": {
+  "key": "the-motley-fool",
+  "domain": "fool.com",
+  "px": 128
+ },
+ "Zacks": {
+  "key": "zacks",
+  "domain": "zacks.com",
+  "px": 128
+ },
+ "TheStreet": {
+  "key": "thestreet",
+  "domain": "thestreet.com",
+  "px": 128
+ },
+ "Axios": {
+  "key": "axios",
+  "domain": "axios.com",
+  "px": 128
+ },
+ "The Information": {
+  "key": "the-information",
+  "domain": "theinformation.com",
+  "px": 128
+ },
+ "CNN": {
+  "key": "cnn",
+  "domain": "cnn.com",
+  "px": 76
+ },
+ "BBC": {
+  "key": "bbc",
+  "domain": "bbc.com",
+  "px": 128
+ },
+ "The Guardian": {
+  "key": "the-guardian",
+  "domain": "theguardian.com",
+  "px": 128
+ },
+ "Forbes": {
+  "key": "forbes",
+  "domain": "forbes.com",
+  "px": 128
+ },
+ "Quartz": {
+  "key": "quartz",
+  "domain": "qz.com",
+  "px": 128
+ },
+ "Tom's Hardware": {
+  "key": "tom-s-hardware",
+  "domain": "tomshardware.com",
+  "px": 128
+ },
+ "NBC News": {
+  "key": "nbc-news",
+  "domain": "nbcnews.com",
+  "px": 128
+ },
+ "TradingView": {
+  "key": "tradingview",
+  "domain": "tradingview.com",
+  "px": 128
+ },
+ "24/7 Wall St.": {
+  "key": "24-7-wall-st",
+  "domain": "247wallst.com",
+  "px": 32
+ }
+}

@@ -6,6 +6,8 @@ published = 2026-10-31T10:28:11-04:00
 author = "nora-whitfield"
 tickers = ["XOM", "CVX", "MPC", "VLO", "COP", "OXY", "UAL", "DAL", "LUV"]
 themes = ["oil-shock", "fed-rates"]
+cover_brief = "An oil refinery jetty at blue hour: a tanker ship moored beside lit pipelines, a flare stack burning, its reflection on calm dark water"
+cover_alt = "A tanker moored at a refinery jetty at night, a flare burning"
 sources = [
   "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
   "https://fortune.com/2026/10/28/fed-rates-steady-kevin-warsh-president-governor-laura-ullrich",

@@ -6,6 +6,8 @@ published = 2026-10-31T10:28:15-04:00
 author = "dev-malhotra"
 tickers = []
 themes = ["openai", "korea-chips", "hbm-pricing"]
+cover_brief = "Seoul at dusk in light rain: black sedans pulling up to the glass entrance of a tall corporate tower, a driver with an umbrella seen from behind, city lights reflecting on the wet street"
+cover_alt = "Black sedans pull up to a Seoul office tower in the rain"
 sources = [
   "https://en.yenisafak.com/technology/samsung-executives-openai-ceo-altman-discuss-ai-future-3725024",
   "https://tech-insider.org/altman-meets-50-samsung-executives-memory-chips-2026/",

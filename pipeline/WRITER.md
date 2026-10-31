@@ -41,7 +41,8 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    - `event` = the event id
    - `moves` from the pack's quote, with the right `session`
    - at least one chart (a `price` chart unless the template says otherwise), and links to related stories in `pack.recent_stories` or `pack.todays_stories`
-   - **a picture right after the opening paragraph** (a chart or stat block): the page lifts the first one to the top, so it must prove the story's main claim. We don't use cover art.
+   - **a picture right after the opening paragraph** (a chart or stat block) that proves the story's main claim
+   - a `cover_brief` and `cover_alt` for the cover photo (STYLE.md, "Covers"): a documentary scene, no people's faces, no text, different from today's other covers. The covers job draws it after you push.
    - where a named analyst, executive or investor made the point on X, quote it and embed the post with a ```tweet block (STYLE.md, "Voices from X")
 5. **Check:** `python3 pipeline/check.py content/articles/<file>`. Fix it until it passes. Warnings are allowed; errors aren't.
 6. **Close the event:** `python3 pipeline/storyqueue.py done <id> content/articles/<file>`.

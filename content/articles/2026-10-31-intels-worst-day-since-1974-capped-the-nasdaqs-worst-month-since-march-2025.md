@@ -6,8 +6,6 @@ edition = "weekend"
 published = 2026-10-31T01:00:00-04:00
 author = "nora-whitfield"
 tickers = ["INTC", "GOOGL", "NOW", "RDDT", "LLY"]
-cover_brief = "an enormous vintage computer microchip cracking in half and falling off the edge of a cliff made of red candlesticks, shards flying, a 1970s-era mainframe ghosted in the background, dramatic sky of halftone clouds"
-cover_alt = "A collage of a cracked computer chip falling off a cliff made of red candlesticks"
 moves = [
   { ticker = "INTC", price = 65.76, change_pct = -28.58, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },

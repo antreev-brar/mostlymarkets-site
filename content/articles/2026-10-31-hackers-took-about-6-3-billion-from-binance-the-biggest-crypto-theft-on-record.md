@@ -6,6 +6,8 @@ published = 2026-10-31T10:27:35-04:00
 author = "nora-whitfield"
 tickers = ["COIN", "MSTR", "HOOD"]
 themes = ["crypto"]
+cover_brief = "A dark trading office at night lit only by several monitors glowing with abstract blurred blue light, an empty office chair pushed back from the desk, tangled cables, cold blue glow"
+cover_alt = "An empty chair in a dark office lit by rows of blue monitors"
 sources = [
   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",
@@ -20,7 +22,11 @@ sources = [
 
 Hackers stole about **$6.3 billion** in crypto from Binance, the world's biggest cryptocurrency exchange, Reuters, CoinDesk and The Wall Street Journal reported on Friday. The Journal and The New York Times called it the biggest crypto heist in history. Binance suspended withdrawals and said it would cover all losses with its own funds, CoinDesk and Investopedia reported.
 
-Investigators have linked the attack to North Korea, CoinDesk and the Journal reported. "The good news is that we are recovering stolen assets for users," co-Chief Executive Richard Teng wrote on X, according to Investopedia.
+Investigators have linked the attack to North Korea, CoinDesk and the Journal reported. "The good news is that we are recovering stolen assets for users," co-Chief Executive Richard Teng wrote on X, according to Investopedia. Binance gave its own first account of how the attack happened in a post on X late on Thursday, New York time:
+
+```tweet
+https://x.com/binance/status/2115993361517891592
+```
 
 The news hit on a day when tech stocks and even gold fell too. Bitcoin dropped below $77,000 on Friday, CoinDesk and Investopedia reported, and Coinbase ($COIN), which also reported quarterly results on Thursday, fell **10.6%**, its biggest one-day drop since 5 February, by our count. Strategy ($MSTR) and Robinhood ($HOOD) slid too.
 

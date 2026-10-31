@@ -121,3 +121,18 @@ The owner's brief: don't put every section on one page; four pages in the nav (F
 - **Stock pages:** "The latest on {company}" sits right under the price chart: our stories, then outside headlines (`data/news/<T>.json` from `pipeline/news.py`).
 - **X posts:** the ```tweet block draws a post as a static card (no X script), from the data job's cache.
 - New story types: `narrative` (The big story), `viewpoints` (Bulls vs bears), `breakdown` (Breakdown), `brief` (News). Lists are "3 we like and 1 we'd skip" or the reverse.
+
+## v6: the feed is one timeline, cover photos are back (1 Nov 2026)
+
+The owner on v5: "the front page looks uglier than ever you are just throwing way too much numbers on the user you dont need to tell them about nasdaq, gold and all those prices and it has to be highly visual". v4 "was good visually and just needed a news addition": a news feed that looks like an X timeline, with StockStory's simplicity, "top and then others", and good covers ("now even they are just ugly graphs").
+
+- **No market numbers in the chrome.** The market strip and the Markets and Biggest movers boxes are gone. The only numbers on a card are one price tag; the stock box on a story page shows that story's stocks.
+- **Feed** (`/`): one centred 720 px column, as on StockStory's list and X. The stories rail, then the **top story** (most important of the last 36 hours, minus a point every three hours; never the Daily) with a 16:9 cover, then **one timeline**, newest first, with a line per day:
+  - **our stories** as posts: the company's logo (the Mostly Markets mark for the Daily), name, kind and "2h ago", then the headline, the dek and the cover photo (2:1; full width on phones);
+  - **newsroom headlines** as posts: the outlet's logo (`assets/sources/`, 38 outlets), name, time, the headline linking to the publisher, and the companies it's about. Only newsrooms that report (`FEED_SOURCES`: Reuters, Bloomberg, WSJ, Barron's, CNBC, MarketWatch, FT, AP, NYT and others), no personal-finance columns (`JUNK_URL`, `JUNK_TITLE`), and close rewrites merge ("Reuters and 1 more"). Under **All** at most three run between two of our stories, market-wide and biggest companies first; the **Headlines** tab shows every one;
+  - **X posts our stories quote**, at their own time, linking to the post and to our story.
+  - Tabs: All, Our stories, Headlines, My stocks (follows).
+- **Covers:** every story has a photo again. Since 1 Nov the house look is **documentary editorial photography** (the look of the 56 topic photos in `assets/covers/`), drawn free with FLUX.1 schnell on AI Horde from the writer's `cover_brief` (STYLE.md, "Covers"). The 28 collage covers were redrawn as photos (masters of the collages are kept in `cover-masters/story-collage-2026-10-31/`). Story and edition pages caption the cover "Image: AI-generated".
+- **Article:** header, then the cover photo, then the story as written (the first chart right after the opening paragraph; nothing is lifted). The rail: the story's stocks, headlines on the main stock, just published.
+- **The Daily:** editions show their cover again (archive rows, today's edition, the edition page, the stories-rail circle).
+- **Kept from v5:** separate pages, ticking relative times, the New pill (top story) and the unseen dot, story types, story logs, X cards, per-stock headlines on stock pages.

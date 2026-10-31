@@ -6,6 +6,8 @@ published = 2026-10-31T10:28:07-04:00
 author = "dev-malhotra"
 tickers = ["INTC", "NVDA", "AMD", "AVGO", "SNDK", "MPWR"]
 themes = ["chip-selloff"]
+cover_brief = "Inside a semiconductor cleanroom under amber light: an engineer in a white cleanroom suit seen from behind, standing still between idle machines, a silicon wafer resting on a tray in the foreground"
+cover_alt = "An engineer in a cleanroom suit stands between idle chipmaking machines"
 sources = [
   "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",
