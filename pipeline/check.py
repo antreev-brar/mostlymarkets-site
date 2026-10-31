@@ -21,6 +21,7 @@ TYPES = {
     "market-wrap": (450, 800), "why-it-moved": (280, 520), "movers": (220, 420),
     "earnings-recap": (380, 750), "earnings-preview": (260, 480), "list": (500, 850),
     "macro": (350, 700), "chart": (100, 260), "analysis": (600, 1200), "daily": (650, 1500),
+    "narrative": (800, 1700), "viewpoints": (650, 1400), "breakdown": (1100, 2300), "brief": (110, 280),
 }
 REASONS = {"Earnings", "Guidance", "Analyst upgrade", "Analyst downgrade", "Deal", "Product",
            "Legal or regulatory", "Management", "Peer news", "Macro", "Sector move", "No clear news"}
@@ -84,7 +85,7 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         warns.append(f"title is {len(fm['title'])} characters (aim for 40-90)")
     if not (70 <= len(fm["dek"]) <= 260):
         warns.append(f"dek is {len(fm['dek'])} characters (aim for 90-220)")
-    if t not in ("list", "analysis") and not re.search(r"\d", fm["dek"]):
+    if t not in ("list", "analysis", "viewpoints") and not re.search(r"\d", fm["dek"]):
         errs.append("dek: must hold the main number")
     srcs = fm.get("sources") or []
     if t not in ("chart", "movers", "list") and len(srcs) < 2:
@@ -184,20 +185,21 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
                 errs.append(f"daily take {head!r} has no chart or stat block")
             if len(head) > 70:
                 warns.append(f"daily take headline is long ({len(head)} chars): {head!r}")
-        if not fm.get("cover_brief"):
-            errs.append("daily needs a cover_brief (the scene for its AI cover)")
-    if not fm.get("cover_brief"):
-        warns.append("no cover_brief: every story should describe a scene for its cover (STYLE.md, Covers)")
-    elif len(fm["cover_brief"].split()) > 45:
-        warns.append("cover_brief is long; keep it to one scene in under 35 words")
-    if fm.get("cover_brief"):
-        cb = re.sub(r"\bno (text|logos?|words|letters|faces|people)\b", "", fm["cover_brief"].lower())
-        if len(cb) < 60:
-            warns.append("cover_brief is short; describe one strong scene in a sentence or two")
-        if re.search(r"\b(logo|text|words|letters|caption|headline|portrait of|photo of)\b", cb):
-            errs.append("cover_brief must not ask for text, logos or a portrait: the art is symbolic, never a real person")
-        if not fm.get("cover_alt"):
-            errs.append("cover_brief needs a cover_alt (alt text describing the art)")
+    # Pictures: every story but a brief or a movers list leads with one, and the reader should meet it early.
+    vis = [m.start() for m in re.finditer(r"^```(chart|stat)\s*$", body, re.M)]
+    if t not in ("brief", "movers") and not vis:
+        warns.append("no chart or stat block: the page will fall back to a plain price chart; give it a picture that proves the point")
+    elif vis and words(body[:vis[0]]) > 260:
+        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening (the page shows it first anyway)")
+    for kind, content in blocks:
+        if kind == "tweet" and not re.match(r"\s*https://(x|twitter)\.com/\w+/status/\d+\s*$", content):
+            errs.append(f"tweet block must hold one post URL (https://x.com/<handle>/status/<id>): {content.strip()[:60]!r}")
+        if kind == "picks":
+            for ln in content.strip().splitlines():
+                if ":" in ln and ln.split(":")[0].strip().lower() not in ("love", "hate", "like", "skip"):
+                    errs.append(f"picks: line kind must be like, skip, love or hate: {ln!r}")
+    if t in ("narrative", "viewpoints", "breakdown") and len(srcs) < 3:
+        errs.append(f"sources: a {t} story needs at least three URLs")
     for tag in re.findall(r"(?<![\w/])\$([A-Z]{1,5}(?:\.[A-Z])?)\b", body):
         if tag not in universe:
             errs.append(f"cashtag ${tag} not in the universe")

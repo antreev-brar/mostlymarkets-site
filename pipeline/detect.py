@@ -33,7 +33,10 @@ EARLY_CLOSE = {"2026-11-27": dt.time(13, 0), "2026-12-24": dt.time(13, 0)}
 # Second share classes: we write about the main line only.
 DUP_CLASS = {"GOOG", "FOX", "NWS", "BF.B"}
 # How many stories of each kind a day can take, and the size of company we write about.
-DAILY_CAP = {"why-it-moved": 10, "basket": 2, "earnings-recap": 14, "earnings-preview": 8, "after-hours": 1}
+DAILY_CAP = {"why-it-moved": 10, "basket": 2, "earnings-recap": 14, "earnings-preview": 8, "after-hours": 1, "news": 12}
+# Outlets whose single report is enough to put a headline in front of the writer (others need a second outlet).
+TOP_OUTLETS = {"Reuters", "Bloomberg", "CNBC", "The Wall Street Journal", "WSJ", "Financial Times", "FT", "Associated Press", "AP",
+               "Barron's", "MarketWatch", "The Information", "Yahoo Finance"}
 MIN_CAP_RECAP = 20e9
 MIN_CAP_PREVIEW = 40e9
 LIST_THEMES = [
@@ -338,23 +341,39 @@ class Detector:
                      f"The morning edition before the open on {d:%A %d %B}. Tell the story of the last session ({prev:%A %d %B}) "
                      "and set up today: a narrative lede, then a thread of 6 to 8 takes, each one claim with one chart or stat "
                      "block, then What's next (today's reporters and data) and The numbers. Follow the daily template in "
-                     "docs/STYLE.md. Write a cover_brief.",
+                     "docs/STYLE.md.",
                      self.edition_pack(prev, prev))
         if d.weekday() == 0 and is_trading_day(d) and self.now.time() >= dt.time(5, 30):
             self.add(f"daily-{d}", "daily", "daily", 96, self.at(10, 30), [],
                      "Mostly Markets Daily: <the week's big test>",
                      "The Monday edition. Weekend news that moves stocks today, then the thread: 6 to 8 takes on what this "
                      "week will decide (the big reporters, the data, the Fed), each with one chart or stat block. "
-                     "Follow the daily template in docs/STYLE.md. Write a cover_brief.",
+                     "Follow the daily template in docs/STYLE.md.",
                      self.edition_pack(d - dt.timedelta(days=3), prev_trading_day(d)))
-        if d.weekday() == 4 and is_trading_day(d) and self.now.time() >= dt.time(19, 30):
-            monday = d - dt.timedelta(days=d.weekday())
-            self.add(f"daily-weekend-{d}", "daily", "daily", 90, dt.datetime.combine(d + dt.timedelta(days=1), dt.time(23, 59), tzinfo=ET), [],
+        if d.weekday() < 5 and not is_trading_day(d) and self.now.time() >= dt.time(6, 30):
+            prev = prev_trading_day(d)
+            self.add(f"daily-{d}", "daily", "daily", 96, self.at(12, 0), [],
+                     "Mostly Markets Daily: <the story while markets are shut>",
+                     f"Markets are closed today ({d:%A %d %B}). Tell the story Wall Street is chewing on and set up the next "
+                     "session: a narrative lede, then 6 to 8 takes, each one claim with one chart or stat block, What's next and The numbers. "
+                     "Follow the daily template in docs/STYLE.md.", self.edition_pack(prev, prev))
+        if d.weekday() == 5 and self.now.time() >= dt.time(7, 0):
+            fri = prev_trading_day(d + dt.timedelta(days=1))
+            monday = fri - dt.timedelta(days=fri.weekday())
+            self.add(f"daily-{d}", "daily", "daily", 96, self.at(23, 59), [],
                      "Mostly Markets Daily, weekend edition: <the week in eight charts>",
-                     "The weekend edition: the week's story in a narrative lede, then a thread of 7 or 8 takes (one chart or "
-                     "stat block each; use moves charts from Friday a week ago to this Friday), What's next for next week, "
-                     "and The numbers. Follow the daily template in docs/STYLE.md. Write a cover_brief.",
-                     {**self.edition_pack(monday - dt.timedelta(days=3), d), "week_moves": self.week_moves()})
+                     "The Saturday edition (set edition = \"weekend\"): the week's story in a narrative lede, then a thread of 7 or 8 "
+                     "takes (one chart or stat block each; moves charts from the Friday before to this Friday), What's next for next "
+                     "week, and The numbers. Follow the daily template in docs/STYLE.md.",
+                     {**self.edition_pack(monday - dt.timedelta(days=3), fri), "week_moves": self.week_moves()})
+        if d.weekday() == 6 and self.now.time() >= dt.time(7, 0):
+            fri = prev_trading_day(d)
+            self.add(f"daily-{d}", "daily", "daily", 96, self.at(23, 59), [],
+                     "Mostly Markets Daily, Sunday edition: <the argument that will decide this week>",
+                     "The Sunday edition: the story Wall Street will argue about this week, the weekend's news that could move "
+                     "stocks on Monday, and the week's big tests (reporters, data, the Fed). 6 to 8 takes, each one claim with one "
+                     "chart or stat block, then What's next (day by day) and The numbers (Friday's close).",
+                     {**self.edition_pack(fri - dt.timedelta(days=fri.weekday()), fri), "headlines": self.headlines(48, 30)})
 
     def rule_daily(self):
         d = self.today
@@ -384,17 +403,13 @@ class Detector:
                 self.add(f"movers-week-{d}", "movers", "movers", 50, self.at(23, 59), [],
                          "Stocks Making the Biggest Moves This Week", "The week's five biggest moves, Monday open to Friday close.",
                          {"week_ending": d.isoformat(), "moves": self.week_moves()})
-            if d.weekday() in (1, 3) and self.now.time() >= dt.time(11, 30):
+            if self.now.time() >= dt.time(11, 30):
                 recent = " ".join(x["title"].lower() for x in self.stories
                                   if x["type"] == "list" and x["date"] >= (d - dt.timedelta(days=21)).isoformat())
                 fresh = [th for th in LIST_THEMES if th[1].lower() not in recent]
                 k = (d.toordinal() // 2) % len(fresh or LIST_THEMES)
                 theme = (fresh or LIST_THEMES)[k]
-                self.add(f"list-{d}", "list", "list", 30, self.at(23, 59), [],
-                         f"3 {theme[1]} Stocks We Love and 1 We Hate",
-                         f"Theme: {theme[1]}, screened on {theme[2]}. Pick 3 to love and 1 to hate from pack.candidates; "
-                         "every reason must rest on a dated number from data/fundamentals or the latest results.",
-                         {"theme": theme[0], "screen": theme[2], "candidates": self.screen(theme)})
+                self.queue_list(d, theme)
         fomc = self.fomc_today()
         if fomc and self.now.time() >= dt.time(14, 5):
             self.add(f"fomc-{d}", "fomc", "macro", 92, self.at(23, 59), [],
@@ -412,6 +427,117 @@ class Detector:
             self.add(f"weekahead-{d}", "week-ahead", "analysis", 40, dt.datetime.combine(nxt, dt.time(9, 0), tzinfo=ET), [],
                      "The Week Ahead: <the big tests for stocks>", "Day by day: the big reporters and the economic calendar.",
                      {"week": week})
+
+    def queue_list(self, d: dt.date, theme):
+        skip3 = d.toordinal() % 2 == 1
+        hint = (f"3 {theme[1]} Stocks We'd Skip and 1 We Like" if skip3 else f"3 {theme[1]} Stocks We Like and 1 We'd Skip")
+        self.add(f"list-{d}", "list", "list", 34, self.at(23, 59), [], hint,
+                 f"Theme: {theme[1]}, screened on {theme[2]}. " + (
+                     "Pick 3 to skip and 1 to like from pack.candidates (picks block: skip: A, B, C / like: D). " if skip3 else
+                     "Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: D). ") +
+                 "Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed "
+                 "recently (the stock's latest news in data/news/<T>.json). Follow the list template in docs/STYLE.md.",
+                 {"theme": theme[0], "screen": theme[2], "candidates": self.screen(theme)})
+
+    def headlines(self, hours: int = 24, n: int = 40, ticker: str | None = None) -> list[dict]:
+        """Recent outside headlines from pipeline/news.py: the market's, or one ticker's. Newest first."""
+        f = md.DATA / "news" / (f"{ticker}.json" if ticker else "market.json")
+        if not f.exists():
+            return []
+        try:
+            items = json.loads(f.read_text()).get("items", [])
+        except Exception:  # noqa: BLE001
+            return []
+        cut = self.now - dt.timedelta(hours=hours)
+        out = []
+        for it in items:
+            try:
+                when = dt.datetime.fromisoformat(it["published"]).astimezone(ET)
+            except Exception:  # noqa: BLE001
+                continue
+            if cut <= when <= self.now + dt.timedelta(minutes=5):
+                out.append({k: it.get(k) for k in ("title", "source", "url", "published", "also")})
+        return out[:n]
+
+    def in_the_news(self, hours: int = 72, n: int = 12) -> list[dict]:
+        """The companies with the most outside coverage lately, biggest first among ties, with their headlines."""
+        rows = []
+        for t in self.univ:
+            if t in DUP_CLASS or cap_of(self.quotes.get(t)) < 2e10:
+                continue
+            hs = self.headlines(hours, 8, t)
+            if len(hs) >= 2:
+                rows.append({"ticker": t, "name": self.univ[t]["name"], "headlines": hs, "n": len(hs),
+                             "cap": cap_of(self.quotes.get(t))})
+        rows.sort(key=lambda r: (-r["n"], -r["cap"]))
+        for r in rows:
+            r.pop("cap")
+        return rows[:n]
+
+    def analysis_pack(self) -> dict:
+        prev = prev_trading_day(self.today + dt.timedelta(days=1)) if not is_trading_day(self.today) else prev_trading_day(self.today)
+        return {"markets": self.markets, "headlines": self.headlines(48, 40), "in_the_news": self.in_the_news(),
+                "moves": self.session_moves(prev), "week_moves": self.week_moves(),
+                "our_recent": [{"title": x["title"], "path": x["path"], "type": x["type"], "date": x["date"]}
+                               for x in self.stories if x["date"] >= (self.today - dt.timedelta(days=7)).isoformat()][-60:]}
+
+    def rule_analysis(self):
+        """The moat: every day, the story Wall Street is building, who's arguing what, and one business taken apart."""
+        d = self.today
+        wkend = d.weekday() >= 5
+        if self.now.time() >= dt.time(7, 0):
+            self.add(f"narrative-{d}", "narrative", "narrative", 62, self.at(23, 59), [],
+                     "The story Wall Street is telling about <theme>",
+                     "Pick the single biggest story investors are building right now (pack.headlines, pack.in_the_news, our recent "
+                     "stories): the thesis, the evidence for it, the evidence against it, what would change minds, and the stocks "
+                     "exposed. Don't repeat a narrative we published in the last 5 days unless the story has moved; then say what's "
+                     "new. Follow the narrative template in docs/STYLE.md.", self.analysis_pack())
+        if self.now.time() >= dt.time(10, 0) and (d.weekday() in (0, 2, 4) or wkend):
+            self.add(f"viewpoints-{d}", "viewpoints", "viewpoints", 52, self.at(23, 59), [],
+                     "Bulls vs Bears on <the debate>",
+                     "The market's loudest debate this week, as 3 to 6 named, documented viewpoints (analysts, fund managers, "
+                     "economists, finance voices on X with real analysis), each with its argument and evidence, then our read. "
+                     "Follow the viewpoints template in docs/STYLE.md.", self.analysis_pack())
+        for k, h in ((1, 11), (2, 14)) if wkend else ((1, 11),):
+            if self.now.time() >= dt.time(h, 0):
+                cands = [r["ticker"] for r in self.in_the_news(120, 15)]
+                cands += [m["ticker"] for m in self.week_moves() if m["ticker"] not in cands]
+                self.add(f"breakdown-{d}-{k}", "breakdown", "breakdown", 46, self.at(23, 59), [],
+                         "Is <company> a good business? <the verdict in a phrase>",
+                         "Take apart one company in the news (choose from pack.candidates; skip any we broke down in the last 30 "
+                         "days): what it sells, how it makes money, the numbers that matter (data/fundamentals/<T>.json), its moat "
+                         "and competition, the risks, the valuation against peers, and our verdict. Follow the breakdown template "
+                         "in docs/STYLE.md.", {"candidates": cands[:15], "markets": self.markets})
+        if d.weekday() == 5 and self.now.time() >= dt.time(11, 30):
+            fresh = LIST_THEMES[d.toordinal() % len(LIST_THEMES)]
+            self.queue_list(d, fresh)
+
+    def rule_news(self):
+        """News that hasn't moved a price yet: a big company named in fresh headlines from a top outlet or from two
+        outlets. The writer decides whether it deserves a brief, and skips it if not."""
+        if self.count_today("news") >= DAILY_CAP["news"]:
+            return
+        todays = {t for x in self.stories if x["date"] == self.today.isoformat() for t in x.get("tickers", [])}
+        n = 0
+        for r in self.in_the_news(4, 25):
+            t = r["ticker"]
+            if t in todays:
+                continue
+            hot = [h for h in r["headlines"] if (h.get("also") or []) or (h.get("source") or "") in TOP_OUTLETS]
+            if not hot:
+                continue
+            key = re.sub(r"[^a-z0-9]+", "-", hot[0]["title"].lower())[:40].strip("-")
+            if self.add(f"news-{t}-{self.today}-{key}", "news", "brief", 58,
+                        self.now + dt.timedelta(hours=10), [t], f"{r['name']}: <what just happened>",
+                        "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, "
+                        "regulation, a management change, a product that matters to the numbers), write a brief: what happened, "
+                        "why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the "
+                        "reason. Follow the brief template in docs/STYLE.md.",
+                        {"headlines": r["headlines"], "quote": self.quote(t), "facts": self.facts(t),
+                         "recent_stories": [x["path"] for x in self.stories_for(t, 3)]}):
+                n += 1
+            if n >= 4 or self.count_today("news") + n >= DAILY_CAP["news"]:
+                break
 
     def fomc_today(self) -> bool:
         p = md.DATA / "calendar/fomc.json"
@@ -486,7 +612,8 @@ class Detector:
 
     # ------------------------------------------------------------- run
     def run(self):
-        for rule in (self.rule_recaps, self.rule_moves, self.rule_previews, self.rule_edition, self.rule_daily):
+        for rule in (self.rule_recaps, self.rule_moves, self.rule_previews, self.rule_edition, self.rule_daily,
+                     self.rule_analysis, self.rule_news):
             try:
                 rule()
             except Exception as e:  # noqa: BLE001

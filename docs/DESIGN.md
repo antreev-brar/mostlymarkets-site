@@ -107,3 +107,17 @@ They want Apple-style minimalism: a lot in one place, but not so many numbers th
 - OpenAI remains as an optional, richer provider.
 - The first FLUX prompt ("bold graphic shapes") came out as flat vector art. On 31 Oct the prompt became a dense mixed-media collage (photo cut-outs with white borders, a torn yellow paper sun, torn navy and cobalt layers, a photographic backdrop), which is close to the first seven OpenAI covers. All 22 FLUX covers were redrawn in it.
 - Tested and rejected the same day: AlbedoBase XL and Juggernaut XL (photographic, drew a brand logo and faces, read "lemon-yellow" as lemons) and Z-Image-Turbo (blurry on the Horde's workers).
+
+## v5: separate pages, story first, recency everywhere (31 Oct 2026)
+
+The owner's brief: don't put every section on one page; four pages in the nav (Feed, The Daily, Discover, Earnings; stock pages stay but leave the nav). Interest falls as a reader scrolls, so every page is ordered by what matters most. A reader who opens an article meets the article, with its chart early, and the market's random moves sit to the side. Everything should say how new it is. No cover art: "i really didnt like the art used at covers".
+
+- **Market strip** (every page, under the header): market status set live in the browser (open, pre-market, after hours, closed, with exchange holidays), the indexes, oil, gold, bitcoin, and "Newest story 14 min ago".
+- **Recency:** every timestamp is relative and keeps ticking (`time[data-rel]`: "Just now", "12 min ago", "3h 5m ago", "Yesterday, 4:55 p.m.", "Thu, 4:15 p.m."). Anything published in the last 6 hours wears an orange **New** pill and an orange time; anything published since the reader's last visit gets a blue dot. Day dividers say "Today" and "Yesterday".
+- **Feed** (`/`): the lead story (most important of the last 36 hours, minus a point every three hours) with its chart in the first screen, then five **Top stories** newest first, then **Latest** (the river, with filters). A sticky right rail lurks: Markets, Biggest movers, The Daily, market headlines. On phones the rail comes after the river.
+- **Article:** kicker, "Published 2h ago", headline, dek, byline, then the story's **first chart lifted to the top** (`hero_visual`: or the stock's three months, or the day's market map), then the story. The rail on the right: the stocks in the story (live), latest headlines on the main stock, biggest movers, just published. On phones it follows the article.
+- **The Daily** (`/daily/`): every day's edition. Today's opened up with its takes and first chart, then the archive by month.
+- **Card pictures are charts, never stock art:** the main stock's last two months ending on the story's day (a dot marks the news, pulsing while it's new), with its logo; market-wide stories get that day's market map in miniature.
+- **Stock pages:** "The latest on {company}" sits right under the price chart: our stories, then outside headlines (`data/news/<T>.json` from `pipeline/news.py`).
+- **X posts:** the ```tweet block draws a post as a static card (no X script), from the data job's cache.
+- New story types: `narrative` (The big story), `viewpoints` (Bulls vs bears), `breakdown` (Breakdown), `brief` (News). Lists are "3 we like and 1 we'd skip" or the reverse.

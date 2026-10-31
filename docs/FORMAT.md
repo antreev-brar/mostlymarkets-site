@@ -17,7 +17,6 @@ published = 2026-10-29T16:45:00-04:00
 author = "marcus-lindqvist"
 tickers = ["AMZN", "MSFT"]
 reason = "Earnings"
-cover = "ecommerce"
 moves = [
   { ticker = "AMZN", price = 227.48, change_pct = -6.69, session = "after-hours", asof = 2026-10-29T16:25:00-04:00 },
 ]
@@ -37,13 +36,11 @@ sources = [
 | `author` | yes | A pen-name id from `data/authors.json`. |
 | `tickers` | yes | Universe tickers, primary first. Use `[]` for macro and market stories with no single stock. |
 | `reason` | why-it-moved only | One of: Earnings, Guidance, Analyst upgrade, Analyst downgrade, Deal, Product, Legal or regulatory, Management, Peer news, Macro, Sector move, No clear news. |
-| `cover` | no | A cover-library key (see `site/covers.json`). By default it's chosen from the type and the primary ticker's sector. |
-| `cover_brief` | `daily` only (and see STYLE.md) | One or two sentences describing a symbolic scene. The cover job (`pipeline/covers.py`) draws it in the house style into `assets/covers/story/<slug>-*.webp`, and that art then replaces the library cover. No people, logos or text. |
-| `cover_alt` | with `cover_brief` | Alt text for the drawn cover. |
-| `edition` | `daily` only | `"weekend"` for the weekend edition. |
+| `edition` | `daily` only | `"weekend"` for the Saturday edition. |
 | `moves` | no | Price chips printed on the card and the story: the price and % move **at the time the story describes**. Copy them from `pipeline/facts.py` (regular-session close) or `data/quotes/latest.json` (live and after-hours). `session` is one of `regular`, `close`, `after-hours` or `pre-market`. |
 | `sources` | yes | URLs for every fact that isn't from our price files: at least two independent outlets for the cause of a move, and the company's release for earnings numbers. They're kept for checking and never printed. |
 | `featured` | no | `true` pins the story as the lead on the front page until a newer featured story arrives. |
+| `themes` | no | Running-story keys this story belongs to (`["ai-capex", "memory-cycle"]`). A `narrative` lists every story sharing its themes as a story log; the others link back to it. See STYLE.md, "Story log". |
 | `status` | no | `draft` keeps the story out of the build. |
 | `event` | no | The event id that triggered the story. The pipeline sets it. |
 
@@ -56,7 +53,11 @@ sources = [
 | `movers` | Big movers | The 5 biggest moves of a session, one paragraph each, linking to their stories | 220–420 |
 | `earnings-recap` | Earnings | Results against estimates, with the highlights box | 380–750 |
 | `earnings-preview` | Earnings preview | What to expect before a company reports | 260–480 |
-| `list` | Our picks | "3 Stocks We Love and 1 We Hate" on one theme | 500–850 |
+| `list` | Our picks | "3 Stocks We Like and 1 We'd Skip" (or the reverse) on one theme | 500–850 |
+| `narrative` | The big story | The story Wall Street is building: thesis, evidence, counter-evidence, what would change minds, the stocks exposed | 800–1,700 |
+| `viewpoints` | Bulls vs bears | The loudest debate as 3–6 named, documented viewpoints, then our read | 650–1,400 |
+| `breakdown` | Breakdown | One company taken apart (Carbon Finance-style), ending in our verdict | 1,100–2,300 |
+| `brief` | News | Fresh, material news in 120–250 words: what happened, why it matters, what to watch | 110–280 |
 | `macro` | Economy | The Fed, inflation, jobs, GDP, yields, oil | 350–700 |
 | `chart` | Chart | One chart, a headline that states the insight, ~150 words | 100–260 |
 | `analysis` | Analysis | A longer explainer on a theme | 600–1,200 |
@@ -119,9 +120,17 @@ Amazon (AMZN) Q3 2026 highlights
 The highlights box is required in `earnings-recap` and gets the first line as its title.
 
 ````
+```tweet
+https://x.com/<handle>/status/<id>
+```
+````
+
+`tweet` embeds one X post as a static card (author, text, time, a link to the original). Use it only for a post that makes a real argument or breaks real news, by a named person whose view matters (an analyst, an executive, an investor, a reporter), and say who they are in the sentence before it. The post's text is cached by the data job; until then the card shows as a link.
+
+````
 ```picks
-love: NVDA, AVGO, TSM
-hate: INTC
+like: NVDA, AVGO, TSM
+skip: INTC
 ```
 ````
 
@@ -134,7 +143,9 @@ hate: INTC
 
 `stat` draws one to three big numbers side by side. Give a `value` (from a sourced fact; `tone` up or down colours it), or a universe `ticker` with `metric` (`day`, `week`, `month` or `ytd`) and `date` and the build computes it from our prices. `label` says what the number is; `note` gives the context.
 
-`picks` draws stock cards (price, 1-day and 1-year moves, sector) at that point in a `list` story.
+`picks` draws stock cards (price, 1-day and 1-year moves, sector) at that point in a `list` story. Line kinds are `like` and `skip` (the older `love` and `hate` still work).
+
+**Pictures come first.** The story page shows the first chart or stat block at the top, under the headline, so put the picture that proves the story's main claim right after the opening paragraph. Every type except `brief` and `movers` needs at least one.
 
 ## Checks (`pipeline/check.py`)
 

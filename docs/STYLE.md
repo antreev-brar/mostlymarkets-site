@@ -4,6 +4,8 @@ Mostly Markets explains why stocks move, in plain English, minutes to hours afte
 
 We publish StockStory's kinds of stories, but written by people who explain: one clear idea per paragraph, named people, real quotes, and numbers that carry their basis.
 
+And we go further than the news. A reader should be able to come to Mostly Markets and know **everything that matters in the market today**: what happened and why, the story Wall Street is building, the evidence for and against it, who is arguing what, and what we think. The moat is the research and the analysis. Every story must leave the reader knowing something they didn't, and feeling it's new: say what changed, when, and what we'll learn next.
+
 ## The rules that never bend
 
 1. **Every fact has two independent sources**, written into `sources`. Company releases and SEC filings count as one source and outrank the press. Prices come from our own files (`pipeline/facts.py`, `data/quotes/latest.json`), never from memory.
@@ -24,6 +26,10 @@ We publish StockStory's kinds of stories, but written by people who explain: one
 - Explain any jargon in the same sentence: "AWS, Amazon's cloud-computing arm, ...".
 - Verbs scale with the move. Up: edged up (<1%), rose (1–4%), jumped (4–8%), soared (8%+). Down: slipped (<1%), fell (1–4%), slid or sank (4–8%), plunged (8%+), "worst day since ..." when `facts.py` supports it.
 - Write "Nvidia ($NVDA)" on first mention in the body and "Nvidia" after that.
+- **Open on a dated trigger.** The first sentence of every story, analysis included, carries this week's fact and when it happened ("On Thursday, TSMC said ...", "after the close on Friday"). Show the change, not only the level: "guidance went from $X to $Y", "analysts expected X; the company said Y".
+- **Counts, streaks and records** tell a reader a story is building: "the third chipmaker this week to raise its outlook", "the first time since 2022". They come only from `facts.py`, our price files or two outlets.
+- **Say what isn't known yet, and when it will be:** "Its call starts at 5 p.m. ET."
+- **At most two figures in a paragraph of prose.** Tables, `stat` and `highlights` blocks carry the rest.
 - **Point at the number.** Each section is about one figure. Bold it, with its verb: "Intel **plunged 28.6%**", "revenue of **$15.0 billion to $16.0 billion**". The page marks bold figures like a highlighter, so bold one or two per section, never a whole sentence of numbers. If a paragraph that opens the story or a section has no bold, the build marks its price move (or else its first figure) for you.
 
 ## Bylines (pen names, from `data/authors.json`)
@@ -107,23 +113,27 @@ A table at the end: S&P 500, Nasdaq Composite, Dow, Russell 2000, 10-year yield,
 Title: "Stocks Making the Biggest Moves {Today|After Hours|This Week}: {A}, {B}, {C}, {D} and {E}".
 Five paragraphs: "**{Name} ($TKR)**, {x.x}%: {one-sentence cause}. [Full story](/news/...)". No headings.
 
-### `list` ("3 Stocks We Love and 1 We Hate")
-Title: "3 {Theme} Stocks We Love and 1 We Hate" (themes: cash machines, AI infrastructure, earnings-season winners, dividend payers, under $50, beaten-down quality...).
+### `list` ("3 Stocks We Like and 1 We'd Skip", or the reverse)
+The event says which way round. Titles: "3 {Theme} Stocks We Like and 1 We'd Skip", "3 {Theme} Stocks We'd Skip and 1 We Like", "1 {Theme} Stock We Like and 3 We'd Pass On", "3 {Theme} Stocks We'd Pass On After {Event}, and 1 We'd Keep" (themes: cash machines, AI infrastructure, earnings-season winners, dividend payers, under $50, beaten-down quality...). We always name the stock we like, never as a riddle. We say "like" and "skip", never "buy" or "sell", and give no price targets.
 
 ```
-Intro: 2 short paragraphs: why the theme matters now, and the screen we used (say exactly what it measured).
+Intro: 2 short paragraphs: why the theme matters now, with the dated news peg, and the screen we used (say exactly what it measured, over what period, from which data).
 ```picks
-love: A, B, C
-hate: D
+skip: A, B, C
+like: D
 ```
-## 3 stocks we love
+## 3 stocks we'd skip            (or "## 3 stocks we like")
 ### 1. {Name} ($TKR)
-**{Screen metric}: {value}**. One-sentence description. 2–3 numbered reasons, each a number plus a judgment. One valuation line.
+**{Screen metric}: {value, dated}**. One-sentence description of what the company does.
+2–3 numbered reasons, each a number + a comparison + a judgment ("Sales grew 3% a year over five years, a third of its sector's pace").
+**The price:** one line on the multiple against its own history or peers.
+**What would change our mind:** one line, with a metric or a date.
 (× 3)
-## 1 stock we hate
+## 1 stock we like               (or "## 1 stock we'd skip")
 ### {Name} ($TKR)
-The same block, with 2–3 reasons we'd stay away.
-Closing line: when we'll revisit the list.
+The same block, with **What could go wrong:** in place of what would change our mind.
+```chart (compare: the four stocks over 1 year, the one we like highlighted)```
+Closing line: when we'll revisit the list, and a link to our breakdown of the stock we like if there is one.
 ```
 
 Numbers in lists come from SEC filings (`data/fundamentals/<T>.json` when present) or the company's latest release, and are dated ("trailing 12 months to September 2026").
@@ -138,10 +148,12 @@ Title: the insight as a sentence. One chart block, then 80–180 words explainin
 ### `daily` (Mostly Markets Daily)
 The newsletter edition, published at `/daily/<date>/`, fronted on the home page and played as tap-through Stories. It's the most-read thing we publish, so it has to be **the best few minutes of a reader's morning**: a story, then sharp, visual takes they'd screenshot and share.
 
-Three editions:
+An edition every day:
 - **Morning**, every trading day except Monday, before 9:30 a.m. ET: the last session's story and today's setup.
 - **Monday**: the weekend's news and what this week will decide.
-- **Weekend** (`edition = "weekend"`), after Friday's close: the week in eight charts.
+- **Saturday** (`edition = "weekend"`): the week in eight charts.
+- **Sunday**: the argument that will decide the coming week, the weekend's news, and the week's big tests.
+- **Holidays**: when the market is shut on a weekday, the story Wall Street is chewing on.
 
 **Title:** the finding, as a sentence ("Intel's Worst Day Since 1974 Capped the Nasdaq's Worst Month Since March 2025"). **Dek:** the main number and a promise ("The week in eight charts.").
 
@@ -168,24 +180,133 @@ Three editions:
 6. **Twists beat summaries.** If the obvious take is "X fell", look for the surprising one: the stock that rose against the tide, the record hidden in the drop, the bigger company that mattered more.
 7. Still no advice, no hype words and no emojis. "We think" is allowed once per edition, with the reason in numbers.
 
-**Cover:** see "Covers" below.
+**Pictures:** each take's chart or stat block is the proof, and the first one opens the edition on the Daily page.
 
 
-## Covers (every story)
+### The analysis types: the evidence ladder and the verdict words
 
-Every story gets its own illustrated cover. The art is free (FLUX.1 schnell on AI Horde) and is drawn automatically after you push. Write two front-matter fields:
+`narrative`, `viewpoints` and `breakdown` are our moat. Use the highest rung of evidence you can, and every rung still needs two sources:
+1. Company filings, releases, guidance and call transcripts (one source, which outranks the press).
+2. Government and agency data (BLS, BEA, the Fed, the EIA, the Census Bureau).
+3. What suppliers and customers said on their own calls: TSMC on AI demand is evidence for an Nvidia story.
+4. Named analysts, fund managers and investors, as reported by two outlets or in their own note, post or interview.
+5. Our own computed data: `facts.py`, `compare`, `moves` and `contrib` charts.
 
-- `cover_brief`: **one sentence, under 35 words, describing one physical scene.** Put the subject first, then the action, then the setting. The house style (a mixed-media collage of photo cut-outs and torn navy, cobalt and yellow paper, with a paper sun and a photographic backdrop) is added for you, so don't describe colours or style.
-- `cover_alt`: a plain description of that scene for screen readers.
+Never "sources say" without two outlets, never an unnamed "analysts think", never a figure we can't date. No price targets of our own and no "we'd buy below $X": write what the price assumes instead. Analysts' targets can be quoted with name, firm and date.
 
-Rules for the brief:
-1. **Show the story with objects, not charts.** The model draws chart lines going up whatever you ask, so show a fall physically: something cracking, toppling, sinking, deflating or melting. Show a rise as something launching, climbing or blooming.
-2. **Use symbols of the business, not its brand:** a cracked microchip, cardboard parcels, a giant pill bottle, an oil derrick, a jet engine, a shopping cart, server racks, a bank vault door.
-3. **Never** real people, faces, logos, brand products, flags of companies, or any text, numbers or tickers.
-4. **One subject and one action**, plus at most one background element. Busy briefs come out muddy.
-5. **Say "plain" or "unmarked" for anything that normally carries printing** (jet engines, camera lenses, memory cards, packaging, computer cases). Otherwise the model invents garbled lettering on it.
-6. **Don't add a sun or a sky.** The house style already adds a paper sun and a backdrop; a second one gives two suns.
+| Story | Verdict words (bold, in "Our read" or "Our verdict") |
+|---|---|
+| `narrative` | **The evidence supports it** · **Partly supported** · **The evidence is thin** |
+| `breakdown`, the business | **Strong** · **Solid** · **Mixed** · **Weak** |
+| `breakdown`, the price | **Below its usual price** · **About its usual price** · **Above its usual price**, against its own history (with the number) |
+| `list` | **We like** · **We'd skip** |
 
-Good: "A giant microchip cracking in half and falling off a cliff edge, shards flying, a storm of paper clouds behind it."
-Good: "A towering stack of cardboard parcels toppling over in a warehouse aisle."
-Bad: "Intel stock chart falling 28% with the Intel logo and CEO Lip-Bu Tan looking worried."
+### `narrative` ("The story Wall Street is telling")
+Our flagship, every day. Titles: "The Story Wall Street Is Telling About {Theme}", "{The thesis as a claim}: What the Evidence Says", "Why Wall Street Thinks {Claim}", "Wall Street Is Betting {Claim}. {N} Numbers Will Decide It", "{Theme} After {Event}: Is the Story Still True?". Dek: the claim, plus two or three pieces of evidence, plus the open question. Set `themes` (see "Story log").
+
+```
+Lede (2 short paragraphs): the story as investors tell it, in one plain sentence, and who is telling it (a named CEO, fund manager or analyst, and where they said it). Then the news peg: the dated fact this week that put the story in play.
+The stakes in one line: which stocks have moved on this story and by how much (facts.py).
+```stat or chart  (the 1–3 numbers that are the story; this leads the page)```
+## The story in one sentence
+> The thesis, as said by a named person, with the date and venue (the story's one quote).
+One paragraph on the chain of cause and effect: "If A, then B, which means C for these companies."
+## The evidence for it
+### 1. {Evidence stated as a fact, under 70 characters}
+1–3 sentences: the number, its basis, who said or filed it, and when.
+```chart (one for every one or two items)```
+### 2. ... (3 to 5 items, strongest first)
+| Signal | Latest | A year ago | Source and date |   (3–6 gauges a reader can check again later)
+## The case against it
+Who doubts it, by name and where they said it, then 2–3 numbered counter-points held to the same standard. Say which is strongest.
+## What would change minds
+3 bullets, each an observable event with a date or a threshold ("{Company} reports on Wednesday 4 November; a cut to its capex outlook would be the first crack").
+## The stocks exposed
+| Company | How it's exposed | Stock this year |   ("Most exposed if the story holds" / "if it breaks")
+```chart (compare: the exposed stocks since the story began, the leader highlighted)```
+## Our read
+**{Verdict words}.** 2–4 sentences: what's well supported, the weakest link, the one number we'll watch.
+```
+
+### `viewpoints` ("Bulls vs bears")
+Titles: "Bulls vs Bears on {Company} ({TKR}): {The Question}", "{N} Investors on {Company} ({TKR}) After {Event}", "The Debate Over {Theme}: {Name} Says {A}, {Name} Says {B}". Dek: the question and the number both sides are arguing about.
+
+```
+Lede (2 short paragraphs): the question and why it's open now (the dated trigger), then the number at the center of the argument.
+```stat (the contested number, and the stock's move since the trigger)```
+## The bull case
+### {Full name}, {role}, {firm}
+**Their claim, in one sentence.** 2–3 sentences: their argument in our words, the number they lean on, where and when they said it ("in a note on 28 October, reported by CNBC and Bloomberg"; "in a post on X on 29 October"). One short direct quote at most. Embed the post if it was on X.
+### {Second bull}   (2–3 bulls)
+## The bear case
+### {Full name}, {role}, {firm}   (2–3 bears; at least one documented view on each side)
+## Where they agree
+## The number that decides it
+One paragraph: the metric or event that will settle it, and when we'll see it next.
+| Who | Side | Their key number | Said where, when |
+## Our read
+2–4 sentences: which argument the evidence favors today, in numbers. "Too early to tell" is allowed, with the date that will tell.
+```
+Only documented, attributable positions: a published note, an interview, a filing, a call, a public post with a link. Reported notes need two outlets. People on X are named with their handle and role, and only when they're credible on the subject (a fund manager, an analyst, a former industry executive, a researcher, a reporter). Never an anonymous account, never a made-up composite ("some investors worry").
+
+### `breakdown` ("Is {Company} a good business?")
+Carbon Finance's way of taking a stock apart, at about half the length, with the detail in tables. Titles: "Is {Company} ({TKR}) a Good Business? Our Breakdown", "{Company} ({TKR}) Is Down {x}% From Its High. Is the Business Broken?", "How {Company} ({TKR}) Makes Money, and Whether It Lasts", "{Company} ({TKR}): {a Tension in 4–7 Words}". Dek: the tension plus one number.
+
+```
+*{Our verdict in one italic sentence: business quality + what the price assumes + the condition that decides it.}*
+```stat (business verdict · price verdict with its multiple · the stock against its high)```
+## How it got here
+3 short paragraphs: the founding idea, the turning points, what changed this week or quarter. End on **one bold question** the piece will answer.
+## The business in one line
+Who pays it, for what, and how often.
+## How it makes money
+| Segment | What it sells | Share of sales | Growth, latest year |
+```chart (bars: revenue by quarter or by segment)```
+## The numbers that matter
+### Growth / ### Profitability / ### Cash / ### Returns / ### Balance sheet  (4–6 short subsections, one figure each, judged against peers or the sector; data/fundamentals/<T>.json, dated)
+## Why the stock is where it is
+Numbered drivers from the worried investor's angle (2–5), then ```chart (price with notes marking each driver)```
+## Testing the worry
+For each driver: temporary or lasting? contained or spreading? Use peers, management's actions and filings. Say which worry survives.
+## The moat
+2–4 named advantages, each with one piece of evidence, and the rivals with one comparable number each.
+## The risks we'd watch
+3 company-specific risks, sized with simple arithmetic where possible.
+## What the price assumes
+| Measure | Now | Its history | Peers |   (P/E, forward P/E, price to free cash flow; no price targets)
+## Our verdict
+**Business: {Strong|Solid|Mixed|Weak}. Price: {Below|About|Above} its usual price.** 3–5 sentences: why, the one thing that would change our mind, and the next date that could. End on one plain line that states the tension.
+```
+
+### `brief` (fresh news)
+Titles: the event in the past tense with its number: "{Company} ({TKR}) {Raises|Cuts} {Thing} to {X}", "{Company} ({TKR}) Agrees to Buy {Target} for {$X}", "{Agency} {Action}, {Consequence}". Never "Breaking:"; the time stamp does that job. Dek: the number and the reason. 120–250 words, no headings.
+
+```
+{What just happened, 1–2 sentences: who did what, the number with its basis, when (to the minute where it matters), attributed inline.}
+{Why it matters, 2 sentences: the stake in one number; if it's part of a running story, say which and link our narrative.}
+{What's next, 1 sentence: the next dated event, or what isn't known yet.}
+```stat (optional: one number)```
+```
+If the stock moves 4% or more on it with a clear cause, the brief becomes, or links to, a why-it-moved story.
+
+## Voices from X
+
+The best market analysis often appears first on X. When a named analyst, fund manager, executive, economist or reporter makes a real argument or breaks real news there, we can quote them and embed the post:
+
+```tweet
+https://x.com/<handle>/status/<id>
+```
+
+- Introduce them first: "Bernstein's Stacy Rasgon argued on X on Thursday that ..." Then the embed.
+- Only analysis or reporting, never hype, memes or price calls without reasons. One to three posts per story.
+- The post is a source like any other: a claim in it needs our usual second source before we state it as fact. Find post URLs in the articles that cite them or by search; don't guess a URL.
+
+## Story log (running stories)
+
+Readers come back for stories that are still moving. Give a story the running themes it belongs to:
+
+```toml
+themes = ["ai-capex", "memory-cycle"]
+```
+
+Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, `oil-shock`, `chip-selloff`, `tariffs`...). Reuse an existing key when it fits: `grep -h '^themes' content/articles/*.md | sort | uniq -c`. A `narrative` page lists every story that shares its themes as a dated story log, and every story in a theme links back to the newest narrative on it. Briefs and why-it-moved stories should carry a theme whenever they're part of a bigger story.

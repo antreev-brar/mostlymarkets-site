@@ -44,10 +44,11 @@ MONTH = ["January", "February", "March", "April", "May", "June", "July", "August
 WD = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 TYPE_LABEL = {"daily": "The Daily", "market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Big movers",
               "earnings-recap": "Earnings", "earnings-preview": "Earnings preview", "list": "Our picks",
-              "macro": "Economy", "chart": "Chart", "analysis": "Analysis"}
-FILTERS = [("all", "All"), ("why-it-moved,movers", "Why it moved"), ("earnings-recap,earnings-preview", "Earnings"),
-           ("daily,market-wrap,macro,chart", "Markets & economy"), ("list,analysis", "Our picks & analysis"),
-           ("mine", "My stocks")]
+              "macro": "Economy", "chart": "Chart", "analysis": "Analysis", "narrative": "The big story",
+              "viewpoints": "Bulls vs bears", "breakdown": "Breakdown", "brief": "News"}
+FILTERS = [("all", "All"), ("brief,why-it-moved,movers", "News & moves"),
+           ("narrative,viewpoints,breakdown,analysis,chart", "Analysis"), ("earnings-recap,earnings-preview", "Earnings"),
+           ("list", "Our picks"), ("daily,market-wrap,macro", "Markets"), ("mine", "My stocks")]
 
 
 def esc(s) -> str:
@@ -147,6 +148,27 @@ QUOTES = json.loads(QPATH.read_text()) if QPATH.exists() else {"asof": None, "qu
 Q = QUOTES["quotes"]
 for t, q in Q.items():
     q["cap"] = parse_cap(q.get("mktcap"))
+MPATH = ROOT / "data/quotes/markets.json"
+MKT = json.loads(MPATH.read_text()) if MPATH.exists() else {"asof": None, "markets": {}}
+
+
+def _load_news() -> dict[str, dict]:
+    """Aggregated headlines per ticker (pipeline/news.py): data/news/<T>.json, plus market.json under "_market"."""
+    out = {}
+    for f in (ROOT / "data/news").glob("*.json") if (ROOT / "data/news").exists() else []:
+        if f.stem == "tweets":
+            continue
+        try:
+            d = json.loads(f.read_text())
+        except Exception:  # noqa: BLE001
+            continue
+        out["_market" if f.stem == "market" else (d.get("ticker") or f.stem)] = d
+    return out
+
+
+NEWS = _load_news()
+TPATH_ = ROOT / "data/news/tweets.json"
+TWEETS: dict = json.loads(TPATH_.read_text()) if TPATH_.exists() else {}
 
 _PRICES: dict[str, list] = {}
 
@@ -233,6 +255,7 @@ class Story:
         self.author = AUTHORS.get(self.fm.get("author"), {"name": "Mostly Markets", "role": ""})
         self.status = self.fm.get("status", "published")
         self.featured = bool(self.fm.get("featured"))
+        self.themes = [str(x) for x in self.fm.get("themes", []) if x]
         self.moves = self._moves()
         self.cover = self._cover()
         self._rendered = None
@@ -279,8 +302,9 @@ class Story:
         return opts[h % len(opts)] if opts else "markets-calm"
 
     def weight(self) -> float:
-        base = {"daily": 7, "market-wrap": 6, "earnings-recap": 5, "macro": 5, "analysis": 4, "why-it-moved": 3, "list": 3,
-                "earnings-preview": 2, "movers": 2, "chart": 1}[self.type]
+        base = {"daily": 7, "market-wrap": 6, "narrative": 6, "earnings-recap": 5, "macro": 5, "viewpoints": 5, "analysis": 4,
+                "breakdown": 4, "why-it-moved": 3, "list": 3, "brief": 3, "earnings-preview": 2, "movers": 2,
+                "chart": 1}.get(self.type, 2)
         mv = max([abs(m["c"]) for m in self.moves if m.get("c") is not None] or [0])
         cap = max([(Q.get(t) or {}).get("cap") or 0 for t in self.tickers] or [0])
         return base + min(mv, 15) / 3 + (2 if cap > 5e11 else 1 if cap > 1e11 else 0) + (6 if self.featured else 0)
@@ -303,6 +327,31 @@ for s in STORIES:
         BY_TICKER[t].append(s)
 BY_PATH = {f"/{s.path}": s for s in STORIES}
 DAILIES = [s for s in STORIES if s.type == "daily"]  # newest first
+BY_THEME: dict[str, list[Story]] = defaultdict(list)  # running stories (STYLE.md, "Story log"), newest first
+for s in STORIES:
+    for th in s.themes:
+        BY_THEME[th].append(s)
+
+
+def running_story(s: Story):
+    """The newest narrative that shares a theme with this story (not the story itself)."""
+    cands = [x for th in s.themes for x in BY_THEME[th] if x.type == "narrative" and x is not s]
+    return max(cands, key=lambda x: x.pub) if cands else None
+
+
+def story_log(s: Story) -> str:
+    """A narrative's dated log: every story on its themes, newest first."""
+    seen, items = set(), []
+    for x in sorted({id(x): x for th in s.themes for x in BY_THEME[th]}.values(), key=lambda x: x.pub, reverse=True):
+        if x is s or id(x) in seen:
+            continue
+        seen.add(id(x))
+        items.append(f'<li><span class="sl-d">{x.pub.day} {MON[x.pub.month - 1]}</span><a href="{u(x.path)}">{esc(x.title)}</a>'
+                     f'<span class="sl-t">{TYPE_LABEL[x.type]} · {ago(x.pub, "ago q")}</span></li>')
+    if not items:
+        return ""
+    return (f'<section class="slog"><h2>Story log</h2><p class="lede">Everything we\'ve published on this story, newest first. '
+            f'This page grows as the story moves.</p><ol>{"".join(items[:30])}</ol></section>')
 for i, s in enumerate(reversed(DAILIES)):
     s.edition = i + 1
     # A weekend edition published on a Friday evening shares its date with that morning's edition.
@@ -319,7 +368,36 @@ ICON = {
     "play": '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.2-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>',
     "plus": '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
 }
-NAV = [("", "Latest"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings"), ("stocks/", "Stocks")]
+NAV = [("", "Feed"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
+STRIP = [(".SPX", "S&P 500"), (".IXIC", "Nasdaq"), (".DJI", "Dow"), (".RUT", "Russell 2000"), ("US10Y", "10-year"),
+         ("@CL.1", "Oil"), ("@GC.1", "Gold"), ("BTC.CM=", "Bitcoin")]
+sys.path.insert(0, str(ROOT / "pipeline"))
+try:
+    from detect import HOLIDAYS  # noqa: E402  (the market's closed days, for the open/closed label)
+except Exception:  # noqa: BLE001
+    HOLIDAYS = set()
+
+
+def market_strip() -> str:
+    """The thin line under the header on every page: market status (set live by app.js), the indexes, and how fresh
+    the newest story is. It's what tells a reader the site is current."""
+    cells = []
+    for k, lab in STRIP:
+        m = MKT["markets"].get(k) or {}
+        if m.get("price") is None:
+            continue
+        if k == "US10Y":
+            v = f'{m["price"]:.2f}%'
+            cells.append(f'<span class="ms-i"><b>{lab}</b> <span data-mk="{k}" data-k="lvl">{v}</span></span>')
+            continue
+        c = m.get("change_pct")
+        cells.append(f'<span class="ms-i"><b>{lab}</b> <span class="{tone(c)}" data-mk="{k}" data-k="chg">'
+                     f'{"▲" if (c or 0) >= 0 else "▼"} {abs(c or 0):.2f}%</span></span>')
+    newest = STORIES[0] if STORIES else None
+    last = (f'<a class="ms-new" href="{u(newest.path)}">Newest story <time datetime="{newest.pub.isoformat()}" data-rel>'
+            f'{esc(when(newest.pub))}</time></a>') if newest else ""
+    return (f'<div class="mstrip" data-hol="{" ".join(sorted(HOLIDAYS))}"><div class="wrap"><span class="ms-st" data-mstatus>'
+            f'<i></i><span>Markets</span></span><div class="ms-row">{"".join(cells)}</div>{last}</div></div>')
 
 
 def page(path: str, title: str, body: str, desc: str = "", image: str | None = None, active: str = "",
@@ -370,14 +448,15 @@ def page(path: str, title: str, body: str, desc: str = "", image: str | None = N
  </div>
  <nav class="nav2" aria-label="Sections">{nav}</nav>
 </header>
+{market_strip()}
 <main>
 {body}
 </main>
 <footer class="ft">
  <div class="wrap">
-  <div><a class="wm" href="{u('')}">Mostly <span>Markets</span></a><p>{esc(CFG['tagline'])} Stories every few hours on market days, and a free newsletter.</p></div>
-  <nav aria-label="Footer"><a href="{u('')}">Latest</a><a href="{u('discover/')}">Discover</a><a href="{u('earnings/')}">Earnings</a><a href="{u('stocks/')}">All stocks</a><a href="{CFG['substack']}">Newsletter</a><a href="{CFG['instagram']}">Instagram</a><a href="{u('about/')}">About</a><a href="{u('feed.xml')}">RSS</a></nav>
-  <div><p>Mostly Markets is for information and education only. It is not investment advice, and nothing here is a recommendation to buy or sell any security.</p><p>Our writers publish under pen names. Cover images are AI-generated. Prices from Nasdaq and CNBC, financials from SEC filings.</p></div>
+  <div><a class="wm" href="{u('')}">Mostly <span>Markets</span></a><p>{esc(CFG['tagline'])} New stories through every market day, analysis at the weekend, and a free newsletter.</p></div>
+  <nav aria-label="Footer"><a href="{u('')}">Feed</a><a href="{u('daily/')}">The Daily</a><a href="{u('discover/')}">Discover</a><a href="{u('earnings/')}">Earnings</a><a href="{u('stocks/')}">All stocks</a><a href="{CFG['substack']}">Newsletter</a><a href="{CFG['instagram']}">Instagram</a><a href="{u('about/')}">About</a><a href="{u('feed.xml')}">RSS</a></nav>
+  <div><p>Mostly Markets is for information and education only. It is not investment advice, and nothing here is a recommendation to buy or sell any security.</p><p>Our writers publish under pen names. Prices from Nasdaq and CNBC, financials from SEC filings, headlines link to their publishers.</p></div>
  </div>
 </footer>
 <div class="srch" role="dialog" aria-label="Search"><div class="bx"><input type="search" placeholder="Search stocks and stories" aria-label="Search"><div class="res"></div></div></div>
@@ -448,13 +527,110 @@ def time_tag(s: Story, rel=True) -> str:
     return f'<time datetime="{s.pub.isoformat()}"{" data-rel" if rel else ""}>{esc(ampm(s.pub))} ET</time>'
 
 
+def ago(d: dt.datetime, cls: str = "ago") -> str:
+    """A timestamp that app.js turns into "12 min ago", "3h ago", "Yesterday" and keeps ticking."""
+    fb = f"{WD[d.weekday()][:3]} {d.day} {MON[d.month - 1]}, {ampm(d)}"
+    return f'<time class="{cls}" datetime="{d.isoformat()}" data-rel>{esc(fb)}</time>'
+
+
+def fresh(s: Story) -> str:
+    """Attributes app.js reads to mark a card New (published in the last few hours) or unseen since the last visit."""
+    return f' data-pub="{s.pub.isoformat()}"'
+
+
+NEWB = '<span class="newb">New</span>'
+
+# ---------------------------------------------------------------------- picture for every card: a chart, never stock art
+
+_TM_CACHE: dict[str, str] = {}
+
+
+def thumb_spark(t: str, end: str, tone_: str | None = None, w: int = 320, h: int = 200, n: int = 44) -> str:
+    """A small area chart of a stock's last two months of closes, ending on the story's day. The last point is the news."""
+    bars = [b for b in prices(t) if b["date"] <= end][-n:]
+    if len(bars) < 5:
+        return ""
+    vals = [b["close"] for b in bars]
+    lo, hi = min(vals), max(vals)
+    pad = (hi - lo) * 0.12 or 1
+    lo, hi = lo - pad, hi + pad
+    top, bot = h * 0.30, h * 0.94
+    pts = [(w * i / (len(vals) - 1), bot - (bot - top) * (v - lo) / (hi - lo)) for i, v in enumerate(vals)]
+    line = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    area = line + f" L{w},{h} L0,{h} Z"
+    tn = tone_ or ("up" if vals[-1] >= vals[0] else "down")
+    x, y = pts[-1]
+    return (f'<svg class="tsp {tn}" viewBox="0 0 {w} {h}" preserveAspectRatio="none" aria-hidden="true">'
+            f'<path class="a" d="{area}"/><path class="l" d="{line}" vector-effect="non-scaling-stroke"/></svg>'
+            f'<i class="tdot {tn}" style="left:{x / w * 100:.1f}%;top:{y / h * 100:.1f}%"></i>')
+
+
+def thumb_map(day: str, w: int = 320, h: int = 200, n: int = 48) -> str:
+    """The day's market map in miniature: the biggest S&P 500 companies sized by value, coloured by the move."""
+    if day in _TM_CACHE:
+        return _TM_CACHE[day]
+    mv = sorted(day_moves(day), key=lambda m: -m["cap"])[:n]
+    if not mv:
+        return ""
+    tot = sum(m["cap"] for m in mv)
+    rects = C.squarify([m["cap"] / tot * w * h for m in mv], 0, 0, w, h)
+    cells = "".join(f'<rect x="{x + .6:.1f}" y="{y + .6:.1f}" width="{max(0, rw - 1.2):.1f}" height="{max(0, rh - 1.2):.1f}" '
+                    f'rx="2" fill="{C.heat(m["v"])}"/>' for m, (x, y, rw, rh) in zip(mv, rects))
+    _TM_CACHE[day] = f'<svg class="tmm" viewBox="0 0 {w} {h}" preserveAspectRatio="none" aria-hidden="true">{cells}</svg>'
+    return _TM_CACHE[day]
+
+
+def thumb(s: Story) -> str:
+    """The card picture: the stock's recent line with the story's day as the last point, its logo on top; or, for
+    market-wide stories, that day's market map."""
+    if s.tickers and prices(s.tickers[0]):
+        mv = next((m for m in s.moves if m["t"] == s.tickers[0] and m.get("c") is not None), None)
+        sp = thumb_spark(s.tickers[0], s.date, tone(mv["c"]) if mv else None)
+        if sp:
+            return f'<div class="th tch">{sp}<span class="th-lg">{logos(s.tickers, 30)}</span></div>'
+    day = last_trading_day(s.date)
+    return f'<div class="th tmap-th">{thumb_map(day)}</div>'
+
+
 def row(s: Story) -> str:
-    return (f'<article class="card" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}">'
+    """A river card: when (prominent), what kind, headline, two-line dek, the price tag, and the chart picture."""
+    return (f'<article class="card" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"{fresh(s)}>'
             f'<a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a><div>'
-            f'<div class="c-top">{logos(s.tickers)}<span class="tag">{TYPE_LABEL[s.type]}</span>{time_tag(s)}</div>'
+            f'<div class="c-top">{NEWB}{ago(s.pub)}<span class="tag">{TYPE_LABEL[s.type]}</span></div>'
             f'<h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p>'
-            f'<div class="c-ft">{chips(s, 1)}{time_tag(s)}</div></div>'
-            f'<div class="th">{cover_img(s.cover, 480)}</div></article>')
+            f'<div class="c-ft">{chips(s, 2)}</div></div>'
+            f'{thumb(s)}</article>')
+
+
+def mini(s: Story, show_thumb: bool = True) -> str:
+    """A compact headline row for top-story lists and side rails: time, kind, headline."""
+    th = thumb(s) if show_thumb else ""
+    return (f'<article class="mini{" nt" if not show_thumb else ""}"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
+            f'{th}<div class="mi-tx"><div class="mi-k">{NEWB}{ago(s.pub)}<span>{TYPE_LABEL[s.type]}</span></div>'
+            f'<h3>{esc(s.title)}</h3></div></article>')
+
+
+def news_items(t: str | None, n: int = 6, since_days: int = 10) -> list[dict]:
+    """Aggregated outside headlines (pipeline/news.py) for a ticker, or the market's when t is None. Newest first."""
+    d = NEWS.get(t or "_market") or {}
+    out = []
+    cutoff = NOW - dt.timedelta(days=since_days)
+    for it in d.get("items", []):
+        try:
+            when_ = dt.datetime.fromisoformat(it["published"]).astimezone(ET)
+        except Exception:  # noqa: BLE001
+            continue
+        if when_ < cutoff or when_ > NOW + dt.timedelta(minutes=5):
+            continue
+        out.append({**it, "dt": when_})
+    out.sort(key=lambda x: x["dt"], reverse=True)
+    return out[:n]
+
+
+def news_row(it: dict) -> str:
+    also = f' <span class="nw-also">+{len(it["also"])}</span>' if it.get("also") else ""
+    return (f'<li class="nw"><a href="{esc(it["url"])}" target="_blank" rel="noopener nofollow">{esc(it["title"])}</a>'
+            f'<span class="nw-m">{esc(it.get("source") or "")}{also} · {ago(it["dt"], "ago q")}</span></li>')
 
 
 def mini_rows(stories: list[Story]) -> str:
@@ -463,7 +639,7 @@ def mini_rows(stories: list[Story]) -> str:
     for s in stories:
         d = s.pub.date()
         if d != last_day:
-            out.append(f'<div class="day"><span>{day_title(d)}</span></div>')
+            out.append(f'<div class="day" data-day="{d.isoformat()}"><span>{day_title(d)}</span></div>')
             last_day = d
         out.append(row(s))
     return '<div class="cards-col">' + "".join(out) + "</div>"
@@ -643,11 +819,13 @@ def block_picks(text: str, story: Story) -> str:
             continue
         kind, names = line.split(":", 1)
         kind = kind.strip().lower()
+        lab = {"love": "We love", "hate": "We hate", "like": "We like", "skip": "We'd skip"}.get(kind, kind.title())
+        cls = "love" if kind in ("love", "like") else "hate"
         for t in [x.strip() for x in names.split(",") if x.strip() in UMAP]:
             c = close_on(t, story.date)
             r1 = ret_since(t, 252, story.date)
             price = c[0]["close"] if c else None
-            cards.append(f'<a class="pk {kind}" href="{u(tpath(t))}">{logo(t, 44)}<span class="lab">{"We love" if kind == "love" else "We hate"}</span>'
+            cards.append(f'<a class="pk {cls}" href="{u(tpath(t))}">{logo(t, 44)}<span class="lab">{lab}</span>'
                          f'<span class="tt">{t}</span><span class="nm">{esc(UMAP[t]["name"])} · {esc(UMAP[t]["industry"])}</span>'
                          f'<span class="pr"><span>{money(price)}</span><span class="{tone(r1)}">{pct(r1, 1)} 1y</span></span></a>')
     return f'<div class="picks">{"".join(cards)}</div>'
@@ -669,16 +847,64 @@ def block_highlights(text: str, r: Renderer) -> str:
     return f'<aside class="hlbox"><p class="ht">{esc(title)}</p><ul>{lis}</ul></aside>'
 
 
+def tweet_card(url: str) -> str:
+    """An X post, drawn at build time from the cache pipeline/news.py fills (data/news/tweets.json), linking to the
+    original. No X script on our pages. Uncached posts show as a plain link card."""
+    m = re.search(r"(?:x|twitter)\.com/([^/]+)/status/(\d+)", url.strip())
+    if not m:
+        return ""
+    handle, tid = m.group(1), m.group(2)
+    tw = TWEETS.get(tid) or {}
+    link = f"https://x.com/{handle}/status/{tid}"
+    if not tw.get("text"):
+        return (f'<aside class="tw"><a class="tw-a" href="{esc(link)}" target="_blank" rel="noopener">'
+                f'<span class="tw-x">𝕏</span><span>Post by <b>@{esc(handle)}</b> on X</span></a></aside>')
+    av = f'<img src="{esc(tw["avatar"])}" alt="" loading="lazy">' if tw.get("avatar") else "<b></b>"
+    when_ = ""
+    try:
+        d = dt.datetime.fromisoformat(tw["created_at"].replace("Z", "+00:00")).astimezone(ET)
+        when_ = ago(d, "ago q")
+    except Exception:  # noqa: BLE001
+        pass
+    text = esc(tw["text"]).replace("\n", "<br>")
+    return (f'<aside class="tw"><div class="tw-h"><span class="tw-av">{av}</span><span class="tw-n"><b>{esc(tw.get("author") or handle)}</b>'
+            f'<i>@{esc(tw.get("handle") or handle)}</i></span><span class="tw-x">𝕏</span></div><p>{text}</p>'
+            f'<div class="tw-f">{when_}<a href="{esc(link)}" target="_blank" rel="noopener">View on X</a></div></aside>')
+
+
 def render_body(s: Story) -> str:
     if s._rendered is None:
         r = Renderer(link_ticker=lambda t: u(tpath(t)) if t in UMAP else None, url=u, blocks={},
                      takes=s.type == "daily", page_url=absu(s.path))
-        r.blocks = {"chart": lambda x: block_chart(x, s), "picks": lambda x: block_picks(x, s),
-                    "highlights": lambda x: block_highlights(x, r), "stat": lambda x: block_stat(x, s)}
+        s.visuals = []
+
+        def keep(h: str) -> str:  # remember the story's pictures in order: the first one leads the page
+            if h:
+                s.visuals.append(h)
+            return h
+        r.blocks = {"chart": lambda x: keep(block_chart(x, s)), "picks": lambda x: block_picks(x, s),
+                    "highlights": lambda x: block_highlights(x, r), "stat": lambda x: keep(block_stat(x, s)),
+                    "tweet": lambda x: tweet_card(x)}
         s._rendered = r.render(s.body)
         s.takes = r.takes
         s.headings = r.headings
     return s._rendered
+
+
+def hero_visual(s: Story) -> tuple[str, str]:
+    """The picture that opens a story: its own first chart (moved up from the body, so readers see the evidence
+    before they scroll), or else the main stock's last three months, or that day's market map."""
+    body = render_body(s)
+    if s.visuals:
+        v = s.visuals[0]
+        i = body.find(v)
+        return v, (body[:i] + body[i + len(v):] if i >= 0 else body)
+    if s.tickers and prices(s.tickers[0]):
+        t = s.tickers[0]
+        name = UMAP[t]["name"]
+        return C.price_chart(prices(t), "3m", s.date, f"{name}'s shares over the last three months",
+                             f"{name}, daily close, $, to {C.human(last_trading_day(s.date))}", "last"), body
+    return treemap_html(last_trading_day(s.date), n=160), body
 
 
 def stockbar(s: Story) -> str:
@@ -705,13 +931,81 @@ def stockbar(s: Story) -> str:
     return f'<div class="stockbar">{"".join(rows)}</div>'
 
 
+_MOVERS = None
+
+
+def session_movers(n: int = 5, min_cap: float = 1e10) -> tuple[str, list[dict], list[dict]]:
+    """The last session's biggest gainers and losers among companies worth $10bn+, close to close."""
+    global _MOVERS
+    if _MOVERS is None:
+        day = last_trading_day()
+        mv = [m for m in day_moves(day, list(UMAP)) if m["cap"] >= min_cap]
+        _MOVERS = (day, sorted(mv, key=lambda m: -m["v"])[:n], sorted(mv, key=lambda m: m["v"])[:n])
+    return _MOVERS
+
+
+def mover_rows(ms: list[dict]) -> str:
+    out = []
+    for m in ms:
+        st = next((x for x in BY_TICKER.get(m["t"], []) if (NOW.date() - x.pub.date()).days <= 3), None)
+        href = u(st.path) if st else u(tpath(m["t"]))
+        out.append(f'<a class="mr" href="{href}">{logo(m["t"], 28)}<span class="mr-n"><b>{m["t"]}</b><i>{esc(UMAP[m["t"]]["name"])}</i></span>'
+                   f'<span class="pc {tone(m["v"])}"><i>{"▲" if m["v"] >= 0 else "▼"} {abs(m["v"]):.1f}%</i></span></a>')
+    return "".join(out)
+
+
+def rail_box(title: str, inner: str, more: tuple[str, str] | None = None, sub: str = "") -> str:
+    link = f'<a class="rb-more" href="{more[0]}">{esc(more[1])}</a>' if more else ""
+    return (f'<section class="rb"><div class="rb-h"><h4>{esc(title)}</h4>{link}</div>'
+            f'{f"<p class=rb-sub>{sub}</p>" if sub else ""}{inner}</section>')
+
+
+def rail_movers() -> str:
+    day, ups, downs = session_movers()
+    if not ups:
+        return ""
+    return rail_box("Biggest movers", f'<div class="mrs">{mover_rows(ups[:4])}<hr>{mover_rows(downs[:4])}</div>',
+                    sub=f"{esc(day_label(day))}, close to close, companies worth $10 billion or more")
+
+
+def rail_markets() -> str:
+    rows = []
+    for k, lab in STRIP:
+        m = MKT["markets"].get(k) or {}
+        if m.get("price") is None:
+            continue
+        p = m["price"]
+        val = f"{p:.2f}%" if k == "US10Y" else (f"${p:,.2f}" if k in ("@CL.1", "@GC.1") else f"{p:,.0f}" if p > 1000 else f"{p:,.2f}")
+        c = m.get("change_pct")
+        chg = "" if k == "US10Y" else f'<span class="{tone(c)}" data-mk="{k}" data-k="chg">{"▲" if (c or 0) >= 0 else "▼"} {abs(c or 0):.2f}%</span>'
+        rows.append(f'<div class="mk"><b>{lab}</b><span data-mk="{k}" data-k="px">{val}</span>{chg}</div>')
+    asof = ""
+    if MKT.get("asof"):
+        a = dt.datetime.fromisoformat(MKT["asof"]).astimezone(ET)
+        asof = f"Updated {ago(a, 'ago q')}"
+    return rail_box("Markets", f'<div class="mks">{"".join(rows)}</div>', sub=asof)
+
+
+def rail_latest(exclude=(), n: int = 6) -> str:
+    st = [x for x in STORIES if x not in exclude][:n]
+    return rail_box("Just published", f'<div class="minis">{"".join(mini(x, False) for x in st)}</div>', (u(""), "All stories"))
+
+
+def rail_news(t: str | None, n: int = 6) -> str:
+    items = news_items(t, n)
+    if not items:
+        return ""
+    name = UMAP[t]["name"] if t else "the market"
+    return rail_box(f"Latest on {name}" if t else "Market headlines", f'<ul class="nws">{"".join(news_row(i) for i in items)}</ul>',
+                    (u(tpath(t)) + "#latest", "More") if t else None, "Headlines from around the web")
+
+
 def story_page(s: Story) -> str:
-    body = render_body(s)
+    hero, body = hero_visual(s)
     sector = UMAP[s.tickers[0]]["sector"] if s.tickers else None
     crumbs = f'<span class="kick hl">{TYPE_LABEL[s.type]}</span>'
     if sector:
         crumbs += f'<a class="kick" href="{u("sectors/" + slugify(sector) + "/")}">{esc(sector)}</a>'
-    cap = COVERS["covers"].get(s.cover, {}).get("alt", "") or COVER_ALT.get(s.cover, "")
     more = []
     if s.tickers:
         t = s.tickers[0]
@@ -719,7 +1013,7 @@ def story_page(s: Story) -> str:
         if others:
             more.append(f'<section class="related"><h3>More on {esc(UMAP[t]["name"])}</h3><div class="cards-col">{"".join(row(x) for x in others)}</div></section>')
     latest = [x for x in STORIES if x is not s and x not in BY_TICKER.get(s.tickers[0] if s.tickers else "", [])][:5]
-    more.append(f'<section class="related"><h3>Latest from Mostly Markets</h3><div class="cards-col">{"".join(row(x) for x in latest)}</div></section>')
+    more.append(f'<section class="related"><h3>Read next</h3><div class="cards-col">{"".join(row(x) for x in latest)}</div></section>')
     follow_t = s.tickers[0] if s.tickers else None
     endbox = (f'<div class="endbox"><div><h4>Follow {esc(UMAP[follow_t]["name"])}</h4><p>Its stories collect under My stocks on the front page. '
               f'For the daily email, subscribe to the newsletter.</p></div><div class="acts">'
@@ -729,26 +1023,37 @@ def story_page(s: Story) -> str:
         f'<div class="acts"><a class="btn" href="{CFG["subscribe"]}">Subscribe free</a></div></div>')
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": s.title, "description": s.dek,
           "datePublished": s.pub.isoformat(), "author": {"@type": "Person", "name": s.author["name"]},
-          "image": [absu(f"static/covers/{s.cover}-1600.webp")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
+          "image": [absu("static/og.jpg")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
     initials = "".join(w[0] for w in s.author["name"].split()[:2])
-    html_ = f"""<article class="story wrap">
- <header class="story-head">
-  <div class="crumbs">{crumbs}</div>
-  <h1>{esc(s.title)}</h1>
-  <p class="dek">{esc(s.dek)}</p>
-  <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><time datetime="{s.pub.isoformat()}">{esc(when(s.pub, True))}</time><span class="sep">·</span><span>{s.minutes} min read</span></div>
- </header>
- <figure class="cover"><div class="ci">{cover_img(s.cover, 1600, lazy=False)}</div><figcaption>{esc(cap)}. Image: AI-generated.</figcaption></figure>
- <div class="story-body">
-  {stockbar(s)}
-  <div class="prose" style="margin-top:28px">{body}</div>
-  {endbox}
-  <p class="disc">Mostly Markets is for information and education only and isn't investment advice. {esc(s.author['name'])} is a pen name. Prices are from Nasdaq and CNBC as of the time stated.</p>
-  {''.join(more)}
- </div>
-</article>
+    rs = running_story(s)
+    running = (f'<a class="running" href="{u(rs.path)}"><span>Part of the running story</span><b>{esc(rs.title)}</b></a>' if rs else "")
+    t0 = s.tickers[0] if s.tickers else None
+    rail = "".join(x for x in (
+        f'<section class="rb">{stockbar(s)}</section>' if s.tickers else "",
+        rail_news(t0, 5) if t0 else rail_news(None, 5),
+        rail_movers(), rail_latest((s,), 5)) if x)
+    html_ = f"""<div class="wrap art">
+ <article class="story amain">
+  <header class="story-head">
+   <div class="crumbs">{crumbs}<span class="fresh-line"{fresh(s)}>{NEWB}Published {ago(s.pub, "ago b")}</span></div>
+   <h1>{esc(s.title)}</h1>
+   <p class="dek">{esc(s.dek)}</p>
+   <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span>{esc(when(s.pub, True))}</span><span class="sep">·</span><span>{s.minutes} min read</span></div>
+   {running}
+  </header>
+  <div class="hero-vis">{hero}</div>
+  <div class="story-body">
+   <div class="prose">{body}</div>
+   {story_log(s) if s.type == "narrative" else ""}
+   {endbox}
+   <p class="disc">Mostly Markets is for information and education only and isn't investment advice. {esc(s.author['name'])} is a pen name. Prices are from Nasdaq and CNBC as of the time stated.</p>
+  </div>
+ </article>
+ <aside class="arail" aria-label="Around the market">{rail}</aside>
+ <div class="amore">{''.join(more)}</div>
+</div>
 <script type="application/ld+json">{json.dumps(ld)}</script>"""
-    return page(s.path, s.title, html_, s.dek, f"static/covers/{s.cover}-1600.webp", og_type="article")
+    return page(s.path, s.title, html_, s.dek, None, og_type="article")
 
 
 # ---------------------------------------------------------------------- the daily edition
@@ -776,11 +1081,19 @@ def clip(t: str, n: int) -> str:
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:") + "…"
 
 
+def edition_label(s: Story) -> str:
+    return "Weekend edition" if s.fm.get("edition") == "weekend" else ("Monday edition" if s.pub.weekday() == 0 else "Morning edition")
+
+
 def edition_card(s: Story, size: int = 800) -> str:
+    """The Daily's archive row: date, edition, headline, the first takes, and a picture of that session's market."""
     render_body(s)
-    return (f'<article class="ed-card"><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'<div class="th">{cover_img(s.cover, size)}</div><div class="tx"><span class="ed-k">No. {s.edition} · {esc(day_title(s.pub.date()))}</span>'
-            f'<h3>{esc(s.title)}</h3><p>{esc(s.dek)}</p><span class="ed-m">{len(s.takes)} takes · {s.minutes} min read</span></div></article>')
+    lis = "".join(f'<li><b>{tk["n"]}</b>{esc(tk["title"])}</li>' for tk in s.takes[:3])
+    return (f'<article class="ed-card"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
+            f'<div class="tx"><span class="ed-k">{NEWB}<b>{esc(long_date(s.pub.date()))}</b> · {edition_label(s)} · No. {s.edition}</span>'
+            f'<h3>{esc(s.title)}</h3><p>{esc(s.dek)}</p>{f"<ol class=tks>{lis}</ol>" if lis else ""}'
+            f'<span class="ed-m">{len(s.takes)} takes · {s.minutes} min read</span></div>'
+            f'<div class="th tmap-th">{thumb_map(last_trading_day(s.date))}</div></article>')
 
 
 def daily_page(s: Story) -> str:
@@ -796,17 +1109,17 @@ def daily_page(s: Story) -> str:
     initials = "".join(w[0] for w in s.author["name"].split()[:2])
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": s.title, "description": s.dek,
           "datePublished": s.pub.isoformat(), "author": {"@type": "Person", "name": s.author["name"]},
-          "image": [absu(f"static/covers/{s.cover}-1600.webp")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
+          "image": [absu("static/og.jpg")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
     play = (f'<button class="btn sm play" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through it</span></button>'
             if s.takes else "")
     html_ = f"""<article class="daily">
  <header class="ed-head wrap">
-  <div class="ed-mast"><a href="{u('daily/')}" class="ed-name">Mostly Markets <b>Daily</b></a><span>{"Weekend edition · " if s.fm.get("edition") == "weekend" else ""}{esc(long_date(d))}</span><span class="ed-no">No. {s.edition}</span></div>
+  <div class="ed-mast"><a href="{u('daily/')}" class="ed-name">Mostly Markets <b>Daily</b></a><span>{edition_label(s)} · {esc(long_date(d))}</span><span class="ed-no">No. {s.edition}</span></div>
+  <div class="crumbs" style="margin-top:14px"><span class="fresh-line"{fresh(s)}>{NEWB}Published {ago(s.pub, "ago b")}</span></div>
   <h1>{esc(s.title)}</h1>
   <p class="dek">{esc(s.dek)}</p>
   <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span>{s.minutes} min read</span><span class="sep">·</span><span>{len(s.takes)} takes</span>{play}</div>
  </header>
- <figure class="ed-cover"><div class="ci">{cover_img(s.cover, 1600, lazy=False)}</div><figcaption>{esc(COVER_ALT.get(s.cover) or COVERS["covers"].get(s.cover, {}).get("alt", ""))}. Illustration: AI-generated.</figcaption></figure>
  {f'<nav class="ed-toc wrap" aria-label="In this edition"><span>In this edition</span>{toc}</nav>' if toc else ''}
  <div class="story-body">
   <div class="prose daily-prose">{body}</div>
@@ -817,20 +1130,36 @@ def daily_page(s: Story) -> str:
 </article>
 {story_templates([edition_group(s)])}
 <script type="application/ld+json">{json.dumps(ld)}</script>"""
-    return page(s.path, s.title, html_, s.dek, f"static/covers/{s.cover}-1600.webp", og_type="article", active="daily/")
+    return page(s.path, s.title, html_, s.dek, None, og_type="article", active="daily/")
 
 
 def daily_index():
+    """Every edition we've published, newest first: the latest one opened up with its first take's chart, then the
+    archive by month."""
     if not DAILIES:
-        body = f'<div class="wrap pagehead"><h1>The Daily</h1><p>The first edition is on its way.</p></div>'
+        body = f'<div class="wrap ph"><h1>The Daily</h1><p>The first edition is on its way.</p></div>'
     else:
         first, rest = DAILIES[0], DAILIES[1:]
-        body = f"""<div class="wrap pagehead ed-ph"><span class="ed-name big">Mostly Markets <b>Daily</b></span>
-<p>The story behind the market every morning: one big story, a thread of sharp takes, and the charts that explain them. Free.</p>
-<a class="btn" href="{CFG["subscribe"]}">Get it in your inbox</a></div>
-<section class="wrap"><div class="ed-feature">{edition_card(first, 1600)}</div>
-{f'<div class="ed-grid">{"".join(edition_card(x) for x in rest)}</div>' if rest else ''}</section>"""
-    write("daily/", page("daily/", "The Daily", body, "The story behind the market every morning, in charts.", active="daily/"))
+        render_body(first)
+        vis = take_parts(first.takes[0])[0] if first.takes else ""
+        lis = "".join(f'<li><a href="{u(first.path)}#{tk["id"]}"><b>{tk["n"]}</b>{esc(tk["title"])}</a></li>' for tk in first.takes)
+        months, arch = None, []
+        for x in rest:
+            mk = f"{MONTH[x.pub.month - 1]} {x.pub.year}"
+            if mk != months:
+                arch.append(f'<h2 class="arch-m">{mk}</h2>')
+                months = mk
+            arch.append(edition_card(x))
+        body = f"""<div class="wrap ph ed-ph"><span class="ed-name big">Mostly Markets <b>Daily</b></span>
+<p>Every day's edition: the one story behind the market, a thread of sharp takes, and the charts that prove them.</p></div>
+<section class="wrap"><article class="ed-today"{fresh(first)}><div class="ed-t-tx"><span class="ed-k">{NEWB}<b>{esc(long_date(first.pub.date()))}</b> · {edition_label(first)} · No. {first.edition} · {ago(first.pub, "ago q")}</span>
+<h2><a href="{u(first.path)}">{esc(first.title)}</a></h2><p class="dek">{esc(first.dek)}</p>
+<ol class="tks">{lis}</ol><div class="acts"><a class="btn" href="{u(first.path)}">Read today's edition</a>
+<button class="btn ghost" type="button" data-story-open="ed-{first.date}">{ICON["play"]}<span>Swipe through</span></button></div></div>
+<div class="ed-t-vis">{vis}</div></article>
+{f'<div class="arch">{"".join(arch)}</div>' if arch else ''}</section>
+{story_templates([edition_group(first)])}"""
+    write("daily/", page("daily/", "The Daily", body, "Every day's edition of Mostly Markets Daily: the story behind the market, in charts.", active="daily/"))
 
 
 # ---------------------------------------------------------------------- stories (tap-through slides)
@@ -845,7 +1174,7 @@ def edition_group(s: Story) -> dict:
     render_body(s)
     slides = [slide("cover", f'<div class="sl-k">Mostly Markets Daily · No. {s.edition}</div><h2>{esc(s.title)}</h2>'
                              f'<p>{esc(s.dek)}</p><div class="sl-hint">Tap to start · {len(s.takes)} takes</div>',
-                    u(f"static/covers/{s.cover}-800.webp"), u(s.path))]
+                    "", u(s.path))]
     for tk in s.takes:
         vis, text = take_parts(tk)
         slides.append(slide("take", f'<div class="sl-n">{tk["n"]}<i>/{tk["total"]}</i></div><h3>{esc(tk["title"])}</h3>'
@@ -855,7 +1184,7 @@ def edition_group(s: Story) -> dict:
                                f'<a class="sl-cta big" href="{CFG["subscribe"]}">Subscribe free</a>'
                                f'<a class="sl-cta ghost" href="{u(s.path)}">Read the full edition</a>'))
     return {"id": f"ed-{s.date}", "name": "The Daily", "when": day_title(s.pub.date()),
-            "avatar": f'<img src="{u(f"static/covers/{s.cover}-480.webp")}" alt="">', "slides": slides}
+            "avatar": '<span class="av-ic tmi" aria-hidden="true"><i></i><i></i><i></i><i></i></span>', "slides": slides}
 
 
 def movers_group(day: str) -> dict | None:
@@ -965,13 +1294,15 @@ def story_rail(groups: list[dict]) -> str:
 
 # ---------------------------------------------------------------------- home / feed
 
-def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
+def pick_lead(pool: list[Story], n_tops: int = 5) -> tuple[Story, list[Story]]:
+    """The lead is the most important story of the last day and a half (age costs a point every three hours); the top
+    stories under it are the next most important, one per company, shown newest first."""
     if not pool:
         return None, []
-    newest_day = pool[0].pub.date()
-    recent = [s for s in pool if (pool[0].pub - s.pub) < dt.timedelta(hours=30)]
+    recent = [s for s in pool if (pool[0].pub - s.pub) < dt.timedelta(hours=36)]
     feat = [s for s in recent if s.featured]
-    def score(s):  # importance, minus a point for every three hours of age
+
+    def score(s):
         return s.weight() - (NOW - s.pub).total_seconds() / 3600 / 3
     lead = feat[0] if feat else max(recent, key=lambda s: (score(s), s.pub))
     rest = sorted([s for s in recent if s is not lead], key=lambda s: (score(s), s.pub), reverse=True)
@@ -981,17 +1312,18 @@ def pick_lead(pool: list[Story]) -> tuple[Story, list[Story]]:
             continue
         tops.append(s)
         seen_t.update(s.tickers[:1])
-        if len(tops) == 3:
+        if len(tops) == n_tops:
             break
-    _ = newest_day
-    return lead, tops
+    if len(tops) < n_tops:
+        tops += [s for s in pool if s is not lead and s not in tops][:n_tops - len(tops)]
+    return lead, sorted(tops, key=lambda s: s.pub, reverse=True)
 
 
 def tile(s: Story, size: int = 800) -> str:
-    """The home page's one story card: picture on top, logos and type, headline, two-line dek, one price tag."""
-    return (f'<article class="tile" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'<div class="th">{cover_img(s.cover, size)}</div><div class="tx"><div class="c-top">{logos(s.tickers, 28)}<span class="tag">{TYPE_LABEL[s.type]}</span>'
-            f'<time datetime="{s.pub.isoformat()}" data-rel>{s.pub.day} {MON[s.pub.month - 1]}</time></div><h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p><div class="c-ft">{chips(s, 1)}</div></div></article>')
+    """A grid card (earnings and picks pages): the chart picture on top, then when, kind, headline, dek."""
+    return (f'<article class="tile" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
+            f'{thumb(s)}<div class="tx"><div class="c-top">{NEWB}{ago(s.pub)}<span class="tag">{TYPE_LABEL[s.type]}</span></div>'
+            f'<h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p><div class="c-ft">{chips(s, 2)}</div></div></article>')
 
 
 def hsec(title: str, inner: str, more: tuple[str, str] | None = None, sub: str = "", cls: str = "") -> str:
@@ -1000,60 +1332,65 @@ def hsec(title: str, inner: str, more: tuple[str, str] | None = None, sub: str =
             f'{f"<p>{esc(sub)}</p>" if sub else ""}</div>{link}</div>{inner}</section>')
 
 
-def daily_card(s: Story) -> str:
+def lead_block(s: Story) -> str:
+    """The feed's first screen: what just happened, how long ago, and the chart that proves it."""
+    if s.type == "daily":
+        render_body(s)
+        vis = take_parts(s.takes[0])[0] if s.takes else ""
+    else:
+        vis = hero_visual(s)[0]
+    by = f'<span>{esc(s.author["name"])}</span><span class="sep">·</span><span>{s.minutes} min read</span>'
+    return (f'<article class="lead2"{fresh(s)}><div class="l-k">{NEWB}{ago(s.pub, "ago b")}<span class="tag">{TYPE_LABEL[s.type]}</span>'
+            f'{logos(s.tickers, 26) if s.tickers else ""}</div>'
+            f'<h1><a href="{u(s.path)}">{esc(s.title)}</a></h1><p class="dek">{esc(s.dek)}</p>'
+            f'<div class="meta">{chips(s, 3)}{by}</div>'
+            f'<div class="l-vis">{vis}</div><a class="l-go" href="{u(s.path)}">Read the full story <span aria-hidden="true">→</span></a></article>')
+
+
+def rail_daily() -> str:
+    if not DAILIES:
+        return ""
+    s = DAILIES[0]
     render_body(s)
     lis = "".join(f'<li><a href="{u(s.path)}#{tk["id"]}"><b>{tk["n"]}</b>{esc(tk["title"])}</a></li>' for tk in s.takes[:4])
-    return (f'<article class="lead dly"><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'<div class="cv">{cover_img(s.cover, 1600)}</div><div class="tx"><div class="c-top"><span class="ed-name">Mostly Markets <b>Daily</b></span>'
-            f'<span class="meta">{esc(day_title(s.pub.date()))} · No. {s.edition}</span></div><h2>{esc(s.title)}</h2>'
-            f'<ol class="tks">{lis}</ol><div class="acts"><a class="btn" href="{u(s.path)}">Read the edition</a>'
-            f'<button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through</span></button></div></div></article>')
+    return rail_box("The Daily", f'<a class="rd-t" href="{u(s.path)}">{esc(s.title)}</a><ol class="tks sm">{lis}</ol>',
+                    (u("daily/"), "Every edition"), f"{esc(long_date(s.pub.date()))} · {ago(s.pub, 'ago q')}")
+
+
+def feed_rail() -> str:
+    return "".join(x for x in (rail_markets(), rail_movers(), rail_daily(), rail_news(None, 6)) if x)
 
 
 def home_pages():
     size = CFG["feed_page_size"]
-    lead, tops = pick_lead([x for x in STORIES if x.type != "daily"])
-    hero = DAILIES[0] if DAILIES else None
-    skip = {id(lead)} | {id(x) for x in tops} | ({id(hero)} if hero else set())
+    lead, tops = pick_lead(STORIES)
+    skip = {id(lead)} | {id(x) for x in tops}
     feed = [s for s in STORIES if id(s) not in skip]
     pages = max(1, math.ceil(len(feed) / size))
+    chips_html = "".join(f'<button class="chip" type="button" data-filter="{k}" aria-pressed="{"true" if k == "all" else "false"}">{esc(v)}</button>'
+                         for k, v in FILTERS)
     for pi in range(pages):
         items = feed[pi * size:(pi + 1) * size]
-        parts = []
-        if pi == 0 and lead:
-            parts.append(story_rail(story_groups()))
-            parts.append(f"""<section class="wrap home-top"><article class="lead"><a class="cover-link" href="{u(lead.path)}" aria-label="{esc(lead.title)}"></a>
- <div class="cv">{cover_img(lead.cover, 1600, lazy=False)}</div>
- <div class="tx"><div class="c-top">{logos(lead.tickers, 32)}<span class="tag">{TYPE_LABEL[lead.type]}</span></div><h1>{esc(lead.title)}</h1><p class="dek">{esc(lead.dek)}</p>
- <div class="meta">{chips(lead, 1)}{time_tag(lead)}</div></div></article>
- <div class="tiles t3">{"".join(tile(t) for t in tops)}</div></section>""")
-            if hero:
-                parts.append(hsec("The Daily", daily_card(hero), ("daily/", "All editions"),
-                                  "The story behind the market every morning, in charts."))
-            start = week_start(NOW.date())
-            parts.append(hsec("Earnings this week" if NOW.weekday() < 5 else "Earnings next week", earnings_days([start + dt.timedelta(days=i) for i in range(5)], 6),
-                              ("earnings/", "Full calendar"), "The big reporters. Tap a logo for our preview or recap."))
-            dl = discover_lists_cache()
-            hq = dl[0][6]
-            k = NOW.toordinal() % max(1, len(hq) // 3)
-            pick3 = (hq[k * 3:k * 3 + 3] if len(hq) >= 3 else hq) or hq[:3]
-            pills = "".join(f'<a href="{u("discover/" + key)}">{esc(tab)}</a>' for key, tab, *_ in dl) + f'<a href="{u("discover/picks/")}">Our picks</a>'
-            parts.append(hsec("Discover", f'<div class="pills">{pills}</div><div class="sks">{"".join(stock_card(t) for t in pick3)}</div>',
-                              ("discover/", "Explore"), "High-quality businesses, cheaper than their peers, growing fast, or throwing off cash."))
-        tiles_html = "".join(tile(s) for s in items)
         nav = []
         if pi > 0:
             nav.append(f'<a class="btn ghost" href="{u("" if pi == 1 else f"page/{pi}/")}">Newer stories</a>')
         if pi < pages - 1:
-            nav.append(f'<a class="btn ghost" href="{u(f"page/{pi + 2}/")}">More stories</a>')
-        parts.append(hsec("Latest stories" if pi == 0 else f"Latest stories, page {pi + 1}",
-                          f'<div class="tiles t3 feed">{tiles_html}</div><div class="more">{"".join(nav)}</div>'))
-        if pi == 0:
-            parts.append(f'<div class="wrap">{subscribe_box(wide=True)}</div>')
+            nav.append(f'<a class="btn ghost" href="{u(f"page/{pi + 2}/")}">Older stories</a>')
+        river = (f'<section class="river"><div class="rv-h"><h2>{"Latest" if pi == 0 else f"Latest, page {pi + 1}"}</h2>'
+                 f'<span class="rv-up">Updated {ago(STORIES[0].pub, "ago q")}</span></div><div class="chips" role="group" aria-label="Filter stories">{chips_html}</div>'
+                 f'<div class="feed cards-col">{mini_rows(items)}<p class="empty" hidden></p></div><div class="more">{"".join(nav)}</div></section>')
+        main = []
+        if pi == 0 and lead:
+            main.append(lead_block(lead))
+            main.append(f'<section class="tops2"><div class="rv-h"><h2>Top stories</h2><span class="rv-up">Newest first</span></div>'
+                        f'<div class="minis">{"".join(mini(x) for x in tops)}</div></section>')
+        main.append(river)
+        body = (f'<div class="wrap fg"><div class="fmain">{"".join(main)}</div>'
+                f'<aside class="frail" aria-label="Markets">{feed_rail()}{subscribe_box()}</aside></div>')
         path = "" if pi == 0 else f"page/{pi + 1}/"
         title = CFG["name"] + (": " + CFG["tagline"] if pi == 0 else f" | Latest stories, page {pi + 1}")
-        write(path, page(path, title, "\n".join(parts), CFG["tagline"] + " Why-it-moved stories, earnings, and our picks.",
-                         f"static/covers/{lead.cover}-1600.webp" if lead else None, active=""))
+        write(path, page(path, title, body, CFG["tagline"] + " Why-it-moved stories, earnings, analysis and our picks.",
+                         None, active=""))
     return pages
 
 
@@ -1479,9 +1816,15 @@ def stock_page(t: str) -> str:
     rangebar = (f'<div class="stat full">52-week range (closes)<div class="rangebar"><i style="left:calc({pos:.1f}% - 2px)"></i></div>'
                 f'<div><span>{money(lo52)}</span><span>{money(hi52)}</span></div></div>') if pos is not None else ""
     st = BY_TICKER.get(t, [])
-    stories_html = (mini_rows(st[:12]) if st else
-                    f'<p class="empty" style="text-align:left;padding:18px 0">We haven\'t written about {esc(name)} yet. '
-                    f'Follow it, and its first story will show under My stocks on the front page.</p>')
+    ours = "".join(mini(x) for x in st[:6])
+    heads = news_items(t, 12, since_days=21)
+    latest_html = (f'<section id="latest"><h2 class="sh2">The latest on {esc(name)}</h2>'
+                   f'<p class="lede">Our stories first, then the headlines that could move it, newest first.</p>'
+                   + (f'<div class="minis">{ours}</div>' if ours else
+                      f'<p class="empty" style="text-align:left;padding:14px 0">We haven\'t written about {esc(name)} yet. Follow it, and its first story will show under My stocks.</p>')
+                   + (f'<h3 class="sh3">Headlines from around the web</h3><ul class="nws big">{"".join(news_row(i) for i in heads)}</ul>' if heads else "")
+                   + (f'<details class="allst"><summary>All {len(st)} of our stories on {esc(name)}</summary>{mini_rows(st)}</details>' if len(st) > 6 else "")
+                   + "</section>")
     prow = []
     for p in peers_of(t, 8):
         pq = Q.get(p) or {}
@@ -1494,8 +1837,8 @@ def stock_page(t: str) -> str:
                   f'<tbody>{"".join(prow)}</tbody></table></section>') if prow else ""
     val = valuation_section(t)
     fin = fund_section(t)
-    nav = [("overview", "Overview")] + ([("quality", "Quality & valuation")] if val else []) + (
-        [("financials", "Financials")] if fin else []) + [("stories", "Stories")] + ([("peers", "Peers")] if prow else [])
+    nav = [("overview", "Overview"), ("latest", "Latest")] + ([("quality", "Quality & valuation")] if val else []) + (
+        [("financials", "Financials")] if fin else []) + ([("peers", "Peers")] if prow else [])
     navh = "".join(f'<a href="#{k}"{" class=on" if i == 0 else ""}>{v}</a>' for i, (k, v) in enumerate(nav))
     body = f"""<div class="sp wrap">
  <div class="crumbs"><a class="kick" href="{u('stocks/')}">Stocks</a><span class="kick">/</span><a class="kick" href="{u('sectors/' + slugify(x['sector']) + '/')}">{esc(x['sector'])}</a><span class="kick hide-m">/</span><span class="kick hide-m">{esc(x['industry'])}</span></div>
@@ -1513,12 +1856,13 @@ def stock_page(t: str) -> str:
  <div class="sp-main">
   <section id="overview"><div class="ranges" role="group" aria-label="Chart range">{ranges}</div><div class="pchart">{''.join(panels)}</div>
    <div class="stats show-t">{stat_html}{rangebar}</div></section>
+  {latest_html}
   {val}
   {fin}
-  <section id="stories"><h2 class="sh2">Stories on {esc(name)}</h2><div class="feed">{stories_html}</div></section>
   {peers_html}
  </div>
  <aside class="side"><div class="stats hide-t">{stat_html}{rangebar}</div>
+  {rail_movers()}
   {subscribe_box(title='Follow the market with us', text='The stories that moved stocks, every market day, free by email.')}</aside>
 </div></div>"""
     desc = f"{name} ({t}) stock: price, chart, quality and valuation against peers, financials and the latest stories explaining why it moved."
@@ -1613,9 +1957,9 @@ def discover_pages():
     picks = [s for s in STORIES if s.type == "list"][:9]
     body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
             f'and the price against its sector; they aren\'t advice to buy or sell.</p></div>{discover_tabs("picks/")}'
-            f'<div class="lst-h"><h2>Our picks</h2><p>Three stocks we love and one we hate, on one theme at a time, with the reasons in numbers.</p></div>'
+            f'<div class="lst-h"><h2>Our picks</h2><p>Three stocks we\'d skip and one we like, or the reverse, one theme at a time, with the reasons in numbers.</p></div>'
             f'<div class="feed-wrap" style="margin:8px 0 0"><div class="cards-col">{"".join(row(s) for s in picks)}</div></div></div>')
-    write("discover/picks/", page("discover/picks/", "Our picks | Discover", body, "Three stocks we love and one we hate.", active="discover/"))
+    write("discover/picks/", page("discover/picks/", "Our picks | Discover", body, "Three stocks we'd skip and one we like, with the reasons in numbers.", active="discover/"))
 
 
 def table_rows(ts):
@@ -1735,10 +2079,11 @@ def about_page():
 <ul><li><strong>Why it moved:</strong> a stock moved 4% or more on news, and we found the cause in at least two reliable sources.</li>
 <li><strong>Earnings:</strong> a preview the evening before each big report, and a recap minutes to hours after it.</li>
 <li><strong>Markets and the economy:</strong> the day's story at the close, the Fed, inflation and jobs.</li>
-<li><strong>Our picks:</strong> three stocks we love and one we hate, on one theme at a time, with the numbers behind each call.</li></ul>
+<li><strong>Analysis:</strong> the stories Wall Street is telling, the evidence for and against them, and who is arguing what.</li>
+<li><strong>Our picks:</strong> three stocks we'd skip and one we like, on one theme at a time, with the numbers behind each call.</li></ul>
 <h2>How we work</h2>
 <p>Every fact in a story is checked against two independent sources, and company figures against the company's own release or SEC filing. Stock prices come from Nasdaq and CNBC; financial history from SEC filings. Every number carries its basis: adjusted or not, year on year or quarter on quarter, at the close or after hours.</p>
-<p>Stories are researched and drafted with AI tools and checked against our sources before they go out; our writers publish under pen names. Cover images are AI-generated illustrations, not photographs of the companies named.</p>
+<p>Stories are researched and drafted with AI tools and checked against our sources before they go out; our writers publish under pen names. Charts are drawn from our own price files. Outside headlines link to the publishers that reported them.</p>
 <h2>What we aren't</h2>
 <p>Mostly Markets is for information and education only. It is not investment advice, and nothing on this site is a recommendation to buy or sell any security. We don't know your circumstances. Do your own research or talk to a licensed adviser before you invest.</p>
 <h2>Get it by email</h2>
@@ -1777,7 +2122,8 @@ def feeds():
         qd[t] = [q.get("price"), q.get("change_pct"), ext.get("price"), ext.get("change_pct"), lab,
                  "After hours" if ext.get("session") == "POST_MKT" else "Before the open"]
     (DIST / "data").mkdir(exist_ok=True)
-    (DIST / "data/quotes.json").write_text(json.dumps({"asof": QUOTES.get("asof"), "q": qd}, separators=(",", ":")))
+    md_ = {k: [v.get("price"), v.get("change_pct")] for k, v in MKT["markets"].items()}
+    (DIST / "data/quotes.json").write_text(json.dumps({"asof": QUOTES.get("asof"), "q": qd, "m": md_}, separators=(",", ":")))
     search = {"s": [[t, x["name"], x["sector"], 1 if t in LOGOS else 0, "High quality" if band((SCORES.get(t) or {}).get("q")) == "good" else ""]
                     for t, x in sorted(UMAP.items())],
               "n": [[s.title, s.path, f"{s.pub.day} {MON[s.pub.month - 1]}"] for s in STORIES[:400]]}

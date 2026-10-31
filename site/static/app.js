@@ -177,20 +177,74 @@
     secs.forEach(function (s) { if (s) io.observe(s); });
   }
 
-  /* relative times */
+  /* recency: every timestamp says how long ago, ticking; fresh stories say New; stories since your last visit get a dot */
+  var WDS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  function nyParts(d) {
+    var p = {}; new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", hour12: false, weekday: "short" }).formatToParts(d).forEach(function (x) { p[x.type] = x.value; });
+    return { day: p.year + "-" + p.month + "-" + p.day, h: +p.hour % 24, m: +p.minute, wd: p.weekday };
+  }
   function rel(iso) {
     var t = new Date(iso).getTime(), s = (Date.now() - t) / 1000;
-    if (isNaN(t) || s < 0 || s > 86400) return null;
-    if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
-    return Math.round(s / 3600) + "h ago";
+    if (isNaN(t) || s < -300) return null;
+    if (s < 60) return "Just now";
+    if (s < 3600) return Math.round(s / 60) + " min ago";
+    if (s < 6 * 3600) { var h = Math.floor(s / 3600), m = Math.round((s - h * 3600) / 60); return h + "h " + (m ? m + "m " : "") + "ago"; }
+    var a = nyParts(new Date(t)), n = nyParts(new Date()), y = nyParts(new Date(Date.now() - 864e5));
+    var hh = a.h % 12 || 12, tm = hh + ":" + (a.m < 10 ? "0" : "") + a.m + (a.h < 12 ? " a.m." : " p.m.");
+    if (a.day === n.day) return Math.round(s / 3600) + "h ago";
+    if (a.day === y.day) return "Yesterday, " + tm;
+    if (s < 6 * 864e5) return a.wd + ", " + tm;
+    return null;
   }
-  $$("time[data-rel]").forEach(function (el) { var r = rel(el.getAttribute("datetime")); if (r) el.textContent = r; });
+  var NEW_H = 6;
+  var lastVisit = (function () {
+    var prev = null;
+    try { prev = sessionStorage.getItem("mm-prev-visit"); } catch (e) {}
+    if (prev === null) { prev = String(store.get("mm-last-visit", "")); try { sessionStorage.setItem("mm-prev-visit", prev); } catch (e) {} }
+    store.set("mm-last-visit", Date.now());
+    return +prev || 0;
+  })();
+  function paintTimes() {
+    $$("time[data-rel]").forEach(function (el) { var r = rel(el.getAttribute("datetime")); if (r) el.textContent = r; });
+    $$("[data-pub]").forEach(function (el) {
+      var t = new Date(el.getAttribute("data-pub")).getTime(), age = (Date.now() - t) / 36e5;
+      el.classList.toggle("is-new", age >= -0.1 && age < NEW_H);
+      el.classList.toggle("unseen", lastVisit > 0 && t > lastVisit);
+    });
+    var n = nyParts(new Date()), y = nyParts(new Date(Date.now() - 864e5));
+    $$(".day[data-day]").forEach(function (d) {
+      var k = d.getAttribute("data-day"), sp = d.querySelector("span");
+      if (!sp.getAttribute("data-full")) sp.setAttribute("data-full", sp.textContent);
+      sp.textContent = k === n.day ? "Today · " + sp.getAttribute("data-full") : k === y.day ? "Yesterday · " + sp.getAttribute("data-full") : sp.getAttribute("data-full");
+    });
+    var st = $("[data-mstatus]");
+    if (st) {
+      var hol = (($(".mstrip") || {}).getAttribute ? $(".mstrip").getAttribute("data-hol") : "") || "";
+      var mins = n.h * 60 + n.m, wk = WDS.indexOf(n.wd) > 0 && WDS.indexOf(n.wd) < 6 && hol.indexOf(n.day) < 0;
+      var lab = "Markets closed", cls = "";
+      if (wk && mins >= 570 && mins < 960) { lab = "Markets open"; cls = "open"; }
+      else if (wk && mins >= 240 && mins < 570) { lab = "Pre-market"; cls = "ext"; }
+      else if (wk && mins >= 960 && mins < 1200) { lab = "After hours"; cls = "ext"; }
+      st.className = "ms-st " + cls; st.querySelector("span").textContent = lab;
+    }
+  }
+  paintTimes();
+  setInterval(paintTimes, 30000);
 
   /* live quotes (refreshed by the data job every 15 minutes) */
-  var live = $$("[data-live]");
-  if (live.length) {
+  var live = $$("[data-live]"), mk = $$("[data-mk]");
+  if (live.length || mk.length) {
     fetch(B + "data/quotes.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (q) {
       if (!q) return;
+      mk.forEach(function (el) {
+        var x = (q.m || {})[el.getAttribute("data-mk")]; if (!x || x[0] == null) return;
+        var kind = el.getAttribute("data-k");
+        if (kind === "chg" && x[1] != null) {
+          el.textContent = (x[1] >= 0 ? "▲ " : "▼ ") + Math.abs(x[1]).toFixed(2) + "%";
+          el.className = x[1] >= 0 ? "up" : "down";
+        } else if (kind === "lvl") el.textContent = x[0].toFixed(2) + "%";
+      });
       live.forEach(function (el) {
         var x = q.q[el.getAttribute("data-live")]; if (!x) return;
         var kind = el.getAttribute("data-k");
