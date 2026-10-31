@@ -284,7 +284,7 @@ class Story:
     def _cover(self):
         keys = COVERS["covers"]
         if (ROOT / f"assets/covers/story/{self.slug}-800.webp").exists():  # AI art drawn for this story
-            COVER_ALT[f"story/{self.slug}"] = self.fm.get("cover_alt") or "Illustration for this story"
+            COVER_ALT[f"story/{self.slug}"] = self.fm.get("cover_alt") or "Cover image for this story"
             return f"story/{self.slug}"
         want = self.fm.get("cover")
         if want in keys:
@@ -332,19 +332,17 @@ for p in sorted((ROOT / "content/articles").glob("*.md")):
 STORIES.sort(key=lambda s: s.pub, reverse=True)
 
 
-def spread_covers(window: int = 4):
+def spread_covers(order: list[Story], window: int = 4):
     """Stories without a photo of their own borrow a topic photo; swap a borrowed photo that one of the previous few
-    stories in the feed already shows for the next unused choice."""
+    stories in the feed (in the order it shows them: the top story first) already shows for the next unused choice."""
     shown: list[str] = []
-    for s in STORIES:
+    for s in order:
         if not s.cover.startswith("story/") and s.cover in shown[-window:]:
             alt = [o for o in getattr(s, "cover_opts", []) if o not in shown[-window:]]
             if alt:
                 s.cover = alt[0]
         shown.append(s.cover)
 
-
-spread_covers()
 BY_TICKER: dict[str, list[Story]] = defaultdict(list)
 for s in STORIES:
     for t in s.tickers:
@@ -887,8 +885,35 @@ def rail_news(t: str | None, n: int = 6) -> str:
                     (u(tpath(t)) + "#latest", "More") if t else None, "Headlines from around the web")
 
 
+def picture_first(s: Story, body: str) -> str:
+    """Readers should meet the evidence early. If a story's first chart or stat block sits deep in the text (older
+    templates put it last), move it up to right after the opening paragraph; a story with no picture at all gets the
+    main stock's last three months there, or that day's market map. Lists, movers and briefs keep their own order."""
+    if s.type in ("list", "movers", "brief", "daily"):
+        return body
+    end = body.find("</p>")
+    if end < 0:
+        return body
+    end += 4
+    if s.visuals:
+        v = s.visuals[0]
+        i = body.find(v)
+        if i < 0 or len(re.findall(r"\w+", re.sub(r"<[^>]+>", " ", body[:i]))) <= 140:
+            return body
+        body = body[:i] + body[i + len(v):]
+        return body[:end] + v + body[end:]
+    if s.tickers and prices(s.tickers[0]):
+        t = s.tickers[0]
+        name = UMAP[t]["name"]
+        v = C.price_chart(prices(t), "3m", s.date, f"{name}'s shares over the last three months",
+                          f"{name}, daily close, $, to {C.human(last_trading_day(s.date))}", "last")
+    else:
+        v = treemap_html(last_trading_day(s.date), n=160)
+    return body[:end] + v + body[end:]
+
+
 def story_page(s: Story) -> str:
-    body = render_body(s)
+    body = picture_first(s, render_body(s))
     sector = UMAP[s.tickers[0]]["sector"] if s.tickers else None
     crumbs = f'<span class="kick hl">{TYPE_LABEL[s.type]}</span>'
     if sector:
@@ -1248,9 +1273,9 @@ def src_av(name: str, size: int = 40) -> str:
 # Not news: personal-finance columns, shopping guides and members-only clubs that ride along in the market wires.
 JUNK_URL = ("/select/", "/buyside/", "/personal-finance/", "/retirement/", "/guides/", "/investingclub/", "/picks/",
             "moneyist", "/coupons/", "/underscored/", "/health/", "/lifestyle/", "/real-estate/")
-JUNK_TITLE = re.compile(r"^(we|i|my|should (i|we)|want|how to|ask|dear)\b|['’]re in our \d|savings accounts?\b|annuit|"
-                        r"\bbest\b.*\b(accounts|cards|companies|stocks to buy)\b|financial advisor|mortgage rates today|"
-                        r"\bcramer\b", re.I)
+JUNK_TITLE = re.compile(r"^(i['’]m|i['’]ve|i |my |should (i|we)\b|ask |dear )|['’]re in our \d|annuit|"
+                        r"\bbest\b.*\b(savings accounts|credit cards|cd rates|accounts|cards)\b|mortgage rates today|"
+                        r"\bcramer\b|^brief-", re.I)  # BRIEF- lines are Reuters' terse data wires: stock pages keep them
 STOP = {"with", "after", "from", "that", "this", "says", "said", "will", "have", "into", "over", "amid", "their", "about",
         "more", "than", "were", "what", "when", "they", "shares", "stock", "stocks"}
 
@@ -1284,7 +1309,9 @@ def feed_news(since: dt.datetime, until: dt.datetime) -> list[dict]:
     out: list[dict] = []
     for it in raw:
         w = _words(it["title"])
+        # A close rewrite only merges with a post about the same company (or both market-wide).
         dup = next((x for x in out if (x["title"] == it["title"] or (
+            (it["t"] in x["tickers"] if it["t"] else not x["tickers"]) and
             abs((x["dt"] - it["dt"]).total_seconds()) < 6 * 3600 and len(w & x["w"]) >= 4 and
             len(w & x["w"]) / len(w | x["w"]) >= .34))), None)
         if dup is None:
@@ -1425,8 +1452,8 @@ def home_pages():
         if pi < pages - 1:
             nav.append(f'<a class="btn ghost" href="{u(f"page/{pi + 2}/")}">Older stories</a>')
         top = ""
-        if pi == 0 and lead:
-            top = story_rail(groups, inner=True) + top_card(lead)
+        if pi == 0:
+            top = story_rail(groups, inner=True) + (top_card(lead) if lead else "")
         body = (f'<div class="fcol">{top}<section class="tline" aria-label="Latest">'
                 f'<div class="tline-h"><div class="ftabs" role="group" aria-label="Show">{tabs}</div>'
                 f'<span class="rv-up">Updated {ago(STORIES[0].pub, "ago q")}</span></div>'
@@ -2208,6 +2235,8 @@ def main():
     DIST.mkdir(exist_ok=True)
     static()
     compute_sector_medians()
+    lead = pick_lead([x for x in STORIES if x.type != "daily"])
+    spread_covers(([lead] if lead else []) + [x for x in STORIES if x is not lead])
     n = home_pages()
     for s in STORIES:
         write(s.path, daily_page(s) if s.type == "daily" else story_page(s))

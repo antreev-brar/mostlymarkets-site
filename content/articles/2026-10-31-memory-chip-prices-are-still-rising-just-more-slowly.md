@@ -7,6 +7,8 @@ author = "dev-malhotra"
 tickers = ["MU"]
 themes = ["memory-cycle", "hbm-pricing"]
 cover = "semis-wafer"
+cover_brief = "Close-up of a bare green computer memory module lying at a slight angle on a pale grey workbench, eight plain blank black chips with smooth matte tops, gold contact pins along its near edge, more modules stacked out of focus behind, flat overcast daylight from a window."
+cover_alt = "A green memory module on a workbench, stacks of modules blurred behind"
 sources = [
   "https://www.trendforce.com/presscenter/news/20260226-12937.html",
   "https://iconnect007.com/article/148959/price-rally-drives-4q25-dram-revenue-up-294-samsung-regains-no-1-market-share/148956/smt",

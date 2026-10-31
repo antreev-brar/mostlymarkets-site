@@ -10,6 +10,8 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "GOOGL", price = 283.82, change_pct = -12.64, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A neat row of simple plain silver-grey bicycles with thin bare frames and open spoked wheels, standing empty in a steel rack in the centre of the frame, a low plain glass-walled tech campus building softly out of focus behind, office lights still glowing inside, soft early-morning light, thin mist, deserted paved plaza"
+cover_alt = "Empty bicycles racked outside a lit glass office building on a misty morning"
 sources = [
   "https://abc.xyz/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
   "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",

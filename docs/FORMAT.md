@@ -41,7 +41,7 @@ sources = [
 | `sources` | yes | URLs for every fact that isn't from our price files: at least two independent outlets for the cause of a move, and the company's release for earnings numbers. They're kept for checking and never printed. |
 | `featured` | no | `true` pins the story as the lead on the front page until a newer featured story arrives. |
 | `themes` | no | Running-story keys this story belongs to (`["ai-capex", "memory-cycle"]`). A `narrative` lists every story sharing its themes as a story log; the others link back to it. See STYLE.md, "Story log". |
-| `cover_brief` | yes (new stories) | The scene for the story's cover photo, 25–55 words, drawn by `pipeline/covers.py`. Rules in STYLE.md, "Covers". |
+| `cover_brief` | expected (new stories; `check.py` warns) | The scene for the story's cover photo, 25–55 words, drawn by `pipeline/covers.py`. Rules in STYLE.md, "Covers". |
 | `cover_alt` | with `cover_brief` | What the photo shows, under 15 words, for screen readers and the caption. |
 | `status` | no | `draft` keeps the story out of the build. |
 | `event` | no | The event id that triggered the story. The pipeline sets it. |
@@ -147,7 +147,7 @@ skip: INTC
 
 `picks` draws stock cards (price, 1-day and 1-year moves, sector) at that point in a `list` story. Line kinds are `like` and `skip` (the older `love` and `hate` still work).
 
-**Pictures come first.** The story page shows the first chart or stat block at the top, under the headline, so put the picture that proves the story's main claim right after the opening paragraph. Every type except `brief` and `movers` needs at least one.
+**Pictures come early.** The story page opens with the cover photo; put the picture that proves the story's main claim (a chart or stat block) right after the opening paragraph. If the first one comes later, the page moves it up there, and a story with none gets the main stock's three-month price chart. Every type except `brief` and `movers` needs at least one.
 
 ## Checks (`pipeline/check.py`)
 

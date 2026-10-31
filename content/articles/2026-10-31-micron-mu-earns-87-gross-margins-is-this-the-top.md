@@ -7,6 +7,8 @@ author = "dev-malhotra"
 tickers = ["MU"]
 themes = ["memory-cycle", "hbm-pricing"]
 cover = "semis-fab"
+cover_brief = "A vast plain white semiconductor fab, long windowless unmarked clean-room blocks with rows of rooftop air handlers, centred at the foot of steep snow-capped mountains rising right behind it, warm low golden-hour sun on the peaks and its walls, green fields in front, seen from afar"
+cover_alt = "A long white chip factory beneath snow-capped mountains in golden-hour light"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",

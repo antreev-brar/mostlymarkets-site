@@ -50,6 +50,10 @@ Title: "Why {Name} ({TKR}) Stock Is {Up|Down|Soaring|Falling|Sinking} Today", or
 ```
 ## What happened
 Shares of {one-line description} {Name} ($TKR) {verb} {x.x}% {when: in the morning session / on Thursday / after hours} after {cause}.
+
+```chart  (price, 6m or 1y, mark last, with a `notes` marker on the news)
+```
+
 1–2 paragraphs on the cause: who said what, the numbers behind it, sourced inline.
 If the session is over: "The shares closed at $X, {up|down} Y% from the previous close."
 
@@ -59,14 +63,14 @@ If the session is over: "The shares closed at $X, {up|down} Y% from the previous
 ## What the market is telling us
 Use the sentences from `python3 pipeline/facts.py TKR --asof YYYY-MM-DD`: how often it moves 5%, the last move this big, the year to date, the distance from the 52-week high, and $1,000 five years ago. Then one sentence of our own judgment.
 
-```chart  (price, 6m or 1y, mark last)
-```
-
 ### `earnings-recap`
 Title: "{Name} ({TKR}) {Beats|Misses|Tops} Q3 Estimates as {driver}" or "{Name} ({TKR}) Q3: {Result}, {Stock reaction}".
 
 ```
 Lede: {Name} ($TKR) reported {quarter} revenue of $X, {up/down Y% year on year}, {beating/missing} the $Z analysts expected. {Adjusted EPS line.} {The stock's reaction, with the session.}
+
+```chart  (bars: the last 8 quarters of revenue or the key segment; highlight the latest)
+```
 
 ```highlights  (revenue, EPS, the 1–3 numbers investors watch for this company, guidance, market value)
 ```
@@ -77,9 +81,6 @@ The driver: segment numbers, margins, the one line from the CEO or CFO that expl
 ## The outlook
 Guidance against expectations; what management said about next quarter.
 
-```chart  (bars: the last 8 quarters of revenue or the key segment; highlight the latest)
-```
-
 ## Our take
 2–3 sentences: good, bad, and what to watch next quarter.
 ```
@@ -89,6 +90,7 @@ Title: "What to Expect From {Name}'s ({TKR}) Q3 Earnings" or "{Name} ({TKR}) Rep
 
 ```
 {Name} ($TKR) reports {quarter} results {before the open / after the close} on {weekday, date}.
+```chart (price, 6m, with a `notes` marker on last quarter's report)```
 Last quarter: what happened and how the stock reacted.
 ## What analysts expect
 Consensus revenue and EPS (name the data provider: LSEG, FactSet or Zacks via the outlet that reported it), against a year ago.
@@ -96,7 +98,6 @@ Consensus revenue and EPS (name the data provider: LSEG, FactSet or Zacks via th
 3 bullets: the numbers or comments that will move the stock.
 ## How the stock has done
 facts.py: YTD, 1-month, against the 52-week high.
-```chart (price, 6m)```
 ```
 
 ### `market-wrap` ("Stock Market Today")
@@ -104,6 +105,7 @@ Title: "Stock Market Today: {the story of the day, in plain words}".
 
 ```
 Lede: the day's story in 2–3 sentences: the cause, the S&P 500/Nasdaq/Dow close, the one stock everyone talked about.
+```chart (treemap or contrib for the day, or the price of the stock everyone talked about)```
 ## {Story 1 headline}  ... ## {Story 2} ... (2–4 sections, each 1–3 paragraphs, linking to the day's why-it-moved stories)
 ## The numbers
 A table at the end: S&P 500, Nasdaq Composite, Dow, Russell 2000, 10-year yield, oil (WTI), bitcoin, with close and % change.

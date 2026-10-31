@@ -185,12 +185,13 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
                 errs.append(f"daily take {head!r} has no chart or stat block")
             if len(head) > 70:
                 warns.append(f"daily take headline is long ({len(head)} chars): {head!r}")
-    # Pictures: every story but a brief or a movers list leads with one, and the reader should meet it early.
+    # Pictures: every story but a brief or a movers list has one, and the reader meets it right after the opening
+    # (the page moves a late first picture up there, and adds the main stock's price chart when there is none).
     vis = [m.start() for m in re.finditer(r"^```(chart|stat)\s*$", body, re.M)]
     if t not in ("brief", "movers") and not vis:
-        warns.append("no chart or stat block: the page will fall back to a plain price chart; give it a picture that proves the point")
+        warns.append("no chart or stat block: the page will add the main stock's three-month price chart; give it a picture that proves the point")
     elif vis and t not in ("list", "movers") and words(body[:vis[0]]) > 260:
-        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening paragraph")
+        warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening paragraph (the page moves it there)")
     # The cover photo (STYLE.md, "Covers"): a documentary scene for FLUX, no text, charts or real people.
     brief = fm.get("cover_brief") or ""
     if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":

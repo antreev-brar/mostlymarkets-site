@@ -133,6 +133,6 @@ The owner on v5: "the front page looks uglier than ever you are just throwing wa
   - **X posts our stories quote**, at their own time, linking to the post and to our story.
   - Tabs: All, Our stories, Headlines, My stocks (follows).
 - **Covers:** every story has a photo again. Since 1 Nov the house look is **documentary editorial photography** (the look of the 56 topic photos in `assets/covers/`), drawn free with FLUX.1 schnell on AI Horde from the writer's `cover_brief` (STYLE.md, "Covers"). The 28 collage covers were redrawn as photos (masters of the collages are kept in `cover-masters/story-collage-2026-10-31/`). Story and edition pages caption the cover "Image: AI-generated".
-- **Article:** header, then the cover photo, then the story as written (the first chart right after the opening paragraph; nothing is lifted). The rail: the story's stocks, headlines on the main stock, just published.
+- **Article:** header, then the cover photo, then the story with its first chart or stat block right after the opening paragraph (`picture_first` moves a late one up there, and gives a story with none the main stock's three months). The rail: the story's stocks, headlines on the main stock, just published.
 - **The Daily:** editions show their cover again (archive rows, today's edition, the edition page, the stories-rail circle).
 - **Kept from v5:** separate pages, ticking relative times, the New pill (top story) and the unseen dot, story types, story logs, X cards, per-stock headlines on stock pages.
