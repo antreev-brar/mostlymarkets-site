@@ -4,6 +4,9 @@ GitHub drops most scheduled runs of a busy cron, so data.yml no longer relies on
 inside a single job for up to ~5.5 hours and, when its time is up mid-session, dispatches its own successor.
 The crons in data.yml are only starters and backups.
 
+Each pass: refresh.py (quotes, prices, calendars, filings), news.py (headlines and X posts), detect.py (queue story
+events), data_push.sh, commit events, dispatch build.yml.
+
 Slots (New York time):
 - weekdays 06:00-19:45: every 15 minutes
 - weekdays 20:30-23:30: hourly at :30
@@ -79,6 +82,15 @@ def one_pass() -> None:
     if not sh([sys.executable, "pipeline/refresh.py"]):
         print("::warning::refresh failed; skipping this pass (nothing saved)")
         return
+    # Headlines (pipeline/news.py): the market's every pass, the 150 biggest stocks hourly (and every weekend pass),
+    # every stock once a day, and X posts embedded in stories. The detector reads them, so this comes first.
+    now = md.now_et()
+    news = [sys.executable, "pipeline/news.py", "--market", "--tweets"]
+    if now.weekday() >= 5 or now.minute < 15:
+        news += ["--top", "150"]
+    if now.weekday() < 5 and now.hour == 6 and now.minute < 15:
+        news = [sys.executable, "pipeline/news.py", "--market", "--tweets", "--all"]
+    sh(news)
     with tempfile.NamedTemporaryFile("r", suffix=".out") as out:
         sh([sys.executable, "pipeline/detect.py"], env={**os.environ, "GITHUB_OUTPUT": out.name})
         flags = dict(line.strip().split("=", 1) for line in out if "=" in line)

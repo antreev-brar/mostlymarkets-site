@@ -2133,13 +2133,8 @@ def feeds():
 def static():
     out = DIST / "static"
     shutil.copytree(SITE / "static", out, dirs_exist_ok=True)
-    cov = out / "covers"
-    cov.mkdir(exist_ok=True)
-    for f in (ROOT / "assets/covers").rglob("*.webp"):
-        dst = cov / f.relative_to(ROOT / "assets/covers")
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        if not dst.exists() or dst.stat().st_size != f.stat().st_size:
-            shutil.copy2(f, dst)
+    # Cover art is retired (v5): pages use charts drawn from our prices, so assets/covers isn't shipped.
+    shutil.rmtree(out / "covers", ignore_errors=True)
     lg = out / "logos"
     lg.mkdir(exist_ok=True)
     for f in (ROOT / "assets/logos").glob("*.png"):

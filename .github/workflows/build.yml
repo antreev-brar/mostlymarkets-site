@@ -23,6 +23,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: bash pipeline/data_pull.sh
+      - name: Cache X posts embedded in stories
+        run: python3 pipeline/news.py --tweets || echo "::warning::could not cache X posts; they show as links"
       - name: Check stories
         run: python3 pipeline/check.py || echo "::warning::some stories fail checks"
       - name: Build site
