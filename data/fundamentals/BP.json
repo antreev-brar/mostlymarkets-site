@@ -1,0 +1,161 @@
+{
+ "ticker": "BP",
+ "cik": "0000313807",
+ "name": "BP PLC",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2023-06-30",
+   "fy": 2023,
+   "fp": "Q2",
+   "label": "Q2 FY23",
+   "filed": "2023-08-01",
+   "form": "6-K",
+   "revenue": 49479000000,
+   "gross_profit": null,
+   "operating_income": 4353000000,
+   "net_income": 1792000000,
+   "eps_diluted": null,
+   "ocf": 6293000000,
+   "capex": 3453000000,
+   "fcf": 2840000000,
+   "shares_diluted": null
+  },
+  {
+   "end": "2024-06-30",
+   "fy": 2024,
+   "fp": "Q2",
+   "label": "Q2 FY24",
+   "filed": "2024-07-30",
+   "form": "6-K",
+   "revenue": 48250000000,
+   "gross_profit": null,
+   "operating_income": 2430000000,
+   "net_income": -129000000,
+   "eps_diluted": null,
+   "ocf": 8100000000,
+   "capex": 3463000000,
+   "fcf": 4637000000,
+   "shares_diluted": null
+  },
+  {
+   "end": "2025-06-30",
+   "fy": 2025,
+   "fp": "Q2",
+   "label": "Q2 FY25",
+   "filed": "2025-08-05",
+   "form": "6-K",
+   "revenue": 47677000000,
+   "gross_profit": null,
+   "operating_income": 4056000000,
+   "net_income": 1629000000,
+   "eps_diluted": null,
+   "ocf": 6271000000,
+   "capex": 3236000000,
+   "fcf": 3035000000,
+   "shares_diluted": null
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 186606000000,
+   "operating_income": -430000000,
+   "net_income": 115000000,
+   "eps_diluted": null,
+   "fcf": -6010000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 244582000000,
+   "operating_income": 9474000000,
+   "net_income": 3389000000,
+   "eps_diluted": null,
+   "fcf": 2369000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 303738000000,
+   "operating_income": 19378000000,
+   "net_income": 9383000000,
+   "eps_diluted": null,
+   "fcf": 6166000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 163526000000,
+   "operating_income": 11706000000,
+   "net_income": 4026000000,
+   "eps_diluted": null,
+   "fcf": 10352000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 109078000000,
+   "operating_income": -21740000000,
+   "net_income": -20305000000,
+   "eps_diluted": null,
+   "fcf": -144000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 164195000000,
+   "operating_income": 18082000000,
+   "net_income": 7565000000,
+   "eps_diluted": null,
+   "fcf": 12725000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 248891000000,
+   "operating_income": 18039000000,
+   "net_income": -2487000000,
+   "eps_diluted": null,
+   "fcf": 28863000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 213032000000,
+   "operating_income": 27348000000,
+   "net_income": 15239000000,
+   "eps_diluted": null,
+   "fcf": 17754000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 194629000000,
+   "operating_income": 11297000000,
+   "net_income": 381000000,
+   "eps_diluted": null,
+   "fcf": 12000000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 192549000000,
+   "operating_income": 12642000000,
+   "net_income": 55000000,
+   "eps_diluted": null,
+   "fcf": 11272000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 36556000000,
+  "debt": 57958000000,
+  "equity": 53052000000,
+  "shares_outstanding": null
+ }
+}

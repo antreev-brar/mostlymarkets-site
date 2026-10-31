@@ -1,0 +1,109 @@
+{
+ "ticker": "NVO",
+ "cik": "0000353278",
+ "name": "NOVO NORDISK A/S",
+ "currency": "DKK",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 111780000000,
+   "operating_income": 48432000000,
+   "net_income": 37925000000,
+   "eps_diluted": 7.48,
+   "fcf": 41246000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 111696000000,
+   "operating_income": 48967000000,
+   "net_income": 38130000000,
+   "eps_diluted": 7.695,
+   "fcf": 33542000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 111831000000,
+   "operating_income": 47248000000,
+   "net_income": 38628000000,
+   "eps_diluted": 7.965,
+   "fcf": 34980000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 122021000000,
+   "operating_income": 52483000000,
+   "net_income": 38951000000,
+   "eps_diluted": 8.19,
+   "fcf": 37850000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 126946000000,
+   "operating_income": 54126000000,
+   "net_income": 42138000000,
+   "eps_diluted": 9.005,
+   "fcf": 46126000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 140800000000,
+   "operating_income": 58644000000,
+   "net_income": 47757000000,
+   "eps_diluted": 10.37,
+   "fcf": 48665000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 176954000000,
+   "operating_income": 74809000000,
+   "net_income": 55525000000,
+   "eps_diluted": 12.22,
+   "fcf": 66741000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 232261000000,
+   "operating_income": 102574000000,
+   "net_income": 83683000000,
+   "eps_diluted": 18.62,
+   "fcf": 83102000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 290403000000,
+   "operating_income": 128339000000,
+   "net_income": 100988000000,
+   "eps_diluted": 22.63,
+   "fcf": 73804000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 309064000000,
+   "operating_income": 127658000000,
+   "net_income": 102434000000,
+   "eps_diluted": 23.03,
+   "fcf": 58962000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 26464000000,
+  "debt": 142975000000,
+  "equity": 194047000000,
+  "shares_outstanding": 4444000000
+ }
+}

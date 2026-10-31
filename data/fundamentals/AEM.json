@@ -1,0 +1,109 @@
+{
+ "ticker": "AEM",
+ "cik": "0000002809",
+ "name": "AGNICO EAGLE MINES LIMITED",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 2138232000,
+   "operating_income": 1079523000,
+   "net_income": 158824000,
+   "eps_diluted": 0.7,
+   "fcf": 262567000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 2242604000,
+   "operating_income": 1043312000,
+   "net_income": 240795000,
+   "eps_diluted": 1.04,
+   "fcf": -106596000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 2191221000,
+   "operating_income": 503503000,
+   "net_income": -326701000,
+   "eps_diluted": -1.4,
+   "fcf": -483450000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 2494892000,
+   "operating_income": 1488229000,
+   "net_income": 473166000,
+   "eps_diluted": 1.99,
+   "fcf": -972000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 3138113000,
+   "operating_income": 1600469000,
+   "net_income": 511607000,
+   "eps_diluted": 2.1,
+   "fcf": 432712000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 3869625000,
+   "operating_income": 1943990000,
+   "net_income": 561945000,
+   "eps_diluted": 2.3,
+   "fcf": 448310000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 5741162000,
+   "operating_income": 2771724000,
+   "net_income": 670249000,
+   "eps_diluted": 1.53,
+   "fcf": 558399000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 6626909000,
+   "operating_income": null,
+   "net_income": 1941307000,
+   "eps_diluted": 3.95,
+   "fcf": 947433000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 8285753000,
+   "operating_income": null,
+   "net_income": 1895581000,
+   "eps_diluted": 3.78,
+   "fcf": 2142943000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 11907851000,
+   "operating_income": null,
+   "net_income": 4461461000,
+   "eps_diluted": 8.86,
+   "fcf": 4398913000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 2866053000,
+  "debt": 196271000,
+  "equity": 24742464000,
+  "shares_outstanding": 500046600
+ }
+}

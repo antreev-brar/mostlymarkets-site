@@ -1,0 +1,109 @@
+{
+ "ticker": "CCJ",
+ "cik": "0001009001",
+ "name": "CAMECO CORPORATION",
+ "currency": "CAD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 2431404000,
+   "operating_income": -141785000,
+   "net_income": -61611000,
+   "eps_diluted": -0.16,
+   "fcf": 95472000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 2156852000,
+   "operating_income": -127734000,
+   "net_income": -204942000,
+   "eps_diluted": -0.52,
+   "fcf": 482022000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 2091661000,
+   "operating_income": 70237000,
+   "net_income": 166323000,
+   "eps_diluted": 0.42,
+   "fcf": 612154000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 1862925000,
+   "operating_income": 92411000,
+   "net_income": 74000000,
+   "eps_diluted": 0.19,
+   "fcf": 451813000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 1800073000,
+   "operating_income": -78726000,
+   "net_income": -53169000,
+   "eps_diluted": -0.13,
+   "fcf": -20573000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 1474984000,
+   "operating_income": -136212000,
+   "net_income": -102577000,
+   "eps_diluted": -0.26,
+   "fcf": 359504000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 1868003000,
+   "operating_income": 15051000,
+   "net_income": 89382000,
+   "eps_diluted": 0.22,
+   "fcf": 161159000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 2587758000,
+   "operating_income": 282861000,
+   "net_income": 360847000,
+   "eps_diluted": 0.83,
+   "fcf": 534505000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 3135772000,
+   "operating_income": 510114000,
+   "net_income": 171853000,
+   "eps_diluted": 0.39,
+   "fcf": 693653000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 3481933000,
+   "operating_income": 618142000,
+   "net_income": 589577000,
+   "eps_diluted": 1.35,
+   "fcf": 1075407000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 1114860000,
+  "debt": 996348000,
+  "equity": 6903363000,
+  "shares_outstanding": 435457978
+ }
+}

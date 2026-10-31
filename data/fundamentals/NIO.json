@@ -1,0 +1,109 @@
+{
+ "ticker": "NIO",
+ "cik": "0001736541",
+ "name": "NIO Inc.",
+ "currency": "CNY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 0,
+   "operating_income": -2602540000,
+   "net_income": -2573254000,
+   "eps_diluted": -210.66,
+   "fcf": null
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 0,
+   "operating_income": -4953596000,
+   "net_income": -5021174000,
+   "eps_diluted": -346.84,
+   "fcf": -5688612000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 4951171000,
+   "operating_income": -9595608000,
+   "net_income": -9638979000,
+   "eps_diluted": -70.23,
+   "fcf": -10555732000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 7824904000,
+   "operating_income": -11079189000,
+   "net_income": -11295652000,
+   "eps_diluted": -11.08,
+   "fcf": -10428493000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 16257933000,
+   "operating_income": -4607645000,
+   "net_income": -5304082000,
+   "eps_diluted": -4.74,
+   "fcf": 823208000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 36136423000,
+   "operating_income": -4496303000,
+   "net_income": -4016949000,
+   "eps_diluted": -6.72,
+   "fcf": -2112378000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 49268561000,
+   "operating_income": -15640659000,
+   "net_income": -14437104000,
+   "eps_diluted": -8.89,
+   "fcf": -10838862000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 55617933000,
+   "operating_income": -22655184000,
+   "net_income": -20719753000,
+   "eps_diluted": -12.44,
+   "fcf": -15722317000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 65731559000,
+   "operating_income": -21874073000,
+   "net_income": -22401709000,
+   "eps_diluted": -11.03,
+   "fcf": -16991461000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 87487510000,
+   "operating_income": -14041238000,
+   "net_income": -14942601000,
+   "eps_diluted": -6.85,
+   "fcf": -3072614000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 11274094000,
+  "debt": 18666063000,
+  "equity": 4159460000,
+  "shares_outstanding": 2474273324
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "ticker": "UBS",
+ "cik": "0001610520",
+ "name": "UBS Group AG",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2023-03-31",
+   "fy": 2023,
+   "fp": "Q1",
+   "label": "Q1 FY23",
+   "filed": "2023-08-31",
+   "form": "6-K",
+   "revenue": 8744000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 1037000000,
+   "eps_diluted": 0.32,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2023-06-30",
+   "fy": 2023,
+   "fp": "Q2",
+   "label": "Q2 FY23",
+   "filed": "2023-08-31",
+   "form": "6-K",
+   "revenue": 9540000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 27334000000,
+   "eps_diluted": 8.51,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2024-03-31",
+   "fy": 2024,
+   "fp": "Q1",
+   "label": "Q1 FY24",
+   "filed": "2024-08-14",
+   "form": "6-K",
+   "revenue": 12739000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 1764000000,
+   "eps_diluted": 0.52,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2024-06-30",
+   "fy": 2024,
+   "fp": "Q2",
+   "label": "Q2 FY24",
+   "filed": "2024-08-14",
+   "form": "6-K",
+   "revenue": 11904000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 1175000000,
+   "eps_diluted": 0.34,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2025-03-31",
+   "fy": 2025,
+   "fp": "Q1",
+   "label": "Q1 FY25",
+   "filed": "2025-07-30",
+   "form": "6-K",
+   "revenue": 12557000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 1702000000,
+   "eps_diluted": 0.51,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2025-06-30",
+   "fy": 2025,
+   "fp": "Q2",
+   "label": "Q2 FY25",
+   "filed": "2025-07-30",
+   "form": "6-K",
+   "revenue": 12112000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 2402000000,
+   "eps_diluted": 0.72,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 28766000000,
+   "operating_income": null,
+   "net_income": 3432000000,
+   "eps_diluted": 0.88,
+   "fcf": null
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 29754000000,
+   "operating_income": null,
+   "net_income": 1046000000,
+   "eps_diluted": 0.25,
+   "fcf": null
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 30330000000,
+   "operating_income": null,
+   "net_income": 4522000000,
+   "eps_diluted": 1.18,
+   "fcf": null
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 28967000000,
+   "operating_income": null,
+   "net_income": 4310000000,
+   "eps_diluted": 1.14,
+   "fcf": null
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 33084000000,
+   "operating_income": null,
+   "net_income": 6572000000,
+   "eps_diluted": 1.77,
+   "fcf": null
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 35393000000,
+   "operating_income": null,
+   "net_income": 7486000000,
+   "eps_diluted": 2.06,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 34563000000,
+   "operating_income": null,
+   "net_income": 7661000000,
+   "eps_diluted": 2.25,
+   "fcf": null
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 40834000000,
+   "operating_income": null,
+   "net_income": 27382000000,
+   "eps_diluted": 8.3,
+   "fcf": null
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 48611000000,
+   "operating_income": null,
+   "net_income": 5146000000,
+   "eps_diluted": 1.52,
+   "fcf": null
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 49573000000,
+   "operating_income": null,
+   "net_income": 7797000000,
+   "eps_diluted": 2.36,
+   "fcf": null
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 231375000000,
+  "debt": null,
+  "equity": 90213000000,
+  "shares_outstanding": 3341581714
+ }
+}

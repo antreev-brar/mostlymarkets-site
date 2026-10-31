@@ -1,0 +1,41 @@
+[
+{
+"ticker": "CSCO",
+"name": "Cisco Systems, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.15,
+"n_estimates": 8,
+"eps_last_year": 0.81,
+"last_year_date": "11/12/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 428125520000.0
+},
+{
+"ticker": "TDG",
+"name": "Transdigm Group Incorporated",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 11.43,
+"n_estimates": 5,
+"eps_last_year": 10.47,
+"last_year_date": "11/12/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 65000219000.0
+},
+{
+"ticker": "VYLR",
+"name": "Vylor Inc.",
+"time": "amc",
+"quarter": "Sep/2026",
+"eps_forecast": null,
+"n_estimates": 2,
+"eps_last_year": null,
+"last_year_date": "N/A",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 48499577000.0
+}
+]

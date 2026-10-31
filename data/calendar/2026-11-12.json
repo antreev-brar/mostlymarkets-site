@@ -1,0 +1,41 @@
+[
+{
+"ticker": "AMAT",
+"name": "Applied Materials, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 4.06,
+"n_estimates": 10,
+"eps_last_year": 2.17,
+"last_year_date": "11/13/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 334628291000.0
+},
+{
+"ticker": "NU",
+"name": "Nu Holdings Ltd.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 0.23,
+"n_estimates": 4,
+"eps_last_year": 0.17,
+"last_year_date": "11/13/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 58510868000.0
+},
+{
+"ticker": "JD",
+"name": "JD.com, Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 0.95,
+"n_estimates": 2,
+"eps_last_year": 0.44,
+"last_year_date": "11/13/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 34446721000.0
+}
+]

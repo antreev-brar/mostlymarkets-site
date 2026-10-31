@@ -1,0 +1,109 @@
+{
+ "ticker": "SAP",
+ "cik": "0001000184",
+ "name": "SAP SE",
+ "currency": "EUR",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 22062000000,
+   "operating_income": 5135000000,
+   "net_income": 3642000000,
+   "eps_diluted": 3.04,
+   "fcf": 3627000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 23461000000,
+   "operating_income": 4877000000,
+   "net_income": 4008000000,
+   "eps_diluted": 3.35,
+   "fcf": 3770000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 24708000000,
+   "operating_income": 5703000000,
+   "net_income": 4083000000,
+   "eps_diluted": 3.42,
+   "fcf": 2845000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 27553000000,
+   "operating_income": 4473000000,
+   "net_income": 3321000000,
+   "eps_diluted": 2.78,
+   "fcf": 2679000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 27338000000,
+   "operating_income": 6623000000,
+   "net_income": 5145000000,
+   "eps_diluted": 4.35,
+   "fcf": 6378000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 26953000000,
+   "operating_income": 6308000000,
+   "net_income": 5256000000,
+   "eps_diluted": 4.46,
+   "fcf": 5522000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 29520000000,
+   "operating_income": 5914000000,
+   "net_income": 2284000000,
+   "eps_diluted": 1.94,
+   "fcf": 4770000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 31207000000,
+   "operating_income": 5799000000,
+   "net_income": 6139000000,
+   "eps_diluted": 5.2,
+   "fcf": 5461000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 34176000000,
+   "operating_income": 4665000000,
+   "net_income": 3124000000,
+   "eps_diluted": 2.65,
+   "fcf": 4410000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 36800000000,
+   "operating_income": 9617000000,
+   "net_income": 7161000000,
+   "eps_diluted": 6.1,
+   "fcf": 8417000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 8220000000,
+  "debt": 6150000000,
+  "equity": 44586000000,
+  "shares_outstanding": 1228504232
+ }
+}

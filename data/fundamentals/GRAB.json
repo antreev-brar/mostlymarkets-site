@@ -1,0 +1,82 @@
+{
+ "ticker": "GRAB",
+ "cik": "0001855612",
+ "name": "GRAB HOLDINGS LIMITED",
+ "currency": "USD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": -845000000,
+   "operating_income": -3010000000,
+   "net_income": -3747000000,
+   "eps_diluted": -24.31,
+   "fcf": null
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 469000000,
+   "operating_income": -1298000000,
+   "net_income": -2608000000,
+   "eps_diluted": -14.39,
+   "fcf": null
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 675000000,
+   "operating_income": -1555000000,
+   "net_income": -3449000000,
+   "eps_diluted": -6.39,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 1433000000,
+   "operating_income": -1373000000,
+   "net_income": -1683000000,
+   "eps_diluted": -0.44,
+   "fcf": -856000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 2359000000,
+   "operating_income": -519000000,
+   "net_income": -434000000,
+   "eps_diluted": -0.11,
+   "fcf": 15000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 2797000000,
+   "operating_income": -168000000,
+   "net_income": -105000000,
+   "eps_diluted": -0.03,
+   "fcf": 775000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 3370000000,
+   "operating_income": 65000000,
+   "net_income": 268000000,
+   "eps_diluted": 0.06,
+   "fcf": -18000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 3433000000,
+  "debt": 3733000000,
+  "equity": 6728000000,
+  "shares_outstanding": null
+ }
+}

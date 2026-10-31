@@ -1,0 +1,109 @@
+{
+ "ticker": "HSBC",
+ "cik": "0001089113",
+ "name": "HSBC HOLDINGS PLC",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 47966000000,
+   "operating_income": 4758000000,
+   "net_income": 2479000000,
+   "eps_diluted": 0.07,
+   "fcf": 67808000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 51445000000,
+   "operating_income": 14792000000,
+   "net_income": 10798000000,
+   "eps_diluted": 0.48,
+   "fcf": -13581000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 53780000000,
+   "operating_income": 17354000000,
+   "net_income": 13727000000,
+   "eps_diluted": 0.63,
+   "fcf": 31319000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 56098000000,
+   "operating_income": 10993000000,
+   "net_income": 7383000000,
+   "eps_diluted": 0.3,
+   "fcf": 28400000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 50429000000,
+   "operating_income": 7180000000,
+   "net_income": 5229000000,
+   "eps_diluted": 0.19,
+   "fcf": 180774000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 49552000000,
+   "operating_income": 15860000000,
+   "net_income": 13917000000,
+   "eps_diluted": 0.62,
+   "fcf": 103226000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 50620000000,
+   "operating_income": 14335000000,
+   "net_income": 16035000000,
+   "eps_diluted": 0.72,
+   "fcf": 18071000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 66058000000,
+   "operating_income": 30541000000,
+   "net_income": 24559000000,
+   "eps_diluted": 1.14,
+   "fcf": 37966000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 65854000000,
+   "operating_income": 29397000000,
+   "net_income": 24999000000,
+   "eps_diluted": 1.24,
+   "fcf": 63961000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 68274000000,
+   "operating_income": 27996000000,
+   "net_income": 23131000000,
+   "eps_diluted": 1.2,
+   "fcf": 28319000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 432887000000,
+  "debt": null,
+  "equity": 198225000000,
+  "shares_outstanding": 17175239862
+ }
+}

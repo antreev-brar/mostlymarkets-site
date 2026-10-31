@@ -1,0 +1,134 @@
+{
+ "ticker": "ONON",
+ "cik": "0001858985",
+ "name": "On Holding AG",
+ "currency": "CHF",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2023-06-30",
+   "fy": 2023,
+   "fp": "Q2",
+   "label": "Q2 FY23",
+   "filed": "2023-08-15",
+   "form": "6-K",
+   "revenue": 444300000,
+   "gross_profit": 264500000,
+   "operating_income": 39400000,
+   "net_income": 3300000,
+   "eps_diluted": null,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2024-06-30",
+   "fy": 2024,
+   "fp": "Q2",
+   "label": "Q2 FY24",
+   "filed": "2024-08-13",
+   "form": "6-K",
+   "revenue": 567700000,
+   "gross_profit": 340200000,
+   "operating_income": 47300000,
+   "net_income": 30800000,
+   "eps_diluted": null,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  },
+  {
+   "end": "2025-06-30",
+   "fy": 2025,
+   "fp": "Q2",
+   "label": "Q2 FY25",
+   "filed": "2025-08-12",
+   "form": "6-K",
+   "revenue": 749200000,
+   "gross_profit": 460800000,
+   "operating_income": 92800000,
+   "net_income": -40900000,
+   "eps_diluted": null,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": null
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 267120000,
+   "operating_income": 5689000,
+   "net_income": -1473000,
+   "eps_diluted": null,
+   "fcf": -12650000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 425300000,
+   "operating_income": -17100000,
+   "net_income": -27500000,
+   "eps_diluted": null,
+   "fcf": -25700000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 724600000,
+   "operating_income": -141100000,
+   "net_income": -170200000,
+   "eps_diluted": null,
+   "fcf": -7700000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 1222100000,
+   "operating_income": 85100000,
+   "net_income": 57700000,
+   "eps_diluted": null,
+   "fcf": -287300000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 1792100000,
+   "operating_income": 180200000,
+   "net_income": 79600000,
+   "eps_diluted": null,
+   "fcf": 189300000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 2318300000,
+   "operating_income": 211600000,
+   "net_income": 242300000,
+   "eps_diluted": null,
+   "fcf": 450100000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 3014000000,
+   "operating_income": 377000000,
+   "net_income": 203700000,
+   "eps_diluted": null,
+   "fcf": 286600000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 1019900000,
+  "debt": null,
+  "equity": 1632400000,
+  "shares_outstanding": 296873353
+ }
+}

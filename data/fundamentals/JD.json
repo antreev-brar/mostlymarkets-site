@@ -1,0 +1,109 @@
+{
+ "ticker": "JD",
+ "cik": "0001549802",
+ "name": "JD.com, Inc.",
+ "currency": "CNY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 258289947000,
+   "operating_income": -1251653000,
+   "net_income": -3806790000,
+   "eps_diluted": -1.36,
+   "fcf": null
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 362331754000,
+   "operating_income": -835476000,
+   "net_income": -11718000,
+   "eps_diluted": -0.05,
+   "fcf": null
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 462019759000,
+   "operating_income": -2619131000,
+   "net_income": -2800550000,
+   "eps_diluted": -0.87,
+   "fcf": null
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 576888000000,
+   "operating_income": 8995000000,
+   "net_income": 11890000000,
+   "eps_diluted": 4.11,
+   "fcf": 22184000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 745802000000,
+   "operating_income": 12343000000,
+   "net_income": 49337000000,
+   "eps_diluted": 15.84,
+   "fcf": 39174000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 951592000000,
+   "operating_income": 4141000000,
+   "net_income": -4467000000,
+   "eps_diluted": -1.15,
+   "fcf": 36739000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 1046236000000,
+   "operating_income": 19723000000,
+   "net_income": 9691000000,
+   "eps_diluted": 3.21,
+   "fcf": 52324000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 1084662000000,
+   "operating_income": 26025000000,
+   "net_income": 23257000000,
+   "eps_diluted": 7.61,
+   "fcf": 55496000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 1158819000000,
+   "operating_income": 38736000000,
+   "net_income": 44660000000,
+   "eps_diluted": 13.43,
+   "fcf": 52742000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 1309085000000,
+   "operating_income": 2774000000,
+   "net_income": 23142000000,
+   "eps_diluted": 6.45,
+   "fcf": 11168000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 137488000000,
+  "debt": 49689000000,
+  "equity": 225040000000,
+  "shares_outstanding": null
+ }
+}

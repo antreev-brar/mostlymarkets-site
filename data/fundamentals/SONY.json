@@ -1,0 +1,64 @@
+{
+ "ticker": "SONY",
+ "cik": "0000313838",
+ "name": "Sony Group Corp",
+ "currency": "JPY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2021,
+   "end": "2021-03-31",
+   "revenue": 8998661000000,
+   "operating_income": 955255000000,
+   "net_income": 1029610000000,
+   "eps_diluted": 164.754,
+   "fcf": 662286000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-03-31",
+   "revenue": 9921513000000,
+   "operating_income": 1202339000000,
+   "net_income": 882178000000,
+   "eps_diluted": 141.032,
+   "fcf": 792547000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-03-31",
+   "revenue": 10974373000000,
+   "operating_income": 1302389000000,
+   "net_income": 1005277000000,
+   "eps_diluted": 161.97,
+   "fcf": -298944000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-03-31",
+   "revenue": 13020768000000,
+   "operating_income": 1208831000000,
+   "net_income": 970573000000,
+   "eps_diluted": 157.14,
+   "fcf": 749267000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-03-31",
+   "revenue": 12957064000000,
+   "operating_income": 1407163000000,
+   "net_income": 1141600000000,
+   "eps_diluted": 187.92,
+   "fcf": 1674148000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-03-31",
+  "cash": 2980956000000,
+  "debt": 4198246000000,
+  "equity": 8179745000000,
+  "shares_outstanding": 6149810645
+ }
+}

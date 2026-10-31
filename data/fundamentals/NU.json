@@ -1,0 +1,73 @@
+{
+ "ticker": "NU",
+ "cik": "0001691493",
+ "name": "Nu Holdings Ltd.",
+ "currency": "USD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 612109000,
+   "operating_income": null,
+   "net_income": -92531000,
+   "eps_diluted": 1137931.0,
+   "fcf": null
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 737133000,
+   "operating_income": null,
+   "net_income": -171491000,
+   "eps_diluted": 1315578.0,
+   "fcf": null
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 1698023000,
+   "operating_income": null,
+   "net_income": -164993000,
+   "eps_diluted": -0.103,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 4792231000,
+   "operating_income": null,
+   "net_income": -364578000,
+   "eps_diluted": -0.078,
+   "fcf": null
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 8028976000,
+   "operating_income": null,
+   "net_income": 1030530000,
+   "eps_diluted": 0.2121,
+   "fcf": null
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 11517075000,
+   "operating_income": null,
+   "net_income": 1972112000,
+   "eps_diluted": 0.4034,
+   "fcf": null
+  }
+ ],
+ "balance": {
+  "as_of": "2024-12-31",
+  "cash": 9185742000,
+  "debt": 3460714000,
+  "equity": 7646289000,
+  "shares_outstanding": null
+ }
+}

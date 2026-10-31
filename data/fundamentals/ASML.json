@@ -1,0 +1,109 @@
+{
+ "ticker": "ASML",
+ "cik": "0000937966",
+ "name": "ASML HOLDING NV",
+ "currency": "EUR",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 6875100000,
+   "operating_income": 1758500000,
+   "net_income": 1557800000,
+   "eps_diluted": 3.64,
+   "fcf": 1349600000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 8962700000,
+   "operating_income": 2439700000,
+   "net_income": 2066700000,
+   "eps_diluted": 4.79,
+   "fcf": 1479400000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 10944000000,
+   "operating_income": 2965300000,
+   "net_income": 2591600000,
+   "eps_diluted": 6.08,
+   "fcf": 2498700000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 11820000000,
+   "operating_income": 2790800000,
+   "net_income": 2592300000,
+   "eps_diluted": 6.15,
+   "fcf": 2509800000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 13978500000,
+   "operating_income": 4051500000,
+   "net_income": 3553700000,
+   "eps_diluted": 8.48,
+   "fcf": 3665600000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 18611000000,
+   "operating_income": 6750100000,
+   "net_income": 5883200000,
+   "eps_diluted": 14.34,
+   "fcf": 9945100000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 21173400000,
+   "operating_income": 6500700000,
+   "net_income": 5624200000,
+   "eps_diluted": 14.13,
+   "fcf": 7205000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 27558500000,
+   "operating_income": 9042300000,
+   "net_income": 7839000000,
+   "eps_diluted": 19.89,
+   "fcf": 3287800000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 28262900000,
+   "operating_income": 9022600000,
+   "net_income": 7571600000,
+   "eps_diluted": 19.24,
+   "fcf": 9099000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 32667300000,
+   "operating_income": 11301400000,
+   "net_income": 9609400000,
+   "eps_diluted": 24.71,
+   "fcf": 11084900000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 12916000000,
+  "debt": 4390900000,
+  "equity": 19612200000,
+  "shares_outstanding": 385417665
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "ticker": "SPOT",
+ "cik": "0001639920",
+ "name": "Spotify Technology S.A.",
+ "currency": "EUR",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 2952000000,
+   "operating_income": -349000000,
+   "net_income": -539000000,
+   "eps_diluted": -3.63,
+   "fcf": 74000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 4090000000,
+   "operating_income": -378000000,
+   "net_income": -1235000000,
+   "eps_diluted": -8.14,
+   "fcf": 143000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 5259000000,
+   "operating_income": -43000000,
+   "net_income": -78000000,
+   "eps_diluted": -0.51,
+   "fcf": 219000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 6764000000,
+   "operating_income": -73000000,
+   "net_income": -186000000,
+   "eps_diluted": -1.03,
+   "fcf": 438000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 7880000000,
+   "operating_income": -293000000,
+   "net_income": -581000000,
+   "eps_diluted": -3.1,
+   "fcf": 181000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 9668000000,
+   "operating_income": 94000000,
+   "net_income": -34000000,
+   "eps_diluted": -1.03,
+   "fcf": 276000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 11727000000,
+   "operating_income": -659000000,
+   "net_income": -430000000,
+   "eps_diluted": -2.93,
+   "fcf": 21000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 13247000000,
+   "operating_income": -446000000,
+   "net_income": -532000000,
+   "eps_diluted": -2.73,
+   "fcf": 674000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 15673000000,
+   "operating_income": 1365000000,
+   "net_income": 1138000000,
+   "eps_diluted": 5.5,
+   "fcf": 2284000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 17186000000,
+   "operating_income": 2198000000,
+   "net_income": 2212000000,
+   "eps_diluted": 10.51,
+   "fcf": 2872000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 5258000000,
+  "debt": 1458000000,
+  "equity": 8329000000,
+  "shares_outstanding": 205832527
+ }
+}

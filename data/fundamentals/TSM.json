@@ -1,0 +1,109 @@
+{
+ "ticker": "TSM",
+ "cik": "0001046179",
+ "name": "Taiwan Semiconductor Manufacturing Company Limited",
+ "currency": "TWD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2015,
+   "end": "2015-12-31",
+   "revenue": 843497400000,
+   "operating_income": 320047800000,
+   "net_income": 302850900000,
+   "eps_diluted": 11.68,
+   "fcf": 272362600000
+  },
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 947938300000,
+   "operating_income": 377957800000,
+   "net_income": 331713700000,
+   "eps_diluted": 12.79,
+   "fcf": 211789300000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 977447200000,
+   "operating_income": 385559200000,
+   "net_income": 344998300000,
+   "eps_diluted": 13.3,
+   "fcf": 254730000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 1031473600000,
+   "operating_income": 383623500000,
+   "net_income": 363052700000,
+   "eps_diluted": 14.0,
+   "fcf": 258372400000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 1069985400000,
+   "operating_income": 372701100000,
+   "net_income": 353948000000,
+   "eps_diluted": 13.65,
+   "fcf": 154716500000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 1339254800000,
+   "operating_income": 566783700000,
+   "net_income": 510744000000,
+   "eps_diluted": 19.7,
+   "fcf": 315427500000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 1587415000000,
+   "operating_income": 649980900000,
+   "net_income": 592359200000,
+   "eps_diluted": 22.84,
+   "fcf": 272965000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 2263891300000,
+   "operating_income": 1121278900000,
+   "net_income": 992923400000,
+   "eps_diluted": 38.29,
+   "fcf": 527927100000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 2161735800000,
+   "operating_income": 921465600000,
+   "net_income": 851740000000,
+   "eps_diluted": 32.85,
+   "fcf": 292150500000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 2894307700000,
+   "operating_income": 1322053000000,
+   "net_income": 1158380200000,
+   "eps_diluted": 44.67,
+   "fcf": 870170600000
+  }
+ ],
+ "balance": {
+  "as_of": "2024-12-31",
+  "cash": 2127627000000,
+  "debt": 91682300000,
+  "equity": 4244266500000,
+  "shares_outstanding": 25932524521
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "ticker": "NBIS",
+ "cik": "0001513845",
+ "name": "NEBIUS GROUP N.V.",
+ "currency": "USD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 1251700000,
+   "operating_income": 211800000,
+   "net_income": 111800000,
+   "eps_diluted": 0.34,
+   "fcf": 260900000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 1632900000,
+   "operating_income": 226300000,
+   "net_income": 150300000,
+   "eps_diluted": 0.46,
+   "fcf": 197600000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 1837600000,
+   "operating_income": 300300000,
+   "net_income": 660100000,
+   "eps_diluted": 2.04,
+   "fcf": -1600000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 2224400000,
+   "operating_income": 313300000,
+   "net_income": 142000000,
+   "eps_diluted": 0.48,
+   "fcf": 302300000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 2955600000,
+   "operating_income": 220000000,
+   "net_income": 326900000,
+   "eps_diluted": 0.98,
+   "fcf": 109000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 4794200000,
+   "operating_income": -178700000,
+   "net_income": -197200000,
+   "eps_diluted": -0.54,
+   "fcf": -475500000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 13500000,
+   "operating_income": -158000000,
+   "net_income": 745600000,
+   "eps_diluted": 1.59,
+   "fcf": 682400000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 9800000,
+   "operating_income": -285700000,
+   "net_income": 241300000,
+   "eps_diluted": 0.65,
+   "fcf": 746900000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 91500000,
+   "operating_income": -399600000,
+   "net_income": -641400000,
+   "eps_diluted": -2.28,
+   "fcf": -561900000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 529800000,
+   "operating_income": -611700000,
+   "net_income": 82500000,
+   "eps_diluted": 0.33,
+   "fcf": -3681200000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 3678100000,
+  "debt": 4103200000,
+  "equity": 4594000000,
+  "shares_outstanding": 253016971
+ }
+}

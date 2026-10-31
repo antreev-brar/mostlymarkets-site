@@ -1,0 +1,109 @@
+{
+ "ticker": "SE",
+ "cik": "0001703399",
+ "name": "Sea Limited",
+ "currency": "USD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 345670000,
+   "operating_income": -205389000,
+   "net_income": -222867000,
+   "eps_diluted": -1.3,
+   "fcf": -118798000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 414190000,
+   "operating_income": -502356000,
+   "net_income": -560485000,
+   "eps_diluted": -2.72,
+   "fcf": -326589000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 826968000,
+   "operating_income": -988768000,
+   "net_income": -961241000,
+   "eps_diluted": -2.84,
+   "fcf": -672563000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 2175378000,
+   "operating_income": -891232000,
+   "net_income": -1462799000,
+   "eps_diluted": -3.35,
+   "fcf": -169979000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 4375664000,
+   "operating_income": -1303325000,
+   "net_income": -1618056000,
+   "eps_diluted": -3.39,
+   "fcf": 219594000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 9955190000,
+   "operating_income": -1583060000,
+   "net_income": -2046759000,
+   "eps_diluted": -3.84,
+   "fcf": -563528000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 12449705000,
+   "operating_income": -1487508000,
+   "net_income": -1651421000,
+   "eps_diluted": -2.96,
+   "fcf": -1979870000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 13063560000,
+   "operating_income": 224778000,
+   "net_income": 150726000,
+   "eps_diluted": 0.25,
+   "fcf": 1838083000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 16819866000,
+   "operating_income": 662152000,
+   "net_income": 444321000,
+   "eps_diluted": 0.74,
+   "fcf": 2959267000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 22938469000,
+   "operating_income": 1985306000,
+   "net_income": 1578149000,
+   "eps_diluted": 2.52,
+   "fcf": 4510714000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 4158920000,
+  "debt": 1051568000,
+  "equity": 12526503000,
+  "shares_outstanding": null
+ }
+}

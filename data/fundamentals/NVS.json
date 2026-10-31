@@ -1,0 +1,161 @@
+{
+ "ticker": "NVS",
+ "cik": "0001114448",
+ "name": "Novartis AG",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2023-06-30",
+   "fy": 2023,
+   "fp": "Q2",
+   "label": "Q2 FY23",
+   "filed": "2023-07-18",
+   "form": "6-K",
+   "revenue": 11437000000,
+   "gross_profit": 8403000000,
+   "operating_income": 2807000000,
+   "net_income": 2316000000,
+   "eps_diluted": 1.11,
+   "ocf": 3576000000,
+   "capex": 225000000,
+   "fcf": 3351000000,
+   "shares_diluted": 2095000000
+  },
+  {
+   "end": "2024-06-30",
+   "fy": 2024,
+   "fp": "Q2",
+   "label": "Q2 FY24",
+   "filed": "2024-07-18",
+   "form": "6-K",
+   "revenue": 12512000000,
+   "gross_profit": 9699000000,
+   "operating_income": 4014000000,
+   "net_income": 3246000000,
+   "eps_diluted": 1.59,
+   "ocf": 4875000000,
+   "capex": 260000000,
+   "fcf": 4615000000,
+   "shares_diluted": 2046000000
+  },
+  {
+   "end": "2025-06-30",
+   "fy": 2025,
+   "fp": "Q2",
+   "label": "Q2 FY25",
+   "filed": "2025-07-17",
+   "form": "6-K",
+   "revenue": 14054000000,
+   "gross_profit": 11514000000,
+   "operating_income": 4864000000,
+   "net_income": 4041000000,
+   "eps_diluted": 2.06,
+   "ocf": 6664000000,
+   "capex": 331000000,
+   "fcf": 6333000000,
+   "shares_diluted": 1960000000
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 48518000000,
+   "operating_income": 8268000000,
+   "net_income": 6712000000,
+   "eps_diluted": 2.8,
+   "fcf": 9613000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 42381000000,
+   "operating_income": 8702000000,
+   "net_income": 7703000000,
+   "eps_diluted": 3.25,
+   "fcf": 11296000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 44833000000,
+   "operating_income": 8403000000,
+   "net_income": 12611000000,
+   "eps_diluted": 5.38,
+   "fcf": 13018000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 47498000000,
+   "operating_income": 9086000000,
+   "net_income": 11732000000,
+   "eps_diluted": 5.06,
+   "fcf": 12246000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 48659000000,
+   "operating_income": 10152000000,
+   "net_income": 8072000000,
+   "eps_diluted": 3.52,
+   "fcf": 12375000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 42781000000,
+   "operating_income": 10056000000,
+   "net_income": 24021000000,
+   "eps_diluted": 10.63,
+   "fcf": 14005000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 42206000000,
+   "operating_income": 7946000000,
+   "net_income": 6955000000,
+   "eps_diluted": 3.17,
+   "fcf": 13320000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 45440000000,
+   "operating_income": 9769000000,
+   "net_income": 14850000000,
+   "eps_diluted": 7.1,
+   "fcf": 13398000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 50317000000,
+   "operating_income": 14544000000,
+   "net_income": 11941000000,
+   "eps_diluted": 5.87,
+   "fcf": 16253000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 54532000000,
+   "operating_income": 17644000000,
+   "net_income": 13984000000,
+   "eps_diluted": 7.15,
+   "fcf": 17596000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 11435000000,
+  "debt": 29411000000,
+  "equity": 46130000000,
+  "shares_outstanding": 1908151679
+ }
+}

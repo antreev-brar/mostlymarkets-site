@@ -1,0 +1,109 @@
+{
+ "ticker": "BHP",
+ "cik": "0000811809",
+ "name": "BHP GROUP LIMITED",
+ "currency": "USD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-06-30",
+   "revenue": 28567000000,
+   "operating_income": 2804000000,
+   "net_income": -6385000000,
+   "eps_diluted": -1.2,
+   "fcf": 4918000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-06-30",
+   "revenue": 35740000000,
+   "operating_income": 12554000000,
+   "net_income": 5890000000,
+   "eps_diluted": 1.104,
+   "fcf": 13107000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-06-30",
+   "revenue": 43129000000,
+   "operating_income": 15996000000,
+   "net_income": 3705000000,
+   "eps_diluted": 0.694,
+   "fcf": 13482000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-06-30",
+   "revenue": 44288000000,
+   "operating_income": 16113000000,
+   "net_income": 8306000000,
+   "eps_diluted": 1.599,
+   "fcf": 11621000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-06-30",
+   "revenue": 38924000000,
+   "operating_income": 13683000000,
+   "net_income": 7956000000,
+   "eps_diluted": 1.57,
+   "fcf": 9715000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-06-30",
+   "revenue": 56921000000,
+   "operating_income": 25515000000,
+   "net_income": 11304000000,
+   "eps_diluted": 2.23,
+   "fcf": 21622000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-06-30",
+   "revenue": 65098000000,
+   "operating_income": 34106000000,
+   "net_income": 30900000000,
+   "eps_diluted": 6.093,
+   "fcf": 26319000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-06-30",
+   "revenue": 53817000000,
+   "operating_income": 22932000000,
+   "net_income": 12921000000,
+   "eps_diluted": 2.547,
+   "fcf": 11968000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-06-30",
+   "revenue": 55658000000,
+   "operating_income": 17537000000,
+   "net_income": 7897000000,
+   "eps_diluted": 1.555,
+   "fcf": 11849000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-06-30",
+   "revenue": 51262000000,
+   "operating_income": 19464000000,
+   "net_income": 9019000000,
+   "eps_diluted": 1.774,
+   "fcf": 9294000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-06-30",
+  "cash": 11894000000,
+  "debt": 21543000000,
+  "equity": 47665000000,
+  "shares_outstanding": 5075992235
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "ticker": "BABA",
+ "cik": "0001577552",
+ "name": "Alibaba Group Holding Ltd",
+ "currency": "CNY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2017,
+   "end": "2017-03-31",
+   "revenue": 158273000000,
+   "operating_income": 48055000000,
+   "net_income": 43675000000,
+   "eps_diluted": 2.1212,
+   "fcf": null
+  },
+  {
+   "fy": 2018,
+   "end": "2018-03-31",
+   "revenue": 250266000000,
+   "operating_income": 69314000000,
+   "net_income": 64093000000,
+   "eps_diluted": 3.06,
+   "fcf": null
+  },
+  {
+   "fy": 2019,
+   "end": "2019-03-31",
+   "revenue": 376844000000,
+   "operating_income": 57084000000,
+   "net_income": 87886000000,
+   "eps_diluted": 4.17,
+   "fcf": null
+  },
+  {
+   "fy": 2020,
+   "end": "2020-03-31",
+   "revenue": 509711000000,
+   "operating_income": 91430000000,
+   "net_income": 149433000000,
+   "eps_diluted": 6.99,
+   "fcf": null
+  },
+  {
+   "fy": 2021,
+   "end": "2021-03-31",
+   "revenue": 717289000000,
+   "operating_income": 89678000000,
+   "net_income": 150578000000,
+   "eps_diluted": 6.84,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-03-31",
+   "revenue": 853062000000,
+   "operating_income": 69638000000,
+   "net_income": 62249000000,
+   "eps_diluted": 2.84,
+   "fcf": null
+  },
+  {
+   "fy": 2023,
+   "end": "2023-03-31",
+   "revenue": 868687000000,
+   "operating_income": 100351000000,
+   "net_income": 72783000000,
+   "eps_diluted": 3.43,
+   "fcf": null
+  },
+  {
+   "fy": 2024,
+   "end": "2024-03-31",
+   "revenue": 941168000000,
+   "operating_income": 113350000000,
+   "net_income": 80009000000,
+   "eps_diluted": 3.91,
+   "fcf": null
+  },
+  {
+   "fy": 2025,
+   "end": "2025-03-31",
+   "revenue": 996347000000,
+   "operating_income": 140905000000,
+   "net_income": 130109000000,
+   "eps_diluted": 6.7,
+   "fcf": null
+  },
+  {
+   "fy": 2026,
+   "end": "2026-03-31",
+   "revenue": 1023670000000,
+   "operating_income": 50150000000,
+   "net_income": 103592000000,
+   "eps_diluted": 5.5,
+   "fcf": null
+  }
+ ],
+ "balance": {
+  "as_of": "2026-03-31",
+  "cash": 131530000000,
+  "debt": 117485000000,
+  "equity": 1060886000000,
+  "shares_outstanding": 1858037427
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "ticker": "SHEL",
+ "cik": "0001306965",
+ "name": "Shell plc",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2023-03-31",
+   "fy": 2023,
+   "fp": "Q1",
+   "label": "Q1 FY23",
+   "filed": "2023-07-27",
+   "form": "6-K",
+   "revenue": 86959000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 8709000000,
+   "eps_diluted": 1.25,
+   "ocf": 14159000000,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 6982100000
+  },
+  {
+   "end": "2023-06-30",
+   "fy": 2023,
+   "fp": "Q2",
+   "label": "Q2 FY23",
+   "filed": "2023-07-27",
+   "form": "6-K",
+   "revenue": 74578000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 3134000000,
+   "eps_diluted": 0.46,
+   "ocf": 15130000000,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 6854200000
+  },
+  {
+   "end": "2024-03-31",
+   "fy": 2024,
+   "fp": "Q1",
+   "label": "Q1 FY24",
+   "filed": "2024-08-01",
+   "form": "6-K",
+   "revenue": 72478000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 7358000000,
+   "eps_diluted": 1.13,
+   "ocf": 13330000000,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 6504300000
+  },
+  {
+   "end": "2024-06-30",
+   "fy": 2024,
+   "fp": "Q2",
+   "label": "Q2 FY24",
+   "filed": "2024-08-01",
+   "form": "6-K",
+   "revenue": 74463000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 3517000000,
+   "eps_diluted": 0.55,
+   "ocf": 13508000000,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 6417600000
+  },
+  {
+   "end": "2025-03-31",
+   "fy": 2025,
+   "fp": "Q1",
+   "label": "Q1 FY25",
+   "filed": "2025-07-31",
+   "form": "6-K",
+   "revenue": 69234000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 4780000000,
+   "eps_diluted": 0.79,
+   "ocf": 9281000000,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 6087800000
+  },
+  {
+   "end": "2025-06-30",
+   "fy": 2025,
+   "fp": "Q2",
+   "label": "Q2 FY25",
+   "filed": "2025-07-31",
+   "form": "6-K",
+   "revenue": 65406000000,
+   "gross_profit": null,
+   "operating_income": null,
+   "net_income": 3601000000,
+   "eps_diluted": 0.6,
+   "ocf": 11937000000,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 6004700000
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 233591000000,
+   "operating_income": null,
+   "net_income": 4575000000,
+   "eps_diluted": 0.58,
+   "fcf": null
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 305179000000,
+   "operating_income": null,
+   "net_income": 12977000000,
+   "eps_diluted": 1.56,
+   "fcf": null
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 388379000000,
+   "operating_income": null,
+   "net_income": 23352000000,
+   "eps_diluted": 2.8,
+   "fcf": null
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 344877000000,
+   "operating_income": null,
+   "net_income": 15842000000,
+   "eps_diluted": 1.95,
+   "fcf": null
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 180543000000,
+   "operating_income": null,
+   "net_income": -21680000000,
+   "eps_diluted": -2.78,
+   "fcf": null
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 261504000000,
+   "operating_income": null,
+   "net_income": 20101000000,
+   "eps_diluted": 2.57,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 381314000000,
+   "operating_income": null,
+   "net_income": 42309000000,
+   "eps_diluted": 5.71,
+   "fcf": null
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 316620000000,
+   "operating_income": null,
+   "net_income": 19359000000,
+   "eps_diluted": 2.85,
+   "fcf": null
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 284312000000,
+   "operating_income": null,
+   "net_income": 16094000000,
+   "eps_diluted": 2.53,
+   "fcf": null
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 266886000000,
+   "operating_income": null,
+   "net_income": 17837000000,
+   "eps_diluted": 3.0,
+   "fcf": null
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 30216000000,
+  "debt": 76149000000,
+  "equity": 174392000000,
+  "shares_outstanding": 5689891670
+ }
+}

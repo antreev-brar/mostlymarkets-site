@@ -1,0 +1,109 @@
+{
+ "ticker": "BIDU",
+ "cik": "0001329099",
+ "name": "Baidu, Inc.",
+ "currency": "CNY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 70549000000,
+   "operating_income": 10049000000,
+   "net_income": 11632000000,
+   "eps_diluted": null,
+   "fcf": 18291000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 84809000000,
+   "operating_income": 15691000000,
+   "net_income": 18301000000,
+   "eps_diluted": null,
+   "fcf": 28049000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 102277000000,
+   "operating_income": 15530000000,
+   "net_income": 27573000000,
+   "eps_diluted": null,
+   "fcf": 27195000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 107413000000,
+   "operating_income": 6307000000,
+   "net_income": 2057000000,
+   "eps_diluted": null,
+   "fcf": 22030000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 107074000000,
+   "operating_income": 14340000000,
+   "net_income": 22472000000,
+   "eps_diluted": null,
+   "fcf": 19116000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 124493000000,
+   "operating_income": 10518000000,
+   "net_income": 10226000000,
+   "eps_diluted": null,
+   "fcf": 9226000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 123675000000,
+   "operating_income": 15911000000,
+   "net_income": 7559000000,
+   "eps_diluted": null,
+   "fcf": 17884000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 134598000000,
+   "operating_income": 21856000000,
+   "net_income": 20315000000,
+   "eps_diluted": null,
+   "fcf": 25425000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 133125000000,
+   "operating_income": 21270000000,
+   "net_income": 23760000000,
+   "eps_diluted": null,
+   "fcf": 13100000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 129079000000,
+   "operating_income": -5823000000,
+   "net_income": 5589000000,
+   "eps_diluted": null,
+   "fcf": -15086000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 24606000000,
+  "debt": 48936000000,
+  "equity": 266330000000,
+  "shares_outstanding": null
+ }
+}

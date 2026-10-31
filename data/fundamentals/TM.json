@@ -1,0 +1,73 @@
+{
+ "ticker": "TM",
+ "cik": "0001094517",
+ "name": "TOYOTA MOTOR CORP/",
+ "currency": "JPY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2020,
+   "end": "2020-03-31",
+   "revenue": 29866547000000,
+   "operating_income": 2399232000000,
+   "net_income": 2036140000000,
+   "eps_diluted": 144.02,
+   "fcf": null
+  },
+  {
+   "fy": 2021,
+   "end": "2021-03-31",
+   "revenue": 27214594000000,
+   "operating_income": 2197748000000,
+   "net_income": 2245261000000,
+   "eps_diluted": 158.93,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-03-31",
+   "revenue": 31379507000000,
+   "operating_income": 2995697000000,
+   "net_income": 2850110000000,
+   "eps_diluted": 205.23,
+   "fcf": null
+  },
+  {
+   "fy": 2023,
+   "end": "2023-03-31",
+   "revenue": 37154298000000,
+   "operating_income": 2725025000000,
+   "net_income": 2451318000000,
+   "eps_diluted": 179.47,
+   "fcf": null
+  },
+  {
+   "fy": 2024,
+   "end": "2024-03-31",
+   "revenue": 45095325000000,
+   "operating_income": 5352934000000,
+   "net_income": 4944933000000,
+   "eps_diluted": 365.94,
+   "fcf": null
+  },
+  {
+   "fy": 2025,
+   "end": "2025-03-31",
+   "revenue": 48036704000000,
+   "operating_income": 4795586000000,
+   "net_income": 4765086000000,
+   "eps_diluted": 359.56,
+   "fcf": null
+  }
+ ],
+ "balance": {
+  "as_of": "2025-03-31",
+  "cash": 8982404000000,
+  "debt": 44257348000000,
+  "equity": 35924826000000,
+  "shares_outstanding": 13033931974
+ }
+}

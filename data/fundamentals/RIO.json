@@ -1,0 +1,109 @@
+{
+ "ticker": "RIO",
+ "cik": "0000863064",
+ "name": "RIO TINTO PLC",
+ "currency": "USD",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 33781000000,
+   "operating_income": 6795000000,
+   "net_income": 4617000000,
+   "eps_diluted": 255.3,
+   "fcf": 5453000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 40030000000,
+   "operating_income": 14135000000,
+   "net_income": 8762000000,
+   "eps_diluted": 486.919,
+   "fcf": 9402000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 40522000000,
+   "operating_income": 17687000000,
+   "net_income": 13638000000,
+   "eps_diluted": 7.876,
+   "fcf": 6391000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 43165000000,
+   "operating_income": 11466000000,
+   "net_income": 8010000000,
+   "eps_diluted": 4.878,
+   "fcf": 9424000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 44611000000,
+   "operating_income": 16829000000,
+   "net_income": 9769000000,
+   "eps_diluted": 5.998,
+   "fcf": 9686000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 63495000000,
+   "operating_income": 29817000000,
+   "net_income": 21115000000,
+   "eps_diluted": 12.963,
+   "fcf": 17961000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 55554000000,
+   "operating_income": 19933000000,
+   "net_income": 12392000000,
+   "eps_diluted": 7.604,
+   "fcf": 9384000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 54041000000,
+   "operating_income": 14823000000,
+   "net_income": 10058000000,
+   "eps_diluted": 6.165,
+   "fcf": 8074000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 53658000000,
+   "operating_income": 15653000000,
+   "net_income": 11552000000,
+   "eps_diluted": 7.072,
+   "fcf": 5978000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 57638000000,
+   "operating_income": 14936000000,
+   "net_income": 9966000000,
+   "eps_diluted": 6.084,
+   "fcf": 4497000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 8872000000,
+  "debt": 22664000000,
+  "equity": 62203000000,
+  "shares_outstanding": 1256010314
+ }
+}

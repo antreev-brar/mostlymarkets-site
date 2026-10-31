@@ -1,0 +1,109 @@
+{
+ "ticker": "PDD",
+ "cik": "0001737806",
+ "name": "PDD Holdings Inc.",
+ "currency": "CNY",
+ "updated": "2026-10-29",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 504864000,
+   "operating_income": -286210000,
+   "net_income": -291977000,
+   "eps_diluted": -0.18,
+   "fcf": 877476000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 1744076000,
+   "operating_income": -595724000,
+   "net_income": -525115000,
+   "eps_diluted": -0.28,
+   "fcf": 9677407000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 13119990000,
+   "operating_income": -10799741000,
+   "net_income": -10217125000,
+   "eps_diluted": -3.47,
+   "fcf": 7740596000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 30141886000,
+   "operating_income": -8538211000,
+   "net_income": -6967603000,
+   "eps_diluted": -1.51,
+   "fcf": 14793540000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 59491865000,
+   "operating_income": -9380325000,
+   "net_income": -7179742000,
+   "eps_diluted": -1.51,
+   "fcf": 28153581000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 93949939000,
+   "operating_income": 6896762000,
+   "net_income": 7768670000,
+   "eps_diluted": 1.36,
+   "fcf": null
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 130557589000,
+   "operating_income": 30401921000,
+   "net_income": 31538062000,
+   "eps_diluted": 5.48,
+   "fcf": null
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 247639205000,
+   "operating_income": 58698762000,
+   "net_income": 60026544000,
+   "eps_diluted": 10.29,
+   "fcf": null
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 393836097000,
+   "operating_income": 108422862000,
+   "net_income": 112434512000,
+   "eps_diluted": 19.0,
+   "fcf": null
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 431845713000,
+   "operating_income": 93102131000,
+   "net_income": 97842539000,
+   "eps_diluted": 16.5,
+   "fcf": null
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 108900587000,
+  "debt": null,
+  "equity": 413385156000,
+  "shares_outstanding": 5693585848
+ }
+}

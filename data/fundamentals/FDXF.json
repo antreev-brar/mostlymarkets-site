@@ -1,0 +1,64 @@
+{
+ "ticker": "FDXF",
+ "cik": "0002082247",
+ "name": "FedEx Freight Holding Company, Inc.",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2026-09-30",
+   "fy": 2026,
+   "fp": "Q3",
+   "label": "Q3 FY26",
+   "filed": "2026-10-29",
+   "form": "10-Q",
+   "revenue": 2442000000,
+   "gross_profit": null,
+   "operating_income": 253000000,
+   "net_income": 147000000,
+   "eps_diluted": 0.98,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 149900000
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2024,
+   "end": "2024-05-31",
+   "revenue": 9424000000,
+   "operating_income": 1753000000,
+   "net_income": 1574000000,
+   "eps_diluted": 10.53,
+   "fcf": 1080000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-05-31",
+   "revenue": 8892000000,
+   "operating_income": 1404000000,
+   "net_income": 1346000000,
+   "eps_diluted": 9.0,
+   "fcf": 1094000000
+  },
+  {
+   "fy": 2026,
+   "end": "2026-05-31",
+   "revenue": 8795000000,
+   "operating_income": 540000000,
+   "net_income": 655000000,
+   "eps_diluted": 4.38,
+   "fcf": -212000000
+  }
+ ],
+ "balance": {
+  "as_of": "2026-09-30",
+  "cash": 388000000,
+  "debt": 4200000000,
+  "equity": -252000000,
+  "shares_outstanding": 149521266
+ }
+}

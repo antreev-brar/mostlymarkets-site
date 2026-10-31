@@ -1,0 +1,161 @@
+{
+ "ticker": "AZN",
+ "cik": "0000901832",
+ "name": "ASTRAZENECA PLC",
+ "currency": "USD",
+ "updated": "2026-10-31",
+ "source": "SEC XBRL companyfacts",
+ "quarters": [
+  {
+   "end": "2023-06-30",
+   "fy": 2023,
+   "fp": "Q2",
+   "label": "Q2 FY23",
+   "filed": "2023-07-28",
+   "form": "6-K",
+   "revenue": 11416000000,
+   "gross_profit": 9456000000,
+   "operating_income": 2456000000,
+   "net_income": 1818000000,
+   "eps_diluted": 1.17,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 1560000000
+  },
+  {
+   "end": "2024-06-30",
+   "fy": 2024,
+   "fp": "Q2",
+   "label": "Q2 FY24",
+   "filed": "2024-07-25",
+   "form": "6-K",
+   "revenue": 12938000000,
+   "gross_profit": 10755000000,
+   "operating_income": 2746000000,
+   "net_income": 1927000000,
+   "eps_diluted": 1.24,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 1560000000
+  },
+  {
+   "end": "2025-06-30",
+   "fy": 2025,
+   "fp": "Q2",
+   "label": "Q2 FY25",
+   "filed": "2025-07-29",
+   "form": "6-K",
+   "revenue": 14457000000,
+   "gross_profit": 11984000000,
+   "operating_income": 3508000000,
+   "net_income": 2450000000,
+   "eps_diluted": 1.57,
+   "ocf": null,
+   "capex": null,
+   "fcf": null,
+   "shares_diluted": 1559000000
+  }
+ ],
+ "ttm": null,
+ "annual": [
+  {
+   "fy": 2016,
+   "end": "2016-12-31",
+   "revenue": 23002000000,
+   "operating_income": 4902000000,
+   "net_income": 3499000000,
+   "eps_diluted": 2.76,
+   "fcf": 2699000000
+  },
+  {
+   "fy": 2017,
+   "end": "2017-12-31",
+   "revenue": 22465000000,
+   "operating_income": 3677000000,
+   "net_income": 3001000000,
+   "eps_diluted": 2.37,
+   "fcf": 2252000000
+  },
+  {
+   "fy": 2018,
+   "end": "2018-12-31",
+   "revenue": 22090000000,
+   "operating_income": 3387000000,
+   "net_income": 2155000000,
+   "eps_diluted": 1.7,
+   "fcf": 1575000000
+  },
+  {
+   "fy": 2019,
+   "end": "2019-12-31",
+   "revenue": 24384000000,
+   "operating_income": 2924000000,
+   "net_income": 1335000000,
+   "eps_diluted": 1.03,
+   "fcf": 1990000000
+  },
+  {
+   "fy": 2020,
+   "end": "2020-12-31",
+   "revenue": 26617000000,
+   "operating_income": 5162000000,
+   "net_income": 3196000000,
+   "eps_diluted": 2.44,
+   "fcf": 3838000000
+  },
+  {
+   "fy": 2021,
+   "end": "2021-12-31",
+   "revenue": 37417000000,
+   "operating_income": 1056000000,
+   "net_income": 112000000,
+   "eps_diluted": 0.08,
+   "fcf": 4872000000
+  },
+  {
+   "fy": 2022,
+   "end": "2022-12-31",
+   "revenue": 44351000000,
+   "operating_income": 3757000000,
+   "net_income": 3288000000,
+   "eps_diluted": 2.11,
+   "fcf": 8717000000
+  },
+  {
+   "fy": 2023,
+   "end": "2023-12-31",
+   "revenue": 45811000000,
+   "operating_income": 8193000000,
+   "net_income": 5955000000,
+   "eps_diluted": 3.81,
+   "fcf": 8984000000
+  },
+  {
+   "fy": 2024,
+   "end": "2024-12-31",
+   "revenue": 54073000000,
+   "operating_income": 10003000000,
+   "net_income": 7035000000,
+   "eps_diluted": 4.5,
+   "fcf": 9937000000
+  },
+  {
+   "fy": 2025,
+   "end": "2025-12-31",
+   "revenue": 58739000000,
+   "operating_income": 13743000000,
+   "net_income": 10225000000,
+   "eps_diluted": 6.54,
+   "fcf": 11765000000
+  }
+ ],
+ "balance": {
+  "as_of": "2025-12-31",
+  "cash": 5711000000,
+  "debt": 29622000000,
+  "equity": 48667000000,
+  "shares_outstanding": null
+ }
+}
