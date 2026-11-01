@@ -32,6 +32,38 @@ And we go further than the news. A reader should be able to come to Mostly Marke
 - **At most two figures in a paragraph of prose.** Tables, `stat` and `highlights` blocks carry the rest.
 - **Point at the number.** Each section is about one figure. Bold it, with its verb: "Intel **plunged 28.6%**", "revenue of **$15.0 billion to $16.0 billion**". The page marks bold figures like a highlighter, so bold one or two per section, never a whole sentence of numbers. If a paragraph that opens the story or a section has no bold, the build marks its price move (or else its first figure) for you.
 
+## No filler: every sentence earns its place
+
+The owner's standard: "detailed, with no filler, just useful perspective and analysis". Every sentence does one of five
+jobs, or it goes:
+
+1. **Reports a new fact:** dated and sourced.
+2. **Explains the mechanism:** why this happens ("memory makers' costs barely move, so every extra dollar of price is
+   gross profit").
+3. **Sizes it with a comparison:** against history, peers or expectations, from `facts.py`, our prices or fundamentals
+   ("the biggest one-day drop since 1974"; "a fifth of the screen's median P/E").
+4. **Says what it means, for whom:** the second-order effect (who else it hits, which number changes next).
+5. **Gives our read with its reason:** what's priced in, what would change our mind, and the next dated event that
+   settles it.
+
+Cut on sight:
+- a sentence that restates the headline, the dek or an earlier sentence;
+- stock phrases: "it remains to be seen", "only time will tell", "investors will be watching (closely)", "it's worth
+  noting", "it's important to note", "needless to say", "at the end of the day", "the bottom line is", "this is a reminder
+  that", "in today's market", "game-changer", "let's dive in", "here's what you need to know", "in conclusion";
+- attribution chains ("according to X (via Y) and Z"): name the strongest source once; keep the rest in `sources`;
+- background a market reader already knows, unless one clause makes the story make sense.
+
+Long analysis (narrative, viewpoints, breakdown, analysis over 800 words) carries a "The short version" box right after
+its first picture: three bullets, What's happening (with the key number), Why it matters, Our read.
+
+```highlights
+The short version
+- **What's happening:** ...
+- **Why it matters:** ...
+- **Our read:** ...
+```
+
 ## Bylines (pen names, from `data/authors.json`)
 
 | id | Name | Beat |

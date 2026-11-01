@@ -576,8 +576,9 @@ def news_items(t: str | None, n: int = 6, since_days: int = 10) -> list[dict]:
 
 def news_row(it: dict) -> str:
     also = f' <span class="nw-also">+{len(it["also"])}</span>' if it.get("also") else ""
+    src = it.get("source") or ""
     return (f'<li class="nw"><a href="{esc(it["url"])}" target="_blank" rel="noopener nofollow">{esc(it["title"])}</a>'
-            f'<span class="nw-m">{esc(it.get("source") or "")}{also} · {ago(it["dt"], "ago q")}</span></li>')
+            f'<span class="nw-m">{src_av(src, 18)}<span>{esc(src)}{also} · {ago(it["dt"], "ago q")}</span></span></li>')
 
 
 def mini_rows(stories: list[Story]) -> str:
@@ -1907,7 +1908,8 @@ def stock_page(t: str) -> str:
                    f'<p class="lede">Our stories first, then the headlines that could move it, newest first.</p>'
                    + (f'<div class="minis">{ours}</div>' if ours else
                       f'<p class="empty" style="text-align:left;padding:14px 0">We haven\'t written about {esc(name)} yet. Follow it, and its first story will show under My stocks.</p>')
-                   + (f'<h3 class="sh3">Headlines from around the web</h3><ul class="nws big">{"".join(news_row(i) for i in heads)}</ul>' if heads else "")
+                   + (f'<h3 class="sh3">Headlines from around the web</h3><div class="feed sfeed">'
+                      f'{"".join(post_news({**i, "tickers": [], "lead": True}) for i in heads)}</div>' if heads else "")
                    + (f'<details class="allst"><summary>All {len(st)} of our stories on {esc(name)}</summary>{mini_rows(st)}</details>' if len(st) > 6 else "")
                    + "</section>")
     prow = []

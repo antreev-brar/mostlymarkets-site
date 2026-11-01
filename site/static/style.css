@@ -1191,3 +1191,9 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
 .ed-t-vis { border-radius: 18px; overflow: hidden; aspect-ratio: 16 / 10; background: var(--bg-3); }
 .ed-t-vis img { width: 100%; height: 100%; object-fit: cover; }
 @media (max-width: 640px) { .a-cv { margin-top: 18px; } .a-cv .ci { border-radius: 14px; } }
+
+/* headlines on stock pages and in rails carry the outlet's logo, like the feed */
+.nw-m { display: flex; align-items: center; gap: 6px; }
+.nw-m .sav { flex: none; }
+.sfeed { margin-top: 4px; }
+.sfeed .post:last-child { border-bottom: 0; }

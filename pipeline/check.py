@@ -13,6 +13,11 @@ import sys
 import tomllib
 from pathlib import Path
 
+FILLER = re.compile(r"\b(it remains to be seen|only time will tell|investors will be watching(?: closely)?|it'?s worth noting|"
+                    r"it is worth noting|it'?s important to note|needless to say|at the end of the day|the bottom line is|"
+                    r"this is a reminder that|in today'?s market|game-?changer|let'?s dive in|here'?s what you need to know|"
+                    r"in conclusion)\b", re.I)
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "pipeline"))
 from marketdata import price_path, read_prices  # noqa: E402
@@ -196,6 +201,12 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
     elif vis and t not in ("list", "movers") and words(body[:vis[0]]) > 260:
         warns.append(f"the first chart comes after {words(body[:vis[0]])} words; put it right after the opening paragraph"
                      + ("" if t in no_move else " (the page moves it there)"))
+    # No filler (STYLE.md, "No filler"): stock phrases that carry no information.
+    prose = re.sub(r"```.*?```", " ", body, flags=re.S)
+    for ph in sorted(set(m.group(0).lower() for m in FILLER.finditer(prose))):
+        warns.append(f"filler: {ph!r} says nothing; cut it or replace it with the fact, the mechanism or our read")
+    if t in ("narrative", "viewpoints", "breakdown", "analysis") and words(body) > 800 and "The short version" not in body:
+        warns.append('long analysis without "The short version" box after the first picture (STYLE.md, "No filler")')
     # The cover photo (STYLE.md, "Covers"): a documentary scene for FLUX, no text, charts or real people.
     brief = fm.get("cover_brief") or ""
     if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":

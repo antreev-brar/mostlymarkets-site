@@ -37,6 +37,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    - **Company results** come from `release_text` or the release itself.
 4. **Write** `content/articles/<YYYY-MM-DD>-<slug>.md`:
    - follow FORMAT.md, and the STYLE.md template for `story_type`
+   - no filler (STYLE.md, "No filler"): every sentence reports a fact, explains a mechanism, sizes something against history or peers, says what it means for whom, or gives our read; long analysis gets "The short version" box
    - `published` = the New York time now: `TZ=America/New_York date +%Y-%m-%dT%H:%M:%S%:z`
    - `event` = the event id
    - `moves` from the pack's quote, with the right `session`

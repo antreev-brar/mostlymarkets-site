@@ -12,6 +12,8 @@ moves = [
   { ticker = "CRWV", price = 53.95, change_pct = -11.19, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
   { ticker = "NET", price = 276.82, change_pct = -10.79, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
+cover_brief = "A long aisle in a quiet data hall between two rows of tall black server racks, plain unmarked mesh doors dotted with tiny green status lights; a plain steel utility cart with a coil of yellow cable stands mid-aisle in the centre, soft daylight from a tall window at the far end"
+cover_alt = "A cart of yellow cable in a dark data-centre aisle between server racks"
 sources = [
   "https://247wallst.com/investing/2026/10/30/coreweave-sinks-11-nebius-tumbles-9-as-hyperscaler-spending-jitters-rattle-ai-cloud-stocks-cloudflare-plunges-12-snowflake-drops-9/",
   "https://www.quiverquant.com/news/Why+Cloudflare+(NET)+Stock+Is+Down+Today",

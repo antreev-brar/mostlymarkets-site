@@ -10,6 +10,8 @@ moves = [
   { ticker = "RSG", price = 236.28, change_pct = 1.23, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "RSG", price = 248.65, change_pct = 5.23, session = "regular", asof = 2026-10-30T09:31:37-04:00 },
 ]
+cover_brief = "A recycling plant yard at dawn: in the centre, one big compressed bale of crushed plain unprinted brown cardboard bound with steel wire, rows of similar bales behind it, a plain loader far away and out of focus in soft early-morning haze, wet concrete."
+cover_alt = "A wire-tied cardboard bale between rows of bales in a recycling yard at dawn"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001060391/000106039126000326/exhibit991q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0001060391/000106039126000327/rsg-20260930.htm",
