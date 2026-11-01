@@ -5,8 +5,9 @@ type = "earnings-recap"
 published = 2026-10-23T07:40:00-04:00
 author = "theo-park"
 tickers = ["AXP"]
-cover_brief = "At midnight in an empty grand marble hall, a towering pyramid of crystal champagne glasses stands beneath a blazing chandelier, golden champagne cascading from the top glass down through every tier, each one brimming and spilling over onto the polished floor."
-cover_alt = "Champagne overflows a towering pyramid of glasses under a chandelier in an empty marble hall"
+cover_brief = "In the centre of a store atrium at night, a giant navy metal charge card with 'AMEX' in huge raised gold capitals on one line spanning the middle of its face from edge to edge, with no logo box or badge, stands on a marble counter under a warm gold spotlight. Directly above it glows a big gold sign reading '8 PERCENT' in bold capitals, as a tall East Asian woman in her thirties in a cream coat strides past beaming, laden with plain shopping bags, a stooped elderly Latino man in a corduroy jacket pays at a plain terminal, and a petite blonde cashier in her thirties in a navy uniform smiles. Nearby a porter wheels out travel trunks and workmen rebuild a corner behind dust sheets."
+cover_alt = "A giant navy card with AMEX across its face stands on a store counter under an 8 PERCENT sign as shoppers pass"
+cover_text = ["AMEX", "8 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm",
   "https://www.sec.gov/Archives/edgar/data/4962/000000496226000318/q226exhibit991.htm",

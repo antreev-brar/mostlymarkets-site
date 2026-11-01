@@ -7,8 +7,9 @@ author = "dev-malhotra"
 tickers = ["MU"]
 themes = ["memory-cycle", "hbm-pricing"]
 cover = "semis-fab"
-cover_brief = "A single roller-coaster car heaped with gleaming gold bars sits paused at the very crest of an enormously tall peak at sunset, facing a near-vertical drop that plunges into deep blue shadow. Behind it, the track winds back over two lower peaks, each one followed by a steep, deep dip."
-cover_alt = "A roller-coaster car piled with gold bars pauses atop a towering peak above a steep drop at sunset"
+cover_brief = "Across a dark fairground at night, a Ferris wheel stands in the centre with 'MICRON' in big white capitals on its broad flat hub; its top gondola, heaped with green memory modules with gold contacts, glows warm gold at the peak, while the plain gondolas going down sink into navy shadow. Directly above the wheel, a big gold sign reads '87 PERCENT' in bold capitals. Below, a tall young South Asian woman with a high bun in an olive wool coat gazes up, delighted; a thin silver-haired man in his sixties in a tweed coat shakes his head, doubtful. In the shadows, a safety net hangs under only part of the wheel, a crane builds a bigger wheel, and a plain laptop and phone lie abandoned on a bench."
+cover_alt = "A Ferris wheel marked MICRON with memory modules in its top gondola under a gold 87 PERCENT sign"
+cover_text = ["MICRON", "87 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",

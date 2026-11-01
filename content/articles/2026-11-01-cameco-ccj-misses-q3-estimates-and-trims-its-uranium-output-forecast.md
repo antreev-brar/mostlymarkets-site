@@ -9,8 +9,9 @@ event = "recap-CCJ-2026-10-30"
 moves = [
   { ticker = "CCJ", price = 76.91, change_pct = -7.88, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A huge glowing amber hourglass stands in a dark underground cavern lit by miners' lamps, its upper bulb heavy with luminous yellow-green sand but its narrow neck half-blocked by a jammed iron gear, so only a thin trickle falls into the nearly empty lower bulb below."
-cover_alt = "A glowing hourglass in a mine cavern, its neck jammed by a gear so only a trickle of sand falls"
+cover_brief = "In the centre of a pine-forest uranium mine at night, a tall mine shaft tower with 'CAMECO' in white block capitals on its flat front wall stands idle, its hoist wheel stopped, lit warm gold, a red warning lamp on top, and a big amber sign reading 'MAINTENANCE' in bold capitals hangs above that wall. Below, a stocky grey-bearded foreman in his fifties in an orange parka and hard hat folds his arms, frowning, while a woman mechanic in her thirties with a dark braid and navy coveralls welds a huge gear, sparks flying, focused. A mill conveyor carries a thin scatter of ore, yet a truck of plain yellow steel drums rolls out the gate. Far off in cold blue light, a nuclear reactor dome rises under a crane."
+cover_alt = "An idle Cameco mine shaft tower with a MAINTENANCE sign as a foreman frowns and a mechanic welds a gear"
+cover_text = ["CAMECO", "MAINTENANCE"]
 sources = [
   "https://finance.yahoo.com/energy/articles/cameco-reports-third-quarter-results-103200777.html",
   "https://www.sec.gov/Archives/edgar/data/0001009001/000119312526439858/d106072dex991.htm",

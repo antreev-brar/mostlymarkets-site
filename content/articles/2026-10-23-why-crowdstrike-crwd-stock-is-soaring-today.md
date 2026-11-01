@@ -10,8 +10,9 @@ moves = [
   { ticker = "CRWD", price = 257.57, change_pct = 8.25, session = "close", asof = 2026-10-23T16:00:00-04:00 },
   { ticker = "PANW", price = 380.55, change_pct = 7.22, session = "close", asof = 2026-10-23T16:00:00-04:00 },
 ]
-cover_brief = "In a stone armourer's forge at night, a red-hot steel shield glows on the anvil in a shower of sparks, and finished plain steel shields are stacked to the rafters along the walls, while through the open doorway the glowing red eyes of wolves watch from the dark forest outside."
-cover_alt = "A red-hot shield glows on a forge anvil, finished shields stacked high, wolves' red eyes in the dark outside."
+cover_brief = "In the centre of a fenced yard of plain web-server cabinets at night, a giant steel shield, polished, flawless and unbroken, with a wide plaque across its front reading 'CROWDSTRIKE' in plain capitals, rises on a hydraulic piston, lit warm gold, under a glowing sign hanging just above it, reading 'SOARING' in gold capitals, no wider than the shield, while hooded intruders with crowbars shrink back under a red alarm light. A stocky grey-haired woman in her forties cheers at the control lever, and a lean white-haired man in a tweed coat hands a plain order folder to a smiling South Asian man in a navy suit. Technicians bolt steel plates onto the cabinets, and at the back a second, smaller, dull and dented plain shield rises too."
+cover_alt = "A CrowdStrike shield rises over web-server cabinets under a SOARING sign as hooded intruders shrink back"
+cover_text = ["CROWDSTRIKE", "SOARING"]
 sources = [
   "https://247wallst.com/investing/2026/10/23/cybersecurity-stocks-rise-as-evercore-survey-flags-strengthening-demand-okta-crowdstrike-and-palo-alto-climb-4/",
   "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",

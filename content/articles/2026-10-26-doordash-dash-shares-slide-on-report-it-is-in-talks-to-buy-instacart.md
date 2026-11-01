@@ -10,8 +10,9 @@ cover = "ecommerce"
 moves = [
   { ticker = "DASH", price = 168.44, change_pct = -6.10, session = "close", asof = 2026-10-26T16:00:00-04:00 },
 ]
-cover_brief = "On a weathered wooden post in a harbour on a bright, windy morning, a big brown pelican throws its head back and strains to gulp down a silver fish nearly as big as itself, the tail flapping out of its hugely stretched throat pouch, the bird wobbling off balance as spray bursts below."
-cover_alt = "A pelican on a harbour post strains to swallow a fish nearly as big as itself"
+cover_brief = "In the middle of the frame, on a supermarket loading dock at night, a huge black delivery bag with a wide white front panel reading 'DOORDASH' in plain capitals across the face, with no logo box or badge, splits at its seams around a green shopping cart of unmarked groceries and carrots jammed into its top, lit warm gold. Just above the bag hangs a compact glowing sign, about a quarter of the frame wide, reading '$17 BILLION' in gold capitals, while a slim Latina courier in a navy jacket braces the splitting bag, wincing. A grey-bearded shopper in a green vest grins beside the cart, a stern grey-haired Black man peers at the bag through a magnifying glass, and an unmarked black car drives away."
+cover_alt = "A DoorDash delivery bag splits at the seams around a grocery cart under a $17 billion sign as a courier braces it"
+cover_text = ["DOORDASH", "$17 BILLION"]
 sources = [
   "https://www.bnnbloomberg.ca/business/company-news/2026/10/26/doordash-in-talks-to-buy-instacart-in-roughly-us17b-deal-source-says/",
   "https://www.spokesman.com/stories/2026/oct/26/doordash-in-talks-to-buy-instacart-in-roughly-17-b/",

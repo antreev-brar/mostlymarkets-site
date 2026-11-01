@@ -6,8 +6,9 @@ published = 2026-10-31T10:28:15-04:00
 author = "dev-malhotra"
 tickers = []
 themes = ["openai", "korea-chips", "hbm-pricing"]
-cover_brief = "At blue dusk in falling snow, a sleek silver robot kneels on one knee before the shut steel gates of two towering fortress-like chip factories standing side by side, holding up an open ring box with a glowing ring; warm light shines from their high windows, but the gates stay closed."
-cover_alt = "A silver robot kneels with a ring box in the snow before the shut gates of two fortress-like factories"
+cover_brief = "In the centre of a glass-walled meeting room at a Korean training centre at night, a giant gold fountain pen, its cap on, stands in a marble stand, lit warm gold. Beside it glows a big sign reading 'NO DEAL' in bold capitals. A stocky silver-haired Korean executive in her sixties in a navy suit folds her hands, calm; across the table, a tall grey-bearded visitor in his fifties in a blue blazer leans in, eager. Far back sit older executives: a bald man with glasses, a grey-haired woman. A huge empty plain steel crate sits behind the visitor, a small stack of silicon wafers by the host, lunch plates lie half-finished, sealed plain contracts pile high, a South Korean flag stands nearby, and two chip factories glow outside."
+cover_alt = "A giant capped gold pen stands beside a NO DEAL sign as a Korean executive faces an eager visitor at night"
+cover_text = ["NO DEAL"]
 sources = [
   "https://en.yenisafak.com/technology/samsung-executives-openai-ceo-altman-discuss-ai-future-3725024",
   "https://tech-insider.org/altman-meets-50-samsung-executives-memory-chips-2026/",

@@ -6,8 +6,9 @@ published = 2026-10-31T20:51:34-04:00
 author = "dev-malhotra"
 tickers = []
 themes = ["index-changes"]
-cover_brief = "At dusk a giant harbour crane lifts a small shining sailboat out of a quiet little harbour and lowers it into a vast marina packed with hundreds of identical white yachts, their lights reflecting on the dark water."
-cover_alt = "A crane lifts a small sailboat into a vast marina of identical yachts at dusk"
+cover_brief = "In the centre of a dark old members' club foyer at night, a giant brass key, lit warm gold, with 'OKTA' in big navy capitals on its flat round head facing us, turns in the lock of a tall oak door swinging open. Through the doorway, a big gold sign reads '141 PERCENT' in bold capitals. A tall grey-haired doorman in his sixties in a navy tailcoat holds the door, smiling, and a slim young Black woman with short natural hair and a cream coat steps forward, beaming. Inside, adult buyers in navy coats wait with plain order slips as a smaller group in grey slips out a side door. A plain guest book lies open, a porter wheels out plain medicine bottles, and a plain calendar hangs nearby."
+cover_alt = "A giant brass OKTA key turns in an opening oak door, a 141 PERCENT sign glowing inside, as buyers wait with order slips"
+cover_text = ["OKTA", "141 PERCENT"]
 sources = [
   "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600",
   "https://www.investing.com/news/stock-market-news/okta-jumps-afterhours-following-tapped-inclusion-in-the-sp-500-4988775",

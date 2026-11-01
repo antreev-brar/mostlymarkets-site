@@ -6,8 +6,9 @@ published = 2026-10-31T10:27:39-04:00
 author = "dev-malhotra"
 tickers = ["CRWV", "NBIS", "META", "ORCL", "MSFT"]
 themes = ["ai-capex"]
-cover_brief = "On the thin edge of a vast frozen lake at blue-hour dusk, a windowless warehouse with its wide doors open on rows of glowing server racks sits on ice cracking all around it, black water seeping up through the fractures, while far out in the centre several giant warehouses stand firm on thick blue ice, glowing warm and steady."
-cover_alt = "A data-centre warehouse sits on cracking ice at a frozen lake's edge while bigger ones stand on thick ice."
+cover_brief = "In the centre, on the thin edge of a frozen lake at night, a black data-centre hall with 'COREWEAVE' in white capitals on a wide plaque across its front tilts on cracking ice, black water welling up, lit warm gold. Beside it glows a big red sign reading '37 PERCENT' in white capitals, and a wiry Latina engineer in her twenties with a black ponytail and a navy parka braces a steel beam, alarmed; a heavyset silver-haired lender in his sixties in a dark coat backs away with a plain briefcase, wary. Far out on thick blue ice, larger plain halls glow steady. Plain bond certificates sink through the cracks, a smaller plain hall cracks too, a plain truck stalls ashore, and a crack creeps toward the big halls."
+cover_alt = "A COREWEAVE data hall tilts on cracking lake ice beside a red 37 PERCENT sign while bigger halls stand on thick ice"
+cover_text = ["COREWEAVE", "37 PERCENT"]
 sources = [
   "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
   "https://admiralmarkets.com/education/articles/shares/coreweave-stock-drop-ai-debt",

@@ -9,8 +9,9 @@ event = "recap-CBOE-2026-10-30"
 moves = [
   { ticker = "CBOE", price = 335.53, change_pct = 6.77, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A busy old toll bridge over a rushing river at dusk, its stone tollhouse glowing warmly, as a long, unbroken stream of tiny lantern-lit carts pours across in both directions, while the toll keeper's brass coin box beside the gate overflows onto the cobblestones."
-cover_alt = "Lantern-lit carts stream across a toll bridge at dusk, the coin box overflowing"
+cover_brief = "On a stormy seaside pier at night, a towering navy roller coaster fills the centre, its packed train cresting the highest peak, lit warm gold, 'CBOE' in white block capitals on the wide flat sign across the peak, and beside it glows a big gold sign reading '23 PERCENT' in bold capitals. In the front car, a young South Asian woman in a yellow raincoat and a tall bald Black man in his fifties in a grey suit raise their arms, laughing. At the turnstile, a heavyset ginger-bearded operator in his forties in a navy coat grins as riders drop coins into his plain brass box. Workers on scaffolding bolt a long new stretch onto the track, waves crash under the pier, and far off an empty carousel stands dark."
+cover_alt = "A packed Cboe roller coaster crests its peak beside a 23 PERCENT sign on a stormy pier as riders pay at the turnstile"
+cover_text = ["CBOE", "23 PERCENT"]
 sources = [
   "https://ir.cboe.com/news/news-details/2026/Cboe-Global-Markets-Reports-Results-for-Third-Quarter-2026/default.aspx",
   "https://www.sec.gov/Archives/edgar/data/0001374310/000162828026068432/cboe-20261030xex991.htm",

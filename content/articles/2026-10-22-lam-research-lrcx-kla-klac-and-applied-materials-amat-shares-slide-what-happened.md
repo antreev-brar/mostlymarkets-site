@@ -11,8 +11,9 @@ moves = [
   { ticker = "KLAC", price = 147.83, change_pct = -9.55, session = "close", asof = 2026-10-22T16:00:00-04:00 },
   { ticker = "AMAT", price = 375.58, change_pct = -8.16, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
-cover_brief = "A colossal gleaming chipmaking machine of white panels, steel pipes and robotic arms, as big as a house, is wedged halfway into the doorway of a spotless white factory far too small for it, its corners scraping the frame, while more giant crated machines wait on trailers behind it in the grey morning rain, floodlights glinting on wet concrete."
-cover_alt = "A giant chipmaking machine is wedged in a factory doorway too small for it, more waiting in the rain."
+cover_brief = "In the centre of a chip-factory loading bay at night, a tall boxy white chipmaking machine, 'LAM' in giant black capitals filling its whole flat front panel, tips off the right edge of a raised loading platform, tilting steeply, left wheels lifted, under a warm gold spotlight. Directly above it a big red sign reading '2027' in bold digits hangs no wider than the machine, on the glass wall of a clean room packed with plain machines. On its left, a stocky grey-bearded South Asian rigger in his fifties in a navy jacket hauls back on a taut strap, beside a slim technician in her thirties in white clean-room coveralls, clutching her hood in alarm. Behind it, two smaller plain machines lean by bare parts shelves."
+cover_alt = "A white machine marked LAM tips off a loading platform outside a full clean room, under a red 2027 sign"
+cover_text = ["LAM", "2027"]
 sources = [
   "https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026",
   "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html",

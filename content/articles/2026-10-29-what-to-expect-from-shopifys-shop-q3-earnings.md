@@ -8,8 +8,9 @@ tickers = ["SHOP"]
 moves = [
   { ticker = "SHOP", price = 166.89, change_pct = -0.79, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "In a floodlit athletics stadium at twilight, the stands full of a distant crowd in shadow, a high-jump bar rests on two towering stands, set absurdly high, level with the floodlights, while at the start of the runway a shopping cart heaped with wrapped parcels waits for its run, a thick blue landing mat below the bar."
-cover_alt = "A shopping cart full of parcels waits below a high-jump bar set far above normal in a floodlit stadium"
+cover_brief = "In the centre of a packing room before dawn, a giant green shopping bag with 'SHOPIFY' in white block capitals on its flat front sits on a table, overflowing with plain wrapped parcels, lit warm gold. Directly above it hangs a big gold sign reading '3 NOVEMBER' in bold letters, and at the table a wiry East Asian woman in her twenties with a black bob and a navy apron tapes a parcel, determined, while a heavyset grey-bearded man in his sixties in a brown cardigan climbs a stepladder to stack boxes higher, straining. In the shadows: a tall stack of shipped boxes beside a taller new one, rolls of gold holiday wrapping paper, a small white robot ordering on a laptop, a glowing card reader, a dark window."
+cover_alt = "A giant SHOPIFY bag full of parcels sits on a packing table under a 3 NOVEMBER sign before dawn"
+cover_text = ["SHOPIFY", "3 NOVEMBER"]
 sources = [
   "https://investingnews.com/shopify-to-announce-third-quarter-2026-financial-results/",
   "https://www.shopify.com/investors/events",

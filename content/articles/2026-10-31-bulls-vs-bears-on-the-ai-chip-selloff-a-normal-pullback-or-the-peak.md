@@ -11,8 +11,9 @@ moves = [
   { ticker = "AMD", price = 504.80, change_pct = -10.88, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "QCOM", price = 164.79, change_pct = -11.12, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A long wooden seesaw balances on the needle-sharp summit of a snowy mountain: a huge muscular bull stands on one end and a giant grizzly bear on the other, glaring at each other, the plank perfectly level. Golden sunshine breaks through behind the bull, dark storm clouds gather behind the bear, and sheer drops fall away on both sides."
-cover_alt = "A bull and a bear stand on a level seesaw balanced on a snowy mountain peak"
+cover_brief = "In the centre of moonlit tidal flats, a giant silicon wafer leans on its edge in the wet sand, stranded as the sea pulls back, its mirrored face gridded with tiny squares, lit warm gold. Behind it a wide glowing sign reading 'PULLBACK' stands high on two posts, and on the left, in warm light, a stocky white-bearded man in his sixties in a navy peacoat points at waves rolling back in, smiling; on the right, in cold blue light, a slim South Asian woman in her forties with a long braid and a camel coat points up the beach at a dark line of seaweed, frowning. Smaller plain chips litter the sand, an empty sea chest sits open, and a long unmarked data centre glows on the headland."
+cover_alt = "A giant silicon wafer lies stranded at low tide under a PULLBACK sign as two people point at the sea and up the beach"
+cover_text = ["PULLBACK"]
 sources = [
   "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

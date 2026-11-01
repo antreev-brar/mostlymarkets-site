@@ -9,8 +9,9 @@ event = "recap-AZN-2026-10-30"
 moves = [
   { ticker = "AZN", price = 186.65, change_pct = 7.02, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A gardener seen from behind, a tiny silhouette, prunes the dead outer branches of a huge old greenhouse tree at golden hour, and the clippings fall into a wheelbarrow that is tipping its load into a row of pots where dozens of bright young saplings are sprouting toward the glass roof."
-cover_alt = "A gardener prunes an old greenhouse tree, feeding the clippings to rows of young saplings"
+cover_brief = "In the centre of a research lab at night, a giant white-and-brass microscope stands lit warm gold, 'ASTRAZENECA' in navy block capitals on a wide plaque across its base. Beside it hangs a big glowing gold sign reading '7 PERCENT' in navy capitals, and a white-haired woman scientist in her sixties in a lab coat climbs a ladder to the eyepiece, beaming, while a lanky young Black man in safety glasses raises both fists. From an office corridor going dark, a stocky middle-aged man in a grey cardigan cheerfully wheels in a trolley heaped with plain gold coins. In the shadows sit a lightbox showing a magnified cancer cell, a frosted freezer packed with sealed sample racks, and an old plain medicine box crowded by cheaper unmarked copies."
+cover_alt = "A giant AstraZeneca microscope stands beside a 7 PERCENT sign as scientists cheer and a man wheels in a trolley of coins"
+cover_text = ["ASTRAZENECA", "7 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000901832/000165495426009256/a0835b.htm",
   "https://www.investegate.co.uk/announcement/rns/astrazeneca--azn/3rd-quarter-results/9849221",
