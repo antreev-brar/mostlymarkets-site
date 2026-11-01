@@ -10,8 +10,9 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "MSFT", price = 530.14, change_pct = -0.16, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A huge white cumulus cloud hangs low over a dark plain at first light, wrapped in a lattice of steel scaffolding and ladders. One big chunk of the cloud is still missing, an empty hoist hook dangles in the gap, and the deep blue sky behind it warms to gold at the horizon."
-cover_alt = "A white cloud wrapped in scaffolding hangs over a plain at dawn, with one big piece still missing"
+cover_brief = "On a highway at night, a flatbed truck carrying a giant black server rack with 'MICROSOFT' in white capitals on its flat front door is stalled in a traffic jam in the centre, filling half the frame, lit warm gold. Directly above it, a big glowing gold highway sign reads 'DELAYED'. A heavyset driver in her forties with a blonde braid and a navy cap leans on the cab, arms folded, waiting; a lean Black engineer in his thirties with close-cropped hair and a navy parka checks a tablet, frowning. In the shadows: more plain trucks of server racks with amber hazard lights, a half-built data center ahead with dark empty bays, adult customers in coats at its gate, a half-deflated gold balloon sinking onto the road."
+cover_alt = "A MICROSOFT server rack sits on a truck stuck in night traffic under a DELAYED highway sign"
+cover_text = ["MICROSOFT", "DELAYED"]
 sources = [
   "https://www.investing.com/news/stock-market-news/microsoft-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984771",
   "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",

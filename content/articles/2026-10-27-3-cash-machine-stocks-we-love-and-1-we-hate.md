@@ -6,8 +6,9 @@ published = 2026-10-27T12:30:00-04:00
 author = "theo-park"
 tickers = ["GDDY", "CRM", "MO", "META"]
 cover = "markets-calm"
-cover_brief = "On a long navy counter in a grand old shop, three shiny vintage brass cash registers overflow with gold coins, their drawers wide open and glowing, while a fourth at the end is rusty and empty, its drawer hanging open with nothing inside."
-cover_alt = "Three overflowing brass cash registers and one rusty empty one on a counter"
+cover_brief = "Set into an old stone wall at dusk, a row of tall gleaming brass cash machines with plain glowing screens pours gold coins from their slots in the centre, lit warm gold. Above them hangs a big glowing sign reading 'FREE CASH'. A smiling grey-haired woman in her seventies in a camel coat holds out a cloth bag as it fills, and a tall South Asian man in his thirties in a navy suit laughs as coins pile into his hands. One last machine stands apart under a red light, its coins sliding onto a conveyor into a dim building site where steel girders of a vast data centre rise, while a stocky Black man in his fifties in a tweed coat frowns at his empty palms"
+cover_alt = "Brass cash machines pour gold coins under a FREE CASH sign while one apart sends its coins into a building site"
+cover_text = ["FREE CASH"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000088/",
   "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/",

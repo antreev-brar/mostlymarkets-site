@@ -6,8 +6,9 @@ published = 2026-10-27T16:20:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "inflation"
-cover_brief = "A wide field of sunflowers lifts its heads toward one broad shaft of sunlight breaking through a dark slate storm, the tall bloom in the centre glowing bright gold. Heavy grey clouds still hang low over the far side of the field, and a curtain of rain is falling on the horizon."
-cover_alt = "Sunflowers lift toward a shaft of sunlight breaking through storm clouds that still linger"
+cover_brief = "On a small-town American main street at dusk, a smiling Black woman in her thirties with curly hair and a mustard coat strides toward us out of an unmarked grocery store in the centre, carrying two full paper bags, lit warm gold. Strung above the street hangs a huge glowing banner reading 'CONFIDENCE'. Across the road a lanky red-haired man in his twenties in a work jacket grins as he fills his old pickup at an unmarked gas pump, while a stocky grey-haired Asian man in a cardigan frowns at a long plain receipt under a red shop light. Passers-by ignore a window of plain dark televisions and laptops, and a café screen shows a silver-haired official at a lectern before an American flag"
+cover_alt = "A smiling shopper leaves a store under a CONFIDENCE banner while an older man frowns at a long receipt"
+cover_text = ["CONFIDENCE"]
 sources = [
   "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
   "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html",

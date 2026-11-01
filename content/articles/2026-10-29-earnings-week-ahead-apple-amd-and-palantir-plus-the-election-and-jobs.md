@@ -5,8 +5,9 @@ type = "analysis"
 published = 2026-10-29T17:04:00-04:00
 author = "nora-whitfield"
 tickers = []
-cover_brief = "A small red canoe with a lone paddler, seen from behind, drifts toward the lip of a deep canyon where the river drops through five churning ledges of white-water rapids, one after another, spray flying from each and the far end lost in mist, the canyon walls glowing gold in late-afternoon light."
-cover_alt = "A lone canoe drifts toward a canyon river that drops through five churning ledges of rapids into mist"
+cover_brief = "On a dark theatre stage, a lean olive-skinned juggler in her thirties with a tight black bun and a navy tailcoat with gold buttons stands in the centre under one warm gold spotlight, focused and smiling, tossing high above her head a gold folding phone, a glowing computer chip, a small plain wooden ballot box and a yellow hard hat. Beside her on a stand, a big glowing sign reads 'ELECTION DAY'. In the front row a stout silver-haired official in a grey suit grips his armrests, anxious; a young Black man in navy overalls on a ladder hurriedly turns back the hands of a big plain clock. In the shadowy wings wait a plain barrel of crude oil and a dark server rack."
+cover_alt = "A juggler on a dark stage tosses a phone, a chip, a ballot box and a hard hat beside an ELECTION DAY sign"
+cover_text = ["ELECTION DAY"]
 sources = [
   "https://www.bls.gov/schedule/2026/11_sched.htm",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",

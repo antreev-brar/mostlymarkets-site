@@ -9,8 +9,9 @@ event = "recap-GEV-2026-10-28"
 moves = [
   { ticker = "GEV", price = 887.85, change_pct = 1.12, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On a vast empty concert stage at dusk, under blazing gold spotlights and drifting smoke, a giant gleaming unmarked gas turbine, its rings of polished steel blades catching the light, is lifted high into the air by a crane while gold confetti rains down over the empty stage."
-cover_alt = "A giant gas turbine lifted over an empty stage under gold spotlights and confetti"
+cover_brief = "In the centre of a vast turbine factory hall at night, a towering gas turbine with 'GE VERNOVA' painted in huge white block capitals along its casing rolls on a flatbed toward doors open to the night, lit warm gold. Directly above it a big glowing sign reads '$29 BILLION'. A pale, grey-haired foreman in his sixties in a navy hard hat and gold vest raises one fist, smiling; a tall South Asian woman in her forties in a navy suit hands him a thick stack of plain order forms, beaming. Behind them plain half-built turbines fill every assembly bay into shadow, grid transformers wait in plain crates, one wind-turbine blade lies under a dusty tarp, and a bald man in a grey suit watches with folded arms."
+cover_alt = "A GE VERNOVA gas turbine rolls out of a factory at night under a glowing $29 BILLION sign"
+cover_text = ["GE VERNOVA", "$29 BILLION"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
   "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gev3q2026form8-k10282026.pdf",

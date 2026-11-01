@@ -7,8 +7,9 @@ author = "dev-malhotra"
 tickers = ["MU", "NVDA", "SNDK", "WDC"]
 themes = ["hbm-pricing", "korea-chips", "memory-cycle"]
 cover = "semis-wafer"
-cover_brief = "An exclusive club entrance at night: a red velvet rope on brass posts guards a towering glowing vault packed floor to ceiling with memory chips shining like gold bars, while a long queue of identical silver robots waits in the rain under a spotlight. Behind it, half hidden in the rain, a tall crane is building a second vault."
-cover_alt = "Silver robots queue in the rain at a velvet rope guarding a vault of glowing chips as a crane builds another."
+cover_brief = "A towering stack of thin black memory chips, gold contacts glinting along every layer, rises in the centre of a floodlit construction site at night under a warm gold light, its top in scaffolding, a huge glowing banner across its middle reading 'SOLD OUT 2027'. At its foot a stocky Korean site manager in his fifties with a grey crew cut and white hard hat and a tall buyer in her forties with a sleek bob and navy coat shake hands, beaming. A plain AI processor board waits on a pallet with an empty slot, a forklift carries silicon wafers to the stack, a Korean flag flies over the site office, and behind, a second factory rises in the dark while an analyst frowns at it."
+cover_alt = "A half-built tower of stacked memory chips under a SOLD OUT 2027 banner, as a second factory rises behind"
+cover_text = ["SOLD OUT 2027"]
 sources = [
   "https://www.investing.com/news/transcripts/earnings-call-transcript-samsung-electronics-posts-record-q3-2026-profit-93CH-4981365",
   "https://www.koreajoongangdaily.com/business/samsungs-record-804b-q3-profit-fails-to-impress-investors/12944742",

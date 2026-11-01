@@ -11,8 +11,9 @@ moves = [
   { ticker = "SYK", price = 288.00, change_pct = -7.62, session = "regular", asof = 2026-10-30T09:31:50-04:00 },
   { ticker = "SYK", price = 311.75, change_pct = 2.55, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A large garden snail whose shell is a gleaming polished-titanium ball, like the ball of an artificial hip joint, inches across the spotless floor of an operating theatre. Two huge round surgical lamps glow warm gold overhead, and the snail's long silvery trail stretches far behind it across the cool blue tiles."
-cover_alt = "A snail with a shiny metal hip-joint ball for a shell crawls across an operating-theatre floor"
+cover_brief = "In the centre of a dim operating theatre at night, a big open steel implant case with 'STRYKER' in white capitals on its raised lid sits on a trolley, gleaming titanium hip and knee implants resting unused in grey foam under one warm gold surgical lamp. Above the swing doors glows a large red sign reading 'SURGERY DELAYED'. Beside the empty operating table, a tall surgeon in her fifties with short grey hair and navy scrubs waits with folded arms, and a broad young nurse with a black beard and blue scrubs leans on the wall, frowning. Through the door, a grey-haired man with a cane holds plain insurance forms while a receptionist shakes her head, and a storeroom shelf of plain boxes sits nearly empty"
+cover_alt = "An open Stryker case of hip and knee implants sits by an empty operating table under a red SURGERY DELAYED sign"
+cover_text = ["STRYKER", "SURGERY DELAYED"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm",
   "https://s22.q4cdn.com/857738142/files/doc_financials/2026/q3/SYK-Ex-99-1-Earnings-Q3-2026.pdf",

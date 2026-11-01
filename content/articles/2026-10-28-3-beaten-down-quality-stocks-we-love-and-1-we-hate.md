@@ -6,8 +6,9 @@ published = 2026-10-28T12:30:00-04:00
 author = "theo-park"
 tickers = ["ADBE", "INTU", "BKNG", "NKE"]
 cover = "markets-calm"
-cover_brief = "On a rainy cobbled street at night, three heavy gold bars lie half-sunk in a muddy puddle in the gutter, rain splashing on them. Behind them, a brightly lit, unlabelled shop window displays a single scuffed, plain old sneaker on a velvet pedestal under a glass dome and a spotlight."
-cover_alt = "Gold bars lie in a rainy gutter while a lit shop window shows a scuffed sneaker on a velvet pedestal"
+cover_brief = "In the centre of a covered night market, a battered wooden bargain crate glows under a warm gold lamp, holding a sleek drawing tablet with a stylus, a brass calculator on plain tax forms, and a polished hotel reception bell on a small suitcase. Above it hangs a big glowing sign reading 'MARKED DOWN'. A grey-haired woman in her sixties in a navy wool coat leans in with a magnifying glass, delighted, and a bearded Black man in his forties in a tweed jacket lifts the tablet, grinning. Nearby, behind cold glass, a scuffed plain sneaker sits on a tall marble pedestal under a red light with an oversized blank price tag, and a young woman with a ponytail and a puffer jacket frowns at it."
+cover_alt = "Shoppers delight over a tablet, calculator and hotel bell in a MARKED DOWN crate; a scuffed sneaker sits on a pedestal"
+cover_text = ["MARKED DOWN"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/",
   "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/",

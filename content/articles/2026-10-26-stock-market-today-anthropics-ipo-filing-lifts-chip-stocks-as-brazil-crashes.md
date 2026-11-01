@@ -7,8 +7,9 @@ author = "nora-whitfield"
 tickers = []
 logos = ["x-anthropic", "NVDA", "NU", "MELI"]
 cover = "wall-street-sun"
-cover_brief = "On a plain deep-blue felt casino table under a low hanging lamp, a tall, gleaming tower of square silver computer chips with gold pins stands stacked like a big winning pile. Beside it, a long wooden croupier's rake reaching in from the shadows sweeps a toppled heap of plain green and yellow casino chips off the table's edge into the dark."
-cover_alt = "A tower of silver computer chips on a casino table as a rake sweeps green and yellow casino chips away"
+cover_brief = "In the centre of a dim records hall of tall plain filing cabinets, a giant leather-bound ledger stamped 'ANTHROPIC' stands on a wooden lectern, its clasp burst open, warm gold light pouring from its pages and lifting a swirl of silicon chips with gold pins. Above it hangs a big glowing gold banner reading 'IPO'. A young East Asian woman with a bob, in a navy blazer, reads a loose plain page, delighted; a stocky bald man in his sixties in shirt-sleeves and suspenders pumps both fists. A blank plain price tag hangs from its ribbon, and a coil of blue optical cable glows nearby. In a cold corner, under a red alarm light, a Brazilian flag droops over a toppled cabinet."
+cover_alt = "A glowing Anthropic ledger lifts computer chips into the air under an IPO banner in a dim records hall"
+cover_text = ["ANTHROPIC", "IPO"]
 sources = [
   "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
   "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",

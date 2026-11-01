@@ -9,8 +9,9 @@ themes = ["ai-capex", "big-tech-earnings"]
 moves = [
   { ticker = "GOOGL", price = 281.46, change_pct = 0.58, session = "after-hours", asof = 2026-10-30T20:00:00-04:00 },
 ]
-cover_brief = "A colossal translucent golden dome, like a force field of glowing hexagons, arches over a dark desert valley at night, satellites glinting in the starry sky above, while a thick cable of shining blue fibre-optic light snakes across the sand toward an open port at the dome's base, its plug resting just short of the socket."
-cover_alt = "A glowing data cable snakes across the desert toward a giant golden shield dome at night"
+cover_brief = "A tall black server cabinet with 'GOOGLE' in white capitals across its door stands on a trolley in the centre of a navy-lit military command centre, under a curved ceiling of gold hexagonal panels, in a warm gold light, its cable coiled beside an empty socket. Behind it a huge glowing screen reads '$185 BILLION'. A broad-shouldered grey-haired officer in his sixties in a dark green uniform and a slim South Asian engineer in her thirties with tied-back black hair and a grey fleece talk calmly over plain unsigned papers and a capped pen. Other contractors' plain cabinets line the walls, plain screens show a toppled cell tower and cut phone lines, blank protest placards lean in a corner, and an American flag stands nearby."
+cover_alt = "A GOOGLE server cabinet waits unplugged in a gold-domed command centre under a $185 BILLION screen"
+cover_text = ["GOOGLE", "$185 BILLION"]
 sources = [
   "https://finance.yahoo.com/technology/ai/articles/alphabet-talks-join-trump-golden-211555344.html",
   "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VE:0-alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program-bloomberg-news/",

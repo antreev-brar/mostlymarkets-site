@@ -9,8 +9,9 @@ cover = "payments"
 moves = [
   { ticker = "V", price = 401.86, change_pct = -0.57, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
-cover_brief = "On a vast white salt flat at sunrise, a lone sprinter, seen from behind, drives forward at full speed toward the low gold sun, while a big red training parachute strapped to his waist billows open behind him, tugging back against every stride and kicking up a trail of white dust."
-cover_alt = "A sprinter races across a salt flat at sunrise, a red training parachute billowing open behind him"
+cover_brief = "In the centre of a dim airport terminal at night, a giant navy payment card with 'VISA' in gold capitals on its face rides up a long escalator under a warm gold spotlight. At the top, the escalator flattens into a level moving walkway beneath a big glowing amber sign reading '2027'. A smiling Black woman in her thirties with curly hair and a camel coat rolls a suitcase up beside it, and a heavyset grey-haired man in a navy suit waits at the top, frowning at the flat walkway ahead. In the shadows, travellers wheel suitcases toward a jet beyond the glass wall, a shopkeeper taps a card on a plain payment terminal, a bank teller pockets a plain envelope of coins, and gold confetti drifts down."
+cover_alt = "A giant VISA card rides an airport escalator that levels off under a glowing 2027 sign as travellers pass"
+cover_text = ["VISA", "2027"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
   "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Deck_vFINAL.pdf",

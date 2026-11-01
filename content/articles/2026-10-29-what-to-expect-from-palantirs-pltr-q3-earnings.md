@@ -8,8 +8,9 @@ tickers = ["PLTR"]
 moves = [
   { ticker = "PLTR", price = 196.42, change_pct = -0.2, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On an empty grass field under a towering blue noon sky, a high-jump bar sits absurdly high, resting on teetering stacks of bricks piled on top of its two posts, far above the small landing mat. At the end of the long run-up, a lone athlete, a small silhouette seen from behind, stands looking up at it."
-cover_alt = "A high-jump bar propped on bricks far above its posts, a lone athlete looking up at it"
+cover_brief = "In the centre of a dark ballroom at night, a giant black data terminal with 'PALANTIR' in white block capitals across its flat steel base stands on a stage under one warm gold spotlight, its wide screen a plain map of gold dots. Directly above it hangs a big glowing gold sign reading '84%'. Before the results arrive, a heavyset bald man in his sixties in a navy suit pops a champagne cork, grinning; a Latina woman in her twenties with a long braid and a grey blazer checks her phone, tense; a stocky Black man in his forties in a dark suit frowns, arms folded. In the shadows: filled champagne glasses, netted balloons, confetti cannons, an American flag beside plain contract folders, crates of company orders."
+cover_alt = "A giant PALANTIR data terminal on a ballroom stage under an 84% sign as champagne is opened early"
+cover_text = ["PALANTIR", "84%"]
 sources = [
   "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-stock-204504105.html",
   "https://www.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-4973079",

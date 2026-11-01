@@ -11,8 +11,9 @@ moves = [
   { ticker = "TMUS", price = 146.54, change_pct = -7.71, session = "close", asof = 2026-10-23T16:00:00-04:00 },
   { ticker = "CCI", price = 85.97, change_pct = 9.06, session = "close", asof = 2026-10-23T16:00:00-04:00 },
 ]
-cover_brief = "In a smoky card room at night, three plain grey robots with old-fashioned telephone dials for faces guard small stacks of poker chips at a green felt table under a hanging lamp. Facing them, an astronaut in a plain white spacesuit with a mirrored gold visor takes the empty fourth chair and sets down a towering stack of gold poker chips."
-cover_alt = "An astronaut joins three telephone-dial robots at a poker table with a towering stack of chips"
+cover_brief = "In the centre of a windswept hilltop at night, a tall steel cell tower rises from a squat equipment building with 'AT&T' painted in big white capitals across its flat front wall, under a warm gold spotlight, the building cracked and tilting. Halfway up the tower hangs a big red glowing sign reading '80,000'. Beside it a plain white rocket has just landed, and technicians in plain white suits point up at the tower. A heavyset grey-haired engineer in his sixties in a navy work jacket stares from the doorway, worried, and a tall, grinning Black landlady in her fifties in a tan suit jangles a big ring of keys. Two smaller plain sheds tilt beside it, and more cell towers dot the dark hills."
+cover_alt = "An AT&T building tilts below a cell tower with a red 80,000 sign as a rocket lands and a landlady jangles keys"
+cover_text = ["AT&T", "80,000"]
 sources = [
   "https://www.investing.com/news/stock-market-news/spacex-seeks-access-to-80000-us-cell-sites-for-wireless-network-bloomberg-news-reports-4967805",
   "https://www.investing.com/news/stock-market-news/us-telecom-operators-wobble-after-report-spacex-in-talks-for-cell-sites-4970138",

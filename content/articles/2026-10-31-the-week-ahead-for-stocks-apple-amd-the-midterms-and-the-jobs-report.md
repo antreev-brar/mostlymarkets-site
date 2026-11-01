@@ -6,8 +6,9 @@ published = 2026-10-31T10:27:31-04:00
 author = "marcus-lindqvist"
 tickers = ["AAPL", "AMD", "ARM", "QCOM", "PLTR", "SHOP", "UBER", "COP"]
 themes = ["big-tech-earnings", "fed-rates"]
-cover_brief = "Backlit by a cold blue dawn, the dark silhouette of a lone runner, seen from behind, crouches at the start of a long wet grass track. Ahead stand five plain wooden hurdles in a straight line, each one taller than the last, the farthest half swallowed by rolling fog beneath heavy storm clouds."
-cover_alt = "A lone runner, seen from behind, faces five ever-taller hurdles that fade into fog and storm clouds"
+cover_brief = "In the centre of a brick town-hall polling station at night, a giant navy ballot box with a gold-rimmed slot stands on a table under one warm gold lamp. Beside it glows a big sign reading 'ELECTION DAY'. A plump grey-haired poll worker in her sixties in a cardigan hands out a plain ballot, smiling; a broad Black man in his forties with close-cropped hair and a navy suit stares at his phone, tense; a stocky factory worker in her forties with a grey braid and a hard hat waits, arms folded, anxious. An American flag hangs behind, a wall television shows a plain black AI server rack, a smartphone with a cracked dark screen lies nearby, and plain voting booths fade into shadow."
+cover_alt = "A navy ballot box glows beside an ELECTION DAY sign in a polling station as a TV shows an AI server rack"
+cover_text = ["ELECTION DAY"]
 sources = [
   "https://www.bls.gov/schedule/2026/11_sched.htm",
   "https://www.bls.gov/news.release/archives/empsit_10022026.htm",

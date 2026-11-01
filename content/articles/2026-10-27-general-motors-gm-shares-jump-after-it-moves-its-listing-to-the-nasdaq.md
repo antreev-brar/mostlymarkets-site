@@ -10,8 +10,9 @@ cover = "autos-factory"
 moves = [
   { ticker = "GM", price = 80.54, change_pct = 5.54, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
-cover_brief = "A big, rugged pickup truck with a plain grille, no badges and mud on its tyres swings off a dusty gravel country road onto the on-ramp of a gleaming elevated highway of glowing blue lanes at dusk, merging into a fast stream of sleek silver capsule-shaped pods, its headlights cutting through the violet haze."
-cover_alt = "A muddy pickup truck merges from a country road onto a glowing futuristic highway of sleek silver pods."
+cover_brief = "A giant glowing gold sign spelling 'GM' rides on the shoulders of two burly movers in the centre of a Manhattan avenue at night, carried from a plain old columned stone exchange toward a glass tower wrapped in plain blue screens. Above them hangs a big glowing banner reading '17 NOVEMBER'. The front mover, a bald Black man in his fifties in navy overalls, grins; the rear mover, an East Asian woman in her twenties with a short black bob, laughs. A silver-haired trader in a camel coat runs ahead to the tower, waving, and through its glass doors a row of tall gold chairs waits with one left empty. An unmarked pickup sits at the kerb, and a white-haired woman on a bench calmly sips coffee"
+cover_alt = "Movers carry a glowing GM sign from an old exchange to a glass tower under a 17 November banner"
+cover_text = ["GM", "17 NOVEMBER"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1467858/000119312526432602/d53522dex991.htm",
   "https://www.detroitnews.com/story/business/autos/general-motors/2026/10/27/gm-moves-to-nasdaq-as-first-legacy-automaker-on-the-exchange/92457482007/",

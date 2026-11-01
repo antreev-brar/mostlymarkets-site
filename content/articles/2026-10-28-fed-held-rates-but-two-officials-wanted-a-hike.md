@@ -6,8 +6,9 @@ published = 2026-10-28T15:45:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "fed"
-cover_brief = "Partway up a sheer granite mountain at pink dawn, a roped team of twelve small, distant climbers in red jackets has stopped on a narrow ledge: ten sit resting against the rock, while the two at the front stand pulling the rope upward toward the summit, which disappears into thick white cloud."
-cover_alt = "Twelve roped climbers rest on a cliff ledge while two at the front pull toward a summit hidden in cloud"
+cover_brief = "In the centre of a grand marble hall at night, a giant brass lever on a stone plinth is chained upright in its middle notch, lit warm gold, beneath a big glowing sign reading 'HOLD'. Behind it, a long row of officials in dark suits sits calmly at a polished table. Off to the right, under a single red light, two officials stand apart hauling on a rope tied to the handle, straining upward: a tall bald man in his fifties with glasses, and a stout brown-skinned woman in her forties with a grey bun. A silver-haired official at a lectern before an American flag raises a calming hand. In the shadows, reporters press cameras to glass doors, a plain oil barrel glows and a plain ballot box waits."
+cover_alt = "Officials sit by a brass lever locked under a HOLD sign while two stand apart under a red light pulling it higher"
+cover_text = ["HOLD"]
 sources = [
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",

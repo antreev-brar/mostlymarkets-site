@@ -6,8 +6,9 @@ published = 2026-10-31T10:27:55-04:00
 author = "theo-park"
 tickers = ["MU", "INTC", "QCOM", "ARM"]
 themes = ["chip-selloff", "memory-cycle"]
-cover_brief = "On a storm-battered beach at dawn, the grey sea still heaving and the clouds just breaking open, three plain wooden crates and a small brass-bound chest have washed up on the wet sand. The crates lie smashed and empty, spilling sodden straw, while the chest sits whole, its lid cracked open on a warm glow of gold."
-cover_alt = "Three smashed crates and one intact chest glowing with gold lie washed up on a beach after a storm"
+cover_brief = "A big square black memory chip with gold pins and 'MICRON' across its face glows under a warm gold light in the centre, held up in both hands by a wiry, beaming prospector in his sixties with a white beard, wide-brimmed hat and rubber boots, standing in a storm-swollen river at dusk. A short East Asian woman in her twenties with tied-back hair and yellow rain jacket raises a lantern, grinning, and a stocky Black man in his forties with a shaved head and oilskin coat tosses a cracked processor chip onto a reject pile, frowning. A sieve of broken plain chips rests on a rock, a cracked plain smartphone and a soggy rolled blueprint lie on the pile, and dark storm clouds linger."
+cover_alt = "A prospector in a storm-swollen river holds up a glowing MICRON memory chip beside a sieve of broken chips"
+cover_text = ["MICRON"]
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",
