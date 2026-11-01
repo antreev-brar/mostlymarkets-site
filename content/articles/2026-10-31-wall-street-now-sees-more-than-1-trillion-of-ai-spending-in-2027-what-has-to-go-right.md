@@ -35,7 +35,7 @@ sources = [
 ]
 +++
 
-On Wednesday, Alphabet ($GOOGL) said on its earnings call that its capital spending will rise significantly in 2027, and on Thursday Amazon ($AMZN) Chief Executive Andy Jassy said the company expects to spend "meaningfully more," Reuters and NBC News reported. Meta ($META) said in its 21 October results release that it expects "to continue investing aggressively." None of the three put a number on 2027.
+On Wednesday, Alphabet ($GOOGL) said on its earnings call that its capital spending will rise significantly in 2027, Reuters reported, and on Thursday Amazon ($AMZN) Chief Executive Andy Jassy said the company expects to spend "meaningfully more" in 2027, according to NBC News. Meta ($META) said in its 21 October results release that it expects "to continue investing aggressively." None of the three put a number on 2027.
 
 Goldman Sachs strategists led by Ryan Hammond forecast in a September note that Amazon, Alphabet, Microsoft ($MSFT), Oracle ($ORCL), and Meta will spend about **$1.2 trillion** on AI infrastructure in 2027, up from about $800 billion this year.
 
@@ -80,13 +80,13 @@ In July, Jassy said Amazon would not "have enough capacity to meet all the deman
 
 Supply is still the limit, and so far delays have moved spending into 2027 rather than canceled it. On Wednesday's call, Microsoft Chief Financial Officer Amy Hood said some outside capacity the company expected in July to September was delayed and has shifted to the first half of 2027.
 
-Contracted demand keeps growing: Microsoft's commercial contracts not yet booked as revenue rose 73% to **$677 billion**, its results release showed.
+Contracted demand is up sharply: Microsoft's commercial contracts not yet booked as revenue were **$677 billion** at the end of September, 73% more than a year earlier, its results release showed.
 
 ### 2. Revenue has to follow
 
 Goldman's note puts the five's break-even at about **$300 billion** a year of AI revenue, and says current estimates of that revenue fall short.
 
-Google Cloud's revenue rose 103% in the third quarter, and Amazon projects growth above 40% at AWS, its cloud arm, in both 2027 and 2028, their results releases showed. Amazon, Microsoft, and Alphabet don't break out AI sales in their results, so cloud growth and contract backlogs are the nearest gauges of that break-even.
+Google Cloud's revenue rose 103% year on year in the third quarter, and Amazon projects growth above 40% at AWS, its cloud arm, in both 2027 and 2028, their results releases showed. Amazon, Microsoft, and Alphabet don't break out AI sales in their results, so cloud growth and contract backlogs are the nearest gauges of that break-even.
 
 ### 3. The cash has to be found
 
@@ -98,7 +98,7 @@ Goldman's note says the spending has pushed past the cash the companies' operati
  {"value": "+30%", "label": "Growth in that cash flow", "note": "Against the 12 months before, our count"}]
 ```
 
-Paying for Goldman's forecast from operations would take that cash flow two-thirds higher, more than twice its growth over the past year. The rest would come from cash on hand, debt, or new shares: Amazon is already **$42.4 billion** short over 12 months, its release shows, and our [cash scorecard](/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/) tracks the others.
+Paying for Goldman's forecast from operations would take that cash flow two-thirds higher, more than twice its growth over the past year. The rest would come from cash on hand, debt, or new shares: Amazon's free cash flow is already **negative $42.4 billion** over 12 months, its release shows, and our [cash scorecard](/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/) tracks the others.
 
 ### 4. More dollars have to buy more computers
 
@@ -110,6 +110,6 @@ Pricier memory makes the trillion easier to reach and harder to earn back, and t
 
 Nvidia ($NVDA) **reports on Tuesday 17 November**, with its call at 5 p.m. ET. Its forecast is the best early read on what the five are ordering for 2027.
 
-Hood has set Microsoft's marker: spending of "over $50 billion" from October to December, then an acceleration from January to June, the second half of its fiscal year.
+Hood has set Microsoft's marker: spending of "over $50 billion" from October to December, then an acceleration from January to June as delayed deliveries arrive and memory and storage cost more.
 
 We think the trillion is more likely to be spent than not: Alphabet and Amazon have said they will spend more, Microsoft expects to speed up, and so far the limit has been supply, not demand. Whether it pays is less certain, because revenue is the least proven of the four conditions and cash the most stretched. We'd change our view on the spending if any of the five cut its 2027 plan, and on the payback if cloud growth slowed while budgets kept rising.

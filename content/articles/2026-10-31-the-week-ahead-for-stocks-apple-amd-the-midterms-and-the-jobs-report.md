@@ -1,6 +1,6 @@
 +++
 title = "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report"
-dek = "Apple reports on Monday, AMD on Tuesday as Americans vote, and Arm and Qualcomm on Wednesday, after an October that cut Arm's shares by 28.9%. Friday brings the jobs report."
+dek = "Apple reports on Monday, AMD on Election Day, and Arm and Qualcomm on Wednesday, after an October that cut Arm's shares 28.9%. Friday's jobs report tests the 85% odds of a December rate hike."
 type = "analysis"
 published = 2026-10-31T10:27:31-04:00
 author = "marcus-lindqvist"
@@ -12,6 +12,8 @@ sources = [
   "https://www.bls.gov/schedule/2026/11_sched.htm",
   "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
   "https://investinglive.com/news/us-september-non-farm-payrolls-29k-vs-90k-expected/",
+  "https://www.bls.gov/news.release/cpi.nr0.htm",
+  "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/10/14/the-consumer-price-index-cpi-rose-0.6percent-in-september",
   "https://www.federalreserve.gov/newsevents/2026-november.htm",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
   "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
@@ -20,18 +22,36 @@ sources = [
   "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/",
   "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
   "https://finimize.com/content/stocks-have-rallied-after-every-midterm-election-for-50-years",
+  "https://www.schaeffersresearch.com/content/analysis/2022/10/26/what-election-day-means-for-the-s-p-500",
   "https://www.nyse.com/markets/hours-calendars",
-  "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
   "https://investinglive.com/commodities/us-warns-gulf-allies-of-possible-short-intense-iran-campaign-after-midterms-wsj/",
   "https://www.middleeasteye.net/news/us-warns-gulf-intense-strikes-iran-after-midterms-report",
   "https://www.timesofisrael.com/us-israel-said-to-draft-plans-for-resumed-strikes-on-iran-after-midterm-elections/",
+  "https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed",
+  "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+  "https://thenextweb.com/news/intel-q3-2026-outlook-pc-slump-memory-shortage",
+  "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
+  "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
+  "https://sentinelcolorado.com/nation-world/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street/",
   "https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2",
+  "https://finance.yahoo.com/markets/stocks/articles/apples-q4-earnings-loom-buy-173000032.html",
+  "https://macdailynews.com/2026/07/30/macdailynews-presents-live-notes-from-apples-q326-conference-call-260730/",
+  "https://uk.finance.yahoo.com/news/apple-stock-slides-nearly-10-as-cook-warns-of-memory-shortage-impact-115246491.html",
   "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-stock-204504105.html",
+  "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm",
   "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+  "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000121/q22026991.htm",
+  "https://finance.yahoo.com/quote/AMD/analysis/",
+  "https://www.investing.com/equities/adv-micro-device-earnings",
+  "https://finance.yahoo.com/technology/articles/amd-faces-high-expectations-jefferies-194400060.html",
+  "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
   "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
   "https://investingnews.com/qualcomm-schedules-fourth-quarter-and-fiscal-2026-earnings-release-and-conference-call/",
   "https://www.sec.gov/Archives/edgar/data/0000804328/000080432826000085/qcom062826erex991.htm",
   "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Third-Quarter-2026-Results-Conference-Call/default.aspx",
+  "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-uber-stock-155400082.html",
+  "https://beta.bnnbloomberg.ca/business/company-news/2026/08/05/uber-forecasts-weak-quarterly-profit-doubles-down-on-robotaxi-investment-plans/",
+  "https://finance.yahoo.com/markets/stocks/articles/uber-faces-investor-questions-autonomous-163500341.html",
   "https://investingnews.com/shopify-to-announce-third-quarter-2026-financial-results/",
   "https://marriott.gcs-web.com/node/37666",
   "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/10-19-2026-213519457",
@@ -49,7 +69,6 @@ sources = [
   "https://www.cvshealth.com/news/company-news/cvs-health-to-hold-third-quarter-2026-earnings-conference-call.html",
   "https://www.morningstar.com/news/business-wire/20261007894147/applovin-to-announce-third-quarter-2026-results",
   "https://investor.mckesson.com/news/financial-news/2026/McKesson-Corporation-Announces-Second-Quarter-Fiscal-2027-Earnings-Release-Date/default.aspx",
-  "https://finviz.com/quote.ashx?t=MCD",
   "https://www.conocophillips.com/investor-relations/",
   "https://www.irwendys.com/news/news-details/2026/The-Wendys-Company-Confirms-Receipt-of-Unsolicited-Proposal-from-Trian-Partners/default.aspx",
   "https://www.irwendys.com/news/news-details/2026/The-Wendys-Company-to-Report-Third-Quarter-2026-Results-on-November-5/default.aspx",
@@ -61,9 +80,9 @@ sources = [
 ]
 +++
 
-Friday's chip rout has set up a week that tests the AI trade from several sides at once. Apple ($AAPL) and Palantir Technologies ($PLTR) report on Monday, AMD ($AMD) on Tuesday while Americans vote in the midterm elections, and Arm Holdings ($ARM) and Qualcomm ($QCOM) on Wednesday. The Labor Department's October jobs report closes the week on Friday, 6 November.
+AMD ($AMD), Arm Holdings ($ARM), and Qualcomm ($QCOM) all report this week, after Friday's chip rout knocked 10% to 11% off each ([our story](/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/)).
 
-The chipmakers come in bruised. Arm lost **28.9%** in October and AMD 17.5%, by our count, much of it on Friday after Intel's weak forecast ([our story](/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/)). Shopify ($SHOP) and Apple went the other way.
+In October, Arm lost **28.9%** and AMD 17.5%, by our count.
 
 ```chart
 {"kind": "moves", "tickers": ["SHOP", "AAPL", "PLTR", "UBER", "QCOM", "AMD", "ARM"], "from": "2026-09-30", "to": "2026-10-30", "names": true,
@@ -71,46 +90,57 @@ The chipmakers come in bruised. Arm lost **28.9%** in October and AMD 17.5%, by 
  "subtitle": "Share price change, 30 September close to 30 October close, %"}
 ```
 
-There's no Fed meeting this week; the next ends on 9 December. After Wednesday's split vote, futures put the odds of a hike then at about **85%**, according to Bloomberg data cited by Yahoo Finance, so Friday's jobs numbers carry extra weight.
+```highlights
+The short version
+- **What's happening:** AMD, Arm, and Qualcomm report this week after Friday's rout cut 10% to 11% from each, with Apple on Monday and the October jobs report on Friday.
+- **Why it matters:** Their forecasts are the first direct evidence on the selloff's two fears, AI spending and memory costs, and the jobs report tests the 85% odds of a December rate hike.
+- **Our read:** AMD's forecast matters most: analysts expect its sales to jump about $3 billion in the December quarter, twice its biggest quarterly gain since 2023, so merely matching that may not be enough.
+```
 
-US clocks go back an hour on Sunday, so from Monday New York is five hours behind London. All times below are ET.
+Friday's rout followed reports after Thursday's close from Intel ($INTC), whose weak forecast Reuters tied to a memory-chip shortage hurting PC demand, and Amazon ($AMZN), whose cash burn deepened worries about whether all the AI spending will pay off. With Apple ($AAPL), this week's reporters are the first direct test of both worries.
+
+After the Fed's split vote on Wednesday, futures put the odds of a rate hike on 9 December at about **85%**, according to Bloomberg data cited by Yahoo Finance.
+
+All times below are ET.
 
 ## Monday 2 November
 
-- **Apple** reports its fiscal fourth quarter after the close, with the release at 4:30 p.m. and the call at 5 p.m., the first under Chief Executive John Ternus. Analysts expect revenue of **$112.95 billion**, according to Zacks via Yahoo Finance ([our preview](/news/2026-10-29/what-to-expect-from-apples-aapl-q4-earnings/)). The stock ended Friday 1.2% below its record close of 29 October.
-- **Palantir** reports after the close, with a webcast at 5 p.m. Analysts expect revenue of $2.17 billion, up 84% from a year earlier, according to Zacks via Yahoo Finance ([our preview](/news/2026-10-29/what-to-expect-from-palantirs-pltr-q3-earnings/)).
-- **Also reporting:** Marriott International ($MAR) and Estée Lauder ($EL) before the open. After the close, Vertex Pharmaceuticals ($VRTX), onsemi ($ON), Williams ($WMB) and Diamondback Energy ($FANG).
-- **The economy:** The Institute for Supply Management's survey of factory managers comes at 10 a.m. Its prices index is the one to watch with US crude near $103 a barrel ([our story on oil](/news/2026-10-31/the-story-wall-street-is-telling-about-100-oil-and-the-fed/)). At 2 p.m. the Fed publishes its survey of senior loan officers, a read on whether banks are tightening credit, its calendar shows.
+- **Apple** reports its fiscal fourth quarter after the close, with the release at 4:30 p.m. and the call at 5 p.m., the first under Chief Executive John Ternus. Analysts expect revenue of **$112.95 billion**, according to Zacks data cited by Yahoo Finance ([our preview](/news/2026-10-29/what-to-expect-from-apples-aapl-q4-earnings/)). With the stock near a record at almost 40 times earnings, as CNBC noted, the gross margin is the test: in July, Tim Cook, then chief executive, said Apple expected "to pay even higher memory costs" in the September quarter.
+- **Palantir Technologies** ($PLTR) reports after the close, with a webcast at 5 p.m. Analysts expect revenue of $2.17 billion, up 84% from a year earlier, according to Zacks ([our preview](/news/2026-10-29/what-to-expect-from-palantirs-pltr-q3-earnings/)). That's above the top of Palantir's own forecast, so a beat is already expected.
+- **Also reporting:** Marriott International ($MAR) and Estée Lauder ($EL) before the open. After the close, Vertex Pharmaceuticals ($VRTX), onsemi ($ON), Williams ($WMB), and Diamondback Energy ($FANG).
+- **The economy:** The Institute for Supply Management's survey of factory managers comes at 10 a.m.; its prices index is the one to watch with US crude near $103 a barrel ([our story on oil](/news/2026-10-31/the-story-wall-street-is-telling-about-100-oil-and-the-fed/)). At 2 p.m. the Fed's survey of senior loan officers shows whether banks are tightening credit.
 
 ## Tuesday 3 November: Election Day
 
-- **The vote.** The midterms decide control of the House and the Senate, and US stock markets keep normal hours, according to the NYSE. Control of Congress shapes taxes, spending and regulation, Finimize noted, and it found the S&P 500 has risen in the six months after each of the last 13 midterms.
+- **The vote.** US stock markets keep normal hours, according to the NYSE. The S&P 500 has risen in the six months after each of the last 13 midterms, Finimize found.
 - **Why oil traders care.** President Donald Trump has said he won't strike Iran before the vote, and The Wall Street Journal reported this week that the US has told Gulf allies to prepare for a short, intense campaign after it.
-- **AMD** reports after the close, with a call at 5 p.m. Yahoo Finance's average forecast is revenue of $13.08 billion, in line with AMD's own guidance, so its outlook for the December quarter, when its Helios server racks ramp up, may matter more ([our preview](/news/2026-10-29/amd-amd-reports-earnings-on-tuesday-what-to-watch/)). The stock fell 10.9% on Friday.
-- **Also reporting:** Before the open, Shopify, whose software runs online stores, gives an early read on holiday shopping ([our preview](/news/2026-10-29/what-to-expect-from-shopifys-shop-q3-earnings/)), alongside Pfizer ($PFE), Eaton ($ETN), Marathon Petroleum ($MPC) and Apollo Global Management ($APO). After the close: Amgen ($AMGN), Arista Networks ($ANET), Booking Holdings ($BKNG), Block ($XYZ) and Super Micro Computer ($SMCI).
+- **AMD** reports after the close, with a call at 5 p.m. Yahoo Finance's average forecast, $13.08 billion of revenue, is in line with AMD's own guidance, so the outlook for the December quarter, when its Helios AI server racks ramp up, matters more ([our preview](/news/2026-10-29/amd-amd-reports-earnings-on-tuesday-what-to-watch/)).
+- **Also reporting:** Before the open, Shopify ($SHOP), whose software runs online stores, gives an early read on holiday shopping ([our preview](/news/2026-10-29/what-to-expect-from-shopifys-shop-q3-earnings/)), alongside Pfizer ($PFE), Eaton ($ETN), Marathon Petroleum ($MPC), and Apollo Global Management ($APO). After the close: Amgen ($AMGN), Arista Networks ($ANET), Booking Holdings ($BKNG), Block ($XYZ), and Super Micro Computer ($SMCI).
 - **The economy:** The Labor Department's JOLTS survey of job openings in September comes at 10 a.m.
 
 ## Wednesday 4 November
 
-- **Arm and Qualcomm** report after the close; Qualcomm's call starts at 4:45 p.m. and Arm's at 5 p.m. Both lean on smartphones, where pricier memory chips are squeezing phone makers. Qualcomm's revenue from handset chips fell 20% from a year earlier in its last quarter, and Qualcomm fell 11.1% on Friday.
-- **Uber** reports before the open, with a call at 8 a.m., after closing on Friday at its lowest in 52 weeks as investors worry about robotaxis. Analysts expect gross bookings of $59.7 billion, according to Zacks via Yahoo Finance ([our preview](/news/2026-10-29/what-to-expect-from-ubers-uber-q3-earnings/)).
-- **Also reporting:** Novo Nordisk ($NVO), CVS Health ($CVS), Datadog ($DDOG) and McDonald's ($MCD) before the open. AppLovin ($APP) and McKesson ($MCK) after the close.
+- **Arm and Qualcomm** report after the close; Qualcomm's call starts at 4:45 p.m. and Arm's at 5 p.m. Both lean on smartphones, where the memory squeeze bites: Qualcomm's handset-chip revenue fell 20% year on year in the June quarter, and the midpoint of its September-quarter forecast is about 10% below last year's ([our chip list](/news/2026-10-31/3-chip-stocks-wed-skip-and-1-we-like-after-fridays-rout/)).
+- **Uber** ($UBER) reports before the open, with a call at 8 a.m., after closing on Friday at its lowest in 52 weeks as investors worry about robotaxis. Analysts expect gross bookings of $59.7 billion, according to Zacks ([our preview](/news/2026-10-29/what-to-expect-from-ubers-uber-q3-earnings/)).
+- **Also reporting:** Novo Nordisk ($NVO), CVS Health ($CVS), and Datadog ($DDOG) before the open; AppLovin ($APP) and McKesson ($MCK) after the close.
 - **The economy:** ADP's estimate of private-sector hiring in October comes in the morning and ISM's survey of service businesses at 10 a.m. The Treasury also makes its quarterly refunding announcement, which sets how much longer-term debt it plans to sell.
 
 ## Thursday 5 November
 
-- **ConocoPhillips** ($COP), which pumps oil and gas but doesn't refine it, reports before the open. It's a clean read on what crude above $100 means for a producer, and its stock rose 23.1% in October, by our count.
-- **Also reporting:** Cigna ($CI), Duke Energy ($DUK) and Wendy's before the open; Wendy's has a non-binding offer of $7.35 a share from Trian and Flynn Group to take it private. Airbnb ($ABNB) and Cloudflare ($NET) after the close.
+- **ConocoPhillips** ($COP), which pumps oil and gas but doesn't refine it, reports before the open, a clean read on what crude above $100 means for a producer. Its stock rose 23.1% in October, to its highest close in at least five years, by our count.
+- **Also reporting:** Cigna ($CI), Duke Energy ($DUK), and Wendy's before the open; Wendy's has a non-binding offer of $7.35 a share from Trian and Flynn Group to take it private. Airbnb ($ABNB) and Cloudflare ($NET) after the close.
 - **The economy:** The Bank of England announces its rate decision at 7 a.m., with its Bank Rate at 3.75%. In the US, weekly jobless claims and the first estimate of third-quarter productivity and unit labor costs come at 8:30 a.m.
 
 ## Friday 6 November
 
-- **The jobs report.** The Bureau of Labor Statistics publishes October payrolls and the unemployment rate at 8:30 a.m. In September employers added just **29,000** jobs, far fewer than the 90,000 economists expected.
-- **What it decides.** Another weak month would make a December hike harder to justify. A strong one would back Governor Lisa Cook and Cleveland Fed President Beth Hammack, who voted for a hike last week ([our Fed story](/news/2026-10-28/fed-held-rates-but-two-officials-wanted-a-hike/)).
+- **The jobs report.** The Bureau of Labor Statistics publishes October payrolls and the unemployment rate at 8:30 a.m. In September employers added just **29,000** jobs, far short of the 90,000 economists expected, and July's count was revised to a loss.
+- **What it decides.** A strong report would back Governor Lisa Cook and Cleveland Fed President Beth Hammack, who voted for a hike on 28 October ([our Fed story](/news/2026-10-28/fed-held-rates-but-two-officials-wanted-a-hike/)), but with a hike mostly priced in, it can add little. Another weak month could cut those odds sharply, and we think December is already a closer call than futures suggest, with core consumer prices up 2.6% from a year earlier.
 - **Also:** The University of Michigan's early November reading of consumer sentiment, which includes inflation expectations, comes at 10 a.m. Moderna ($MRNA) and Vistra ($VST) report before the open.
 
 ## What we'll watch
 
-We think AMD's December-quarter forecast is the week's most important number. AMD is still up 135.7% this year, by our count, so its price assumes a big Helios ramp, and a forecast below Yahoo Finance's $16.17 billion average would test that.
+We think AMD's December-quarter forecast is the week's most important number. Analysts' average of **$16.15 billion**, on Yahoo Finance, is about $3 billion more than they expect for the September quarter, twice the biggest quarterly gain in AMD's filings since 2023, by our count.
 
-After Friday comes inflation: October's consumer price index is due on Tuesday 10 November at 8:30 a.m., and it will show whether energy is still pushing prices up.
+A stock still up 135.7% this year already assumes that Helios ramp. In August, AMD topped forecasts and the stock still sank 7.0%, so a forecast that merely matches the average may not be enough.
+
+Next comes inflation: October's consumer price index is due on Tuesday 10 November at 8:30 a.m. In September, energy prices were up 20.4% from a year earlier, against 3.7% for all items.

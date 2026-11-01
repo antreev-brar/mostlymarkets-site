@@ -106,7 +106,7 @@ Micron's growth comes in lurches: sales fell in three of the last nine fiscal ye
 
 ### Profitability: the highest operating margin in tech
 
-Micron's operating margin was **74.6%** in fiscal 2026, the highest of the 91 information-technology companies in our fundamentals data and above the 65.2% Nvidia ($NVDA) earned over its last 12 months.
+Micron's operating margin was **74.6%** in fiscal 2026, the highest of the 91 information-technology companies whose operating margins we track, and above the 65.2% Nvidia ($NVDA) earned over its last 12 months.
 
 The swing comes from costs that barely move with prices: in fiscal 2026 Micron's cost of goods sold rose 14% while revenue more than tripled. The same leverage works in reverse; in fiscal 2023 the operating loss came to 37.0% of sales.
 
@@ -128,7 +128,7 @@ Little of it went to shareholders: buybacks and dividends came to about $1.3 bil
 
 Micron ended the fiscal year with **$73.5 billion** of cash and investments against $5.2 billion of debt, its results release shows.
 
-Customers supplied $12.75 billion of that cash as deposits under the new contracts, nearly all due back between 2029 and 2031, the annual report says. Net of those, Micron holds about $55 billion, while its plans put fiscal 2027 capital spending above $50 billion.
+Customers supplied $12.75 billion of that cash as deposits under the new contracts, nearly all due back between 2029 and 2031, the annual report says. Net of those, Micron holds about $56 billion, while its plans put fiscal 2027 capital spending above $50 billion.
 
 ## Why the stock is where it is
 
@@ -181,7 +181,7 @@ The club keeps newcomers out of HBM for now. It didn't stop Micron's 2023 slump.
 
 1. **A price reset in 2028.** If Micron's prices fell by Counterpoint's 23% from this quarter's guide, with volumes and costs unchanged, its operating profit would drop by roughly 28%, by our arithmetic; a 2023-style halving of revenue would cut far deeper.
 2. **A few big buyers.** About half of revenue came from its ten largest customers in each of the last three years, the annual report says. If its data-center buyers, about 61% of sales, cut their purchases by a fifth, Micron would lose about 12% of revenue.
-3. **Its own building boom.** Micron plans to spend about $25 billion on plant and equipment, net of government incentives, in the first half of this fiscal year, nearly as much as in all of fiscal 2026, and more in the second half. Its annual report warns that the contracts could feed the next glut: makers are adding supply to match them, and buyers taking more than they need to honor their commitments could build up inventories.
+3. **Its own building boom.** Micron plans to spend about $25 billion on plant and equipment, net of government incentives, in the first half of this fiscal year, nearly as much as in all of fiscal 2026, and more in the second half. Its annual report warns that the contracts could feed the next glut: makers are lining up supply to match them, which would be too much if buyers broke their commitments and demand fell short, and buyers taking more than they need to meet their minimums could build up inventories.
 
 ## What the price assumes
 

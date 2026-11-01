@@ -33,6 +33,7 @@ sources = [
   "https://www.benzinga.com/news/26/10/62724272/sandisk-q1-2027-earnings-call-transcript",
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
   "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+  "https://www.fool.com/earnings/call-transcripts/2026/10/30/intel-intc-q3-2026-earnings-call-transcript/",
   "https://thenextweb.com/news/intel-q3-2026-outlook-pc-slump-memory-shortage",
   "https://www.koreajoongangdaily.com/business/samsungs-record-804b-q3-profit-fails-to-impress-investors/12944742",
   "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
@@ -43,9 +44,12 @@ sources = [
   "https://view.asiae.co.kr/en/article/2026071315333278624",
   "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
   "https://news.skhynix.com/en/q3-2026-business-results/",
+  "https://www.fxstreet.com/news/sk-hynix-earnings-beat-sends-micron-sandisk-shares-higher-202610281624",
+  "https://247wallst.com/investing/2026/10/28/sk-hynix-jumps-7-micron-rises-3-on-memory-shortage-call-through-2030-while-seagate-slips-despite-upbeat-guidance/",
   "https://www.trendforce.com/news/2026/10/28/news-sk-hynix-3q26-opm-hits-record-80-says-dram-hbm-effectively-sold-out-to-2029-14-lta-customers-signed/",
   "https://www.fool.com/investing/2026/10/23/memory-stocks-are-plummetting-jensen-huang-says-the-bears-have-it-wrong/",
   "https://www.digitaltoday.co.kr/en/view/118511/jensen-huang-says-no-memory-glut-in-2029-rebutting-fears-over-memory-stocks",
+  "https://timesbrasil.com.br/empresas-e-negocios/jensen-huang-da-nvidia-nao-ve-sinais-de-excesso-de-oferta-de-memoria-em-2029-sempre-e-possivel-usar-mais/",
   "https://www.kedglobal.com/korean-chipmakers/newsView/ked202603080004",
   "https://www.trendforce.com/news/2026/03/09/news-samsung-sk%E2%80%AFhynix-reportedly-tapped-as-nvidia-rubin-hbm4-suppliers-shipments-could-start-in-march",
   "https://data.sec.gov/api/xbrl/companyfacts/CIK0000106040.json",
@@ -87,7 +91,7 @@ The same leverage works in reverse, from far above past peaks: Micron's GAAP gro
 
 ### 1. Price increases are slowing
 
-TrendForce, a Taiwan-based market tracker, expects contract prices for conventional DRAM to **rise 10% to 15%** this quarter, after a jump of about 93% to 98% in the first quarter. Enterprise SSDs, the flash drives in data centers, are the only memory product it expects to get pricier faster than last quarter.
+TrendForce, a Taiwan-based market tracker, expects contract prices for conventional DRAM to **rise 10% to 15%** this quarter, after a jump of about 93% to 98% in this year's first quarter. Enterprise SSDs, the flash drives in data centers, are the only memory product it expects to get pricier faster than last quarter.
 
 Micron's revenue growth slowed from 74% quarter on quarter in the three months to May to about 21% in the three months to 3 September, measured per week because that quarter had an extra week, by our arithmetic from its filings. Its guide implies about the same pace this quarter, with a slightly lower gross margin.
 
@@ -103,15 +107,15 @@ Sandisk's guide implies growth of about 12% this quarter, after 23% in the last.
 
 ### 2. High prices are starting to cut demand
 
-Intel ($INTC) Chief Executive Lip-Bu Tan said customers had begun signaling a PC slowdown because of memory prices and availability, Yahoo Finance reported on Friday. Chief Financial Officer David Zinsner said in Thursday's results release that he sees the slowdown lasting at least through the first half of 2027.
+Intel ($INTC) Chief Executive Lip-Bu Tan said on Thursday's earnings call that customers had begun signaling a PC slowdown "based on the memory prices and availability." Chief Financial Officer David Zinsner said in the results release that he sees the slowdown lasting at least through the first half of 2027.
 
 Sandisk's consumer revenue, from memory cards and drives sold in stores, **fell 29%** from the previous quarter, which Visoso put down to the market adjusting to higher pricing.
 
-Phones, PCs and ordinary servers still take most DRAM: HBM, the stacked memory in AI chips, is only about 12% of DRAM demand this year, measured in bits, Pzena estimates.
+Most DRAM still goes to price-sensitive buyers like these. HBM, the stacked memory in AI chips, is only about 12% of DRAM demand this year, measured in bits; phones, conventional servers, PCs and other devices take nearly all the rest, Pzena estimates.
 
 ### 3. Micron and Sandisk peaked in June, before their record quarters
 
-Micron's shares hit their closing high on 25 June, the day after it reported fiscal third-quarter results, by our price data. It has since posted record quarterly revenue of **$54.23 billion**.
+Micron's shares hit their closing high on 25 June, the day after it reported fiscal third-quarter results, by its SEC filings and our price data. It has since posted record quarterly revenue of **$54.23 billion**.
 
 ```chart
 {"kind": "price", "ticker": "MU", "range": "6m", "end": "2026-10-30",
@@ -127,9 +131,9 @@ Sandisk peaked the same day. Its revenue rose 378% from a year earlier in the qu
  "notes": [{"date": "2026-06-25", "label": "Closing high"}, {"date": "2026-07-13", "label": "Seoul's Black Monday"}, {"date": "2026-10-30", "label": "Beat, then fell 13.5%"}]}
 ```
 
-Investors are paying less for each dollar of profit. Micron traded at 27.5 times its past four quarters' earnings at its June high and at **11.9 times** on Friday, by our arithmetic from its filings and our prices. [Our breakdown of Micron](/news/2026-10-31/micron-mu-earns-87-gross-margins-is-this-the-top/) tests what that price assumes.
+Investors now pay far less for each dollar of Micron's profit: **11.9 times** its past four quarters' earnings at Friday's close, against 27.5 times at its June high, by our arithmetic from its filings and our prices. [Our breakdown of Micron](/news/2026-10-31/micron-mu-earns-87-gross-margins-is-this-the-top/) tests what that price assumes.
 
-Micron's stock turned before its profits in the last cycle, too. Its shares were already 22.6% below their January 2022 high when quarterly revenue hit a record in the three months to 2 June 2022, and they bottomed that September, before its gross margin turned negative in early 2023.
+Micron's stock also turned before its profits in the last cycle, our price data and its filings show. Its shares were already 22.6% below their January 2022 high when quarterly revenue hit a record in the three months to 2 June 2022, and they bottomed that September, months before its gross margin turned negative in early 2023.
 
 ### 4. Seoul sold the news of SK hynix's record listing
 
@@ -139,7 +143,7 @@ SK hynix's $26.5 billion Nasdaq listing began trading on 10 July, Renaissance Ca
 
 ### 5. In October, even record profits couldn't stop the slide
 
-Micron **lost 16.0%** in the five sessions to 14 October, by our price data. CNBC tied the slide in memory stocks to worries about a new design from CXMT, China's leading memory maker, and a possible glut in 2029.
+Micron **lost 11.2%** in the three sessions to 14 October, by our price data. CNBC tied that week's slide in memory stocks to worries about a new server-memory design from CXMT, China's leading memory maker, and a possible glut in 2029.
 
 SK hynix's record quarter lifted Micron 5.9% on 28 October, but by Friday's close the stock was below where that rally began. Samsung's shares slid 4.13% on 29 October after another record quarterly profit, CNBC reported.
 
@@ -154,17 +158,17 @@ SK hynix's record quarter lifted Micron 5.9% on 28 October, but by Friday's clos
 
 ## The case against it
 
-The doubters are the memory makers themselves and Nvidia ($NVDA), which buys their memory for its AI chips. SK hynix said on 28 October that demand will exceed supply through 2030, and Nvidia Chief Executive Jensen Huang told CNBC, in an interview reported on 22 October, that he doesn't expect a memory glut until after 2029.
+The doubters are the memory makers themselves and Nvidia ($NVDA), which buys their memory for its AI chips. SK hynix said on 28 October that demand will exceed supply through 2030, and Nvidia Chief Executive Jensen Huang told CNBC on 22 October that he doesn't expect a memory glut until after 2029.
 
 1. **Contracts set price ranges for the next two years.** SK hynix's long-term agreements with 14 major customers cover more than half its capacity for 2027 and 2028, at prices that move within an agreed range, its results release says. Counterpoint Research's Jeongku Choi told CNBC that such limits, which cap falls as well as rises, mean a downturn should not bring "the same sharp decline seen in the past."
-2. **Prices are still rising, and part of the slowdown is by design.** Even the slower forecasts are increases, and TrendForce says contract terms make some suppliers' increases lag the market. Micron expects revenue of about $61.5 billion this quarter, up from $54.23 billion.
+2. **Prices are still rising.** Even the slower forecasts are increases, and in server memory TrendForce expects some suppliers' increases to trail the market because of pricing terms in their long-term contracts, a slowdown that need not signal weaker demand. Micron expects revenue of about $61.5 billion this quarter, up from $54.23 billion.
 3. **Even a bearish forecast leaves margins high.** Counterpoint expects DRAM prices to fall about 23% in 2028 from 2027, CNBC reported. Cut Micron's latest quarterly revenue by that much, with volumes and costs unchanged, and its gross margin would still be about 83%, by our arithmetic.
 
 The strongest is the first: the contracts are in the companies' own results, not in a forecast, though they have yet to be tested in a downturn.
 
 ## What would change minds
 
-- **Wednesday:** Qualcomm ($QCOM) and Arm ($ARM) report after the close on 4 November. Qualcomm's phone-chip sales fell 20% from a year earlier in the June quarter, when Chief Executive Cristiano Amon cited "a challenging memory and supply environment"; a deeper drop would show high prices cutting demand.
+- **Wednesday:** Qualcomm ($QCOM) and Arm ($ARM) report after the close on 4 November. In July, Chief Executive Cristiano Amon cited "a challenging memory and supply environment" as Qualcomm's phone-chip sales fell 20% from a year earlier in the quarter to June; a deeper drop would show high prices cutting demand.
 - **December:** Micron reports its fiscal first quarter (it reported the same quarter on 17 December last year). A gross-margin guide below this quarter's 85.95% would be a second step down; one above it would undercut the peak story.
 - **Early January:** TrendForce publishes its first-quarter contract-price forecast (this year's came on 5 January). A forecast fall in DRAM prices would be the turn these stocks have been pricing; another rise would leave the bears waiting.
 
@@ -192,4 +196,4 @@ If the peak story holds, the memory makers have the most to lose. If it breaks a
 
 **Partly supported.** The slowdown is real: DRAM contract-price increases have shrunk from about 93% to 98% in the first quarter to a forecast 10% to 15% now, and buyers of PCs and memory cards are pulling back.
 
-The weakest link is the turn itself. Prices are still rising, and contracts with price ranges cover more than half of SK hynix's output for 2027 and 2028, so the profit fall these stocks are pricing hasn't started and may be shallower than 2023's. At 11.9 times trailing earnings, Micron is already priced for falling profits; the number we'll watch is its gross-margin guide in December.
+The weakest link is the turn itself. Prices are still rising, and contracts with price ranges cover more than half of SK hynix's output for 2027 and 2028, so the profit fall these stocks are pricing hasn't started and may be shallower than 2023's. At 11.9 times trailing earnings, Micron's price already assumes that fall; the number we'll watch is its gross-margin guide in December.

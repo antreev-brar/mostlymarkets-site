@@ -64,7 +64,7 @@ Qualcomm had flagged the same pressure. Chief Executive Cristiano Amon said in t
 
 ## Memory and storage fell despite strong results
 
-Sandisk ($SNDK) **plunged 13.5%** the day after it beat estimates and forecast that its revenue growth from the previous quarter would roughly halve, to about 12% ([our story](/news/2026-10-30/sandisk-sndk-tops-fiscal-q1-estimates-as-data-center-sales-jump-61/)).
+Sandisk ($SNDK) **plunged 13.5%** the day after it beat estimates and gave a revenue forecast implying that its growth from the previous quarter would roughly halve, to about 12% ([our story](/news/2026-10-30/sandisk-sndk-tops-fiscal-q1-estimates-as-data-center-sales-jump-61/)).
 
 Micron ($MU) and the hard-drive makers Seagate ($STX) and Western Digital ($WDC) fell 5% to 8%. In Seoul, SK hynix had already fallen more than 7% before New York opened ([Seoul's week](/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/)).
 
@@ -72,7 +72,7 @@ Micron and Sandisk trade at about five times their expected earnings for the nex
 
 ## AI chips fell less, except the network makers
 
-Nvidia ($NVDA) **fell 4.2%** and Broadcom ($AVGO) 5.5%.
+Nvidia ($NVDA) **slid 4.2%** and Broadcom ($AVGO) 5.5%.
 
 The makers of chips that move data inside AI data centers fell harder: Marvell Technology ($MRVL) and Astera Labs ($ALAB) about 10% to 11%, and Credo Technology ($CRDO) 8.7%.
 
@@ -82,7 +82,7 @@ Across the five, the falls lined up with how much investors were paying for expe
 
 Applied Materials ($AMAT), Teradyne ($TER), ASML ($ASML), Lam Research ($LRCX) and KLA ($KLAC), which sell the machines that make and test chips, **fell 5.7% to 7.5%**.
 
-Taiwan Semiconductor's shares fell nearly 2% in Taipei, where trading ended before New York opened, Reuters reported. Its US-listed shares ($TSM) then fell 6.0%.
+Taiwan Semiconductor's shares fell nearly 2% in Taipei, where trading ended before New York opened, Reuters reported. Its US-listed shares ($TSM) then slid 6.0%.
 
 ## Server and PC makers took Intel's PC warning
 
@@ -90,7 +90,7 @@ Dell ($DELL) **plunged 10.8%** and HP ($HPQ) 9.6%, as Intel's warning hit the co
 
 Server makers fell less: Hewlett Packard Enterprise ($HPE) 6.4% and Supermicro ($SMCI) 4.3%.
 
-Dell, a big PC seller that had nearly quadrupled this year, fell most of the four. Supermicro, a server maker that had risen 18% this year, fell least.
+Here, PC exposure mattered more than the run-up: HP, up 43% this year before Friday, fell harder than Hewlett Packard Enterprise, which had more than doubled.
 
 ## Analog chips held up best
 
@@ -117,7 +117,7 @@ Exposure to PCs and phones mattered even without a run-up: Qualcomm, up just 8% 
 
 Micron is the exception: up 227% this year before Friday, it fell only 5.3%.
 
-Neither line is about AI demand: only three of the 27 stocks in our groups fell less than Nvidia, the biggest maker of AI chips, and all three make analog chips. We read Friday as a PC problem plus investors cashing in this year's winners.
+Neither line is about AI demand: only three of the 27 stocks in our groups fell less than Nvidia, the biggest maker of AI chips, and all three make analog chips.
 
 What would change our mind is a weak AI forecast: AMD's on Tuesday is the first test, and Nvidia's on 17 November the biggest. Arm and Qualcomm on Wednesday will show how far the memory squeeze reaches into phones.
 

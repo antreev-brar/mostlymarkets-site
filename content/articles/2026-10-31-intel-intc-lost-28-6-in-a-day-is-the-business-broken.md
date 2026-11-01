@@ -29,6 +29,7 @@ sources = [
   "https://news.skhynix.com/en/q3-2026-business-results/",
   "https://247wallst.com/investing/2026/10/28/sk-hynixs-profit-jumped-632-as-ai-eats-the-worlds-memory/",
   "https://www.koreajoongangdaily.com/business/samsungs-record-804b-q3-profit-fails-to-impress-investors/12944742",
+  "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
 ]
 +++
 
@@ -124,7 +125,7 @@ A year earlier the PC unit earned almost three times as much as the server unit;
 
 Free cash flow, the cash left after spending on plants and equipment, was **$3.8 billion** in the 12 months to September, 6.3% of sales and less than a third of AMD's rate.
 
-Capital spending, which Intel is raising to make more chips, was $4.0 billion in the third quarter, up 66% from a year earlier, by our count from its cash-flow statements.
+Gross capital spending, which Intel is raising to make more chips, was $4.2 billion in the third quarter, up 43% from a year earlier, by our calculation from the release.
 
 ### Balance sheet: a little more cash than debt
 
@@ -152,9 +153,9 @@ Intel ended September with $54.0 billion of cash and short-term investments agai
 
 **The PC slump is lasting, and it's spreading.** SK hynix expects memory demand to outrun supply through 2030, and TrendForce forecast on 30 September that contract prices for ordinary DRAM would rise another 10% to 15% this quarter, with higher component costs in notebook inventories weighing on sales.
 
-Dell ($DELL) fell 10.8% and HP ($HPQ) 9.6% on Friday, and Samsung's phone business swung to an operating loss on higher component costs, memory included, the Korea JoongAng Daily reported.
+Dell ($DELL) fell 10.8% and HP ($HPQ) 9.6% on Friday, and Samsung's phone business swung to an operating loss from a profit a year earlier, on higher component costs, memory included, the Korea JoongAng Daily reported.
 
-**The supply shortfall looks temporary, if the spending works.** Zinsner said Intel will keep investing "to increase supply and support future growth." Bad planning can be fixed, but the fix costs cash, and Intel keeps little: its free cash flow over the past year was less than it spent on plants and equipment in the third quarter alone.
+**The supply shortfall looks temporary, if the spending works.** Zinsner said Intel will keep investing "to increase supply and support future growth." The "bad planning" Goldberg blames can be fixed, but the fix costs cash, and Intel keeps little: its free cash flow over the past year was less than it spent on plants and equipment in the third quarter alone.
 
 **The worry that survives is the price.** The business isn't broken, but even after Friday the stock costs more than twice its usual multiple of sales: the price assumes Intel is already fixed.
 
@@ -179,7 +180,7 @@ Revenue and margins come from the companies' SEC filings; forward P/E ratios are
 ## The risks we'd watch
 
 1. **PCs are half the business.** The PC unit brought in about half of third-quarter revenue, so each further 10% fall in its sales would cost about $0.8 billion a quarter.
-2. **The factories keep losing money.** Intel Foundry's third-quarter loss was 20% smaller than a year earlier, but had it broken even, Intel's operating profit would have been $4.4 billion, not $2.5 billion.
+2. **The factories keep losing money.** Intel Foundry's third-quarter loss was a fifth smaller than a year earlier, but had it broken even, Intel's operating profit would have been $4.4 billion, not $2.5 billion.
 3. **Cash could turn negative again.** Free cash flow was negative $2.5 billion in the first quarter of 2026, and capital spending is rising. Another quarter like that would erase two-thirds of the past year's total.
 
 ## What the price assumes
