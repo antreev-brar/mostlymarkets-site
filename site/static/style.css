@@ -1076,7 +1076,7 @@ details.allst summary { cursor: pointer; font: 600 14px/1 var(--sans); color: va
 .hc h1 { font: 700 42px/1.08 var(--serif); letter-spacing: -.022em; text-wrap: balance; color: #fff; }
 .hc h1 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
 .hc .dek { font: 400 16px/1.5 var(--sans); color: #a9b2cf; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.hc.pts .dek { -webkit-line-clamp: 2; }
+.hc.pts .dek { -webkit-line-clamp: 3; }
 .hc-pts { list-style: none; margin: 0; padding: 0; display: grid; }
 .hc-pts a { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px; padding: 9px 0; border-top: 1px solid rgba(255, 255, 255, .1); font: 600 14.5px/1.35 var(--sans); color: #eef1fb; }
 .hc.pts h1 { font-size: 38px; }

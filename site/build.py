@@ -505,7 +505,7 @@ def cover_img(key: str, size: int, cls: str = "", lazy=True, alt=True, sizes: st
     a = esc(COVERS["covers"].get(key, {}).get("alt", "") or COVER_ALT.get(key, "")) if alt else ""
     srcset = ""
     if size == 1600:
-        srcset = f' srcset="{u(f"static/covers/{key}-800.webp")} 800w, {u(f"static/covers/{key}-1600.webp")} 1600w" sizes="(max-width: 760px) 100vw, 680px"'
+        srcset = f' srcset="{u(f"static/covers/{key}-800.webp")} 800w, {u(f"static/covers/{key}-1600.webp")} 1600w" sizes="(max-width: 900px) 100vw, (max-width: 1180px) 54vw, 760px"'
     elif size == 800:  # list rows, shelves and boxes: a phone's small square needs only the 480
         srcset = (f' srcset="{u(f"static/covers/{key}-480.webp")} 480w, {u(f"static/covers/{key}-800.webp")} 800w"'
                   f' sizes="{sizes or "(max-width: 640px) 104px, 300px"}"')
@@ -1281,7 +1281,7 @@ def hero_card(s: Story, skip: set | None = None, news: list | None = None) -> st
     kick = (f'<b>{esc(long_date(s.pub.date()))}</b>' if daily else
             f'<b>{TYPE_LABEL[s.type]}</b><span class="hc-sep">·</span>{ago(s.pub, "ago q")}')
     badge = (f'<span class="hc-badge">Mostly Markets <b>Daily</b> · No. {s.edition}</span>' if daily else "")
-    play = (f'<button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through it</span></button>'
+    play = (f'<button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through</span></button>'
             if daily and s.takes else "")
     cta = "Read the edition" if daily else "Read the story"
     meta = (f'{len(s.takes)} takes · {s.minutes} min read' if daily and s.takes else
