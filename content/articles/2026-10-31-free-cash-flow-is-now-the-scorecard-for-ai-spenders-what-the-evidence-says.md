@@ -1,6 +1,6 @@
 +++
 title = "Free Cash Flow Is Now the Scorecard for AI Spenders: What the Evidence Says"
-dek = "Wall Street now grades Big Tech's AI spending on the cash left over. Alphabet's -$9.07 billion quarter and Amazon's -$42.4 billion year back that up, but investors also marked Microsoft down for spending too little."
+dek = "Alphabet burned $9.07 billion last quarter and Meta plans $95 billion of new stock as AI spending outruns cash. But Amazon, the biggest burner, has fallen half as far as Alphabet since 21 October."
 type = "narrative"
 published = 2026-10-31T10:28:19-04:00
 author = "dev-malhotra"
@@ -40,12 +40,20 @@ sources = [
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=10-Q",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-Q",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q",
+  "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431036/d116268dfwp.htm",
+  "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+  "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+  "https://finance.yahoo.com/markets/article/nvidia-to-invest-3-billion-in-meta-expand-partnership-on-muse-125249944.html",
+  "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+  "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html",
+  "https://siliconangle.com/2026/10/28/alphabets-stock-sinks-after-shocking-investors-with-top-and-bottom-line-miss/",
+  "https://www.ibtimes.com.au/alphabet-shares-plunge-ai-spending-profit-cash-flow-1877589",
 ]
 +++
 
-Wall Street's story about Big Tech's AI spending has a new scorecard. The question is no longer how much a company will spend on data centers, but how much cash is left after it does. Jeremy Saltsburg, senior investment officer at Check Capital, put it plainly to Reuters this week: negative free cash flow changes how the market will read the next spending plan.
+Alphabet ($GOOGL) said on Wednesday that its free cash flow, the cash left after paying for data centers and equipment, was **negative $9.07 billion** in the third quarter, its second negative quarter in a row. On Thursday its shares had their worst day since Google's 2004 listing.
 
-On Wednesday, Alphabet ($GOOGL) said its free cash flow, the cash left after paying for data centers and equipment, was **negative $9.07 billion** in the third quarter, its second negative quarter in a row. On Thursday its shares had their worst day since Google's 2004 listing. A week earlier Meta ($META) slid on its first cash burn in more than a decade, while Oracle ($ORCL) soared on Wednesday after promising to cap how much new money it raises.
+The story Wall Street now tells is that AI budgets are judged by the cash left over, not their size; Jeremy Saltsburg, senior investment officer at Check Capital, made the case to Reuters. Meta ($META) slid on 22 October after its first cash burn in more than a decade, and Oracle ($ORCL) soared on Wednesday after capping how much new money it will raise.
 
 ```stat
 [{"ticker": "GOOGL", "metric": "day", "date": "2026-10-29", "label": "Alphabet on 29 October", "note": "After Q3 free cash flow of -$9.07bn, its second negative quarter"},
@@ -53,21 +61,30 @@ On Wednesday, Alphabet ($GOOGL) said its free cash flow, the cash left after pay
  {"ticker": "ORCL", "metric": "day", "date": "2026-10-28", "label": "Oracle on 28 October", "note": "After capping new outside funding at $20bn"}]
 ```
 
+```highlights
+The short version
+- **What's happening:** Four of the five biggest AI spenders burned cash last quarter, including $9.07 billion at Alphabet, and Meta plans to sell about $95 billion of new stock to keep building.
+- **Why it matters:** Spending that outruns cash is paid for with debt, dearer with the 10-year Treasury yield near 5%, or with new shares that shrink each owner's slice.
+- **Our read:** Partly supported: Alphabet and Meta fell hardest when their cash turned negative, but Amazon, the biggest burner, has fallen half as far as Alphabet, so investors still weigh growth alongside cash.
+```
+
 ## The story in one sentence
 
-> "A $300-billion (capex) number could potentially scare the market because free cash flow now is finally negative." Jeremy Saltsburg, senior investment officer at Check Capital, told Reuters on Wednesday 28 October, on what Alphabet might spend in 2027.
+> "A $300-billion (capex) number could potentially scare the market because free cash flow now is finally negative." Saltsburg told Reuters on Wednesday 28 October, the day Alphabet reported, on a 2027 budget Alphabet has yet to give.
 
-The chain runs like this. If spending grows faster than the cash a business brings in, the gap has to be filled with borrowing or new shares. Borrowing is dearer with the 10-year Treasury yield near 5%, and new shares shrink each owner's slice of future profit, so investors now pay for a spending plan only when they can see the cash that will cover it.
+If spending grows faster than the cash a business brings in, the gap has to be filled with borrowing or new shares. Borrowing is dearer with the 10-year Treasury yield near 5%, and new shares shrink each owner's slice of future profit, so investors now pay for a spending plan only when they can see the cash that will cover it.
 
 ## The evidence for it
 
 ### 1. Four of the five biggest spenders burned cash last quarter
 
-By our count from their quarterly filings, cash from operations fell short of spending on property and equipment at Alphabet, Amazon ($AMZN), Meta and Oracle in their latest quarters. Microsoft ($MSFT) was the exception, with **$18.6 billion** left over from July to September.
+By our count from their filings, cash from operations fell short of spending on property and equipment at Alphabet, Amazon ($AMZN), Meta and Oracle in their latest quarters. Microsoft ($MSFT) was the exception, with **$18.6 billion** left over from July to September.
 
-The measures differ, and the basis matters. Meta's own figure, which also subtracts principal payments on finance leases (long-term rentals it books like debt), was negative $2.12 billion, its first cash burn in more than a decade, Reuters and investingLive reported.
+The gap opened fast: across the five, spending on property and equipment in the latest quarter more than doubled from a year earlier, to $230 billion, while cash from operations rose 19%, by our count.
 
-Amazon reports a 12-month figure. Free cash flow was an outflow of **$42.4 billion** in the year to September, against an inflow of $14.8 billion a year earlier, its results release showed.
+Meta's own measure, which also subtracts principal payments on finance leases (long-term rentals it books like debt), came to negative $2.12 billion, its first cash burn in more than a decade, Reuters and investingLive reported.
+
+Amazon reports free cash flow over 12 months: an outflow of **$42.4 billion** in the year to September, against an inflow of $14.8 billion a year earlier, its results release showed.
 
 ```chart
 {"kind": "hbars", "labels": ["Microsoft", "Meta", "Oracle", "Alphabet", "Amazon"],
@@ -77,11 +94,21 @@ Amazon reports a 12-month figure. Free cash flow was an outflow of **$42.4 billi
  "source": "Company 10-Q filings via SEC EDGAR; Mostly Markets calculation"}
 ```
 
-### 2. Alphabet and Meta fell furthest after reporting cash burn
+### 2. Meta plans $95 billion of new stock, and lenders want more
 
-Since Meta reported on 21 October, Alphabet has fallen **16.4%**, the most of the five, by our price files. Oracle is the only one higher.
+Meta said in a filing on Monday 26 October that it plans to raise about **$95 billion** by selling new stock, most of it gradually on the market, to fund its AI build-out. That is about 6% of its market value at Friday's close, by our count.
 
-Alphabet's burn was a surprise. Analysts had expected free cash flow close to break-even, according to LSEG data cited by Reuters. Its first negative quarter, in the spring, was the first in its 22 years as a public company, Reuters noted.
+Two of the suppliers whose chips it buys are among the buyers: Nvidia is putting in $3 billion and AMD $1 billion, CNBC reported.
+
+Lenders are charging more for the risk. The cost of insuring Meta's debt against default hit a record after its results, Reuters reported, and bonds of CoreWeave ($CRWV), which rents out AI computing power, yielded close to **15%** in mid-October, investingLive reported ([our analysis of the build-out's debt](/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/)).
+
+Oracle's shares soared on Wednesday on a promise to cap both routes: no more than $20 billion of new debt and stock over four fiscal years.
+
+### 3. Alphabet and Meta fell furthest after reporting cash burn
+
+Since Meta reported on 21 October, Alphabet has fallen **16.4%**, the most of the five, and Oracle is the only one higher, by our price files.
+
+Alphabet's burn was a surprise: analysts had expected free cash flow near break-even, according to LSEG data cited by Reuters. Its April-to-June outflow, Reuters noted, had been its first in 22 years as a public company. Search revenue also missed estimates, Yahoo Finance reported, so Thursday's drop was not a verdict on cash alone.
 
 ```chart
 {"kind": "moves", "tickers": ["MSFT", "GOOGL", "AMZN", "META", "ORCL"], "from": "2026-10-21", "to": "2026-10-30", "names": true,
@@ -89,13 +116,13 @@ Alphabet's burn was a surprise. Analysts had expected free cash flow close to br
  "subtitle": "Share price change from the 21 October close, before Meta's report, to the 30 October close, %"}
 ```
 
-### 3. This quarter, the big budget raises stopped
+### 4. This quarter, the big budget raises stopped
 
-Earlier this year the plans kept rising. In July, Amazon lifted its 2026 plan to about **$220 billion** from about $200 billion, "owing to higher memory costs," Fortune reported, and Meta had raised its range in April, CNBC reported.
+In July, Amazon lifted its 2026 plan to about **$220 billion** from about $200 billion, "owing to higher memory costs," Fortune reported.
 
-This quarter the big raises stopped. Alphabet held its range rather than raising it, and Microsoft said on its call that calendar-2026 spending "should be approximately $170 billion due to the 3P capacity delays," meaning late deliveries from outside suppliers. Meta only lifted the bottom of its range, and Amazon kept its plan.
+This quarter Alphabet held its range, Meta lifted only the bottom of its range, Amazon kept its plan, and Microsoft said on its call that calendar-2026 spending "should be approximately $170 billion due to the 3P capacity delays," meaning late deliveries from outside suppliers.
 
-CNBC's headline read: "AI buildout hits snag as Google and Microsoft put off raising capex forecasts." None of that means less spending next year: [Wall Street still expects more than $1 trillion in 2027](/news/2026-10-31/wall-street-now-sees-more-than-1-trillion-of-ai-spending-in-2027-what-has-to-go-right/).
+The pause is not a retreat. Alphabet expects its spending "to increase significantly in 2027," Chief Financial Officer Anat Ashkenazi said, as quoted by IBTimes, and [Wall Street expects more than $1 trillion from the five next year](/news/2026-10-31/wall-street-now-sees-more-than-1-trillion-of-ai-spending-in-2027-what-has-to-go-right/).
 
 ```chart
 {"kind": "bars", "labels": ["Amazon", "Alphabet", "Microsoft", "Meta"], "values": [220, 200, 170, 140], "unit": "$bn", "highlight": 0,
@@ -103,12 +130,6 @@ CNBC's headline read: "AI buildout hits snag as Google and Microsoft put off rai
  "subtitle": "2026 capital spending plans, calendar year, $bn, on each company's own definition: Amazon about $220bn; Alphabet $195bn to $205bn; Microsoft about $170bn; Meta $135bn to $145bn (midpoints shown)",
  "source": "Company results releases and earnings calls, 21 to 29 October 2026; total is Mostly Markets arithmetic"}
 ```
-
-### 4. Lenders are charging more for the risk
-
-The cost of insuring Meta's debt against default hit a record after its results, Reuters and CNBC reported. Further out, bonds of CoreWeave ($CRWV), which rents out AI computing power, yielded close to **15%** in mid-October, investingLive and Admiral Markets reported. [Our analysis of the debt behind the build-out](/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/) has the detail.
-
-Goldman Sachs strategists made the same point in their September forecast: the companies' spending now exceeds the cash their operations generate, which means more borrowing, Briefs and The Decoder reported. Oracle's shares jumped on a promise to limit exactly that: no more than $20 billion of new debt and shares over four fiscal years.
 
 | Signal | Latest | A year ago | Source and date |
 |---|---|---|---|
@@ -120,19 +141,21 @@ Goldman Sachs strategists made the same point in their September forecast: the c
 
 ## The case against it
 
-Not everyone buys the shift. "I don't think this is a broader reset," Art Hogan, chief market strategist at B. Riley Wealth, told Reuters on Friday, calling the selloff "more of a rotation out of an extremely popular technology trade." Park Jun-young of Hanwha Investment & Securities told the Korea JoongAng Daily on Thursday that "major hyperscalers have room to keep investing, backed by a solid operating cash flow."
+Art Hogan, chief market strategist at B. Riley Wealth, told Reuters on Friday that the selloff was "more of a rotation out of an extremely popular technology trade" than a broader reset: for stocks like Alphabet and Amazon, "it doesn't take much to trigger a significant disappointment."
 
-1. **Investors also punish spending too little.** Microsoft spent about $5.5 billion less than analysts expected last quarter, and its 4% after-hours gain was gone by Thursday's close. Chief Financial Officer Amy Hood blamed late outside capacity, and less capacity now can mean less cloud revenue later.
-2. **Fast growth still outweighs cash burn.** Amazon burned the most cash of the five over the past year, yet its shares fell just **1.4%** on Friday after it projected growth of more than 40% at AWS, its cloud arm, in both 2027 and 2028.
-3. **The cash machines are still growing.** Amazon's operating cash flow rose 29% over 12 months, and Alphabet's 12-month free cash flow is still positive at $19.7 billion, their releases show. And Friday's selling hit nearly everything: Oracle gave back its whole investor-day jump, which fits Hogan's rotation better than a verdict on its funding plan.
+Park Jun-young, an analyst at Hanwha Investment & Securities, told the Korea JoongAng Daily on Thursday that "major hyperscalers have room to keep investing, backed by a solid operating cash flow." Amazon's operating cash flow rose 29% over 12 months, its release shows.
 
-The first is the strongest. A market that marks a company down for spending too little is not yet grading on cash alone.
+1. **The biggest burner isn't the most punished.** Amazon burned the most cash of the five over 12 months, while Alphabet's 12-month free cash flow is still positive at $19.7 billion, its release shows; yet Alphabet has fallen about twice as far since 21 October. Amazon paired its burn with a forecast of growth above 40% at AWS, its cloud arm, in both 2027 and 2028.
+2. **Spending too little isn't rewarded either.** Microsoft spent about $5.5 billion less than analysts expected last quarter, and its 4% after-hours gain was gone by Thursday's close. Chief Financial Officer Amy Hood blamed late outside capacity, and less capacity now can mean less cloud revenue later.
+3. **Friday's selling didn't sort by cash.** Microsoft, the one cash-positive spender, fell 1.6%, slightly more than Alphabet, Amazon and Meta, and by Friday's close Oracle had given back almost all of its investor-day gain, by our price files. That fits Hogan's rotation better than a verdict on cash.
+
+The first is the strongest. The market has hit hardest the companies whose cash turned negative for the first time in years, not the one burning the most, and growth still buys time.
 
 ## What would change minds
 
-- Apple ($AAPL) **reports on Monday 2 November at 4:30 p.m. ET.** It spent $10.0 billion on property and equipment in the 12 months to June; Microsoft spent $135.9 billion in the 12 months to September, by our count from filings. Apple is the best Magnificent Seven stock this year, by our price files. Another rally on a light-spending, cash-rich report would back the story.
+- Apple ($AAPL) **reports on Monday 2 November at 4:30 p.m. ET.** It spent $10.0 billion on property and equipment in the 12 months to June, against Microsoft's $135.9 billion in the 12 months to September, by our count from filings, and it is the best Magnificent Seven stock this year. A rally on a light-spending, cash-rich report would back the story.
 - Nvidia ($NVDA) **reports on Tuesday 17 November, with its call at 5 p.m. ET.** If its forecast shows the big spenders still raising orders and its shares rise on it, "spend more" is still being rewarded.
-- **Microsoft's promise is the threshold.** Hood guided to more than $50 billion of capital spending this quarter and said Microsoft expects "to continue to remain free cash flow positive" in the fiscal year to June 2027. If that slips, the last cash-positive spender joins the others.
+- **Microsoft's promise is the threshold.** Hood expects more than $50 billion of capital spending from October to December, Microsoft's weakest quarter for cash in each of the past two years: free cash flow was $5.9 billion in that quarter a year ago, by our count. She said Microsoft expects "to continue to remain free cash flow positive" in the fiscal year to June 2027. A negative year would break that promise, and even a negative quarter would mean all five have burned cash.
 
 ## The stocks exposed
 
@@ -142,7 +165,7 @@ Most exposed if the story holds:
 |---|---|---|
 | Oracle | Burned $28.7bn over 12 months to August, by our count; has capped new funding | -33.0% |
 | Alphabet | Two negative quarters; says 2027 spending will rise significantly | -10.6% |
-| Meta | First cash burn in over a decade; record cost to insure its debt | -6.8% |
+| Meta | First cash burn in over a decade; plans about $95bn of new stock | -6.8% |
 | Amazon | Burned $42.4bn over 12 months; still plans about $220bn this year | +4.1% |
 
 Most exposed if it breaks:
@@ -160,4 +183,4 @@ Most exposed if it breaks:
 
 ## Our read
 
-**Partly supported.** The filings are clear: four of the five biggest spenders burned cash last quarter, and Alphabet and Meta, whose quarterly cash flow turned negative this year, were punished hardest. The weak link is Microsoft: the same investors marked it down for spending too little, so the scorecard is cash and growth together, not cash alone. The number we'll watch is Amazon's 12-month free cash flow, now negative $42.4 billion; if it deepens again while AWS keeps speeding up, we'll learn which of the two investors care about more.
+**Partly supported.** The filings are clear: four of the five biggest spenders burned cash last quarter, and the bill has reached shareholders, with Meta planning about $95 billion of new stock. The weak link is growth: Amazon burned the most and has fallen half as far as Alphabet since 21 October, so investors are grading cash and growth together, not cash alone. The number we'll watch is Amazon's 12-month free cash flow, now negative $42.4 billion; if it deepens again while AWS keeps speeding up, we'll learn which of the two investors care about more.
