@@ -80,7 +80,7 @@ sources = [
 ]
 +++
 
-AMD ($AMD), Arm Holdings ($ARM), and Qualcomm ($QCOM) all report this week, after Friday's chip rout knocked 10% to 11% off each ([our story](/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/)).
+AMD ($AMD), Arm Holdings ($ARM), and Qualcomm ($QCOM) all report this week, after Friday's chip rout knocked about 10% to 11% off each ([our story](/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/)).
 
 In October, Arm lost **28.9%** and AMD 17.5%, by our count.
 
@@ -92,12 +92,12 @@ In October, Arm lost **28.9%** and AMD 17.5%, by our count.
 
 ```highlights
 The short version
-- **What's happening:** AMD, Arm, and Qualcomm report this week after Friday's rout cut 10% to 11% from each, with Apple on Monday and the October jobs report on Friday.
+- **What's happening:** AMD, Arm, and Qualcomm report this week after Friday's rout cut about 10% to 11% from each, with Apple on Monday and the October jobs report on Friday.
 - **Why it matters:** Their forecasts are the first direct evidence on the selloff's two fears, AI spending and memory costs, and the jobs report tests the 85% odds of a December rate hike.
 - **Our read:** AMD's forecast matters most: analysts expect its sales to jump about $3 billion in the December quarter, twice its biggest quarterly gain since 2023, so merely matching that may not be enough.
 ```
 
-Friday's rout followed reports after Thursday's close from Intel ($INTC), whose weak forecast Reuters tied to a memory-chip shortage hurting PC demand, and Amazon ($AMZN), whose cash burn deepened worries about whether all the AI spending will pay off. With Apple ($AAPL), this week's reporters are the first direct test of both worries.
+Friday's rout followed reports after Thursday's close from Intel ($INTC), which blamed its weak forecast partly on a memory-chip shortage hurting PC demand, and Amazon ($AMZN), whose cash burn deepened worries about whether all the AI spending will pay off. With Apple ($AAPL), this week's reporters are the first direct test of both worries.
 
 After the Fed's split vote on Wednesday, futures put the odds of a rate hike on 9 December at about **85%**, according to Bloomberg data cited by Yahoo Finance.
 
@@ -120,7 +120,7 @@ All times below are ET.
 
 ## Wednesday 4 November
 
-- **Arm and Qualcomm** report after the close; Qualcomm's call starts at 4:45 p.m. and Arm's at 5 p.m. Both lean on smartphones, where the memory squeeze bites: Qualcomm's handset-chip revenue fell 20% year on year in the June quarter, and the midpoint of its September-quarter forecast is about 10% below last year's ([our chip list](/news/2026-10-31/3-chip-stocks-wed-skip-and-1-we-like-after-fridays-rout/)).
+- **Arm and Qualcomm** report after the close; Qualcomm's call starts at 4:45 p.m. and Arm's at 5 p.m. Both lean on smartphones, where the memory squeeze bites: Qualcomm's handset-chip revenue fell 20% year on year in the June quarter, and the midpoint of its September-quarter sales forecast is about 10% below last year's ([our chip list](/news/2026-10-31/3-chip-stocks-wed-skip-and-1-we-like-after-fridays-rout/)).
 - **Uber** ($UBER) reports before the open, with a call at 8 a.m., after closing on Friday at its lowest in 52 weeks as investors worry about robotaxis. Analysts expect gross bookings of $59.7 billion, according to Zacks ([our preview](/news/2026-10-29/what-to-expect-from-ubers-uber-q3-earnings/)).
 - **Also reporting:** Novo Nordisk ($NVO), CVS Health ($CVS), and Datadog ($DDOG) before the open; AppLovin ($APP) and McKesson ($MCK) after the close.
 - **The economy:** ADP's estimate of private-sector hiring in October comes in the morning and ISM's survey of service businesses at 10 a.m. The Treasury also makes its quarterly refunding announcement, which sets how much longer-term debt it plans to sell.
@@ -134,7 +134,7 @@ All times below are ET.
 ## Friday 6 November
 
 - **The jobs report.** The Bureau of Labor Statistics publishes October payrolls and the unemployment rate at 8:30 a.m. In September employers added just **29,000** jobs, far short of the 90,000 economists expected, and July's count was revised to a loss.
-- **What it decides.** A strong report would back Governor Lisa Cook and Cleveland Fed President Beth Hammack, who voted for a hike on 28 October ([our Fed story](/news/2026-10-28/fed-held-rates-but-two-officials-wanted-a-hike/)), but with a hike mostly priced in, it can add little. Another weak month could cut those odds sharply, and we think December is already a closer call than futures suggest, with core consumer prices up 2.6% from a year earlier.
+- **What it decides.** A strong report would back Governor Lisa Cook and Cleveland Fed President Beth Hammack, who voted for a hike on 28 October ([our Fed story](/news/2026-10-28/fed-held-rates-but-two-officials-wanted-a-hike/)), but with a hike mostly priced in, it can add little. Another weak month could cut those odds sharply, and we think December is already a closer call than futures suggest, with consumer prices outside food and energy up 2.6% from a year earlier.
 - **Also:** The University of Michigan's early November reading of consumer sentiment, which includes inflation expectations, comes at 10 a.m. Moderna ($MRNA) and Vistra ($VST) report before the open.
 
 ## What we'll watch

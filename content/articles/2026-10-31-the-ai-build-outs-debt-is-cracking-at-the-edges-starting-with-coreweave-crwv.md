@@ -21,6 +21,13 @@ sources = [
   "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
   "https://www.investing.com/news/economy-news/metas-credit-risk-indicator-jumps-to-record-high-after-results-4966556",
   "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+  "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm",
+  "https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm",
+  "https://www.verdict.co.uk/news/nebius-agreement-microsoft-gpu-services/",
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769628&type=10-Q",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q",
@@ -63,7 +70,7 @@ The stress shows in two places: neoclouds, the newer firms such as CoreWeave tha
 | Debt behind Meta's Hyperion data center | Fell from above face value in early July to just under 92 cents | Financial Times |
 | Debt on QTS's Project Excalibur, leased to Microsoft | Below 88 cents | Financial Times |
 | Debt on Oracle's Michigan campus | Fell from face value in July to 87 cents | Financial Times |
-| Insurance against a Meta default | Hit a record on 22 October, the day after its results | Reuters, CNBC |
+| Insurance against a Meta default | Hit a record after its 21 October results | Reuters, CNBC |
 
 A price below face value means lenders want a higher return to hold the debt. Subran told the FT the debt had been "priced too tight for execution risk" and tied the slide to power and construction delays.
 
@@ -81,9 +88,11 @@ Its net interest bill was $640 million from April to June, a quarter of its reve
 
 ## Why the edges matter
 
-The giants rent capacity from these companies. CoreWeave's biggest customers include Microsoft ($MSFT), Meta ($META), and OpenAI, and Microsoft also rents from Nebius, CNBC reported.
+The giants are the neoclouds' customers: CoreWeave's biggest include Microsoft ($MSFT), Meta ($META), and OpenAI, and Microsoft also rents from Nebius, CNBC reported.
 
 Outside capacity is already arriving late: Microsoft Chief Financial Officer Amy Hood said on 28 October that "some third-party capacity deliveries we expected in Q1," its July-to-September quarter, "were delayed." If the squeeze spreads, that is how the giants would feel it first: capacity arriving later than planned, and dearer money for the data centers being built for them.
+
+Nebius's deal with Microsoft shows who carries that risk. After a grace period, Microsoft can cancel any batch of capacity that Nebius fails to deliver on schedule and can't replace, Nebius owes penalties for late delivery, and the deal was written to bind neither side until Nebius had secured the financing to build, its September 2025 filing shows. A delay costs Microsoft time; it costs Nebius money.
 
 The research firm Gartner expects 80% of neoclouds to be absorbed or to shut down by 2030, and listing shares is no easy escape: Firmus, an Nvidia-backed Australian AI data-center company, withdrew plans to go public in October, CNBC reported.
 
@@ -91,12 +100,12 @@ The research firm Gartner expects 80% of neoclouds to be absorbed or to shut dow
 
 "The credit risk of some neocloud companies should not be read as a broader pullback in AI investment," Park Jun-young, an analyst at Hanwha Investment & Securities, told the Korea JoongAng Daily on 29 October. Major hyperscalers "have room to keep investing, backed by a solid operating cash flow," he added.
 
-The filings back him, for now. Cash from operations at Microsoft, Alphabet ($GOOGL), Amazon ($AMZN), and Meta covered **87%** of their spending on property and equipment from July to September, by our count. That share has fallen four quarters in a row, and it was the first quarter in at least three years that it dropped below 100%.
+The filings back him, for now. Cash from operations at Microsoft, Alphabet ($GOOGL), Amazon ($AMZN), and Meta covered **87%** of their spending on property and equipment from July to September, by our count. That share has fallen four quarters in a row, and it was the first quarter below 100% since at least 2014.
 
 ```chart
 {"kind": "bars", "labels": ["Q4 23", "Q1 24", "Q2 24", "Q3 24", "Q4 24", "Q1 25", "Q2 25", "Q3 25", "Q4 25", "Q1 26", "Q2 26", "Q3 26"],
  "values": [232, 224, 205, 196, 187, 159, 146, 163, 151, 116, 104, 87], "unit": "%", "highlight": -1,
- "title": "Big Tech's own cash fell short of its spending, a first in three years",
+ "title": "Big Tech's own cash no longer covers its capital spending",
  "subtitle": "Cash from operations as a share of cash spent on property and equipment, Microsoft, Alphabet, Amazon, and Meta combined, by calendar quarter, %. Finance leases not included",
  "source": "Company 10-Q and 10-K filings via SEC EDGAR; Mostly Markets calculation"}
 ```
@@ -105,7 +114,7 @@ The filings back him, for now. Cash from operations at Microsoft, Alphabet ($GOO
 2. **CoreWeave says its contracts cover its debt.** "We are confident in our backlog which more than supports all of our debt obligations," Chief Executive Mike Intrator wrote in an internal memo, Bloomberg reported.
 3. **A bondholder says CoreWeave may not need the junk-bond market.** John Lloyd, global head of multi-sector and corporate credit at Janus Henderson, whose fund holds CoreWeave bonds, told CNBC on 20 October that the company "can probably get creative enough where they don't even need to come to the high-yield market," for example through bigger prepayments from customers.
 
-On paper, Intrator is right: CoreWeave's backlog of signed contracts was about **$104 billion** at the end of June, nearly three times what it owed on loans and bonds, its results release showed. But a backlog is revenue still to be earned. Most of it turns into cash only after CoreWeave builds the capacity, with more borrowing, and it is only as good as the customers behind it.
+On paper, Intrator is right: CoreWeave's backlog of signed contracts was about **$104 billion** at the end of June, nearly three times what it owed on loans and bonds, its results release showed. But the release ties that revenue to CoreWeave meeting "delivery and availability of service requirements": most of it turns into cash only after CoreWeave builds the capacity, with more borrowing, and it is only as good as the customers behind it.
 
 ## What we'll learn next
 

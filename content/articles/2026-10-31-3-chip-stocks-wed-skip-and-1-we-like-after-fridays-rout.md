@@ -29,7 +29,11 @@ sources = [
   "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
   "https://stockhub.kr/en/insights/view_1790837291827_6kep8ibsm",
   "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json",
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0002023554.json",
+  "https://www.investing.com/news/earnings/sandisk-tops-q1-estimates-and-guides-higher-sets-8for1-stock-split-4985000",
+  "https://www.proactiveinvestors.com/companies/news/1101008/sandisk-shares-slide-8-despite-earnings-beat-as-investors-weigh-valuation-1101008.html",
   "https://news.skhynix.com/en/q3-2026-business-results/",
+  "https://stockhub.kr/en/insights/view_1793147160696_n22qss3o1",
   "https://www.trendforce.com/news/2026/10/28/news-sk-hynix-3q26-opm-hits-record-80-says-dram-hbm-effectively-sold-out-to-2029-14-lta-customers-signed/",
   "https://www.fxstreet.com/news/sk-hynix-earnings-beat-sends-micron-sandisk-shares-higher-202610281624",
   "https://247wallst.com/investing/2026/10/28/sk-hynixs-profit-jumped-632-as-ai-eats-the-worlds-memory/",
@@ -39,7 +43,7 @@ sources = [
 ]
 +++
 
-Friday's chip selloff didn't sort the strong companies from the weak. Intel ($INTC) **plunged 28.6%**, its worst day since 1974, after a weak forecast, and the Philadelphia Semiconductor Index sank 7.2%. Memory makers earning record profits were sold with the PC and phone chip companies their shortage is squeezing: Sandisk ($SNDK), whose 12-month sales nearly quadrupled, dropped more than Qualcomm ($QCOM), whose sales barely grew.
+Friday's chip selloff didn't sort the strong companies from the weak. Intel ($INTC) **plunged 28.6%**, its worst day since 1974, after a weak forecast, and the Philadelphia Semiconductor Index sank 7.2%. Memory makers earning record profits were sold with the PC and phone chip companies their shortage is squeezing: Sandisk ($SNDK), whose 12-month sales nearly quadrupled, beat forecasts on Thursday and still dropped more than Qualcomm ($QCOM), whose sales barely grew.
 
 So we screened on the business, not the drop. For the 16 chip, memory, and disk-drive stocks we track that fell 5% or more on Friday (TSMC and ASML are left out, as our SEC data lacks their quarterly results), we set revenue growth and operating margin (operating profit as a share of sales) over the latest four quarters against the forward P/E: Friday's close over the next 12 months of expected earnings, from CNBC data.
 
@@ -70,7 +74,7 @@ like: MU
 2. Phone chips, 60% of its chip revenue, fell 20% from a year earlier in that quarter. Chief Executive Cristiano Amon cited "a challenging memory and supply environment," the squeeze Intel blamed this week.
 3. Its forecast for the September quarter, $9.7 billion to $10.5 billion, sits below the $11.27 billion of a year earlier.
 
-**The price:** 17.8 times forward earnings, below the median S&P 500 stock's 19.1 and the lowest of any chip designer in our screen. It's cheap for a reason: operating profit fell 41% from a year earlier in the June quarter.
+**The price:** 17.8 times forward earnings, below the median S&P 500 stock's 19.1 and the lowest of any chip designer in our screen. It's cheap for a reason: GAAP operating profit fell 41% from a year earlier in the June quarter.
 
 **What would change our mind:** phone chip sales growing again when Qualcomm reports after the close on Wednesday, 4 November.
 
@@ -80,7 +84,7 @@ like: MU
 
 1. That's the highest in our screen, even after the stock more than halved from its June high. Expected earnings would have to grow 3.7-fold to bring the multiple down to the median of 23.4.
 2. Revenue rose 25.1% over the 12 months to June, below our screen's median of 41%. That's the top price for middling growth.
-3. The memory squeeze reaches Arm through phones. Finance chief Jason Child told Reuters in July that the "only real weakness in royalties is really on the smartphone side, in particular some of the memory issues."
+3. Finance chief Jason Child told Reuters in July that the "only real weakness in royalties is really on the smartphone side, in particular some of the memory issues."
 
 **The price:** about 43 times its past year's revenue, the most in our screen. Micron ($MU) trades at under 8 times.
 
