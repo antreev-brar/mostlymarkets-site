@@ -10,8 +10,9 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "GOOGL", price = 283.82, change_pct = -12.64, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On a flat stone slab under a hard blue summer sky, a giant brass magnifying glass on an iron stand focuses the blazing sun into one white-hot beam on a heap of plain, unstamped gold coins. Where the beam lands the coins catch fire and melt into a glowing puddle that drips off the slab, sending up thick curls of black smoke."
-cover_alt = "A giant magnifying glass focusing sunlight onto a heap of gold coins that melt and give off black smoke"
+cover_brief = "In the centre of a vast construction site at night, a giant brass magnifying glass the height of a house stands on a stone pedestal with a wide plaque reading 'ALPHABET' across its front. Its lens, lit by one gold floodlight, is cracked, and the monument tips toward a deep pit. Directly above it a big red sign reads 'WORST DAY' in white capitals. Below, a thin, pale young man with messy brown hair and a grey hoodie clutches his head; a tall Black woman in her fifties with grey locs and a navy coat covers her mouth, stunned. In the pit, a chute pours gold coins into a half-built data-center frame. Far off, adults walk away toward a small glowing robot at a desk."
+cover_alt = "A cracked magnifying glass on an ALPHABET pedestal tips toward a pit under a red WORST DAY sign"
+cover_text = ["ALPHABET", "WORST DAY"]
 sources = [
   "https://abc.xyz/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
   "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",

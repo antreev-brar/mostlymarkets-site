@@ -10,8 +10,9 @@ event = "recap-KLAC-2026-10-28"
 moves = [
   { ticker = "KLAC", price = 167.43, change_pct = 5.45, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "In a spotless white laboratory, a giant antique brass microscope bends its lens over a glass slide on which stands a tiny gleaming white factory, no bigger than a matchbox, its rows of windows glowing blue under the microscope's bright lamp. Beside it, a tall stack of glass slides, each holding another tiny factory, waits its turn."
-cover_alt = "A giant brass microscope examines a tiny factory on a glass slide, a tall stack of slides waiting beside it."
+cover_brief = "In a navy-shadowed chip factory clean room, a giant silver wafer-inspection machine with 'KLA' in navy capitals on its flat front panel sweeps blue light across a glowing silicon wafer in the centre, lit warm gold. Above it hangs a big glowing gold sign reading '29 PERCENT' in white capitals. A broad-shouldered technician in his fifties with a grey beard, in white clean-room coveralls with the mask pulled down, raises a fist, grinning; a slim young East Asian woman engineer in the same coveralls holds up a gleaming wafer, smiling. In the shadows: a plain screen magnifying a wafer with one tiny dark speck, new machines in plastic wrap, a plain forklift bringing in another crate, an idle unmarked machine beside an empty parts tray, a half-built fab under cranes."
+cover_alt = "A KLA wafer-inspection machine scans a glowing wafer in a clean room under a 29 PERCENT sign as two engineers cheer"
+cover_text = ["KLA", "29 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm",
   "https://stockhouse.com/news/press-releases/2026/10/28/kla-corporation-reports-fiscal-2027-first-quarter-results",

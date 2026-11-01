@@ -8,8 +8,9 @@ tickers = ["AMD"]
 moves = [
   { ticker = "AMD", price = 566.42, change_pct = -2.08, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "In an empty old stadium at dawn, a high-jump bar rests on two absurdly tall poles, set so high it cuts straight across the huge rising sun above the bare concrete stands. A lone silver robot athlete waits at the start of the run-up, seen from behind, looking up at it, its long shadow stretching across the dewy track."
-cover_alt = "A robot athlete looks up at a high-jump bar set absurdly high across the rising sun"
+cover_brief = "In the centre of a dark test lab at night stands a towering black server rack with 'AMD' in huge white capitals across its wide top panel, as engineers pull a navy cover down off it; its lights glow gold under one warm spotlight. Directly above hangs a big glowing gold sign reading 'HELIOS' in navy capitals. A tall, slim woman in her thirties with a black bob and navy hoodie tugs the cover away, hopeful; a stocky grey-bearded technician in his sixties in a work jacket kneels with a flashlight, checking cables intently. Behind a glass wall, analysts in suits press close, tense. In the shadows: a second rack still in a plain wooden crate, a tangle of unplugged cables and plain racks under test next door."
+cover_alt = "Engineers unveil a towering AMD server rack under a glowing HELIOS sign as analysts watch through glass"
+cover_text = ["AMD", "HELIOS"]
 sources = [
   "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
   "https://finance.yahoo.com/technology/articles/amd-faces-high-expectations-jefferies-194400060.html",

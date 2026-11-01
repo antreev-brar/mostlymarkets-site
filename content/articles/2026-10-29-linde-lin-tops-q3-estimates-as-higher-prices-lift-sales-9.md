@@ -9,8 +9,9 @@ event = "recap-LIN-2026-10-29"
 moves = [
   { ticker = "LIN", price = 503.15, change_pct = -0.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "In a dark cathedral-like hall, tall glass gas cylinders in jewel colours, sapphire, emerald and gold, stand in a row like the pipes of a giant organ, each one glowing brighter from within, the tallest in the middle shining gold."
-cover_alt = "Tall glowing glass gas cylinders stand like organ pipes in a dark hall"
+cover_brief = "At dusk at an industrial gas plant, a towering silver storage tank with a wide flat plaque across its front reading 'LINDE' in big navy capitals stands steady in the centre, lit warm gold, a thick pipeline running from its base across the fence. Above it, a big glowing gold sign on a steel gantry reads '9 PERCENT' in navy capitals. A stocky plant manager in her fifties with short grey hair and a navy parka nods calmly, holding a clipboard of plain contracts; a lanky young Latino engineer in a hard hat turns a valve, unhurried. In the shadows: a crane building a second gas plant, a chip factory, a chemical works and a plain factory glowing along the pipeline, two investors in overcoats at the fence, shrugging."
+cover_alt = "A LINDE gas tank stands steady at a plant at dusk under a 9 PERCENT sign while two investors shrug at the fence"
+cover_text = ["LINDE", "9 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1707925/000165495426009199/lin_ex991.htm",
   "https://finance.yahoo.com/markets/stocks/articles/linde-reports-third-quarter-2026-093000509.html",

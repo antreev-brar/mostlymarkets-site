@@ -6,8 +6,9 @@ published = 2026-10-28T09:00:00-04:00
 author = "nora-whitfield"
 tickers = ["XYL", "SOFI", "PNR", "CLS", "BA"]
 cover = "market-screens"
-cover_brief = "In a grand stone plaza fountain on a bright late afternoon, five water jets stand in a row: three shoot high into the air in glittering columns of spray with small rainbows, while the two on the right have collapsed into low, sputtering splashes in the basin."
-cover_alt = "A plaza fountain where three water jets shoot high in the sun while two have collapsed into low splashes."
+cover_brief = "In the centre of a dark atrium at night, two glass elevators pass each other in an open shaft: the left car shoots upward in gold light under a big gold sign reading 'UP' in white capitals, and the right car plunges under a red alarm light and a big red sign reading 'DOWN' in white capitals. In the rising car, a slim Black woman in her thirties with short hair and a navy blazer holds up a phone showing a plain bank card, beaming, beside a plain blue pool pump and glowing plain server boards. In the falling car, a thin grey-haired man in his sixties in navy overalls clutches a cracked plain water pipe, aghast, as a small half-built plain model jetliner tips over at his feet."
+cover_alt = "Two glass elevators pass: one rises in gold light under an UP sign, the other plunges under a red DOWN sign"
+cover_text = ["UP", "DOWN"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000146/xyl10272026ex991.htm",
   "https://www.investing.com/news/company-news/xylem-q3-2026-slides-orders-surge-10-but-guidance-cut-sends-shares-lower-93CH-4976021",

@@ -10,8 +10,9 @@ cover = "software"
 moves = [
   { ticker = "NOW", price = 109.67, change_pct = -26.95, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "In a tall glass atrium at night, a sleek empty glass elevator plunges down its shaft, sparks flying from its brakes and its lights streaking, the floors above it glowing softly."
-cover_alt = "An empty glass elevator plunges down its shaft in a glass atrium, sparks flying"
+cover_brief = "In the centre of a dark marble office lobby at night, a glossy service desk with 'SERVICENOW' in white capitals on a wide plaque across its front sinks, tilting, into a cracked floor, a desk bell sliding off its top, lit warm gold. Directly above it a big red sign reads 'WORST DAY EVER' in bold capitals, and beside the desk a lanky help-desk worker in his twenties with curly hair and a navy cardigan leaps back, aghast, while a petite grey-haired executive in her sixties in a charcoal suit grips a pillar, pale. In the shadows: a white robot calmly answering a phone at the next desk, a cart of plain contract folders tipping over, adult office workers with laptops, a dangling headset, reporters at the glass doors."
+cover_alt = "A SERVICENOW service desk sinks into a cracked lobby floor under a red WORST DAY EVER sign"
+cover_text = ["SERVICENOW", "WORST DAY EVER"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm",
   "https://thenextweb.com/news/servicenow-results-shares-record-drop-crpo-outlook",

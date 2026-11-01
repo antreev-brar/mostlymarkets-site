@@ -8,8 +8,9 @@ tickers = ["XOM", "CVX"]
 moves = [
   { ticker = "XOM", price = 183.29, change_pct = 0.7, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On the wooden deck of a ship at dawn, a large brass telescope on a tripod points across a calm golden sea toward a distant offshore oil platform glowing with lights on the horizon."
-cover_alt = "A brass telescope on a ship's deck points at a distant oil platform at dawn"
+cover_brief = "In the centre of a refinery control room before dawn, a steel control console with 'EXXON' in white capitals on its flat front glows warm gold, rows of blank blue screens behind it and the wide middle screen reading 'REFINING' in gold. At one end a stocky grey-haired operator in his fifties in navy coveralls leans in, chin on his fist, at the other a young red-haired woman in a white hard hat points at the big screen, and a tall bald Black supervisor in a white shirt watches calmly, arms folded. Through the window a refinery glows with lights and an unlit, unmarked gas tanker with round domes sits at anchor, while a plain oil barrel lies tipped over beside a plain steel safe stacked with plain share certificates."
+cover_alt = "Operators watch an EXXON control console under a big REFINING screen as a refinery glows outside"
+cover_text = ["EXXON", "REFINING"]
 sources = [
   "https://investor.exxonmobil.com/company-information/press-releases/detail/1212/exxonmobil-to-release-third-quarter-2026-financial-results",
   "https://finance.yahoo.com/markets/stocks/articles/dear-exxonmobil-stock-fans-mark-135507404.html",

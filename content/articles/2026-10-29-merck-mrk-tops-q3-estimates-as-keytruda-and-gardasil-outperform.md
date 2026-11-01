@@ -9,8 +9,9 @@ event = "recap-MRK-2026-10-29"
 moves = [
   { ticker = "MRK", price = 146.33, change_pct = 3.83, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "An old stone arched viaduct runs right up to the edge of a sheer cliff above a deep misty gorge at sunrise, where a gleaming new steel span is being built out from its end over the drop, half-finished, welding sparks falling into the mist, and the far side of the gorge glows in warm golden light."
-cover_alt = "An old stone viaduct ends at a cliff edge as a new steel span is built out across a misty gorge."
+cover_brief = "In a navy-shadowed drug factory at night, a giant square glass medicine vial with 'MERCK' in navy capitals on its flat white label rises off a conveyor of smaller plain vials in the centre, lit warm gold. Above it hangs a big glowing gold sign reading 'SALES BEAT' in navy capitals. A tall olive-skinned woman scientist in her forties with dark curls pinned up and a white lab coat raises a plain clipboard, beaming; a wiry grey-haired packer in his sixties in navy scrubs grins, giving a thumbs-up. In the shadows: an IV drip bag on a stand wheeled aside for a small gleaming syringe, a cooler of small plain vaccine vials, unmarked refrigerated trucks at the dock being loaded early, a glass model of human lungs on a shelf."
+cover_alt = "A giant MERCK vial rises off a factory line under a glowing SALES BEAT sign as two workers cheer"
+cover_text = ["MERCK", "SALES BEAT"]
 sources = [
   "https://www.businesswire.com/news/home/20261029138599/en/Merck-Co.-Inc.-Rahway-N.J.-USA-Announces-Third-Quarter-2026-Financial-Results-Highlights-Multiple-Milestones-Advancing-Broad-Diverse-Pipeline",
   "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/",

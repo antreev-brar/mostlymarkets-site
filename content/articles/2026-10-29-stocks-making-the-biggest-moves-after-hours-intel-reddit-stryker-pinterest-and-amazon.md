@@ -13,8 +13,9 @@ moves = [
   { ticker = "PINS", price = 17.55, change_pct = -11.9, session = "after-hours", asof = 2026-10-29T17:20:55-04:00 },
   { ticker = "AMZN", price = 227.99, change_pct = -6.48, session = "after-hours", asof = 2026-10-29T17:20:47-04:00 },
 ]
-cover_brief = "Five big glowing gold five-pointed stars tumble out of a black night sky, plunging steeply toward a dark pine forest, each trailing a long tail of sparks, the largest one lowest of all. A thin crescent moon hangs high above, and the silent forest below is black except for a few faint cabin lights."
-cover_alt = "Five glowing gold stars tumbling out of the night sky toward a dark pine forest, trailing sparks"
+cover_brief = "In the centre of an office courtyard at dusk, a giant mirror-bright silicon wafer etched with tiny squares faces us, with 'INTEL' in huge white block capitals across its middle, sinking upright into a crack in the paving, lit warm gold. Directly above it a big red sign reads 'AFTER HOURS' in bold capitals, and a tall Black man in his forties in a grey overcoat clutches his briefcase, alarmed, while a petite East Asian woman in her thirties in a navy trench coat stares at her phone, pale. Sliding in after it: a torn plain brown parcel, a cork pinboard full of plain photo cards, a tray of surgical tools, a laptop with a plain forum page, a server rack still glowing gold. Office windows darken above."
+cover_alt = "A giant INTEL silicon wafer sinks into a cracked office courtyard at dusk under a red AFTER HOURS sign"
+cover_text = ["INTEL", "AFTER HOURS"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
   "https://www.globalbankingandfinance.com/intel-signals-slower-growth-pc-market-remains-pressure/",

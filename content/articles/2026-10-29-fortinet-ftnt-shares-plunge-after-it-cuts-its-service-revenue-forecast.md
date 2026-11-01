@@ -10,8 +10,9 @@ cover = "cybersecurity"
 moves = [
   { ticker = "FTNT", price = 139.1, change_pct = -20.09, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On a vast marble chessboard stretching into a dark hall, a giant polished stone rook shaped like a castle tower topples sideways in mid-fall, while a single small pawn stands upright in the square where the rook stood, both lit by one shaft of cold light falling from high above."
-cover_alt = "A giant stone rook topples on a marble chessboard while a small pawn stands where it stood."
+cover_brief = "In the centre of a dark fortress courtyard at night, a stone gatehouse stands under a warm gold light, a wide stone plaque across its lintel reading 'FORTINET' in big gold capitals, its iron portcullis jammed half-way and a crack running down its wall under a red alarm light. A grey-moustached guard captain in his fifties, pale with alarm, clutches a plain folder, a young South Asian woman technician with a dark ponytail stacks another crate, smiling, and a silver-haired banker in a navy overcoat shrugs and turns away. Inside the gate, crates of new plain grey network boxes are stacked high, a few guards in navy uniforms leave their posts on the walls, and on the far hills two smaller plain watchtowers dim their lights."
+cover_alt = "A cracked FORTINET gatehouse with its portcullis jammed half-way as guards leave the walls and crates pile up"
+cover_text = ["FORTINET"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000024/ftntq3-2026ex991.htm",
   "https://finance.yahoo.com/markets/stocks/article/fortinet-drags-down-cybersecurity-stocks-as-the-companys-service-revenue-forecast-misses-estimates-124146969.html",

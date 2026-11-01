@@ -9,8 +9,9 @@ cover = "weight-loss-drugs"
 moves = [
   { ticker = "LLY", price = 1373.7, change_pct = 6.63, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A giant two-tone medicine capsule, half white and half sky blue, flies like an airship over golden wheat fields on a bright clear morning, climbing fast as heavy iron kettlebells and dumbbells tumble out of the open hatch of its little gondola and fall away toward the fields below."
-cover_alt = "A capsule-shaped airship climbs over wheat fields as heavy weights fall from its gondola"
+cover_brief = "On a cargo apron at night, a giant white medicine carton in the centre, 'LILLY' in big navy capitals on its flat front, rises on a lift toward an unmarked cargo plane's open nose, plain white injector pens spilling over its top, lit warm gold. Directly above it a big glowing screen reads '65 PERCENT' in white capitals. Below, a broad-shouldered Black woman in her forties with short grey hair and a navy ground-crew jacket cheers, both arms raised; a lean young man with a sandy beard in a gold safety vest guides it up, grinning. Around them, plain cartons wait in rows, a small plain pill bottle sits alone beside a frowning middle-aged clerk, and a grey-haired man on a baggage tug tows two new plain crates."
+cover_alt = "A LILLY medicine carton spilling injector pens rises toward a cargo plane under a glowing 65 PERCENT screen"
+cover_text = ["LILLY", "65 PERCENT"]
 sources = [
   "https://www.prnewswire.com/news-releases/lilly-reports-third-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-regulatory-progress-across-the-portfolio-302922907.html",
   "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
