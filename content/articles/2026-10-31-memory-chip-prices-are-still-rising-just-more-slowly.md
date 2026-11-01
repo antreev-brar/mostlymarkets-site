@@ -23,6 +23,9 @@ sources = [
   "https://www.trendforce.com/presscenter/news/20260202-12911.html",
   "https://evertiq.com/news/2026-02-02-drampocalypse-memory-price-projections-skyrocket-for-1q26",
   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+  "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+  "https://iconnect007.com/article/150656/ai-server-demand-keeps-memory-prices-up-in-3q26-but-gains-moderate/150653/smt",
+  "https://technews.tw/?p=1622115",
 ]
 +++
 
@@ -37,10 +40,12 @@ sources = [
  "source": "TrendForce press releases of 26 February, 1 June, 3 July and 30 September 2026"}
 ```
 
-Memory chip prices haven't turned down; they are climbing more slowly. TrendForce, a Taiwan-based market tracker, expects contract prices for conventional DRAM, the working memory in servers, PCs and phones, to rise **10% to 15%** this quarter, after an estimated 93% to 98% jump in the first quarter.
+TrendForce, a Taiwan-based market tracker, forecast on 30 September that contract prices for conventional DRAM, the working memory in servers, PCs and phones, would rise **10% to 15%** this quarter, after an estimated 93% to 98% in the first quarter.
 
-Consumer demand is under pressure and much of the rise in phone memory was priced in earlier, the firm said on 30 September, while long-term contracts with big cloud buyers hold some suppliers' server prices below the market's. Enterprise SSDs, the flash drives in data centers, are the only memory product it expects to get dearer faster than last quarter.
+Supply is still short, it said, as makers steer their most advanced capacity to servers. The brakes are softer consumer demand, phone-memory increases already priced in, and long-term contracts whose price bands make some suppliers' server increases lag the market.
 
-DRAM was about three-quarters of Micron's ($MU) sales last fiscal year, its annual report shows. [Our read on the 2027 memory story](/news/2026-10-31/ai-memory-for-2027-is-sold-out-before-its-made-what-the-evidence-says/) explains what the slowdown means for the makers.
+The percentages also shrink because each rise comes on a higher base. By our arithmetic, TrendForce's estimates and forecasts put last quarter's prices at **five to nearly six times** their level a year earlier. So this quarter's rise adds as many dollars per chip as the 45% to 50% jump of late 2025, or more.
 
-What to watch: TrendForce's first-quarter 2027 forecast, due around the turn of the year (this year's came on 5 January). Anything below this quarter's range would make it four quarters in a row of smaller increases, by TrendForce's figures.
+Those dollars are nearly all gross profit, because a chip costs about the same to make whatever it sells for. Micron ($MU), which makes mostly DRAM, kept 86.8% of its sales in the quarter to 3 September as GAAP gross profit, up from 44.7% a year earlier, its results show.
+
+We read this as a slowdown, not a turn, because supply is still short; a forecast of falling prices would change our mind. TrendForce's next, for the first quarter of 2027, is due around the turn of the year. Its early calls can be far off: this year's, on 5 January, was 55% to 60%, raised to 90% to 95% a month later.

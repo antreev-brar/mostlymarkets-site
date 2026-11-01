@@ -1,11 +1,13 @@
 +++
 title = "3 Chip Stocks We'd Skip and 1 We Like After Friday's Rout"
-dek = "We screened the chip and memory stocks that fell 5% or more on Friday on growth, margins, and price. Intel, Qualcomm, and Arm each finished last on one measure; Micron was the cheapest."
+dek = "We screened 16 chip, memory, and disk-drive stocks that fell 5% or more on Friday for growth, margins, and price. Intel, Qualcomm, and Arm each came last on one measure; Micron, at 5 times expected earnings, was cheapest."
 type = "list"
 published = 2026-10-31T10:27:55-04:00
 author = "theo-park"
 tickers = ["MU", "INTC", "QCOM", "ARM"]
 themes = ["chip-selloff", "memory-cycle"]
+cover_brief = "Four plain unmarked black microchips lie flat in a diagonal row on a scuffed wooden workbench, silver pins on every side, smooth blank tops. The nearest chip, sharp in the centre, sits in a patch of warm golden-hour sunlight; the three behind it fade into soft shadow."
+cover_alt = "Five plain black microchips on a sunlit wooden workbench, one set apart"
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",
@@ -28,6 +30,7 @@ sources = [
   "https://stockhub.kr/en/insights/view_1790837291827_6kep8ibsm",
   "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json",
   "https://news.skhynix.com/en/q3-2026-business-results/",
+  "https://www.trendforce.com/news/2026/10/28/news-sk-hynix-3q26-opm-hits-record-80-says-dram-hbm-effectively-sold-out-to-2029-14-lta-customers-signed/",
   "https://www.fxstreet.com/news/sk-hynix-earnings-beat-sends-micron-sandisk-shares-higher-202610281624",
   "https://247wallst.com/investing/2026/10/28/sk-hynixs-profit-jumped-632-as-ai-eats-the-worlds-memory/",
   "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
@@ -36,9 +39,9 @@ sources = [
 ]
 +++
 
-Friday's selloff didn't sort the strong chip companies from the weak. Intel ($INTC) plunged 28.6%, its worst day since 1974, after a weak forecast, and the Philadelphia Semiconductor Index fell 7.2%. Memory makers earning record profits fell alongside the PC and phone chip companies their shortage is squeezing.
+Friday's chip selloff didn't sort the strong companies from the weak. Intel ($INTC) **plunged 28.6%**, its worst day since 1974, after a weak forecast, and the Philadelphia Semiconductor Index sank 7.2%. Memory makers earning record profits were sold with the PC and phone chip companies their shortage is squeezing: Sandisk ($SNDK), whose 12-month sales nearly quadrupled, dropped more than Qualcomm ($QCOM), whose sales barely grew.
 
-So we screened on the business, not the drop. For the 16 chip, memory, and storage stocks we track that fell 5% or more on Friday (TSMC and ASML are left out, as our SEC data lacks their quarterly results), we set revenue growth and operating margin (operating profit as a share of sales) over the latest four quarters against the forward P/E: Friday's close over the next 12 months of expected earnings, from CNBC data. Each of our skips came last of the 16 on one measure, and Micron was the cheapest.
+So we screened on the business, not the drop. For the 16 chip, memory, and disk-drive stocks we track that fell 5% or more on Friday (TSMC and ASML are left out, as our SEC data lacks their quarterly results), we set revenue growth and operating margin (operating profit as a share of sales) over the latest four quarters against the forward P/E: Friday's close over the next 12 months of expected earnings, from CNBC data.
 
 ```picks
 skip: INTC, QCOM, ARM
@@ -51,37 +54,37 @@ like: MU
 
 **Operating margin, 12 months to September 2026: 2.9%**. Intel designs and makes processors for PCs and servers, and is building a business making chips for other companies.
 
-1. Intel kept less than 3 cents of operating profit per dollar of sales, a tenth of our screen's median. Even its September quarter, the best since late 2023, managed only 15.3%.
-2. On Thursday it forecast fourth-quarter revenue of $15.0 billion to $16.0 billion, short of the $17.07 billion analysts expected (LSEG data, via Reuters). Finance chief David Zinsner expects a PC slowdown, which Reuters and The Next Web tied to pricier memory, to last "at least through the first half of next year."
-3. Free cash flow was 6.3% of revenue, the lowest in our screen. Its $54.0 billion of cash and short-term investments only just covers $50.1 billion of debt, which leaves little room for a turnaround that still needs factory spending.
+1. That's the thinnest in our screen, a tenth of the median of about 32%. Even its September quarter, its best since late 2023, managed only 15.3%.
+2. On Thursday it forecast fourth-quarter revenue of $15.0 billion to $16.0 billion, short of the $17.07 billion analysts expected, according to LSEG data cited by Reuters. Finance chief David Zinsner expects the PC slowdown, which Reuters tied to pricier memory, to last "at least through the first half of next year."
+3. Free cash flow was 6.3% of revenue over the past 12 months, the lowest in our screen. Its $54.0 billion of cash and short-term investments only just covers $50.1 billion of debt, which leaves little room for a turnaround that still needs factory spending.
 
-**The price:** 38.4 times forward earnings, well above our screen's median of 23.4 even after Friday.
+**The price:** 38.4 times forward earnings, well above our screen's median of 23.4, and the stock is still up 78% this year.
 
-**What would change our mind:** PC chip sales, down 5% in the September quarter, growing again, with its Kiryat Gat factory in Israel back at full output after October's explosion.
+**What would change our mind:** PC chip sales, about half of Intel's product revenue and down 5% in the September quarter, growing again, with its Kiryat Gat factory in Israel back at full output after October's explosion.
 
 ### 2. Qualcomm ($QCOM)
 
 **Revenue growth, 12 months to June 2026: 1.9%**. Qualcomm designs Snapdragon processors and modems for phones, cars, and other devices, and licenses its wireless patents.
 
-1. That's the slowest in our screen, where the median was 41%. Qualcomm is barely growing in a chip boom.
-2. Phones are the problem. Handset chip revenue fell 20% from a year earlier in the June quarter, and Chief Executive Cristiano Amon cited "a challenging memory and supply environment," the squeeze Intel blamed this week.
+1. That's the slowest in our screen, where the median was 41%, and June-quarter revenue shrank 4% from a year earlier.
+2. Phone chips, 60% of its chip revenue, fell 20% from a year earlier in that quarter. Chief Executive Cristiano Amon cited "a challenging memory and supply environment," the squeeze Intel blamed this week.
 3. Its forecast for the September quarter, $9.7 billion to $10.5 billion, sits below the $11.27 billion of a year earlier.
 
-**The price:** 17.8 times forward earnings, the lowest of any chip designer in our screen, and cheap for a reason: operating profit fell 41% in the June quarter.
+**The price:** 17.8 times forward earnings, below the median S&P 500 stock's 19.1 and the lowest of any chip designer in our screen. It's cheap for a reason: operating profit fell 41% from a year earlier in the June quarter.
 
-**What would change our mind:** phone chip sales growing again when Qualcomm reports on Wednesday, 4 November.
+**What would change our mind:** phone chip sales growing again when Qualcomm reports after the close on Wednesday, 4 November.
 
 ### 3. Arm Holdings ($ARM)
 
 **Forward P/E at Friday's close: 86.3**. Arm licenses processor designs to chipmakers and collects a royalty on each chip made with them, many of them for phones.
 
-1. That's the highest in our screen and almost four times the median of 23.4, even after the stock more than halved from its June high.
+1. That's the highest in our screen, even after the stock more than halved from its June high. Expected earnings would have to grow 3.7-fold to bring the multiple down to the median of 23.4.
 2. Revenue rose 25.1% over the 12 months to June, below our screen's median of 41%. That's the top price for middling growth.
-3. Phones weigh here too. Finance chief Jason Child told Reuters in July that the "only real weakness in royalties is really on the smartphone side, in particular some of the memory issues," Light Reading reported.
+3. The memory squeeze reaches Arm through phones. Finance chief Jason Child told Reuters in July that the "only real weakness in royalties is really on the smartphone side, in particular some of the memory issues."
 
-**The price:** about 43 times its past year's revenue, the most in our screen. Micron trades at under 8 times.
+**The price:** about 43 times its past year's revenue, the most in our screen. Micron ($MU) trades at under 8 times.
 
-**What would change our mind:** revenue growth well above the June quarter's 22% when Arm reports on Wednesday, 4 November.
+**What would change our mind:** revenue growth well above the June quarter's 22% when Arm reports after the close on Wednesday, 4 November.
 
 ## 1 stock we like
 
@@ -89,17 +92,17 @@ like: MU
 
 **Forward P/E at Friday's close: 5.0**. Micron makes DRAM and NAND memory chips, including the high-bandwidth memory (HBM) stacked next to AI processors.
 
-1. Its operating margin was 74.6% over the 12 months to September, up from 26.1% a year before and more than twice our screen's median. The shortage has handed memory makers pricing power.
-2. The shortage looks set to last. On Wednesday, SK hynix said demand will exceed supply through 2030 and that long-term contracts cover more than half its 2027 and 2028 capacity. Chief Executive Sanjay Mehrotra says Micron's own customer agreements "provide added confidence in the durability" of its results.
-3. It expects about $61.5 billion of revenue this quarter, which would be another record, and funds its new factories itself: free cash flow was $58.96 billion over the past 12 months.
+1. Its operating margin was 74.6% in the fiscal year to September, the widest in our screen and up from 26.1% the year before. Most of each price rise is profit: cost of goods sold rose 14% while revenue more than tripled.
+2. On Wednesday, SK hynix said demand will exceed supply through 2030, and that long-term contracts, at prices held within an agreed range, cover more than half its 2027 and 2028 capacity. Micron's own customer agreements "provide added confidence in the durability" of its results, Chief Executive Sanjay Mehrotra said on 30 September.
+3. It expects record revenue of about $61.5 billion this quarter and pays for its new factories itself: free cash flow was $59.0 billion over the past 12 months.
 
-**The price:** about a fifth of our screen's median forward P/E, with the stock 27.1% below its June high. That assumes today's profits are a peak; we think the long-term contracts make a sharp fall less likely.
+**The price:** about a fifth of our screen's median forward P/E. Expected earnings could fall by three-quarters and Micron would still trade below that median, so the price already allows for a sharp downturn; Intel's and Arm's prices need growth.
 
-**What could go wrong:** memory is still cyclical. Counterpoint Research expects DRAM prices to fall about 23% in 2028 from 2027, CNBC reported, and TrendForce expects price increases to slow this quarter. If prices turn sooner, the low multiple will have been right.
+**What could go wrong:** price falls hit profit just as hard. When revenue halved in fiscal 2023, Micron lost money. Growth is already slowing, from 74% quarter on quarter in the spring to a guided 13% this quarter, and Counterpoint Research expects DRAM prices to fall about 23% in 2028 from 2027, CNBC reported.
 
 ```chart
 {"kind": "compare", "tickers": ["MU", "INTC", "QCOM", "ARM"], "range": "1y", "end": "2026-10-30", "highlight": "MU",
  "title": "Even after Friday, Micron has nearly quadrupled in a year"}
 ```
 
-We'll revisit this list after Qualcomm and Arm report on Wednesday, 4 November. Micron was also one of the stocks we liked in our [AI infrastructure list](/news/2026-10-26/3-ai-infrastructure-stocks-we-love-and-1-we-hate/) on 26 October.
+We'll revisit this list after Qualcomm and Arm report on Wednesday, 4 November. Our [Micron breakdown](/news/2026-10-31/micron-mu-earns-87-gross-margins-is-this-the-top/) tests how much of its sales the new contracts protect.
