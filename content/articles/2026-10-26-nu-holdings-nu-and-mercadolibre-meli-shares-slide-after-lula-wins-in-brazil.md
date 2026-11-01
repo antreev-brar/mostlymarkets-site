@@ -11,8 +11,9 @@ moves = [
   { ticker = "NU", price = 12.59, change_pct = -16.95, session = "close", asof = 2026-10-26T16:00:00-04:00 },
   { ticker = "MELI", price = 1668.72, change_pct = -7.81, session = "close", asof = 2026-10-26T16:00:00-04:00 },
 ]
-cover_brief = "In a tropical bay at dusk ringed by steep green granite peaks, the tide has rushed far out. A big blue wooden fishing boat lies tilted on its side in the centre of the wet, glistening mud flats, dozens more brightly coloured boats stranded around it, mooring ropes slack, the sea now a thin silver line in the distance."
-cover_alt = "Painted fishing boats stranded on mud flats after the tide rushed out of a tropical bay at dusk"
+cover_brief = "In the centre of a rainy São Paulo plaza at night, a giant navy smartphone with 'NUBANK' across its plain glowing screen tips sideways, its glass cracked below the name, lit warm gold, under a big glowing red sign reading 'PLUNGE' in bold capitals. Behind it, the glass doors of an unmarked stone exchange building are chained shut under a limp Brazilian flag, and office windows go dark. A slim young Black woman with short curls, in a navy blazer, covers her mouth in shock; a thin clean-shaven man in his sixties in a beige suit sits on the steps, head in hands; a lean man in his thirties in a raincoat stares at the phone, pale. Plain yellow parcels lie toppled, and plain banknotes blow across the plaza."
+cover_alt = "A giant cracked phone reading NUBANK tips over in a rainy São Paulo plaza under a red PLUNGE sign"
+cover_text = ["NUBANK", "PLUNGE"]
 sources = [
   "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
   "https://www.theglobeandmail.com/investing/article-trading-on-brazils-stock-exchange-halted-after-15-tumble-following/",

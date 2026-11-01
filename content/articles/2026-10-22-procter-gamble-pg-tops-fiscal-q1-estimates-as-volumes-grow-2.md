@@ -5,8 +5,9 @@ type = "earnings-recap"
 published = 2026-10-22T07:35:00-04:00
 author = "claire-okafor"
 tickers = ["PG"]
-cover_brief = "On a windswept green clifftop under racing dark clouds, a long clothesline heavy with crisp white sheets and towels snaps hard in a fierce headwind, every wooden peg holding firm, while a wicker basket piled high with more fresh laundry waits below in a shaft of golden sunlight."
-cover_alt = "White laundry snaps on a clothesline in a gale on a clifftop, every peg holding, a full basket below"
+cover_brief = "In the centre of a factory at night, a giant cardboard box with 'P&G' in big navy capitals on its flat front bursts open under a warm gold spotlight, overflowing with unlabelled detergent bottles, toothpaste, razors, shampoo and diapers. Above it glows a big gold sign reading '2 PERCENT' in bold capitals, while a heavyset Black forewoman in her fifties with grey curls in a blue work shirt lifts a plain bottle high and cheers, and a lanky red-haired man in his twenties in a navy jacket grins, pushing a trolley of unlabelled diapers. To one side under a red light, a plain forklift strains under plain oil drums, a plain fuel tanker waits, and a thin grey-haired accountant in a brown cardigan frowns at a plain clipboard."
+cover_alt = "A giant P&G box bursts with household goods under a 2 PERCENT sign as a forklift strains under oil drums"
+cover_text = ["P&G", "2 PERCENT"]
 sources = [
   "https://s204.q4cdn.com/332108499/files/content_files/FY2627-Q1-JAS-Press-Release-Final.pdf",
   "https://www.dgabc.com.br/Noticia/4354148/procter-gamble-tem-lucro-e-receita-acima-de-expectativas-no-1-trimestre-fiscal",

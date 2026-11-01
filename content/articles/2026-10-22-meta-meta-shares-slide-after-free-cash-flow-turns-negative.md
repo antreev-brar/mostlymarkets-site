@@ -9,8 +9,9 @@ reason = "Earnings"
 moves = [
   { ticker = "META", price = 648.85, change_pct = -6.98, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
-cover_brief = "In a dark wooden barn at night, a calm black-and-white dairy cow stands beside a tall server cabinet glowing with blue lights. Clear hoses carry a white stream of her milk straight into the humming cabinet, and the tin milk pail at her feet stands empty under a single hanging lamp."
-cover_alt = "A dairy cow in a dark barn beside a glowing server cabinet that drains her milk, her pail left empty"
+cover_brief = "In the centre of a muddy building site at night, a towering steel server cabinet blinking with blue lights, 'META' in big navy capitals across its flat front door, sinks into mud under a warm gold spotlight as a conveyor feeds gold coins into a side hatch. Above it hangs a big red sign reading 'CASH BURN' in bold capitals, while a stocky brown-skinned foreman in his forties, bearded, in a hard hat waves in more plain server racks and a thin silver-haired woman in her sixties in a camel coat frowns into an empty steel cash box. More plain trucks of servers wait at the gate, and a printing press piles blank share certificates into a teetering stack beside a plain ballot box with a taped-shut slot."
+cover_alt = "A Meta server cabinet sinks into mud as it swallows gold coins under a red CASH BURN sign, a cash box empty"
+cover_text = ["META", "CASH BURN"]
 sources = [
   "https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html",
   "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066710/meta-20261021.htm",

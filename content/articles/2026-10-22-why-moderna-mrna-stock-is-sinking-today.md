@@ -9,8 +9,9 @@ reason = "Product"
 moves = [
   { ticker = "MRNA", price = 202.63, change_pct = -17.57, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
-cover_brief = "A sleek white submarine shaped like a medicine vial sinks slowly through deep blue water, its small lights still on, a trail of silver bubbles rising toward the bright surface far above."
-cover_alt = "A white submarine shaped like a medicine vial sinks slowly in deep blue water"
+cover_brief = "In the centre of a dim, half-set-up conference hall, a giant square-sided glass vaccine vial, 'MODERNA' in navy capitals on its flat white front label, topples off a towering plain plinth under a warm gold spotlight. Above it hangs a big red sign reading 'LEAKED' in bold capitals; inside the intact vial, gold liquid stops just below a plain etched line near the top. A stunned, slender scientist in her forties with short grey hair in a white lab coat clutches a plain folder, a wiry Black stagehand in his twenties on a ladder, still hanging a blank banner, looks down, alarmed, and a heavyset bearded middle-aged reporter in tweed rushes in with a plain glowing phone. Empty chairs face the stage; a smaller plain vial wobbles nearby."
+cover_alt = "A Moderna vaccine vial topples off a tall plinth in an unready conference hall under a red LEAKED sign"
+cover_text = ["MODERNA", "LEAKED"]
 sources = [
   "https://www.investing.com/news/stock-market-news/moderna-shares-plunge-on-apparent-cancer-vaccine-data-leak-4967091",
   "https://www.bloomberg.com/news/articles/2026-10-22/moderna-merck-shares-fall-after-potential-leak-of-melanoma-data",

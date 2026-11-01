@@ -9,8 +9,9 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "MSFT", price = 552.22, change_pct = 3.99, session = "after-hours", asof = 2026-10-28T17:53:00-04:00 },
 ]
-cover_brief = "A huge sky-blue kite climbs steeply into a bright azure midday sky on a powerful gust of wind, racing past towering white clouds, its long tail snapping and its line pulled taut, while the wooden reel on the grassy hilltop below spins in a blur as it pays out more and more line."
-cover_alt = "A big sky-blue kite climbs fast on a strong wind as its reel spins out line on a grassy hilltop."
+cover_brief = "In the centre of a rail freight yard at night, a gantry crane lifts a giant navy shipping container with 'MICROSOFT' in white capitals on its flat side above a waiting train, gold light pouring from its open doors over blue server racks, and on the crane's crossbeam above it a big gold screen reads '48 PERCENT' in white capitals. Below, a stocky rail worker in his fifties with a grey moustache raises both fists, cheering, and a tall Black woman in her thirties in an orange safety vest waves the container upward, grinning. In the shadows, sealed plain containers line the tracks, a late freight train sits stopped at a closed barrier down the line, and a small dented crate of plain laptops and game controllers rests nearby."
+cover_alt = "A crane lifts a MICROSOFT container full of glowing servers under a 48 PERCENT screen as rail workers cheer"
+cover_text = ["MICROSOFT", "48 PERCENT"]
 sources = [
   "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q",

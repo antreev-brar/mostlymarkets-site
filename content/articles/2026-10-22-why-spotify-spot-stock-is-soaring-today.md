@@ -9,8 +9,9 @@ reason = "Earnings"
 moves = [
   { ticker = "SPOT", price = 583.66, change_pct = 11.1, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
-cover_brief = "High above a sea of clouds at sunrise, a gleaming black grand piano soars upward into golden light, lifted by thousands of small songbirds holding silk ribbons tied to its legs and lid, the clouds parting below it."
-cover_alt = "Thousands of songbirds lift a black grand piano above a sea of clouds at sunrise"
+cover_brief = "In the centre of a navy-lit nightclub, a towering black loudspeaker stack with 'SPOTIFY' in big white capitals across its flat front panel rises through the dance floor on a lift under a warm gold spotlight. Above it glows a big gold sign reading 'SOARING' in bold capitals, while a slim Black woman in her twenties with braids, a silver jacket and headphones cheers, arms up, and a stocky grey-bearded sound engineer in his fifties in a black T-shirt grins, pushing up sliders on a plain mixing desk. Beside him a silver robot DJ spins plain records. Dancers in headphones pack the dark floor, a Swedish flag hangs from the rigging, and a thin middle-aged East Asian man in a navy suit lowers his glasses in surprise."
+cover_alt = "A Spotify speaker stack rises through a dance floor under a SOARING sign as a robot DJ plays and a woman cheers"
+cover_text = ["SPOTIFY", "SOARING"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126040435/ef20084028_ex99-1.htm",
   "https://www.dzrh.com.ph/post/spotify-forecasts-strong-profit-as-ai-features-start-to-pay-off-shares-surge",

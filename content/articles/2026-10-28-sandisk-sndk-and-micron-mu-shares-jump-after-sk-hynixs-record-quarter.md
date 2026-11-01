@@ -11,8 +11,9 @@ moves = [
   { ticker = "SNDK", price = 1404.77, change_pct = 7.66, session = "close", asof = 2026-10-28T16:00:00-04:00 },
   { ticker = "MU", price = 983.23, change_pct = 5.86, session = "close", asof = 2026-10-28T16:00:00-04:00 },
 ]
-cover_brief = "A vast smooth swell of deep blue water rolls through a stone harbour at sunrise, lifting a big sailing ship and the two smaller sailboats moored beside it high above the quay all at once. Their wet hulls glisten, mooring ropes pull taut, and spray glitters in the low gold light."
-cover_alt = "A great swell lifts a big sailing ship and two smaller boats together in a harbour at sunrise"
+cover_brief = "At night on a South Korean launch pad, a giant horizontal green memory module with 'SK HYNIX' in huge white capitals across its broad front face lifts off in the centre on gold rocket flames. Cables tie it to two smaller unmarked memory modules rising behind it, and directly above it a big gold sign reads '2030' in white numerals. A stocky Korean engineer in his fifties with short grey hair and a navy jacket raises both fists, cheering; a lanky woman in her thirties with auburn hair and a navy blazer grabs a cable, laughing. In the shadows: a South Korean flag, grey-haired buyers in coats holding out empty plain crates behind a fence, a cart of plain contract folders, stacked memory chips beside a plain AI processor."
+cover_alt = "A giant SK HYNIX memory module lifts off on rocket flames, towing two smaller modules, under a 2030 sign"
+cover_text = ["SK HYNIX", "2030"]
 sources = [
   "https://news.skhynix.com/en/q3-2026-business-results/",
   "https://www.fxstreet.com/news/sk-hynix-earnings-beat-sends-micron-sandisk-shares-higher-202610281624",

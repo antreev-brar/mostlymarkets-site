@@ -6,8 +6,9 @@ published = 2026-10-22T17:15:00-04:00
 author = "nora-whitfield"
 tickers = ["SNDK", "DELL", "MU", "MRNA", "MPC", "APP", "BSX", "FICO", "LULU", "PODD"]
 cover = "market-screens"
-cover_brief = "On the porch of a rough log cabin in a pine-covered mountain valley, gleaming new pickaxes and shovels are stacked to the roof, their steel blades etched with fine gold circuit lines, and a brass scale beside them is heaped with gold nuggets. Far below, tiny prospectors crowd a glittering river in crisp autumn light."
-cover_alt = "Picks and shovels stacked on a cabin porch beside a scale of gold nuggets as prospectors pan a river"
+cover_brief = "In the centre of an athletics field at night, under gold confetti, a tall gold victory podium with plain steps holds three giant, slightly dented plain computer parts: a flash memory card, a black server cabinet and a green memory module with gold contacts. 'AI HARDWARE' runs in big navy capitals across the podium's flat front, above them glows a big gold sign reading '431 PERCENT' in bold capitals, and behind them a plain white medicine vial tilts on a higher pedestal. A sturdy grey-haired woman official in her sixties in a navy blazer applauds, and a slim South Asian photographer in his twenties in black kneels with a camera, grinning. A plain steel fuel barrel stands nearby, and plain grey trophies lie toppled in the shadows."
+cover_alt = "A flash card, a server and a memory module stand on an AI HARDWARE podium under a 431 PERCENT sign, a vial above"
+cover_text = ["AI HARDWARE", "431 PERCENT"]
 sources = [
   "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
   "https://www.bloomberg.com/news/articles/2026-10-22/moderna-merck-shares-fall-after-potential-leak-of-melanoma-data",

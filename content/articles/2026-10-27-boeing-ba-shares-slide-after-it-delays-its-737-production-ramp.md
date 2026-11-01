@@ -10,8 +10,9 @@ cover = "aerospace"
 moves = [
   { ticker = "BA", price = 168.18, change_pct = -10.69, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
-cover_brief = "A towering hourglass stands in a vast dim aircraft hangar, its top bulb crammed with hundreds of tiny white model airliners, while only one at a time squeezes through the narrow neck into the nearly empty bottom bulb. A cold shaft of light from the half-open hangar doors falls across the glass."
-cover_alt = "An hourglass full of tiny model airliners lets only one plane at a time through its neck"
+cover_brief = "In a dim jet factory at night, a plain white airliner sits stalled on the assembly line, its tall flat tail fin turned toward us in the centre and painted 'BOEING' in navy block capitals, lit warm gold, a red warning lamp spinning. Above it hangs a huge glowing banner reading '2027' in amber numerals. A stocky grey-haired foreman in a hard hat and orange vest frowns at the waiting jet, arms folded; a Black woman engineer in her twenties with braids and safety glasses checks a wing joint by flashlight; a pale bald investor in a dark suit presses against a glass gallery above. Behind, plain unfinished fuselages wait in shadow, plain order folders pile high on a desk, and open hangar doors frame an empty delivery ramp"
+cover_alt = "A stalled Boeing jet on a factory line under a 2027 banner as a foreman frowns and an investor watches from above"
+cover_text = ["BOEING", "2027"]
 sources = [
   "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results",
   "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",

@@ -6,8 +6,9 @@ published = 2026-10-27T06:45:00-04:00
 author = "theo-park"
 tickers = ["UPS"]
 cover = "shipping-port"
-cover_brief = "On a steep green alpine slope on a golden morning, an old chairlift climbs toward a sunlit summit, and on each chair rides a single plain unlabelled cardboard parcel tied with string, every other chair swinging empty above the pine trees."
-cover_alt = "An alpine chairlift carries single cardboard parcels up toward a sunlit summit, every other chair empty."
+cover_brief = "In a vast automated parcel-sorting hub at night, a huge brown cardboard parcel with 'UPS' printed in gold block capitals on its flat side rides up a steep conveyor in the centre toward an open loading door, lit warm gold. Above the belt hangs a big glowing sign reading 'BEAT' in gold capitals. A smiling stocky sorter in his fifties with a grey beard and brown uniform gives a thumbs-up, and a Latina woman in her twenties with a tight bun and a high-visibility vest cheers from a catwalk. Plain parcels ride the long belts with small gaps between them, robot arms swing beside them, a plain silver cooler box for medicines waits on a cart, pine garlands hang over the bays, and plain brown vans wait outside"
+cover_alt = "A UPS parcel rides a rising conveyor in a sorting hub under a glowing BEAT sign as workers cheer"
+cover_text = ["UPS", "BEAT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1090727/000162828026067381/exhibit991-earningspressre.htm",
   "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",

@@ -6,8 +6,9 @@ published = 2026-10-26T12:30:00-04:00
 author = "dev-malhotra"
 tickers = ["MU", "NVDA", "VRT", "CRWV"]
 cover = "ai-datacenter"
-cover_brief = "Over red desert canyons on a clear morning, three golden hot-air balloons ride high and steady in the blue sky, while in the foreground a fourth balloon hangs low over the rocks, its patched envelope sagging, its burner roaring a huge flame, its basket dragged down by heavy sandbags."
-cover_alt = "Three golden hot-air balloons fly high while a fourth, burner blazing, sinks low over desert canyons."
+cover_brief = "In the centre of a building-supply yard at night, a wooden sales counter glows under a warm gold lamp, piled with giant unmarked parts: a green memory module with gold contacts, a black processor chip and a white cooling unit with a round fan. A big gold sign reading 'PAID' glows above it, and the shelves behind are almost bare. A burly bearded builder in his fifties in a hard hat hands a plain envelope across the counter, a young South Asian woman in a navy jacket shoulders a memory module, grinning, and a grey-haired clerk in an apron smiles. Across the road, under a red light, a wire cage of plain server racks teeters on a pile of plain loan papers beside a nearly empty cash tin."
+cover_alt = "A builder pays for giant chips and a cooling unit under a PAID sign as a server cage teeters on loan papers"
+cover_text = ["PAID"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/",
   "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/",
