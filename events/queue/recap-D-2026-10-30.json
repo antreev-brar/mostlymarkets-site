@@ -1,0 +1,87 @@
+{
+ "id": "recap-D-2026-10-30",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-01T01:04:20-05:00",
+ "expires": "2026-11-02T20:00:00-05:00",
+ "tickers": [
+  "D"
+ ],
+ "headline_hint": "Dominion Energy (D) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-01T01:02:45-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "D",
+   "name": "Dominion Energy, Inc.",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.2,
+   "n_estimates": 4,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 1.28,
+   "surprise_pct": 6.67,
+   "mktcap": 57274728000.0
+  },
+  "quote": {
+   "price": 66.62,
+   "change_pct": 2.3,
+   "prev_close": 65.12,
+   "time": "2026-10-30",
+   "mktcap": "58.594B",
+   "pe": 23.05,
+   "fpe": 17.49,
+   "yr_high": 72.99,
+   "yr_low": 55.85,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 66.6,
+    "change_pct": -0.03,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "D",
+   "name": "Dominion Energy",
+   "date": "2026-10-30",
+   "close": 66.62,
+   "prev_close": 65.12,
+   "change_pct": 2.3,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 14,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 4.93
+   },
+   "ytd_pct": 13.71,
+   "return_1m_pct": 9.64,
+   "return_6m_pct": 4.19,
+   "return_1y_pct": 12.93,
+   "high_52w": {
+    "close": 71.69,
+    "date": "2026-07-16"
+   },
+   "low_52w": {
+    "close": 57.08,
+    "date": "2026-01-07"
+   },
+   "pct_below_52w_high": 7.07,
+   "thousand_dollars_5y_ago_now": 877,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 5180122,
+   "volume_vs_20d_avg": 1.2,
+   "sentences": [
+    "Dominion Energy's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 4.9%.",
+    "The stock is up 13.7% this year, and at $66.62 it sits 7.1% below its 52-week closing high of $71.69 from 16 July 2026.",
+    "$1,000 invested in Dominion Energy five years ago would be worth $877 today."
+   ]
+  },
+  "sector": "Utilities",
+  "industry": "Multi-Utilities",
+  "recent_stories": []
+ }
+}

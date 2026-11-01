@@ -1,0 +1,135 @@
+{
+ "id": "recap-XOM-2026-10-30",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 82,
+ "created": "2026-11-01T01:04:20-05:00",
+ "expires": "2026-11-02T20:00:00-05:00",
+ "tickers": [
+  "XOM"
+ ],
+ "headline_hint": "Exxon Mobil (XOM) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-01T01:02:45-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "XOM",
+   "name": "ExxonMobil Holdings Corporation",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.9,
+   "n_estimates": 6,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 4.23,
+   "surprise_pct": 8.46,
+   "mktcap": 753672320000.0
+  },
+  "quote": {
+   "price": 187.25,
+   "change_pct": 2.16,
+   "prev_close": 183.29,
+   "time": "2026-10-30",
+   "mktcap": "769.956B",
+   "pe": 19.27,
+   "fpe": 12.77,
+   "yr_high": 188.5,
+   "yr_low": 112.51,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 187.02,
+    "change_pct": -0.12,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "XOM",
+   "name": "Exxon Mobil",
+   "date": "2026-10-30",
+   "close": 187.25,
+   "prev_close": 183.29,
+   "change_pct": 2.16,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 50,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-23",
+    "change_pct": 2.79
+   },
+   "ytd_pct": 55.6,
+   "return_1m_pct": 14.3,
+   "return_6m_pct": 22.59,
+   "return_1y_pct": 60.8,
+   "high_52w": {
+    "close": 187.25,
+    "date": "2026-10-30"
+   },
+   "low_52w": {
+    "close": 113.68,
+    "date": "2025-11-05"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 2904,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 21832030,
+   "volume_vs_20d_avg": 1.9,
+   "sentences": [
+    "Exxon Mobil's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 October 2026, when the stock rose 2.8%.",
+    "The stock is up 55.6% this year, and at $187.25 it sits 0.0% below its 52-week closing high of $187.25 from 30 October 2026.",
+    "$1,000 invested in Exxon Mobil five years ago would be worth $2,904 today."
+   ]
+  },
+  "sector": "Energy",
+  "industry": "Integrated Oil & Gas",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-31/the-story-wall-street-is-telling-about-100-oil-and-the-fed/",
+    "date": "2026-10-31",
+    "title": "The Story Wall Street Is Telling About $100 Oil and the Fed",
+    "type": "narrative",
+    "tickers": [
+     "XOM",
+     "CVX",
+     "MPC",
+     "VLO",
+     "COP",
+     "OXY",
+     "UAL",
+     "DAL",
+     "LUV"
+    ]
+   },
+   {
+    "path": "/news/2026-10-30/chevron-cvx-tops-q3-estimates-as-refining-profit-jumps/",
+    "date": "2026-10-30",
+    "title": "Chevron (CVX) Tops Q3 Estimates as Refining Profit Jumps",
+    "type": "earnings-recap",
+    "tickers": [
+     "CVX",
+     "XOM"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/exxon-mobil-xom-reports-earnings-tomorrow-what-to-watch/",
+    "date": "2026-10-29",
+    "title": "Exxon Mobil (XOM) Reports Earnings Tomorrow: What to Watch",
+    "type": "earnings-preview",
+    "tickers": [
+     "XOM",
+     "CVX"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/chevron-cvx-reports-earnings-tomorrow-what-to-watch/",
+    "date": "2026-10-29",
+    "title": "Chevron (CVX) Reports Earnings Tomorrow: What to Watch",
+    "type": "earnings-preview",
+    "tickers": [
+     "CVX",
+     "XOM"
+    ]
+   }
+  ]
+ }
+}

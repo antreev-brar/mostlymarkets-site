@@ -1,0 +1,87 @@
+{
+ "id": "recap-CCJ-2026-10-30",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-01T01:04:20-05:00",
+ "expires": "2026-11-02T20:00:00-05:00",
+ "tickers": [
+  "CCJ"
+ ],
+ "headline_hint": "Cameco (CCJ) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-01T01:02:45-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "CCJ",
+   "name": "Cameco Corporation",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.23,
+   "n_estimates": 3,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 0.0,
+   "surprise_pct": null,
+   "mktcap": 36316598000.0
+  },
+  "quote": {
+   "price": 76.91,
+   "change_pct": -7.88,
+   "prev_close": 83.49,
+   "time": "2026-10-30",
+   "mktcap": "33.497B",
+   "pe": 134.01,
+   "fpe": 55.53,
+   "yr_high": 135.24,
+   "yr_low": 73.89,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 76.94,
+    "change_pct": 0.04,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "CCJ",
+   "name": "Cameco",
+   "date": "2026-10-30",
+   "close": 76.91,
+   "prev_close": 83.49,
+   "change_pct": -7.88,
+   "moves_over_5pct_last_year": 30,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-05",
+    "change_pct": -9.28
+   },
+   "ytd_pct": -15.94,
+   "return_1m_pct": -10.25,
+   "return_6m_pct": -36.23,
+   "return_1y_pct": -27.9,
+   "high_52w": {
+    "close": 134.09,
+    "date": "2026-01-28"
+   },
+   "low_52w": {
+    "close": 76.91,
+    "date": "2026-10-30"
+   },
+   "pct_below_52w_high": 42.64,
+   "thousand_dollars_5y_ago_now": 3165,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 9551447,
+   "volume_vs_20d_avg": 2.96,
+   "sentences": [
+    "Cameco's shares moved 5% or more on 30 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 June 2026, when the stock fell 9.3%.",
+    "The stock is down 15.9% this year, and at $76.91 it sits 42.6% below its 52-week closing high of $134.09 from 28 January 2026.",
+    "$1,000 invested in Cameco five years ago would be worth $3,165 today."
+   ]
+  },
+  "sector": "Energy",
+  "industry": "Coal & Consumable Fuels",
+  "recent_stories": []
+ }
+}
