@@ -95,5 +95,8 @@
    "/news/2026-10-31/alphabet-googl-is-in-talks-to-join-the-185-billion-golden-dome-bloomberg-reports/",
    "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-01T16:42:57-05:00",
+ "reason": "noise: a week-ahead roundup and technical-analysis pieces; Palantir's earnings are already previewed (2026-10-29)"
 }

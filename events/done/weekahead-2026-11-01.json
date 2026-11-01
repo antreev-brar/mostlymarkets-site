@@ -237,5 +237,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-01T16:42:57-05:00",
+ "reason": "already covered: 2026-10-31-the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report covers this same week"
 }
