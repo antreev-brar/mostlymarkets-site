@@ -13,6 +13,7 @@ sources = [
   "https://fortune.com/2026/10/28/fed-rates-steady-kevin-warsh-president-governor-laura-ullrich",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+  "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20261028.pdf",
   "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
   "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
   "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
@@ -44,9 +45,8 @@ sources = [
   "https://investinglive.com/commodities/us-warns-gulf-allies-of-possible-short-intense-iran-campaign-after-midterms-wsj/",
   "https://www.middleeasteye.net/news/us-warns-gulf-intense-strikes-iran-after-midterms-report",
   "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-123540419.html",
-  "https://www.wsj.com/finance/commodities-futures/gold-declines-weighed-by-tighter-monetary-policy-expectations-2c50c549",
-  "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold",
   "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46G18Z:0-us-bonds-rally-sending-yields-to-biggest-monthly-decline-since-2023/",
+  "https://www.itiger.com/news/2677899276",
   "https://www.wsj.com/finance/stocks/u-s-treasury-yields-fall-to-multiweek-lows-in-asian-trade-d355dffd",
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
@@ -70,7 +70,7 @@ The stakes: Marathon Petroleum ($MPC), a refiner, has nearly tripled in value th
 
 ```highlights
 The short version
-- **What's happening:** US crude is near $103 a barrel, energy prices are up 20.4% in a year, and futures put the odds of a Fed rate hike on 9 December at about 85%.
+- **What's happening:** US crude is near $103 a barrel, energy prices are up 20.4% in a year, and futures put the odds of a Fed rate hike on 9 December at about 85% after Wednesday's meeting.
 - **Why it matters:** A December hike would be the Fed's second in three months, and the fuel shortage behind the story is moving money from fuel buyers, such as airlines, to refiners.
 - **Our read:** Partly supported: the fuel shortage is real, but with core inflation at 2.6%, we think December is a closer call than the 85% odds in futures suggest.
 ```
@@ -144,9 +144,9 @@ More Houthi attacks on Saudi Arabia had already sent Brent crude, the global ben
 
 1. **Supply is getting through, and more fuel is coming.** Despite Iran's blockade, production and export flows through Hormuz are "still holding at close to pre-conflict levels," if at elevated shipping rates, MUFG analysts Edward Bell and Soojin Kim said, The National reported on 23 October. Russian refiners are raising diesel output for export under a supply deal with the US, Reuters and CNBC reported this week, and President Donald Trump said on 23 October that the US "could end it very quickly."
 2. **Bond investors aren't pricing an inflation spiral.** The 10-year Treasury yield fell **0.35 point** in October, to 4.94%, its biggest monthly drop since December 2023, by the Treasury's daily figures. The 2-year yield, which tracks expected Fed moves most closely, fell almost as much, a sign that bond traders see less tightening ahead than they did a month ago.
-3. **Inflation outside energy is tame, and the chair sounds patient.** Core prices rose 2.6% in the year to September, and Warsh said on Wednesday that the Fed's "monetary medicine" was starting to work. Employers added just 29,000 jobs in September, the Labor Department said.
+3. **Inflation outside energy is tame, and the chair sounds patient.** Core prices rose 2.6% in the year to September, and Warsh said on Wednesday that the Fed's "monetary medicine is starting to work some." Employers added just 29,000 jobs in September, the Labor Department said.
 
-We think the third point is the strongest: an oil shock that hasn't spread into other prices is the kind central banks usually wait out, and a weak job market makes waiting easier. The first is the weakest, because crude kept flowing while fuel ran short.
+We think the third point is the strongest: an oil shock that has spread little beyond fuel and airfares is the kind central banks usually wait out, and a weak job market makes waiting easier. The first is the weakest, because crude kept flowing while fuel ran short.
 
 ## What would change minds
 
@@ -156,9 +156,9 @@ We think the third point is the strongest: an oil shock that hasn't spread into 
 
 ## The stocks exposed
 
-Refiners are the stocks most tied to the story, and their prices already assume the windfall won't last. Valero ($VLO) earned **more than six times** as much in the third quarter as a year earlier, its results show, but its stock has risen 134% in the past 12 months, by our count.
+Refiners are the stocks most tied to the story, and we think their prices already assume the windfall won't last. Valero ($VLO) earned **more than six times** as much in the third quarter as a year earlier, its results show, but its stock has risen 134% in the past 12 months, by our count.
 
-When the story wobbled on 27 October, as oil fell on hopes raised by talks with Iran and on reports of more Russian diesel, refiners fell 7% to 9% and the airlines rose.
+The story wobbled on 27 October, when oil fell on hopes raised by talks with Iran and the reports of more Russian diesel came out. Refiners fell 7% to 9% that day, and the airlines rose.
 
 ```chart
 {"kind": "moves", "tickers": ["MPC", "VLO", "PSX", "COP", "CVX", "XOM", "OXY", "DAL", "UAL", "LUV"], "from": "2026-10-26", "to": "2026-10-27", "names": true,
@@ -169,8 +169,8 @@ When the story wobbled on 27 October, as oil fell on hopes raised by talks with 
 | Company | How it's exposed | Stock this year |
 |---|---|---|
 | **Most exposed if the story holds: sellers of oil and fuel** | | |
-| Marathon Petroleum ($MPC) | Refiner; 8.3% below its 14 October closing high; reports Tuesday 3 November | +173.5% |
-| Valero ($VLO) | Refiner; 13.1% below its 14 October closing high | +145.5% |
+| Marathon Petroleum | Refiner; 8.3% below its 14 October closing high; reports Tuesday 3 November | +173.5% |
+| Valero | Refiner; 13.1% below its 14 October closing high | +145.5% |
 | ConocoPhillips ($COP) | Pumps oil and gas but doesn't refine; reports Thursday 5 November | +64.5% |
 | Occidental Petroleum ($OXY) | Oil and gas producer | +55.6% |
 | Exxon Mobil | Refining earned a little more than production in Q3 | +55.6% |

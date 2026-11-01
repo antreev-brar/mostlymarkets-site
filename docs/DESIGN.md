@@ -136,3 +136,13 @@ The owner on v5: "the front page looks uglier than ever you are just throwing wa
 - **Article:** header, then the cover photo, then the story with its first chart or stat block right after the opening paragraph (`picture_first` moves a late one up there, and gives a story with none the main stock's three months). The rail: the story's stocks, headlines on the main stock, just published.
 - **The Daily:** editions show their cover again (archive rows, today's edition, the edition page, the stories-rail circle).
 - **Kept from v5:** separate pages, ticking relative times, the New pill (top story) and the unseen dot, story types, story logs, X cards, per-stock headlines on stock pages.
+- **Who a post is from** (`post_who`): a one-company story shows that company's logo and name (only when the headline is
+  about it); analysis across several companies shows their logos and the running story it belongs to (`THEME_LABEL`:
+  "The memory cycle", "AI spending", "The chip selloff"); the Daily shows the Mostly Markets mark.
+- **Headlines everywhere look the same:** stock pages list a company's headlines as posts with outlet logos, and rail
+  headlines carry the logo too.
+- **Editorial standard (1 Nov):** STYLE.md "No filler". Every sentence reports a fact, explains a mechanism, sizes it,
+  says what it means for whom, or gives our read; long analysis opens with "The short version" box. The 20 front-page
+  stories of 31 Oct were edited to it and fact-checked twice (an editor, then an adversarial checker against every
+  source, then a second checker), and every one needed corrections: implied causes, single-source claims without
+  attribution, stale "year to date" figures, overstated analyst views.
