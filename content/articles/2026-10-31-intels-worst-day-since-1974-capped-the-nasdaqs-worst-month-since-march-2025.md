@@ -62,9 +62,9 @@ sources = [
 ]
 +++
 
-On Friday, Intel ($INTC) **plunged 28.6%**, its worst day since 1974, Benzinga and CNN reported, after forecasting fourth-quarter profit far below estimates. It was the week's pattern: four of the S&P 500's five worst performers, Intel among them, beat estimates for the quarter just ended, then lost a fifth or more of their value in a day on their outlooks.
+On Friday, Intel ($INTC) **plunged 28.6%**, its worst day since 1974, CNN reported, after forecasting fourth-quarter profit far below estimates. It was the week's pattern: four of the S&P 500's five worst performers, Intel among them, beat estimates for the quarter just ended, then lost a fifth or more of their value in a day on their outlooks.
 
-The selling stayed in tech: the Nasdaq Composite fell about 5.3% in October, its worst month since March 2025, Yahoo Finance reported, while the Dow rose. We think the week showed the AI boom's side effects reaching companies' results and forecasts: pricier memory chips for the companies that buy them, fewer visitors for Reddit ($RDDT), partly because of AI summaries in Google search, and a spending bill that kept Alphabet's ($GOOGL) free cash flow below zero.
+The selling stayed in tech: the Nasdaq Composite fell about 5.3% in October, its worst month since March 2025, Yahoo Finance reported, while the Dow rose. We think the week showed the AI boom's side effects reaching companies' results and forecasts: pricier memory chips for the companies that buy them, fewer visitors sent to Reddit ($RDDT) by Google, partly because of AI summaries in search results, and a spending bill that kept Alphabet's ($GOOGL) free cash flow below zero.
 
 ## The week in eight charts
 
@@ -73,7 +73,7 @@ The selling stayed in tech: the Nasdaq Composite fell about 5.3% in October, its
 Intel forecast fourth-quarter adjusted earnings of **25 cents a share**, against the 43 cents analysts expected, Reuters reported ([full story](/news/2026-10-29/intel-intc-q3-profit-tops-estimates-shares-plunge-on-a-weak-forecast/)).
 
 ```chart
-{"kind": "price", "ticker": "INTC", "range": "3m", "end": "2026-10-30", "title": "Friday's close was Intel's lowest since April",
+{"kind": "price", "ticker": "INTC", "range": "ytd", "end": "2026-10-30", "title": "Friday's close was Intel's lowest since April",
  "subtitle": "Intel, daily close, $", "notes": [{"date": "2026-10-30", "label": "Weak Q4 forecast"}]}
 ```
 
@@ -91,11 +91,11 @@ Even now it trades at **5.8 times its sales**, more than twice its five-year med
  {"ticker": "SNDK", "metric": "ytd", "date": "2026-10-30", "label": "Sandisk this year", "note": "After falling 13.5% on Friday"}]
 ```
 
-### Five companies lost about a quarter of their value in a week
+### The S&P 500's five worst stocks lost 24% to 36% this week
 
 ```chart
 {"kind": "moves", "tickers": ["RDDT", "NOW", "FFIV", "FTNT", "INTC", "GOOGL"], "from": "2026-10-23", "to": "2026-10-30", "names": true,
- "title": "Each one fell after its own outlook disappointed", "subtitle": "Share price change over the week, 23 October close to 30 October close, %"}
+ "title": "Each one fell after its own report disappointed", "subtitle": "Share price change over the week, 23 October close to 30 October close, %"}
 ```
 
 Fortinet ($FTNT) trimmed its 2026 service-revenue forecast by less than 1% at the midpoint and still **plunged 20.1%** on Thursday ([full story](/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/)).

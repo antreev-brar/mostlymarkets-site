@@ -1,6 +1,6 @@
 +++
 title = "Sam Altman Met About 50 Samsung Executives and SK's Chairman. No Deal Was Announced"
-dek = "OpenAI's chief met about 50 Samsung executives and SK Group's chairman in Korea on Saturday. No deal was announced; in 2025 OpenAI asked the two for more than twice the world's capacity for AI memory chips."
+dek = "OpenAI's chief met about 50 Samsung executives and SK Group's chairman in Korea on Saturday. In 2025 OpenAI asked the two for more than twice the world's capacity for AI memory chips."
 type = "brief"
 published = 2026-10-31T10:28:15-04:00
 author = "dev-malhotra"
@@ -30,7 +30,7 @@ OpenAI Chief Executive Sam Altman met **about 50** senior Samsung executives on 
 
 ```stat
 [{"value": "About 50", "label": "Samsung executives Altman met", "note": "Saturday, 31 October, at Samsung's training center in Yongin"},
- {"value": "900,000", "label": "Memory wafers a month", "note": "What OpenAI said in October 2025 it could need, per the Korea Times and KED Global"}]
+ {"value": "900,000", "label": "Memory wafers a month", "note": "What OpenAI asked Samsung and SK for in October 2025"}]
 ```
 
 Both groups signed letters of intent in October 2025 to supply memory chips for Stargate, OpenAI's data-center project. OpenAI's request, about 900,000 memory wafers a month, was **more than twice** global capacity for HBM, the stacked memory in AI chips, SK Group said then.

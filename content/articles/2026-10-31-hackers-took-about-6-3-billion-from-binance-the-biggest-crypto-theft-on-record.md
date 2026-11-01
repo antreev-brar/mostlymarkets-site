@@ -28,10 +28,12 @@ sources = [
   "https://www.nbcnews.com/tech/tech-news/fbi-says-north-korea-was-responsible-15-billion-bybit-hack-rcna193944",
   "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec.htm",
   "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000047/mstr-20261026.htm",
+  "https://bitcointreasuries.net/news/strategy-reports-record-dollar21-billion-q3-operating-income-as-cfo-steps-down",
+  "https://x.com/_RichardTeng/status/2116538946188726474",
 ]
 +++
 
-Hackers stole about **$6.3 billion** from Binance, the world's biggest crypto exchange, on Thursday, the largest crypto theft on record. On Saturday the FBI blamed TraderTraitor, a North Korean state-backed unit it also held responsible for the $1.5 billion Bybit theft in February 2025, less than a quarter of this haul.
+Hackers stole about **$6.3 billion** from Binance, the world's biggest crypto exchange, on Thursday, more than four times the $1.5 billion taken from rival exchange Bybit in February 2025. On Saturday the FBI blamed TraderTraitor, the North Korean state-backed unit it also held responsible for the Bybit theft.
 
 Binance halted withdrawals and is covering the loss itself. "We've now replenished **90%** of the stolen assets," co-Chief Executive Richard Teng posted on X on Saturday. About $3 billion is frozen, mostly stablecoins blocked by their issuers, Tether and Circle ($CRCL); the FBI says the hackers are swapping their loot mainly into ether, which no issuer can freeze.
 
@@ -51,6 +53,6 @@ Coinbase ($COIN) **plunged 10.6%** on Friday, its worst day since 5 February, an
  {"ticker": "HOOD", "metric": "day", "date": "2026-10-30", "label": "Robinhood on Friday", "note": "Down 24.9% this year"}]
 ```
 
-The hack wasn't the only weight. The Nasdaq Composite fell 2.9% on worries about AI spending, and Coinbase and Strategy reported results on Thursday: Coinbase's third-quarter total revenue fell **35%** from a year earlier, and Strategy said its finance chief, Andrew Kang, is resigning for personal reasons.
+The hack wasn't the only weight: the Nasdaq Composite fell 2.9% on worries about AI spending, and Coinbase and Strategy reported results on Thursday. Coinbase's third-quarter revenue fell **35%** from a year earlier, and Strategy said its finance chief, Andrew Kang, is resigning for personal reasons.
 
-Binance plans to reopen withdrawals on Sunday, subject to final security checks. Our read: Binance has shown it can cover the theft, so Sunday tests whether customers stay; even a smooth reopening would lift only one of three weights on crypto stocks.
+Binance plans to reopen withdrawals on Sunday, subject to security checks and final confirmation. Our read: Binance says it has the money, so Sunday tests whether customers stay once they can leave, not whether it can pay them. Even a smooth reopening would lift only one of the three weights on crypto stocks.
