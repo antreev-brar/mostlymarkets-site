@@ -219,6 +219,8 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         if not 60 <= nb <= 140:
             warns.append(f"cover_brief is {nb} words (aim for 70-130: the hero and its writing, the people, five to eight story clues)")
         labels = re.findall(r"(?<![A-Za-z])'([^']{1,40})'(?![A-Za-z])", brief)
+        if re.search(r"'\s*[.!?;]", brief):
+            warns.append("cover_brief ends a sentence on a quoted label: the model paints the next word onto the sign; keep describing in the same sentence")
         if not labels:
             warns.append("cover_brief has no 'LABEL': name the company or the number that matters on a sign, banner or screen")
         if len(labels) > 2:
@@ -229,6 +231,8 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         for lab in labels:
             if len(lab.split()) > 3:
                 warns.append(f"cover_brief label {lab!r} is long: 1-3 words or one number")
+            if "%" in lab:
+                warns.append(f"cover_brief label {lab!r} has a % sign: the model drops it; write '87 PERCENT'")
             if re.search(r"\d\.\d|^[+\-−]|\s[+\-−]\d", lab):
                 warns.append(f"cover_brief label {lab!r} has a decimal or a +/- sign: the model drops them; use a word, a year or a whole number")
             for num in re.findall(r"\d[\d.,]*", lab):

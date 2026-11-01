@@ -376,8 +376,15 @@ cover_text = ["GE VERNOVA", "$29 BILLION"]
    **Never a decimal point or a plus or minus sign:** the model drops them ('-28.6%' came out '28 6', '+13.4%' as
    '134', '16.5%' as '165A'). When the story's key figure has a decimal, letter a word or a year instead ('WORST DAY
    SINCE 1974' is too long; 'SINCE 1974' or 'RECORD LOW' works) and let the headline carry the figure.
-   Prefer short names: 'LAM' or 'GE VERNOVA' rather than long two-word names of 12 letters or more, which come out
-   with a doubled letter. List the writing in `cover_text`. Never put words or numbers on small objects, peers, vehicles' curved sides, dials,
+   **Write a percentage as a word:** '87 PERCENT', never '87%' (the model drops the % sign or draws it as an "A" on
+   most covers).
+   **Never end a sentence on a quoted label.** The model paints the next sentence's first word onto the sign
+   ("'MAINTENANCE'. A foreman..." came out as "MAINTENANCE A"). Keep describing in the same sentence: "a sign
+   reading 'MAINTENANCE' in amber capitals hangs over the gate, and below it...".
+   **Names go on big flat faces turned to the viewer:** a wide banner, a plaque across the front, the side of a truck
+   seen side-on, the face of a giant chip. Never on a small object, a fin or edge seen end-on, or a curved surface; a
+   name of eight letters or more goes on a wide banner or plaque, or it comes out with a letter missing or doubled.
+   Prefer short names ('LAM', 'GE VERNOVA'). List the writing in `cover_text`. Never put words or numbers on small objects, peers, vehicles' curved sides, dials,
    clocks, gauges, split-flap boards, tables or papers; call everything else "plain" or "unmarked".
 3. **Five to eight small clues from the article** around the hero, smaller and in shadow, so they reward a close look
    without cluttering the thumbnail: the peers as smaller unmarked chips chained to the falling one, a wall calendar
@@ -400,7 +407,24 @@ cover_text = ["GE VERNOVA", "$29 BILLION"]
 8. **Keep the family light**: dusk, night or a navy-shadowed interior, one warm gold light on the hero, red only for
    the one alarm element. No daylight skies, white rooms or pink and purple neon. Places and flags only when the story
    supports them (the Fed's marble boardroom and an American flag, Korea's flag for a Korean chipmaker).
-9. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs
+9. **What the cover checks keep catching** (2 Nov 2026):
+   - Hang the sign directly above the hero, centred and no wider than it; nothing that matters goes in the outer
+     fifth on either side (phones crop to the centre square: 'SINCE JUNE' became 'INCE JUN'). Write "directly above it
+     hangs a big sign reading ...", never "beside it": "beside" lands the sign at the frame's edge.
+   - Put a company's name on "a wide navy plaque across the front of the <hero> reading 'NAME' in big white block
+     capitals": that came out clean every time, where names on lids, panels, wrappers and curved faces turned into a
+     small logo or a misspelling.
+   - After a label, keep the sentence going for several words, and don't start the next sentence with "A" or "The".
+   - Show a fall with one physical action the model can draw: tipping off the edge of a platform, sinking into water,
+     sliding down a ramp. Gestures (waving arms, thumbs) read as cheering.
+   - Use "cracked" only for the hero, and only when it cracks: the word bleeds onto whatever is near it.
+   - For a brand with a famous logo, ask for its name "in plain capitals across the face, with no logo box or badge",
+     or the model draws a tiny look-alike logo instead of the name.
+   - Avoid seesaws (always drawn tilted) and long lists of objects; name two or three things, not five.
+   - Make every person in their thirties or older, and say "tall" or "grown": "young" and "in her twenties" come out
+     as children in this style.
+   - A sign's word mustn't read like a style word ("SOFT" was dropped); use "WEAK", "SLOW" or a noun instead.
+10. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs
    (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat their hero object or setting:
    trading floors, vaults and queues are the easy repeats.
 

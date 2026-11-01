@@ -29,6 +29,18 @@ Their numbers come from one command, `python3 pipeline/analyse.py TKR`. It print
 
 That is our own data (SEC filings), so it needs no second source. Read its warnings (stale data, another currency) before quoting.
 
+## 0b. Check the newest covers (every run, about 5 minutes)
+The covers job draws each new story's cover a few minutes after it's pushed, and about half of the first drawings get
+the lettering or the crop wrong. Check the covers drawn since your last run (`git log --since="6 hours ago" --name-only
+-- assets/covers/story | grep -- -1600.webp`). For each one, open `assets/covers/story/<slug>-1600.webp` and compare it
+with the story's `cover_text` and STYLE.md "Covers" rule 9:
+- every string in `cover_text` is there, spelled exactly, with no extra character (not "CASH A", "87A", "BBBVIE");
+- no other big lettering, no real company logo, nobody who looks like a child, the direction of the story right;
+- the hero and its sign both sit in the centre square (the middle 60% of the width).
+If one fails, rewrite its `cover_brief` to fix the cause (rule 9 lists the usual ones), delete its three
+`assets/covers/story/<slug>-*.webp` files, and push the story with the brief: the covers job draws it again. Do this at
+most twice per story; after that, leave it and mention it in the run summary.
+
 ## 1. Pick the work
 - Work through the queue in the listed order, **at most 10 stories per run**, and stop starting new ones after about 50 minutes.
 - **Headlines:** `data/news/market.json` and `data/news/<T>.json` hold the latest outside headlines (from `pipeline/news.py`). Use them to find causes and context, and to see how a company's story is changing. If the queue is short and they carry a material story we haven't covered (results, guidance, a deal, a big contract, regulation, a management change), write a `brief` on it.
