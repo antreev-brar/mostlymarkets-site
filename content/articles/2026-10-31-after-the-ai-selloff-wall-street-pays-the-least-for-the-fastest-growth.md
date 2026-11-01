@@ -6,8 +6,8 @@ published = 2026-10-31T20:55:45-04:00
 author = "dev-malhotra"
 tickers = ["NVDA", "PLTR", "SNDK", "INTC", "ARM", "AVGO", "MU", "AMD", "VRT", "CRWV"]
 themes = ["chip-selloff", "ai-capex"]
-cover_brief = "An old brass balance scale on a plain white marble table by a tall window, one pan holding a single polished silicon wafer that catches faint rainbow reflections, the other pan empty and raised, hard midday sunlight casting crisp shadows, a quiet bare room"
-cover_alt = "A brass balance scale on a white marble table by a window"
+cover_brief = "On a dusty racetrack at sunset, a slow old tortoise plods along in the foreground with a winner's garland of red roses already draped over its shell, while far ahead a sleek brown hare sprints alone down the empty track, kicking up dust, past an empty grandstand with no one in it."
+cover_alt = "A tortoise wearing a winner's garland plods on as a hare sprints ahead on an empty racetrack"
 sources = [
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
   "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",

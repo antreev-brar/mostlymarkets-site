@@ -11,8 +11,8 @@ moves = [
   { ticker = "BMY", price = 63.60, change_pct = 3.60, session = "regular", asof = 2026-10-30T09:31:41-04:00 },
   { ticker = "BMY", price = 61.39, change_pct = 1.35, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Close-up at a hospital pharmacy counter beside a large window, flat overcast daylight: a pharmacist's hand, white coat cuff visible, holds one plain unprinted silver blister pack of small pale-yellow tablets in the centre of the frame, a few more blank blister packs on the plain white counter, grey sky softly blurred behind"
-cover_alt = "A pharmacist's hand holds a blister pack of yellow tablets beside a window"
+cover_brief = "In a dim stone hall, one tall old candle, already burned two-thirds of the way down, blazes with the biggest, brightest flame in the room. Beside it stands a long row of eight fresh new candles, the nearest ones already lit from its flame and glowing gold, the rest still waiting to catch."
+cover_alt = "A tall candle burned two-thirds down blazes beside a row of new candles, the nearest already lit"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000022/a2026q3ex991-filing.htm",
   "https://www.gurufocus.com/news/9150678/bristolmyers-squibb-reports-q3-2026-revenue-of-131-billion-and-gaap-eps-of-105-exceeding-analyst-estimates",

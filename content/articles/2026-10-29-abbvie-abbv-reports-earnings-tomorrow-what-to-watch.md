@@ -8,6 +8,8 @@ tickers = ["ABBV"]
 moves = [
   { ticker = "ABBV", price = 290.79, change_pct = 1.68, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Seen through the glass door of a glowing oven at night, a tall golden souffl\u00e9 has risen far above the rim of its white dish, perfectly domed at its peak, while outside the door a hand in a quilted oven mitt grips the handle, about to pull it open."
+cover_alt = "A tall souffl\u00e9 has risen high inside a glowing oven as a hand in an oven mitt reaches to open the door."
 sources = [
   "https://news.abbvie.com/2026-10-01-AbbVie-to-Host-Third-Quarter-2026-Earnings-Conference-Call",
   "https://www.marketbeat.com/instant-alerts/upcoming-abbvie-abbv-projected-to-announce-quarterly-earnings-on-friday-2026-10-23/",

@@ -10,6 +10,8 @@ moves = [
   { ticker = "GOOGL", price = 283.82, change_pct = -12.64, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "AMZN", price = 227.99, change_pct = -6.48, session = "after-hours", asof = 2026-10-29T17:20:47-04:00 },
 ]
+cover_brief = "On a sunny playground in late afternoon light, a huge grey elephant sits on one end of a long wooden seesaw, slamming it into the dirt in a cloud of dust, while the other end flies high into the air carrying a crowd of small cheering mice."
+cover_alt = "An elephant slams one end of a seesaw down while a crowd of mice flies up on the other end"
 sources = [
   "https://www.news4jax.com/business/2026/10/29/asian-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/",
   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",

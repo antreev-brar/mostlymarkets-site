@@ -10,6 +10,8 @@ cover = "data-center-power"
 moves = [
   { ticker = "VRT", price = 242.94, change_pct = 16.48, session = "close", asof = 2026-10-28T16:00:00-04:00 },
 ]
+cover_brief = "At night a giant glowing blue cooling fan the size of a house spins on the roof of a windowless data centre and lifts the whole building into the starry sky like a helicopter rotor, cold white mist swirling below."
+cover_alt = "A giant cooling fan lifts a whole data centre into the night sky like a helicopter"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm",
   "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",

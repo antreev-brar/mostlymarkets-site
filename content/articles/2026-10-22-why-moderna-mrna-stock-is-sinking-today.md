@@ -9,6 +9,8 @@ reason = "Product"
 moves = [
   { ticker = "MRNA", price = 202.63, change_pct = -17.57, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
+cover_brief = "A sleek white submarine shaped like a medicine vial sinks slowly through deep blue water, its small lights still on, a trail of silver bubbles rising toward the bright surface far above."
+cover_alt = "A white submarine shaped like a medicine vial sinks slowly in deep blue water"
 sources = [
   "https://www.investing.com/news/stock-market-news/moderna-shares-plunge-on-apparent-cancer-vaccine-data-leak-4967091",
   "https://www.bloomberg.com/news/articles/2026-10-22/moderna-merck-shares-fall-after-potential-leak-of-melanoma-data",

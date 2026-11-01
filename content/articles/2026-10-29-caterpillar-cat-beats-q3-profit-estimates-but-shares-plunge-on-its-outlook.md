@@ -9,6 +9,8 @@ cover = "industrials"
 moves = [
   { ticker = "CAT", price = 647.39, change_pct = -9.25, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "On a very steep, muddy hillside under a heavy grey sky, a huge muscular draft horse strains in its leather harness, hauling a weathered wooden wagon piled high with gleaming steel engine blocks and turbine parts. Its hooves are skidding in the mud, and the heavy wagon has begun to slide back down the slope."
+cover_alt = "A draft horse hauling a wagon of steel engine parts skids as the wagon slides back down a muddy hill"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm",
   "https://www.investing.com/news/stock-market-news/caterpillar-thirdquarter-profit-rises-on-power-equipment-demand-4982548",

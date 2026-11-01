@@ -13,8 +13,8 @@ moves = [
   { ticker = "QCOM", price = 162.26, change_pct = -12.49, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
   { ticker = "INTC", price = 63.42, change_pct = -31.12, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "Macro close-up of a dark smartphone circuit board resting on a workbench, one plain blank processor chip with a smooth matte black top in the centre, sharp and catching soft hazy midday sunlight from a window, tiny silver components and fine gold traces around it melting into soft blur"
-cover_alt = "Close-up of a blank processor chip on a dark smartphone circuit board"
+cover_brief = "A big flock of sheep stampedes in panic down a sunlit green hillside, a white torrent of wool pouring between the rocks in a cloud of dust, all spooked by one small black storm cloud flashing lightning over a distant hill, while the sky above their own pasture stays clear and blue."
+cover_alt = "A flock of sheep stampedes downhill in panic, spooked by lightning over a distant hill under a clear sky"
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed",

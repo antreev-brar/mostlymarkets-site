@@ -6,6 +6,8 @@ published = 2026-10-29T09:00:00-04:00
 author = "nora-whitfield"
 tickers = ["FFIV", "VRT", "ORCL", "GOOGL", "SNDK"]
 cover = "market-screens"
+cover_brief = "Above a calm black mountain lake at night, a fireworks show is under way: three big shells burst high in the sky in huge glittering gold and red blooms mirrored in the water, while two dud rockets fizzle out halfway up and tumble back down, trailing grey smoke toward the lake."
+cover_alt = "Fireworks over a mountain lake at night: three golden bursts high up, two dud rockets falling in smoke"
 sources = [
   "https://www.tipranks.com/news/f5-stock-ffiv-dives-nearly-20-on-weak-guidance-and-an-analyst-downgrade",
   "https://www.fool.com/earnings/call-transcripts/2026/10/27/f5-ffiv-q4-2026-earnings-call-transcript/",

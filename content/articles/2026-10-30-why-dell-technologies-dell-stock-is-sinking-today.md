@@ -11,8 +11,8 @@ moves = [
   { ticker = "DELL", price = 415.48, change_pct = -12.62, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
   { ticker = "HPQ", price = 28.34, change_pct = -10.96, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "A quiet computer factory in soft window light: in the centre, one open, empty plain black desktop PC case with its side panel off sits on a long roller conveyor, the line behind it nearly bare, tall windows, a lone worker far down the line seen from behind"
-cover_alt = "An empty computer case on a quiet factory conveyor, a worker seen through it"
+cover_brief = "A plain grey desktop computer tower stands alone on cracked, sun-baked desert ground under a harsh white noon sun. A huge python is coiled tightly around it, its scales patterned like green circuit boards edged with rows of gold contacts. The tower's side panel buckles under the squeeze, and a few loose screws glint in the dust."
+cover_alt = "A python with circuit-board scales coiled tightly around a desktop computer tower in the desert"
 sources = [
   "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages",
   "https://247wallst.com/investing/2026/10/30/dell-sinks-11-as-intels-warning-on-pc-slump-and-memory-shortage-hits-hardware-stocks-hp-tumbles-9-hewlett-packard-enterprise-and-super-micro-fall-7/",

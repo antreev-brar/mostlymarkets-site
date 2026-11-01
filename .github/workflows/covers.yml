@@ -1,7 +1,8 @@
 name: covers
-# Draws AI cover photos (pipeline/covers.py, documentary style) for stories the writer pushes with a cover_brief,
-# commits them and redeploys.
-# Free by default: FLUX.1 schnell on AI Horde, no key needed (an optional AIHORDE_API_KEY secret buys queue priority).
+# Draws AI covers (pipeline/covers.py: a visual metaphor per story in the navy-and-gold house style) for stories the
+# writer pushes with a cover_brief, commits them and redeploys.
+# Free by default: FLUX.1 schnell and Z-Image-Turbo on AI Horde, no key needed (an optional AIHORDE_API_KEY secret buys
+# queue priority).
 on:
   push:
     branches: [main]
@@ -30,7 +31,7 @@ jobs:
           MM_COVER_MASTERS: ${{ runner.temp }}/cover-masters
         run: |
           pip install --quiet pillow
-          python3 pipeline/covers.py --max 12 --workers 3 || echo "::warning::some covers failed; they'll be retried on the next push"
+          python3 pipeline/covers.py --max 12 --workers 3 --deadline 50 || echo "::warning::some covers failed; they'll be retried on the next push"
           if [ -n "$(git status --porcelain assets/covers/story)" ]; then echo "new=true" >> "$GITHUB_OUTPUT"; fi
       - name: Commit and redeploy
         if: steps.draw.outputs.new == 'true'

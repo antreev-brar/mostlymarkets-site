@@ -6,8 +6,8 @@ published = 2026-10-31T10:27:51-04:00
 author = "theo-park"
 tickers = ["NVDA", "MSFT", "GOOGL", "AAPL"]
 themes = ["big-tech-earnings", "ai-capex"]
-cover_brief = "Modern glass office buildings of a big tech campus centred and filling the frame, seen with a long lens across a strip of lawn, plain unmarked facades reflecting grey clouds and trees, a few tiny people walking on a footpath far away, flat overcast daylight"
-cover_alt = "Tall glass office buildings around a mown lawn on a tech campus, overcast day"
+cover_brief = "On a weathered potting bench in a sunny walled garden, a small, sparse apple tree with a few tiny apples sits front and centre in a lavish gold pot studded with jewels. Behind it, three tall, leafy young trees in plain cracked clay pots tower over it, their branches spreading wide. Warm late-afternoon light, long shadows."
+cover_alt = "A small apple tree in a jewelled gold pot, dwarfed by three tall trees in plain clay pots"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://abc.xyz/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",

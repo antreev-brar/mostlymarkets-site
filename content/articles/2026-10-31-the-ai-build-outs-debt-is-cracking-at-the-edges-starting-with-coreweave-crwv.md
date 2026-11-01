@@ -6,8 +6,8 @@ published = 2026-10-31T10:27:39-04:00
 author = "dev-malhotra"
 tickers = ["CRWV", "NBIS", "META", "ORCL", "MSFT"]
 themes = ["ai-capex"]
-cover_brief = "A stalled data-centre construction site at deep blue-hour dusk: an unfinished concrete and steel building shell centred in frame, torn white plastic sheeting flapping loose from its open bays, a tower crane standing still above it, stacks of unused steel beams in the mud in front, no people, one bare work lamp glowing."
-cover_alt = "An unfinished concrete building with loose plastic sheeting and an idle crane at dusk"
+cover_brief = "On the thin edge of a vast frozen lake at blue-hour dusk, a windowless warehouse with its wide doors open on rows of glowing server racks sits on ice cracking all around it, black water seeping up through the fractures, while far out in the centre several giant warehouses stand firm on thick blue ice, glowing warm and steady."
+cover_alt = "A data-centre warehouse sits on cracking ice at a frozen lake's edge while bigger ones stand on thick ice."
 sources = [
   "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
   "https://admiralmarkets.com/education/articles/shares/coreweave-stock-drop-ai-debt",

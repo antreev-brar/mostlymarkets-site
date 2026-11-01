@@ -10,6 +10,8 @@ cover = "cybersecurity"
 moves = [
   { ticker = "FTNT", price = 139.1, change_pct = -20.09, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "On a vast marble chessboard stretching into a dark hall, a giant polished stone rook shaped like a castle tower topples sideways in mid-fall, while a single small pawn stands upright in the square where the rook stood, both lit by one shaft of cold light falling from high above."
+cover_alt = "A giant stone rook topples on a marble chessboard while a small pawn stands where it stood."
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000024/ftntq3-2026ex991.htm",
   "https://finance.yahoo.com/markets/stocks/article/fortinet-drags-down-cybersecurity-stocks-as-the-companys-service-revenue-forecast-misses-estimates-124146969.html",

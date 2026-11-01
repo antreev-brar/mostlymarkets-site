@@ -11,6 +11,8 @@ moves = [
   { ticker = "NU", price = 12.59, change_pct = -16.95, session = "close", asof = 2026-10-26T16:00:00-04:00 },
   { ticker = "MELI", price = 1668.72, change_pct = -7.81, session = "close", asof = 2026-10-26T16:00:00-04:00 },
 ]
+cover_brief = "In a tropical bay at dusk ringed by steep green granite peaks, the tide has rushed far out. A big blue wooden fishing boat lies tilted on its side in the centre of the wet, glistening mud flats, dozens more brightly coloured boats stranded around it, mooring ropes slack, the sea now a thin silver line in the distance."
+cover_alt = "Painted fishing boats stranded on mud flats after the tide rushed out of a tropical bay at dusk"
 sources = [
   "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
   "https://www.theglobeandmail.com/investing/article-trading-on-brazils-stock-exchange-halted-after-15-tumble-following/",

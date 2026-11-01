@@ -5,6 +5,8 @@ type = "earnings-recap"
 published = 2026-10-22T07:35:00-04:00
 author = "claire-okafor"
 tickers = ["PG"]
+cover_brief = "On a windswept green clifftop under racing dark clouds, a long clothesline heavy with crisp white sheets and towels snaps hard in a fierce headwind, every wooden peg holding firm, while a wicker basket piled high with more fresh laundry waits below in a shaft of golden sunlight."
+cover_alt = "White laundry snaps on a clothesline in a gale on a clifftop, every peg holding, a full basket below"
 sources = [
   "https://s204.q4cdn.com/332108499/files/content_files/FY2627-Q1-JAS-Press-Release-Final.pdf",
   "https://www.dgabc.com.br/Noticia/4354148/procter-gamble-tem-lucro-e-receita-acima-de-expectativas-no-1-trimestre-fiscal",

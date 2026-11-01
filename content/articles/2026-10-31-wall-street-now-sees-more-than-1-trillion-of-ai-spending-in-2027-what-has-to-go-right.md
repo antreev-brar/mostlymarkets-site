@@ -6,8 +6,8 @@ published = 2026-10-31T10:27:47-04:00
 author = "marcus-lindqvist"
 tickers = ["AMZN", "GOOGL", "MSFT", "META", "ORCL"]
 themes = ["ai-capex"]
-cover_brief = "A vast plain unmarked windowless data-centre building fills the centre of the frame beyond wet farmland, seen with a long lens in light rain; a row of steel pylons carries high-voltage lines toward it. Puddles in the muddy foreground reflect the grey sky and its wall lights, late afternoon."
-cover_alt = "Pylons carry power lines toward a windowless data centre across rain-soaked farmland"
+cover_brief = "A tiny figure seen from behind walks a glowing golden tightrope stretched between two skyscraper-sized towers of server racks high above a dark misty canyon at night, a long balancing pole in hand, the far tower still lit only halfway up."
+cover_alt = "A tiny figure walks a golden tightrope between two giant server towers over a canyon"
 sources = [
   "https://www.pymnts.com/?p=4233514",
   "https://www.briefs.co/news/goldman-says-hyperscaler-ai-spend-could-jump-to-1-2-trillion/",

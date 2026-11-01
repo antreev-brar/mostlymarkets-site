@@ -10,6 +10,8 @@ cover = "industrials"
 moves = [
   { ticker = "XYL", price = 92.86, change_pct = -14.21, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
+cover_brief = "Seen from the rim of a deep, mossy stone well, an old wooden bucket plummets toward the dark water far below, its rope whipping and uncoiling loose behind it. Droplets fly off it and glitter in a single beam of gold daylight slanting down the cold blue stone walls."
+cover_alt = "Seen from the rim of a deep stone well, a wooden bucket plunges toward the dark water below"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000146/xyl10272026ex991.htm",
   "https://www.investing.com/news/company-news/xylem-q3-2026-slides-orders-surge-10-but-guidance-cut-sends-shares-lower-93CH-4976021",

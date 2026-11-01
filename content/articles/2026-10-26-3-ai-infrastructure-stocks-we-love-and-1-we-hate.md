@@ -6,6 +6,8 @@ published = 2026-10-26T12:30:00-04:00
 author = "dev-malhotra"
 tickers = ["MU", "NVDA", "VRT", "CRWV"]
 cover = "ai-datacenter"
+cover_brief = "Over red desert canyons on a clear morning, three golden hot-air balloons ride high and steady in the blue sky, while in the foreground a fourth balloon hangs low over the rocks, its patched envelope sagging, its burner roaring a huge flame, its basket dragged down by heavy sandbags."
+cover_alt = "Three golden hot-air balloons fly high while a fourth, burner blazing, sinks low over desert canyons."
 sources = [
   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/",
   "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/",

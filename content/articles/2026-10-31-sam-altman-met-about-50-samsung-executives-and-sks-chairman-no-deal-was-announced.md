@@ -6,8 +6,8 @@ published = 2026-10-31T10:28:15-04:00
 author = "dev-malhotra"
 tickers = []
 themes = ["openai", "korea-chips", "hbm-pricing"]
-cover_brief = "Seoul at dusk in light rain: black sedans pulling up to the glass entrance of a tall corporate tower, a driver with an umbrella seen from behind, city lights reflecting on the wet street"
-cover_alt = "Black sedans pull up to a Seoul office tower in the rain"
+cover_brief = "At blue dusk in falling snow, a sleek silver robot kneels on one knee before the shut steel gates of two towering fortress-like chip factories standing side by side, holding up an open ring box with a glowing ring; warm light shines from their high windows, but the gates stay closed."
+cover_alt = "A silver robot kneels with a ring box in the snow before the shut gates of two fortress-like factories"
 sources = [
   "https://en.yenisafak.com/technology/samsung-executives-openai-ceo-altman-discuss-ai-future-3725024",
   "https://tech-insider.org/altman-meets-50-samsung-executives-memory-chips-2026/",

@@ -1,14 +1,17 @@
-"""AI cover photos for stories that ask for one (front matter `cover_brief`), in the Mostly Markets house style:
-documentary editorial photography (see HOUSE_SHORT and docs/STYLE.md, "Covers").
+"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: one witty visual metaphor
+per story, drawn as a vivid cinematic 3D illustration in the site's navy and gold (see HOUSE_SHORT and docs/STYLE.md,
+"Covers").
 
     python3 pipeline/covers.py                 # every story with a cover_brief and no cover yet
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
+    python3 pipeline/covers.py --redraw --max 200 --workers 10   # every story again, after a change of house style
     python3 pipeline/covers.py --brief "..." --name test-1   # a one-off test into assets/covers/story/
 
 Two providers (MM_IMAGE_PROVIDER):
-  horde   (default, free) FLUX.1 [schnell] on AI Horde (aihorde.net), the volunteer-run Stable Horde. FLUX.1 schnell is
-          Apache-2.0, so its images can be used commercially. Works anonymously; an AIHORDE_API_KEY (free sign-up)
-          only buys queue priority. A cover takes 1-5 minutes in the queue, so several are drawn at once.
+  horde   (default, free) AI Horde (aihorde.net), the volunteer-run Stable Horde, with two Apache-2.0 models whose
+          images can be used commercially: Z-Image-Turbo, and FLUX.1 [schnell] when no Z-Image worker is online
+          (MM_HORDE_MODEL sets the order). Works anonymously; an AIHORDE_API_KEY (free sign-up) only buys queue
+          priority. A cover takes 1-8 minutes in the queue, so several are drawn at once.
   openai  (paid, richer) needs OPENAI_API_KEY. Only used when asked for.
 
 Writes assets/covers/story/<slug>-{1600,800,480}.webp and keeps the master in $MM_COVER_MASTERS (default
@@ -17,11 +20,13 @@ library."""
 from __future__ import annotations
 
 import argparse
+import atexit
 import base64
 import concurrent.futures as cf
 import json
 import os
 import re
+import signal
 import sys
 import tempfile
 import time
@@ -35,24 +40,19 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/covers/story"
 PROVIDER = os.environ.get("MM_IMAGE_PROVIDER", "horde")
 
-# The house style: documentary editorial photography, like a wire photo made cinematic. Never real people, logos or
-# lettering: the picture sets the scene, it doesn't report.
-HOUSE = (
-    "Documentary editorial photograph for a financial news site, shot on 35mm film with natural light, real-world "
-    "detail, restrained natural colour grade, eye-level and candid, shallow depth of field, cinematic composition with "
-    "one dominant subject in the centre of the frame so it survives a square or vertical crop. Strictly no text, "
-    "letters, numbers, signage or logos anywhere, no brand marks or trade dress, and no real or recognisable people: "
-    "any human figures are anonymous, seen from behind or far away. Scene: "
-)
-# FLUX reads about 256 tokens, so the scene goes first and the style stays short. Since 2026-11-01 the house look is
-# documentary photography, the look of the 56 topic covers in assets/covers/: the collage art read as busy and the
-# owner rejected it. FLUX turns any chart into a rising line and invents lettering on signs, so briefs describe a real
-# place or object, unmarked, and people only from behind or far away.
+# The house style (since 1 Nov 2026, v8): one witty visual metaphor per story, the way SemiAnalysis's covers work,
+# drawn as a vivid cinematic 3D illustration in a signature palette, the site's navy and gold, so the covers read as
+# one family the way Opening Bell Daily's red-and-navy collages do. The owner rejected the documentary photos as
+# "generic boring covers off the internet", the collages before them as busy, and chart pictures as "ugly graphs".
+# Never real or recognisable people, faces, logos, flags or lettering. FLUX and Z-Image read about 256 tokens, so the
+# scene goes first and the style stays short.
 HOUSE_SHORT = (
-    "Documentary editorial photograph for a financial news site, shot on 35mm film, natural light, restrained natural "
-    "colour grade, candid, cinematic, shallow depth of field, real-world detail. No text, no lettering, no signage, "
-    "no logos, no faces: any people are seen from behind or far away."
+    "Vivid cinematic 3D illustration, like a frame from a big-budget animated film: one bold visual metaphor, glossy "
+    "materials, dramatic lighting, a signature palette of deep navy and cobalt blue with glowing warm gold highlights "
+    "and a touch of red, rich saturated colour, crisp detail, the subject centred on a clean uncluttered background, "
+    "full frame. No text, letters, numbers, logos or flags. No human faces."
 )
+HOUSE = HOUSE_SHORT + " Scene: "  # the paid provider takes the style first
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
 
 
@@ -71,7 +71,13 @@ def masters_dir() -> Path:
 # ---------------------------------------------------------------- AI Horde (free)
 
 HORDE = "https://aihorde.net/api/v2"
-HORDE_MODEL = os.environ.get("MM_HORDE_MODEL", "Flux.1-Schnell fp8 (Compact)")
+# Both Apache-2.0, in order of preference. Z-Image-Turbo draws the house style most faithfully (and had four workers to
+# FLUX's one on 1 Nov 2026); FLUX.1 schnell takes over when no Z-Image worker is online. Each has its own settings on
+# the Horde (its model reference): Z-Image-Turbo exactly 9 steps with the simple scheduler, FLUX 3-8 with karras.
+HORDE_PARAMS = {"Z-Image-Turbo": {"steps": 9, "scheduler": "simple", "karras": False},
+                "Flux.1-Schnell fp8 (Compact)": {"steps": 4, "karras": True}}
+HORDE_MODELS = [m.strip() for m in os.environ.get("MM_HORDE_MODEL", ",".join(HORDE_PARAMS)).split(",") if m.strip()]
+HORDE_MODEL = HORDE_MODELS[0]
 
 
 def _horde(path: str, body: dict | None = None) -> dict:
@@ -90,21 +96,62 @@ def _horde(path: str, body: dict | None = None) -> dict:
             raise
 
 
+PENDING: set[str] = set()  # requests still in the queue, cancelled if the run is stopped (atexit)
+DEADLINE = float("inf")  # main() sets it so a CI run stops waiting in time to commit what it drew
+
+
+def _cancel_pending() -> None:
+    for gid in list(PENDING):
+        _horde_cancel(gid)
+
+
+def _horde_cancel(gid: str) -> None:
+    PENDING.discard(gid)
+    req = urllib.request.Request(f"{HORDE}/generate/status/{gid}", method="DELETE",
+                                 headers={"User-Agent": UA, "apikey": os.environ.get("AIHORDE_API_KEY") or "0000000000",
+                                          "Client-Agent": "mostlymarkets-covers:1.0:bot@mostlymarkets.org"})
+    try:
+        urllib.request.urlopen(req, timeout=30).read()
+    except (urllib.error.URLError, TimeoutError):
+        pass
+
+
 def generate_horde(brief: str) -> tuple[bytes, dict]:
     prompt = brief.strip().rstrip(".") + ". " + HOUSE_SHORT
-    body = {"prompt": prompt, "models": [HORDE_MODEL], "nsfw": False, "censor_nsfw": True, "r2": True,
-            "params": {"width": 1024, "height": 640, "steps": 4, "cfg_scale": 1, "sampler_name": "k_euler", "n": 1,
-                       "post_processing": ["RealESRGAN_x2plus"]}}
     for attempt in range(3):
         try:
-            gid = _horde("/generate/async", body)["id"]
-            t = time.time()
-            while time.time() - t < 1200:
-                time.sleep(10)
-                if _horde(f"/generate/check/{gid}").get("done"):
+            if time.time() >= DEADLINE:
+                raise TimeoutError("out of time for this run")
+            for model in HORDE_MODELS:  # the first model with a worker online draws it
+                # 1024x640 is the largest an anonymous request may ask for. No upscaling on the Horde: asking for it
+                # leaves one worker able to take the job instead of three or four (1 Nov 2026); save() resizes.
+                body = {"prompt": prompt, "models": [model], "nsfw": False, "censor_nsfw": True, "r2": True,
+                        "params": {"width": 1024, "height": 640, "cfg_scale": 1, "sampler_name": "k_euler", "n": 1,
+                                   **HORDE_PARAMS.get(model, {"steps": 4})}}
+                try:
+                    gid = _horde("/generate/async", body)["id"]
+                except urllib.error.HTTPError:
+                    if model == HORDE_MODELS[-1]:
+                        raise
+                    continue  # this model refused the job: try the next
+                PENDING.add(gid)
+                time.sleep(3)
+                if _horde(f"/generate/check/{gid}").get("is_possible", True) or model == HORDE_MODELS[-1]:
                     break
+                _horde_cancel(gid)
+            t = time.time()
+            while time.time() - t < 2400 and time.time() < DEADLINE:
+                time.sleep(10)
+                chk = _horde(f"/generate/check/{gid}")
+                if chk.get("done"):
+                    break
+                if chk.get("faulted") or chk.get("is_possible") is False:  # a lost job never finishes: ask again
+                    _horde_cancel(gid)
+                    raise RuntimeError("the Horde dropped the job")
             else:
-                raise TimeoutError("queue took over 20 minutes")
+                _horde_cancel(gid)
+                raise TimeoutError("the queue took too long")
+            PENDING.discard(gid)
             g = _horde(f"/generate/status/{gid}")["generations"][0]
             if g.get("censored"):
                 raise RuntimeError("the worker censored the image")
@@ -115,6 +162,9 @@ def generate_horde(brief: str) -> tuple[bytes, dict]:
                 raise SystemExit(f"AI Horde: {e}")
             time.sleep(30)
     raise SystemExit("AI Horde: gave up")
+
+
+atexit.register(_cancel_pending)
 
 
 # ---------------------------------------------------------------- OpenAI (paid, optional)
@@ -177,10 +227,11 @@ def draw(job, provider: str, quality: str) -> str:
     img, meta = generate_horde(brief) if provider == "horde" else generate_openai(brief, quality)
     save(img, name)
     (masters_dir() / f"{name}.json").write_text(json.dumps({"brief": brief, "provider": provider, **meta}, indent=1))
-    return f"covers: {name} drawn in {time.time() - t:.0f}s ({provider})"
+    return f"covers: {name} drawn in {time.time() - t:.0f}s ({meta.get('model') or provider})"
 
 
 def main():
+    signal.signal(signal.SIGTERM, lambda *_: (_cancel_pending(), os._exit(1)))  # a stopped run frees its queue places
     ap = argparse.ArgumentParser()
     ap.add_argument("--only")
     ap.add_argument("--force", action="store_true")
@@ -188,10 +239,15 @@ def main():
     ap.add_argument("--name")
     ap.add_argument("--provider", default=PROVIDER, choices=("horde", "openai"))
     ap.add_argument("--quality", default=os.environ.get("MM_IMAGE_QUALITY", "high"), help="openai only")
+    ap.add_argument("--redraw", action="store_true", help="draw stories that already have a cover too (a new house style)")
     ap.add_argument("--max", type=int, default=12, help="covers per run")
     ap.add_argument("--workers", type=int, default=3, help="covers drawn at once")
+    ap.add_argument("--deadline", type=float, default=0, help="minutes after which to stop waiting (0: no limit)")
     ap.add_argument("--dry", action="store_true")
     a = ap.parse_args()
+    if a.deadline:
+        global DEADLINE
+        DEADLINE = time.time() + a.deadline * 60
     jobs = []
     if a.brief:
         jobs.append((a.name or f"test-{int(time.time())}", a.brief))
@@ -199,7 +255,7 @@ def main():
         for slug, fm in stories():
             if a.only and slug != a.only:
                 continue
-            if (OUT / f"{slug}-800.webp").exists() and not (a.force and a.only):
+            if (OUT / f"{slug}-800.webp").exists() and not (a.force and a.only) and not a.redraw:
                 continue
             jobs.append((slug, fm["cover_brief"]))
     jobs = jobs[::-1][:a.max]  # newest first

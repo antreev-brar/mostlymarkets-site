@@ -10,6 +10,8 @@ event = "recap-SHEL-2026-10-29"
 moves = [
   { ticker = "SHEL", price = 107.67, change_pct = 2.36, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "In a vast candle-lit stone cellar, a giant old wooden wine press squeezes a basket brimming with glossy black crude oil, and from its spout a thick stream of molten gold pours into an iron vat. The gold glow lights the ancient oak beams and the dark puddles of oil on the flagstones."
+cover_alt = "A giant wooden wine press squeezes black crude oil into a stream of molten gold in a stone cellar"
 sources = [
   "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item0.stream/1793238861562/c51182ec68b70b120e29f5a1ede9bd4911d54432/q3-2026-quarterly-press-release.pdf",
   "https://www.sec.gov/Archives/edgar/data/0001306965/000162828026068044/quarterlyexhibit992-q32026.htm",

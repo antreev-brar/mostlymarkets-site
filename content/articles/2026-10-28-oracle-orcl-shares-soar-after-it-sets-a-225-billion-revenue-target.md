@@ -10,6 +10,8 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "ORCL", price = 144.54, change_pct = 10.73, session = "close", asof = 2026-10-28T16:00:00-04:00 },
 ]
+cover_brief = "A gleaming unmarked silver rocket lifts off from a seaside launch pad at night, climbing on a column of white fire toward an enormous full moon low over the dark sea, the launch tower's thick fuel hoses already fallen away and swinging loose, a vast cloud of glowing steam billowing across the pad."
+cover_alt = "A silver rocket lifts off at night toward a huge full moon, its fuel hoses swinging away."
 sources = [
   "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
   "https://investinglive.com/stocks/icymi-oracle-jumps-around-11-on-225bn-2030-revenue-goal-and-20bn-cap-on-new-funding/",

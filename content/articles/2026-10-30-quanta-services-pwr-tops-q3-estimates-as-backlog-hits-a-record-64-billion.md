@@ -10,8 +10,8 @@ moves = [
   { ticker = "PWR", price = 635.18, change_pct = 4.66, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "PWR", price = 609.00, change_pct = -4.12, session = "regular", asof = 2026-10-30T09:31:49-04:00 },
 ]
-cover_brief = "A tall steel lattice transmission tower in golden late-summer farmland, centred, two small line workers in harnesses and plain hard hats seen from behind high on its crossarm, new power lines running across the fields to a row of towers on the horizon, bright midday light, pale hazy blue sky, short shadows"
-cover_alt = "Two line workers on a steel transmission tower above golden wheat fields"
+cover_brief = "At golden sunrise on a wide plain, a mountain of giant wooden cable spools, grey electrical transformers and steel pylon sections is stacked so high that its peak vanishes into the clouds. Two tower cranes are still lifting new loads onto the top, and a small crew in hard hats, seen from behind, stands at its foot looking up."
+cover_alt = "A small crew looks up at a mountain of cable spools, transformers and pylon parts rising into the clouds"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001050915/000119312526436949/d77812dex991.htm",
   "https://investors.quantaservices.com/news-events/press-releases/detail/407/quanta-services-reports-third-quarter-2026-results",

@@ -9,8 +9,8 @@ themes = ["ai-capex", "big-tech-earnings"]
 moves = [
   { ticker = "GOOGL", price = 281.46, change_pct = 0.58, session = "after-hours", asof = 2026-10-30T20:00:00-04:00 },
 ]
-cover_brief = "Two large plain unmarked white radar domes on a bare ridge, centred and seen with a long lens from across a frosty grass valley on a clear, cold autumn morning, a chain-link fence running along the slope below them, sunlight from the side, deep blue sky"
-cover_alt = "Two white radar domes on a grassy ridge under a clear blue sky"
+cover_brief = "A colossal translucent golden dome, like a force field of glowing hexagons, arches over a dark desert valley at night, satellites glinting in the starry sky above, while a thick cable of shining blue fibre-optic light snakes across the sand toward an open port at the dome's base, its plug resting just short of the socket."
+cover_alt = "A glowing data cable snakes across the desert toward a giant golden shield dome at night"
 sources = [
   "https://finance.yahoo.com/technology/ai/articles/alphabet-talks-join-trump-golden-211555344.html",
   "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VE:0-alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program-bloomberg-news/",

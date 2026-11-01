@@ -9,6 +9,8 @@ reason = "Earnings"
 moves = [
   { ticker = "META", price = 648.85, change_pct = -6.98, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
+cover_brief = "In a dark wooden barn at night, a calm black-and-white dairy cow stands beside a tall server cabinet glowing with blue lights. Clear hoses carry a white stream of her milk straight into the humming cabinet, and the tin milk pail at her feet stands empty under a single hanging lamp."
+cover_alt = "A dairy cow in a dark barn beside a glowing server cabinet that drains her milk, her pail left empty"
 sources = [
   "https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html",
   "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066710/meta-20261021.htm",

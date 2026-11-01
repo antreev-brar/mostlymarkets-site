@@ -10,8 +10,8 @@ moves = [
   { ticker = "SNDK", price = 1150.89, change_pct = -13.47, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "MU", price = 884.74, change_pct = -5.30, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A vast memory-chip plant at night in light rain, its tall blank windowless white wall filling the centre, big plumes of white vapour billowing from rooftop air handlers into floodlights, rain streaks glinting in the beams, a tower crane beside it over a half-built second plant, the wet empty forecourt mirroring the lights."
-cover_alt = "Vapour rising from a floodlit memory-chip plant at night, a second plant going up"
+cover_brief = "A lone giant tree on a windswept hilltop is half summer, half winter, divided straight down the middle. Its left half is in lush green leaf under warm sun, its branches heavy with plain silver memory chips hanging like ripe fruit. Its right half is bare and frosted under a grey winter sky, snow falling, a few fallen chips half-buried in the drifts below."
+cover_alt = "A tree split down the middle: half summer, hung with memory chips like fruit, half bare winter in snow"
 sources = [
   "https://finance.yahoo.com/markets/stocks/articles/sndk-stock-set-revisit-august-131405210.html",
   "https://invezz.com/news/2026/10/30/why-are-micron-sk-hynix-and-sandisk-stocks-falling-on-friday/",

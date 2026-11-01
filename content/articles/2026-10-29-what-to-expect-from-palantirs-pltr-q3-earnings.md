@@ -8,6 +8,8 @@ tickers = ["PLTR"]
 moves = [
   { ticker = "PLTR", price = 196.42, change_pct = -0.2, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "On an empty grass field under a towering blue noon sky, a high-jump bar sits absurdly high, resting on teetering stacks of bricks piled on top of its two posts, far above the small landing mat. At the end of the long run-up, a lone athlete, a small silhouette seen from behind, stands looking up at it."
+cover_alt = "A high-jump bar propped on bricks far above its posts, a lone athlete looking up at it"
 sources = [
   "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-stock-204504105.html",
   "https://www.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-4973079",

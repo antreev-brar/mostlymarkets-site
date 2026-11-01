@@ -6,6 +6,8 @@ published = 2026-10-28T15:45:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "fed"
+cover_brief = "Partway up a sheer granite mountain at pink dawn, a roped team of twelve small, distant climbers in red jackets has stopped on a narrow ledge: ten sit resting against the rock, while the two at the front stand pulling the rope upward toward the summit, which disappears into thick white cloud."
+cover_alt = "Twelve roped climbers rest on a cliff ledge while two at the front pull toward a summit hidden in cloud"
 sources = [
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",

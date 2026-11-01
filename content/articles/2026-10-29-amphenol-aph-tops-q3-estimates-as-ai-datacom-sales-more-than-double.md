@@ -9,8 +9,8 @@ event = "recap-APH-2026-10-28"
 moves = [
   { ticker = "APH", price = 82.08, change_pct = 1.38, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Macro side view along a row of silver metal connectors plugged into a plain unmarked dark server switch, a neat bundle of aqua fibre-optic and black copper cables sweeping out of them in the centre of the frame, warm golden late-afternoon window light, tiny green status lights blurred to soft bokeh"
-cover_alt = "Aqua and black data cables plugged into a network switch in warm light"
+cover_brief = "In a tall wood-panelled room lit by brass lamps, a big deep-red octopus works a towering old telephone switchboard of plain unmarked brass sockets, all eight arms plugging in glowing aqua cables at once. Hundreds of cables already run into the board, and coils of new cables still waiting to be plugged in pile up across the floor around it."
+cover_alt = "A red octopus plugging glowing cables into an old switchboard with all eight arms, new coils piled below"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000820313/000110465926119421/aph-ex99d1.htm",
   "https://investors.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Third-Quarter-2026-Results-and-Announces-Dividend-Increase-and-New-Stock-Repurchase-Program/default.aspx",

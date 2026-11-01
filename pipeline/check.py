@@ -207,19 +207,19 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         warns.append(f"filler: {ph!r} says nothing; cut it or replace it with the fact, the mechanism or our read")
     if t in ("narrative", "viewpoints", "breakdown", "analysis") and words(body) > 800 and "The short version" not in body:
         warns.append('long analysis without "The short version" box after the first picture (STYLE.md, "No filler")')
-    # The cover photo (STYLE.md, "Covers"): a documentary scene for FLUX, no text, charts or real people.
+    # The cover (STYLE.md, "Covers"): a witty visual metaphor for the story's point, no text, charts, flags or real people.
     brief = fm.get("cover_brief") or ""
     if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":
         warns.append("no cover_brief: the story will get a stock topic photo; write a scene (STYLE.md, Covers)")
     if brief:
         nb = len(brief.split())
-        if not 12 <= nb <= 70:
-            warns.append(f"cover_brief is {nb} words (aim for 25-55)")
-        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|arrows?|logos?|tickers?|text|words|headlines?|CEO|chief executive|face|faces)\b", brief, re.I)
+        if not 20 <= nb <= 80:
+            warns.append(f"cover_brief is {nb} words (aim for 35-70)")
+        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|arrows?|logos?|tickers?|text|words|headlines?|flags?|CEO|chief executive|face|faces)\b", brief, re.I)
         if bad:
-            warns.append(f"cover_brief mentions {sorted(set(b.lower() for b in bad))}: FLUX draws these badly; describe a real scene")
+            warns.append(f"cover_brief mentions {sorted(set(b.lower() for b in bad))}: the image models draw these badly or they break the rules; show it physically")
         if not fm.get("cover_alt"):
-            warns.append("cover_brief without cover_alt: add a plain alt text (under 15 words)")
+            warns.append("cover_brief without cover_alt: add a plain alt text (under 110 characters)")
     for kind, content in blocks:
         if kind == "tweet" and not re.match(r"\s*https://(x|twitter)\.com/\w+/status/\d+\s*$", content):
             errs.append(f"tweet block must hold one post URL (https://x.com/<handle>/status/<id>): {content.strip()[:60]!r}")

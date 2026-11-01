@@ -5,6 +5,8 @@ type = "analysis"
 published = 2026-10-29T17:04:00-04:00
 author = "nora-whitfield"
 tickers = []
+cover_brief = "A small red canoe with a lone paddler, seen from behind, drifts toward the lip of a deep canyon where the river drops through five churning ledges of white-water rapids, one after another, spray flying from each and the far end lost in mist, the canyon walls glowing gold in late-afternoon light."
+cover_alt = "A lone canoe drifts toward a canyon river that drops through five churning ledges of rapids into mist"
 sources = [
   "https://www.bls.gov/schedule/2026/11_sched.htm",
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",

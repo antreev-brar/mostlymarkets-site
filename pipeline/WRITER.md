@@ -57,7 +57,7 @@ That is our own data (SEC filings), so it needs no second source. Read its warni
    - `moves` from the pack's quote, with the right `session`
    - at least one chart (a `price` chart unless the template says otherwise), and links to related stories in `pack.recent_stories` or `pack.todays_stories`
    - **a picture right after the opening paragraph** (a chart or stat block) that proves the story's main claim
-   - a `cover_brief` and `cover_alt` for the cover photo (STYLE.md, "Covers"): a documentary scene, no people's faces, no text, different from today's other covers. The covers job draws it after you push.
+   - a `cover_brief` and `cover_alt` for the cover (STYLE.md, "Covers"): a witty visual metaphor for the story's point (a velvet-rope club for sold-out memory, a roller coaster at the peak for "is this the top?"), not a literal office or factory; no people's faces, no text or flags, and a different central idea from the latest covers. The covers job draws it after you push.
    - where a named analyst, executive or investor made the point on X, quote it and embed the post with a ```tweet block (STYLE.md, "Voices from X")
 5. **Check:** `python3 pipeline/check.py content/articles/<file>`. Fix it until it passes. Warnings are allowed; errors aren't. Do fix the cover_brief warnings: without a brief the story gets a stock topic photo.
 6. **Close the event:** `python3 pipeline/storyqueue.py done <id> content/articles/<file>`.

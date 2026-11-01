@@ -5,6 +5,8 @@ type = "earnings-recap"
 published = 2026-10-23T07:40:00-04:00
 author = "theo-park"
 tickers = ["AXP"]
+cover_brief = "At midnight in an empty grand marble hall, a towering pyramid of crystal champagne glasses stands beneath a blazing chandelier, golden champagne cascading from the top glass down through every tier, each one brimming and spilling over onto the polished floor."
+cover_alt = "Champagne overflows a towering pyramid of glasses under a chandelier in an empty marble hall"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm",
   "https://www.sec.gov/Archives/edgar/data/4962/000000496226000318/q226exhibit991.htm",

@@ -8,6 +8,8 @@ tickers = ["UBER"]
 moves = [
   { ticker = "UBER", price = 65.74, change_pct = 0.72, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Close-up of a car's plain side mirror on a dark highway at night. In its glass, a pack of sleek driverless robot cars with glowing sensor domes on their roofs and empty front seats races up from behind, headlights flaring across the mirror, while the road ahead fades into thick fog."
+cover_alt = "A car's side mirror at night reflects a pack of driverless robot cars racing up from behind"
 sources = [
   "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Third-Quarter-2026-Results-Conference-Call/default.aspx",
   "https://investor.uber.com/rss/PressRelease.aspx",

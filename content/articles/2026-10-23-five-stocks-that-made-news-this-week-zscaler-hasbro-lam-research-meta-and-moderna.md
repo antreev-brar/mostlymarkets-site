@@ -5,6 +5,8 @@ type = "movers"
 published = 2026-10-23T16:45:00-04:00
 author = "nora-whitfield"
 tickers = ["ZS", "HAS", "LRCX", "META", "MRNA"]
+cover_brief = "On a giant wooden board game lit by a warm lamp, five glossy pawns in different colours make their moves: two climb tall golden ladders toward the top row, while three slide down the backs of long coiled green snakes toward the bottom; the squares are plain, unmarked colours."
+cover_alt = "On a giant board game, two pawns climb ladders while three slide down snakes"
 sources = [
   "https://247wallst.com/investing/2026/10/23/cybersecurity-stocks-rise-as-evercore-survey-flags-strengthening-demand-okta-crowdstrike-and-palo-alto-climb-4/",
   "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",

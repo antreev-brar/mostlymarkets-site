@@ -6,8 +6,8 @@ published = 2026-10-31T20:51:34-04:00
 author = "dev-malhotra"
 tickers = []
 themes = ["index-changes"]
-cover_brief = "An empty modern office lobby in late-afternoon sun: a row of plain unmarked glass security turnstiles stands in the centre, long stripes of warm light across a polished pale stone floor, bare smooth stone walls, one employee far beyond the turnstiles walking away toward tall bright windows."
-cover_alt = "Glass security turnstiles in an almost empty office lobby in afternoon sun"
+cover_brief = "At dusk a giant harbour crane lifts a small shining sailboat out of a quiet little harbour and lowers it into a vast marina packed with hundreds of identical white yachts, their lights reflecting on the dark water."
+cover_alt = "A crane lifts a small sailboat into a vast marina of identical yachts at dusk"
 sources = [
   "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600",
   "https://www.investing.com/news/stock-market-news/okta-jumps-afterhours-following-tapped-inclusion-in-the-sp-500-4988775",

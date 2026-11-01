@@ -10,8 +10,8 @@ moves = [
   { ticker = "MO", price = 76.75, change_pct = 5.15, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "MO", price = 79.29, change_pct = 3.30, session = "regular", asof = 2026-10-30T09:31:46-04:00 },
 ]
-cover_brief = "Looking straight down the central aisle of an old wooden tobacco curing barn, both sides packed with tobacco plants hanging upside down from wooden sticks, their large wrinkled leaves curing golden-brown, lit by soft daylight from the open doorway at the far end in the centre, a green tobacco field outside"
-cover_alt = "Tobacco leaves drying in a wooden barn, its open door facing a green field"
+cover_brief = "In a quiet museum hall at night, a polished vintage brass steam engine still runs at full speed under warm spotlights, its pistons pumping steadily and its flywheel spinning, a neat stack of gold coins growing beside it."
+cover_alt = "An old brass steam engine still running at full speed in a museum, gold coins stacked beside it"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/exhibit991erq32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/mo-20261028.htm",

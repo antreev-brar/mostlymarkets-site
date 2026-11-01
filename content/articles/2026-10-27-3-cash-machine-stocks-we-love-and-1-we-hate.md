@@ -6,6 +6,8 @@ published = 2026-10-27T12:30:00-04:00
 author = "theo-park"
 tickers = ["GDDY", "CRM", "MO", "META"]
 cover = "markets-calm"
+cover_brief = "On a long navy counter in a grand old shop, three shiny vintage brass cash registers overflow with gold coins, their drawers wide open and glowing, while a fourth at the end is rusty and empty, its drawer hanging open with nothing inside."
+cover_alt = "Three overflowing brass cash registers and one rusty empty one on a counter"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000088/",
   "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/",

@@ -11,6 +11,8 @@ moves = [
   { ticker = "TMUS", price = 146.54, change_pct = -7.71, session = "close", asof = 2026-10-23T16:00:00-04:00 },
   { ticker = "CCI", price = 85.97, change_pct = 9.06, session = "close", asof = 2026-10-23T16:00:00-04:00 },
 ]
+cover_brief = "In a smoky card room at night, three plain grey robots with old-fashioned telephone dials for faces guard small stacks of poker chips at a green felt table under a hanging lamp. Facing them, an astronaut in a plain white spacesuit with a mirrored gold visor takes the empty fourth chair and sets down a towering stack of gold poker chips."
+cover_alt = "An astronaut joins three telephone-dial robots at a poker table with a towering stack of chips"
 sources = [
   "https://www.investing.com/news/stock-market-news/spacex-seeks-access-to-80000-us-cell-sites-for-wireless-network-bloomberg-news-reports-4967805",
   "https://www.investing.com/news/stock-market-news/us-telecom-operators-wobble-after-report-spacex-in-talks-for-cell-sites-4970138",

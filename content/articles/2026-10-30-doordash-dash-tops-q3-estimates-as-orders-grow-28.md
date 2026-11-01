@@ -11,8 +11,8 @@ moves = [
   { ticker = "DASH", price = 179.00, change_pct = 5.61, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "DASH", price = 176.89, change_pct = -1.18, session = "regular", asof = 2026-10-30T09:31:43-04:00 },
 ]
-cover_brief = "A food-delivery cyclist seen from directly behind, centred, riding down a narrow wet city street at deep blue-hour dusk, a plain unmarked grey insulated cube backpack on their back, warm streetlamp light on the rider, lit windows blurred into soft bokeh, rain-slick road reflecting the glow."
-cover_alt = "A delivery cyclist with an insulated backpack rides down a wet city street at dusk"
+cover_brief = "A plain dark-grey insulated delivery backpack sits unzipped on a rain-wet doorstep at night, and inside it glows an entire supermarket: bright shelves of fruit, vegetables, bread and milk stretch impossibly deep into the bag, a shopping cart waits in the first aisle, and warm light spills out across the wet step."
+cover_alt = "An open delivery backpack on a rainy doorstep holds a whole glowing supermarket inside"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
   "https://finance.yahoo.com/markets/stocks/articles/doordash-releases-third-quarter-2026-112000047.html",

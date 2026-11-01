@@ -10,6 +10,8 @@ moves = [
   { ticker = "AAPL", price = 348.91, change_pct = 1.48, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "GOOGL", price = 283.82, change_pct = -12.64, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Seven glossy racing sailboats on a deep blue sea at sunset: one with a bright red sail surges far ahead of the fleet, five follow in a loose pack, and the last, its white sail torn and sagging, drifts backwards behind them all, low in the water."
+cover_alt = "A sailboat with a red sail leads a fleet while one with a torn sail falls behind"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/",

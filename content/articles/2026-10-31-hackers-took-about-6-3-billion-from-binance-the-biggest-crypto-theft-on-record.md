@@ -6,8 +6,8 @@ published = 2026-10-31T21:56:15-04:00
 author = "nora-whitfield"
 tickers = ["COIN", "MSTR", "HOOD"]
 themes = ["crypto"]
-cover_brief = "A dark trading office at night lit only by several monitors glowing with abstract blurred blue light, an empty office chair pushed back from the desk, tangled cables, cold blue glow"
-cover_alt = "An empty chair in a dark office lit by rows of blue monitors"
+cover_brief = "A giant plain round steel vault door hangs blasted open in a dark, rainy alley at night, its thick bolts torn, and an avalanche of plain gold coins pours out across the wet cobblestones, a glittering trail running off into the shadows. Green digital sparks drift through the rain while red and blue police lights shimmer on the stones."
+cover_alt = "A blasted-open vault door spilling gold coins into a rainy alley lit by police lights"
 sources = [
   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

@@ -10,6 +10,8 @@ cover = "autos-factory"
 moves = [
   { ticker = "GM", price = 80.54, change_pct = 5.54, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
+cover_brief = "A big, rugged pickup truck with a plain grille, no badges and mud on its tyres swings off a dusty gravel country road onto the on-ramp of a gleaming elevated highway of glowing blue lanes at dusk, merging into a fast stream of sleek silver capsule-shaped pods, its headlights cutting through the violet haze."
+cover_alt = "A muddy pickup truck merges from a country road onto a glowing futuristic highway of sleek silver pods."
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1467858/000119312526432602/d53522dex991.htm",
   "https://www.detroitnews.com/story/business/autos/general-motors/2026/10/27/gm-moves-to-nasdaq-as-first-legacy-automaker-on-the-exchange/92457482007/",

@@ -9,6 +9,8 @@ cover = "payments"
 moves = [
   { ticker = "V", price = 401.86, change_pct = -0.57, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
+cover_brief = "On a vast white salt flat at sunrise, a lone sprinter, seen from behind, drives forward at full speed toward the low gold sun, while a big red training parachute strapped to his waist billows open behind him, tugging back against every stride and kicking up a trail of white dust."
+cover_alt = "A sprinter races across a salt flat at sunrise, a red training parachute billowing open behind him"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
   "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Deck_vFINAL.pdf",

@@ -6,6 +6,8 @@ published = 2026-10-22T17:15:00-04:00
 author = "nora-whitfield"
 tickers = ["SNDK", "DELL", "MU", "MRNA", "MPC", "APP", "BSX", "FICO", "LULU", "PODD"]
 cover = "market-screens"
+cover_brief = "On the porch of a rough log cabin in a pine-covered mountain valley, gleaming new pickaxes and shovels are stacked to the roof, their steel blades etched with fine gold circuit lines, and a brass scale beside them is heaped with gold nuggets. Far below, tiny prospectors crowd a glittering river in crisp autumn light."
+cover_alt = "Picks and shovels stacked on a cabin porch beside a scale of gold nuggets as prospectors pan a river"
 sources = [
   "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
   "https://www.bloomberg.com/news/articles/2026-10-22/moderna-merck-shares-fall-after-potential-leak-of-melanoma-data",

@@ -6,8 +6,8 @@ published = 2026-10-31T10:28:19-04:00
 author = "dev-malhotra"
 tickers = ["GOOGL", "AMZN", "META", "MSFT", "ORCL"]
 themes = ["ai-capex", "big-tech-earnings"]
-cover_brief = "A huge data centre under construction at dawn: steel frame of a half-built server hall, tower cranes, stacks of cable drums on wet ground, one engineer in a hard hat seen from behind looking up at it"
-cover_alt = "An engineer in a hard hat looks up at a half-built data centre at dawn"
+cover_brief = "A huge black steam locomotive thunders across a tall stone viaduct at dusk. Gold coins spill from its tender straight into its open, blazing firebox, the heap already half gone, and a long plume of glittering gold sparks streams from its funnel into a deep blue sky above a misty valley."
+cover_alt = "A steam locomotive burns gold coins in its firebox as it races across a stone viaduct at dusk"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",

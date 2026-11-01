@@ -10,8 +10,8 @@ moves = [
   { ticker = "SBUX", price = 104.83, change_pct = -0.64, session = "regular", asof = 2026-10-30T09:31:52-04:00 },
   { ticker = "SBUX", price = 105.51, change_pct = 2.24, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Close-up of a barista's hand holding a plain steel milk pitcher by its handle, pouring steamed milk into a plain white ceramic cup centred on a wooden cafe counter, latte art taking shape in the crema, warm golden-hour light from a window softly out of focus behind, plain charcoal apron"
-cover_alt = "A barista pours steamed milk into a white cup on a wooden cafe counter"
+cover_brief = "A white porcelain coffee cup and saucer stand alone on a caf\u00e9 table in the early morning, the steam curling up from the cup glowing gold in a burst of sunrise. Over the far edge of the saucer hangs one tiny grey rain cloud, drizzling a few drops into it."
+cover_alt = "A coffee cup steams gold in the sunrise on a caf\u00e9 table while a tiny rain cloud drizzles on its saucer"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000154/sbux-09272026xearningsrele.htm",
   "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",

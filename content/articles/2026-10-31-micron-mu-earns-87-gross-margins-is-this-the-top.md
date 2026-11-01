@@ -7,8 +7,8 @@ author = "dev-malhotra"
 tickers = ["MU"]
 themes = ["memory-cycle", "hbm-pricing"]
 cover = "semis-fab"
-cover_brief = "A vast plain white semiconductor fab, long windowless unmarked clean-room blocks with rows of rooftop air handlers, centred at the foot of steep snow-capped mountains rising right behind it, warm low golden-hour sun on the peaks and its walls, green fields in front, seen from afar"
-cover_alt = "A long white chip factory beneath snow-capped mountains in golden-hour light"
+cover_brief = "A single roller-coaster car heaped with gleaming gold bars sits paused at the very crest of an enormously tall peak at sunset, facing a near-vertical drop that plunges into deep blue shadow. Behind it, the track winds back over two lower peaks, each one followed by a steep, deep dip."
+cover_alt = "A roller-coaster car piled with gold bars pauses atop a towering peak above a steep drop at sunset"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",

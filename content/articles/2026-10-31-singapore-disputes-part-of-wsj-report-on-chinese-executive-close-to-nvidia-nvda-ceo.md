@@ -6,8 +6,8 @@ published = 2026-10-31T20:49:43-04:00
 author = "dev-malhotra"
 tickers = ["NVDA"]
 themes = ["export-controls"]
-cover_brief = "Inside a dim, half-empty data-centre hall, three new plain black server racks with blank mesh doors, still wrapped in cloudy plastic stretch film, stand on bare wooden pallets in the centre aisle between rows of empty racks; pale tropical daylight spills in through an open loading-bay door at the far end, no people."
-cover_alt = "New server racks still wrapped in plastic film on pallets in a data-center aisle"
+cover_brief = "A mirror maze at midnight: one glowing gold computer chip on a small velvet pedestal is reflected into dozens of identical copies down every mirrored corridor, thin fog creeping across the floor under a single cold spotlight, so it is impossible to tell which chip is the real one."
+cover_alt = "A gold chip on a pedestal reflected into many copies in a foggy mirror maze"
 sources = [
   "https://www.tradingview.com/news/DJN_DN20261030002754:0-chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-wsj/",
   "https://mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article",

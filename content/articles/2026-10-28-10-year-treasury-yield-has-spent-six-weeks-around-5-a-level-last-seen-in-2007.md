@@ -6,6 +6,8 @@ published = 2026-10-28T18:00:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "bonds"
+cover_brief = "On the wide steps of a plain columned stone building with a blank frieze, under a heavy steel-blue sky, a colossal red horseshoe magnet with bare silver tips stands upright. Plain unstamped silver coins stream toward it from every direction, sliding up the steps and flying through the air in glittering arcs, piling deep around its base."
+cover_alt = "A giant red horseshoe magnet on the steps of a columned building, pulling streams of silver coins to it"
 sources = [
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2007",

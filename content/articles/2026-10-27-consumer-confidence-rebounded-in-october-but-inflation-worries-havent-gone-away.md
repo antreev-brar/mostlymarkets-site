@@ -6,6 +6,8 @@ published = 2026-10-27T16:20:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "inflation"
+cover_brief = "A wide field of sunflowers lifts its heads toward one broad shaft of sunlight breaking through a dark slate storm, the tall bloom in the centre glowing bright gold. Heavy grey clouds still hang low over the far side of the field, and a curtain of rain is falling on the horizon."
+cover_alt = "Sunflowers lift toward a shaft of sunlight breaking through storm clouds that still linger"
 sources = [
   "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
   "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html",

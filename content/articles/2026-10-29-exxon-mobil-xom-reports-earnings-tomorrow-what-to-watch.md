@@ -8,6 +8,8 @@ tickers = ["XOM", "CVX"]
 moves = [
   { ticker = "XOM", price = 183.29, change_pct = 0.7, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "On the wooden deck of a ship at dawn, a large brass telescope on a tripod points across a calm golden sea toward a distant offshore oil platform glowing with lights on the horizon."
+cover_alt = "A brass telescope on a ship's deck points at a distant oil platform at dawn"
 sources = [
   "https://investor.exxonmobil.com/company-information/press-releases/detail/1212/exxonmobil-to-release-third-quarter-2026-financial-results",
   "https://finance.yahoo.com/markets/stocks/articles/dear-exxonmobil-stock-fans-mark-135507404.html",

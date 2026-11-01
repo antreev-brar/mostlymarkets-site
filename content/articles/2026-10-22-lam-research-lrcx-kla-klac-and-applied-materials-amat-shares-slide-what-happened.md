@@ -11,6 +11,8 @@ moves = [
   { ticker = "KLAC", price = 147.83, change_pct = -9.55, session = "close", asof = 2026-10-22T16:00:00-04:00 },
   { ticker = "AMAT", price = 375.58, change_pct = -8.16, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
+cover_brief = "A colossal gleaming chipmaking machine of white panels, steel pipes and robotic arms, as big as a house, is wedged halfway into the doorway of a spotless white factory far too small for it, its corners scraping the frame, while more giant crated machines wait on trailers behind it in the grey morning rain, floodlights glinting on wet concrete."
+cover_alt = "A giant chipmaking machine is wedged in a factory doorway too small for it, more waiting in the rain."
 sources = [
   "https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026",
   "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html",

@@ -11,8 +11,8 @@ event = "move-RDDT-2026-10-30"
 moves = [
   { ticker = "RDDT", price = 89.94, change_pct = -30.6, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "View from the seat behind a lone commuter on an empty early-morning train: the back of his head and shoulders in the centre, head bowed over a phone in his lap, out of sight; low sun through the windows, plain seats, blurred suburbs, no signs."
-cover_alt = "A lone commuter seen from behind on a quiet early-morning train"
+cover_brief = "A great wooden water wheel on an old stone mill stands still above a stream shrunk to a thin muddy trickle, the cracked riverbed baking under a hazy midday sun, while far upstream a towering new dam of gleaming glass and steel holds back the river and turns its full flow away into a different channel."
+cover_alt = "A mill's water wheel stands still over a dried-up stream as a new dam upstream turns the river away."
 sources = [
   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
   "https://cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",

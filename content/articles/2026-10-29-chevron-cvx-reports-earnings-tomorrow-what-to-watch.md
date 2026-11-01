@@ -8,6 +8,8 @@ tickers = ["CVX", "XOM"]
 moves = [
   { ticker = "CVX", price = 231.46, change_pct = 0.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "At dusk on a flat, empty desert under a deep blue sky, a lone wooden oil derrick stands as the ground at its base cracks and bulges, and the first glossy black jet of oil bursts from its top high into the air. On the far horizon, dark storm clouds roll in, flickering with lightning."
+cover_alt = "A wooden oil derrick in the desert at dusk as the first jet of oil bursts out, with storm clouds behind"
 sources = [
   "https://finance.yahoo.com/energy/articles/advisory-chevron-corporation-3q-2026-113000941.html",
   "https://finance.yahoo.com/energy/articles/watch-4-energy-stocks-q3-152900327.html",

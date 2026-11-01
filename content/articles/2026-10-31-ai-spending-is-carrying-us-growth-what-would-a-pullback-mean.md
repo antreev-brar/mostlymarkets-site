@@ -6,8 +6,8 @@ published = 2026-10-31T10:27:43-04:00
 author = "nora-whitfield"
 tickers = []
 themes = ["ai-capex", "fed-rates"]
-cover_brief = "Telephoto view of a huge data-centre campus under construction at night, seen from a highway: half-built steel-framed halls and bare concrete walls lit bright by white floodlights fill the frame, two plain unmarked tower cranes above, a few plain dump trucks with headlights moving among them, only a thin strip of dark blue sky"
-cover_alt = "Floodlit data-centre campus under construction at night, with tower cranes and a dump truck"
+cover_brief = "Inside a vast old marble hall in pale morning light, rows of grand stone columns stand weathered and cracked, and the heavy roof rests on one tall, gleaming new steel pillar in the centre, lined with rows of tiny blinking blue server lights. Fine dust drifts through shafts of light falling from gaps in the roof."
+cover_alt = "An old marble hall of cracked columns whose roof rests on one gleaming pillar of blue server lights"
 sources = [
   "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
   "https://investinglive.com/news/us-gdp-advance-for-the-3rd-quarter-3-4-vs-3-2-estimate/",

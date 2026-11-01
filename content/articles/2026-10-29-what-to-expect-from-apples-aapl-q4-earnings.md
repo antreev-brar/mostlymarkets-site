@@ -8,6 +8,8 @@ tickers = ["AAPL"]
 moves = [
   { ticker = "AAPL", price = 348.91, change_pct = 1.48, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A grand old opera house packed to the highest balcony with an audience of tiny dark silhouettes seen from behind, the heavy crimson curtain just beginning to rise, revealing a single whole, glossy red apple with a short stem sitting alone at the centre of a vast bare stage in one bright white spotlight."
+cover_alt = "A theatre curtain rises on a single red apple in a spotlight before a packed audience."
 sources = [
   "https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2",
   "https://9to5mac.com/?p=1072494",

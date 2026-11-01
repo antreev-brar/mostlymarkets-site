@@ -11,8 +11,8 @@ moves = [
   { ticker = "SNDK", price = 1205.13, change_pct = -9.39, session = "regular", asof = 2026-10-30T09:31:49-04:00 },
   { ticker = "SNDK", price = 1330.05, change_pct = -5.32, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A low neat stack of slim solid-state drives in bare brushed-aluminium cases with dark connector slots on their edges, no labels or stickers, centred on a grey steel workbench in a quiet data lab, plain pale wall and frosted window softly blurred behind, flat overcast daylight"
-cover_alt = "A stack of slim solid-state drives on a steel workbench in a lab"
+cover_brief = "A towering celebration cake of dozens of thin shimmering silver and gold layers stands on a long banquet table in a grand, dim hall, sliced cleanly into eight equal wedges, its tall candles just snuffed out by a cold draft from an open window, thin trails of smoke curling up from the wicks, rain streaking the glass."
+cover_alt = "A towering layered cake cut into eight slices, its candles just blown out and trailing smoke."
 sources = [
   "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",
   "https://www.sec.gov/Archives/edgar/data/0002023554/000162828026068243/sndkq1-27ex991xpressrelease.htm",

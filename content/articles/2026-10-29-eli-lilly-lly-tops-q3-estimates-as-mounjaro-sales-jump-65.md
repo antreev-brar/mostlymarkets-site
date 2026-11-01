@@ -9,8 +9,8 @@ cover = "weight-loss-drugs"
 moves = [
   { ticker = "LLY", price = 1373.7, change_pct = 6.63, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Inside a pharmaceutical plant at dusk: a stainless-steel conveyor carries one long tray of plain smooth white injector pens with grey caps, lying side by side in moulded slots, through the centre of the frame, front pens sharp, a gowned worker far behind, back turned, deep blue windows, warm lamps overhead"
-cover_alt = "Rows of white injector pens on a factory conveyor, a gowned worker beyond"
+cover_brief = "A giant two-tone medicine capsule, half white and half sky blue, flies like an airship over golden wheat fields on a bright clear morning, climbing fast as heavy iron kettlebells and dumbbells tumble out of the open hatch of its little gondola and fall away toward the fields below."
+cover_alt = "A capsule-shaped airship climbs over wheat fields as heavy weights fall from its gondola"
 sources = [
   "https://www.prnewswire.com/news-releases/lilly-reports-third-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-regulatory-progress-across-the-portfolio-302922907.html",
   "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",

@@ -6,6 +6,8 @@ published = 2026-10-27T07:35:00-04:00
 author = "claire-okafor"
 tickers = ["KO"]
 cover = "beverages"
+cover_brief = "On a long marble counter in warm afternoon sun, a row of tall plain glasses of dark cola on ice fizz wildly, bubbles foaming over their rims in glittering spray. The last glass at the end of the row sits perfectly flat and still, without a single bubble."
+cover_alt = "A row of cola glasses fizzes over their rims on a sunny counter while the last glass sits flat and still"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/21344/000162828026067403/a2026q3earningsreleaseex-9.htm",
   "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",

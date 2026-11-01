@@ -10,6 +10,8 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "MSFT", price = 530.14, change_pct = -0.16, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A huge white cumulus cloud hangs low over a dark plain at first light, wrapped in a lattice of steel scaffolding and ladders. One big chunk of the cloud is still missing, an empty hoist hook dangles in the gap, and the deep blue sky behind it warms to gold at the horizon."
+cover_alt = "A white cloud wrapped in scaffolding hangs over a plain at dawn, with one big piece still missing"
 sources = [
   "https://www.investing.com/news/stock-market-news/microsoft-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984771",
   "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",

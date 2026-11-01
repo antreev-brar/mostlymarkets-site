@@ -11,6 +11,8 @@ moves = [
   { ticker = "GILD", price = 170.55, change_pct = 2.98, session = "after-hours", asof = 2026-10-29T17:10:00-04:00 },
   { ticker = "GILD", price = 165.61, change_pct = 4.03, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A tall Victorian glass greenhouse glows warm gold on a wild, windy blue evening, trees outside bent by the gale and leaves whirling past its panes. Inside, a dense jungle of lush green plants presses against the glass, and one thick vine has pushed out through an open roof vent, unfurling fresh leaves into the wind."
+cover_alt = "A glowing glass greenhouse in a windstorm, its lush plants pushing out through the roof"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/882095/000088209526000037/exhibit991earningspressrel.htm",
   "https://www.financialcontent.com/article/bizwire-2026-10-29-gilead-sciences-announces-third-quarter-2026-financial-results",

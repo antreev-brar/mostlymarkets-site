@@ -10,6 +10,8 @@ cover = "autos-ev"
 moves = [
   { ticker = "CVNA", price = 68.31, change_pct = 15.68, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "Under a hard bright blue sky, a car-carrier truck speeds along an empty desert highway hauling a teetering tower of plain, unbadged used cars in assorted colours, stacked a dozen high into the sky, far more than it was built to carry, dust streaming out behind it."
+cover_alt = "A car-carrier truck speeds down a desert highway with used cars stacked a dozen high"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001690820/000169082026000066/ex99_2q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0001690820/000169082026000066/ex99_1q32026.htm",

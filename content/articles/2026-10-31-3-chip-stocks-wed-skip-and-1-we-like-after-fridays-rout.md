@@ -6,8 +6,8 @@ published = 2026-10-31T10:27:55-04:00
 author = "theo-park"
 tickers = ["MU", "INTC", "QCOM", "ARM"]
 themes = ["chip-selloff", "memory-cycle"]
-cover_brief = "Four plain unmarked black microchips lie flat in a diagonal row on a scuffed wooden workbench, silver pins on every side, smooth blank tops. The nearest chip, sharp in the centre, sits in a patch of warm golden-hour sunlight; the three behind it fade into soft shadow."
-cover_alt = "Five plain black microchips on a sunlit wooden workbench, one set apart"
+cover_brief = "On a storm-battered beach at dawn, the grey sea still heaving and the clouds just breaking open, three plain wooden crates and a small brass-bound chest have washed up on the wet sand. The crates lie smashed and empty, spilling sodden straw, while the chest sits whole, its lid cracked open on a warm glow of gold."
+cover_alt = "Three smashed crates and one intact chest glowing with gold lie washed up on a beach after a storm"
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",

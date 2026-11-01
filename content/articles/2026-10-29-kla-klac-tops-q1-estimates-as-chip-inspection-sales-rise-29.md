@@ -10,8 +10,8 @@ event = "recap-KLAC-2026-10-28"
 moves = [
   { ticker = "KLAC", price = 167.43, change_pct = 5.45, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A silicon wafer filling the centre of the frame, held up by its rim between the thumb and fingers of a hand in a pale blue nitrile glove, the wafer's fine grid of tiny chips shimmering with iridescent rainbow colours under a bright white inspection lamp, dim amber cleanroom behind"
-cover_alt = "A gloved hand holds a silicon wafer up to a bright inspection lamp"
+cover_brief = "In a spotless white laboratory, a giant antique brass microscope bends its lens over a glass slide on which stands a tiny gleaming white factory, no bigger than a matchbox, its rows of windows glowing blue under the microscope's bright lamp. Beside it, a tall stack of glass slides, each holding another tiny factory, waits its turn."
+cover_alt = "A giant brass microscope examines a tiny factory on a glass slide, a tall stack of slides waiting beside it."
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm",
   "https://stockhouse.com/news/press-releases/2026/10/28/kla-corporation-reports-fiscal-2027-first-quarter-results",

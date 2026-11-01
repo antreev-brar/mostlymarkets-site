@@ -9,6 +9,8 @@ reason = "Earnings"
 moves = [
   { ticker = "SPOT", price = 583.66, change_pct = 11.1, session = "close", asof = 2026-10-22T16:00:00-04:00 },
 ]
+cover_brief = "High above a sea of clouds at sunrise, a gleaming black grand piano soars upward into golden light, lifted by thousands of small songbirds holding silk ribbons tied to its legs and lid, the clouds parting below it."
+cover_alt = "Thousands of songbirds lift a black grand piano above a sea of clouds at sunrise"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126040435/ef20084028_ex99-1.htm",
   "https://www.dzrh.com.ph/post/spotify-forecasts-strong-profit-as-ai-features-start-to-pay-off-shares-surge",

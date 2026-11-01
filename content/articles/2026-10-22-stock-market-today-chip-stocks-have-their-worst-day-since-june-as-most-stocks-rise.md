@@ -5,6 +5,8 @@ type = "market-wrap"
 published = 2026-10-22T17:00:00-04:00
 author = "nora-whitfield"
 tickers = []
+cover_brief = "A sunny meadow of bright yellow sunflowers all standing tall and facing the sun, and in the very middle three sunflowers made of polished chrome bent over on curved stems, their heavy metal heads hanging down to touch the grass, under a clear blue midday sky."
+cover_alt = "Three chrome sunflowers droop in a meadow of bright sunflowers standing tall"
 sources = [
   "https://www.adn.com/business-economy/2026/10/22/ai-stocks-undercut-markets-worldwide-as-oil-climbs-to-its-highest-price-since-may/",
   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",

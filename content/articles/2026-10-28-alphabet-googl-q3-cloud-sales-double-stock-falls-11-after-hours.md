@@ -9,6 +9,8 @@ cover = "earnings-call"
 moves = [
   { ticker = "GOOGL", price = 289.89, change_pct = -10.77, session = "after-hours", asof = 2026-10-28T17:53:00-04:00 },
 ]
+cover_brief = "At dawn a hot-air balloon whose envelope is a giant glowing white cloud climbs fast over green hills, but its wicker basket is overloaded with heavy steel server racks, the ropes straining and the whole balloon tilting as one rack slips over the rim and falls toward the ground."
+cover_alt = "A cloud-shaped balloon climbs while its basket, overloaded with servers, tilts and drops one"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",

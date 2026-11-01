@@ -350,28 +350,40 @@ Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, 
 
 ## Covers
 
-Every story gets a cover photo: a documentary editorial picture drawn for free with FLUX.1 schnell on AI Horde
-(`pipeline/covers.py`, run by `.github/workflows/covers.yml` after each push). Write the scene in the front matter:
+Every story gets its own cover, drawn for free on AI Horde (FLUX.1 schnell and Z-Image-Turbo, both Apache-2.0) by
+`pipeline/covers.py`, which `.github/workflows/covers.yml` runs after each push. Write the scene in the front matter:
 
 ```toml
-cover_brief = "A memory-chip plant at dusk with its lights on and an almost empty car park, autumn trees in the foreground"
-cover_alt = "A memory-chip plant at dusk with an almost empty car park"
+cover_brief = "An exclusive club entrance at night: a red velvet rope on brass posts guards a towering glowing vault packed with memory chips shining like gold bars, a long queue of identical silver robots waiting in the rain under a spotlight"
+cover_alt = "Robots queue at a velvet rope outside a glowing vault of memory chips"
 ```
 
-The look is a calm news photograph, like a Reuters or Bloomberg feature picture: a real place or object, natural light,
-one clear subject. The house prompt adds the style, so the brief is only the scene, 25–55 words:
+**The idea is a witty visual metaphor for the story's point**, the image a good art editor would commission, the way
+SemiAnalysis's covers work: memory sold out for 2027 is a velvet-rope club with robots queueing; "is this the top?" is
+a roller-coaster car paused at the peak; a record crypto theft is a vault door blown open with gold pouring out; an IPO
+in a selloff is a giant opening bell swinging from a crane over a stormy sea. The house prompt adds the look (a vivid
+cinematic 3D illustration in the site's navy and gold, so every cover belongs to one family), so the brief is only the
+scene, 35–70 words:
 
-1. **One concrete subject in the centre** (it's cropped to 16:9, 2:1 and square): the factory, the product, the place, the
-   people at work. Name the setting and the light (dawn, overcast, golden hour, blue hour, night, rain, fluorescent).
-2. **No real or recognisable people**, never executives. People are optional and only seen from behind or far away.
-3. **No text anywhere.** FLUX invents lettering on anything that usually carries it, so say "plain", "unmarked" or
-   "blank" for chips, signs, trucks, billboards, screens, packaging and named buildings, or pick a subject without text.
-4. **No charts, candlesticks, arrows, tickers or numbers**: FLUX draws them wrong. Show the real world the numbers
-   describe.
-5. **No trade dress**: no brand's store design, colours or uniforms. Generic and plausible.
-6. **Vary it.** Look at the day's other covers (`grep -h '^cover_brief' content/articles/<today>-*.md`) and don't repeat
-   a scene or a light.
+1. **One focal subject that carries the point**: sinking, soaring, cracking, overflowing, a queue, a vault, a tug of
+   war, a tightrope, a fork in the road, a dam, a rocket, a gold rush, a lighthouse in a storm, a seesaw, an hourglass.
+   Use the story's angle (the dek), not just its topic. Name the setting, the light and the moment.
+2. **Match the direction and the size.** A fall never looks like a triumph, a mixed quarter is a mixed image, a debate
+   is a face-off or a balance, uncertainty is fog or a storm. A 2% dip isn't a shipwreck. Never trivialise real harm
+   (war, deaths, layoffs): use restrained symbols, never explosions, casualties, collapsing towers or planes.
+3. **Literal is boring.** No offices, trading floors, factory exteriors, server aisles, skylines or a person at a desk:
+   those were the old covers.
+4. **No real or recognisable people, and no faces.** People only as tiny silhouettes or from behind; robots and
+   animals are fine.
+5. **No text, logos or flags**, and no branded products or trade dress: no letters, numbers, price tags, tickers,
+   signs, screens with words, newspapers, charts or arrows (the models draw them wrong, and charts always rise). Show
+   direction physically.
+6. **Vary it.** The home page shows about 40 stories at once: look at the latest covers
+   (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat a central object or metaphor. Chips,
+   vaults, bulls and bears, scales and rockets are the usual repeats.
+7. **No style words** ("cinematic", "4k", "photo"): the house prompt has them.
 
-`cover_alt` says plainly what the photo shows, under 15 words. Story pages caption every cover "Image: AI-generated".
-A story without a brief gets one of the 56 topic photos in `assets/covers/` (`site/covers.json`).
+`cover_alt` says plainly what the picture shows, under 110 characters. Story pages caption every cover "Image:
+AI-generated". A story without a brief borrows one of the 56 topic photos in `assets/covers/` (`site/covers.json`)
+until its cover is drawn.
 

@@ -11,8 +11,8 @@ moves = [
   { ticker = "AMD", price = 504.80, change_pct = -10.88, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "QCOM", price = 164.79, change_pct = -11.12, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "Two men in pale shirts seen from a few metres directly behind, centred at an office desk: one seated, one standing beside him, hands in pockets, facing three plain unmarked monitors with blank screens glowing solid red, the red glow spilling over their shoulders and the desk. Cool fluorescent ceiling light."
-cover_alt = "Two men seen from behind face three office monitors glowing red"
+cover_brief = "A long wooden seesaw balances on the needle-sharp summit of a snowy mountain: a huge muscular bull stands on one end and a giant grizzly bear on the other, glaring at each other, the plank perfectly level. Golden sunshine breaks through behind the bull, dark storm clouds gather behind the bear, and sheer drops fall away on both sides."
+cover_alt = "A bull and a bear stand on a level seesaw balanced on a snowy mountain peak"
 sources = [
   "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

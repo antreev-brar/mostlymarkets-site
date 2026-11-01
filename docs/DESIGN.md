@@ -173,3 +173,37 @@ The owner on v6's one-column feed: "bunch of stuff again". They want "more stuff
   - **In this edition**: the edition's takes as boxes three to a row (`take_box`, `take_grid`). Each box has its chart, whole, in a fixed 300 px frame, with no chart caption, range chip or hover data. It shows one big number at most, the take's number, its headline and its opening sentence. When the last row would have a gap, the first take (and if need be the last) spans two columns with its wide chart;
   - **Earlier editions**: boxes three to a row (`edition_box`), once there are any. They come right after one row of takes ("All 8 takes" links to the edition). The page shows 9, and `/daily/editions/` lists every edition.
 - **Removed:** the stories rail on the home page (the slide viewer stays for The Daily's "Swipe through"), the feed tabs and filter, and the headline posts between our stories (they moved to Top news).
+
+## v8: the top story as a designed card, headlines first, Top news as one-liners (1 Nov 2026)
+
+The owner on v7: "better than before but not the best ... doesn't look clean". Top news "has the sources as main hero",
+where "the latest tweet should be the main hero" and it "should take less horizontal space": "a place where we throw in
+the recent one liner tweets like the way Kalshi does or major news companies' latest tweets", while "the main character
+is the main feed". The feed's covers were "generic boring covers off the internet" (the Daily's too): "look at
+SemiAnalysis or Opening Bell Daily", "take covers seriously", "we are unique winners". "The heading should be the main
+winner, the article starting sentence can be less so." The top story should be the "good designer card" of 31 October
+(v3's navy Daily card), and The Daily's bottom should show previous editions, not this edition's cards.
+
+- **Top story** (`hero_card`, `.hc`): v3's designed card brought back, across the whole 1360 px frame above the two
+  columns. The cover large on the left (1.32 : 1), and on navy: a yellow kicker (the kind of story and "3h ago", or the
+  edition's date), a 42 px white serif headline, a quiet two-line sans dek, **what's inside as a numbered list**
+  (`hero_points`: an edition's takes, else the story's own `##` headings when they say something on their own, not
+  "Our read" or "What's next"), and one yellow button. A story with no points centres its text. `pick_lead` is
+  unchanged (the newest story, the Daily included; `featured = true` overrides). A Daily lead keeps "Swipe through it".
+- **Rows** (`row`, `.r8`, used by every story list on the site): headline first. No boxes: hairlines between rows. A small blue uppercase kind and the time,
+  a 25 px bold serif headline, a two-line 15 px grey dek, one price tag only when the story has a move (no logo
+  clusters), and the cover on the right at 300 px, 16:10. Phones: a square thumbnail, 19 px headline.
+- **Shelves**: no grey panel. A 3 px yellow rule (as on The Daily), a 26 px serif title, then cards with the cover on
+  top, the time, an 18 px serif headline and one price tag.
+- **Top news** (`news_rail`, `xpost`, `.xp`): 304 px wide (was 380), on a light panel. **The words lead**: each post is
+  the headline as a one-liner (14.5 px, semibold) with **cashtags** for its companies ($INTC, linking to the stock
+  page), then the outlet, "+2" when other newsrooms ran it too, and the time, small and grey. No outlet logos and no
+  ticker chips. **The newest post is the hero** ("Latest" in red, 18 px bold) and the day's biggest sits under it
+  ("The big story"). X posts our stories quote read the same way, with "Our story →". Weighting, lifetimes, re-post
+  merging and the "Show N new posts" refresh are unchanged from v7.
+- **The Daily** (`daily_index`): the bottom is **Previous days**, boxes three to a row (`edition_box`): each earlier
+  day's Daily edition, or before The Daily began, that day's closing report ("The close", the `market-wrap`), one per
+  trading day (`earlier_days`, `market_day`). This edition's takes are no longer boxed on the front; they are on the
+  edition's page and in "Swipe through". An edition's own page ends with the same previous days, as rows.
+- **Covers** (see STYLE.md "Covers"): a witty visual metaphor per story, drawn in one house style, instead of literal
+  documentary photos.

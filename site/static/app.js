@@ -181,6 +181,7 @@
     $$("[data-pub]").forEach(function (el) {
       var t = new Date(el.getAttribute("data-pub")).getTime(), age = (Date.now() - t) / 36e5;
       el.classList.toggle("is-new", age >= -0.1 && age < NEW_H);
+      el.classList.toggle("is-just", age >= -0.1 && age < 1);  // Top news: "JUST IN:" for the last hour, as Kalshi posts
       el.classList.toggle("unseen", lastVisit > 0 && t > lastVisit);
     });
     var n = nyParts(new Date()), y = nyParts(new Date(Date.now() - 864e5));
@@ -230,8 +231,8 @@
       if (!hit.length) { mine.hidden = true; return; }
       $(".sh-tr", mine).innerHTML = hit.map(function (x) {
         return '<article class="sh-c" data-pub="' + esc(x.d) + '"><a class="cover-link" href="' + B + esc(x.p) + '" aria-label="' + esc(x.t) + '"></a>' +
-          '<div class="th"><img src="' + B + "static/covers/" + esc(x.c) + '-480.webp" alt="" loading="lazy" decoding="async"></div>' +
-          '<div class="sh-tx"><div class="c-top"><span class="tag">' + esc(tagOf(x.k.filter(function (t) { return f.indexOf(t) > -1; }))) + "</span>" +
+          '<div class="th"><img src="' + B + "static/covers/" + esc(x.c) + '-800.webp" alt="" loading="lazy" decoding="async"></div>' +
+          '<div class="sh-tx"><div class="r8-k"><b>' + esc(tagOf(x.k.filter(function (t) { return f.indexOf(t) > -1; }))) + "</b><i>·</i>" +
           '<time class="ago q s" datetime="' + esc(x.d) + '" data-rel>' + esc(dateOf(x.d)) + '</time></div><h3>' + esc(x.t) + "</h3></div></article>";
       }).join("");
       mine.hidden = false; initShelf(mine); paintTimes();
@@ -247,6 +248,9 @@
       b.addEventListener("click", function () {
         $$(".hm-tabs button", hm).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
         hm.setAttribute("data-view", b.getAttribute("data-view"));
+        // the tabs stay stuck under the header: switching from far down starts the other view at its top
+        var hd = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hd-h")) || 0, t = hm.getBoundingClientRect().top;
+        if (t < hd) window.scrollTo(0, t + window.scrollY - hd);
       });
     });
   }
@@ -257,6 +261,18 @@
   if (xr && window.fetch) {
     var feedEl = $(".xr-feed", xr), pill = $(".xr-new", xr), asofEl = $(".xr-asof", xr), pending = null;
     var when = function (x) { return Date.parse(x.getAttribute("data-pub")) || 0; };
+    // "Live" only while the newest post is under two hours old
+    var liveEl = $(".live", xr);
+    var paintLive = function () {
+      if (liveEl) liveEl.hidden = Date.now() - Math.max.apply(null, [0].concat($$(".xp[data-pub]", feedEl).map(when))) > 72e5;
+    };
+    paintLive();
+    // on a computer the column scrolls on its own only once it has stuck under the header; until then the wheel
+    // scrolls the page, so the newest post doesn't slide away under a reader who meant to scroll the stories
+    var unstuck = function () { xr.classList.toggle("unstuck", xr.getBoundingClientRect().top > 81); };
+    window.addEventListener("scroll", unstuck, { passive: true });
+    window.addEventListener("resize", unstuck);
+    unstuck();
     var poll = function () {
       if (document.hidden) return;
       fetch(B + "data/topnews.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
@@ -269,7 +285,7 @@
         if (!fresh.length) {  // nothing newer: the column is current as of this read
           pending = null; pill.hidden = true;
           if (asofEl && d.asof) asofEl.setAttribute("datetime", d.asof);
-          paintTimes(); return;
+          paintTimes(); paintLive(); return;
         }
         pending = d;
         pill.textContent = "Show " + fresh.length + " new post" + (fresh.length > 1 ? "s" : "");
@@ -282,7 +298,7 @@
         if (asofEl && pending.asof) asofEl.setAttribute("datetime", pending.asof);
         pending = null;
       }
-      pill.hidden = true; paintTimes();
+      pill.hidden = true; paintTimes(); paintLive();
       if (xr.scrollHeight > xr.clientHeight + 1) xr.scrollTo({ top: 0, behavior: "smooth" });  // the column scrolls on its own
       else window.scrollTo({ top: xr.getBoundingClientRect().top + window.scrollY - ($(".hd") || xr).offsetHeight - 8, behavior: "smooth" });
     });

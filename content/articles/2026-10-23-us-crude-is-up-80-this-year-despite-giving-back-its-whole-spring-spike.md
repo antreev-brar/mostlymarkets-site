@@ -6,6 +6,8 @@ published = 2026-10-23T17:00:00-04:00
 author = "theo-park"
 tickers = []
 cover = "oil-gas"
+cover_brief = "On a trampoline in an empty desert at sunset, a giant glossy black oil drop bounces high into the air, while a faint glowing outline far above it marks how much higher it flew on its last bounce."
+cover_alt = "A giant oil drop bounces on a trampoline, below the mark of its last, higher bounce"
 sources = [
   "https://www.investing.com/news/commodities-news/oil-slips-as-brent-heads-for-longest-stretch-of-annual-losses-in-2025-4426125",
   "https://www.investing.com/news/commodities-news/oil-retreats-after-hitting-fouryear-high-on-concern-of-usiran-war-escalation-4649450",

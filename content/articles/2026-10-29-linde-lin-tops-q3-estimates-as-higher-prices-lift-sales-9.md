@@ -9,6 +9,8 @@ event = "recap-LIN-2026-10-29"
 moves = [
   { ticker = "LIN", price = 503.15, change_pct = -0.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "In a dark cathedral-like hall, tall glass gas cylinders in jewel colours, sapphire, emerald and gold, stand in a row like the pipes of a giant organ, each one glowing brighter from within, the tallest in the middle shining gold."
+cover_alt = "Tall glowing glass gas cylinders stand like organ pipes in a dark hall"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1707925/000165495426009199/lin_ex991.htm",
   "https://finance.yahoo.com/markets/stocks/articles/linde-reports-third-quarter-2026-093000509.html",

@@ -6,6 +6,8 @@ published = 2026-10-27T09:00:00-04:00
 author = "nora-whitfield"
 tickers = ["NU", "FICO", "LITE", "MELI", "DASH"]
 cover = "market-screens"
+cover_brief = "On a wide tropical beach at sunset, palm trees bending in a gusty wind, four kites tumble nose-down toward the sand trailing tangled tails, the biggest plunging hardest, while one slim kite trailing a bright ribbon of laser light climbs high into the orange sky."
+cover_alt = "Four kites plunge toward a tropical beach at sunset while one kite trailing a ribbon of light climbs"
 sources = [
   "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
   "https://www.theglobeandmail.com/investing/article-trading-on-brazils-stock-exchange-halted-after-15-tumble-following/",

@@ -10,8 +10,8 @@ moves = [
   { ticker = "MDLZ", price = 62.53, change_pct = 1.07, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "MDLZ", price = 65.11, change_pct = 4.13, session = "regular", asof = 2026-10-30T09:31:47-04:00 },
 ]
-cover_brief = "A biscuit factory line: thin plain round golden-brown biscuits with darker baked edges, a matte crumbly surface and small docking holes, in long neat rows on a steel-mesh conveyor running diagonally through the centre of the frame from the low mouth of a stainless tunnel oven; cool white fluorescent light"
-cover_alt = "Rows of golden biscuits moving along a steel-mesh conveyor in a biscuit factory"
+cover_brief = "On a stone doorstep at dusk, a big orange pumpkin trick-or-treat pail is stuffed so full of chocolate bars in plain gold and brown wrappers and round golden biscuits that they spill over the rim and tumble down the steps into drifts of fallen leaves. A warm porch lamp glows against a deep violet sky."
+cover_alt = "A pumpkin candy pail overflowing with chocolate bars and biscuits that spill down a doorstep at dusk"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001103982/000162828026068233/mdlzearningsreleasecontent.htm",
   "https://www.sec.gov/Archives/edgar/data/0001103982/000162828026068256/mdlz-20260930.htm",

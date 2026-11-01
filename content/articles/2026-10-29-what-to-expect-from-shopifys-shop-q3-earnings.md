@@ -8,6 +8,8 @@ tickers = ["SHOP"]
 moves = [
   { ticker = "SHOP", price = 166.89, change_pct = -0.79, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "In a floodlit athletics stadium at twilight, the stands full of a distant crowd in shadow, a high-jump bar rests on two towering stands, set absurdly high, level with the floodlights, while at the start of the runway a shopping cart heaped with wrapped parcels waits for its run, a thick blue landing mat below the bar."
+cover_alt = "A shopping cart full of parcels waits below a high-jump bar set far above normal in a floodlit stadium"
 sources = [
   "https://investingnews.com/shopify-to-announce-third-quarter-2026-financial-results/",
   "https://www.shopify.com/investors/events",

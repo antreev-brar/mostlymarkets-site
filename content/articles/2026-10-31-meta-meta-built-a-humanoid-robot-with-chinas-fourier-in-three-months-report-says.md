@@ -6,8 +6,8 @@ published = 2026-10-31T20:51:40-04:00
 author = "marcus-lindqvist"
 tickers = ["META"]
 themes = ["ai-capex", "big-tech-earnings"]
-cover_brief = "A single unfinished white robot leg bolted upright to a steel test rig on a cluttered workbench, its outer panels off to show a black electric motor at the knee and bundled cables, a flat black rubber pad at its base, robotics workshop, soft early-morning light through high frosted windows"
-cover_alt = "A white robot leg bolted to a test stand in a robotics workshop"
+cover_brief = "A slim white humanoid robot with a smooth round head, holding a small plain suitcase, stands alone on a foggy road at night, facing a towering closed iron gate set in a high stone wall. A single floodlight above the gate shines down on it, throwing its long shadow back along the wet road behind."
+cover_alt = "A white humanoid robot holding a suitcase waits alone at a closed iron gate on a foggy night"
 sources = [
   "https://www.theinformation.com/articles/meta-built-humanoid-prototype-chinese-startup-ramp-robotics-push",
   "https://www.reuters.com/world/china/meta-builds-humanoid-robot-with-chinese-startup-fourier-information-says-2026-10-31/",

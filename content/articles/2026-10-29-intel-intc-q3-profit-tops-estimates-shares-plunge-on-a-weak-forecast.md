@@ -9,6 +9,8 @@ cover = "semis-fab"
 moves = [
   { ticker = "INTC", price = 74.06, change_pct = -19.56, session = "after-hours", asof = 2026-10-29T17:20:53-04:00 },
 ]
+cover_brief = "A gleaming gold trophy cup tumbles through a deep blue evening sky high above the clouds, confetti and curled streamers still swirling around it from the celebration, as it falls toward a dark, churning layer of storm clouds far below, lit from inside by flickers of lightning."
+cover_alt = "A gold trophy cup tumbles through the evening sky, confetti swirling, falling toward dark storm clouds."
 sources = [
   "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
   "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",

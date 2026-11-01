@@ -10,8 +10,8 @@ moves = [
   { ticker = "HWM", price = 205.94, change_pct = 5.51, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "HWM", price = 203.07, change_pct = -1.39, session = "regular", asof = 2026-10-30T09:31:36-04:00 },
 ]
-cover_brief = "Close-up of a jet-engine turbine disc ringed with dozens of small polished metal blades, standing upright in the centre of a steel workbench at night, a bright warm work lamp making the blades gleam, dark blurred machine shop behind with a few small lamps. Plain unmarked metal."
-cover_alt = "A polished jet-engine turbine disc on a steel workbench in a dark machine shop"
+cover_brief = "A flock of gleaming polished metal turbine blades flies in a perfect V formation like migrating geese across a huge golden sunrise sky above the clouds, the lead blade catching the first light."
+cover_alt = "Polished turbine blades fly in V formation like geese across a sunrise sky"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000004281/000110465926119857/tm2628456d1_ex99-1.htm",
   "https://www.prnewswire.com/news-releases/howmet-aerospace-reports-third-quarter-2026-results-302922826.html",

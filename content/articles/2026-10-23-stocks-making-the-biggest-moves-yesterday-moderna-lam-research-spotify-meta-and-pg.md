@@ -5,6 +5,8 @@ type = "movers"
 published = 2026-10-23T09:00:00-04:00
 author = "nora-whitfield"
 tickers = ["MRNA", "LRCX", "SPOT", "META", "PG"]
+cover_brief = "At a roaring waterfall in a steep autumn gorge, five big silver salmon hang in mid-leap in a shaft of low gold light: two arc cleanly over the lip into the calm pool above, while three tumble back down into the churning white foam below. Orange and red leaves blaze on the cliffs, and spray drifts through the air."
+cover_alt = "Five salmon leaping a waterfall in an autumn gorge, two clearing the top and three falling back"
 sources = [
   "https://www.investing.com/news/stock-market-news/moderna-shares-plunge-on-apparent-cancer-vaccine-data-leak-4967091",
   "https://www.bloomberg.com/news/articles/2026-10-22/moderna-merck-shares-fall-after-potential-leak-of-melanoma-data",

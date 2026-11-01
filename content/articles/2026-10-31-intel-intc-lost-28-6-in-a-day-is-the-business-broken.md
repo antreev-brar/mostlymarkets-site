@@ -6,8 +6,8 @@ published = 2026-10-31T10:28:03-04:00
 author = "dev-malhotra"
 tickers = ["INTC", "AMD", "NVDA", "QCOM", "ARM"]
 themes = ["intel-turnaround", "chip-selloff"]
-cover_brief = "A vast, low, featureless white chip factory with smooth blank walls and a row of tall silver exhaust stacks, centred, seen through a long lens across the Arizona desert, saguaro cacti and dry scrub in the foreground, rugged mountains close behind, soft afternoon light, pale blue sky"
-cover_alt = "A white chip factory with tall exhaust stacks among saguaro cacti below desert mountains"
+cover_brief = "On a dark navy pedestal under a single spotlight, a large blue porcelain vase lies split into a few big pieces, its cracks already being filled with glowing molten gold in the Japanese kintsugi style, a thin stream of gold dripping onto the pedestal."
+cover_alt = "A broken blue porcelain vase being mended with glowing gold under a spotlight"
 sources = [
   "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
   "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",

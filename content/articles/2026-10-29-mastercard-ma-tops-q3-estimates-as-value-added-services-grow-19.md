@@ -10,6 +10,8 @@ event = "recap-MA-2026-10-29"
 moves = [
   { ticker = "MA", price = 635.7, change_pct = 4.16, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A grand stone toll gate straddles a broad highway at golden sunrise, an endless stream of gold coins rolling on their edges through its glowing arches. On top of its two towers, huge armoured guard dogs keep watch beside sweeping searchlights, scanning the road as the coins pour through."
+cover_alt = "Gold coins roll through a stone toll gate guarded by armoured dogs with searchlights at sunrise"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
   "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000124/ma-20260930.htm",

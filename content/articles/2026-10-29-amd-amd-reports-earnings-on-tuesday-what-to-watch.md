@@ -8,6 +8,8 @@ tickers = ["AMD"]
 moves = [
   { ticker = "AMD", price = 566.42, change_pct = -2.08, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "In an empty old stadium at dawn, a high-jump bar rests on two absurdly tall poles, set so high it cuts straight across the huge rising sun above the bare concrete stands. A lone silver robot athlete waits at the start of the run-up, seen from behind, looking up at it, its long shadow stretching across the dewy track."
+cover_alt = "A robot athlete looks up at a high-jump bar set absurdly high across the rising sun"
 sources = [
   "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
   "https://finance.yahoo.com/technology/articles/amd-faces-high-expectations-jefferies-194400060.html",

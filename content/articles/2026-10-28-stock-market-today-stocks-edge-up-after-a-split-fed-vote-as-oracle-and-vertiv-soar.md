@@ -6,6 +6,8 @@ published = 2026-10-28T17:30:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "wall-street-sun"
+cover_brief = "Over a misty patchwork of green farmland in late golden light, dozens of plain striped hot-air balloons hover just above the fields, barely off the ground. In the centre, two balloons with roaring burner flames shoot high into the sky above them, while off to one side a single deflated balloon sags back down onto the grass."
+cover_alt = "Hot-air balloons hover low over farmland as two soar high and one deflated balloon sinks"
 sources = [
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",

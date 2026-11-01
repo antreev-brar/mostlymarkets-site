@@ -5,6 +5,8 @@ type = "market-wrap"
 published = 2026-10-23T17:15:00-04:00
 author = "nora-whitfield"
 tickers = []
+cover_brief = "A powerful bull strains forward down a wide city avenue between tall grey stone buildings, under a smoky amber haze at sunset. An iron shackle on its hind leg is chained to a huge unmarked black oil drum, which it drags scraping across the cobblestones, throwing up sparks."
+cover_alt = "A bull strains down a hazy city avenue, dragging a huge black oil drum chained to its leg"
 sources = [
   "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today",
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",

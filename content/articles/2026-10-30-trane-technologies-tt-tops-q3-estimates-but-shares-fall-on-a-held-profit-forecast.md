@@ -10,8 +10,8 @@ moves = [
   { ticker = "TT", price = 431.10, change_pct = -3.87, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "TT", price = 419.97, change_pct = -2.58, session = "regular", asof = 2026-10-30T09:31:40-04:00 },
 ]
-cover_brief = "Seen from a neighbouring tower, a row of large rooftop air-conditioning units in plain unmarked galvanised steel, big round black fan grilles facing up, stands centred on a flat office roof wet with rain puddles; plain glass towers blurred behind under a pale blue-grey sky, cool soft light after rain"
-cover_alt = "Rows of grey air-conditioning units on a rain-wet office roof, towers behind"
+cover_brief = "In a dim, misty hall of server racks, a house-sized block of glacier-blue ice stands on a steel pallet, cold fog rolling off it across the floor; a crane lowers another block onto the growing stack, while a thin, steady trickle of meltwater runs from its base into a spreading puddle."
+cover_alt = "A crane stacks more blocks on a huge block of ice in a server hall as meltwater pools at its base"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001466258/000146625826000001/exhibit991-q32026earningsr.htm",
   "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Reports-Strong-Third-Quarter-Results-Raises-Full-Year-Revenue-Guidance-Reaffirms-Full-Year-EPS-Guidance/default.aspx",

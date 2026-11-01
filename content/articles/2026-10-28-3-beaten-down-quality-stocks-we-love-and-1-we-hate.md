@@ -6,6 +6,8 @@ published = 2026-10-28T12:30:00-04:00
 author = "theo-park"
 tickers = ["ADBE", "INTU", "BKNG", "NKE"]
 cover = "markets-calm"
+cover_brief = "On a rainy cobbled street at night, three heavy gold bars lie half-sunk in a muddy puddle in the gutter, rain splashing on them. Behind them, a brightly lit, unlabelled shop window displays a single scuffed, plain old sneaker on a velvet pedestal under a glass dome and a spotlight."
+cover_alt = "Gold bars lie in a rainy gutter while a lit shop window shows a scuffed sneaker on a velvet pedestal"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/",
   "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/",

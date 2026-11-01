@@ -11,6 +11,8 @@ moves = [
   { ticker = "SNDK", price = 1404.77, change_pct = 7.66, session = "close", asof = 2026-10-28T16:00:00-04:00 },
   { ticker = "MU", price = 983.23, change_pct = 5.86, session = "close", asof = 2026-10-28T16:00:00-04:00 },
 ]
+cover_brief = "A vast smooth swell of deep blue water rolls through a stone harbour at sunrise, lifting a big sailing ship and the two smaller sailboats moored beside it high above the quay all at once. Their wet hulls glisten, mooring ropes pull taut, and spray glitters in the low gold light."
+cover_alt = "A great swell lifts a big sailing ship and two smaller boats together in a harbour at sunrise"
 sources = [
   "https://news.skhynix.com/en/q3-2026-business-results/",
   "https://www.fxstreet.com/news/sk-hynix-earnings-beat-sends-micron-sandisk-shares-higher-202610281624",

@@ -9,6 +9,8 @@ event = "recap-MRK-2026-10-29"
 moves = [
   { ticker = "MRK", price = 146.33, change_pct = 3.83, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "An old stone arched viaduct runs right up to the edge of a sheer cliff above a deep misty gorge at sunrise, where a gleaming new steel span is being built out from its end over the drop, half-finished, welding sparks falling into the mist, and the far side of the gorge glows in warm golden light."
+cover_alt = "An old stone viaduct ends at a cliff edge as a new steel span is built out across a misty gorge."
 sources = [
   "https://www.businesswire.com/news/home/20261029138599/en/Merck-Co.-Inc.-Rahway-N.J.-USA-Announces-Third-Quarter-2026-Financial-Results-Highlights-Multiple-Milestones-Advancing-Broad-Diverse-Pipeline",
   "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/",

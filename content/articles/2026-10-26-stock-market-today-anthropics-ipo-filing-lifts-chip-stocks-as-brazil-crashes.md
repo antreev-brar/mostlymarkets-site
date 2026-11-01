@@ -6,6 +6,8 @@ published = 2026-10-26T17:05:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "wall-street-sun"
+cover_brief = "On a plain deep-blue felt casino table under a low hanging lamp, a tall, gleaming tower of square silver computer chips with gold pins stands stacked like a big winning pile. Beside it, a long wooden croupier's rake reaching in from the shadows sweeps a toppled heap of plain green and yellow casino chips off the table's edge into the dark."
+cover_alt = "A tower of silver computer chips on a casino table as a rake sweeps green and yellow casino chips away"
 sources = [
   "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
   "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",

@@ -6,8 +6,8 @@ published = 2026-10-31T10:28:11-04:00
 author = "nora-whitfield"
 tickers = ["XOM", "CVX", "MPC", "VLO", "COP", "OXY", "UAL", "DAL", "LUV"]
 themes = ["oil-shock", "fed-rates"]
-cover_brief = "An oil refinery jetty at blue hour: a tanker ship moored beside lit pipelines, a flare stack burning, its reflection on calm dark water"
-cover_alt = "A tanker moored at a refinery jetty at night, a flare burning"
+cover_brief = "A plain white marble temple with tall columns and wide steps, like a central bank, stands on the shore of a sea of glossy black crude oil at stormy dusk. The rising oil tide has climbed its steps and laps at the top one, just below the tall bronze doors. Far out on the black swell, a lone tanker rides out the storm."
+cover_alt = "A sea of black crude oil has risen up the steps of a marble temple as a lone tanker rides out a storm."
 sources = [
   "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
   "https://fortune.com/2026/10/28/fed-rates-steady-kevin-warsh-president-governor-laura-ullrich",

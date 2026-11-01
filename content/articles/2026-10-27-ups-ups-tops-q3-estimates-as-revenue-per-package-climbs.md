@@ -6,6 +6,8 @@ published = 2026-10-27T06:45:00-04:00
 author = "theo-park"
 tickers = ["UPS"]
 cover = "shipping-port"
+cover_brief = "On a steep green alpine slope on a golden morning, an old chairlift climbs toward a sunlit summit, and on each chair rides a single plain unlabelled cardboard parcel tied with string, every other chair swinging empty above the pine trees."
+cover_alt = "An alpine chairlift carries single cardboard parcels up toward a sunlit summit, every other chair empty."
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1090727/000162828026067381/exhibit991-earningspressre.htm",
   "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",

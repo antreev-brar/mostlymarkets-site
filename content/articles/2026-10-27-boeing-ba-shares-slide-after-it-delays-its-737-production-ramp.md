@@ -10,6 +10,8 @@ cover = "aerospace"
 moves = [
   { ticker = "BA", price = 168.18, change_pct = -10.69, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
+cover_brief = "A towering hourglass stands in a vast dim aircraft hangar, its top bulb crammed with hundreds of tiny white model airliners, while only one at a time squeezes through the narrow neck into the nearly empty bottom bulb. A cold shaft of light from the half-open hangar doors falls across the glass."
+cover_alt = "An hourglass full of tiny model airliners lets only one plane at a time through its neck"
 sources = [
   "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results",
   "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",

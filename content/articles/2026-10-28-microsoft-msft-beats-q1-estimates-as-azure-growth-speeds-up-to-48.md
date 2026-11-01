@@ -9,6 +9,8 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "MSFT", price = 552.22, change_pct = 3.99, session = "after-hours", asof = 2026-10-28T17:53:00-04:00 },
 ]
+cover_brief = "A huge sky-blue kite climbs steeply into a bright azure midday sky on a powerful gust of wind, racing past towering white clouds, its long tail snapping and its line pulled taut, while the wooden reel on the grassy hilltop below spins in a blur as it pays out more and more line."
+cover_alt = "A big sky-blue kite climbs fast on a strong wind as its reel spins out line on a grassy hilltop."
 sources = [
   "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q",

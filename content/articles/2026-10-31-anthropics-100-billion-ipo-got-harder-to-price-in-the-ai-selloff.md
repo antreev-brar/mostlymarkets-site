@@ -6,8 +6,8 @@ published = 2026-10-31T20:57:31-04:00
 author = "dev-malhotra"
 tickers = ["GOOGL", "AMZN", "NVDA"]
 themes = ["ai-capex"]
-cover_brief = "An empty hotel ballroom set up early in the morning for an investor presentation: neat rows of upholstered chairs facing an empty low stage with nothing on it and a large blank pale screen, water glasses on white-draped tables in front, warm chandelier light."
-cover_alt = "An empty hotel ballroom set up for an investor presentation"
+cover_brief = "A colossal plain brass bell, like a stock exchange's opening bell, swings wildly from the hook of a towering construction crane over a stormy sea at dusk, as the crane tries to lower it onto a small wave-battered rock below; huge waves crash against the rock and lightning splits the black clouds."
+cover_alt = "A giant brass bell swings from a crane over a stormy sea as lightning strikes"
 sources = [
   "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
   "https://en.bloomingbit.io/feed/news/123333",
