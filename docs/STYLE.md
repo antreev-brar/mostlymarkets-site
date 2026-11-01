@@ -96,6 +96,7 @@ If the session is over: "The shares closed at $X, {up|down} Y% from the previous
 Use the sentences from `python3 pipeline/facts.py TKR --asof YYYY-MM-DD`: how often it moves 5%, the last move this big, the year to date, the distance from the 52-week high, and $1,000 five years ago. Then one sentence of our own judgment.
 
 ### `earnings-recap`
+The method (the box against estimates, the KPI box against last year, the one debate, the thesis check) is in `.claude/skills/earnings-review`.
 Title: "{Name} ({TKR}) {Beats|Misses|Tops} Q3 Estimates as {driver}" or "{Name} ({TKR}) Q3: {Result}, {Stock reaction}".
 
 ```
@@ -118,6 +119,7 @@ Guidance against expectations; what management said about next quarter.
 ```
 
 ### `earnings-preview`
+The method (consensus and its 30-day revisions, the record of beats and misses, the one debate this report settles) is in `.claude/skills/earnings-review`.
 Title: "What to Expect From {Name}'s ({TKR}) Q3 Earnings" or "{Name} ({TKR}) Reports Earnings {Tomorrow|on Tuesday}: What to Watch".
 
 ```
@@ -170,7 +172,7 @@ The same block, with **What could go wrong:** in place of what would change our 
 Closing line: when we'll revisit the list, and a link to our breakdown of the stock we like if there is one.
 ```
 
-Numbers in lists come from SEC filings (`data/fundamentals/<T>.json` when present) or the company's latest release, and are dated ("trailing 12 months to September 2026").
+Numbers in lists come from SEC filings (`python3 pipeline/analyse.py TKR`, which reads `data/fundamentals/<T>.json`) or the company's latest release, and are dated ("trailing 12 months to September 2026"). Judge each against its sector (the median and rank `analyse.py` prints), long run first: the method is in `.claude/skills/quality-check`.
 
 ### `macro`
 Title: "{The thing} {did what}: {what it means}", for example "The Fed Held Rates, but Two Officials Wanted a Hike".
@@ -236,6 +238,7 @@ Never "sources say" without two outlets, never an unnamed "analysts think", neve
 | `list` | **We like** · **We'd skip** |
 
 ### `narrative` ("The story Wall Street is telling")
+For testing the evidence and sizing a risk, see `.claude/skills/company-deep-dive` §5–6; for technology stories, the Format D rules in `.claude/skills/stock-analysis`.
 Our flagship, every day. Titles: "The Story Wall Street Is Telling About {Theme}", "{The thesis as a claim}: What the Evidence Says", "Why Wall Street Thinks {Claim}", "Wall Street Is Betting {Claim}. {N} Numbers Will Decide It", "{Theme} After {Event}: Is the Story Still True?". Dek: the claim, plus two or three pieces of evidence, plus the open question. Set `themes` (see "Story log").
 
 ```
@@ -284,7 +287,7 @@ One paragraph: the metric or event that will settle it, and when we'll see it ne
 Only documented, attributable positions: a published note, an interview, a filing, a call, a public post with a link. Reported notes need two outlets. People on X are named with their handle and role, and only when they're credible on the subject (a fund manager, an analyst, a former industry executive, a researcher, a reporter). Never an anonymous account, never a made-up composite ("some investors worry").
 
 ### `breakdown` ("Is {Company} a good business?")
-Carbon Finance's way of taking a stock apart, at about half the length, with the detail in tables. Titles: "Is {Company} ({TKR}) a Good Business? Our Breakdown", "{Company} ({TKR}) Is Down {x}% From Its High. Is the Business Broken?", "How {Company} ({TKR}) Makes Money, and Whether It Lasts", "{Company} ({TKR}): {a Tension in 4–7 Words}". Dek: the tension plus one number.
+Carbon Finance's way of taking a stock apart, at about half the length, with the detail in tables. The method for each section is in `.claude/skills/company-deep-dive` (the numbers: `quality-check` and `python3 pipeline/analyse.py TKR`). Titles: "Is {Company} ({TKR}) a Good Business? Our Breakdown", "{Company} ({TKR}) Is Down {x}% From Its High. Is the Business Broken?", "How {Company} ({TKR}) Makes Money, and Whether It Lasts", "{Company} ({TKR}): {a Tension in 4–7 Words}". Dek: the tension plus one number.
 
 ```
 *{Our verdict in one italic sentence: business quality + what the price assumes + the condition that decides it.}*

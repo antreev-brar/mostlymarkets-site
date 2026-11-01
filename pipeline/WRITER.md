@@ -16,6 +16,19 @@ If the queue is empty, stop. Don't commit.
 
 Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They are the rules.
 
+**How we analyse a stock:** the skills in `.claude/skills/` hold the method. They carry the owner's write-article formats, built from StockStory and Carbon Finance, plus research on how both judge a company. Start with `stock-analysis`, the index. Use:
+- `quality-check` for `list` stories;
+- `company-deep-dive` for `breakdown`;
+- `earnings-review` for `earnings-recap` and `earnings-preview`.
+
+Their numbers come from one command, `python3 pipeline/analyse.py TKR`. It prints:
+- revenue growth over 5 years, 2 years and the latest quarter;
+- margins, cash flow and returns, each with the median and rank among its peers (a group such as chipmakers or banks, or else its sector);
+- the balance sheet;
+- valuation against peers and the stock's own history, plus a peer table.
+
+That is our own data (SEC filings), so it needs no second source. Read its warnings (stale data, another currency) before quoting.
+
 ## 1. Pick the work
 - Work through the queue in the listed order, **at most 10 stories per run**, and stop starting new ones after about 50 minutes.
 - **Headlines:** `data/news/market.json` and `data/news/<T>.json` hold the latest outside headlines (from `pipeline/news.py`). Use them to find causes and context, and to see how a company's story is changing. If the queue is short and they carry a material story we haven't covered (results, guidance, a deal, a big contract, regulation, a management change), write a `brief` on it.
@@ -32,6 +45,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
    - WebFetch may be blocked in this environment, so work from search results and the pack.
    - If you can't confirm the cause twice, write it as "No clear news" (why-it-moved) or skip the event with the reason. Never guess.
 3. **Numbers:**
+   - **Company fundamentals** (growth, margins, EPS, cash, returns, debt, valuation against the sector and its own history) come from `python3 pipeline/analyse.py TKR`, judged against the sector it prints, never in absolute terms.
    - **Prices and moves** come only from the pack or `python3 pipeline/facts.py TKR`. The pack's `quote` is from `quotes_asof`, so say "as of 2:15 p.m. ET" for intraday moves.
    - **Consensus** comes from an outlet that names its provider (LSEG, FactSet, Zacks, Visible Alpha). The pack's calendar row (Nasdaq) is sometimes on a GAAP basis while the press quotes the adjusted consensus. Use it only when it matches the press, and always say which basis you mean.
    - **Company results** come from `release_text` or the release itself.
@@ -58,7 +72,7 @@ Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They 
 - **`macro-check`:** write a `macro` story only if a top-tier release (CPI, PPI, jobs, GDP, PCE, retail sales, JOLTS) came out today. Otherwise skip it with "no top-tier release today".
 - **`market-wrap`:** use `pack.markets` for "## The numbers". The 10-year yield's `price` is the yield in %, and its `change` is in percentage points. Link today's stories (`pack.todays_stories`) where they fit.
 - **`movers`:** five paragraphs from `pack.moves`. Each links to our story about that stock when one exists (`our_stories`). If a stock has none, give its cause in one sourced sentence, or leave it out.
-- **`list`:** the event says which way round: "3 we like and 1 we'd skip" or "3 we'd skip and 1 we like", from `pack.candidates`. Each reason rests on a number from `ttm` or `data/fundamentals/<T>.json`, dated "in the 12 months to <month year>", plus what changed lately (the stock's headlines). Read each company's latest results news for context.
+- **`list`:** the event says which way round: "3 we like and 1 we'd skip" or "3 we'd skip and 1 we like", from `pack.candidates`. Run `python3 pipeline/analyse.py` on the candidates and follow `.claude/skills/quality-check`. Each reason rests on a dated number from it, long run first ("over five fiscal years", "in the 12 months to <month year>"), judged against peers, plus what changed lately (the stock's headlines). Read each company's latest results news for context.
 - **`narrative`:** the one story Wall Street is building right now (STYLE.md template). Use `pack.headlines`, `pack.in_the_news` and our recent stories to choose it, then research it properly: the thesis, the evidence (numbers, quotes, filings), the counter-evidence, what would change minds, and the stocks exposed. This is our flagship; spend the time.
 - **`viewpoints`:** bulls against bears on the loudest debate: 3 to 6 named, documented viewpoints with their evidence, then our read.
 - **`breakdown`:** one company taken apart, Carbon Finance-style (STYLE.md template), ending in a clear verdict with its reasons.
