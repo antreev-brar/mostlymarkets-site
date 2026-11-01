@@ -2,7 +2,7 @@
 title = "AI Is Moving Ad Money Away From Google Search: What the Evidence Says"
 dek = "Meta's ad sales grew 26% last quarter and Google search 12%, the widest gap since 2021, and Reddit says Google is sending it fewer visitors. Is AI redrawing the ad map, or is search just slowing?"
 type = "narrative"
-published = 2026-11-01T11:20:00-05:00
+published = 2026-11-01T10:46:00-05:00
 author = "marcus-lindqvist"
 tickers = ["GOOGL", "META", "RDDT", "PINS"]
 themes = ["ai-search", "big-tech-earnings"]

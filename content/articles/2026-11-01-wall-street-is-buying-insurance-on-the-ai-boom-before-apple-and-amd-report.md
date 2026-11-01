@@ -2,7 +2,7 @@
 title = "Wall Street Is Buying Insurance on the AI Boom Before Apple and AMD Report"
 dek = "CoreWeave lost 37% in October as traders bought record numbers of its put options. This week Apple, AMD, the midterms and the jobs report test the selloff."
 type = "daily"
-published = 2026-11-01T10:45:00-05:00
+published = 2026-11-01T10:43:00-05:00
 author = "nora-whitfield"
 tickers = ["CRWV", "ORCL", "AAPL", "AMD", "NBIS"]
 themes = ["ai-capex", "fed-rates"]
