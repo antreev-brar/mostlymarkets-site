@@ -55,6 +55,8 @@ sources = [
   "https://www.digitaltoday.co.kr/en/view/118511/jensen-huang-says-no-memory-glut-in-2029-rebutting-fears-over-memory-stocks",
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",
+  "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+  "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992",
 ]
 +++
 
@@ -81,7 +83,7 @@ The short version
 
 > "Our 2027 HBM supply volume is already sold out at an agreed target price." Kim Jae-june, executive vice president for memory sales and marketing at Samsung Electronics, on its earnings call on Thursday 29 October
 
-HBM and ordinary DRAM, the working memory in servers, PCs and phones, compete for the same wafers, and HBM needs more of them for each bit it stores, Micron says in its annual report. Because HBM is priced once a year, it missed this year's surge in DRAM prices: since the first quarter it has earned makers less than a standard server memory module, TrendForce said on 2 June.
+HBM and ordinary DRAM, the working memory in servers, PCs and phones, compete for the same wafers, and HBM needs more of them for each bit it stores, Micron says in its annual report. Because HBM is priced once a year, it missed this year's surge in DRAM prices: since the first quarter, a wafer of HBM has earned makers less than one made into standard server memory modules, TrendForce said on 2 June.
 
 So buyers who want more HBM in 2027 must pay at least what the same wafers would earn as ordinary memory. That means higher profits for SK hynix, Samsung and Micron, and higher costs for Nvidia ($NVDA) and the cloud companies that buy its chips.
 
@@ -114,9 +116,11 @@ TrendForce estimates that [conventional DRAM contract prices](/news/2026-10-31/m
 
 On 29 September it raised its forecast to a 121% rise in HBM's average selling price in 2027, in the upper half of the 70% to 140% range it gave in August. That is a blended average, and TrendForce's reasons include a growing share of pricier HBM4: part of the rise is a shift in mix, not a higher price for the same chip.
 
+Micron has confirmed the direction, if not the size: on 30 September it said it had completed agreements for "the vast majority" of its 2027 HBM supply "with significant price increases year over year, narrowing the gross margin gap with conventional DRAM."
+
 ### 4. Three makers are racing to feed Nvidia's next chip
 
-Nvidia's next AI platform, Vera Rubin, runs on HBM4. KED Global and other Korean outlets reported in March that Samsung and SK hynix had been chosen to supply it, and Micron said on 18 March that it had started volume production of HBM4 for the platform. We found no statement from Micron that its 2027 HBM is sold.
+Nvidia's next AI platform, Vera Rubin, runs on HBM4. KED Global and other Korean outlets reported in March that Samsung and SK hynix had been chosen to supply it, and Micron said on 18 March that it had started volume production of HBM4 for the platform.
 
 Nvidia Chief Executive Jensen Huang told CNBC at the company's GTC Berlin event, in remarks reported on 22 October, that he doesn't expect a memory glut through 2029.
 
@@ -136,7 +140,7 @@ Nvidia Chief Executive Jensen Huang told CNBC at the company's GTC Berlin event,
 
 ## The case against it
 
-The doubters don't dispute 2027; they dispute 2028. Samsung says supply will stay tight that year, but Counterpoint Research expects DRAM prices to fall about **23%** in 2028 from 2027, CNBC reported on 15 October ([our bulls-vs-bears piece](/news/2026-10-31/bulls-vs-bears-on-memory-stocks-is-this-cycle-really-different/) has the full debate).
+The doubters don't dispute 2027; they dispute 2028. Samsung and Micron say supply will stay tight that year, but Counterpoint Research expects DRAM prices to fall about **23%** in 2028 from 2027, CNBC reported on 15 October ([our bulls-vs-bears piece](/news/2026-10-31/bulls-vs-bears-on-memory-stocks-is-this-cycle-really-different/) has the full debate).
 
 Pzena Investment Management, a value fund that owns Samsung, wrote in May that today's margins are "likely to mark the peak of the current cycle." Micron's filings show how fast a peak can fade: in fiscal 2023, the year after record sales, its revenue halved and its operating margin went from 31.5% to minus 37%.
 
@@ -169,6 +173,6 @@ We think the second point is the strongest, because that supply is dated, under 
 
 ## Our read
 
-**The evidence supports it** for 2027: the bookings come from the makers' own calls and releases, and Micron's filings show its strategic customers committed to pay for contracted volumes whether or not they take them. The weakest link is price, since the 121% is a forecast that includes the shift to HBM4 and no maker has disclosed a contract price. Beyond 2027 we side with the doubters, because the new factories are dated and under construction, Micron's among them.
+**The evidence supports it** for 2027: the bookings come from all three makers' own calls and releases, and Micron's filings show its strategic customers committed to pay for contracted volumes whether or not they take them. The weakest link is price: Micron calls its 2027 increases significant, but no maker has disclosed a contract price, and TrendForce's 121% includes the shift to HBM4. Beyond 2027 we side with the doubters over the makers' own forecasts, because the new supply is dated and already under construction.
 
 The number we'll watch is Micron's gross margin in December against its 86.25% guide.

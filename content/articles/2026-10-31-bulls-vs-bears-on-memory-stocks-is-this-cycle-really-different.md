@@ -115,11 +115,11 @@ Micron's guidance for this quarter, about 85.95%, would end that run. It reports
 | Kwak Noh-jung, SK hynix | Bull | More than half of 2027-28 capacity under contract | Results release, 28 October |
 | Jeongku Choi, Counterpoint Research | Bull | DRAM prices down 23% in 2028, still about 230% above 2025 | CNBC, 15 October |
 | Lip-Bu Tan, Intel | Bear | Intel's outlook: a PC slowdown through at least the first half of 2027 | Yahoo Finance and Intel's results release, 29-30 October |
-| Kye-hyun Kyung, Samsung | Bear | Chinese supply pushing prices down from late 2027 or early 2028 | NAEK forum, reported 22 May |
+| Kye-hyun Kyung, Samsung | Bear | Chinese supply pushing prices down from late 2027 or early 2028 | NAEK forum, May |
 | James Mackintosh, The Wall Street Journal | Bear | Micron's forward P/E under 10, near its 2022 peak of 9 | Streetwise column, 16 May |
 
 ## Our read
 
-The evidence favors the bulls on timing: more than half of SK hynix's 2027-28 output is under contract, Micron's buyers have put cash behind their orders, and prices are still rising, so we think a price collapse in 2027 is unlikely.
+The evidence favors the bulls on timing: more than half of SK hynix's 2027-28 output is under contract, Micron's buyers have put cash behind their orders, and prices are still rising, so we think a price collapse in 2027 is unlikely. But the bears have the direction right: price rises are shrinking and Micron's margin guide has turned down.
 
-But the bears have the direction right, and Micron's share price already agrees with them: at Friday's close it was under 6 times this quarter's guided adjusted earnings per share multiplied by four, a price that assumes today's profits won't last. The contracts that should soften a downturn also cap the upside, since TrendForce says their terms will make some suppliers' server-memory price rises lag the market this quarter. Micron's December guide will tell us whether the turn has started.
+Micron's share price already agrees with the bears: at Friday's close it was under 6 times this quarter's guided adjusted earnings per share multiplied by four, a price that assumes today's profits won't last. The contracts that should soften a downturn also cap the upside, since TrendForce says their terms will make some suppliers' server-memory price rises lag the market this quarter. Micron's December guide will tell us whether the turn has started.
