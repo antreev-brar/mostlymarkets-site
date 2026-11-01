@@ -2,7 +2,7 @@
 title = "AstraZeneca (AZN) Tops Q3 Estimates and Shares Jump 7% on a Savings Plan"
 dek = "AstraZeneca earned $2.79 a share on a core basis, above the $2.59 expected, and set out $1.5 billion a year of savings for its pipeline. Its US shares jumped 7%."
 type = "earnings-recap"
-published = 2026-11-01T09:08:00-05:00
+published = 2026-11-01T07:47:00-05:00
 author = "claire-okafor"
 tickers = ["AZN", "ABBV"]
 event = "recap-AZN-2026-10-30"

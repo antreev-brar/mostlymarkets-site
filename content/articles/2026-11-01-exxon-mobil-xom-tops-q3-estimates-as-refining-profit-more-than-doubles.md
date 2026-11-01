@@ -2,7 +2,7 @@
 title = "Exxon Mobil (XOM) Tops Q3 Estimates as Refining Profit More Than Doubles"
 dek = "Exxon earned $4.23 a share on an adjusted basis, above the $4.08 LSEG consensus, as refining earned a record $9.05 billion. The stock rose 2.2% to a record close."
 type = "earnings-recap"
-published = 2026-11-01T08:12:00-05:00
+published = 2026-11-01T07:44:00-05:00
 author = "theo-park"
 tickers = ["XOM", "CVX"]
 themes = ["oil-shock"]

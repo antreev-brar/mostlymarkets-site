@@ -2,7 +2,7 @@
 title = "Regeneron (REGN) Beats Q3 Estimates and Has Its Best Day Since 2022"
 dek = "Regeneron earned $20.07 a share on an adjusted basis, far above the $16.24 LSEG consensus, as revenue grew 36%. The stock soared 13.3%, its biggest gain since 2022."
 type = "earnings-recap"
-published = 2026-11-01T09:30:00-05:00
+published = 2026-11-01T07:48:00-05:00
 author = "claire-okafor"
 tickers = ["REGN", "ABBV"]
 event = "recap-REGN-2026-10-30"

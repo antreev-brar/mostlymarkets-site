@@ -2,7 +2,7 @@
 title = "BP (BP) Tops Q3 Estimates With Its Highest Profit in 18 Years"
 dek = "BP's underlying profit hit $8.46 billion, against the $7.33 billion analysts expected, and it cut net debt by more than $8 billion. Buybacks stayed off. The ADRs edged up 0.1%."
 type = "earnings-recap"
-published = 2026-11-01T08:52:00-05:00
+published = 2026-11-01T07:46:00-05:00
 author = "theo-park"
 tickers = ["BP", "XOM", "CVX"]
 themes = ["oil-shock"]

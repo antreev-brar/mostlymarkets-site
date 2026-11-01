@@ -2,7 +2,7 @@
 title = "General Dynamics (GD) Tops Q3 Estimates as Backlog Hits a Record $220 Billion"
 dek = "General Dynamics earned $4.49 a share, above the $4.14 expected, and raised its 2026 forecast for the third time after $99 billion of orders. The stock rose 0.5%."
 type = "earnings-recap"
-published = 2026-11-01T08:31:00-05:00
+published = 2026-11-01T07:45:00-05:00
 author = "theo-park"
 tickers = ["GD"]
 event = "recap-GD-2026-10-30"

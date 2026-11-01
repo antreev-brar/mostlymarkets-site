@@ -2,7 +2,7 @@
 title = "AbbVie (ABBV) Tops Q3 Estimates as Skyrizi and Rinvoq Grow 23%"
 dek = "AbbVie earned $3.82 a share on an adjusted basis, above the $3.74 expected, and raised its 2026 forecast. The stock rose 1.4% on Friday to a record close."
 type = "earnings-recap"
-published = 2026-11-01T07:58:00-05:00
+published = 2026-11-01T07:43:00-05:00
 author = "claire-okafor"
 tickers = ["ABBV", "REGN"]
 event = "recap-ABBV-2026-10-30"
