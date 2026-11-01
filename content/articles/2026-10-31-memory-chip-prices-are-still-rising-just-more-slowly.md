@@ -44,7 +44,7 @@ TrendForce, a Taiwan-based market tracker, forecast on 30 September that contrac
 
 Supply is still short, it said, as makers steer their most advanced capacity to servers. The brakes are softer consumer demand, phone-memory increases already priced in, and long-term contracts whose price bands make some suppliers' server increases lag the market.
 
-The percentages also shrink because each rise comes on a higher base. By our arithmetic, TrendForce's estimates and forecasts put last quarter's prices at **five to nearly six times** their level a year earlier. So this quarter's rise adds as many dollars per chip as the 45% to 50% jump of late 2025, or more.
+The percentages also shrink because each rise comes on a higher base. By our arithmetic, TrendForce's estimates and forecasts put last quarter's prices at **five to nearly six times** their level a year earlier. So this quarter's rise adds as many dollars per chip as the 45% to 50% jump of late 2025, or more, but less than half the second quarter's.
 
 Those dollars are nearly all gross profit, because a chip costs about the same to make whatever it sells for. Micron ($MU), which makes mostly DRAM, kept 86.8% of its sales in the quarter to 3 September as GAAP gross profit, up from 44.7% a year earlier, its results show.
 
