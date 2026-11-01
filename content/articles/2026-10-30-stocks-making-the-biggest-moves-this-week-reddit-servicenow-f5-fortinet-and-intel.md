@@ -10,6 +10,8 @@ moves = [
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "INTC", price = 65.76, change_pct = -28.58, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
+cover_brief = "A lone analyst in a pale shirt, seen from directly behind and centred, standing with hands in pockets at the floor-to-ceiling window of a dim high-rise office late at night, looking over plain lit office towers blurred into soft bokeh under a deep blue sky; one warm desk lamp glows on a bare desk."
+cover_alt = "A man at an office window looking out over a city at night"
 sources = [
   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
   "https://cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",

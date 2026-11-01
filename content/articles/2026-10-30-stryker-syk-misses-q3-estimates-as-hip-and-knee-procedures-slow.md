@@ -11,6 +11,8 @@ moves = [
   { ticker = "SYK", price = 288.00, change_pct = -7.62, session = "regular", asof = 2026-10-30T09:31:50-04:00 },
   { ticker = "SYK", price = 311.75, change_pct = 2.55, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
+cover_brief = "A quiet orthopaedic operating theatre between operations: two large round surgical lamps glowing over an empty operating table under a clean blue drape in the centre, the freshly mopped floor reflecting the lights, one nurse in teal scrubs and cap seen from behind, far in the background."
+cover_alt = "Three surgical lamps over an empty operating table, a nurse in scrubs beyond"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm",
   "https://s22.q4cdn.com/857738142/files/doc_financials/2026/q3/SYK-Ex-99-1-Earnings-Q3-2026.pdf",

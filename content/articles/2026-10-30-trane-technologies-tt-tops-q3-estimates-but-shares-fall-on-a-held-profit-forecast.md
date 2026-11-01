@@ -10,6 +10,8 @@ moves = [
   { ticker = "TT", price = 431.10, change_pct = -3.87, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "TT", price = 419.97, change_pct = -2.58, session = "regular", asof = 2026-10-30T09:31:40-04:00 },
 ]
+cover_brief = "Seen from a neighbouring tower, a row of large rooftop air-conditioning units in plain unmarked galvanised steel, big round black fan grilles facing up, stands centred on a flat office roof wet with rain puddles; plain glass towers blurred behind under a pale blue-grey sky, cool soft light after rain"
+cover_alt = "Rows of grey air-conditioning units on a rain-wet office roof, towers behind"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001466258/000146625826000001/exhibit991-q32026earningsr.htm",
   "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Reports-Strong-Third-Quarter-Results-Raises-Full-Year-Revenue-Guidance-Reaffirms-Full-Year-EPS-Guidance/default.aspx",

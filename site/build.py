@@ -1376,19 +1376,38 @@ def cited_posts(stories: list[Story]) -> list[dict]:
     return out
 
 
+# The running stories a post can be named after (STYLE.md, "Story log"); other keys are shown in sentence case.
+THEME_LABEL = {"ai-capex": "AI spending", "memory-cycle": "The memory cycle", "hbm-pricing": "AI memory",
+               "chip-selloff": "The chip selloff", "big-tech-earnings": "Big Tech earnings", "korea-chips": "Korea's chipmakers",
+               "fed-rates": "The Fed", "oil-shock": "Oil", "intel-turnaround": "Intel's turnaround", "openai": "OpenAI",
+               "index-changes": "Index changes", "export-controls": "Export controls", "crypto": "Crypto"}
+SINGLE = {"why-it-moved", "earnings-recap", "earnings-preview", "breakdown", "brief"}  # about one company
+
+
+def post_who(s: Story) -> tuple[str, str]:
+    """Who a post is from, as an avatar and a name: the company for a one-company story; for analysis across several
+    companies, their logos and the running story it belongs to; the Daily its own mark."""
+    if s.type == "daily":
+        return MM_AV.format(s=44), "The Daily"
+    t0 = s.tickers[0] if s.tickers else None
+    about = t0 and (re.search(rf"\b{re.escape(t0)}\b", s.title) or UMAP[t0]["name"].split()[0].lower() in s.title.lower())
+    if t0 and about and (s.type in SINGLE or len(s.tickers) == 1):
+        extra = f'<span class="p-more">+{len(s.tickers) - 1}</span>' if len(s.tickers) > 1 else ""
+        return logo(s.tickers[0], 44), f"<b>{esc(UMAP[s.tickers[0]]['name'])}</b>{extra}"
+    name = (THEME_LABEL.get(s.themes[0]) or s.themes[0].replace("-", " ").capitalize()) if s.themes else "Markets"
+    av = f'<span class="p-lgs">{logos(s.tickers[:2], 30)}</span>' if len(s.tickers) > 1 else logo(s.tickers[0] if s.tickers else None, 44)
+    return av, f"<b>{esc(name)}</b>"
+
+
 def post_story(s: Story) -> str:
     """Our story as a feed post: who it's about, what kind, how long ago; the headline, the dek, the cover photo."""
+    av, who = post_who(s)
     if s.type == "daily":
-        av, name = MM_AV.format(s=44), "The Daily"
-    elif s.tickers:
-        av, name = logo(s.tickers[0], 44), UMAP[s.tickers[0]]["name"]
-    else:
-        av, name = logo(None, 44), "Markets"
-    extra = f'<span class="p-more">+{len(s.tickers) - 1}</span>' if len(s.tickers) > 1 else ""
+        who = "<b>The Daily</b>"
     return (f'<article class="post ps" data-kind="story" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"{fresh(s)}>'
             f'<a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
             f'<div class="p-av">{av}</div><div class="p-b">'
-            f'<div class="p-h"><b>{esc(name)}</b>{extra}<span class="tag">{TYPE_LABEL[s.type]}</span>{ago(s.pub, "ago q")}</div>'
+            f'<div class="p-h">{who}<span class="tag">{TYPE_LABEL[s.type]}</span>{ago(s.pub, "ago q")}</div>'
             f'<h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p>'
             f'<div class="p-m">{cover_img(s.cover, 800)}</div>'
             f'<div class="p-f">{chips(s, 1)}<span>{esc(s.author["name"])} · {s.minutes} min read</span></div></div></article>')

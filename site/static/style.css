@@ -1197,3 +1197,7 @@ ol.tks li > a { display: grid; grid-template-columns: 22px 1fr; gap: 4px; }
 .nw-m .sav { flex: none; }
 .sfeed { margin-top: 4px; }
 .sfeed .post:last-child { border-bottom: 0; }
+.p-lgs { display: grid; place-items: center; width: 44px; height: 44px; }
+.p-lgs .lgs { --s: 30px; }
+.p-lgs .lgs .lg + .lg { margin-left: -14px; margin-top: 14px; }
+@media (max-width: 640px) { .p-lgs { width: 40px; height: 40px; } }

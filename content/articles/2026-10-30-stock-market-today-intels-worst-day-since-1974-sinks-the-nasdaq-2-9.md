@@ -12,6 +12,8 @@ moves = [
   { ticker = "NVDA", price = 204.64, change_pct = -4.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "REGN", price = 927.89, change_pct = 13.33, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
+cover_brief = "A wide trading floor high in an office tower at deep blue-hour dusk, seen down the centre aisle: long rows of desks with plain unmarked monitors glowing blank pale blue, traders seen from behind, most seated, one standing in the aisle, and tall windows onto a darkening city skyline."
+cover_alt = "Traders at rows of glowing screens on a trading floor at dusk, skyline beyond"
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",

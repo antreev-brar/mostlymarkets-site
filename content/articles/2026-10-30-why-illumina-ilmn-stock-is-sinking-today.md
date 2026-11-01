@@ -10,6 +10,8 @@ event = "move-ILMN-2026-10-30"
 moves = [
   { ticker = "ILMN", price = 234.23, change_pct = -19.25, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
+cover_brief = "A genomics lab bench by tall windows in hazy midday sun: in the centre, a plain white rack holding six smooth unmarked clear sample tubes of pale blue liquid, crisp and evenly spaced; beyond, a scientist in a white lab coat stands at the window with hands in pockets, seen from behind, softly blurred."
+cover_alt = "Sample tubes of blue liquid in a sunlit lab, a scientist beyond"
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000202/q326earningsrelease.htm",
   "https://investor.illumina.com/news-releases/news-release-details/illumina-reports-financial-results-third-quarter-fiscal-year-8",
