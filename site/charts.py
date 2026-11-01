@@ -225,15 +225,16 @@ def line_svg(key: str, W: int, H: int, fs: float, dates: list[str], series: list
             parts.append(f'<circle class="mk" cx="{mx:.1f}" cy="{my:.1f}" r="4"/>'
                          f'<text class="ml" x="{mx + dx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">{esc(txt)}</text>')
     if notes:
-        parts.append(_notes(notes, X, lambda i: Y(s0[i]) if s0[i] is not None else None, l, pw, t, ph, fs))
+        parts.append(_notes(notes, X, lambda i: Y(s0[i]) if s0[i] is not None else None, l, pw, t, ph, fs, li, W - tw))
     parts.append(f'<g class="hv"><line class="hl" y1="{t}" y2="{t + ph}"/><circle class="hd" r="4.5"/></g>')
     parts.append("</svg>")
     return "".join(parts)
 
 
-def _notes(notes, X, Yi, l, pw, t, ph, fs) -> str:
+def _notes(notes, X, Yi, l, pw, t, ph, fs, last=None, end_x=None) -> str:
     """Event annotations: a dashed rule at each dated note, a ring on the line, and the label above the plot.
-    Labels that would collide drop to a second row."""
+    Labels that would collide drop to a second row. A note at the end of the line (the last point, or close enough to
+    sit under the end-price pill) gets no ring, since the end dot marks it, and its rule stops above the line."""
     out, rows = [], [[], []]
     for idx, label in sorted(notes):
         x = X(idx)
@@ -243,9 +244,11 @@ def _notes(notes, X, Yi, l, pw, t, ph, fs) -> str:
         row = 0 if all(x1 < a or x0 > b for a, b in rows[0]) else 1
         rows[row].append((x0, x1))
         ty = t - fs * 0.55 - (0 if row == 0 else -fs * 1.25)
-        out.append(f'<line class="nt-l" x1="{x:.1f}" x2="{x:.1f}" y1="{ty + 3:.1f}" y2="{t + ph}"/>')
         y = Yi(idx)
-        if y is not None:
+        at_end = idx == last or (end_x is not None and x >= end_x - 6)
+        y2 = y - 12 if at_end and y is not None else t + ph
+        out.append(f'<line class="nt-l" x1="{x:.1f}" x2="{x:.1f}" y1="{ty + 3:.1f}" y2="{y2:.1f}"/>')
+        if y is not None and not at_end:
             out.append(f'<circle class="nt-d" cx="{x:.1f}" cy="{y:.1f}" r="4.5"/>')
         dx = -5 if anchor == "end" else 5
         out.append(f'<text class="nt-t" x="{x + dx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">{esc(label)}</text>')
@@ -408,6 +411,26 @@ def hbars_svg(key, W, H_unused, fs, labels, values, unit, highlight=None, median
     H = int(t + b + row * n)
     lab_w = max(_tw(str(x), fs) for x in labels) + 12
     lab_w = min(lab_w, W * 0.42)
+
+    def label(lab: str, y: float, on: bool) -> str:
+        """A label that would run into its bar wraps onto two lines at the most even word break; a single word too
+        long even then is cut with an ellipsis (the bar's tip keeps the full name)."""
+        room = lab_w - 10
+        cls = f'hl1{" on" if on else ""}'
+        if _tw(lab, fs) <= room:
+            return f'<text class="{cls}" x="0" y="{y:.1f}">{esc(lab)}</text>'
+        words = lab.split()
+        best = None
+        for i in range(1, len(words)):
+            a, b = " ".join(words[:i]), " ".join(words[i:])
+            wd = max(_tw(a, fs), _tw(b, fs))
+            if best is None or wd < best[0]:
+                best = (wd, a, b)
+        if best and best[0] <= room:
+            return (f'<text class="{cls}" x="0" y="{y - fs * 0.58:.1f}"><tspan x="0">{esc(best[1])}</tspan>'
+                    f'<tspan x="0" dy="{fs * 1.16:.1f}">{esc(best[2])}</tspan></text>')
+        cut = lab[:max(3, int(room / (fs * .58)))].rstrip(" ,(") + "…"
+        return f'<text class="{cls}" x="0" y="{y:.1f}">{esc(cut)}</text>'
     vals = [v for v in values if v is not None]
     val_w = max(fs * 4.8, max([_tw(("+" if v > 0 else "") + fmt(v, unit), fs) for v in vals] or [0]) + 12)
     mx = max([abs(v) for v in vals] + ([abs(median)] if median is not None else [])) or 1
@@ -428,7 +451,7 @@ def hbars_svg(key, W, H_unused, fs, labels, values, unit, highlight=None, median
         bh = row * 0.56
         cy = y + row / 2
         on = i == highlight
-        out.append(f'<text class="hl1{" on" if on else ""}" x="0" y="{cy + fs * 0.35:.1f}">{esc(lab)}</text>')
+        out.append(label(str(lab), cy + fs * 0.35, on))
         if v is None:
             out.append(f'<text class="hv1 nt" x="{zero_x + 6:.1f}" y="{cy + fs * 0.35:.1f}">n/a</text>')
             continue

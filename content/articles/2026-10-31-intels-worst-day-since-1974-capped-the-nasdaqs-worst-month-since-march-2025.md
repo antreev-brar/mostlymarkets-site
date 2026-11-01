@@ -145,7 +145,7 @@ Vertiv ($VRT) raised its outlook as its orders more than doubled ([full story](/
 
 Pentair ($PNR) beat profit estimates ([full story](/news/2026-10-28/stocks-making-the-biggest-moves-yesterday-xylem-sofi-pentair-celestica-and-boeing/)), Carvana ($CVNA) sold a record 217,385 cars in the quarter ([full story](/news/2026-10-29/why-carvana-cvna-stock-is-soaring-today/)), and Global Payments ($GPN) jumped on a report of a possible buyout that no one has confirmed.
 
-### Even the safe havens fell
+### Gold and bitcoin fell too, but Treasuries rallied
 
 ```stat
 [{"value": "-3.6%", "label": "Gold on Friday", "note": "To $3,884.90 an ounce", "tone": "down"},

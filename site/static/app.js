@@ -45,52 +45,10 @@
     e.preventDefault();
     var t = b.getAttribute("data-follow"), f = follows(), i = f.indexOf(t);
     if (i > -1) { f.splice(i, 1); toast("Unfollowed " + t); }
-    else { f.push(t); toast("Following " + t + ". Its stories now show under My stocks."); }
-    store.set("mm-follows", f); paintFollow(); applyFilter();
+    else { f.push(t); toast("Following " + t + ". Its stories now show on the home page, under Your stocks."); }
+    store.set("mm-follows", f); paintFollow(); paintMine();
   });
   paintFollow();
-
-  /* feed filters: All, Our stories, Headlines (newsrooms and X posts), My stocks; story-type chips on other pages */
-  var current = "all";
-  function applyFilter() {
-    var rows = $$(".feed .card, .feed .post");
-    if (!rows.length) return;
-    $$(".feed").forEach(function (x) { x.classList.toggle("wide", current !== "all"); });
-    var f = follows(), shown = 0;
-    rows.forEach(function (r) {
-      var type = r.getAttribute("data-type"), kind = r.getAttribute("data-kind") || "story",
-        tks = (r.getAttribute("data-tickers") || "").split(" ");
-      var ok = current === "all" ? !r.classList.contains("xtra") :  // All shows a few headlines between stories
-        (current === "mine" ? tks.some(function (t) { return t && f.indexOf(t) > -1; }) :
-          current === "story" ? kind === "story" : current === "news" ? kind !== "story" :
-            current.split(",").indexOf(type) > -1);
-      r.hidden = !ok; if (ok) shown++;
-    });
-    $$(".feed .day").forEach(function (d) {
-      var n = d.nextElementSibling, any = false;
-      while (n && !n.classList.contains("day")) {
-        if ((n.classList.contains("card") || n.classList.contains("post")) && !n.hidden) any = true;
-        n = n.nextElementSibling;
-      }
-      d.hidden = !any;
-    });
-    var em = $(".feed .empty");
-    if (em) {
-      em.hidden = shown > 0;
-      em.textContent = current === "mine" ?
-        (f.length ? "Nothing new on the stocks you follow on this page." : "Follow a stock from its page or any story, and its stories and headlines will collect here.") :
-        "Nothing of this kind on this page.";
-    }
-  }
-  $$(".chips .chip, .ftabs .ftab").forEach(function (c) {
-    c.addEventListener("click", function () {
-      $$(".chips .chip, .ftabs .ftab").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
-      c.setAttribute("aria-pressed", "true");
-      current = c.getAttribute("data-filter");
-      applyFilter();
-    });
-  });
-  applyFilter();
 
   /* chart ranges on stock pages */
   $$(".ranges").forEach(function (g) {
@@ -191,17 +149,23 @@
       hour: "2-digit", minute: "2-digit", hour12: false, weekday: "short" }).formatToParts(d).forEach(function (x) { p[x.type] = x.value; });
     return { day: p.year + "-" + p.month + "-" + p.day, h: +p.hour % 24, m: +p.minute, wd: p.weekday };
   }
-  function rel(iso) {
+  function rel(iso, short) {
     var t = new Date(iso).getTime(), s = (Date.now() - t) / 1000;
     if (isNaN(t) || s < -300) return null;
     if (s < 60) return "Just now";
     if (s < 3600) return Math.round(s / 60) + " min ago";
-    if (s < 6 * 3600) { var h = Math.floor(s / 3600), m = Math.round((s - h * 3600) / 60); return h + "h " + (m ? m + "m " : "") + "ago"; }
+    if (short) {  // narrow cards: no clock time
+      var sa = nyParts(new Date(t)), sn = nyParts(new Date()), sy = nyParts(new Date(Date.now() - 864e5));
+      if (sa.day === sn.day || s < 6 * 3600) return Math.round(s / 3600) + "h ago";
+      if (sa.day === sy.day) return "Yesterday";
+      return s < 6 * 86400 ? sa.wd : null;
+    }
+    if (s < 6 * 3600) { var mins = Math.round(s / 60), h = Math.floor(mins / 60), m = mins % 60; return h + "h " + (m ? m + "m " : "") + "ago"; }
     var a = nyParts(new Date(t)), n = nyParts(new Date()), y = nyParts(new Date(Date.now() - 864e5));
     var hh = a.h % 12 || 12, tm = hh + ":" + (a.m < 10 ? "0" : "") + a.m + (a.h < 12 ? " a.m." : " p.m.");
     if (a.day === n.day) return Math.round(s / 3600) + "h ago";
     if (a.day === y.day) return "Yesterday, " + tm;
-    if (s < 6 * 864e5) return a.wd + ", " + tm;
+    if (s < 6 * 86400) return a.wd + ", " + tm;
     return null;
   }
   var NEW_H = 6;
@@ -213,7 +177,7 @@
     return +prev || 0;
   })();
   function paintTimes() {
-    $$("time[data-rel]").forEach(function (el) { var r = rel(el.getAttribute("datetime")); if (r) el.textContent = r; });
+    $$("time[data-rel]").forEach(function (el) { var r = rel(el.getAttribute("datetime"), el.classList.contains("s")); if (r) el.textContent = r; });
     $$("[data-pub]").forEach(function (el) {
       var t = new Date(el.getAttribute("data-pub")).getTime(), age = (Date.now() - t) / 36e5;
       el.classList.toggle("is-new", age >= -0.1 && age < NEW_H);
@@ -228,6 +192,103 @@
   }
   paintTimes();
   setInterval(paintTimes, 30000);
+
+  /* home: shelves scroll sideways with their arrows; on a phone, Stories and Top news are two tabs */
+  function initShelf(sh) {
+    var tr = $(".sh-tr", sh), bs = $$(".sh-b", sh);
+    if (!tr || sh.getAttribute("data-on")) return;
+    sh.setAttribute("data-on", "1");
+    function paint() {
+      var end = tr.scrollWidth - tr.clientWidth - 2;
+      bs.forEach(function (b) { b.disabled = +b.getAttribute("data-dir") < 0 ? tr.scrollLeft <= 2 : tr.scrollLeft >= end; });
+    }
+    bs.forEach(function (b) {
+      b.addEventListener("click", function () {  // a whole number of cards at a time, so none is skipped
+        var c = $(".sh-c", tr), w = c ? c.offsetWidth + 16 : 0;
+        var step = w ? Math.max(1, Math.floor((tr.clientWidth + 16) / w)) * w : tr.clientWidth * 0.92;
+        tr.scrollBy({ left: +b.getAttribute("data-dir") * step, behavior: "smooth" });
+      });
+    });
+    tr.addEventListener("scroll", paint, { passive: true });
+    window.addEventListener("resize", paint);
+    paint();
+  }
+  $$(".shelf:not([hidden])").forEach(initShelf);
+
+  /* Your stocks: a shelf of the latest stories on the stocks you follow (from data/stories.json) */
+  var mine = $('.shelf[data-shelf="mine"]'), allStories = null;
+  function dateOf(iso) {  // what an old story's time says (rel() gives up after six days)
+    try { return new Date(iso).toLocaleDateString("en-US", { day: "numeric", month: "short", timeZone: "America/New_York" }); } catch (e) { return ""; }
+  }
+  function tagOf(ts) { return ts[0] + (ts.length > 1 ? " +" + (ts.length - 1) : ""); }
+  function paintMine() {
+    if (!mine) return;
+    var f = follows();
+    if (!f.length) { mine.hidden = true; return; }
+    var draw = function () {
+      var hit = (allStories || []).filter(function (x) { return x.k.some(function (t) { return f.indexOf(t) > -1; }); }).slice(0, 12);
+      if (!hit.length) { mine.hidden = true; return; }
+      $(".sh-tr", mine).innerHTML = hit.map(function (x) {
+        return '<article class="sh-c" data-pub="' + esc(x.d) + '"><a class="cover-link" href="' + B + esc(x.p) + '" aria-label="' + esc(x.t) + '"></a>' +
+          '<div class="th"><img src="' + B + "static/covers/" + esc(x.c) + '-480.webp" alt="" loading="lazy" decoding="async"></div>' +
+          '<div class="sh-tx"><div class="c-top"><span class="tag">' + esc(tagOf(x.k.filter(function (t) { return f.indexOf(t) > -1; }))) + "</span>" +
+          '<time class="ago q s" datetime="' + esc(x.d) + '" data-rel>' + esc(dateOf(x.d)) + '</time></div><h3>' + esc(x.t) + "</h3></div></article>";
+      }).join("");
+      mine.hidden = false; initShelf(mine); paintTimes();
+    };
+    if (allStories) return draw();
+    fetch(B + "data/stories.json").then(function (r) { return r.ok ? r.json() : []; }).then(function (d) { allStories = d; draw(); }).catch(function () {});
+  }
+  paintMine();
+  var hm = $(".hm");
+  if (hm && $(".hm-tabs", hm)) {
+    hm.setAttribute("data-view", "stories");
+    $$(".hm-tabs button", hm).forEach(function (b) {
+      b.addEventListener("click", function () {
+        $$(".hm-tabs button", hm).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        hm.setAttribute("data-view", b.getAttribute("data-view"));
+      });
+    });
+  }
+
+  /* Top news keeps itself up to date: every few minutes it re-reads data/topnews.json (rewritten with each build) and,
+     as X does, offers the new posts instead of moving the column under the reader */
+  var xr = $("#top-news");
+  if (xr && window.fetch) {
+    var feedEl = $(".xr-feed", xr), pill = $(".xr-new", xr), asofEl = $(".xr-asof", xr), pending = null;
+    var when = function (x) { return Date.parse(x.getAttribute("data-pub")) || 0; };
+    var poll = function () {
+      if (document.hidden) return;
+      fetch(B + "data/topnews.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+        if (!d || !d.html) return;
+        var box = document.createElement("div"); box.innerHTML = d.html;
+        // new means newer than anything on screen: older posts can come back into the list as smaller ones age out
+        var have = $$(".xp[data-id]", feedEl).map(function (x) { return x.getAttribute("data-id"); });
+        var newest = Math.max.apply(null, [0].concat($$(".xp[data-pub]", feedEl).map(when)));
+        var fresh = $$(".xp[data-id]", box).filter(function (x) { return when(x) > newest && have.indexOf(x.getAttribute("data-id")) < 0; });
+        if (!fresh.length) {  // nothing newer: the column is current as of this read
+          pending = null; pill.hidden = true;
+          if (asofEl && d.asof) asofEl.setAttribute("datetime", d.asof);
+          paintTimes(); return;
+        }
+        pending = d;
+        pill.textContent = "Show " + fresh.length + " new post" + (fresh.length > 1 ? "s" : "");
+        pill.hidden = false;
+      }).catch(function () {});
+    };
+    pill.addEventListener("click", function () {
+      if (pending) {
+        feedEl.innerHTML = pending.html;
+        if (asofEl && pending.asof) asofEl.setAttribute("datetime", pending.asof);
+        pending = null;
+      }
+      pill.hidden = true; paintTimes();
+      if (xr.scrollHeight > xr.clientHeight + 1) xr.scrollTo({ top: 0, behavior: "smooth" });  // the column scrolls on its own
+      else window.scrollTo({ top: xr.getBoundingClientRect().top + window.scrollY - ($(".hd") || xr).offsetHeight - 8, behavior: "smooth" });
+    });
+    setInterval(poll, 180000);
+    document.addEventListener("visibilitychange", function () { if (!document.hidden) poll(); });
+  }
 
   /* live quotes (refreshed by the data job every 15 minutes) */
   var live = $$("[data-live]"), mk = $$("[data-mk]");
@@ -335,22 +396,8 @@
   /* stories: tap-through slides (templates rendered by the build) */
   var groups = $$("template.stg");
   if (groups.length) {
-    var seen = store.get("mm-seen-stories", []);
-    var rail = $(".rail-in");
-    function paintSeen() {
-      $$(".ring[data-story-open]").forEach(function (r) { r.classList.toggle("seen", seen.indexOf(r.getAttribute("data-story-open")) > -1); });
-    }
-    if (rail) {  // unseen first, like every stories rail
-      $$(".ring", rail).filter(function (r) { return seen.indexOf(r.getAttribute("data-story-open")) > -1; })
-        .forEach(function (r) { rail.appendChild(r); });
-    }
-    paintSeen();
     var ov, bars, hd, stage, gi = 0, si = 0, t0 = 0, elapsed = 0, paused = false, raf = 0, DUR = 7000, down = null;
     function slidesOf(g) { return $$(".sl", g.content); }
-    function markSeen(g) {
-      var id = g.getAttribute("data-id");
-      if (seen.indexOf(id) < 0) { seen.push(id); seen = seen.slice(-60); store.set("mm-seen-stories", seen); }
-    }
     function build() {
       ov = document.createElement("div"); ov.className = "stv"; ov.setAttribute("role", "dialog"); ov.setAttribute("aria-modal", "true"); ov.setAttribute("aria-label", "Stories");
       ov.innerHTML = '<button class="stv-nav p" type="button" aria-label="Previous">‹</button><div class="stv-fr"><div class="stv-bars"></div><div class="stv-hd"></div>' +
@@ -384,9 +431,14 @@
       var nm = document.createElement("span"); nm.innerHTML = esc(g.getAttribute("data-name")) + " <small>" + esc(g.getAttribute("data-when")) + "</small>";
       hd.appendChild(nm);
       var x = document.createElement("button"); x.className = "stv-x"; x.type = "button"; x.setAttribute("aria-label", "Close"); x.innerHTML = "×"; hd.appendChild(x);
-      stage.innerHTML = ""; stage.appendChild(sl[si].cloneNode(true));
+      // a slide's chart reuses the page's gradient ids, which may sit in a hidden chart: give the copy its own
+      var c = sl[si].cloneNode(true);
+      $$("[id]", c).forEach(function (el) {
+        var o = el.id; el.id = o + "-v";
+        $$('[fill="url(#' + o + ')"]', c).forEach(function (q) { q.setAttribute("fill", "url(#" + o + "-v)"); });
+      });
+      stage.innerHTML = ""; stage.appendChild(c);
       elapsed = 0; t0 = performance.now();
-      if (si === sl.length - 1) markSeen(g);
     }
     function tick(now) {
       if (!paused && !document.hidden) elapsed += now - t0;
@@ -398,7 +450,7 @@
     }
     function next() { if (si < slidesOf(groups[gi]).length - 1) { si++; show(); } else nextGroup(); }
     function prev() { if (si > 0) { si--; show(); } else prevGroup(); }
-    function nextGroup() { markSeen(groups[gi]); if (gi < groups.length - 1) { gi++; si = 0; show(); } else close(); }
+    function nextGroup() { if (gi < groups.length - 1) { gi++; si = 0; show(); } else close(); }
     function prevGroup() { if (gi > 0) { gi--; si = 0; } show(); }
     function open(id) {
       if (!ov) build();
@@ -411,7 +463,6 @@
     function close(fromPop) {
       if (!ov || !ov.classList.contains("on")) return;
       ov.classList.remove("on"); document.documentElement.style.overflow = ""; cancelAnimationFrame(raf);
-      paintSeen();
       if (fromPop !== true && history.state && history.state.stv) history.back();
     }
     window.addEventListener("popstate", function () { close(true); });
