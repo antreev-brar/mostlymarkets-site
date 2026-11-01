@@ -5,6 +5,7 @@ type = "market-wrap"
 published = 2026-10-27T17:10:00-04:00
 author = "nora-whitfield"
 tickers = []
+logos = ["BA", "AMD", "NVDA", "AVGO"]
 cover = "trading-floor"
 cover_brief = "In a vast aircraft hangar lit by shafts of morning light, a team of gleaming silver robots digs in and heaves on a thick rope. Its other end is lashed to a colossal unmarked jet engine on a heavy steel stand that does not budge, and a red ribbon tied at the rope's middle hangs still over a painted line on the floor."
 cover_alt = "Silver robots straining on a rope tied to a giant jet engine in a hangar, the rope's ribbon not moving"

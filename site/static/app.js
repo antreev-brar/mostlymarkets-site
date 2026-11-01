@@ -27,7 +27,8 @@
     clearTimeout(toast.t); toast.t = setTimeout(function () { toastEl.classList.remove("on"); }, 2600);
   }
 
-  /* follows */
+  /* follows: the reader's watchlist, kept in this browser. Every Follow button for a stock, the header's count and
+     the watchlist page stay in step. */
   function follows() { return store.get("mm-follows", []); }
   function paintFollow() {
     var f = follows();
@@ -35,18 +36,23 @@
       var on = f.indexOf(b.getAttribute("data-follow")) > -1;
       b.classList.toggle("on", on);
       b.setAttribute("aria-pressed", on ? "true" : "false");
-      var lab = b.querySelector("span");
-      if (lab) lab.textContent = on ? "Following" : "Follow";
+      var lab = b.querySelector("span[data-l]");
+      if (lab) lab.textContent = on ? "On your watchlist" : lab.getAttribute("data-l");
+      if (b.classList.contains("fi")) {
+        var nm = (b.getAttribute("aria-label") || "").replace(/^Add (.*) to your watchlist$/, "$1");
+        b.setAttribute("title", on ? "Remove " + nm + " from your watchlist" : "Add " + nm + " to your watchlist");
+      }
     });
+    $$(".wl-n").forEach(function (n) { n.textContent = f.length; n.hidden = !f.length; });
   }
   document.addEventListener("click", function (e) {
     var b = e.target.closest("[data-follow]");
     if (!b) return;
-    e.preventDefault();
-    var t = b.getAttribute("data-follow"), f = follows(), i = f.indexOf(t);
-    if (i > -1) { f.splice(i, 1); toast("Unfollowed " + t); }
-    else { f.push(t); toast("Following " + t + ". Its stories now show on the home page, under Your stocks."); }
-    store.set("mm-follows", f); paintFollow(); paintMine();
+    e.preventDefault(); e.stopPropagation();
+    var t = b.getAttribute("data-follow"), f = follows(), i = f.indexOf(t), shown = b.getAttribute("aria-pressed") === "true";
+    if (shown) { if (i > -1) f.splice(i, 1); toast("Removed " + t + " from your watchlist"); }
+    else { if (i < 0) f.unshift(t); toast("Added " + t + " to your watchlist"); }
+    store.set("mm-follows", f); paintFollow(); paintMine(); paintWatch();
   });
   paintFollow();
 
@@ -143,30 +149,23 @@
   }
 
   /* recency: every timestamp says how long ago, ticking; fresh stories say New; stories since your last visit get a dot */
-  var WDS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   function nyParts(d) {
     var p = {}; new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit",
       hour: "2-digit", minute: "2-digit", hour12: false, weekday: "short" }).formatToParts(d).forEach(function (x) { p[x.type] = x.value; });
     return { day: p.year + "-" + p.month + "-" + p.day, h: +p.hour % 24, m: +p.minute, wd: p.weekday };
   }
-  function rel(iso, short) {
+  var MONS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function rel(iso, short) {  // as build.py's rel_text(): "4 hours ago", never a clock time; short: "4h ago"
     var t = new Date(iso).getTime(), s = (Date.now() - t) / 1000;
     if (isNaN(t) || s < -300) return null;
     if (s < 60) return "Just now";
-    if (s < 3600) return Math.round(s / 60) + " min ago";
-    if (short) {  // narrow cards: no clock time
-      var sa = nyParts(new Date(t)), sn = nyParts(new Date()), sy = nyParts(new Date(Date.now() - 864e5));
-      if (sa.day === sn.day || s < 6 * 3600) return Math.round(s / 3600) + "h ago";
-      if (sa.day === sy.day) return "Yesterday";
-      return s < 6 * 86400 ? sa.wd : null;
-    }
-    if (s < 6 * 3600) { var mins = Math.round(s / 60), h = Math.floor(mins / 60), m = mins % 60; return h + "h " + (m ? m + "m " : "") + "ago"; }
-    var a = nyParts(new Date(t)), n = nyParts(new Date()), y = nyParts(new Date(Date.now() - 864e5));
-    var hh = a.h % 12 || 12, tm = hh + ":" + (a.m < 10 ? "0" : "") + a.m + (a.h < 12 ? " a.m." : " p.m.");
-    if (a.day === n.day) return Math.round(s / 3600) + "h ago";
-    if (a.day === y.day) return "Yesterday, " + tm;
-    if (s < 6 * 86400) return a.wd + ", " + tm;
-    return null;
+    if (s < 3600) { var m = Math.floor(s / 60); return short ? m + "m ago" : m + " min ago"; }
+    if (s < 86400) { var h = Math.floor(s / 3600); return short ? h + "h ago" : h + " hour" + (h > 1 ? "s" : "") + " ago"; }
+    var a = nyParts(new Date(t)), n = nyParts(new Date()), dd = a.day.split("-");
+    var days = Math.round((Date.parse(n.day) - Date.parse(a.day)) / 864e5);  // calendar days in New York, as the headings count
+    if (days <= 1) return "Yesterday";
+    if (days < 14) return short ? days + "d ago" : days + " days ago";
+    return +dd[2] + " " + MONS[+dd[1] - 1] + (dd[0] !== n.day.slice(0, 4) ? " " + dd[0] : "");
   }
   var NEW_H = 6;
   var lastVisit = (function () {
@@ -227,11 +226,11 @@
     var f = follows();
     if (!f.length) { mine.hidden = true; return; }
     var draw = function () {
-      var hit = (allStories || []).filter(function (x) { return x.k.some(function (t) { return f.indexOf(t) > -1; }); }).slice(0, 12);
+      var hit = (allStories || []).filter(function (x) { return x.y !== "brief" && x.k.some(function (t) { return f.indexOf(t) > -1; }); }).slice(0, 12);
       if (!hit.length) { mine.hidden = true; return; }
       $(".sh-tr", mine).innerHTML = hit.map(function (x) {
         return '<article class="sh-c" data-pub="' + esc(x.d) + '"><a class="cover-link" href="' + B + esc(x.p) + '" aria-label="' + esc(x.t) + '"></a>' +
-          '<div class="th"><img src="' + B + "static/covers/" + esc(x.c) + '-800.webp" alt="" loading="lazy" decoding="async"></div>' +
+          '<div class="th"><img src="' + B + "static/covers/" + esc(x.c) + '-800.webp" alt="" loading="lazy" decoding="async">' + (x.l || "") + "</div>" +
           '<div class="sh-tx"><div class="r8-k"><b>' + esc(tagOf(x.k.filter(function (t) { return f.indexOf(t) > -1; }))) + "</b><i>·</i>" +
           '<time class="ago q s" datetime="' + esc(x.d) + '" data-rel>' + esc(dateOf(x.d)) + '</time></div><h3>' + esc(x.t) + "</h3></div></article>";
       }).join("");
@@ -241,6 +240,67 @@
     fetch(B + "data/stories.json").then(function (r) { return r.ok ? r.json() : []; }).then(function (d) { allStories = d; draw(); }).catch(function () {});
   }
   paintMine();
+
+  /* the watchlist page: each followed stock with its price and our latest story on it */
+  var wl = $("[data-wl]"), wlData = null;
+  function wlAt() {  // where focus sits in the list before a redraw: [row index, on the row's button?]
+    var a = document.activeElement, r = a && wl.contains(a) ? a.closest(".wl-r") : null;
+    return r ? [$$(".wl-r", wl).indexOf(r), !!a.closest("[data-follow]")] : null;
+  }
+  function paintWatch() {
+    if (!wl) return;
+    var f = follows(), at = wlAt();
+    if (!f.length) { wl.innerHTML = '<p class="wl-empty" tabindex="-1">You aren\'t following any stocks yet. Tap the star on any stock or story, or start with one below.</p>'; if (at) $(".wl-empty", wl).focus(); return; }
+    var draw = function () {
+      var names = {}, logos = {};
+      (wlData.s.s || []).forEach(function (x) { names[x[0]] = [x[1], x[2]]; logos[x[0]] = x[3]; });
+      var q = (wlData.q && wlData.q.q) || {};
+      wl.innerHTML = f.map(function (t) {
+        var nm = names[t] || [t, ""], qq = q[t] || [], c = qq[1];
+        var lg = logos[t] ? '<span class="lg" style="--s:44px"><img src="' + B + 'static/logos/' + esc(t) + '.png" alt=""></span>' : '<span class="lg" style="--s:44px"><b>' + esc(t.slice(0, 4)) + "</b></span>";
+        var px = '<span class="wl-p">' + (qq[0] != null ? "<b>$" + Number(qq[0]).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "</b>" +
+          (c != null ? '<i class="' + (c >= 0 ? "up" : "down") + '">' + (c >= 0 ? "▲ " : "▼ ") + Math.abs(c).toFixed(2) + "%</i>" : "") : "") + "</span>";
+        var st = (wlData.st || []).filter(function (x) { return x.k.indexOf(t) > -1; })[0];
+        var story = st ? '<a class="wl-st" href="' + B + esc(st.p) + '"><span>Latest</span>' + esc(st.t) + ' <time class="ago q" datetime="' + esc(st.d) + '" data-rel></time></a>' :
+          '<span class="wl-st none">No stories on it yet</span>';
+        return '<article class="wl-r"><a class="wl-id" href="' + B + "stocks/" + esc(t) + '/">' + lg + "<span><b>" + esc(nm[0]) + "</b><small>" + esc(t) + (nm[1] ? " · " + esc(nm[1]) : "") + "</small></span></a>" +
+          px + story + '<button class="btn ghost sm fbtn" type="button" data-follow="' + esc(t) + '" aria-pressed="true" aria-label="Add ' + esc(nm[0]) + ' to your watchlist">' + STARS + '<span data-l="Add to watchlist" aria-hidden="true">On your watchlist</span></button></article>';
+      }).join("");
+      paintFollow(); paintTimes();
+      if (at) { var rs = $$(".wl-r", wl), r = rs[Math.min(at[0], rs.length - 1)]; if (r) $(at[1] ? "[data-follow]" : ".wl-id", r).focus(); }
+    };
+    if (wlData) return draw();
+    Promise.all([B + "data/search.json", B + "data/quotes.json", B + "data/stories.json"].map(function (x) {
+      return fetch(x).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+    })).then(function (d) { wlData = { s: d[0] || { s: [] }, q: d[1], st: d[2] || [] }; draw(); });
+  }
+  paintWatch();
+  addEventListener("pageshow", function (e) { if (e.persisted) { paintFollow(); paintMine(); paintWatch(); paintTimes(); } });
+  addEventListener("storage", function (e) { if (e.key === "mm-follows") { paintFollow(); paintMine(); paintWatch(); } });
+  var wq = $("#wl-q"), wres = $(".wl-res");
+  if (wq && wres) {
+    var widx = null;
+    var wdraw = function () {
+      var q = wq.value.trim().toLowerCase();
+      if (!q || !widx) { wres.innerHTML = ""; return; }
+      wres.innerHTML = widx.s.filter(function (x) { return x[0].toLowerCase().indexOf(q) === 0 || x[1].toLowerCase().indexOf(q) > -1; })
+        .sort(function (a, b) { return (a[0].toLowerCase() === q ? -1 : 0) - (b[0].toLowerCase() === q ? -1 : 0); }).slice(0, 6)
+        .map(function (x) {
+          var lg = x[3] ? '<span class="lg" style="--s:30px"><img src="' + B + "static/logos/" + esc(x[0]) + '.png" alt=""></span>' : '<span class="lg" style="--s:30px"><b>' + esc(x[0].slice(0, 4)) + "</b></span>";
+          return '<div class="wl-sr" role="option">' + lg + "<b>" + esc(x[0]) + "</b>" + (x[1].toUpperCase() === x[0] ? '<span class="nm"></span>' : '<span class="nm">' + esc(x[1]) + "</span>") + followIcon(x[0], x[1]) + "</div>";
+        }).join("") || '<p class="wl-none">No stock by that name.</p>';
+      paintFollow();
+    };
+    wq.addEventListener("focus", function () {
+      if (!widx) fetch(B + "data/search.json").then(function (r) { return r.json(); }).then(function (d) { widx = d; wdraw(); }).catch(function () {});
+    });
+    wq.addEventListener("input", wdraw);
+  }
+  var fab = $(".fbtn.fab");
+  if (fab) {
+    var fabShow = function () { fab.classList.toggle("show", window.scrollY > 200); };
+    addEventListener("scroll", fabShow, { passive: true }); fabShow();
+  }
   var hm = $(".hm");
   if (hm && $(".hm-tabs", hm)) {
     hm.setAttribute("data-view", "stories");
@@ -353,10 +413,16 @@
     var h = s.map(function (x) {
       var lg = x[3] ? '<span class="lg"><img src="' + B + 'static/logos/' + x[0] + '.png" alt=""></span>' : '<span class="lg"><b>' + esc(x[0].slice(0, 4)) + '</b></span>';
       var rt = x[4] ? '<span class="rt good">' + esc(x[4]) + "</span>" : "";
-      return '<a href="' + B + 'stocks/' + x[0] + '/">' + lg + '<b>' + x[0] + "</b>" + esc(x[1]) + rt + '<span class="sec">' + esc(x[2]) + "</span></a>";
+      return '<div class="sres"><a href="' + B + 'stocks/' + x[0] + '/">' + lg + '<b>' + x[0] + "</b>" + esc(x[1]) + rt + '<span class="sec">' + esc(x[2]) + "</span></a>" + followIcon(x[0], x[1]) + "</div>";
     }).join("");
-    h += n.map(function (x) { return '<a href="' + B + x[1] + '">' + esc(x[0]) + '<span class="sec">' + esc(x[2]) + "</span></a>"; }).join("");
+    h += n.map(function (x) { return '<a href="' + B + x[1] + '">' + esc(x[0]) + '<time class="sec ago s" datetime="' + esc(x[2]) + '" data-rel>' + esc(rel(x[2], true) || "") + "</time></a>"; }).join("");
     res.innerHTML = h || '<div class="hint">Nothing found.</div>';
+    paintFollow();
+  }
+  var STARS = '<i class="f-add"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg></i><i class="f-on"><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path class="sf" d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg></i>';
+  function followIcon(t, name) {  // the same watchlist star as build.py's follow_btn(t, "icon")
+    return '<button class="fbtn fi" type="button" data-follow="' + esc(t) + '" aria-pressed="false" aria-label="Add ' + esc(name) +
+      ' to your watchlist" title="Add ' + esc(name) + ' to your watchlist">' + STARS + "</button>";
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   $$("[data-search]").forEach(function (b) { b.addEventListener("click", openSearch); });

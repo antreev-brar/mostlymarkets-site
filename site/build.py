@@ -42,10 +42,10 @@ MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "No
 MONTH = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
          "November", "December"]
 WD = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-TYPE_LABEL = {"daily": "The Daily", "market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Big movers",
+TYPE_LABEL = {"daily": "The Daily", "market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Why it moved",
               "earnings-recap": "Earnings", "earnings-preview": "Earnings preview", "list": "Our picks",
               "macro": "Economy", "chart": "Chart", "analysis": "Analysis", "narrative": "The big story",
-              "viewpoints": "Bulls vs bears", "breakdown": "Breakdown", "brief": "News"}
+              "viewpoints": "Bulls vs bears", "breakdown": "Deep dive", "brief": "News"}
 
 
 def esc(s) -> str:
@@ -234,6 +234,85 @@ def next_earnings(t: str):
 
 # ---------------------------------------------------------------------- articles
 
+# The companies a story is about, for its logos. A story's own tickers come first; a story with none (a market wrap,
+# The Daily, a macro story) shows the companies it names most: in the headline, then the dek, then the body.
+TOPIC_ICON_KEYS = {"@fed", "@oil", "@bonds", "@crypto", "@economy"}
+ALIASES = {"FFIV": ("F5",), "HPQ": ("HP",), "MU": ("Micron",), "STX": ("Seagate",), "REGN": ("Regeneron",), "TMUS": ("T-Mobile",),
+           "DIS": ("Disney",), "F": ("Ford",), "MMM": ("3M",), "DE": ("Deere",), "LMT": ("Lockheed",), "NOC": ("Northrop",),
+           "GOOGL": ("Google",), "META": ("Facebook",), "TSM": ("TSMC",), "XOM": ("Exxon",), "JPM": ("JPMorgan",),
+           "BRK.B": ("Berkshire",), "LLY": ("Lilly",), "GS": ("Goldman",), "C": ("Citi",), "BAC": ("BofA",)}
+# Names that are also everyday words or index names: "the Nasdaq" and "the Dow" are indexes, not Nasdaq Inc. or Dow Inc.
+NOT_A_COMPANY = {"Nasdaq", "Dow", "Ball", "Block", "Dover", "Mosaic", "Progressive", "Snap", "Southern", "Target", "Waters"}
+CORP_TAIL = re.compile(r"\s+(Group|Holdings|Technologies|Technology|Laboratories|Pharmaceuticals|Energy|Networks|Systems|Scientific|"
+                       r"Motor|Petroleum|Semiconductor|Corporation|Incorporated|Companies|Company|Inc\.?|Corp\.?|plc|Ltd\.?|Co\.?)$")
+
+
+def _company_names() -> dict[str, str]:
+    out: dict[str, str] = {}
+    for t, x in UMAP.items():
+        if t in ("GOOG", "FOX", "NWS"):  # one class per company
+            continue
+        for n in (x["name"], CORP_TAIL.sub("", x["name"]), *ALIASES.get(t, ())):
+            if (len(n) >= 3 or n in ALIASES.get(t, ())) and n not in NOT_A_COMPANY:
+                out.setdefault(n, t)
+    return out
+
+
+# Companies outside our stock universe that stories are often about: a logo to show (assets/logos/<key>.png, each from
+# the company's own site icon), the names stories use. They get no stock page or Follow button.
+EXTRA = {"OKTA": ("Okta", ("Okta",)), "x-samsung": ("Samsung", ("Samsung",)), "x-sk": ("SK Group", ("SK Hynix", "SK hynix", "SK's")),
+         "x-openai": ("OpenAI", ("OpenAI",)), "x-anthropic": ("Anthropic", ("Anthropic",)),
+         "x-binance": ("Binance", ("Binance",)), "x-spacex": ("SpaceX", ("SpaceX",))}
+# A story about the economy rather than companies shows its topic's icon (logo() draws "@fed" and the rest).
+TOPICS = [("@fed", re.compile(r"\b(Fed|Federal Reserve|FOMC|Powell|rate (cut|hike)s?)\b")),
+          ("@oil", re.compile(r"\b(oil|crude|OPEC|Brent|WTI|gasoline)\b", re.I)),
+          ("@bonds", re.compile(r"\b(Treasury|Treasuries|yields?|bonds?)\b", re.I)),
+          ("@crypto", re.compile(r"\b(bitcoin|crypto|ether|stablecoins?)\b", re.I)),
+          ("@economy", re.compile(r"\b(inflation|CPI|consumer|jobs|payrolls|unemployment|GDP|retail sales|economy|recession)\b", re.I))]
+
+
+def _company_names_all() -> dict[str, str]:
+    out = _company_names()
+    for k, (_, names) in EXTRA.items():
+        for n in names:
+            out.setdefault(n, k)
+    return out
+
+
+NAMES = _company_names_all()
+NAME_RE = re.compile(r"(?<![\w&])(" + "|".join(re.escape(n) for n in sorted(NAMES, key=len, reverse=True)) + r")(?![\w])")
+TICK_RE = re.compile(r"\((?:(?:NASDAQ|NYSE|NYSEAMERICAN|AMEX|NYSEARCA)\s*:\s*)?([A-Z]{1,5}(?:\.[A-Z])?)\)|\$([A-Z]{1,5}(?:\.[A-Z])?)\b")
+
+
+def named_tickers(title: str, dek: str, body: str, limit: int = 4) -> list[str]:
+    """The companies a story names most, weighting the headline over the dek over the body; a company must be named
+    in the headline or dek, or at least twice in the body. Ties go to the bigger company."""
+    score: dict[str, float] = defaultdict(float)
+    for text, w in ((title, 5), (dek, 3), (body, 1)):
+        ends = {}
+        for m in NAME_RE.finditer(text):
+            score[NAMES[m.group(1)]] += w
+            ends[m.end()] = NAMES[m.group(1)]
+        for m in TICK_RE.finditer(text):
+            t = m.group(1) or m.group(2)
+            j = m.start()
+            while j and text[j - 1] in " *_($":  # the " (", " ($" or "** (" between a name and its ticker
+                j -= 1
+            if ends.get(j) == t:  # "Nvidia ($NVDA)", "**Nvidia** ($NVDA)", "Nvidia (NVDA)": one mention
+                continue
+            if (t in UMAP or t in EXTRA) and t not in ("GOOG", "FOX", "NWS"):
+                score[t] += w
+    keep = sorted((t for t, v in score.items() if v >= 2), key=lambda t: (-score[t], -((Q.get(t) or {}).get("cap") or 0)))
+    if keep:
+        return keep[:limit]
+    return next(([k] for text in (title, dek) for k, rx in TOPICS if rx.search(text)), [])  # the headline's topic first
+
+
+def stock_ts(ts: list[str]) -> list[str]:
+    """Only the tickers with a stock page (no topics, no companies outside our universe): for Follow buttons and cashtags."""
+    return [t for t in ts if t in UMAP]
+
+
 class Story:
     def __init__(self, path: Path):
         text = path.read_text()
@@ -253,11 +332,33 @@ class Story:
         self.status = self.fm.get("status", "published")
         self.featured = bool(self.fm.get("featured"))
         self.themes = [str(x) for x in self.fm.get("themes", []) if x]
+        self.logo_t = self._logos()  # the logos it shows
         self.moves = self._moves()
         self.cover = self._cover()
         self._rendered = None
         words = len(re.findall(r"\w+", re.sub(r"```.*?```", " ", self.body, flags=re.S)))
         self.minutes = max(1, round(words / 230))
+
+    def _logos(self) -> list[str]:
+        """The companies the story is about, for its logos: a front-matter `logos` list when the writer set one; else
+        the story's tickers (one class per company; an earnings story's own company only, as a quarter belongs to one
+        company), with the companies its headline names first, in headline order, including ones outside our stock
+        list (Binance, Anthropic); else the companies it names most, or its topic's icon (named_tickers)."""
+        pick = [t for t in self.fm.get("logos", []) if t in UMAP or t in EXTRA or t in TOPIC_ICON_KEYS]
+        if pick:
+            return pick
+        own = [t for t in self.tickers if t not in ("GOOG", "FOX", "NWS") or t == self.tickers[0]]
+        if self.type in ("earnings-recap", "earnings-preview"):
+            own = own[:1]
+        if not own:
+            return named_tickers(self.title, self.dek, self.body)
+        pos: dict[str, int] = {}
+        for m in NAME_RE.finditer(self.title):
+            pos.setdefault(NAMES[m.group(1)], m.start())
+        for m in TICK_RE.finditer(self.title):
+            pos.setdefault(m.group(1) or m.group(2), m.start())
+        head = sorted((t for t in pos if t in own or t in EXTRA), key=pos.get)
+        return list(dict.fromkeys(head + own))
 
     def _moves(self):
         out = []
@@ -306,6 +407,16 @@ class Story:
         self.cover_opts = list(dict.fromkeys(opts + more))
         h = int(hashlib.md5(self.slug.encode()).hexdigest(), 16)
         return opts[h % len(opts)] if opts else "markets-calm"
+
+    @property
+    def news_time(self) -> dt.datetime:
+        """When the news happened: the publish time, except for a why-it-moved, earnings recap or movers story that went
+        out more than 12 hours after the move it reports (a Sunday recap of Friday's results), which dates from the move.
+        The top story's choice and the New pill use it; the card's time still says when we published."""
+        asof = [m["asof"].astimezone(ET) for m in self.fm.get("moves", []) if isinstance(m.get("asof"), dt.datetime)]
+        if self.type in ("why-it-moved", "earnings-recap", "movers") and asof and self.pub - max(asof) > dt.timedelta(hours=12):
+            return max(asof)
+        return self.pub
 
     def weight(self) -> float:
         base = {"daily": 7, "market-wrap": 6, "narrative": 6, "earnings-recap": 5, "macro": 5, "viewpoints": 5, "analysis": 4,
@@ -386,8 +497,11 @@ ICON = {
     "theme": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>',
     "play": '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.2-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>',
     "plus": '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
+    "check": '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>',
+    "star": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg>',
+    "star_on": '<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path class="sf" d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg>',
 }
-NAV = [("", "Feed"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
+NAV = [("", "Feed"), ("news/", "News"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
 def page(path: str, title: str, body: str, desc: str = "", image: str | None = None, active: str = "",
          og_type: str = "website", extra_head: str = "") -> str:
     full_title = title if title.endswith(CFG["name"]) else f"{title} | {CFG['name']}"
@@ -430,6 +544,7 @@ def page(path: str, title: str, body: str, desc: str = "", image: str | None = N
   <nav class="nav" aria-label="Main">{nav}</nav>
   <div class="hd-r">
    <button class="ib" type="button" data-search aria-label="Search">{ICON['search']}</button>
+   <a class="ib wl-ic" href="{u('watchlist/')}" aria-label="Your watchlist" title="Your watchlist">{ICON['star']}<span class="wl-n" hidden></span></a>
    <button class="ib" type="button" data-theme-toggle aria-label="Switch light or dark theme">{ICON['theme']}</button>
    <a class="btn" href="{CFG['subscribe']}">Subscribe</a>
   </div>
@@ -442,7 +557,7 @@ def page(path: str, title: str, body: str, desc: str = "", image: str | None = N
 <footer class="ft">
  <div class="wrap">
   <div><a class="wm" href="{u('')}">Mostly <span>Markets</span></a><p>{esc(CFG['tagline'])} New stories through every market day, analysis at the weekend, and a free newsletter.</p></div>
-  <nav aria-label="Footer"><a href="{u('')}">Feed</a><a href="{u('daily/')}">The Daily</a><a href="{u('discover/')}">Discover</a><a href="{u('earnings/')}">Earnings</a><a href="{u('stocks/')}">All stocks</a><a href="{CFG['substack']}">Newsletter</a><a href="{CFG['instagram']}">Instagram</a><a href="{u('about/')}">About</a><a href="{u('feed.xml')}">RSS</a></nav>
+  <nav aria-label="Footer"><a href="{u('')}">Feed</a><a href="{u('news/')}">News</a><a href="{u('daily/')}">The Daily</a><a href="{u('watchlist/')}">Watchlist</a><a href="{u('discover/')}">Discover</a><a href="{u('earnings/')}">Earnings</a><a href="{u('stocks/')}">All stocks</a><a href="{CFG['substack']}">Newsletter</a><a href="{CFG['instagram']}">Instagram</a><a href="{u('about/')}">About</a><a href="{u('feed.xml')}">RSS</a></nav>
   <div><p>Mostly Markets is for information and education only. It is not investment advice, and nothing here is a recommendation to buy or sell any security.</p><p>Our writers publish under pen names. Prices from Nasdaq and CNBC, financials from SEC filings, headlines link to their publishers.</p></div>
  </div>
 </footer>
@@ -467,20 +582,63 @@ MARKET_ICON = ('<svg viewBox="0 0 24 24" width="55%" height="55%" fill="none" st
                'stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent)"><path d="M3 17l5-5 4 4 8-9"/><path d="M15 7h5v5"/></svg>')
 
 
+TOPIC_ICON = {
+    "@fed": '<path d="M4 9.5 12 5l8 4.5"/><path d="M5.5 10v7.5M9.8 10v7.5M14.2 10v7.5M18.5 10v7.5"/><path d="M3.5 19.5h17"/>',
+    "@oil": '<path d="M12 3.5c3 4 5.5 7 5.5 10a5.5 5.5 0 0 1-11 0c0-3 2.5-6 5.5-10Z"/>',
+    "@bonds": '<rect x="5" y="3.5" width="14" height="17" rx="2"/><path d="m9 15 6-6"/><circle cx="9.3" cy="9.3" r="1.1"/><circle cx="14.7" cy="14.7" r="1.1"/>',
+    "@crypto": '<circle cx="12" cy="12" r="8.5"/><path d="M10 7.5v9M10 8h3.2a2 2 0 0 1 0 4H10m0 0h3.7a2.2 2.2 0 0 1 0 4.5H10M11.5 6v2M11.5 16.5v2"/>',
+    "@economy": '<path d="M3.5 5h2.2l2 10.5h10.6l1.9-7.5H7"/><circle cx="9.5" cy="19" r="1.3"/><circle cx="16.5" cy="19" r="1.3"/>',
+}
+TOPIC_NAME = {"@fed": "The Fed", "@oil": "Oil", "@bonds": "Bonds", "@crypto": "Crypto", "@economy": "The economy"}
+
+
+def logo_name(t: str) -> str:
+    return UMAP[t]["name"] if t in UMAP else EXTRA[t][0] if t in EXTRA else TOPIC_NAME.get(t, t)
+
+
 def logo(t: str | None, size: int = 36) -> str:
-    """A company logo in a white circle; a monogram when we have no logo; a market icon for no ticker."""
+    """A company logo in a white circle; a monogram when we have no logo; a topic's icon ("@fed") for a story about the
+    economy; the market icon for no ticker."""
     st = f' style="--s:{size}px"'
-    if not t:
-        return f'<span class="lg"{st} aria-hidden="true">{MARKET_ICON}</span>'
+    if not t or t in TOPIC_ICON:
+        icon = MARKET_ICON if not t else ('<svg viewBox="0 0 24 24" width="56%" height="56%" fill="none" stroke="currentColor" '
+                                          f'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{TOPIC_ICON[t]}</svg>')
+        return f'<span class="lg tp"{st} aria-hidden="true">{icon}</span>'
     if t in LOGOS:
         return f'<span class="lg"{st}><img src="{u(f"static/logos/{t}.png")}" alt="" loading="lazy" decoding="async"></span>'
     return f'<span class="lg"{st} aria-hidden="true"><b>{esc(t[:4])}</b></span>'
 
 
-def logos(ts: list[str], size: int = 36, limit: int = 3) -> str:
+def logos(ts: list[str], size: int = 36, limit: int = 3, cls: str = "") -> str:
+    """The logos of the stocks a story is about, overlapping as on StockStory's story headers: up to three, the first
+    on top, and "+N" for the rest. A story about the whole market shows the market icon."""
+    c = f"lgs {cls}".strip()
     if not ts:
-        return f'<span class="lgs" style="--s:{size}px">{logo(None, size)}</span>'
-    return f'<span class="lgs" style="--s:{size}px">' + "".join(logo(t, size) for t in ts[:limit]) + "</span>"
+        return f'<span class="{c}" style="--s:{size}px">{logo(None, size)}</span>'
+    more = len(ts) - limit
+    names = ", ".join(logo_name(t) for t in ts)
+    return (f'<span class="{c}" style="--s:{size}px" role="img" aria-label="About {esc(names)}">'
+            + "".join(logo(t, size) for t in ts[:limit])
+            + (f'<span class="lg lg-more" style="--s:{size}px" aria-hidden="true"><b>+{more}</b></span>' if more > 0 else "") + "</span>")
+
+
+def follow_btn(t: str, kind: str = "btn", label: str = "Add to watchlist") -> str:
+    """Adds a stock to the reader's watchlist, StockStory's way: an outline star that fills in once the stock is on the
+    list (kept in this browser; app.js keeps every button for the stock in step, and the header's star count). kind
+    "btn" is a labelled button ("Add to watchlist" / "On your watchlist"), "icon" a round star, "pill" the stock's logo
+    and ticker (a link to its page) with a star, "fab" the round star that floats over a stock page."""
+    name = esc(UMAP[t]["name"]) if t in UMAP else t
+    icons = f'<i class="f-add">{ICON["star"]}</i><i class="f-on">{ICON["star_on"]}</i>'
+    attrs = f'type="button" data-follow="{t}" aria-pressed="false"'
+    if kind in ("icon", "fab"):
+        return (f'<button class="fbtn fi{" fab" if kind == "fab" else ""}" {attrs} aria-label="Add {name} to your watchlist" '
+                f'title="Add {name} to your watchlist">{icons}</button>')
+    if kind == "pill":
+        nm = f'<span>{name}</span>' if (UMAP.get(t, {}).get("name") or t).upper() != t.upper() else ""
+        return (f'<span class="spill"><a href="{u(tpath(t))}">{logo(t, 26)}<b>{t}</b>{nm}</a>'
+                f'<button class="fbtn fi" {attrs} aria-label="Add {name} to your watchlist" title="Add {name} to your watchlist">{icons}</button></span>')
+    return (f'<button class="btn ghost fbtn" {attrs} aria-label="Add {name} to your watchlist">{icons}'
+            f'<span data-l="{esc(label)}" aria-hidden="true">{esc(label)}</span></button>')
 
 
 def chip(m: dict) -> str:
@@ -517,24 +675,49 @@ def time_tag(s: Story, rel=True) -> str:
     return f'<time datetime="{s.pub.isoformat()}"{" data-rel" if rel else ""}>{esc(ampm(s.pub))} ET</time>'
 
 
+def rel_text(d: dt.datetime, short: bool = False, now: dt.datetime | None = None) -> str:
+    """How long ago, the way a feed says it: "Just now", "12 min ago", "4 hours ago" for the last day; then calendar days
+    in New York, "Yesterday", "3 days ago"; after two weeks the date ("17 Oct"). Narrow places (short) say "12m ago",
+    "4h ago", "3d ago". app.js's rel() says the same and ticks."""
+    now = now or NOW
+    sec = now.timestamp() - d.timestamp()
+    if sec < 60:
+        return "Just now"
+    if sec < 3600:
+        m = int(sec // 60)
+        return f"{m}m ago" if short else f"{m} min ago"
+    if sec < 86400:
+        h = int(sec // 3600)
+        return f"{h}h ago" if short else f"{h} hour{'s' if h > 1 else ''} ago"
+    n = (now.astimezone(ET).date() - d.astimezone(ET).date()).days  # calendar days, as the day headings count them
+    if n <= 1:
+        return "Yesterday"
+    if n < 14:
+        return f"{n}d ago" if short else f"{n} days ago"
+    return f"{d.day} {MON[d.month - 1]}" + (f" {d.year}" if d.year != now.year else "")
+
+
 def ago(d: dt.datetime, cls: str = "ago") -> str:
-    """A timestamp that app.js turns into "12 min ago", "3h ago", "Yesterday, 4:05 p.m." and keeps ticking; with class
-    "s" (narrow cards) it says just "3h ago", "Yesterday", "Fri"."""
-    fb = f"{WD[d.weekday()][:3]} {d.day} {MON[d.month - 1]}" + ("" if " s" in f" {cls} " else f", {ampm(d)}")
-    return f'<time class="{cls}" datetime="{d.isoformat()}" data-rel>{esc(fb)}</time>'
+    """When something went out, as urgency ("4 hours ago"), never as a clock time; app.js keeps it ticking. Class "s"
+    (narrow cards) gives the short form ("4h ago"). The exact time is in the tooltip and the datetime attribute."""
+    exact = f"{WD[d.weekday()]} {d.day} {MON[d.month - 1]} {d.year}, {ampm(d)} ET"
+    return (f'<time class="{cls}" datetime="{d.isoformat()}" title="{esc(exact)}" data-rel>'
+            f'{esc(rel_text(d, " s" in f" {cls} "))}</time>')
 
 
 def fresh(s: Story) -> str:
-    """Attributes app.js reads to mark a card New (published in the last few hours) or unseen since the last visit."""
-    return f' data-pub="{s.pub.isoformat()}"'
+    """Attributes app.js reads to mark a card New (its news in the last few hours) or unseen since the last visit."""
+    return f' data-pub="{s.news_time.isoformat()}"'
 
 
 NEWB = '<span class="newb">New</span>'
 
 # ---------------------------------------------------------------------- pictures: every story has a cover photo
 
-def cover_th(s: Story, size: int = 480, cls: str = "th", sizes: str = "") -> str:
-    return f'<div class="{cls}">{cover_img(s.cover, size, sizes=sizes)}</div>'
+def cover_th(s: Story, size: int = 480, cls: str = "th", sizes: str = "", lg: int = 0) -> str:
+    """A story's cover; lg > 0 sets the logos of its stocks in the cover's corner at that size."""
+    badge = logos(s.logo_t, lg, cls="on-cv") if lg else ""
+    return f'<div class="{cls}">{cover_img(s.cover, size, sizes=sizes)}{badge}</div>'
 
 
 TPAREN = re.compile(r"\s\((?:[A-Z]{1,5}(?:\.[A-Z])?)\)")  # "Okta (OKTA) Will Join...": the price tag shows the ticker
@@ -554,10 +737,11 @@ def dek1(t: str) -> str:
 
 def row(s: Story) -> str:
     """A story in a list (the home page's rows, story pages, The Daily, stock and sector pages), headline first: the
-    kind of story and when, a big headline, a quiet two-line dek, one price tag, and the cover on the right."""
+    logos of its stocks, the kind of story and how long ago, a big headline, a quiet dek, one price tag, and the cover
+    on the right."""
     return (f'<article class="r8" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"{fresh(s)}>'
             f'<a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'<div class="r8-tx"><div class="r8-k"><b>{TYPE_LABEL[s.type]}</b><i>·</i>{ago(s.pub, "ago q t-lg")}{ago(s.pub, "ago q s t-sm")}{NEWB}</div>'
+            f'<div class="r8-tx"><div class="r8-k">{logos(s.logo_t, 26)}<b>{TYPE_LABEL[s.type]}</b><i>·</i>{ago(s.pub, "ago q t-lg")}{ago(s.pub, "ago q s t-sm")}{NEWB}</div>'
             f'<h3>{esc(card_title(s))}</h3><p class="dk">{esc(dek1(s.dek))}</p>'
             f'{f"<div class=r8-ft>{chips(s, 1)}</div>" if s.moves else ""}</div>'
             f'{cover_th(s, 800)}</article>')
@@ -567,7 +751,7 @@ def mini(s: Story, show_thumb: bool = True) -> str:
     """A compact headline row for top-story lists and side rails: time, kind, headline."""
     th = cover_th(s) if show_thumb else ""
     return (f'<article class="mini{" nt" if not show_thumb else ""}"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'{th}<div class="mi-tx"><div class="mi-k">{ago(s.pub)}<span>{TYPE_LABEL[s.type]}</span></div>'
+            f'{th}<div class="mi-tx"><div class="mi-k">{logos(s.logo_t, 20)}{ago(s.pub)}<span>{TYPE_LABEL[s.type]}</span></div>'
             f'<h3>{esc(s.title)}</h3></div></article>')
 
 
@@ -878,7 +1062,7 @@ def stockbar(s: Story) -> str:
             p = ""
         rows.append(f'<div class="sbr"><a href="{u(tpath(t))}">{logo(t, 40)}</a><a class="nm" href="{u(tpath(t))}"><b>{t}</b><span>{esc(UMAP[t]["name"])}</span></a>'
                     f'<div class="p">{p}</div>'
-                    f'<button class="btn sm ghost" type="button" data-follow="{t}" aria-pressed="false">{ICON["plus"]}<span>Follow</span></button></div>')
+                    f'{follow_btn(t, "icon")}</div>')
     return f'<div class="stockbar">{"".join(rows)}</div>'
 
 
@@ -889,7 +1073,7 @@ def rail_box(title: str, inner: str, more: tuple[str, str] | None = None, sub: s
 
 
 def rail_latest(exclude=(), n: int = 6) -> str:
-    st = [x for x in STORIES if x not in exclude][:n]
+    st = [x for x in FEED if x not in exclude][:n]
     return rail_box("Just published", f'<div class="minis">{"".join(mini(x, False) for x in st)}</div>', (u(""), "All stories"))
 
 
@@ -947,9 +1131,9 @@ def story_page(s: Story) -> str:
     latest = [x for x in STORIES if x is not s and x not in BY_TICKER.get(s.tickers[0] if s.tickers else "", [])][:5]
     more.append(f'<section class="related"><h3>Read next</h3><div class="cards-col">{"".join(row(x) for x in latest)}</div></section>')
     follow_t = s.tickers[0] if s.tickers else None
-    endbox = (f'<div class="endbox"><div><h4>Follow {esc(UMAP[follow_t]["name"])}</h4><p>Its stories show on the home page, under Your stocks. '
-              f'For the daily email, subscribe to the newsletter.</p></div><div class="acts">'
-              f'<button class="btn ghost" type="button" data-follow="{follow_t}" aria-pressed="false">{ICON["plus"]}<span>Follow</span></button>'
+    endbox = (f'<div class="endbox"><div><h4>Add {esc(UMAP[follow_t]["name"])} to your watchlist</h4><p>Its stories show on your '
+              f'watchlist and on the home page, under Your stocks. For the daily email, subscribe to the newsletter.</p></div><div class="acts">'
+              f'{follow_btn(follow_t)}'
               f'<a class="btn" href="{CFG["subscribe"]}">Subscribe free</a></div></div>') if follow_t else (
         '<div class="endbox"><div><h4>Get the close in your inbox</h4><p>Every market day, the stories that moved stocks and why.</p></div>'
         f'<div class="acts"><a class="btn" href="{CFG["subscribe"]}">Subscribe free</a></div></div>')
@@ -958,6 +1142,7 @@ def story_page(s: Story) -> str:
           "image": [absu(f"static/covers/{s.cover}-1600.webp")], "publisher": {"@type": "Organization", "name": CFG["name"]}}
     initials = "".join(w[0] for w in s.author["name"].split()[:2])
     rs = running_story(s)
+    pills = stock_ts(list(dict.fromkeys(s.logo_t + [t for t in s.tickers if t not in ("GOOG", "FOX", "NWS")])))[:5]
     running = (f'<a class="running" href="{u(rs.path)}"><span>Part of the running story</span><b>{esc(rs.title)}</b></a>' if rs else "")
     t0 = s.tickers[0] if s.tickers else None
     rail = "".join(x for x in (
@@ -967,10 +1152,11 @@ def story_page(s: Story) -> str:
     html_ = f"""<div class="wrap art">
  <article class="story amain">
   <header class="story-head">
-   <div class="crumbs">{crumbs}<span class="fresh-line"{fresh(s)}>{NEWB}Published {ago(s.pub, "ago b")}</span></div>
+   <div class="crumbs">{logos(s.logo_t, 40, cls="ah-lg")}{crumbs}</div>
    <h1>{esc(s.title)}</h1>
    <p class="dek">{esc(s.dek)}</p>
-   <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span>{esc(when(s.pub, True))}</span><span class="sep">·</span><span>{s.minutes} min read</span></div>
+   <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span class="fresh-line"{fresh(s)}>{ago(s.pub, "ago b")}{NEWB}</span><span class="sep">·</span><span>{s.minutes} min read</span></div>
+   {f'<div class="spills" aria-label="Stocks in this story">{"".join(follow_btn(t, "pill") for t in pills)}</div>' if pills else ""}
    {running}
   </header>
   {cover_fig(s)}
@@ -985,7 +1171,8 @@ def story_page(s: Story) -> str:
  <div class="amore">{''.join(more)}</div>
 </div>
 <script type="application/ld+json">{json.dumps(ld)}</script>"""
-    return page(s.path, s.title, html_, s.dek, f"static/covers/{s.cover}-1600.webp", og_type="article")
+    return page(s.path, s.title, html_, s.dek, f"static/covers/{s.cover}-1600.webp", og_type="article",
+                active="news/" if s.type in NEWS_TYPES else "")
 
 
 def cover_fig(s: Story, cls: str = "a-cv") -> str:
@@ -1044,7 +1231,7 @@ def daily_page(s: Story) -> str:
     html_ = f"""<article class="daily">
  <header class="ed-head wrap">
   <div class="ed-mast"><a href="{u('daily/')}" class="ed-name">Mostly Markets <b>Daily</b></a><span>{edition_label(s)} · {esc(long_date(d))}</span><span class="ed-no">No. {s.edition}</span></div>
-  <div class="crumbs" style="margin-top:14px"><span class="fresh-line"{fresh(s)}>{NEWB}Published {ago(s.pub, "ago b")}</span></div>
+  <div class="crumbs" style="margin-top:14px">{logos(s.logo_t, 34, cls="ah-lg")}<span class="fresh-line"{fresh(s)}>{NEWB}Published {ago(s.pub, "ago b")}</span></div>
   <h1>{esc(s.title)}</h1>
   <p class="dek">{esc(s.dek)}</p>
   <div class="byl"><span class="av" aria-hidden="true">{esc(initials)}</span><a class="by" href="{u('authors/' + s.fm.get('author', '') + '/')}">{esc(s.author['name'])}</a><span class="sep">·</span><span>{s.minutes} min read</span><span class="sep">·</span><span>{len(s.takes)} takes</span>{play}</div>
@@ -1070,7 +1257,7 @@ def edition_box(s: Story) -> str:
     day = s.pub.date() if s.type == "daily" else market_day(s)
     head = re.sub(r"^Stock Market Today:\s*", "", card_title(s), flags=re.I) if s.type == "market-wrap" else card_title(s)
     return (f'<article class="ed-box"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'{cover_th(s, 800, sizes="(max-width: 640px) 104px, (max-width: 960px) 50vw, 440px")}<div class="tx"><span class="ed-k">{meta_line([f"<b>{esc(long_date(day))}</b>"] + label)}</span>'
+            f'{cover_th(s, 800, sizes="(max-width: 640px) 104px, (max-width: 960px) 50vw, 440px", lg=28)}<div class="tx"><span class="ed-k">{meta_line([f"<b>{esc(long_date(day))}</b>"] + label)}</span>'
             f'<h3>{esc(head)}</h3><p>{esc(s.dek)}</p></div></article>')
 
 
@@ -1119,14 +1306,14 @@ def daily_index():
         return
     first, rest = DAILIES[0], DAILIES[1:]
     render_body(first)
-    pool = [x for x in STORIES if x.type != "daily"]
+    pool = [x for x in FEED if x.type != "daily"]
     recent = [x for x in pool if (pool[0].pub - x.pub) < dt.timedelta(hours=36)]
     top = sorted(recent, key=lambda s: -(s.weight() - (NOW - s.pub).total_seconds() / 3600 / 1.5))[:3]
     latest = [x for x in pool if x not in top][:5]
     tops = "".join(f'<article class="df-tc{"" if i < 2 else " tx-only"}"{fresh(x)}><a class="cover-link" href="{u(x.path)}" '
-                   f'aria-label="{esc(x.title)}"></a>{cover_th(x, 800, sizes="(max-width: 640px) 45vw, 270px") if i < 2 else ""}<h3>{esc(card_title(x))}</h3>'
-                   f'<div class="mi-k">{ago(x.pub)}<span>{TYPE_LABEL[x.type]}</span></div></article>' for i, x in enumerate(top))
-    lis = "".join(f'<li{fresh(x)}><a href="{u(x.path)}">{esc(card_title(x))}</a><div class="mi-k">{ago(x.pub)}<span>{TYPE_LABEL[x.type]}</span></div></li>'
+                   f'aria-label="{esc(x.title)}"></a>{cover_th(x, 800, sizes="(max-width: 640px) 45vw, 270px", lg=26) if i < 2 else ""}<h3>{esc(card_title(x))}</h3>'
+                   f'<div class="mi-k">{"" if i < 2 else logos(x.logo_t, 20)}{ago(x.pub)}<span>{TYPE_LABEL[x.type]}</span></div></article>' for i, x in enumerate(top))
+    lis = "".join(f'<li{fresh(x)}><a href="{u(x.path)}">{esc(card_title(x))}</a><div class="mi-k">{logos(x.logo_t, 20)}{ago(x.pub)}<span>{TYPE_LABEL[x.type]}</span></div></li>'
                   for x in latest)
     play = (f'<button class="btn ghost" type="button" data-story-open="ed-{first.date}">{ICON["play"]}<span>Swipe through</span></button>'
             if first.takes else "")
@@ -1207,19 +1394,33 @@ def story_templates(groups: list[dict]) -> str:
 
 # ---------------------------------------------------------------------- home / feed
 
+NEWS_TYPES = {"brief"}  # news items: in the News page and the Top news column, beside the newsrooms' headlines
+FEED = [s for s in STORIES if s.type not in NEWS_TYPES]  # the feed's topics: why it moved, earnings, analysis, picks...
+
+
 def pick_lead(pool: list[Story]) -> Story | None:
-    """The top story is the newest one ("start top with recent story"), the Daily included, so it is never older than
-    the rows under it; an editor can put another first with featured = true (it leads for a day and a half)."""
+    """The top story: one an editor marked featured = true (for a day and a half); before 11:00 ET, today's Daily; else
+    the biggest story whose news is from the last 12 hours, its weight less a point every 90 minutes, so a big story
+    beats a small one a few hours newer but not a day newer; else the newest news. Recency stays the backbone, as on
+    StockStory and Carbon Finance, which simply list newest first."""
     if not pool:
         return None
     feat = [s for s in pool if s.featured and (pool[0].pub - s.pub) < dt.timedelta(hours=36)]
-    return feat[0] if feat else pool[0]
+    if feat:
+        return feat[0]
+    daily = next((s for s in pool if s.type == "daily" and s.pub.date() == NOW.date()), None)
+    if daily and NOW.hour < 11:
+        return daily
+    recent = [s for s in pool if NOW - s.news_time < dt.timedelta(hours=12)]
+    if recent:
+        return max(recent, key=lambda s: s.weight() - (NOW - s.news_time).total_seconds() / 5400)
+    return max(pool, key=lambda s: s.news_time)
 
 
 def tile(s: Story, size: int = 800) -> str:
     """A grid card (earnings and picks pages): the cover photo on top, then logos, kind, when, headline, dek."""
     return (f'<article class="tile" data-type="{s.type}" data-tickers="{" ".join(s.tickers)}"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'{cover_th(s, size)}<div class="tx"><div class="c-top">{logos(s.tickers, 24)}<span class="tag">{TYPE_LABEL[s.type]}</span>{ago(s.pub)}</div>'
+            f'{cover_th(s, size)}<div class="tx"><div class="c-top">{logos(s.logo_t, 26)}<span class="tag">{TYPE_LABEL[s.type]}</span>{ago(s.pub)}</div>'
             f'<h3>{esc(s.title)}</h3><p class="dk">{esc(s.dek)}</p><div class="c-ft">{chips(s, 1)}</div></div></article>')
 
 
@@ -1262,7 +1463,7 @@ def hero_points(s: Story, skip: set | None = None, news: list | None = None) -> 
             break
         if x.get("kind") == "x" and x.get("story") is s:
             rel.append((x["link"], f'{x.get("author") or "On X"}: {one_line(x["text"], 90)}'))
-        elif x.get("kind") != "x" and set(x.get("tickers") or []) & set(s.tickers[:2]) and abs(x["dt"] - s.pub) < dt.timedelta(hours=48):
+        elif x.get("kind") not in ("x", "ours") and set(x.get("tickers") or []) & set(s.tickers[:2]) and abs(x["dt"] - s.pub) < dt.timedelta(hours=48):
             rel.append((x["url"], f'{x["source"]}: {clip(x["title"], 90)}'))
     return f"More on {UMAP[t]['name']}", rel[:3]
 
@@ -1278,8 +1479,8 @@ def hero_card(s: Story, skip: set | None = None, news: list | None = None) -> st
     plist = ((f'<h2 class="hc-ph" id="hc-ph">{esc(head)}</h2><ul class="hc-pts rel" aria-labelledby="hc-ph">{lis}</ul>' if head else
               f'<ol class="hc-pts">{lis}</ol>') if lis else "")
     daily = s.type == "daily"
-    kick = (f'<b>{esc(long_date(s.pub.date()))}</b>' if daily else
-            f'<b>{TYPE_LABEL[s.type]}</b><span class="hc-sep">·</span>{ago(s.pub, "ago q")}')
+    kick = logos(s.logo_t, 30) + (f'<b>{esc(long_date(s.pub.date()))}</b>' if daily else
+                                   f'<b>{TYPE_LABEL[s.type]}</b><span class="hc-sep">·</span>{ago(s.pub, "ago q")}')
     badge = (f'<span class="hc-badge">Mostly Markets <b>Daily</b> · No. {s.edition}</span>' if daily else "")
     play = (f'<button class="btn ghost" type="button" data-story-open="ed-{s.date}">{ICON["play"]}<span>Swipe through</span></button>'
             if daily and s.takes else "")
@@ -1291,7 +1492,9 @@ def hero_card(s: Story, skip: set | None = None, news: list | None = None) -> st
             f'<div class="hc-tx"><div class="hc-k">{NEWB}{kick}</div>'
             f'<h1><a href="{u(s.path)}">{esc(card_title(s))}</a></h1><p class="dek">{esc(dek1(s.dek) if pts else s.dek)}</p>'
             f'{plist}'
-            f'<div class="hc-acts"><a class="btn" href="{u(s.path)}">{cta}</a>{play}<span class="hc-m">{meta}</span></div></div>'
+            f'<div class="hc-acts"><a class="btn" href="{u(s.path)}">{cta}</a>{play}'
+            f'{follow_btn(s.tickers[0]) if s.tickers and not daily else ""}'
+            f'<span class="hc-m">{meta}</span></div></div>'
             f'</article>' + (story_templates([edition_group(s)]) if play else ""))
 
 
@@ -1300,6 +1503,7 @@ def hero_card(s: Story, skip: set | None = None, news: list | None = None) -> st
 SHELVES = [("earnings", "Earnings", ("earnings-recap", "earnings-preview"), "What the reports said, and how the stocks took it",
             "earnings/"),
            ("moves", "Why it moved", ("why-it-moved", "movers"), "The big moves, explained", None),
+           ("deep", "Deep dives", ("breakdown", "narrative", "viewpoints"), "The big stories, the debates and the businesses, tested against the evidence", None),
            ("picks", "Our picks", ("list",), "Stocks we like and the ones we'd skip, with our reasons", None),
            ("charts", "Charts", ("chart",), "One chart, one point", None)]
 CHEVRON = ('<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" '
@@ -1309,7 +1513,7 @@ CHEVRON = ('<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="
 def shelf_card(s: Story) -> str:
     """A shelf's card: the cover on top, the headline right under it, then one price tag and when."""
     return (f'<article class="sh-c" data-type="{s.type}"{fresh(s)}><a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>'
-            f'{cover_th(s, 800, sizes="(max-width: 640px) 76vw, 300px")}<div class="sh-tx"><h3>{esc(card_title(s))}</h3>'
+            f'{cover_th(s, 800, sizes="(max-width: 640px) 76vw, 300px", lg=28)}<div class="sh-tx"><h3>{esc(card_title(s))}</h3>'
             f'<div class="r8-ft">{chips(s, 1) if s.moves else ""}{ago(s.pub, "ago q s")}{NEWB}</div></div></article>')
 
 
@@ -1429,16 +1633,16 @@ def news_weight(x: dict, ours: set[str]) -> float:
     return w - (1.25 if SOFT_NEWS.search(x["title"]) else 0) - (1.25 if WIRE_NEWS.search(x["title"]) else 0)
 
 
-def top_news(n: int = 40, floor: int = 24, big: int = 10) -> tuple[dict | None, list[dict]]:
+def top_news(n: int = 40, floor: int = 24, big: int = 10, ours_hours: float | None = None) -> tuple[dict | None, list[dict]]:
     """Top news, the home page's right-hand column: newsroom headlines and the X posts our stories quote, newest first.
     A headline stays as long as it matters, from about five hours for a minor one to a day and a half for news every
     newsroom ran. The column holds 40: the 10 biggest still in their time, however old, then the rest by weight less a
     point every four hours, so the big stories are still there after a busy morning's small ones have gone. The biggest of the last day is pinned
     on top. A quiet weekend is topped up with the biggest headlines of the last two days."""
-    ours = {t for s in STORIES[:30] for t in s.tickers}
+    ours_t = {t for s in STORIES[:30] for t in s.tickers}
     pool = feed_news(NOW - dt.timedelta(hours=48), NOW)
     for x in pool:
-        x["w"] = news_weight(x, ours)
+        x["w"] = news_weight(x, ours_t)
         x["age"] = (NOW - x["dt"]).total_seconds() / 3600
     # A running story's updates (the same companies, much the same words, within three hours) show as one post: the
     # newest version, as big as the biggest of them.
@@ -1471,7 +1675,34 @@ def top_news(n: int = 40, floor: int = 24, big: int = 10) -> tuple[dict | None, 
     chosen = capped
     # The X posts our stories quote stay three days: a story chose them.
     xs = [{**x, "kind": "x"} for x in cited_posts(STORIES[:40]) if (NOW - x["dt"]) < dt.timedelta(hours=72)]
-    return pin, sorted(chosen + xs, key=lambda x: x["dt"], reverse=True)
+    # Our own news items run like a top newsroom's headline, for as long as their weight earns (about a day; the News
+    # page keeps them three days), and a newsroom's headline on the same event within 12 hours folds into ours ("and WSJ").
+    ours = []
+    for s in STORIES:
+        if s.type not in NEWS_TYPES or s.pub > NOW:
+            continue
+        o = {"kind": "ours", "story": s, "dt": s.pub, "source": "Reuters", "also": [], "title": s.title,
+             "tickers": stock_ts(s.logo_t)}
+        w = news_weight(o, ours_t)
+        life = ours_hours if ours_hours is not None else min(36.0, 4 + 5 * max(w, 0))
+        if (NOW - s.pub).total_seconds() / 3600 < life:
+            o["also"] = []
+            ours.append(o)
+    words = {id(o): _words(o["title"]) for o in ours}
+    kept = []
+    for x in chosen:
+        cands = [(len(_words(x["title"]) & words[id(o)]), o) for o in ours if abs((x["dt"] - o["dt"]).total_seconds()) < 12 * 3600]
+        cands = [(k, o) for k, o in cands if k >= 3 or (k >= 2 and set(x["tickers"]) & set(o["story"].tickers))]
+        dup = max(cands, key=lambda c: c[0])[1] if cands else None
+        if dup:
+            if x["source"] not in dup["also"]:
+                dup["also"].append(x["source"])
+            continue
+        kept.append(x)
+    if pin is not None and any(abs((pin["dt"] - o["dt"]).total_seconds()) < 12 * 3600 and len(_words(pin["title"]) & words[id(o)]) >= 3
+                               for o in ours):
+        pin = None  # the big story is ours: it runs as our post, not as the newsroom's
+    return pin, sorted(kept + xs + ours, key=lambda x: x["dt"], reverse=True)
 
 
 def cited_posts(stories: list[Story]) -> list[dict]:
@@ -1508,9 +1739,11 @@ def post_news(x: dict) -> str:
 
 
 def cashtags(ts: list[str]) -> str:
-    """The companies a post is about as X-style cashtags ($INTC), each a link to its stock page."""
-    shown = [t for t in ts if t not in SECOND_CLASS] or ts[:1]  # one tag per company
-    return "".join(f' <a class="xp-tk" href="{u(tpath(t))}">${esc(t)}</a>' for t in shown[:3])
+    """The companies a post is about as X-style cashtags ($INTC), each a link to its stock page; a listed company
+    outside our universe ($OKTA) is a tag without a page. Topics and private companies get none."""
+    shown = [t for t in ts if (t in UMAP or t in EXTRA and not t.startswith("x-")) and t not in SECOND_CLASS] or ts[:1]
+    return "".join(f' <a class="xp-tk" href="{u(tpath(t))}">${esc(t)}</a>' if t in UMAP else
+                   f' <span class="xp-tk">${esc(t)}</span>' for t in shown[:3] if not t.startswith(("@", "x-")))
 
 
 # A headline that credits another newsroom's scoop ("... Robotics Push - The Information") shows the credit in the
@@ -1532,6 +1765,15 @@ def xpost(x: dict, label: str = "", hero: bool = False) -> str:
     to our story. The newest post is drawn largest (hero) and the day's biggest is labelled "Top headline"."""
     lab = (f'<div class="xp-l{" lt" if label == "Latest" else ""}">{esc(label)}</div>' if label else "")
     cls = " hero" if hero else " pin" if label else ""
+    if x.get("kind") == "ours":  # our own news item, beside the newsrooms': it opens our story
+        s = x["story"]
+        also = x.get("also") or []
+        credit = (f'<span class="xp-also">and {esc(also[0])}</span>' if len(also) == 1 else
+                  f'<span class="xp-also" title="Also in {esc(", ".join(also))}">and {len(also)} more</span>' if also else "")
+        return (f'<article class="xp xo{cls}" data-id="o{hashlib.md5(s.slug.encode()).hexdigest()[:10]}" data-pub="{x["dt"].isoformat()}">'
+                f'<a class="cover-link" href="{u(s.path)}" aria-label="{esc(s.title)}"></a>{lab}'
+                f'<p class="xp-t">{esc(card_title(s))}{cashtags(s.logo_t)}</p>'
+                f'<div class="xp-m"><b>Mostly Markets</b>{credit}{ago(x["dt"], "ago q s")}</div></article>')
     if x.get("kind") == "x":
         s = x["story"]
         text = esc(one_line(x["text"], 120))
@@ -1578,19 +1820,31 @@ HOME_TABS = '<div class="hm-tabs" role="group" aria-label="Show"><button type="b
 
 
 def home_pages():
-    """The home page: our stories on the left, Top news on the right. The top story first, a bit bigger; then our
-    stories one under another, StockStory-style, with a horizontal shelf of one kind of story (earnings, the day's
-    moves, our picks, charts) after every four rows. The older pages list everything else, newest first."""
+    """The home page: our stories on the left, Top news on the right. The feed is StockStory and Carbon Finance topics
+    (why it moved, earnings, analysis, picks, the Daily); news items go to Top news and the News page. The top story
+    first, a bit bigger; then our stories one under another, StockStory-style, with a horizontal shelf of one kind of
+    story (earnings, the day's moves, our picks, charts) after every four rows. The older pages list everything else,
+    newest first."""
     size = CFG["feed_page_size"]
-    lead = pick_lead(STORIES)
-    rest = [s for s in STORIES if s is not lead]
-    live = []  # a shelf needs three stories to fill a screen's width
+    lead = pick_lead(FEED)
+    rest = [s for s in FEED if s is not lead]
+    # Rows: every topic, newest first, as StockStory's feed is one stream, with at most two of one topic in each block
+    # of four, so a busy earnings night doesn't fill the page; the rest of a topic waits for its shelf.
+    topic = {t: k for k, _, ts, _, _ in SHELVES for t in ts}  # anything else is "markets"
+    first: list[Story] = []
+    for s in rest:
+        blk = first[len(first) // 4 * 4:]
+        if sum(topic.get(x.type, "markets") == topic.get(s.type, "markets") for x in blk) < 2:
+            first.append(s)
+        if len(first) == 4 * (len(SHELVES) + 1):
+            break
+    live = []  # a shelf holds its topic's stories that aren't in the rows; it needs three to fill a screen's width
     for key, title, types, sub, more in SHELVES:
-        items = [s for s in rest if s.type in types][:12]
+        items = [s for s in rest if s.type in types and s not in first][:12]
         if len(items) >= 3:
             live.append((key, title, types, sub, items, more))
-    shelved = {t for x in live for t in x[2]}
-    first = [s for s in rest if s.type not in shelved][:4 * (len(live) + 1)]
+    live.sort(key=lambda x: -x[4][0].pub.timestamp())  # the shelf with the newest story comes first
+    first = first[:4 * (len(live) + 1)]
     # Borrowed topic photos are spread in the order the page shows the stories, so two cards side by side on a shelf
     # don't share one; every other page then uses the same photo for the story.
     order = ([lead] if lead else []) + [x for i in range(len(live) + 1)
@@ -1598,7 +1852,10 @@ def home_pages():
     spread_covers(order + [s for s in STORIES if s not in order])
     # Your stocks: the stocks you follow (app.js fills it from data/stories.json; it stays hidden until you follow one).
     blocks = [shelf("mine", "Your stocks", "The latest on the stocks you follow", [], None, True)]
-    write("data/stories.json", json.dumps([{"t": s.title, "p": s.path, "k": s.tickers[:4], "c": s.cover, "d": s.pub.isoformat()}
+    write("data/stories.json", json.dumps([{"t": s.title, "p": s.path, "c": s.cover, "d": s.pub.isoformat(), "y": s.type,
+                                            "k": stock_ts(s.logo_t)[:4] + [{"GOOGL": "GOOG", "FOXA": "FOX", "NWSA": "NWS"}[t]
+                                                                            for t in stock_ts(s.logo_t)[:4] if t in ("GOOGL", "FOXA", "NWSA")],
+                                            "l": logos(s.logo_t, 28, cls="on-cv")}
                                            for s in STORIES[:200]], separators=(",", ":")))
     for i in range(len(live) + 1):
         if first[i * 4:i * 4 + 4]:
@@ -1632,6 +1889,53 @@ def home_pages():
         write(path, page(path, title, body, CFG["tagline"] + " Why-it-moved stories, earnings, analysis and our picks.",
                          f"static/covers/{lead.cover}-1600.webp" if lead else None, active=""))
     return pages
+
+
+def news_page():
+    """News: what the newsrooms are reporting and our own news items, one-liners newest first, a day at a time, the
+    day's biggest headline on top; on the right, all our news stories. Headlines link to their publishers."""
+    pin, stream = top_news(n=160, floor=90, big=30, ours_hours=72)
+    items = sorted(stream, key=lambda x: x["dt"], reverse=True)
+    groups: dict[dt.date, list[dict]] = {}
+    for x in items:
+        groups.setdefault(x["dt"].astimezone(ET).date(), []).append(x)
+    feed = (f'<div class="np-pin">{xpost(pin, "Top headline", hero=True)}</div>' if pin else "")
+    for d, xs in groups.items():
+        feed += (f'<h2 class="day" data-day="{d.isoformat()}"><span>{WD[d.weekday()]} {d.day} {MONTH[d.month - 1]}</span>'
+                 f'<small>{len(xs)} post{"" if len(xs) == 1 else "s"}</small></h2><div class="np-day">{"".join(xpost(x) for x in xs)}</div>')
+    if not items:
+        feed += '<p class="xr-empty">No headlines in the last two days.</p>'
+    shown = {x["story"].slug for x in items if x.get("kind") == "ours"}
+    older = [x for x in STORIES if x.type in NEWS_TYPES and x.slug not in shown][:8]
+    side = rail_box("From the Feed", f'<div class="minis">{"".join(mini(x) for x in FEED[:6])}</div>', (u(""), "All analysis"),
+                    "Our latest analysis") + (rail_box("Earlier news from us", f'<div class="minis">{"".join(mini(x, False) for x in older)}</div>')
+                                              if older else "")
+    body = (f'<div class="wrap wd"><div class="ph np-h"><h1>News</h1><p>What the newsrooms are reporting, and our own news '
+            f'stories, newest first. Our analysis is in the <a href="{u("")}">Feed</a>.</p></div>'
+            f'<div class="np"><section class="np-main" aria-label="Headlines">{feed}'
+            f'<p class="xr-ft">Headlines link to their publishers. Updated {ago(NOW, "ago q")}.</p></section>'
+            f'<aside class="np-side">{side}</aside></div></div>')
+    write("news/", page("news/", "News", body, "The day's market news: headlines from the newsrooms and our own news stories, newest first.",
+                        active="news/"))
+
+
+def watchlist_page():
+    """The reader's watchlist: the stocks they follow (kept in this browser), each with its price and our latest story
+    on it (app.js draws it from data/search.json, quotes.json and stories.json), and stocks to follow when it's empty."""
+    hot: dict[str, int] = defaultdict(int)
+    for x in FEED[:80]:
+        for t in stock_ts(x.logo_t)[:2]:
+            hot[t] += 1
+    sug = sorted(hot, key=lambda t: (-hot[t], -((Q.get(t) or {}).get("cap") or 0)))[:12]
+    body = (f'<div class="wrap"><div class="ph"><h1>Your watchlist</h1><p>The stocks you follow, with their latest price and '
+            f'our latest story on each. Tap the star on any stock or story to add it. Your list is kept in this browser.</p></div>'
+            f'<div class="wl-add"><label for="wl-q">Add a stock to your watchlist</label><input id="wl-q" type="search" '
+            f'placeholder="Search a company or ticker" autocomplete="off"><div class="wl-res" role="listbox" aria-label="Stocks"></div></div>'
+            f'<div class="wl" data-wl><p class="wl-empty">You aren\'t following any stocks yet.</p></div>'
+            f'<section class="hsec wl-sug"><div class="hsec-h"><div><h2>In our stories this week</h2>'
+            f'<p>The companies we’ve written about most</p></div></div>'
+            f'<div class="spills big">{"".join(follow_btn(t, "pill") for t in sug)}</div></section></div>')
+    write("watchlist/", page("watchlist/", "Your watchlist", body, "The stocks you follow on Mostly Markets.", active="watchlist/"))
 
 
 # ---------------------------------------------------------------------- stock pages
@@ -2089,7 +2393,7 @@ def stock_page(t: str) -> str:
    {f'<div class="rts">{rating_chips(t)}</div>' if ratings(t) else ''}</div></div>
    <div class="px"><b data-live="{t}" data-k="price">{money(price)}</b><span class="chg {tone(chg)}" data-live="{t}" data-k="chg">{pct(chg)}</span>{ext_html}<span class="asof">{esc(asof)}</span></div>
   </div>
-  <div><button class="btn" type="button" data-follow="{t}" aria-pressed="false">{ICON['plus']}<span>Follow</span></button></div>
+  <div>{follow_btn(t)}</div>{follow_btn(t, "fab")}
  </div>
 </div>
 <nav class="secnav" aria-label="Sections"><div class="wrap"><div class="in">{navh}</div></div></nav>
@@ -2124,8 +2428,9 @@ def week_change(t):
 def stock_card(t: str, focus: str = "quality", extra: list | None = None, hidden: bool = False) -> str:
     """The Discover card: logo and rating tags, the name, the industry, and one plain line on why it stands out."""
     x = UMAP[t]
-    return (f'<a class="sk{" more" if hidden else ""}" href="{u(tpath(t))}"><div class="sk-top">{logo(t, 44)}<span class="rts">{rating_chips(t, extra)}</span></div>'
-            f'<h3>{esc(x["name"])}</h3><div class="sk-ind">{esc(x["industry"])}</div><p>{esc(why_line(t, focus))}</p></a>')
+    return (f'<article class="sk{" more" if hidden else ""}"><a class="cover-link" href="{u(tpath(t))}" aria-label="{esc(x["name"])}"></a>'
+            f'<div class="sk-top">{logo(t, 44)}<span class="rts">{rating_chips(t, extra)}</span></div>'
+            f'<div class="sk-h"><h3>{esc(x["name"])}</h3>{follow_btn(t, "icon")}</div><div class="sk-ind">{esc(x["industry"])}</div><p>{esc(why_line(t, focus))}</p></article>')
 
 
 def discover_lists():
@@ -2346,7 +2651,7 @@ def feeds():
     (DIST / "feed.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{CFG["name"]}</title><link>{BASE_URL}/</link>'
         f'<description>{esc(CFG["tagline"])}</description><language>en-us</language>{"".join(items)}</channel></rss>')
-    urls = [""] + [s.path for s in STORIES] + [tpath(t) for t in UMAP] + ["daily/", "discover/", "earnings/", "stocks/", "about/"]
+    urls = [""] + [s.path for s in STORIES] + [tpath(t) for t in UMAP] + ["news/", "daily/", "discover/", "earnings/", "stocks/", "about/"]
     (DIST / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                                       + "".join(f"<url><loc>{absu(p)}</loc></url>" for p in urls) + "</urlset>")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n" if LAUNCHED else
@@ -2366,7 +2671,7 @@ def feeds():
     (DIST / "data/quotes.json").write_text(json.dumps({"asof": QUOTES.get("asof"), "q": qd, "m": md_}, separators=(",", ":")))
     search = {"s": [[t, x["name"], x["sector"], 1 if t in LOGOS else 0, "High quality" if band((SCORES.get(t) or {}).get("q")) == "good" else ""]
                     for t, x in sorted(UMAP.items())],
-              "n": [[s.title, s.path, f"{s.pub.day} {MON[s.pub.month - 1]}"] for s in STORIES[:400]]}
+              "n": [[s.title, s.path, s.pub.isoformat()] for s in STORIES[:400]]}
     (DIST / "data/search.json").write_text(json.dumps(search, separators=(",", ":")))
 
 
@@ -2407,6 +2712,8 @@ def main():
     for s in STORIES:
         write(s.path, daily_page(s) if s.type == "daily" else story_page(s))
     daily_index()
+    news_page()
+    watchlist_page()
     for t in UMAP:
         write(tpath(t), stock_page(t))
     discover_pages()

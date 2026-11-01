@@ -1359,3 +1359,217 @@ details.allst summary { cursor: pointer; font: 600 14px/1 var(--sans); color: va
   .df-top .tx-only { grid-column: 1 / -1; }
   .dmast.sm .dm-name { font-size: 30px; }
 }
+
+/* ------------------------------------------------------------------ v9: logos on every story, follow buttons, News, watchlist */
+/* The stocks a story is about, overlapping as on StockStory's story headers: the first on top, each ringed in the
+   colour behind it so the overlap reads as separate coins. */
+.lgs .lg { box-shadow: 0 0 0 2px var(--lg-ring, var(--bg)); }
+.lgs .lg + .lg { box-shadow: 0 0 0 2px var(--lg-ring, var(--bg)); }
+.lgs .lg:nth-child(1) { z-index: 4; } .lgs .lg:nth-child(2) { z-index: 3; } .lgs .lg:nth-child(3) { z-index: 2; } .lgs .lg:nth-child(4) { z-index: 1; }
+.lgs .lg.lg-more { background: var(--bg-3); border-color: transparent; }
+.lgs .lg.lg-more b { font-size: calc(var(--s) * .36); color: var(--ink-2); }
+.r8-k .lgs { margin-right: 4px; }
+.r8-k { overflow: visible; }
+.tile .c-top .lgs { margin-right: 2px; }
+.mi-k .lgs { margin-right: 2px; }
+/* on a cover's corner (shelf cards, edition boxes, The Daily's top stories) */
+.th:has(> .lgs.on-cv) { position: relative; }
+.lgs.on-cv { position: absolute; left: 10px; bottom: 10px; z-index: 1; --lg-ring: #fff; filter: drop-shadow(0 2px 6px rgba(9, 14, 36, .28)); }
+.lgs.on-cv .lg { border-color: #fff; }
+/* the top card's kicker, on navy */
+.hc-k .lgs { --lg-ring: #0f1733; margin-right: 6px; }
+.hc-k .lgs .lg { border-color: transparent; }
+:root[data-theme="dark"] .hc-k .lgs { --lg-ring: #18224a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hc-k .lgs { --lg-ring: #18224a; } }
+/* the story page: logos over the headline, the stocks in it to follow under the byline */
+.story-head .ah-lg { margin-right: 6px; }
+.story-head .fresh-line { margin-left: 0; gap: 8px; font: inherit; color: inherit; }
+.spills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.spill { display: inline-flex; align-items: center; gap: 4px; height: 40px; padding: 0 4px 0 6px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); }
+.spill > a { display: inline-flex; align-items: center; gap: 8px; min-width: 0; padding-right: 6px; font: 500 13.5px/1 var(--sans); color: var(--ink-3); }
+.spill > a b { font-weight: 700; color: var(--ink); }
+.spill > a:hover b { text-decoration: underline; text-underline-offset: 3px; }
+.spills.big { gap: 10px; }
+.spills.big .spill { height: 46px; padding-left: 8px; }
+/* follow buttons: + to follow, a tick once followed */
+.fbtn i { display: inline-flex; font-style: normal; }
+.fbtn .f-on, .fbtn.on .f-add { display: none; }
+.fbtn.on .f-on { display: inline-flex; }
+.fbtn.fi { position: relative; z-index: 2; flex: none; display: inline-grid; place-items: center; width: 30px; height: 30px; padding: 0; border-radius: 999px; border: 1px solid var(--line-2); background: var(--card); color: var(--ink-2); cursor: pointer; }
+.fbtn.fi:hover { opacity: .8; }
+.fbtn.fi.on { background: var(--accent-soft); border-color: transparent; color: var(--accent-2); }
+.btn.fbtn { gap: 6px; }
+.hc-acts .btn.fbtn { position: relative; z-index: 2; }
+.hc-acts .btn.fbtn.on { background: rgba(255, 255, 255, .12); color: #fff; border-color: transparent; }
+/* Discover cards: the card is a link underneath; its Follow + sits on top */
+.sk { position: relative; }
+.sk > a.cover-link { position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+.sk-top .fbtn { margin-left: auto; }
+/* search results */
+.srch .res .sres { display: flex; align-items: center; gap: 6px; padding-right: 8px; }
+.srch .res .sres a { flex: 1; min-width: 0; }
+/* the header's watchlist, with how many stocks it holds */
+.wl-ic { position: relative; }
+.wl-n { position: absolute; top: 3px; right: 1px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 999px; background: var(--ink); color: var(--bg); font: 700 10.5px/17px var(--sans); text-align: center; }
+.wl-n[hidden] { display: none; }
+
+/* News: one-liners a day at a time, our own news stories on the right */
+.np-h { max-width: 1148px; margin-inline: auto; }
+.np { display: grid; grid-template-columns: minmax(0, 760px) 340px; gap: 48px; justify-content: center; align-items: start; padding-bottom: 56px; }
+.np-main .xp { padding: 15px 2px 16px; }
+.np-main .xp-t { font-size: 16.5px; line-height: 1.42; }
+.np-main .xp-m { font-size: 12.5px; }
+.np-main .day { margin: 30px 0 4px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+.np-main .day small { font-size: 12px; }
+.np-day > .xp:first-child { border-top: 0; }
+.np-pin { padding: 4px 22px; border-radius: 18px; background: var(--bg-2); }
+.np-pin .xp { border-top: 0; padding-inline: 0; }
+.np-pin .xp-t { font-size: 22px; line-height: 1.28; letter-spacing: -.015em; }
+.np-main .xr-ft { padding: 22px 0 0; border-top: 1px solid var(--line); }
+.np-side { position: sticky; top: 84px; }
+.xo .xp-m b { color: var(--accent-2); }
+@media (max-width: 1100px) { .np { grid-template-columns: minmax(0, 1fr); gap: 32px; } .np-side { position: static; } }
+
+/* the watchlist */
+.wl { border-top: 1px solid var(--line); }
+.wl-r { display: grid; grid-template-columns: minmax(220px, 1.1fr) 150px minmax(0, 2fr) auto; align-items: center; gap: 22px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.wl-id { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.wl-id > span { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.wl-id b { font: 700 19px/1.15 var(--serif); color: var(--ink); }
+.wl-id small { font: 500 12.5px/1.2 var(--sans); color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wl-id:hover b { text-decoration: underline; text-underline-offset: 3px; }
+.wl-p { display: flex; flex-direction: column; gap: 4px; font: 600 15px/1.1 var(--sans); }
+.wl-p i { font: 650 13px/1 var(--sans); font-style: normal; }
+.wl-st { display: block; font: 600 15px/1.4 var(--serif); color: var(--ink); }
+.wl-st span { display: block; margin-bottom: 3px; font: 700 11px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-2); }
+.wl-st time { font: 500 12.5px/1 var(--sans); color: var(--ink-3); white-space: nowrap; }
+.wl-st.none { font: 500 13.5px/1.4 var(--sans); color: var(--ink-3); }
+.wl-st:hover { text-decoration: underline; text-underline-offset: 3px; }
+.wl-empty { padding: 26px 0; font: 500 15px/1.5 var(--sans); color: var(--ink-3); }
+.wl-sug { margin-top: 36px; }
+@media (max-width: 760px) {
+  .wl-r { grid-template-columns: minmax(0, 1fr) auto; gap: 10px 14px; }
+  .wl-p { align-items: flex-end; }
+  .wl-st { grid-column: 1 / -1; }
+  .wl-r > .fbtn { grid-column: 1 / -1; justify-self: start; }
+}
+.lg.tp { background: var(--accent-soft); border-color: transparent; color: var(--accent-2); }
+.lg.tp svg { color: var(--accent-2) !important; }
+/* phones: a row's kicker keeps two logos, so the kind of story and its time still fit */
+@media (max-width: 640px) {
+  .r8-k .lgs { --s: 22px !important; }
+  .r8-k .lgs .lg { width: 22px; height: 22px; }
+  .r8-k .lgs .lg:nth-child(n+3) { display: none; }
+}
+/* Discover cards: the watchlist star beside the company's name, clear of the rating tags */
+.sk-h { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.sk-h .fbtn { margin-top: 4px; }
+@media (max-width: 640px) { .r8-k .lgs .lg { --s: 22px !important; } }
+/* the watchlist star (StockStory's control): an outline star that fills with our yellow once the stock is on the list */
+.fbtn svg { width: 16px; height: 16px; }
+.fbtn .sf { fill: var(--hl); }
+.fbtn.fi.on { background: var(--hl-soft); border-color: transparent; color: var(--ink); }
+.btn.fbtn.on { background: var(--hl-soft); border-color: transparent; color: var(--ink); }
+.hc-acts .btn.fbtn.on { background: rgba(255, 255, 255, .12); color: #fff; }
+/* stock pages: the round star floats bottom-right once you scroll */
+.fbtn.fab { position: fixed; z-index: 45; right: max(20px, calc((100vw - var(--wide, 1360px)) / 2 + 20px)); bottom: 28px; width: 54px; height: 54px;
+  box-shadow: 0 4px 14px rgba(16, 26, 58, .18); opacity: 0; transform: translateY(16px); pointer-events: none; transition: opacity .2s, transform .2s; }
+.fbtn.fab.show { opacity: 1; transform: none; pointer-events: auto; }
+.fbtn.fab svg { width: 24px; height: 24px; }
+@media (max-width: 640px) { .fbtn.fab { right: 16px; bottom: 16px; width: 50px; height: 50px; } }
+/* the watchlist page's add-a-stock search */
+.wl-add { position: relative; max-width: 560px; margin: 6px 0 26px; }
+.wl-add label { display: block; margin-bottom: 8px; font: 600 13px/1.2 var(--sans); color: var(--ink-3); }
+.wl-add input { width: 100%; height: 46px; padding: 0 16px; border: 1px solid var(--line-2); border-radius: 12px; background: var(--card); color: var(--ink); font: 500 15px/1 var(--sans); }
+.wl-add input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.wl-res { margin-top: 6px; }
+.wl-sr { display: flex; align-items: center; gap: 12px; padding: 9px 4px; border-bottom: 1px solid var(--line); font: 500 14.5px/1.2 var(--sans); }
+.wl-sr b { min-width: 58px; font-weight: 700; }
+.wl-sr .nm { flex: 1; min-width: 0; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wl-none { padding: 10px 4px; font: 500 14px/1.4 var(--sans); color: var(--ink-3); }
+
+/* review fixes (2 Nov) */
+@media (max-width: 440px) { .hd .wrap { gap: 8px; } .hd-r { gap: 0; } .hd-r .ib { width: 34px; } .hd-r .btn { margin-left: 4px; padding: 0 12px; } }
+@media (max-width: 374px) { .wm { font-size: 18px; } }
+.srch .res .sres a { overflow: hidden; }
+@media (max-width: 600px) { .srch .res .sres .sec, .srch .res .sres .rt { display: none; } }
+span.xp-tk { position: static; z-index: auto; color: inherit; }
+span.xp-tk:hover { text-decoration: none; }
+@media (max-width: 640px) {
+  .ed-box .lgs.on-cv { left: 6px; bottom: 6px; }
+  .ed-box .lgs.on-cv .lg { --s: 20px !important; width: 20px; height: 20px; }
+  .ed-box .lgs.on-cv .lg:nth-child(n+3) { display: none; }
+}
+.hc-acts .btn.fbtn { max-width: 100%; }
+.ed-head .crumbs { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.ed-head .ah-lg { margin-right: 4px; }
+.mi-k .lgs { flex: none; }
+
+/* review fixes, round 2 (2 Nov) */
+/* tablets 761-840: the nav moves to its own row, as on phones, so the star and Subscribe fit */
+@media (min-width: 761px) and (max-width: 840px) {
+  :root { --hd-h: 95px; }
+  .hd .wrap { height: 56px; gap: 12px; }
+  .wm { font-size: 20px; }
+  .hd .nav { display: none; }
+  .hd-r .btn { height: 34px; padding: 0 14px; font-size: 13px; }
+  .nav2 { display: flex; gap: 4px; overflow-x: auto; padding: 0 24px 10px; scrollbar-width: none; }
+  .nav2::-webkit-scrollbar { display: none; }
+  .nav2 a { padding: 7px 12px; border-radius: 999px; font: 500 13.5px/1 var(--sans); color: var(--ink-3); white-space: nowrap; }
+  .nav2 a[aria-current] { background: var(--bg-3); color: var(--ink); font-weight: 600; }
+}
+/* phones: all five sections fit the second row */
+@media (max-width: 420px) { .nav2 { gap: 0; padding-inline: 8px; } .nav2 a { padding: 7px 10px; } }
+/* phone rows: logos and the kind on one line, the time under them, never cut */
+@media (max-width: 640px) {
+  .r8 .r8-k { flex-wrap: wrap; row-gap: 7px; }
+  .r8 .r8-k > i { flex-basis: 100%; height: 0; overflow: hidden; }
+  .r8 .r8-k time { overflow: visible; }
+}
+/* logos are pictures, not buttons: taps fall through to the card's link */
+.lgs { pointer-events: none; }
+/* the "+N" label sits in the part of its bubble you can see */
+.lgs .lg.lg-more b { margin-left: calc(var(--s) * .28); }
+/* story pills keep their logos on phones; only the name hides */
+.spill > a > span:not(.lg) { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.spill > a { align-self: stretch; }
+@media (max-width: 760px) {
+  .spill > a > span:not(.lg) { display: none; }
+  .spills.big .spill > a > span:not(.lg) { display: inline; max-width: 120px; }
+}
+/* the story rail's stock rows stay one line; the header's stock pills carry the star */
+.arail .sbr .fbtn { display: none; }
+/* watchlist stars meet the 32 px tap size */
+.fbtn.fi { width: 32px; height: 32px; }
+/* the top card's kicker where its column is narrow (phones, and the two-column card at 901-1080 px): two logos, no stray dot */
+@media (max-width: 640px), (min-width: 901px) and (max-width: 1080px) {
+  .hc-k .lgs .lg:nth-child(n+3), .hc-k .lgs .lg-more { display: none; }
+  .hc-k .hc-sep { display: none; }
+  .hc-k { column-gap: 10px; }
+}
+/* The Daily's date lines on phones: the time on its own line, no stray dot */
+@media (max-width: 640px) { .ed-k > .mi:first-child::after, .ed-k > .newb + .mi::after { content: "\A"; white-space: pre; margin: 0; } }
+/* the watchlist at tablet widths */
+@media (min-width: 761px) and (max-width: 1100px) {
+  .wl-r { grid-template-columns: minmax(0, 1fr) 150px auto; gap: 12px 22px; }
+  .wl-st { grid-column: 1 / -1; grid-row: 2; max-width: 640px; }
+}
+.wl-id small { white-space: normal; }
+/* the News page: the side column isn't sticky; its story kickers wrap */
+.np-side { position: static; }
+.np-side .mi-k { flex-wrap: wrap; row-gap: 4px; }
+.np-side .mini h3 { font-size: 16px; }
+.np-pin .xp.hero .xp-t { font-size: 22px; line-height: 1.28; letter-spacing: -.015em; }
+/* dark mode: black logos keep an edge, so overlapping coins read apart */
+:root[data-theme="dark"] .lgs .lg { border-color: var(--line-2); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .lgs .lg { border-color: var(--line-2); } }
+.tile .lgs { --lg-ring: var(--card); }
+/* dark mode: side-column stacks sit on a card; logos on a cover keep their white edge */
+.rb .mi-k .lgs { --lg-ring: var(--card); }
+:root[data-theme="dark"] .lgs.on-cv .lg { border-color: #fff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .lgs.on-cv .lg { border-color: #fff; } }
+/* the story's end box: its two buttons stack on a phone */
+.endbox .acts { flex-wrap: wrap; }
+/* the watchlist's empty message only holds focus */
+.wl-empty:focus { outline: none; }
+@media (max-width: 359px) { .srch { padding-inline: 10px; } .srch .bx { padding: 10px; } .srch .res .sres a { gap: 8px; padding-inline: 8px; } }

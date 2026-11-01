@@ -5,6 +5,7 @@ type = "analysis"
 published = 2026-10-31T10:27:43-04:00
 author = "nora-whitfield"
 tickers = []
+logos = ["MSFT", "GOOGL", "AMZN", "META"]
 themes = ["ai-capex", "fed-rates"]
 cover_brief = "Inside a vast old marble hall in pale morning light, rows of grand stone columns stand weathered and cracked, and the heavy roof rests on one tall, gleaming new steel pillar in the centre, lined with rows of tiny blinking blue server lights. Fine dust drifts through shafts of light falling from gaps in the roof."
 cover_alt = "An old marble hall of cracked columns whose roof rests on one gleaming pillar of blue server lights"

@@ -1,6 +1,6 @@
-"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: one witty visual metaphor
-per story, drawn as a vivid cinematic 3D illustration in the site's navy and gold (see HOUSE_SHORT and docs/STYLE.md,
-"Covers").
+"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: a detailed scene that shows
+what the story is about, with its company and key figure lettered on big signs, drawn as a richly detailed 3D
+animated-film illustration lit in the site's navy and gold (see HOUSE_SHORT and docs/STYLE.md, "Covers").
 
     python3 pipeline/covers.py                 # every story with a cover_brief and no cover yet
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
@@ -8,8 +8,9 @@ per story, drawn as a vivid cinematic 3D illustration in the site's navy and gol
     python3 pipeline/covers.py --brief "..." --name test-1   # a one-off test into assets/covers/story/
 
 Two providers (MM_IMAGE_PROVIDER):
-  horde   (default, free) AI Horde (aihorde.net), the volunteer-run Stable Horde, with two Apache-2.0 models whose
-          images can be used commercially: Z-Image-Turbo, and FLUX.1 [schnell] when no Z-Image worker is online
+  horde   (default, free) AI Horde (aihorde.net), the volunteer-run Stable Horde, with Apache-2.0 models whose
+          images can be used commercially and that can letter short signs: Z-Image-Turbo, then Qwen-Image when no
+          Z-Image worker is online, and FLUX.1 [schnell] last (it garbles lettering; the covers check redraws those)
           (MM_HORDE_MODEL sets the order). Works anonymously; an AIHORDE_API_KEY (free sign-up) only buys queue
           priority. A cover takes 1-8 minutes in the queue, so several are drawn at once.
   openai  (paid, richer) needs OPENAI_API_KEY. Only used when asked for.
@@ -40,17 +41,18 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/covers/story"
 PROVIDER = os.environ.get("MM_IMAGE_PROVIDER", "horde")
 
-# The house style (since 1 Nov 2026, v8): one witty visual metaphor per story, the way SemiAnalysis's covers work,
-# drawn as a vivid cinematic 3D illustration in a signature palette, the site's navy and gold, so the covers read as
-# one family the way Opening Bell Daily's red-and-navy collages do. The owner rejected the documentary photos as
-# "generic boring covers off the internet", the collages before them as busy, and chart pictures as "ugly graphs".
-# Never real or recognisable people, faces, logos, flags or lettering. FLUX and Z-Image read about 256 tokens, so the
-# scene goes first and the style stays short.
+# The house style (since 2 Nov 2026, v9): a detailed scene that shows what the story is about, the way SemiAnalysis's
+# covers do, with the company's name and the story's key figure lettered on big signs (the models can letter 1-3 short
+# words), drawn as a richly detailed 3D animated-film illustration lit in the site's navy and gold, so the covers read as
+# one family. The owner found v8's single metaphors "an abstract notion of maybe what it is about but not enough
+# details"; three judges preferred this look to an ink cartoon and a newspaper collage (2 Nov 2026: it lettered the key
+# figures right and reads at 300 px). Never real or recognisable people. The brief comes first and the style stays
+# short: the models read the start of the prompt most closely.
 HOUSE_SHORT = (
-    "Vivid cinematic 3D illustration, like a frame from a big-budget animated film: one bold visual metaphor, glossy "
-    "materials, dramatic lighting, a signature palette of deep navy and cobalt blue with glowing warm gold highlights "
-    "and a touch of red, rich saturated colour, crisp detail, the subject centred on a clean uncluttered background, "
-    "full frame. No text, letters, numbers, logos or flags. No human faces."
+    "Vivid cinematic 3D illustration like a frame from a big-budget animated film, richly detailed: adults with realistic "
+    "proportions and expressive faces, glossy materials, dusk or night or a navy-shadowed interior, one warm gold light on "
+    "the main subject, deep navy and cobalt blue with gold highlights and red only for alarm, crisp bold capital letters "
+    "only on the quoted signs, every other surface plain and unmarked, full bleed edge to edge, no border."
 )
 HOUSE = HOUSE_SHORT + " Scene: "  # the paid provider takes the style first
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
@@ -71,10 +73,13 @@ def masters_dir() -> Path:
 # ---------------------------------------------------------------- AI Horde (free)
 
 HORDE = "https://aihorde.net/api/v2"
-# Both Apache-2.0, in order of preference. Z-Image-Turbo draws the house style most faithfully (and had four workers to
-# FLUX's one on 1 Nov 2026); FLUX.1 schnell takes over when no Z-Image worker is online. Each has its own settings on
-# the Horde (its model reference): Z-Image-Turbo exactly 9 steps with the simple scheduler, FLUX 3-8 with karras.
+# All Apache-2.0, in order of preference (tested 2 Nov 2026, research/2026-11-02-v9/cover-study/models). Z-Image-Turbo
+# letters short signs right, draws the house style faithfully and is the fastest; Qwen-Image letters well but is flatter
+# and has one or two workers; FLUX.1 schnell garbles lettering, so it is the last resort. MOSS-Image-SFT draws the most
+# detail but its anonymous queue took over 40 minutes. Each has its own settings on the Horde: Z-Image-Turbo exactly 9
+# steps with the simple scheduler; Qwen-Image 20 steps at cfg 2.5; FLUX 3-8 with karras.
 HORDE_PARAMS = {"Z-Image-Turbo": {"steps": 9, "scheduler": "simple", "karras": False},
+                "Qwen-Image_fp8": {"steps": 20, "cfg_scale": 2.5, "scheduler": "simple", "karras": False},
                 "Flux.1-Schnell fp8 (Compact)": {"steps": 4, "karras": True}}
 HORDE_MODELS = [m.strip() for m in os.environ.get("MM_HORDE_MODEL", ",".join(HORDE_PARAMS)).split(",") if m.strip()]
 HORDE_MODEL = HORDE_MODELS[0]
@@ -135,17 +140,28 @@ def generate_horde(brief: str) -> tuple[bytes, dict]:
                         raise
                     continue  # this model refused the job: try the next
                 PENDING.add(gid)
-                time.sleep(3)
-                if _horde(f"/generate/check/{gid}").get("is_possible", True) or model == HORDE_MODELS[-1]:
+                # No worker for this model right now? Give one a minute to come back before trying the next model:
+                # the later ones letter worse.
+                possible = True
+                for _ in range(7):
+                    time.sleep(3 if _ == 0 else 10)
+                    possible = _horde(f"/generate/check/{gid}").get("is_possible", True)
+                    if possible:
+                        break
+                if possible or model == HORDE_MODELS[-1]:
                     break
                 _horde_cancel(gid)
             t = time.time()
+            stuck = 0
             while time.time() - t < 2400 and time.time() < DEADLINE:
                 time.sleep(10)
                 chk = _horde(f"/generate/check/{gid}")
                 if chk.get("done"):
                     break
-                if chk.get("faulted") or chk.get("is_possible") is False:  # a lost job never finishes: ask again
+                # A lost job never finishes: ask again. "Not possible" often clears within a minute or two (a worker
+                # comes back), so only two minutes of it in a row counts as lost.
+                stuck = stuck + 1 if chk.get("is_possible") is False else 0
+                if chk.get("faulted") or stuck >= 12:
                     _horde_cancel(gid)
                     raise RuntimeError("the Horde dropped the job")
             else:

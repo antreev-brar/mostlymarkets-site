@@ -19,6 +19,8 @@ FILLER = re.compile(r"\b(it remains to be seen|only time will tell|investors wil
                     r"in conclusion)\b", re.I)
 
 ROOT = Path(__file__).resolve().parents[1]
+# Company names (cover briefs may name companies, never people)
+COMPANY_NAMES = {x["name"] for x in json.loads((ROOT / "data/universe/universe.json").read_text())}
 sys.path.insert(0, str(ROOT / "pipeline"))
 from marketdata import price_path, read_prices  # noqa: E402
 
@@ -207,17 +209,38 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         warns.append(f"filler: {ph!r} says nothing; cut it or replace it with the fact, the mechanism or our read")
     if t in ("narrative", "viewpoints", "breakdown", "analysis") and words(body) > 800 and "The short version" not in body:
         warns.append('long analysis without "The short version" box after the first picture (STYLE.md, "No filler")')
-    # The cover (STYLE.md, "Covers"): a witty visual metaphor for the story's point, no text, charts, flags or real people.
+    # The cover (STYLE.md, "Covers"): a detailed scene that shows the story, 1-3 big short labels whose numbers match the
+    # story, people as types (never real people), nothing the image model draws as gibberish.
     brief = fm.get("cover_brief") or ""
     if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":
         warns.append("no cover_brief: the story will get a stock topic photo; write a scene (STYLE.md, Covers)")
     if brief:
         nb = len(brief.split())
-        if not 20 <= nb <= 80:
-            warns.append(f"cover_brief is {nb} words (aim for 35-70)")
-        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|arrows?|logos?|tickers?|text|words|headlines?|flags?|CEO|chief executive|face|faces)\b", brief, re.I)
+        if not 60 <= nb <= 140:
+            warns.append(f"cover_brief is {nb} words (aim for 70-130: the hero and its writing, the people, five to eight story clues)")
+        labels = re.findall(r"(?<![A-Za-z])'([^']{1,40})'(?![A-Za-z])", brief)
+        if not labels:
+            warns.append("cover_brief has no 'LABEL': name the company or the number that matters on a sign, banner or screen")
+        if len(labels) > 2:
+            warns.append(f"cover_brief has {len(labels)} quoted labels: keep two at most (more come out misspelled)")
+        ct = fm.get("cover_text")
+        if ct is not None and sorted(ct) != sorted(labels):
+            warns.append(f"cover_text {ct} doesn't match the brief's quoted labels {labels}")
+        for lab in labels:
+            if len(lab.split()) > 3:
+                warns.append(f"cover_brief label {lab!r} is long: 1-3 words or one number")
+            if re.search(r"\d\.\d|^[+\-−]|\s[+\-−]\d", lab):
+                warns.append(f"cover_brief label {lab!r} has a decimal or a +/- sign: the model drops them; use a word, a year or a whole number")
+            for num in re.findall(r"\d[\d.,]*", lab):
+                if num not in body and num.replace(",", "") not in body.replace(",", ""):
+                    warns.append(f"cover_brief label {lab!r}: {num} isn't in the story; every number must match it")
+        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|logos?|newspapers?|documents?|CEO of|chief executive of|cinematic|4k|photorealistic)\b", brief, re.I)
         if bad:
-            warns.append(f"cover_brief mentions {sorted(set(b.lower() for b in bad))}: the image models draw these badly or they break the rules; show it physically")
+            warns.append(f"cover_brief mentions {sorted(set(b.lower() for b in bad))}: the model draws these badly or they break the rules (STYLE.md, Covers)")
+        people = set(re.findall(r"\b([A-Z][a-z]+ [A-Z][a-z]+)\b", body)) & set(re.findall(r"\b([A-Z][a-z]+ [A-Z][a-z]+)\b", brief))
+        named = [n for n in people if n not in COMPANY_NAMES and not any(w in n for w in ("Street", "Fed", "Reserve", "Market", "States", "Exchange"))]
+        if named:
+            warns.append(f"cover_brief may name a real person {sorted(named)}: describe a role instead (STYLE.md, Covers)")
         if not fm.get("cover_alt"):
             warns.append("cover_brief without cover_alt: add a plain alt text (under 110 characters)")
     for kind, content in blocks:

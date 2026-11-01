@@ -207,3 +207,34 @@ winner, the article starting sentence can be less so." The top story should be t
   edition's page and in "Swipe through". An edition's own page ends with the same previous days, as rows.
 - **Covers** (see STYLE.md "Covers"): a witty visual metaphor per story, drawn in one house style, instead of literal
   documentary photos.
+
+## v9: logos on every story, follow anywhere, news in News, urgency in every timestamp (2 Nov 2026)
+
+The owner on v8: articles should show urgency, "this article is 4 hours ago rather than its published time"; "each
+article must have some logos of the stocks affected by them like the stockstory article headers have 3 overlapping
+ones"; covers "lack the detail" of Opening Bell Daily and SemiAnalysis; "the news articles can be just in the news, the
+feed should be similar to stock story like topics or carbon finance type topics, we can have our own articles in the
+news too"; and "stockstory type buttons to add stocks to users wishlist that they want to follow" in different places.
+
+- **Times** (`rel_text`, `ago`; app.js `rel`): always how long ago, never a clock time: "Just now", "12 min ago",
+  "4 hours ago", "3 days ago", the date after two weeks; "4h ago" in narrow places. They tick every 30 seconds; the exact
+  time is in the tooltip. Story bylines say "4 hours ago" with the New pill under six hours.
+- **Logos** (`logos`, `.lgs`): every story shows the stocks it is about as up to three overlapping round logos, the
+  first on top, each ringed in the colour behind it, and "+N" for the rest. On rows they lead the kicker (two on
+  phones); on shelf cards, edition boxes and The Daily's top stories they sit on the cover's corner; the top card's
+  kicker and the story header (40 px) have them too. A story's logos are its tickers, else the companies it names most
+  (`named_tickers`: headline, then dek, then body; company names from the universe plus `ALIASES`, minus
+  `NOT_A_COMPANY` such as "Nasdaq" and "Dow"; `EXTRA` companies outside the universe, such as Okta, Samsung, OpenAI and
+  Binance, with logos from their own site icons), else the topic's icon (the Fed, oil, bonds, crypto, the economy).
+- **Watchlist** (`follow_btn`; app.js), StockStory's control: an outline star that fills with our yellow once the stock
+  is on your watchlist, everywhere a stock appears: the story header's row of its stocks (`.spills`: logo, ticker,
+  name, star), the top card ("Add Cameco"), the story's rail and end box ("Add to watchlist" / "On your watchlist"),
+  stock pages (the button, plus a round star that floats bottom-right once you scroll, as on StockStory), Discover
+  cards and search results. All the stars for a stock stay in step; the header's star shows how many stocks you follow
+  and opens **/watchlist/** (`watchlist_page`): a search box to add any stock, then each stock with its price, change and
+  our latest story on it, and the stocks in our stories this week. The list stays in this browser until sign-in exists.
+- **Feed vs News**: the feed (`FEED`) is StockStory and Carbon Finance topics: why it moved, earnings, previews,
+  analysis, breakdowns, the big story, bulls vs bears, picks, charts, the economy, the close and The Daily. News items
+  (`NEWS_TYPES`: "brief") leave the feed and its top card. They post in Top news as Mostly Markets ("Our story"), beside
+  the newsrooms' headlines, and on the new **/news/** page (`news_page`): the day's biggest headline, then every post a
+  day at a time, newest first, with all our news stories in the right column. "News" joined the nav.

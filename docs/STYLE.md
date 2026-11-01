@@ -350,40 +350,62 @@ Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, 
 
 ## Covers
 
-Every story gets its own cover, drawn for free on AI Horde (FLUX.1 schnell and Z-Image-Turbo, both Apache-2.0) by
-`pipeline/covers.py`, which `.github/workflows/covers.yml` runs after each push. Write the scene in the front matter:
+Every story gets its own cover: **a detailed illustrated scene that shows what the story is about**, the way
+SemiAnalysis's covers do, so a reader who studies it finds the story in it, and one that still reads at a glance in a
+300 px feed card and a 104 px phone square. Every cover is drawn in one house look, a richly detailed 3D animated-film
+illustration lit in navy and gold (`HOUSE_SHORT` in `pipeline/covers.py` adds the look), for free on AI Horde with a
+model that can letter short signs. `.github/workflows/covers.yml` draws it after each push. Write the scene in the
+front matter:
 
 ```toml
-cover_brief = "An exclusive club entrance at night: a red velvet rope on brass posts guards a towering glowing vault packed with memory chips shining like gold bars, a long queue of identical silver robots waiting in the rain under a spotlight"
-cover_alt = "Robots queue at a velvet rope outside a glowing vault of memory chips"
+cover_brief = "In the centre of a dim turbine factory hall at night, a towering gas turbine with 'GE VERNOVA' painted in white block capitals on its casing rolls onto a flatbed truck under a warm gold spotlight. Above it hangs a huge glowing sign reading '$29 BILLION'. A grey-haired foreman in a hard hat and orange vest raises both fists, and a woman in her forties in a navy suit hands him a thick stack of plain order forms. Behind them a long queue of adult buyers in coats waits in the shadows, wind-turbine blades and grid transformers stand in unmarked crates ready to ship, and a second turbine waits half-built on the line"
+cover_alt = "A GE Vernova turbine rolls onto a truck under a $29 billion sign as buyers queue with orders"
+cover_text = ["GE VERNOVA", "$29 BILLION"]
 ```
 
-**The idea is a witty visual metaphor for the story's point**, the image a good art editor would commission, the way
-SemiAnalysis's covers work: memory sold out for 2027 is a velvet-rope club with robots queueing; "is this the top?" is
-a roller-coaster car paused at the peak; a record crypto theft is a vault door blown open with gold pouring out; an IPO
-in a selloff is a giant opening bell swinging from a crane over a stormy sea. The house prompt adds the look (a vivid
-cinematic 3D illustration in the site's navy and gold, so every cover belongs to one family), so the brief is only the
-scene, 35–70 words:
+1. **The hero first, in the centre.** Start with the one object or person that IS the story: a cracked chip crashing
+   through a trading-floor, a blasted-open vault, an idle mining truck at a closed gate, a turbine rolling out. It
+   fills about half the frame's height and sits in the middle 60% of the width, clear of the top and bottom tenth
+   (phones crop covers to a centre square, story pages to 2:1). It is the brightest thing in the frame.
+2. **Two pieces of writing at most, both big.** Each is in single quotes, in capitals, 1–3 words:
+   - the company's name, once, on the hero's largest flat face ('INTEL' stamped on the chip, 'GE VERNOVA' on the
+     casing), and/or
+   - one big glowing sign, banner or screen beside the hero, about a quarter of the frame wide, with a word or two
+     ('SOLD OUT', 'MAINTENANCE', 'HOLD', 'RECORD'), a year ('1974', '2027'), or the story's key figure when it is a
+     whole number, exactly as the story gives it ('$29 BILLION', '117%', '$220 BILLION').
+   **Never a decimal point or a plus or minus sign:** the model drops them ('-28.6%' came out '28 6', '+13.4%' as
+   '134', '16.5%' as '165A'). When the story's key figure has a decimal, letter a word or a year instead ('WORST DAY
+   SINCE 1974' is too long; 'SINCE 1974' or 'RECORD LOW' works) and let the headline carry the figure.
+   Prefer short names: 'LAM' or 'GE VERNOVA' rather than long two-word names of 12 letters or more, which come out
+   with a doubled letter. List the writing in `cover_text`. Never put words or numbers on small objects, peers, vehicles' curved sides, dials,
+   clocks, gauges, split-flap boards, tables or papers; call everything else "plain" or "unmarked".
+3. **Five to eight small clues from the article** around the hero, smaller and in shadow, so they reward a close look
+   without cluttering the thumbnail: the peers as smaller unmarked chips chained to the falling one, a wall calendar
+   for the year it last happened, a crane already building next year's factory, reporters pressed to the glass doors,
+   a flashlight beam cutting through the rain. Every clue comes from the story. No generic filler: no charts, arrows,
+   piles of cash, bulls and bears, globes or skylines that the story doesn't need.
+4. **People: two to six adults in front, each spelled out**: age, build, hair, clothes, one clear action and the
+   story's emotion ("a grey-haired trader in a navy blazer clutching his head", "a stocky foreman raising both
+   fists"). Vary ages, genders and skin tones. Crowds stay in the background, smaller and darker. Never real people,
+   names, "the CEO of X", look-alikes, caricatures, children or toy-like faces. A story about the Fed or Washington can
+   have a generic silver-haired official at a lectern before an American flag.
+5. **Show the direction physically, not only in the sign.** A fall: a cracked, sinking or toppling hero, a red
+   alarm light, pale alarmed faces, cold light. A gain: a rising, overflowing or launching hero, gold light, cheering.
+   A mixed story is a mixed scene. Match the size: a 2% dip isn't a disaster. Never make light of real harm.
+6. **Stage splits; don't count.** The model can't count past two. Show a 10-2 vote as a seated majority under one
+   'HOLD' sign and two officials standing apart under a red light; a crowd as a crowd.
+7. **Write literally.** Say what is actually there: "racks of green memory modules with gold contacts", not "chips
+   like gold bars" (that gives gold bars); "white clean-room coveralls with hoods and face masks", not "bunny suits"
+   (that gives rabbits). No "like" or "as if", no idioms.
+8. **Keep the family light**: dusk, night or a navy-shadowed interior, one warm gold light on the hero, red only for
+   the one alarm element. No daylight skies, white rooms or pink and purple neon. Places and flags only when the story
+   supports them (the Fed's marble boardroom and an American flag, Korea's flag for a Korean chipmaker).
+9. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs
+   (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat their hero object or setting:
+   trading floors, vaults and queues are the easy repeats.
 
-1. **One focal subject that carries the point**: sinking, soaring, cracking, overflowing, a queue, a vault, a tug of
-   war, a tightrope, a fork in the road, a dam, a rocket, a gold rush, a lighthouse in a storm, a seesaw, an hourglass.
-   Use the story's angle (the dek), not just its topic. Name the setting, the light and the moment.
-2. **Match the direction and the size.** A fall never looks like a triumph, a mixed quarter is a mixed image, a debate
-   is a face-off or a balance, uncertainty is fog or a storm. A 2% dip isn't a shipwreck. Never trivialise real harm
-   (war, deaths, layoffs): use restrained symbols, never explosions, casualties, collapsing towers or planes.
-3. **Literal is boring.** No offices, trading floors, factory exteriors, server aisles, skylines or a person at a desk:
-   those were the old covers.
-4. **No real or recognisable people, and no faces.** People only as tiny silhouettes or from behind; robots and
-   animals are fine.
-5. **No text, logos or flags**, and no branded products or trade dress: no letters, numbers, price tags, tickers,
-   signs, screens with words, newspapers, charts or arrows (the models draw them wrong, and charts always rise). Show
-   direction physically.
-6. **Vary it.** The home page shows about 40 stories at once: look at the latest covers
-   (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat a central object or metaphor. Chips,
-   vaults, bulls and bears, scales and rockets are the usual repeats.
-7. **No style words** ("cinematic", "4k", "photo"): the house prompt has them.
-
-`cover_alt` says plainly what the picture shows, under 110 characters. Story pages caption every cover "Image:
-AI-generated". A story without a brief borrows one of the 56 topic photos in `assets/covers/` (`site/covers.json`)
-until its cover is drawn.
-
+Write the brief in 70–130 words, the hero and its writing first (the model reads the start most closely), then the
+people, then the clues. `cover_alt` says plainly what the picture shows, writing included, under 125 characters. The
+covers job checks each picture for the `cover_text` strings and stray writing and redraws it when they're wrong.
+Story pages caption every cover "Image: AI-generated". A story without a brief borrows one of the 56 topic photos in
+`assets/covers/` until its cover is drawn.
