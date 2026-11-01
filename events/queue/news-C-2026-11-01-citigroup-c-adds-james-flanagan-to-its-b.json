@@ -1,0 +1,88 @@
+{
+ "id": "news-C-2026-11-01-citigroup-c-adds-james-flanagan-to-its-b",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-01T14:41:07-05:00",
+ "expires": "2026-11-02T00:41:07-05:00",
+ "tickers": [
+  "C"
+ ],
+ "headline_hint": "Citigroup: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-01T14:39:39-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Citigroup (C) Adds James Flanagan To Its Board And Audit Committee",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaktROTlDWnhJT1FmSm9mdTdkamlqUWEwZ25nVTN0cWhqdVdXVjIyM3ZpdEhUZldrbjgxdEhIZkozUUhqYm9Fb2tfNmpVWUV4YXd3UUoxRVRZWUlpdlVYTFdmTEVfc216cFhHLWVZVmI3RDNfVzdGbUFZa19VejhMWjNaMkZsMWl0d0ZqVUJ5ZVBzVFU5ZzJvYm45WDQ?oc=5",
+    "published": "2026-11-01T13:09:59-05:00",
+    "also": []
+   },
+   {
+    "title": "Did Better Card Delinquencies Just Shift Citi's (C) Investment Narrative?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd0tUYVdZS1NHNnU5VGRKWkxSa1BkMFNjVFBTMk5JWERVS2hkbEtPMFBpSHROaHZWbzItNzRaUEZGbGF1Z2dUdXIwbjIyMXZ3d1NvMlA0UUh2aTFyd09RbmxNdEJ6bXdsaFBNQkxocmMwWEJYN3QtX1IyUndGNTY1bjZYMzFoanAyMG9Jc1I1WFFSeU8zNFpfVzlMd0FnSnZJ?oc=5",
+    "published": "2026-11-01T12:08:51-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 122.64,
+   "change_pct": -2.48,
+   "prev_close": 125.76,
+   "time": "2026-10-30",
+   "mktcap": "202.994B",
+   "pe": 11.96,
+   "fpe": 10.63,
+   "yr_high": 147.96,
+   "yr_low": 95.83,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 122.54,
+    "change_pct": -0.08,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "C",
+   "name": "Citigroup",
+   "date": "2026-10-30",
+   "close": 122.64,
+   "prev_close": 125.76,
+   "change_pct": -2.48,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 35,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-13",
+    "change_pct": -5.6
+   },
+   "ytd_pct": 5.1,
+   "return_1m_pct": -3.43,
+   "return_6m_pct": -3.77,
+   "return_1y_pct": 23.73,
+   "high_52w": {
+    "close": 145.67,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 97.63,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 15.81,
+   "thousand_dollars_5y_ago_now": 1773,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 13630420,
+   "volume_vs_20d_avg": 1.51,
+   "sentences": [
+    "Citigroup's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 October 2026, when the stock fell 5.6%.",
+    "The stock is up 5.1% this year, and at $122.64 it sits 15.8% below its 52-week closing high of $145.67 from 22 June 2026.",
+    "$1,000 invested in Citigroup five years ago would be worth $1,773 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "id": "weekahead-2026-11-01",
+ "kind": "week-ahead",
+ "story_type": "analysis",
+ "priority": 40,
+ "created": "2026-11-01T14:41:07-05:00",
+ "expires": "2026-11-02T09:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "The Week Ahead: <the big tests for stocks>",
+ "instructions": "Day by day: the big reporters and the economic calendar.",
+ "quotes_asof": "2026-11-01T14:39:39-05:00",
+ "pack": {
+  "week": [
+   {
+    "date": "2026-11-02",
+    "reporters": [
+     {
+      "ticker": "AAPL",
+      "time": "amc",
+      "eps_forecast": 1.98
+     },
+     {
+      "ticker": "PLTR",
+      "time": "amc",
+      "eps_forecast": 0.33
+     },
+     {
+      "ticker": "VRTX",
+      "time": "amc",
+      "eps_forecast": 4.36
+     },
+     {
+      "ticker": "MAR",
+      "time": "bmo",
+      "eps_forecast": 2.87
+     },
+     {
+      "ticker": "WMB",
+      "time": "amc",
+      "eps_forecast": 0.55
+     },
+     {
+      "ticker": "FANG",
+      "time": "amc",
+      "eps_forecast": 4.92
+     },
+     {
+      "ticker": "O",
+      "time": "amc",
+      "eps_forecast": 1.11
+     },
+     {
+      "ticker": "ETR",
+      "time": "bmo",
+      "eps_forecast": 1.71
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "reporters": [
+     {
+      "ticker": "AMD",
+      "time": "amc",
+      "eps_forecast": 1.68
+     },
+     {
+      "ticker": "AMGN",
+      "time": "amc",
+      "eps_forecast": 5.74
+     },
+     {
+      "ticker": "ANET",
+      "time": "amc",
+      "eps_forecast": 0.99
+     },
+     {
+      "ticker": "SHOP",
+      "time": "bmo",
+      "eps_forecast": 0.33
+     },
+     {
+      "ticker": "PFE",
+      "time": "bmo",
+      "eps_forecast": 0.72
+     },
+     {
+      "ticker": "ETN",
+      "time": "bmo",
+      "eps_forecast": 3.54
+     },
+     {
+      "ticker": "MPC",
+      "time": "bmo",
+      "eps_forecast": 25.74
+     },
+     {
+      "ticker": "BKNG",
+      "time": "amc",
+      "eps_forecast": 4.48
+     }
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "reporters": [
+     {
+      "ticker": "TM",
+      "time": "unknown",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "ARM",
+      "time": "amc",
+      "eps_forecast": 0.22
+     },
+     {
+      "ticker": "MCD",
+      "time": "bmo",
+      "eps_forecast": 3.36
+     },
+     {
+      "ticker": "QCOM",
+      "time": "amc",
+      "eps_forecast": 1.46
+     },
+     {
+      "ticker": "NVO",
+      "time": "bmo",
+      "eps_forecast": 0.81
+     },
+     {
+      "ticker": "UBER",
+      "time": "bmo",
+      "eps_forecast": 0.94
+     },
+     {
+      "ticker": "MCK",
+      "time": "amc",
+      "eps_forecast": 10.69
+     },
+     {
+      "ticker": "CVS",
+      "time": "bmo",
+      "eps_forecast": 1.62
+     }
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "reporters": [
+     {
+      "ticker": "COP",
+      "time": "bmo",
+      "eps_forecast": 2.97
+     },
+     {
+      "ticker": "SONY",
+      "time": "bmo",
+      "eps_forecast": 0.38
+     },
+     {
+      "ticker": "PH",
+      "time": "bmo",
+      "eps_forecast": 8.23
+     },
+     {
+      "ticker": "SO",
+      "time": "bmo",
+      "eps_forecast": 1.71
+     },
+     {
+      "ticker": "NET",
+      "time": "amc",
+      "eps_forecast": 0.02
+     },
+     {
+      "ticker": "DUK",
+      "time": "bmo",
+      "eps_forecast": 1.87
+     },
+     {
+      "ticker": "ABNB",
+      "time": "amc",
+      "eps_forecast": 2.89
+     },
+     {
+      "ticker": "MNST",
+      "time": "amc",
+      "eps_forecast": 0.3
+     }
+    ]
+   },
+   {
+    "date": "2026-11-06",
+    "reporters": [
+     {
+      "ticker": "BRK.B",
+      "time": "unknown",
+      "eps_forecast": 5.91
+     },
+     {
+      "ticker": "MRNA",
+      "time": "bmo",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "HUM",
+      "time": "bmo",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "VST",
+      "time": "bmo",
+      "eps_forecast": 2.26
+     },
+     {
+      "ticker": "PPL",
+      "time": "bmo",
+      "eps_forecast": 0.53
+     },
+     {
+      "ticker": "BEN",
+      "time": "bmo",
+      "eps_forecast": 0.78
+     },
+     {
+      "ticker": "CHTR",
+      "time": "bmo",
+      "eps_forecast": 10.06
+     },
+     {
+      "ticker": "OKLO",
+      "time": "bmo",
+      "eps_forecast": null
+     }
+    ]
+   }
+  ]
+ }
+}

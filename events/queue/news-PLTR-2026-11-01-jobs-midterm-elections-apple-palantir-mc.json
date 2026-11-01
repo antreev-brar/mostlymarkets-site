@@ -1,0 +1,99 @@
+{
+ "id": "news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-01T14:41:07-05:00",
+ "expires": "2026-11-02T00:41:07-05:00",
+ "tickers": [
+  "PLTR"
+ ],
+ "headline_hint": "Palantir Technologies: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-01T14:39:39-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Jobs, Midterm Elections, Apple, Palantir, McDonald's, Moderna, and More to Watch This Week",
+    "source": "Barron's",
+    "url": "https://www.tradingview.com/news/DJN_DN20261101000610:0-jobs-midterm-elections-apple-palantir-mcdonald-s-moderna-and-more-to-watch-this-week-barrons-com/",
+    "published": "2026-11-01T13:59:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Stock of the Day: Is Palantir Breaking Support?",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:bc251ab89094b:0-stock-of-the-day-is-palantir-breaking-support/",
+    "published": "2026-11-01T11:45:06-05:00",
+    "also": []
+   },
+   {
+    "title": "Palantir Analysis - Is PLTR Going Lower?",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSmFwbFlUSWxoWFdaSjY4eHNJdWZ4ZTdJeU90S0VEUVFDTGRZYi1RZ3Y2VnM0RmpjbS0zV1c1U2UwNTBoeGZDSDhfZVo5eWRTUXI1VHRraVBDZjVzVWJOcDAtNkg3N2U2TVFmZ1oyNVNVTXMwRDF3czdwWHBaRWY1dXhwTXpZcUFHUUJVeC1pM3B0dDZYMzVQc0pKYjg2U09oVFhpVHY2SEN4TndOWGZN?oc=5",
+    "published": "2026-11-01T11:45:06-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 184.11,
+   "change_pct": -6.27,
+   "prev_close": 196.42,
+   "time": "2026-10-30",
+   "mktcap": "442.427B",
+   "pe": 156.89,
+   "fpe": 108.11,
+   "yr_high": 212.94,
+   "yr_low": 106.37,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 184.6,
+    "change_pct": 0.27,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies",
+   "date": "2026-10-30",
+   "close": 184.11,
+   "prev_close": 196.42,
+   "change_pct": -6.27,
+   "moves_over_5pct_last_year": 38,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 23,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": -7.22
+   },
+   "ytd_pct": 3.58,
+   "return_1m_pct": -3.12,
+   "return_6m_pct": 27.79,
+   "return_1y_pct": -7.39,
+   "high_52w": {
+    "close": 209.05,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 107.27,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 11.93,
+   "thousand_dollars_5y_ago_now": 7114,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 27070010,
+   "volume_vs_20d_avg": 1.2,
+   "sentences": [
+    "Palantir Technologies's shares moved 5% or more on 38 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 7.2%.",
+    "The stock is up 3.6% this year, and at $184.11 it sits 11.9% below its 52-week closing high of $209.05 from 9 October 2026.",
+    "$1,000 invested in Palantir Technologies five years ago would be worth $7,114 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+   "/news/2026-10-31/alphabet-googl-is-in-talks-to-join-the-185-billion-golden-dome-bloomberg-reports/",
+   "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/"
+  ]
+ }
+}

@@ -9,6 +9,16 @@
 "day": "2026-10-30",
 "kind": "basket"
 },
+"breakdown-2026-11-01-1": {
+"created": "2026-11-01T14:41:07-05:00",
+"day": "2026-11-01",
+"kind": "breakdown"
+},
+"breakdown-2026-11-01-2": {
+"created": "2026-11-01T14:41:07-05:00",
+"day": "2026-11-01",
+"kind": "breakdown"
+},
 "daily-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -112,8 +122,23 @@
 "day": "2026-11-01",
 "kind": "narrative"
 },
+"news-ASML-2026-11-01-is-asml-holding-nasdaqgs-asml-still-unde": {
+"created": "2026-11-01T14:41:07-05:00",
+"day": "2026-11-01",
+"kind": "news"
+},
+"news-C-2026-11-01-citigroup-c-adds-james-flanagan-to-its-b": {
+"created": "2026-11-01T14:41:07-05:00",
+"day": "2026-11-01",
+"kind": "news"
+},
 "news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
 "created": "2026-11-01T08:26:05-05:00",
+"day": "2026-11-01",
+"kind": "news"
+},
+"news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc": {
+"created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "news"
 },
@@ -332,6 +357,16 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"viewpoints-2026-11-01": {
+"created": "2026-11-01T14:41:07-05:00",
+"day": "2026-11-01",
+"kind": "viewpoints"
+},
+"weekahead-2026-11-01": {
+"created": "2026-11-01T14:41:07-05:00",
+"day": "2026-11-01",
+"kind": "week-ahead"
 },
 "wrap-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
