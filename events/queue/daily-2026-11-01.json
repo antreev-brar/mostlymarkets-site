@@ -1,0 +1,821 @@
+{
+ "id": "daily-2026-11-01",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-01T08:26:05-05:00",
+ "expires": "2026-11-01T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily, Sunday edition: <the argument that will decide this week>",
+ "instructions": "The Sunday edition: the story Wall Street will argue about this week, the weekend's news that could move stocks on Monday, and the week's big tests (reporters, data, the Fed). 6 to 8 takes, each one claim with one chart or stat block, then What's next (day by day) and The numbers (Friday's close).",
+ "quotes_asof": "2026-11-01T08:22:59-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7580.07,
+    "change": -140.32,
+    "change_pct": -1.82,
+    "prev_close": 7720.39,
+    "open": 7631.07,
+    "high": 7637.48,
+    "low": 7527.56,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25436.999,
+    "change": -747.726,
+    "change_pct": -2.86,
+    "prev_close": 26184.724,
+    "open": 25592.486,
+    "high": 25672.998,
+    "low": 25177.331,
+    "volume": 1887226684,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 51770.31,
+    "change": -572.25,
+    "change_pct": -1.09,
+    "prev_close": 52342.56,
+    "open": 52383.9,
+    "high": 52383.9,
+    "low": 51563.76,
+    "volume": 659029846,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2811.844,
+    "change": -47.372,
+    "change_pct": -1.66,
+    "prev_close": 2811.844,
+    "open": 2838.773,
+    "high": 2843.0,
+    "low": 2787.122,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 19.42,
+    "change": 2.22,
+    "change_pct": 12.91,
+    "prev_close": 17.2,
+    "open": 18.43,
+    "high": 23.93,
+    "low": 18.03,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.933,
+    "change": -0.056,
+    "change_pct": -1.1225,
+    "prev_close": 4.989,
+    "open": 4.937,
+    "high": 4.958,
+    "low": 4.892,
+    "volume": 0,
+    "time": "2026-10-30T16:05:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.592,
+    "change": -0.064,
+    "change_pct": 0.125,
+    "prev_close": 4.656,
+    "open": 4.606,
+    "high": 4.629,
+    "low": 4.554,
+    "volume": 0,
+    "time": "2026-10-30T16:05:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 4.96,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 102.95,
+    "change": 0.95,
+    "change_pct": 0.93,
+    "prev_close": 102.0,
+    "open": 102.8,
+    "high": 104.99,
+    "low": 102.43,
+    "volume": 248668,
+    "time": "2026-10-31",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 113.43,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "prev_close": 113.43,
+    "open": 0.0,
+    "high": 0.0,
+    "low": 0.0,
+    "volume": 0,
+    "time": "2026-10-31",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3884.9,
+    "change": -146.5,
+    "change_pct": -3.63,
+    "prev_close": 4031.4,
+    "open": 4033.6,
+    "high": 4038.2,
+    "low": 3879.3,
+    "volume": 230038,
+    "time": "2026-10-31",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 77848.1,
+    "change": 403.54,
+    "change_pct": 0.52,
+    "prev_close": 77444.56,
+    "open": 77438.53,
+    "high": 78123.69,
+    "low": 77308.43,
+    "volume": 0,
+    "time": "2026-11-01T08:22:56.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 111815.3,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.964,
+    "change": -0.073,
+    "change_pct": -0.07,
+    "prev_close": 102.037,
+    "open": 101.882,
+    "high": 102.089,
+    "low": 101.544,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-10-30",
+  "moves": [
+   {
+    "ticker": "RDDT",
+    "name": "Reddit",
+    "close": 91.73,
+    "change_pct": -29.22,
+    "our_stories": [
+     "/daily/2026-10-31/",
+     "/news/2026-10-30/why-reddit-rddt-stock-is-sinking-today/",
+     "/news/2026-10-30/stocks-making-the-biggest-moves-this-week-reddit-servicenow-f5-fortinet-and-intel/"
+    ]
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "close": 65.76,
+    "change_pct": -28.58,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+     "/daily/2026-10-31/"
+    ]
+   },
+   {
+    "ticker": "ILMN",
+    "name": "Illumina",
+    "close": 235.99,
+    "change_pct": -18.64,
+    "our_stories": [
+     "/news/2026-10-30/why-illumina-ilmn-stock-is-sinking-today/"
+    ]
+   },
+   {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "close": 205.03,
+    "change_pct": -15.24,
+    "our_stories": []
+   },
+   {
+    "ticker": "FDXF",
+    "name": "FedEx Freight",
+    "close": 126.04,
+    "change_pct": 14.91,
+    "our_stories": []
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 1150.89,
+    "change_pct": -13.47,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+     "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/"
+    ]
+   },
+   {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals",
+    "close": 927.89,
+    "change_pct": 13.33,
+    "our_stories": [
+     "/news/2026-11-01/regeneron-regn-beats-q3-estimates-and-has-its-best-day-since-2022/",
+     "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/"
+    ]
+   },
+   {
+    "ticker": "GPN",
+    "name": "Global Payments",
+    "close": 96.84,
+    "change_pct": 12.97,
+    "our_stories": []
+   },
+   {
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "close": 235.27,
+    "change_pct": -11.5,
+    "our_stories": []
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "close": 210.32,
+    "change_pct": -11.34,
+    "our_stories": []
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "close": 164.79,
+    "change_pct": -11.12,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+     "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 258.7,
+    "change_pct": -10.93,
+    "our_stories": [
+     "/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/"
+    ]
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "3 AI Infrastructure Stocks We Love and 1 We Hate",
+    "path": "/news/2026-10-26/3-ai-infrastructure-stocks-we-love-and-1-we-hate/",
+    "type": "list",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "DoorDash (DASH) Shares Slide on Report It Is in Talks to Buy Instacart",
+    "path": "/news/2026-10-26/doordash-dash-shares-slide-on-report-it-is-in-talks-to-buy-instacart/",
+    "type": "why-it-moved",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Nu Holdings (NU) and MercadoLibre (MELI) Shares Slide After Lula Wins in Brazil",
+    "path": "/news/2026-10-26/nu-holdings-nu-and-mercadolibre-meli-shares-slide-after-lula-wins-in-brazil/",
+    "type": "why-it-moved",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Stock Market Today: Anthropic's IPO Filing Lifts Chip Stocks as Brazil Crashes",
+    "path": "/news/2026-10-26/stock-market-today-anthropics-ipo-filing-lifts-chip-stocks-as-brazil-crashes/",
+    "type": "market-wrap",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Why Fair Isaac (FICO) Stock Is Sinking Today",
+    "path": "/news/2026-10-26/why-fair-isaac-fico-stock-is-sinking-today/",
+    "type": "why-it-moved",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "3 Cash Machine Stocks We Love and 1 We Hate",
+    "path": "/news/2026-10-27/3-cash-machine-stocks-we-love-and-1-we-hate/",
+    "type": "list",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Boeing (BA) Shares Slide After It Delays Its 737 Production Ramp",
+    "path": "/news/2026-10-27/boeing-ba-shares-slide-after-it-delays-its-737-production-ramp/",
+    "type": "why-it-moved",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Coca-Cola (KO) Tops Q3 Estimates as Volume Grows Outside North America",
+    "path": "/news/2026-10-27/coca-cola-ko-tops-q3-estimates-as-volume-grows-outside-north-america/",
+    "type": "earnings-recap",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Consumer Confidence Rebounded in October, but Inflation Worries Haven't Gone Away",
+    "path": "/news/2026-10-27/consumer-confidence-rebounded-in-october-but-inflation-worries-havent-gone-away/",
+    "type": "macro",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "General Motors (GM) Shares Jump After It Moves Its Listing to the Nasdaq",
+    "path": "/news/2026-10-27/general-motors-gm-shares-jump-after-it-moves-its-listing-to-the-nasdaq/",
+    "type": "why-it-moved",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Stock Market Today: Boeing's Slide Holds the Dow Flat as Chip Stocks Climb Again",
+    "path": "/news/2026-10-27/stock-market-today-boeings-slide-holds-the-dow-flat-as-chip-stocks-climb-again/",
+    "type": "market-wrap",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Stocks Making Big Moves Yesterday: Nu Holdings, Fair Isaac, Lumentum, MercadoLibre and DoorDash",
+    "path": "/news/2026-10-27/stocks-making-the-biggest-moves-yesterday-nu-holdings-fair-isaac-lumentum-mercadolibre-and-doordash/",
+    "type": "movers",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "UPS (UPS) Tops Q3 Estimates as Revenue per Package Climbs",
+    "path": "/news/2026-10-27/ups-ups-tops-q3-estimates-as-revenue-per-package-climbs/",
+    "type": "earnings-recap",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Visa (V) Beats Q4 Estimates, but Its 2027 Outlook Points to Slower Growth",
+    "path": "/news/2026-10-27/visa-v-beats-q4-estimates-but-its-2027-outlook-points-to-slower-growth/",
+    "type": "earnings-recap",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Xylem (XYL) Shares Slide After It Cuts Its 2026 Forecast",
+    "path": "/news/2026-10-27/xylem-xyl-shares-slide-after-it-cuts-its-2026-forecast/",
+    "type": "why-it-moved",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "The 10-Year Treasury Yield Has Spent Six Weeks Around 5%, a Level Last Seen in 2007",
+    "path": "/news/2026-10-28/10-year-treasury-yield-has-spent-six-weeks-around-5-a-level-last-seen-in-2007/",
+    "type": "chart",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "3 Beaten-Down Quality Stocks We Love and 1 We Hate",
+    "path": "/news/2026-10-28/3-beaten-down-quality-stocks-we-love-and-1-we-hate/",
+    "type": "list",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Alphabet (GOOGL) Q3: Cloud Sales Double, Stock Plunges 11% After Hours",
+    "path": "/news/2026-10-28/alphabet-googl-q3-cloud-sales-double-stock-falls-11-after-hours/",
+    "type": "earnings-recap",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "F5 (FFIV) Shares Plunge After a Soft Forecast and a Piper Sandler Downgrade",
+    "path": "/news/2026-10-28/f5-ffiv-shares-plunge-after-a-soft-forecast-and-a-piper-sandler-downgrade/",
+    "type": "why-it-moved",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "The Fed Held Rates, but Two Officials Wanted a Hike",
+    "path": "/news/2026-10-28/fed-held-rates-but-two-officials-wanted-a-hike/",
+    "type": "macro",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Microsoft (MSFT) Beats Q1 Estimates as Azure Growth Speeds Up to 48%",
+    "path": "/news/2026-10-28/microsoft-msft-beats-q1-estimates-as-azure-growth-speeds-up-to-48/",
+    "type": "earnings-recap",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Oracle (ORCL) Shares Soar After It Sets a $225 Billion Revenue Target",
+    "path": "/news/2026-10-28/oracle-orcl-shares-soar-after-it-sets-a-225-billion-revenue-target/",
+    "type": "why-it-moved",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Sandisk (SNDK) and Micron (MU) Shares Jump After SK Hynix's Record Quarter",
+    "path": "/news/2026-10-28/sandisk-sndk-and-micron-mu-shares-jump-after-sk-hynixs-record-quarter/",
+    "type": "why-it-moved",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Stock Market Today: Stocks Edge Up After a Split Fed Vote as Oracle and Vertiv Soar",
+    "path": "/news/2026-10-28/stock-market-today-stocks-edge-up-after-a-split-fed-vote-as-oracle-and-vertiv-soar/",
+    "type": "market-wrap",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Stocks Making the Biggest Moves Yesterday: Xylem, SoFi, Pentair, Celestica and Boeing",
+    "path": "/news/2026-10-28/stocks-making-the-biggest-moves-yesterday-xylem-sofi-pentair-celestica-and-boeing/",
+    "type": "movers",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Vertiv (VRT) Shares Soar as Its Orders More Than Double",
+    "path": "/news/2026-10-28/vertiv-vrt-shares-soar-as-its-orders-more-than-double/",
+    "type": "why-it-moved",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "AbbVie (ABBV) Reports Earnings Tomorrow: What to Watch",
+    "path": "/news/2026-10-29/abbvie-abbv-reports-earnings-tomorrow-what-to-watch/",
+    "type": "earnings-preview",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Alphabet (GOOGL) Shares Plunge After Search Falls Short and Cash Burn Grows",
+    "path": "/news/2026-10-29/alphabet-googl-shares-plunge-after-search-falls-short-and-cash-burn-grows/",
+    "type": "why-it-moved",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Amazon (AMZN) Q3: AWS Speeds Up, but Ads and Earnings Miss Estimates",
+    "path": "/news/2026-10-29/amazon-amzn-q3-aws-speeds-up-but-ads-and-profit-miss-estimates/",
+    "type": "earnings-recap",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "AMD (AMD) Reports Earnings on Tuesday: What to Watch",
+    "path": "/news/2026-10-29/amd-amd-reports-earnings-on-tuesday-what-to-watch/",
+    "type": "earnings-preview",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Amphenol (APH) Tops Q3 Estimates as AI Datacom Sales More Than Double",
+    "path": "/news/2026-10-29/amphenol-aph-tops-q3-estimates-as-ai-datacom-sales-more-than-double/",
+    "type": "earnings-recap",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Apple Leads the Magnificent Seven in 2026 as Alphabet Slides Into the Red",
+    "path": "/news/2026-10-29/apple-leads-the-magnificent-seven-in-2026-as-alphabet-slides-into-the-red/",
+    "type": "chart",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Caterpillar (CAT) Beats Q3 Profit Estimates, but Shares Plunge on Its Outlook",
+    "path": "/news/2026-10-29/caterpillar-cat-beats-q3-profit-estimates-but-shares-plunge-on-its-outlook/",
+    "type": "earnings-recap",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Chevron (CVX) Reports Earnings Tomorrow: What to Watch",
+    "path": "/news/2026-10-29/chevron-cvx-reports-earnings-tomorrow-what-to-watch/",
+    "type": "earnings-preview",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "The Earnings Week Ahead: Apple, AMD and Palantir, Plus the Election and Jobs",
+    "path": "/news/2026-10-29/earnings-week-ahead-apple-amd-and-palantir-plus-the-election-and-jobs/",
+    "type": "analysis",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Eli Lilly (LLY) Tops Q3 Estimates as Mounjaro Sales Jump 65%",
+    "path": "/news/2026-10-29/eli-lilly-lly-tops-q3-estimates-as-mounjaro-sales-jump-65/",
+    "type": "earnings-recap",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Exxon Mobil (XOM) Reports Earnings Tomorrow: What to Watch",
+    "path": "/news/2026-10-29/exxon-mobil-xom-reports-earnings-tomorrow-what-to-watch/",
+    "type": "earnings-preview",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Fortinet (FTNT) Shares Plunge After It Cuts Its Service Revenue Forecast",
+    "path": "/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/",
+    "type": "why-it-moved",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "GE Vernova (GEV) Tops Q3 Estimates as Orders Nearly Double to $29 Billion",
+    "path": "/news/2026-10-29/ge-vernova-gev-tops-q3-estimates-as-orders-nearly-double-to-29-billion/",
+    "type": "earnings-recap",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Gilead (GILD) Tops Q3 Estimates as HIV Sales Grow 18%",
+    "path": "/news/2026-10-29/gilead-gild-tops-q3-estimates-as-hiv-sales-grow-18/",
+    "type": "earnings-recap",
+    "date": "2026-10-29"
+   }
+  ],
+  "reporting_today": [],
+  "headlines": [
+   {
+    "title": "J&J Reports Positive Survival And Outcomes With Impella In Hrpci",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46H00K:0-j-j-reports-positive-survival-and-outcomes-with-impella-in-hrpci/",
+    "published": "2026-11-01T08:05:04-05:00",
+    "also": []
+   },
+   {
+    "title": "Who really wins under Trump\u2019s economy? Coastal liberal elites who hate him.",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/who-really-wins-under-trumps-economy-coastal-liberal-elites-who-hate-him-d74c63cb",
+    "published": "2026-11-01T08:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Companies promised AI gains \u2014 here's how the payoff showed up in earnings",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+    "published": "2026-11-01T07:34:06-05:00",
+    "also": []
+   },
+   {
+    "title": "Crocs stock jumped 25% after earnings. Here's why that might be just the beginning",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/01/crocs-stock-valuation-3q-earnings.html",
+    "published": "2026-11-01T07:32:09-05:00",
+    "also": []
+   },
+   {
+    "title": "The midterm election could reshape the muni bond market. Here\u2019s what investors need to know",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
+    "published": "2026-11-01T07:30:48-05:00",
+    "also": []
+   },
+   {
+    "title": "Binance Resumes Withdrawals After Suffering Biggest-Ever Crypto Hack",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/currencies/binance-resumes-withdrawals-after-suffering-biggest-ever-crypto-hack-11d1900f",
+    "published": "2026-11-01T07:03:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Why AI is boosting Meta's ad business while hurting Google search",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+    "published": "2026-11-01T07:00:01-05:00",
+    "also": []
+   },
+   {
+    "title": "Investors Are Hedging Against the Risks of the AI Boom",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/articles/investors-are-hedging-against-the-risks-of-the-ai-boom-603203d5",
+    "published": "2026-11-01T07:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Investors Are Betting a Blue Wave Will Help Hospitals. Don\u2019t Count on It.",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/health/healthcare/investors-are-betting-a-blue-wave-will-help-hospitals-dont-count-on-it-411ab127",
+    "published": "2026-11-01T05:30:00-05:00",
+    "also": []
+   },
+   {
+    "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
+    "published": "2026-11-01T05:30:00-05:00",
+    "also": []
+   },
+   {
+    "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f",
+    "published": "2026-10-31T20:00:00-04:00",
+    "also": []
+   },
+   {
+    "title": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html",
+    "published": "2026-10-31T18:44:11-04:00",
+    "also": []
+   },
+   {
+    "title": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46H07U:0-judge-ends-trump-s-attempts-to-sue-wall-street-journal-over-epstein-reporting/",
+    "published": "2026-10-31T16:41:07-04:00",
+    "also": []
+   },
+   {
+    "title": "Carlyle, KKR, Oaktree get ready to snatch up bargain loans- Bloomberg News",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46H03O:0-carlyle-kkr-oaktree-get-ready-to-snatch-up-bargain-loans-bloomberg-news/",
+    "published": "2026-10-31T15:25:42-04:00",
+    "also": []
+   },
+   {
+    "title": "US judge dismisses Trump's lawsuit against Wall Street Journal with prejudice",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_SPN4650BK:0-us-judge-dismisses-trump-s-lawsuit-against-wall-street-journal-with-prejudice/",
+    "published": "2026-10-31T15:22:13-04:00",
+    "also": []
+   },
+   {
+    "title": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1",
+    "published": "2026-10-31T15:00:00-04:00",
+    "also": []
+   },
+   {
+    "title": "OPEC+ set to keep production targets unchanged in December, source says",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46H06B:0-opec-set-to-keep-production-targets-unchanged-in-december-source-says/",
+    "published": "2026-10-31T12:34:11-04:00",
+    "also": []
+   },
+   {
+    "title": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46H03D:0-meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says/",
+    "published": "2026-10-31T12:12:29-04:00",
+    "also": []
+   },
+   {
+    "title": "Meta Built Humanoid Prototype With Chinese Startup To Ramp Up Robotics Push - The Information",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VJ:0-meta-built-humanoid-prototype-with-chinese-startup-to-ramp-up-robotics-push-the-information/",
+    "published": "2026-10-31T12:03:44-04:00",
+    "also": []
+   },
+   {
+    "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea",
+    "published": "2026-10-31T12:02:00-04:00",
+    "also": []
+   },
+   {
+    "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+    "published": "2026-10-31T11:37:11-04:00",
+    "also": []
+   },
+   {
+    "title": "Prediction Markets Keep Whiffing on Elections. Will They Miss on the Midterms?",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/politics/elections/prediction-markets-keep-whiffing-on-elections-will-they-miss-on-the-midterms-9809c8c9",
+    "published": "2026-10-31T10:00:00-04:00",
+    "also": []
+   },
+   {
+    "title": "Intel stock plunges 29%. Analysts urge caution on buying the dip",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/31/intel-not-a-buy-after-drop.html",
+    "published": "2026-10-31T09:02:22-04:00",
+    "also": []
+   },
+   {
+    "title": "Berkshire ekes out some new highs, but October rally stalls",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+    "published": "2026-10-31T08:26:00-04:00",
+    "also": []
+   },
+   {
+    "title": "Automakers like Rivian and Ford are \u2018democratizing 3D printing\u2019 to reduce costs and increase speed",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+    "published": "2026-10-31T08:00:01-04:00",
+    "also": []
+   },
+   {
+    "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+    "published": "2026-10-31T07:00:01-04:00",
+    "also": []
+   },
+   {
+    "title": "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+    "published": "2026-10-31T02:00:02-04:00",
+    "also": []
+   },
+   {
+    "title": "Wall Street Is Starting to Call the Shots in America\u2019s AI Build-Out",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d",
+    "published": "2026-10-30T23:00:00-04:00",
+    "also": []
+   },
+   {
+    "title": "Behind the Scenes of Crypto\u2019s Biggest Nightmare: a Record-Breaking Cyber Heist",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/currencies/behind-the-scenes-of-cryptos-biggest-nightmare-a-record-breaking-cyber-heist-ffe1d9a3",
+    "published": "2026-10-30T19:29:00-04:00",
+    "also": []
+   },
+   {
+    "title": "Hedge Fund Arini Offloads $800 Million in Debt as Losses Deepen",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/investing/hedge-fund-arini-offloads-800-million-in-debt-as-losses-deepen-2d24626c",
+    "published": "2026-10-30T18:43:00-04:00",
+    "also": []
+   }
+  ]
+ }
+}

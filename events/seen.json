@@ -15,6 +15,11 @@
 "kind": "daily",
 "outcome": "already-written"
 },
+"daily-2026-11-01": {
+"created": "2026-11-01T08:26:05-05:00",
+"day": "2026-11-01",
+"kind": "daily"
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -101,6 +106,16 @@
 "created": "2026-10-30T18:48:32-04:00",
 "day": "2026-10-30",
 "kind": "movers"
+},
+"narrative-2026-11-01": {
+"created": "2026-11-01T08:26:05-05:00",
+"day": "2026-11-01",
+"kind": "narrative"
+},
+"news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
+"created": "2026-11-01T08:26:05-05:00",
+"day": "2026-11-01",
+"kind": "news"
 },
 "recap-ABBV-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",

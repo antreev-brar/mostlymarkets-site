@@ -1,0 +1,88 @@
+{
+ "id": "news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-01T08:26:05-05:00",
+ "expires": "2026-11-01T18:26:05-05:00",
+ "tickers": [
+  "JNJ"
+ ],
+ "headline_hint": "Johnson & Johnson: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-01T08:22:59-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "J&J Reports Positive Survival And Outcomes With Impella In Hrpci",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46H00K:0-j-j-reports-positive-survival-and-outcomes-with-impella-in-hrpci/",
+    "published": "2026-11-01T08:05:04-05:00",
+    "also": []
+   },
+   {
+    "title": "Johnson & Johnson (JNJ) Reports Positive Real-World Impella HRPCI Outcomes vs CHIP-BCIS3",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:2760a2836f323:0-johnson-johnson-jnj-reports-positive-real-world-impella-hrpci-outcomes-vs-chip-bcis3/",
+    "published": "2026-11-01T08:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 273.2,
+   "change_pct": -0.73,
+   "prev_close": 275.2,
+   "time": "2026-10-30",
+   "mktcap": "657.677B",
+   "pe": 41.47,
+   "fpe": 25.1,
+   "yr_high": 282.02,
+   "yr_low": 185.12,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 273.48,
+    "change_pct": 0.1,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "date": "2026-10-30",
+   "close": 273.2,
+   "prev_close": 275.2,
+   "change_pct": -0.73,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 141,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-23",
+    "change_pct": -1.42
+   },
+   "ytd_pct": 32.01,
+   "return_1m_pct": 5.62,
+   "return_6m_pct": 20.25,
+   "return_1y_pct": 46.41,
+   "high_52w": {
+    "close": 278.43,
+    "date": "2026-09-03"
+   },
+   "low_52w": {
+    "close": 186.0,
+    "date": "2025-11-05"
+   },
+   "pct_below_52w_high": 1.88,
+   "thousand_dollars_5y_ago_now": 1677,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 8969486,
+   "volume_vs_20d_avg": 1.16,
+   "sentences": [
+    "Johnson & Johnson's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 October 2026, when the stock fell 1.4%.",
+    "The stock is up 32.0% this year, and at $273.20 it sits 1.9% below its 52-week closing high of $278.43 from 3 September 2026.",
+    "$1,000 invested in Johnson & Johnson five years ago would be worth $1,677 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
