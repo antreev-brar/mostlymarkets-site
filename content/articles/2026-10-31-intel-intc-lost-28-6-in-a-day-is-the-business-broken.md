@@ -6,8 +6,9 @@ published = 2026-10-31T10:28:03-04:00
 author = "dev-malhotra"
 tickers = ["INTC", "AMD", "NVDA", "QCOM", "ARM"]
 themes = ["intel-turnaround", "chip-selloff"]
-cover_brief = "On a dark navy pedestal under a single spotlight, a large blue porcelain vase lies split into a few big pieces, its cracks already being filled with glowing molten gold in the Japanese kintsugi style, a thin stream of gold dripping onto the pedestal."
-cover_alt = "A broken blue porcelain vase being mended with glowing gold under a spotlight"
+cover_brief = "In a cold, dark railway roundhouse, a stalled navy diesel locomotive with 'INTEL' in big white capitals on its flat front sits on a round turntable in the centre, halfway through turning around, lit warm gold, its left side gleaming new, its right side rusted. Directly above the locomotive hangs one big red sign, no wider than it, reading 'SINCE 1974' in bold capitals while a lean South Asian woman in her thirties in navy coveralls grimly welds the rust, sparks flying, and a plump bald man in his forties in a camel overcoat clutches a plain unmarked sack of coins, aghast. In the shadows, half-filled wagons of server boards wait, wagons of plain laptops gather dust, and a far bigger unmarked locomotive glows in the next bay."
+cover_alt = "A half-rusted INTEL locomotive stalls on a turntable under a red SINCE 1974 sign as a man clutches a sack"
+cover_text = ["INTEL", "SINCE 1974"]
 sources = [
   "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
   "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",

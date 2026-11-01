@@ -9,8 +9,9 @@ event = "recap-CVX-2026-10-30"
 moves = [
   { ticker = "CVX", price = 235.64, change_pct = 1.81, session = "regular", asof = 2026-10-30T09:31:00-04:00 },
 ]
-cover_brief = "In a dim, vaulted stone cellar, a giant gleaming copper still, like an alchemist's, swallows thick black crude oil from a rusty pipe at its top, and from its coiled spout a bright stream of molten gold pours into a brimming iron vat, its glow lighting the curling steam and the copper's polished curves."
-cover_alt = "An alchemist's copper still turning black crude oil into a bright stream of molten gold"
+cover_brief = "In the centre of an oil refinery at night, a giant boxy steel furnace blazes with every burner lit, gold flames in open hatches down its sides, a wide navy plaque across its front reading 'CHEVRON' in big white block capitals. Directly above it, high over the workers' heads, hangs a big glowing gold sign reading 'FOURFOLD', centred and no wider than the furnace, while to the furnace's right, clear of the sign, a stocky grey-moustached operator in his fifties, in a hard hat and navy coveralls, raises one fist, and a tall Asian woman engineer in her thirties in safety glasses grins at a plain tablet. Behind them flares burn bright, plain tanker trucks fill at a loading rack, and distant pumpjacks sit dim in cold blue shadow."
+cover_alt = "A CHEVRON furnace blazes in a refinery at night under a FOURFOLD sign as two workers cheer and tankers fill"
+cover_text = ["CHEVRON", "FOURFOLD"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/a09302026ex9918-k.htm",
   "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/0000093410-26-000196-index.htm",

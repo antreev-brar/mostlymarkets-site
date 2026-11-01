@@ -12,8 +12,9 @@ moves = [
   { ticker = "NVDA", price = 204.64, change_pct = -4.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "REGN", price = 927.89, change_pct = 13.33, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A colossal old iron anchor, crusted with rust and barnacles, plunges through deep blue water toward the dark seabed, its heavy chain dragging a long string of bright red and gold buoys down after it, a trail of bubbles streaming up toward the sunlit surface far above."
-cover_alt = "A huge rusty anchor sinks through deep water, its chain dragging a string of red and gold buoys down."
+cover_brief = "In the centre of a dark road tunnel at night, a giant ivory domino, taller than the worker, its broad face turned to us, plain but for a wide flat navy plaque across it reading 'INTEL' in big white block capitals, with no logo, no lowercase, no period, tips sideways, lit warm gold, knocking smaller plain dominoes down the tunnel. Directly above the domino hangs a big red sign reading '1974' in glowing digits, while a stocky grey-moustached worker in his fifties in an orange vest stumbles backwards, shielding his face. Beside him, a tall Latina woman in her forties in a navy suit covers her mouth. On the wet road lie a plain laptop, a green memory module and spilled gold coins, in cold blue light"
+cover_alt = "A giant INTEL domino tips sideways in a dark tunnel under a red 1974 sign, knocking down smaller dominoes"
+cover_text = ["INTEL", "1974"]
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",

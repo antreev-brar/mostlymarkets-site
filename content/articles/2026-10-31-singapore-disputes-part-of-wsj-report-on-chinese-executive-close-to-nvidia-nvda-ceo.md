@@ -6,8 +6,9 @@ published = 2026-10-31T20:49:43-04:00
 author = "dev-malhotra"
 tickers = ["NVDA"]
 themes = ["export-controls"]
-cover_brief = "A mirror maze at midnight: one glowing gold computer chip on a small velvet pedestal is reflected into dozens of identical copies down every mirrored corridor, thin fog creeping across the floor under a single cold spotlight, so it is impossible to tell which chip is the real one."
-cover_alt = "A gold chip on a pedestal reflected into many copies in a foggy mirror maze"
+cover_brief = "In the centre of a Singapore government press room at night, a giant black processor chip with 'NVIDIA' in plain white capitals across its flat lid stands on a steel stand, lit warm gold. Directly behind the chip, in the middle of the frame, a big screen reads '$108 BILLION' in white letters, while just left of the chip a lean silver-haired official in his sixties in a dark suit, at a plain lectern before Singapore's flag, raises one open palm toward the cameras in a firm stop gesture. Just right of it, a Black investigator in her fifties in a navy windbreaker shines a flashlight into a plain crate of servers, intent. Reporters raise cameras in the shadows, and unmarked cargo ships sail the dark harbour outside."
+cover_alt = "A giant NVIDIA chip stands before a $108 BILLION screen in a Singapore press room as an official raises a palm"
+cover_text = ["NVIDIA", "$108 BILLION"]
 sources = [
   "https://www.tradingview.com/news/DJN_DN20261030002754:0-chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-wsj/",
   "https://mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article",

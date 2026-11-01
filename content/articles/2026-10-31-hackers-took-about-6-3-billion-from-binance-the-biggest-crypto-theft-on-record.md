@@ -6,8 +6,9 @@ published = 2026-10-31T21:56:15-04:00
 author = "nora-whitfield"
 tickers = ["COIN", "MSTR", "HOOD"]
 themes = ["crypto"]
-cover_brief = "A giant plain round steel vault door hangs blasted open in a dark, rainy alley at night, its thick bolts torn, and an avalanche of plain gold coins pours out across the wet cobblestones, a glittering trail running off into the shadows. Green digital sparks drift through the rain while red and blue police lights shimmer on the stones."
-cover_alt = "A blasted-open vault door spilling gold coins into a rainy alley lit by police lights"
+cover_brief = "In the centre of a dim banking hall, a giant glass tank nearly full of glowing gold coins, with 'BINANCE' in big white capitals on the steel band across its top, spills coins onto the floor from a jagged hole low in its side. Directly above the tank hangs a big red screen, no wider than the tank, reading 'HACKED' in bold capitals while a stocky grey-haired woman in her fifties in navy overalls pours coins back in from a ladder, determined, and a broad Black agent in his forties in a plain navy windbreaker grimly aims a flashlight at hooded hackers hauling sacks into a tunnel. Some sacks sit frozen in ice, steel shutters cover the teller windows, and a smaller plain tank shows an old jagged hole."
+cover_alt = "A BINANCE coin tank spills coins from a low hole under a red HACKED screen as a worker refills it"
+cover_text = ["BINANCE", "HACKED"]
 sources = [
   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

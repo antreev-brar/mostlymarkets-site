@@ -6,8 +6,9 @@ published = 2026-10-31T10:28:19-04:00
 author = "dev-malhotra"
 tickers = ["GOOGL", "AMZN", "META", "MSFT", "ORCL"]
 themes = ["ai-capex", "big-tech-earnings"]
-cover_brief = "A huge black steam locomotive thunders across a tall stone viaduct at dusk. Gold coins spill from its tender straight into its open, blazing firebox, the heap already half gone, and a long plume of glittering gold sparks streams from its funnel into a deep blue sky above a misty valley."
-cover_alt = "A steam locomotive burns gold coins in its firebox as it races across a stone viaduct at dusk"
+cover_brief = "In the centre of a dim boiler room beneath a data center, a giant iron furnace, its round door flung open, blazes warm gold as gold coins are shovelled in from a shrinking heap. Directly above the furnace hangs a big red screen, no wider than the furnace, reading 'CASH BURN' in bold capitals while a broad bald Latino stoker in his thirties in sooty navy coveralls shovels hard, grimacing, brow knotted, mouth turned down. On the furnace's other side, a slight grey-haired East Asian woman in her sixties in a navy suit marks a plain clipboard, frowning. In the shadows, a printing press stacks plain share certificates, a grey-haired banker holds out a plain loan paper, and a smaller furnace burns low next to a full coin bin."
+cover_alt = "Gold coins are shovelled into a blazing furnace under a red CASH BURN screen as a stoker grimaces"
+cover_text = ["CASH BURN"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",

@@ -7,8 +7,9 @@ author = "dev-malhotra"
 tickers = ["MU"]
 themes = ["memory-cycle", "hbm-pricing"]
 cover = "semis-wafer"
-cover_brief = "Seen from the side, a colossal staircase built from stacked green memory modules with blank black chips climbs out of a misty valley toward the clouds. Its first steps are each as tall as a house, every step after is lower than the one before, and the newest steps near the top rise only a little, yet it keeps climbing. Crisp morning sun, pale blue sky."
-cover_alt = "A giant staircase of green memory modules climbing into the clouds, its steps getting smaller near the top"
+cover_brief = "In the centre of a dark gym at night, a stocky bearded weightlifter in his thirties presses a barbell overhead, arms rising but trembling. Instead of weight plates, each end of the bar holds a thick stack of giant green memory modules with gold contacts. Directly above his head hangs a compact gold sign, no wider than the barbell, reading 'STILL RISING' in bold capitals while a chain ties the bar to a floor ring. Close on either side of him, a grey-haired East Asian coach in her sixties checks a plain clipboard, calm, and a tall Black man in his thirties in a grey hoodie waits to catch the bar, tense. Behind them, plain trophies on a shelf shrink from tall to small, and server racks glow blue."
+cover_alt = "A weightlifter presses a bar of memory modules overhead, arms trembling, under a STILL RISING sign as a coach watches"
+cover_text = ["STILL RISING"]
 sources = [
   "https://www.trendforce.com/presscenter/news/20260226-12937.html",
   "https://iconnect007.com/article/148959/price-rally-drives-4q25-dram-revenue-up-294-samsung-regains-no-1-market-share/148956/smt",

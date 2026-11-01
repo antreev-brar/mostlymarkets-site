@@ -7,8 +7,9 @@ author = "nora-whitfield"
 tickers = []
 logos = ["MSFT", "GOOGL", "AMZN", "META"]
 themes = ["ai-capex", "fed-rates"]
-cover_brief = "Inside a vast old marble hall in pale morning light, rows of grand stone columns stand weathered and cracked, and the heavy roof rests on one tall, gleaming new steel pillar in the centre, lined with rows of tiny blinking blue server lights. Fine dust drifts through shafts of light falling from gaps in the roof."
-cover_alt = "An old marble hall of cracked columns whose roof rests on one gleaming pillar of blue server lights"
+cover_brief = "In the centre of an American factory town at night, a big new glass-walled data centre full of server racks glows warm gold, and directly above it on its roof stands a huge glowing billboard reading 'BOOMING' in bold capitals, while around it old brick factories stand dark with unlit windows. In front of it, a weathered Latina factory worker in her late forties with grey-streaked hair in a bun, a lined face and a work jacket frowns with worry, a stocky grey-moustached foreman in his fifties in an orange hard hat grins and waves, and a tall bearded Black economist in his thirties in a navy coat points at the dark factories, concerned. Behind, cranes unload a cargo ship and a warehouse overflows with plain crates."
+cover_alt = "A glowing data centre with a BOOMING billboard amid dark factories as a foreman grins and a worker frowns"
+cover_text = ["BOOMING"]
 sources = [
   "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
   "https://investinglive.com/news/us-gdp-advance-for-the-3rd-quarter-3-4-vs-3-2-estimate/",

@@ -10,8 +10,9 @@ moves = [
   { ticker = "RSG", price = 236.28, change_pct = 1.23, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "RSG", price = 248.65, change_pct = 5.23, session = "regular", asof = 2026-10-30T09:31:37-04:00 },
 ]
-cover_brief = "At sunrise on a quiet, wet suburban street, the mechanical arm of a plain unmarked white garbage truck lifts a curbside wheelie bin high and tips it into the hopper, and out pours a glittering cascade of rubies, emeralds and sapphires, sparkling in the low golden light."
-cover_alt = "A garbage truck's arm tips a wheelie bin into the truck, pouring out a cascade of jewels at sunrise."
+cover_brief = "In the centre of a truck depot at dusk, a big white garbage truck seen side-on, with a wide navy plaque across its flat side reading 'REPUBLIC SERVICES' in white block capitals and a plain grille with no badge, lifts a green wheelie bin. Directly above the truck, centred, a big screen reading 'FORECAST RAISED' glows in white capitals, while a stocky driver in her forties with a dark ponytail and an orange vest punches the air from the cab and a tall grey-haired Black manager in his sixties in a navy jacket claps from the ground, beaming. In the shadows a mechanic fuels a plain truck at a diesel pump, two workers in white hooded coveralls load sealed yellow drums, and a clerk stamps plain invoices."
+cover_alt = "A REPUBLIC SERVICES garbage truck lifts a bin under a FORECAST RAISED screen as its driver cheers"
+cover_text = ["REPUBLIC SERVICES", "FORECAST RAISED"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001060391/000106039126000326/exhibit991q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0001060391/000106039126000327/rsg-20260930.htm",

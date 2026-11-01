@@ -10,8 +10,9 @@ moves = [
   { ticker = "TT", price = 431.10, change_pct = -3.87, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "TT", price = 419.97, change_pct = -2.58, session = "regular", asof = 2026-10-30T09:31:40-04:00 },
 ]
-cover_brief = "In a dim, misty hall of server racks, a house-sized block of glacier-blue ice stands on a steel pallet, cold fog rolling off it across the floor; a crane lowers another block onto the growing stack, while a thin, steady trickle of meltwater runs from its base into a spreading puddle."
-cover_alt = "A crane stacks more blocks on a huge block of ice in a server hall as meltwater pools at its base"
+cover_brief = "In the centre of a trade-show hall after hours, a giant ivory air-conditioning chiller stands on a display stand, lit warm gold, with a wide navy plaque across the top of its front, as wide as its two big round fans below, reading 'TRANE' in big white block capitals. Directly above it hangs a big glowing sign reading 'HELD' in white capitals, while beside the stand a slim grey-haired woman in her fifties in a charcoal suit frowns, holding a plain folder. Past her hurries a broad East Asian salesman in his thirties in a navy blazer, grinning, arms full of plain order forms. Behind them, crated chillers stack high and black server racks wait, plumbed to cooling pipes, in cool blue shadow"
+cover_alt = "A TRANE chiller glows on a show stand under a HELD sign as a salesman rushes orders past a frowning woman"
+cover_text = ["TRANE", "HELD"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001466258/000146625826000001/exhibit991-q32026earningsr.htm",
   "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Reports-Strong-Third-Quarter-Results-Raises-Full-Year-Revenue-Guidance-Reaffirms-Full-Year-EPS-Guidance/default.aspx",

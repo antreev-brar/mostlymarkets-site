@@ -6,8 +6,9 @@ published = 2026-10-31T10:28:11-04:00
 author = "nora-whitfield"
 tickers = ["XOM", "CVX", "MPC", "VLO", "COP", "OXY", "UAL", "DAL", "LUV"]
 themes = ["oil-shock", "fed-rates"]
-cover_brief = "A plain white marble temple with tall columns and wide steps, like a central bank, stands on the shore of a sea of glossy black crude oil at stormy dusk. The rising oil tide has climbed its steps and laps at the top one, just below the tall bronze doors. Far out on the black swell, a lone tanker rides out the storm."
-cover_alt = "A sea of black crude oil has risen up the steps of a marble temple as a lone tanker rides out a storm."
+cover_brief = "In the centre, at the near end of a reflecting pool at night, a giant brass tap on an oil pipeline pours a stream of thick black crude oil into the water, its slick spreading toward an unmarked columned central bank at the far end. Centred directly above the tap hangs a big gold sign reading '$100' in bold navy capitals with a large dollar sign, while close on its left a tall silver-haired official in his sixties holds a plain calendar open to its last page, grim. Close on its right a slim Black pilot in her thirties clutches her cap, dismayed, beside a wiry East Asian man in his forties who shrugs, unconvinced. Over the bank flies an American flag; far off, a refinery flare blazes."
+cover_alt = "A tap pours black crude into a reflecting pool before a central bank under a $100 sign as an official and a pilot look on"
+cover_text = ["$100"]
 sources = [
   "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
   "https://fortune.com/2026/10/28/fed-rates-steady-kevin-warsh-president-governor-laura-ullrich",

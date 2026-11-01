@@ -6,8 +6,9 @@ published = 2026-10-31T10:28:07-04:00
 author = "dev-malhotra"
 tickers = ["INTC", "NVDA", "AMD", "AVGO", "SNDK", "MPWR"]
 themes = ["chip-selloff"]
-cover_brief = "At dusk a heavy wave crashes up a beach through a row of sandcastles of very different heights, their walls pressed with circuit-board patterns. The tallest towers are sheared off and slumping into the foam, the middle ones are cracked and dripping, the low squat ones are barely wet, and one small fort at the end stands dry in a last ray of gold light."
-cover_alt = "A wave crashes through a row of sandcastles at dusk, toppling the tallest while one small fort stays dry"
+cover_brief = "In the centre of a computer repair workshop at night, a giant green motherboard stands upright in a clamp, lit warm gold, its processor socket charred black with thick smoke rising and its memory sticks visibly melted. Directly above the motherboard, centred, hangs a big monitor glowing red with 'DAMAGE' in white capitals across the screen, while toward the board's far corner small plain chips sit barely marked, one glowing green. Flanking it, a stocky technician in her late fifties with a lined face, reading glasses and grey braids peers at the socket, grim, and a tall curly-haired man in his thirties in a grey hoodie shines a flashlight on the smoke, alarmed. Below lies a shattered plain blue processor chip, and dented plain laptops crowd a shelf."
+cover_alt = "A smoking motherboard with melted memory stands under a red DAMAGE monitor as two technicians inspect its charred socket"
+cover_text = ["DAMAGE"]
 sources = [
   "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

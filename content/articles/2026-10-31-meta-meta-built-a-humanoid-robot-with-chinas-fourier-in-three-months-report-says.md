@@ -6,8 +6,9 @@ published = 2026-10-31T20:51:40-04:00
 author = "marcus-lindqvist"
 tickers = ["META"]
 themes = ["ai-capex", "big-tech-earnings"]
-cover_brief = "A slim white humanoid robot with a smooth round head, holding a small plain suitcase, stands alone on a foggy road at night, facing a towering closed iron gate set in a high stone wall. A single floodlight above the gate shines down on it, throwing its long shadow back along the wet road behind."
-cover_alt = "A white humanoid robot holding a suitcase waits alone at a closed iron gate on a foggy night"
+cover_brief = "In the centre of a dim factory at night, a silver humanoid robot with a visor face stands on a low assembly stand, lit warm gold, a wide navy plaque across the front of the stand reading 'META' in big white block capitals. Directly above the robot hangs a big gold screen, no wider than it, reading '3 MONTHS' in bold capitals while every other sign and surface stays plain. At the robot's left a tall black-haired Chinese engineer in her thirties in a grey jacket holds its elbow, proud, and at its right a slight grey-haired Black man in his sixties in a dark suit folds his arms, stern. Behind them stand a half-built second robot and glowing server racks, and a reporter peers through a window."
+cover_alt = "A silver humanoid robot on a stand marked META under a gold 3 MONTHS screen in a factory"
+cover_text = ["META", "3 MONTHS"]
 sources = [
   "https://www.theinformation.com/articles/meta-built-humanoid-prototype-chinese-startup-ramp-robotics-push",
   "https://www.reuters.com/world/china/meta-builds-humanoid-robot-with-chinese-startup-fourier-information-says-2026-10-31/",

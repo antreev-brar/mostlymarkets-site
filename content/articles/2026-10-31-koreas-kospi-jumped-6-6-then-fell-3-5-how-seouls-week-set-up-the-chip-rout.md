@@ -6,8 +6,9 @@ published = 2026-10-31T10:27:59-04:00
 author = "dev-malhotra"
 tickers = ["SNDK", "MU", "WDC", "STX"]
 themes = ["korea-chips", "chip-selloff", "memory-cycle"]
-cover_brief = "A long line of giant black memory chips stands on edge like dominoes, silver pins glinting along their sides, stretching from a traditional Korean pavilion on a misty riverbank far into the distance, under a sky that shades from pink dawn above the pavilion to deep night at the far end. The first chips beside the pavilion are toppling, and the toppling spreads down the line."
-cover_alt = "Giant memory chips topple like dominoes from a Korean riverbank at dawn toward the night"
+cover_brief = "Over Seoul's Han River at night, a giant hot-air balloon with a glossy navy envelope, its basket heaped with green memory modules, sinks back toward the water in the centre, lit warm gold by its burner, as fireworks fade over the far bank. Directly above the balloon hangs a big red screen, no wider than the balloon, reading 'KOSPI' in bold capitals while, on the bank, a heavyset grey-haired Korean man in his sixties with a deeply lined face, in a navy coat, stares up grimly, and a tall Korean woman in her forties with a short bob, in a cream trench coat, points up, alarmed. In the shadows, a plain gold trophy sits ignored on a café table and a South Korean flag flies from a bridge."
+cover_alt = "A balloon of memory modules sinks over Seoul's Han River at night under a red KOSPI screen"
+cover_text = ["KOSPI"]
 sources = [
   "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123",
   "https://www.koreatimes.co.kr/economy/20261030/seoul-stocks-down-over-5-late-fri-morning-on-tech-losses-amid-ai-concerns",

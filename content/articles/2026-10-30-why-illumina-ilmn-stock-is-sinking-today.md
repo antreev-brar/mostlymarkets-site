@@ -10,8 +10,9 @@ event = "move-ILMN-2026-10-30"
 moves = [
   { ticker = "ILMN", price = 234.23, change_pct = -19.25, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "A towering DNA double helix of glowing blue glass rises into a violet night sky, its two twisting strands shaped like the rails of a fairground spiral slide. A big glass marble races down the winding track from the very top, trailing sparks, spiralling toward the misty ground far below."
-cover_alt = "A glass marble races down a glowing DNA double helix shaped like a spiral slide"
+cover_brief = "In the centre of a dark genomics lab at night, a giant white gene-sequencing machine tips off the right edge of a tall steel plinth, its left feet lifted, lit warm gold, its front turned to us with a wide navy plaque across it reading 'ILLUMINA' in big white block capitals. Directly above it hangs a big red screen reading 'SLOW GROWTH' in white capitals, no wider than the machine, while a lanky Black scientist in his thirties in a white lab coat reaches up in alarm, and a heavyset silver-haired man in his sixties grips a bench, pale. In the shadows, a courier wheels in a plain cooler of patient samples, and a blue DNA double helix glows on a wall screen"
+cover_alt = "A giant ILLUMINA sequencer tips off a tall plinth in a dark lab under a red SLOW GROWTH screen"
+cover_text = ["ILLUMINA", "SLOW GROWTH"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000202/q326earningsrelease.htm",
   "https://investor.illumina.com/news-releases/news-release-details/illumina-reports-financial-results-third-quarter-fiscal-year-8",

@@ -11,8 +11,9 @@ moves = [
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "LLY", price = 1417.54, change_pct = 3.19, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A single black thundercloud hangs low over a small island crowded with glass towers and chip factories, pouring rain on it alone, a lightning bolt striking its tallest tower, while all around it the sea lies calm and turquoise under bright sunshine and the neighbouring green islands bask in warm light."
-cover_alt = "A lone thundercloud pours rain and lightning on a small island of towers while the sea around it is sunny"
+cover_brief = "In the centre of an observatory deck at night, a giant navy-and-brass telescope with a cracked lens, lit warm gold, aims at a dark storm from a massive stone base. A wide navy plaque across the base reads 'INTEL' in big white block capitals, with no logo or registered mark, and directly above the telescope hangs a big red sign reading 'OCTOBER' in bold capitals, centred and no wider than it. Flanking the base, a heavyset grey-bearded astronomer in his fifties in a brown cardigan stares up aghast and a tall dark-haired Latina woman in her thirties in a navy parka covers her mouth, pale. Smaller plain telescopes lie toppled nearby, a green memory module sits in a puddle, and a dropped phone shows a blank search bar."
+cover_alt = "A cracked-lens INTEL telescope aims at a storm under a red OCTOBER sign as smaller telescopes lie toppled"
+cover_text = ["INTEL", "OCTOBER"]
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",
