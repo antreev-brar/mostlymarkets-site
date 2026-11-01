@@ -350,86 +350,75 @@ Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, 
 
 ## Covers
 
-Every story gets its own cover: **a detailed illustrated scene that shows what the story is about**, the way
-SemiAnalysis's covers do, so a reader who studies it finds the story in it, and one that still reads at a glance in a
-300 px feed card and a 104 px phone square. Every cover is drawn in one house look, a richly detailed 3D animated-film
-illustration lit in navy and gold (`HOUSE_SHORT` in `pipeline/covers.py` adds the look), for free on AI Horde with a
-model that can letter short signs. `.github/workflows/covers.yml` draws it after each push. Write the scene in the
-front matter:
+Every story gets its own cover: **a busy, detailed editorial cartoon that shows what the story is about**, the way
+SemiAnalysis's cartoon covers do. One big physical gag a reader gets in a second, even in a 300 px feed card or a 104 px
+phone square, labelled like a political cartoon, and packed with small jokes from the article that reward a close look.
+Every cover is drawn in one house look, a hand-inked editorial cartoon with watercolour washes on cream paper in navy,
+gold and brick red (`HOUSE_SHORT` in `pipeline/covers.py` adds it), for free on AI Horde with a model that can letter big
+signs. `.github/workflows/covers.yml` draws it after each push. Write the scene in the front matter:
 
 ```toml
-cover_brief = "In the centre of a dim turbine factory hall at night, a towering gas turbine with 'GE VERNOVA' painted in white block capitals on its casing rolls onto a flatbed truck under a warm gold spotlight. Above it hangs a huge glowing sign reading '$29 BILLION'. A grey-haired foreman in a hard hat and orange vest raises both fists, and a woman in her forties in a navy suit hands him a thick stack of plain order forms. Behind them a long queue of adult buyers in coats waits in the shadows, wind-turbine blades and grid transformers stand in unmarked crates ready to ship, and a second turbine waits half-built on the line"
-cover_alt = "A GE Vernova turbine rolls onto a truck under a $29 billion sign as buyers queue with orders"
-cover_text = ["GE VERNOVA", "$29 BILLION"]
+cover_brief = "A busy cartoon of a data-centre loading dock: in the centre a giant cooling machine with a big flat sign on its front reading 'VERTIV' in block capitals roars, blowing a gale of icy air into a sweltering server hall where red-faced technicians fan themselves. Directly above it hangs a big cloth banner reading 'ORDERS DOUBLED' in bold capitals while a mountain of plain order slips bursts out of an overflowing red mailbox, a cheerful grey-haired foreman rings a brass bell, workers in hard hats push more cooling machines up a ramp, and a long line of plain white delivery trucks waits at the dock"
+cover_alt = "A cartoon cooling machine marked VERTIV blasts icy air under an ORDERS DOUBLED banner as orders pour from a mailbox"
+cover_text = ["VERTIV", "ORDERS DOUBLED"]
 ```
 
-1. **The hero first, in the centre.** Start with the one object or person that IS the story: a cracked chip crashing
-   through a trading-floor, a blasted-open vault, an idle mining truck at a closed gate, a turbine rolling out. It
-   fills about half the frame's height and sits in the middle 60% of the width, clear of the top and bottom tenth
-   (phones crop covers to a centre square, story pages to 2:1). It is the brightest thing in the frame.
-2. **Two pieces of writing at most, both big.** Each is in single quotes, in capitals, 1–3 words:
-   - the company's name, once, on the hero's largest flat face ('INTEL' stamped on the chip, 'GE VERNOVA' on the
-     casing), and/or
-   - one big glowing sign, banner or screen beside the hero, about a quarter of the frame wide, with a word or two
-     ('SOLD OUT', 'MAINTENANCE', 'HOLD', 'RECORD'), a year ('1974', '2027'), or the story's key figure when it is a
-     whole number, exactly as the story gives it ('$29 BILLION', '117%', '$220 BILLION').
-   **Never a decimal point or a plus or minus sign:** the model drops them ('-28.6%' came out '28 6', '+13.4%' as
-   '134', '16.5%' as '165A'). When the story's key figure has a decimal, letter a word or a year instead ('WORST DAY
-   SINCE 1974' is too long; 'SINCE 1974' or 'RECORD LOW' works) and let the headline carry the figure.
-   **Write a percentage as a word:** '87 PERCENT', never '87%' (the model drops the % sign or draws it as an "A" on
-   most covers).
-   **Never end a sentence on a quoted label.** The model paints the next sentence's first word onto the sign
-   ("'MAINTENANCE'. A foreman..." came out as "MAINTENANCE A"). Keep describing in the same sentence: "a sign
-   reading 'MAINTENANCE' in amber capitals hangs over the gate, and below it...".
-   **Names go on big flat faces turned to the viewer:** a wide banner, a plaque across the front, the side of a truck
-   seen side-on, the face of a giant chip. Never on a small object, a fin or edge seen end-on, or a curved surface; a
-   name of eight letters or more goes on a wide banner or plaque, or it comes out with a letter missing or doubled.
-   Prefer short names ('LAM', 'GE VERNOVA'). List the writing in `cover_text`. Never put words or numbers on small objects, peers, vehicles' curved sides, dials,
-   clocks, gauges, split-flap boards, tables or papers; call everything else "plain" or "unmarked".
-3. **Five to eight small clues from the article** around the hero, smaller and in shadow, so they reward a close look
-   without cluttering the thumbnail: the peers as smaller unmarked chips chained to the falling one, a wall calendar
-   for the year it last happened, a crane already building next year's factory, reporters pressed to the glass doors,
-   a flashlight beam cutting through the rain. Every clue comes from the story. No generic filler: no charts, arrows,
-   piles of cash, bulls and bears, globes or skylines that the story doesn't need.
-4. **People: two to six adults in front, each spelled out**: age, build, hair, clothes, one clear action and the
-   story's emotion ("a grey-haired trader in a navy blazer clutching his head", "a stocky foreman raising both
-   fists"). Vary ages, genders and skin tones. Crowds stay in the background, smaller and darker. Never real people,
-   names, "the CEO of X", look-alikes, caricatures, children or toy-like faces. A story about the Fed or Washington can
-   have a generic silver-haired official at a lectern before an American flag.
-5. **Show the direction physically, not only in the sign.** A fall: a cracked, sinking or toppling hero, a red
-   alarm light, pale alarmed faces, cold light. A gain: a rising, overflowing or launching hero, gold light, cheering.
-   A mixed story is a mixed scene. Match the size: a 2% dip isn't a disaster. Never make light of real harm.
-6. **Stage splits; don't count.** The model can't count past two. Show a 10-2 vote as a seated majority under one
-   'HOLD' sign and two officials standing apart under a red light; a crowd as a crowd.
-7. **Write literally.** Say what is actually there: "racks of green memory modules with gold contacts", not "chips
-   like gold bars" (that gives gold bars); "white clean-room coveralls with hoods and face masks", not "bunny suits"
-   (that gives rabbits). No "like" or "as if", no idioms.
-8. **Keep the family light**: dusk, night or a navy-shadowed interior, one warm gold light on the hero, red only for
-   the one alarm element. No daylight skies, white rooms or pink and purple neon. Places and flags only when the story
-   supports them (the Fed's marble boardroom and an American flag, Korea's flag for a Korean chipmaker).
-9. **What the cover checks keep catching** (2 Nov 2026):
-   - Hang the sign directly above the hero, centred and no wider than it; nothing that matters goes in the outer
-     fifth on either side (phones crop to the centre square: 'SINCE JUNE' became 'INCE JUN'). Write "directly above it
-     hangs a big sign reading ...", never "beside it": "beside" lands the sign at the frame's edge.
-   - Put a company's name on "a wide navy plaque across the front of the <hero> reading 'NAME' in big white block
-     capitals": that came out clean every time, where names on lids, panels, wrappers and curved faces turned into a
-     small logo or a misspelling.
-   - After a label, keep the sentence going for several words, and don't start the next sentence with "A" or "The".
-   - Show a fall with one physical action the model can draw: tipping off the edge of a platform, sinking into water,
-     sliding down a ramp. Gestures (waving arms, thumbs) read as cheering.
-   - Use "cracked" only for the hero, and only when it cracks: the word bleeds onto whatever is near it.
-   - For a brand with a famous logo, ask for its name "in plain capitals across the face, with no logo box or badge",
-     or the model draws a tiny look-alike logo instead of the name.
-   - Avoid seesaws (always drawn tilted) and long lists of objects; name two or three things, not five.
-   - Make every person in their thirties or older, and say "tall" or "grown": "young" and "in her twenties" come out
-     as children in this style.
-   - A sign's word mustn't read like a style word ("SOFT" was dropped); use "WEAK", "SLOW" or a noun instead.
+1. **One physical gag, in the centre.** Turn the story into one thing happening that a reader gets at a glance: a
+   chip-shaped mine cart smashing through the end of its track for a crash, a cooling machine blowing a gale for a flood
+   of orders, ten calm officials at a table under 'HOLD' while two stand on their chairs waving 'HIKE' placards for a
+   split vote, an oil barrel rolling downhill after fleeing airline pilots for $100 oil. The hero fills about half the
+   frame's height in the middle 60% of the width, clear of the top and bottom tenth (phones crop covers to a centre
+   square, story pages to 2:1).
+2. **Label it like a political cartoon: two or three labels, each on its own big flat sign.** Each is in single quotes,
+   in capitals, 1–4 words:
+   - the company's name on **a big flat sign, plaque or banner fixed to the hero** ("a big flat sign on its front
+     reading 'VERTIV' in block capitals"). Names painted straight onto curved bodies, car doors and hulls come out
+     misspelled ('UBER' became 'UBR', 'ALPHABET' became 'ALHABE');
+   - one sign, banner or calendar page **directly above the hero** with the key word, year or whole number:
+     'ORDERS DOUBLED', 'WORST DAY SINCE 1974', 'HOLD', '$29 BILLION', '4 NOVEMBER';
+   - at most one more, well apart from the others: a placard, or one peer's name. **Never label a row of things**:
+     labels side by side merge and garble ('AMD ARM' on every cart, 'QUALCAM', 'UP' jumping onto a 'HIKE' placard).
+   **Never a decimal point or a plus or minus sign:** the model drops them. Write a percentage as a word
+   ('87 PERCENT'). A dollar figure goes on a flat sign, never a curved barrel ('$100 OIL' lost its $). Spell names
+   exactly and prefer the short form the story uses ('GE VERNOVA', 'LAM'). For a brand with a famous logo, ask for the
+   name "in plain block capitals" ('INTEL' came out in the lowercase logo lettering). **Never end a sentence on a quoted
+   label:** the model paints the next word onto the sign; keep the sentence going ("... reading 'HOLD' while two
+   officials..."). List the labels in `cover_text`. Everything else is "plain" or "unmarked".
+3. **Five to eight small jokes from the article** around the hero, each from the story, unlabelled, that a reader finds
+   on a second look: a queue of glum shopkeepers beside empty crates (PC makers short of memory chips), an overflowing
+   mailbox of orders, a clerk ducking under the table during the split vote, grinning refinery owners riding the oil
+   barrel. No generic filler: no charts, arrows, piles of cash, bulls and bears, globes or skylines that the story
+   doesn't need.
+4. **Grown-up cartoon people with big reactions**, each with one clear action: traders in bowler hats leaping off the
+   track clutching their hats, a foreman ringing a bell, a banker dropping his papers, a driver peering anxiously into
+   his mirror. Say "grown", "grey-haired" or an age of thirty or more: "young" and "in her twenties" come out as
+   children. Never real people, names, "the CEO of X", look-alikes or caricatures of real people, and never children. A
+   Fed or Washington story can have generic officials at a marble table with an American flag.
+5. **Show the direction physically, not only in the sign.** A fall: something smashing, tipping, sinking or chasing,
+   with alarmed faces and people fleeing. A gain: something roaring, overflowing or launching, with cheering. The model
+   draws heroes standing still (a cart meant to fly off the track stayed on it; a liner meant to sink floated level),
+   so put the motion in things it draws well: people leaping clear, things spilling out and flying through the air, a
+   broken track or a cracked floor under the hero, the hero half over an edge. Match the size: a 2% dip isn't a
+   disaster. Never make light of real harm (deaths, layoffs, war): the joke is on markets, never on victims.
+6. **Stage splits; don't count.** The model can't count past two or three: show a 10-2 vote as a calm seated table and
+   two officials standing apart; a crowd as a crowd.
+7. **Write literally.** Say what is there: "racks of green memory modules", not "chips like gold bars" (that gives gold
+   bars). No "like" or "as if", no idioms.
+8. **Leave the look to the house style.** Don't ask for lighting, 3D, photos, neon or a colour scheme; day and night
+   both work. Places and flags only when the story supports them (an American flag for the Fed, Korea's for a Korean
+   chipmaker).
+9. **What the cover checks keep catching** (2 Nov 2026, cartoon tests):
+   - Write "directly above it hangs a big sign reading ...", never "beside it": "beside" lands the sign at the frame's
+     edge, where the phone crop cuts it.
+   - Big flat signs, banners and calendar pages letter cleanly; curved bodies, small objects and crowded placards don't.
+   - Keep labels apart: two labels in the same corner merge into one garbled sign.
+   - Describe one hero action, not a list of five: the model drops most of a long list.
 10. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs
-   (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat their hero object or setting:
-   trading floors, vaults and queues are the easy repeats.
+   (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat their gag, hero or setting within three
+   days: runaway trains, sinking ships, rockets and boxing rings are the easy repeats.
 
-Write the brief in 70–130 words, the hero and its writing first (the model reads the start most closely), then the
-people, then the clues. `cover_alt` says plainly what the picture shows, writing included, under 125 characters. The
-covers job checks each picture for the `cover_text` strings and stray writing and redraws it when they're wrong.
-Story pages caption every cover "Image: AI-generated". A story without a brief borrows one of the 56 topic photos in
-`assets/covers/` until its cover is drawn.
+Write the brief in 80–130 words: start "A busy cartoon of <setting>:", then the hero, its action and its labels (the
+model reads the start most closely), then the people, then the jokes. `cover_alt` says plainly what the picture shows,
+writing included, under 125 characters, starting "A cartoon". The covers job checks each picture for the `cover_text`
+strings and stray writing and redraws it when they're wrong. Story pages caption every cover "Image: AI-generated". A
+story without a brief borrows one of the 56 topic pictures in `assets/covers/` until its cover is drawn.

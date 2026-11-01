@@ -209,7 +209,7 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         warns.append(f"filler: {ph!r} says nothing; cut it or replace it with the fact, the mechanism or our read")
     if t in ("narrative", "viewpoints", "breakdown", "analysis") and words(body) > 800 and "The short version" not in body:
         warns.append('long analysis without "The short version" box after the first picture (STYLE.md, "No filler")')
-    # The cover (STYLE.md, "Covers"): a detailed scene that shows the story, 1-3 big short labels whose numbers match the
+    # The cover (STYLE.md, "Covers"): a busy editorial cartoon of the story, 2-3 labels on big signs whose numbers match the
     # story, people as types (never real people), nothing the image model draws as gibberish.
     brief = fm.get("cover_brief") or ""
     if not brief and str(fm.get("published", ""))[:10] >= "2026-11-01":
@@ -217,20 +217,20 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
     if brief:
         nb = len(brief.split())
         if not 60 <= nb <= 140:
-            warns.append(f"cover_brief is {nb} words (aim for 70-130: the hero and its writing, the people, five to eight story clues)")
+            warns.append(f"cover_brief is {nb} words (aim for 80-130: the gag and its labels, the people, five to eight jokes from the story)")
         labels = re.findall(r"(?<![A-Za-z])'([^']{1,40})'(?![A-Za-z])", brief)
         if re.search(r"'\s*[.!?;]", brief):
             warns.append("cover_brief ends a sentence on a quoted label: the model paints the next word onto the sign; keep describing in the same sentence")
         if not labels:
             warns.append("cover_brief has no 'LABEL': name the company or the number that matters on a sign, banner or screen")
-        if len(labels) > 2:
-            warns.append(f"cover_brief has {len(labels)} quoted labels: keep two at most (more come out misspelled)")
+        if len(labels) > 3:
+            warns.append(f"cover_brief has {len(labels)} quoted labels: keep three at most, each on its own big sign (more come out garbled)")
         ct = fm.get("cover_text")
         if ct is not None and sorted(ct) != sorted(labels):
             warns.append(f"cover_text {ct} doesn't match the brief's quoted labels {labels}")
         for lab in labels:
-            if len(lab.split()) > 3:
-                warns.append(f"cover_brief label {lab!r} is long: 1-3 words or one number")
+            if len(lab.split()) > 4:
+                warns.append(f"cover_brief label {lab!r} is long: 1-4 words or one number")
             if "%" in lab:
                 warns.append(f"cover_brief label {lab!r} has a % sign: the model drops it; write '87 PERCENT'")
             if re.search(r"\d\.\d|^[+\-−]|\s[+\-−]\d", lab):
@@ -238,7 +238,7 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
             for num in re.findall(r"\d[\d.,]*", lab):
                 if num not in body and num.replace(",", "") not in body.replace(",", ""):
                     warns.append(f"cover_brief label {lab!r}: {num} isn't in the story; every number must match it")
-        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|logos?|newspapers?|documents?|CEO of|chief executive of|cinematic|4k|photorealistic)\b", brief, re.I)
+        bad = re.findall(r"\b(charts?|candlesticks?|graphs?|logos?|newspapers?|documents?|CEO of|chief executive of|cinematic|4k|photorealistic|3D|Pixar|render(?:ed|ing)?|beside it|young)\b", brief, re.I)
         if bad:
             warns.append(f"cover_brief mentions {sorted(set(b.lower() for b in bad))}: the model draws these badly or they break the rules (STYLE.md, Covers)")
         people = set(re.findall(r"\b([A-Z][a-z]+ [A-Z][a-z]+)\b", body)) & set(re.findall(r"\b([A-Z][a-z]+ [A-Z][a-z]+)\b", brief))

@@ -41,9 +41,9 @@ sources = [
 | `sources` | yes | URLs for every fact that isn't from our price files: at least two independent outlets for the cause of a move, and the company's release for earnings numbers. They're kept for checking and never printed. |
 | `featured` | no | `true` pins the story as the lead on the front page until a newer featured story arrives. |
 | `themes` | no | Running-story keys this story belongs to (`["ai-capex", "memory-cycle"]`). A `narrative` lists every story sharing its themes as a story log; the others link back to it. See STYLE.md, "Story log". |
-| `cover_brief` | expected (new stories; `check.py` warns) | The scene for the story's cover: a detailed scene that shows the story, with 1–3 big short labels ('INTEL', '-28.6%') and five small story details, in 60–110 words, drawn by `pipeline/covers.py`. Rules in STYLE.md, "Covers". |
+| `cover_brief` | expected (new stories; `check.py` warns) | The story's cover: a busy editorial cartoon of one physical gag that shows the story, with 2–3 labels on big flat signs ('INTEL', 'WORST DAY SINCE 1974') and five to eight small jokes from the article, in 80–130 words, drawn by `pipeline/covers.py`. Rules in STYLE.md, "Covers". |
 | `cover_alt` | with `cover_brief` | What the picture shows, labels included, under 125 characters, for screen readers and the caption. |
-| `cover_text` | with labels | The 0–2 strings the brief letters on the cover, exactly as quoted (`["GE VERNOVA", "$29 BILLION"]`); the covers check reads the picture for them. |
+| `cover_text` | with labels | The 1–3 strings the brief letters on the cover, exactly as quoted (`["GE VERNOVA", "$29 BILLION"]`); the covers check reads the picture for them. |
 | `logos` | optional | The logos the story shows, when its tickers or the companies it names would mislead (a market wrap that mentions Apple in passing): tickers, outside companies from `EXTRA` (`x-openai`), or a topic (`@oil`, `@fed`, `@bonds`, `@crypto`, `@economy`). |
 | `status` | no | `draft` keeps the story out of the build. |
 | `event` | no | The event id that triggered the story. The pipeline sets it. |

@@ -1,6 +1,6 @@
-"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: a detailed scene that shows
-what the story is about, with its company and key figure lettered on big signs, drawn as a richly detailed 3D
-animated-film illustration lit in the site's navy and gold (see HOUSE_SHORT and docs/STYLE.md, "Covers").
+"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: a busy, detailed editorial
+cartoon that shows what the story is about, labelled like a political cartoon with its company and key word or figure on
+big signs, hand-inked with watercolour on cream paper (see HOUSE_SHORT and docs/STYLE.md, "Covers").
 
     python3 pipeline/covers.py                 # every story with a cover_brief and no cover yet
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
@@ -41,18 +41,19 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/covers/story"
 PROVIDER = os.environ.get("MM_IMAGE_PROVIDER", "horde")
 
-# The house style (since 2 Nov 2026, v9): a detailed scene that shows what the story is about, the way SemiAnalysis's
-# covers do, with the company's name and the story's key figure lettered on big signs (the models can letter 1-3 short
-# words), drawn as a richly detailed 3D animated-film illustration lit in the site's navy and gold, so the covers read as
-# one family. The owner found v8's single metaphors "an abstract notion of maybe what it is about but not enough
-# details"; three judges preferred this look to an ink cartoon and a newspaper collage (2 Nov 2026: it lettered the key
-# figures right and reads at 300 px). Never real or recognisable people. The brief comes first and the style stays
-# short: the models read the start of the prompt most closely.
+# The house style (since 2 Nov 2026, v10): a busy, detailed editorial cartoon that shows what the story is about, the way
+# SemiAnalysis's cartoon covers do: one physical gag in the centre, labelled like a political cartoon (the company's
+# name and the key word, year or whole number on big flat signs; the models letter two or three of those cleanly), and
+# small jokes from the article that reward a close look. The owner dropped v9's 3D animated-film look ("kind of pixar")
+# for "more of semi analysis style"; tests on 2 Nov 2026 (research/2026-11-02-v10-cartoon) had Z-Image-Turbo draw this
+# ink-and-watercolour style with big signs spelled right. Never real or recognisable people. The brief comes first and
+# the style stays short: the models read the start of the prompt most closely.
 HOUSE_SHORT = (
-    "Vivid cinematic 3D illustration like a frame from a big-budget animated film, richly detailed: adults with realistic "
-    "proportions and expressive faces, glossy materials, dusk or night or a navy-shadowed interior, one warm gold light on "
-    "the main subject, deep navy and cobalt blue with gold highlights and red only for alarm, crisp bold capital letters "
-    "only on the quoted signs, every other surface plain and unmarked, full bleed edge to edge, no border."
+    "Highly detailed hand-drawn editorial cartoon in the style of a classic magazine political cartoon: confident black ink "
+    "linework with fine cross-hatching, watercolour washes on warm cream paper, a palette of navy blue, warm gold and brick "
+    "red with muted greens and sand, grown-up cartoon figures with exaggerated expressive faces and lively poses, a crowded "
+    "scene packed with small funny story details that reward a close look, crisp hand-lettered capitals spelled exactly as "
+    "quoted on the signs, banners and labels, every other surface plain, full bleed edge to edge, no border, no signature."
 )
 HOUSE = HOUSE_SHORT + " Scene: "  # the paid provider takes the style first
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"

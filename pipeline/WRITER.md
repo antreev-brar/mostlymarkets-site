@@ -35,7 +35,7 @@ the lettering or the crop wrong. Check the covers drawn since your last run (`gi
 -- assets/covers/story | grep -- -1600.webp`). For each one, open `assets/covers/story/<slug>-1600.webp` and compare it
 with the story's `cover_text` and STYLE.md "Covers" rule 9:
 - every string in `cover_text` is there, spelled exactly, with no extra character (not "CASH A", "87A", "BBBVIE");
-- no other big lettering, no real company logo, nobody who looks like a child, the direction of the story right;
+- no other big lettering, no garbled extra signs, no real company logo, nobody who looks like a child or a real person, the direction of the story right;
 - the hero and its sign both sit in the centre square (the middle 60% of the width).
 If one fails, rewrite its `cover_brief` to fix the cause (rule 9 lists the usual ones), delete its three
 `assets/covers/story/<slug>-*.webp` files, and push the story with the brief: the covers job draws it again. Do this at
@@ -69,7 +69,7 @@ most twice per story; after that, leave it and mention it in the run summary.
    - `moves` from the pack's quote, with the right `session`
    - at least one chart (a `price` chart unless the template says otherwise), and links to related stories in `pack.recent_stories` or `pack.todays_stories`
    - **a picture right after the opening paragraph** (a chart or stat block) that proves the story's main claim
-   - a `cover_brief` and `cover_alt` for the cover (STYLE.md, "Covers"): one detailed scene that shows what the story is about (its setting, the companies as big physical things, people as types such as traders or a mine manager, never real people), 1-3 big short labels in single quotes that name the company or the number that matters ('INTEL', '-28.6%', '$29 BILLION', every number exactly as in the story), and at least five small details from the article; 60-110 words, a different setting or conceit from the latest covers. The covers job draws it after you push.
+   - a `cover_brief`, `cover_alt` and `cover_text` for the cover (STYLE.md, "Covers"): a busy editorial cartoon of one physical gag that shows what the story is about (the companies as big physical things doing something, people as grown-up cartoon types such as panicked traders or a cheering foreman, never real people), two or three labels in single quotes, each on its own big flat sign: the company's name on a sign fixed to the hero and the key word, year or whole number on a sign directly above it ('INTEL', 'WORST DAY SINCE 1974', '$29 BILLION'; no decimals or +/- signs, percentages as words), and five to eight small jokes from the article; 80-130 words starting "A busy cartoon of", a different gag and setting from the latest covers. The covers job draws it after you push.
    - where a named analyst, executive or investor made the point on X, quote it and embed the post with a ```tweet block (STYLE.md, "Voices from X")
 5. **Check:** `python3 pipeline/check.py content/articles/<file>`. Fix it until it passes. Warnings are allowed; errors aren't. Do fix the cover_brief warnings: without a brief the story gets a stock topic photo.
 6. **Close the event:** `python3 pipeline/storyqueue.py done <id> content/articles/<file>`.
