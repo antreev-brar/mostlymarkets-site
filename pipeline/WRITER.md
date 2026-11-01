@@ -37,9 +37,10 @@ with the story's `cover_text` and STYLE.md "Covers" rule 9:
 - every string in `cover_text` is there, spelled exactly, with no extra character (not "CASH A", "87A", "BBBVIE");
 - no other big lettering, no garbled extra signs, no real company logo, nobody who looks like a child or a real person, the direction of the story right;
 - the hero and its sign both sit in the centre square (the middle 60% of the width).
-If one fails, rewrite its `cover_brief` to fix the cause (rule 9 lists the usual ones), delete its three
-`assets/covers/story/<slug>-*.webp` files, and push the story with the brief: the covers job draws it again. Do this at
-most twice per story; after that, leave it and mention it in the run summary.
+If one fails, rewrite its `cover_brief` (and `cover_text`/`cover_alt` to match) to fix the cause (rule 9 lists the
+usual ones) and push the story: the covers job redraws every cover whose brief has changed since it was drawn (it keeps
+each brief's fingerprint in `assets/covers/story/<slug>.sha`), so never touch the image files. Do this at most twice per
+story; after that, leave it and mention it in the run summary.
 
 ## 1. Pick the work
 - Work through the queue in the listed order, **at most 10 stories per run**, and stop starting new ones after about 50 minutes.

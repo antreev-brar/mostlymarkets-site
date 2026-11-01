@@ -1,6 +1,7 @@
 name: covers
-# Draws AI covers (pipeline/covers.py: a visual metaphor per story in the navy-and-gold house style) for stories the
-# writer pushes with a cover_brief, commits them and redeploys.
+# Draws AI covers (pipeline/covers.py: a busy editorial cartoon per story in the house style) for stories the writer
+# pushes with a cover_brief, and redraws any cover whose brief has changed since it was drawn (assets/covers/story/
+# <slug>.sha), commits them and redeploys.
 # Free by default: FLUX.1 schnell and Z-Image-Turbo on AI Horde, no key needed (an optional AIHORDE_API_KEY secret buys
 # queue priority).
 on:
@@ -27,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Draw missing covers
+      - name: Draw new and reworded covers
         id: draw
         env:
           AIHORDE_API_KEY: ${{ secrets.AIHORDE_API_KEY }}
@@ -44,7 +45,7 @@ jobs:
           git config user.name "mm-bot"
           git config user.email "bot@mostlymarkets.org"
           git add assets/covers/story
-          git commit -m "covers: cover photos for new stories"
+          git commit -m "covers: draw covers for new and reworded stories"
           # If another run drew the same story meanwhile, keep the copy already on main (-X ours: in a rebase,
           # "ours" is main). A failed rebase is aborted before the retry, and the step fails if nothing was pushed.
           ok=0

@@ -2,7 +2,7 @@
 cartoon that shows what the story is about, labelled like a political cartoon with its company and key word or figure on
 big signs, hand-inked with watercolour on cream paper (see HOUSE_SHORT and docs/STYLE.md, "Covers").
 
-    python3 pipeline/covers.py                 # every story with a cover_brief and no cover yet
+    python3 pipeline/covers.py                 # every story with no cover yet, or whose brief has changed since
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
     python3 pipeline/covers.py --redraw --max 200 --workers 10   # every story again, after a change of house style
     python3 pipeline/covers.py --brief "..." --name test-1   # a one-off test into assets/covers/story/
@@ -24,6 +24,7 @@ import argparse
 import atexit
 import base64
 import concurrent.futures as cf
+import hashlib
 import json
 import os
 import re
@@ -253,12 +254,28 @@ def normalize_brief(brief: str) -> str:
     return brief
 
 
+def fingerprint(brief: str) -> str:
+    """A short hash of the brief as written. Each cover keeps the hash of the brief it was drawn from in
+    assets/covers/story/<slug>.sha, so editing a story's cover_brief is enough to get its cover redrawn: the covers job
+    redraws any story whose brief no longer matches (the writer fixes a wrong cover by rewording its brief)."""
+    return hashlib.sha1(" ".join(brief.split()).encode()).hexdigest()[:12]
+
+
+def stale(slug: str, brief: str) -> bool:
+    """True when the story has no cover yet, or its cover was drawn from a different brief."""
+    if not (OUT / f"{slug}-800.webp").exists():
+        return True
+    sha = OUT / f"{slug}.sha"
+    return sha.exists() and sha.read_text().strip() != fingerprint(brief)
+
+
 def draw(job, provider: str, quality: str) -> str:
-    name, brief = job
-    brief = normalize_brief(brief)
+    name, written = job
+    brief = normalize_brief(written)
     t = time.time()
     img, meta = generate_horde(brief) if provider == "horde" else generate_openai(brief, quality)
     save(img, name)
+    (OUT / f"{name}.sha").write_text(fingerprint(written) + "\n")
     (masters_dir() / f"{name}.json").write_text(json.dumps({"brief": brief, "provider": provider, **meta}, indent=1))
     return f"covers: {name} drawn in {time.time() - t:.0f}s ({meta.get('model') or provider})"
 
@@ -288,7 +305,7 @@ def main():
         for slug, fm in stories():
             if a.only and slug != a.only:
                 continue
-            if (OUT / f"{slug}-800.webp").exists() and not (a.force and a.only) and not a.redraw:
+            if not stale(slug, fm["cover_brief"]) and not (a.force and a.only) and not a.redraw:
                 continue
             jobs.append((slug, fm["cover_brief"]))
     jobs = jobs[::-1][:a.max]  # newest first
