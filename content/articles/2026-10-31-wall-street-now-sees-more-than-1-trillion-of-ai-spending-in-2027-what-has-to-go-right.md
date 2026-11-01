@@ -1,6 +1,6 @@
 +++
 title = "Wall Street Now Sees More Than $1 Trillion of AI Spending in 2027. What Has to Go Right"
-dek = "Goldman Sachs expects the five biggest cloud spenders to put about $1.2 trillion into AI next year, up from about $800 billion. Demand, revenue, cash and memory prices all have to cooperate."
+dek = "Goldman Sachs expects the five biggest cloud spenders to put about $1.2 trillion into AI next year, two-thirds more than the cash their businesses brought in over the past 12 months."
 type = "analysis"
 published = 2026-10-31T10:27:47-04:00
 author = "marcus-lindqvist"
@@ -19,65 +19,97 @@ sources = [
   "https://gvwire.com/2026/10/30/nasdaq-hits-near-three-month-low-as-amazon-intel-deepen-ai-capex-concerns/",
   "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",
   "https://www.ibtimes.com.au/alphabet-shares-plunge-ai-spending-profit-cash-flow-1877589",
+  "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html",
   "https://fortune.com/2026/07/30/andy-jassy-amazon-capex-demand-aws-pga-tour/",
   "https://www.inkl.com/news/andy-jassy-said-amazon-will-spend-220-billion-this-year-and-still-wont-have-enough-capacity-to-meet-demand",
   "https://www.tradingkey.com/news/transcripts/262249601-tradingkey",
+  "https://investinglive.com/stocks/microsoft-sees-170bn-capex-in-fiscal-2027-but-says-it-will-stay-cash-flow-positive/",
   "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
   "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
   "https://www.constellationr.com/insights/news/aws-q3-revenue-growth-surges-39-capex-stings-amazons-cash-flow",
+  "https://news.skhynix.com/en/q3-2026-business-results/",
+  "https://www.trendforce.com/news/2026/10/28/news-sk-hynix-3q26-opm-hits-record-80-says-dram-hbm-effectively-sold-out-to-2029-14-lta-customers-signed/",
   "https://epoch.ai/data-insights/ai-datacenter-share-gdp",
-  "https://enterpriseam.com/egypt/2026/10/19/investors-turn-on-the-debt-behind-the-ai-build-out/",
   "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
 ]
 +++
 
-Alphabet ($GOOGL) on Wednesday and Amazon ($AMZN) on Thursday told investors that next year's AI bill will be bigger than this year's. Alphabet said its capital spending will rise significantly in 2027, and Amazon Chief Executive Andy Jassy said the company expects to spend "meaningfully more," Reuters and NBC News reported. Meta ($META) said a week earlier that it expects "to continue investing aggressively," and none of them put a number on it.
+On Wednesday, Alphabet ($GOOGL) said on its earnings call that its capital spending will rise significantly in 2027, and on Thursday Amazon ($AMZN) Chief Executive Andy Jassy said the company expects to spend "meaningfully more," Reuters and NBC News reported. Meta ($META) said in its 21 October results release that it expects "to continue investing aggressively." None of the three put a number on 2027.
 
-Wall Street already has one. Goldman Sachs strategists led by Ryan Hammond forecast in September that Amazon, Alphabet, Microsoft ($MSFT), Oracle ($ORCL) and Meta will spend about **$1.2 trillion** on AI infrastructure in 2027, up from about $800 billion this year, PYMNTS and Briefs reported.
+Goldman Sachs strategists led by Ryan Hammond forecast in a September note that Amazon, Alphabet, Microsoft ($MSFT), Oracle ($ORCL), and Meta will spend about **$1.2 trillion** on AI infrastructure in 2027, up from about $800 billion this year.
 
 ```chart
 {"kind": "bars", "labels": ["2026", "2027", "2028"], "values": [800, 1200, 1400], "unit": "$bn", "highlight": 1,
  "compare": [null, 1100, null], "label": "Goldman Sachs", "compare_label": "Wall Street consensus for 2027",
  "title": "Goldman expects AI spending by the five biggest spenders to top $1 trillion in 2027",
- "subtitle": "AI infrastructure spending by Amazon, Alphabet, Microsoft, Oracle and Meta, $bn, approximate. 2026 is what Goldman says they are on track for; 2027 and 2028 are its forecasts",
- "source": "Goldman Sachs (Ryan Hammond's team), 25 September 2026, as reported by PYMNTS, Briefs and The Decoder"}
+ "subtitle": "AI infrastructure spending by Amazon, Alphabet, Microsoft, Oracle, and Meta, $bn, rounded as reported. 2026 is what Goldman says they are on track for; 2027 and 2028 are its forecasts, growth of 54% and 12%",
+ "source": "Goldman Sachs (Ryan Hammond's team), 25 September 2026, as reported by PYMNTS, Briefs, and The Decoder"}
+```
+
+```highlights
+The short version
+- **What's happening:** Goldman Sachs expects Amazon, Alphabet, Microsoft, Oracle, and Meta to spend about $1.2 trillion on AI infrastructure in 2027, up from about $800 billion this year.
+- **Why it matters:** That is two-thirds more than the cash their businesses brought in over the past 12 months, so unless cash flow jumps, the gap has to come from cash on hand, debt, or new shares.
+- **Our read:** The money will probably be spent, because the spenders say demand still outruns supply; whether it pays is unproven, and cloud growth set against cash flow is the test.
 ```
 
 ## Who expects what
 
-Goldman's figure is the highest of the forecasts we could confirm, but not by much. It sits above the roughly **$1.1 trillion** consensus the strategists cited, and Goldman expects the pace to cool sharply, to 12% growth in 2028.
+Goldman's figure sits above the roughly **$1.1 trillion** consensus its strategists cited, and every forecast we could confirm puts 2027 at $1 trillion or more.
 
 | Forecaster | What it counts | 2027 | Said when, and where |
 |---|---|---|---|
-| Goldman Sachs | AI infrastructure at the five biggest US spenders | About $1.2tn | 25 September, reported by PYMNTS, Briefs and The Decoder |
+| Goldman Sachs | AI infrastructure at the five biggest US spenders | About $1.2tn | 25 September, reported by PYMNTS, Briefs, and The Decoder |
 | Wall Street consensus | The same five, as Goldman cited it | About $1.1tn | 25 September, same reports |
-| Evercore and Bank of America | Big Tech AI spending | Above $1tn | After April's earnings, reported by CNBC on 30 April |
-| JPMorgan's Jamie Dimon | The big cloud companies | About $1tn | CNBC interview on 21 September, reported by PYMNTS |
+| Evercore and Bank of America | Big Tech capital spending | Above $1tn | After April's earnings, reported by CNBC on 30 April |
 
-CNBC summed up where the forecasts stood on Thursday: spending by the biggest cloud companies is "expected to top $1 trillion next year."
+Goldman expects growth to slow from 54% in 2027 to 12% in 2028. For the chip and memory makers selling into the build-out, we think that slowdown matters more than the record total: a supplier that keeps its share of the spending grows only as fast as the spending does.
 
 ## How big that is
 
-Goldman's team reached for the railroads. Spending in 2027 would be "a larger share of GDP than any technological investment cycle since the railroad build-out in the late 1800s," the strategists wrote, according to PYMNTS and Briefs. Briefs said the comparison used consensus estimates, not Goldman's own higher forecast.
+"Based on consensus estimates, capex in 2027 is on track to reach a larger share of GDP than any technological investment cycle since the railroad build-out in the late 1800s," Goldman's strategists wrote, according to Briefs. That would make it bigger, relative to the economy, than the internet and telecom build-out of the late 1990s.
 
-JPMorgan Chief Executive Jamie Dimon made a similar point on CNBC in September, describing spending on that scale as "like a 1% increase to GDP each year," PYMNTS reported.
-
-Today's base is smaller than the talk suggests. Investment in AI data centers, the computers inside them and their networking came to about **0.8% of US GDP** in the first quarter, the research group Epoch AI estimated in June. The railroad comparison describes where the spending is headed, not where it is.
+Today's base is smaller: US investment in AI data centers, their computers, and networking came to about **0.8% of GDP** in the first quarter, the research group Epoch AI estimated in June.
 
 ## What would have to be true
 
-1. **Demand has to keep outrunning supply.** In July, Jassy said Amazon would not "have enough capacity to meet all the demand we have in 2026," adding: "And I believe this dynamic will also be true in 2027, too," Fortune reported. This week Microsoft said outside capacity it had ordered arrived late, and Alphabet's finance chief, Anat Ashkenazi, said outside computing power "came online only at the very end of Q3," CNBC reported. Microsoft's commercial contracts not yet turned into revenue rose 73% to $677 billion, its results release showed.
-2. **Revenue has to follow.** Goldman estimates the five need roughly **$300 billion** a year of AI revenue to break even on their outlays, Briefs and The Decoder reported. Gartner, a research firm, takes a wider view: it says AI data-center owners as a group need $8.5 trillion of revenue by the end of 2030 to cover their capital and financing costs and earn a healthy return, the Financial Times reported, according to EnterpriseAM.
-3. **The cash has to be found.** Goldman's team noted that spending already exceeds the cash the companies' operations generate, which means more borrowing, Briefs and The Decoder reported. Amazon's free cash flow over the past 12 months was negative $42.4 billion, its results release showed. Our [narrative on the cash scorecard](/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/) has the rest.
-4. **More dollars have to buy more computers.** Part of this year's rise is prices, not capacity. Amazon raised its 2026 plan in July "owing to higher memory costs," Fortune reported, and Meta Chief Executive Mark Zuckerberg attributed most of an April increase to component costs, particularly memory, CNBC reported.
+### 1. Demand has to keep outrunning supply
 
-Of the four, demand looks the safest today, on the companies' own words and their order books. Revenue is the least proven: the break-even is an estimate of what has to come, not a total anyone has reported.
+In July, Jassy said Amazon would not "have enough capacity to meet all the demand we have in 2026," adding: "And I believe this dynamic will also be true in 2027, too," Fortune reported.
+
+Supply is still the limit, and so far delays have moved spending into 2027 rather than canceled it. On Wednesday's call, Microsoft Chief Financial Officer Amy Hood said some outside capacity the company expected in July to September was delayed and has shifted to the first half of 2027.
+
+Contracted demand keeps growing: Microsoft's commercial contracts not yet booked as revenue rose 73% to **$677 billion**, its results release showed.
+
+### 2. Revenue has to follow
+
+Goldman's note puts the five's break-even at about **$300 billion** a year of AI revenue, and says current estimates of that revenue fall short.
+
+Google Cloud's revenue rose 103% in the third quarter, and Amazon projects growth above 40% at AWS, its cloud arm, in both 2027 and 2028, their results releases showed. Amazon, Microsoft, and Alphabet don't break out AI sales in their results, so cloud growth and contract backlogs are the nearest gauges of that break-even.
+
+### 3. The cash has to be found
+
+Goldman's note says the spending has pushed past the cash the companies' operations bring in, raising the odds of more borrowing. By our count from their SEC filings, the five spent **95%** of their operating cash flow on property and equipment over the latest 12 months, up from 64% a year earlier, and more than all of it in the latest quarter.
+
+```stat
+[{"value": "$1.2tn", "label": "Goldman's 2027 forecast", "note": "AI infrastructure spending by the five"},
+ {"value": "$724bn", "label": "The five's operating cash flow", "note": "Latest 12 months (Oracle's to August), our count from SEC filings"},
+ {"value": "+30%", "label": "Growth in that cash flow", "note": "Against the 12 months before, our count"}]
+```
+
+Paying for Goldman's forecast from operations would take that cash flow two-thirds higher, more than twice its growth over the past year. The rest would come from cash on hand, debt, or new shares: Amazon is already **$42.4 billion** short over 12 months, its release shows, and our [cash scorecard](/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/) tracks the others.
+
+### 4. More dollars have to buy more computers
+
+Part of this year's rise is price, not capacity. Amazon lifted its 2026 plan by $20 billion in July "owing to higher memory costs," Fortune reported, and Meta Chief Executive Mark Zuckerberg said of an April increase that "most of that is due to higher component costs, particularly memory pricing," CNBC reported.
+
+Pricier memory makes the trillion easier to reach and harder to earn back, and the extra dollars go to the memory makers: SK hynix's operating margin hit **80%** in the third quarter, its results showed.
 
 ## What we'll learn next
 
-Nvidia ($NVDA) reports on Tuesday 17 November, with its call at 5 p.m. ET. Its forecast is the first read on what the five are ordering for next year.
+Nvidia ($NVDA) **reports on Tuesday 17 November**, with its call at 5 p.m. ET. Its forecast is the best early read on what the five are ordering for 2027.
 
-The companies will put their own numbers on 2027 with their next results. Microsoft has already set a marker: Chief Financial Officer Amy Hood said spending this quarter will be "over $50 billion," on the company's call.
+Hood has set Microsoft's marker: spending of "over $50 billion" from October to December, then an acceleration from January to June, the second half of its fiscal year.
 
-We think the trillion is more likely to arrive than not. Alphabet and Amazon have said outright they will spend more in 2027, Microsoft expects its spending to speed up in the first half of the year, and the bottleneck so far has been supply, not demand. Whether it pays is the open question, and Goldman's $300 billion break-even is the number we'll hold the spenders to.
+We think the trillion is more likely to be spent than not: Alphabet and Amazon have said they will spend more, Microsoft expects to speed up, and so far the limit has been supply, not demand. Whether it pays is less certain, because revenue is the least proven of the four conditions and cash the most stretched. We'd change our view on the spending if any of the five cut its 2027 plan, and on the payback if cloud growth slowed while budgets kept rising.
