@@ -9,7 +9,7 @@ event = "recap-CHD-2026-10-30"
 moves = [
   { ticker = "CHD", price = 107.23, change_pct = 1.16, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of a dim navy-lit supermarket aisle at night, a giant orange box of baking soda with 'ARM' painted in white block capitals on its front stands on a low wooden pallet under a warm gold spotlight, a fine white powder drifting up from its open top. Beside it hangs a big glowing sign reading 'VOLUME'. A stocky shelf stocker in his fifties in a green apron lifts a plain carton onto the shelf, and a young woman with braids in a denim jacket loads her cart. Around them sit plain unmarked jugs of laundry detergent, plain vitamin bottles, a plain box of litter, a forklift in the shadows and a long queue of plain shopping carts"
+cover_brief = "In the centre of a dim navy-lit supermarket aisle at night, a giant orange box of baking soda with a wide navy plaque across its front reading 'ARM' in big white block capitals stands on a low wooden pallet under a warm gold spotlight, a fine white powder drifting up from its open top. Directly above it hangs a big glowing sign reading 'VOLUME' in red capitals, centred and no wider than the box, while below it a stocky shelf stocker in his fifties in a green apron lifts a plain carton onto the shelf, and a tall woman in her thirties with braids in a denim jacket loads her cart. Around them sit plain unmarked jugs of laundry detergent, plain vitamin bottles, a plain box of litter, a forklift in the shadows and a long queue of plain shopping carts"
 cover_alt = "A giant baking soda box stands under a glowing Volume sign in a dim supermarket aisle as shoppers fill carts"
 cover_text = ["ARM", "VOLUME"]
 sources = [

@@ -9,7 +9,7 @@ event = "recap-KVUE-2026-10-30"
 moves = [
   { ticker = "KVUE", price = 19.31, change_pct = -1.28, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of a dim pharmacy at night, a tall glowing medicine cabinet with 'KENVUE' painted in white block capitals on its mirrored door stands open under a warm gold light, its shelves stocked with plain unmarked bottles of pain reliever, tubes of skin cream and boxes of bandages. Beside it hangs a big glowing sign reading 'MERGER'. A grey-haired pharmacist in a white coat hands a plain paper bag to a middle-aged man in a raincoat, while behind them two movers in grey overalls carry a plain crate toward a loading door with a truck waiting outside. In the shadows sit plain boxes of tissues, a plain shopping basket and a plain wall calendar"
+cover_brief = "In the centre of a dim pharmacy at night, a tall glowing medicine cabinet with a wide navy plaque across its top reading 'KENVUE' in big white block capitals stands open under a warm gold light, its shelves stocked with plain unmarked bottles of pain reliever, tubes of skin cream and boxes of bandages. Directly above it hangs a big glowing sign reading 'MERGER' in gold capitals, centred and no wider than the cabinet, while below it a grey-haired pharmacist in a white coat hands a plain paper bag to a middle-aged man in a raincoat, while behind them two movers in grey overalls carry a plain crate toward a loading door with a truck waiting outside. In the shadows sit plain boxes of tissues, a plain shopping basket and a plain wall calendar"
 cover_alt = "A Kenvue medicine cabinet stands open under a Merger sign as a pharmacist serves a customer and movers carry crates"
 cover_text = ["KENVUE", "MERGER"]
 sources = [

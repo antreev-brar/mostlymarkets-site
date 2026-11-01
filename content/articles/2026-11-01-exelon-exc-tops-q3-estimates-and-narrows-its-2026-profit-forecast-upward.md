@@ -10,7 +10,7 @@ event = "recap-EXC-2026-10-30"
 moves = [
   { ticker = "EXC", price = 46.16, change_pct = 0.54, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of a dark city street at night, a tall steel transmission tower with 'EXELON' painted in white block capitals on a broad plate across its middle stands under a warm gold floodlight, thick power lines stretching from it toward a long windowless data-center building and rows of lit row houses. Beside it hangs a big glowing sign reading 'NARROWED'. A wiry lineworker in his thirties in a yellow hard hat climbs the tower, and a grey-haired supervisor in a high-visibility vest holds a plain clipboard below. In the shadows sit a utility truck with a bucket lift, coils of plain cable, a plain transformer box and a plain wall calendar"
+cover_brief = "In the centre of a dark city street at night, a tall steel transmission tower with a wide navy plaque across its middle reading 'EXELON' in big white block capitals stands under a warm gold floodlight, thick power lines stretching from it toward a long windowless data-center building and rows of lit row houses. Directly above it hangs a big glowing sign reading 'NARROWED' in gold capitals, centred and no wider than the tower, while below it a wiry lineworker in his thirties in a yellow hard hat climbs the tower, and a grey-haired supervisor in a high-visibility vest holds a plain clipboard below. In the shadows sit a utility truck with a bucket lift, coils of plain cable, a plain transformer box and a plain wall calendar"
 cover_alt = "An Exelon power tower feeds a data center and homes under a Narrowed sign as lineworkers work at night"
 cover_text = ["EXELON", "NARROWED"]
 sources = [
