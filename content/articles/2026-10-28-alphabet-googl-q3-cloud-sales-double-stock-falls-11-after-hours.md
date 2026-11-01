@@ -9,8 +9,9 @@ cover = "earnings-call"
 moves = [
   { ticker = "GOOGL", price = 289.89, change_pct = -10.77, session = "after-hours", asof = 2026-10-28T17:53:00-04:00 },
 ]
-cover_brief = "At dawn a hot-air balloon whose envelope is a giant glowing white cloud climbs fast over green hills, but its wicker basket is overloaded with heavy steel server racks, the ropes straining and the whole balloon tilting as one rack slips over the rim and falls toward the ground."
-cover_alt = "A cloud-shaped balloon climbs while its basket, overloaded with servers, tilts and drops one"
+cover_brief = "In the centre of a tech campus at night, a tall stone headquarters with a wide glowing plaque midway up its facade reading 'ALPHABET' in white capitals blazes warm gold in its top floors, packed with server racks, while its lower floors and lobby sit dark. Over the dark lobby doors, centred below the plaque, hangs a big red sign reading '11 PERCENT' in white capitals, and on the steps beneath it a pale grey-haired analyst in his fifties in a navy overcoat presses a hand to his forehead in alarm. Beside him a Latina engineer in her thirties in a hoodie wheels a cart of glowing chips, glancing up, worried, while a plain magnifying glass lies dropped on the steps and a crane hoists racks onto the roof."
+cover_alt = "An ALPHABET headquarters glows gold up top over a dark lobby and a red 11 PERCENT sign as a pale analyst holds his head"
+cover_text = ["ALPHABET", "11 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",

@@ -10,8 +10,9 @@ event = "recap-SHEL-2026-10-29"
 moves = [
   { ticker = "SHEL", price = 107.67, change_pct = 2.36, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "In a vast candle-lit stone cellar, a giant old wooden wine press squeezes a basket brimming with glossy black crude oil, and from its spout a thick stream of molten gold pours into an iron vat. The gold glow lights the ancient oak beams and the dark puddles of oil on the flagstones."
-cover_alt = "A giant wooden wine press squeezes black crude oil into a stream of molten gold in a stone cellar"
+cover_brief = "In the centre of a fuel station at night, a giant steel fuel pump with 'SHELL' in white capitals on its flat front panel glows warm gold, the rest of the pump plain. Directly above the pump, hanging from the middle of the canopy, a compact glowing gold sign no wider than the pump island reads 'RECORD MARGIN' in bold navy capitals stacked on two lines, the canopy edge plain, while a Latina attendant in her fifties in a navy shirt raises the nozzle, smiling, and a tall brown-skinned worker in his thirties in a hard hat gives a thumbs-up. In the shadows: a refinery flare on a distant stack, a plain gas ship with round domed tanks at a jetty, a Canadian flag over a new pipeline."
+cover_alt = "A giant SHELL fuel pump glows at a night fuel station under a compact RECORD MARGIN sign as two workers smile"
+cover_text = ["SHELL", "RECORD MARGIN"]
 sources = [
   "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item0.stream/1793238861562/c51182ec68b70b120e29f5a1ede9bd4911d54432/q3-2026-quarterly-press-release.pdf",
   "https://www.sec.gov/Archives/edgar/data/0001306965/000162828026068044/quarterlyexhibit992-q32026.htm",

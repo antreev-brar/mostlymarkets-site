@@ -8,8 +8,9 @@ tickers = ["ABBV"]
 moves = [
   { ticker = "ABBV", price = 290.79, change_pct = 1.68, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Seen through the glass door of a glowing oven at night, a tall golden souffl\u00e9 has risen far above the rim of its white dish, perfectly domed at its peak, while outside the door a hand in a quilted oven mitt grips the handle, about to pull it open."
-cover_alt = "A tall souffl\u00e9 has risen high inside a glowing oven as a hand in an oven mitt reaches to open the door."
+cover_brief = "In the centre of a consulting room at night, a giant brass hourglass as tall as a person glows warm gold, a wide flat ivory plaque across its base reading 'ABBVIE' in big, widely spaced navy capitals, as dusty grey capsules drain from its top and new white-and-gold tablets pile up below. Directly above the hourglass hangs a big glowing gold sign reading 'FRIDAY' in navy capitals, no wider than the hourglass, while on either side a slim silver-haired doctor in her sixties in a white coat leans in, curious, and a lean East Asian man with short black hair in a navy blazer checks his wristwatch, smiling. In the shadows: a plain cosmetic syringe, a small plain gold trophy and a rolled contract tied with ribbon."
+cover_alt = "Under a FRIDAY sign, a brass ABBVIE hourglass drains grey capsules as new tablets pile up below"
+cover_text = ["ABBVIE", "FRIDAY"]
 sources = [
   "https://news.abbvie.com/2026-10-01-AbbVie-to-Host-Third-Quarter-2026-Earnings-Conference-Call",
   "https://www.marketbeat.com/instant-alerts/upcoming-abbvie-abbv-projected-to-announce-quarterly-earnings-on-friday-2026-10-23/",

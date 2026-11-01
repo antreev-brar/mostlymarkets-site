@@ -8,8 +8,9 @@ tickers = ["CVX", "XOM"]
 moves = [
   { ticker = "CVX", price = 231.46, change_pct = 0.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "At dusk on a flat, empty desert under a deep blue sky, a lone wooden oil derrick stands as the ground at its base cracks and bulges, and the first glossy black jet of oil bursts from its top high into the air. On the far horizon, dark storm clouds roll in, flickering with lightning."
-cover_alt = "A wooden oil derrick in the desert at dusk as the first jet of oil bursts out, with storm clouds behind"
+cover_brief = "Before dawn in a wide oil field, a giant pumpjack stands mid-stroke in the centre, lit warm gold, its long flat navy beam plain apart from 'CHEVRON' in huge, evenly spaced plain white capitals across its whole side, with no logo box or badge. Directly above the beam, centred and no wider than it, a big glowing screen reads '30 OCTOBER' in white capitals, while at the base a wiry Latino oil worker in his sixties with a white moustache and navy coveralls checks a valve, calm, and a slim East Asian woman analyst with a short bob and grey coat watches through binoculars beside him, intent. Behind them smaller plain pumpjacks keep pumping, refinery lights glimmer on the horizon, and a crane lifts away a pipeline section."
+cover_alt = "A CHEVRON pumpjack works before dawn under a glowing 30 OCTOBER screen as an analyst watches"
+cover_text = ["CHEVRON", "30 OCTOBER"]
 sources = [
   "https://finance.yahoo.com/energy/articles/advisory-chevron-corporation-3q-2026-113000941.html",
   "https://finance.yahoo.com/energy/articles/watch-4-energy-stocks-q3-152900327.html",

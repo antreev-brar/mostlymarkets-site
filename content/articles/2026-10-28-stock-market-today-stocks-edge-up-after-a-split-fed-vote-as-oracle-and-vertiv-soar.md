@@ -6,8 +6,9 @@ published = 2026-10-28T17:30:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "wall-street-sun"
-cover_brief = "Over a misty patchwork of green farmland in late golden light, dozens of plain striped hot-air balloons hover just above the fields, barely off the ground. In the centre, two balloons with roaring burner flames shoot high into the sky above them, while off to one side a single deflated balloon sags back down onto the grass."
-cover_alt = "Hot-air balloons hover low over farmland as two soar high and one deflated balloon sinks"
+cover_brief = "In the centre of a dark formal garden at night, a tall steel server rack with blinking lights and a boxy cooling unit with a round fan stand in the basin of a stone fountain, each shooting a tall water jet in warm gold light, while at the front rim one jet collapses in red light. Directly above the fountain, centred on an iron arch, hangs a big glowing gold sign reading 'SPLIT' in bold capitals, and in front a silver-haired woman in her sixties in a navy coat claps while a Black man in his thirties in a grey suit steps back from the collapsing jet, alarmed. Beyond it, small and dark, officials in suits sit in a row while two stand apart, and hedges fill both sides."
+cover_alt = "A server rack and a cooling unit shoot tall jets from a garden fountain under a SPLIT sign as one jet collapses in red"
+cover_text = ["SPLIT"]
 sources = [
   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",

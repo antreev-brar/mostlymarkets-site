@@ -10,8 +10,9 @@ cover = "software"
 moves = [
   { ticker = "FFIV", price = 365.53, change_pct = -20.43, session = "close", asof = 2026-10-28T16:00:00-04:00 },
 ]
-cover_brief = "A large polished steel spinning top, slowing at the end of a long spin on a dark wooden workbench under a single warm lamp, wobbles wide and tilts steeply as it starts to topple over, its long shadow swinging across the bench and a faint blur of its last turns around it."
-cover_alt = "A steel spinning top wobbles and starts to topple on a dark workbench under a lamp"
+cover_brief = "In the centre of a warehouse loading dock at night, a giant navy network appliance, its wide flat front face turned to the viewer with 'F5' in huge plain white capitals across the face, with no logo box or badge, tips sideways off the edge of a tall pallet stack, lit warm gold. Directly above it hangs one big red sign reading 'WORST DAY' in white capitals, and a wiry worker in his thirties in a grey hoodie stumbles backwards shielding his face, mouth open in alarm, while a silver-haired analyst in her fifties in a charcoal suit frowns with a hand on her forehead. Behind them a half-empty conveyor carries new appliances, and a clerk trades a heap of coins for one small plain box of memory chips."
+cover_alt = "A giant F5 network box tips off a pallet stack under a red WORST DAY sign as a worker stumbles back in alarm"
+cover_text = ["F5", "WORST DAY"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001048695/000104869526000074/ex991-q426earningsreleasef.htm",
   "https://www.f5.com/company/news/press-releases/earnings-q4-fy26",

@@ -6,8 +6,9 @@ published = 2026-10-28T18:00:00-04:00
 author = "nora-whitfield"
 tickers = []
 cover = "bonds"
-cover_brief = "On the wide steps of a plain columned stone building with a blank frieze, under a heavy steel-blue sky, a colossal red horseshoe magnet with bare silver tips stands upright. Plain unstamped silver coins stream toward it from every direction, sliding up the steps and flying through the air in glittering arcs, piling deep around its base."
-cover_alt = "A giant red horseshoe magnet on the steps of a columned building, pulling streams of silver coins to it"
+cover_brief = "In the centre of a canal lock at night, black water has risen almost to the top of a broad plain granite pillar, lapping at the lower rim of a wide horizontal bronze plaque across its front reading '2007' in big gold numerals, lit warm gold. Directly above the pillar, centred, hangs a big glowing amber sign reading '5 PERCENT' in bold capitals, and on the wet ledge to its left a grey-bearded lock keeper in his sixties in a navy peacoat raises a lantern. To the pillar's right a worried couple in their late thirties holds plain house keys: a woman with a dark bob and reading glasses, and a man with stubble and a receding hairline. Beyond the gates a plain columned building flies an American flag."
+cover_alt = "Dark water laps at a 2007 plaque on a stone pillar under a 5 PERCENT sign as a worried couple holds house keys"
+cover_text = ["2007", "5 PERCENT"]
 sources = [
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2007",

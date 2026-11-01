@@ -6,8 +6,9 @@ published = 2026-10-27T09:00:00-04:00
 author = "nora-whitfield"
 tickers = ["NU", "FICO", "LITE", "MELI", "DASH"]
 cover = "market-screens"
-cover_brief = "On a wide tropical beach at sunset, palm trees bending in a gusty wind, four kites tumble nose-down toward the sand trailing tangled tails, the biggest plunging hardest, while one slim kite trailing a bright ribbon of laser light climbs high into the orange sky."
-cover_alt = "Four kites plunge toward a tropical beach at sunset while one kite trailing a ribbon of light climbs"
+cover_brief = "In the centre of moonlit dunes, a giant navy laser module with a glowing blue lens and a wide plaque on its flat side reading 'LUMENTUM' in white capitals floats upward in warm gold light, while below it a big plain bank card and a small white model house slide down the steep dune face, bathed in red light. Beside them a heavyset grey-haired man in his sixties in a dark overcoat clutches his head in alarm, and a Black woman in her thirties in a navy trench coat stares down at the card, hands over her mouth. Behind them a torn Brazilian flag droops on a bent pole, and a blue glass fibre runs from the module to a small plain data centre on the crest."
+cover_alt = "A LUMENTUM laser module floats up a moonlit dune as a bank card and model house slide down past an alarmed man"
+cover_text = ["LUMENTUM"]
 sources = [
   "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
   "https://www.theglobeandmail.com/investing/article-trading-on-brazils-stock-exchange-halted-after-15-tumble-following/",

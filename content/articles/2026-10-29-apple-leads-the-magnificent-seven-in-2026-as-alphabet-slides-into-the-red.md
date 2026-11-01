@@ -10,8 +10,9 @@ moves = [
   { ticker = "AAPL", price = 348.91, change_pct = 1.48, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "GOOGL", price = 283.82, change_pct = -12.64, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Seven glossy racing sailboats on a deep blue sea at sunset: one with a bright red sail surges far ahead of the fleet, five follow in a loose pack, and the last, its white sail torn and sagging, drifts backwards behind them all, low in the water."
-cover_alt = "A sailboat with a red sail leads a fleet while one with a torn sail falls behind"
+cover_brief = "In a grassy field at dusk, a huge gold diamond-shaped kite with 'APPLE' in white capitals across its flat face flies in the centre of the sky, lit warm gold, its long tail streaming. Directly below the kite, in the centre of the field, a big glowing sign on a short mast reads 'FIRST PLACE' in navy capitals, and beside it a slim, laughing Black woman in her thirties with a curly ponytail, navy parka and boots leans back on the kite string, while a pale, heavy-set bald man in his fifties in a grey overcoat gapes up, holding a snapped string. Lower down, a pack of smaller plain cobalt kites flies, and his plain kite spins down toward a red-lit ditch where two crumpled plain kites already lie."
+cover_alt = "A gold APPLE kite flies over a FIRST PLACE sign as another kite spins down toward a red-lit ditch"
+cover_text = ["APPLE", "FIRST PLACE"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/",
