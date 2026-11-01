@@ -20,7 +20,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # main, not the commit that started the run: an earlier run may have drawn some of these covers since
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -42,6 +45,14 @@ jobs:
           git config user.email "bot@mostlymarkets.org"
           git add assets/covers/story
           git commit -m "covers: cover photos for new stories"
-          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
+          # If another run drew the same story meanwhile, keep the copy already on main (-X ours: in a rebase,
+          # "ours" is main). A failed rebase is aborted before the retry, and the step fails if nothing was pushed.
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase -X ours origin main && git push origin HEAD:main; then ok=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          [ "$ok" = 1 ] || { echo "::error::could not push the new covers"; exit 1; }
           # A push made with the job token doesn't start other workflows, so ask for the deploy directly.
           gh workflow run build.yml --ref main
