@@ -1038,7 +1038,7 @@ ol.tks.sm li { font-size: 13.5px; padding: 7px 0; }
 .arail .sbr .btn { display: none; }
 .amore { grid-column: 1; max-width: var(--read); }
 @media (max-width: 1060px) { .art { grid-template-columns: minmax(0, 1fr) 270px; gap: 36px; } }
-@media (max-width: 900px) { .art { grid-template-columns: 1fr; gap: 0; } .arail { position: static; padding-top: 40px; } .amore { grid-column: auto; } }
+@media (max-width: 900px) { .art { grid-template-columns: minmax(0, 1fr); gap: 0; } .arail { position: static; padding-top: 40px; } .amore { grid-column: auto; } }
 
 /* the Daily archive */
 .ed-today { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 40px; padding: 28px 0 36px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); align-items: start; }
