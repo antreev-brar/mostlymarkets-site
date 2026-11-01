@@ -10,8 +10,9 @@ moves = [
   { ticker = "SNDK", price = 1150.89, change_pct = -13.47, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "MU", price = 884.74, change_pct = -5.30, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A lone giant tree on a windswept hilltop is half summer, half winter, divided straight down the middle. Its left half is in lush green leaf under warm sun, its branches heavy with plain silver memory chips hanging like ripe fruit. Its right half is bare and frosted under a grey winter sky, snow falling, a few fallen chips half-buried in the drifts below."
-cover_alt = "A tree split down the middle: half summer, hung with memory chips like fruit, half bare winter in snow"
+cover_brief = "In the centre of a dark gear room in a stone tower at night, a giant brass pendulum swings high to one side, its bob a block of stacked green memory modules with gold contacts, lit warm gold. Taut steel chains from the bob to the floor hold its swing short. Behind it a big amber sign reading '2028' glows; on the left, in warm light, a short East Asian woman in her forties with a low bun and navy suit grips a chain, smiling; on the right, in cold blue light under a red lamp, a lanky bald man in his sixties in tweed points down the long arc, frowning. An open strongbox of coins sits at one chain's anchor, and a groove from past swings scars the floor."
+cover_alt = "A brass pendulum of memory modules, held short by steel chains, swings high under a 2028 sign as two people argue"
+cover_text = ["2028"]
 sources = [
   "https://finance.yahoo.com/markets/stocks/articles/sndk-stock-set-revisit-august-131405210.html",
   "https://invezz.com/news/2026/10/30/why-are-micron-sk-hynix-and-sandisk-stocks-falling-on-friday/",

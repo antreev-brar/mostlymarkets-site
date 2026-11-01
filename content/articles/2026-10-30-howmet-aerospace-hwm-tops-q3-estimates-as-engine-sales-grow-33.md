@@ -10,8 +10,9 @@ moves = [
   { ticker = "HWM", price = 205.94, change_pct = 5.51, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "HWM", price = 203.07, change_pct = -1.39, session = "regular", asof = 2026-10-30T09:31:36-04:00 },
 ]
-cover_brief = "A flock of gleaming polished metal turbine blades flies in a perfect V formation like migrating geese across a huge golden sunrise sky above the clouds, the lead blade catching the first light."
-cover_alt = "Polished turbine blades fly in V formation like geese across a sunrise sky"
+cover_brief = "In a dark foundry at night, a giant polished jet-engine turbine blade, taller than the workers, stands upright in the centre under a gold spotlight, 'HOWMET' in white capitals on a wide navy plaque across its steel base. Above it hangs a big glowing gold sign reading '33 PERCENT', while a stocky worker in a silver heat suit pours molten metal from a crucible into moulds, a grey-haired East Asian woman engineer in her fifties in safety glasses inspects the blade with a flashlight, smiling, and a tall Black technician in his twenties in navy overalls raises both fists. Behind them, racks of finished blades fill the shadows, a plain jet engine and a power-plant gas turbine wait on stands, and a crane lowers in a new furnace."
+cover_alt = "A giant turbine blade on a HOWMET plaque under a 33 PERCENT sign in a foundry as workers pour metal and cheer"
+cover_text = ["HOWMET", "33 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000004281/000110465926119857/tm2628456d1_ex99-1.htm",
   "https://www.prnewswire.com/news-releases/howmet-aerospace-reports-third-quarter-2026-results-302922826.html",

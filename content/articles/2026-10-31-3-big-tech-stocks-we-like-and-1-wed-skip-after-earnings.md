@@ -6,8 +6,9 @@ published = 2026-10-31T10:27:51-04:00
 author = "theo-park"
 tickers = ["NVDA", "MSFT", "GOOGL", "AAPL"]
 themes = ["big-tech-earnings", "ai-capex"]
-cover_brief = "On a weathered potting bench in a sunny walled garden, a small, sparse apple tree with a few tiny apples sits front and centre in a lavish gold pot studded with jewels. Behind it, three tall, leafy young trees in plain cracked clay pots tower over it, their branches spreading wide. Warm late-afternoon light, long shadows."
-cover_alt = "A small apple tree in a jewelled gold pot, dwarfed by three tall trees in plain clay pots"
+cover_brief = "In the centre of a dark Victorian glasshouse at night, a huge square gold pot with 'APPLE' in navy block capitals across its flat front holds a small thin apple sapling with a few tiny red apples under a glass bell jar, a big plain price tag on its rim, lit warm gold. Above it glows a big red sign reading 'SKIP', and to one side a row of tall leafy plants in plain clay pots towers to the glass roof in warm light. A stout grey-bearded gardener in his sixties in a navy apron frowns at the little sapling, watering can lowered, and a tall Black woman in her twenties with braids, in a camel coat, admires the tall plants, delighted. Fallen leaves lie on the gold rim."
+cover_alt = "A small sapling in a gold APPLE pot under a bell jar and a red SKIP sign, beside tall plants in clay pots"
+cover_text = ["APPLE", "SKIP"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
   "https://abc.xyz/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",

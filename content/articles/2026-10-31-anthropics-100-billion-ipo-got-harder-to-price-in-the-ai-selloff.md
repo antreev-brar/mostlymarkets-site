@@ -6,8 +6,9 @@ published = 2026-10-31T20:57:31-04:00
 author = "dev-malhotra"
 tickers = ["GOOGL", "AMZN", "NVDA"]
 themes = ["ai-capex"]
-cover_brief = "A colossal plain brass bell, like a stock exchange's opening bell, swings wildly from the hook of a towering construction crane over a stormy sea at dusk, as the crane tries to lower it onto a small wave-battered rock below; huge waves crash against the rock and lightning splits the black clouds."
-cover_alt = "A giant brass bell swings from a crane over a stormy sea as lightning strikes"
+cover_brief = "A wide polished block of dark glass with a broad gold plaque reading 'ANTHROPIC' across its front sits on the left pan of a giant brass balance scale in the centre of a dim wood-panelled hall at night, under a warm gold light, the beam tipping unsteadily. Behind it a huge screen reading '$100 BILLION' glows, and a thin grey-haired appraiser in his sixties in a tweed waistcoat swaps plain brass weights on the right pan, frowning, while a tall Black banker in her thirties with short natural hair and navy suit holds a thick plain book open at a blank page, uneasy. Rain lashes the windows, two data centres flicker outside, cables run from them to the block, and a packed plain travel trunk waits by the door."
+cover_alt = "A block marked ANTHROPIC wobbles on a giant brass scale under a $100 BILLION screen on a rainy night"
+cover_text = ["ANTHROPIC", "$100 BILLION"]
 sources = [
   "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
   "https://en.bloomingbit.io/feed/news/123333",

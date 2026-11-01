@@ -12,8 +12,9 @@ moves = [
   { ticker = "CRWV", price = 53.95, change_pct = -11.19, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
   { ticker = "NET", price = 276.82, change_pct = -10.79, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "On a bare wooden stage lit by one warm spotlight between red velvet curtains, three small black server cabinets dotted with tiny green lights hang from slack marionette strings, sagging onto the boards, one tipped over on its side, while a giant steel robot hand reaching down from the dark holds the wooden control bar. No people and no puppets, only the cabinets."
-cover_alt = "Three server cabinets on slack marionette strings sag on a stage under a robot hand"
+cover_brief = "In the centre of a long self-storage corridor at night, a giant deep-blue steel roll-up door with 'NEBIUS' in big white block capitals across its smooth flat face rolls down, already half lowered over rows of gold-lit server racks, a red warning lamp flashing above it. A heavyset bald man in his fifties in a navy overcoat hesitates in the corridor, half turned away, frowning back at the door, and a lanky woman in her twenties with a dark ponytail, in a grey fleece, grips the door strap, pale and anxious. On either side, two smaller plain roll-up doors are also half shut over dimmer racks. On the concrete floor lie a crushed plain cardboard box and a small cracked plain processor chip, all under cold blue light"
+cover_alt = "A storage-unit door marked NEBIUS rolls half shut over server racks as a man in a navy coat hesitates"
+cover_text = ["NEBIUS"]
 sources = [
   "https://247wallst.com/investing/2026/10/30/coreweave-sinks-11-nebius-tumbles-9-as-hyperscaler-spending-jitters-rattle-ai-cloud-stocks-cloudflare-plunges-12-snowflake-drops-9/",
   "https://www.quiverquant.com/news/Why+Cloudflare+(NET)+Stock+Is+Down+Today",

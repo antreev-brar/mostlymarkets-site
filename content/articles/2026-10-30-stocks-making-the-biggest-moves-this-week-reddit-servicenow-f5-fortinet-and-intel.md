@@ -10,8 +10,9 @@ moves = [
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "INTC", price = 65.76, change_pct = -28.58, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "Five hot-air balloons in gold, crimson and cobalt stripes sink fast out of a darkening sky over a red-rock desert as a black storm front rolls in behind them. Their envelopes sag and wrinkle, baskets tilt, sandbags tumble out, and the biggest balloon has dropped almost to the ground."
-cover_alt = "Five striped hot-air balloons sink over a red-rock desert as a black storm front rolls in behind them"
+cover_brief = "In the centre of a glass office tower roof at blue dusk, a giant rooftop sign of tall bright orange letters spelling 'REDDIT' tears loose from its steel frame and tilts backward, sparks spraying under one gold floodlight. On the next tower a big red screen reading 'SOFT FORECAST' in white capitals glows, and a petite young woman with braids in an orange hoodie clutches her head, a portly bald man in his sixties in a navy suit drops his coffee cup, and a lanky bearded Latino engineer in his thirties in a grey fleece stares up, pale. On the neighbouring rooftops, smaller unlit plain signs shaped as a padlock, a computer chip and a stack of server boxes sag and tip too, and windows below go dark"
+cover_alt = "A giant Reddit rooftop sign tears loose beside a red SOFT FORECAST screen as smaller signs on nearby roofs tip too"
+cover_text = ["REDDIT", "SOFT FORECAST"]
 sources = [
   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
   "https://cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",

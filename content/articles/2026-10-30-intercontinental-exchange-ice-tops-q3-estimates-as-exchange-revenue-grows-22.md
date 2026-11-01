@@ -10,8 +10,9 @@ event = "recap-ICE-2026-10-29"
 moves = [
   { ticker = "ICE", price = 163.04, change_pct = 4.54, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On a bright golden morning, an endless line of wagons loaded with wheat sheaves, oil barrels and gleaming metal ingots rolls across an old stone bridge through its arched toll gate, beside which an iron-bound chest overflows with gold coins, spilling onto the cobbles."
-cover_alt = "Wagons of grain, oil and metal pass a toll gate on a stone bridge beside a chest overflowing with gold"
+cover_brief = "In the centre of an old stone exchange hall at night, a big brass turnstile with 'ICE' in navy block capitals across its flat side cabinet spins fast, lit warm gold, arms blurred, a gold coin dropping into a brass box at its base with each turn. Above it hangs a big glowing gold sign reading 'RECORD', and traders push through: a broad-shouldered, shaven-headed Black man in his forties in a navy overcoat shoulders a sack of wheat, grinning, and a wiry grey-haired woman in her sixties in a tweed coat wheels an oil drum, beaming. A queue of adult traders carrying copper ingots waits in the shadows, a dim side desk holds a small model house and a plain folder, and a brass bell hangs from a balcony"
+cover_alt = "Traders haul wheat and oil through a spinning ICE turnstile under a RECORD sign in an old exchange hall"
+cover_text = ["ICE", "RECORD"]
 sources = [
   "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Reports-Third-Quarter-2026/default.aspx",
   "https://www.sec.gov/Archives/edgar/data/0001571949/000110465926119880/tm2628301d1_ex99-1.htm",

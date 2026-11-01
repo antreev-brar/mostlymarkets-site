@@ -10,8 +10,9 @@ moves = [
   { ticker = "SBUX", price = 104.83, change_pct = -0.64, session = "regular", asof = 2026-10-30T09:31:52-04:00 },
   { ticker = "SBUX", price = 105.51, change_pct = 2.24, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "A white porcelain coffee cup and saucer stand alone on a caf\u00e9 table in the early morning, the steam curling up from the cup glowing gold in a burst of sunrise. Over the far edge of the saucer hangs one tiny grey rain cloud, drizzling a few drops into it."
-cover_alt = "A coffee cup steams gold in the sunrise on a caf\u00e9 table while a tiny rain cloud drizzles on its saucer"
+cover_brief = "In the centre of a busy café before dawn, a big chrome espresso machine, a wide navy plaque across its front reading 'STARBUCKS' in white block capitals, steams under one warm gold pendant lamp. A lanky barista in his twenties with curly hair and a green apron slides a plain white cup across, grinning, and a petite East Asian barista in her forties with a short bob hands out another, smiling. Customers wait in the dim background and finished drinks in plain cups line the hand-off shelf. At the back, a heavyset manager in her fifties with grey braids frowns at a plain receipt, and through an open door, in cold blue light, a man in a grey suit takes a ring of keys under a small Chinese flag"
+cover_alt = "Baristas serve customers at a Starbucks espresso machine before dawn as a manager frowns at a receipt"
+cover_text = ["STARBUCKS"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000154/sbux-09272026xearningsrele.htm",
   "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",

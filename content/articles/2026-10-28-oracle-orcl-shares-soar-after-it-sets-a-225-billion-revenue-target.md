@@ -10,8 +10,9 @@ cover = "ai-datacenter"
 moves = [
   { ticker = "ORCL", price = 144.54, change_pct = 10.73, session = "close", asof = 2026-10-28T16:00:00-04:00 },
 ]
-cover_brief = "A gleaming unmarked silver rocket lifts off from a seaside launch pad at night, climbing on a column of white fire toward an enormous full moon low over the dark sea, the launch tower's thick fuel hoses already fallen away and swinging loose, a vast cloud of glowing steam billowing across the pad."
-cover_alt = "A silver rocket lifts off at night toward a huge full moon, its fuel hoses swinging away."
+cover_brief = "In the centre of a dark auditorium stage at an investor day, a giant navy server tower with 'ORACLE' in white capitals on a wide plaque across its top rises on a stage lift in gold light, and a huge glowing screen reading '$225 BILLION' hangs high above, clear of the tower. In the front rows, a grey-haired man in his sixties in a navy blazer leaps up pumping a fist, and a woman in her twenties with long black hair and a camel coat claps. A shaved-headed presenter in his forties in a dark suit points up at the screen. At the stage's foot, a chained, padlocked steel strongbox sits beside plain loan papers tied with string, and through a side window cranes build a data center."
+cover_alt = "An ORACLE server tower rises on a stage lift under a glowing $225 BILLION screen as investors cheer"
+cover_text = ["ORACLE", "$225 BILLION"]
 sources = [
   "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
   "https://investinglive.com/stocks/icymi-oracle-jumps-around-11-on-225bn-2030-revenue-goal-and-20bn-cap-on-new-funding/",

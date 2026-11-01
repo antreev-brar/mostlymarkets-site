@@ -10,8 +10,9 @@ moves = [
   { ticker = "AJG", price = 268.20, change_pct = 2.99, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "AJG", price = 276.38, change_pct = 3.05, session = "regular", asof = 2026-10-30T09:31:35-04:00 },
 ]
-cover_brief = "Seen from high above, a rain-lashed city square at dusk holds a scattering of black umbrellas, several of them blown inside out by a gust of wind. In the centre, one large red umbrella stays perfectly open, round and steady, as gold streetlamp light glints in the puddles around it."
-cover_alt = "From above, one red umbrella stays open in the rain while black umbrellas around it blow inside out"
+cover_brief = "In a cobbled square on a drizzly night, a giant navy umbrella three storeys tall stands in the centre under a warm gold lamp, a wide navy banner across its canopy's front reading 'GALLAGHER' in white capitals. On its pole hangs a big glowing gold sign reading '5 PERCENT', and dry underneath, a silver-haired broker in her sixties in a navy suit hands a plain folder to a stocky bearded Black baker in his fifties in a white apron, both smiling, and a Latina mechanic in her twenties in navy overalls grins at her workbench. In the shadows, two rival brokers' smaller plain umbrellas sag in the wind, a plain moving van unloads desks under the canopy's edge, and a claims adjuster shines a flashlight on a dented car."
+cover_alt = "A giant umbrella with a GALLAGHER banner and a 5 PERCENT sign keeps a broker, a baker and a mechanic dry in the rain"
+cover_text = ["GALLAGHER", "5 PERCENT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000354190/000162828026068263/a3rdquarter2026earningsrel.htm",
   "https://www.stocktitan.net/news/AJG/arthur-j-gallagher-co-announces-third-quarter-2026-financial-5zf3k5gjkia8.html",
