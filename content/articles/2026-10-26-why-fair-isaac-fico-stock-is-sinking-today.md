@@ -10,8 +10,9 @@ cover = "software"
 moves = [
   { ticker = "FICO", price = 708.07, change_pct = -13.15, session = "close", asof = 2026-10-26T16:00:00-04:00 },
 ]
-cover_brief = "A large ornate golden house key, frozen solid inside a thick block of clear ice, stands upright in deep snow on the front path of a small suburban house at dusk. Icicles hang from the eaves, frost glitters on the ice, and the house's windows glow warm behind it."
-cover_alt = "A golden house key frozen in a block of ice stands in the snow outside a house at dusk"
+cover_brief = "In the centre of a new housing estate at night, a tall ivory kiosk, empty and dark inside, with a wide navy plaque across its front only reading 'FICO' in big white block capitals, tilts about 20 degrees, one corner sunk into a crack in the pavement and the opposite corner lifted, lit warm gold, and on its roof a big glowing sign reading '$10' in gold capitals stands beside a red alarm lamp. Calmly, a Latina lender in her thirties in a grey suit drops a plain folder into a slot on its front, while a stout bald analyst in his sixties levels a brass balance scale, frowning, and a lanky Black investor in his forties clutches his head. Across the road a plain rival kiosk glows upright."
+cover_alt = "An empty FICO kiosk tilts into a crack in the pavement under a $10 sign as an investor clutches his head"
+cover_text = ["FICO", "$10"]
 sources = [
   "https://in.investing.com/news/stock-market-news/wells-fargo-downgrades-fair-isaac-stock-rating-on-pricing-strategy-93CH-5653607",
   "https://www.gurufocus.com/news/9142392/fico-downgraded-by-wells-fargo-price-target-lowered-to-735",

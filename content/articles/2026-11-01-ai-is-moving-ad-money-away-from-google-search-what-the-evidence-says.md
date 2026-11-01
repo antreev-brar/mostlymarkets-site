@@ -12,8 +12,8 @@ moves = [
   { ticker = "META", price = 614.99, change_pct = -1.53, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of a dark old library at night, a huge brass card-catalogue cabinet with 'SEARCH' painted in white block capitals on its front stands half-empty, its little drawers hanging open, while a glowing golden river of plain unmarked envelopes flows out of it across the floor toward a bright doorway marked with a big glowing sign reading 'META'. A grey-haired librarian in a cardigan stares at the empty drawers, a young woman with short dark hair follows the envelopes with a lantern, and in the shadows a chat window glows on a plain screen, a stack of forum printouts lies abandoned, and a cloud-shaped lamp burns brightly on a shelf"
-cover_alt = "Envelopes flow out of a half-empty Search card cabinet toward a glowing Meta doorway in a dark library"
+cover_brief = "In a dark old library at night, a tall brass card-catalogue cabinet stands just left of centre, lit warm gold, 'SEARCH' painted in big white block capitals across its flat front, its drawers hanging open, half-empty, and a glowing golden river of plain envelopes pours out across the floor toward a bright doorway just right of centre under a big glowing sign reading 'META' in navy capitals, while a stooped grey-haired librarian in his sixties in a green cardigan stares into the empty drawers and a tall South Asian woman in her forties in a navy coat follows the envelopes with a lantern. In the shadows a chat window glows on a plain screen, plain forum printouts lie abandoned and a cloud-shaped lamp burns on a shelf."
+cover_alt = "Envelopes pour from a half-empty SEARCH card cabinet toward a doorway under a glowing META sign in a dark library"
 cover_text = ["SEARCH", "META"]
 sources = [
   "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",

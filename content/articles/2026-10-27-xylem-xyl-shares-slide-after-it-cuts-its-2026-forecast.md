@@ -10,8 +10,9 @@ cover = "industrials"
 moves = [
   { ticker = "XYL", price = 92.86, change_pct = -14.21, session = "close", asof = 2026-10-27T16:00:00-04:00 },
 ]
-cover_brief = "Seen from the rim of a deep, mossy stone well, an old wooden bucket plummets toward the dark water far below, its rope whipping and uncoiling loose behind it. Droplets fly off it and glitter in a single beam of gold daylight slanting down the cold blue stone walls."
-cover_alt = "Seen from the rim of a deep stone well, a wooden bucket plunges toward the dark water below"
+cover_brief = "In the centre of a vast underground pumping station at night, a giant blue water pump with 'XYLEM' stencilled in white capitals on its flat steel housing tilts and sinks into a flooding concrete pit. Directly above the pump, centred, hangs a big red sign reading 'FORECAST CUT' in white capitals, while a stocky engineer in his fifties in navy coveralls and a white hard hat grips the railing in alarm and a brown-skinned woman in her thirties with a dark braid and a grey suit, pale with shock, clutches a plain clipboard. In the shadows, plain wooden crates of new pumps stack up on a loading dock, a forklift carries two smaller pumps away, and through a window a half-built treatment basin stands idle by a still crane."
+cover_alt = "A giant XYLEM pump sinks into a flooding pit under a red FORECAST CUT sign as two people look on in alarm"
+cover_text = ["XYLEM", "FORECAST CUT"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000146/xyl10272026ex991.htm",
   "https://www.investing.com/news/company-news/xylem-q3-2026-slides-orders-surge-10-but-guidance-cut-sends-shares-lower-93CH-4976021",

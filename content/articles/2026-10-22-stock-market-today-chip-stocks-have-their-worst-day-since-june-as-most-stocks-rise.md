@@ -6,8 +6,9 @@ published = 2026-10-22T17:00:00-04:00
 author = "nora-whitfield"
 tickers = []
 logos = ["LRCX", "META", "KLAC", "AMAT"]
-cover_brief = "A sunny meadow of bright yellow sunflowers all standing tall and facing the sun, and in the very middle three sunflowers made of polished chrome bent over on curved stems, their heavy metal heads hanging down to touch the grass, under a clear blue midday sky."
-cover_alt = "Three chrome sunflowers droop in a meadow of bright sunflowers standing tall"
+cover_brief = "In the centre of a dark lake at night, a giant plain black processor chip with gold pins sinks on edge into the water, tilting back, its lower half already under the surface, a ring of white splash around it, lit by a cold white spotlight. Directly above it hangs a big red sign reading 'SINCE JUNE' in bold white capitals, centred and no wider than the chip, while smaller plain white sailboats rise on gold-lit swells around it. On a wooden pier in the foreground, facing us, a tall silver-haired Black woman in her sixties in a navy raincoat smiles at the boats, and a stocky grey-bearded man in his fifties in a grey suit grips the rail, glancing back at the sinking chip, alarmed."
+cover_alt = "A giant black chip sinks into a dark lake under a red SINCE JUNE sign as sailboats rise on gold-lit water"
+cover_text = ["SINCE JUNE"]
 sources = [
   "https://www.adn.com/business-economy/2026/10/22/ai-stocks-undercut-markets-worldwide-as-oil-climbs-to-its-highest-price-since-may/",
   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",

@@ -10,8 +10,9 @@ event = "recap-BP-2026-10-30"
 moves = [
   { ticker = "BP", price = 50.39, change_pct = 0.08, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "On a windswept clifftop at sunset, a weathered old sailing ship's captain's chest sits open, overflowing with gold coins, but a heavy iron anchor chain runs from its handle straight down over the cliff edge into a dark churning sea, pulling the chest taut toward the drop."
-cover_alt = "A chest overflowing with gold coins on a cliff, chained to an anchor hanging over a dark sea"
+cover_brief = "In the centre of a dusk sky, a hot-air balloon climbs over dark fields, the whole balloon in view, its basket well off the ground, its plain green envelope lettered 'BP' in giant white capitals across its middle with no emblem or badge, and the basket's only banner reads '18 YEARS' in navy capitals on gold with a clear space between the words, while a broad-shouldered woman in her fifties with cropped grey hair tips an iron weight overboard, grinning. Below, a stout bald man in his sixties in a camel coat and a tall East Asian woman in her thirties in a raincoat hold out empty hats, frowning. In the grass lie a toppled solar panel and a snapped turbine blade, and a refinery glows far off"
+cover_alt = "A green BP balloon with an 18 YEARS banner climbs at dusk as two people below hold out empty hats"
+cover_text = ["BP", "18 YEARS"]
 sources = [
   "https://www.bp.com/api/files/6cqieuqhq4no/master/1HujOjJO3P33sq8aLWgp0k/d3e041f0beb6bc478be9d746cb0288e1/bp-third-quarter-2026-results.pdf",
   "https://www.sec.gov/Archives/edgar/data/0000313807/000031380726000018/a30092026bp6kq3.htm",

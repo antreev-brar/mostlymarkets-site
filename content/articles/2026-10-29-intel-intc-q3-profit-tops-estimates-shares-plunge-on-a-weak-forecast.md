@@ -9,8 +9,9 @@ cover = "semis-fab"
 moves = [
   { ticker = "INTC", price = 74.06, change_pct = -19.56, session = "after-hours", asof = 2026-10-29T17:20:53-04:00 },
 ]
-cover_brief = "A gleaming gold trophy cup tumbles through a deep blue evening sky high above the clouds, confetti and curled streamers still swirling around it from the celebration, as it falls toward a dark, churning layer of storm clouds far below, lit from inside by flickers of lightning."
-cover_alt = "A gold trophy cup tumbles through the evening sky, confetti swirling, falling toward dark storm clouds."
+cover_brief = "In the centre of a chip factory yard at dusk, a giant silver processor chip, a long rectangular dark steel nameplate bolted across its silver lid reading 'INTEL' in tall blocky white capitals, slides off a raised plain yellow forklift, lit warm gold, cracking at one corner. Directly above the chip hangs a big red screen reading 'WEAK FORECAST' in white capitals, while a stocky grey-moustached driver in his fifties grabs at the chip, aghast, a tall Black woman engineer in her forties with braids and a hard hat covers her mouth, and a silver-haired manager in a navy suit freezes mid-cheer, holding a plain gold trophy. In the shadows, plain trucks queue for server chips, unsold plain laptops pile up, and a distant fab stands in scaffolding."
+cover_alt = "A giant silver chip with an INTEL nameplate slides off a forklift and cracks under a red WEAK FORECAST screen"
+cover_text = ["INTEL", "WEAK FORECAST"]
 sources = [
   "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
   "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",

@@ -6,8 +6,9 @@ published = 2026-10-29T09:00:00-04:00
 author = "nora-whitfield"
 tickers = ["FFIV", "VRT", "ORCL", "GOOGL", "SNDK"]
 cover = "market-screens"
-cover_brief = "Above a calm black mountain lake at night, a fireworks show is under way: three big shells burst high in the sky in huge glittering gold and red blooms mirrored in the water, while two dud rockets fizzle out halfway up and tumble back down, trailing grey smoke toward the lake."
-cover_alt = "Fireworks over a mountain lake at night: three golden bursts high up, two dud rockets falling in smoke"
+cover_brief = "In the centre of a container port at night, a giant silver network box with blue lights and 'F5' in black block capitals on its front face only slips out of a tilted crane sling toward the black water, lit warm gold. Directly above the box hangs a big red sign, centred and no wider than it, reading 'WEAK FORECAST' in white capitals, and on the quay a burly grey-bearded foreman in a navy jacket reaches after the box, aghast. At the far right, turned away from the box, a weathered woman in her mid-forties with laugh lines, in a hard hat and gold vest, cheers up at a plain grey cooling unit that a separate crane lifts high into the gold-lit sky, while plain barges sit dark on the water."
+cover_alt = "A giant F5 network box slips from a crane toward the water under a red WEAK FORECAST sign as other cranes lift cargo"
+cover_text = ["F5", "WEAK FORECAST"]
 sources = [
   "https://www.tipranks.com/news/f5-stock-ffiv-dives-nearly-20-on-weak-guidance-and-an-analyst-downgrade",
   "https://www.fool.com/earnings/call-transcripts/2026/10/27/f5-ffiv-q4-2026-earnings-call-transcript/",

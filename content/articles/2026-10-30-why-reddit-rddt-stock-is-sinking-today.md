@@ -11,8 +11,9 @@ event = "move-RDDT-2026-10-30"
 moves = [
   { ticker = "RDDT", price = 89.94, change_pct = -30.6, session = "regular", asof = 2026-10-30T14:51:00-04:00 },
 ]
-cover_brief = "A great wooden water wheel on an old stone mill stands still above a stream shrunk to a thin muddy trickle, the cracked riverbed baking under a hazy midday sun, while far upstream a towering new dam of gleaming glass and steel holds back the river and turns its full flow away into a different channel."
-cover_alt = "A mill's water wheel stands still over a dried-up stream as a new dam upstream turns the river away."
+cover_brief = "In the centre of a cobbled square at night stands a brick meeting hall with 'REDDIT' in gold letters across its front, a crack splitting its steps. Directly above the doors, just under the letters, centred and clear of every head, a wide red screen reading 'PLUNGE' in white capitals glows on the facade, and on the steps below it a lanky red-bearded man in his thirties in a grey hoodie stares, stunned, a Black woman in her fifties with cropped grey hair covers her mouth, and a stocky bald doorman in his sixties grimly bolts in a turnstile. Up the road, middle-aged adults in coats carry lanterns toward the hall, but a white robot at a plain kiosk hands them plain cards and some turn back."
+cover_alt = "A REDDIT hall with a red PLUNGE screen over its cracked steps, as a robot at a kiosk turns visitors away"
+cover_text = ["REDDIT", "PLUNGE"]
 sources = [
   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
   "https://cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",

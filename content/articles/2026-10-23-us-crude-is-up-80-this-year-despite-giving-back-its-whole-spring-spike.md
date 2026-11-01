@@ -6,8 +6,9 @@ published = 2026-10-23T17:00:00-04:00
 author = "theo-park"
 tickers = []
 cover = "oil-gas"
-cover_brief = "On a trampoline in an empty desert at sunset, a giant glossy black oil drop bounces high into the air, while a faint glowing outline far above it marks how much higher it flew on its last bounce."
-cover_alt = "A giant oil drop bounces on a trampoline, below the mark of its last, higher bounce"
+cover_brief = "On a West Texas hillside at dusk, a black oil-tanker truck, seen three-quarter from the front, noses up a visibly steep road that rises from left to right, its cab clearly higher than the back of its tank, lit by one warm gold light, the whole truck inside the middle half of the frame with road showing on both sides. Directly above the road just ahead of it hangs a big glowing sign reading 'SECOND CLIMB' in gold capitals, centred and no wider than the truck, while a grey-bearded trucker in his sixties leans from the cab window, determined, and a sturdy Latina flagger in her forties in an orange vest and hard hat waves him on. Pumpjacks nod below under a faint red glow on the horizon."
+cover_alt = "A black oil tanker noses up a steep desert road toward a SECOND CLIMB sign as a flagger waves it on"
+cover_text = ["SECOND CLIMB"]
 sources = [
   "https://www.investing.com/news/commodities-news/oil-slips-as-brent-heads-for-longest-stretch-of-annual-losses-in-2025-4426125",
   "https://www.investing.com/news/commodities-news/oil-retreats-after-hitting-fouryear-high-on-concern-of-usiran-war-escalation-4649450",

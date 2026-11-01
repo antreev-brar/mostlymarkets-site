@@ -6,8 +6,9 @@ published = 2026-10-23T17:15:00-04:00
 author = "nora-whitfield"
 tickers = []
 logos = ["@oil", "XOM", "CVX", "UAL"]
-cover_brief = "A powerful bull strains forward down a wide city avenue between tall grey stone buildings, under a smoky amber haze at sunset. An iron shackle on its hind leg is chained to a huge unmarked black oil drum, which it drags scraping across the cobblestones, throwing up sparks."
-cover_alt = "A bull strains down a hazy city avenue, dragging a huge black oil drum chained to its leg"
+cover_brief = "In the centre of an oil-tanker dock at night, a tall, wide stone block with 'DOW' in huge white block capitals across its front face sinks into broken paving, cracked down both sides, under the weight of a separate big oil barrel on top, the barrel plain black with no writing and lit warm gold, its open top brimming with glossy black crude. Directly above the barrel hangs a big glowing gold sign reading 'SINCE APRIL' in bold capitals, centred and no wider than the block, while beside the block a stocky dockworker in his fifties in an orange hard hat glowers and a tall South Asian airline pilot in her forties in a navy uniform looks on, alarmed. In the shadows sits a plain yellow bulldozer."
+cover_alt = "A plain oil barrel brimming with crude sinks a cracked DOW stone block into a dock, under a SINCE APRIL sign"
+cover_text = ["DOW", "SINCE APRIL"]
 sources = [
   "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today",
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",

@@ -9,8 +9,9 @@ cover = "industrials"
 moves = [
   { ticker = "CAT", price = 647.39, change_pct = -9.25, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "On a very steep, muddy hillside under a heavy grey sky, a huge muscular draft horse strains in its leather harness, hauling a weathered wooden wagon piled high with gleaming steel engine blocks and turbine parts. Its hooves are skidding in the mud, and the heavy wagon has begun to slide back down the slope."
-cover_alt = "A draft horse hauling a wagon of steel engine parts skids as the wagon slides back down a muddy hill"
+cover_brief = "At night on a quarry rim, a giant yellow bulldozer seen side-on in the centre, with a flat plain white steel plaque bolted to the side of its empty cab reading 'CAT' in big navy capitals, pitches its nose steeply down over a crumbling cliff edge, its rear tracks lifted off the ground, lit warm gold. Directly above the bulldozer hangs a big red-lit screen reading 'SINCE 2020' in white capitals, while just left of the bulldozer a stocky grey-bearded foreman in his fifties in a hard hat clutches his head in alarm, and a tall brown-skinned woman engineer in her thirties with a long braid stares at a plain tablet, stunned. Behind them, plain generators wait under tarps by a glowing data center and a half-built factory."
+cover_alt = "A yellow bulldozer with a CAT plaque on its cab tips over a quarry cliff under a red screen reading SINCE 2020"
+cover_text = ["CAT", "SINCE 2020"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm",
   "https://www.investing.com/news/stock-market-news/caterpillar-thirdquarter-profit-rises-on-power-equipment-demand-4982548",

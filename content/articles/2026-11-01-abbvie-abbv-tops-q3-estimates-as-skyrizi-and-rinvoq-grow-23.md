@@ -9,8 +9,9 @@ event = "recap-ABBV-2026-10-30"
 moves = [
   { ticker = "ABBV", price = 294.89, change_pct = 1.41, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A sturdy old stone bridge spans a wide river at golden hour. Its oldest arch, on the left, is crumbling into the water, while two new, much larger arches of bright pale stone have been built beside it and carry the whole roadway, a small horse-drawn cart crossing safely on top."
-cover_alt = "An old bridge whose crumbling arch has been replaced by two bigger new arches carrying the road"
+cover_brief = "On a mountain railway at dusk, a gleaming new white locomotive climbs in the centre, seen side-on and lit warm gold, a wide plain navy plaque along its flat side reading 'ABBVIE' in big, widely spaced white capitals, nobody in front of it, and a second white locomotive coupled behind. Directly above the lead locomotive hangs a big gold banner reading 'RECORD' in navy capitals, centred and no wider than the locomotive, while a grey-moustached driver in his sixties in a navy cap leans from the cab window, grinning, and a tall auburn-haired conductor in her forties waves a lantern from the second locomotive. Behind them, wagons heaped with plain white medicine cartons follow, an old steam engine rusts on a dark siding, and storm clouds fill the valley"
+cover_alt = "A new ABBVIE locomotive hauls a medicine train uphill under a RECORD banner past an old steam engine"
+cover_text = ["ABBVIE", "RECORD"]
 sources = [
   "https://news.abbvie.com/2026-10-30-AbbVie-Reports-Third-Quarter-2026-Financial-Results",
   "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000033/abbv-20260930xexhibit991.htm",

@@ -10,8 +10,9 @@ moves = [
   { ticker = "MU", price = 884.74, change_pct = -5.30, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "SNDK", price = 1150.89, change_pct = -13.47, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A plump white goose sits proudly on a straw nest heaped high with glowing golden eggs in a farmyard under low autumn afternoon sun, while a long line of tiny distant figures pushing empty carts walks away from it down a country lane, and a dark wall of winter storm clouds gathers on the far horizon."
-cover_alt = "A goose sits on a heap of golden eggs as people walk away and winter clouds gather on the horizon."
+cover_brief = "In the centre of a stadium at night stands a giant gold trophy cup with a plain polished bowl, a wide navy plaque across the front of its base reading 'MICRON' in big white block capitals, its stone plinth sinking at a tilt into muddy turf. Directly above the cup, just over its rim, hangs a big screen reading 'RECORD' in white capitals, centred and no wider than the cup, while a stocky silver-haired executive in his sixties in a navy suit polishes a handle, proud, and a slim dark-haired investor in her thirties in a camel coat walks away, glancing back, doubtful. Behind them, adult fans leave the cold-lit stands, a smaller plain silver cup sinks deeper, a crane builds a new factory outside, and storm clouds gather"
+cover_alt = "A gold MICRON trophy sinks into the turf under a RECORD screen as fans leave a night stadium"
+cover_text = ["MICRON", "RECORD"]
 sources = [
   "https://www.itiger.com/news/2636098211",
   "https://www.pzena.com/americas/investment-professionals/insights/memorys-margins-2q-2026/",

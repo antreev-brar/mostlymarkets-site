@@ -6,8 +6,9 @@ published = 2026-10-31T20:55:45-04:00
 author = "dev-malhotra"
 tickers = ["NVDA", "PLTR", "SNDK", "INTC", "ARM", "AVGO", "MU", "AMD", "VRT", "CRWV"]
 themes = ["chip-selloff", "ai-capex"]
-cover_brief = "On a dusty racetrack at sunset, a slow old tortoise plods along in the foreground with a winner's garland of red roses already draped over its shell, while far ahead a sleek brown hare sprints alone down the empty track, kicking up dust, past an empty grandstand with no one in it."
-cover_alt = "A tortoise wearing a winner's garland plods on as a hare sprints ahead on an empty racetrack"
+cover_brief = "In the centre of a dim car-auction hall at night, a sleek gold race car sits on a spotlit rotating platform, its open engine hood showing a glowing green circuit board where the engine should be. Directly above the car, centred, hangs one wide screen reading 'CHEAPEST' in big white block capitals, the only sign in the hall, clear of every head, while a lean grey-haired mechanic in her sixties peers in, doubtful, a tall red-haired bidder in his forties lowers his plain paddle, unimpressed, and a broad, bald, dark-skinned auctioneer in his fifties in a tuxedo lifts his gavel, puzzled. To one side, bidders mob a plain silver car of the same shape; in the shadows sit dented plain cars, and buyers crowd around plain power transformers."
+cover_alt = "A gold race car with a circuit-board engine sits under a CHEAPEST screen while bidders crowd a silver one"
+cover_text = ["CHEAPEST"]
 sources = [
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
   "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",
