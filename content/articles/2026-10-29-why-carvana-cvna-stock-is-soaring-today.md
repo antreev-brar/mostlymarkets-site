@@ -10,8 +10,9 @@ cover = "autos-ev"
 moves = [
   { ticker = "CVNA", price = 68.31, change_pct = 15.68, session = "close", asof = 2026-10-29T16:00:00-04:00 },
 ]
-cover_brief = "Under a hard bright blue sky, a car-carrier truck speeds along an empty desert highway hauling a teetering tower of plain, unbadged used cars in assorted colours, stacked a dozen high into the sky, far more than it was built to carry, dust streaming out behind it."
-cover_alt = "A car-carrier truck speeds down a desert highway with used cars stacked a dozen high"
+cover_brief = "In the centre, beside a highway at dusk, a short three-floor glass car tower with 'CARVANA' in white capitals on its flat base and used cars on every floor glows warm gold. Directly above the tower hangs a big gold sign reading 'RECORD SALES' in bold capitals, centred and no wider than the tower, and beside the tower a yellow crane lifts a silver car hanging from its hook. Nearby a stocky shaven-headed manager in his fifties in a navy polo raises both fists, cheering, while a Black woman in her thirties in a navy uniform hands keys to a beaming grey-haired buyer in tweed. In the shadows: a half-empty used-car lot across the road, a fuel pump glowing red, a woman ordering a car on her phone."
+cover_alt = "A glass tower of used cars with CARVANA on its base stands under a RECORD SALES sign as a crane lifts a car"
+cover_text = ["CARVANA", "RECORD SALES"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001690820/000169082026000066/ex99_2q32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0001690820/000169082026000066/ex99_1q32026.htm",

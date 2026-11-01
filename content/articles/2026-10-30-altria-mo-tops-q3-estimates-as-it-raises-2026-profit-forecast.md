@@ -10,8 +10,9 @@ moves = [
   { ticker = "MO", price = 76.75, change_pct = 5.15, session = "close", asof = 2026-10-29T16:00:00-04:00 },
   { ticker = "MO", price = 79.29, change_pct = 3.30, session = "regular", asof = 2026-10-30T09:31:46-04:00 },
 ]
-cover_brief = "In a quiet museum hall at night, a polished vintage brass steam engine still runs at full speed under warm spotlights, its pistons pumping steadily and its flywheel spinning, a neat stack of gold coins growing beside it."
-cover_alt = "An old brass steam engine still running at full speed in a museum, gold coins stacked beside it"
+cover_brief = "In the centre of a dim convenience store at night, a giant brass cash register has a wide flat brass panel across its front reading 'ALTRIA' in huge plain white capitals, with no badge or logo, and its drawer slides open full of glowing gold coins. Directly above the register hangs a big glowing gold sign reading 'PRICES UP', centred and no wider than the register, while a stocky grey-moustached clerk in his fifties in a navy cardigan rings up a sale, quietly pleased, and a tall South Asian woman in her thirties in a navy apron stocks plain round tins. On dark shelves behind, plain cartons have gaps in every row, and by a plain unmarked glass door a plain vape sits locked in a glass case."
+cover_alt = "A giant ALTRIA cash register opens full of gold coins in a dim store under a PRICES UP sign"
+cover_text = ["ALTRIA", "PRICES UP"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/exhibit991erq32026.htm",
   "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/mo-20261028.htm",
