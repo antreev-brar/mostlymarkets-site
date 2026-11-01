@@ -1,8 +1,8 @@
 +++
 title = "Hackers Took About $6.3 Billion From Binance, the Biggest Crypto Theft on Record"
-dek = "Binance paused withdrawals and says it will cover the losses, put at about $6.3 billion. Bitcoin fell below $77,000 and Coinbase slid 10.6% on Friday."
+dek = "Binance says hackers took about $6.3 billion on Thursday and it has already replaced 90% of it. The FBI blamed North Korea; Coinbase plunged 10.6% on Friday."
 type = "brief"
-published = 2026-10-31T10:27:35-04:00
+published = 2026-10-31T21:56:15-04:00
 author = "nora-whitfield"
 tickers = ["COIN", "MSTR", "HOOD"]
 themes = ["crypto"]
@@ -17,18 +17,33 @@ sources = [
   "https://www.wsj.com/finance/currencies/how-binance-is-scrambling-to-cover-losses-in-the-biggest-heist-in-crypto-history-babbfe90",
   "https://www.wsj.com/finance/clues-point-to-familiar-culprit-in-massive-binance-crypto-heist-north-korea-d1fd887d",
   "https://www.wsj.com/finance/currencies/binance-founder-says-exchange-may-be-victim-of-biggest-ever-crypto-heist-24a82e5f",
+  "https://www.nbcnews.com/business/business-news/fbi-says-north-korea-was-6-billion-binance-crypto-hack-rcna606758",
+  "https://abcnews.com/Business/wireStory/fbi-blames-north-korea-stolen-billions-binance-biggest-137741287",
+  "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+  "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+  "https://www.foxbusiness.com/technology/binance-says-security-incident-had-estimated-6-3b-impact-3b-assets-frozen",
+  "https://finance.yahoo.com/markets/article/bitcoin-drops-to-76000-as-binance-hack-spooks-investors-tether-circle-freeze-assets-083406383.html",
+  "https://www.pbs.org/newshour/world/what-to-know-about-the-6-3b-hack-on-binance-likely-the-biggest-ever-crypto-theft",
+  "https://www.ic3.gov/PSA/2025/PSA250226",
+  "https://www.nbcnews.com/tech/tech-news/fbi-says-north-korea-was-responsible-15-billion-bybit-hack-rcna193944",
+  "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec.htm",
+  "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000047/mstr-20261026.htm",
 ]
 +++
 
-Hackers stole about **$6.3 billion** in crypto from Binance, the world's biggest cryptocurrency exchange, Reuters, CoinDesk and The Wall Street Journal reported on Friday. The Journal and The New York Times called it the biggest crypto heist in history. Binance suspended withdrawals and said it would cover all losses with its own funds, CoinDesk and Investopedia reported.
+Hackers stole about **$6.3 billion** from Binance, the world's biggest crypto exchange, on Thursday, the largest crypto theft on record. On Saturday the FBI blamed TraderTraitor, a North Korean state-backed unit it also held responsible for the $1.5 billion Bybit theft in February 2025, less than a quarter of this haul.
 
-Investigators have linked the attack to North Korea, CoinDesk and the Journal reported. "The good news is that we are recovering stolen assets for users," co-Chief Executive Richard Teng wrote on X, according to Investopedia. Binance gave its own first account of how the attack happened in a post on X late on Thursday, New York time:
+Binance halted withdrawals and is covering the loss itself. "We've now replenished **90%** of the stolen assets," co-Chief Executive Richard Teng posted on X on Saturday. About $3 billion is frozen, mostly stablecoins blocked by their issuers, Tether and Circle ($CRCL); the FBI says the hackers are swapping their loot mainly into ether, which no issuer can freeze.
+
+Binance's first account, posted on X late on Thursday, pointed to a compromised engineer's laptop:
 
 ```tweet
 https://x.com/binance/status/2115993361517891592
 ```
 
-The news hit on a day when tech stocks and even gold fell too. Bitcoin dropped below $77,000 on Friday, CoinDesk and Investopedia reported, and Coinbase ($COIN), which also reported quarterly results on Thursday, fell **10.6%**, its biggest one-day drop since 5 February, by our count. Strategy ($MSTR) and Robinhood ($HOOD) slid too.
+On Friday Teng called it a more complex attack that used software built to erase its tracks.
+
+Coinbase ($COIN) **plunged 10.6%** on Friday, its worst day since 5 February, and Strategy ($MSTR) and Robinhood ($HOOD) slid as bitcoin fell below $77,000.
 
 ```stat
 [{"ticker": "COIN", "metric": "day", "date": "2026-10-30", "label": "Coinbase on Friday", "note": "Also reported Q3 results on Thursday"},
@@ -36,4 +51,6 @@ The news hit on a day when tech stocks and even gold fell too. Bitcoin dropped b
  {"ticker": "HOOD", "metric": "day", "date": "2026-10-30", "label": "Robinhood on Friday", "note": "Down 24.9% this year"}]
 ```
 
-What isn't known yet is when customers can move their money: Binance said in an update on Friday that it remained on track to resume withdrawals in about 45 hours, CoinDesk reported. "The key tell will be how quickly withdrawals resume and whether outflows stay orderly," Sean Farrell, head of digital-asset strategy at Fundstrat, said, according to Investopedia.
+The hack wasn't the only weight. The Nasdaq Composite fell 2.9% on worries about AI spending, and Coinbase and Strategy reported results on Thursday: Coinbase's third-quarter total revenue fell **35%** from a year earlier, and Strategy said its finance chief, Andrew Kang, is resigning for personal reasons.
+
+Binance plans to reopen withdrawals on Sunday, subject to final security checks. Our read: Binance has shown it can cover the theft, so Sunday tests whether customers stay; even a smooth reopening would lift only one of three weights on crypto stocks.

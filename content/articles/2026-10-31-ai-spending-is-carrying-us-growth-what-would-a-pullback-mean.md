@@ -92,7 +92,7 @@ The share is big because the spending is growing fast, not because it is large. 
 
 ## What a pullback would mean
 
-GDP growth counts the change in spending, not its level. AI investment adds to growth only while it keeps rising, so if budgets merely flattened at this year's record, its contribution would fall toward zero, and the economy would lose the slice ING puts at about a third. Imports would soften the blow, since chips and servers bought abroad would stop growing too, and ING's estimate already nets them out.
+GDP growth counts the change in spending, not its level. AI investment adds to growth only while it keeps rising, so if budgets merely flattened at this year's record, its contribution would fall toward zero, and the economy would lose the slice ING puts at about a third. That third is already net of imports: chips and servers bought abroad would stop growing too, so part of the hit would land on foreign suppliers rather than on US output.
 
 The spenders aren't planning a plateau yet. Alphabet expects its capital spending "to increase significantly in 2027," Chief Financial Officer Anat Ashkenazi said on Wednesday's call. On Thursday's call, Amazon Chief Executive Andy Jassy said Amazon expects to "spend meaningfully more in 2027," NBC News reported.
 
@@ -100,7 +100,7 @@ Even Goldman Sachs, whose forecast tops the Wall Street consensus, expects the r
 
 Business investment outside technology offers no cushion. ING found it fell from a year earlier for six straight quarters through the first quarter of 2026, and Knightley wrote that tech spending appears to have "cannibalised" it.
 
-Consumers stand on weaker footing than their spending suggests. Employers added just 29,000 jobs in September, against 90,000 expected, the Labor Department said.
+Consumers stand on weaker footing than their spending suggests. Employers added just 29,000 jobs in September, the Labor Department said, against the 90,000 economists expected.
 
 ING ties part of their spending to AI as well. It estimated that stock-market gains since ChatGPT's launch, which went mostly to the top fifth of households by income, add consumer spending worth about **0.44% of GDP**. A falling market would be a second hit, and the Nasdaq Composite just had its [worst month since March 2025](/daily/2026-10-31/).
 
@@ -108,13 +108,13 @@ ING ties part of their spending to AI as well. It estimated that stock-market ga
 
 The Fed's statement on Wednesday upgraded the economy to "expanding at a strong pace," from "solid" in September, and said "capital investment is robust." It held its key rate at 3.75% to 4.00%, six weeks after a September hike, but Governor Lisa Cook and Cleveland Fed President Beth Hammack voted for another ([our story](/news/2026-10-28/fed-held-rates-but-two-officials-wanted-a-hike/)).
 
-Futures put the odds of a hike on 9 December at about **85%**, according to Bloomberg data cited by Yahoo Finance, so rate markets are priced for more strength, not a pullback. The PCE price index, the Fed's preferred inflation gauge, rose 3.6% in the year to September, the Commerce Department said.
+After Wednesday's decision, futures put the odds of a hike on 9 December at about **85%**, according to Bloomberg data cited by Yahoo Finance, so rate markets were priced for more strength, not a pullback. The PCE price index, the Fed's preferred inflation gauge, rose 3.6% in the year to September, the Commerce Department said.
 
 Rates also feed back into the build-out. Borrowing by AI companies has added to the competition for capital and helped push Treasury yields up in recent months, NBC News reported on Friday, and Reuters noted that higher borrowing costs could make debt-funded AI spending harder to justify.
 
 The spenders are more exposed to rates than a year ago. In the third quarter, the four biggest put 115% of their operating cash flow into property and equipment, against 61% a year earlier, by our count from their filings, so each extra dollar now has to come from cash piles, bonds, or new shares ([our story](/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/)).
 
-So a pullback would cut both ways, in our view: growth would slow, but so would some of the pressure on yields. Friday gave a hint: the tech selloff appeared to draw buyers to Treasuries, NBC News reported, and the 10-year yield closed at 4.94%, down from 5.31% on 5 October, its highest close since 2002, Treasury data show.
+So a pullback would cut both ways, in our view: growth would slow, but so would some of the pressure on yields. Friday gave a hint: the tech selloff appeared to draw buyers to Treasuries, NBC News reported, and the 10-year yield slipped to 4.94%, Treasury data show, down from 5.31% on 5 October, its highest close since 2002.
 
 ## What we'll learn next
 
