@@ -277,11 +277,28 @@ def stale(slug: str, brief: str) -> bool:
     return sha.exists() and sha.read_text().strip() != fingerprint(brief)
 
 
+# Share of strong edges in the picture. A crowded comic scores 0.25 to 0.35; a collapsed render (one big object in an
+# empty, flat scene, with no lettering and not the house style) scores 0.12 to 0.20. Eight of the first 18 comics
+# collapsed that way, whatever the worker or prompt length (3 Nov 2026), so a flat one is drawn again with a new seed.
+MIN_BUSY = 0.225
+
+
+def busy(img: bytes) -> float:
+    from PIL import Image, ImageFilter
+    edges = Image.open(BytesIO(img)).convert("L").resize((512, 320)).filter(ImageFilter.FIND_EDGES).tobytes()
+    return sum(v > 40 for v in edges) / len(edges)
+
+
 def draw(job, provider: str, quality: str) -> str:
     name, written = job
     brief = normalize_brief(written)
     t = time.time()
-    img, meta = generate_horde(brief) if provider == "horde" else generate_openai(brief, quality)
+    for tries in range(3):
+        img, meta = generate_horde(brief) if provider == "horde" else generate_openai(brief, quality)
+        meta["busy"] = round(busy(img), 3)
+        if meta["busy"] >= MIN_BUSY or tries == 2:
+            break
+        print(f"covers: {name} came back flat ({meta['busy']}), drawing it again", flush=True)
     save(img, name)
     (OUT / f"{name}.sha").write_text(fingerprint(written) + "\n")
     (masters_dir() / f"{name}.json").write_text(json.dumps({"brief": brief, "provider": provider, **meta}, indent=1))
