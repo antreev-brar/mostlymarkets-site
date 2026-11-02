@@ -1,0 +1,75 @@
+{
+ "id": "move-GE-2026-11-02",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-02T10:15:15-05:00",
+ "expires": "2026-11-03T12:00:00-05:00",
+ "tickers": [
+  "GE"
+ ],
+ "headline_hint": "Why GE Aerospace (GE) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-02T10:15:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 314.58,
+   "change_pct": 4.23,
+   "prev_close": 301.8,
+   "time": "2026-11-02T10:15:01.878-0500",
+   "mktcap": "325.067B",
+   "pe": 35.9,
+   "fpe": 37.17,
+   "yr_high": 388.84,
+   "yr_low": 268.91,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 311.05,
+    "change_pct": 3.06,
+    "time": "2026-11-02T09:23:46.487-0500"
+   }
+  },
+  "facts": {
+   "ticker": "GE",
+   "name": "GE Aerospace",
+   "date": "2026-10-30",
+   "close": 301.8,
+   "prev_close": 313.05,
+   "change_pct": -3.59,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 25,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-20",
+    "change_pct": -3.67
+   },
+   "ytd_pct": -2.02,
+   "return_1m_pct": -3.39,
+   "return_6m_pct": 5.34,
+   "return_1y_pct": -3.97,
+   "high_52w": {
+    "close": 381.22,
+    "date": "2026-08-05"
+   },
+   "low_52w": {
+    "close": 273.25,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 20.83,
+   "thousand_dollars_5y_ago_now": 4461,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 5103089,
+   "volume_vs_20d_avg": 0.98,
+   "sentences": [
+    "GE Aerospace's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 20 October 2026, when the stock fell 3.7%.",
+    "The stock is down 2.0% this year, and at $301.80 it sits 20.8% below its 52-week closing high of $381.22 from 5 August 2026.",
+    "$1,000 invested in GE Aerospace five years ago would be worth $4,461 today."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "recent_stories": []
+ }
+}
