@@ -1,0 +1,141 @@
+{
+ "id": "move-ORCL-2026-11-02",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 75,
+ "created": "2026-11-02T10:01:14-05:00",
+ "expires": "2026-11-03T12:00:00-05:00",
+ "tickers": [
+  "ORCL"
+ ],
+ "headline_hint": "Why Oracle (ORCL) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-02T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 122.55,
+   "change_pct": -6.22,
+   "prev_close": 130.67,
+   "time": "2026-11-02T10:00:06.782-0500",
+   "mktcap": "371.495B",
+   "pe": 19.24,
+   "fpe": 14.39,
+   "yr_high": 265.62,
+   "yr_low": 114.5,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 126.0,
+    "change_pct": -3.57,
+    "time": "2026-11-02T09:29:58.817-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "date": "2026-10-30",
+   "close": 130.67,
+   "prev_close": 139.56,
+   "change_pct": -6.37,
+   "moves_over_5pct_last_year": 38,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 20,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-14",
+    "change_pct": -8.83
+   },
+   "ytd_pct": -32.96,
+   "return_1m_pct": -5.36,
+   "return_6m_pct": -23.95,
+   "return_1y_pct": -52.54,
+   "high_52w": {
+    "close": 262.61,
+    "date": "2025-10-31"
+   },
+   "low_52w": {
+    "close": 114.99,
+    "date": "2026-07-24"
+   },
+   "pct_below_52w_high": 50.24,
+   "thousand_dollars_5y_ago_now": 1362,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 41052870,
+   "volume_vs_20d_avg": 1.31,
+   "sentences": [
+    "Oracle's shares moved 5% or more on 38 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 14 October 2026, when the stock fell 8.8%.",
+    "The stock is down 33.0% this year, and at $130.67 it sits 50.2% below its 52-week closing high of $262.61 from 31 October 2025.",
+    "$1,000 invested in Oracle five years ago would be worth $1,362 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-01/",
+    "date": "2026-11-01",
+    "title": "Wall Street Is Buying Insurance on the AI Boom Before Apple and AMD Report",
+    "type": "daily",
+    "tickers": [
+     "CRWV",
+     "ORCL",
+     "AAPL",
+     "AMD",
+     "NBIS"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/wall-street-now-sees-more-than-1-trillion-of-ai-spending-in-2027-what-has-to-go-right/",
+    "date": "2026-10-31",
+    "title": "Wall Street Now Sees More Than $1 Trillion of AI Spending in 2027. What Has to Go Right",
+    "type": "analysis",
+    "tickers": [
+     "AMZN",
+     "GOOGL",
+     "MSFT",
+     "META",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/",
+    "date": "2026-10-31",
+    "title": "The AI Build-Out's Debt Is Cracking at the Edges, Starting With CoreWeave (CRWV)",
+    "type": "analysis",
+    "tickers": [
+     "CRWV",
+     "NBIS",
+     "META",
+     "ORCL",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/",
+    "date": "2026-10-31",
+    "title": "Free Cash Flow Is Now the Scorecard for AI Spenders: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "GOOGL",
+     "AMZN",
+     "META",
+     "MSFT",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/stocks-making-the-biggest-moves-yesterday-f5-vertiv-oracle-alphabet-and-sandisk/",
+    "date": "2026-10-29",
+    "title": "Stocks Making the Biggest Moves Yesterday: F5, Vertiv, Oracle, Alphabet and Sandisk",
+    "type": "movers",
+    "tickers": [
+     "FFIV",
+     "VRT",
+     "ORCL",
+     "GOOGL",
+     "SNDK"
+    ]
+   }
+  ]
+ }
+}

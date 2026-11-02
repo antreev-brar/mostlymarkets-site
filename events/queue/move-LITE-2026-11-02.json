@@ -1,0 +1,99 @@
+{
+ "id": "move-LITE-2026-11-02",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 80,
+ "created": "2026-11-02T10:01:14-05:00",
+ "expires": "2026-11-03T12:00:00-05:00",
+ "tickers": [
+  "LITE"
+ ],
+ "headline_hint": "Why Lumentum (LITE) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-02T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 748.39,
+   "change_pct": -10.98,
+   "prev_close": 840.7,
+   "time": "2026-11-02T10:00:05.128-0500",
+   "mktcap": "67.791B",
+   "pe": -9.19,
+   "fpe": 34.41,
+   "yr_high": 1143.0,
+   "yr_low": 184.2,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 801.0,
+    "change_pct": -4.72,
+    "time": "2026-11-02T09:30:00.386-0500"
+   }
+  },
+  "facts": {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "date": "2026-10-30",
+   "close": 840.7,
+   "prev_close": 919.53,
+   "change_pct": -8.57,
+   "moves_over_5pct_last_year": 114,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 44,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": -11.54
+   },
+   "ytd_pct": 128.09,
+   "return_1m_pct": -19.61,
+   "return_6m_pct": -11.5,
+   "return_1y_pct": 292.34,
+   "high_52w": {
+    "close": 1133.4,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 188.36,
+    "date": "2025-11-04"
+   },
+   "pct_below_52w_high": 25.82,
+   "thousand_dollars_5y_ago_now": 10180,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 7733743,
+   "volume_vs_20d_avg": 1.53,
+   "sentences": [
+    "Lumentum's shares moved 5% or more on 114 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 11.5%.",
+    "The stock is up 128.1% this year, and at $840.70 it sits 25.8% below its 52-week closing high of $1,133.40 from 6 October 2026.",
+    "$1,000 invested in Lumentum five years ago would be worth $10,180 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Communications Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-02/marvell-mrvl-agrees-to-buy-lumentum-lite-for-115-billion-in-stock/",
+    "date": "2026-11-02",
+    "title": "Marvell (MRVL) Agrees to Buy Lumentum (LITE) for $115 Billion in Stock",
+    "type": "brief",
+    "tickers": [
+     "MRVL",
+     "LITE"
+    ]
+   },
+   {
+    "path": "/news/2026-10-27/stocks-making-the-biggest-moves-yesterday-nu-holdings-fair-isaac-lumentum-mercadolibre-and-doordash/",
+    "date": "2026-10-27",
+    "title": "Stocks Making Big Moves Yesterday: Nu Holdings, Fair Isaac, Lumentum, MercadoLibre and DoorDash",
+    "type": "movers",
+    "tickers": [
+     "NU",
+     "FICO",
+     "LITE",
+     "MELI",
+     "DASH"
+    ]
+   }
+  ]
+ }
+}

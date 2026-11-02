@@ -1,0 +1,1872 @@
+{
+ "id": "viewpoints-2026-11-02",
+ "kind": "viewpoints",
+ "story_type": "viewpoints",
+ "priority": 52,
+ "created": "2026-11-02T10:01:14-05:00",
+ "expires": "2026-11-02T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Bulls vs Bears on <the debate>",
+ "instructions": "The market's loudest debate this week, as 3 to 6 named, documented viewpoints (analysts, fund managers, economists, finance voices on X with real analysis), each with its argument and evidence, then our read. Follow the viewpoints template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T10:00:11-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7627.59,
+    "change": 47.52,
+    "change_pct": 0.63,
+    "prev_close": 7580.07,
+    "open": 7610.83,
+    "high": 7629.23,
+    "low": 7610.09,
+    "volume": 0,
+    "time": "2026-11-02T10:00:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25636.914,
+    "change": 199.916,
+    "change_pct": 0.79,
+    "prev_close": 25436.999,
+    "open": 25600.173,
+    "high": 25668.765,
+    "low": 25567.382,
+    "volume": 220824631,
+    "time": "2026-11-02T10:00:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 52333.13,
+    "change": 562.82,
+    "change_pct": 1.09,
+    "prev_close": 51770.31,
+    "open": 52008.23,
+    "high": 52346.71,
+    "low": 52008.23,
+    "volume": 75009177,
+    "time": "2026-11-02T10:00:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2824.359,
+    "change": 12.514,
+    "change_pct": 0.45,
+    "prev_close": 2811.844,
+    "open": 2829.886,
+    "high": 2830.037,
+    "low": 2823.411,
+    "volume": 0,
+    "time": "2026-11-02T09:43:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 18.52,
+    "change": -0.9,
+    "change_pct": -4.63,
+    "prev_close": 19.42,
+    "open": 19.05,
+    "high": 19.56,
+    "low": 18.52,
+    "volume": 0,
+    "time": "2026-11-02T10:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.882,
+    "change": -0.047,
+    "change_pct": -0.9535,
+    "prev_close": 4.929,
+    "open": 4.941,
+    "high": 4.956,
+    "low": 4.88,
+    "volume": 0,
+    "time": "2026-11-02T10:00:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.581,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "prev_close": 4.581,
+    "open": 4.6,
+    "high": 4.614,
+    "low": 4.577,
+    "volume": 0,
+    "time": "2026-11-02T10:00:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 4.96,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 97.31,
+    "change": -6.81,
+    "change_pct": -6.54,
+    "prev_close": 104.12,
+    "open": 102.39,
+    "high": 102.75,
+    "low": 97.12,
+    "volume": 164979,
+    "time": "2026-11-02T09:50:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 106.15,
+    "change": -7.28,
+    "change_pct": -6.42,
+    "prev_close": 113.43,
+    "open": 111.69,
+    "high": 112.41,
+    "low": 105.86,
+    "volume": 269189,
+    "time": "2026-11-02T15:50:07.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3972.9,
+    "change": 74.0,
+    "change_pct": 1.9,
+    "prev_close": 3898.9,
+    "open": 3890.0,
+    "high": 3976.0,
+    "low": 3889.0,
+    "volume": 109463,
+    "time": "2026-11-02T09:50:09.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 77752.57,
+    "change": 11.17,
+    "change_pct": 0.01,
+    "prev_close": 77741.4,
+    "open": 77792.36,
+    "high": 78734.62,
+    "low": 77487.08,
+    "volume": 0,
+    "time": "2026-11-02T10:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 111132.2,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.599,
+    "change": -0.28,
+    "change_pct": -0.27,
+    "prev_close": 101.879,
+    "open": 101.968,
+    "high": 101.994,
+    "low": 101.426,
+    "volume": 0,
+    "time": "2026-11-02T10:00:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "headlines": [
+   {
+    "title": "Oracle Looks to Raise $20 Billion to Fund AI Ambitions",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/oracle-looks-to-raise-20-billion-to-fund-ai-ambitions-582c814f",
+    "published": "2026-11-02T09:58:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Factset And Hamilton Lane Announce Strategic Partnership To Deliver Integrated Private Markets Analytics",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3RVBQW:0-factset-and-hamilton-lane-announce-strategic-partnership-to-deliver-integrated-private-markets-analytics/",
+    "published": "2026-11-02T09:52:19-05:00",
+    "also": []
+   },
+   {
+    "title": "Syndigo Multi-Year Strategic Partnership Deal With Microsoft To Develop, Co-Sell Ai-Powered Commerce Solutions",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J1O8:0-syndigo-multi-year-strategic-partnership-deal-with-microsoft-to-develop-co-sell-ai-powered-commerce-solutions/",
+    "published": "2026-11-02T09:51:37-05:00",
+    "also": []
+   },
+   {
+    "title": "Lumen And Microsoft Expand Collaboration To Co-Sell Enterprise Ai-Ready Networks",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUACWXXP:0-lumen-and-microsoft-expand-collaboration-to-co-sell-enterprise-ai-ready-networks/",
+    "published": "2026-11-02T09:50:57-05:00",
+    "also": []
+   },
+   {
+    "title": "Crowdstrike Ignition Technology Made Multi-Million-Dollar Falcon Flex Commitment In Q1 Fy27 To Expand Ai-Native Cybersecurity For Smb",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J12R:0-crowdstrike-ignition-technology-made-multi-million-dollar-falcon-flex-commitment-in-q1-fy27-to-expand-ai-native-cybersecurity-for-smb/",
+    "published": "2026-11-02T09:50:21-05:00",
+    "also": []
+   },
+   {
+    "title": "Honeywell Aerospace Announces Participation At Upcoming Investor Conferences",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABNP2NP:0-honeywell-aerospace-announces-participation-at-upcoming-investor-conferences/",
+    "published": "2026-11-02T09:46:59-05:00",
+    "also": []
+   },
+   {
+    "title": "Ingersoll Rand Expands Life Sciences Solutions With Acquisition Of Ivek Corporation",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABZB64G:0-ingersoll-rand-expands-life-sciences-solutions-with-acquisition-of-ivek-corporation/",
+    "published": "2026-11-02T09:46:08-05:00",
+    "also": []
+   },
+   {
+    "title": "US market correction nearing end, Morgan Stanley strategists say",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46J121:0-us-market-correction-nearing-end-morgan-stanley-strategists-say/",
+    "published": "2026-11-02T09:42:54-05:00",
+    "also": []
+   },
+   {
+    "title": "Anthropic releases amended IPO prospectus with third-quarter financials",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+    "published": "2026-11-02T09:42:16-05:00",
+    "also": []
+   },
+   {
+    "title": "U.S. Natural Gas Futures See Modest Pick-Up",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/commodities-futures/morgan-stanley-raises-bullish-european-gas-price-scenario-on-winter-supply-risks-77062b22",
+    "published": "2026-11-02T09:42:00-05:00",
+    "also": []
+   },
+   {
+    "title": "ECB flags AI valuations, bond stress and fund losses as main risks",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46J0HT:0-ecb-flags-ai-valuations-bond-stress-and-fund-losses-as-main-risks/",
+    "published": "2026-11-02T09:32:28-05:00",
+    "also": []
+   },
+   {
+    "title": "Gold rises over 1% from one-year low on softer oil prices; US midterms in focus",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46J0H3:0-gold-rises-over-1-from-one-year-low-on-softer-oil-prices-us-midterms-in-focus/",
+    "published": "2026-11-02T09:31:40-05:00",
+    "also": []
+   },
+   {
+    "title": "US stock index futures rise after oil drop, recent equity selloff",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J0X1:0-us-stock-index-futures-rise-after-oil-drop-recent-equity-selloff/",
+    "published": "2026-11-02T09:26:29-05:00",
+    "also": []
+   },
+   {
+    "title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N450084:0-oil-stocks-in-us-strategic-petroleum-reserve-fall-to-lowest-level-since-1982/",
+    "published": "2026-11-02T09:25:30-05:00",
+    "also": []
+   },
+   {
+    "title": "Marvell to buy Lumentum in all-stock deal, a massive bet on AI connectivity",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+    "published": "2026-11-02T09:23:40-05:00",
+    "also": []
+   },
+   {
+    "title": "Apple\u2019s Home Robot Project Faces Internal Disagreements And Slow Software Progress - The Information",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J2PC:0-apple-s-home-robot-project-faces-internal-disagreements-and-slow-software-progress-the-information/",
+    "published": "2026-11-02T09:20:56-05:00",
+    "also": []
+   },
+   {
+    "title": "Sterling Could Fall if BOE Dampens Rate-Rise Bets",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-as-investors-await-u-s-economic-data-c0156350",
+    "published": "2026-11-02T09:20:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "published": "2026-11-02T09:15:06-05:00",
+    "also": []
+   },
+   {
+    "title": "Oil Futures Slide on Hopes for Middle East Peace Talks",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/business/energy-oil/oil-drops-amid-diplomatic-efforts-to-revive-mideast-peace-talks-964fc4d6",
+    "published": "2026-11-02T09:14:00-05:00",
+    "also": []
+   },
+   {
+    "title": "T-Mobile Fiber Launches 5 Gig Internet Plan With 10-Year Price Guarantee",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J2HH:0-t-mobile-fiber-launches-5-gig-internet-plan-with-10-year-price-guarantee/",
+    "published": "2026-11-02T09:11:39-05:00",
+    "also": []
+   },
+   {
+    "title": "8X8 Earns Microsoft Certification To Simplify Global Calling With 8X8 Voice For Microsoft Teams",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABRRN1R:0-8x8-earns-microsoft-certification-to-simplify-global-calling-with-8x8-voice-for-microsoft-teams/",
+    "published": "2026-11-02T09:10:35-05:00",
+    "also": []
+   },
+   {
+    "title": "Caterpillar Inc. Acquires Fabick Cat Dealership",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA1X2LR1:0-caterpillar-inc-acquires-fabick-cat-dealership/",
+    "published": "2026-11-02T09:10:21-05:00",
+    "also": []
+   },
+   {
+    "title": "11 of the Best Financial Advisor Companies: Well-Known Fiduciary Investment Firms to Consider",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/buyside/personal-finance/financial-advisors/best-financial-advisors",
+    "published": "2026-11-02T09:09:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Goldman Restricts Traders And Bankers From Using Some AI Tools- Bloomberg News",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J2HE:0-goldman-restricts-traders-and-bankers-from-using-some-ai-tools-bloomberg-news/",
+    "published": "2026-11-02T09:07:12-05:00",
+    "also": []
+   },
+   {
+    "title": "Kimberly-Clark Completes Acquisition Of Kenvue",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46J0JZ:0-kimberly-clark-completes-acquisition-of-kenvue/",
+    "published": "2026-11-02T09:04:56-05:00",
+    "also": []
+   },
+   {
+    "title": "Boeing And Icelease Sign Agreement For Up To Three 767-300 Boeing Converted Freighters",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA1N5BSS:0-boeing-and-icelease-sign-agreement-for-up-to-three-767-300-boeing-converted-freighters/",
+    "published": "2026-11-02T09:04:48-05:00",
+    "also": []
+   },
+   {
+    "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "published": "2026-11-02T09:03:44-05:00",
+    "also": []
+   },
+   {
+    "title": "Oracle\u2019s stock falls as the company details plan to raise $20 billion",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16",
+    "published": "2026-11-02T09:03:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Brutal AI selloff stirs recession fears: McGeever",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46G0SV:0-brutal-ai-selloff-stirs-recession-fears-mcgeever/",
+    "published": "2026-11-02T09:01:12-05:00",
+    "also": []
+   },
+   {
+    "title": "CANADA FX DEBT - Canadian dollar weakens, benchmark yield slips",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46J1CD:0-canada-fx-debt-canadian-dollar-weakens-benchmark-yield-slips/",
+    "published": "2026-11-02T09:00:11-05:00",
+    "also": []
+   },
+   {
+    "title": "Johnson Controls Strengthens Executive Leadership Team With Two Key Appointments",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA89HYVX:0-johnson-controls-strengthens-executive-leadership-team-with-two-key-appointments/",
+    "published": "2026-11-02T08:58:27-05:00",
+    "also": []
+   },
+   {
+    "title": "We're buying the dip in a stock after an expectations reset",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/11/02/were-buying-the-dip-in-a-stock-after-an-expectations-reset.html",
+    "published": "2026-11-02T08:56:01-05:00",
+    "also": []
+   },
+   {
+    "title": "US stock index futures jump as oil falls about 6%",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46J140:0-us-stock-index-futures-jump-as-oil-falls-about-6/",
+    "published": "2026-11-02T08:53:38-05:00",
+    "also": []
+   },
+   {
+    "title": "Infineon, Qualcomm Technologies Sign Automated Driving Agreement",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J2H5:0-infineon-qualcomm-technologies-sign-automated-driving-agreement/",
+    "published": "2026-11-02T08:46:28-05:00",
+    "also": []
+   },
+   {
+    "title": "Quantum X Labs Announces Cyber Quantum Encryption Breakthrough In Demonstration With IBM Quantum Processor, Heron R2",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3YZQQS:0-quantum-x-labs-announces-cyber-quantum-encryption-breakthrough-in-demonstration-with-ibm-quantum-processor-heron-r2/",
+    "published": "2026-11-02T08:46:18-05:00",
+    "also": []
+   },
+   {
+    "title": "Oil prices could average $130 a barrel next year, according to Goldman Sachs",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/how-oil-prices-could-average-130-per-barrel-next-year-according-to-goldman-sachs-235ce32b",
+    "published": "2026-11-02T08:46:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Halliburton Co Halliburton Acquires Keystone As To Strengthen Digital Well Construction Capabilities",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J12I:0-halliburton-co-halliburton-acquires-keystone-as-to-strengthen-digital-well-construction-capabilities/",
+    "published": "2026-11-02T08:44:43-05:00",
+    "also": []
+   },
+   {
+    "title": "Ryanair CEO warns fares could rise by up to 20% in 2027 as fuel bill jumps by $2.2 billion",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/02/ryanair-h1-earnings-iran-war-fuel-costs.html",
+    "published": "2026-11-02T08:42:14-05:00",
+    "also": []
+   },
+   {
+    "title": "M&T Bank Enhances M&T Visa\u00ae Credit Card With Rewards, Offering Up To 3X Points On Eligible Grocery Purchases",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA2QBZXN:0-m-t-bank-enhances-m-t-visa-credit-card-with-rewards-offering-up-to-3x-points-on-eligible-grocery-purchases/",
+    "published": "2026-11-02T08:42:08-05:00",
+    "also": []
+   },
+   {
+    "title": "Oracle plans to raise $20 billion through bonds and stock sales",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46J11L:0-oracle-plans-to-raise-20-billion-through-bonds-and-stock-sales/",
+    "published": "2026-11-02T08:31:01-05:00",
+    "also": []
+   }
+  ],
+  "in_the_news": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "headlines": [
+     {
+      "title": "Nvidia, AMD, Marvell Targets Cut: Melius Pulls Back on AI Stocks as Big Tech Lines Up to Raise Cash",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmFVNG00aDdBdENWS1RKQmJYMzdKaUpwVGEzS05BbzZEdGY1cDV1MFplNWROcFpXQ0ctMEN0d2hCUmEwclFucHJaTDd4NmlGbTNxWTdFTmxzekJSTG9zWVA4VE5mRDlpMFpuMFc4UEpUbGl5S1NsV1RzR01JdnVMeE9nR3llVHFWUnVuY09iTGZzdkg4R0lLWnJIc0ZMSmVVYjVNX0ZZODJpNW54Q1B5ZzVYajVYVHJnRk1uUFAxbzI?oc=5",
+      "published": "2026-11-02T09:27:57-05:00",
+      "also": []
+     },
+     {
+      "title": "Wall Street Veteran Dumps Most of His NVIDIA Stake, Warns of AI Spending Slowdown",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVNKTjE2bjVjcnV4TGFRNlFIc2dja0V4T0lVZ0ZPXzNMbEw2UmJ5QjQxRE1NYzhRRko4R09SOFBrRDFlV2hGaG9LemtBUUtsc3hiTENFSHZPRU9CdWg1eFZ2cUFIY3lBdnZPQUhPZ3JuSGJUTlNvMl8tRnEwbzRHUUUwOEdUai1xQUtIbThVN0V3NDFYVUcwclVLWW9sUUtyOGgyaDBIbVk3N2EyR3V0MlNrbklINFVTTUNfUk5DNm4tRHlHaDVkTWc4NXVaTXFjMnc?oc=5",
+      "published": "2026-11-02T05:10:37-05:00",
+      "also": []
+     },
+     {
+      "title": "Nvidia: SpaceX Offers An Ignored Bonus",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemNyVTdEa0psUHdDNVBBU0t2bnM0dzFFTk1ZcFJzTWRHb1lMaG9tM19FZXNoTERHR3ZtbU0tRFQ5RlE3ZF9ydGlXNGJ2UGtycFFrcjk5LU82UFBNRjZrdVVoRnFtaEd2UXYxd1ZUNjBjLVA0WVRIUEE5VlZQamczVW0zYW4?oc=5",
+      "published": "2026-11-01T20:00:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Nvidia Q3 FY2027 Preview: The Fabless Model Just Got A $279 Billion Footnote",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbUEzRnZyNUFrdTRLY0s1TGJVdG9yMV9CSUpyWHlScGhiMm9haGc0MXN4MldRUUF5SHA3SUpkejkzdHhYVy1UcmFvSGNlQkRrbS1XWFRnVmhNNVpBa3ZrVXJvVHpxQ1N6RXJodjlfOFhFOEFYMnI3UlJyenEtcWVHeE5HZERyTmR5YkY3WGIwT3d4VUZYSVE5dFlpaWhmd2VoSHhYMTNhYk1DclBrVDN3cUdtVTNxUQ?oc=5",
+      "published": "2026-11-01T05:49:27-05:00",
+      "also": []
+     },
+     {
+      "title": "The Sudden Death of an Nvidia AI Prodigy Leaves Behind Bitter Accusations",
+      "source": "WSJ",
+      "url": "https://www.tradingview.com/news/DJN_DN20261031000963:0-the-sudden-death-of-an-nvidia-ai-prodigy-leaves-behind-bitter-accusations-wsj/",
+      "published": "2026-10-31T21:00:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Microsoft just gave Nvidia shareholders a reason to pay attention",
+      "source": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYzZoRk5oVmtCQWVKdmszLW96YkM0aU5ETmMzMG5QMW40ekFaSlZUeHNuNmFYMnVlM29QY3pNYk83UFBUZ3FVVEt3R29aNmlseTN6Z0MzLTFJeTdPSVFnUUJuYjZKcW5YQ2JOVjFMR3ZtWXhhajNJdk9oU1ZSSmhpVGRpVVh2S0lRX0tDbmxSWlRxTzdIS1p2T2JIV1BzaXRVMG5zUkJMdkZQQXQy?oc=5",
+      "published": "2026-10-31T12:37:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Consumer Tech (Oct 26-30): Meta Donation Sparks Backlash, Nvidia Deal Draws DOJ Scrutiny, Chipmakers Report Earnings",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:bdb9d3a82094b:0-consumer-tech-oct-26-30-meta-donation-sparks-backlash-nvidia-deal-draws-doj-scrutiny-chipmakers-report-earnings/",
+      "published": "2026-10-31T10:11:01-04:00",
+      "also": []
+     },
+     {
+      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
+      "source": "WSJ",
+      "url": "https://www.tradingview.com/news/DJN_DN20261030002754:0-chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-wsj/",
+      "published": "2026-10-31T09:17:00-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "headlines": [
+     {
+      "title": "Apple\u2019s Home Robot Project Faces Internal Disagreements And Slow Software Progress - The Information",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J2PC:0-apple-s-home-robot-project-faces-internal-disagreements-and-slow-software-progress-the-information/",
+      "published": "2026-11-02T09:20:56-05:00",
+      "also": []
+     },
+     {
+      "title": "Apple Is the 'Only Mag 7 Stock' Beating S&P 500 by Avoiding the AI 'Spending Binge,' Says Market Strategi",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQeWphV2l6WnZqd29XQkVCZExvRFUwdDBhOVBQbDFWdzl6TUlocUFDWkJleWlRbFJ4aFBSS1ZzbEVFVy05T0RZNlRBcUlPWktxTW9IS3daVWVDbFJrdHEzNXplalZtUTlQV3diY1F5RXhxVDFMMElGMWRyQVp4UjN0S0VqcEZHU0RkalBkVzlPcmJhcllQUVZNY3A3aVotQUlMUW93Vk84czB0U0JuY3lYdTUzcEg3WEpmZW5MV0R1WEozZ2tydXBpWjdXcjl5TU42djFsMDZQZnppWFg5cDNpaW02cmxIQXNPMng1TTVGSQ?oc=5",
+      "published": "2026-11-02T08:04:13-05:00",
+      "also": []
+     },
+     {
+      "title": "Earnings Day: Can hardware rescue Apple from Big Tech's AI hangover?",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4662037-earnings-day-can-hardware-rescue-apple-from-big-techs-ai-hangover",
+      "published": "2026-11-02T07:12:35-05:00",
+      "also": []
+     },
+     {
+      "title": "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple\u2019s earnings report",
+      "source": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
+      "published": "2026-11-02T06:44:46-05:00",
+      "also": [
+       "Yahoo Finance"
+      ]
+     },
+     {
+      "title": "Apple's healthier core",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J0OT:0-apple-s-healthier-core/",
+      "published": "2026-11-02T06:33:56-05:00",
+      "also": []
+     },
+     {
+      "title": "Apple, SpaceX, Intel, Palantir, and More Stocks That Explain Today\u2019s Market",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96eHRnWkE3aFRPUGhWc2VaOEMzdzJveDBpeXBkbHNlaW5xQ0ZJdk9jUk16elRMM0UyNWRmMXYyX3kycGYyWERZNHNrTEVFYVk5R2VBVF83X2lRSzBFR1BZdFZ2Mk4?oc=5",
+      "published": "2026-11-02T06:15:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Apple\u2019s $1 Trillion Rally Leaves No Room for Error on Earnings",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjc5RkZlVlNFVy1jRUNDbnhCZGJLd3JWTWVMMnV6LUlWaUpxNWFNSmRrTFVWMmFwaDVmSERlTTlVdzZEVHJmVmViemgzMnB3dXBha01ZeXg2a2ZNNEQ5dzN3RWgyQktQVFRYZnRkWko4aTduQjliWTljSmQzYlBiSnJWSU5POVZtRVNtNnBGc2NEc3lFVEs1Y2l5QXpZa1p4bndfcUFaU1VIVVp0NFF0XzlB?oc=5",
+      "published": "2026-11-02T04:57:33-05:00",
+      "also": [
+       "Quartz"
+      ]
+     },
+     {
+      "title": "Markets hope for relief in Apple margins",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46J0BK:0-markets-hope-for-relief-in-apple-margins/",
+      "published": "2026-11-02T01:52:35-05:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "headlines": [
+     {
+      "title": "Syndigo Multi-Year Strategic Partnership Deal With Microsoft To Develop, Co-Sell Ai-Powered Commerce Solutions",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J1O8:0-syndigo-multi-year-strategic-partnership-deal-with-microsoft-to-develop-co-sell-ai-powered-commerce-solutions/",
+      "published": "2026-11-02T09:51:37-05:00",
+      "also": []
+     },
+     {
+      "title": "8X8 Earns Microsoft Certification To Simplify Global Calling With 8X8 Voice For Microsoft Teams",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABRRN1R:0-8x8-earns-microsoft-certification-to-simplify-global-calling-with-8x8-voice-for-microsoft-teams/",
+      "published": "2026-11-02T09:10:35-05:00",
+      "also": []
+     },
+     {
+      "title": "Lumen and Microsoft Expand Collaboration to Co-Sell Enterprise AI-Ready Networks",
+      "source": "Business Wire",
+      "url": "https://www.tradingview.com/news/business_wire:177fd91fe7c3a:0-lumen-and-microsoft-expand-collaboration-to-co-sell-enterprise-ai-ready-networks/",
+      "published": "2026-11-02T08:30:00-05:00",
+      "also": [
+       "Seeking Alpha"
+      ]
+     },
+     {
+      "title": "Your stock portfolio increasingly hinges on the bond market - and the midterm elections",
+      "source": "MarketWatch",
+      "url": "https://www.tradingview.com/news/DJN_SN20261031001073:0-your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections/",
+      "published": "2026-10-31T10:03:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Funds: How the New Crypto ETFs Value Their Assets",
+      "source": "Barron's",
+      "url": "https://www.tradingview.com/news/DJN_DN20261028002218:0-funds-how-the-new-crypto-etfs-value-their-assets-barron-s/",
+      "published": "2026-10-30T21:30:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Microsoft is winning the cloud wars and becoming Wall Street\u2019s new golden child",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORVcxRjktaGU5VTNtd2NUZG1Ma2dVRDFfMnUtX2JIMk54ZTNKS1pTTUlhanJ3aDg5bW1TVGdoZ3RQZ2FVWG54WW1peHU1WXZPQjc4bUM5dld3Ujd4R1RLX0dPMDFPY2JrWDVwLWRDVmdSbDBKZG4zcjhyMHBrUFFlSXVEM1JVZVlaV3NOUE52TlhRYXo0ZXlCTFU4RkxNQV9OZHJ3WUZuWGpTaUFqM292Zm9FT1NtOUJBWC12MFZn?oc=5",
+      "published": "2026-10-30T16:29:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Microsoft Is a Stock Wall Street Remains Comfortable With Even as AI Trade Skids",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQm83cDFsbEdqcE1sQUN1TmJjbW50dVp3UUlJZ3QyRzE5U3FBVzNtZGpmMkFRTVlNa0VvYVpnSFNheGp4bGNRakY3ZHZfSnViNmU1VHd4TTRuOU5qd3pOSVYzWlhQZU1qSVFJSGFvWnAxSHZ6MnJ5b1Ztd3ppb1l3M2RodUFNdw?oc=5",
+      "published": "2026-10-30T12:45:00-04:00",
+      "also": []
+     },
+     {
+      "title": "While the AI Trade Is Troubled, Microsoft Retains Its Fans on Wall Street",
+      "source": "Barron's",
+      "url": "https://www.tradingview.com/news/DJN_DN20261030006980:0-while-the-ai-trade-is-troubled-microsoft-retains-its-fans-on-wall-street-barrons-com/",
+      "published": "2026-10-30T12:44:00-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "headlines": [
+     {
+      "title": "Alphabet Kicks Off Sale of Its Second Euro Bond This Year",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTXZEZVR0eFFhajNmbHRXVldFdzBMWXlOWHo5WnhHcTJHR0t3bng5SEZNVERBU09IRW1Va0xMVVo0MlVGX3FxNHo1MTlVUHlDV0RGZ21FZVg5QjAzUGZ0MnA4UVpwWXBSdUsxTldiTHEzbEItRnVwdlVvSzM1LXJtdF9OWU94bXJnaEFMckdlRnZ6WElLeUlmYVpjUGlETzU4UkpXV2NSUFFPYmlC?oc=5",
+      "published": "2026-11-02T03:51:08-05:00",
+      "also": [
+       "Reuters"
+      ]
+     },
+     {
+      "title": "Why AI is boosting Meta's ad business while hurting Google search",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96VFFxN2pKNFVfSEdGZVpaUmU0ZUVyWGE2VnEwUE5oZE41bmo5Z2dsTnM2alRKM1VaV0g5ZWcxb2FKcXZxdUZsWUktQzJVel9aelpQQ2FScE43X0RncXl2cnJDY2FjdVBYb3EzR1NySdIBdEFVX3lxTFAxZ0VWZ1FUemdMTjR6NktfMmpJUmYyY3BycTBTQ2tocUZLa2RoaEJZVFAyamFxU1ZwdmJOYjdOZ2xqVWMxbGNVLXNOSjBrUFVFQ0lwZ1ZQcGRXYmtjaERRaE10b3JEWDBnTG1IUHU3YTZZLVNa?oc=5",
+      "published": "2026-11-01T07:00:01-05:00",
+      "also": []
+     },
+     {
+      "title": "Yes, Alphabet Stock Got Hammered. No, We\u2019re Not Selling.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FSDJJcUY4c1h5RV9Xc0tUVVNrak9BaTNXZTVpc2l1STRPWGVYNk5VbnA2aEpaMGV0ejNGY2ZPSmIyaXNKLUNiT1V5MDVJUnR2blBQRGM1Z2JLcFRRbDBRcDk3TWt6V3owQl9ZcHRySDE1emRVQ1E?oc=5",
+      "published": "2026-10-31T10:43:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
+      "published": "2026-10-31T06:31:00-04:00",
+      "also": []
+     },
+     {
+      "title": "The New Bottleneck in America's AI Build-Out: A Shortage of Cheap Money",
+      "source": "WSJ",
+      "url": "https://www.tradingview.com/news/DJN_DN20261030012477:0-the-new-bottleneck-in-america-s-ai-build-out-a-shortage-of-cheap-money-wsj/",
+      "published": "2026-10-30T21:00:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Alphabet Is In Talks To Join Trump\u2019s Golden Dome Defense Program - Bloomberg News",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VE:0-alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program-bloomberg-news/",
+      "published": "2026-10-30T17:21:50-04:00",
+      "also": [
+       "Bloomberg"
+      ]
+     },
+     {
+      "title": "Alphabet Convertible Preferred Now Yields Over 7.5%. There\u2019s a Catch.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaldPcFNBeHBJQ2pLaldfcXhuVV9aM0pOTmxxQ2VjbXhZT1p1TUFsOUttdkp6NHdMTzlvMVNZbDRyeFJabDkzMktxVmhBbDM1b1FLZ3BuWDZTdGEtVGd1QXZUZ3VGQnNUUE1rRzRsd2d2SXd0NVV1ci1hRWNaY3Q0UA?oc=5",
+      "published": "2026-10-30T15:25:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Alphabet Stock: Keep Calm and Buy the Dip, Barron\u2019s Says",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjVSOTlBSjlQMUkxMUg4THhTbnR3a0t1RHJYWUxnOHB0YmFkUUlxUGhFdVpla2ZLQUdYR3B5TUlWZGtiekNfclh3bnVMNHVudmtwbl8zckdZNlZYUThQRTZvMjIySmgzTGd2WTRlQVY4NWVaYXAxRWZ1TjZXcHZldw?oc=5",
+      "published": "2026-10-30T14:41:00-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "headlines": [
+     {
+      "title": "The Shopping Bots Are Coming for Amazon",
+      "source": "WSJ",
+      "url": "https://www.tradingview.com/news/DJN_DN20261101000093:0-the-shopping-bots-are-coming-for-amazon-wsj/",
+      "published": "2026-11-01T05:30:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Jim Cramer talks the downturn in Amazon and Intel",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMnRuWHVRdVlxSVJuUER4azhrSEZwQkxxOTFSYjlfWThMTUMtM3N1RGRvM29pOEZ0VlhmVnh1RlBBekhnblpRVWtUVlMxbW9fd3FIYy14cGNYYXJqN3lCOUdKVUs5QXlodmFBaXA3Z0pzLTYzSXd2cFJ1Y1Jub19rdDRuUTR1cElDMkNUcm1RRGhhTGI0Q1pQWnNqRG1GdGxObUNjc3dUaDlxdw?oc=5",
+      "published": "2026-10-30T19:56:00-04:00",
+      "also": []
+     },
+     {
+      "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5",
+      "published": "2026-10-30T18:04:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Intel, Amazon, Nvidia, ExxonMobil, Sandisk, FedEx Freight, and More Stocks That Explain Today\u2019s Market",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnQTFDRktCRzRFa3NLUVR2clNvUi14b2xWUzVTMnhqOUV1bk9IVW41X3NGVlQ2ZFFrMEQ4bnA3aGlURlhzT2NzUjQ0TXpRaFdYbTF0bk1INlBTVURQaDRvWU8zbE4?oc=5",
+      "published": "2026-10-30T16:37:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Tech Stocks Poised to Drop After Amazon Adds to AI Spending Fear",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmVXMS1Yb1Y4NDJ3ZEdDWG9qQ2F0R2hqOVFrZFd1SDFqTGdTektuQ1g1MXZJam9kYXdWTDdKdVRRYW9HRVNkc2hkeHFwSmpael85akszamRfZk1rd3hqWWEzVVp1Z3VQdVpfN3lBR1owcXh6d3Q1OFNTU242c2htaW1IbTJUOWNuTmV5UHNhdkFheENfeGt2RlpscHhubXh2WTVnNmhsYXdhN1lQZ2t3RWo1WkVVQQ?oc=5",
+      "published": "2026-10-30T16:30:02-04:00",
+      "also": [
+       "Yahoo Finance"
+      ]
+     },
+     {
+      "title": "Amazon: AWS Above 40% Through 2028",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTEFuM0tKVEZsckZjMkRDVlgtOWFYazBxWGxJckxrbndydEp6STVUNEVLMExXQW8xZTlfY2FCRVNWRzYxLVRDaU12b3ktaFBmOFRULWNUWlRfY0JfeWU4cmNVOWNfekpxblR4UElRbjZJbHJrVjVKWnhVNnhvNUtKSXQyVGFCdXRF?oc=5",
+      "published": "2026-10-30T13:05:00-04:00",
+      "also": [
+       "GuruFocus",
+       "TradingView"
+      ]
+     },
+     {
+      "title": "Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech\u2019s Underwhelming Earnings.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVlJuS21nLVkwOXpfVnl2ZkJ3NjRpUVB0U25ZRXBnUWstQzVlN1hfa3ZLd0tNOUtwUTJYbkRWUUxIajZsY052NlI2Q21tY2tVSVFTS2ZiT25tcnRrMUsxOV9RQXNXU1h6UTdaMjlhTjYyZDhZclpKazJUcjdHekVWTTJkR2h1cmlKVWxTTUVrYw?oc=5",
+      "published": "2026-10-30T12:48:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Watch Stocks Fall After Amazon and Intel Deal Another Blow to AI Trade",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRElkb2NtaGMwMWNtZElBWlc0UV9RalpvcGFwZ2dJenUyRDdKNTlKdUt1UmJpdTBvLXd3MG9lS1Rwb0Nxa0diMFZzV0UtLUxBaHRBbTVJY3I4UC1kVGl3OG9rRTJrZndOS1F0TWdKb3Y3SWM5eWN1aVZXVnBhenR6LTRXakJzaEZRWDB2RERZc1pQdw?oc=5",
+      "published": "2026-10-30T12:47:36-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "TSM",
+    "name": "Taiwan Semiconductor",
+    "headlines": [
+     {
+      "title": "Cathie Wood's weekly recap: loads TER, AVAV after strong results; books gain in AMD, TSM, LLY",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4661920-cathie-woods-weekly-recap-loads-ter-avav-after-strong-results-books-gain-in-amd-tsm-lly",
+      "published": "2026-11-02T07:05:21-05:00",
+      "also": []
+     },
+     {
+      "title": "8 ETFs Cut Taiwan Semiconductor (TSM) Holdings on Thursday",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUkY5cnBtaDA0VDRiSWpibDAzVzktck92aXA0dkR4VENJal9URjhETVo4V05yLVExVGhpaU1JTnllNUxvcGxDdnVvUzFGQmZGQURpVWNhaU5jSGUwejhCY3FKVzFOekNyYnJBeWJwaWYxYkFseWJTV3BUaWoyLTYyVk15b29mdkRoQjdZTndkdWlfa2Q2bXpDdXZGa00?oc=5",
+      "published": "2026-11-02T06:03:32-05:00",
+      "also": []
+     },
+     {
+      "title": "Intel vs. Taiwan Semiconductor: The AI Boom Is Telling Two Very Different Stories",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOENxSFBWSmJtaHBsUmdmZTRhNkV4LTFjRGZSVmZxa2kzS1JLYVBOZy04MVIzMEVQN20xTF9UdmxnNTBZaV9kSUQ0eEtsTTJLT2NRNFNpYnlFNElCbVpnUEs3ZjBWRFAwU3RoVTM0ckRvYmY3ZGZvMjBvN21UcjFwajU3TVluREh1elY4MFpadW9rMGJoLU4weE5qOHNUTUZ3THJuNHR1cEZJYktta25oQmxqdHZIY1MyN19YWHhsdEp2REw1WUhn?oc=5",
+      "published": "2026-11-02T05:00:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) - What Are Researchers Thinking About This Stock?",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaTVRTHplSjBKSUFtZGlYTDBlTF8wdHd2a2VtWHV6eTg1MmtIeUJkSHVxWW52NGFHNzJiQ055MzdRS0xYN0dpTUtNdVZxVEZYX3ZpWDVGR1VMMFNCWE9YenhLRHNXTmlqVXNXNXptVFB6aFRySlZLakI2cHVvMzB1X0NWWGtmbTAteEJGa2FPQW9mUHRmdDJ5TnJkZlpBUVRhREhPUlBLanJ2S3J2VE5xOTIxRVB5Uk94am15NHBSb3ZvUHNtWUk5VzhyTTJTcUwzOFMySFFYMldaOUVyTkVValBIZ2Zzbk5CaUR1RmJhaG1tTVE?oc=5",
+      "published": "2026-11-02T02:26:25-05:00",
+      "also": []
+     },
+     {
+      "title": "TSMC\u2019s $265 Billion Campus Is Driving a Real Estate Boom in the Phoenix Suburbs",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTRqYm9vX2Q3QmNhOHlVckZhOThOdFZ0dXlYQmJLcm1ST0ZFdXZVN2FXSWJZV0hpM1ZWMjNmMGppRDU5OWFUVGVueENHSWg0N2hpVlZjTXhlelFUM2ZPT0w1UFJuOFZwNklDMmtRbmw0RmFQcU1oQmQ4SEZ6LXp3M1FNeXh1NEFtbDNxUURhcGlwMl9YVl9SUmRRbnhfT2k4bjNJWENrMlJ1NThtQV9iaGxURQ?oc=5",
+      "published": "2026-11-01T23:49:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Elon Musk 'Softened His Stance' as TSMC Eyes Terafab Role: Report",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd1NpcDg1M21Zc2R1Vk9XbC1kZGFZNUtpRThyNWpxLVJXRmNRdFlHS0dpdUlhN2ZtbW40YjB2R2xrTUl2WWRSQWhoc1pYaTc5X2FEdGI0MHJMLVRRT05WQlpkTXpyN2FGM1d6RzNsZFNoNHN2SWwtODR4OG52X0hZTHVhb1pTZHdwYVNSUEhEOEY3LVd1cUVxUEhRcGRZQQ?oc=5",
+      "published": "2026-11-01T23:13:11-05:00",
+      "also": []
+     },
+     {
+      "title": "SPCX Stock Jumps Overnight: Musk Reportedly Revives TSMC Terafab Talks \u2014 Says Capex Efficiency Is \u2018Greatly Underestimated\u2019",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb1BzczluZ3NYQnpMX2R4WW9nd2FOcC10LS1DNzNQcy0wSE5EU0htWFoxcW1BQU9tR3ZPZ0ZlYkVrd0xOb0Jsa3dfbVl4QmFjczU4SFl6Yk5GWHcwSVpxSHZoWTNmTF8zOVZtWTN0bUVGSDB2MFB5R3hOb3M0NEFHN2trd1M0cUpWVHAyMEttSTNKM0hwSGJSZnNvVUp2ZUZXZTZyNXc1Rm5uc2NqaUtNZkdoQl9IMW1DZDZPZkMtSXBzTHI1OTBJQjRRdXBCWWMzRFhIMA?oc=5",
+      "published": "2026-11-01T16:57:01-05:00",
+      "also": []
+     },
+     {
+      "title": "Why Did Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Drop?",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUWxQTWdUN0RiZ1RWclVYTGU4T2plYkhPRWFNb1N0aTZGOWF6eVpGSEQxUGVLZEVDNEt3MENjSzcxcGxyRWs3b0NWX1RQSHVIRlRla1RrcG9VTVBCVzdUVXA4ekxydklCMGVTbVNrODRQLWxDUmlwdXlEX2xIdFZSSjVqRm52aEN0d1MzcW9OdWx4TmY4aHNhWVJnRU1zdWVBdDJzUUpaOTZieDQ?oc=5",
+      "published": "2026-10-31T23:20:00-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "headlines": [
+     {
+      "title": "S&P cuts Meta outlook to negative over elevated capex and cash flow risks",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4661912-sp-cuts-meta-outlook-to-negative-over-elevated-capex-and-cash-flow-risks",
+      "published": "2026-11-02T00:31:05-05:00",
+      "also": []
+     },
+     {
+      "title": "Why AI is boosting Meta's ad business while hurting Google search",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96VFFxN2pKNFVfSEdGZVpaUmU0ZUVyWGE2VnEwUE5oZE41bmo5Z2dsTnM2alRKM1VaV0g5ZWcxb2FKcXZxdUZsWUktQzJVel9aelpQQ2FScE43X0RncXl2cnJDY2FjdVBYb3EzR1NySdIBdEFVX3lxTFAxZ0VWZ1FUemdMTjR6NktfMmpJUmYyY3BycTBTQ2tocUZLa2RoaEJZVFAyamFxU1ZwdmJOYjdOZ2xqVWMxbGNVLXNOSjBrUFVFQ0lwZ1ZQcGRXYmtjaERRaE10b3JEWDBnTG1IUHU3YTZZLVNa?oc=5",
+      "published": "2026-11-01T07:00:01-05:00",
+      "also": []
+     },
+     {
+      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+      "source": "WSJ",
+      "url": "https://www.tradingview.com/news/DJN_DN20261101000094:0-the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-wsj/",
+      "published": "2026-11-01T05:30:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46H03D:0-meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says/",
+      "published": "2026-10-31T12:12:29-04:00",
+      "also": []
+     },
+     {
+      "title": "Meta Built Humanoid Prototype With Chinese Startup To Ramp Up Robotics Push - The Information",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VJ:0-meta-built-humanoid-prototype-with-chinese-startup-to-ramp-up-robotics-push-the-information/",
+      "published": "2026-10-31T12:03:44-04:00",
+      "also": [
+       "Seeking Alpha"
+      ]
+     },
+     {
+      "title": "S&P Revises Meta's Outlook To Negative On Significant Uncertainty Around Capex, Free Operating Cash Flow",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3T2:0-s-p-revises-meta-s-outlook-to-negative-on-significant-uncertainty-around-capex-free-operating-cash-flow/",
+      "published": "2026-10-30T17:22:15-04:00",
+      "also": [
+       "CNBC"
+      ]
+     },
+     {
+      "title": "S&P Global revises outlook on Meta to negative on cashflow concerns",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46G2BN:0-s-p-global-revises-outlook-on-meta-to-negative-on-cashflow-concerns/",
+      "published": "2026-10-30T17:11:30-04:00",
+      "also": [
+       "Investing.com",
+       "Yahoo Finance",
+       "Benzinga"
+      ]
+     },
+     {
+      "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNW01QmljY0NXUFJqSjdtdmNna3VOMHNabXJLc3NDM0VranhNdWZkMnpoemVxM0FEX3FkNk91QzF5eFM0TzFvcUw4a09ncWRkdXE3bkV0dDZUSzhuRXJCSHd1ZlVnVXBHaGZnTDc2eGpaS28xb0dEZzYtM0pFRTJWQk5JNWdGT3FQVUsxU1lVcGh2RmRoUWdpcXVfQ3hoVW14ZXkyWTRxYTlxZWE5SU5N?oc=5",
+      "published": "2026-10-30T10:24:46-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "headlines": [
+     {
+      "title": "Tesla gains momentum in Sweden and Norway, faces Danish market pressure",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4662092-tesla-gains-momentum-in-sweden-and-norway-faces-danish-market-pressure",
+      "published": "2026-11-02T08:12:16-05:00",
+      "also": []
+     },
+     {
+      "title": "Trump Threatens to Become 'Mr. Veto' if GOP Loses House Majority in Midterms: 'We Have More Than Two Years Left'",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:c2287a2eb094b:0-trump-threatens-to-become-mr-veto-if-gop-loses-house-majority-in-midterms-we-have-more-than-two-years-left/",
+      "published": "2026-11-02T07:57:04-05:00",
+      "also": []
+     },
+     {
+      "title": "Tesla Faces a Robo-Taxi Revolution in China. Musk\u2019s Ambitions Have a Tough Test.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85bHJGMjI4eW5HTUJHaXZhWVpJYlVaNHdXSS0za0lyeV9DcWhUNjVaRjItZzFpOFVvOHF0TUdTaVlnQ3RvbFAtN1NReFphRkJvYjB2MFRteFYxR0FQSDJZT0pXZUozUm5Fc3B1T0o5RDFOd2Y5TmNuRm5jb01KQUU?oc=5",
+      "published": "2026-11-02T07:49:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Tesla Rival NIO's October Deliveries Sink 15%",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:c44797bd6094b:0-tesla-rival-nio-s-october-deliveries-sink-15/",
+      "published": "2026-11-02T07:03:21-05:00",
+      "also": []
+     },
+     {
+      "title": "Elon Musk Slams \u2018Banal\u2019 Cars and Fashion of Today, Calls For a \u2018Total Reset\u2019: \u2018The Future Should Look Like\u2026\u2019",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:33da0eaf3094b:0-elon-musk-slams-banal-cars-and-fashion-of-today-calls-for-a-total-reset-the-future-should-look-like/",
+      "published": "2026-11-02T06:21:52-05:00",
+      "also": []
+     },
+     {
+      "title": "New Tesla sales in Spain rise 271% year-on-year in October",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N44Z06A:0-new-tesla-sales-in-spain-rise-271-year-on-year-in-october/",
+      "published": "2026-11-02T06:11:07-05:00",
+      "also": []
+     },
+     {
+      "title": "Six reasons Democrats may fall short of a midterm landslide in November",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46G0TX:0-six-reasons-democrats-may-fall-short-of-a-midterm-landslide-in-november/",
+      "published": "2026-11-02T06:00:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Six things to watch as US voters decide control of Congress",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N4650RJ:0-six-things-to-watch-as-us-voters-decide-control-of-congress/",
+      "published": "2026-11-02T06:00:00-05:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "headlines": [
+     {
+      "title": "Cathie Wood's weekly recap: loads TER, AVAV after strong results; books gain in AMD, TSM, LLY",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4661920-cathie-woods-weekly-recap-loads-ter-avav-after-strong-results-books-gain-in-amd-tsm-lly",
+      "published": "2026-11-02T07:05:21-05:00",
+      "also": []
+     },
+     {
+      "title": "Notable healthcare headlines for the week: Eli Lilly, Merck, and AstraZeneca in focus",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4661747-notable-healthcare-headlines-for-the-week-eli-lilly-merck-and-astrazeneca-in-focus",
+      "published": "2026-11-01T09:05:34-05:00",
+      "also": []
+     },
+     {
+      "title": "Eli Lilly stock surges as cheaper drugs unlock a bigger market",
+      "source": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaUZ6RmZ0S1dBN0ZUelBic2dZNFJybXUxdmhWXzdmVzUyOWF6Q2FGX2hqOUplcjBVTVZ3QUV6cFZmZmJLVHVJTFJqaGpWeUpsOUZqTGZEcW1Ia1lWMDZ4cVRvamtRVDFWYTBrNkhOSExnQTQwaGlRZUVPSllhTHhpMmlSVW9sYkd5NGdGblRqOTJUQ2xXV01LOXdxWQ?oc=5",
+      "published": "2026-10-31T18:47:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Elon Musk Says Eli Lilly Has \u2018Some Banger Drugs Coming Out\u2019 After CEO Dave Ricks Bets Against Vinod Khosla's Big Biotech Skepticism",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:75534c33d094b:0-elon-musk-says-eli-lilly-has-some-banger-drugs-coming-out-after-ceo-dave-ricks-bets-against-vinod-khosla-s-big-biotech-skepticism/",
+      "published": "2026-10-31T05:14:46-04:00",
+      "also": []
+     },
+     {
+      "title": "Cathie Wood\u2019s ARK sells Eli Lilly stock, buys Tempus AI and Coinbase",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUW5JMGY3bkEwdXk0ZHVvbWpwYVhoVms1UW9JeElWdEh2ZDVSSnY5NHNwVXRaWDVlb2xtc3M5QkRoNWFjNmhrSk81bWl2V2FSTWtJLU15SE5OQ2xwYzA2S0ZFVHpkby1VZlhSN0JpME5leWhhQU5ObkpCa25nUXlnb2h6MmdZZ21LRFRReGoxZGNmYk5Ga1gyZjJQd010TGVVT0V4ODJRMlNjTHd1ZWtMMDc3NHJXNUN5WDBadTFwQnU?oc=5",
+      "published": "2026-10-30T20:06:54-04:00",
+      "also": []
+     },
+     {
+      "title": "Eli Lilly 'Deserves' Stock Upside: Analyst",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:ef50eaaa6094b:0-eli-lilly-deserves-stock-upside-analyst/",
+      "published": "2026-10-30T13:45:18-04:00",
+      "also": []
+     },
+     {
+      "title": "RBC Capital raises Eli Lilly stock price target to $1,600 on strong GLP-1 sales",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWlFuNXBhWUpxZjBkb2VyMFRhTl82LVVyTTRjNE53Q0VJTkgyTFFSSXZwRXRwZmlya0IwUGxUVnpfdlRSWDlnZEdxaExKb0czdjV6OEY2NmNaY3pSa09zUDEwRFFLTzByZjBaY3VhaWxpWEZaUlh2SllRSllCdzktaTYyYlZfbEVUQmlic3BGLWtqaUFrNkZoOFB1bGE4SUVEUE1fR1duLTVVNzQtVllSOUVNZ2RuRTZYUEJJOTNvN0ZEUXo4YllaR3FwSVpndVNaaVE?oc=5",
+      "published": "2026-10-30T12:42:16-04:00",
+      "also": [
+       "TradingView"
+      ]
+     },
+     {
+      "title": "Bernstein SocGen raises Eli Lilly stock price target on strong Q3 beat",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaXdkblI1VFBRNUFpOGQ1MnVZUUF2eUZtcXlEOGg2UV9EV3Q2c0k5WnVKWEtKa1c5bUg1MjRRTFFBZGZ4UE1vNXFjZ1QtM2dDZnFoTEhFY3hrRWlocmJyY0NVbHhyZU44Mnl2T0VOT1VtaDh2SnNISy1lT04xZlJDU1RqTzBmR2JfcFVfZUtSSC1Gckx5Q0gzSXVOcGZjNHM4VUV3Ym00VU1sUmxIVHRzd1lKRnVQVVdxOFBlMVI0MG5xUzd3bDlmb0F3?oc=5",
+      "published": "2026-10-30T12:12:25-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "BRK.B",
+    "name": "Berkshire Hathaway",
+    "headlines": [
+     {
+      "title": "Here's How Warren Buffett's Berkshire Hathaway Stock Did in Every S&P 500 Down Year Since 2000",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd0x4OEg0ZlFpTFNaQkllVGZ0bVNlRnkyYm5uUGZBNHB6NkpOblBoOFJXMFNCMmNPbFd1OVQ3dzFjc1kyNXl3azNkUWllazVGVnZZWlVWM01mTUZDTU4yd0M4SFo0TW9NYjZxS3RMX2djRTJQUG96V0p0V1RQdTRyYmZxN1FveGppRm1OUUNtclhJT3U3TDZ2MjFDUTh2NGVpWjI3LXExT3IwNG9BMHdMZjFCMy1JMW5teURDMXdETGRENFlWc29vZWYtX1NEYW9ReVFQYnIxdnk?oc=5",
+      "published": "2026-11-02T09:23:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Berkshire Can Grow Without GEICO (NYSE:BRK.A)",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XTmJsSUFGNVlRaHdSSjdVdVJ6cF85UmVSSGJveWl5ZjVXTWZfRXBfSDNnZG1KTlRCejByRG5zX3ctWFJ3blhtVmozRVMzcDBzeUd2a0J1VmZINi1iZndTQmZpYVZVUlRzR0YycHU3UzRnTHpHXzA1Y2NKVkE4Zw?oc=5",
+      "published": "2026-11-02T09:00:00-05:00",
+      "also": []
+     },
+     {
+      "title": "ETFs Bought $81.5 Million of Berkshire Hathaway (BRK.B) on Thurs",
+      "source": "GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ3JRNG9BbFdDdHpkT052WkNMeWxVQWxqQnY3N1BZUVljSWxPc1pNZlZCUnN0bElqZ0VaUlZHZVNfRnRVTjk5cHNWckhoYWJXSUV4Nk5NdkdjRlBiNkZ4V3EtcjZuQ0ZyMXlvQjdIOTZ6RHRBeGhkRGVVNHVYZ1AyU05fWmFTNC16S1lKenBRMktxLW9qcENhcFpfV2RsRkhYY3lr?oc=5",
+      "published": "2026-11-02T06:48:45-05:00",
+      "also": []
+     },
+     {
+      "title": "Weekly Recap: Q3 outlook and Bending Spoons investment increase",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/news/tradingview:f22ea6a484aa7:0-weekly-recap-q3-outlook-and-bending-spoons-investment-increase/",
+      "published": "2026-11-02T06:00:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Warren Buffett's Apple Bet Is Still Berkshire Hathaway's Biggest Stock Holding at 22% of the Portfolio",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0hodUE5eDJaM1prbUlWbDZqc09DbzRkQnVxQms2LTdScDhpQUdUeVJrMEpaRm9jUlQyVUpneTNLOERqT3RFY3dRTmw1V1RJaXk0czFQNnR0dldFT190YTN3YlVKektvWXd4S3hTMTZrZTMyOXpHVG4zMDdkcTRPN2FOV09aWkdNZ2YxZXBvYTBtQWhC?oc=5",
+      "published": "2026-11-01T11:45:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Berkshire Hathaway Shares Just Rallied to Their Highest Level Since Warren Buffett Announced He Would Step Down as CEO, Closing Within 1.5% of Their All-Time High. Does That Rally Validate His Succession Plan?",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRnhobGVyclJON2dZSktPb2Q5ei1zV1pxY2ItWTlyMWRkanY1X1Y1UmxRODZwNEtwSlpNZFU0WldKdTNuNFM2a0NPamJVRWNvYWxMU3QyaGxrZ2o1TjYzR1pUU2JyRFRQUDFiSUItYXBkWENVSXY0aUEtUWFyd05sR21qek8xWF9ncHN1YTNSNmQ3ZnFQZXBlYw?oc=5",
+      "published": "2026-10-31T21:15:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Berkshire Hathaway Makes Alphabet Its No. 3 Holding After 48M Share Buy",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNS2FIVmtvQVE2N2szWmdUVVczdzlPaldqZ0FfeXhtdE1pcTN0eGtqc0prZ0d2NVRsaFNZdmNIYXpzWGZPZDdsUk5fM0ZEczdEa3ZFb0FfcGNOZ29Fck9GMTM0VDB5MVJzYnVpRkZ6Y2M0dVlyQkRENE9MT3R2RXJaVjIyX0s2U0JZZHh5X1AxcmpHSUQwclV3cDFJcS1iQzBKT2NOMFFVT3lrV0lVcUVHWERfRGpOenFvOURRa3Flb09ma08yRUVfaTZ3UUpZV28?oc=5",
+      "published": "2026-10-31T16:58:14-04:00",
+      "also": []
+     },
+     {
+      "title": "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor's Name Was Warren Buffett. 14 Years Later Homer Dodge's Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNRF8wMmVEYU9yTS1fS0tycjRLbVVPQVpiVlk3d1BPSGFKWEJONGtYd2J6MzJpR182QXZYLVI4SFRWZzFvWUhwYUMyaWdob3hoREkxY19uYWxHb2RESGJ2am91VGRFbktBRTFhYnMwUEJ2VmVIclA3dGhDc094MHByem1mWExFYVQtNTI4V2xyWnlhRWZIOEo1OWc1WGhGcDF2QURMR1BTZTJUdmZiRVZDRW1TbGtZbHRTMnlXd1FSazR1M204T1hSVUVWNXhJN3FIUGNYSDVnbHA5djVGcG1ZOXNWanZvOUJ4ek1INlowZ0s5SEVDZkNfd1JnZURncElSdFc5RDFTN1FiUVZJaUNCQkF2X3VETTFKLWozYjlpVTZBQUNfZWR4VWdaSzQtaWJ3UVdCSktNcnMyR3J6YXlNLXZmcjR2cF9yRV96aUVMcjk?oc=5",
+      "published": "2026-10-31T13:09:00-04:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "WMT",
+    "name": "Walmart",
+    "headlines": [
+     {
+      "title": "Walmart doubles down on warehouse robots as holiday rush nears",
+      "source": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNmphTm9RMklYTWZvUkttTHNGN3BLX3N4OFl6M1RraVZfaXhkbng2UkxkVEZ5X2QxVW1CcWQwTWtvQlhWMmlSRFFUM2g1bURhWVlNUDlLUGJud3B6bFoyaUxuUzV0VjV4dGMycFlMeVowTmxTTGN0TTRkS2NielVGcl9QVnd5UEZMSjRSbUdkUQ?oc=5",
+      "published": "2026-11-02T09:33:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Walmart and Operation Homefront Unite to Support Military Families This Holiday Season",
+      "source": "PR Newswire",
+      "url": "https://www.tradingview.com/news/prnewswire:7c6c0c427c63b:0-walmart-and-operation-homefront-unite-to-support-military-families-this-holiday-season/",
+      "published": "2026-11-02T06:00:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Walmart president & CEO John Furner sells $1.4 million in company stock",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMklHYjRBa2E4UWU2SFQ1c3N1ZXdnVVotZEMtUDV1ci1EVGNrbWM4X1hoSUVfZFU3SnJqanlDRUVRSkpWdWlJNEhDTTViQXN4RVlPMllvZUF3elgydHA1b00xdVZtbmFnV2hSQ1N2Tjd0VEo4QzB6cWRqTzdPeUE5T3g5ZzlqQjd1clNzYXhvekh3dEw3cURxalM5X3ZBMHhUWHd5UXFyUmdoMURxZ3hKRHliWE5lS2tZeVctVHdLZklDdlZXa2tPYVQzRFpzZw?oc=5",
+      "published": "2026-11-02T02:23:29-05:00",
+      "also": []
+     },
+     {
+      "title": "Walmart (WMT) Probes Flipkart Claims As It Expands Into Power And Texas Robotics",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQWcwNkhFUEpOeVF0QlBZc1RVeXNUUWxXOGVUdzZvdnJXSmlJaUhIeWo5SVdRU1FMSjRPTjFlbnVSVjV3QTh5RmlGaGt6MmJqSDN0cjV6NUpkdWh2UDVEUmVaVFh1dnJQWnZ1dnNmYk1aUFlOYmhCV0tici03UlZqZ0FBZnBIVUM3ODJGWXprTXRFZWxERk41X2J3a3pWTWJW?oc=5",
+      "published": "2026-11-01T16:11:30-05:00",
+      "also": []
+     },
+     {
+      "title": "What Walmart (WMT)'s $6b Warehouse Automation Deal Means For Shareholders",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM0NvNUVvMTZYd25taThOeXEyTkhQbDkzSTNFMGdQb0pZUmVkZDFSeGw3Nk5uYzMyd0FSLTFiQnJ6Y0RlNXBHLVB5SEJoVXJ6dnJJekNybmVTZ2EwdjlIaTRwMkpIWVdJS28tSHFuVGQ2YTFwTGpGYnF0TXNzTzRYdnZCOEFSaHlKM0M1Z08zYTZjTzFwMEdPM09Ja2FjWVlyQ2c?oc=5",
+      "published": "2026-10-30T17:18:39-04:00",
+      "also": []
+     },
+     {
+      "title": "Walmart Expands Automation Deal With Symbotic; Signs Agreement With Base Power Over Home Backup Power",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlFPQkFSeTNKUW5jYVA4OE9QZ1BYWGVFUkNCQnlWWUpCWEtwdlFwQ2pwYXZxQzZmOVVhN0tmZXVURDJXckh0YXdSVTA4VHhGa2NoS0hyUTVRQzJrbEt0UEI3YlFsbW1nNXdzWU9JaHFoSFRqTW1MdFJycXNWcEp1MXY2VGtPZWNhd0VlYUZHUGtEVUotS0FUUDBrRGNpOUQtcVdF?oc=5",
+      "published": "2026-10-30T15:24:00-04:00",
+      "also": []
+     },
+     {
+      "title": "Walmart Invests in Texas Battery Company Base Power",
+      "source": "Dow Jones",
+      "url": "https://www.tradingview.com/news/DJN_DN20261030009706:0-walmart-invests-in-texas-battery-company-base-power/",
+      "published": "2026-10-30T14:08:00-04:00",
+      "also": [
+       "TradingView"
+      ]
+     },
+     {
+      "title": "Walmart & Base Power Announce Strategic Agreement To Bring Affordable Home Backup Power & Energy Savings To Customers",
+      "source": "Reuters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3SG:0-walmart-base-power-announce-strategic-agreement-to-bring-affordable-home-backup-power-energy-savings-to-customers/",
+      "published": "2026-10-30T13:08:41-04:00",
+      "also": [
+       "Business Wire"
+      ]
+     }
+    ],
+    "n": 8
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "headlines": [
+     {
+      "title": "AMD, Micron Selloff Is 'Just the Beginning,' Tom Sosnoff Says",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcU9RcFI1ZEdiUm1KU1Z3Qld2NHBHaFI5ZGRyakliSm96NDQzY0NtSV9Yejh4U01FOG5GVzBZX2Fldm5aVURFb0JwU0tnVWxPZEJ4cXBoRXotS0NDZElpSElPRVlNZDI0elVIY0pRcDZmMzhkSWN0anNyVmpMdlB3MnA2UU1PdDRpbC1yYWN1SzNPY3pVQm1pZXYzVUlpelBleVo1Zl9ZOWJORlhLVU40?oc=5",
+      "published": "2026-11-02T09:06:14-05:00",
+      "also": []
+     },
+     {
+      "title": "Micron Stock Needs Markets to Clear These 3 Hurdles",
+      "source": "Barron's",
+      "url": "https://www.tradingview.com/news/DJN_DN20261102001806:0-micron-stock-needs-markets-to-clear-these-3-hurdles-barrons-com/",
+      "published": "2026-11-02T08:23:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Stocks making the biggest moves premarket: CrowdStrike, Rivian, Micron & more",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR29ZbTNOVVZ4ckwwZXBJM05kMHpXazlXM2ZTNlB3Q3NkS3MwYVZVOUExcEJOLTVFNmk4VWpMSXN4T1lRYzhoTU1waUNqTnllamJCTUdaVU9sb2poY2lxWWlCOFZPMXBheXgzZHF5SGZkbWx2SWVSVDV5WEJpLVBiTThYUUZ4TktvOWFVcFJjRS0xZTlGVHc?oc=5",
+      "published": "2026-11-02T07:42:43-05:00",
+      "also": []
+     },
+     {
+      "title": "What's Going On With Micron Technology Stock Monday?",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUVNHMWdMcTNpREJuTkFfQmVMSEVHdmgxQkhBczBuREQySGozNDdSZ3k4RENUYUkyMmxwWk9WVVM3Y3FkSDU0RWJyY2haQVVobWNON3IwQU1rWmlGZ05zdUw0R0s1MUV3Skx0VGNGSGJjaTZITGZ1dDBDV0NJQ19qaWJ6Z1VwQXNiY3lFcHd1djVfbWY0WF9FT21CeUVzaFVPMGFWczNvTWw?oc=5",
+      "published": "2026-11-02T06:46:46-05:00",
+      "also": []
+     },
+     {
+      "title": "Micron Stock Bounces Back From AI Selloff. Beware Buying the Dip.",
+      "source": "Barron's",
+      "url": "https://www.tradingview.com/news/DJN_DN20261102001806:0-micron-stock-bounces-back-from-ai-selloff-beware-buying-the-dip-barrons-com/",
+      "published": "2026-11-02T06:45:00-05:00",
+      "also": []
+     },
+     {
+      "title": "ETFs Are Net Sellers of Micron Technology (MU) on Oct. 29",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1pmSlp1MHAzQ2l0dTZyZFdQSnJqc0VGb3lHY1VqZ2c0T1ZWNlRVaGZWanVsLURON3BuWWNPSWxiWXUta1AtdHo4enZRN09JZnZvb05BX21Qb2V5ZDByMGNjMElheGVlLXBaNE5mR3d6U3BxY3A2Ui1ZTzUzbjFHUUJRQWtDWVFRdTdSRXBEamlPdVRBbUxxYlNRUUFzUmNE?oc=5",
+      "published": "2026-11-02T06:02:39-05:00",
+      "also": []
+     },
+     {
+      "title": "Micron Stock Bounces Back, but the Market Needs More as AI Fears Linger",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWhELWk4QTd2akFpU0NnMlVqS2NIM0NIQVpkYXRBX3B4QV95Mjh4ZUg2WHdObFozc3hMLU9iVTZSeEFQX2ZJZVZ6RnhzR2RHZkNlSWpXUVlpMXgtY1YtQ05qYTZsVlFlUkVDc2l4cUg4LS1raWVRODBHQ2EzODBjZGlR?oc=5",
+      "published": "2026-11-02T05:08:00-05:00",
+      "also": []
+     },
+     {
+      "title": "Here's What $6,000 Invested in Micron Could Be Worth in 2028",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdlV6emVTaXFEQldFNmkzVkxRZkNRanAyV2xOWkRxM21fSVpuUUw5WkhRNFV5YnpUWWNCWWo3bzNyZkZVVmk0U3NZNVJfQjNIWXNJTzc3YTZUdjd2dVRvYUpkdkljWWI1MWZrd0VVLS1DV0Y1R25xOHZoY0w0YUV2aDJ0MzBQNjdMcE1zeUwxTF9MRnYyVUdn?oc=5",
+      "published": "2026-11-01T13:20:00-05:00",
+      "also": []
+     }
+    ],
+    "n": 8
+   }
+  ],
+  "moves": [
+   {
+    "ticker": "RDDT",
+    "name": "Reddit",
+    "close": 91.73,
+    "change_pct": -29.22,
+    "our_stories": [
+     "/news/2026-11-01/ai-is-moving-ad-money-away-from-google-search-what-the-evidence-says/",
+     "/daily/2026-10-31/",
+     "/news/2026-10-30/why-reddit-rddt-stock-is-sinking-today/"
+    ]
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "close": 65.76,
+    "change_pct": -28.58,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+     "/daily/2026-10-31/"
+    ]
+   },
+   {
+    "ticker": "ILMN",
+    "name": "Illumina",
+    "close": 235.99,
+    "change_pct": -18.64,
+    "our_stories": [
+     "/news/2026-10-30/why-illumina-ilmn-stock-is-sinking-today/"
+    ]
+   },
+   {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "close": 205.03,
+    "change_pct": -15.24,
+    "our_stories": [
+     "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/"
+    ]
+   },
+   {
+    "ticker": "FDXF",
+    "name": "FedEx Freight",
+    "close": 126.04,
+    "change_pct": 14.91,
+    "our_stories": []
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 1150.89,
+    "change_pct": -13.47,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+     "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/"
+    ]
+   },
+   {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals",
+    "close": 927.89,
+    "change_pct": 13.33,
+    "our_stories": [
+     "/news/2026-11-01/regeneron-regn-beats-q3-estimates-and-has-its-best-day-since-2022/",
+     "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/"
+    ]
+   },
+   {
+    "ticker": "GPN",
+    "name": "Global Payments",
+    "close": 96.84,
+    "change_pct": 12.97,
+    "our_stories": []
+   },
+   {
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "close": 235.27,
+    "change_pct": -11.5,
+    "our_stories": []
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "close": 210.32,
+    "change_pct": -11.34,
+    "our_stories": []
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "close": 164.79,
+    "change_pct": -11.12,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+     "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 258.7,
+    "change_pct": -10.93,
+    "our_stories": [
+     "/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/"
+    ]
+   }
+  ],
+  "week_moves": [
+   {
+    "ticker": "A",
+    "name": "Agilent Technologies",
+    "close": 174.87,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "close": 344.63,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "close": 294.89,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ABNB",
+    "name": "Airbnb",
+    "close": 164.39,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ABT",
+    "name": "Abbott Laboratories",
+    "close": 106.2,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ACGL",
+    "name": "Arch Capital Group",
+    "close": 106.36,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ACN",
+    "name": "Accenture",
+    "close": 258.24,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ADBE",
+    "name": "Adobe",
+    "close": 250.23,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "close": 417.11,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ADM",
+    "name": "Archer Daniels Midland",
+    "close": 76.91,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ADP",
+    "name": "Automatic Data Processing",
+    "close": 293.84,
+    "change_pct": 0.0
+   },
+   {
+    "ticker": "ADSK",
+    "name": "Autodesk",
+    "close": 249.61,
+    "change_pct": 0.0
+   }
+  ],
+  "our_recent": [
+   {
+    "title": "Reddit (RDDT) Shares Plunge After It Warns Google Search Traffic Is Falling",
+    "path": "/news/2026-10-30/why-reddit-rddt-stock-is-sinking-today/",
+    "type": "why-it-moved",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "3 Big Tech Stocks We Like and 1 We'd Skip After Earnings",
+    "path": "/news/2026-10-31/3-big-tech-stocks-we-like-and-1-wed-skip-after-earnings/",
+    "type": "list",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "3 Chip Stocks We'd Skip and 1 We Like After Friday's Rout",
+    "path": "/news/2026-10-31/3-chip-stocks-wed-skip-and-1-we-like-after-fridays-rout/",
+    "type": "list",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "After the AI Selloff, Wall Street Pays the Least for the Fastest Growth",
+    "path": "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "AI Memory for 2027 Is Sold Out Before It's Made: What the Evidence Says",
+    "path": "/news/2026-10-31/ai-memory-for-2027-is-sold-out-before-its-made-what-the-evidence-says/",
+    "type": "narrative",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "AI Spending Is Carrying US Growth. What Would a Pullback Mean?",
+    "path": "/news/2026-10-31/ai-spending-is-carrying-us-growth-what-would-a-pullback-mean/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Alphabet (GOOGL) Is in Talks to Join the $185 Billion Golden Dome, Bloomberg Reports",
+    "path": "/news/2026-10-31/alphabet-googl-is-in-talks-to-join-the-185-billion-golden-dome-bloomberg-reports/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Anthropic's $100 Billion IPO Got Harder to Price in the AI Selloff",
+    "path": "/news/2026-10-31/anthropics-100-billion-ipo-got-harder-to-price-in-the-ai-selloff/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Bulls vs Bears on Memory Stocks: Is This Cycle Really Different?",
+    "path": "/news/2026-10-31/bulls-vs-bears-on-memory-stocks-is-this-cycle-really-different/",
+    "type": "viewpoints",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Bulls vs Bears on the AI Chip Selloff: A Normal Pullback or the Peak?",
+    "path": "/news/2026-10-31/bulls-vs-bears-on-the-ai-chip-selloff-a-normal-pullback-or-the-peak/",
+    "type": "viewpoints",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Free Cash Flow Is Now the Scorecard for AI Spenders: What the Evidence Says",
+    "path": "/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/",
+    "type": "narrative",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Hackers Took About $6.3 Billion From Binance, the Biggest Crypto Theft on Record",
+    "path": "/news/2026-10-31/hackers-took-about-6-3-billion-from-binance-the-biggest-crypto-theft-on-record/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Intel (INTC) Lost 28.6% in a Day. Is the Business Broken?",
+    "path": "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/",
+    "type": "breakdown",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Intel's Worst Day Since 1974 Capped the Nasdaq's Worst Month Since March 2025",
+    "path": "/daily/2026-10-31/",
+    "type": "daily",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Korea's KOSPI Jumped 6.6%, Then Fell 3.5%. How Seoul's Week Set Up the Chip Rout",
+    "path": "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Memory Chip Prices Are Still Rising, Just More Slowly",
+    "path": "/news/2026-10-31/memory-chip-prices-are-still-rising-just-more-slowly/",
+    "type": "chart",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Meta (META) Built a Humanoid Robot With China's Fourier in Three Months, Report Says",
+    "path": "/news/2026-10-31/meta-meta-built-a-humanoid-robot-with-chinas-fourier-in-three-months-report-says/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Micron (MU) Earns 87% Gross Margins. Is This the Top?",
+    "path": "/news/2026-10-31/micron-mu-earns-87-gross-margins-is-this-the-top/",
+    "type": "breakdown",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Okta (OKTA) Will Join the S&P 500 After Its Stock Rose 141% This Year",
+    "path": "/news/2026-10-31/okta-okta-will-join-the-sp-500-after-its-stock-rose-141-this-year/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Sam Altman Met About 50 Samsung Executives and SK's Chairman. No Deal Was Announced",
+    "path": "/news/2026-10-31/sam-altman-met-about-50-samsung-executives-and-sks-chairman-no-deal-was-announced/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Singapore Disputes Part of WSJ Report on Chinese Executive Close to Nvidia (NVDA) CEO",
+    "path": "/news/2026-10-31/singapore-disputes-part-of-wsj-report-on-chinese-executive-close-to-nvidia-nvda-ceo/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "The AI Build-Out's Debt Is Cracking at the Edges, Starting With CoreWeave (CRWV)",
+    "path": "/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "The Chip Index Fell 7.2% in a Day. Where Did the Damage Land?",
+    "path": "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "The Story Wall Street Is Telling About $100 Oil and the Fed",
+    "path": "/news/2026-10-31/the-story-wall-street-is-telling-about-100-oil-and-the-fed/",
+    "type": "narrative",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Wall Street Now Sees More Than $1 Trillion of AI Spending in 2027. What Has to Go Right",
+    "path": "/news/2026-10-31/wall-street-now-sees-more-than-1-trillion-of-ai-spending-in-2027-what-has-to-go-right/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Why Memory Stocks Have Fallen for Four Months While Profits Hit Records",
+    "path": "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+    "type": "narrative",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "AbbVie (ABBV) Tops Q3 Estimates as Skyrizi and Rinvoq Grow 23%",
+    "path": "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "AI Is Moving Ad Money Away From Google Search: What the Evidence Says",
+    "path": "/news/2026-11-01/ai-is-moving-ad-money-away-from-google-search-what-the-evidence-says/",
+    "type": "narrative",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Apple (AAPL) Became Wall Street's AI Haven. Is the Business Worth the Price?",
+    "path": "/news/2026-11-01/apple-aapl-became-wall-streets-ai-haven-is-the-business-worth-the-price/",
+    "type": "breakdown",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "AstraZeneca (AZN) Tops Q3 Estimates and Shares Jump 7% on a Savings Plan",
+    "path": "/news/2026-11-01/astrazeneca-azn-tops-q3-estimates-and-shares-jump-7-on-a-savings-plan/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "BP (BP) Tops Q3 Estimates With Its Highest Profit in 18 Years",
+    "path": "/news/2026-11-01/bp-bp-tops-q3-estimates-with-its-highest-profit-in-18-years/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Bulls vs Bears on ServiceNow (NOW): Is AI Breaking the Software Model?",
+    "path": "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/",
+    "type": "viewpoints",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Cameco (CCJ) Misses Q3 Estimates and Trims Its Uranium Output Forecast",
+    "path": "/news/2026-11-01/cameco-ccj-misses-q3-estimates-and-trims-its-uranium-output-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Cboe Global Markets (CBOE) Tops Q3 Estimates as Options Revenue Grows 23%",
+    "path": "/news/2026-11-01/cboe-global-markets-cboe-tops-q3-estimates-as-options-revenue-grows-23/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Church & Dwight (CHD) Tops Q3 Estimates as Organic Sales Grow 5.1%",
+    "path": "/news/2026-11-01/church-dwight-chd-tops-q3-estimates-as-organic-sales-grow-5-1/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Colgate-Palmolive (CL) Tops Q3 Estimates and Raises the Floor of Its Sales Forecast",
+    "path": "/news/2026-11-01/colgate-palmolive-cl-tops-q3-estimates-and-raises-the-floor-of-its-sales-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Dominion Energy (D) Tops Q3 Estimates as Data-Center Contracts Reach 54.9 Gigawatts",
+    "path": "/news/2026-11-01/dominion-energy-d-tops-q3-estimates-as-data-center-contracts-reach-54-9-gigawatts/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Exelon (EXC) Tops Q3 Estimates and Narrows Its 2026 Profit Forecast Upward",
+    "path": "/news/2026-11-01/exelon-exc-tops-q3-estimates-and-narrows-its-2026-profit-forecast-upward/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Exxon Mobil (XOM) Tops Q3 Estimates as Refining Profit More Than Doubles",
+    "path": "/news/2026-11-01/exxon-mobil-xom-tops-q3-estimates-as-refining-profit-more-than-doubles/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "General Dynamics (GD) Tops Q3 Estimates as Backlog Hits a Record $220 Billion",
+    "path": "/news/2026-11-01/general-dynamics-gd-tops-q3-estimates-as-backlog-hits-a-record-220-billion/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Kenvue (KVUE) Grows Organic Sales 2.9% in Q3 as Its Kimberly-Clark Deal Nears",
+    "path": "/news/2026-11-01/kenvue-kvue-grows-organic-sales-2-9-in-q3-as-its-kimberly-clark-deal-nears/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "LyondellBasell (LYB) Misses Q3 Estimates, but Shares Jump 5% on Cash Flow",
+    "path": "/news/2026-11-01/lyondellbasell-lyb-misses-q3-estimates-but-shares-jump-5-on-cash-flow/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Meta (META) Now Spends More Than It Makes in Cash. Is the Business Still Strong?",
+    "path": "/news/2026-11-01/meta-meta-now-spends-more-than-it-makes-in-cash-is-the-business-still-strong/",
+    "type": "breakdown",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Regeneron (REGN) Beats Q3 Estimates and Has Its Best Day Since 2022",
+    "path": "/news/2026-11-01/regeneron-regn-beats-q3-estimates-and-has-its-best-day-since-2022/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Wall Street Is Buying Insurance on the AI Boom Before Apple and AMD Report",
+    "path": "/daily/2026-11-01/",
+    "type": "daily",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Diamondback Energy's (FANG) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-diamondback-energys-fang-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Entergy's (ETR) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-entergys-etr-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Marriott's (MAR) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-marriotts-mar-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Realty Income's (O) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-realty-incomes-o-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Vertex's (VRTX) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-vertexs-vrtx-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Williams's (WMB) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-williams-wmb-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Alphabet (GOOGL) Returns to the Euro Bond Market Days After Its Record Drop",
+    "path": "/news/2026-11-02/alphabet-googl-returns-to-the-euro-bond-market-days-after-its-record-drop/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "BP (BP) Completes Castrol Sale, Bringing In $6 Billion to Cut Debt",
+    "path": "/news/2026-11-02/bp-bp-completes-castrol-sale-bringing-in-6-billion-to-cut-debt/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Idexx Laboratories (IDXX) Beats Q3 Estimates and Raises Its 2026 Outlook",
+    "path": "/news/2026-11-02/idexx-idxx-beats-q3-estimates-and-raises-its-2026-outlook/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Loews (L) Q3 Profit Falls 39% as CNA Takes a Long-Term Care Charge",
+    "path": "/news/2026-11-02/loews-l-q3-profit-falls-39-as-cna-takes-a-long-term-care-charge/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Marriott (MAR) Beats Q3 Estimates and Raises Its 2026 Profit Forecast",
+    "path": "/news/2026-11-02/marriott-mar-beats-q3-estimates-and-raises-its-2026-profit-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Marvell (MRVL) Agrees to Buy Lumentum (LITE) for $115 Billion in Stock",
+    "path": "/news/2026-11-02/marvell-mrvl-agrees-to-buy-lumentum-lite-for-115-billion-in-stock/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Oil Fell Below $100 Over the Weekend as Apple and Palantir Open the Week's Tests",
+    "path": "/daily/2026-11-02/",
+    "type": "daily",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Wall Street Is Betting Stocks Rally After the Midterms, Whoever Wins",
+    "path": "/news/2026-11-02/wall-street-is-betting-stocks-rally-after-the-midterms-whoever-wins/",
+    "type": "narrative",
+    "date": "2026-11-02"
+   }
+  ]
+ }
+}

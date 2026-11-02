@@ -1,0 +1,75 @@
+{
+ "id": "move-TOST-2026-11-02",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 58,
+ "created": "2026-11-02T10:01:14-05:00",
+ "expires": "2026-11-03T12:00:00-05:00",
+ "tickers": [
+  "TOST"
+ ],
+ "headline_hint": "Why Toast (TOST) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-02T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 33.36,
+   "change_pct": 5.29,
+   "prev_close": 31.68,
+   "time": "2026-11-02T10:00:07.445-0500",
+   "mktcap": "19.279B",
+   "pe": 41.27,
+   "fpe": 32.07,
+   "yr_high": 39.67,
+   "yr_low": 22.26,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 31.68,
+    "change_pct": 0.0,
+    "time": "2026-11-02T09:21:07.281-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TOST",
+   "name": "Toast",
+   "date": "2026-10-30",
+   "close": 31.68,
+   "prev_close": 31.5,
+   "change_pct": 0.57,
+   "moves_over_5pct_last_year": 18,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 206,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 2.7
+   },
+   "ytd_pct": -10.79,
+   "return_1m_pct": 8.38,
+   "return_6m_pct": 8.83,
+   "return_1y_pct": -11.36,
+   "high_52w": {
+    "close": 39.02,
+    "date": "2025-11-05"
+   },
+   "low_52w": {
+    "close": 22.33,
+    "date": "2026-05-13"
+   },
+   "pct_below_52w_high": 18.81,
+   "thousand_dollars_5y_ago_now": 595,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 8658988,
+   "volume_vs_20d_avg": 1.11,
+   "sentences": [
+    "Toast's shares moved 5% or more on 18 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 2.7%.",
+    "The stock is down 10.8% this year, and at $31.68 it sits 18.8% below its 52-week closing high of $39.02 from 5 November 2025.",
+    "$1,000 invested in Toast five years ago would be worth $595 today."
+   ]
+  },
+  "sector": "Financials",
+  "industry": "Transaction & Payment Processing Services",
+  "recent_stories": []
+ }
+}

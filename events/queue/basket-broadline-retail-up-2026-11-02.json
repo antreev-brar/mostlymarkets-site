@@ -1,0 +1,112 @@
+{
+ "id": "basket-broadline-retail-up-2026-11-02",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-02T10:01:14-05:00",
+ "expires": "2026-11-02T23:59:00-05:00",
+ "tickers": [
+  "BABA",
+  "PDD",
+  "AMZN"
+ ],
+ "headline_hint": "BABA, PDD, AMZN shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-02T10:00:11-05:00",
+ "pack": {
+  "industry": "Broadline Retail",
+  "quotes": {
+   "BABA": {
+    "price": 103.41,
+    "change_pct": 5.48,
+    "prev_close": 98.04,
+    "time": "2026-11-02T10:00:01.090-0500",
+    "mktcap": "257.258B",
+    "pe": 23.05,
+    "fpe": 12.89,
+    "yr_high": 181.1,
+    "yr_low": 91.99,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 101.74,
+     "change_pct": 3.77,
+     "time": "2026-11-02T09:28:51.465-0500"
+    }
+   },
+   "PDD": {
+    "price": 82.63,
+    "change_pct": 5.11,
+    "prev_close": 78.61,
+    "time": "2026-11-02T10:00:07.244-0500",
+    "mktcap": "117.608B",
+    "pe": null,
+    "fpe": 7.26,
+    "yr_high": 139.12,
+    "yr_low": 71.94,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 80.87,
+     "change_pct": 2.87,
+     "time": "2026-11-02T09:30:00.538-0500"
+    }
+   },
+   "AMZN": {
+    "price": 250.0,
+    "change_pct": 4.01,
+    "prev_close": 240.35,
+    "time": "2026-11-02T10:00:00.547-0500",
+    "mktcap": "2.703T",
+    "pe": 20.21,
+    "fpe": 26.84,
+    "yr_high": 287.2,
+    "yr_low": 196.0,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 243.12,
+     "change_pct": 1.15,
+     "time": "2026-11-02T09:29:59.501-0500"
+    }
+   }
+  },
+  "facts": {
+   "BABA": {
+    "ticker": "BABA",
+    "name": "Alibaba",
+    "date": "2026-10-30",
+    "close": 98.04,
+    "prev_close": 99.54,
+    "change_pct": -1.51,
+    "moves_over_5pct_last_year": 13,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 119,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-23",
+     "change_pct": -2.14
+    },
+    "ytd_pct": -33.12,
+    "return_1m_pct": -8.76,
+    "return_6m_pct": -25.44,
+    "return_1y_pct": -45.52,
+    "high_52w": {
+     "close": 177.18,
+     "date": "2026-01-22"
+    },
+    "low_52w": {
+     "close": 94.81,
+     "date": "2026-06-26"
+    },
+    "pct_below_52w_high": 44.67,
+    "thousand_dollars_5y_ago_now": 594,
+    "five_years_ago_date": "2021-10-29",
+    "volume": 8385606,
+    "volume_vs_20d_avg": 0.99,
+    "sentences": [
+     "Alibaba's shares moved 5% or more on 13 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 23 October 2026, when the stock fell 2.1%.",
+     "The stock is down 33.1% this year, and at $98.04 it sits 44.7% below its 52-week closing high of $177.18 from 22 January 2026.",
+     "$1,000 invested in Alibaba five years ago would be worth $594 today."
+    ]
+   }
+  }
+ }
+}

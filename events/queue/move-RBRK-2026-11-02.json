@@ -1,0 +1,74 @@
+{
+ "id": "move-RBRK-2026-11-02",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 61,
+ "created": "2026-11-02T10:01:14-05:00",
+ "expires": "2026-11-03T12:00:00-05:00",
+ "tickers": [
+  "RBRK"
+ ],
+ "headline_hint": "Why Rubrik (RBRK) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-02T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 115.92,
+   "change_pct": -6.63,
+   "prev_close": 124.15,
+   "time": "2026-11-02T10:00:00.586-0500",
+   "mktcap": "24.031B",
+   "pe": -91.51,
+   "fpe": 236.57,
+   "yr_high": 139.92,
+   "yr_low": 42.25,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 124.09,
+    "change_pct": -0.05,
+    "time": "2026-11-02T09:18:27.125-0500"
+   }
+  },
+  "facts": {
+   "ticker": "RBRK",
+   "name": "Rubrik",
+   "date": "2026-10-30",
+   "close": 124.15,
+   "prev_close": 133.63,
+   "change_pct": -7.09,
+   "moves_over_5pct_last_year": 47,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 19,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-28",
+    "change_pct": -13.05
+   },
+   "ytd_pct": 62.33,
+   "return_1m_pct": 7.58,
+   "return_6m_pct": 125.44,
+   "return_1y_pct": 72.62,
+   "high_52w": {
+    "close": 136.0,
+    "date": "2026-10-28"
+   },
+   "low_52w": {
+    "close": 43.81,
+    "date": "2026-04-10"
+   },
+   "pct_below_52w_high": 8.71,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 4037061,
+   "volume_vs_20d_avg": 1.32,
+   "sentences": [
+    "Rubrik's shares moved 5% or more on 47 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 August 2026, when the stock fell 13.1%.",
+    "The stock is up 62.3% this year, and at $124.15 it sits 8.7% below its 52-week closing high of $136.00 from 28 October 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Systems Software",
+  "recent_stories": []
+ }
+}

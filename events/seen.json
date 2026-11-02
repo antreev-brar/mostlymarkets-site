@@ -1,4 +1,14 @@
 {
+"basket-broadline-retail-up-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "basket",
+"tickers": [
+"BABA",
+"PDD",
+"AMZN"
+]
+},
 "basket-internet-services-infrastructure-down-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -83,6 +93,14 @@
 "day": "2026-10-30",
 "kind": "why-it-moved"
 },
+"move-CVNA-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"CVNA"
+]
+},
 "move-DELL-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -92,6 +110,14 @@
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
 "kind": "why-it-moved"
+},
+"move-LITE-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"LITE"
+]
 },
 "move-LRCX-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
@@ -103,15 +129,71 @@
 "day": "2026-10-30",
 "kind": "why-it-moved"
 },
+"move-MRVL-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"MRVL"
+]
+},
+"move-ORCL-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"ORCL"
+]
+},
 "move-QCOM-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
 "kind": "why-it-moved"
 },
+"move-RBRK-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"RBRK"
+]
+},
 "move-RDDT-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
 "kind": "why-it-moved"
+},
+"move-RIVN-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"RIVN"
+]
+},
+"move-STX-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"STX"
+]
+},
+"move-TOST-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"TOST"
+]
+},
+"move-UAL-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"UAL"
+]
 },
 "movers-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -572,6 +654,12 @@
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "viewpoints"
+},
+"viewpoints-2026-11-02": {
+"created": "2026-11-02T10:01:14-05:00",
+"day": "2026-11-02",
+"kind": "viewpoints",
+"tickers": []
 },
 "weekahead-2026-11-01": {
 "created": "2026-11-01T14:41:07-05:00",
