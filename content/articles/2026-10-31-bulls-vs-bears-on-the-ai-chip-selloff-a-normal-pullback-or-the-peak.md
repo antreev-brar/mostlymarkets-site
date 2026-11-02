@@ -11,9 +11,9 @@ moves = [
   { ticker = "AMD", price = 504.80, change_pct = -10.88, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "QCOM", price = 164.79, change_pct = -11.12, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of moonlit tidal flats, a giant silicon wafer leans on its edge in the wet sand, stranded as the sea pulls back, its mirrored face gridded with tiny squares, lit warm gold. Behind it a wide glowing sign reading 'PULLBACK' stands high on two posts, and on the left, in warm light, a stocky white-bearded man in his sixties in a navy peacoat points at waves rolling back in, smiling; on the right, in cold blue light, a slim South Asian woman in her forties with a long braid and a camel coat points up the beach at a dark line of seaweed, frowning. Smaller plain chips litter the sand, an empty sea chest sits open, and a long unmarked data centre glows on the headland."
-cover_alt = "A giant silicon wafer lies stranded at low tide under a PULLBACK sign as two people point at the sea and up the beach"
-cover_text = ["PULLBACK"]
+cover_brief = "A busy maximalist cartoon of a modern indoor climbing gym, packed edge to edge: in the centre a giant computer chip, with a big flat block-capital sign on its front reading 'CHIP INDEX', slides back down a towering climbing wall, dragging its rope team of grown climbers in helmets who dangle and kick as chalk dust and loose holds fly. Directly above it, at the top of the wall, hangs a big block-capital banner reading 'PULLBACK OR PEAK', while all around a cheerful grey-haired belayer gives a thumbs-up, a frowning analyst points at a fraying rope, one calm climber clings near the top, another rope team dangles far below, a dazed climber sprawls on the crash mat, a grinning climber hugging memory cards slips too, a sack of plain laptops tears open, a clerk guards the last memory modules, a phone maker is squeezed between giant memory sticks, a delivery crew wheels in more server racks while executives on a ledge wave for more, a referee waits with a stopwatch, and an executive turns out his empty pockets"
+cover_alt = "A painting of a giant CHIP INDEX chip sliding down a climbing wall under a PULLBACK OR PEAK banner as climbers dangle"
+cover_text = ["CHIP INDEX", "PULLBACK OR PEAK"]
 sources = [
   "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",
