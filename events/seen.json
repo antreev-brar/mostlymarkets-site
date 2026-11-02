@@ -122,10 +122,34 @@
 "day": "2026-11-01",
 "kind": "narrative"
 },
+"news-AAPL-2026-11-02-markets-hope-for-relief-in-apple-margins": {
+"created": "2026-11-02T04:01:11-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
 "news-ASML-2026-11-01-is-asml-holding-nasdaqgs-asml-still-unde": {
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-BP-2026-11-02-ex-shell-ceo-van-beurden-to-chair-castro": {
+"created": "2026-11-02T04:01:11-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"BP"
+]
+},
+"news-BX-2026-11-02-blackstone-to-invest-3-10-billion-for-49": {
+"created": "2026-11-02T04:01:11-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"BX"
+]
 },
 "news-C-2026-11-01-citigroup-c-adds-james-flanagan-to-its-b": {
 "created": "2026-11-01T14:41:07-05:00",
@@ -141,6 +165,14 @@
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-TSLA-2026-11-02-tesla-registrations-surge-across-norther": {
+"created": "2026-11-02T04:01:11-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"TSLA"
+]
 },
 "preview-AAPL-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",

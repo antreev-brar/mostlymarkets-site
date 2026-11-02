@@ -1,0 +1,111 @@
+{
+ "id": "news-BX-2026-11-02-blackstone-to-invest-3-10-billion-for-49",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-02T04:01:11-05:00",
+ "expires": "2026-11-02T14:01:11-05:00",
+ "tickers": [
+  "BX"
+ ],
+ "headline_hint": "Blackstone: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T04:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Blackstone To Invest $3.10 Billion For 49.9% Interest In Mitsubishi LNG Canada Subsidiary",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABFKSLN:0-blackstone-to-invest-3-10-billion-for-49-9-interest-in-mitsubishi-lng-canada-subsidiary/",
+    "published": "2026-11-02T02:40:49-05:00",
+    "also": [
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "Mitsubishi to sell down LNG Canada stake to Blackstone funds for $1.6 billion",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYVREM09ibHJGNUpvREJyYmtjTjB2Q2lrbTZ6RW9HajdjTG9ZTXd0b1JITFNYUzBOZFdkSlhscUIyb2dpakZoR1VZSTA5NzA1TnJScVFhMkg2WC1HWmJwRlpIU0xwR1g5ZkRmRTRSbGJwTWp5LXBtdXd0TXEyOXpuc2xaTkE0TWhPenBvckh4Z0IwRnF0LTdzWDN1ZEQzdDJILVNBelN4eXBEM0psMVloOTZGeUg1NXlU?oc=5",
+    "published": "2026-11-02T02:24:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Blackstone and Leading Canadian Institutional Investors Announce $3.1B Investment in Mitsubishi Corporation\u2019s Interest in LNG Canada",
+    "source": "Business Wire",
+    "url": "https://www.tradingview.com/news/business_wire:9a1d809439938:0-blackstone-and-leading-canadian-institutional-investors-announce-3-1b-investment-in-mitsubishi-corporation-s-interest-in-lng-canada/",
+    "published": "2026-11-02T01:30:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Blackstone-led group buys $3.1B LNG Canada stake from Mitsubishi, Bloomberg reports",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4661916-blackstone-led-group-buys-31b-lng-canada-stake-from-mitsubishi-bloomberg-reports",
+    "published": "2026-11-02T01:26:32-05:00",
+    "also": []
+   },
+   {
+    "title": "Blackstone Leads $3.1 Billion Deal To Acquire LNG Canada Stake - Bloomberg News",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3X2:0-blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake-bloomberg-news/",
+    "published": "2026-11-02T00:47:26-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 117.39,
+   "change_pct": -2.66,
+   "prev_close": 117.39,
+   "time": "2026-10-30",
+   "mktcap": "141.317B",
+   "pe": 26.14,
+   "fpe": 19.15,
+   "yr_high": 165.14,
+   "yr_low": 101.73,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 118.3,
+    "change_pct": 0.78,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "BX",
+   "name": "Blackstone",
+   "date": "2026-10-30",
+   "close": 118.51,
+   "prev_close": 120.6,
+   "change_pct": -1.73,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 99,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": -1.98
+   },
+   "ytd_pct": -23.12,
+   "return_1m_pct": 5.59,
+   "return_6m_pct": -6.2,
+   "return_1y_pct": -20.42,
+   "high_52w": {
+    "close": 163.5,
+    "date": "2026-01-16"
+   },
+   "low_52w": {
+    "close": 102.12,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 27.52,
+   "thousand_dollars_5y_ago_now": 856,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 5185068,
+   "volume_vs_20d_avg": 0.89,
+   "sentences": [
+    "Blackstone's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock fell 2.0%.",
+    "The stock is down 23.1% this year, and at $118.51 it sits 27.5% below its 52-week closing high of $163.50 from 16 January 2026.",
+    "$1,000 invested in Blackstone five years ago would be worth $856 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

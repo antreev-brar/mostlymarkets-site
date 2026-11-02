@@ -1,0 +1,97 @@
+{
+ "id": "news-TSLA-2026-11-02-tesla-registrations-surge-across-norther",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-02T04:01:11-05:00",
+ "expires": "2026-11-02T14:01:11-05:00",
+ "tickers": [
+  "TSLA"
+ ],
+ "headline_hint": "Tesla: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T04:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Tesla registrations surge across Northern Europe in October",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46J0G2:0-tesla-registrations-surge-across-northern-europe-in-october/",
+    "published": "2026-11-02T03:12:05-05:00",
+    "also": []
+   },
+   {
+    "title": "Tesla new registrations in Denmark rise 34% year-on-year in October",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45U097:0-tesla-new-registrations-in-denmark-rise-34-year-on-year-in-october/",
+    "published": "2026-11-02T01:03:36-05:00",
+    "also": []
+   },
+   {
+    "title": "Gary Black Says Tesla Is Losing EV Share to \u2018No-Name\u2019 Rivals Despite \u2018Huge First-Mover Advantage\u2019\u2014Warns TSLA Needs Better Marketing",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:b87056588094b:0-gary-black-says-tesla-is-losing-ev-share-to-no-name-rivals-despite-huge-first-mover-advantage-warns-tsla-needs-better-marketing/",
+    "published": "2026-11-02T00:35:44-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 399.81,
+   "change_pct": -0.87,
+   "prev_close": 399.81,
+   "time": "2026-10-30",
+   "mktcap": "1.58T",
+   "pe": 480.54,
+   "fpe": 218.36,
+   "yr_high": 498.83,
+   "yr_low": 297.38,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 400.51,
+    "change_pct": 0.18,
+    "time": "2026-11-02T04:00:08.410-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "date": "2026-10-30",
+   "close": 399.81,
+   "prev_close": 403.3,
+   "change_pct": -0.87,
+   "moves_over_5pct_last_year": 16,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 180,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": -3.08
+   },
+   "ytd_pct": -11.1,
+   "return_1m_pct": 12.91,
+   "return_6m_pct": 2.3,
+   "return_1y_pct": -13.37,
+   "high_52w": {
+    "close": 489.88,
+    "date": "2025-12-16"
+   },
+   "low_52w": {
+    "close": 298.32,
+    "date": "2026-07-29"
+   },
+   "pct_below_52w_high": 18.39,
+   "thousand_dollars_5y_ago_now": 1077,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 41737180,
+   "volume_vs_20d_avg": 1.13,
+   "sentences": [
+    "Tesla's shares moved 5% or more on 16 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 3.1%.",
+    "The stock is down 11.1% this year, and at $399.81 it sits 18.4% below its 52-week closing high of $489.88 from 16 December 2025.",
+    "$1,000 invested in Tesla five years ago would be worth $1,077 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-29/apple-leads-the-magnificent-seven-in-2026-as-alphabet-slides-into-the-red/"
+  ]
+ }
+}
