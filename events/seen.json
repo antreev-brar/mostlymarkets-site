@@ -128,6 +128,12 @@
 "day": "2026-11-01",
 "kind": "narrative"
 },
+"narrative-2026-11-02": {
+"created": "2026-11-02T07:01:13-05:00",
+"day": "2026-11-02",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -449,6 +455,14 @@
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "earnings-recap"
+},
+"recap-MAR-2026-11-02": {
+"created": "2026-11-02T07:01:13-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"MAR"
+]
 },
 "recap-MDLZ-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
