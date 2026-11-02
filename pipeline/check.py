@@ -216,8 +216,8 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         warns.append("no cover_brief: the story will get a stock topic photo; write a scene (STYLE.md, Covers)")
     if brief:
         nb = len(brief.split())
-        if not 60 <= nb <= 140:
-            warns.append(f"cover_brief is {nb} words (aim for 80-130: the gag and its labels, the people, five to eight jokes from the story)")
+        if not 100 <= nb <= 190:
+            warns.append(f"cover_brief is {nb} words (aim for 130-180: the gag and its labels, the people, twelve to sixteen details from the story)")
         labels = re.findall(r"(?<![A-Za-z])'([^']{1,40})'(?![A-Za-z])", brief)
         if re.search(r"'\s*[.!?;]", brief):
             warns.append("cover_brief ends a sentence on a quoted label: the model paints the next word onto the sign; keep describing in the same sentence")

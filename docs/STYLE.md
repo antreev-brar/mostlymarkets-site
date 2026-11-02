@@ -350,17 +350,18 @@ Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, 
 
 ## Covers
 
-Every story gets its own cover: **a busy, detailed editorial cartoon that shows what the story is about**, the way
-SemiAnalysis's cartoon covers do. One big physical gag a reader gets in a second, even in a 300 px feed card or a 104 px
-phone square, labelled like a political cartoon, and packed with small jokes from the article that reward a close look.
-Every cover is drawn in one house look, a hand-inked editorial cartoon with watercolour washes on cream paper in navy,
-gold and brick red (`HOUSE_SHORT` in `pipeline/covers.py` adds it), for free on AI Horde with a model that can letter big
-signs. `.github/workflows/covers.yml` draws it after each push. Write the scene in the front matter:
+Every story gets its own cover: **a maximalist, hyper-detailed satirical painting that shows what the story is about**,
+the way SemiAnalysis's densest covers do: one big labelled gag a reader gets in a second, even in a 300 px feed card or a
+104 px phone square, and the whole frame crammed edge to edge with figures, machines and side stories from the article that
+reward close study. Every cover is drawn in one house look, a painterly digital "grand narrative mural" in rich modern
+colours under golden-hour and electric-blue light (`HOUSE_SHORT` in `pipeline/covers.py` adds it; the owner chose it on 2 Nov
+2026 over 3D, vintage-cartoon and flat-cartoon looks), for free on AI Horde with a model that can letter big signs.
+`.github/workflows/covers.yml` draws it after each push. Write the scene in the front matter:
 
 ```toml
-cover_brief = "A busy cartoon of a data-centre loading dock: in the centre a giant cooling machine with a big flat sign on its front reading 'VERTIV' in block capitals roars, blowing a gale of icy air into a sweltering server hall where red-faced technicians fan themselves. Directly above it hangs a big cloth banner reading 'ORDERS DOUBLED' in bold capitals while a mountain of plain order slips bursts out of an overflowing red mailbox, a cheerful grey-haired foreman rings a brass bell, workers in hard hats push more cooling machines up a ramp, and a long line of plain white delivery trucks waits at the dock"
-cover_alt = "A cartoon cooling machine marked VERTIV blasts icy air under an ORDERS DOUBLED banner as orders pour from a mailbox"
-cover_text = ["VERTIV", "ORDERS DOUBLED"]
+cover_brief = "A busy maximalist cartoon of a giant muddy building site for an AI data centre, packed edge to edge: in the centre a huge steel strongbox with a big flat plaque on its side reading 'META', hangs from a crane and tips forward, pouring its last gold coins into the open roof of a half-built hall crammed with glowing server racks. Directly above it, from the crane arm, hangs a big sign reading 'CASH BURN', while all around builders on scaffolding wave for more coins, a grey-haired ad salesman cranks an overflowing cash register as plain ad flyers fly out, a printing press spits plain share certificates onto a teetering stack that topples onto shareholders in suits, a ballot box with its slot taped shut sits on top of the stack, trucks of server racks queue past the gate, an accountant on a ladder stares at a very long receipt, engineers carry giant cooling fans, a coffee cart serves tired workers, a pigeon steals a coin and a banker with binoculars watches from a balcony"
+cover_alt = "A painting of a crane tipping the last gold coins from a META strongbox into a half-built data centre under a CASH BURN sign"
+cover_text = ["META", "CASH BURN"]
 ```
 
 1. **One physical gag, in the centre.** Turn the story into one thing happening that a reader gets at a glance: a
@@ -371,8 +372,9 @@ cover_text = ["VERTIV", "ORDERS DOUBLED"]
    square, story pages to 2:1).
 2. **Label it like a political cartoon: two or three labels, each on its own big flat sign.** Each is in single quotes,
    in capitals, 1–4 words:
-   - the company's name on **a big flat sign, plaque or banner fixed to the hero** ("a big flat sign on its front
-     reading 'VERTIV' in block capitals"). Names painted straight onto curved bodies, car doors and hulls come out
+   - the company's name on **a big flat sign, plaque or banner fixed to the hero** ("a big flat block-capital sign on its
+     front reading 'VERTIV', ..."). Put the lettering style before the label and a comma after it: "reading 'HOLD' in block
+     capitals" came out as "in HOLD in". Names painted straight onto curved bodies, car doors and hulls come out
      misspelled ('UBER' became 'UBR', 'ALPHABET' became 'ALHABE');
    - one sign, banner or calendar page **directly above the hero** with the key word, year or whole number:
      'ORDERS DOUBLED', 'WORST DAY SINCE 1974', 'HOLD', '$29 BILLION', '4 NOVEMBER';
@@ -384,12 +386,13 @@ cover_text = ["VERTIV", "ORDERS DOUBLED"]
    name "in plain block capitals" ('INTEL' came out in the lowercase logo lettering). **Never end a sentence on a quoted
    label:** the model paints the next word onto the sign; keep the sentence going ("... reading 'HOLD' while two
    officials..."). List the labels in `cover_text`. Everything else is "plain" or "unmarked".
-3. **Five to eight small jokes from the article** around the hero, each from the story, unlabelled, that a reader finds
-   on a second look: a queue of glum shopkeepers beside empty crates (PC makers short of memory chips), an overflowing
-   mailbox of orders, a clerk ducking under the table during the split vote, grinning refinery owners riding the oil
-   barrel. No generic filler: no charts, arrows, piles of cash, bulls and bears, globes or skylines that the story
+3. **Maximalist: twelve to sixteen small things happening all around**, each a distinct detail from the article and
+   unlabelled, so the frame is full edge to edge like a seek-and-find poster: builders on scaffolding waving for more coins,
+   a printing press piling share certificates onto a teetering stack, a ballot box with its slot taped shut, a pigeon
+   stealing a coin, a news crew filming from a van roof. List them after the hero and its sign, joined with commas and
+   "while". No generic filler: no charts, arrows, piles of cash, bulls and bears, globes or skylines that the story
    doesn't need.
-4. **Grown-up cartoon people with big reactions**, each with one clear action: traders in bowler hats leaping off the
+4. **Grown-up people with big reactions**, each with one clear action: traders in bowler hats leaping off the
    track clutching their hats, a foreman ringing a bell, a banker dropping his papers, a driver peering anxiously into
    his mirror. Say "grown", "grey-haired" or an age of thirty or more: "young" and "in her twenties" come out as
    children. Never real people, names, "the CEO of X", look-alikes or caricatures of real people, and never children. A
@@ -417,8 +420,8 @@ cover_text = ["VERTIV", "ORDERS DOUBLED"]
    (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat their gag, hero or setting within three
    days: runaway trains, sinking ships, rockets and boxing rings are the easy repeats.
 
-Write the brief in 80–130 words: start "A busy cartoon of <setting>:", then the hero, its action and its labels (the
-model reads the start most closely), then the people, then the jokes. `cover_alt` says plainly what the picture shows,
-writing included, under 125 characters, starting "A cartoon". The covers job checks each picture for the `cover_text`
+Write the brief in 130–180 words: start "A busy maximalist cartoon of <setting>, packed edge to edge:", then the hero, its
+action and its labels (the model reads the start most closely), then the people, then the twelve to sixteen details. `cover_alt` says plainly what the picture shows,
+writing included, under 125 characters, starting "A painting". The covers job checks each picture for the `cover_text`
 strings and stray writing and redraws it when they're wrong. Story pages caption every cover "Image: AI-generated". A
 story without a brief borrows one of the 56 topic pictures in `assets/covers/` until its cover is drawn.
