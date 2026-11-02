@@ -199,6 +199,14 @@
 "L"
 ]
 },
+"news-NFLX-2026-11-02-netflix-needs-you-to-watch-not-just-pay": {
+"created": "2026-11-02T06:30:13-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"NFLX"
+]
+},
 "news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc": {
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",

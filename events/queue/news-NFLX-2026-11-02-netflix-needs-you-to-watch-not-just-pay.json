@@ -1,0 +1,88 @@
+{
+ "id": "news-NFLX-2026-11-02-netflix-needs-you-to-watch-not-just-pay",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-02T06:30:13-05:00",
+ "expires": "2026-11-02T16:30:13-05:00",
+ "tickers": [
+  "NFLX"
+ ],
+ "headline_hint": "Netflix: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T06:30:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Netflix Needs You to Watch, Not Just Pay - Heard on the Street",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102001907:0-netflix-needs-you-to-watch-not-just-pay-heard-on-the-street-wsj/",
+    "published": "2026-11-02T05:30:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Bill Ackman Says MSFT, AMZN and NFLX Fit His \u2018Enormously Valuable\u2019 20-Year Investing Test",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:21b7b9a7c094b:0-bill-ackman-says-msft-amzn-and-nflx-fit-his-enormously-valuable-20-year-investing-test/",
+    "published": "2026-11-02T03:46:02-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 62.08,
+   "change_pct": 0.05,
+   "prev_close": 62.08,
+   "time": "2026-10-30",
+   "mktcap": "254.921B",
+   "pe": 17.94,
+   "fpe": 18.33,
+   "yr_high": 116.73,
+   "yr_low": 61.39,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 62.15,
+    "change_pct": 0.11,
+    "time": "2026-11-02T06:28:02.307-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NFLX",
+   "name": "Netflix",
+   "date": "2026-10-30",
+   "close": 62.08,
+   "prev_close": 62.05,
+   "change_pct": 0.05,
+   "moves_over_5pct_last_year": 8,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 247,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-29",
+    "change_pct": 0.1
+   },
+   "ytd_pct": -33.79,
+   "return_1m_pct": -8.5,
+   "return_6m_pct": -32.57,
+   "return_1y_pct": -43.58,
+   "high_52w": {
+    "close": 115.75,
+    "date": "2025-11-12"
+   },
+   "low_52w": {
+    "close": 61.99,
+    "date": "2026-10-28"
+   },
+   "pct_below_52w_high": 46.37,
+   "thousand_dollars_5y_ago_now": 899,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 52331670,
+   "volume_vs_20d_avg": 1.19,
+   "sentences": [
+    "Netflix's shares moved 5% or more on 8 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 October 2026, when the stock rose 0.1%.",
+    "The stock is down 33.8% this year, and at $62.08 it sits 46.4% below its 52-week closing high of $115.75 from 12 November 2025.",
+    "$1,000 invested in Netflix five years ago would be worth $899 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
