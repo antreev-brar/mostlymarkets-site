@@ -10,9 +10,9 @@ themes = ["ai-capex"]
 moves = [
   { ticker = "ETR", price = 110.11, change_pct = 0.13, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A busy cartoon of a Louisiana bayou power yard at sunset: in the centre a giant steel transmission tower with a big flat sign across its middle reading 'ENTERGY' in block capitals is being stretched taller by grown construction workers on scaffolding, cables running from it into a long row of plain grey data-centre buildings. Directly above it hangs a big flat billboard reading '$67 BILLION' in bold capitals while a grey-haired accountant in a bowler hat staggers under a tall stack of plain bills, a crane lifts a new turbine, a pelican perches on a hard hat, a weather officer points at distant storm clouds, and a queue of plain trucks waits at the gate"
-cover_alt = "A cartoon ENTERGY tower is built taller under a $67 BILLION billboard as cables run into data-centre buildings"
-cover_text = ["ENTERGY", "$67 BILLION"]
+cover_brief = "A busy maximalist cartoon of a Louisiana bayou power yard at sunset, packed edge to edge: in the centre a giant steel transmission tower with a big flat sign across its middle reading 'ENTERGY' in plain block capitals, is being stretched taller by grown construction workers on scaffolding, with cables running from it into a long row of plain grey data-centre buildings. Directly above it hangs a big flat billboard reading 'BUILD OUT' in plain block capitals, while a grey-haired accountant in a bowler hat staggers under a tall stack of plain bills, a crane lifts a new turbine, a pelican perches on a hard hat, a weather officer points at distant storm clouds, a queue of plain trucks waits at the gate, a welder sends up sparks, an engineer unrolls long plain blueprints, a shrimp boat drifts on the bayou, a heron stands in the reeds, a refinery flare glows on the horizon, a food truck serves crawfish and a surveyor plants a flag"
+cover_alt = "A painting of an ENTERGY transmission tower built taller under a BUILD OUT billboard as cables run to data centres"
+cover_text = ["ENTERGY", "BUILD OUT"]
 sources = [
   "https://finviz.com/news/407750/entergy-to-report-third-quarter-2026-financial-results-on-nov-2",
   "https://www.marketbeat.com/instant-alerts/upcoming-entergy-etr-expected-to-post-quarterly-earnings-on-monday-2026-10-26/",

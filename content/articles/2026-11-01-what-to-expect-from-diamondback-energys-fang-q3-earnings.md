@@ -10,8 +10,8 @@ themes = ["oil-shock"]
 moves = [
   { ticker = "FANG", price = 212.08, change_pct = 2.74, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "A busy cartoon of a dusty West Texas oil field at noon: in the centre a giant nodding pumpjack with a big flat sign bolted to its frame reading 'DIAMONDBACK' in block capitals pumps hard, a gusher of black oil arcing into a row of plain steel barrels. Directly above it hangs a big flat billboard reading 'OCTOBER' in bold capitals while grey-haired roughnecks in hard hats cheer and toss their hats, a cautious accountant in a bowler hat holds a plain umbrella against the spray, a frac crew rolls in on plain trucks, a jackrabbit hides behind a cactus, and a grown banker counts a short stack of plain bills on a folding table"
-cover_alt = "A cartoon DIAMONDBACK pumpjack gushes oil under an OCTOBER billboard as roughnecks cheer"
+cover_brief = "A busy maximalist cartoon of a dusty West Texas oil field at noon, packed edge to edge: in the centre a giant nodding pumpjack pumps hard, with a big flat white rectangular sign bolted across its steel base reading 'DIAMONDBACK' in plain black block capitals, while a gusher of black oil arcs from its wellhead into plain steel barrels. Directly above it, hung from a crane arm, a big flat white banner reads 'OCTOBER' in plain black block capitals, while grey-haired roughnecks in hard hats cheer and toss their hats in the air, a cautious accountant in a bowler hat holds an umbrella against the spray, a frac crew rolls in on plain trucks, a jackrabbit hides behind a cactus, a banker counts a short stack of plain bills on a folding table, a tanker truck queues at the gate, a windsock flaps, a cook flips burgers on a grill, a surveyor peers through a tripod, a dog chases a tumbleweed, a pickup truck kicks up dust and a crow sits on a fence post"
+cover_alt = "A painting of a pumpjack with a DIAMONDBACK sign gushing oil under an OCTOBER banner as roughnecks cheer"
 cover_text = ["DIAMONDBACK", "OCTOBER"]
 sources = [
   "https://energydigital.com/globenewswire/3372070",
