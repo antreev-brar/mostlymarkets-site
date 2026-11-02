@@ -6,9 +6,9 @@ published = 2026-10-31T21:56:15-04:00
 author = "nora-whitfield"
 tickers = ["COIN", "MSTR", "HOOD"]
 themes = ["crypto"]
-cover_brief = "In the centre of a dim banking hall, a giant glass tank nearly full of glowing gold coins, with 'BINANCE' in big white capitals on the steel band across its top, spills coins onto the floor from a jagged hole low in its side. Directly above the tank hangs a big red screen, no wider than the tank, reading 'HACKED' in bold capitals while a stocky grey-haired woman in her fifties in navy overalls pours coins back in from a ladder, determined, and a broad Black agent in his forties in a plain navy windbreaker grimly aims a flashlight at hooded hackers hauling sacks into a tunnel. Some sacks sit frozen in ice, steel shutters cover the teller windows, and a smaller plain tank shows an old jagged hole."
-cover_alt = "A BINANCE coin tank spills coins from a low hole under a red HACKED screen as a worker refills it"
-cover_text = ["BINANCE", "HACKED"]
+cover_brief = "A busy maximalist cartoon of a sleek modern crypto exchange lobby, packed edge to edge: in the centre a giant glass vault full of gold coins, with a big flat plain block-capital steel plaque across its front reading 'BINANCE', spills coins from a jagged hole low in its side while calm staff on a ladder pour sacks of coins back in at the top. Directly above the vault hangs a big block-capital banner reading 'BIGGEST CRYPTO THEFT', while hooded hackers drag sacks into a tunnel, clerks in parkas freeze some sacks into blocks of ice, a hacker swaps sacks at a plain exchange booth, a robot vacuum sweeps away their footprints, a grey-haired agent shines a flashlight into the tunnel, a sheepish engineer clutches an open laptop, steel shutters cover the plain withdrawal counters, a long queue of customers clutches empty bags, a guard inspects the shutter locks with a magnifying glass, a smaller plain vault shows an old patched hole, a rival clerk next door slumps in despair, and a plain gold coin rolls down the stairs"
+cover_alt = "A painting of a BINANCE vault spilling coins from a hole under a BIGGEST CRYPTO THEFT banner as staff pour coins back in"
+cover_text = ["BINANCE", "BIGGEST CRYPTO THEFT"]
 sources = [
   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
   "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",

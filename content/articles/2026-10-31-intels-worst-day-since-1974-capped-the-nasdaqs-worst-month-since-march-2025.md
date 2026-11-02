@@ -11,9 +11,9 @@ moves = [
   { ticker = "RDDT", price = 91.73, change_pct = -29.22, session = "close", asof = 2026-10-30T16:00:00-04:00 },
   { ticker = "LLY", price = 1417.54, change_pct = 3.19, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of an observatory deck at night, a giant navy-and-brass telescope with a cracked lens, lit warm gold, aims at a dark storm from a massive stone base. A wide navy plaque across the base reads 'INTEL' in big white block capitals, with no logo or registered mark, and directly above the telescope hangs a big red sign reading 'OCTOBER' in bold capitals, centred and no wider than it. Flanking the base, a heavyset grey-bearded astronomer in his fifties in a brown cardigan stares up aghast and a tall dark-haired Latina woman in her thirties in a navy parka covers her mouth, pale. Smaller plain telescopes lie toppled nearby, a green memory module sits in a puddle, and a dropped phone shows a blank search bar."
-cover_alt = "A cracked-lens INTEL telescope aims at a storm under a red OCTOBER sign as smaller telescopes lie toppled"
-cover_text = ["INTEL", "OCTOBER"]
+cover_brief = "A busy maximalist cartoon of a lavish modern wedding reception in a glass-walled hall, packed edge to edge: in the centre a towering ice sculpture, with a big flat plain block-capital plaque on its base reading 'NASDAQ', melts all over the long buffet table, and a big chip-shaped chunk breaks off its top and smashes on the floor as grown guests in sleek suits leap back. Directly above it hangs a big flat block-capital banner reading 'WORST MONTH', while a champagne tower stands untouched as a waiter tops it up, a calm bond trader sips coffee, a pharmacist hugging medicine and a car dealer waving keys dance, a caterer fumbles a falling gold bar, a guard ejects a guest who spilled one drop of wine, the biggest gift box slides an inch, cracking the floor, a glum guest hugs unsold laptops, a robot usher steers guests from a greeter at an empty side door, a hooded thief sneaks off with coins, a wedding planner frowns at a thin plain bookings ledger and two guests whisper behind their hands"
+cover_alt = "A painting of a NASDAQ ice sculpture melting at a wedding under a WORST MONTH banner as a chip-shaped chunk smashes"
+cover_text = ["NASDAQ", "WORST MONTH"]
 sources = [
   "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
   "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment",

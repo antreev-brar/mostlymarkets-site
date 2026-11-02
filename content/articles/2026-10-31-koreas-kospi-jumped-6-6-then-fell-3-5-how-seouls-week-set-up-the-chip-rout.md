@@ -6,9 +6,9 @@ published = 2026-10-31T10:27:59-04:00
 author = "dev-malhotra"
 tickers = ["SNDK", "MU", "WDC", "STX"]
 themes = ["korea-chips", "chip-selloff", "memory-cycle"]
-cover_brief = "Over Seoul's Han River at night, a giant hot-air balloon with a glossy navy envelope, its basket heaped with green memory modules, sinks back toward the water in the centre, lit warm gold by its burner, as fireworks fade over the far bank. Directly above the balloon hangs a big red screen, no wider than the balloon, reading 'KOSPI' in bold capitals while, on the bank, a heavyset grey-haired Korean man in his sixties with a deeply lined face, in a navy coat, stares up grimly, and a tall Korean woman in her forties with a short bob, in a cream trench coat, points up, alarmed. In the shadows, a plain gold trophy sits ignored on a café table and a South Korean flag flies from a bridge."
-cover_alt = "A balloon of memory modules sinks over Seoul's Han River at night under a red KOSPI screen"
-cover_text = ["KOSPI"]
+cover_brief = "A busy maximalist cartoon of a crowded modern plaza in Seoul with a South Korean flag, packed edge to edge: in the centre a giant rectangular trampoline, with a big flat block-capital sign along its front edge reading 'KOSPI', sags as a grown trader in a suit, hugging green memory modules, drops back toward it from a huge bounce, arms flailing, papers flying. Directly above him hangs a big block-capital banner reading 'SHORTAGES THROUGH 2030', while spectators who cheered the jump now duck, a shoe from an earlier, higher bounce hangs from a lamppost, a referee blows a whistle, raising a plain stop paddle, a forgotten champagne bottle fizzes on a balcony, buyers queue to sign long plain contracts, a grey-haired executive holds up a plain gold trophy over torn gift wrap as investors yawn, a shareholder holds out two empty buckets, a glum salesman slumps behind unsold laptops, a phone repairman sweats over pricey memory chips, a buyer shakes an empty wallet, and a giant screen shows a sleepy trader in pyjamas waking under an American flag"
+cover_alt = "A painting of a trader falling back onto a KOSPI trampoline in a Seoul plaza under a SHORTAGES THROUGH 2030 banner"
+cover_text = ["KOSPI", "SHORTAGES THROUGH 2030"]
 sources = [
   "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123",
   "https://www.koreatimes.co.kr/economy/20261030/seoul-stocks-down-over-5-late-fri-morning-on-tech-losses-amid-ai-concerns",

@@ -10,9 +10,9 @@ event = "recap-EXC-2026-10-30"
 moves = [
   { ticker = "EXC", price = 46.16, change_pct = 0.54, session = "close", asof = 2026-10-30T16:00:00-04:00 },
 ]
-cover_brief = "In the centre of a dark city street at night, a tall steel transmission tower with a wide navy plaque across its middle reading 'EXELON' in big white block capitals stands under a warm gold floodlight, thick power lines stretching from it toward a long windowless data-center building and rows of lit row houses. Directly above it hangs a big glowing sign reading 'NARROWED' in gold capitals, centred and no wider than the tower, while below it a wiry lineworker in his thirties in a yellow hard hat climbs the tower, and a grey-haired supervisor in a high-visibility vest holds a plain clipboard below. In the shadows sit a utility truck with a bucket lift, coils of plain cable, a plain transformer box and a plain wall calendar"
-cover_alt = "An Exelon power tower feeds a data center and homes under a Narrowed sign as lineworkers work at night"
-cover_text = ["EXELON", "NARROWED"]
+cover_brief = "A busy maximalist cartoon of a brick row-house street strung with power lines in a modern city, packed edge to edge: in the centre a burly grey-haired lineworker in a hi-vis vest and hard hat, with a big flat plain block-capital board strapped across his chest reading 'EXELON', steps easily over a high-jump bar set barely above the asphalt. Directly above him hangs a big flat bold-capital banner reading 'LOW BAR', while three judges at a plain folding table clap politely, a nervous analyst kneels to lower the bar further, an accountant drops a single coin into a plain jar, an archer aims at the middle of a plain target, a stern inspector strikes data centres off a long plain list, one of a row of half-built data centres glows, cranes build a new substation, a crew lays new cable in a trench, an engineer unrolls a long plain blueprint, lineworkers in plain bucket trucks wave, a grey-haired investor on a stoop sips coffee contentedly, and grown traders on the next street trudge glumly past"
+cover_alt = "A painting of a lineworker wearing an EXELON board stepping over a bar set near the ground, under a LOW BAR banner"
+cover_text = ["EXELON", "LOW BAR"]
 sources = [
   "https://www.sec.gov/Archives/edgar/data/0001109357/000110935726000092/exc-20261030ex991.htm",
   "https://www.sec.gov/Archives/edgar/data/0001109357/000110935726000092/exc-20261030ex992.htm",
