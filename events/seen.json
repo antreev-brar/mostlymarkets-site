@@ -128,6 +128,14 @@
 "day": "2026-11-01",
 "kind": "narrative"
 },
+"news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
+"created": "2026-11-02T06:15:14-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
 "news-AAPL-2026-11-02-markets-hope-for-relief-in-apple-margins": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
@@ -174,6 +182,14 @@
 "created": "2026-11-01T08:26:05-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-JPM-2026-11-02-microsoft-nvidia-jpmorgan-among-50-us-gi": {
+"created": "2026-11-02T06:15:14-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"JPM"
+]
 },
 "news-L-2026-11-02-brief-cna-financial-q3-adjusted-eps-usd": {
 "created": "2026-11-02T06:04:17-05:00",
@@ -388,6 +404,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-L-2026-11-02": {
+"created": "2026-11-02T06:15:14-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"L"
+]
 },
 "recap-LIN-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
