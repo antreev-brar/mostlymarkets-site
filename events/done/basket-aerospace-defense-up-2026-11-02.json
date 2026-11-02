@@ -108,5 +108,8 @@
     ]
    }
   }
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-02T11:30:53-05:00",
+ "reason": "already covered: united-ual-howmet-hwm-and-ge-aerospace-ge-shares-jump (same cause, oil below 100)"
 }
