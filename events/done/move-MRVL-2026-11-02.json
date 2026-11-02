@@ -97,5 +97,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-02T10:16:20-05:00",
+ "reason": "covered in the combined Lumentum/Marvell why-it-moved story"
 }
