@@ -1,0 +1,88 @@
+{
+ "id": "news-BABA-2026-11-02-alibaba-group-holding-limited-baba-stock",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-02T05:01:44-05:00",
+ "expires": "2026-11-02T15:01:44-05:00",
+ "tickers": [
+  "BABA"
+ ],
+ "headline_hint": "Alibaba: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T05:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Alibaba Group (BABA) to Provide Cloud and AI for Dakar 2026",
+    "source": "TradingView",
+    "url": "https://www.eqs-news.com/news/corporate-news/alibaba-brings-cloud-and-ai-to-the-first-youth-olympic-games-in-africa/4c528eb7-5473-438e-b0f6-3ccbc31b5e57_en",
+    "published": "2026-11-02T04:30:12-05:00",
+    "also": []
+   },
+   {
+    "title": "Alibaba Group Holding Limited (BABA) stock price, news, quote and history",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qYTM2NEE1cEJWSS0tUGJEVHpzNi1CRXpNN25xVm5MbFd5akdTZy1sSzF1TnQycFZVemtab0c2NTMxbWRreWpkTVc2ZUNYN2ozdEE?oc=5",
+    "published": "2026-11-02T02:21:47-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 98.04,
+   "change_pct": -1.51,
+   "prev_close": 98.04,
+   "time": "2026-10-30",
+   "mktcap": "243.899B",
+   "pe": 21.86,
+   "fpe": 12.27,
+   "yr_high": 181.1,
+   "yr_low": 91.99,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 101.33,
+    "change_pct": 3.36,
+    "time": "2026-11-02T04:59:00.115-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "date": "2026-10-30",
+   "close": 98.04,
+   "prev_close": 99.54,
+   "change_pct": -1.51,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 119,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-23",
+    "change_pct": -2.14
+   },
+   "ytd_pct": -33.12,
+   "return_1m_pct": -8.76,
+   "return_6m_pct": -25.44,
+   "return_1y_pct": -45.52,
+   "high_52w": {
+    "close": 177.18,
+    "date": "2026-01-22"
+   },
+   "low_52w": {
+    "close": 94.81,
+    "date": "2026-06-26"
+   },
+   "pct_below_52w_high": 44.67,
+   "thousand_dollars_5y_ago_now": 594,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 8385606,
+   "volume_vs_20d_avg": 0.99,
+   "sentences": [
+    "Alibaba's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 October 2026, when the stock fell 2.1%.",
+    "The stock is down 33.1% this year, and at $98.04 it sits 44.7% below its 52-week closing high of $177.18 from 22 January 2026.",
+    "$1,000 invested in Alibaba five years ago would be worth $594 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

@@ -1,0 +1,662 @@
+{
+ "id": "daily-2026-11-02",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-02T05:01:44-05:00",
+ "expires": "2026-11-02T10:30:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the week's big test>",
+ "instructions": "The Monday edition. Weekend news that moves stocks today, then the thread: 6 to 8 takes on what this week will decide (the big reporters, the data, the Fed), each with one chart or stat block. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T05:00:09-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7580.07,
+    "change": -140.32,
+    "change_pct": -1.82,
+    "prev_close": 7580.07,
+    "open": 7631.07,
+    "high": 7637.48,
+    "low": 7527.56,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25436.999,
+    "change": -747.725,
+    "change_pct": -2.86,
+    "prev_close": 25436.999,
+    "open": 25592.486,
+    "high": 25672.998,
+    "low": 25177.331,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 51770.31,
+    "change": -572.25,
+    "change_pct": -1.09,
+    "prev_close": 51770.31,
+    "open": 52383.9,
+    "high": 52383.9,
+    "low": 51563.76,
+    "volume": 659029846,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2811.844,
+    "change": -47.372,
+    "change_pct": -1.66,
+    "prev_close": 2811.844,
+    "open": 2838.773,
+    "high": 2843.0,
+    "low": 2787.122,
+    "volume": 0,
+    "time": "2026-10-30",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 18.84,
+    "change": -0.58,
+    "change_pct": -2.99,
+    "prev_close": 19.42,
+    "open": 19.05,
+    "high": 19.19,
+    "low": 18.76,
+    "volume": 0,
+    "time": "2026-11-02T05:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.912,
+    "change": -0.017,
+    "change_pct": -0.3449,
+    "prev_close": 4.929,
+    "open": 4.941,
+    "high": 4.956,
+    "low": 4.908,
+    "volume": 0,
+    "time": "2026-11-02T05:00:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.592,
+    "change": 0.011,
+    "change_pct": -0.0195,
+    "prev_close": 4.581,
+    "open": 4.6,
+    "high": 4.61,
+    "low": 4.577,
+    "volume": 0,
+    "time": "2026-11-02T04:58:33.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 4.96,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 99.6,
+    "change": -4.52,
+    "change_pct": -4.34,
+    "prev_close": 104.12,
+    "open": 102.39,
+    "high": 102.75,
+    "low": 99.48,
+    "volume": 66834,
+    "time": "2026-11-02T04:50:05.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 108.35,
+    "change": -5.08,
+    "change_pct": -4.48,
+    "prev_close": 113.43,
+    "open": 111.69,
+    "high": 112.41,
+    "low": 108.26,
+    "volume": 126105,
+    "time": "2026-11-02T10:50:07.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3906.8,
+    "change": 7.9,
+    "change_pct": 0.2,
+    "prev_close": 3898.9,
+    "open": 3890.0,
+    "high": 3928.1,
+    "low": 3889.0,
+    "volume": 49515,
+    "time": "2026-11-02T04:50:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3889.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 77965.86,
+    "change": 224.46,
+    "change_pct": 0.29,
+    "prev_close": 77741.4,
+    "open": 77792.36,
+    "high": 78734.62,
+    "low": 77537.07,
+    "volume": 0,
+    "time": "2026-11-02T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 111815.3,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.604,
+    "change": -0.275,
+    "change_pct": -0.27,
+    "prev_close": 101.879,
+    "open": 101.968,
+    "high": 101.994,
+    "low": 101.426,
+    "volume": 0,
+    "time": "2026-11-02T05:00:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-10-30",
+  "moves": [
+   {
+    "ticker": "RDDT",
+    "name": "Reddit",
+    "close": 91.73,
+    "change_pct": -29.22,
+    "our_stories": [
+     "/news/2026-11-01/ai-is-moving-ad-money-away-from-google-search-what-the-evidence-says/",
+     "/daily/2026-10-31/",
+     "/news/2026-10-30/why-reddit-rddt-stock-is-sinking-today/"
+    ]
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "close": 65.76,
+    "change_pct": -28.58,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+     "/daily/2026-10-31/"
+    ]
+   },
+   {
+    "ticker": "ILMN",
+    "name": "Illumina",
+    "close": 235.99,
+    "change_pct": -18.64,
+    "our_stories": [
+     "/news/2026-10-30/why-illumina-ilmn-stock-is-sinking-today/"
+    ]
+   },
+   {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "close": 205.03,
+    "change_pct": -15.24,
+    "our_stories": [
+     "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/"
+    ]
+   },
+   {
+    "ticker": "FDXF",
+    "name": "FedEx Freight",
+    "close": 126.04,
+    "change_pct": 14.91,
+    "our_stories": []
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 1150.89,
+    "change_pct": -13.47,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+     "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/"
+    ]
+   },
+   {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals",
+    "close": 927.89,
+    "change_pct": 13.33,
+    "our_stories": [
+     "/news/2026-11-01/regeneron-regn-beats-q3-estimates-and-has-its-best-day-since-2022/",
+     "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/"
+    ]
+   },
+   {
+    "ticker": "GPN",
+    "name": "Global Payments",
+    "close": 96.84,
+    "change_pct": 12.97,
+    "our_stories": []
+   },
+   {
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "close": 235.27,
+    "change_pct": -11.5,
+    "our_stories": []
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "close": 210.32,
+    "change_pct": -11.34,
+    "our_stories": []
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "close": 164.79,
+    "change_pct": -11.12,
+    "our_stories": [
+     "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+     "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+     "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 258.7,
+    "change_pct": -10.93,
+    "our_stories": [
+     "/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/"
+    ]
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "AbbVie (ABBV) Tops Q3 Estimates as Skyrizi and Rinvoq Grow 23%",
+    "path": "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "AI Is Moving Ad Money Away From Google Search: What the Evidence Says",
+    "path": "/news/2026-11-01/ai-is-moving-ad-money-away-from-google-search-what-the-evidence-says/",
+    "type": "narrative",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Apple (AAPL) Became Wall Street's AI Haven. Is the Business Worth the Price?",
+    "path": "/news/2026-11-01/apple-aapl-became-wall-streets-ai-haven-is-the-business-worth-the-price/",
+    "type": "breakdown",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "AstraZeneca (AZN) Tops Q3 Estimates and Shares Jump 7% on a Savings Plan",
+    "path": "/news/2026-11-01/astrazeneca-azn-tops-q3-estimates-and-shares-jump-7-on-a-savings-plan/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "BP (BP) Tops Q3 Estimates With Its Highest Profit in 18 Years",
+    "path": "/news/2026-11-01/bp-bp-tops-q3-estimates-with-its-highest-profit-in-18-years/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Bulls vs Bears on ServiceNow (NOW): Is AI Breaking the Software Model?",
+    "path": "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/",
+    "type": "viewpoints",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Cameco (CCJ) Misses Q3 Estimates and Trims Its Uranium Output Forecast",
+    "path": "/news/2026-11-01/cameco-ccj-misses-q3-estimates-and-trims-its-uranium-output-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Cboe Global Markets (CBOE) Tops Q3 Estimates as Options Revenue Grows 23%",
+    "path": "/news/2026-11-01/cboe-global-markets-cboe-tops-q3-estimates-as-options-revenue-grows-23/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Church & Dwight (CHD) Tops Q3 Estimates as Organic Sales Grow 5.1%",
+    "path": "/news/2026-11-01/church-dwight-chd-tops-q3-estimates-as-organic-sales-grow-5-1/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Colgate-Palmolive (CL) Tops Q3 Estimates and Raises the Floor of Its Sales Forecast",
+    "path": "/news/2026-11-01/colgate-palmolive-cl-tops-q3-estimates-and-raises-the-floor-of-its-sales-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Dominion Energy (D) Tops Q3 Estimates as Data-Center Contracts Reach 54.9 Gigawatts",
+    "path": "/news/2026-11-01/dominion-energy-d-tops-q3-estimates-as-data-center-contracts-reach-54-9-gigawatts/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Exelon (EXC) Tops Q3 Estimates and Narrows Its 2026 Profit Forecast Upward",
+    "path": "/news/2026-11-01/exelon-exc-tops-q3-estimates-and-narrows-its-2026-profit-forecast-upward/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Exxon Mobil (XOM) Tops Q3 Estimates as Refining Profit More Than Doubles",
+    "path": "/news/2026-11-01/exxon-mobil-xom-tops-q3-estimates-as-refining-profit-more-than-doubles/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "General Dynamics (GD) Tops Q3 Estimates as Backlog Hits a Record $220 Billion",
+    "path": "/news/2026-11-01/general-dynamics-gd-tops-q3-estimates-as-backlog-hits-a-record-220-billion/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Kenvue (KVUE) Grows Organic Sales 2.9% in Q3 as Its Kimberly-Clark Deal Nears",
+    "path": "/news/2026-11-01/kenvue-kvue-grows-organic-sales-2-9-in-q3-as-its-kimberly-clark-deal-nears/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "LyondellBasell (LYB) Misses Q3 Estimates, but Shares Jump 5% on Cash Flow",
+    "path": "/news/2026-11-01/lyondellbasell-lyb-misses-q3-estimates-but-shares-jump-5-on-cash-flow/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Meta (META) Now Spends More Than It Makes in Cash. Is the Business Still Strong?",
+    "path": "/news/2026-11-01/meta-meta-now-spends-more-than-it-makes-in-cash-is-the-business-still-strong/",
+    "type": "breakdown",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Regeneron (REGN) Beats Q3 Estimates and Has Its Best Day Since 2022",
+    "path": "/news/2026-11-01/regeneron-regn-beats-q3-estimates-and-has-its-best-day-since-2022/",
+    "type": "earnings-recap",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Wall Street Is Buying Insurance on the AI Boom Before Apple and AMD Report",
+    "path": "/daily/2026-11-01/",
+    "type": "daily",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Diamondback Energy's (FANG) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-diamondback-energys-fang-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Entergy's (ETR) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-entergys-etr-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Marriott's (MAR) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-marriotts-mar-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Realty Income's (O) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-realty-incomes-o-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Vertex's (VRTX) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-vertexs-vrtx-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "What to Expect From Williams's (WMB) Q3 Earnings",
+    "path": "/news/2026-11-01/what-to-expect-from-williams-wmb-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "3 Big Tech Stocks We Like and 1 We'd Skip After Earnings",
+    "path": "/news/2026-10-31/3-big-tech-stocks-we-like-and-1-wed-skip-after-earnings/",
+    "type": "list",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "3 Chip Stocks We'd Skip and 1 We Like After Friday's Rout",
+    "path": "/news/2026-10-31/3-chip-stocks-wed-skip-and-1-we-like-after-fridays-rout/",
+    "type": "list",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "After the AI Selloff, Wall Street Pays the Least for the Fastest Growth",
+    "path": "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "AI Memory for 2027 Is Sold Out Before It's Made: What the Evidence Says",
+    "path": "/news/2026-10-31/ai-memory-for-2027-is-sold-out-before-its-made-what-the-evidence-says/",
+    "type": "narrative",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "AI Spending Is Carrying US Growth. What Would a Pullback Mean?",
+    "path": "/news/2026-10-31/ai-spending-is-carrying-us-growth-what-would-a-pullback-mean/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Alphabet (GOOGL) Is in Talks to Join the $185 Billion Golden Dome, Bloomberg Reports",
+    "path": "/news/2026-10-31/alphabet-googl-is-in-talks-to-join-the-185-billion-golden-dome-bloomberg-reports/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Anthropic's $100 Billion IPO Got Harder to Price in the AI Selloff",
+    "path": "/news/2026-10-31/anthropics-100-billion-ipo-got-harder-to-price-in-the-ai-selloff/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Bulls vs Bears on Memory Stocks: Is This Cycle Really Different?",
+    "path": "/news/2026-10-31/bulls-vs-bears-on-memory-stocks-is-this-cycle-really-different/",
+    "type": "viewpoints",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Bulls vs Bears on the AI Chip Selloff: A Normal Pullback or the Peak?",
+    "path": "/news/2026-10-31/bulls-vs-bears-on-the-ai-chip-selloff-a-normal-pullback-or-the-peak/",
+    "type": "viewpoints",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Free Cash Flow Is Now the Scorecard for AI Spenders: What the Evidence Says",
+    "path": "/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/",
+    "type": "narrative",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Hackers Took About $6.3 Billion From Binance, the Biggest Crypto Theft on Record",
+    "path": "/news/2026-10-31/hackers-took-about-6-3-billion-from-binance-the-biggest-crypto-theft-on-record/",
+    "type": "brief",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Intel (INTC) Lost 28.6% in a Day. Is the Business Broken?",
+    "path": "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/",
+    "type": "breakdown",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Intel's Worst Day Since 1974 Capped the Nasdaq's Worst Month Since March 2025",
+    "path": "/daily/2026-10-31/",
+    "type": "daily",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Korea's KOSPI Jumped 6.6%, Then Fell 3.5%. How Seoul's Week Set Up the Chip Rout",
+    "path": "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/",
+    "type": "analysis",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Memory Chip Prices Are Still Rising, Just More Slowly",
+    "path": "/news/2026-10-31/memory-chip-prices-are-still-rising-just-more-slowly/",
+    "type": "chart",
+    "date": "2026-10-31"
+   }
+  ],
+  "reporting_today": [
+   {
+    "ticker": "AAPL",
+    "time": "amc",
+    "eps_forecast": 1.98
+   },
+   {
+    "ticker": "PLTR",
+    "time": "amc",
+    "eps_forecast": 0.33
+   },
+   {
+    "ticker": "VRTX",
+    "time": "amc",
+    "eps_forecast": 4.36
+   },
+   {
+    "ticker": "MAR",
+    "time": "bmo",
+    "eps_forecast": 2.87
+   },
+   {
+    "ticker": "WMB",
+    "time": "amc",
+    "eps_forecast": 0.55
+   },
+   {
+    "ticker": "FANG",
+    "time": "amc",
+    "eps_forecast": 4.92
+   },
+   {
+    "ticker": "O",
+    "time": "amc",
+    "eps_forecast": 1.11
+   },
+   {
+    "ticker": "ETR",
+    "time": "bmo",
+    "eps_forecast": 1.71
+   },
+   {
+    "ticker": "IDXX",
+    "time": "bmo",
+    "eps_forecast": 3.71
+   },
+   {
+    "ticker": "EL",
+    "time": "bmo",
+    "eps_forecast": 0.52
+   }
+  ]
+ }
+}

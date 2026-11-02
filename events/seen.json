@@ -30,6 +30,12 @@
 "day": "2026-11-01",
 "kind": "daily"
 },
+"daily-2026-11-02": {
+"created": "2026-11-02T05:01:44-05:00",
+"day": "2026-11-02",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -135,6 +141,14 @@
 "day": "2026-11-01",
 "kind": "news"
 },
+"news-BABA-2026-11-02-alibaba-group-holding-limited-baba-stock": {
+"created": "2026-11-02T05:01:44-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"BABA"
+]
+},
 "news-BP-2026-11-02-ex-shell-ceo-van-beurden-to-chair-castro": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
@@ -165,6 +179,14 @@
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-SHEL-2026-11-02-shell-signs-long-term-sustainable-aviati": {
+"created": "2026-11-02T05:01:44-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"SHEL"
+]
 },
 "news-TSLA-2026-11-02-tesla-registrations-surge-across-norther": {
 "created": "2026-11-02T04:01:11-05:00",

@@ -1,0 +1,127 @@
+{
+ "id": "news-SHEL-2026-11-02-shell-signs-long-term-sustainable-aviati",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-02T05:01:44-05:00",
+ "expires": "2026-11-02T15:01:44-05:00",
+ "tickers": [
+  "SHEL"
+ ],
+ "headline_hint": "Shell: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T05:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Shell Signs Long-Term Sustainable Aviation Fuel Agreement From Planned Morocco Facility",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46I02I:0-shell-signs-long-term-sustainable-aviation-fuel-agreement-from-planned-morocco-facility/",
+    "published": "2026-11-02T04:14:16-05:00",
+    "also": [
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "Shell: Contract Covers SAF or Equivalent Volume of Hydrogenated Vegetable Oil, Plus Bionaphtha, Biopropane",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001487:0-shell-contract-covers-saf-or-equivalent-volume-of-hydrogenated-vegetable-oil-plus-bionaphtha-biopropane/",
+    "published": "2026-11-02T04:11:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Shell: Port Nador Plant Scheduled to Start Up in October 2028",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001482:0-shell-port-nador-plant-scheduled-to-start-up-in-october-2028/",
+    "published": "2026-11-02T04:10:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Shell Signs Products Offtake Agreement with Green Sky Manara for Planned Facility at Port Nador, Morocco",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001472:0-shell-signs-products-offtake-agreement-with-green-sky-manara-for-planned-facility-at-port-nador-morocco/",
+    "published": "2026-11-02T04:09:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Shell: Agreement Gives Shell Exclusive Offtake Rights for Around 150,000 Tonnes a Year of SAF",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001473:0-shell-agreement-gives-shell-exclusive-offtake-rights-for-around-150-000-tonnes-a-year-of-saf/",
+    "published": "2026-11-02T04:09:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Voting Rights and Capital",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102001354:0-voting-rights-and-capital/",
+    "published": "2026-11-02T03:51:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Metlen Energy: Cargoes Will Be Sourced Primarily From Shell's US LNG Portfolio",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261102000825_20261102000829:0-metlen-energy-cargoes-will-be-sourced-primarily-from-shell-s-us-lng-portfolio/",
+    "published": "2026-11-02T02:16:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 108.69,
+   "change_pct": 0.95,
+   "prev_close": 108.69,
+   "time": "2026-10-30",
+   "mktcap": "309.972B",
+   "pe": 9.43,
+   "fpe": 9.29,
+   "yr_high": 109.37,
+   "yr_low": 68.63,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 107.91,
+    "change_pct": -0.72,
+    "time": "2026-11-02T04:47:18.885-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SHEL",
+   "name": "Shell",
+   "date": "2026-10-30",
+   "close": 108.69,
+   "prev_close": 107.67,
+   "change_pct": 0.95,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 120,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-29",
+    "change_pct": 2.36
+   },
+   "ytd_pct": 47.92,
+   "return_1m_pct": 13.68,
+   "return_6m_pct": 22.15,
+   "return_1y_pct": 43.86,
+   "high_52w": {
+    "close": 108.69,
+    "date": "2026-10-30"
+   },
+   "low_52w": {
+    "close": 70.31,
+    "date": "2026-01-08"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 2367,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 5808441,
+   "volume_vs_20d_avg": 0.98,
+   "sentences": [
+    "Shell's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 October 2026, when the stock rose 2.4%.",
+    "The stock is up 47.9% this year, and at $108.69 it sits 0.0% below its 52-week closing high of $108.69 from 30 October 2026.",
+    "$1,000 invested in Shell five years ago would be worth $2,367 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-29/shell-shel-tops-q3-estimates-as-refining-margins-hit-a-record/"
+  ]
+ }
+}
