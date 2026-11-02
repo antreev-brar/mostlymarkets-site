@@ -2,7 +2,7 @@
 title = "Marriott (MAR) Beats Q3 Estimates and Raises Its 2026 Profit Forecast"
 dek = "Marriott earned $3.02 a share on an adjusted basis, above the $2.84 analysts expected, as US room revenue grew 7.4%. It lifted its 2026 EPS forecast to as much as $12.14, and the stock rose 2.7% before the open."
 type = "earnings-recap"
-published = 2026-11-02T07:50:00-05:00
+published = 2026-11-02T07:32:00-05:00
 author = "claire-okafor"
 tickers = ["MAR", "HLT"]
 event = "recap-MAR-2026-11-02"
