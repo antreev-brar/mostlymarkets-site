@@ -350,17 +350,18 @@ Use short, stable keys (`ai-capex`, `memory-cycle`, `hbm-pricing`, `fed-rates`, 
 
 ## Covers
 
-Every story gets its own cover: **a maximalist, hyper-detailed satirical painting that shows what the story is about**,
+Every story gets its own cover: **a busy modern comic that shows what the story is about**,
 the way SemiAnalysis's densest covers do: one big labelled gag a reader gets in a second, even in a 300 px feed card or a
 104 px phone square, and the whole frame crammed edge to edge with figures, machines and side stories from the article that
-reward close study. Every cover is drawn in one house look, a painterly digital "grand narrative mural" in rich modern
-colours under golden-hour and electric-blue light (`HOUSE_SHORT` in `pipeline/covers.py` adds it; the owner chose it on 2 Nov
-2026 over 3D, vintage-cartoon and flat-cartoon looks), for free on AI Horde with a model that can letter big signs.
+reward close study. Every cover is drawn in one house look, a modern graphic-novel comic with bold ink lines, halftone
+shading and vivid colours with a neon glow (`HOUSE_SHORT` in `pipeline/covers.py` adds it; on 3 Nov 2026 the owner chose
+it over 3D, vintage-cartoon, flat-cartoon and digital-painting looks), for free on AI Horde with a model that can letter
+big signs.
 `.github/workflows/covers.yml` draws it after each push. Write the scene in the front matter:
 
 ```toml
 cover_brief = "A busy maximalist cartoon of a giant muddy building site for an AI data centre, packed edge to edge: in the centre a huge steel strongbox with a big flat plaque on its side reading 'META', hangs from a crane and tips forward, pouring its last gold coins into the open roof of a half-built hall crammed with glowing server racks. Directly above it, from the crane arm, hangs a big sign reading 'CASH BURN', while all around builders on scaffolding wave for more coins, a grey-haired ad salesman cranks an overflowing cash register as plain ad flyers fly out, a printing press spits plain share certificates onto a teetering stack that topples onto shareholders in suits, a ballot box with its slot taped shut sits on top of the stack, trucks of server racks queue past the gate, an accountant on a ladder stares at a very long receipt, engineers carry giant cooling fans, a coffee cart serves tired workers, a pigeon steals a coin and a banker with binoculars watches from a balcony"
-cover_alt = "A painting of a crane tipping the last gold coins from a META strongbox into a half-built data centre under a CASH BURN sign"
+cover_alt = "A cartoon of a crane tipping the last gold coins from a META strongbox into a half-built data centre under a CASH BURN sign"
 cover_text = ["META", "CASH BURN"]
 ```
 
@@ -435,6 +436,6 @@ cover_text = ["META", "CASH BURN"]
 
 Write the brief in 130–180 words: start "A busy maximalist cartoon of <setting>, packed edge to edge:", then the hero, its
 action and its labels (the model reads the start most closely), then the people, then the twelve to sixteen details. `cover_alt` says plainly what the picture shows,
-writing included, under 125 characters, starting "A painting". The covers job checks each picture for the `cover_text`
+writing included, under 125 characters, starting "A cartoon". The covers job checks each picture for the `cover_text`
 strings and stray writing and redraws it when they're wrong. Story pages caption every cover "Image: AI-generated". A
 story without a brief borrows one of the 56 topic pictures in `assets/covers/` until its cover is drawn.

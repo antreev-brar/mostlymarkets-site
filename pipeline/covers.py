@@ -1,6 +1,7 @@
-"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: a maximalist, hyper-detailed
-satirical digital painting that shows what the story is about, with its company and key word or figure lettered on big
-signs and the frame crammed with side stories from the article (see HOUSE_SHORT and docs/STYLE.md, "Covers").
+"""AI covers for stories (front matter `cover_brief`), in the Mostly Markets house style: a busy modern comic
+illustration (bold ink lines, halftone shading, vivid colours with a glow) that shows what the story is about, with its
+company and key word or figure lettered on big signs and the frame crammed with side stories from the article (see
+HOUSE_SHORT and docs/STYLE.md, "Covers").
 
     python3 pipeline/covers.py                 # every story with no cover yet, or whose brief has changed since
     python3 pipeline/covers.py --only <slug>   # one story (re-draws it with --force)
@@ -42,19 +43,19 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/covers/story"
 PROVIDER = os.environ.get("MM_IMAGE_PROVIDER", "horde")
 
-# The house style (since 2 Nov 2026, v10): a maximalist, hyper-detailed satirical digital painting that shows what the
-# story is about, the way SemiAnalysis's densest covers do: one big labelled gag in the centre (the company's name and the
-# key word, year or whole number on big flat signs) and the whole frame crammed with figures, machines and side stories
-# from the article that reward close study. The owner turned down a 3D animated-film look ("kind of pixar"), a vintage
-# ink-and-watercolour cartoon ("old, not modern day colours") and flat bright cartoons ("childish"), and chose this look,
-# "like the semi analysis one", from 30 test covers on 2 Nov 2026 (research/2026-11-02-v10-cartoon). Never real or
+# The house style (since 3 Nov 2026, v10): a busy modern comic, "D, modern comic, halftones and glow" on the style
+# sheet (research/2026-11-02-v10-cartoon/modern-styles-A-to-F.jpg), drawn the way SemiAnalysis's densest covers are: one
+# big labelled gag in the centre (the company's name and the key word, year or whole number on big flat signs) and the
+# frame crammed with grown-up figures and side stories from the article. The owner turned down a 3D animated-film look
+# ("kind of pixar"), a vintage ink-and-watercolour cartoon ("old, not modern day colours"), and, once 25 of them were
+# drawn, a maximalist digital painting: "these covers were ass, modern comic were better" (3 Nov 2026). Never real or
 # recognisable people. The brief comes first and the style stays short: the models read the start most closely.
 HOUSE_SHORT = (
-    "A maximalist hyper-detailed digital painting of a satirical epic scene, like a grand narrative mural: painterly realism "
-    "with crisp fine detail and intricate textures, cinematic golden-hour light mixed with cool electric blue, rich saturated "
-    "modern colours, the frame crammed edge to edge with dozens of grown-up figures, machines and side stories that reward "
-    "close study, the main subject big and clear in the centre, crisp lettering painted exactly as quoted on the signs and "
-    "banners, every other surface plain, full bleed edge to edge, no border, no signature."
+    "Highly detailed modern graphic-novel illustration: bold confident ink lines, halftone dot shading, vivid saturated "
+    "colours with glowing neon highlights and dramatic rim lighting, a dynamic camera angle, grown-up characters with big "
+    "expressive faces and lively poses, a crowded scene packed with small funny story details that reward a close look, "
+    "crisp bold sans-serif lettering spelled exactly as quoted on the signs and banners, every other surface plain, full "
+    "bleed edge to edge, no border, no signature."
 )
 HOUSE = HOUSE_SHORT + " Scene: "  # the paid provider takes the style first
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
