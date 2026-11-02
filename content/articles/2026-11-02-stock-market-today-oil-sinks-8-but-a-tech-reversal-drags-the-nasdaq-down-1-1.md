@@ -2,7 +2,7 @@
 title = "Stock Market Today: Oil Sinks 8%, but a Tech Reversal Drags the Nasdaq Down 1.1%"
 dek = "US crude fell 7.9% on Iran diplomacy and lifted the Dow 0.41%, but the Nasdaq gave up a 1.4% morning gain to close down 1.07% as Lumentum sank 18.6%."
 type = "market-wrap"
-published = 2026-11-02T16:40:00-05:00
+published = 2026-11-02T16:28:13-05:00
 author = "nora-whitfield"
 tickers = []
 event = "wrap-2026-11-02"

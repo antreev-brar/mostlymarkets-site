@@ -155,5 +155,8 @@
   "sec_filing": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/0001321655-26-000045-index.htm",
   "release_text": "events/packs/recap-PLTR-2026-11-02.txt",
   "release_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
- }
+ },
+ "outcome": "written",
+ "closed": "2026-11-02T16:30:08-05:00",
+ "story": "content/articles/2026-11-02-palantir-pltr-beats-q3-estimates-as-us-commercial-sales-overtake-government.md"
 }
