@@ -256,10 +256,11 @@ LABEL = re.compile(r"(?<![A-Za-z])'([^']{1,40})'(?![A-Za-z])")
 
 def normalize_brief(brief: str) -> str:
     """Fix what the image models letter badly before drawing (STYLE.md "Covers", rules 2 and 9), whoever wrote the brief:
-    a % sign becomes the word PERCENT ('87%' came out '87A'); a quoted label never ends a sentence (the model paints the
+    a quoted label never ends a sentence (the model paints the
     next sentence's first word onto the sign: 'CASH A'); a sign "beside it" moves "directly above it" (beside lands the
     sign at the frame's edge, where phones crop it)."""
-    brief = LABEL.sub(lambda m: "'" + re.sub(r"(\d)\s*%", r"\1 PERCENT", m.group(1)) + "'", brief)
+    # A % sign stays as written: the comic style letters '87%' cleanly and mangles the word PERCENT ('PERC%T', '65 PERCOT',
+    # 3 Nov 2026), so the old rewrite of % into PERCENT is gone.
     brief = re.sub(r"((?<![A-Za-z])'[^']{1,40}'(?![A-Za-z]))(\s*)([.;!?])(\s|$)", r"\1 in bold capitals\3\4", brief)
     brief = re.sub(r"\b([Bb])eside (it|them)\b(?=[^.]*\b(sign|screen|banner|board)\b)",
                    lambda m: ("D" if m.group(1) == "B" else "d") + f"irectly above {m.group(2)}", brief)
