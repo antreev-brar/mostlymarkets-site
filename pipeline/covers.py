@@ -57,6 +57,10 @@ HOUSE_SHORT = (
     "crisp bold sans-serif lettering spelled exactly as quoted on the signs and banners, every other surface plain, full "
     "bleed edge to edge, no border, no signature."
 )
+# The model follows the start of the prompt most closely: a brief that opens on a real place or one big object came back
+# as a photo or a flat, empty render about one time in three. Opening every prompt with this anchor as well kept the same
+# briefs and seeds in the comic style (3 Nov 2026, four stubborn covers, edge density 0.15-0.27 without it, 0.27-0.33 with).
+HOUSE_ANCHOR = "Modern graphic-novel comic illustration with bold ink lines and halftone dot shading, not a photograph: "
 HOUSE = HOUSE_SHORT + " Scene: "  # the paid provider takes the style first
 UA = "Mozilla/5.0 (compatible; mostlymarkets-covers/1.0; +https://mostlymarkets.org)"
 
@@ -132,7 +136,7 @@ def _horde_cancel(gid: str) -> None:
 
 
 def generate_horde(brief: str) -> tuple[bytes, dict]:
-    prompt = brief.strip().rstrip(".") + ". " + HOUSE_SHORT
+    prompt = HOUSE_ANCHOR + brief.strip().rstrip(".") + ". " + HOUSE_SHORT
     for attempt in range(3):
         try:
             if time.time() >= DEADLINE:
