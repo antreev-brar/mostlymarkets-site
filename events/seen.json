@@ -373,6 +373,60 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-AMD-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"outcome": "already-written"
+},
+"preview-AME-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"AME"
+]
+},
+"preview-AMGN-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"AMGN"
+]
+},
+"preview-ANET-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"ANET"
+]
+},
+"preview-APO-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"APO"
+]
+},
+"preview-BKNG-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"BKNG"
+]
+},
+"preview-ETN-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"ETN"
+]
+},
 "preview-ETR-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
@@ -383,20 +437,50 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-KDP-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"KDP"
+]
+},
 "preview-MAR-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
 "kind": "earnings-preview"
+},
+"preview-MPC-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"MPC"
+]
 },
 "preview-O-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-PFE-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"PFE"
+]
+},
 "preview-PLTR-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
 "kind": "earnings-preview"
+},
+"preview-SHOP-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"outcome": "already-written"
 },
 "preview-VRTX-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
@@ -407,6 +491,14 @@
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
 "kind": "earnings-preview"
+},
+"preview-XYZ-2026-11-03": {
+"created": "2026-11-02T17:30:15-05:00",
+"day": "2026-11-02",
+"kind": "earnings-preview",
+"tickers": [
+"XYZ"
+]
 },
 "recap-AAPL-2026-11-02": {
 "created": "2026-11-02T16:45:17-05:00",

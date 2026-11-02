@@ -1,0 +1,87 @@
+{
+ "id": "preview-AMGN-2026-11-03",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-02T17:30:15-05:00",
+ "expires": "2026-11-03T15:30:00-05:00",
+ "tickers": [
+  "AMGN"
+ ],
+ "headline_hint": "What to expect from Amgen's (AMGN) earnings",
+ "instructions": "Reports Tuesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-02T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "AMGN",
+   "name": "Amgen Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 5.74,
+   "n_estimates": 9,
+   "eps_last_year": 5.64,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 251939914000.0
+  },
+  "report_date": "2026-11-03",
+  "quote": {
+   "price": 465.45,
+   "change_pct": -0.12,
+   "prev_close": 466.01,
+   "time": "2026-11-02T16:00:00.000-0500",
+   "mktcap": "251.637B",
+   "pe": 28.91,
+   "fpe": 19.73,
+   "yr_high": 475.65,
+   "yr_low": 292.12,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 467.0,
+    "change_pct": 0.33,
+    "time": "2026-11-02T16:59:37.985-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AMGN",
+   "name": "Amgen",
+   "date": "2026-11-02",
+   "close": 465.45,
+   "prev_close": 466.01,
+   "change_pct": -0.12,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 231,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-23",
+    "change_pct": -1.79
+   },
+   "ytd_pct": 42.2,
+   "return_1m_pct": 15.48,
+   "return_6m_pct": 43.72,
+   "return_1y_pct": 59.4,
+   "high_52w": {
+    "close": 466.01,
+    "date": "2026-10-30"
+   },
+   "low_52w": {
+    "close": 296.3,
+    "date": "2025-11-03"
+   },
+   "pct_below_52w_high": 0.12,
+   "thousand_dollars_5y_ago_now": 2172,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 2841715,
+   "volume_vs_20d_avg": 1.09,
+   "sentences": [
+    "Amgen's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 October 2026, when the stock fell 1.8%.",
+    "The stock is up 42.2% this year, and at $465.45 it sits 0.1% below its 52-week closing high of $466.01 from 30 October 2026.",
+    "$1,000 invested in Amgen five years ago would be worth $2,172 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

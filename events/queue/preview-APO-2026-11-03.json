@@ -1,0 +1,100 @@
+{
+ "id": "preview-APO-2026-11-03",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-02T17:30:15-05:00",
+ "expires": "2026-11-03T09:00:00-05:00",
+ "tickers": [
+  "APO"
+ ],
+ "headline_hint": "What to expect from Apollo Global Management's (APO) earnings",
+ "instructions": "Reports Tuesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-02T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "APO",
+   "name": "Apollo Global Management, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.04,
+   "n_estimates": 8,
+   "eps_last_year": 1.9,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 68408521000.0
+  },
+  "report_date": "2026-11-03",
+  "quote": {
+   "price": 119.46,
+   "change_pct": 3.12,
+   "prev_close": 115.84,
+   "time": "2026-11-02T16:10:00.000-0500",
+   "mktcap": "70.546B",
+   "pe": 44.32,
+   "fpe": 12.36,
+   "yr_high": 153.29,
+   "yr_low": 99.56,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 119.46,
+    "change_pct": 0.0,
+    "time": "2026-11-02T16:33:51.512-0500"
+   }
+  },
+  "facts": {
+   "ticker": "APO",
+   "name": "Apollo Global Management",
+   "date": "2026-11-02",
+   "close": 119.46,
+   "prev_close": 115.84,
+   "change_pct": 3.12,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 41,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-29",
+    "change_pct": 4.5
+   },
+   "ytd_pct": -17.48,
+   "return_1m_pct": 4.77,
+   "return_6m_pct": -7.53,
+   "return_1y_pct": -3.23,
+   "high_52w": {
+    "close": 152.7,
+    "date": "2026-01-06"
+   },
+   "low_52w": {
+    "close": 100.3,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 21.77,
+   "thousand_dollars_5y_ago_now": 1563,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 5104261,
+   "volume_vs_20d_avg": 1.42,
+   "sentences": [
+    "Apollo Global Management's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 October 2026, when the stock rose 4.5%.",
+    "The stock is down 17.5% this year, and at $119.46 it sits 21.8% below its 52-week closing high of $152.70 from 6 January 2026.",
+    "$1,000 invested in Apollo Global Management five years ago would be worth $1,563 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-02/blackstone-bx-leads-a-3-1-billion-investment-in-mitsubishis-lng-canada-stake/",
+    "date": "2026-11-02",
+    "title": "Blackstone (BX) Leads a $3.1 Billion Investment in Mitsubishi's LNG Canada Stake",
+    "type": "brief",
+    "tickers": [
+     "BX",
+     "SHEL",
+     "APO",
+     "KKR"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

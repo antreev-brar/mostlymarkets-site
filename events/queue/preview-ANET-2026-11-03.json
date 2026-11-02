@@ -1,0 +1,87 @@
+{
+ "id": "preview-ANET-2026-11-03",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-02T17:30:15-05:00",
+ "expires": "2026-11-03T15:30:00-05:00",
+ "tickers": [
+  "ANET"
+ ],
+ "headline_hint": "What to expect from Arista Networks's (ANET) earnings",
+ "instructions": "Reports Tuesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-02T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ANET",
+   "name": "Arista Networks, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.99,
+   "n_estimates": 9,
+   "eps_last_year": 0.67,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 212970390000.0
+  },
+  "report_date": "2026-11-03",
+  "quote": {
+   "price": 164.14,
+   "change_pct": -2.8,
+   "prev_close": 168.86,
+   "time": "2026-11-02T16:10:00.000-0500",
+   "mktcap": "207.017B",
+   "pe": 51.76,
+   "fpe": 35.36,
+   "yr_high": 217.41,
+   "yr_low": 114.52,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 165.38,
+    "change_pct": 0.76,
+    "time": "2026-11-02T16:46:55.600-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "date": "2026-11-02",
+   "close": 164.14,
+   "prev_close": 168.86,
+   "change_pct": -2.8,
+   "moves_over_5pct_last_year": 33,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 103,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -8.34
+   },
+   "ytd_pct": 25.27,
+   "return_1m_pct": -20.84,
+   "return_6m_pct": -4.91,
+   "return_1y_pct": 3.6,
+   "high_52w": {
+    "close": 216.74,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 116.13,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 24.27,
+   "thousand_dollars_5y_ago_now": 5339,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 6789841,
+   "volume_vs_20d_avg": 1.13,
+   "sentences": [
+    "Arista Networks's shares moved 5% or more on 33 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 8.3%.",
+    "The stock is up 25.3% this year, and at $164.14 it sits 24.3% below its 52-week closing high of $216.74 from 9 October 2026.",
+    "$1,000 invested in Arista Networks five years ago would be worth $5,339 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

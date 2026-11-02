@@ -1,0 +1,87 @@
+{
+ "id": "preview-ETN-2026-11-03",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-02T17:30:15-05:00",
+ "expires": "2026-11-03T09:00:00-05:00",
+ "tickers": [
+  "ETN"
+ ],
+ "headline_hint": "What to expect from Eaton's (ETN) earnings",
+ "instructions": "Reports Tuesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-02T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ETN",
+   "name": "Eaton Corporation, PLC",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.54,
+   "n_estimates": 10,
+   "eps_last_year": 3.07,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 143696347000.0
+  },
+  "report_date": "2026-11-03",
+  "quote": {
+   "price": 366.07,
+   "change_pct": -1.05,
+   "prev_close": 369.97,
+   "time": "2026-11-02T16:10:00.000-0500",
+   "mktcap": "142.182B",
+   "pe": 36.75,
+   "fpe": 24.15,
+   "yr_high": 478.0,
+   "yr_low": 311.92,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 367.23,
+    "change_pct": 0.32,
+    "time": "2026-11-02T17:21:17.009-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ETN",
+   "name": "Eaton",
+   "date": "2026-11-02",
+   "close": 366.07,
+   "prev_close": 369.97,
+   "change_pct": -1.05,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 145,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -6.03
+   },
+   "ytd_pct": 14.93,
+   "return_1m_pct": -16.06,
+   "return_6m_pct": -13.34,
+   "return_1y_pct": -4.44,
+   "high_52w": {
+    "close": 459.96,
+    "date": "2026-08-12"
+   },
+   "low_52w": {
+    "close": 315.82,
+    "date": "2025-12-17"
+   },
+   "pct_below_52w_high": 20.41,
+   "thousand_dollars_5y_ago_now": 2133,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 3059990,
+   "volume_vs_20d_avg": 1.21,
+   "sentences": [
+    "Eaton's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 6.0%.",
+    "The stock is up 14.9% this year, and at $366.07 it sits 20.4% below its 52-week closing high of $459.96 from 12 August 2026.",
+    "$1,000 invested in Eaton five years ago would be worth $2,133 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}
