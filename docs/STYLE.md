@@ -416,6 +416,19 @@ cover_text = ["META", "CASH BURN"]
    - Big flat signs, banners and calendar pages letter cleanly; curved bodies, small objects and crowded placards don't.
    - Keep labels apart: two labels in the same corner merge into one garbled sign.
    - Describe one hero action, not a list of five: the model drops most of a long list.
+   - (2 Nov, the first painted covers) A label on a curved or small surface (a vest, race bib, hull, robot chest, hub
+     cap, cabinet top, plaque on a small base) comes out tiny or misspelled ('SPEDING', 'GENERAL DYAMICS'): put every
+     label on a big flat sign, board or banner at least a quarter of the frame wide, facing the viewer, fixed straight
+     across the hero or hung directly above it, never on a side wall or balcony, where it drifts to the frame's edge.
+   - "Grown" alone still gives schoolboys and teens: give every person or group an adult marker (grey-haired, bearded,
+     balding, middle-aged, in a suit).
+   - Words with a literal second meaning get drawn literally ('sheepish' gave a sheep, 'red-faced' an all-red figure):
+     say it plainly. Ranks of uniformed people come out child-like: show a few grown individuals.
+   - Vehicles and products pick up real badges (Mercedes stars on vans): say "plain unbadged". A brand with a famous
+     logo gets the logo in place of a letter ('NVIDIA' became the eye logo plus 'VIDIA'): ask for its name "in plain
+     block capitals with no logo". A blank tag, ticket or screen gets a made-up number: call it blank or leave it out.
+   - Open with the crowd and the action: a brief that starts on one object can come back as a lone product shot or an
+     empty flat scene with no lettering.
 10. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs
    (`grep -h '^cover_brief' content/articles/*.md | tail -40`) and don't repeat their gag, hero or setting within three
    days: runaway trains, sinking ships, rockets and boxing rings are the easy repeats.
