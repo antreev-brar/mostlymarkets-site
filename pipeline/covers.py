@@ -102,6 +102,13 @@ def _horde(path: str, body: dict | None = None) -> dict:
                 time.sleep(2 + attempt * 2)
                 continue
             raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            # A slow or dropped read: ask again rather than lose the job (one in ten draws failed this way, 3 Nov
+            # 2026). Only reads: a timed-out POST may have gone through, and sending it again would queue a second job.
+            if body is None and attempt < 7:
+                time.sleep(5 + attempt * 5)
+                continue
+            raise
 
 
 PENDING: set[str] = set()  # requests still in the queue, cancelled if the run is stopped (atexit)
