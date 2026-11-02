@@ -408,6 +408,14 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"recap-AAPL-2026-11-02": {
+"created": "2026-11-02T16:45:17-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"AAPL"
+]
+},
 "recap-ABBV-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",

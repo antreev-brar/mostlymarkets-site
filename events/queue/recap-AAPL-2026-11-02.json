@@ -1,0 +1,149 @@
+{
+ "id": "recap-AAPL-2026-11-02",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 82,
+ "created": "2026-11-02T16:45:17-05:00",
+ "expires": "2026-11-03T20:00:00-05:00",
+ "tickers": [
+  "AAPL"
+ ],
+ "headline_hint": "Apple (AAPL) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-02T16:45:12-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "AAPL",
+   "name": "Apple Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.98,
+   "n_estimates": 7,
+   "eps_last_year": 1.85,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 5029592300000.0
+  },
+  "quote": {
+   "price": 338.32,
+   "change_pct": -1.83,
+   "prev_close": 344.63,
+   "time": "2026-11-02T16:15:00.000-0500",
+   "mktcap": "4.938T",
+   "pe": 38.93,
+   "fpe": 36.77,
+   "yr_high": 351.73,
+   "yr_low": 243.42,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 338.04,
+    "change_pct": -0.08,
+    "time": "2026-11-02T16:45:00.464-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "date": "2026-11-02",
+   "close": 338.32,
+   "prev_close": 344.63,
+   "change_pct": -1.83,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 42,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-29",
+    "change_pct": -2.66
+   },
+   "ytd_pct": 24.45,
+   "return_1m_pct": 1.39,
+   "return_6m_pct": 22.21,
+   "return_1y_pct": 24.66,
+   "high_52w": {
+    "close": 348.91,
+    "date": "2026-10-29"
+   },
+   "low_52w": {
+    "close": 246.63,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 3.04,
+   "thousand_dollars_5y_ago_now": 2255,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 49643317,
+   "volume_vs_20d_avg": 1.23,
+   "sentences": [
+    "Apple's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 September 2026, when the stock fell 2.7%.",
+    "The stock is up 24.4% this year, and at $338.32 it sits 3.0% below its 52-week closing high of $348.91 from 29 October 2026.",
+    "$1,000 invested in Apple five years ago would be worth $2,255 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-02/",
+    "date": "2026-11-02",
+    "title": "Oil Fell Below $100 Over the Weekend as Apple and Palantir Open the Week's Tests",
+    "type": "daily",
+    "tickers": [
+     "AAPL",
+     "PLTR",
+     "META",
+     "XOM",
+     "COP",
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/apple-aapl-tops-q4-estimates-with-114-5-billion-of-revenue-in-ternuss-first-report/",
+    "date": "2026-11-02",
+    "title": "Apple (AAPL) Tops Q4 Estimates With $114.5 Billion of Revenue in Ternus's First Report",
+    "type": "brief",
+    "tickers": [
+     "AAPL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/alibaba-baba-shares-jump-after-apple-picks-its-qwen-ai-for-iphones-in-china/",
+    "date": "2026-11-02",
+    "title": "Alibaba (BABA) Shares Jump After Apple Picks Its Qwen AI for iPhones in China",
+    "type": "why-it-moved",
+    "tickers": [
+     "BABA",
+     "AAPL",
+     "PDD",
+     "BIDU"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-01/",
+    "date": "2026-11-01",
+    "title": "Wall Street Is Buying Insurance on the AI Boom Before Apple and AMD Report",
+    "type": "daily",
+    "tickers": [
+     "CRWV",
+     "ORCL",
+     "AAPL",
+     "AMD",
+     "NBIS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-01/apple-aapl-became-wall-streets-ai-haven-is-the-business-worth-the-price/",
+    "date": "2026-11-01",
+    "title": "Apple (AAPL) Became Wall Street's AI Haven. Is the Business Worth the Price?",
+    "type": "breakdown",
+    "tickers": [
+     "AAPL",
+     "GOOGL"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
+  "release_text": "events/packs/recap-AAPL-2026-11-02.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
+ }
+}
