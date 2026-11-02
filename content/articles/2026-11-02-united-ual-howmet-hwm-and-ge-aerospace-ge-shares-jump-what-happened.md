@@ -2,7 +2,7 @@
 title = "United (UAL), Howmet (HWM) and GE Aerospace (GE) Shares Jump: What Happened"
 dek = "Airline and jet-engine stocks rose as much as 6.1% by 10:15 a.m. ET as US crude fell 6.8% to $97.01 on hopes for US-Iran peace talks."
 type = "why-it-moved"
-published = 2026-11-02T10:31:00-05:00
+published = 2026-11-02T10:19:30-05:00
 author = "theo-park"
 tickers = ["UAL", "HWM", "GE", "DAL", "LUV", "RCL", "XOM"]
 reason = "Macro"
