@@ -50,7 +50,7 @@ Because ad dollars from big events cost little extra to sell, most of the gain d
 
 ## The outlook
 
-Fox doesn't give quarterly revenue guidance. Its finance chief said on the call that the company expects to resume share buybacks in the current quarter, Investing.com reported, which matters for a stock trading at 10.7 times expected earnings, according to our quote data.
+Fox doesn't give quarterly revenue guidance. Its finance chief said on the call that the company expects to resume share buybacks in the current quarter, Investing.com reported, a signal of confidence in its cash flow after the event-heavy quarter.
 
 ## The long view
 
