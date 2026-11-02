@@ -397,6 +397,14 @@
 "day": "2026-10-30",
 "kind": "earnings-recap"
 },
+"recap-IDXX-2026-11-02": {
+"created": "2026-11-02T06:45:14-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"IDXX"
+]
+},
 "recap-INTC-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
