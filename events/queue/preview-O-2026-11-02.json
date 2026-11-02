@@ -1,0 +1,87 @@
+{
+ "id": "preview-O-2026-11-02",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-01T19:46:23-05:00",
+ "expires": "2026-11-02T15:30:00-05:00",
+ "tickers": [
+  "O"
+ ],
+ "headline_hint": "What to expect from Realty Income's (O) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-01T19:44:49-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "O",
+   "name": "Realty Income Corporation",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.11,
+   "n_estimates": 7,
+   "eps_last_year": 1.08,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 54123672000.0
+  },
+  "report_date": "2026-11-02",
+  "quote": {
+   "price": 56.93,
+   "change_pct": 0.0,
+   "prev_close": 56.93,
+   "time": "2026-10-30",
+   "mktcap": "53.868B",
+   "pe": 41.61,
+   "fpe": 34.71,
+   "yr_high": 67.94,
+   "yr_low": 53.15,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 56.91,
+    "change_pct": -0.04,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "O",
+   "name": "Realty Income",
+   "date": "2026-10-30",
+   "close": 56.93,
+   "prev_close": 57.2,
+   "change_pct": -0.47,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 170,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": -1.04
+   },
+   "ytd_pct": 0.99,
+   "return_1m_pct": 6.35,
+   "return_6m_pct": -10.78,
+   "return_1y_pct": -2.45,
+   "high_52w": {
+    "close": 67.56,
+    "date": "2026-03-02"
+   },
+   "low_52w": {
+    "close": 53.35,
+    "date": "2026-10-07"
+   },
+   "pct_below_52w_high": 15.73,
+   "thousand_dollars_5y_ago_now": 812,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 10046920,
+   "volume_vs_20d_avg": 1.27,
+   "sentences": [
+    "Realty Income's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock fell 1.0%.",
+    "The stock is up 1.0% this year, and at $56.93 it sits 15.7% below its 52-week closing high of $67.56 from 2 March 2026.",
+    "$1,000 invested in Realty Income five years ago would be worth $812 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

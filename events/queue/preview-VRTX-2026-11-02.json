@@ -1,0 +1,87 @@
+{
+ "id": "preview-VRTX-2026-11-02",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-01T19:46:23-05:00",
+ "expires": "2026-11-02T15:30:00-05:00",
+ "tickers": [
+  "VRTX"
+ ],
+ "headline_hint": "What to expect from Vertex Pharmaceuticals's (VRTX) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-01T19:44:49-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals Incorporated",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 4.36,
+   "n_estimates": 5,
+   "eps_last_year": 4.22,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 136868897000.0
+  },
+  "report_date": "2026-11-02",
+  "quote": {
+   "price": 558.88,
+   "change_pct": 3.5,
+   "prev_close": 540.0,
+   "time": "2026-10-30",
+   "mktcap": "141.654B",
+   "pe": 32.52,
+   "fpe": 29.26,
+   "yr_high": 563.8,
+   "yr_low": 403.16,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 554.0,
+    "change_pct": -0.87,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "date": "2026-10-30",
+   "close": 558.88,
+   "prev_close": 540.0,
+   "change_pct": 3.5,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 14,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-19",
+    "change_pct": 4.52
+   },
+   "ytd_pct": 23.28,
+   "return_1m_pct": 10.29,
+   "return_6m_pct": 31.84,
+   "return_1y_pct": 33.96,
+   "high_52w": {
+    "close": 558.88,
+    "date": "2026-10-30"
+   },
+   "low_52w": {
+    "close": 409.47,
+    "date": "2025-11-07"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 3022,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 3030027,
+   "volume_vs_20d_avg": 2.35,
+   "sentences": [
+    "Vertex Pharmaceuticals's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 19 August 2026, when the stock rose 4.5%.",
+    "The stock is up 23.3% this year, and at $558.88 it sits 0.0% below its 52-week closing high of $558.88 from 30 October 2026.",
+    "$1,000 invested in Vertex Pharmaceuticals five years ago would be worth $3,022 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

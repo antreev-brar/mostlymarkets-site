@@ -1,0 +1,142 @@
+{
+ "id": "preview-PLTR-2026-11-02",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-01T19:46:23-05:00",
+ "expires": "2026-11-02T15:30:00-05:00",
+ "tickers": [
+  "PLTR"
+ ],
+ "headline_hint": "What to expect from Palantir Technologies's (PLTR) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-01T19:44:49-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.33,
+   "n_estimates": 10,
+   "eps_last_year": 0.18,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 471811359000.0
+  },
+  "report_date": "2026-11-02",
+  "quote": {
+   "price": 184.11,
+   "change_pct": -6.27,
+   "prev_close": 196.42,
+   "time": "2026-10-30",
+   "mktcap": "442.427B",
+   "pe": 156.89,
+   "fpe": 108.11,
+   "yr_high": 212.94,
+   "yr_low": 106.37,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 184.6,
+    "change_pct": 0.27,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies",
+   "date": "2026-10-30",
+   "close": 184.11,
+   "prev_close": 196.42,
+   "change_pct": -6.27,
+   "moves_over_5pct_last_year": 38,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 23,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": -7.22
+   },
+   "ytd_pct": 3.58,
+   "return_1m_pct": -3.12,
+   "return_6m_pct": 27.79,
+   "return_1y_pct": -7.39,
+   "high_52w": {
+    "close": 209.05,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 107.27,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 11.93,
+   "thousand_dollars_5y_ago_now": 7114,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 27070010,
+   "volume_vs_20d_avg": 1.2,
+   "sentences": [
+    "Palantir Technologies's shares moved 5% or more on 38 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 7.2%.",
+    "The stock is up 3.6% this year, and at $184.11 it sits 11.9% below its 52-week closing high of $209.05 from 9 October 2026.",
+    "$1,000 invested in Palantir Technologies five years ago would be worth $7,114 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "date": "2026-10-31",
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "type": "analysis",
+    "tickers": [
+     "AAPL",
+     "AMD",
+     "ARM",
+     "QCOM",
+     "PLTR",
+     "SHOP",
+     "UBER",
+     "COP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/alphabet-googl-is-in-talks-to-join-the-185-billion-golden-dome-bloomberg-reports/",
+    "date": "2026-10-31",
+    "title": "Alphabet (GOOGL) Is in Talks to Join the $185 Billion Golden Dome, Bloomberg Reports",
+    "type": "brief",
+    "tickers": [
+     "GOOGL",
+     "GOOG",
+     "PLTR"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/",
+    "date": "2026-10-31",
+    "title": "After the AI Selloff, Wall Street Pays the Least for the Fastest Growth",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "PLTR",
+     "SNDK",
+     "INTC",
+     "ARM",
+     "AVGO",
+     "MU",
+     "AMD",
+     "VRT",
+     "CRWV"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/what-to-expect-from-palantirs-pltr-q3-earnings/",
+    "date": "2026-10-29",
+    "title": "What to Expect From Palantir's (PLTR) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "PLTR"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

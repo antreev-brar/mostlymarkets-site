@@ -1,0 +1,87 @@
+{
+ "id": "preview-WMB-2026-11-02",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-01T19:46:23-05:00",
+ "expires": "2026-11-02T15:30:00-05:00",
+ "tickers": [
+  "WMB"
+ ],
+ "headline_hint": "What to expect from Williams Companies's (WMB) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-01T19:44:49-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "WMB",
+   "name": "Williams Companies, Inc. (The)",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.55,
+   "n_estimates": 8,
+   "eps_last_year": 0.49,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 91590779000.0
+  },
+  "report_date": "2026-11-02",
+  "quote": {
+   "price": 74.35,
+   "change_pct": -0.71,
+   "prev_close": 74.88,
+   "time": "2026-10-30",
+   "mktcap": "90.942B",
+   "pe": 29.75,
+   "fpe": 31.03,
+   "yr_high": 80.08,
+   "yr_low": 56.19,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 74.35,
+    "change_pct": 0.0,
+    "time": "2026-10-30"
+   }
+  },
+  "facts": {
+   "ticker": "WMB",
+   "name": "Williams Companies",
+   "date": "2026-10-30",
+   "close": 74.35,
+   "prev_close": 74.88,
+   "change_pct": -0.71,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 160,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": -2.98
+   },
+   "ytd_pct": 23.69,
+   "return_1m_pct": 7.41,
+   "return_6m_pct": -1.58,
+   "return_1y_pct": 30.48,
+   "high_52w": {
+    "close": 79.4,
+    "date": "2026-05-19"
+   },
+   "low_52w": {
+    "close": 56.51,
+    "date": "2025-11-04"
+   },
+   "pct_below_52w_high": 6.36,
+   "thousand_dollars_5y_ago_now": 2647,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 7632184,
+   "volume_vs_20d_avg": 0.95,
+   "sentences": [
+    "Williams Companies's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 3.0%.",
+    "The stock is up 23.7% this year, and at $74.35 it sits 6.4% below its 52-week closing high of $79.40 from 19 May 2026.",
+    "$1,000 invested in Williams Companies five years ago would be worth $2,647 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}
