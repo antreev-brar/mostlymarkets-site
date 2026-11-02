@@ -1,0 +1,102 @@
+{
+ "id": "recap-FANG-2026-11-02",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-02T16:15:16-05:00",
+ "expires": "2026-11-03T20:00:00-05:00",
+ "tickers": [
+  "FANG"
+ ],
+ "headline_hint": "Diamondback Energy (FANG) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-02T16:15:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "FANG",
+   "name": "Diamondback Energy, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 4.92,
+   "n_estimates": 8,
+   "eps_last_year": 3.08,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 59387564000.0
+  },
+  "quote": {
+   "price": 199.74,
+   "change_pct": -5.82,
+   "prev_close": 212.08,
+   "time": "2026-11-02T16:00:00.000-0500",
+   "mktcap": "55.932B",
+   "pe": 38.7,
+   "fpe": 9.33,
+   "yr_high": 216.9,
+   "yr_low": 137.03,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 203.36,
+    "change_pct": 1.81,
+    "time": "2026-11-02T16:04:18.880-0500"
+   }
+  },
+  "facts": {
+   "ticker": "FANG",
+   "name": "Diamondback Energy",
+   "date": "2026-11-02",
+   "close": 199.74,
+   "prev_close": 212.08,
+   "change_pct": -5.82,
+   "moves_over_5pct_last_year": 6,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-16",
+    "change_pct": -8.03
+   },
+   "ytd_pct": 32.87,
+   "return_1m_pct": 8.14,
+   "return_6m_pct": -6.53,
+   "return_1y_pct": 40.51,
+   "high_52w": {
+    "close": 213.69,
+    "date": "2026-05-04"
+   },
+   "low_52w": {
+    "close": 137.29,
+    "date": "2025-11-05"
+   },
+   "pct_below_52w_high": 6.53,
+   "thousand_dollars_5y_ago_now": 1745,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 2653384,
+   "volume_vs_20d_avg": 1.31,
+   "sentences": [
+    "Diamondback Energy's shares moved 5% or more on 6 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 September 2026, when the stock fell 8.0%.",
+    "The stock is up 32.9% this year, and at $199.74 it sits 6.5% below its 52-week closing high of $213.69 from 4 May 2026.",
+    "$1,000 invested in Diamondback Energy five years ago would be worth $1,745 today."
+   ]
+  },
+  "sector": "Energy",
+  "industry": "Oil & Gas Exploration & Production",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-01/what-to-expect-from-diamondback-energys-fang-q3-earnings/",
+    "date": "2026-11-01",
+    "title": "What to Expect From Diamondback Energy's (FANG) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "FANG",
+     "XOM",
+     "CVX"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000180/0001539838-26-000180-index.htm",
+  "release_text": "events/packs/recap-FANG-2026-11-02.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000180/diamondbackex991-11x2x26.htm"
+ }
+}

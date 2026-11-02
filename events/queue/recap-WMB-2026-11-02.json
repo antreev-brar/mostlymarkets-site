@@ -1,0 +1,100 @@
+{
+ "id": "recap-WMB-2026-11-02",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-02T16:15:16-05:00",
+ "expires": "2026-11-03T20:00:00-05:00",
+ "tickers": [
+  "WMB"
+ ],
+ "headline_hint": "Williams Companies (WMB) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-02T16:15:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "WMB",
+   "name": "Williams Companies, Inc. (The)",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.55,
+   "n_estimates": 8,
+   "eps_last_year": 0.49,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 90942505000.0
+  },
+  "quote": {
+   "price": 71.19,
+   "change_pct": -4.25,
+   "prev_close": 74.35,
+   "time": "2026-11-02T16:10:00.000-0500",
+   "mktcap": "87.077B",
+   "pe": 28.48,
+   "fpe": 29.71,
+   "yr_high": 80.08,
+   "yr_low": 56.19,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 71.0,
+    "change_pct": -0.27,
+    "time": "2026-11-02T16:13:10.993-0500"
+   }
+  },
+  "facts": {
+   "ticker": "WMB",
+   "name": "Williams Companies",
+   "date": "2026-11-02",
+   "close": 71.19,
+   "prev_close": 74.35,
+   "change_pct": -4.25,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-15",
+    "change_pct": -4.92
+   },
+   "ytd_pct": 18.43,
+   "return_1m_pct": 0.92,
+   "return_6m_pct": -5.6,
+   "return_1y_pct": 23.55,
+   "high_52w": {
+    "close": 79.4,
+    "date": "2026-05-19"
+   },
+   "low_52w": {
+    "close": 56.51,
+    "date": "2025-11-04"
+   },
+   "pct_below_52w_high": 10.34,
+   "thousand_dollars_5y_ago_now": 2508,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 8708131,
+   "volume_vs_20d_avg": 1.09,
+   "sentences": [
+    "Williams Companies's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 15 October 2026, when the stock fell 4.9%.",
+    "The stock is up 18.4% this year, and at $71.19 it sits 10.3% below its 52-week closing high of $79.40 from 19 May 2026.",
+    "$1,000 invested in Williams Companies five years ago would be worth $2,508 today."
+   ]
+  },
+  "sector": "Energy",
+  "industry": "Oil & Gas Storage & Transportation",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-01/what-to-expect-from-williams-wmb-q3-earnings/",
+    "date": "2026-11-01",
+    "title": "What to Expect From Williams's (WMB) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "WMB",
+     "KMI",
+     "OKE"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000035/0000107263-26-000035-index.htm"
+ }
+}
