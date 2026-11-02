@@ -1,0 +1,90 @@
+{
+ "id": "recap-ON-2026-11-02",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-02T16:30:15-05:00",
+ "expires": "2026-11-03T20:00:00-05:00",
+ "tickers": [
+  "ON"
+ ],
+ "headline_hint": "ON Semiconductor (ON) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-02T16:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ON",
+   "name": "ON Semiconductor Corporation",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.88,
+   "n_estimates": 11,
+   "eps_last_year": 0.63,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 27902464000.0
+  },
+  "quote": {
+   "price": 70.11,
+   "change_pct": -2.18,
+   "prev_close": 71.67,
+   "time": "2026-11-02T16:00:00.000-0500",
+   "mktcap": "27.295B",
+   "pe": 45.21,
+   "fpe": 19.91,
+   "yr_high": 134.92,
+   "yr_low": 44.56,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 65.7,
+    "change_pct": -6.29,
+    "time": "2026-11-02T16:30:05.182-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ON",
+   "name": "ON Semiconductor",
+   "date": "2026-11-02",
+   "close": 70.11,
+   "prev_close": 71.67,
+   "change_pct": -2.18,
+   "moves_over_5pct_last_year": 36,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 129,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -4.74
+   },
+   "ytd_pct": 29.47,
+   "return_1m_pct": -17.41,
+   "return_6m_pct": -31.29,
+   "return_1y_pct": 37.88,
+   "high_52w": {
+    "close": 133.93,
+    "date": "2026-06-03"
+   },
+   "low_52w": {
+    "close": 44.9,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 47.65,
+   "thousand_dollars_5y_ago_now": 1227,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 11603873,
+   "volume_vs_20d_avg": 1.15,
+   "sentences": [
+    "ON Semiconductor's shares moved 5% or more on 36 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 4.7%.",
+    "The stock is up 29.5% this year, and at $70.11 it sits 47.6% below its 52-week closing high of $133.93 from 3 June 2026.",
+    "$1,000 invested in ON Semiconductor five years ago would be worth $1,227 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/0001140361-26-041580-index.htm",
+  "release_text": "events/packs/recap-ON-2026-11-02.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/ef20084671_ex99-1.htm"
+ }
+}
