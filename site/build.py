@@ -43,7 +43,7 @@ MONTH = ["January", "February", "March", "April", "May", "June", "July", "August
          "November", "December"]
 WD = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 TYPE_LABEL = {"daily": "The Daily", "market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Why it moved",
-              "earnings-recap": "Earnings", "earnings-preview": "Earnings preview", "list": "Our picks",
+              "earnings-recap": "Earnings", "earnings-roundup": "Earnings", "earnings-preview": "Earnings preview", "list": "Our picks",
               "macro": "Economy", "chart": "Chart", "analysis": "Analysis", "narrative": "The big story",
               "viewpoints": "Bulls vs bears", "breakdown": "Deep dive", "brief": "News"}
 
@@ -389,7 +389,7 @@ class Story:
             self.cover_opts = [want, "trading-floor", "wall-street-sun", "market-screens", "wall-street-rain", "markets-calm"]
             return want
         opts: list[str] = []
-        if self.type in ("market-wrap", "macro", "chart", "movers", "list", "analysis") or not self.tickers:
+        if self.type in ("market-wrap", "macro", "chart", "movers", "list", "analysis", "earnings-roundup") or not self.tickers:
             opts = COVERS["type"].get(self.type, ["markets-calm"])
         if not opts and self.tickers:
             info = UMAP[self.tickers[0]]
@@ -419,7 +419,7 @@ class Story:
         return self.pub
 
     def weight(self) -> float:
-        base = {"daily": 7, "market-wrap": 6, "narrative": 6, "earnings-recap": 5, "macro": 5, "viewpoints": 5, "analysis": 4,
+        base = {"daily": 7, "market-wrap": 6, "narrative": 6, "earnings-recap": 5, "earnings-roundup": 4, "macro": 5, "viewpoints": 5, "analysis": 4,
                 "breakdown": 4, "why-it-moved": 3, "list": 3, "brief": 3, "earnings-preview": 2, "movers": 2,
                 "chart": 1}.get(self.type, 2)
         mv = max([abs(m["c"]) for m in self.moves if m.get("c") is not None] or [0])
@@ -1500,7 +1500,7 @@ def hero_card(s: Story, skip: set | None = None, news: list | None = None) -> st
 
 # The shelves between the home page's rows, in the order they come: (key, title, the story types, the line under the
 # title, the page that lists them all).
-SHELVES = [("earnings", "Earnings", ("earnings-recap", "earnings-preview"), "What the reports said, and how the stocks took it",
+SHELVES = [("earnings", "Earnings", ("earnings-recap", "earnings-roundup", "earnings-preview"), "What the reports said, and how the stocks took it",
             "earnings/"),
            ("moves", "Why it moved", ("why-it-moved", "movers"), "The big moves, explained", None),
            ("deep", "Deep dives", ("breakdown", "narrative", "viewpoints"), "The big stories, the debates and the businesses, tested against the evidence", None),
@@ -2598,7 +2598,7 @@ def earnings_page():
         days = [start + dt.timedelta(days=7 * w + i) for i in range(5)]
         weeks.append(f'<section class="hsec"><div class="hsec-h"><div><h2>{label}</h2><p>Week of {days[0].day} {MONTH[days[0].month - 1]}</p></div></div>'
                      f'{earnings_days(days)}</section>')
-    recaps = [s for s in STORIES if s.type in ("earnings-recap", "earnings-preview")][:12]
+    recaps = [s for s in STORIES if s.type in ("earnings-recap", "earnings-roundup", "earnings-preview")][:12]
     rec = (f'<section class="hsec"><div class="hsec-h"><div><h2>Latest earnings stories</h2></div></div>'
            f'<div class="tiles t3">{"".join(tile(x) for x in recaps)}</div></section>') if recaps else ""
     body = (f'<div class="wrap"><div class="ph"><h1>Earnings</h1><p>The big companies reporting this week and next. We publish a preview '

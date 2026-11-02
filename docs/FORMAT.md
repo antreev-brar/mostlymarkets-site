@@ -56,6 +56,7 @@ sources = [
 | `why-it-moved` | Why it moved | One stock (or a basket with one cause) moved 4%+ on news | 280–520 |
 | `movers` | Big movers | The 5 biggest moves of a session, one paragraph each, linking to their stories | 220–420 |
 | `earnings-recap` | Earnings | Results against estimates, with the highlights box | 380–750 |
+| `earnings-roundup` | Earnings | Several smaller reporters of one session: a paragraph per company (results against estimates, guidance, the stock's reaction), biggest first, then what they say together | 400–1300 |
 | `earnings-preview` | Earnings preview | What to expect before a company reports | 260–480 |
 | `list` | Our picks | "3 Stocks We Like and 1 We'd Skip" (or the reverse) on one theme | 550–1,000 |
 | `narrative` | The big story | The story Wall Street is building: thesis, evidence, counter-evidence, what would change minds, the stocks exposed | 800–1,700 |

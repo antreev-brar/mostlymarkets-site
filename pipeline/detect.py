@@ -33,7 +33,7 @@ EARLY_CLOSE = {"2026-11-27": dt.time(13, 0), "2026-12-24": dt.time(13, 0)}
 # Second share classes: we write about the main line only.
 DUP_CLASS = {"GOOG", "FOX", "NWS", "BF.B"}
 # How many stories of each kind a day can take, and the size of company we write about.
-DAILY_CAP = {"why-it-moved": 10, "basket": 2, "earnings-recap": 14, "earnings-preview": 8, "after-hours": 1, "news": 12}
+DAILY_CAP = {"why-it-moved": 10, "basket": 2, "earnings-recap": 25, "earnings-preview": 12, "after-hours": 1, "news": 12}
 # Outlets whose single report is enough to put a headline in front of the writer (others need a second outlet).
 TOP_OUTLETS = {"Reuters", "Bloomberg", "CNBC", "The Wall Street Journal", "WSJ", "Financial Times", "FT", "Associated Press", "AP",
                "Barron's", "MarketWatch", "The Information", "Yahoo Finance"}
@@ -143,15 +143,16 @@ class Detector:
         return False
 
     def add(self, eid: str, kind: str, story_type: str, priority: int, expires: dt.datetime, tickers: list[str],
-            hint: str, instructions: str, pack: dict, check_written: bool = True):
+            hint: str, instructions: str, pack: dict, check_written: bool = True, since: str | None = None):
         if eid in self.seen or (QUEUE / f"{eid}.json").exists():
             return False
         if any(t in DUP_CLASS for t in tickers[:1]):
             return False
         if not check_written:  # the caller counted today's stories itself (the daily analysis slots)
             return self._queue(eid, kind, story_type, priority, expires, tickers, hint, instructions, pack)
-        since = (self.today if kind in ("market-wrap", "movers", "list", "macro-check", "fomc", "week-ahead", "basket", "daily")
-                 else prev_trading_day(self.today)).isoformat()
+        since = since or (self.today if kind in ("market-wrap", "movers", "list", "macro-check", "fomc", "week-ahead", "basket",
+                                                 "daily")
+                          else prev_trading_day(self.today)).isoformat()
         if kind != "basket" and not eid.startswith("daily-weekend") and self.written(story_type, tickers, since):
             self.seen[eid] = {"kind": kind, "day": self.today.isoformat(), "created": self.now.isoformat(timespec="seconds"),
                               "outcome": "already-written"}
@@ -164,7 +165,7 @@ class Detector:
               "tickers": tickers, "headline_hint": hint, "instructions": instructions,
               "quotes_asof": self.quotes_asof, "pack": pack}
         self.new.append(ev)
-        self.seen[eid] = {"kind": kind, "day": self.today.isoformat(), "created": ev["created"]}
+        self.seen[eid] = {"kind": kind, "day": self.today.isoformat(), "created": ev["created"], "tickers": tickers}
         return True
 
     def at(self, h: int, m: int = 0) -> dt.datetime:
@@ -252,15 +253,34 @@ class Detector:
                    for k, v in self.seen.items())
 
     def rule_recaps(self):
-        """A big company's results are out: 8-K Item 2.02 at the SEC, or past the release time on the calendar."""
-        if not is_trading_day(self.today) and self.today.weekday() != 6:
-            return
+        """A big company's results are out: 8-K Item 2.02 at the SEC, or past the release time on the calendar.
+        Each results date's DAILY_CAP["earnings-recap"] biggest reporters get their own recap; when four or more
+        smaller ones report in the same session, they share one roundup. The places are counted per results date, so
+        last night's reporters can't use up today's (Friday's biggest went out two days late: automation audit, 2 Nov
+        2026), and the rule runs every day, so Friday's reporters are covered on Saturday."""
         rows = []
         for day in (self.today.isoformat(), prev_trading_day(self.today).isoformat()):
-            for r in self.cal.get(day, []):
-                q = self.quotes.get(r["ticker"])
-                if cap_of(q) >= MIN_CAP_RECAP:
-                    rows.append((day, r))
+            ranked = sorted((r for r in self.cal.get(day, []) if r["ticker"] not in DUP_CLASS
+                             and cap_of(self.quotes.get(r["ticker"])) >= MIN_CAP_RECAP),
+                            key=lambda r: -cap_of(self.quotes.get(r["ticker"])))
+            cap = DAILY_CAP["earnings-recap"]
+            # Who is already in a roundup for this date: they never get a recap of their own as well (their rank can
+            # change with the market).
+            pooled = {t for k, v in self.seen.items() if k.startswith(f"roundup-{day}-") for t in v.get("tickers", [])}
+            mine = list(ranked[:cap])
+            # Sessions are only known on the day itself (Nasdaq blanks the times of past dates), so roundups form then.
+            # Later, only the top places are filled in.
+            if day == self.today.isoformat():
+                for sess in ("bmo", "amc"):
+                    names = [r for r in ranked[cap:] if r["time"] == sess and r["ticker"] not in pooled
+                             and f"recap-{r['ticker']}-{day}" not in self.seen]
+                    if len(names) >= 4:
+                        if self.roundup(day, sess, names):
+                            pooled.update(r["ticker"] for r in names)
+                    else:
+                        mine += names
+                mine += [r for r in ranked[cap:] if r["time"] not in ("bmo", "amc")]
+            rows += [(day, r) for r in mine if r["ticker"] not in pooled]
         if not rows:
             return
         try:
@@ -274,7 +294,7 @@ class Detector:
         for day, r in rows:
             t = r["ticker"]
             eid = f"recap-{t}-{day}"
-            if eid in self.seen or self.count_today("earnings-recap") >= DAILY_CAP["earnings-recap"]:
+            if eid in self.seen:
                 continue
             if t in DUP_CLASS or self.written("earnings-recap", [t], day):
                 self.seen.setdefault(eid, {"kind": "earnings-recap", "day": self.today.isoformat(),
@@ -282,8 +302,12 @@ class Detector:
                 continue
             u = self.univ.get(t, {})
             f = by_cik.get(str(u.get("cik", "")).zfill(10))
-            due = (day < self.today.isoformat() or (r["time"] == "bmo" and self.now.time() >= dt.time(8, 0))
-                   or (r["time"] == "amc" and self.now.time() >= dt.time(17, 0)))
+            # A release with no listed time (Berkshire reports on Saturdays) is due once the filing or the actual EPS is
+            # in, or from noon the day after.
+            due = (r.get("eps_actual") is not None
+                   or (day == self.today.isoformat() and r["time"] == "bmo" and self.now.time() >= dt.time(8, 0))
+                   or (day == self.today.isoformat() and r["time"] == "amc" and self.now.time() >= dt.time(17, 0))
+                   or (day < self.today.isoformat() and (r["time"] in ("bmo", "amc") or self.now.time() >= dt.time(12, 0))))
             if not f and not due:
                 continue
             pack = {"calendar": r, "quote": self.quote(t), "facts": self.facts(t), "sector": u.get("sector"),
@@ -306,15 +330,35 @@ class Detector:
                      "for this company, guidance, and the stock's reaction with its session. Use release_text as the primary "
                      "source when present.", pack)
 
+    def roundup(self, day: str, sess: str, rows: list[dict]):
+        """One story for the smaller reporters of a session, once the session's results are due."""
+        d = dt.date.fromisoformat(day)
+        if day == self.today.isoformat() and self.now.time() < (dt.time(8, 0) if sess == "bmo" else dt.time(17, 0)):
+            return False
+        ts = [r["ticker"] for r in rows]
+        when = "before the open" if sess == "bmo" else "after the close"
+        return self.add(f"roundup-{day}-{sess}", "earnings-roundup", "earnings-roundup", 60,
+                 dt.datetime.combine(next_trading_day(d), dt.time(20, 0), tzinfo=ET), ts,
+                 f"Results roundup: {len(ts)} more companies that reported {when} on {d:%A}",
+                 "A results roundup: a paragraph of 80 to 120 words per company, biggest first (revenue and EPS against consensus, "
+                 "naming the provider; guidance; the stock's reaction with its session), then a closing paragraph on what "
+                 "they say together. Every number from the company's release or two independent sources.",
+                 {"results_date": day, "session": sess,
+                  "companies": [{"calendar": r, "quote": self.quote(r["ticker"]),
+                                 "name": self.univ.get(r["ticker"], {}).get("name"),
+                                 "sector": self.univ.get(r["ticker"], {}).get("sector")} for r in rows]},
+                 check_written=False)
+
     def rule_previews(self):
-        """Tomorrow's biggest reporters, the evening before (Friday and Sunday evenings cover Monday)."""
-        if self.now.time() < dt.time(17, 30):
+        """Tomorrow's biggest reporters, the evening before. Monday's go out from Sunday noon, so the weekend writer runs
+        (the last one is mid-afternoon) can write them."""
+        if self.now.time() < (dt.time(12, 0) if self.today.weekday() == 6 else dt.time(17, 30)):
             return
         if not (is_trading_day(self.today) or self.today.weekday() == 6):
             return
         nxt = next_trading_day(self.today)
         if self.today.weekday() == 4:
-            return  # Monday's previews go out on Sunday evening
+            return  # Monday's previews go out from Sunday noon
         rows = [r for r in self.cal.get(nxt.isoformat(), []) if cap_of(self.quotes.get(r["ticker"])) >= MIN_CAP_PREVIEW]
         rows.sort(key=lambda r: -cap_of(self.quotes.get(r["ticker"])))
         for r in rows[:DAILY_CAP["earnings-preview"]]:
@@ -325,7 +369,8 @@ class Detector:
                      dt.datetime.combine(nxt, dt.time(9, 0) if r["time"] == "bmo" else dt.time(15, 30), tzinfo=ET), [t],
                      f"What to expect from {u['name']}'s ({t}) earnings", f"Reports {nxt:%A} {when}. Consensus EPS is in the calendar row.",
                      {"calendar": r, "report_date": nxt.isoformat(), "quote": self.quote(t), "facts": self.facts(t),
-                      "recent_stories": self.stories_for(t), "last_recap": [s for s in self.stories_for(t, 20) if s["type"] == "earnings-recap"][:1]})
+                      "recent_stories": self.stories_for(t), "last_recap": [s for s in self.stories_for(t, 20) if s["type"] == "earnings-recap"][:1]},
+                     since=(nxt - dt.timedelta(days=7)).isoformat())
 
     def edition_pack(self, since: dt.date, session: dt.date) -> dict:
         """What the Daily is written from: the markets, the session's biggest moves, our stories since the last
@@ -333,13 +378,14 @@ class Detector:
         today_cal = sorted(self.cal.get(self.today.isoformat(), []), key=lambda r: -cap_of(self.quotes.get(r["ticker"])))[:10]
         return {"markets": self.markets, "session": session.isoformat(), "moves": self.session_moves(session),
                 "stories_since": [{"title": x["title"], "path": x["path"], "type": x["type"], "date": x["date"]}
-                                  for x in self.stories if x["date"] >= since.isoformat()][:40],
+                                  for x in sorted(self.stories, key=lambda x: x["date"], reverse=True)
+                                  if x["date"] >= since.isoformat()][:40],
                 "reporting_today": [{"ticker": r["ticker"], "time": r["time"], "eps_forecast": r["eps_forecast"]} for r in today_cal]}
 
     def rule_edition(self):
         """The Daily: a morning edition before every session, and a weekend edition after Friday's close."""
         d = self.today
-        if is_trading_day(d) and self.now.time() >= dt.time(5, 30) and d.weekday() != 0:
+        if is_trading_day(d) and self.now.time() >= dt.time(5, 0) and d.weekday() != 0:
             prev = prev_trading_day(d)
             self.add(f"daily-{d}", "daily", "daily", 96, self.at(10, 30), [],
                      "Mostly Markets Daily: <the one story behind yesterday's market>",
@@ -348,7 +394,7 @@ class Detector:
                      "block, then What's next (today's reporters and data) and The numbers. Follow the daily template in "
                      "docs/STYLE.md.",
                      self.edition_pack(prev, prev))
-        if d.weekday() == 0 and is_trading_day(d) and self.now.time() >= dt.time(5, 30):
+        if d.weekday() == 0 and is_trading_day(d) and self.now.time() >= dt.time(5, 0):
             self.add(f"daily-{d}", "daily", "daily", 96, self.at(10, 30), [],
                      "Mostly Markets Daily: <the week's big test>",
                      "The Monday edition. Weekend news that moves stocks today, then the thread: 6 to 8 takes on what this "
@@ -362,7 +408,7 @@ class Detector:
                      f"Markets are closed today ({d:%A %d %B}). Tell the story Wall Street is chewing on and set up the next "
                      "session: a narrative lede, then 6 to 8 takes, each one claim with one chart or stat block, What's next and The numbers. "
                      "Follow the daily template in docs/STYLE.md.", self.edition_pack(prev, prev))
-        if d.weekday() == 5 and self.now.time() >= dt.time(7, 0):
+        if d.weekday() == 5 and self.now.time() >= dt.time(6, 0):
             fri = prev_trading_day(d + dt.timedelta(days=1))
             monday = fri - dt.timedelta(days=fri.weekday())
             self.add(f"daily-{d}", "daily", "daily", 96, self.at(23, 59), [],
@@ -371,7 +417,7 @@ class Detector:
                      "takes (one chart or stat block each; moves charts from the Friday before to this Friday), What's next for next "
                      "week, and The numbers. Follow the daily template in docs/STYLE.md.",
                      {**self.edition_pack(monday - dt.timedelta(days=3), fri), "week_moves": self.week_moves()})
-        if d.weekday() == 6 and self.now.time() >= dt.time(7, 0):
+        if d.weekday() == 6 and self.now.time() >= dt.time(6, 0):
             fri = prev_trading_day(d)
             self.add(f"daily-{d}", "daily", "daily", 96, self.at(23, 59), [],
                      "Mostly Markets Daily, Sunday edition: <the argument that will decide this week>",
@@ -431,7 +477,7 @@ class Detector:
                                                                      "eps_forecast": r["eps_forecast"]} for r in rows]})
             self.add(f"weekahead-{d}", "week-ahead", "analysis", 40, dt.datetime.combine(nxt, dt.time(9, 0), tzinfo=ET), [],
                      "The Week Ahead: <the big tests for stocks>", "Day by day: the big reporters and the economic calendar.",
-                     {"week": week})
+                     {"week": week}, check_written=False)
 
     def queue_list(self, d: dt.date, theme):
         skip3 = d.toordinal() % 2 == 1

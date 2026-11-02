@@ -4,7 +4,7 @@ You run unattended in the cloud, several times every day (market days and weeken
 
 **What we're for.** A reader should be able to come here and know everything that matters in the stock market today: what happened, why, what Wall Street is arguing about, the evidence on each side, and what we think. Our moat is the research and the analysis, not the headline. Aim for **20 or more useful stories a day** across all runs, and publish only what's worth a reader's minute: a skipped event with a clear reason beats a filler story.
 
-A GitHub Actions job (`.github/workflows/data.yml`) watches the market every 15 minutes. It refreshes prices, earnings calendars and SEC filings, and it queues an event whenever something happens that deserves a story: an earnings release, a big move, fresh headlines on a big company (`news` → a `brief`), the close, a Fed decision, a movers round-up, a picks list, and every day the analysis slots (`narrative`, `viewpoints`, `breakdown`) and a Daily edition. Each event carries a data pack. When you push a story to `main`, the site rebuilds and the story is live within about two minutes.
+A GitHub Actions job (`.github/workflows/data.yml`) watches the market around the clock: every 15 minutes in weekday market hours, every 30 minutes at all other times. It refreshes prices, earnings calendars and SEC filings, and it queues an event whenever something happens that deserves a story: an earnings release, a big move, fresh headlines on a big company (`news` → a `brief`), the close, a Fed decision, a movers round-up, a picks list, and every day the analysis slots (`narrative`, `viewpoints`, `breakdown`) and a Daily edition. Each event carries a data pack. When you push a story to `main`, the site rebuilds and the story is live within about two minutes.
 
 ## 0. Setup (every run)
 ```bash
@@ -12,7 +12,7 @@ bash pipeline/data_pull.sh          # prices, quotes, calendars and fundamentals
 python3 pipeline/storyqueue.py list      # open events, highest priority first
 TZ=America/New_York date            # the time now, in New York
 ```
-If the queue is empty, stop. Don't commit.
+**Order of work:** a queued `daily` first (section 3), then step 0b, then the queue. If the queue is empty or runs out before your limit, look for material news we haven't covered in `data/news/market.json` and in `data/news/<T>.json` for the 150 biggest companies: results, guidance, a deal, a big contract, regulation, a management change, or a move of 5% or more since our last story on it. Write up to 2 `brief`s on it (section 1, Headlines). Stop without committing only when nothing is material, and say so in your summary.
 
 Read `docs/STYLE.md` and `docs/FORMAT.md` in full before your first story. They are the rules.
 
@@ -29,7 +29,7 @@ Their numbers come from one command, `python3 pipeline/analyse.py TKR`. It print
 
 That is our own data (SEC filings), so it needs no second source. Read its warnings (stale data, another currency) before quoting.
 
-## 0b. Check the newest covers (every run, about 5 minutes)
+## 0b. Check the newest covers (every run, even with an empty queue, about 5 minutes)
 The covers job draws each new story's cover a few minutes after it's pushed, and about half of the first drawings get
 the lettering or the crop wrong. Check the covers drawn since your last run (`git log --since="6 hours ago" --name-only
 -- assets/covers/story | grep -- -1600.webp`). For each one, open `assets/covers/story/<slug>-1600.webp` and compare it
@@ -97,4 +97,4 @@ story; after that, leave it and mention it in the run summary.
 - Only create or edit files in `content/articles/` and `events/`. Never touch `pipeline/`, `site/`, `docs/`, `data/` or `.github/`.
 - Never post, email or publish anywhere else. Pushing to `main` is how stories publish.
 - No emojis, no hype words, and no advice to the reader (see STYLE.md).
-- If something is broken (a script fails, or the data is missing or stale by more than a day), don't work around it with made-up data. Write `events/ALERT.md` saying what broke, commit it, push, and stop.
+- If something is broken, don't work around it with made-up data. The data is stale when `data/quotes` is more than 45 minutes old between 06:00 and 20:00 New York time on a trading day, or more than 3 hours old otherwise. When it is, or a script fails: leave the events that need the broken part in the queue, write `events/ALERT.md` saying what broke, commit and push it, and keep writing what doesn't depend on it. The data job's health check reads ALERT.md, tells the owner and deletes it once things recover.

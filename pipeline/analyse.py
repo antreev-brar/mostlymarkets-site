@@ -288,8 +288,11 @@ def report(t: str) -> str:
             continue
         s = sv.get(k) or {}
         rank = (1 - s["pct"]) if s and k in LOWER_IS_BETTER else s.get("pct")  # the ladder always reads best-first
+        # The peer text is built first: nesting s['n'] in an f-string only parses on Python 3.12+, and the cloud
+        # writer runs 3.11.
+        peer = f" ({int(rank * 100)}%, n={s['n']})" if s else ""
         lines.append(f"| {lab} | {fmt(v, kind)} | {fmt(s.get('median'), kind) if s else ''} | "
-                     f"{ladder(rank)}{f' ({int(rank * 100)}%, n={s['n']})' if s else ''} | {why} |")
+                     f"{ladder(rank)}{peer} | {why} |")
     nc = m.get("net_cash")  # None for Financials (metrics)
     lines += ["", f"**Balance sheet** ({m['balance_as_of']}): " + ("judge a bank or insurer on return on equity and book value, not net debt" if x["sector"] == "Financials" else "") + (
         f"net cash {money(nc)}" if nc is not None and nc >= 0 else

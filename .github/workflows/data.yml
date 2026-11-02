@@ -1,18 +1,18 @@
 name: data
-# Watches the market: refreshes quotes, calendars, prices and filings, queues story events for the writer, and
-# dispatches build.yml to redeploy the site with fresh prices. pipeline/watch.py loops inside one job (every 15
-# minutes on weekdays, hourly in the evening) and hands over to a fresh run before the 6-hour job limit, because
-# GitHub drops most runs of a busy cron. The crons below are only starters and backups, at odd minutes (the top
-# of the hour is when GitHub drops the most). A run that starts while another is looping waits its turn.
+# Watches the market around the clock: refreshes quotes, calendars, prices, filings and headlines, queues story
+# events for the writer, and dispatches build.yml to redeploy the site. pipeline/watch.py loops inside one job (every
+# 15 minutes in weekday market hours, every 30 minutes at all other times) and, before the 6-hour job limit, queues its
+# own successor, so the chain never depends on GitHub's scheduler, which fired 2 of 39 night and weekend slots in the
+# first week. The crons below only restart the chain if it ever breaks, at odd minutes (the top of the hour is when
+# GitHub drops the most). A run that starts while another is looping waits its turn.
 on:
   schedule:
-    - cron: "7,37 10-23 * * 1-5"   # weekday starters/backups, ~5-7 a.m. ET onward
-    - cron: "7,37 0-4 * * 2-6"     # weekday evenings, ET
-    - cron: "17 */3 * * 0,6"       # weekends: one pass each (previews and the week ahead)
+    - cron: "7,37 * * * *"   # backups: a pending run just waits for the looping one (and replaces older pending runs)
   workflow_dispatch:
 permissions:
   contents: write
   actions: write
+  issues: write   # pipeline/health.py's "Site health" issue
 concurrency:
   group: data-watch
   cancel-in-progress: false

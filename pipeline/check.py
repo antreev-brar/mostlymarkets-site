@@ -26,7 +26,7 @@ from marketdata import price_path, read_prices  # noqa: E402
 
 TYPES = {
     "market-wrap": (450, 800), "why-it-moved": (280, 520), "movers": (220, 420),
-    "earnings-recap": (380, 750), "earnings-preview": (260, 480), "list": (550, 1000),
+    "earnings-recap": (380, 750), "earnings-roundup": (400, 1300), "earnings-preview": (260, 480), "list": (550, 1000),
     "macro": (350, 700), "chart": (100, 260), "analysis": (600, 1200), "daily": (650, 1500),
     "narrative": (800, 1700), "viewpoints": (650, 1400), "breakdown": (1100, 2300), "brief": (110, 280),
 }

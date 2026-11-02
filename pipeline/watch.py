@@ -5,12 +5,14 @@ inside a single job for up to ~5.5 hours and, when its time is up mid-session, d
 The crons in data.yml are only starters and backups.
 
 Each pass: refresh.py (quotes, prices, calendars, filings), news.py (headlines and X posts), detect.py (queue story
-events), data_push.sh, commit events, dispatch build.yml.
+events), health.py (the "Site health" issue), data_push.sh, commit events, dispatch build.yml.
 
-Slots (New York time):
+Slots (New York time), around the clock so nights and weekends never go stale (GitHub fired 2 of 39 of the old
+night and weekend cron slots, automation audit of 2 Nov 2026):
 - weekdays 06:00-19:45: every 15 minutes
-- weekdays 20:30-23:30: hourly at :30
-- otherwise (overnight, weekends): one pass per run, then exit
+- every other time (weekday nights, weekends, holidays): every 30 minutes, at :00 and :30
+The loop never runs out of slots, so it always ends by queueing its successor (checked, with retries); the crons in
+data.yml only restart the chain if it ever breaks.
 
   python3 pipeline/watch.py            # loop (what data.yml runs)
   python3 pipeline/watch.py --once     # one pass, no sleeping
@@ -33,15 +35,14 @@ import marketdata as md  # noqa: E402
 
 ROOT = md.ROOT
 BUDGET = dt.timedelta(minutes=320)  # don't start a pass after this; the job's timeout is 355 minutes
+JOB_LIMIT = dt.timedelta(minutes=348)  # stop trying to hand over just before the timeout
 REACH = dt.timedelta(minutes=65)    # stay alive only if the next slot is this close
 
 
 def is_slot(t: dt.datetime) -> bool:
-    if t.weekday() >= 5:
-        return False
-    if 6 <= t.hour < 20:
+    if t.weekday() < 5 and 6 <= t.hour < 20:
         return t.minute % 15 == 0
-    return t.hour >= 20 and t.minute == 30
+    return t.minute % 30 == 0
 
 
 def next_slot(now: dt.datetime) -> dt.datetime | None:
@@ -77,8 +78,57 @@ def wake_writer() -> None:
         print(f"::warning::waking the writer failed: {e}")
 
 
+def sync_main(force: bool = False) -> None:
+    """Start every pass from main as it is on GitHub. A failed rebase used to leave the loop stuck on an old tree for
+    hours while every run still showed success; the events this loop commits are recomputed by detect.py (seen.json
+    keeps that safe), so a hard reset loses nothing."""
+    if not force and sh(["git", "pull", "--rebase", "-q", "origin", "main"]):
+        return
+    sh(["git", "rebase", "--abort"])
+    if sh(["git", "fetch", "-q", "origin", "main"]):
+        sh(["git", "reset", "-q", "--hard", "origin/main"])
+
+
+def successor_waiting() -> bool:
+    r = subprocess.run(["gh", "run", "list", "--workflow", "data.yml", "--limit", "10", "--json", "status"],
+                       cwd=ROOT, capture_output=True, text=True)
+    try:
+        return r.returncode == 0 and any(x.get("status") in ("queued", "pending", "waiting", "requested")
+                                         for x in json.loads(r.stdout or "[]"))
+    except ValueError:
+        return False
+
+
+def hand_over(deadline: float) -> None:
+    """Queue this workflow's successor; it waits in the data-watch concurrency group until this run ends. Keep trying
+    (a GitHub hiccup can last minutes) until shortly before the job's time limit, then raise the Site health issue:
+    a run dispatched by the job token emails nobody when it fails, and a broken chain would leave the site stale
+    until a cron happened to fire."""
+    while True:
+        if sh(["gh", "workflow", "run", "data.yml", "--ref", "main"]):
+            time.sleep(15)
+            if successor_waiting():
+                print("handed over to the next run", flush=True)
+                return
+        if time.monotonic() + 90 > deadline:
+            break
+        time.sleep(60)
+    msg = "The data loop could not queue its successor run; the backup crons and build.yml's watchdog should restart it."
+    print(f"::error::{msg}", flush=True)
+    subprocess.run(["gh", "issue", "create", "--title", "Site health", "--body", f"@antreev-brar {msg}"], cwd=ROOT)
+    sys.exit(1)
+
+
+def draw_missing_covers() -> None:
+    """Covers that failed to draw (the Horde was down) used to wait for the next story push; ask covers.yml again."""
+    r = subprocess.run([sys.executable, "pipeline/covers.py", "--dry", "--max", "50"], cwd=ROOT, capture_output=True,
+                       text=True)
+    if r.returncode == 0 and "nothing to draw" not in r.stdout:
+        sh(["gh", "workflow", "run", "covers.yml", "--ref", "main"])
+
+
 def one_pass() -> None:
-    sh(["git", "pull", "--rebase", "-q", "origin", "main"])
+    sync_main()
     if not sh([sys.executable, "pipeline/refresh.py"]):
         print("::warning::refresh failed; skipping this pass (nothing saved)")
         return
@@ -86,7 +136,7 @@ def one_pass() -> None:
     # every stock once a day, and X posts embedded in stories. The detector reads them, so this comes first.
     now = md.now_et()
     news = [sys.executable, "pipeline/news.py", "--market", "--tweets"]
-    if now.weekday() >= 5 or now.minute < 15:
+    if now.minute < 15:  # hourly, at every hour of every day
         news += ["--top", "150"]
     if now.weekday() < 5 and now.hour == 6 and now.minute < 15:
         news = [sys.executable, "pipeline/news.py", "--market", "--tweets", "--all"]
@@ -94,6 +144,7 @@ def one_pass() -> None:
     with tempfile.NamedTemporaryFile("r", suffix=".out") as out:
         sh([sys.executable, "pipeline/detect.py"], env={**os.environ, "GITHUB_OUTPUT": out.name})
         flags = dict(line.strip().split("=", 1) for line in out if "=" in line)
+    sh([sys.executable, "pipeline/health.py"])  # opens or closes the "Site health" issue; before the commit (ALERT.md)
     sh(["bash", "pipeline/data_push.sh"])
     sh(["git", "add", "events"])
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode:
@@ -101,9 +152,21 @@ def one_pass() -> None:
         for _ in range(3):
             if sh(["git", "pull", "--rebase", "-q", "origin", "main"]) and sh(["git", "push", "-q", "origin", "HEAD:main"]):
                 break
+            sh(["git", "rebase", "--abort"])
             time.sleep(5)
+        else:
+            # Main moved under us in a way that won't rebase (the writer closed the same event): start again from main
+            # and recompute this pass's events; seen.json makes that safe.
+            sync_main(force=True)
+            sh([sys.executable, "pipeline/detect.py"])
+            sh(["git", "add", "events"])
+            if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode:
+                sh(["git", "commit", "-q", "-m", f"events: {md.now_et():%Y-%m-%d %H:%M} ET"])
+                sh(["git", "push", "-q", "origin", "HEAD:main"])
     if flags.get("wake") == "true":
         wake_writer()
+    if now.minute < 15:  # hourly
+        draw_missing_covers()
     # build.yml rebuilds and deploys the site with the fresh data (its own concurrency group keeps deploys in order).
     sh(["gh", "workflow", "run", "build.yml", "--ref", "main"])
 
@@ -117,23 +180,25 @@ def main(argv: list[str]) -> None:
             if not t:
                 break
         return
-    start = md.now_et()
+    t0 = time.monotonic()  # the job's own clock: New York wall time jumps an hour twice a year
     while True:
         print(f"::group::pass at {md.now_et():%Y-%m-%d %H:%M:%S} ET", flush=True)
-        one_pass()
+        try:
+            one_pass()
+        except Exception as e:  # noqa: BLE001  one bad pass must never end the loop (and with it the chain of runs)
+            print(f"::warning::the pass failed: {e!r}; trying again at the next slot", flush=True)
         print("::endgroup::", flush=True)
         now = md.now_et()
         nxt = next_slot(now)
         if "--once" in argv or nxt is None:
             print("no slot within reach; done")
             return
-        if nxt - start > BUDGET:
-            # Out of time mid-session: queue a successor. It waits in the concurrency group until this run ends.
-            if os.environ.get("MM_ENABLED") == "true":
-                sh(["gh", "workflow", "run", "data.yml", "--ref", "main"])
-            print("time budget used; handed over to the next run")
-            return
         wait = (nxt - md.now_et()).total_seconds()
+        if time.monotonic() - t0 + wait > BUDGET.total_seconds():
+            # Out of time: queue a successor. It waits in the concurrency group until this run ends.
+            if os.environ.get("MM_ENABLED") == "true":
+                hand_over(deadline=t0 + JOB_LIMIT.total_seconds())
+            return
         print(f"next pass at {nxt:%H:%M} ET (sleeping {wait / 60:.1f} min)", flush=True)
         time.sleep(max(0.0, wait))
 

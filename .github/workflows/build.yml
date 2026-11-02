@@ -56,3 +56,21 @@ jobs:
     steps:
       - id: deploy
         uses: actions/deploy-pages@v4
+  watchdog:
+    # Restarts the data loop if its chain of runs ever breaks. This workflow runs on every story push and after every
+    # data pass, so a dead loop is noticed within minutes of the next push, whatever GitHub's scheduler does.
+    if: vars.MM_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          n=$(gh run list --workflow data.yml --limit 20 --json status --jq '[.[] | select(.status != "completed")] | length')
+          if [ "$n" = "0" ]; then
+            echo "::warning::the data loop wasn't running; restarting it"
+            gh workflow run data.yml --ref main
+          fi
