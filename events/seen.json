@@ -175,10 +175,26 @@
 "day": "2026-11-01",
 "kind": "news"
 },
+"news-L-2026-11-02-brief-cna-financial-q3-adjusted-eps-usd": {
+"created": "2026-11-02T06:04:17-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"L"
+]
+},
 "news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc": {
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-PLTR-2026-11-02-stock-market-today-dow-jones-s-p-500-fut": {
+"created": "2026-11-02T06:04:17-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"PLTR"
+]
 },
 "news-SHEL-2026-11-02-shell-signs-long-term-sustainable-aviati": {
 "created": "2026-11-02T05:01:44-05:00",
@@ -186,6 +202,14 @@
 "kind": "news",
 "tickers": [
 "SHEL"
+]
+},
+"news-TSLA-2026-11-02-six-reasons-democrats-may-fall-short-of": {
+"created": "2026-11-02T06:04:17-05:00",
+"day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"TSLA"
 ]
 },
 "news-TSLA-2026-11-02-tesla-registrations-surge-across-norther": {

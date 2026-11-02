@@ -1,0 +1,113 @@
+{
+ "id": "news-PLTR-2026-11-02-stock-market-today-dow-jones-s-p-500-fut",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-02T06:04:17-05:00",
+ "expires": "2026-11-02T16:04:17-05:00",
+ "tickers": [
+  "PLTR"
+ ],
+ "headline_hint": "Palantir Technologies: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-02T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGVTNnRya2xiS01lZGhBQ0JvRnQ0VWt0b180TXJ5ZmZNcHVGMFFZUFZNaFhlUGIwcjcyUDFPZG1HM1dXcG5rRU9SN2RjbGRHN256N2kzT3FWUnNuTFBJR3V0ZGROYlgtQVM4SjlrakptODdUaFp3bi1kOWlkZXQwWHVDRldzd3ZDT1E3TktTeEtDTjZWb3ptVA?oc=5",
+    "published": "2026-11-02T05:29:28-05:00",
+    "also": []
+   },
+   {
+    "title": "Top Wall Street Forecasters Revamp Palantir Expectations Ahead Of Q3 Earnings",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRkRXYjZJMEd4c2FBbWt4dVZQLVdFTWRfUlJWdldmYjZ3eWxEbnp1QUpBLVVZcncwVWFpRzJnN3Y0djFPT2w3bjVtVWpHTm0tcGpiVExfVEcxZ2RMcldjX0xDQ2pIbW1mV1AxUFBsTjlqU0xsaXRVMktFMUVfbG9idGRtemJLSzhHUV85ZTI0SlBzX2F1cWRnS3ZPVFZqWHpOSktINERBNGRuQmJUYVc1WDZiWG9wcVVhVWQwRms0LVJuaERqV0JGRmh6eWxFZmViODVkTmp1Y3VMMzlkZlF2RmtzWnJ5LVE?oc=5",
+    "published": "2026-11-02T05:06:53-05:00",
+    "also": []
+   },
+   {
+    "title": "Palantir Has to Top Itself Again for the Stock to Keep Going",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmaHVqdkxNZVdKWERyTmp6U1VTRHdub05tMHZSRHlrd0MwajF1aDdWeW5YT2JHMXpSeTR5a3RXcG1PeUQ4S244U2xLT1NYTlRaajVDb0RGN1FlTjJINk1QQmdrRzFRMVhpa2ZuNU1PbTR5cWVtcGVtVlIybw?oc=5",
+    "published": "2026-11-02T05:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Palantir Technologies Inc. (PLTR) latest stock news and headlines",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLQzU2UHpBQUpjSlpUREYzMWN4NlpObVAxeVBoMW1PQ0FnbGlfVzhkcEhiTFNVLWtlNTBSMl9Sd0tiVTIxb2xDci0zTmZwdWYxMExFclpMOEc?oc=5",
+    "published": "2026-11-02T04:05:38-05:00",
+    "also": []
+   },
+   {
+    "title": "Palantir Earnings Preview: Polymarket Backs Another Q3 Beat",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa1NsUF82QUI2Z1U2LTctQWM1NEdCcGNTQUtaM3BreTNfUG9BdHpKdmF4R2RNVUFiN002Zlk1cmxwdElrVHNJN2w1Z0dnNHl0RmFka2tyNlpWaTdkamJ0RmszbFpTNkdaS0tQb0k2N0NiM3kwT1hUQmxpME1VbDROVVUtZXpOR2YwZ0pEb01pX1lSZVA2WWNYQy1jWlBIdF82S0FmemlDb0J5dEdjd0ZzNEJsckR3UXFMUmtNVU4zNW94NXlrOV9KNFp0RUM?oc=5",
+    "published": "2026-11-02T03:00:05-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 184.11,
+   "change_pct": -6.27,
+   "prev_close": 184.11,
+   "time": "2026-10-30",
+   "mktcap": "442.427B",
+   "pe": 156.89,
+   "fpe": 108.11,
+   "yr_high": 212.94,
+   "yr_low": 106.37,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 186.21,
+    "change_pct": 1.14,
+    "time": "2026-11-02T05:58:35.011-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies",
+   "date": "2026-10-30",
+   "close": 184.11,
+   "prev_close": 196.42,
+   "change_pct": -6.27,
+   "moves_over_5pct_last_year": 38,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 23,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": -7.22
+   },
+   "ytd_pct": 3.58,
+   "return_1m_pct": -3.12,
+   "return_6m_pct": 27.79,
+   "return_1y_pct": -7.39,
+   "high_52w": {
+    "close": 209.05,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 107.27,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 11.93,
+   "thousand_dollars_5y_ago_now": 7114,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 27070010,
+   "volume_vs_20d_avg": 1.2,
+   "sentences": [
+    "Palantir Technologies's shares moved 5% or more on 38 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 7.2%.",
+    "The stock is up 3.6% this year, and at $184.11 it sits 11.9% below its 52-week closing high of $209.05 from 9 October 2026.",
+    "$1,000 invested in Palantir Technologies five years ago would be worth $7,114 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+   "/news/2026-10-31/alphabet-googl-is-in-talks-to-join-the-185-billion-golden-dome-bloomberg-reports/",
+   "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/"
+  ]
+ }
+}
