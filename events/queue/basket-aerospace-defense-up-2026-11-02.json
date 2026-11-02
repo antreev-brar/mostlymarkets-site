@@ -1,0 +1,112 @@
+{
+ "id": "basket-aerospace-defense-up-2026-11-02",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-02T11:15:15-05:00",
+ "expires": "2026-11-02T23:59:00-05:00",
+ "tickers": [
+  "HWM",
+  "TDG",
+  "GE"
+ ],
+ "headline_hint": "HWM, TDG, GE shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-02T11:15:10-05:00",
+ "pack": {
+  "industry": "Aerospace & Defense",
+  "quotes": {
+   "HWM": {
+    "price": 211.69,
+    "change_pct": 6.26,
+    "prev_close": 199.22,
+    "time": "2026-11-02T11:14:45.820-0500",
+    "mktcap": "84.181B",
+    "pe": 41.49,
+    "fpe": 35.63,
+    "yr_high": 310.0,
+    "yr_low": 183.52,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 202.4,
+     "change_pct": 1.6,
+     "time": "2026-11-02T07:06:55.157-0500"
+    }
+   },
+   "TDG": {
+    "price": 1208.37,
+    "change_pct": 5.37,
+    "prev_close": 1146.81,
+    "time": "2026-11-02T11:15:06.971-0500",
+    "mktcap": "66.794B",
+    "pe": 36.66,
+    "fpe": 25.92,
+    "yr_high": 1463.03,
+    "yr_low": 1071.25,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 1145.0,
+     "change_pct": -0.16,
+     "time": "2026-11-02T06:09:27.500-0500"
+    }
+   },
+   "GE": {
+    "price": 313.91,
+    "change_pct": 4.01,
+    "prev_close": 301.8,
+    "time": "2026-11-02T11:15:00.733-0500",
+    "mktcap": "324.374B",
+    "pe": 35.82,
+    "fpe": 37.09,
+    "yr_high": 388.84,
+    "yr_low": 268.91,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 311.05,
+     "change_pct": 3.06,
+     "time": "2026-11-02T09:23:46.487-0500"
+    }
+   }
+  },
+  "facts": {
+   "HWM": {
+    "ticker": "HWM",
+    "name": "Howmet Aerospace",
+    "date": "2026-10-30",
+    "close": 199.22,
+    "prev_close": 205.94,
+    "change_pct": -3.26,
+    "moves_over_5pct_last_year": 10,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 27,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-23",
+     "change_pct": -3.82
+    },
+    "ytd_pct": -2.83,
+    "return_1m_pct": -12.77,
+    "return_6m_pct": -16.82,
+    "return_1y_pct": -2.09,
+    "high_52w": {
+     "close": 292.65,
+     "date": "2026-08-18"
+    },
+    "low_52w": {
+     "close": 185.91,
+     "date": "2026-10-23"
+    },
+    "pct_below_52w_high": 31.93,
+    "thousand_dollars_5y_ago_now": 6710,
+    "five_years_ago_date": "2021-10-29",
+    "volume": 3739964,
+    "volume_vs_20d_avg": 0.99,
+    "sentences": [
+     "Howmet Aerospace's shares moved 5% or more on 10 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 23 October 2026, when the stock fell 3.8%.",
+     "The stock is down 2.8% this year, and at $199.22 it sits 31.9% below its 52-week closing high of $292.65 from 18 August 2026.",
+     "$1,000 invested in Howmet Aerospace five years ago would be worth $6,710 today."
+    ]
+   }
+  }
+ }
+}
