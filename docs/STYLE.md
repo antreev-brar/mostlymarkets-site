@@ -381,8 +381,8 @@ cover_text = ["META", "CASH BURN"]
      'ORDERS DOUBLED', 'WORST DAY SINCE 1974', 'HOLD', '$29 BILLION', '4 NOVEMBER';
    - at most one more, well apart from the others: a placard, or one peer's name. **Never label a row of things**:
      labels side by side merge and garble ('AMD ARM' on every cart, 'QUALCAM', 'UP' jumping onto a 'HIKE' placard).
-   **Never a decimal point or a plus or minus sign:** the model drops them. Write a percentage as a word
-   ('87 PERCENT'). A dollar figure goes on a flat sign, never a curved barrel ('$100 OIL' lost its $). Spell names
+   **Never a decimal point or a plus or minus sign:** the model drops them. Write a percentage with the sign
+   ('87%'); the comic style mangles the word PERCENT. A dollar figure goes on a flat sign, never a curved barrel ('$100 OIL' lost its $). Spell names
    exactly and prefer the short form the story uses ('GE VERNOVA', 'LAM'). For a brand with a famous logo, ask for the
    name "in plain block capitals" ('INTEL' came out in the lowercase logo lettering). **Never end a sentence on a quoted
    label:** the model paints the next word onto the sign; keep the sentence going ("... reading 'HOLD' while two
@@ -431,8 +431,8 @@ cover_text = ["META", "CASH BURN"]
    - (3 Nov, comic covers) The word right after a quoted label gets lettered onto the sign: "reading 'COREWEAVE', tips"
      came out 'COREWEVE TIPS', "reading 'AMD', strain" as 'AMD strain'. Follow every label with ", while" ("a big flat
      sign reading 'AMD', while the gates strain against a reservoir"), never with a verb, a noun or a style phrase. The
-     comic style also drops a '$' even on a big banner: write dollar labels without it ('115 BILLION'). Long words like
-     PERCENT come out mangled ('PERC%T', 'PERNY'): keep labels to short common words.
+     comic style also drops a '$' even on a big banner: write dollar labels without it ('115 BILLION'). The word PERCENT
+     comes out mangled ('PERC%T', 'PERNY', 'PER%') but a % sign letters cleanly: write 'UP 80%', '87% MARGINS'.
    - Open with the crowd and the action: a brief that starts on one object can come back as a lone product shot or an
      empty flat scene with no lettering.
 10. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs

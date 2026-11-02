@@ -234,8 +234,8 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
         for lab in labels:
             if len(lab.split()) > 4:
                 warns.append(f"cover_brief label {lab!r} is long: 1-4 words or one number")
-            if "%" in lab:
-                warns.append(f"cover_brief label {lab!r} has a % sign: the model drops it; write '87 PERCENT'")
+            if "PERCENT" in lab.upper():
+                warns.append(f"cover_brief label {lab!r} spells out PERCENT: the comic style mangles it ('PER%', 'PERC%T'); write '87%'")
             if re.search(r"\d\.\d|^[+\-−]|\s[+\-−]\d", lab):
                 warns.append(f"cover_brief label {lab!r} has a decimal or a +/- sign: the model drops them; use a word, a year or a whole number")
             for num in re.findall(r"\d[\d.,]*", lab):
