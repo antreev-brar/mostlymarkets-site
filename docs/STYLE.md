@@ -427,7 +427,7 @@ cover_text = ["META", "CASH BURN"]
      say it plainly. Ranks of uniformed people come out child-like: show a few grown individuals.
    - Vehicles and products pick up real badges (Mercedes stars on vans): say "plain unbadged". A brand with a famous
      logo gets the logo in place of a letter ('NVIDIA' became the eye logo plus 'VIDIA'): ask for its name "in plain
-     block capitals with no logo". A blank tag, ticket or screen gets a made-up number: call it blank or leave it out.
+     block capitals" and never write the word logo, which makes the model draw one. A blank tag, ticket or screen gets a made-up number: call it blank or leave it out.
    - Open with the crowd and the action: a brief that starts on one object can come back as a lone product shot or an
      empty flat scene with no lettering.
 10. **Vary it.** About 40 covers show at once on the home page. Look at the latest briefs
