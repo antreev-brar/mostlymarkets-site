@@ -367,10 +367,34 @@
 "day": "2026-10-30",
 "kind": "earnings-recap"
 },
+"recap-EL-2026-11-02": {
+"created": "2026-11-02T08:01:12-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"EL"
+]
+},
+"recap-ETR-2026-11-02": {
+"created": "2026-11-02T08:01:12-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"ETR"
+]
+},
 "recap-EXC-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-FOXA-2026-11-02": {
+"created": "2026-11-02T08:01:12-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"FOXA"
+]
 },
 "recap-GD-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
@@ -484,6 +508,14 @@
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-PEG-2026-11-02": {
+"created": "2026-11-02T08:01:12-05:00",
+"day": "2026-11-02",
+"kind": "earnings-recap",
+"tickers": [
+"PEG"
+]
 },
 "recap-PWR-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
