@@ -1,30 +1,30 @@
 {
- "id": "news-AAPL-2026-11-02-markets-hope-for-relief-in-apple-margins",
+ "id": "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room",
  "kind": "news",
  "story_type": "brief",
  "priority": 58,
- "created": "2026-11-02T04:01:11-05:00",
- "expires": "2026-11-02T14:01:11-05:00",
+ "created": "2026-11-02T06:15:14-05:00",
+ "expires": "2026-11-02T16:15:14-05:00",
  "tickers": [
   "AAPL"
  ],
  "headline_hint": "Apple: <what just happened>",
  "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
- "quotes_asof": "2026-11-02T04:00:09-05:00",
+ "quotes_asof": "2026-11-02T06:15:09-05:00",
  "pack": {
   "headlines": [
+   {
+    "title": "Apple\u2019s $1 Trillion Rally Leaves No Room for Error on Earnings",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjc5RkZlVlNFVy1jRUNDbnhCZGJLd3JWTWVMMnV6LUlWaUpxNWFNSmRrTFVWMmFwaDVmSERlTTlVdzZEVHJmVmViemgzMnB3dXBha01ZeXg2a2ZNNEQ5dzN3RWgyQktQVFRYZnRkWko4aTduQjliWTljSmQzYlBiSnJWSU5POVZtRVNtNnBGc2NEc3lFVEs1Y2l5QXpZa1p4bndfcUFaU1VIVVp0NFF0XzlB?oc=5",
+    "published": "2026-11-02T04:57:33-05:00",
+    "also": []
+   },
    {
     "title": "Asia stocks rise as tech gains ahead of Apple results",
     "source": "Investing.com",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONXg3aUtYUldwUUY0UV9DS3QtSjk5LWdPUmZTRDdnUUVCQzNpbjNfZFVPNU9pbHdVNVhiNHZ3TFJ2VFd0MzNXM3cxcXFJRDFhbVVoNnh0Q0xlTXhMNWZuVklZUnVxVEZzMFc3ZHdfSURIOWRFVU5pS3FZTW9oSUFPZG1SaENKNDR0NmdudUJGVjd6V2ZoQkhHRnB2OHJxWkNGX0FYV0JjdE5PRjBJbGtZ?oc=5",
     "published": "2026-11-02T02:15:31-05:00",
-    "also": []
-   },
-   {
-    "title": "Markets hope for relief in Apple margins",
-    "source": "Reuters",
-    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46J0BK:0-markets-hope-for-relief-in-apple-margins/",
-    "published": "2026-11-02T01:52:35-05:00",
     "also": []
    }
   ],
@@ -40,9 +40,9 @@
    "yr_low": 243.42,
    "ext": {
     "session": "PRE_MKT",
-    "price": 343.9,
-    "change_pct": -0.21,
-    "time": "2026-11-02T04:00:00.709-0500"
+    "price": 343.72,
+    "change_pct": -0.26,
+    "time": "2026-11-02T06:14:44.762-0500"
    }
   },
   "facts": {
@@ -88,5 +88,8 @@
    "/news/2026-11-01/apple-aapl-became-wall-streets-ai-haven-is-the-business-worth-the-price/",
    "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-02T06:33:57-05:00",
+ "reason": "earnings preview commentary; covered by our Apple preview and breakdown"
 }
