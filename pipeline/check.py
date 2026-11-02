@@ -223,6 +223,9 @@ def check_file(path: Path, universe: set[str], authors: set[str], slugs: dict) -
             warns.append("cover_brief ends a sentence on a quoted label: the model paints the next word onto the sign; keep describing in the same sentence")
         if not labels:
             warns.append("cover_brief has no 'LABEL': name the company or the number that matters on a sign, banner or screen")
+        for lab, nxt in re.findall(r"(?<![A-Za-z])'([^']{1,40})'(?![A-Za-z]),?\s+(\w+)", brief):
+            if nxt.lower() not in ("while", "and", "as", "where", "with"):
+                warns.append(f"cover_brief label {lab!r} is followed by {nxt!r}: the word after a label gets lettered onto the sign; follow it with ', while'")
         if len(labels) > 3:
             warns.append(f"cover_brief has {len(labels)} quoted labels: keep three at most, each on its own big sign (more come out garbled)")
         ct = fm.get("cover_text")
