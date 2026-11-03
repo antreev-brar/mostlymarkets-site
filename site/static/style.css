@@ -1064,30 +1064,31 @@ details.allst summary { cursor: pointer; font: 600 14px/1 var(--sans); color: va
 
 /* the top story */
 .hero8 { grid-column: 1 / -1; min-width: 0; }
-.hc { position: relative; display: grid; grid-template-columns: minmax(0, 1.32fr) minmax(0, 1fr); min-height: 500px; border-radius: 24px; overflow: hidden; background: #0f1733; color: #eef1fb; box-shadow: 0 1px 2px rgba(16, 26, 58, .06), 0 8px 24px rgba(16, 26, 58, .08); }
+.hc { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); min-height: 0; border-radius: 24px; overflow: hidden; background: #0f1733; color: #eef1fb; box-shadow: 0 1px 2px rgba(16, 26, 58, .06), 0 8px 24px rgba(16, 26, 58, .08); }
 .hc-cv { position: relative; display: block; min-height: 100%; background: #182038; overflow: hidden; }
 .hc-cv img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hc-badge { position: absolute; left: 18px; top: 18px; z-index: 1; font: 700 13px/1 var(--sans); padding: 9px 12px; border-radius: 999px; background: rgba(11, 16, 32, .78); color: #fff; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .hc-badge b { color: #101a3a; background: var(--hl); padding: 2px 6px 3px; border-radius: 5px; margin-left: 2px; }
-.hc-tx { display: flex; flex-direction: column; gap: 16px; min-width: 0; padding: 40px 42px 34px; }
+.hc-tx { display: flex; flex-direction: column; gap: 11px; min-width: 0; padding: 26px 34px 24px; }
 .hc-k { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; font: 700 12.5px/1 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--hl); }
 .hc-k time { letter-spacing: .02em; text-transform: none; font-weight: 600; color: #aab3d1; }
 .hc-sep { color: #59638a; }
-.hc h1 { font: 700 42px/1.08 var(--serif); letter-spacing: -.022em; text-wrap: balance; color: #fff; }
+.hc h1 { font: 700 32px/1.1 var(--serif); letter-spacing: -.022em; text-wrap: balance; color: #fff; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .hc h1 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
-.hc .dek { font: 400 16px/1.5 var(--sans); color: #a9b2cf; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.hc.pts .dek { -webkit-line-clamp: 3; }
+.hc .dek { font: 400 15px/1.5 var(--sans); color: #a9b2cf; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .hc-pts { list-style: none; margin: 0; padding: 0; display: grid; }
-.hc-pts a { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px; padding: 9px 0; border-top: 1px solid rgba(255, 255, 255, .1); font: 600 14.5px/1.35 var(--sans); color: #eef1fb; }
-.hc.pts h1 { font-size: 38px; }
+.hc-pts a { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px; padding: 6px 0; border-top: 1px solid rgba(255, 255, 255, .1); font: 600 14px/1.35 var(--sans); color: #eef1fb; }
+/* the top card's links stay one line each, so the card stays under half a laptop screen (3 Nov) */
+.hc-pts span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hc.pts h1 { font-size: 30px; }
 .hc-pts a:hover span { text-decoration: underline; text-underline-offset: 3px; }
 .hc-pts b { color: var(--hl); font-variant-numeric: tabular-nums; }
-.hc-ph { margin: 0 0 -8px; font: 750 11.5px/1 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: #8f99bb; }
+.hc-ph { margin: 0 0 -5px; font: 750 11.5px/1 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: #8f99bb; }
 .hc-pts.rel { list-style: none; }
-.hc-pts.rel a { grid-template-columns: 16px minmax(0, 1fr); font: 600 15px/1.35 var(--serif); }
+.hc-pts.rel a { grid-template-columns: 16px minmax(0, 1fr); font: 600 14.5px/1.35 var(--serif); }
 .hc-pts.rel b::before { content: ""; display: block; width: 8px; height: 2px; margin-top: .62em; background: var(--hl); }
-.hc-acts { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px; margin-top: auto; padding-top: 6px; }
-.hc:not(.pts) { min-height: 440px; }
+.hc-acts { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px; margin-top: auto; padding-top: 4px; }
+.hc:not(.pts) { min-height: 360px; }
 .hc:not(.pts) .hc-tx { justify-content: center; }
 .hc:not(.pts) .hc-acts { margin-top: 10px; }
 .hc-acts .btn { background: var(--hl); color: #101a3a; border-color: var(--hl); }
@@ -1218,15 +1219,17 @@ details.allst summary { cursor: pointer; font: 600 14px/1 var(--sans); color: va
 @media (max-width: 1180px) {
   .hm { grid-template-columns: minmax(0, 1fr) 280px; column-gap: 32px; }
   .r8 { grid-template-columns: minmax(0, 1fr) 236px; gap: 24px; }
-  .hc { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); min-height: 460px; }
-  .hc-tx { padding: 32px 32px 28px; }
-  .hc h1, .hc.pts h1 { font-size: 34px; }
+  .hc-tx { padding: 24px 28px 22px; }
+  .hc h1, .hc.pts h1 { font-size: 28px; }
+  .hc-pts li:nth-child(n+3) { display: none; }
 }
 @media (max-width: 900px) {
   .hc { grid-template-columns: minmax(0, 1fr); min-height: 0; border-radius: 20px; }
   .hc-cv { aspect-ratio: 2 / 1; min-height: 0; }
-  .hc-tx { padding: 24px 28px 26px; gap: 12px; }
-  .hc h1, .hc.pts h1 { font-size: 32px; line-height: 1.1; }
+  .hc-cv img { object-position: 50% 30%; }
+  .hc-tx { padding: 22px 26px 24px; }
+  .hc h1, .hc.pts h1 { font-size: 28px; }
+  .hc-ph, .hc-pts { display: none; }
 }
 @media (max-width: 1000px) {
   .hm { grid-template-columns: minmax(0, 1fr); gap: 0; padding-top: 14px; }
@@ -1247,13 +1250,11 @@ details.allst summary { cursor: pointer; font: 600 14px/1 var(--sans); color: va
 }
 @media (max-width: 760px) {
   .hc { grid-template-columns: minmax(0, 1fr); min-height: 0; border-radius: 20px; }
-  .hc-cv { aspect-ratio: 16 / 10; }
-  .hc-acts { column-gap: 8px; }
+  .hc-acts { column-gap: 8px; padding-top: 2px; }
   .hc-acts .btn { padding: 0 14px; }
-  .hc-tx { padding: 20px 20px 22px; gap: 12px; }
-  .hc h1, .hc.pts h1 { font-size: 28px; line-height: 1.12; }
-  .hc .dek { font-size: 15px; }
-  .hc-pts a { font-size: 14px; padding: 9px 0; }
+  .hc-tx { padding: 18px 18px 20px; gap: 10px; }
+  .hc h1, .hc.pts h1 { font-size: 25px; line-height: 1.14; -webkit-line-clamp: 4; }
+  .hc .dek { font-size: 14.5px; }
 }
 @media (max-width: 640px) {
   .r8, .cards-col .r8 { grid-template-columns: minmax(0, 1fr) 104px; gap: 14px; align-items: start; padding: 18px 0; }

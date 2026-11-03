@@ -238,3 +238,13 @@ news too"; and "stockstory type buttons to add stocks to users wishlist that the
   (`NEWS_TYPES`: "brief") leave the feed and its top card. They post in Top news as Mostly Markets ("Our story"), beside
   the newsrooms' headlines, and on the new **/news/** page (`news_page`): the day's biggest headline, then every post a
   day at a time, newest first, with all our news stories in the right column. "News" joined the nav.
+
+## 3 Nov 2026: a smaller top card, no News in the header
+
+- **Top card** (`.hc`): the owner said it took more than half the screen (634 px on a 1440 x 900 laptop, 70%; the whole
+  screen on a phone). It is now about 394 px (44% at 1440 x 900, 49% at 1280 x 800): cover and text split 1 : 1 (the
+  cover then shows near its own 16:10), a 30-32 px headline clamped to three lines, a two-line dek, the "More on" links
+  one line each (two links under 1180 px), tighter padding. Under 900 px the cover is 2:1 (cropped toward its top,
+  where the lettered signs are) and the links drop, so a phone shows about 475 px (56% at 390 x 844).
+- **Nav**: "News" left the header (`NAV`: Feed, The Daily, Discover, Earnings). /news/ stays, linked from the footer;
+  Top news on the home page carries the headlines.

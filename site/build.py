@@ -501,7 +501,7 @@ ICON = {
     "star": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg>',
     "star_on": '<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path class="sf" d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg>',
 }
-NAV = [("", "Feed"), ("news/", "News"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
+NAV = [("", "Feed"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
 def page(path: str, title: str, body: str, desc: str = "", image: str | None = None, active: str = "",
          og_type: str = "website", extra_head: str = "") -> str:
     full_title = title if title.endswith(CFG["name"]) else f"{title} | {CFG['name']}"
