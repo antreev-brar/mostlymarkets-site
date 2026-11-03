@@ -1,0 +1,111 @@
+{
+ "id": "basket-technology-hardware-storage-peripherals-up-2026-11-03",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-03T10:30:13-05:00",
+ "expires": "2026-11-03T23:59:00-05:00",
+ "tickers": [
+  "SNDK",
+  "HPE",
+  "DELL"
+ ],
+ "headline_hint": "SNDK, HPE, DELL shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-03T10:30:08-05:00",
+ "pack": {
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "quotes": {
+   "SNDK": {
+    "price": 1135.27,
+    "change_pct": 5.6,
+    "prev_close": 1075.08,
+    "time": "2026-11-03T10:30:04.972-0500",
+    "mktcap": "161.537B",
+    "pe": 9.04,
+    "fpe": 5.05,
+    "yr_high": 2354.39,
+    "yr_low": 183.0,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 1104.03,
+     "change_pct": 2.69,
+     "time": "2026-11-03T09:30:00.914-0500"
+    }
+   },
+   "HPE": {
+    "price": 53.89,
+    "change_pct": 5.26,
+    "prev_close": 51.19,
+    "time": "2026-11-03T10:29:59.215-0500",
+    "mktcap": "71.53B",
+    "pe": 28.07,
+    "fpe": 11.65,
+    "yr_high": 73.56,
+    "yr_low": 19.84,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 52.22,
+     "change_pct": 2.01,
+     "time": "2026-11-03T09:29:24.637-0500"
+    }
+   },
+   "DELL": {
+    "price": 409.44,
+    "change_pct": 4.24,
+    "prev_close": 392.78,
+    "time": "2026-11-03T10:30:01.471-0500",
+    "mktcap": "260.324B",
+    "pe": 23.76,
+    "fpe": 14.5,
+    "yr_high": 595.51,
+    "yr_low": 110.22,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 401.1,
+     "change_pct": 2.12,
+     "time": "2026-11-03T09:30:01.355-0500"
+    }
+   }
+  },
+  "facts": {
+   "SNDK": {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "date": "2026-11-02",
+    "close": 1075.08,
+    "prev_close": 1150.89,
+    "change_pct": -6.59,
+    "moves_over_5pct_last_year": 116,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 77,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-30",
+     "change_pct": -13.47
+    },
+    "ytd_pct": 352.89,
+    "return_1m_pct": -37.49,
+    "return_6m_pct": -14.39,
+    "return_1y_pct": 449.01,
+    "high_52w": {
+     "close": 2335.0,
+     "date": "2026-06-25"
+    },
+    "low_52w": {
+     "close": 194.38,
+     "date": "2025-12-03"
+    },
+    "pct_below_52w_high": 53.96,
+    "thousand_dollars_5y_ago_now": null,
+    "five_years_ago_date": null,
+    "volume": 10569950,
+    "volume_vs_20d_avg": 1.22,
+    "sentences": [
+     "Sandisk's shares moved 5% or more on 116 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 13.5%.",
+     "The stock is up 352.9% this year, and at $1,075.08 it sits 54.0% below its 52-week closing high of $2,335.00 from 25 June 2026."
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,622 @@
+{
+ "id": "list-2026-11-03-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-03T10:30:13-05:00",
+ "expires": "2026-11-03T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Stocks We'd Skip After Their Earnings and 1 We Like",
+ "instructions": "Theme: After Earnings, screened on companies worth $10bn+ that reported results in the last seven days and that we recapped. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Each stock's case starts from the quarter it just reported (link our recap in candidates[].our_recap), then the long-run numbers. Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T10:30:08-05:00",
+ "pack": {
+  "theme": "after-earnings",
+  "screen": "companies worth $10bn+ that reported results in the last seven days and that we recapped",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "industry": "Broadline Retail",
+    "our_recap": {
+     "title": "Amazon (AMZN) Q3: AWS Speeds Up, but Ads and Earnings Miss Estimates",
+     "path": "/news/2026-10-29/amazon-amzn-q3-aws-speeds-up-but-ads-and-profit-miss-estimates/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 246.78,
+     "change_pct": 0.47,
+     "prev_close": 245.63,
+     "time": "2026-11-03T10:30:00.466-0500",
+     "mktcap": "2.668T",
+     "pe": 19.95,
+     "fpe": 26.62,
+     "yr_high": 287.2,
+     "yr_low": 196.0,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 249.1,
+      "change_pct": 1.41,
+      "time": "2026-11-03T09:30:01.422-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 797455000000,
+     "revenue_growth_yoy_pct": 15.4,
+     "gross_margin_pct": 51.4,
+     "operating_margin_pct": 13.1,
+     "net_margin_pct": 16.9,
+     "eps_diluted": 12.37,
+     "ocf": 168300000000,
+     "fcf": -46892000000,
+     "fcf_margin_pct": -5.9
+    }
+   },
+   {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "industry": "Pharmaceuticals",
+    "our_recap": {
+     "title": "Eli Lilly (LLY) Tops Q3 Estimates as Mounjaro Sales Jump 65%",
+     "path": "/news/2026-10-29/eli-lilly-lly-tops-q3-estimates-as-mounjaro-sales-jump-65/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 1422.14,
+     "change_pct": 0.79,
+     "prev_close": 1410.99,
+     "time": "2026-11-03T10:30:01.441-0500",
+     "mktcap": "1.338T",
+     "pe": 46.16,
+     "fpe": 35.06,
+     "yr_high": 1449.68,
+     "yr_low": 850.51,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 1395.49,
+      "change_pct": -1.1,
+      "time": "2026-11-03T09:30:01.228-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 86462000000,
+     "revenue_growth_yoy_pct": 45.5,
+     "gross_margin_pct": 83.6,
+     "operating_margin_pct": null,
+     "net_margin_pct": 31.9,
+     "eps_diluted": 30.81,
+     "ocf": 30645000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "V",
+    "name": "Visa",
+    "industry": "Transaction & Payment Processing Services",
+    "our_recap": {
+     "title": "Visa (V) Beats Q4 Estimates, but Its 2027 Outlook Points to Slower Growth",
+     "path": "/news/2026-10-27/visa-v-beats-q4-estimates-but-its-2027-outlook-points-to-slower-growth/",
+     "date": "2026-10-27"
+    },
+    "quote": {
+     "price": 419.99,
+     "change_pct": -1.3,
+     "prev_close": 425.51,
+     "time": "2026-11-03T10:30:06.717-0500",
+     "mktcap": "780.635B",
+     "pe": 34.06,
+     "fpe": 29.06,
+     "yr_high": 426.78,
+     "yr_low": 293.89,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 421.83,
+      "change_pct": -0.86,
+      "time": "2026-11-03T09:29:55.074-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 43027000000,
+     "revenue_growth_yoy_pct": 14.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 61.1,
+     "net_margin_pct": 51.7,
+     "eps_diluted": null,
+     "ocf": 22756000000,
+     "fcf": 21185000000,
+     "fcf_margin_pct": 49.2
+    }
+   },
+   {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "industry": "Integrated Oil & Gas",
+    "our_recap": {
+     "title": "Exxon Mobil (XOM) Tops Q3 Estimates as Refining Profit More Than Doubles",
+     "path": "/news/2026-11-01/exxon-mobil-xom-tops-q3-estimates-as-refining-profit-more-than-doubles/",
+     "date": "2026-11-01"
+    },
+    "quote": {
+     "price": 178.73,
+     "change_pct": -0.52,
+     "prev_close": 179.67,
+     "time": "2026-11-03T10:30:05.816-0500",
+     "mktcap": "729.04B",
+     "pe": 18.4,
+     "fpe": 12.07,
+     "yr_high": 188.5,
+     "yr_low": 112.51,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 178.99,
+      "change_pct": -0.38,
+      "time": "2026-11-03T09:28:44.746-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 396627000000,
+     "revenue_growth_yoy_pct": 19.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 10.2,
+     "eps_diluted": 9.74,
+     "ocf": 70589000000,
+     "fcf": 42964000000,
+     "fcf_margin_pct": 10.8
+    }
+   },
+   {
+    "ticker": "MA",
+    "name": "Mastercard",
+    "industry": "Transaction & Payment Processing Services",
+    "our_recap": {
+     "title": "Mastercard (MA) Tops Q3 Estimates as Value-Added Services Grow 19%",
+     "path": "/news/2026-10-29/mastercard-ma-tops-q3-estimates-as-value-added-services-grow-19/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 646.82,
+     "change_pct": -1.71,
+     "prev_close": 658.1,
+     "time": "2026-11-03T10:30:02.343-0500",
+     "mktcap": "563.494B",
+     "pe": 35.57,
+     "fpe": 30.41,
+     "yr_high": 661.34,
+     "yr_low": 464.52,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 655.0,
+      "change_pct": -0.47,
+      "time": "2026-11-03T08:48:39.953-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 36288000000,
+     "revenue_growth_yoy_pct": 15.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 58.6,
+     "net_margin_pct": 46.7,
+     "eps_diluted": 19.12,
+     "ocf": 16861000000,
+     "fcf": 16082000000,
+     "fcf_margin_pct": 44.3
+    }
+   },
+   {
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "industry": "Biotechnology",
+    "our_recap": {
+     "title": "AbbVie (ABBV) Tops Q3 Estimates as Skyrizi and Rinvoq Grow 23%",
+     "path": "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/",
+     "date": "2026-11-01"
+    },
+    "quote": {
+     "price": 289.05,
+     "change_pct": 0.07,
+     "prev_close": 288.84,
+     "time": "2026-11-03T10:29:58.997-0500",
+     "mktcap": "510.785B",
+     "pe": 49.78,
+     "fpe": 19.05,
+     "yr_high": 298.74,
+     "yr_low": 190.75,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 286.74,
+      "change_pct": -0.73,
+      "time": "2026-11-03T09:08:11.680-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 64386000000,
+     "revenue_growth_yoy_pct": 10.4,
+     "gross_margin_pct": 71.5,
+     "operating_margin_pct": 26.2,
+     "net_margin_pct": 9.8,
+     "eps_diluted": 3.54,
+     "ocf": 19507000000,
+     "fcf": 18210000000,
+     "fcf_margin_pct": 28.3
+    }
+   },
+   {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "industry": "Integrated Oil & Gas",
+    "our_recap": {
+     "title": "Chevron (CVX) Tops Q3 Estimates as Refining Profit Jumps",
+     "path": "/news/2026-10-30/chevron-cvx-tops-q3-estimates-as-refining-profit-jumps/",
+     "date": "2026-10-30"
+    },
+    "quote": {
+     "price": 226.63,
+     "change_pct": -0.5,
+     "prev_close": 227.77,
+     "time": "2026-11-03T10:29:56.773-0500",
+     "mktcap": "442.155B",
+     "pe": 16.58,
+     "fpe": 11.82,
+     "yr_high": 236.48,
+     "yr_low": 146.49,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 224.7,
+      "change_pct": -1.35,
+      "time": "2026-11-03T09:29:59.666-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 215261000000,
+     "revenue_growth_yoy_pct": 10.2,
+     "gross_margin_pct": 45.4,
+     "operating_margin_pct": null,
+     "net_margin_pct": 9.6,
+     "eps_diluted": 10.42,
+     "ocf": 45321000000,
+     "fcf": 27012000000,
+     "fcf_margin_pct": 12.5
+    }
+   },
+   {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies",
+    "industry": "Application Software",
+    "our_recap": {
+     "title": "Palantir (PLTR) Beats Q3 Estimates as US Commercial Sales Overtake Government",
+     "path": "/news/2026-11-02/palantir-pltr-beats-q3-estimates-as-us-commercial-sales-overtake-government/",
+     "date": "2026-11-02"
+    },
+    "quote": {
+     "price": 169.77,
+     "change_pct": -4.81,
+     "prev_close": 178.34,
+     "time": "2026-11-03T10:30:05.316-0500",
+     "mktcap": "407.968B",
+     "pe": 144.67,
+     "fpe": 99.51,
+     "yr_high": 212.94,
+     "yr_low": 106.37,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 167.93,
+      "change_pct": -5.84,
+      "time": "2026-11-03T09:30:00.112-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 6155941000,
+     "revenue_growth_yoy_pct": 78.9,
+     "gross_margin_pct": 84.8,
+     "operating_margin_pct": 42.8,
+     "net_margin_pct": 49.0,
+     "eps_diluted": 1.17,
+     "ocf": 3400291000,
+     "fcf": 3358272000,
+     "fcf_margin_pct": 54.6
+    }
+   },
+   {
+    "ticker": "KO",
+    "name": "Coca-Cola",
+    "industry": "Soft Drinks & Non-alcoholic Beverages",
+    "our_recap": {
+     "title": "Coca-Cola (KO) Tops Q3 Estimates as Volume Grows Outside North America",
+     "path": "/news/2026-10-27/coca-cola-ko-tops-q3-estimates-as-volume-grows-outside-north-america/",
+     "date": "2026-10-27"
+    },
+    "quote": {
+     "price": 94.39,
+     "change_pct": -1.5,
+     "prev_close": 95.83,
+     "time": "2026-11-03T10:30:03.423-0500",
+     "mktcap": "406.057B",
+     "pe": 27.83,
+     "fpe": 27.81,
+     "yr_high": 96.26,
+     "yr_low": 67.27,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 95.0,
+      "change_pct": -0.87,
+      "time": "2026-11-03T09:26:52.233-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 51054000000,
+     "revenue_growth_yoy_pct": 7.1,
+     "gross_margin_pct": 62.3,
+     "operating_margin_pct": 30.0,
+     "net_margin_pct": 28.7,
+     "eps_diluted": 3.4,
+     "ocf": 16227000000,
+     "fcf": 14282000000,
+     "fcf_margin_pct": 28.0
+    }
+   },
+   {
+    "ticker": "MRK",
+    "name": "Merck",
+    "industry": "Pharmaceuticals",
+    "our_recap": {
+     "title": "Merck (MRK) Tops Q3 Estimates as Keytruda and Gardasil Outperform",
+     "path": "/news/2026-10-29/merck-mrk-tops-q3-estimates-as-keytruda-and-gardasil-outperform/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 145.66,
+     "change_pct": -1.82,
+     "prev_close": 148.36,
+     "time": "2026-11-03T10:30:02.954-0500",
+     "mktcap": "359.374B",
+     "pe": 148.6,
+     "fpe": 18.07,
+     "yr_high": 156.92,
+     "yr_low": 82.01,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 147.0,
+      "change_pct": -0.92,
+      "time": "2026-11-03T08:54:46.305-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 66569000000,
+     "revenue_growth_yoy_pct": 4.6,
+     "gross_margin_pct": 73.0,
+     "operating_margin_pct": null,
+     "net_margin_pct": 4.8,
+     "eps_diluted": 1.25,
+     "ocf": 19967000000,
+     "fcf": 16063000000,
+     "fcf_margin_pct": 24.1
+    }
+   },
+   {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "industry": "Integrated Oil & Gas",
+    "our_recap": {
+     "title": "Shell (SHEL) Tops Q3 Estimates as Refining Margins Hit a Record",
+     "path": "/news/2026-10-29/shell-shel-tops-q3-estimates-as-refining-margins-hit-a-record/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 104.1,
+     "change_pct": -0.81,
+     "prev_close": 104.94,
+     "time": "2026-11-03T10:30:03.030-0500",
+     "mktcap": "296.774B",
+     "pe": 9.03,
+     "fpe": 8.74,
+     "yr_high": 109.37,
+     "yr_low": 68.63,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 104.5,
+      "change_pct": -0.42,
+      "time": "2026-11-03T09:29:59.427-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "AZN",
+    "name": "AstraZeneca",
+    "industry": "Pharmaceuticals",
+    "our_recap": {
+     "title": "AstraZeneca (AZN) Tops Q3 Estimates and Shares Jump 7% on a Savings Plan",
+     "path": "/news/2026-11-01/astrazeneca-azn-tops-q3-estimates-and-shares-jump-7-on-a-savings-plan/",
+     "date": "2026-11-01"
+    },
+    "quote": {
+     "price": 185.45,
+     "change_pct": -0.61,
+     "prev_close": 186.58,
+     "time": "2026-11-03T10:29:51.430-0500",
+     "mktcap": "287.643B",
+     "pe": 26.04,
+     "fpe": 17.8,
+     "yr_high": 212.71,
+     "yr_low": 153.41,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 186.09,
+      "change_pct": -0.26,
+      "time": "2026-11-03T09:30:00.749-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "CAT",
+    "name": "Caterpillar",
+    "industry": "Construction Machinery & Heavy Transportation Equipment",
+    "our_recap": {
+     "title": "Caterpillar (CAT) Beats Q3 Profit Estimates, but Shares Plunge on Its Outlook",
+     "path": "/news/2026-10-29/caterpillar-cat-beats-q3-profit-estimates-but-shares-plunge-on-its-outlook/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 620.54,
+     "change_pct": 1.13,
+     "prev_close": 613.62,
+     "time": "2026-11-03T10:29:56.212-0500",
+     "mktcap": "285.247B",
+     "pe": 24.34,
+     "fpe": 21.58,
+     "yr_high": 1073.46,
+     "yr_low": 537.08,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 618.0,
+      "change_pct": 0.71,
+      "time": "2026-11-03T09:29:59.057-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 74729000000,
+     "revenue_growth_yoy_pct": 18.4,
+     "gross_margin_pct": 34.3,
+     "operating_margin_pct": 17.5,
+     "net_margin_pct": 14.5,
+     "eps_diluted": 23.23,
+     "ocf": 13569000000,
+     "fcf": 10698000000,
+     "fcf_margin_pct": 14.3
+    }
+   },
+   {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "industry": "Heavy Electrical Equipment",
+    "our_recap": {
+     "title": "GE Vernova (GEV) Tops Q3 Estimates as Orders Nearly Double to $29 Billion",
+     "path": "/news/2026-10-29/ge-vernova-gev-tops-q3-estimates-as-orders-nearly-double-to-29-billion/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 913.22,
+     "change_pct": 5.91,
+     "prev_close": 862.25,
+     "time": "2026-11-03T10:30:02.612-0500",
+     "mktcap": "241.709B",
+     "pe": 23.93,
+     "fpe": 43.45,
+     "yr_high": 1195.94,
+     "yr_low": 530.16,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 888.03,
+      "change_pct": 2.99,
+      "time": "2026-11-03T09:21:35.748-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 44041000000,
+     "revenue_growth_yoy_pct": 16.9,
+     "gross_margin_pct": 21.7,
+     "operating_margin_pct": 6.4,
+     "net_margin_pct": 23.5,
+     "eps_diluted": 38.09,
+     "ocf": 19216000000,
+     "fcf": 17115000000,
+     "fcf_margin_pct": 38.9
+    }
+   },
+   {
+    "ticker": "LIN",
+    "name": "Linde",
+    "industry": "Industrial Gases",
+    "our_recap": {
+     "title": "Linde (LIN) Tops Q3 Estimates as Higher Prices Lift Sales 9%",
+     "path": "/news/2026-10-29/linde-lin-tops-q3-estimates-as-higher-prices-lift-sales-9/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 514.83,
+     "change_pct": -0.94,
+     "prev_close": 519.72,
+     "time": "2026-11-03T10:29:50.179-0500",
+     "mktcap": "236.35B",
+     "pe": 34.19,
+     "fpe": 27.64,
+     "yr_high": 548.2,
+     "yr_low": 387.78,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 518.26,
+      "change_pct": -0.28,
+      "time": "2026-11-03T09:30:00.163-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 36238000000,
+     "revenue_growth_yoy_pct": 8.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 25.3,
+     "net_margin_pct": 19.3,
+     "eps_diluted": 15.06,
+     "ocf": 10710000000,
+     "fcf": 5080000000,
+     "fcf_margin_pct": 14.0
+    }
+   },
+   {
+    "ticker": "GILD",
+    "name": "Gilead Sciences",
+    "industry": "Biotechnology",
+    "our_recap": {
+     "title": "Gilead (GILD) Tops Q3 Estimates as HIV Sales Grow 18%",
+     "path": "/news/2026-10-29/gilead-gild-tops-q3-estimates-as-hiv-sales-grow-18/",
+     "date": "2026-10-29"
+    },
+    "quote": {
+     "price": 170.56,
+     "change_pct": 0.14,
+     "prev_close": 170.33,
+     "time": "2026-11-03T10:29:56.287-0500",
+     "mktcap": "211.552B",
+     "pe": -54.19,
+     "fpe": 20.88,
+     "yr_high": 175.65,
+     "yr_low": 116.88,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 170.37,
+      "change_pct": 0.02,
+      "time": "2026-11-03T09:30:00.432-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 30988000000,
+     "revenue_growth_yoy_pct": 6.5,
+     "gross_margin_pct": 79.9,
+     "operating_margin_pct": -7.6,
+     "net_margin_pct": -12.5,
+     "eps_diluted": -3.16,
+     "ocf": 14479000000,
+     "fcf": 13780000000,
+     "fcf_margin_pct": 44.5
+    }
+   }
+  ]
+ }
+}

@@ -40,6 +40,16 @@
 "AMD"
 ]
 },
+"basket-technology-hardware-storage-peripherals-up-2026-11-03": {
+"created": "2026-11-03T10:30:13-05:00",
+"day": "2026-11-03",
+"kind": "basket",
+"tickers": [
+"SNDK",
+"HPE",
+"DELL"
+]
+},
 "breakdown-2026-11-01-1": {
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
@@ -101,6 +111,13 @@
 "day": "2026-11-03",
 "kind": "list",
 "theme": "cash-machines",
+"tickers": []
+},
+"list-2026-11-03-2": {
+"created": "2026-11-03T10:30:13-05:00",
+"day": "2026-11-03",
+"kind": "list",
+"theme": "after-earnings",
 "tickers": []
 },
 "macro-2026-10-29": {
