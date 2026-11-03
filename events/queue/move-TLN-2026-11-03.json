@@ -1,0 +1,74 @@
+{
+ "id": "move-TLN-2026-11-03",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 64,
+ "created": "2026-11-03T10:01:17-05:00",
+ "expires": "2026-11-04T12:00:00-05:00",
+ "tickers": [
+  "TLN"
+ ],
+ "headline_hint": "Why Talen Energy (TLN) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-11-03T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 359.4,
+   "change_pct": 7.93,
+   "prev_close": 332.99,
+   "time": "2026-11-03T10:00:01.254-0500",
+   "mktcap": "17.00B",
+   "pe": -82.42,
+   "fpe": 13.66,
+   "yr_high": 449.84,
+   "yr_low": 279.77,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 332.49,
+    "change_pct": -0.15,
+    "time": "2026-11-03T09:30:00.616-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TLN",
+   "name": "Talen Energy",
+   "date": "2026-11-02",
+   "close": 332.99,
+   "prev_close": 343.12,
+   "change_pct": -2.95,
+   "moves_over_5pct_last_year": 35,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 97,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": -7.81
+   },
+   "ytd_pct": -11.16,
+   "return_1m_pct": 3.81,
+   "return_6m_pct": -13.43,
+   "return_1y_pct": -15.01,
+   "high_52w": {
+    "close": 438.12,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 282.15,
+    "date": "2026-09-15"
+   },
+   "pct_below_52w_high": 24.0,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 1066717,
+   "volume_vs_20d_avg": 0.95,
+   "sentences": [
+    "Talen Energy's shares moved 5% or more on 35 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 7.8%.",
+    "The stock is down 11.2% this year, and at $332.99 it sits 24.0% below its 52-week closing high of $438.12 from 22 June 2026."
+   ]
+  },
+  "sector": "Utilities",
+  "industry": "Independent Power Producers & Energy Traders",
+  "recent_stories": []
+ }
+}

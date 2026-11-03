@@ -1,0 +1,74 @@
+{
+ "id": "move-GRAB-2026-11-03",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 79,
+ "created": "2026-11-03T10:01:17-05:00",
+ "expires": "2026-11-04T12:00:00-05:00",
+ "tickers": [
+  "GRAB"
+ ],
+ "headline_hint": "Why Grab Holdings (GRAB) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-11-03T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 3.25,
+   "change_pct": 13.72,
+   "prev_close": 2.86,
+   "time": "2026-11-03T10:00:04.103-0500",
+   "mktcap": "13.306B",
+   "pe": 23.13,
+   "fpe": 19.02,
+   "yr_high": 6.24,
+   "yr_low": 2.67,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 3.21,
+    "change_pct": 12.24,
+    "time": "2026-11-03T09:30:00.329-0500"
+   }
+  },
+  "facts": {
+   "ticker": "GRAB",
+   "name": "Grab Holdings",
+   "date": "2026-11-02",
+   "close": 2.86,
+   "prev_close": 2.71,
+   "change_pct": 5.54,
+   "moves_over_5pct_last_year": 11,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 6,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-22",
+    "change_pct": 8.93
+   },
+   "ytd_pct": -42.69,
+   "return_1m_pct": -7.14,
+   "return_6m_pct": -20.99,
+   "return_1y_pct": -52.17,
+   "high_52w": {
+    "close": 6.07,
+    "date": "2025-11-03"
+   },
+   "low_52w": {
+    "close": 2.71,
+    "date": "2026-10-26"
+   },
+   "pct_below_52w_high": 52.88,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 69385690,
+   "volume_vs_20d_avg": 1.16,
+   "sentences": [
+    "Grab Holdings's shares moved 5% or more on 11 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 September 2026, when the stock rose 8.9%.",
+    "The stock is down 42.7% this year, and at $2.86 it sits 52.9% below its 52-week closing high of $6.07 from 3 November 2025."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Passenger Ground Transportation",
+  "recent_stories": []
+ }
+}

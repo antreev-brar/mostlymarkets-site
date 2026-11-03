@@ -1,0 +1,75 @@
+{
+ "id": "move-IT-2026-11-03",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 89,
+ "created": "2026-11-03T10:01:17-05:00",
+ "expires": "2026-11-04T12:00:00-05:00",
+ "tickers": [
+  "IT"
+ ],
+ "headline_hint": "Why Gartner (IT) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-11-03T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 193.01,
+   "change_pct": -17.96,
+   "prev_close": 235.26,
+   "time": "2026-11-03T10:00:00.039-0500",
+   "mktcap": "12.188B",
+   "pe": 17.32,
+   "fpe": 12.41,
+   "yr_high": 256.9,
+   "yr_low": 124.25,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 208.15,
+    "change_pct": -11.52,
+    "time": "2026-11-03T09:30:00.816-0500"
+   }
+  },
+  "facts": {
+   "ticker": "IT",
+   "name": "Gartner",
+   "date": "2026-11-02",
+   "close": 235.26,
+   "prev_close": 228.79,
+   "change_pct": 2.83,
+   "moves_over_5pct_last_year": 30,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 77,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 6.77
+   },
+   "ytd_pct": -6.75,
+   "return_1m_pct": 27.31,
+   "return_6m_pct": 59.27,
+   "return_1y_pct": -5.29,
+   "high_52w": {
+    "close": 254.59,
+    "date": "2025-12-30"
+   },
+   "low_52w": {
+    "close": 125.73,
+    "date": "2026-06-22"
+   },
+   "pct_below_52w_high": 7.59,
+   "thousand_dollars_5y_ago_now": 693,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 1457736,
+   "volume_vs_20d_avg": 1.53,
+   "sentences": [
+    "Gartner's shares moved 5% or more on 30 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 6.8%.",
+    "The stock is down 6.8% this year, and at $235.26 it sits 7.6% below its 52-week closing high of $254.59 from 30 December 2025.",
+    "$1,000 invested in Gartner five years ago would be worth $693 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "IT Consulting & Other Services",
+  "recent_stories": []
+ }
+}

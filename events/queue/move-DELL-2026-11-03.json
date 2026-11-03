@@ -1,0 +1,120 @@
+{
+ "id": "move-DELL-2026-11-03",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 71,
+ "created": "2026-11-03T10:01:17-05:00",
+ "expires": "2026-11-04T12:00:00-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "Why Dell Technologies (DELL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-03T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 411.03,
+   "change_pct": 4.65,
+   "prev_close": 392.78,
+   "time": "2026-11-03T10:00:01.430-0500",
+   "mktcap": "261.338B",
+   "pe": 23.85,
+   "fpe": 14.55,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 401.1,
+    "change_pct": 2.12,
+    "time": "2026-11-03T09:30:01.355-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-02",
+   "close": 392.78,
+   "prev_close": 424.3,
+   "change_pct": -7.43,
+   "moves_over_5pct_last_year": 49,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 23,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -10.77
+   },
+   "ytd_pct": 212.03,
+   "return_1m_pct": -30.17,
+   "return_6m_pct": 85.59,
+   "return_1y_pct": 143.95,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 33.25,
+   "thousand_dollars_5y_ago_now": 7192,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 6612448,
+   "volume_vs_20d_avg": 1.01,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 49 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 10.8%.",
+    "The stock is up 212.0% this year, and at $392.78 it sits 33.2% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $7,192 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+    "date": "2026-11-03",
+    "title": "Memory's Boom Has Become the Device Makers' Bill: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "AAPL",
+     "HPQ",
+     "DELL",
+     "QCOM",
+     "MU",
+     "SNDK",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-10-30/why-dell-technologies-dell-stock-is-sinking-today/",
+    "date": "2026-10-30",
+    "title": "Dell Technologies (DELL) Shares Slide After Intel Warns on the PC Market",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "HPQ",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-10-22/three-of-the-sp-500s-five-best-stocks-this-year-make-ai-hardware/",
+    "date": "2026-10-22",
+    "title": "Three of the S&P 500's Five Best Stocks This Year Make AI Hardware",
+    "type": "chart",
+    "tickers": [
+     "SNDK",
+     "DELL",
+     "MU",
+     "MRNA",
+     "MPC",
+     "APP",
+     "BSX",
+     "FICO",
+     "LULU",
+     "PODD"
+    ]
+   }
+  ]
+ }
+}
