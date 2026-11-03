@@ -1,0 +1,134 @@
+{
+ "id": "news-PLTR-2026-11-03-apple-and-palantir-shares-slide-in-prema",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-03T05:01:42-05:00",
+ "expires": "2026-11-03T15:01:42-05:00",
+ "tickers": [
+  "PLTR"
+ ],
+ "headline_hint": "Palantir Technologies: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T05:00:07-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Palantir stock slides amid slowdown in U.S. commercial bookings",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4663167-palantir-stock-earnings-us-commercial-bookings",
+    "published": "2026-11-03T04:56:04-05:00",
+    "also": []
+   },
+   {
+    "title": "Apple and Palantir shares slide in premarket trading following post-bell earnings",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tM0xLUm9BNk80ZHdXVFdMX2RJUmtQV3NpNTBoQ0FtRTBQSmhfb1Qxem4xUHJicVUtWlFrNjF5dlhkTXNJblhpbzNqVHl4V1BBN01ORWFSZVF2Qi1rNUV4NmRHUHZpbGVhZXZkMUI5aFMyN3lX0gF6QVVfeXFMUExvb1ZsZk9fQTZvMjltVTBwblFFclFHcHJPOTdlbURXZFQ1UUJpV2daYTVDSVk3dTVyVGtiSGoyMEtMSGVJN2dtVzFFbENwMG1ZNTM5M1ZhbWNIbE5qMkw4OEVONTZUNnpDbVJfUU54c1FIbDBxd29yOUE?oc=5",
+    "published": "2026-11-03T04:21:17-05:00",
+    "also": []
+   },
+   {
+    "title": "UBS raises Palantir stock price target on strong revenue growth",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaTF1aWNINzZ6VjlKd2doU0ZWUGVVV253LTdtVEZjYzdwUTgxSmxYZlNRc1o3dXJybktoY2tDU2djMEhKSmxWQnFETW04b0JyZU93eWpxdG8zWmJBSzkyVWF3YlZ0U0FCWC1pczNBY2h1aFFkTzE1R0ZlWlJrXzZ2dDZJb01RSC12NEFUc0xJTlQ0ZW9jZDlzX2pQNjJ3RTVReW03dEEySGtSR0haRXQxQjZndTl2MTl5VTV2ZHNvQVg?oc=5",
+    "published": "2026-11-03T04:20:36-05:00",
+    "also": []
+   },
+   {
+    "title": "Apple, Palantir report; U.S. midterm elections ahead - what\u2019s moving markets",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTHV3SVBFTXdkZG02R0hFS096Smg3MUMxQUZWTUpQRjFuNHFJbVNaTjlLV0hjU0lKTmtvUjFlb2gwNENnOTNscFJ6TEx0NkQ0SThzMGNJLWpkMXZ6QlVKWWdqeU4zbnRRdVhNZXR5dklHUHRWMVlPT19MWmNwWDNfTGg1dElVYW1XeURWLXVtdlc4cXVnaVU5Y1FvM2FHNUQ4WXJ5ZEttTnRXekRwejc3TjlCb0gyazgtNW1xdmdrRQ?oc=5",
+    "published": "2026-11-03T04:09:08-05:00",
+    "also": []
+   },
+   {
+    "title": "Palantir Q3: This Small Sell-Off Isn't Enough (Rating Downgrade)",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUnFRRFp0WG9zckFFcVE1REFSOGhZYWF5ZnV1Q2xOT1k3QXc5aTc0VXNsUDc3NG5qZTBzVnp1Sll6TjZES0dXWTZiemhMaTlFdGFORThOeExtSDRvekI2azdmbmJmTGx0VlZzckl0NnU5bHBMbFpnOTR5d3U3ZklhS0JCbHBsS3JGVWVjMm9PdjY2aG0tNS1Pcw?oc=5",
+    "published": "2026-11-03T02:48:15-05:00",
+    "also": []
+   },
+   {
+    "title": "'It's Us or Them': Palantir CEO Alex Karp Says China Is 'Doing Exceedingly Well at AI,' Warns America Must Lead",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQVZDYjRLRE9KWTNmMDZoNUs4cWczbUlqVEt5dDZWdFR6Q2xQRFVTMFdyQ0VhMEhwS1otZDZtRkNfX2VSTzlxb2lCWlQ3QmlwaXZWMnFjRDBVYkhXNGR6R0wyVnlpT3gxckU5UnNORmZ1LWNtQnVCcnk2U1RENXNnYWFneUtNUG8?oc=5",
+    "published": "2026-11-03T02:33:22-05:00",
+    "also": []
+   },
+   {
+    "title": "Morgan Stanley raises Palantir stock price target on AI growth momentum",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRkZMT09iOFItM3h4bkE0aWg3dVV5VmlHd0MwQ19hSnBtN0FhQVJfX1dMc3BQRDhhYlFfdkIyZ201anVDUmJCMnF4enh0V2ZuNGhWOUVPdFMxUmx4SFRFQUFKZS1yS0l3VFhRQk92YnF1aU5CTjlJMG96eHV1dEtXNTRqcTVFekNLTlU3Y1pSb1ljMDF4N29Gb0JCSmdtNjNiVDJTSC1WX05KZmYxSTJNelRMZWFSX3dhSU92R0l2VUxyRGlJNk1hRkZ6WQ?oc=5",
+    "published": "2026-11-03T02:31:35-05:00",
+    "also": []
+   },
+   {
+    "title": "Palantir's Alex Karp Says AI Investors Getting Rich on Something Not Working - Palantir Technologies (NAS",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWs2VUI3ZnRLOGVONmlpeVRCQzRGelRLRUhBaHp3NTdGUEVGcjM3ZXJkM05yMGlXVVR6Z1JxcDctMF91VDl6cl9aWFM3UGRWeS1LQUZKcElPS24zMUJySU5Xei0wVndEMC1BNmg4QTdfa2xic2RpbkpDRXlUNlZhYlBCZkFiVDAzcWR0R3owSnZOamUtOUVrd1A3V0hSVTltd2h5bTZJUDgzWXBsUHl4WXZ2MA?oc=5",
+    "published": "2026-11-03T02:01:18-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 178.34,
+   "change_pct": -3.13,
+   "prev_close": 178.34,
+   "time": "2026-11-02",
+   "mktcap": "428.562B",
+   "pe": 151.97,
+   "fpe": 104.54,
+   "yr_high": 212.94,
+   "yr_low": 106.37,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 165.94,
+    "change_pct": -6.95,
+    "time": "2026-11-03T05:00:04.531-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies",
+   "date": "2026-10-30",
+   "close": 184.11,
+   "prev_close": 196.42,
+   "change_pct": -6.27,
+   "moves_over_5pct_last_year": 38,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 23,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": -7.22
+   },
+   "ytd_pct": 3.58,
+   "return_1m_pct": -3.12,
+   "return_6m_pct": 27.79,
+   "return_1y_pct": -7.39,
+   "high_52w": {
+    "close": 209.05,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 107.27,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 11.93,
+   "thousand_dollars_5y_ago_now": 7114,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 27070010,
+   "volume_vs_20d_avg": 1.2,
+   "sentences": [
+    "Palantir Technologies's shares moved 5% or more on 38 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 7.2%.",
+    "The stock is up 3.6% this year, and at $184.11 it sits 11.9% below its 52-week closing high of $209.05 from 9 October 2026.",
+    "$1,000 invested in Palantir Technologies five years ago would be worth $7,114 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/palantir-pltr-beats-q3-estimates-as-us-commercial-sales-overtake-government/",
+   "/daily/2026-11-02/",
+   "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/"
+  ]
+ }
+}

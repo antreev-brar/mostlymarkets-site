@@ -62,6 +62,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-03": {
+"created": "2026-11-03T05:01:42-05:00",
+"day": "2026-11-03",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -318,6 +324,14 @@
 "day": "2026-11-01",
 "kind": "news"
 },
+"news-CRWD-2026-11-03-crowdstrike-extends-anthropic-s-claude-c": {
+"created": "2026-11-03T05:01:42-05:00",
+"day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"CRWD"
+]
+},
 "news-CRWD-2026-11-03-crowdstrike-introduces-the-ai-kill-switc": {
 "created": "2026-11-03T04:01:06-05:00",
 "day": "2026-11-03",
@@ -395,6 +409,14 @@
 "news-PLTR-2026-11-02-stock-market-today-dow-jones-s-p-500-fut": {
 "created": "2026-11-02T06:04:17-05:00",
 "day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"PLTR"
+]
+},
+"news-PLTR-2026-11-03-apple-and-palantir-shares-slide-in-prema": {
+"created": "2026-11-03T05:01:42-05:00",
+"day": "2026-11-03",
 "kind": "news",
 "tickers": [
 "PLTR"

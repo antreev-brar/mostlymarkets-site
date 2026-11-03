@@ -1,0 +1,137 @@
+{
+ "id": "news-CRWD-2026-11-03-crowdstrike-extends-anthropic-s-claude-c",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-03T05:01:42-05:00",
+ "expires": "2026-11-03T15:01:42-05:00",
+ "tickers": [
+  "CRWD"
+ ],
+ "headline_hint": "CrowdStrike: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T05:00:07-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "CrowdStrike Announces New Native AI Security Innovations on AWS",
+    "source": "Business Wire",
+    "url": "https://www.tradingview.com/news/business_wire:8a517da58d1eb:0-crowdstrike-announces-new-native-ai-security-innovations-on-aws/",
+    "published": "2026-11-03T04:55:00-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike Extends Anthropic\u2019s Claude Cowork Enterprise AI Adoption with Falcon Guardian Protection",
+    "source": "Business Wire",
+    "url": "https://www.tradingview.com/news/business_wire:9690c63934b50:0-crowdstrike-extends-anthropic-s-claude-cowork-enterprise-ai-adoption-with-falcon-guardian-protection/",
+    "published": "2026-11-03T04:15:00-05:00",
+    "also": [
+     "TradingView"
+    ]
+   },
+   {
+    "title": "CrowdStrike to buy Fiddler AI",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4663174-crowdstrike-to-buy-two-ai-security-startups-for-495m-wsj",
+    "published": "2026-11-03T03:56:11-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike Delivers AI Security and Safety for the Enterprise",
+    "source": "Business Wire",
+    "url": "https://www.tradingview.com/news/business_wire:5569f29280e88:0-crowdstrike-delivers-ai-security-and-safety-for-the-enterprise/",
+    "published": "2026-11-03T03:37:00-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike to Acquire Fiddler to Deliver Agent Observability for AI Trust",
+    "source": "Business Wire",
+    "url": "https://www.tradingview.com/news/business_wire:0a570b971ed3b:0-crowdstrike-to-acquire-fiddler-to-deliver-agent-observability-for-ai-trust/",
+    "published": "2026-11-03T03:37:00-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike Introduces the AI Kill Switch for AI Safety",
+    "source": "Business Wire",
+    "url": "https://www.tradingview.com/news/business_wire:ac4ce45b94235:0-crowdstrike-introduces-the-ai-kill-switch-for-ai-safety/",
+    "published": "2026-11-03T03:35:00-05:00",
+    "also": [
+     "TradingView"
+    ]
+   },
+   {
+    "title": "CrowdStrike Says Security Teams Are Scrambling to Keep Pace With AI Adoption",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261103001442_20261103001444:0-crowdstrike-says-security-teams-are-scrambling-to-keep-pace-with-ai-adoption-wsj/",
+    "published": "2026-11-03T03:10:00-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike to Buy Two AI Security Startups for $495 Million",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261103001442:0-crowdstrike-to-buy-two-ai-security-startups-for-495-million-wsj/",
+    "published": "2026-11-03T03:10:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 241.81,
+   "change_pct": -3.44,
+   "prev_close": 241.81,
+   "time": "2026-11-02",
+   "mktcap": "247.598B",
+   "pe": 4242.28,
+   "fpe": 171.01,
+   "yr_high": 286.99,
+   "yr_low": 85.68,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 244.05,
+    "change_pct": 0.93,
+    "time": "2026-11-03T04:47:21.021-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "date": "2026-10-30",
+   "close": 250.43,
+   "prev_close": 261.15,
+   "change_pct": -4.1,
+   "moves_over_5pct_last_year": 30,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 50,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": -7.02
+   },
+   "ytd_pct": 113.7,
+   "return_1m_pct": -5.89,
+   "return_6m_pct": 119.85,
+   "return_1y_pct": 83.63,
+   "high_52w": {
+    "close": 278.86,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 87.56,
+    "date": "2026-02-24"
+   },
+   "pct_below_52w_high": 10.2,
+   "thousand_dollars_5y_ago_now": 3555,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 12503060,
+   "volume_vs_20d_avg": 1.44,
+   "sentences": [
+    "CrowdStrike's shares moved 5% or more on 30 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 7.0%.",
+    "The stock is up 113.7% this year, and at $250.43 it sits 10.2% below its 52-week closing high of $278.86 from 6 October 2026.",
+    "$1,000 invested in CrowdStrike five years ago would be worth $3,555 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/",
+   "/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/"
+  ]
+ }
+}

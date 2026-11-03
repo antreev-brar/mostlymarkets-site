@@ -1,0 +1,641 @@
+{
+ "id": "daily-2026-11-03",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-03T05:01:42-05:00",
+ "expires": "2026-11-03T10:30:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the one story behind yesterday's market>",
+ "instructions": "The morning edition before the open on Tuesday 03 November. Tell the story of the last session (Monday 02 November) and set up today: a narrative lede, then a thread of 6 to 8 takes, each one claim with one chart or stat block, then What's next (today's reporters and data) and The numbers. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T05:00:07-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7541.4,
+    "change": -38.67,
+    "change_pct": -0.51,
+    "prev_close": 7541.4,
+    "open": 7610.83,
+    "high": 7662.23,
+    "low": 7539.38,
+    "volume": 0,
+    "time": "2026-11-02",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25164.363,
+    "change": -272.636,
+    "change_pct": -1.07,
+    "prev_close": 25164.363,
+    "open": 25600.173,
+    "high": 25799.456,
+    "low": 25145.951,
+    "volume": 0,
+    "time": "2026-11-02",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 51983.98,
+    "change": 213.67,
+    "change_pct": 0.41,
+    "prev_close": 51983.98,
+    "open": 52008.23,
+    "high": 52424.91,
+    "low": 51981.66,
+    "volume": 522048265,
+    "time": "2026-11-02",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2805.876,
+    "change": -5.968,
+    "change_pct": -0.21,
+    "prev_close": 2805.876,
+    "open": 2829.886,
+    "high": 2846.025,
+    "low": 2805.11,
+    "volume": 0,
+    "time": "2026-11-02",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 21.32,
+    "change": 0.17,
+    "change_pct": 0.8,
+    "prev_close": 21.15,
+    "open": 21.66,
+    "high": 21.91,
+    "low": 21.32,
+    "volume": 0,
+    "time": "2026-11-03T05:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.904,
+    "change": 0.01,
+    "change_pct": 0.2043,
+    "prev_close": 4.894,
+    "open": 4.917,
+    "high": 4.925,
+    "low": 4.9,
+    "volume": 0,
+    "time": "2026-11-03T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.585,
+    "change": 0.002,
+    "change_pct": -0.0039,
+    "prev_close": 4.583,
+    "open": 4.612,
+    "high": 4.612,
+    "low": 4.583,
+    "volume": 0,
+    "time": "2026-11-03T04:59:40.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 4.96,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 97.65,
+    "change": 1.19,
+    "change_pct": 1.23,
+    "prev_close": 96.46,
+    "open": 96.3,
+    "high": 98.69,
+    "low": 96.12,
+    "volume": 72780,
+    "time": "2026-11-03T04:50:05.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 106.08,
+    "change": 1.31,
+    "change_pct": 1.25,
+    "prev_close": 104.77,
+    "open": 104.45,
+    "high": 107.24,
+    "low": 104.27,
+    "volume": 123474,
+    "time": "2026-11-03T10:50:04.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3916.7,
+    "change": -52.9,
+    "change_pct": -1.33,
+    "prev_close": 3969.6,
+    "open": 3960.5,
+    "high": 3974.5,
+    "low": 3904.1,
+    "volume": 52796,
+    "time": "2026-11-03T04:50:04.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 76965.52,
+    "change": 180.24,
+    "change_pct": 0.23,
+    "prev_close": 76785.28,
+    "open": 76637.3,
+    "high": 77178.94,
+    "low": 76261.85,
+    "volume": 0,
+    "time": "2026-11-03T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 111132.2,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.77,
+    "change": 0.025,
+    "change_pct": 0.02,
+    "prev_close": 101.745,
+    "open": 101.731,
+    "high": 101.874,
+    "low": 101.624,
+    "volume": 0,
+    "time": "2026-11-03T05:00:07.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-11-02",
+  "moves": [
+   {
+    "ticker": "MSTR",
+    "name": "Strategy",
+    "close": 130.76,
+    "change_pct": 0.19,
+    "our_stories": []
+   },
+   {
+    "ticker": "GME",
+    "name": "GameStop",
+    "close": 24.19,
+    "change_pct": -0.17,
+    "our_stories": []
+   },
+   {
+    "ticker": "WDAY",
+    "name": "Workday",
+    "close": 198.13,
+    "change_pct": 0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "AFRM",
+    "name": "Affirm",
+    "close": 73.58,
+    "change_pct": 0.15,
+    "our_stories": []
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "close": 228.85,
+    "change_pct": 0.15,
+    "our_stories": []
+   },
+   {
+    "ticker": "T",
+    "name": "AT&T",
+    "close": 21.44,
+    "change_pct": 0.14,
+    "our_stories": []
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "close": 316.03,
+    "change_pct": -0.13,
+    "our_stories": []
+   },
+   {
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "close": 465.45,
+    "change_pct": -0.12,
+    "our_stories": [
+     "/news/2026-11-02/what-to-expect-from-amgens-amgn-q3-earnings/"
+    ]
+   },
+   {
+    "ticker": "PEG",
+    "name": "Public Service Enterprise Group",
+    "close": 74.38,
+    "change_pct": 0.12,
+    "our_stories": [
+     "/news/2026-11-02/entergy-etr-beats-q3-estimates-and-pseg-peg-misses-what-two-utilities-said/"
+    ]
+   },
+   {
+    "ticker": "CMI",
+    "name": "Cummins",
+    "close": 500.6,
+    "change_pct": 0.1,
+    "our_stories": []
+   },
+   {
+    "ticker": "SPOT",
+    "name": "Spotify",
+    "close": 594.04,
+    "change_pct": 0.1,
+    "our_stories": []
+   },
+   {
+    "ticker": "SRE",
+    "name": "Sempra",
+    "close": 85.97,
+    "change_pct": -0.1,
+    "our_stories": []
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "3 Fast-Grower Stocks We Like and 1 We'd Skip",
+    "path": "/news/2026-11-02/3-fast-grower-stocks-we-like-and-1-wed-skip/",
+    "type": "list",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Alibaba (BABA) Shares Jump After Apple Picks Its Qwen AI for iPhones in China",
+    "path": "/news/2026-11-02/alibaba-baba-shares-jump-after-apple-picks-its-qwen-ai-for-iphones-in-china/",
+    "type": "why-it-moved",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Alphabet (GOOGL) Returns to the Euro Bond Market Days After Its Record Drop",
+    "path": "/news/2026-11-02/alphabet-googl-returns-to-the-euro-bond-market-days-after-its-record-drop/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "AMD (AMD) Has Signed Up OpenAI and Meta. Is the Business Worth the Price?",
+    "path": "/news/2026-11-02/amd-amd-has-signed-up-openai-and-meta-is-the-business-worth-the-price/",
+    "type": "breakdown",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Anthropic's IPO Filing Shows $17 Billion of Q3 Sales and a Swing to an Operating Loss",
+    "path": "/news/2026-11-02/anthropics-ipo-filing-shows-17-billion-of-q3-sales-and-a-swing-to-an-operating-loss/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Apple (AAPL) Beats Q4 Estimates, but Memory Costs Squeeze Its Margin Forecast",
+    "path": "/news/2026-11-02/apple-aapl-beats-q4-estimates-but-memory-costs-squeeze-its-margin-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Apple (AAPL) Tops Q4 Estimates With $114.5 Billion of Revenue in Ternus's First Report",
+    "path": "/news/2026-11-02/apple-aapl-tops-q4-estimates-with-114-5-billion-of-revenue-in-ternuss-first-report/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Blackstone (BX) Leads a $3.1 Billion Investment in Mitsubishi's LNG Canada Stake",
+    "path": "/news/2026-11-02/blackstone-bx-leads-a-3-1-billion-investment-in-mitsubishis-lng-canada-stake/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "BP (BP) Completes Castrol Sale, Bringing In $6 Billion to Cut Debt",
+    "path": "/news/2026-11-02/bp-bp-completes-castrol-sale-bringing-in-6-billion-to-cut-debt/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Bulls vs Bears on Marvell (MRVL): Is Lumentum Worth a Third of the Company?",
+    "path": "/news/2026-11-02/bulls-vs-bears-on-marvell-mrvl-is-lumentum-worth-a-third-of-the-company/",
+    "type": "viewpoints",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Clorox (CLX) Beats Q1 Estimates but Steers to the Low End of Its Profit Forecast",
+    "path": "/news/2026-11-02/clorox-clx-beats-q1-estimates-but-steers-to-the-low-end-of-its-profit-forecast/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Diamondback Energy (FANG) Beats Q3 Estimates and Raises Its Dividend 7.3%",
+    "path": "/news/2026-11-02/diamondback-energy-fang-beats-q3-estimates-and-raises-its-dividend-7-3/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Entergy (ETR) Beats Q3 Estimates and PSEG (PEG) Misses: What Two Utilities Said",
+    "path": "/news/2026-11-02/entergy-etr-beats-q3-estimates-and-pseg-peg-misses-what-two-utilities-said/",
+    "type": "earnings-roundup",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Est\u00e9e Lauder (EL) Beats Q1 Estimates and Raises Its Outlook, but Shares Turn Lower",
+    "path": "/news/2026-11-02/estee-lauder-el-beats-q1-estimates-and-raises-its-outlook-but-shares-turn-lower/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Fox (FOXA) Beats Q1 Estimates as World Cup and Election Ads Lift Revenue 22%",
+    "path": "/news/2026-11-02/fox-foxa-beats-q1-estimates-as-world-cup-and-election-ads-lift-revenue-22/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Idexx Laboratories (IDXX) Beats Q3 Estimates and Raises Its 2026 Outlook",
+    "path": "/news/2026-11-02/idexx-idxx-beats-q3-estimates-and-raises-its-2026-outlook/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Kimberly-Clark (KMB) Completes Its $48.7 Billion Purchase of Kenvue",
+    "path": "/news/2026-11-02/kimberly-clark-kmb-completes-its-48-7-billion-purchase-of-kenvue/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Loews (L) Q3 Profit Falls 39% as CNA Takes a Long-Term Care Charge",
+    "path": "/news/2026-11-02/loews-l-q3-profit-falls-39-as-cna-takes-a-long-term-care-charge/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Lumentum (LITE) and Marvell (MRVL) Shares Slide on the Day Their Deal Is Signed",
+    "path": "/news/2026-11-02/lumentum-lite-and-marvell-mrvl-shares-slide-on-the-day-their-deal-is-signed/",
+    "type": "why-it-moved",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Marriott (MAR) Beats Q3 Estimates and Raises Its 2026 Profit Forecast",
+    "path": "/news/2026-11-02/marriott-mar-beats-q3-estimates-and-raises-its-2026-profit-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Marvell (MRVL) Agrees to Buy Lumentum (LITE) for $115 Billion in Stock",
+    "path": "/news/2026-11-02/marvell-mrvl-agrees-to-buy-lumentum-lite-for-115-billion-in-stock/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Meta (META) Plans a Bond Sale of at Least $20 Billion, Bloomberg Reports",
+    "path": "/news/2026-11-02/meta-meta-plans-a-bond-sale-of-at-least-20-billion-bloomberg-reports/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Oil Fell Below $100 Over the Weekend as Apple and Palantir Open the Week's Tests",
+    "path": "/daily/2026-11-02/",
+    "type": "daily",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Onsemi (ON) Beats Q3 Estimates, but Shares Slide After Hours",
+    "path": "/news/2026-11-02/onsemi-on-beats-q3-estimates-but-shares-slide-after-hours/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Oracle (ORCL) Shares Slide After It Files to Raise $20 Billion in Stock and Bonds",
+    "path": "/news/2026-11-02/oracle-orcl-shares-slide-after-it-files-to-raise-20-billion-in-stock-and-bonds/",
+    "type": "why-it-moved",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Palantir (PLTR) Beats Q3 Estimates as US Commercial Sales Overtake Government",
+    "path": "/news/2026-11-02/palantir-pltr-beats-q3-estimates-as-us-commercial-sales-overtake-government/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Realty Income (O) Grows Q3 AFFO 3.7% and Nudges Up Its 2026 Forecast",
+    "path": "/news/2026-11-02/realty-income-o-grows-q3-affo-3-7-and-nudges-up-its-2026-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Rivian (RIVN) Shares Jump After UBS Upgrades the Stock to Buy on Its R2 Ramp",
+    "path": "/news/2026-11-02/rivian-rivn-shares-jump-after-ubs-upgrades-the-stock-to-buy-on-its-r2-ramp/",
+    "type": "why-it-moved",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Roku (ROKU) Beats Q3 Estimates, but the Fox Deal Sets Its Price",
+    "path": "/news/2026-11-02/roku-roku-beats-q3-estimates-but-the-fox-deal-sets-its-price/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Seagate (STX) and Western Digital (WDC) Shares Slide Again With No Fresh News",
+    "path": "/news/2026-11-02/seagate-stx-and-western-digital-wdc-shares-slide-again-with-no-fresh-news/",
+    "type": "why-it-moved",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Stock Market Today: Oil Sinks 8%, but a Tech Reversal Drags the Nasdaq Down 1.1%",
+    "path": "/news/2026-11-02/stock-market-today-oil-sinks-8-but-a-tech-reversal-drags-the-nasdaq-down-1-1/",
+    "type": "market-wrap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "The Fed Will Cut Its Rate Votes to Seven in 2027 and Six in 2028",
+    "path": "/news/2026-11-02/the-fed-will-cut-its-rate-votes-to-seven-in-2027-and-six-in-2028/",
+    "type": "brief",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "United (UAL), Howmet (HWM) and GE Aerospace (GE) Shares Jump: What Happened",
+    "path": "/news/2026-11-02/united-ual-howmet-hwm-and-ge-aerospace-ge-shares-jump-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Vertex (VRTX) Tops Q3 Sales Estimates and Raises Its 2026 Forecast",
+    "path": "/news/2026-11-02/vertex-vrtx-tops-q3-sales-estimates-and-raises-its-2026-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Wall Street Is Betting Stocks Rally After the Midterms, Whoever Wins",
+    "path": "/news/2026-11-02/wall-street-is-betting-stocks-rally-after-the-midterms-whoever-wins/",
+    "type": "narrative",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "What to Expect From Amgen's (AMGN) Q3 Earnings",
+    "path": "/news/2026-11-02/what-to-expect-from-amgens-amgn-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "What to Expect From Arista Networks's (ANET) Q3 Earnings",
+    "path": "/news/2026-11-02/what-to-expect-from-arista-networks-anet-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "What to Expect From Block's (XYZ) Q3 Earnings",
+    "path": "/news/2026-11-02/what-to-expect-from-blocks-xyz-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "What to Expect From Booking Holdings's (BKNG) Q3 Earnings",
+    "path": "/news/2026-11-02/what-to-expect-from-booking-holdings-bkng-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "What to Expect From Eaton's (ETN) Q3 Earnings",
+    "path": "/news/2026-11-02/what-to-expect-from-eatons-etn-q3-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-02"
+   }
+  ],
+  "reporting_today": [
+   {
+    "ticker": "AMD",
+    "time": "amc",
+    "eps_forecast": 1.68
+   },
+   {
+    "ticker": "AMGN",
+    "time": "amc",
+    "eps_forecast": 5.74
+   },
+   {
+    "ticker": "ANET",
+    "time": "amc",
+    "eps_forecast": 0.99
+   },
+   {
+    "ticker": "SHOP",
+    "time": "bmo",
+    "eps_forecast": 0.33
+   },
+   {
+    "ticker": "PFE",
+    "time": "bmo",
+    "eps_forecast": 0.72
+   },
+   {
+    "ticker": "ETN",
+    "time": "bmo",
+    "eps_forecast": 3.54
+   },
+   {
+    "ticker": "MPC",
+    "time": "bmo",
+    "eps_forecast": 25.74
+   },
+   {
+    "ticker": "BKNG",
+    "time": "amc",
+    "eps_forecast": 4.48
+   },
+   {
+    "ticker": "APO",
+    "time": "bmo",
+    "eps_forecast": 2.04
+   },
+   {
+    "ticker": "AME",
+    "time": "bmo",
+    "eps_forecast": 2.12
+   }
+  ]
+ }
+}
