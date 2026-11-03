@@ -134,6 +134,22 @@ Consensus revenue and EPS (name the data provider: LSEG, FactSet or Zacks via th
 facts.py: YTD, 1-month, against the 52-week high.
 ```
 
+Only a day's biggest reporters get a preview of their own. The rest share a `preview-roundup`.
+
+### `preview-roundup` ("What to Expect From {Weekday}'s Earnings")
+The next 3 to 8 big companies reporting the same day, in one story, biggest first (pack.companies). Same method as `earnings-preview`.
+Title: "What to Expect From {Weekday}'s Earnings: {A}, {B}, {C} and {N} More" (or every name when there are three).
+
+```
+Intro: 1–2 paragraphs: who reports and when, and the one question this batch answers together (dated).
+```chart (moves: each company's stock since a month ago, "from" that date)```
+## {Name} ($TKR), {before the open | after the close}
+One paragraph of 60–110 words: consensus revenue and EPS against a year ago (name the provider), last quarter's result and how the stock took it, and the one number or comment that will move the stock this time. Link our last recap when there is one.
+(× each company)
+## The one with the most riding on it
+Our read: which report matters most, for the stock or its industry, with the reasons in numbers (the bar it has to clear, how far the stock has run into it). Never "buy before earnings".
+```
+
 ### `market-wrap` ("Stock Market Today")
 Title: "Stock Market Today: {the story of the day, in plain words}".
 
@@ -150,7 +166,9 @@ Title: "Stocks Making the Biggest Moves {Today|After Hours|This Week}: {A}, {B},
 Five paragraphs: "**{Name} ($TKR)**, {x.x}%: {one-sentence cause}. [Full story](/news/...)". No headings.
 
 ### `list` ("3 Stocks We Like and 1 We'd Skip", or the reverse)
-The event says which way round. Titles: "3 {Theme} Stocks We Like and 1 We'd Skip", "3 {Theme} Stocks We'd Skip and 1 We Like", "1 {Theme} Stock We Like and 3 We'd Pass On", "3 {Theme} Stocks We'd Pass On After {Event}, and 1 We'd Keep" (themes: cash machines, AI infrastructure, earnings-season winners, dividend payers, under $50, beaten-down quality...). We always name the stock we like, never as a riddle. We say "like" and "skip", never "buy" or "sell", and give no price targets.
+Our picks are the heart of the feed: a reader comes to find out which stocks are worth owning and why, so lists run four times every trading day and three times on weekend days, each on a different theme, never repeating a stock we listed in the last 14 days. The event says the shape (pack.like and pack.skip: 3 and 1, 2 and 1, or 1 and 3) and which way round. Titles: "3 {Theme} Stocks We Like and 1 We'd Skip", "3 {Theme} Stocks We'd Skip and 1 We Like", "1 {Theme} Stock We Like and 3 We'd Pass On", "3 {Theme} Stocks We'd Pass On After {Event}, and 1 We'd Keep" (themes: cash machines, AI infrastructure, earnings-season winners, dividend payers, under $50, beaten-down quality...). We always name the stock we like, never as a riddle. We say "like" and "skip", never "buy" or "sell", and give no price targets.
+
+**After earnings** (theme `after-earnings`): the candidates are the companies we recapped in the last seven days. Title: "{N} Stocks We Like After Their Earnings and {M} We'd Skip". Each case opens on the quarter just reported (what beat or missed, the guidance, how the stock took it, with a link to our recap), then the long-run numbers that say whether the quarter changes the story.
 
 ```
 Intro: 2 short paragraphs: why the theme matters now, with the dated news peg, and the screen we used (say exactly what it measured, over what period, from which data).
@@ -158,17 +176,17 @@ Intro: 2 short paragraphs: why the theme matters now, with the dated news peg, a
 skip: A, B, C
 like: D
 ```
-## 3 stocks we'd skip            (or "## 3 stocks we like")
+## 3 stocks we'd skip            (or "## 3 stocks we like", "## 2 stocks we like": the event's shape)
 ### 1. {Name} ($TKR)
 **{Screen metric}: {value, dated}**. One-sentence description of what the company does.
 2–3 numbered reasons, each a number + a comparison + a judgment ("Sales grew 3% a year over five years, a third of its sector's pace").
 **The price:** one line on the multiple against its own history or peers.
 **What would change our mind:** one line, with a metric or a date.
-(× 3)
-## 1 stock we like               (or "## 1 stock we'd skip")
+(× each)
+## 1 stock we like               (or "## 1 stock we'd skip", "## 3 stocks we'd skip")
 ### {Name} ($TKR)
 The same block, with **What could go wrong:** in place of what would change our mind.
-```chart (compare: the four stocks over 1 year, the one we like highlighted)```
+```chart (compare: the stocks over 1 year, the ones we like highlighted)```
 Closing line: when we'll revisit the list, and a link to our breakdown of the stock we like if there is one.
 ```
 

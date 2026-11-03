@@ -39,15 +39,32 @@ TOP_OUTLETS = {"Reuters", "Bloomberg", "CNBC", "The Wall Street Journal", "WSJ",
                "Barron's", "MarketWatch", "The Information", "Yahoo Finance"}
 MIN_CAP_RECAP = 20e9
 MIN_CAP_PREVIEW = 40e9
-LIST_THEMES = [
-    ("cash-machines", "Cash Machines", "free-cash-flow margin over the last 12 months", "fcf_margin_pct"),
-    ("fast-growers", "Fast Growers", "revenue growth over the last 12 months", "revenue_growth_yoy_pct"),
+LIST_THEMES = [  # (key, the title word: "3 {word} Stocks We Like", what the screen measures, its metric)
+    ("cash-machines", "Cash Machine", "free-cash-flow margin over the last 12 months", "fcf_margin_pct"),
+    ("fast-growers", "Fast-Grower", "revenue growth over the last 12 months", "revenue_growth_yoy_pct"),
     ("beaten-down-quality", "Beaten-Down Quality", "distance below the 52-week high, among profitable companies", "off_high"),
     ("ai-infrastructure", "AI Infrastructure", "revenue growth among chip, networking, power and data-center names", "revenue_growth_yoy_pct"),
-    ("dividend-payers", "Dividend Payers", "dividend yield, with free cash flow covering the payout", "dividend_yield"),
+    ("dividend-payers", "Dividend", "dividend yield, with free cash flow covering the payout", "dividend_yield"),
     ("momentum", "Momentum", "six-month price return", "ret_6m"),
     ("profitable-small-caps", "Under-the-Radar", "operating margin among companies worth $5-30 billion", "operating_margin_pct"),
+    ("under-50", "Under $50", "revenue growth over the last 12 months among stocks under $50 a share with positive free cash flow",
+     "under_50"),
+    ("value", "Value", "the lowest forward P/E among companies whose revenue grew over the last 12 months", "cheap"),
+    ("high-margin", "High-Margin", "gross margin over the last 12 months", "gross_margin_pct"),
+    ("compounders", "Compounder", "revenue growth among companies with an operating margin above 20%", "compounder"),
 ]
+GROSS_MARGIN_SKIP = {"Utilities", "Financials", "Financial Services", "Real Estate"}
+# Our picks, the owner's ask on 3 November 2026: the feed should be more about how a reader can make money, with
+# StockStory's density of "stocks we like" posts. A list is queued from each of these New York times (trading days,
+# then weekends and holidays), and each slot is counted against today's published lists, so a desk-written list fills
+# one. Slot 2 on trading days (slot 1 on Saturdays) takes the companies that just reported instead of a theme.
+LIST_SLOTS = {"trading": ((7, 30), (10, 30), (13, 30), (16, 30)), "other": ((8, 0), (12, 0), (15, 0))}
+# (stocks we like, stocks we'd skip), in slot order; the day's parity shifts it, so the shapes rotate.
+LIST_SHAPES = ((3, 1), (2, 1), (1, 3), (3, 1))
+# The biggest reporters of a day get a preview each; the rest (worth $20bn+, up to PREVIEW_ROUNDUP_MAX) share one
+# "What to expect from Wednesday's earnings" story (the owner, 3 November 2026: club the previews).
+SOLO_PREVIEWS = 4
+PREVIEW_ROUNDUP_MAX = 8
 
 
 def is_trading_day(d: dt.date) -> bool:
@@ -359,9 +376,19 @@ class Detector:
         nxt = next_trading_day(self.today)
         if self.today.weekday() == 4:
             return  # Monday's previews go out from Sunday noon
-        rows = [r for r in self.cal.get(nxt.isoformat(), []) if cap_of(self.quotes.get(r["ticker"])) >= MIN_CAP_PREVIEW]
+        rows = [r for r in self.cal.get(nxt.isoformat(), []) if r["ticker"] not in DUP_CLASS
+                and cap_of(self.quotes.get(r["ticker"])) >= MIN_CAP_RECAP]
         rows.sort(key=lambda r: -cap_of(self.quotes.get(r["ticker"])))
-        for r in rows[:DAILY_CAP["earnings-preview"]]:
+        # Who already has a preview of their own (queued before the roundup existed, or a bigger name): never both.
+        solo = [r for r in rows if f"preview-{r['ticker']}-{nxt}" in self.seen]
+        solo += [r for r in rows if r not in solo and cap_of(self.quotes.get(r["ticker"])) >= MIN_CAP_PREVIEW][:max(0, SOLO_PREVIEWS - len(solo))]
+        club = [r for r in rows if r not in solo][:PREVIEW_ROUNDUP_MAX]
+        if len(club) < 3 and f"previews-{nxt}" not in self.seen:
+            solo += [r for r in club if cap_of(self.quotes.get(r["ticker"])) >= MIN_CAP_PREVIEW]
+            club = []
+        if club:
+            self.preview_roundup(nxt, club)
+        for r in solo[:DAILY_CAP["earnings-preview"]]:
             t = r["ticker"]
             u = self.univ[t]
             when = {"bmo": "before the open", "amc": "after the close"}.get(r["time"], "")
@@ -371,6 +398,27 @@ class Detector:
                      {"calendar": r, "report_date": nxt.isoformat(), "quote": self.quote(t), "facts": self.facts(t),
                       "recent_stories": self.stories_for(t), "last_recap": [s for s in self.stories_for(t, 20) if s["type"] == "earnings-recap"][:1]},
                      since=(nxt - dt.timedelta(days=7)).isoformat())
+
+    def preview_roundup(self, nxt: dt.date, rows: list[dict]):
+        """One preview for the day's smaller big reporters: a paragraph each, biggest first."""
+        ts = [r["ticker"] for r in rows]
+        names = [self.univ.get(t, {}).get("name", t) for t in ts]
+        early = any(r["time"] == "bmo" for r in rows)
+        return self.add(f"previews-{nxt}", "preview-roundup", "preview-roundup", 42,
+                        dt.datetime.combine(nxt, dt.time(9, 0) if early else dt.time(15, 30), tzinfo=ET), ts,
+                        f"What to Expect From {nxt:%A}'s Earnings: {', '.join(names[:3])} and {len(ts) - 3} More"
+                        if len(ts) > 3 else f"What to Expect From {nxt:%A}'s Earnings: {', '.join(names[:-1])} and {names[-1]}",
+                        f"A preview roundup of {len(ts)} companies reporting on {nxt:%A}, biggest first: for each, when it reports, "
+                        "consensus revenue and EPS against a year ago (naming the provider), last quarter's result and how the stock "
+                        "took it, and the one number or comment that will move the stock. Then which report has the most riding on "
+                        "it, with the reasons in numbers. Follow the preview-roundup template in docs/STYLE.md.",
+                        {"report_date": nxt.isoformat(),
+                         "companies": [{"ticker": r["ticker"], "calendar": r, "quote": self.quote(r["ticker"]),
+                                        "name": self.univ.get(r["ticker"], {}).get("name"),
+                                        "sector": self.univ.get(r["ticker"], {}).get("sector"), "facts": self.facts(r["ticker"]),
+                                        "last_recap": [s for s in self.stories_for(r["ticker"], 20) if s["type"] == "earnings-recap"][:1]}
+                                       for r in rows]},
+                        check_written=False)
 
     def edition_pack(self, since: dt.date, session: dt.date) -> dict:
         """What the Daily is written from: the markets, the session's biggest moves, our stories since the last
@@ -454,13 +502,6 @@ class Detector:
                 self.add(f"movers-week-{d}", "movers", "movers", 50, self.at(23, 59), [],
                          "Stocks Making the Biggest Moves This Week", "The week's five biggest moves, Monday open to Friday close.",
                          {"week_ending": d.isoformat(), "moves": self.week_moves()})
-            if self.now.time() >= dt.time(11, 30):
-                recent = " ".join(x["title"].lower() for x in self.stories
-                                  if x["type"] == "list" and x["date"] >= (d - dt.timedelta(days=21)).isoformat())
-                fresh = [th for th in LIST_THEMES if th[1].lower() not in recent]
-                k = (d.toordinal() // 2) % len(fresh or LIST_THEMES)
-                theme = (fresh or LIST_THEMES)[k]
-                self.queue_list(d, theme)
         fomc = self.fomc_today()
         if fomc and self.now.time() >= dt.time(14, 5):
             self.add(f"fomc-{d}", "fomc", "macro", 92, self.at(23, 59), [],
@@ -479,16 +520,75 @@ class Detector:
                      "The Week Ahead: <the big tests for stocks>", "Day by day: the big reporters and the economic calendar.",
                      {"week": week}, check_written=False)
 
-    def queue_list(self, d: dt.date, theme):
-        skip3 = d.toordinal() % 2 == 1
-        hint = (f"3 {theme[1]} Stocks We'd Skip and 1 We Like" if skip3 else f"3 {theme[1]} Stocks We Like and 1 We'd Skip")
-        self.add(f"list-{d}", "list", "list", 34, self.at(23, 59), [], hint,
-                 f"Theme: {theme[1]}, screened on {theme[2]}. " + (
-                     "Pick 3 to skip and 1 to like from pack.candidates (picks block: skip: A, B, C / like: D). " if skip3 else
-                     "Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: D). ") +
-                 "Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed "
-                 "recently (the stock's latest news in data/news/<T>.json). Follow the list template in docs/STYLE.md.",
-                 {"theme": theme[0], "screen": theme[2], "candidates": self.screen(theme)})
+    def rule_lists(self):
+        """Our picks through the day (LIST_SLOTS): a themed screen, or the companies that just reported."""
+        d = self.today
+        slots = LIST_SLOTS["trading" if is_trading_day(d) else "other"]
+        recent = {t for x in self.stories if x["type"] == "list" and x["date"] >= (d - dt.timedelta(days=14)).isoformat()
+                  for t in x["tickers"]}
+        for k, (h, m) in enumerate(slots, 1):
+            eid = f"list-{d}-{k}"
+            if self.now.time() < dt.time(h, m) or self.n_today("list") >= k or eid in self.seen:
+                continue
+            like, skip = LIST_SHAPES[(k - 1 + d.toordinal() % 2) % len(LIST_SHAPES)]
+            if k == (2 if is_trading_day(d) else 1 if d.weekday() == 5 else 0):
+                cands = self.after_earnings(recent)
+                if len(cands) >= 6:
+                    self.queue_list(eid, ("after-earnings", "After Earnings", "companies worth $10bn+ that reported results in the "
+                                          "last seven days and that we recapped"), like, skip, cands)
+                    continue
+            theme = self.next_theme(k)
+            self.queue_list(eid, theme, like, skip, self.screen(theme, recent))
+
+    def next_theme(self, k: int):
+        """The next theme in the rotation that no list used in the last three days."""
+        since = (self.today - dt.timedelta(days=3)).isoformat()
+        used = {v.get("theme") for v in self.seen.values() if v.get("kind") == "list" and v.get("day", "") >= since}
+        start = (self.today.toordinal() * len(LIST_SLOTS["trading"]) + k) % len(LIST_THEMES)
+        order = LIST_THEMES[start:] + LIST_THEMES[:start]
+        return next((th for th in order if th[0] not in used), order[0])
+
+    def after_earnings(self, recent: set[str]) -> list[dict]:
+        """The companies we recapped in the last seven days, biggest first, with how the stock has done since."""
+        since = (self.today - dt.timedelta(days=7)).isoformat()
+        out, seen_t = [], set()
+        for x in reversed(self.stories):
+            if x["type"] != "earnings-recap" or x["date"] < since or not x["tickers"]:
+                continue
+            t = x["tickers"][0]
+            if t in seen_t or t in recent or t in DUP_CLASS or cap_of(self.quotes.get(t)) < 10e9:
+                continue
+            seen_t.add(t)
+            fp = md.DATA / "fundamentals" / f"{t.replace('.', '-')}.json"
+            ttm = (json.loads(fp.read_text()).get("ttm") or {}) if fp.exists() else {}
+            out.append({"ticker": t, "name": self.univ.get(t, {}).get("name", t), "industry": self.univ.get(t, {}).get("industry"),
+                        "our_recap": {"title": x["title"], "path": x["path"], "date": x["date"]}, "quote": self.quote(t), "ttm": ttm})
+        out.sort(key=lambda r: -cap_of(self.quotes.get(r["ticker"])))
+        return out[:16]
+
+    def queue_list(self, eid: str, theme, like: int, skip: int, candidates: list[dict]):
+        many = "like" if like >= skip else "skip"
+        a, b = (like, skip) if many == "like" else (skip, like)
+        stock = lambda n: "Stock" if n == 1 else "Stocks"  # noqa: E731
+        if theme[0] == "after-earnings":
+            hint = (f"{like} {stock(like)} We Like After Their Earnings and {skip} We'd Skip" if many == "like" else
+                    f"{skip} {stock(skip)} We'd Skip After Their Earnings and {like} We Like")
+        else:
+            hint = (f"{like} {theme[1]} {stock(like)} We Like and {skip} We'd Skip" if many == "like" else
+                    f"{skip} {theme[1]} {stock(skip)} We'd Skip and {like} We Like")
+        block = f"{many}: {', '.join('ABCD'[:a])} / {'skip' if many == 'like' else 'like'}: {', '.join('EFGH'[:b])}"
+        why = ("Each stock's case starts from the quarter it just reported (link our recap in candidates[].our_recap), then "
+               "the long-run numbers. " if theme[0] == "after-earnings" else "")
+        ok = self.add(eid, "list", "list", 48, self.at(23, 59), [], hint,
+                      f"Theme: {theme[1]}, screened on {theme[2]}. Pick {like} to like and {skip} to skip from pack.candidates "
+                      f"(picks block: {block}). {why}Every reason must rest on a dated number from data/fundamentals or the "
+                      "latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The "
+                      "candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+                      {"theme": theme[0], "screen": theme[2], "like": like, "skip": skip, "candidates": candidates},
+                      check_written=False)
+        if ok:
+            self.seen[eid]["theme"] = theme[0]
+        return ok
 
     def headlines(self, hours: int = 24, n: int = 40, ticker: str | None = None) -> list[dict]:
         """Recent outside headlines from pipeline/news.py: the market's, or one ticker's. Newest first."""
@@ -563,9 +663,6 @@ class Detector:
                          "days): what it sells, how it makes money, the numbers that matter (data/fundamentals/<T>.json), its moat "
                          "and competition, the risks, the valuation against peers, and our verdict. Follow the breakdown template "
                          "in docs/STYLE.md.", {"candidates": cands[:15], "markets": self.markets}, check_written=False)
-        if d.weekday() == 5 and self.now.time() >= dt.time(11, 30):
-            fresh = LIST_THEMES[d.toordinal() % len(LIST_THEMES)]
-            self.queue_list(d, fresh)
 
     def rule_news(self):
         """News that hasn't moved a price yet: a big company named in fresh headlines from a top outlet or from two
@@ -636,10 +733,12 @@ class Detector:
         out.sort(key=lambda x: -abs(x["change_pct"]))
         return out[:12]
 
-    def screen(self, theme):
+    def screen(self, theme, exclude: set[str] = frozenset()):
         key = theme[3]
         rows = []
         for t, u in self.univ.items():
+            if t in exclude or t in DUP_CLASS:
+                continue
             q = self.quotes.get(t) or {}
             fp = md.DATA / "fundamentals" / f"{t.replace('.', '-')}.json"
             ttm = (json.loads(fp.read_text()).get("ttm") or {}) if fp.exists() else {}
@@ -657,18 +756,28 @@ class Detector:
             v = {"fcf_margin_pct": ttm.get("fcf_margin_pct"), "revenue_growth_yoy_pct": ttm.get("revenue_growth_yoy_pct"),
                  "operating_margin_pct": ttm.get("operating_margin_pct"), "dividend_yield": q.get("dividend_yield"),
                  "off_high": round((1 - bars[-1]["close"] / hi) * 100, 1) if (ttm.get("operating_margin_pct") or 0) > 10 else None,
-                 "ret_6m": round((bars[-1]["close"] / bars[-127]["close"] - 1) * 100, 1)}.get(key)
+                 "ret_6m": round((bars[-1]["close"] / bars[-127]["close"] - 1) * 100, 1),
+                 # gross margin says little about utilities, banks, landlords and insurers
+                 "gross_margin_pct": ttm.get("gross_margin_pct") if u.get("sector") not in GROSS_MARGIN_SKIP
+                 and not re.search(r"Insurance|Managed Health", u["industry"]) else None,
+                 "under_50": ttm.get("revenue_growth_yoy_pct") if (q.get("price") or 99) < 50 and (ttm.get("fcf_margin_pct") or 0) > 0 else None,
+                 # a forward P/E under 4 is a quirk (bitcoin gains, a one-off), not a bargain
+                 "cheap": -q["fpe"] if (q.get("fpe") or 0) >= 4 and (ttm.get("revenue_growth_yoy_pct") or 0) > 0 else None,
+                 "compounder": ttm.get("revenue_growth_yoy_pct") if (ttm.get("operating_margin_pct") or 0) > 20 else None}.get(key)
             if v is None:
                 continue
             rows.append({"ticker": t, "name": u["name"], "industry": u["industry"], "metric": v, "price": q.get("price"),
                          "pe": q.get("pe"), "ttm": ttm})
         rows.sort(key=lambda r: -r["metric"])
+        if key == "cheap":
+            for r in rows:
+                r["metric"] = -r["metric"]  # the forward P/E itself, lowest first
         return rows[:12] + rows[-4:]
 
     # ------------------------------------------------------------- run
     def run(self):
         for rule in (self.rule_recaps, self.rule_moves, self.rule_previews, self.rule_edition, self.rule_daily,
-                     self.rule_analysis, self.rule_news):
+                     self.rule_analysis, self.rule_lists, self.rule_news):
             try:
                 rule()
             except Exception as e:  # noqa: BLE001

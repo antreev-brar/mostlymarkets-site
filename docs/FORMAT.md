@@ -57,8 +57,9 @@ sources = [
 | `movers` | Big movers | The 5 biggest moves of a session, one paragraph each, linking to their stories | 220–420 |
 | `earnings-recap` | Earnings | Results against estimates, with the highlights box | 380–750 |
 | `earnings-roundup` | Earnings | Several smaller reporters of one session: a paragraph per company (results against estimates, guidance, the stock's reaction), biggest first, then what they say together | 400–1300 |
-| `earnings-preview` | Earnings preview | What to expect before a company reports | 260–480 |
-| `list` | Our picks | "3 Stocks We Like and 1 We'd Skip" (or the reverse) on one theme | 550–1,000 |
+| `earnings-preview` | Earnings preview | What to expect before a company reports (a day's biggest reporters) | 260–480 |
+| `preview-roundup` | Earnings preview | What to expect from a day's other big reporters: a paragraph per company, biggest first, then the one with the most riding on it | 350–1,200 |
+| `list` | Our picks | "3 Stocks We Like and 1 We'd Skip" (or 2 and 1, or 1 and 3, or the reverse) on one theme, or after earnings; four a trading day | 550–1,000 |
 | `narrative` | The big story | The story Wall Street is building: thesis, evidence, counter-evidence, what would change minds, the stocks exposed | 800–1,700 |
 | `viewpoints` | Bulls vs bears | The loudest debate as 3–6 named, documented viewpoints, then our read | 650–1,400 |
 | `breakdown` | Breakdown | One company taken apart (Carbon Finance-style), ending in our verdict | 1,100–2,300 |

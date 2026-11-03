@@ -29,9 +29,9 @@ They are adapted to our house rules. The source files live on the owner's machin
 
 | Story type (docs/STYLE.md) | write-article format | Skill |
 |---|---|---|
-| `earnings-recap`, `earnings-preview` | A: earnings recap | **earnings-review** |
+| `earnings-recap`, `earnings-preview`, `preview-roundup` | A: earnings recap | **earnings-review** |
 | `breakdown` ("Is X a good business?") | B: deep dive / thesis | **company-deep-dive** (+ quality-check for "The numbers that matter") |
-| `list` (3 we like / 1 we'd skip) | C: research report, per stock | **quality-check** |
+| `list` (our picks: 3 we like / 1 we'd skip, 2 and 1, 1 and 3; after earnings) | C: research report, per stock | **quality-check** |
 | `why-it-moved` | — | quality-check §8 (one long-run line for scale) |
 | `narrative`, `viewpoints` | B and D | company-deep-dive §5–6 (testing a claim, sizing a risk). On technology, write-article's Format D rules (below) |
 

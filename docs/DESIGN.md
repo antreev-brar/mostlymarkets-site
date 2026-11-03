@@ -248,3 +248,9 @@ news too"; and "stockstory type buttons to add stocks to users wishlist that the
   where the lettered signs are) and the links drop, so a phone shows about 475 px (56% at 390 x 844).
 - **Nav**: "News" left the header (`NAV`: Feed, The Daily, Discover, Earnings). /news/ stays, linked from the footer;
   Top news on the home page carries the headlines.
+- **Picks in the feed** (`home_pages`): the owner wants the feed to be more about how a reader can make money, with
+  StockStory's density of "stocks we like". Every block of four rows holds one of our picks from the last three days
+  in its second row, while there are any. `detect.py` now queues four lists a trading day and three on weekend days
+  (`LIST_SLOTS`, `LIST_SHAPES`, eleven themes plus an after-earnings list), and a day's previews beyond the four
+  biggest reporters share one `preview-roundup` (label "Earnings preview"; the earnings calendar links each company
+  to it).
