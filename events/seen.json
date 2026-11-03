@@ -770,6 +770,14 @@
 "day": "2026-10-30",
 "kind": "earnings-recap"
 },
+"recap-ALAB-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"ALAB"
+]
+},
 "recap-AME-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
@@ -778,11 +786,27 @@
 "AME"
 ]
 },
+"recap-AMGN-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"AMGN"
+]
+},
 "recap-AMZN-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-ANET-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"ANET"
+]
 },
 "recap-APH-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -801,6 +825,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-BKNG-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"BKNG"
+]
 },
 "recap-BMY-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
@@ -845,6 +877,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-CPNG-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"CPNG"
+]
 },
 "recap-CVX-2026-10-30": {
 "created": "2026-10-30T06:23:25-04:00",
@@ -1153,6 +1193,14 @@
 "day": "2026-10-30",
 "kind": "earnings-recap"
 },
+"recap-SWKS-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"SWKS"
+]
+},
 "recap-SYK-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
@@ -1200,6 +1248,14 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-XYZ-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"XYZ"
+]
+},
 "recap-YUM-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
@@ -1238,6 +1294,12 @@
 "wrap-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
 "day": "2026-11-02",
+"kind": "market-wrap",
+"tickers": []
+},
+"wrap-2026-11-03": {
+"created": "2026-11-03T16:15:23-05:00",
+"day": "2026-11-03",
 "kind": "market-wrap",
 "tickers": []
 }

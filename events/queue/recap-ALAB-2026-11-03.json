@@ -1,0 +1,132 @@
+{
+ "id": "recap-ALAB-2026-11-03",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-03T16:15:23-05:00",
+ "expires": "2026-11-04T20:00:00-05:00",
+ "tickers": [
+  "ALAB"
+ ],
+ "headline_hint": "Astera Labs (ALAB) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T16:15:17-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.83,
+   "n_estimates": 8,
+   "eps_last_year": 0.26,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 39844323000.0
+  },
+  "quote": {
+   "price": 233.62,
+   "change_pct": 1.72,
+   "prev_close": 229.67,
+   "time": "2026-11-03T16:00:00.000-0500",
+   "mktcap": "40.53B",
+   "pe": 115.04,
+   "fpe": 41.23,
+   "yr_high": 499.48,
+   "yr_low": 97.89,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 221.55,
+    "change_pct": -5.17,
+    "time": "2026-11-03T16:15:05.714-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "date": "2026-11-03",
+   "close": 233.62,
+   "prev_close": 229.67,
+   "change_pct": 1.72,
+   "moves_over_5pct_last_year": 93,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 186,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": 3.67
+   },
+   "ytd_pct": 40.43,
+   "return_1m_pct": -35.52,
+   "return_6m_pct": 8.31,
+   "return_1y_pct": 25.14,
+   "high_52w": {
+    "close": 483.02,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 100.27,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 51.63,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 4610024,
+   "volume_vs_20d_avg": 1.09,
+   "sentences": [
+    "Astera Labs's shares moved 5% or more on 93 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 3.7%.",
+    "The stock is up 40.4% this year, and at $233.62 it sits 51.6% below its 52-week closing high of $483.02 from 30 June 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/",
+    "date": "2026-11-03",
+    "title": "Astera Labs, Monolithic Power and Credo Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MPWR",
+     "ALAB",
+     "CRDO",
+     "AMD",
+     "DELL",
+     "SNDK",
+     "HPE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/3-fast-grower-stocks-we-like-and-1-wed-skip/",
+    "date": "2026-11-02",
+    "title": "3 Fast-Grower Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "CRDO",
+     "ALAB",
+     "NVDA",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-10-30/amd-arm-and-qualcomm-shares-slide-what-happened/",
+    "date": "2026-10-30",
+    "title": "AMD, Arm and Qualcomm Shares Slide After Intel's Forecast: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "ARM",
+     "QCOM",
+     "MRVL",
+     "ALAB",
+     "CRDO",
+     "INTC"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000044/0001736297-26-000044-index.htm",
+  "release_text": "events/packs/recap-ALAB-2026-11-03.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000044/q326exhibit991.htm"
+ }
+}

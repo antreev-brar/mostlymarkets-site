@@ -1,0 +1,90 @@
+{
+ "id": "recap-CPNG-2026-11-03",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-03T16:15:23-05:00",
+ "expires": "2026-11-04T20:00:00-05:00",
+ "tickers": [
+  "CPNG"
+ ],
+ "headline_hint": "Coupang (CPNG) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T16:15:17-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "CPNG",
+   "name": "Coupang, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 2,
+   "eps_last_year": 0.05,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 26423423000.0
+  },
+  "quote": {
+   "price": 15.23,
+   "change_pct": 3.61,
+   "prev_close": 14.7,
+   "time": "2026-11-03T16:10:00.000-0500",
+   "mktcap": "27.376B",
+   "pe": -35.76,
+   "fpe": 78.1,
+   "yr_high": 32.32,
+   "yr_low": 13.35,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 15.55,
+    "change_pct": 2.1,
+    "time": "2026-11-03T16:14:33.342-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CPNG",
+   "name": "Coupang",
+   "date": "2026-11-03",
+   "close": 15.23,
+   "prev_close": 14.7,
+   "change_pct": 3.61,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 39,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-08",
+    "change_pct": 4.05
+   },
+   "ytd_pct": -35.44,
+   "return_1m_pct": 7.25,
+   "return_6m_pct": -26.64,
+   "return_1y_pct": -52.36,
+   "high_52w": {
+    "close": 32.13,
+    "date": "2025-11-04"
+   },
+   "low_52w": {
+    "close": 13.75,
+    "date": "2026-09-28"
+   },
+   "pct_below_52w_high": 52.6,
+   "thousand_dollars_5y_ago_now": 501,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 25667320,
+   "volume_vs_20d_avg": 1.87,
+   "sentences": [
+    "Coupang's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 8 October 2026, when the stock rose 4.0%.",
+    "The stock is down 35.4% this year, and at $15.23 it sits 52.6% below its 52-week closing high of $32.13 from 4 November 2025.",
+    "$1,000 invested in Coupang five years ago would be worth $501 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Broadline Retail",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1834584/000183458426000084/0001834584-26-000084-index.htm",
+  "release_text": "events/packs/recap-CPNG-2026-11-03.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1834584/000183458426000084/cpng-09302026ex991.htm"
+ }
+}
