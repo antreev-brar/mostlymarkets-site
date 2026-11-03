@@ -29,6 +29,8 @@ sources = [
   "https://investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789",
   "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html",
   "https://finimize.com/content/oil-sank-over-7-as-us-iran-talks-looked-more-real",
+  "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html",
+  "https://www.thenationalnews.com/business/energy/2026/11/03/oil-prices-cross-105-after-us-strikes-on-irans-qeshm-island/",
   "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm",
   "https://www.rttnews.com/3707453/oracle-prices-20-bln-stock-and-notes-offering-at-116-shr.aspx",
   "https://www.marketscreener.com/news/oracle-prices-20-billion-of-common-stock-and-senior-notes-ce785fd9dc8bfe25",
@@ -94,7 +96,7 @@ Lumentum ($LITE) **plunged 18.6%** after agreeing to be bought by Marvell ($MRVL
  "subtitle": "Share price change, 30 October close to 2 November close, %"}
 ```
 
-US crude fell 7.9% to $95.87 a barrel on Monday as Iran signaled room for diplomacy with Washington, OilPrice.com and Finimize reported, and United Airlines ($UAL) rose 4.8% while Occidental ($OXY) fell 5.1% ([our airline story](/news/2026-11-02/united-ual-howmet-hwm-and-ge-aerospace-ge-shares-jump-what-happened/)). No ceasefire has been agreed, and crude was back up 1.2% at $97.65 by 4:50 a.m. ET.
+US crude fell 7.9% to $95.87 a barrel on Monday as Iran signaled room for diplomacy with Washington, OilPrice.com and Finimize reported, and United Airlines ($UAL) rose 4.8% while Occidental ($OXY) fell 5.1% ([our airline story](/news/2026-11-02/united-ual-howmet-hwm-and-ge-aerospace-ge-shares-jump-what-happened/)). Overnight, US forces struck Iran's Qeshm Island at the mouth of the Strait of Hormuz, The Wall Street Journal reported, and crude was back up 1.2% at $97.65 by 4:50 a.m. ET ([our brief](/news/2026-11-03/oil-rises-after-the-us-strikes-irans-qeshm-island-the-wsj-reports/)).
 
 ### Oracle sold its new shares at $116, below Monday's close
 
