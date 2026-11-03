@@ -145,5 +145,8 @@
   "sec_filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
   "release_text": "events/packs/recap-AAPL-2026-11-02.txt",
   "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
- }
+ },
+ "outcome": "written",
+ "closed": "2026-11-02T22:38:55-05:00",
+ "story": "content/articles/2026-11-02-apple-aapl-beats-q4-estimates-but-memory-costs-squeeze-its-margin-forecast.md"
 }
