@@ -32,6 +32,8 @@ sources = [
   "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm",
   "https://www.rttnews.com/3707453/oracle-prices-20-bln-stock-and-notes-offering-at-116-shr.aspx",
   "https://www.marketscreener.com/news/oracle-prices-20-billion-of-common-stock-and-senior-notes-ce785fd9dc8bfe25",
+  "https://fourweekmba.com/ai-oracle-prices-10b-of-stock-at-116-as-it-hits-its-20b-cap",
+  "https://www.tradingview.com/news/seekingalpha:8b137b2af094b:0-oracle-prices-20b-stock-and-bond-offering-amid-ai-expansion-sets-share-sale-at-116/",
   "https://www.france24.com/en/live-news/20261103-nvidia-orders-data-center-clients-to-reduce-china-exposure-ft",
   "https://www.thestandard.com.hk/innovation/article/347343/Nvidia-orders-data-centre-clients-to-reduce-China-exposure-FT-reports",
   "https://in.investing.com/news/stock-market-news/nvidia-tells-data-center-partners-to-limit-china-sales-ft-5673649",
@@ -101,7 +103,7 @@ US crude fell 7.9% to $95.87 a barrel on Monday as Iran signaled room for diplom
  "subtitle": "Oracle, daily close, $", "notes": [{"date": "2026-11-02", "label": "Files $20bn raise"}]}
 ```
 
-Oracle priced 86.2 million shares at **$116** each late on Monday, 2.7% below that day's $119.22 close, alongside $10 billion of bonds paying 7.0% to 8.65% a year, its prospectus filing and RTTNews show. The two sales close on Wednesday and raise the full $20 billion it filed for, five days after it called that its limit through fiscal 2030 ([our story](/news/2026-11-02/oracle-orcl-shares-slide-after-it-files-to-raise-20-billion-in-stock-and-bonds/)).
+Oracle priced $10 billion of shares at **$116** each late on Monday, 2.7% below that day's $119.22 close, alongside $10 billion of bonds, RTTNews and FourWeekMBA reported, citing its pricing release. Together they raise the full $20 billion it filed for, five days after it called that its limit through fiscal 2030 ([our story](/news/2026-11-02/oracle-orcl-shares-slide-after-it-files-to-raise-20-billion-in-stock-and-bonds/)).
 
 ### Nvidia told cloud clients to sell most of their capacity outside China
 
