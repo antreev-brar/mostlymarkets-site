@@ -1,0 +1,98 @@
+{
+ "id": "news-BKNG-2026-11-03-how-investors-are-reacting-to-booking-ho",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-03T00:01:33-05:00",
+ "expires": "2026-11-03T10:01:33-05:00",
+ "tickers": [
+  "BKNG"
+ ],
+ "headline_hint": "Booking Holdings: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "How Investors Are Reacting To Booking Holdings Stock Before Q3 Results",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOG1WcVpiUXpUR1Q3NGdaQnpveURpX05Md2Y3ekRYbDlkQzZfanNGVlcxUnN3VmRNY1RBUWpqdnV3T3p1ZlBDcFA2Y2cyYXJxQzBoSGlWQlFqeUVmb2RXOFFfVWVJckJPT280aUhoZkctc0xYNVQyYjVqTlplU3I4UjdNNm1xRVJLQXA0a0NRb1lPdy02UXp5b3hHVkJjV0FZcTN6VFFjLXdFQQ?oc=5",
+    "published": "2026-11-02T23:57:12-05:00",
+    "also": []
+   },
+   {
+    "title": "Booking Holdings (BKNG) Stock Still Looks Below Fair Value Following AI Agent Fears",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0Nlc3dRTWtIaDMxUlE2Rk5YRGpZcnJzMDY5dmxzV203clF4aGszWlk5dGhZVG9CczJhVUdCOGJwaFBocWctR1V2WkpzSzVmR3ZBdEcybHBfUVJSenlBS2swVS1TNDRqc0h0UzR1NGV2eFg4dlJPV19TcEV5N3plUXlUSGI3QXF3TlE4SVpWbmRsMWRUMzF3clg1Y180LXc?oc=5",
+    "published": "2026-11-02T21:11:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Booking Holdings (BKNG) Faces A Fresh Valuation Test Following Its Cash Flow Narrative",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmEwQmNkdkhnMFNkdldzYWNUb05FWG54SnBFLV81aDhoOEp5UWxiTGVRdHZyUndOOEF5Tkw1My1tMTIxZmthV25HSXFpbnk2R2d5dUFvOWxmazhqQl8wWS1lUG9RMGJNRE9XMkMwbnplVF9PVjZ1LVZjbUZpMEtHWFpDNDlvVUNwNG4yNVY0akdTYzBtcWtES3ZzRTR3ZGs?oc=5",
+    "published": "2026-11-02T20:21:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 153.75,
+   "change_pct": 3.79,
+   "prev_close": 153.75,
+   "time": "2026-11-02",
+   "mktcap": "115.525B",
+   "pe": 17.0,
+   "fpe": 13.85,
+   "yr_high": 220.81,
+   "yr_low": 146.28,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 155.05,
+    "change_pct": 0.85,
+    "time": "2026-11-02"
+   }
+  },
+  "facts": {
+   "ticker": "BKNG",
+   "name": "Booking Holdings",
+   "date": "2026-10-30",
+   "close": 148.13,
+   "prev_close": 150.43,
+   "change_pct": -1.53,
+   "moves_over_5pct_last_year": 14,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 118,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": -1.96
+   },
+   "ytd_pct": -30.85,
+   "return_1m_pct": -7.58,
+   "return_6m_pct": -12.67,
+   "return_1y_pct": -27.04,
+   "high_52w": {
+    "close": 219.68,
+    "date": "2026-01-09"
+   },
+   "low_52w": {
+    "close": 147.94,
+    "date": "2026-10-28"
+   },
+   "pct_below_52w_high": 32.57,
+   "thousand_dollars_5y_ago_now": 1530,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 8372169,
+   "volume_vs_20d_avg": 1.25,
+   "sentences": [
+    "Booking Holdings's shares moved 5% or more on 14 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock fell 2.0%.",
+    "The stock is down 30.9% this year, and at $148.13 it sits 32.6% below its 52-week closing high of $219.68 from 9 January 2026.",
+    "$1,000 invested in Booking Holdings five years ago would be worth $1,530 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/what-to-expect-from-booking-holdings-bkng-q3-earnings/",
+   "/news/2026-10-28/3-beaten-down-quality-stocks-we-love-and-1-we-hate/"
+  ]
+ }
+}

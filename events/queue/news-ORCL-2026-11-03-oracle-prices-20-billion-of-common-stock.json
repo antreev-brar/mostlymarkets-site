@@ -1,0 +1,95 @@
+{
+ "id": "news-ORCL-2026-11-03-oracle-prices-20-billion-of-common-stock",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-03T00:01:33-05:00",
+ "expires": "2026-11-03T10:01:33-05:00",
+ "tickers": [
+  "ORCL"
+ ],
+ "headline_hint": "Oracle: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Oracle Prices $20 Billion Of Common Stock And Senior Notes",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA2DHLDW:0-oracle-prices-20-billion-of-common-stock-and-senior-notes/",
+    "published": "2026-11-02T22:16:39-05:00",
+    "also": [
+     "PR Newswire",
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "AAPL, PLTR, MRVL, ORCL, AEHR: 5 Trending Stocks Today",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOTGJBZms2MUZkbU55N3pfX3VEYzFwTjAyUHowZkwxcGQ2WFg0aGFCem1tQzJVSDJKR0tsVGNWVWd3SWg0NzJjOWRwQzBiWnR0cGFnc1JCS3BOWVBKNjVjNThTNWRINkhFRi1sSFZjOXRUaTc1NHJRUDdseHZpMXAxS2RTaWd4eTB2YVBpcU1PdWczTENMczRaSUFvdkZEZzNOUlEyTm9FRUdvSWRtZ2dMTk96Mk5NQ1NfbmV5b1RfMXdTbFpMMWtfMEo5bDM5eVh4NUQybjVLX0t0aUdYelI4VVk1MXltd18tUWJLVWpZVWdtNmlaWDJOVG9qZEI?oc=5",
+    "published": "2026-11-02T20:16:25-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 119.22,
+   "change_pct": -8.76,
+   "prev_close": 119.22,
+   "time": "2026-11-02",
+   "mktcap": "361.416B",
+   "pe": 18.72,
+   "fpe": 14.0,
+   "yr_high": 265.62,
+   "yr_low": 114.5,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 119.4,
+    "change_pct": 0.15,
+    "time": "2026-11-02"
+   }
+  },
+  "facts": {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "date": "2026-10-30",
+   "close": 130.67,
+   "prev_close": 139.56,
+   "change_pct": -6.37,
+   "moves_over_5pct_last_year": 38,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 20,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-14",
+    "change_pct": -8.83
+   },
+   "ytd_pct": -32.96,
+   "return_1m_pct": -5.36,
+   "return_6m_pct": -23.95,
+   "return_1y_pct": -52.54,
+   "high_52w": {
+    "close": 262.61,
+    "date": "2025-10-31"
+   },
+   "low_52w": {
+    "close": 114.99,
+    "date": "2026-07-24"
+   },
+   "pct_below_52w_high": 50.24,
+   "thousand_dollars_5y_ago_now": 1362,
+   "five_years_ago_date": "2021-10-29",
+   "volume": 41052870,
+   "volume_vs_20d_avg": 1.31,
+   "sentences": [
+    "Oracle's shares moved 5% or more on 38 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 14 October 2026, when the stock fell 8.8%.",
+    "The stock is down 33.0% this year, and at $130.67 it sits 50.2% below its 52-week closing high of $262.61 from 31 October 2025.",
+    "$1,000 invested in Oracle five years ago would be worth $1,362 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/oracle-orcl-shares-slide-after-it-files-to-raise-20-billion-in-stock-and-bonds/",
+   "/news/2026-11-02/meta-meta-plans-a-bond-sale-of-at-least-20-billion-bloomberg-reports/",
+   "/daily/2026-11-01/"
+  ]
+ }
+}

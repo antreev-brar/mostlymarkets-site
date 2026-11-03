@@ -281,6 +281,14 @@
 "BABA"
 ]
 },
+"news-BKNG-2026-11-03-how-investors-are-reacting-to-booking-ho": {
+"created": "2026-11-03T00:01:33-05:00",
+"day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"BKNG"
+]
+},
 "news-BP-2026-11-02-ex-shell-ceo-van-beurden-to-chair-castro": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
@@ -329,6 +337,14 @@
 "kind": "news",
 "tickers": [
 "NFLX"
+]
+},
+"news-ORCL-2026-11-03-oracle-prices-20-billion-of-common-stock": {
+"created": "2026-11-03T00:01:33-05:00",
+"day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"ORCL"
 ]
 },
 "news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc": {
