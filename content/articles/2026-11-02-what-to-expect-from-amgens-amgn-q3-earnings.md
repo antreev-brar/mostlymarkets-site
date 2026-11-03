@@ -9,9 +9,9 @@ event = "preview-AMGN-2026-11-03"
 moves = [
   { ticker = "AMGN", price = 465.45, change_pct = -0.12, session = "close", asof = 2026-11-02T16:00:00-05:00 },
 ]
-cover_brief = "A busy maximalist cartoon of a crowded hot-air balloon festival field at sunrise, packed edge to edge with grey-haired balloon pilots and middle-aged spectators: in the centre a giant plain white hot-air balloon rising off the grass with a big flat white board, half the frame wide and facing the viewer, hung straight across its basket reading 'AMGEN', while ground crew let go of the ropes and a bald pilot waves from the basket. Directly above it floats a big flat banner reading 'UP 42%', while all around a grey-haired scientist in a lab coat releases plain test-tube racks tied to small balloons, a middle-aged nurse cheers, a bearded accountant holds down a flapping long receipt, a crowd of bankers in suits watch with binoculars, a burger van steams, a dog chases a rope, a plain unbadged pickup unloads gas canisters, a brass band plays, a nervous trader checks a plain stopwatch, a news crew films from a ladder, and the field has no other signs"
-cover_alt = "A cartoon of an AMGEN hot-air balloon lifting off at a festival under an UP 42% banner"
-cover_text = ["AMGEN", "UP 42%"]
+cover_brief = "A busy maximalist cartoon of a crowded hot-air balloon festival field at sunrise, packed edge to edge with grey-haired balloon pilots and middle-aged spectators: in the centre a giant plain white hot-air balloon rising off the grass with a big flat white board, half the frame wide and facing the viewer, hung straight across its basket reading, in plain block capitals, 'AMGEN', while ground crew let go of the ropes and a bald pilot waves from the basket. Directly above the balloon floats a big flat banner reading 'TONIGHT', while all around a grey-haired scientist in a lab coat releases plain test-tube racks tied to small balloons, a middle-aged nurse cheers, a bearded accountant holds down a flapping long receipt, bankers in suits watch with binoculars, a burger van steams, a dog chases a rope, a plain unbadged pickup unloads gas canisters, a brass band plays, a nervous trader checks a plain stopwatch, and a news crew films from a ladder"
+cover_alt = "A cartoon of an AMGEN hot-air balloon lifting off at a festival under a TONIGHT banner"
+cover_text = ["AMGEN", "TONIGHT"]
 sources = [
   "https://finance.yahoo.com/healthcare/articles/amgens-q3-2026-earnings-expect-044614378.html",
   "https://news.alphastreet.com/amgen-amgn-q3-2026-preview-eps-est-5-79-reports-november-3/",
