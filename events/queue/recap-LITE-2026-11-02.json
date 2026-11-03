@@ -1,0 +1,149 @@
+{
+ "id": "recap-LITE-2026-11-02",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-03T12:01:45-05:00",
+ "expires": "2026-11-03T20:00:00-05:00",
+ "tickers": [
+  "LITE"
+ ],
+ "headline_hint": "Lumentum (LITE) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T12:00:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "LITE",
+   "name": "Lumentum Holdings Inc.",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.82,
+   "n_estimates": 6,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 3.76,
+   "surprise_pct": -1.57,
+   "mktcap": 61994906000.0
+  },
+  "quote": {
+   "price": 674.01,
+   "change_pct": -1.52,
+   "prev_close": 684.4,
+   "time": "2026-11-03T12:00:04.884-0500",
+   "mktcap": "61.054B",
+   "pe": -8.28,
+   "fpe": 29.86,
+   "yr_high": 1143.0,
+   "yr_low": 184.2,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 684.01,
+    "change_pct": -0.06,
+    "time": "2026-11-03T09:30:00.281-0500"
+   }
+  },
+  "facts": {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "date": "2026-11-02",
+   "close": 684.4,
+   "prev_close": 840.7,
+   "change_pct": -18.59,
+   "moves_over_5pct_last_year": 114,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2025-04-03",
+    "change_pct": -20.01
+   },
+   "ytd_pct": 85.68,
+   "return_1m_pct": -36.95,
+   "return_6m_pct": -29.89,
+   "return_1y_pct": 241.98,
+   "high_52w": {
+    "close": 1133.4,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 188.36,
+    "date": "2025-11-04"
+   },
+   "pct_below_52w_high": 39.62,
+   "thousand_dollars_5y_ago_now": 7887,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 15342990,
+   "volume_vs_20d_avg": 2.95,
+   "sentences": [
+    "Lumentum's shares moved 5% or more on 114 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 April 2025, when the stock fell 20.0%.",
+    "The stock is up 85.7% this year, and at $684.40 it sits 39.6% below its 52-week closing high of $1,133.40 from 6 October 2026.",
+    "$1,000 invested in Lumentum five years ago would be worth $7,887 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Communications Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/stocks-making-the-biggest-moves-yesterday-idexx-lumentum-marvell-oracle-and-rivian/",
+    "date": "2026-11-03",
+    "title": "Stocks Making the Biggest Moves Yesterday: Idexx, Lumentum, Marvell, Oracle and Rivian",
+    "type": "movers",
+    "tickers": [
+     "IDXX",
+     "LITE",
+     "MRVL",
+     "ORCL",
+     "RIVN"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-03/",
+    "date": "2026-11-03",
+    "title": "Apple and Palantir Beat Estimates and Are Falling Anyway on Election Day",
+    "type": "daily",
+    "tickers": [
+     "AAPL",
+     "PLTR",
+     "ORCL",
+     "NVDA",
+     "LITE",
+     "MRVL",
+     "UAL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/marvell-mrvl-agrees-to-buy-lumentum-lite-for-115-billion-in-stock/",
+    "date": "2026-11-02",
+    "title": "Marvell (MRVL) Agrees to Buy Lumentum (LITE) for $115 Billion in Stock",
+    "type": "brief",
+    "tickers": [
+     "MRVL",
+     "LITE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/lumentum-lite-and-marvell-mrvl-shares-slide-on-the-day-their-deal-is-signed/",
+    "date": "2026-11-02",
+    "title": "Lumentum (LITE) and Marvell (MRVL) Shares Slide on the Day Their Deal Is Signed",
+    "type": "why-it-moved",
+    "tickers": [
+     "LITE",
+     "MRVL",
+     "COHR"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/bulls-vs-bears-on-marvell-mrvl-is-lumentum-worth-a-third-of-the-company/",
+    "date": "2026-11-02",
+    "title": "Bulls vs Bears on Marvell (MRVL): Is Lumentum Worth a Third of the Company?",
+    "type": "viewpoints",
+    "tickers": [
+     "MRVL",
+     "LITE",
+     "AVGO",
+     "COHR"
+    ]
+   }
+  ]
+ }
+}
