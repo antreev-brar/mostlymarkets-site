@@ -626,10 +626,26 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-ADM-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"ADM"
+]
+},
 "recap-AJG-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
 "kind": "earnings-recap"
+},
+"recap-AME-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"AME"
+]
 },
 "recap-AMZN-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -641,6 +657,14 @@
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "earnings-recap"
+},
+"recap-APO-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"APO"
+]
 },
 "recap-AZN-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
@@ -656,6 +680,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-BR-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"BR"
+]
 },
 "recap-CAT-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -706,6 +738,14 @@
 "EL"
 ]
 },
+"recap-ETN-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"ETN"
+]
+},
 "recap-ETR-2026-11-02": {
 "created": "2026-11-02T08:01:12-05:00",
 "day": "2026-11-02",
@@ -719,12 +759,28 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-EXPD-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"EXPD"
+]
+},
 "recap-FANG-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
 "day": "2026-11-02",
 "kind": "earnings-recap",
 "tickers": [
 "FANG"
+]
+},
+"recap-FISV-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"FISV"
 ]
 },
 "recap-FOXA-2026-11-02": {
@@ -779,6 +835,14 @@
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-KDP-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"KDP"
+]
 },
 "recap-KLAC-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
@@ -837,6 +901,14 @@
 "day": "2026-10-30",
 "kind": "earnings-recap"
 },
+"recap-MPC-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"MPC"
+]
+},
 "recap-MRK-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -870,6 +942,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "PEG"
+]
+},
+"recap-PFE-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"PFE"
 ]
 },
 "recap-PLTR-2026-11-02": {
@@ -913,6 +993,14 @@
 "day": "2026-10-29",
 "kind": "earnings-recap"
 },
+"recap-SHOP-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"SHOP"
+]
+},
 "recap-SNDK-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
@@ -922,6 +1010,14 @@
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
 "kind": "earnings-recap"
+},
+"recap-SYY-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"SYY"
+]
 },
 "recap-TT-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
@@ -936,6 +1032,14 @@
 "VRTX"
 ]
 },
+"recap-WAT-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"WAT"
+]
+},
 "recap-WMB-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
 "day": "2026-11-02",
@@ -948,6 +1052,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-YUM-2026-11-03": {
+"created": "2026-11-03T08:01:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-recap",
+"tickers": [
+"YUM"
+]
 },
 "viewpoints-2026-11-01": {
 "created": "2026-11-01T14:41:07-05:00",

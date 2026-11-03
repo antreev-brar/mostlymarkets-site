@@ -1,0 +1,113 @@
+{
+ "id": "recap-SHOP-2026-11-03",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-03T08:01:15-05:00",
+ "expires": "2026-11-04T20:00:00-05:00",
+ "tickers": [
+  "SHOP"
+ ],
+ "headline_hint": "Shopify (SHOP) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T08:00:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "SHOP",
+   "name": "Shopify Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.33,
+   "n_estimates": 13,
+   "eps_last_year": 0.27,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 204320178000.0
+  },
+  "quote": {
+   "price": 156.22,
+   "change_pct": -0.81,
+   "prev_close": 156.22,
+   "time": "2026-11-02",
+   "mktcap": "201.00B",
+   "pe": 105.34,
+   "fpe": 74.28,
+   "yr_high": 180.88,
+   "yr_low": 94.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 131.44,
+    "change_pct": -15.86,
+    "time": "2026-11-03T07:59:48.599-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SHOP",
+   "name": "Shopify",
+   "date": "2026-11-02",
+   "close": 156.22,
+   "prev_close": 157.49,
+   "change_pct": -0.81,
+   "moves_over_5pct_last_year": 44,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 197,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -5.63
+   },
+   "ytd_pct": -2.95,
+   "return_1m_pct": 3.19,
+   "return_6m_pct": 22.48,
+   "return_1y_pct": -10.02,
+   "high_52w": {
+    "close": 179.22,
+    "date": "2026-10-12"
+   },
+   "low_52w": {
+    "close": 95.4,
+    "date": "2026-05-13"
+   },
+   "pct_below_52w_high": 12.83,
+   "thousand_dollars_5y_ago_now": 1058,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 13931970,
+   "volume_vs_20d_avg": 1.75,
+   "sentences": [
+    "Shopify's shares moved 5% or more on 44 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 5.6%.",
+    "The stock is down 3.0% this year, and at $156.22 it sits 12.8% below its 52-week closing high of $179.22 from 12 October 2026.",
+    "$1,000 invested in Shopify five years ago would be worth $1,058 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "date": "2026-10-31",
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "type": "analysis",
+    "tickers": [
+     "AAPL",
+     "AMD",
+     "ARM",
+     "QCOM",
+     "PLTR",
+     "SHOP",
+     "UBER",
+     "COP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/what-to-expect-from-shopifys-shop-q3-earnings/",
+    "date": "2026-10-29",
+    "title": "What to Expect From Shopify's (SHOP) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "SHOP"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "recap-FISV-2026-11-03",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-03T08:01:15-05:00",
+ "expires": "2026-11-04T20:00:00-05:00",
+ "tickers": [
+  "FISV"
+ ],
+ "headline_hint": "Fiserv (FISV) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T08:00:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "FISV",
+   "name": "Fiserv, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.72,
+   "n_estimates": 12,
+   "eps_last_year": 2.04,
+   "last_year_date": "10/29/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 26598971400.0
+  },
+  "quote": {
+   "price": 51.93,
+   "change_pct": 3.82,
+   "prev_close": 51.93,
+   "time": "2026-11-02",
+   "mktcap": "27.615B",
+   "pe": 9.96,
+   "fpe": 7.09,
+   "yr_high": 70.41,
+   "yr_low": 43.87,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 55.9,
+    "change_pct": 7.64,
+    "time": "2026-11-03T07:58:04.509-0500"
+   }
+  },
+  "facts": {
+   "ticker": "FISV",
+   "name": "Fiserv",
+   "date": "2026-11-02",
+   "close": 51.93,
+   "prev_close": 50.02,
+   "change_pct": 3.82,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 27,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 5.41
+   },
+   "ytd_pct": -22.69,
+   "return_1m_pct": 17.06,
+   "return_6m_pct": -17.32,
+   "return_1y_pct": -20.34,
+   "high_52w": {
+    "close": 69.85,
+    "date": "2026-01-09"
+   },
+   "low_52w": {
+    "close": 44.36,
+    "date": "2026-10-02"
+   },
+   "pct_below_52w_high": 25.65,
+   "thousand_dollars_5y_ago_now": 523,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 9985184,
+   "volume_vs_20d_avg": 1.84,
+   "sentences": [
+    "Fiserv's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 5.4%.",
+    "The stock is down 22.7% this year, and at $51.93 it sits 25.6% below its 52-week closing high of $69.85 from 9 January 2026.",
+    "$1,000 invested in Fiserv five years ago would be worth $523 today."
+   ]
+  },
+  "sector": "Financials",
+  "industry": "Transaction & Payment Processing Services",
+  "recent_stories": []
+ }
+}

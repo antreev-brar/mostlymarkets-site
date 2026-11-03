@@ -1,0 +1,99 @@
+{
+ "id": "recap-AME-2026-11-03",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-03T08:01:15-05:00",
+ "expires": "2026-11-04T20:00:00-05:00",
+ "tickers": [
+  "AME"
+ ],
+ "headline_hint": "Ametek (AME) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T08:00:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "AME",
+   "name": "AMTEK, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.12,
+   "n_estimates": 7,
+   "eps_last_year": 1.89,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 55279473000.0
+  },
+  "quote": {
+   "price": 241.91,
+   "change_pct": 0.33,
+   "prev_close": 241.91,
+   "time": "2026-11-02",
+   "mktcap": "55.461B",
+   "pe": 35.36,
+   "fpe": 27.23,
+   "yr_high": 261.16,
+   "yr_low": 188.47,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 244.0,
+    "change_pct": 0.86,
+    "time": "2026-11-02"
+   }
+  },
+  "facts": {
+   "ticker": "AME",
+   "name": "Ametek",
+   "date": "2026-11-02",
+   "close": 241.91,
+   "prev_close": 241.12,
+   "change_pct": 0.33,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 203,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-29",
+    "change_pct": 1.47
+   },
+   "ytd_pct": 17.83,
+   "return_1m_pct": -3.98,
+   "return_6m_pct": 4.98,
+   "return_1y_pct": 21.98,
+   "high_52w": {
+    "close": 258.52,
+    "date": "2026-08-12"
+   },
+   "low_52w": {
+    "close": 189.9,
+    "date": "2025-11-18"
+   },
+   "pct_below_52w_high": 6.43,
+   "thousand_dollars_5y_ago_now": 1730,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 2963145,
+   "volume_vs_20d_avg": 2.3,
+   "sentences": [
+    "Ametek's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 October 2026, when the stock rose 1.5%.",
+    "The stock is up 17.8% this year, and at $241.91 it sits 6.4% below its 52-week closing high of $258.52 from 12 August 2026.",
+    "$1,000 invested in Ametek five years ago would be worth $1,730 today."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Electrical Components & Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/what-to-expect-from-tuesdays-earnings-apollo-ametek-and-keurig-dr-pepper/",
+    "date": "2026-11-03",
+    "title": "What to Expect From Tuesday's Earnings: Apollo, Ametek and Keurig Dr Pepper",
+    "type": "preview-roundup",
+    "tickers": [
+     "APO",
+     "AME",
+     "KDP"
+    ]
+   }
+  ]
+ }
+}
