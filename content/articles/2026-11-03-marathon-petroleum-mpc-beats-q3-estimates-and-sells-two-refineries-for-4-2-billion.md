@@ -2,7 +2,7 @@
 title = "Marathon Petroleum (MPC) Beats Q3 Estimates and Sells Two Refineries for $4.2 Billion"
 dek = "Marathon earned an adjusted $26.93 a share against the $24.47 expected as its refining margin rose to $45.70 a barrel, and it agreed to sell two Midwest refineries to CVR Energy."
 type = "earnings-recap"
-published = 2026-11-03T10:25:00-05:00
+published = 2026-11-03T09:34:00-05:00
 author = "theo-park"
 tickers = ["MPC"]
 event = "recap-MPC-2026-11-03"

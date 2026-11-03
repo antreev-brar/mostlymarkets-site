@@ -2,7 +2,7 @@
 title = "Pfizer (PFE) Beats Q3 Estimates and Raises Its 2026 Forecast"
 dek = "Pfizer earned an adjusted 87 cents a share against the 73 cents expected, on flat sales of $16.6 billion, and lifted its 2026 EPS range to $2.95 to $3.05."
 type = "earnings-recap"
-published = 2026-11-03T10:10:00-05:00
+published = 2026-11-03T09:32:00-05:00
 author = "claire-okafor"
 tickers = ["PFE"]
 event = "recap-PFE-2026-11-03"

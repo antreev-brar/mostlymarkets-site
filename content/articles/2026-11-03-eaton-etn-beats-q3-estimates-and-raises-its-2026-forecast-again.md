@@ -2,7 +2,7 @@
 title = "Eaton (ETN) Beats Q3 Estimates and Raises Its 2026 Forecast Again"
 dek = "Eaton's sales rose 28% to a record $8.95 billion and adjusted EPS of $3.68 beat the $3.54 consensus; it lifted its 2026 profit range to $13.70 to $13.80 a share."
 type = "earnings-recap"
-published = 2026-11-03T09:55:00-05:00
+published = 2026-11-03T09:30:00-05:00
 author = "theo-park"
 tickers = ["ETN"]
 event = "recap-ETN-2026-11-03"

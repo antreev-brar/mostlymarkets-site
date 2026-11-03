@@ -2,7 +2,7 @@
 title = "Shopify (SHOP) Q3: GMV and Subscriptions Miss, and the Stock Sinks 15%"
 dek = "Shopify's revenue grew 32% to $3.74 billion, but sales on its platform of $119.2 billion and its subscription revenue fell short of estimates, and the shares fell 15% before the open."
 type = "earnings-recap"
-published = 2026-11-03T09:40:00-05:00
+published = 2026-11-03T09:28:00-05:00
 author = "marcus-lindqvist"
 tickers = ["SHOP"]
 event = "recap-SHOP-2026-11-03"
