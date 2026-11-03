@@ -1,0 +1,90 @@
+{
+ "id": "recap-IFF-2026-11-03",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-03T16:30:23-05:00",
+ "expires": "2026-11-04T20:00:00-05:00",
+ "tickers": [
+  "IFF"
+ ],
+ "headline_hint": "International Flavors & Fragrances (IFF) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-03T16:30:18-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "IFF",
+   "name": "International Flavors & Fragrances, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.81,
+   "n_estimates": 6,
+   "eps_last_year": 1.05,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 24144840700.0
+  },
+  "quote": {
+   "price": 92.18,
+   "change_pct": -2.59,
+   "prev_close": 94.63,
+   "time": "2026-11-03T16:10:00.000-0500",
+   "mktcap": "23.52B",
+   "pe": 86.74,
+   "fpe": 26.91,
+   "yr_high": 95.27,
+   "yr_low": 61.3,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 92.18,
+    "change_pct": 0.0,
+    "time": "2026-11-03T16:22:37.704-0500"
+   }
+  },
+  "facts": {
+   "ticker": "IFF",
+   "name": "International Flavors & Fragrances",
+   "date": "2026-11-03",
+   "close": 92.18,
+   "prev_close": 94.63,
+   "change_pct": -2.59,
+   "moves_over_5pct_last_year": 8,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 44,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": -2.74
+   },
+   "ytd_pct": 36.79,
+   "return_1m_pct": 10.71,
+   "return_6m_pct": 30.25,
+   "return_1y_pct": 46.39,
+   "high_52w": {
+    "close": 94.63,
+    "date": "2026-11-02"
+   },
+   "low_52w": {
+    "close": 61.49,
+    "date": "2025-11-04"
+   },
+   "pct_below_52w_high": 2.59,
+   "thousand_dollars_5y_ago_now": 634,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 2814782,
+   "volume_vs_20d_avg": 1.28,
+   "sentences": [
+    "International Flavors & Fragrances's shares moved 5% or more on 8 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock fell 2.7%.",
+    "The stock is up 36.8% this year, and at $92.18 it sits 2.6% below its 52-week closing high of $94.63 from 2 November 2026.",
+    "$1,000 invested in International Flavors & Fragrances five years ago would be worth $634 today."
+   ]
+  },
+  "sector": "Materials",
+  "industry": "Specialty Chemicals",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000039/0000051253-26-000039-index.htm",
+  "release_text": "events/packs/recap-IFF-2026-11-03.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000039/q32026991pressreleaseofiff.htm"
+ }
+}
