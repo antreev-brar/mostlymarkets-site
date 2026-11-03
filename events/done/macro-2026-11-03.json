@@ -252,5 +252,8 @@
     "name": "US dollar index"
    }
   }
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-03T10:38:07-05:00",
+ "reason": "no top-tier release today (no CPI, PPI, jobs, GDP, PCE, retail sales or JOLTS in the morning headlines)"
 }
