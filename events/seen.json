@@ -268,6 +268,14 @@
 "AAPL"
 ]
 },
+"news-ARM-2026-11-03-arm-is-up-88-in-2026-and-down-55-from-it": {
+"created": "2026-11-03T02:01:03-05:00",
+"day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"ARM"
+]
+},
 "news-ASML-2026-11-01-is-asml-holding-nasdaqgs-asml-still-unde": {
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
@@ -347,6 +355,14 @@
 "NFLX"
 ]
 },
+"news-NVDA-2026-11-03-nvidia-orders-data-centre-clients-to-red": {
+"created": "2026-11-03T02:01:03-05:00",
+"day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
 "news-ORCL-2026-11-03-oracle-prices-20-billion-of-common-stock": {
 "created": "2026-11-03T00:01:33-05:00",
 "day": "2026-11-03",
@@ -371,6 +387,14 @@
 "news-SHEL-2026-11-02-shell-signs-long-term-sustainable-aviati": {
 "created": "2026-11-02T05:01:44-05:00",
 "day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"SHEL"
+]
+},
+"news-SHEL-2026-11-03-shell-agrees-to-sell-16-67-stake-in-nort": {
+"created": "2026-11-03T02:01:03-05:00",
+"day": "2026-11-03",
 "kind": "news",
 "tickers": [
 "SHEL"
