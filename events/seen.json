@@ -662,6 +662,14 @@
 "APO"
 ]
 },
+"preview-ARM-2026-11-04": {
+"created": "2026-11-03T17:30:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-preview",
+"tickers": [
+"ARM"
+]
+},
 "preview-BKNG-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -701,6 +709,14 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-MCD-2026-11-04": {
+"created": "2026-11-03T17:30:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-preview",
+"tickers": [
+"MCD"
+]
+},
 "preview-MPC-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -727,11 +743,27 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-QCOM-2026-11-04": {
+"created": "2026-11-03T17:30:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-preview",
+"tickers": [
+"QCOM"
+]
+},
 "preview-SHOP-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
 "kind": "earnings-preview",
 "outcome": "already-written"
+},
+"preview-TM-2026-11-04": {
+"created": "2026-11-03T17:30:15-05:00",
+"day": "2026-11-03",
+"kind": "earnings-preview",
+"tickers": [
+"TM"
+]
 },
 "preview-VRTX-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
@@ -749,6 +781,21 @@
 "kind": "earnings-preview",
 "tickers": [
 "XYZ"
+]
+},
+"previews-2026-11-04": {
+"created": "2026-11-03T17:30:15-05:00",
+"day": "2026-11-03",
+"kind": "preview-roundup",
+"tickers": [
+"NVO",
+"UBER",
+"CVS",
+"MCK",
+"EMR",
+"MELI",
+"APP",
+"MSI"
 ]
 },
 "recap-AAPL-2026-11-02": {

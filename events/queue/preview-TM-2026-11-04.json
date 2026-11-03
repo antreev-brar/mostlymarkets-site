@@ -1,0 +1,87 @@
+{
+ "id": "preview-TM-2026-11-04",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-03T17:30:15-05:00",
+ "expires": "2026-11-04T15:30:00-05:00",
+ "tickers": [
+  "TM"
+ ],
+ "headline_hint": "What to expect from Toyota's (TM) earnings",
+ "instructions": "Reports Wednesday . Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-03T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TM",
+   "name": "Toyota Motor Corp Ltd Ord",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 0,
+   "eps_last_year": 4.85,
+   "last_year_date": "11/05/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 255243485000.0
+  },
+  "report_date": "2026-11-04",
+  "quote": {
+   "price": 193.0,
+   "change_pct": -1.45,
+   "prev_close": 195.83,
+   "time": "2026-11-03T16:10:00.000-0500",
+   "mktcap": "281.683B",
+   "pe": 8.93,
+   "fpe": 14.03,
+   "yr_high": 248.9,
+   "yr_low": 166.1,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 193.0,
+    "change_pct": 0.0,
+    "time": "2026-11-03T16:00:04.932-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TM",
+   "name": "Toyota",
+   "date": "2026-11-03",
+   "close": 193.0,
+   "prev_close": 195.83,
+   "change_pct": -1.45,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 88,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-30",
+    "change_pct": -1.93
+   },
+   "ytd_pct": -9.84,
+   "return_1m_pct": 4.82,
+   "return_6m_pct": 1.58,
+   "return_1y_pct": -5.48,
+   "high_52w": {
+    "close": 248.29,
+    "date": "2026-02-13"
+   },
+   "low_52w": {
+    "close": 166.5,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 22.27,
+   "thousand_dollars_5y_ago_now": 1066,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 299216,
+   "volume_vs_20d_avg": 1.0,
+   "sentences": [
+    "Toyota's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 September 2026, when the stock fell 1.9%.",
+    "The stock is down 9.8% this year, and at $193.00 it sits 22.3% below its 52-week closing high of $248.29 from 13 February 2026.",
+    "$1,000 invested in Toyota five years ago would be worth $1,066 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

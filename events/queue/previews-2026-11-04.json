@@ -1,0 +1,618 @@
+{
+ "id": "previews-2026-11-04",
+ "kind": "preview-roundup",
+ "story_type": "preview-roundup",
+ "priority": 42,
+ "created": "2026-11-03T17:30:15-05:00",
+ "expires": "2026-11-04T09:00:00-05:00",
+ "tickers": [
+  "NVO",
+  "UBER",
+  "CVS",
+  "MCK",
+  "EMR",
+  "MELI",
+  "APP",
+  "MSI"
+ ],
+ "headline_hint": "What to Expect From Wednesday's Earnings: Novo Nordisk, Uber, CVS Health and 5 More",
+ "instructions": "A preview roundup of 8 companies reporting on Wednesday, biggest first: for each, when it reports, consensus revenue and EPS against a year ago (naming the provider), last quarter's result and how the stock took it, and the one number or comment that will move the stock. Then which report has the most riding on it, with the reasons in numbers. Follow the preview-roundup template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T17:30:10-05:00",
+ "pack": {
+  "report_date": "2026-11-04",
+  "companies": [
+   {
+    "ticker": "NVO",
+    "calendar": {
+     "ticker": "NVO",
+     "name": "Novo Nordisk A/S",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 0.81,
+     "n_estimates": 4,
+     "eps_last_year": 1.02,
+     "last_year_date": "11/05/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 179109790000.0
+    },
+    "quote": {
+     "price": 40.19,
+     "change_pct": -0.64,
+     "prev_close": 40.45,
+     "time": "2026-11-03T16:10:00.000-0500",
+     "mktcap": "136.249B",
+     "pe": 10.05,
+     "fpe": 12.32,
+     "yr_high": 64.16,
+     "yr_low": 35.12,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 40.21,
+      "change_pct": 0.05,
+      "time": "2026-11-03T17:27:01.552-0500"
+     }
+    },
+    "name": "Novo Nordisk",
+    "sector": "Health Care",
+    "facts": {
+     "ticker": "NVO",
+     "name": "Novo Nordisk",
+     "date": "2026-11-03",
+     "close": 40.19,
+     "prev_close": 40.45,
+     "change_pct": -0.64,
+     "moves_over_5pct_last_year": 17,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 188,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-10-28",
+      "change_pct": -0.98
+     },
+     "ytd_pct": -21.01,
+     "return_1m_pct": 7.06,
+     "return_6m_pct": -10.43,
+     "return_1y_pct": -18.74,
+     "high_52w": {
+      "close": 63.98,
+      "date": "2026-01-26"
+     },
+     "low_52w": {
+      "close": 35.29,
+      "date": "2026-03-30"
+     },
+     "pct_below_52w_high": 37.18,
+     "thousand_dollars_5y_ago_now": 696,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 10780219,
+     "volume_vs_20d_avg": 1.05,
+     "sentences": [
+      "Novo Nordisk's shares moved 5% or more on 17 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 28 October 2026, when the stock fell 1.0%.",
+      "The stock is down 21.0% this year, and at $40.19 it sits 37.2% below its 52-week closing high of $63.98 from 26 January 2026.",
+      "$1,000 invested in Novo Nordisk five years ago would be worth $696 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "UBER",
+    "calendar": {
+     "ticker": "UBER",
+     "name": "Uber Technologies, Inc.",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 0.94,
+     "n_estimates": 7,
+     "eps_last_year": 3.11,
+     "last_year_date": "11/04/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 136259183000.0
+    },
+    "quote": {
+     "price": 66.6,
+     "change_pct": -0.16,
+     "prev_close": 66.71,
+     "time": "2026-11-03T16:10:00.000-0500",
+     "mktcap": "136.034B",
+     "pe": 14.62,
+     "fpe": 15.82,
+     "yr_high": 100.35,
+     "yr_low": 64.04,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 66.82,
+      "change_pct": 0.33,
+      "time": "2026-11-03T17:30:08.888-0500"
+     }
+    },
+    "name": "Uber",
+    "sector": "Industrials",
+    "facts": {
+     "ticker": "UBER",
+     "name": "Uber",
+     "date": "2026-11-03",
+     "close": 66.6,
+     "prev_close": 66.71,
+     "change_pct": -0.16,
+     "moves_over_5pct_last_year": 12,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 240,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-10-30",
+      "change_pct": -0.75
+     },
+     "ytd_pct": -18.49,
+     "return_1m_pct": -4.15,
+     "return_6m_pct": -8.7,
+     "return_1y_pct": -30.98,
+     "high_52w": {
+      "close": 99.72,
+      "date": "2025-11-03"
+     },
+     "low_52w": {
+      "close": 65.25,
+      "date": "2026-10-30"
+     },
+     "pct_below_52w_high": 33.21,
+     "thousand_dollars_5y_ago_now": 1457,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 19467699,
+     "volume_vs_20d_avg": 1.2,
+     "sentences": [
+      "Uber's shares moved 5% or more on 12 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 0.8%.",
+      "The stock is down 18.5% this year, and at $66.60 it sits 33.2% below its 52-week closing high of $99.72 from 3 November 2025.",
+      "$1,000 invested in Uber five years ago would be worth $1,457 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "CVS",
+    "calendar": {
+     "ticker": "CVS",
+     "name": "CVS Health Corporation",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 1.62,
+     "n_estimates": 9,
+     "eps_last_year": 1.6,
+     "last_year_date": "10/29/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 113201668000.0
+    },
+    "quote": {
+     "price": 91.41,
+     "change_pct": 3.28,
+     "prev_close": 88.51,
+     "time": "2026-11-03T16:10:00.000-0500",
+     "mktcap": "116.911B",
+     "pe": 24.24,
+     "fpe": 11.26,
+     "yr_high": 110.68,
+     "yr_low": 69.51,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 91.41,
+      "change_pct": 0.0,
+      "time": "2026-11-03T17:09:22.540-0500"
+     }
+    },
+    "name": "CVS Health",
+    "sector": "Health Care",
+    "facts": {
+     "ticker": "CVS",
+     "name": "CVS Health",
+     "date": "2026-11-03",
+     "close": 91.41,
+     "prev_close": 88.51,
+     "change_pct": 3.28,
+     "moves_over_5pct_last_year": 4,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 16,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-09-25",
+      "change_pct": 4.8
+     },
+     "ytd_pct": 15.18,
+     "return_1m_pct": 5.06,
+     "return_6m_pct": 13.29,
+     "return_1y_pct": 16.97,
+     "high_52w": {
+      "close": 110.6,
+      "date": "2026-07-21"
+     },
+     "low_52w": {
+      "close": 70.08,
+      "date": "2026-03-27"
+     },
+     "pct_below_52w_high": 17.35,
+     "thousand_dollars_5y_ago_now": 949,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 19285175,
+     "volume_vs_20d_avg": 2.34,
+     "sentences": [
+      "CVS Health's shares moved 5% or more on 4 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 25 September 2026, when the stock rose 4.8%.",
+      "The stock is up 15.2% this year, and at $91.41 it sits 17.4% below its 52-week closing high of $110.60 from 21 July 2026.",
+      "$1,000 invested in CVS Health five years ago would be worth $949 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "MCK",
+    "calendar": {
+     "ticker": "MCK",
+     "name": "McKesson Corporation",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 10.69,
+     "n_estimates": 6,
+     "eps_last_year": 9.86,
+     "last_year_date": "11/05/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 116401488000.0
+    },
+    "quote": {
+     "price": 999.62,
+     "change_pct": 0.12,
+     "prev_close": 998.38,
+     "time": "2026-11-03T16:10:00.000-0500",
+     "mktcap": "116.546B",
+     "pe": 26.77,
+     "fpe": 21.56,
+     "yr_high": 1030.27,
+     "yr_low": 723.68,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 999.62,
+      "change_pct": 0.0,
+      "time": "2026-11-03T16:32:59.123-0500"
+     }
+    },
+    "name": "McKesson",
+    "sector": "Health Care",
+    "facts": {
+     "ticker": "MCK",
+     "name": "McKesson",
+     "date": "2026-11-03",
+     "close": 999.62,
+     "prev_close": 998.38,
+     "change_pct": 0.12,
+     "moves_over_5pct_last_year": 5,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 238,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-02",
+      "change_pct": 0.38
+     },
+     "ytd_pct": 21.86,
+     "return_1m_pct": 9.19,
+     "return_6m_pct": 24.79,
+     "return_1y_pct": 23.21,
+     "high_52w": {
+      "close": 1030.12,
+      "date": "2026-10-20"
+     },
+     "low_52w": {
+      "close": 725.17,
+      "date": "2026-05-11"
+     },
+     "pct_below_52w_high": 2.96,
+     "thousand_dollars_5y_ago_now": 4458,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 671460,
+     "volume_vs_20d_avg": 0.97,
+     "sentences": [
+      "McKesson's shares moved 5% or more on 5 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 2 November 2026, when the stock rose 0.4%.",
+      "The stock is up 21.9% this year, and at $999.62 it sits 3.0% below its 52-week closing high of $1,030.12 from 20 October 2026.",
+      "$1,000 invested in McKesson five years ago would be worth $4,458 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "EMR",
+    "calendar": {
+     "ticker": "EMR",
+     "name": "Emerson Electric Company",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 1.85,
+     "n_estimates": 7,
+     "eps_last_year": 1.62,
+     "last_year_date": "11/05/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 92572492000.0
+    },
+    "quote": {
+     "price": 166.39,
+     "change_pct": 0.26,
+     "prev_close": 165.96,
+     "time": "2026-11-03T16:10:00.000-0500",
+     "mktcap": "92.812B",
+     "pe": 36.4,
+     "fpe": 23.45,
+     "yr_high": 171.25,
+     "yr_low": 122.64,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 166.57,
+      "change_pct": 0.11,
+      "time": "2026-11-03T16:54:13.119-0500"
+     }
+    },
+    "name": "Emerson Electric",
+    "sector": "Industrials",
+    "facts": {
+     "ticker": "EMR",
+     "name": "Emerson Electric",
+     "date": "2026-11-03",
+     "close": 166.39,
+     "prev_close": 165.96,
+     "change_pct": 0.26,
+     "moves_over_5pct_last_year": 6,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 226,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-02",
+      "change_pct": 0.62
+     },
+     "ytd_pct": 25.37,
+     "return_1m_pct": 2.5,
+     "return_6m_pct": 20.24,
+     "return_1y_pct": 19.22,
+     "high_52w": {
+      "close": 170.74,
+      "date": "2026-10-29"
+     },
+     "low_52w": {
+      "close": 123.3,
+      "date": "2026-03-30"
+     },
+     "pct_below_52w_high": 2.55,
+     "thousand_dollars_5y_ago_now": 1747,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 3566586,
+     "volume_vs_20d_avg": 1.24,
+     "sentences": [
+      "Emerson Electric's shares moved 5% or more on 6 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 2 November 2026, when the stock rose 0.6%.",
+      "The stock is up 25.4% this year, and at $166.39 it sits 2.5% below its 52-week closing high of $170.74 from 29 October 2026.",
+      "$1,000 invested in Emerson Electric five years ago would be worth $1,747 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "MELI",
+    "calendar": {
+     "ticker": "MELI",
+     "name": "MercadoLibre, Inc.",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 9.41,
+     "n_estimates": 3,
+     "eps_last_year": 8.32,
+     "last_year_date": "10/29/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 85007892000.0
+    },
+    "quote": {
+     "price": 1662.16,
+     "change_pct": -0.87,
+     "prev_close": 1676.79,
+     "time": "2026-11-03T16:15:00.000-0500",
+     "mktcap": "84.266B",
+     "pe": 45.23,
+     "fpe": 38.67,
+     "yr_high": 2387.55,
+     "yr_low": 1495.0,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 1664.14,
+      "change_pct": 0.12,
+      "time": "2026-11-03T16:58:35.521-0500"
+     }
+    },
+    "name": "MercadoLibre",
+    "sector": "Consumer Discretionary",
+    "facts": {
+     "ticker": "MELI",
+     "name": "MercadoLibre",
+     "date": "2026-11-03",
+     "close": 1662.16,
+     "prev_close": 1676.79,
+     "change_pct": -0.87,
+     "moves_over_5pct_last_year": 13,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 159,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-10-30",
+      "change_pct": -2.14
+     },
+     "ytd_pct": -17.48,
+     "return_1m_pct": -10.67,
+     "return_6m_pct": -8.54,
+     "return_1y_pct": -28.58,
+     "high_52w": {
+      "close": 2316.4,
+      "date": "2025-11-03"
+     },
+     "low_52w": {
+      "close": 1546.81,
+      "date": "2026-05-15"
+     },
+     "pct_below_52w_high": 28.24,
+     "thousand_dollars_5y_ago_now": 1085,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 333661,
+     "volume_vs_20d_avg": 0.62,
+     "sentences": [
+      "MercadoLibre's shares moved 5% or more on 13 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 2.1%.",
+      "The stock is down 17.5% this year, and at $1,662.16 it sits 28.2% below its 52-week closing high of $2,316.40 from 3 November 2025.",
+      "$1,000 invested in MercadoLibre five years ago would be worth $1,085 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "APP",
+    "calendar": {
+     "ticker": "APP",
+     "name": "Applovin Corporation",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 3.94,
+     "n_estimates": 9,
+     "eps_last_year": 2.45,
+     "last_year_date": "11/05/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 76584878000.0
+    },
+    "quote": {
+     "price": 245.51,
+     "change_pct": 7.28,
+     "prev_close": 228.85,
+     "time": "2026-11-03T16:00:00.000-0500",
+     "mktcap": "82.16B",
+     "pe": 18.87,
+     "fpe": 13.83,
+     "yr_high": 738.01,
+     "yr_low": 225.19,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 245.52,
+      "change_pct": 0.0,
+      "time": "2026-11-03T17:26:47.310-0500"
+     }
+    },
+    "name": "AppLovin",
+    "sector": "Communication Services",
+    "facts": {
+     "ticker": "APP",
+     "name": "AppLovin",
+     "date": "2026-11-03",
+     "close": 245.51,
+     "prev_close": 228.85,
+     "change_pct": 7.28,
+     "moves_over_5pct_last_year": 55,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 22,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-07-01",
+      "change_pct": 9.58
+     },
+     "ytd_pct": -63.56,
+     "return_1m_pct": -12.93,
+     "return_6m_pct": -48.65,
+     "return_1y_pct": -61.48,
+     "high_52w": {
+      "close": 733.6,
+      "date": "2025-12-22"
+     },
+     "low_52w": {
+      "close": 228.5,
+      "date": "2026-10-30"
+     },
+     "pct_below_52w_high": 66.53,
+     "thousand_dollars_5y_ago_now": 2496,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 4116689,
+     "volume_vs_20d_avg": 1.09,
+     "sentences": [
+      "AppLovin's shares moved 5% or more on 55 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 1 July 2026, when the stock rose 9.6%.",
+      "The stock is down 63.6% this year, and at $245.51 it sits 66.5% below its 52-week closing high of $733.60 from 22 December 2025.",
+      "$1,000 invested in AppLovin five years ago would be worth $2,496 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "MSI",
+    "calendar": {
+     "ticker": "MSI",
+     "name": "Motorola Solutions, Inc.",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 3.99,
+     "n_estimates": 5,
+     "eps_last_year": 3.69,
+     "last_year_date": "10/30/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 80646775000.0
+    },
+    "quote": {
+     "price": 491.0,
+     "change_pct": 0.76,
+     "prev_close": 487.31,
+     "time": "2026-11-03T16:10:00.000-0500",
+     "mktcap": "81.257B",
+     "pe": 38.69,
+     "fpe": 27.12,
+     "yr_high": 499.0,
+     "yr_low": 359.36,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 495.48,
+      "change_pct": 0.91,
+      "time": "2026-11-03T17:19:54.256-0500"
+     }
+    },
+    "name": "Motorola Solutions",
+    "sector": "Information Technology",
+    "facts": {
+     "ticker": "MSI",
+     "name": "Motorola Solutions",
+     "date": "2026-11-03",
+     "close": 491.0,
+     "prev_close": 487.31,
+     "change_pct": 0.76,
+     "moves_over_5pct_last_year": 3,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 140,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-10-29",
+      "change_pct": 1.8
+     },
+     "ytd_pct": 28.09,
+     "return_1m_pct": 7.82,
+     "return_6m_pct": 12.1,
+     "return_1y_pct": 20.72,
+     "high_52w": {
+      "close": 492.08,
+      "date": "2026-10-29"
+     },
+     "low_52w": {
+      "close": 363.83,
+      "date": "2025-12-16"
+     },
+     "pct_below_52w_high": 0.22,
+     "thousand_dollars_5y_ago_now": 1943,
+     "five_years_ago_date": "2021-11-03",
+     "volume": 1453943,
+     "volume_vs_20d_avg": 1.61,
+     "sentences": [
+      "Motorola Solutions's shares moved 5% or more on 3 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 29 October 2026, when the stock rose 1.8%.",
+      "The stock is up 28.1% this year, and at $491.00 it sits 0.2% below its 52-week closing high of $492.08 from 29 October 2026.",
+      "$1,000 invested in Motorola Solutions five years ago would be worth $1,943 today."
+     ]
+    },
+    "last_recap": []
+   }
+  ]
+ }
+}

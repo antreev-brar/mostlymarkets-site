@@ -1,0 +1,159 @@
+{
+ "id": "preview-ARM-2026-11-04",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-03T17:30:15-05:00",
+ "expires": "2026-11-04T15:30:00-05:00",
+ "tickers": [
+  "ARM"
+ ],
+ "headline_hint": "What to expect from Arm Holdings's (ARM) earnings",
+ "instructions": "Reports Wednesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-03T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ARM",
+   "name": "Arm Holdings plc",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.22,
+   "n_estimates": 7,
+   "eps_last_year": 0.15,
+   "last_year_date": "11/05/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 209395433000.0
+  },
+  "report_date": "2026-11-04",
+  "quote": {
+   "price": 202.49,
+   "change_pct": 2.9,
+   "prev_close": 196.79,
+   "time": "2026-11-03T16:00:00.000-0500",
+   "mktcap": "216.259B",
+   "pe": 207.72,
+   "fpe": 84.83,
+   "yr_high": 452.7,
+   "yr_low": 100.02,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 210.5,
+    "change_pct": 3.96,
+    "time": "2026-11-03T17:29:05.173-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "date": "2026-11-03",
+   "close": 202.49,
+   "prev_close": 196.79,
+   "change_pct": 2.9,
+   "moves_over_5pct_last_year": 62,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 114,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": 4.1
+   },
+   "ytd_pct": 85.24,
+   "return_1m_pct": -33.15,
+   "return_6m_pct": -3.04,
+   "return_1y_pct": 19.24,
+   "high_52w": {
+    "close": 439.46,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 104.55,
+    "date": "2026-02-03"
+   },
+   "pct_below_52w_high": 53.92,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 2987652,
+   "volume_vs_20d_avg": 0.59,
+   "sentences": [
+    "Arm Holdings's shares moved 5% or more on 62 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 4.1%.",
+    "The stock is up 85.2% this year, and at $202.49 it sits 53.9% below its 52-week closing high of $439.46 from 18 June 2026."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "date": "2026-10-31",
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "type": "analysis",
+    "tickers": [
+     "AAPL",
+     "AMD",
+     "ARM",
+     "QCOM",
+     "PLTR",
+     "SHOP",
+     "UBER",
+     "COP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/",
+    "date": "2026-10-31",
+    "title": "Intel (INTC) Lost 28.6% in a Day. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "INTC",
+     "AMD",
+     "NVDA",
+     "QCOM",
+     "ARM"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/bulls-vs-bears-on-the-ai-chip-selloff-a-normal-pullback-or-the-peak/",
+    "date": "2026-10-31",
+    "title": "Bulls vs Bears on the AI Chip Selloff: A Normal Pullback or the Peak?",
+    "type": "viewpoints",
+    "tickers": [
+     "INTC",
+     "AMD",
+     "QCOM",
+     "ARM",
+     "SNDK"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/after-the-ai-selloff-wall-street-pays-the-least-for-the-fastest-growth/",
+    "date": "2026-10-31",
+    "title": "After the AI Selloff, Wall Street Pays the Least for the Fastest Growth",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "PLTR",
+     "SNDK",
+     "INTC",
+     "ARM",
+     "AVGO",
+     "MU",
+     "AMD",
+     "VRT",
+     "CRWV"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/3-chip-stocks-wed-skip-and-1-we-like-after-fridays-rout/",
+    "date": "2026-10-31",
+    "title": "3 Chip Stocks We'd Skip and 1 We Like After Friday's Rout",
+    "type": "list",
+    "tickers": [
+     "MU",
+     "INTC",
+     "QCOM",
+     "ARM"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}
