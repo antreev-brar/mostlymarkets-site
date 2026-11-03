@@ -1,0 +1,122 @@
+{
+ "id": "movers-2026-11-02",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-03T09:01:07-05:00",
+ "expires": "2026-11-03T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Monday 02 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-03T09:00:08-05:00",
+ "pack": {
+  "session": "2026-11-02",
+  "moves": [
+   {
+    "ticker": "IDXX",
+    "name": "Idexx Laboratories",
+    "close": 671.64,
+    "change_pct": 21.85,
+    "our_stories": [
+     "/news/2026-11-02/idexx-idxx-beats-q3-estimates-and-raises-its-2026-outlook/"
+    ]
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "close": 684.4,
+    "change_pct": -18.59,
+    "our_stories": [
+     "/daily/2026-11-03/",
+     "/news/2026-11-02/marvell-mrvl-agrees-to-buy-lumentum-lite-for-115-billion-in-stock/",
+     "/news/2026-11-02/lumentum-lite-and-marvell-mrvl-shares-slide-on-the-day-their-deal-is-signed/"
+    ]
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "close": 171.41,
+    "change_pct": -12.72,
+    "our_stories": [
+     "/daily/2026-11-03/",
+     "/news/2026-11-02/marvell-mrvl-agrees-to-buy-lumentum-lite-for-115-billion-in-stock/",
+     "/news/2026-11-02/lumentum-lite-and-marvell-mrvl-shares-slide-on-the-day-their-deal-is-signed/"
+    ]
+   },
+   {
+    "ticker": "CIEN",
+    "name": "Ciena",
+    "close": 284.34,
+    "change_pct": -11.34,
+    "our_stories": []
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "close": 36.33,
+    "change_pct": -11.33,
+    "our_stories": []
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 229.67,
+    "change_pct": -11.22,
+    "our_stories": [
+     "/news/2026-11-02/3-fast-grower-stocks-we-like-and-1-wed-skip/"
+    ]
+   },
+   {
+    "ticker": "P",
+    "name": "Everpure",
+    "close": 113.78,
+    "change_pct": -10.4,
+    "our_stories": []
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "close": 59.97,
+    "change_pct": -8.8,
+    "our_stories": [
+     "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+     "/news/2026-11-02/amd-amd-has-signed-up-openai-and-meta-is-the-business-worth-the-price/"
+    ]
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "close": 119.22,
+    "change_pct": -8.76,
+    "our_stories": [
+     "/news/2026-11-03/oracle-orcl-sells-its-new-shares-at-116-raising-the-full-20-billion/",
+     "/daily/2026-11-03/",
+     "/news/2026-11-02/oracle-orcl-shares-slide-after-it-files-to-raise-20-billion-in-stock-and-bonds/"
+    ]
+   },
+   {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "close": 78.48,
+    "change_pct": 8.67,
+    "our_stories": []
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "close": 50.15,
+    "change_pct": -8.6,
+    "our_stories": []
+   },
+   {
+    "ticker": "RIVN",
+    "name": "Rivian",
+    "close": 13.19,
+    "change_pct": 8.47,
+    "our_stories": [
+     "/news/2026-11-02/rivian-rivn-shares-jump-after-ubs-upgrades-the-stock-to-buy-on-its-r2-ramp/"
+    ]
+   }
+  ]
+ }
+}
