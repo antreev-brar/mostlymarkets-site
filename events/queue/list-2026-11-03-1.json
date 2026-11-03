@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-03-1",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-03T07:30:13-05:00",
+ "expires": "2026-11-03T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "2 Cash Machine Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Cash Machine, screened on free-cash-flow margin over the last 12 months. Pick 2 to like and 1 to skip from pack.candidates (picks block: like: A, B / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-03T07:30:09-05:00",
+ "pack": {
+  "theme": "cash-machines",
+  "screen": "free-cash-flow margin over the last 12 months",
+  "like": 2,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "CME",
+    "name": "CME Group",
+    "industry": "Financial Exchanges & Data",
+    "metric": 62.1,
+    "price": 306.24,
+    "pe": 25.03,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6972300000,
+     "revenue_growth_yoy_pct": 9.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 65.7,
+     "net_margin_pct": 63.3,
+     "eps_diluted": 12.19,
+     "ocf": 4426800000,
+     "fcf": 4333100000,
+     "fcf_margin_pct": 62.1
+    }
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 59.9,
+    "price": 1075.08,
+    "pe": 8.56,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 28971000000,
+     "revenue_growth_yoy_pct": 272.4,
+     "gross_margin_pct": 80.0,
+     "operating_margin_pct": 72.5,
+     "net_margin_pct": 67.0,
+     "eps_diluted": 124.47,
+     "ocf": 17546000000,
+     "fcf": 17365000000,
+     "fcf_margin_pct": 59.9
+    }
+   },
+   {
+    "ticker": "VRSN",
+    "name": "Verisign",
+    "industry": "Internet Services & Infrastructure",
+    "metric": 59.1,
+    "price": 308.4,
+    "pe": 33.22,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1731800000,
+     "revenue_growth_yoy_pct": 6.5,
+     "gross_margin_pct": 88.6,
+     "operating_margin_pct": 67.6,
+     "net_margin_pct": 49.1,
+     "eps_diluted": 9.29,
+     "ocf": 1061900000,
+     "fcf": 1023800000,
+     "fcf_margin_pct": 59.1
+    }
+   },
+   {
+    "ticker": "CCI",
+    "name": "Crown Castle",
+    "industry": "Telecom Tower REITs",
+    "metric": 57.8,
+    "price": 87.03,
+    "pe": 35.01,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 4161000000,
+     "revenue_growth_yoy_pct": -4.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 47.7,
+     "net_margin_pct": 20.7,
+     "eps_diluted": 1.97,
+     "ocf": 2624000000,
+     "fcf": 2406000000,
+     "fcf_margin_pct": 57.8
+    }
+   },
+   {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies",
+    "industry": "Application Software",
+    "metric": 54.6,
+    "price": 178.34,
+    "pe": 151.97,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 6155941000,
+     "revenue_growth_yoy_pct": 78.9,
+     "gross_margin_pct": 84.8,
+     "operating_margin_pct": 42.8,
+     "net_margin_pct": 49.0,
+     "eps_diluted": 1.17,
+     "ocf": 3400291000,
+     "fcf": 3358272000,
+     "fcf_margin_pct": 54.6
+    }
+   },
+   {
+    "ticker": "V",
+    "name": "Visa",
+    "industry": "Transaction & Payment Processing Services",
+    "metric": 49.2,
+    "price": 425.51,
+    "pe": 34.51,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 43027000000,
+     "revenue_growth_yoy_pct": 14.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 61.1,
+     "net_margin_pct": 51.7,
+     "eps_diluted": null,
+     "ocf": 22756000000,
+     "fcf": 21185000000,
+     "fcf_margin_pct": 49.2
+    }
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "industry": "Communications Equipment",
+    "metric": 48.9,
+    "price": 164.14,
+    "pe": 51.76,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 10540800000,
+     "revenue_growth_yoy_pct": 32.6,
+     "gross_margin_pct": 63.0,
+     "operating_margin_pct": 43.1,
+     "net_margin_pct": 38.4,
+     "eps_diluted": 3.17,
+     "ocf": 5306600000,
+     "fcf": 5155300000,
+     "fcf_margin_pct": 48.9
+    }
+   },
+   {
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets",
+    "industry": "Financial Exchanges & Data",
+    "metric": 47.9,
+    "price": 349.22,
+    "pe": 179.06,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5278400000,
+     "revenue_growth_yoy_pct": 14.3,
+     "gross_margin_pct": 53.9,
+     "operating_margin_pct": 36.4,
+     "net_margin_pct": 28.0,
+     "eps_diluted": 14.05,
+     "ocf": 2626000000,
+     "fcf": 2529600000,
+     "fcf_margin_pct": 47.9
+    }
+   },
+   {
+    "ticker": "COF",
+    "name": "Capital One",
+    "industry": "Consumer Finance",
+    "metric": 47.9,
+    "price": 210.77,
+    "pe": 12.9,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 62023000000,
+     "revenue_growth_yoy_pct": 45.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 17.0,
+     "eps_diluted": 16.14,
+     "ocf": 31452000000,
+     "fcf": 29701000000,
+     "fcf_margin_pct": 47.9
+    }
+   },
+   {
+    "ticker": "SPG",
+    "name": "Simon Property Group",
+    "industry": "Retail REITs",
+    "metric": 46.4,
+    "price": 221.73,
+    "pe": 15.65,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 6940725000,
+     "revenue_growth_yoy_pct": 15.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 47.4,
+     "net_margin_pct": 77.6,
+     "eps_diluted": 14.18,
+     "ocf": 4122942000,
+     "fcf": 3217536000,
+     "fcf_margin_pct": 46.4
+    }
+   },
+   {
+    "ticker": "MSCI",
+    "name": "MSCI",
+    "industry": "Financial Exchanges & Data",
+    "metric": 45.9,
+    "price": 637.21,
+    "pe": 33.73,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3432359000,
+     "revenue_growth_yoy_pct": 12.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 55.7,
+     "net_margin_pct": 40.3,
+     "eps_diluted": 18.89,
+     "ocf": 1614846000,
+     "fcf": 1575227000,
+     "fcf_margin_pct": 45.9
+    }
+   },
+   {
+    "ticker": "EXR",
+    "name": "Extra Space Storage",
+    "industry": "Self-Storage REITs",
+    "metric": 44.7,
+    "price": 155.98,
+    "pe": 31.72,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3477438000,
+     "revenue_growth_yoy_pct": 4.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 43.8,
+     "net_margin_pct": 29.9,
+     "eps_diluted": 4.98,
+     "ocf": 1911190000,
+     "fcf": 1553855000,
+     "fcf_margin_pct": 44.7
+    }
+   },
+   {
+    "ticker": "C",
+    "name": "Citigroup",
+    "industry": "Diversified Banks",
+    "metric": -87.0,
+    "price": 123.1,
+    "pe": 12.0,
+    "ttm": {
+     "end": "2025-12-31",
+     "revenue": 85225000000,
+     "revenue_growth_yoy_pct": 5.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 16.8,
+     "eps_diluted": 6.97,
+     "ocf": -67632000000,
+     "fcf": -74152000000,
+     "fcf_margin_pct": -87.0
+    }
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "industry": "Diversified Metals & Mining",
+    "metric": -165.2,
+    "price": 38.35,
+    "pe": -111.42,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 305377000,
+     "revenue_growth_yoy_pct": 26.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -41.5,
+     "net_margin_pct": -19.9,
+     "eps_diluted": -0.34,
+     "ocf": -83963000,
+     "fcf": -504576000,
+     "fcf_margin_pct": -165.2
+    }
+   },
+   {
+    "ticker": "SOFI",
+    "name": "SoFi Technologies",
+    "industry": "Consumer Finance",
+    "metric": -204.2,
+    "price": 16.6,
+    "pe": 30.53,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 4305695000,
+     "revenue_growth_yoy_pct": 40.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 14.8,
+     "eps_diluted": 0.48,
+     "ocf": -8502490000,
+     "fcf": -8792989000,
+     "fcf_margin_pct": -204.2
+    }
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "industry": "Alternative Carriers",
+    "metric": -1420.7,
+    "price": 36.33,
+    "pe": -16.96,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 115299000,
+     "revenue_growth_yoy_pct": 706.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -536.7,
+     "eps_diluted": -2.14,
+     "ocf": -144705000,
+     "fcf": -1638039000,
+     "fcf_margin_pct": -1420.7
+    }
+   }
+  ]
+ }
+}
