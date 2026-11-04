@@ -193,6 +193,13 @@
 "theme": "profitable-small-caps",
 "tickers": []
 },
+"list-2026-11-04-4": {
+"created": "2026-11-04T16:30:13-05:00",
+"day": "2026-11-04",
+"kind": "list",
+"theme": "under-50",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1060,6 +1067,14 @@
 "ADM"
 ]
 },
+"recap-AFL-2026-11-04": {
+"created": "2026-11-04T16:30:13-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"AFL"
+]
+},
 "recap-AIG-2026-11-03": {
 "created": "2026-11-03T16:30:23-05:00",
 "day": "2026-11-03",
@@ -1079,6 +1094,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "ALAB"
+]
+},
+"recap-ALL-2026-11-04": {
+"created": "2026-11-04T16:30:13-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"ALL"
 ]
 },
 "recap-AMD-2026-11-03": {
@@ -1300,6 +1323,14 @@
 "ETR"
 ]
 },
+"recap-EW-2026-11-04": {
+"created": "2026-11-04T16:30:13-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"EW"
+]
+},
 "recap-EXC-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
@@ -1512,6 +1543,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "MELI"
+]
+},
+"recap-MET-2026-11-04": {
+"created": "2026-11-04T16:30:13-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"MET"
 ]
 },
 "recap-MLM-2026-11-04": {

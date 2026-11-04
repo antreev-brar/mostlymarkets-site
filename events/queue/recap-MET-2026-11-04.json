@@ -1,0 +1,90 @@
+{
+ "id": "recap-MET-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-04T16:30:13-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "MET"
+ ],
+ "headline_hint": "MetLife (MET) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T16:30:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "MET",
+   "name": "MetLife, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.71,
+   "n_estimates": 8,
+   "eps_last_year": 2.34,
+   "last_year_date": "11/05/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 63973462000.0
+  },
+  "quote": {
+   "price": 102.89,
+   "change_pct": 2.21,
+   "prev_close": 100.67,
+   "time": "2026-11-04T16:10:00.000-0500",
+   "mktcap": "65.384B",
+   "pe": 19.69,
+   "fpe": 9.56,
+   "yr_high": 103.65,
+   "yr_low": 67.33,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 104.92,
+    "change_pct": 1.97,
+    "time": "2026-11-04T16:18:50.632-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MET",
+   "name": "MetLife",
+   "date": "2026-11-04",
+   "close": 102.89,
+   "prev_close": 100.67,
+   "change_pct": 2.21,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 28,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-08",
+    "change_pct": 2.81
+   },
+   "ytd_pct": 30.34,
+   "return_1m_pct": 5.9,
+   "return_6m_pct": 28.36,
+   "return_1y_pct": 29.9,
+   "high_52w": {
+    "close": 103.57,
+    "date": "2026-10-22"
+   },
+   "low_52w": {
+    "close": 67.7,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 0.66,
+   "thousand_dollars_5y_ago_now": 1610,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 5132862,
+   "volume_vs_20d_avg": 1.7,
+   "sentences": [
+    "MetLife's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 8 October 2026, when the stock rose 2.8%.",
+    "The stock is up 30.3% this year, and at $102.89 it sits 0.7% below its 52-week closing high of $103.57 from 22 October 2026.",
+    "$1,000 invested in MetLife five years ago would be worth $1,610 today."
+   ]
+  },
+  "sector": "Financials",
+  "industry": "Life & Health Insurance",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000058/0001099219-26-000058-index.htm",
+  "release_text": "events/packs/recap-MET-2026-11-04.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000058/ex991earningsreleasetables.htm"
+ }
+}

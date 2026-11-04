@@ -1,0 +1,90 @@
+{
+ "id": "recap-EW-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-04T16:30:13-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "EW"
+ ],
+ "headline_hint": "Edwards Lifesciences (EW) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T16:30:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "EW",
+   "name": "Edwards Lifesciences Corporation",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.73,
+   "n_estimates": 9,
+   "eps_last_year": 0.67,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 54867517000.0
+  },
+  "quote": {
+   "price": 99.37,
+   "change_pct": 4.39,
+   "prev_close": 95.19,
+   "time": "2026-11-04T16:10:00.000-0500",
+   "mktcap": "57.277B",
+   "pe": 58.96,
+   "fpe": 31.64,
+   "yr_high": 100.25,
+   "yr_low": 74.66,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 104.0,
+    "change_pct": 4.66,
+    "time": "2026-11-04T16:29:21.718-0500"
+   }
+  },
+  "facts": {
+   "ticker": "EW",
+   "name": "Edwards Lifesciences",
+   "date": "2026-11-04",
+   "close": 99.37,
+   "prev_close": 95.19,
+   "change_pct": 4.39,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-04-24",
+    "change_pct": 5.56
+   },
+   "ytd_pct": 16.56,
+   "return_1m_pct": 14.91,
+   "return_6m_pct": 19.44,
+   "return_1y_pct": 19.62,
+   "high_52w": {
+    "close": 99.37,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 75.87,
+    "date": "2026-02-13"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 847,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 7506353,
+   "volume_vs_20d_avg": 1.76,
+   "sentences": [
+    "Edwards Lifesciences's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 24 April 2026, when the stock rose 5.6%.",
+    "The stock is up 16.6% this year, and at $99.37 it sits 0.0% below its 52-week closing high of $99.37 from 4 November 2026.",
+    "$1,000 invested in Edwards Lifesciences five years ago would be worth $847 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Health Care Equipment",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000053/0001099800-26-000053-index.htm",
+  "release_text": "events/packs/recap-EW-2026-11-04.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000053/ex-991q32026.htm"
+ }
+}
