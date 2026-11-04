@@ -1163,6 +1163,14 @@
 "APP"
 ]
 },
+"recap-ARM-2026-11-04": {
+"created": "2026-11-04T17:01:45-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"ARM"
+]
+},
 "recap-AZN-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
@@ -1769,6 +1777,14 @@
 "UBER"
 ]
 },
+"recap-VMRK-2026-11-04": {
+"created": "2026-11-04T17:01:45-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"VMRK"
+]
+},
 "recap-VRTX-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
 "day": "2026-11-02",
@@ -1820,6 +1836,19 @@
 "kind": "earnings-recap",
 "tickers": [
 "ZBH"
+]
+},
+"roundup-2026-11-04-amc": {
+"created": "2026-11-04T17:01:45-05:00",
+"day": "2026-11-04",
+"kind": "earnings-roundup",
+"tickers": [
+"ATO",
+"CPAY",
+"ES",
+"STE",
+"AMCR",
+"PTC"
 ]
 },
 "viewpoints-2026-11-01": {
