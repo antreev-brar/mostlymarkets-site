@@ -926,6 +926,14 @@
 "BKNG"
 ]
 },
+"preview-COP-2026-11-05": {
+"created": "2026-11-04T17:30:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-preview",
+"tickers": [
+"COP"
+]
+},
 "preview-ETN-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -986,6 +994,14 @@
 "PFE"
 ]
 },
+"preview-PH-2026-11-05": {
+"created": "2026-11-04T17:30:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-preview",
+"tickers": [
+"PH"
+]
+},
 "preview-PLTR-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
@@ -1004,6 +1020,22 @@
 "day": "2026-11-02",
 "kind": "earnings-preview",
 "outcome": "already-written"
+},
+"preview-SO-2026-11-05": {
+"created": "2026-11-04T17:30:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-preview",
+"tickers": [
+"SO"
+]
+},
+"preview-SONY-2026-11-05": {
+"created": "2026-11-04T17:30:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-preview",
+"tickers": [
+"SONY"
+]
 },
 "preview-TM-2026-11-04": {
 "created": "2026-11-03T17:30:15-05:00",
@@ -1044,6 +1076,21 @@
 "MELI",
 "APP",
 "MSI"
+]
+},
+"previews-2026-11-05": {
+"created": "2026-11-04T17:30:14-05:00",
+"day": "2026-11-04",
+"kind": "preview-roundup",
+"tickers": [
+"ABNB",
+"DUK",
+"MNST",
+"NET",
+"CI",
+"EOG",
+"SPG",
+"APD"
 ]
 },
 "recap-AAPL-2026-11-02": {

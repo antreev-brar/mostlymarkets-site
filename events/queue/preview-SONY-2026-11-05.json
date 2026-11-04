@@ -1,0 +1,87 @@
+{
+ "id": "preview-SONY-2026-11-05",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-04T17:30:14-05:00",
+ "expires": "2026-11-05T09:00:00-05:00",
+ "tickers": [
+  "SONY"
+ ],
+ "headline_hint": "What to expect from Sony Group's (SONY) earnings",
+ "instructions": "Reports Thursday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-04T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "SONY",
+   "name": "Sony Group Corporation",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.38,
+   "n_estimates": 1,
+   "eps_last_year": 0.35,
+   "last_year_date": "11/11/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 149700772000.0
+  },
+  "report_date": "2026-11-05",
+  "quote": {
+   "price": 25.95,
+   "change_pct": 2.21,
+   "prev_close": 25.39,
+   "time": "2026-11-04T16:10:00.000-0500",
+   "mktcap": "154.80B",
+   "pe": 22.59,
+   "fpe": 19.96,
+   "yr_high": 30.34,
+   "yr_low": 19.32,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 26.0,
+    "change_pct": 0.19,
+    "time": "2026-11-04T16:32:57.530-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SONY",
+   "name": "Sony Group",
+   "date": "2026-11-04",
+   "close": 25.95,
+   "prev_close": 25.39,
+   "change_pct": 2.21,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 53,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 4.38
+   },
+   "ytd_pct": 1.37,
+   "return_1m_pct": 8.81,
+   "return_6m_pct": 25.18,
+   "return_1y_pct": -7.16,
+   "high_52w": {
+    "close": 30.26,
+    "date": "2025-11-12"
+   },
+   "low_52w": {
+    "close": 19.32,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 14.24,
+   "thousand_dollars_5y_ago_now": 1085,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 7020646,
+   "volume_vs_20d_avg": 1.7,
+   "sentences": [
+    "Sony Group's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 4.4%.",
+    "The stock is up 1.4% this year, and at $25.95 it sits 14.2% below its 52-week closing high of $30.26 from 12 November 2025.",
+    "$1,000 invested in Sony Group five years ago would be worth $1,085 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

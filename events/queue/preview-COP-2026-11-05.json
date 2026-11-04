@@ -1,0 +1,158 @@
+{
+ "id": "preview-COP-2026-11-05",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-04T17:30:14-05:00",
+ "expires": "2026-11-05T09:00:00-05:00",
+ "tickers": [
+  "COP"
+ ],
+ "headline_hint": "What to expect from ConocoPhillips's (COP) earnings",
+ "instructions": "Reports Thursday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-04T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "COP",
+   "name": "ConocoPhillips",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.06,
+   "n_estimates": 8,
+   "eps_last_year": 1.61,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 173473137000.0
+  },
+  "report_date": "2026-11-05",
+  "quote": {
+   "price": 136.94,
+   "change_pct": -5.17,
+   "prev_close": 144.4,
+   "time": "2026-11-04T16:10:00.000-0500",
+   "mktcap": "164.511B",
+   "pe": 18.94,
+   "fpe": 11.89,
+   "yr_high": 154.28,
+   "yr_low": 85.57,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 135.87,
+    "change_pct": -0.78,
+    "time": "2026-11-04T17:04:08.433-0500"
+   }
+  },
+  "facts": {
+   "ticker": "COP",
+   "name": "ConocoPhillips",
+   "date": "2026-11-04",
+   "close": 136.94,
+   "prev_close": 144.4,
+   "change_pct": -5.17,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-16",
+    "change_pct": -6.15
+   },
+   "ytd_pct": 46.29,
+   "return_1m_pct": 5.87,
+   "return_6m_pct": 15.17,
+   "return_1y_pct": 54.61,
+   "high_52w": {
+    "close": 154.03,
+    "date": "2026-10-30"
+   },
+   "low_52w": {
+    "close": 85.66,
+    "date": "2025-11-06"
+   },
+   "pct_below_52w_high": 11.1,
+   "thousand_dollars_5y_ago_now": 1868,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 10879423,
+   "volume_vs_20d_avg": 1.77,
+   "sentences": [
+    "ConocoPhillips's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 September 2026, when the stock fell 6.2%.",
+    "The stock is up 46.3% this year, and at $136.94 it sits 11.1% below its 52-week closing high of $154.03 from 30 October 2026.",
+    "$1,000 invested in ConocoPhillips five years ago would be worth $1,868 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-02/",
+    "date": "2026-11-02",
+    "title": "Oil Fell Below $100 Over the Weekend as Apple and Palantir Open the Week's Tests",
+    "type": "daily",
+    "tickers": [
+     "AAPL",
+     "PLTR",
+     "META",
+     "XOM",
+     "COP",
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/diamondback-energy-fang-beats-q3-estimates-and-raises-its-dividend-7-3/",
+    "date": "2026-11-02",
+    "title": "Diamondback Energy (FANG) Beats Q3 Estimates and Raises Its Dividend 7.3%",
+    "type": "earnings-recap",
+    "tickers": [
+     "FANG",
+     "COP",
+     "OXY"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "date": "2026-10-31",
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "type": "analysis",
+    "tickers": [
+     "AAPL",
+     "AMD",
+     "ARM",
+     "QCOM",
+     "PLTR",
+     "SHOP",
+     "UBER",
+     "COP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-story-wall-street-is-telling-about-100-oil-and-the-fed/",
+    "date": "2026-10-31",
+    "title": "The Story Wall Street Is Telling About $100 Oil and the Fed",
+    "type": "narrative",
+    "tickers": [
+     "XOM",
+     "CVX",
+     "MPC",
+     "VLO",
+     "COP",
+     "OXY",
+     "UAL",
+     "DAL",
+     "LUV"
+    ]
+   }
+  ],
+  "last_recap": [
+   {
+    "path": "/news/2026-11-02/diamondback-energy-fang-beats-q3-estimates-and-raises-its-dividend-7-3/",
+    "date": "2026-11-02",
+    "title": "Diamondback Energy (FANG) Beats Q3 Estimates and Raises Its Dividend 7.3%",
+    "type": "earnings-recap",
+    "tickers": [
+     "FANG",
+     "COP",
+     "OXY"
+    ]
+   }
+  ]
+ }
+}

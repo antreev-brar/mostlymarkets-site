@@ -1,0 +1,87 @@
+{
+ "id": "preview-SO-2026-11-05",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-04T17:30:14-05:00",
+ "expires": "2026-11-05T09:00:00-05:00",
+ "tickers": [
+  "SO"
+ ],
+ "headline_hint": "What to expect from Southern's (SO) earnings",
+ "instructions": "Reports Thursday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-04T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "SO",
+   "name": "Southern Company (The)",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.71,
+   "n_estimates": 6,
+   "eps_last_year": 1.6,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 107846525000.0
+  },
+  "report_date": "2026-11-05",
+  "quote": {
+   "price": 93.12,
+   "change_pct": -0.67,
+   "prev_close": 93.75,
+   "time": "2026-11-04T16:10:00.000-0500",
+   "mktcap": "107.122B",
+   "pe": 22.46,
+   "fpe": 19.97,
+   "yr_high": 99.58,
+   "yr_low": 81.69,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 91.62,
+    "change_pct": -1.61,
+    "time": "2026-11-04T17:25:48.008-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SO",
+   "name": "Southern",
+   "date": "2026-11-04",
+   "close": 93.12,
+   "prev_close": 93.75,
+   "change_pct": -0.67,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 129,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": -0.91
+   },
+   "ytd_pct": 6.79,
+   "return_1m_pct": 8.99,
+   "return_6m_pct": -0.42,
+   "return_1y_pct": -0.03,
+   "high_52w": {
+    "close": 99.11,
+    "date": "2026-03-16"
+   },
+   "low_52w": {
+    "close": 82.35,
+    "date": "2026-09-28"
+   },
+   "pct_below_52w_high": 6.04,
+   "thousand_dollars_5y_ago_now": 1490,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 18261571,
+   "volume_vs_20d_avg": 3.24,
+   "sentences": [
+    "Southern's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock fell 0.9%.",
+    "The stock is up 6.8% this year, and at $93.12 it sits 6.0% below its 52-week closing high of $99.11 from 16 March 2026.",
+    "$1,000 invested in Southern five years ago would be worth $1,490 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}
