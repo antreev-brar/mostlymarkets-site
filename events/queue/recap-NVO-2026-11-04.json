@@ -1,0 +1,123 @@
+{
+ "id": "recap-NVO-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-04T08:01:14-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "NVO"
+ ],
+ "headline_hint": "Novo Nordisk (NVO) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T08:00:14-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "NVO",
+   "name": "Novo Nordisk A/S",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.81,
+   "n_estimates": 4,
+   "eps_last_year": 1.02,
+   "last_year_date": "11/05/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 179109790000.0
+  },
+  "quote": {
+   "price": 40.19,
+   "change_pct": -0.64,
+   "prev_close": 40.19,
+   "time": "2026-11-03",
+   "mktcap": "136.249B",
+   "pe": 10.05,
+   "fpe": 12.32,
+   "yr_high": 64.16,
+   "yr_low": 35.12,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 42.85,
+    "change_pct": 6.62,
+    "time": "2026-11-04T08:00:06.907-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVO",
+   "name": "Novo Nordisk",
+   "date": "2026-11-03",
+   "close": 40.19,
+   "prev_close": 40.45,
+   "change_pct": -0.64,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 188,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": -0.98
+   },
+   "ytd_pct": -21.01,
+   "return_1m_pct": 7.06,
+   "return_6m_pct": -10.43,
+   "return_1y_pct": -18.74,
+   "high_52w": {
+    "close": 63.98,
+    "date": "2026-01-26"
+   },
+   "low_52w": {
+    "close": 35.29,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 37.18,
+   "thousand_dollars_5y_ago_now": 696,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 12216050,
+   "volume_vs_20d_avg": 1.18,
+   "sentences": [
+    "Novo Nordisk's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock fell 1.0%.",
+    "The stock is down 21.0% this year, and at $40.19 it sits 37.2% below its 52-week closing high of $63.98 from 26 January 2026.",
+    "$1,000 invested in Novo Nordisk five years ago would be worth $696 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Pharmaceuticals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-04/novo-nordisk-nvo-raises-its-2026-forecast-a-third-time-as-the-wegovy-pill-beats/",
+    "date": "2026-11-04",
+    "title": "Novo Nordisk (NVO) Raises Its 2026 Forecast a Third Time as the Wegovy Pill Beats",
+    "type": "brief",
+    "tickers": [
+     "NVO",
+     "LLY"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-04/",
+    "date": "2026-11-04",
+    "title": "Democrats Swept Congress, and the AI Trade Shook Off Its Overnight Scare",
+    "type": "daily",
+    "tickers": [
+     "AMD",
+     "ANET",
+     "SMCI",
+     "TSLA",
+     "NVO",
+     "SWKS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/amgen-amgn-beats-q3-estimates-and-raises-its-2026-forecast/",
+    "date": "2026-11-04",
+    "title": "Amgen (AMGN) Beats Q3 Estimates and Raises Its 2026 Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "AMGN",
+     "LLY",
+     "NVO"
+    ]
+   }
+  ]
+ }
+}

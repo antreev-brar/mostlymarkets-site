@@ -1210,6 +1210,14 @@
 "kind": "earnings-recap",
 "outcome": "already-written"
 },
+"recap-GWW-2026-11-04": {
+"created": "2026-11-04T08:01:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"GWW"
+]
+},
 "recap-HWM-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
@@ -1357,6 +1365,14 @@
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-NVO-2026-11-04": {
+"created": "2026-11-04T08:01:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"NVO"
+]
 },
 "recap-O-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
