@@ -1,0 +1,130 @@
+{
+ "id": "news-NVO-2026-11-04-novo-nordisk-s-wegovy-pill-beats-forecas",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-04T02:01:14-05:00",
+ "expires": "2026-11-04T12:01:14-05:00",
+ "tickers": [
+  "NVO"
+ ],
+ "headline_hint": "Novo Nordisk: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-04T02:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Novo Nordisk's Wegovy pill beats forecasts as it battles Lilly",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L0GI:0-novo-nordisk-s-wegovy-pill-beats-forecasts-as-it-battles-lilly/",
+    "published": "2026-11-04T01:53:14-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk: Wegovy Pill Expected to Be Available in Over 20 Markets in 2027",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001341_20261104001590:0-novo-nordisk-wegovy-pill-expected-to-be-available-in-over-20-markets-in-2027/",
+    "published": "2026-11-04T01:45:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk: Additional Launches of Wegovy Pill in Other Select Markets Planned During 4Q",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001341_20261104001564:0-novo-nordisk-additional-launches-of-wegovy-pill-in-other-select-markets-planned-during-4q/",
+    "published": "2026-11-04T01:44:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk: Total U.S. Wegovy Pill Prescriptions Reached 3.6M in 3Q, Now Over 8M Since Launch",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001341_20261104001553:0-novo-nordisk-total-u-s-wegovy-pill-prescriptions-reached-3-6m-in-3q-now-over-8m-since-launch/",
+    "published": "2026-11-04T01:43:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk Q3 adjusted profit, sales jump on GLP-1 demand; raises outlook",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L0A6:0-novo-nordisk-q3-adjusted-profit-sales-jump-on-glp-1-demand-raises-outlook/",
+    "published": "2026-11-04T01:39:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk: Ozempic Pill Was Launched in U.S. in May, With Encouraging Early Momentum",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001341_20261104001528:0-novo-nordisk-ozempic-pill-was-launched-in-u-s-in-may-with-encouraging-early-momentum/",
+    "published": "2026-11-04T01:39:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk: Analysts Had Seen Injectable Wegovy Sales at DKK19.68B, Ozempic Sales at DKK27.67B",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001341_20261104001512:0-novo-nordisk-analysts-had-seen-injectable-wegovy-sales-at-dkk19-68b-ozempic-sales-at-dkk27-67b/",
+    "published": "2026-11-04T01:38:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk: Advancing Pipeline and Preparing For U.S. Launch of CagriSema in Early 2027",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001341_20261104001497:0-novo-nordisk-advancing-pipeline-and-preparing-for-u-s-launch-of-cagrisema-in-early-2027/",
+    "published": "2026-11-04T01:36:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 40.19,
+   "change_pct": -0.64,
+   "prev_close": 40.19,
+   "time": "2026-11-03",
+   "mktcap": "136.249B",
+   "pe": 10.05,
+   "fpe": 12.32,
+   "yr_high": 64.16,
+   "yr_low": 35.12,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 40.13,
+    "change_pct": -0.15,
+    "time": "2026-11-03"
+   }
+  },
+  "facts": {
+   "ticker": "NVO",
+   "name": "Novo Nordisk",
+   "date": "2026-11-02",
+   "close": 40.45,
+   "prev_close": 40.0,
+   "change_pct": 1.12,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 149,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": 2.2
+   },
+   "ytd_pct": -20.5,
+   "return_1m_pct": 8.39,
+   "return_6m_pct": -8.88,
+   "return_1y_pct": -19.16,
+   "high_52w": {
+    "close": 63.98,
+    "date": "2026-01-26"
+   },
+   "low_52w": {
+    "close": 35.29,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 36.78,
+   "thousand_dollars_5y_ago_now": 735,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 11184320,
+   "volume_vs_20d_avg": 1.05,
+   "sentences": [
+    "Novo Nordisk's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock rose 2.2%.",
+    "The stock is down 20.5% this year, and at $40.45 it sits 36.8% below its 52-week closing high of $63.98 from 26 January 2026.",
+    "$1,000 invested in Novo Nordisk five years ago would be worth $735 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
