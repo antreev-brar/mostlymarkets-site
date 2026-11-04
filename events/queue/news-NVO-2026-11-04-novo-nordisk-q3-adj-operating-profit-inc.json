@@ -1,0 +1,132 @@
+{
+ "id": "news-NVO-2026-11-04-novo-nordisk-q3-adj-operating-profit-inc",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-04T03:01:07-05:00",
+ "expires": "2026-11-04T13:01:07-05:00",
+ "tickers": [
+  "NVO"
+ ],
+ "headline_hint": "Novo Nordisk: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-04T03:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Novo Nordisk CEO Was Speaking on Media Call After 3Q Earnings",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104002222:0-novo-nordisk-ceo-was-speaking-on-media-call-after-3q-earnings/",
+    "published": "2026-11-04T02:39:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk CEO: Continue to Look Across Therapy Areas For Innovation That Fits, Closes Any Product Gaps",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104002219:0-novo-nordisk-ceo-continue-to-look-across-therapy-areas-for-innovation-that-fits-closes-any-product-gaps/",
+    "published": "2026-11-04T02:38:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk CEO: Will Continue to Work Closely With U.S., Regardless of Who Sits in Congress, Senate",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104002217:0-novo-nordisk-ceo-will-continue-to-work-closely-with-u-s-regardless-of-who-sits-in-congress-senate/",
+    "published": "2026-11-04T02:38:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk CEO: Always Been Strong Bipartisan Support For What We Do in U.S",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104002216:0-novo-nordisk-ceo-always-been-strong-bipartisan-support-for-what-we-do-in-u-s/",
+    "published": "2026-11-04T02:37:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk Q3 Adj. Operating Profit Increases, Obesity Sales Up 22%; Raises 2026 Outlook",
+    "source": "dpa-AFX",
+    "url": "https://www.tradingview.com/news/dpa_afx:73790cd8c7838:0-novo-nordisk-q3-adj-operating-profit-increases-obesity-sales-up-22-raises-2026-outlook/",
+    "published": "2026-11-04T02:26:36-05:00",
+    "also": [
+     "Yahoo Finance"
+    ]
+   },
+   {
+    "title": "Novo Nordisk: Luigi La Corte is Currently CFO of Galderma",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104001971:0-novo-nordisk-luigi-la-corte-is-currently-cfo-of-galderma/",
+    "published": "2026-11-04T02:15:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk CEO: Haemophilia Drug Frehemgo and Obesity Drug CagriSema to Launch in 2027",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104001946:0-novo-nordisk-ceo-haemophilia-drug-frehemgo-and-obesity-drug-cagrisema-to-launch-in-2027/",
+    "published": "2026-11-04T02:12:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk CEO: Wegovy Pill Has Had Over 8M Cumulative Prescriptions Since Launch",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104001846_20261104001905:0-novo-nordisk-ceo-wegovy-pill-has-had-over-8m-cumulative-prescriptions-since-launch/",
+    "published": "2026-11-04T02:08:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 40.19,
+   "change_pct": -0.64,
+   "prev_close": 40.19,
+   "time": "2026-11-03",
+   "mktcap": "136.249B",
+   "pe": 10.05,
+   "fpe": 12.32,
+   "yr_high": 64.16,
+   "yr_low": 35.12,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 40.13,
+    "change_pct": -0.15,
+    "time": "2026-11-03"
+   }
+  },
+  "facts": {
+   "ticker": "NVO",
+   "name": "Novo Nordisk",
+   "date": "2026-11-02",
+   "close": 40.45,
+   "prev_close": 40.0,
+   "change_pct": 1.12,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 149,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": 2.2
+   },
+   "ytd_pct": -20.5,
+   "return_1m_pct": 8.39,
+   "return_6m_pct": -8.88,
+   "return_1y_pct": -19.16,
+   "high_52w": {
+    "close": 63.98,
+    "date": "2026-01-26"
+   },
+   "low_52w": {
+    "close": 35.29,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 36.78,
+   "thousand_dollars_5y_ago_now": 735,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 11184320,
+   "volume_vs_20d_avg": 1.05,
+   "sentences": [
+    "Novo Nordisk's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock rose 2.2%.",
+    "The stock is down 20.5% this year, and at $40.45 it sits 36.8% below its 52-week closing high of $63.98 from 26 January 2026.",
+    "$1,000 invested in Novo Nordisk five years ago would be worth $735 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
