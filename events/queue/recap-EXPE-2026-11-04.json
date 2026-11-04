@@ -1,0 +1,100 @@
+{
+ "id": "recap-EXPE-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-04T16:01:11-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "EXPE"
+ ],
+ "headline_hint": "Expedia Group (EXPE) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T16:00:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "EXPE",
+   "name": "Expedia Group, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 8.09,
+   "n_estimates": 8,
+   "eps_last_year": 7.03,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 32719491100.0
+  },
+  "quote": {
+   "price": 315.88,
+   "change_pct": 10.54,
+   "prev_close": 285.77,
+   "time": "2026-11-04T16:00:00.027-0500",
+   "mktcap": "37.912B",
+   "pe": 19.7,
+   "fpe": 13.77,
+   "yr_high": 342.0,
+   "yr_low": 185.34,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 294.84,
+    "change_pct": 3.17,
+    "time": "2026-11-04T09:14:36.517-0500"
+   }
+  },
+  "facts": {
+   "ticker": "EXPE",
+   "name": "Expedia Group",
+   "date": "2026-11-04",
+   "close": 315.88,
+   "prev_close": 285.77,
+   "change_pct": 10.54,
+   "moves_over_5pct_last_year": 25,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-03-05",
+    "change_pct": 13.44
+   },
+   "ytd_pct": 11.5,
+   "return_1m_pct": 21.46,
+   "return_6m_pct": 28.06,
+   "return_1y_pct": 46.51,
+   "high_52w": {
+    "close": 339.12,
+    "date": "2026-08-24"
+   },
+   "low_52w": {
+    "close": 188.51,
+    "date": "2026-02-23"
+   },
+   "pct_below_52w_high": 6.85,
+   "thousand_dollars_5y_ago_now": 2005,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 3584901,
+   "volume_vs_20d_avg": 2.4,
+   "sentences": [
+    "Expedia Group's shares moved 5% or more on 25 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 March 2026, when the stock rose 13.4%.",
+    "The stock is up 11.5% this year, and at $315.88 it sits 6.8% below its 52-week closing high of $339.12 from 24 August 2026.",
+    "$1,000 invested in Expedia Group five years ago would be worth $2,005 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Hotels, Resorts & Cruise Lines",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-04/booking-holdings-bkng-beats-q3-profit-estimates-but-guides-room-nights-to-just-1-3/",
+    "date": "2026-11-04",
+    "title": "Booking Holdings (BKNG) Beats Q3 Profit Estimates but Guides Room Nights to Just 1%-3%",
+    "type": "earnings-recap",
+    "tickers": [
+     "BKNG",
+     "EXPE",
+     "ABNB"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000059/0001324424-26-000059-index.htm"
+ }
+}
