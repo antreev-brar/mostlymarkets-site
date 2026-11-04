@@ -1,0 +1,108 @@
+{
+ "id": "news-AMD-2026-11-04-amd-s-openai-meta-chip-deals-trigger-1-b",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-04T00:01:51-05:00",
+ "expires": "2026-11-04T10:01:51-05:00",
+ "tickers": [
+  "AMD"
+ ],
+ "headline_hint": "AMD: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-04T00:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print \u2018On",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNFJxaUtmQWlxR1ZuVDdLRkJFVFBoWHk4VGJqbVFKN19wSEp5a3AtdGRsSU90bXRDanFmQXZkUWZlVXFpN2pseFYxTHdtWjFYbTJXWF9xT2dzRXBneWJUd1NJRkl1NnliUGkwanZuQTZRcXAwenlsQlpTQzVsNTFJa19lbTBDaS1mYkg3WHVnVmlxbGxack80?oc=5",
+    "published": "2026-11-03T22:16:16-05:00",
+    "also": []
+   },
+   {
+    "title": "AMD Stock: The Valuation Premium Is Hard To Justify",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU0xGbFZSbzAybzNkV21DN0Vsb25CZTFiUmd5WEhkbDVlSUVuRDRnWl9WMmoxZUJkMDRjeEFpa2lIMlZ1em81c1R3YmY1b2ZLcXZhWjJ2NGY4NmVnLTRRYzVsaVdMX3dIUkZBcjNRZFotaEc5NUphaFhXTzBNR2h6eEJHWFdQYnZ5QWJrUWRXSS1Pb2IzT2xCNkhSYno1X3c?oc=5",
+    "published": "2026-11-03T21:31:02-05:00",
+    "also": []
+   },
+   {
+    "title": "AMD's OpenAI, Meta chip deals trigger $1 billion quarterly charge",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L004:0-amd-s-openai-meta-chip-deals-trigger-1-billion-quarterly-charge/",
+    "published": "2026-11-03T21:10:34-05:00",
+    "also": [
+     "Investing.com"
+    ]
+   },
+   {
+    "title": "AMD, SMCI, ANET, ALAB, NVDA: 5 Trending Stocks Today",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVjFNZFJxSEdicnlHVmdyZDAzZ0ZqVG84aFNmVFlTY2QwOWt6RlJEaVJjYkRWTjZncURRQWtLbm9VTDROXzZNUFVlM0tEcWZpMHBOTVlvTEx2T1hzNHAzZnNNcVM1OHdlVlRWMnZ1eWYzXzUzY2YyaFExa1lwVlVLREhNai1KbzVPN2hnX0ZBWldEU3JxaFh3NDlvX3lSSkhRNmdDenotRVVWRVA1azZaNFFYRldJM2stanRXV2pseGotS1UybHZsbHdVS3NBNENTRFdWX3NkRF9ja1Z0QmpJZ19BeGxCaFN6MHZSNnBvRnEydld6azY4TzNRS1dIdw?oc=5",
+    "published": "2026-11-03T20:03:53-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 483.9,
+   "change_pct": 3.65,
+   "prev_close": 483.9,
+   "time": "2026-11-03",
+   "mktcap": "789.955B",
+   "pe": 123.5,
+   "fpe": 42.83,
+   "yr_high": 658.52,
+   "yr_low": 188.22,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 508.2,
+    "change_pct": 5.02,
+    "time": "2026-11-03"
+   }
+  },
+  "facts": {
+   "ticker": "AMD",
+   "name": "AMD",
+   "date": "2026-11-02",
+   "close": 466.84,
+   "prev_close": 504.8,
+   "change_pct": -7.52,
+   "moves_over_5pct_last_year": 55,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 22,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -10.88
+   },
+   "ytd_pct": 117.99,
+   "return_1m_pct": -26.36,
+   "return_6m_pct": 36.69,
+   "return_1y_pct": 83.19,
+   "high_52w": {
+    "close": 649.42,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 190.95,
+    "date": "2026-03-03"
+   },
+   "pct_below_52w_high": 28.11,
+   "thousand_dollars_5y_ago_now": 3658,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 32141000,
+   "volume_vs_20d_avg": 1.57,
+   "sentences": [
+    "AMD's shares moved 5% or more on 55 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 10.9%.",
+    "The stock is up 118.0% this year, and at $466.84 it sits 28.1% below its 52-week closing high of $649.42 from 6 October 2026.",
+    "$1,000 invested in AMD five years ago would be worth $3,658 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/",
+   "/news/2026-11-03/arista-networks-anet-beats-q3-estimates-as-sales-grow-58-5/",
+   "/news/2026-11-03/amd-amd-beats-q3-estimates-and-guides-q4-sales-to-17-billion/"
+  ]
+ }
+}

@@ -431,6 +431,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-AMD-2026-11-04-amd-s-openai-meta-chip-deals-trigger-1-b": {
+"created": "2026-11-04T00:01:51-05:00",
+"day": "2026-11-04",
+"kind": "news",
+"tickers": [
+"AMD"
+]
+},
 "news-ARM-2026-11-03-arm-is-up-88-in-2026-and-down-55-from-it": {
 "created": "2026-11-03T02:01:03-05:00",
 "day": "2026-11-03",
@@ -556,6 +564,14 @@
 "kind": "news",
 "tickers": [
 "ORCL"
+]
+},
+"news-PANW-2026-11-04-binance-hack-puts-palo-alto-networks-sto": {
+"created": "2026-11-04T00:01:51-05:00",
+"day": "2026-11-04",
+"kind": "news",
+"tickers": [
+"PANW"
 ]
 },
 "news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc": {
