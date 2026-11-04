@@ -1,0 +1,138 @@
+{
+ "id": "move-AAPL-2026-11-04",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 74,
+ "created": "2026-11-04T10:01:17-05:00",
+ "expires": "2026-11-05T12:00:00-05:00",
+ "tickers": [
+  "AAPL"
+ ],
+ "headline_hint": "Why Apple (AAPL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-04T10:00:18-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 351.66,
+   "change_pct": 5.95,
+   "prev_close": 331.9,
+   "time": "2026-11-04T10:00:02.048-0500",
+   "mktcap": "5.11T",
+   "pe": 39.18,
+   "fpe": 38.72,
+   "yr_high": 351.75,
+   "yr_low": 243.42,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 341.58,
+    "change_pct": 2.92,
+    "time": "2026-11-04T09:30:00.010-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "date": "2026-11-03",
+   "close": 331.9,
+   "prev_close": 338.32,
+   "change_pct": -1.9,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 40,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-29",
+    "change_pct": -2.66
+   },
+   "ytd_pct": 22.08,
+   "return_1m_pct": -0.3,
+   "return_6m_pct": 16.79,
+   "return_1y_pct": 22.76,
+   "high_52w": {
+    "close": 348.91,
+    "date": "2026-10-29"
+   },
+   "low_52w": {
+    "close": 246.63,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 4.88,
+   "thousand_dollars_5y_ago_now": 2191,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 63160030,
+   "volume_vs_20d_avg": 1.51,
+   "sentences": [
+    "Apple's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 September 2026, when the stock fell 2.7%.",
+    "The stock is up 22.1% this year, and at $331.90 it sits 4.9% below its 52-week closing high of $348.91 from 29 October 2026.",
+    "$1,000 invested in Apple five years ago would be worth $2,191 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+    "date": "2026-11-03",
+    "title": "Memory's Boom Has Become the Device Makers' Bill: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "AAPL",
+     "HPQ",
+     "DELL",
+     "QCOM",
+     "MU",
+     "SNDK",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-03/",
+    "date": "2026-11-03",
+    "title": "Apple and Palantir Beat Estimates and Are Falling Anyway on Election Day",
+    "type": "daily",
+    "tickers": [
+     "AAPL",
+     "PLTR",
+     "ORCL",
+     "NVDA",
+     "LITE",
+     "MRVL",
+     "UAL"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-02/",
+    "date": "2026-11-02",
+    "title": "Oil Fell Below $100 Over the Weekend as Apple and Palantir Open the Week's Tests",
+    "type": "daily",
+    "tickers": [
+     "AAPL",
+     "PLTR",
+     "META",
+     "XOM",
+     "COP",
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/apple-aapl-tops-q4-estimates-with-114-5-billion-of-revenue-in-ternuss-first-report/",
+    "date": "2026-11-02",
+    "title": "Apple (AAPL) Tops Q4 Estimates With $114.5 Billion of Revenue in Ternus's First Report",
+    "type": "brief",
+    "tickers": [
+     "AAPL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/apple-aapl-beats-q4-estimates-but-memory-costs-squeeze-its-margin-forecast/",
+    "date": "2026-11-02",
+    "title": "Apple (AAPL) Beats Q4 Estimates, but Memory Costs Squeeze Its Margin Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "AAPL"
+    ]
+   }
+  ]
+ }
+}

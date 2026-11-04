@@ -1,0 +1,75 @@
+{
+ "id": "move-DUOL-2026-11-04",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 95,
+ "created": "2026-11-04T10:01:17-05:00",
+ "expires": "2026-11-05T12:00:00-05:00",
+ "tickers": [
+  "DUOL"
+ ],
+ "headline_hint": "Why Duolingo (DUOL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-11-04T10:00:18-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 165.64,
+   "change_pct": 29.41,
+   "prev_close": 128.0,
+   "time": "2026-11-04T10:00:04.268-0500",
+   "mktcap": "7.75B",
+   "pe": 19.74,
+   "fpe": 62.41,
+   "yr_high": 268.97,
+   "yr_low": 87.89,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 161.28,
+    "change_pct": 26.0,
+    "time": "2026-11-04T09:30:00.166-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DUOL",
+   "name": "Duolingo",
+   "date": "2026-11-03",
+   "close": 128.0,
+   "prev_close": 135.27,
+   "change_pct": -5.37,
+   "moves_over_5pct_last_year": 43,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 35,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-28",
+    "change_pct": -6.42
+   },
+   "ytd_pct": -27.07,
+   "return_1m_pct": -12.98,
+   "return_6m_pct": 23.04,
+   "return_1y_pct": -52.7,
+   "high_52w": {
+    "close": 264.93,
+    "date": "2025-11-03"
+   },
+   "low_52w": {
+    "close": 90.03,
+    "date": "2026-04-10"
+   },
+   "pct_below_52w_high": 51.69,
+   "thousand_dollars_5y_ago_now": 757,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 2473766,
+   "volume_vs_20d_avg": 2.88,
+   "sentences": [
+    "Duolingo's shares moved 5% or more on 43 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 September 2026, when the stock fell 6.4%.",
+    "The stock is down 27.1% this year, and at $128.00 it sits 51.7% below its 52-week closing high of $264.93 from 3 November 2025.",
+    "$1,000 invested in Duolingo five years ago would be worth $757 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Education Services",
+  "recent_stories": []
+ }
+}

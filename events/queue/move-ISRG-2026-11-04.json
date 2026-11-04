@@ -1,0 +1,75 @@
+{
+ "id": "move-ISRG-2026-11-04",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 72,
+ "created": "2026-11-04T10:01:17-05:00",
+ "expires": "2026-11-05T12:00:00-05:00",
+ "tickers": [
+  "ISRG"
+ ],
+ "headline_hint": "Why Intuitive Surgical (ISRG) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-04T10:00:18-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 474.62,
+   "change_pct": 7.68,
+   "prev_close": 440.75,
+   "time": "2026-11-04T10:00:07.045-0500",
+   "mktcap": "164.522B",
+   "pe": 57.42,
+   "fpe": 41.19,
+   "yr_high": 603.88,
+   "yr_low": 328.57,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 458.32,
+    "change_pct": 3.99,
+    "time": "2026-11-04T09:30:00.307-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical",
+   "date": "2026-11-03",
+   "close": 440.75,
+   "prev_close": 436.87,
+   "change_pct": 0.89,
+   "moves_over_5pct_last_year": 8,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 152,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-02",
+    "change_pct": 1.12
+   },
+   "ytd_pct": -22.18,
+   "return_1m_pct": 8.43,
+   "return_6m_pct": -2.36,
+   "return_1y_pct": -17.51,
+   "high_52w": {
+    "close": 592.85,
+    "date": "2026-01-06"
+   },
+   "low_52w": {
+    "close": 332.02,
+    "date": "2026-07-23"
+   },
+   "pct_below_52w_high": 25.66,
+   "thousand_dollars_5y_ago_now": 1219,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 1744340,
+   "volume_vs_20d_avg": 0.7,
+   "sentences": [
+    "Intuitive Surgical's shares moved 5% or more on 8 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 November 2026, when the stock rose 1.1%.",
+    "The stock is down 22.2% this year, and at $440.75 it sits 25.7% below its 52-week closing high of $592.85 from 6 January 2026.",
+    "$1,000 invested in Intuitive Surgical five years ago would be worth $1,219 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Health Care Equipment",
+  "recent_stories": []
+ }
+}

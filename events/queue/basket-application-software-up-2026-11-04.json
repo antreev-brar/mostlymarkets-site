@@ -1,0 +1,112 @@
+{
+ "id": "basket-application-software-up-2026-11-04",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-04T10:01:17-05:00",
+ "expires": "2026-11-04T23:59:00-05:00",
+ "tickers": [
+  "INTU",
+  "ADSK",
+  "SAP"
+ ],
+ "headline_hint": "INTU, ADSK, SAP shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-04T10:00:18-05:00",
+ "pack": {
+  "industry": "Application Software",
+  "quotes": {
+   "INTU": {
+    "price": 364.14,
+    "change_pct": 5.63,
+    "prev_close": 344.72,
+    "time": "2026-11-04T10:00:05.816-0500",
+    "mktcap": "97.311B",
+    "pe": 22.06,
+    "fpe": 15.29,
+    "yr_high": 682.27,
+    "yr_low": 252.84,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 355.04,
+     "change_pct": 2.99,
+     "time": "2026-11-04T09:30:00.433-0500"
+    }
+   },
+   "ADSK": {
+    "price": 266.5,
+    "change_pct": 5.62,
+    "prev_close": 252.32,
+    "time": "2026-11-04T09:59:59.782-0500",
+    "mktcap": "55.699B",
+    "pe": 34.55,
+    "fpe": 20.5,
+    "yr_high": 320.0,
+    "yr_low": 185.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 261.58,
+     "change_pct": 3.67,
+     "time": "2026-11-04T09:25:58.146-0500"
+    }
+   },
+   "SAP": {
+    "price": 241.13,
+    "change_pct": 4.7,
+    "prev_close": 230.31,
+    "time": "2026-11-04T10:00:05.425-0500",
+    "mktcap": "296.223B",
+    "pe": 30.73,
+    "fpe": 27.43,
+    "yr_high": 264.1,
+    "yr_low": 144.97,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 238.96,
+     "change_pct": 3.76,
+     "time": "2026-11-04T09:30:00.948-0500"
+    }
+   }
+  },
+  "facts": {
+   "INTU": {
+    "ticker": "INTU",
+    "name": "Intuit",
+    "date": "2026-11-03",
+    "close": 344.72,
+    "prev_close": 352.1,
+    "change_pct": -2.1,
+    "moves_over_5pct_last_year": 27,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 120,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-27",
+     "change_pct": -3.37
+    },
+    "ytd_pct": -47.96,
+    "return_1m_pct": 21.09,
+    "return_6m_pct": -13.46,
+    "return_1y_pct": -48.36,
+    "high_52w": {
+     "close": 676.55,
+     "date": "2025-12-26"
+    },
+    "low_52w": {
+     "close": 255.07,
+     "date": "2026-06-25"
+    },
+    "pct_below_52w_high": 49.05,
+    "thousand_dollars_5y_ago_now": 553,
+    "five_years_ago_date": "2021-11-03",
+    "volume": 2277873,
+    "volume_vs_20d_avg": 0.7,
+    "sentences": [
+     "Intuit's shares moved 5% or more on 27 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 27 October 2026, when the stock fell 3.4%.",
+     "The stock is down 48.0% this year, and at $344.72 it sits 49.0% below its 52-week closing high of $676.55 from 26 December 2025.",
+     "$1,000 invested in Intuit five years ago would be worth $553 today."
+    ]
+   }
+  }
+ }
+}

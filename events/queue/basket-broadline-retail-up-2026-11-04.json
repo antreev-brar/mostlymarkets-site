@@ -1,0 +1,112 @@
+{
+ "id": "basket-broadline-retail-up-2026-11-04",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-04T10:01:17-05:00",
+ "expires": "2026-11-04T23:59:00-05:00",
+ "tickers": [
+  "AMZN",
+  "BABA",
+  "MELI"
+ ],
+ "headline_hint": "AMZN, BABA, MELI shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-04T10:00:18-05:00",
+ "pack": {
+  "industry": "Broadline Retail",
+  "quotes": {
+   "AMZN": {
+    "price": 270.36,
+    "change_pct": 7.85,
+    "prev_close": 250.69,
+    "time": "2026-11-04T10:00:01.884-0500",
+    "mktcap": "2.923T",
+    "pe": 21.85,
+    "fpe": 29.15,
+    "yr_high": 287.2,
+    "yr_low": 196.0,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 264.96,
+     "change_pct": 5.69,
+     "time": "2026-11-04T09:30:00.516-0500"
+    }
+   },
+   "BABA": {
+    "price": 106.42,
+    "change_pct": 6.04,
+    "prev_close": 100.36,
+    "time": "2026-11-04T10:00:03.093-0500",
+    "mktcap": "264.746B",
+    "pe": 23.73,
+    "fpe": 13.26,
+    "yr_high": 181.1,
+    "yr_low": 91.99,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 104.99,
+     "change_pct": 4.61,
+     "time": "2026-11-04T09:29:51.263-0500"
+    }
+   },
+   "MELI": {
+    "price": 1750.02,
+    "change_pct": 5.29,
+    "prev_close": 1662.16,
+    "time": "2026-11-04T10:00:06.952-0500",
+    "mktcap": "88.72B",
+    "pe": 47.62,
+    "fpe": 40.71,
+    "yr_high": 2372.79,
+    "yr_low": 1495.0,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 1710.0,
+     "change_pct": 2.88,
+     "time": "2026-11-04T09:29:11.195-0500"
+    }
+   }
+  },
+  "facts": {
+   "AMZN": {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "date": "2026-11-03",
+    "close": 250.69,
+    "prev_close": 245.63,
+    "change_pct": 2.06,
+    "moves_over_5pct_last_year": 3,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 64,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-02",
+     "change_pct": 2.2
+    },
+    "ytd_pct": 8.61,
+    "return_1m_pct": -0.28,
+    "return_6m_pct": -8.36,
+    "return_1y_pct": 2.65,
+    "high_52w": {
+     "close": 284.02,
+     "date": "2026-08-03"
+    },
+    "low_52w": {
+     "close": 198.79,
+     "date": "2026-02-13"
+    },
+    "pct_below_52w_high": 11.74,
+    "thousand_dollars_5y_ago_now": 1482,
+    "five_years_ago_date": "2021-11-03",
+    "volume": 37853500,
+    "volume_vs_20d_avg": 0.89,
+    "sentences": [
+     "Amazon's shares moved 5% or more on 3 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 2 November 2026, when the stock rose 2.2%.",
+     "The stock is up 8.6% this year, and at $250.69 it sits 11.7% below its 52-week closing high of $284.02 from 3 August 2026.",
+     "$1,000 invested in Amazon five years ago would be worth $1,482 today."
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "move-MSFT-2026-11-04",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 75,
+ "created": "2026-11-04T10:01:17-05:00",
+ "expires": "2026-11-05T12:00:00-05:00",
+ "tickers": [
+  "MSFT"
+ ],
+ "headline_hint": "Why Microsoft (MSFT) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-04T10:00:18-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 553.59,
+   "change_pct": 6.26,
+   "prev_close": 520.99,
+   "time": "2026-11-04T10:00:09.208-0500",
+   "mktcap": "4.111T",
+   "pe": 28.91,
+   "fpe": 28.01,
+   "yr_high": 553.71,
+   "yr_low": 349.2,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 543.99,
+    "change_pct": 4.41,
+    "time": "2026-11-04T09:30:00.758-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "date": "2026-11-03",
+   "close": 520.99,
+   "prev_close": 507.12,
+   "change_pct": 2.74,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 30,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-25",
+    "change_pct": 3.66
+   },
+   "ytd_pct": 7.73,
+   "return_1m_pct": -0.8,
+   "return_6m_pct": 26.64,
+   "return_1y_pct": 0.61,
+   "high_52w": {
+    "close": 543.45,
+    "date": "2026-10-13"
+   },
+   "low_52w": {
+    "close": 352.83,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 4.13,
+   "thousand_dollars_5y_ago_now": 1560,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 20010170,
+   "volume_vs_20d_avg": 0.89,
+   "sentences": [
+    "Microsoft's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 25 September 2026, when the stock rose 3.7%.",
+    "The stock is up 7.7% this year, and at $520.99 it sits 4.1% below its 52-week closing high of $543.45 from 13 October 2026.",
+    "$1,000 invested in Microsoft five years ago would be worth $1,560 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Systems Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-31/wall-street-now-sees-more-than-1-trillion-of-ai-spending-in-2027-what-has-to-go-right/",
+    "date": "2026-10-31",
+    "title": "Wall Street Now Sees More Than $1 Trillion of AI Spending in 2027. What Has to Go Right",
+    "type": "analysis",
+    "tickers": [
+     "AMZN",
+     "GOOGL",
+     "MSFT",
+     "META",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/",
+    "date": "2026-10-31",
+    "title": "The AI Build-Out's Debt Is Cracking at the Edges, Starting With CoreWeave (CRWV)",
+    "type": "analysis",
+    "tickers": [
+     "CRWV",
+     "NBIS",
+     "META",
+     "ORCL",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/",
+    "date": "2026-10-31",
+    "title": "Free Cash Flow Is Now the Scorecard for AI Spenders: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "GOOGL",
+     "AMZN",
+     "META",
+     "MSFT",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/3-big-tech-stocks-we-like-and-1-wed-skip-after-earnings/",
+    "date": "2026-10-31",
+    "title": "3 Big Tech Stocks We Like and 1 We'd Skip After Earnings",
+    "type": "list",
+    "tickers": [
+     "NVDA",
+     "MSFT",
+     "GOOGL",
+     "AAPL"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/microsoft-msft-shares-give-back-their-after-hours-gain-as-investors-weigh-spending/",
+    "date": "2026-10-29",
+    "title": "Microsoft (MSFT) Shares Give Back Their After-Hours Gain as Investors Weigh Spending",
+    "type": "why-it-moved",
+    "tickers": [
+     "MSFT"
+    ]
+   }
+  ]
+ }
+}
