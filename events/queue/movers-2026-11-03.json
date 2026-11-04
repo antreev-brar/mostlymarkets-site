@@ -1,0 +1,123 @@
+{
+ "id": "movers-2026-11-03",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-04T09:01:07-05:00",
+ "expires": "2026-11-04T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Tuesday 03 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-04T09:00:08-05:00",
+ "pack": {
+  "session": "2026-11-03",
+  "moves": [
+   {
+    "ticker": "IT",
+    "name": "Gartner",
+    "close": 204.22,
+    "change_pct": -13.19,
+    "our_stories": [
+     "/news/2026-11-03/gartner-it-shares-sink-after-its-contract-value-grows-just-2-5/"
+    ]
+   },
+   {
+    "ticker": "FISV",
+    "name": "Fiserv",
+    "close": 58.4,
+    "change_pct": 12.46,
+    "our_stories": [
+     "/news/2026-11-03/fiserv-fisv-shares-jump-as-it-doubles-its-savings-target-despite-a-6-45-billion-charge/"
+    ]
+   },
+   {
+    "ticker": "SYY",
+    "name": "Sysco",
+    "close": 74.11,
+    "change_pct": -9.33,
+    "our_stories": [
+     "/news/2026-11-03/sysco-syy-misses-q1-sales-estimates-and-steers-to-the-low-end-of-its-sales-forecast/"
+    ]
+   },
+   {
+    "ticker": "GRAB",
+    "name": "Grab Holdings",
+    "close": 3.12,
+    "change_pct": 9.09,
+    "our_stories": [
+     "/news/2026-11-03/grab-grab-shares-soar-after-it-raises-its-2026-forecast-a-second-time/"
+    ]
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "close": 214.01,
+    "change_pct": 9.05,
+    "our_stories": [
+     "/news/2026-11-03/bloom-energy-be-shares-soar-on-a-1-gigawatt-pact-with-california-resources/"
+    ]
+   },
+   {
+    "ticker": "ZBRA",
+    "name": "Zebra Technologies",
+    "close": 329.5,
+    "change_pct": -8.76,
+    "our_stories": [
+     "/news/2026-11-03/zebra-technologies-zbra-shares-sink-on-a-soft-q4-profit-forecast/"
+    ]
+   },
+   {
+    "ticker": "SHOP",
+    "name": "Shopify",
+    "close": 142.57,
+    "change_pct": -8.74,
+    "our_stories": [
+     "/news/2026-11-03/shopify-shop-q3-gmv-and-subscriptions-miss-and-the-stock-sinks-15/"
+    ]
+   },
+   {
+    "ticker": "DD",
+    "name": "DuPont",
+    "close": 153.46,
+    "change_pct": 8.61,
+    "our_stories": [
+     "/news/2026-11-03/ametek-ame-and-dupont-dd-jump-keurig-dr-pepper-kdp-slides-tuesdays-earnings/"
+    ]
+   },
+   {
+    "ticker": "RVTY",
+    "name": "Revvity",
+    "close": 163.48,
+    "change_pct": 7.84,
+    "our_stories": [
+     "/news/2026-11-03/revvity-rvty-shares-soar-after-a-q3-beat-and-a-higher-growth-forecast/"
+    ]
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 150.91,
+    "change_pct": 7.78,
+    "our_stories": [
+     "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/"
+    ]
+   },
+   {
+    "ticker": "TLN",
+    "name": "Talen Energy",
+    "close": 357.28,
+    "change_pct": 7.29,
+    "our_stories": [
+     "/news/2026-11-03/talen-energy-tln-shares-soar-on-a-1-5-billion-buyback-and-its-2027-outlook/"
+    ]
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "close": 245.51,
+    "change_pct": 7.28,
+    "our_stories": []
+   }
+  ]
+ }
+}
