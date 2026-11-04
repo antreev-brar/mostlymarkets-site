@@ -1,0 +1,122 @@
+{
+ "id": "news-AMD-2026-11-04-amd-shares-jump-as-ai-driven-data-center",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-04T05:01:57-05:00",
+ "expires": "2026-11-04T15:01:57-05:00",
+ "tickers": [
+  "AMD"
+ ],
+ "headline_hint": "AMD: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-04T05:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "AMD shares jump as AI-driven data-center strength fuels growth outlook",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT1otSGFrSy03TGU4SkFJWHJ0SlJER0pMU0FvV3RIZm1udEtsLTlqazJwbzFEX1lNR3NGYWdNRnRBMDc1ZEk0elNtb2xHcXFFOEFqSnVsWkVRSTBpeHBPUEwtNDZtSUxuZUpKSnM1aXFlX2VUczJlNWRFSXM3MGxmRXAyYkt0dUloMlhaYVJZUVhqNmU2cGVpNkJaMXY3Sm5Qck04ZjNtbHdBSC02Q3hxd3BR?oc=5",
+    "published": "2026-11-04T04:53:53-05:00",
+    "also": []
+   },
+   {
+    "title": "KeyBanc reiterates AMD stock Overweight on strong data center growth",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZHBCMl8zUkV1UnBDRGRlaWhRMWxXY1owc3hXQ1NWUjQzLUY4ZWZNTWVONmVucHliNC1lOWxILXdHN01sdkg0RjJlRklXSG51ZXdUdXZMcjExUFBxNWxqMEZGZ0p0eGRPZ3dxa1FfZTRlMVp2dTU3Sk9RQklQZnNGM0lfQkhaV2dIVWFqQTJHdklRbEpKYktxc2laTFEwamV4QVdBQ1hQT1BObXl0VnBsdXM3dFBVcnNOWGFJSjAxRmFQN1dRb25j?oc=5",
+    "published": "2026-11-04T04:12:38-05:00",
+    "also": []
+   },
+   {
+    "title": "AMD stock jumps 8% as quarterly results, revenue guidance beat estimates",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRG43Ym5NZlcwNFlXa3FGTTAyazdIZkh0Wjk4M00xNHhSXzh1ajRhbE45cG40U2RBNHZydEJ6Y3NrY0tsS3ZyQ3hqTW9XU2Nab3NiWTVzVk5EVUktZW5RU3pObXdCTmRSVk9WM2ZYWVBtdWl0RHZHeVowVHFsYzdZYVdiYmUxS0xORGIyTTdXNUdIOWp4TlVlVk5Da2V0ZFpOR2JBaWs1VVhaOVhBOWxGSVAwbTJjUXdBeDVEM3lydVRMdlFycktj?oc=5",
+    "published": "2026-11-04T04:07:46-05:00",
+    "also": []
+   },
+   {
+    "title": "Democrats seize Congress; AMD shares surge - what\u2019s moving markets",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOenkweF8wSDMxdnFBSElCU29YTkZGZmszM2FxTzZxdlQ1bC1VcnhnTkJRRFAxbHlZa3RNanpWbHVtWXQ0c0JLV2x0TU5wbTFDOG5WVnZIODlCb0JyNUhMc3NGSU1oWU5qczRIZnllSTNGRm9EaGdjaXhoVERUQkc0LWhLc3I2UFFfd1FVcmNDVzdoWXpOazkyLXR4cmRPbXFpbjMwUlZEZmgtSjF2Yl9mUXdvWlFGZw?oc=5",
+    "published": "2026-11-04T04:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BofA cuts AMD stock price target to $650 on sector multiple contraction",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWtjdXpGYXBYX3dZOE5iWG0wc05iUzd1YmJPV0pEM3FYSU9Va3puTEptUFE1dkRrYXZIOFlya3lyMjhTVTM4VGJ1WHkzTjJvSG1JQkpxbld3Q3FwRjltV2xDT3ZacU5rcHFXSUxtN2x5NEZ5ejBSVmlNaHZ0YmFWSG92WFE4UkxTNy1QVGtoZmo4bTFib2JzTlJGR2JEUnZ3ZHcwQTRNZjAzR0RKeGlVVW1PcnE1UlFRaV96YjlNNHJtQ00wZkpVN2RR?oc=5",
+    "published": "2026-11-04T03:52:36-05:00",
+    "also": []
+   },
+   {
+    "title": "Stifel raises AMD stock price target on strong data center growth",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ2pPQmJsSkppR0I5U3hPYXd3eVhzMlhiTFowaE92REI1bVBqYzd1c0xZNkdJbkYySnNjbTlHbEo4NnBKLU5PN2pJZmlFWUxZMkd4QmJDaWZMMTBLdi1Kd2VxSW5pQWE3WkdBRkRmQzF6SWRNNzhXWEtLVDNxcWVVcHhacnMxRGlITzlTZmZnYmM4TVZob0JTQ2VkYzRDY3ZmSjMtQU5mR1hEM1ZxQmZKcHdOMkZyRk1fdWMzblVISnBPZTg?oc=5",
+    "published": "2026-11-04T03:14:09-05:00",
+    "also": [
+     "Dow Jones"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 483.9,
+   "change_pct": 3.65,
+   "prev_close": 483.9,
+   "time": "2026-11-03",
+   "mktcap": "789.955B",
+   "pe": 123.5,
+   "fpe": 42.83,
+   "yr_high": 658.52,
+   "yr_low": 188.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 517.0,
+    "change_pct": 6.84,
+    "time": "2026-11-04T05:00:00.152-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AMD",
+   "name": "AMD",
+   "date": "2026-11-02",
+   "close": 466.84,
+   "prev_close": 504.8,
+   "change_pct": -7.52,
+   "moves_over_5pct_last_year": 55,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 22,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -10.88
+   },
+   "ytd_pct": 117.99,
+   "return_1m_pct": -26.36,
+   "return_6m_pct": 36.69,
+   "return_1y_pct": 83.19,
+   "high_52w": {
+    "close": 649.42,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 190.95,
+    "date": "2026-03-03"
+   },
+   "pct_below_52w_high": 28.11,
+   "thousand_dollars_5y_ago_now": 3658,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 32141000,
+   "volume_vs_20d_avg": 1.57,
+   "sentences": [
+    "AMD's shares moved 5% or more on 55 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 10.9%.",
+    "The stock is up 118.0% this year, and at $466.84 it sits 28.1% below its 52-week closing high of $649.42 from 6 October 2026.",
+    "$1,000 invested in AMD five years ago would be worth $3,658 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/",
+   "/news/2026-11-03/arista-networks-anet-beats-q3-estimates-as-sales-grow-58-5/",
+   "/news/2026-11-03/amd-amd-beats-q3-estimates-and-guides-q4-sales-to-17-billion/"
+  ]
+ }
+}

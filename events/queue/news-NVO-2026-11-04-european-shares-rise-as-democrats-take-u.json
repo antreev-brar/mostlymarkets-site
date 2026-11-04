@@ -1,0 +1,130 @@
+{
+ "id": "news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-04T05:01:57-05:00",
+ "expires": "2026-11-04T15:01:57-05:00",
+ "tickers": [
+  "NVO"
+ ],
+ "headline_hint": "Novo Nordisk: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-04T05:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "European shares rise as Democrats take US Congress, Novo Nordisk surges",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L0NZ:0-european-shares-rise-as-democrats-take-us-congress-novo-nordisk-surges/",
+    "published": "2026-11-04T04:57:39-05:00",
+    "also": []
+   },
+   {
+    "title": "Beleaguered Novo offers relief to investors, thanks to Wegovy pill",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcnN2a1hwakhLTVRCanNNOEplZEJrVWNoc2M3d3V2bjFrYXAzS053bVVkTTBhNTJ4RF95R0hvSXhGd05YeXJMNk1TbFBjTVNJel9zNW1CREVITnBKQzl1eGI4V25ETGZjVjFrcE5zdWdnaXJERlMwMGZXV0pDcVFkRzY2aVVhQjNuZ2d2TW9yUU94Z1JSbTRrZGktYktuWVJvM1pCZFlvVVo4UFg3?oc=5",
+    "published": "2026-11-04T04:41:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo improves outlook on continued demand for Wegovy pill, Ozempic",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4664490-novo-improves-outlook-on-continued-demand-for-wegovy-pill-ozempic",
+    "published": "2026-11-04T04:00:08-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk Results Set to Drive Higher Consensus Earnings Expectations",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104002818:0-novo-nordisk-results-set-to-drive-higher-consensus-earnings-expectations-market-talk/",
+    "published": "2026-11-04T03:59:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk Lifts Outlook as Rollout of Wegovy Weight-Loss Pill Continues",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104002792:0-novo-nordisk-lifts-outlook-as-rollout-of-wegovy-weight-loss-pill-continues-update/",
+    "published": "2026-11-04T03:52:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Why is Novo Nordisk stock surging today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQczdhZFduSHhsZG0xeTZ3cTlUVkhsWC0tOEFrR0ZhUG5lbG43OENSM2tGY0hIanNhUDhwdURtZl9KN1d1cklZZjNTdmtPX01vMnBXUkNLd2VMa2VhbVhIaG9URTF2dHphTkw2VlY5Q1Z3aWZSZXd6dExGQjQxV0VIb2dCRjVXTE1CVVhmY3lCQkszZ0FYQUh4dDRkZV8zVzFmUjhR?oc=5",
+    "published": "2026-11-04T03:16:35-05:00",
+    "also": []
+   },
+   {
+    "title": "European shares gain on Novo\u2019s results; markets weigh U.S. midterms",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNGJBWmNFYVhtUlViZDIxN0YwZGF5ZnVHY0tWTVJrYW0wQVM2MTROM3h0VWljUnhKeTdBYUlGb203RjZuNWNmTEtQWDJtZkV6TlVwd2U2R2dYWlJGYmlyNnZSMm5mcmFucjhtSEhWUFF5Rkh5OGFLVUgzanBnLU14TjU4a0RrQkRaMjJYQTZvYldYMTduWFB1bExKTWZuZkFrREZUWlptLVFIMU9uM2VDLTJldHpLQUlIYTF1Qg?oc=5",
+    "published": "2026-11-04T03:12:28-05:00",
+    "also": []
+   },
+   {
+    "title": "Novo Nordisk Shares Rise 5.2% After 3Q Earnings",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104002403_20261104002403:0-novo-nordisk-shares-rise-5-2-after-3q-earnings/",
+    "published": "2026-11-04T03:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 40.19,
+   "change_pct": -0.64,
+   "prev_close": 40.19,
+   "time": "2026-11-03",
+   "mktcap": "136.249B",
+   "pe": 10.05,
+   "fpe": 12.32,
+   "yr_high": 64.16,
+   "yr_low": 35.12,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 42.38,
+    "change_pct": 5.45,
+    "time": "2026-11-04T05:00:04.042-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVO",
+   "name": "Novo Nordisk",
+   "date": "2026-11-02",
+   "close": 40.45,
+   "prev_close": 40.0,
+   "change_pct": 1.12,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 149,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": 2.2
+   },
+   "ytd_pct": -20.5,
+   "return_1m_pct": 8.39,
+   "return_6m_pct": -8.88,
+   "return_1y_pct": -19.16,
+   "high_52w": {
+    "close": 63.98,
+    "date": "2026-01-26"
+   },
+   "low_52w": {
+    "close": 35.29,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 36.78,
+   "thousand_dollars_5y_ago_now": 735,
+   "five_years_ago_date": "2021-11-02",
+   "volume": 11184320,
+   "volume_vs_20d_avg": 1.05,
+   "sentences": [
+    "Novo Nordisk's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock rose 2.2%.",
+    "The stock is down 20.5% this year, and at $40.45 it sits 36.8% below its 52-week closing high of $63.98 from 26 January 2026.",
+    "$1,000 invested in Novo Nordisk five years ago would be worth $735 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

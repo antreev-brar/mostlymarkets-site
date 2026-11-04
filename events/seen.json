@@ -95,6 +95,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-04": {
+"created": "2026-11-04T05:01:57-05:00",
+"day": "2026-11-04",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -439,6 +445,14 @@
 "AMD"
 ]
 },
+"news-AMD-2026-11-04-amd-shares-jump-as-ai-driven-data-center": {
+"created": "2026-11-04T05:01:57-05:00",
+"day": "2026-11-04",
+"kind": "news",
+"tickers": [
+"AMD"
+]
+},
 "news-AMD-2026-11-04-amd-super-micro-shares-jump-after-hours": {
 "created": "2026-11-04T01:01:17-05:00",
 "day": "2026-11-04",
@@ -580,6 +594,14 @@
 "kind": "news",
 "tickers": [
 "NVDA"
+]
+},
+"news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
+"created": "2026-11-04T05:01:57-05:00",
+"day": "2026-11-04",
+"kind": "news",
+"tickers": [
+"NVO"
 ]
 },
 "news-NVO-2026-11-04-novo-nordisk-q3-adj-operating-profit-inc": {
