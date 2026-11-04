@@ -1097,6 +1097,14 @@
 "DD"
 ]
 },
+"recap-DDOG-2026-11-04": {
+"created": "2026-11-04T07:15:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"DDOG"
+]
+},
 "recap-EL-2026-11-02": {
 "created": "2026-11-02T08:01:12-05:00",
 "day": "2026-11-02",
@@ -1227,6 +1235,14 @@
 "KDP"
 ]
 },
+"recap-KHC-2026-11-04": {
+"created": "2026-11-04T07:15:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"KHC"
+]
+},
 "recap-KLAC-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1282,10 +1298,26 @@
 "MAR"
 ]
 },
+"recap-MCD-2026-11-04": {
+"created": "2026-11-04T07:15:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"MCD"
+]
+},
 "recap-MDLZ-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
 "kind": "earnings-recap"
+},
+"recap-MLM-2026-11-04": {
+"created": "2026-11-04T07:15:14-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"MLM"
+]
 },
 "recap-MO-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
