@@ -1044,12 +1044,28 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-COR-2026-11-04": {
+"created": "2026-11-04T06:45:13-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"COR"
+]
+},
 "recap-CPNG-2026-11-03": {
 "created": "2026-11-03T16:15:23-05:00",
 "day": "2026-11-03",
 "kind": "earnings-recap",
 "tickers": [
 "CPNG"
+]
+},
+"recap-CVS-2026-11-04": {
+"created": "2026-11-04T06:45:13-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"CVS"
 ]
 },
 "recap-CVX-2026-10-30": {
