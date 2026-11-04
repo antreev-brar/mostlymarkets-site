@@ -1,0 +1,124 @@
+{
+ "id": "recap-UBER-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-04T07:01:07-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "UBER"
+ ],
+ "headline_hint": "Uber (UBER) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T07:00:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "UBER",
+   "name": "Uber Technologies, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.94,
+   "n_estimates": 7,
+   "eps_last_year": 3.11,
+   "last_year_date": "11/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 136259183000.0
+  },
+  "quote": {
+   "price": 66.6,
+   "change_pct": -0.16,
+   "prev_close": 66.6,
+   "time": "2026-11-03",
+   "mktcap": "136.034B",
+   "pe": 14.62,
+   "fpe": 15.82,
+   "yr_high": 95.44,
+   "yr_low": 64.04,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 65.44,
+    "change_pct": -1.75,
+    "time": "2026-11-04T07:00:04.981-0500"
+   }
+  },
+  "facts": {
+   "ticker": "UBER",
+   "name": "Uber",
+   "date": "2026-11-03",
+   "close": 66.6,
+   "prev_close": 66.71,
+   "change_pct": -0.16,
+   "moves_over_5pct_last_year": 12,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 240,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -0.75
+   },
+   "ytd_pct": -18.49,
+   "return_1m_pct": -4.15,
+   "return_6m_pct": -8.7,
+   "return_1y_pct": -30.98,
+   "high_52w": {
+    "close": 99.72,
+    "date": "2025-11-03"
+   },
+   "low_52w": {
+    "close": 65.25,
+    "date": "2026-10-30"
+   },
+   "pct_below_52w_high": 33.21,
+   "thousand_dollars_5y_ago_now": 1457,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 21313460,
+   "volume_vs_20d_avg": 1.31,
+   "sentences": [
+    "Uber's shares moved 5% or more on 12 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 0.8%.",
+    "The stock is down 18.5% this year, and at $66.60 it sits 33.2% below its 52-week closing high of $99.72 from 3 November 2025.",
+    "$1,000 invested in Uber five years ago would be worth $1,457 today."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Passenger Ground Transportation",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/grab-grab-shares-soar-after-it-raises-its-2026-forecast-a-second-time/",
+    "date": "2026-11-03",
+    "title": "Grab (GRAB) Shares Soar After It Raises Its 2026 Forecast a Second Time",
+    "type": "why-it-moved",
+    "tickers": [
+     "GRAB",
+     "UBER"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "date": "2026-10-31",
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "type": "analysis",
+    "tickers": [
+     "AAPL",
+     "AMD",
+     "ARM",
+     "QCOM",
+     "PLTR",
+     "SHOP",
+     "UBER",
+     "COP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/what-to-expect-from-ubers-uber-q3-earnings/",
+    "date": "2026-10-29",
+    "title": "What to Expect From Uber's (UBER) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "UBER"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000039/0001543151-26-000039-index.htm"
+ }
+}
