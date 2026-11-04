@@ -1,0 +1,90 @@
+{
+ "id": "recap-TKO-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-04T16:15:15-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "TKO"
+ ],
+ "headline_hint": "TKO Group Holdings (TKO) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T16:15:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TKO",
+   "name": "TKO Group Holdings, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.2,
+   "n_estimates": 5,
+   "eps_last_year": 0.5,
+   "last_year_date": "11/05/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 35431289000.0
+  },
+  "quote": {
+   "price": 193.48,
+   "change_pct": 3.35,
+   "prev_close": 187.2,
+   "time": "2026-11-04T16:10:00.000-0500",
+   "mktcap": "36.62B",
+   "pe": 67.68,
+   "fpe": 40.31,
+   "yr_high": 226.94,
+   "yr_low": 170.14,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 193.48,
+    "change_pct": 0.0,
+    "time": "2026-11-04T16:00:03.330-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TKO",
+   "name": "TKO Group Holdings",
+   "date": "2026-11-04",
+   "close": 193.48,
+   "prev_close": 187.2,
+   "change_pct": 3.35,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 20,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-08",
+    "change_pct": 5.01
+   },
+   "ytd_pct": -7.43,
+   "return_1m_pct": 9.65,
+   "return_6m_pct": 1.58,
+   "return_1y_pct": 3.07,
+   "high_52w": {
+    "close": 224.96,
+    "date": "2026-03-02"
+   },
+   "low_52w": {
+    "close": 171.23,
+    "date": "2026-10-26"
+   },
+   "pct_below_52w_high": 13.99,
+   "thousand_dollars_5y_ago_now": 3206,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 1733019,
+   "volume_vs_20d_avg": 1.83,
+   "sentences": [
+    "TKO Group Holdings's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 8 September 2026, when the stock rose 5.0%.",
+    "The stock is down 7.4% this year, and at $193.48 it sits 14.0% below its 52-week closing high of $224.96 from 2 March 2026.",
+    "$1,000 invested in TKO Group Holdings five years ago would be worth $3,206 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Movies & Entertainment",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1973266/000119312526447231/0001193125-26-447231-index.htm",
+  "release_text": "events/packs/recap-TKO-2026-11-04.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1973266/000119312526447231/tko-ex99_1.htm"
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "recap-MELI-2026-11-04",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-04T16:15:15-05:00",
+ "expires": "2026-11-05T20:00:00-05:00",
+ "tickers": [
+  "MELI"
+ ],
+ "headline_hint": "MercadoLibre (MELI) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-04T16:15:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "MELI",
+   "name": "MercadoLibre, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 9.41,
+   "n_estimates": 3,
+   "eps_last_year": 8.32,
+   "last_year_date": "10/29/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 84266197000.0
+  },
+  "quote": {
+   "price": 1739.88,
+   "change_pct": 4.68,
+   "prev_close": 1662.16,
+   "time": "2026-11-04T16:00:00.000-0500",
+   "mktcap": "88.206B",
+   "pe": 47.34,
+   "fpe": 40.48,
+   "yr_high": 2372.79,
+   "yr_low": 1495.0,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 1609.96,
+    "change_pct": -7.47,
+    "time": "2026-11-04T16:14:55.617-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MELI",
+   "name": "MercadoLibre",
+   "date": "2026-11-04",
+   "close": 1739.88,
+   "prev_close": 1662.16,
+   "change_pct": 4.68,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 17,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-05",
+    "change_pct": 9.67
+   },
+   "ytd_pct": -13.62,
+   "return_1m_pct": -6.36,
+   "return_6m_pct": -5.5,
+   "return_1y_pct": -24.89,
+   "high_52w": {
+    "close": 2305.69,
+    "date": "2025-11-04"
+   },
+   "low_52w": {
+    "close": 1546.81,
+    "date": "2026-05-15"
+   },
+   "pct_below_52w_high": 24.54,
+   "thousand_dollars_5y_ago_now": 1118,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 660709,
+   "volume_vs_20d_avg": 1.23,
+   "sentences": [
+    "MercadoLibre's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 October 2026, when the stock rose 9.7%.",
+    "The stock is down 13.6% this year, and at $1,739.88 it sits 24.5% below its 52-week closing high of $2,305.69 from 4 November 2025.",
+    "$1,000 invested in MercadoLibre five years ago would be worth $1,118 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Broadline Retail",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-27/stocks-making-the-biggest-moves-yesterday-nu-holdings-fair-isaac-lumentum-mercadolibre-and-doordash/",
+    "date": "2026-10-27",
+    "title": "Stocks Making Big Moves Yesterday: Nu Holdings, Fair Isaac, Lumentum, MercadoLibre and DoorDash",
+    "type": "movers",
+    "tickers": [
+     "NU",
+     "FICO",
+     "LITE",
+     "MELI",
+     "DASH"
+    ]
+   },
+   {
+    "path": "/news/2026-10-26/nu-holdings-nu-and-mercadolibre-meli-shares-slide-after-lula-wins-in-brazil/",
+    "date": "2026-10-26",
+    "title": "Nu Holdings (NU) and MercadoLibre (MELI) Shares Slide After Lula Wins in Brazil",
+    "type": "why-it-moved",
+    "tickers": [
+     "NU",
+     "MELI"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000027/0001099590-26-000027-index.htm",
+  "release_text": "events/packs/recap-MELI-2026-11-04.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000027/meli-20260930xex991.htm"
+ }
+}

@@ -1132,6 +1132,14 @@
 "APO"
 ]
 },
+"recap-APP-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"APP"
+]
+},
 "recap-AZN-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
@@ -1196,6 +1204,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-COHR-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"COHR"
+]
 },
 "recap-COR-2026-11-04": {
 "created": "2026-11-04T06:45:13-05:00",
@@ -1477,10 +1493,26 @@
 "MCD"
 ]
 },
+"recap-MCK-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"MCK"
+]
+},
 "recap-MDLZ-2026-10-29": {
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
 "kind": "earnings-recap"
+},
+"recap-MELI-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"MELI"
+]
 },
 "recap-MLM-2026-11-04": {
 "created": "2026-11-04T07:15:14-05:00",
@@ -1513,6 +1545,14 @@
 "day": "2026-10-29",
 "kind": "earnings-recap",
 "outcome": "already-written"
+},
+"recap-MSI-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"MSI"
+]
 },
 "recap-NVO-2026-11-04": {
 "created": "2026-11-04T08:01:14-05:00",
@@ -1583,6 +1623,14 @@
 "Q"
 ]
 },
+"recap-QCOM-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"QCOM"
+]
+},
 "recap-REGN-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
@@ -1651,6 +1699,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "SYY"
+]
+},
+"recap-TKO-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"TKO"
 ]
 },
 "recap-TOST-2026-11-03": {
@@ -1769,6 +1825,12 @@
 "wrap-2026-11-03": {
 "created": "2026-11-03T16:15:23-05:00",
 "day": "2026-11-03",
+"kind": "market-wrap",
+"tickers": []
+},
+"wrap-2026-11-04": {
+"created": "2026-11-04T16:15:15-05:00",
+"day": "2026-11-04",
 "kind": "market-wrap",
 "tickers": []
 }

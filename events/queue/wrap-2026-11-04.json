@@ -1,0 +1,462 @@
+{
+ "id": "wrap-2026-11-04",
+ "kind": "market-wrap",
+ "story_type": "market-wrap",
+ "priority": 85,
+ "created": "2026-11-04T16:15:15-05:00",
+ "expires": "2026-11-04T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stock Market Today: <the story of the day>",
+ "instructions": "The close. Use pack.markets for the numbers table. Link today's stories where they fit.",
+ "quotes_asof": "2026-11-04T16:15:10-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7688.62,
+    "change": 119.7,
+    "change_pct": 1.58,
+    "prev_close": 7568.92,
+    "open": 7635.81,
+    "high": 7715.57,
+    "low": 7635.81,
+    "volume": 0,
+    "time": "2026-11-04T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25736.513,
+    "change": 364.504,
+    "change_pct": 1.44,
+    "prev_close": 25372.009,
+    "open": 25652.782,
+    "high": 26048.829,
+    "low": 25602.137,
+    "volume": 1982068421,
+    "time": "2026-11-04T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 53356.12,
+    "change": 1569.4,
+    "change_pct": 3.03,
+    "prev_close": 51786.72,
+    "open": 52410.23,
+    "high": 53492.4,
+    "low": 52410.23,
+    "volume": 710941268,
+    "time": "2026-11-04T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2856.642,
+    "change": 44.194,
+    "change_pct": 1.57,
+    "prev_close": 2812.447,
+    "open": 2856.261,
+    "high": 2875.135,
+    "low": 2831.505,
+    "volume": 0,
+    "time": "2026-11-04T15:59:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 16.61,
+    "change": -4.22,
+    "change_pct": -20.26,
+    "prev_close": 20.83,
+    "open": 19.2,
+    "high": 19.22,
+    "low": 16.57,
+    "volume": 0,
+    "time": "2026-11-04T16:15:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.884,
+    "change": -0.066,
+    "change_pct": -1.3333,
+    "prev_close": 4.95,
+    "open": 4.954,
+    "high": 4.964,
+    "low": 4.884,
+    "volume": 0,
+    "time": "2026-11-04T16:15:07.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.575,
+    "change": -0.039,
+    "change_pct": 0.0742,
+    "prev_close": 4.614,
+    "open": 4.62,
+    "high": 4.635,
+    "low": 4.546,
+    "volume": 0,
+    "time": "2026-11-04T16:14:49.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 88.53,
+    "change": -7.56,
+    "change_pct": -7.87,
+    "prev_close": 96.09,
+    "open": 96.81,
+    "high": 97.15,
+    "low": 87.13,
+    "volume": 420198,
+    "time": "2026-11-04T16:04:55.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 95.06,
+    "change": -8.54,
+    "change_pct": -8.24,
+    "prev_close": 103.6,
+    "open": 104.23,
+    "high": 104.96,
+    "low": 93.22,
+    "volume": 600947,
+    "time": "2026-11-04T22:05:05.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 4073.3,
+    "change": 132.9,
+    "change_pct": 3.37,
+    "prev_close": 3940.4,
+    "open": 3940.8,
+    "high": 4081.2,
+    "low": 3928.2,
+    "volume": 224747,
+    "time": "2026-11-04T16:05:04.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 80191.84,
+    "change": 2459.14,
+    "change_pct": 3.16,
+    "prev_close": 77732.7,
+    "open": 77792.91,
+    "high": 81113.04,
+    "low": 75625.01,
+    "volume": 0,
+    "time": "2026-11-04T16:15:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 107479.16,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.51,
+    "change": -0.357,
+    "change_pct": -0.35,
+    "prev_close": 101.867,
+    "open": 101.734,
+    "high": 101.698,
+    "low": 101.099,
+    "volume": 0,
+    "time": "2026-11-04T16:15:09.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "top_moves": [
+   {
+    "ticker": "FIS",
+    "name": "Fidelity National Information Services",
+    "change_pct": -23.67,
+    "price": 29.76
+   },
+   {
+    "ticker": "TRMB",
+    "name": "Trimble",
+    "change_pct": -17.31,
+    "price": 54.25
+   },
+   {
+    "ticker": "FIX",
+    "name": "Comfort Systems USA",
+    "change_pct": -15.08,
+    "price": 1091.31
+   },
+   {
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "change_pct": -14.42,
+    "price": 188.72
+   },
+   {
+    "ticker": "VST",
+    "name": "Vistra",
+    "change_pct": -13.83,
+    "price": 120.29
+   },
+   {
+    "ticker": "NRG",
+    "name": "NRG Energy",
+    "change_pct": -13.52,
+    "price": 83.25
+   },
+   {
+    "ticker": "TPL",
+    "name": "Texas Pacific Land",
+    "change_pct": -13.36,
+    "price": 287.65
+   },
+   {
+    "ticker": "VRT",
+    "name": "Vertiv",
+    "change_pct": -12.89,
+    "price": 205.55
+   },
+   {
+    "ticker": "CVS",
+    "name": "CVS Health",
+    "change_pct": -12.53,
+    "price": 79.96
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "change_pct": -12.33,
+    "price": 77.24
+   },
+   {
+    "ticker": "XYZ",
+    "name": "Block",
+    "change_pct": 15.3,
+    "price": 87.63
+   },
+   {
+    "ticker": "ZBH",
+    "name": "Zimmer Biomet",
+    "change_pct": 13.49,
+    "price": 110.15
+   },
+   {
+    "ticker": "MRNA",
+    "name": "Moderna",
+    "change_pct": 13.11,
+    "price": 258.38
+   },
+   {
+    "ticker": "SWK",
+    "name": "Stanley Black & Decker",
+    "change_pct": 13.1,
+    "price": 118.33
+   },
+   {
+    "ticker": "CDW",
+    "name": "CDW",
+    "change_pct": 12.67,
+    "price": 168.75
+   },
+   {
+    "ticker": "CNC",
+    "name": "Centene",
+    "change_pct": 12.64,
+    "price": 76.01
+   },
+   {
+    "ticker": "CPNG",
+    "name": "Coupang",
+    "change_pct": 11.95,
+    "price": 17.05
+   },
+   {
+    "ticker": "UHS",
+    "name": "Universal Health Services",
+    "change_pct": 10.91,
+    "price": 196.46
+   },
+   {
+    "ticker": "JKHY",
+    "name": "Jack Henry & Associates",
+    "change_pct": 10.83,
+    "price": 179.16
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "change_pct": 10.69,
+    "price": 271.75
+   }
+  ],
+  "todays_stories": [
+   {
+    "path": "/news/2026-11-04/amgen-amgn-beats-q3-estimates-and-raises-its-2026-forecast/",
+    "date": "2026-11-04",
+    "title": "Amgen (AMGN) Beats Q3 Estimates and Raises Its 2026 Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "AMGN",
+     "LLY",
+     "NVO"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/block-xyz-shares-jump-as-it-raises-its-forecast-a-third-time-and-sets-a-2027-target/",
+    "date": "2026-11-04",
+    "title": "Block (XYZ) Shares Jump as It Raises Its Forecast a Third Time and Sets a 2027 Target",
+    "type": "earnings-recap",
+    "tickers": [
+     "XYZ",
+     "PYPL",
+     "AFRM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/booking-holdings-bkng-beats-q3-profit-estimates-but-guides-room-nights-to-just-1-3/",
+    "date": "2026-11-04",
+    "title": "Booking Holdings (BKNG) Beats Q3 Profit Estimates but Guides Room Nights to Just 1%-3%",
+    "type": "earnings-recap",
+    "tickers": [
+     "BKNG",
+     "EXPE",
+     "ABNB"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-04/",
+    "date": "2026-11-04",
+    "title": "Democrats Swept Congress, and the AI Trade Shook Off Its Overnight Scare",
+    "type": "daily",
+    "tickers": [
+     "AMD",
+     "ANET",
+     "SMCI",
+     "TSLA",
+     "NVO",
+     "SWKS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/novo-nordisk-nvo-raises-its-2026-forecast-a-third-time-as-the-wegovy-pill-beats/",
+    "date": "2026-11-04",
+    "title": "Novo Nordisk (NVO) Raises Its 2026 Forecast a Third Time as the Wegovy Pill Beats",
+    "type": "brief",
+    "tickers": [
+     "NVO",
+     "LLY"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/supermicro-smci-shares-jump-as-sales-hit-19-9-billion-and-it-raises-its-forecast/",
+    "date": "2026-11-04",
+    "title": "Supermicro (SMCI) Shares Jump as Sales Hit $19.9 Billion and It Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "SMCI",
+     "DELL",
+     "NVDA"
+    ]
+   }
+  ],
+  "reporting_after_close": [
+   "ARM",
+   "QCOM",
+   "MCK",
+   "MELI",
+   "APP",
+   "MSI",
+   "ALL",
+   "MET",
+   "AFL",
+   "EW",
+   "VMRK",
+   "COHR"
+  ]
+ }
+}
