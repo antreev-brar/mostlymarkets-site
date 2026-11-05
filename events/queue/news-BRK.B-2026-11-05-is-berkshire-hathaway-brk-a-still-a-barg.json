@@ -1,0 +1,95 @@
+{
+ "id": "news-BRK.B-2026-11-05-is-berkshire-hathaway-brk-a-still-a-barg",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-05T04:01:12-05:00",
+ "expires": "2026-11-05T14:01:12-05:00",
+ "tickers": [
+  "BRK.B"
+ ],
+ "headline_hint": "Berkshire Hathaway: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T04:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Is Berkshire Hathaway (BRK.A) Still A Bargain After A 102% Run?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczhRQ0ZLOEdLdEs5bEJnMWhxSG1jRjVQQ3FsREhqOHgxc3JydTE0Z0ZpOHlLM1FVaE5IVVFlQjQyNWx1ZFkxQl9NcnJJVXo4T29pVEZITFF6bUJIZFljTGZZV29wY21YNXpDcnc0QUQweERNMGg1b25TUmMwUmR2NWpXR2VHN1B1UUZ2SVp1eENZdWNUeTFYOGhNOTM1S1k1SXgw?oc=5",
+    "published": "2026-11-05T03:19:36-05:00",
+    "also": []
+   },
+   {
+    "title": "Berkshire Hathaway's Stock Portfolio Is Worth About 3 Times What It Paid. The Gains Alone Equal About 19% of the Company.",
+    "source": "The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaXJVNDE4a2VPSlRqdGl2ZC13cHJxdm5VNVlNQWhMNk1UbFEwVTI4X3l5NEJlczBQMG1MMU5qOVpDZllXMmxjVWNXRkZZcnI3eHBoV3VtRHZDUmc4ak43SUxWUkNWTFZzNTZYYWVpcG9XaFp4RDJDRFdfc1d3YnI3UHpBdXFfSUpJRV9UM3JYX1RfMVhON1c2SQ?oc=5",
+    "published": "2026-11-05T02:30:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Berkshire Hathaway: The Easy Re-Rating Is Gone",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGUzZzN3eG1yME1RSXRweXlLR3NxLTlqcVYzSDFDd19fN2tJQUdIaWlYNXYyTXVxc1dkSnlvVlFyaVBpcW01a1piYl83SkJuMVVKTWM1RGZ2STVQck9LRVZFNlA5Ykd4XzY1RmVkWGx4dW5FZ3lPeWE1Q1NuY01lZGplUEwtS0RLLXdPbE1Xbw?oc=5",
+    "published": "2026-11-05T00:39:39-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 579.09,
+   "change_pct": 3.95,
+   "prev_close": 579.09,
+   "time": "2026-11-04",
+   "mktcap": "1.25T",
+   "pe": 14.56,
+   "fpe": 53.93,
+   "yr_high": 580.65,
+   "yr_low": 464.01,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 582.32,
+    "change_pct": 0.56,
+    "time": "2026-11-05T04:00:00.019-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BRK.B",
+   "name": "Berkshire Hathaway",
+   "date": "2026-11-03",
+   "close": 557.07,
+   "prev_close": 556.11,
+   "change_pct": 0.17,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 204,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-02",
+    "change_pct": 2.51
+   },
+   "ytd_pct": 10.83,
+   "return_1m_pct": 10.47,
+   "return_6m_pct": 19.67,
+   "return_1y_pct": 16.65,
+   "high_52w": {
+    "close": 557.07,
+    "date": "2026-11-03"
+   },
+   "low_52w": {
+    "close": 465.4,
+    "date": "2026-04-22"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 1929,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 5520735,
+   "volume_vs_20d_avg": 1.25,
+   "sentences": [
+    "Berkshire Hathaway's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 November 2026, when the stock rose 2.5%.",
+    "The stock is up 10.8% this year, and at $557.07 it sits 0.0% below its 52-week closing high of $557.07 from 3 November 2026.",
+    "$1,000 invested in Berkshire Hathaway five years ago would be worth $1,929 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

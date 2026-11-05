@@ -690,6 +690,14 @@
 "BP"
 ]
 },
+"news-BRK.B-2026-11-05-is-berkshire-hathaway-brk-a-still-a-barg": {
+"created": "2026-11-05T04:01:12-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"BRK.B"
+]
+},
 "news-BX-2026-11-02-blackstone-to-invest-3-10-billion-for-49": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
@@ -731,6 +739,14 @@
 "kind": "news",
 "tickers": [
 "DIS"
+]
+},
+"news-HSBC-2026-11-05-hsbc-bought-back-156-261-shares-for-gbp": {
+"created": "2026-11-05T04:01:12-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"HSBC"
 ]
 },
 "news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
