@@ -27,7 +27,7 @@ sources = [
 
 ## What happened
 
-Shares of fuel-cell power maker Bloom Energy ($BE) **sank 16.4%** on Thursday, one of the S&P 500's biggest losers, as investors worried that the midterm results will stall the data-center buildout that buys its power systems, MarketWatch and Seeking Alpha reported. The shares closed at $167.52, down from $200.41 on Wednesday.
+Shares of fuel-cell power maker Bloom Energy ($BE) **sank 16.4%** on Thursday, one of the S&P 500's biggest losers, as investors worried that the midterm results will stall the data-center buildout that buys its power systems, MarketWatch and Seeking Alpha reported. The shares closed at $167.52, down from $200.40 on Wednesday.
 
 ```chart
 {"kind": "price", "ticker": "BE", "range": "6m", "end": "2026-11-05", "mark": "last",
