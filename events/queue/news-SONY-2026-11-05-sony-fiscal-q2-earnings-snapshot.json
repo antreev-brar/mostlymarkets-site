@@ -1,0 +1,130 @@
+{
+ "id": "news-SONY-2026-11-05-sony-fiscal-q2-earnings-snapshot",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-05T05:02:11-05:00",
+ "expires": "2026-11-05T15:02:11-05:00",
+ "tickers": [
+  "SONY"
+ ],
+ "headline_hint": "Sony Group: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T05:00:11-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Sony: Fiscal Q2 Earnings Snapshot",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcHlsQ0xFSG5WTE5uU3N1YmtINmljdnFleENzZk1UMHA4Qjh5NG5XX0ZCd0dvNGU0VVRPakRBVkhjV1F5c09RSVNIdm51VUhvSjdwZG85bGE0dTdhdE0ya2JPU2lUck5iNml2OWhLS2UtYkg2cE5QSDJTbUZtaUNLVHhRTmhlU3g3RHVxcTdFVENmaG5FMEZwbDFiMDR3UQ?oc=5",
+    "published": "2026-11-05T03:47:12-05:00",
+    "also": []
+   },
+   {
+    "title": "Sony (SONY) Reports Strong Q2 Growth but Remains Loss-Making; Ma",
+    "source": "GuruFocus",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcEZBODJ3bTl6MlVSQ1FNdEFzRU5EdDQtTUFuYU9UMFB0Ykw4V19xQTJyc2htREJvYkxBSEtBUkQyVUVra0tmeXlWTzdRS3Y5ZjQwZWg1bldUaWFXM0lVdVlNYWJhRDl1ZGdNdWVBemZvX0lNYXJ4LWw2YlJRWjAzOVFGbHB4QlhpaXJEUC1HQUk1eVBNbTRMVy0yMkV5WEFoQUNRMWMtZl81bWpTdGtFYkVLSTJNVkJmZTBZd1F1amhxUGJrZ2hfT1pnbTB5QTB6OHc?oc=5",
+    "published": "2026-11-05T03:46:55-05:00",
+    "also": []
+   },
+   {
+    "title": "ROUNDUP: Sony Group H1 Results Climb, Lifts FY Outlook; Shares Up",
+    "source": "dpa-AFX",
+    "url": "https://www.tradingview.com/news/dpa_afx:98cafbb70b81e:0-roundup-sony-group-h1-results-climb-lifts-fy-outlook-shares-up/",
+    "published": "2026-11-05T03:45:02-05:00",
+    "also": []
+   },
+   {
+    "title": "Sony Group (SONY) Reports Strong Q2 Growth and Raises Annual For",
+    "source": "GuruFocus",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX0tUSFJMeDFNUG1sRTVrTWhDa095VlFRUXFxLUhWbmc2a1A4WHdmbG1xa05tRkxKcWJQY25RNjM5dkd3YjU4NDlTWk5mZXNQVVpKd25ZMFBMeWhTR1g2ZmNmNkp0c29Ua1R6SGstNXFaU1ppRGNYSlQwWVRtSFVQVGNKbWk3eUZZSTNrMXozNVFzeng0Y0FhWkNxVXoxZzliNTVrQ050UE15UQ?oc=5",
+    "published": "2026-11-05T03:25:38-05:00",
+    "also": []
+   },
+   {
+    "title": "Sony Boosts Guidance as Profit Jumps on 'Spider-Man' Hit, Game Strength",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261105001818:0-sony-boosts-guidance-as-profit-jumps-on-spider-man-hit-game-strength/",
+    "published": "2026-11-05T02:54:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Sony Group Corp Reveals Advance In H1 Bottom Line",
+    "source": "dpa-AFX",
+    "url": "https://www.tradingview.com/news/dpa_afx:aad81dd126e41:0-sony-group-corp-reveals-advance-in-h1-bottom-line/",
+    "published": "2026-11-05T02:05:35-05:00",
+    "also": []
+   },
+   {
+    "title": "Sony Expects FY Game Op Profit Y700.0B Vs Y660.0B Previously Forecast",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261105001818_20261105002014:0-sony-expects-fy-game-op-profit-y700-0b-vs-y660-0b-previously-forecast/",
+    "published": "2026-11-05T01:51:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Sony Group Raises Revenue, Net-Profit Views for FY Ending March 2027",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261105001818_20261105002004:0-sony-group-raises-revenue-net-profit-views-for-fy-ending-march-2027/",
+    "published": "2026-11-05T01:49:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 25.95,
+   "change_pct": 2.21,
+   "prev_close": 25.95,
+   "time": "2026-11-04",
+   "mktcap": "154.80B",
+   "pe": 22.59,
+   "fpe": 19.96,
+   "yr_high": 30.34,
+   "yr_low": 19.32,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 27.23,
+    "change_pct": 4.93,
+    "time": "2026-11-05T04:54:41.931-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SONY",
+   "name": "Sony Group",
+   "date": "2026-11-03",
+   "close": 25.39,
+   "prev_close": 25.51,
+   "change_pct": -0.47,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 193,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -0.67
+   },
+   "ytd_pct": -0.82,
+   "return_1m_pct": 7.86,
+   "return_6m_pct": 26.19,
+   "return_1y_pct": -8.96,
+   "high_52w": {
+    "close": 30.26,
+    "date": "2025-11-12"
+   },
+   "low_52w": {
+    "close": 19.32,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 16.09,
+   "thousand_dollars_5y_ago_now": 1057,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 3942199,
+   "volume_vs_20d_avg": 0.96,
+   "sentences": [
+    "Sony Group's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 0.7%.",
+    "The stock is down 0.8% this year, and at $25.39 it sits 16.1% below its 52-week closing high of $30.26 from 12 November 2025.",
+    "$1,000 invested in Sony Group five years ago would be worth $1,057 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

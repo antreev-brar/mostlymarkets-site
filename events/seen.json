@@ -127,6 +127,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-05": {
+"created": "2026-11-05T05:02:11-05:00",
+"day": "2026-11-05",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -899,6 +905,14 @@
 "kind": "news",
 "tickers": [
 "SHEL"
+]
+},
+"news-SONY-2026-11-05-sony-fiscal-q2-earnings-snapshot": {
+"created": "2026-11-05T05:02:11-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"SONY"
 ]
 },
 "news-TM-2026-11-05-toyota-raises-profit-forecast-on-hybrid": {

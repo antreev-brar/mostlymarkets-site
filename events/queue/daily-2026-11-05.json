@@ -1,0 +1,419 @@
+{
+ "id": "daily-2026-11-05",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-05T05:02:11-05:00",
+ "expires": "2026-11-05T10:30:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the one story behind yesterday's market>",
+ "instructions": "The morning edition before the open on Thursday 05 November. Tell the story of the last session (Wednesday 04 November) and set up today: a narrative lede, then a thread of 6 to 8 takes, each one claim with one chart or stat block, then What's next (today's reporters and data) and The numbers. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T05:00:11-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7688.62,
+    "change": 119.7,
+    "change_pct": 1.58,
+    "prev_close": 7688.62,
+    "open": 7635.81,
+    "high": 7715.57,
+    "low": 7635.81,
+    "volume": 0,
+    "time": "2026-11-04",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25736.513,
+    "change": 364.504,
+    "change_pct": 1.44,
+    "prev_close": 25736.513,
+    "open": 25652.782,
+    "high": 26048.829,
+    "low": 25602.137,
+    "volume": 0,
+    "time": "2026-11-04",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 53356.12,
+    "change": 1569.4,
+    "change_pct": 3.03,
+    "prev_close": 53356.12,
+    "open": 52410.23,
+    "high": 53492.4,
+    "low": 52410.23,
+    "volume": 712504679,
+    "time": "2026-11-04",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2856.95,
+    "change": 44.502,
+    "change_pct": 1.58,
+    "prev_close": 2856.95,
+    "open": 2856.261,
+    "high": 2875.135,
+    "low": 2831.505,
+    "volume": 0,
+    "time": "2026-11-04",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 16.8,
+    "change": 0.19,
+    "change_pct": 1.14,
+    "prev_close": 16.61,
+    "open": 17.14,
+    "high": 17.19,
+    "low": 16.8,
+    "volume": 0,
+    "time": "2026-11-05T05:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.88,
+    "change": -0.012,
+    "change_pct": -0.2453,
+    "prev_close": 4.892,
+    "open": 4.88,
+    "high": 4.888,
+    "low": 4.837,
+    "volume": 0,
+    "time": "2026-11-05T05:00:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.591,
+    "change": 0.01,
+    "change_pct": -0.0195,
+    "prev_close": 4.581,
+    "open": 4.577,
+    "high": 4.593,
+    "low": 4.548,
+    "volume": 0,
+    "time": "2026-11-05T04:58:35.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 88.38,
+    "change": 0.26,
+    "change_pct": 0.3,
+    "prev_close": 88.12,
+    "open": 88.05,
+    "high": 88.52,
+    "low": 86.65,
+    "volume": 69257,
+    "time": "2026-11-05T04:50:09.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 95.77,
+    "change": 1.15,
+    "change_pct": 1.22,
+    "prev_close": 94.62,
+    "open": 94.62,
+    "high": 95.97,
+    "low": 93.44,
+    "volume": 101164,
+    "time": "2026-11-05T10:50:09.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 4135.0,
+    "change": 62.0,
+    "change_pct": 1.52,
+    "prev_close": 4073.0,
+    "open": 4075.4,
+    "high": 4155.8,
+    "low": 4067.0,
+    "volume": 75827,
+    "time": "2026-11-05T04:50:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 80379.39,
+    "change": 301.68,
+    "change_pct": 0.38,
+    "prev_close": 80077.71,
+    "open": 80060.6,
+    "high": 80880.18,
+    "low": 80008.29,
+    "volume": 0,
+    "time": "2026-11-05T05:00:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 107479.16,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.504,
+    "change": -0.062,
+    "change_pct": -0.06,
+    "prev_close": 101.566,
+    "open": 101.474,
+    "high": 101.526,
+    "low": 101.195,
+    "volume": 0,
+    "time": "2026-11-05T05:00:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-11-04",
+  "moves": [
+   {
+    "ticker": "J",
+    "name": "Jacobs Solutions",
+    "close": 160.11,
+    "change_pct": 0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "AES",
+    "name": "AES",
+    "close": 14.9,
+    "change_pct": -0.13,
+    "our_stories": []
+   },
+   {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "close": 213.5,
+    "change_pct": -0.13,
+    "our_stories": []
+   },
+   {
+    "ticker": "HUM",
+    "name": "Humana",
+    "close": 417.42,
+    "change_pct": -0.11,
+    "our_stories": []
+   },
+   {
+    "ticker": "NDSN",
+    "name": "Nordson",
+    "close": 330.7,
+    "change_pct": -0.11,
+    "our_stories": []
+   },
+   {
+    "ticker": "TECH",
+    "name": "Bio-Techne",
+    "close": 72.73,
+    "change_pct": 0.1,
+    "our_stories": []
+   },
+   {
+    "ticker": "Q",
+    "name": "Qnity Electronics",
+    "close": 118.78,
+    "change_pct": -0.09,
+    "our_stories": []
+   },
+   {
+    "ticker": "PPL",
+    "name": "PPL",
+    "close": 35.72,
+    "change_pct": 0.03,
+    "our_stories": []
+   },
+   {
+    "ticker": "FE",
+    "name": "FirstEnergy",
+    "close": 47.18,
+    "change_pct": -0.02,
+    "our_stories": []
+   },
+   {
+    "ticker": "SNPS",
+    "name": "Synopsys",
+    "close": 462.95,
+    "change_pct": 0.02,
+    "our_stories": []
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "Amgen (AMGN) Beats Q3 Estimates and Raises Its 2026 Forecast",
+    "path": "/news/2026-11-04/amgen-amgn-beats-q3-estimates-and-raises-its-2026-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Block (XYZ) Shares Jump as It Raises Its Forecast a Third Time and Sets a 2027 Target",
+    "path": "/news/2026-11-04/block-xyz-shares-jump-as-it-raises-its-forecast-a-third-time-and-sets-a-2027-target/",
+    "type": "earnings-recap",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Booking Holdings (BKNG) Beats Q3 Profit Estimates but Guides Room Nights to Just 1%-3%",
+    "path": "/news/2026-11-04/booking-holdings-bkng-beats-q3-profit-estimates-but-guides-room-nights-to-just-1-3/",
+    "type": "earnings-recap",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Democrats Swept Congress, and the AI Trade Shook Off Its Overnight Scare",
+    "path": "/daily/2026-11-04/",
+    "type": "daily",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Novo Nordisk (NVO) Raises Its 2026 Forecast a Third Time as the Wegovy Pill Beats",
+    "path": "/news/2026-11-04/novo-nordisk-nvo-raises-its-2026-forecast-a-third-time-as-the-wegovy-pill-beats/",
+    "type": "brief",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Supermicro (SMCI) Shares Jump as Sales Hit $19.9 Billion and It Raises Its Forecast",
+    "path": "/news/2026-11-04/supermicro-smci-shares-jump-as-sales-hit-19-9-billion-and-it-raises-its-forecast/",
+    "type": "earnings-recap",
+    "date": "2026-11-04"
+   }
+  ],
+  "reporting_today": [
+   {
+    "ticker": "COP",
+    "time": "bmo",
+    "eps_forecast": 3.06
+   },
+   {
+    "ticker": "SONY",
+    "time": "bmo",
+    "eps_forecast": 0.38
+   },
+   {
+    "ticker": "PH",
+    "time": "bmo",
+    "eps_forecast": 8.23
+   },
+   {
+    "ticker": "SO",
+    "time": "bmo",
+    "eps_forecast": 1.71
+   },
+   {
+    "ticker": "ABNB",
+    "time": "amc",
+    "eps_forecast": 2.86
+   },
+   {
+    "ticker": "DUK",
+    "time": "bmo",
+    "eps_forecast": 1.87
+   },
+   {
+    "ticker": "MNST",
+    "time": "amc",
+    "eps_forecast": 0.3
+   },
+   {
+    "ticker": "NET",
+    "time": "amc",
+    "eps_forecast": 0.02
+   },
+   {
+    "ticker": "CI",
+    "time": "bmo",
+    "eps_forecast": 7.46
+   },
+   {
+    "ticker": "EOG",
+    "time": "amc",
+    "eps_forecast": 4.45
+   }
+  ]
+ }
+}
