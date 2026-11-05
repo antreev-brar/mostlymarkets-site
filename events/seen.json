@@ -1291,6 +1291,14 @@
 "ANET"
 ]
 },
+"recap-APD-2026-11-05": {
+"created": "2026-11-05T06:30:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"APD"
+]
+},
 "recap-APH-2026-10-28": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1379,6 +1387,14 @@
 "created": "2026-11-01T01:04:20-05:00",
 "day": "2026-11-01",
 "kind": "earnings-recap"
+},
+"recap-CI-2026-11-05": {
+"created": "2026-11-05T06:30:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"CI"
+]
 },
 "recap-CL-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
@@ -1927,6 +1943,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "TOST"
+]
+},
+"recap-TRGP-2026-11-05": {
+"created": "2026-11-05T06:30:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"TRGP"
 ]
 },
 "recap-TT-2026-10-29": {
