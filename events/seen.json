@@ -1431,6 +1431,14 @@
 "COHR"
 ]
 },
+"recap-COP-2026-11-05": {
+"created": "2026-11-05T07:15:14-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"COP"
+]
+},
 "recap-COR-2026-11-04": {
 "created": "2026-11-04T06:45:13-05:00",
 "day": "2026-11-04",
@@ -1886,6 +1894,14 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-ROK-2026-11-05": {
+"created": "2026-11-05T07:15:14-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"ROK"
+]
+},
 "recap-ROKU-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
 "day": "2026-11-02",
@@ -2055,6 +2071,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "ZBH"
+]
+},
+"recap-ZTS-2026-11-05": {
+"created": "2026-11-05T07:15:14-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"ZTS"
 ]
 },
 "roundup-2026-11-04-amc": {
