@@ -257,6 +257,13 @@
 "theme": "compounders",
 "tickers": []
 },
+"list-2026-11-05-4": {
+"created": "2026-11-05T16:30:13-05:00",
+"day": "2026-11-05",
+"kind": "list",
+"theme": "fast-growers",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1661,6 +1668,14 @@
 "DUK"
 ]
 },
+"recap-DVN-2026-11-05": {
+"created": "2026-11-05T16:30:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"DVN"
+]
+},
 "recap-EL-2026-11-02": {
 "created": "2026-11-02T08:01:12-05:00",
 "day": "2026-11-02",
@@ -1675,6 +1690,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "EMR"
+]
+},
+"recap-EOG-2026-11-05": {
+"created": "2026-11-05T16:30:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"EOG"
 ]
 },
 "recap-ETN-2026-11-03": {
@@ -1889,6 +1912,14 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-LYV-2026-11-05": {
+"created": "2026-11-05T16:30:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"LYV"
+]
+},
 "recap-MA-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1908,6 +1939,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "MCD"
+]
+},
+"recap-MCHP-2026-11-05": {
+"created": "2026-11-05T16:30:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"MCHP"
 ]
 },
 "recap-MCK-2026-11-04": {
@@ -1977,6 +2016,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "MSI"
+]
+},
+"recap-NET-2026-11-05": {
+"created": "2026-11-05T16:30:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"NET"
 ]
 },
 "recap-NVO-2026-11-04": {
