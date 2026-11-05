@@ -1,0 +1,159 @@
+{
+ "id": "roundup-2026-11-05-amc",
+ "kind": "earnings-roundup",
+ "story_type": "earnings-roundup",
+ "priority": 60,
+ "created": "2026-11-05T17:01:38-05:00",
+ "expires": "2026-11-06T20:00:00-05:00",
+ "tickers": [
+  "MTD",
+  "AEE",
+  "AXON",
+  "AFRM"
+ ],
+ "headline_hint": "Results roundup: 4 more companies that reported after the close on Thursday",
+ "instructions": "A results roundup: a paragraph of 80 to 120 words per company, biggest first (revenue and EPS against consensus, naming the provider; guidance; the stock's reaction with its session), then a closing paragraph on what they say together. Every number from the company's release or two independent sources.",
+ "quotes_asof": "2026-11-05T17:00:09-05:00",
+ "pack": {
+  "results_date": "2026-11-05",
+  "session": "amc",
+  "companies": [
+   {
+    "calendar": {
+     "ticker": "MTD",
+     "name": "Mettler-Toledo International, Inc.",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 12.11,
+     "n_estimates": 3,
+     "eps_last_year": 11.15,
+     "last_year_date": "11/06/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 34022879200.0
+    },
+    "quote": {
+     "price": 1679.08,
+     "change_pct": -2.56,
+     "prev_close": 1723.24,
+     "time": "2026-11-05T16:10:00.000-0500",
+     "mktcap": "33.643B",
+     "pe": 37.79,
+     "fpe": 34.19,
+     "yr_high": 1759.48,
+     "yr_low": 1023.05,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 1679.08,
+      "change_pct": 0.0,
+      "time": "2026-11-05T16:15:23.587-0500"
+     }
+    },
+    "name": "Mettler Toledo",
+    "sector": "Health Care"
+   },
+   {
+    "calendar": {
+     "ticker": "AEE",
+     "name": "Ameren Corporation",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 2.29,
+     "n_estimates": 6,
+     "eps_last_year": 2.17,
+     "last_year_date": "11/05/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 30555189200.0
+    },
+    "quote": {
+     "price": 112.81,
+     "change_pct": -0.24,
+     "prev_close": 113.08,
+     "time": "2026-11-05T16:10:00.000-0500",
+     "mktcap": "31.231B",
+     "pe": 19.86,
+     "fpe": 20.36,
+     "yr_high": 118.32,
+     "yr_low": 96.57,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 113.06,
+      "change_pct": 0.22,
+      "time": "2026-11-05T16:30:30.531-0500"
+     }
+    },
+    "name": "Ameren",
+    "sector": "Utilities"
+   },
+   {
+    "calendar": {
+     "ticker": "AXON",
+     "name": "Axon Enterprise, Inc.",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 0.44,
+     "n_estimates": 7,
+     "eps_last_year": null,
+     "last_year_date": "11/04/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 33841070100.0
+    },
+    "quote": {
+     "price": 382.56,
+     "change_pct": -9.81,
+     "prev_close": 424.18,
+     "time": "2026-11-05T16:00:00.000-0500",
+     "mktcap": "31.078B",
+     "pe": 158.44,
+     "fpe": 43.03,
+     "yr_high": 665.07,
+     "yr_low": 339.01,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 336.0,
+      "change_pct": -12.17,
+      "time": "2026-11-05T16:59:02.041-0500"
+     }
+    },
+    "name": "Axon Enterprise",
+    "sector": "Industrials"
+   },
+   {
+    "calendar": {
+     "ticker": "AFRM",
+     "name": "Affirm Holdings, Inc.",
+     "time": "amc",
+     "quarter": "Sep/2026",
+     "eps_forecast": 0.35,
+     "n_estimates": 8,
+     "eps_last_year": 0.23,
+     "last_year_date": "11/06/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 24392032300.0
+    },
+    "quote": {
+     "price": 69.66,
+     "change_pct": -7.84,
+     "prev_close": 75.59,
+     "time": "2026-11-05T16:00:00.000-0500",
+     "mktcap": "23.615B",
+     "pe": 12.61,
+     "fpe": 35.7,
+     "yr_high": 90.44,
+     "yr_low": 42.1,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 62.0,
+      "change_pct": -11.0,
+      "time": "2026-11-05T16:59:39.872-0500"
+     }
+    },
+    "name": "Affirm",
+    "sector": "Financials"
+   }
+  ]
+ }
+}

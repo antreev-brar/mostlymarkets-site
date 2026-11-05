@@ -2372,6 +2372,17 @@
 "PTC"
 ]
 },
+"roundup-2026-11-05-amc": {
+"created": "2026-11-05T17:01:38-05:00",
+"day": "2026-11-05",
+"kind": "earnings-roundup",
+"tickers": [
+"MTD",
+"AEE",
+"AXON",
+"AFRM"
+]
+},
 "roundup-2026-11-05-bmo": {
 "created": "2026-11-05T08:01:15-05:00",
 "day": "2026-11-05",
