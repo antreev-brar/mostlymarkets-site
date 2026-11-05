@@ -1,0 +1,94 @@
+{
+ "id": "news-ANET-2026-11-05-arista-networks-anet-stock-price-rallies",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-05T00:01:50-05:00",
+ "expires": "2026-11-05T10:01:50-05:00",
+ "tickers": [
+  "ANET"
+ ],
+ "headline_hint": "Arista Networks: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T00:00:11-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Arista Networks director Mark Templeton sells $829,255 in shares",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRDRiQ0w4ZFREeExqeF9waUQ2cHdDLUhnaDlQXzM4UWZzVVVjV3RDMmhiLVc5YzQyZDRyWVNFSXFVVWQ1NWdKM3NPLUdwMXhLLTNfUmstOWFqZndSUm95Y1M0N2IzZU91MjdOd29mN0p2NnpvZGpMdUZZQmVSRWN4ZzFvcmY4eG1zWndUdHBORVhOZUwxZzZqbVlZdm1mQ0hDcU9ST1pEMTJMTW5PVFQ2UzBYYmNMYnRSVjRPVGdnU3BZbVQwWnc?oc=5",
+    "published": "2026-11-04T23:11:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Arista Networks (ANET) Stock Price Rallies After Q3 Earnings Shock",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdk5waTd5dkFDWTBVcXV1Tnl5dkNGZVV0Q2hBUHJTbnRxV3pkZ2QyY0l3N0FFajByMnZ5UWVWZ2hxQTlHLUNhOGNIVEtFSl9HX2FqamFtWWJ1RXhscWFfdUpYNWc4czhLQ1lOa1hSdm9nbjlIb2dwdHlGSzIyM3VZRktiVFg2UTct?oc=5",
+    "published": "2026-11-04T20:14:00-05:00",
+    "also": [
+     "MarketBeat"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 178.48,
+   "change_pct": 5.04,
+   "prev_close": 178.48,
+   "time": "2026-11-04",
+   "mktcap": "225.103B",
+   "pe": 47.93,
+   "fpe": 37.9,
+   "yr_high": 217.41,
+   "yr_low": 114.52,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 177.69,
+    "change_pct": -0.44,
+    "time": "2026-11-04"
+   }
+  },
+  "facts": {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "date": "2026-11-03",
+   "close": 169.91,
+   "prev_close": 164.14,
+   "change_pct": 3.52,
+   "moves_over_5pct_last_year": 33,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 70,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": 5.51
+   },
+   "ytd_pct": 29.67,
+   "return_1m_pct": -17.88,
+   "return_6m_pct": -0.18,
+   "return_1y_pct": 7.75,
+   "high_52w": {
+    "close": 216.74,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 116.13,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 21.61,
+   "thousand_dollars_5y_ago_now": 5291,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 12814800,
+   "volume_vs_20d_avg": 2.06,
+   "sentences": [
+    "Arista Networks's shares moved 5% or more on 33 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock rose 5.5%.",
+    "The stock is up 29.7% this year, and at $169.91 it sits 21.6% below its 52-week closing high of $216.74 from 9 October 2026.",
+    "$1,000 invested in Arista Networks five years ago would be worth $5,291 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-04/",
+   "/news/2026-11-03/arista-networks-anet-beats-q3-estimates-as-sales-grow-58-5/",
+   "/news/2026-11-02/what-to-expect-from-arista-networks-anet-q3-earnings/"
+  ]
+ }
+}

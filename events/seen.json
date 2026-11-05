@@ -613,6 +613,14 @@
 "AMD"
 ]
 },
+"news-ANET-2026-11-05-arista-networks-anet-stock-price-rallies": {
+"created": "2026-11-05T00:01:50-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"ANET"
+]
+},
 "news-ARM-2026-11-03-arm-is-up-88-in-2026-and-down-55-from-it": {
 "created": "2026-11-03T02:01:03-05:00",
 "day": "2026-11-03",
@@ -866,6 +874,14 @@
 "day": "2026-11-04",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-UNH-2026-11-05-unitedhealth-unh-q3-earnings-lift-confid": {
+"created": "2026-11-05T00:01:50-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"UNH"
+]
 },
 "preview-AAPL-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",
