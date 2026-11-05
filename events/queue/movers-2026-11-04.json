@@ -1,0 +1,103 @@
+{
+ "id": "movers-2026-11-04",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-05T09:01:14-05:00",
+ "expires": "2026-11-05T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Wednesday 04 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-05T09:00:10-05:00",
+ "pack": {
+  "session": "2026-11-04",
+  "moves": [
+   {
+    "ticker": "FIS",
+    "name": "Fidelity National Information Services",
+    "close": 29.76,
+    "change_pct": -23.67,
+    "our_stories": []
+   },
+   {
+    "ticker": "TRMB",
+    "name": "Trimble",
+    "close": 54.25,
+    "change_pct": -17.31,
+    "our_stories": []
+   },
+   {
+    "ticker": "XYZ",
+    "name": "Block",
+    "close": 87.63,
+    "change_pct": 15.3,
+    "our_stories": [
+     "/news/2026-11-04/block-xyz-shares-jump-as-it-raises-its-forecast-a-third-time-and-sets-a-2027-target/"
+    ]
+   },
+   {
+    "ticker": "FIX",
+    "name": "Comfort Systems USA",
+    "close": 1091.31,
+    "change_pct": -15.08,
+    "our_stories": []
+   },
+   {
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "close": 188.72,
+    "change_pct": -14.42,
+    "our_stories": []
+   },
+   {
+    "ticker": "VST",
+    "name": "Vistra",
+    "close": 120.29,
+    "change_pct": -13.83,
+    "our_stories": []
+   },
+   {
+    "ticker": "NRG",
+    "name": "NRG Energy",
+    "close": 83.25,
+    "change_pct": -13.52,
+    "our_stories": []
+   },
+   {
+    "ticker": "ZBH",
+    "name": "Zimmer Biomet",
+    "close": 110.15,
+    "change_pct": 13.49,
+    "our_stories": []
+   },
+   {
+    "ticker": "TPL",
+    "name": "Texas Pacific Land",
+    "close": 287.65,
+    "change_pct": -13.36,
+    "our_stories": []
+   },
+   {
+    "ticker": "MRNA",
+    "name": "Moderna",
+    "close": 258.38,
+    "change_pct": 13.11,
+    "our_stories": []
+   },
+   {
+    "ticker": "SWK",
+    "name": "Stanley Black & Decker",
+    "close": 118.33,
+    "change_pct": 13.1,
+    "our_stories": []
+   },
+   {
+    "ticker": "VRT",
+    "name": "Vertiv",
+    "close": 205.55,
+    "change_pct": -12.89,
+    "our_stories": []
+   }
+  ]
+ }
+}
