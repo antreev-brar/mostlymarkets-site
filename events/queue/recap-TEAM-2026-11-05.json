@@ -1,0 +1,90 @@
+{
+ "id": "recap-TEAM-2026-11-05",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-05T16:15:13-05:00",
+ "expires": "2026-11-06T20:00:00-05:00",
+ "tickers": [
+  "TEAM"
+ ],
+ "headline_hint": "Atlassian (TEAM) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-05T16:15:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TEAM",
+   "name": "Atlassian Corporation ",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.24,
+   "n_estimates": 6,
+   "eps_last_year": null,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 47879492000.0
+  },
+  "quote": {
+   "price": 183.29,
+   "change_pct": -3.47,
+   "prev_close": 189.88,
+   "time": "2026-11-05T16:00:00.000-0500",
+   "mktcap": "46.162B",
+   "pe": -986.49,
+   "fpe": 33.28,
+   "yr_high": 229.96,
+   "yr_low": 56.01,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 151.9,
+    "change_pct": -17.13,
+    "time": "2026-11-05T16:15:01.907-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TEAM",
+   "name": "Atlassian",
+   "date": "2026-11-05",
+   "close": 183.29,
+   "prev_close": 189.88,
+   "change_pct": -3.47,
+   "moves_over_5pct_last_year": 51,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 86,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -6.07
+   },
+   "ytd_pct": 13.04,
+   "return_1m_pct": -6.38,
+   "return_6m_pct": 98.43,
+   "return_1y_pct": 11.08,
+   "high_52w": {
+    "close": 227.61,
+    "date": "2026-10-23"
+   },
+   "low_52w": {
+    "close": 57.15,
+    "date": "2026-04-10"
+   },
+   "pct_below_52w_high": 19.47,
+   "thousand_dollars_5y_ago_now": 416,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 5201624,
+   "volume_vs_20d_avg": 1.92,
+   "sentences": [
+    "Atlassian's shares moved 5% or more on 51 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 6.1%.",
+    "The stock is up 13.0% this year, and at $183.29 it sits 19.5% below its 52-week closing high of $227.61 from 23 October 2026.",
+    "$1,000 invested in Atlassian five years ago would be worth $416 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/0001650372-26-000049-index.htm",
+  "release_text": "events/packs/recap-TEAM-2026-11-05.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm"
+ }
+}

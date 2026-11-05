@@ -1,0 +1,90 @@
+{
+ "id": "recap-SPG-2026-11-05",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-05T16:15:13-05:00",
+ "expires": "2026-11-06T20:00:00-05:00",
+ "tickers": [
+  "SPG"
+ ],
+ "headline_hint": "Simon Property Group (SPG) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-05T16:15:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "SPG",
+   "name": "Simon Property Group, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.32,
+   "n_estimates": 6,
+   "eps_last_year": 3.22,
+   "last_year_date": "11/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 73931522000.0
+  },
+  "quote": {
+   "price": 226.55,
+   "change_pct": -0.85,
+   "prev_close": 228.5,
+   "time": "2026-11-05T16:10:00.000-0500",
+   "mktcap": "73.302B",
+   "pe": 15.99,
+   "fpe": 32.69,
+   "yr_high": 238.5,
+   "yr_low": 177.88,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 221.47,
+    "change_pct": -2.24,
+    "time": "2026-11-05T16:15:04.497-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SPG",
+   "name": "Simon Property Group",
+   "date": "2026-11-05",
+   "close": 226.55,
+   "prev_close": 228.5,
+   "change_pct": -0.85,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 109,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-19",
+    "change_pct": -1.44
+   },
+   "ytd_pct": 22.39,
+   "return_1m_pct": 14.66,
+   "return_6m_pct": 12.49,
+   "return_1y_pct": 24.08,
+   "high_52w": {
+    "close": 236.7,
+    "date": "2026-07-28"
+   },
+   "low_52w": {
+    "close": 178.27,
+    "date": "2026-03-24"
+   },
+   "pct_below_52w_high": 4.29,
+   "thousand_dollars_5y_ago_now": 1329,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 1925846,
+   "volume_vs_20d_avg": 1.45,
+   "sentences": [
+    "Simon Property Group's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 19 October 2026, when the stock fell 1.4%.",
+    "The stock is up 22.4% this year, and at $226.55 it sits 4.3% below its 52-week closing high of $236.70 from 28 July 2026.",
+    "$1,000 invested in Simon Property Group five years ago would be worth $1,329 today."
+   ]
+  },
+  "sector": "Real Estate",
+  "industry": "Retail REITs",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926123325/0001104659-26-123325-index.htm",
+  "release_text": "events/packs/recap-SPG-2026-11-05.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926123325/tm2627777d2_ex99-1.htm"
+ }
+}

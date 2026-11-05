@@ -1357,6 +1357,14 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-ABNB-2026-11-05": {
+"created": "2026-11-05T16:15:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"ABNB"
+]
+},
 "recap-ADM-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
@@ -2129,6 +2137,14 @@
 "SONY"
 ]
 },
+"recap-SPG-2026-11-05": {
+"created": "2026-11-05T16:15:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"SPG"
+]
+},
 "recap-SRE-2026-11-05": {
 "created": "2026-11-05T08:01:15-05:00",
 "day": "2026-11-05",
@@ -2156,6 +2172,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "SYY"
+]
+},
+"recap-TEAM-2026-11-05": {
+"created": "2026-11-05T16:15:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"TEAM"
 ]
 },
 "recap-TKO-2026-11-04": {
@@ -2347,6 +2371,12 @@
 "wrap-2026-11-04": {
 "created": "2026-11-04T16:15:15-05:00",
 "day": "2026-11-04",
+"kind": "market-wrap",
+"tickers": []
+},
+"wrap-2026-11-05": {
+"created": "2026-11-05T16:15:13-05:00",
+"day": "2026-11-05",
 "kind": "market-wrap",
 "tickers": []
 }
