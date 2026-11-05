@@ -1333,6 +1333,14 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-BDX-2026-11-05": {
+"created": "2026-11-05T06:45:14-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"BDX"
+]
+},
 "recap-BKNG-2026-11-03": {
 "created": "2026-11-03T16:15:23-05:00",
 "day": "2026-11-03",
@@ -1646,6 +1654,14 @@
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
 "kind": "earnings-recap"
+},
+"recap-KMB-2026-11-05": {
+"created": "2026-11-05T06:45:14-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"KMB"
+]
 },
 "recap-KVUE-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
