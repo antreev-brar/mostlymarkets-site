@@ -1184,6 +1184,14 @@
 "BKNG"
 ]
 },
+"preview-BRK.B-2026-11-06": {
+"created": "2026-11-05T17:30:21-05:00",
+"day": "2026-11-05",
+"kind": "earnings-preview",
+"tickers": [
+"BRK.B"
+]
+},
 "preview-COP-2026-11-05": {
 "created": "2026-11-04T17:30:14-05:00",
 "day": "2026-11-04",
@@ -1209,6 +1217,14 @@
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
 "kind": "earnings-preview"
+},
+"preview-HUM-2026-11-06": {
+"created": "2026-11-05T17:30:21-05:00",
+"day": "2026-11-05",
+"kind": "earnings-preview",
+"tickers": [
+"HUM"
+]
 },
 "preview-KDP-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
@@ -1237,6 +1253,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "MPC"
+]
+},
+"preview-MRNA-2026-11-06": {
+"created": "2026-11-05T17:30:21-05:00",
+"day": "2026-11-05",
+"kind": "earnings-preview",
+"tickers": [
+"MRNA"
 ]
 },
 "preview-O-2026-11-02": {
@@ -1349,6 +1373,16 @@
 "EOG",
 "SPG",
 "APD"
+]
+},
+"previews-2026-11-06": {
+"created": "2026-11-05T17:30:21-05:00",
+"day": "2026-11-05",
+"kind": "preview-roundup",
+"tickers": [
+"VST",
+"PPL",
+"ECHO"
 ]
 },
 "recap-AAPL-2026-11-02": {

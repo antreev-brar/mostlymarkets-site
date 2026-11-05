@@ -1,0 +1,243 @@
+{
+ "id": "previews-2026-11-06",
+ "kind": "preview-roundup",
+ "story_type": "preview-roundup",
+ "priority": 42,
+ "created": "2026-11-05T17:30:21-05:00",
+ "expires": "2026-11-06T09:00:00-05:00",
+ "tickers": [
+  "VST",
+  "PPL",
+  "ECHO"
+ ],
+ "headline_hint": "What to Expect From Friday's Earnings: Vistra, PPL and EchoStar",
+ "instructions": "A preview roundup of 3 companies reporting on Friday, biggest first: for each, when it reports, consensus revenue and EPS against a year ago (naming the provider), last quarter's result and how the stock took it, and the one number or comment that will move the stock. Then which report has the most riding on it, with the reasons in numbers. Follow the preview-roundup template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T17:30:16-05:00",
+ "pack": {
+  "report_date": "2026-11-06",
+  "companies": [
+   {
+    "ticker": "VST",
+    "calendar": {
+     "ticker": "VST",
+     "name": "Vistra Corp.",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 2.89,
+     "n_estimates": 3,
+     "eps_last_year": 1.75,
+     "last_year_date": "11/06/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 40373559000.0
+    },
+    "quote": {
+     "price": 112.89,
+     "change_pct": -6.15,
+     "prev_close": 120.29,
+     "time": "2026-11-05T16:10:00.000-0500",
+     "mktcap": "37.89B",
+     "pe": 19.07,
+     "fpe": 12.75,
+     "yr_high": 196.8,
+     "yr_low": 110.89,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 112.5,
+      "change_pct": -0.35,
+      "time": "2026-11-05T17:29:59.795-0500"
+     }
+    },
+    "name": "Vistra",
+    "sector": "Utilities",
+    "facts": {
+     "ticker": "VST",
+     "name": "Vistra",
+     "date": "2026-11-05",
+     "close": 112.89,
+     "prev_close": 120.29,
+     "change_pct": -6.15,
+     "moves_over_5pct_last_year": 27,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 15,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-04",
+      "change_pct": -13.83
+     },
+     "ytd_pct": -30.03,
+     "return_1m_pct": -32.29,
+     "return_6m_pct": -26.67,
+     "return_1y_pct": -39.22,
+     "high_52w": {
+      "close": 191.0,
+      "date": "2025-11-07"
+     },
+     "low_52w": {
+      "close": 112.89,
+      "date": "2026-11-05"
+     },
+     "pct_below_52w_high": 40.9,
+     "thousand_dollars_5y_ago_now": 5507,
+     "five_years_ago_date": "2021-11-05",
+     "volume": 14967772,
+     "volume_vs_20d_avg": 2.18,
+     "sentences": [
+      "Vistra's shares moved 5% or more on 27 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 4 November 2026, when the stock fell 13.8%.",
+      "The stock is down 30.0% this year, and at $112.89 it sits 40.9% below its 52-week closing high of $191.00 from 7 November 2025.",
+      "$1,000 invested in Vistra five years ago would be worth $5,507 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "PPL",
+    "calendar": {
+     "ticker": "PPL",
+     "name": "PPL Corporation",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 0.53,
+     "n_estimates": 5,
+     "eps_last_year": 0.48,
+     "last_year_date": "11/05/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 26880901100.0
+    },
+    "quote": {
+     "price": 36.0,
+     "change_pct": 0.78,
+     "prev_close": 35.72,
+     "time": "2026-11-05T16:10:00.000-0500",
+     "mktcap": "27.092B",
+     "pe": 21.38,
+     "fpe": 17.15,
+     "yr_high": 40.11,
+     "yr_low": 31.56,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 36.0,
+      "change_pct": 0.0,
+      "time": "2026-11-05T17:23:46.254-0500"
+     }
+    },
+    "name": "PPL",
+    "sector": "Utilities",
+    "facts": {
+     "ticker": "PPL",
+     "name": "PPL",
+     "date": "2026-11-05",
+     "close": 36.0,
+     "prev_close": 35.72,
+     "change_pct": 0.78,
+     "moves_over_5pct_last_year": 0,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 127,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-02",
+      "change_pct": 1.37
+     },
+     "ytd_pct": 2.8,
+     "return_1m_pct": 6.04,
+     "return_6m_pct": -2.09,
+     "return_1y_pct": -0.69,
+     "high_52w": {
+      "close": 39.81,
+      "date": "2026-04-09"
+     },
+     "low_52w": {
+      "close": 31.97,
+      "date": "2026-09-24"
+     },
+     "pct_below_52w_high": 9.57,
+     "thousand_dollars_5y_ago_now": 1253,
+     "five_years_ago_date": "2021-11-05",
+     "volume": 12702033,
+     "volume_vs_20d_avg": 1.77,
+     "sentences": [
+      "PPL's shares moved 5% or more on 0 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 2 November 2026, when the stock rose 1.4%.",
+      "The stock is up 2.8% this year, and at $36.00 it sits 9.6% below its 52-week closing high of $39.81 from 9 April 2026.",
+      "$1,000 invested in PPL five years ago would be worth $1,253 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "ECHO",
+    "calendar": {
+     "ticker": "ECHO",
+     "name": "EchoStar Corporation",
+     "time": "bmo",
+     "quarter": "Sep/2026",
+     "eps_forecast": 0.02,
+     "n_estimates": 4,
+     "eps_last_year": 0.83,
+     "last_year_date": "11/06/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 28696264700.0
+    },
+    "quote": {
+     "price": 89.92,
+     "change_pct": -8.82,
+     "prev_close": 98.62,
+     "time": "2026-11-05T16:00:00.000-0500",
+     "mktcap": "26.165B",
+     "pe": 3.28,
+     "fpe": 28.38,
+     "yr_high": 147.25,
+     "yr_low": 65.76,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 89.92,
+      "change_pct": 0.0,
+      "time": "2026-11-05T17:23:46.115-0500"
+     }
+    },
+    "name": "EchoStar",
+    "sector": "Communication Services",
+    "facts": {
+     "ticker": "ECHO",
+     "name": "EchoStar",
+     "date": "2026-11-05",
+     "close": 89.92,
+     "prev_close": 98.62,
+     "change_pct": -8.82,
+     "moves_over_5pct_last_year": 31,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 7,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-06-12",
+      "change_pct": -10.97
+     },
+     "ytd_pct": -17.28,
+     "return_1m_pct": -7.95,
+     "return_6m_pct": -26.67,
+     "return_1y_pct": 22.37,
+     "high_52w": {
+      "close": 141.8,
+      "date": "2026-05-20"
+     },
+     "low_52w": {
+      "close": 66.93,
+      "date": "2025-11-17"
+     },
+     "pct_below_52w_high": 36.59,
+     "thousand_dollars_5y_ago_now": 3437,
+     "five_years_ago_date": "2021-11-05",
+     "volume": 7861573,
+     "volume_vs_20d_avg": 1.74,
+     "sentences": [
+      "EchoStar's shares moved 5% or more on 31 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 12 June 2026, when the stock fell 11.0%.",
+      "The stock is down 17.3% this year, and at $89.92 it sits 36.6% below its 52-week closing high of $141.80 from 20 May 2026.",
+      "$1,000 invested in EchoStar five years ago would be worth $3,437 today."
+     ]
+    },
+    "last_recap": []
+   }
+  ]
+ }
+}

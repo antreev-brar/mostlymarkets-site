@@ -1,0 +1,87 @@
+{
+ "id": "preview-HUM-2026-11-06",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-05T17:30:21-05:00",
+ "expires": "2026-11-06T09:00:00-05:00",
+ "tickers": [
+  "HUM"
+ ],
+ "headline_hint": "What to expect from Humana's (HUM) earnings",
+ "instructions": "Reports Friday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-05T17:30:16-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "HUM",
+   "name": "Humana Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 10,
+   "eps_last_year": 3.24,
+   "last_year_date": "11/05/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 50123923000.0
+  },
+  "report_date": "2026-11-06",
+  "quote": {
+   "price": 411.79,
+   "change_pct": -1.35,
+   "prev_close": 417.42,
+   "time": "2026-11-05T16:10:00.000-0500",
+   "mktcap": "49.448B",
+   "pe": 39.0,
+   "fpe": 32.88,
+   "yr_high": 456.5,
+   "yr_low": 163.11,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 411.79,
+    "change_pct": 0.0,
+    "time": "2026-11-05T17:23:46.088-0500"
+   }
+  },
+  "facts": {
+   "ticker": "HUM",
+   "name": "Humana",
+   "date": "2026-11-05",
+   "close": 411.79,
+   "prev_close": 417.42,
+   "change_pct": -1.35,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 129,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-16",
+    "change_pct": -4.41
+   },
+   "ytd_pct": 60.77,
+   "return_1m_pct": 3.85,
+   "return_6m_pct": 66.64,
+   "return_1y_pct": 46.09,
+   "high_52w": {
+    "close": 433.5,
+    "date": "2026-10-12"
+   },
+   "low_52w": {
+    "close": 163.67,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 5.01,
+   "thousand_dollars_5y_ago_now": 908,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 1303621,
+   "volume_vs_20d_avg": 0.82,
+   "sentences": [
+    "Humana's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 4.4%.",
+    "The stock is up 60.8% this year, and at $411.79 it sits 5.0% below its 52-week closing high of $433.50 from 12 October 2026.",
+    "$1,000 invested in Humana five years ago would be worth $908 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "preview-BRK.B-2026-11-06",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-05T17:30:21-05:00",
+ "expires": "2026-11-06T15:30:00-05:00",
+ "tickers": [
+  "BRK.B"
+ ],
+ "headline_hint": "What to expect from Berkshire Hathaway's (BRK.B) earnings",
+ "instructions": "Reports Friday . Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-05T17:30:16-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "BRK.B",
+   "name": "Berkshire Hathaway Inc.",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 5.91,
+   "n_estimates": 2,
+   "eps_last_year": 6.26,
+   "last_year_date": "11/01/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 1248701050000.0
+  },
+  "report_date": "2026-11-06",
+  "quote": {
+   "price": 572.33,
+   "change_pct": -1.17,
+   "prev_close": 579.09,
+   "time": "2026-11-05T16:10:00.000-0500",
+   "mktcap": "1.234T",
+   "pe": 14.39,
+   "fpe": 53.3,
+   "yr_high": 586.3,
+   "yr_low": 464.01,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 569.97,
+    "change_pct": -0.41,
+    "time": "2026-11-05T17:29:26.810-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BRK.B",
+   "name": "Berkshire Hathaway",
+   "date": "2026-11-05",
+   "close": 572.33,
+   "prev_close": 579.09,
+   "change_pct": -1.17,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 42,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-21",
+    "change_pct": -1.52
+   },
+   "ytd_pct": 13.86,
+   "return_1m_pct": 13.05,
+   "return_6m_pct": 20.47,
+   "return_1y_pct": 17.36,
+   "high_52w": {
+    "close": 579.09,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 465.4,
+    "date": "2026-04-22"
+   },
+   "pct_below_52w_high": 1.17,
+   "thousand_dollars_5y_ago_now": 1988,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 9099046,
+   "volume_vs_20d_avg": 1.94,
+   "sentences": [
+    "Berkshire Hathaway's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 21 September 2026, when the stock fell 1.5%.",
+    "The stock is up 13.9% this year, and at $572.33 it sits 1.2% below its 52-week closing high of $579.09 from 4 November 2026.",
+    "$1,000 invested in Berkshire Hathaway five years ago would be worth $1,988 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}
