@@ -1,0 +1,90 @@
+{
+ "id": "recap-CAH-2026-11-05",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-05T07:01:14-05:00",
+ "expires": "2026-11-06T20:00:00-05:00",
+ "tickers": [
+  "CAH"
+ ],
+ "headline_hint": "Cardinal Health (CAH) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-05T07:00:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "CAH",
+   "name": "Cardinal Health, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.92,
+   "n_estimates": 5,
+   "eps_last_year": 2.55,
+   "last_year_date": "10/30/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 58570621000.0
+  },
+  "quote": {
+   "price": 261.93,
+   "change_pct": 3.55,
+   "prev_close": 261.93,
+   "time": "2026-11-04",
+   "mktcap": "60.652B",
+   "pe": 36.15,
+   "fpe": 20.89,
+   "yr_high": 262.29,
+   "yr_low": 180.45,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 261.99,
+    "change_pct": 0.02,
+    "time": "2026-11-04"
+   }
+  },
+  "facts": {
+   "ticker": "CAH",
+   "name": "Cardinal Health",
+   "date": "2026-11-04",
+   "close": 261.93,
+   "prev_close": 252.94,
+   "change_pct": 3.55,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 7,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-09",
+    "change_pct": 4.01
+   },
+   "ytd_pct": 27.46,
+   "return_1m_pct": 12.2,
+   "return_6m_pct": 36.79,
+   "return_1y_pct": 37.7,
+   "high_52w": {
+    "close": 261.93,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 182.5,
+    "date": "2026-05-11"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 5328,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 2457641,
+   "volume_vs_20d_avg": 1.46,
+   "sentences": [
+    "Cardinal Health's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 June 2026, when the stock rose 4.0%.",
+    "The stock is up 27.5% this year, and at $261.93 it sits 0.0% below its 52-week closing high of $261.93 from 4 November 2026.",
+    "$1,000 invested in Cardinal Health five years ago would be worth $5,328 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Health Care Distributors",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000042/0000721371-26-000042-index.htm",
+  "release_text": "events/packs/recap-CAH-2026-11-05.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000042/a27q1_x093026xex991xnewsre.htm"
+ }
+}
