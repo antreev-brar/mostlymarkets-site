@@ -14,7 +14,7 @@ moves = [
   { ticker = "AMD", price = 404.40, change_pct = -17.26, session = "close", asof = 2026-11-05T16:00:00-05:00 },
 ]
 cover_brief = "A busy maximalist cartoon of a crowded old ski resort on a steep snowy mountain, packed edge to edge with grey-haired skiers in puffy jackets and middle-aged traders in suits tumbling and shouting: in the centre a giant green computer memory stick slides down the slope like a runaway sled, half over the edge of a cracked cliff, with a big flat white board fixed straight across its front facing the viewer reading 'CHIPS', while snow sprays into the air behind it. Directly above it hangs a big flat banner between two ski lift poles reading 'ELECTION SHOCK', while all around a balding ski patrol man blows a whistle, a grey-haired woman in a suit drops her coffee, plain server racks slide down the piste, a ballot box rolls in the snow, a plain hard drive bounces off a fir tree, a bearded lift operator stares at a stopped chairlift, a middle-aged man clutches a falling stock ticket, a snow cannon sputters, a plain power cable dangles from a pylon, a news crew films from the lodge roof and a pigeon pecks at a dropped pretzel"
-cover_alt = "A cartoon of a memory stick marked CHIPS sliding off a snowy cliff under a ELECTION SHOCK banner as skiers tumble"
+cover_alt = "A cartoon of a memory stick marked CHIPS sliding off a snowy cliff under an ELECTION SHOCK banner as skiers tumble"
 cover_text = ["CHIPS", "ELECTION SHOCK"]
 sources = [
   "https://finance.yahoo.com/markets/stocks/articles/p-500-futures-steady-midterm-105838388.html",
