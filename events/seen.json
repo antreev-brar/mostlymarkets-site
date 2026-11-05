@@ -1430,6 +1430,14 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
+"recap-CMI-2026-11-05": {
+"created": "2026-11-05T08:01:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"CMI"
+]
+},
 "recap-COHR-2026-11-04": {
 "created": "2026-11-04T16:15:15-05:00",
 "day": "2026-11-04",
@@ -1859,6 +1867,14 @@
 "PFE"
 ]
 },
+"recap-PH-2026-11-05": {
+"created": "2026-11-05T08:01:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"PH"
+]
+},
 "recap-PLTR-2026-11-02": {
 "created": "2026-11-02T16:15:16-05:00",
 "day": "2026-11-02",
@@ -1952,6 +1968,30 @@
 "created": "2026-10-30T06:23:25-04:00",
 "day": "2026-10-30",
 "kind": "earnings-recap"
+},
+"recap-SO-2026-11-05": {
+"created": "2026-11-05T08:01:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"SO"
+]
+},
+"recap-SONY-2026-11-05": {
+"created": "2026-11-05T08:01:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"SONY"
+]
+},
+"recap-SRE-2026-11-05": {
+"created": "2026-11-05T08:01:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"SRE"
+]
 },
 "recap-SWKS-2026-11-03": {
 "created": "2026-11-03T16:15:23-05:00",
@@ -2099,6 +2139,20 @@
 "STE",
 "AMCR",
 "PTC"
+]
+},
+"roundup-2026-11-05-bmo": {
+"created": "2026-11-05T08:01:15-05:00",
+"day": "2026-11-05",
+"kind": "earnings-roundup",
+"tickers": [
+"IRM",
+"DTE",
+"VRSK",
+"GPN",
+"TPR",
+"RL",
+"VTRS"
 ]
 },
 "viewpoints-2026-11-01": {
