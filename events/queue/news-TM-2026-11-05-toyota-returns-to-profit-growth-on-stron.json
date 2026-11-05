@@ -1,0 +1,132 @@
+{
+ "id": "news-TM-2026-11-05-toyota-returns-to-profit-growth-on-stron",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-05T02:01:13-05:00",
+ "expires": "2026-11-05T12:01:13-05:00",
+ "tickers": [
+  "TM"
+ ],
+ "headline_hint": "Toyota: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T02:00:11-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Toyota returns to profit growth on strong US demand for hybrids",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOTZWT0E1bmJRYThiNnVKbVB3Q2NyLWxLM3hienA2N0p3NWFvc0Mxb1N5bEdudVZlSUFna1U1SlF3RFlZQ3JWQjdLVlVweFdSWHNEV185VWI4U1hPMUJPaXVjeWdRYll0a2NCWG5lZC1YV0FiMTJYRkxkeWdVMjJEc09Vb3o?oc=5",
+    "published": "2026-11-05T01:30:03-05:00",
+    "also": []
+   },
+   {
+    "title": "Toyota Raises Earnings Forecast After Higher Operating Profit",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261105001123:0-toyota-raises-earnings-forecast-after-higher-operating-profit/",
+    "published": "2026-11-05T01:18:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Toyota reorganizes to launch new robotics unit amid industry push",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4666168-toyota-reorganizes-to-launch-new-robotics-unit-amid-industry-push",
+    "published": "2026-11-05T00:49:58-05:00",
+    "also": []
+   },
+   {
+    "title": "Toyota CFO: Miyazaki China Market Share Decline Has Halted Thanks To Evs With Joint Venture, Entering Phase Of A Slight Recovery",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N44I07M:0-toyota-cfo-miyazaki-china-market-share-decline-has-halted-thanks-to-evs-with-joint-venture-entering-phase-of-a-slight-recovery/",
+    "published": "2026-11-05T00:49:35-05:00",
+    "also": []
+   },
+   {
+    "title": "Toyota Raises Profit Forecast on Hybrid Demand, Weak Yen",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRHFKQzRWS3kya3ZsRE5IcnE5TEd5UFQ5cGY2X0FVN3ZRcEt1ODhpNjdsQTUzNU9jcllSSTBsZ1Y4QVpsRFhJSXFNTUQ2d0VmME5nTTlKRWhMZkxwMXdzSERCSFI1VzVHbDdwZkplNHd0d1hPSzRrN2VMWElaT1hmMjlCOWUzRXpkS2gtdE1Ybkx0WFhiRWtoZXdodi1DQVlNOXBFVlFqVWFTUQ?oc=5",
+    "published": "2026-11-05T00:12:00-05:00",
+    "also": [
+     "Yahoo Finance"
+    ]
+   },
+   {
+    "title": "Toyota posts profit surge and lifts annual outlook as hybrid sales shine",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46M050:0-toyota-posts-profit-surge-and-lifts-annual-outlook-as-hybrid-sales-shine/",
+    "published": "2026-11-05T00:08:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Toyota: To Buy Back Up to Y1.3T of Own Shares by Aug. 4 2027, Raising Previously Announced Plan",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104021639_20261105000059:0-toyota-to-buy-back-up-to-y1-3t-of-own-shares-by-aug-4-2027-raising-previously-announced-plan/",
+    "published": "2026-11-05T00:04:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Toyota Cuts FY Revenue Forecast, But Raises FY Net-Profit View",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261104021639_20261105000046:0-toyota-cuts-fy-revenue-forecast-but-raises-fy-net-profit-view/",
+    "published": "2026-11-05T00:01:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 199.46,
+   "change_pct": 3.35,
+   "prev_close": 199.46,
+   "time": "2026-11-04",
+   "mktcap": "291.112B",
+   "pe": 9.23,
+   "fpe": 14.5,
+   "yr_high": 248.9,
+   "yr_low": 166.1,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 205.56,
+    "change_pct": 3.06,
+    "time": "2026-11-04"
+   }
+  },
+  "facts": {
+   "ticker": "TM",
+   "name": "Toyota",
+   "date": "2026-11-03",
+   "close": 193.0,
+   "prev_close": 195.83,
+   "change_pct": -1.45,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 88,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-30",
+    "change_pct": -1.93
+   },
+   "ytd_pct": -9.84,
+   "return_1m_pct": 4.82,
+   "return_6m_pct": 1.58,
+   "return_1y_pct": -5.48,
+   "high_52w": {
+    "close": 248.29,
+    "date": "2026-02-13"
+   },
+   "low_52w": {
+    "close": 166.5,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 22.27,
+   "thousand_dollars_5y_ago_now": 1066,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 309726,
+   "volume_vs_20d_avg": 1.04,
+   "sentences": [
+    "Toyota's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 September 2026, when the stock fell 1.9%.",
+    "The stock is down 9.8% this year, and at $193.00 it sits 22.3% below its 52-week closing high of $248.29 from 13 February 2026.",
+    "$1,000 invested in Toyota five years ago would be worth $1,066 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
