@@ -1,0 +1,126 @@
+{
+ "id": "move-WDC-2026-11-05",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 83,
+ "created": "2026-11-05T10:01:09-05:00",
+ "expires": "2026-11-06T12:00:00-05:00",
+ "tickers": [
+  "WDC"
+ ],
+ "headline_hint": "Why Western Digital (WDC) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-05T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 283.92,
+   "change_pct": -12.32,
+   "prev_close": 323.83,
+   "time": "2026-11-05T10:00:09.152-0500",
+   "mktcap": "106.278B",
+   "pe": 10.99,
+   "fpe": 11.59,
+   "yr_high": 799.87,
+   "yr_low": 132.43,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 303.55,
+    "change_pct": -6.26,
+    "time": "2026-11-05T09:29:27.239-0500"
+   }
+  },
+  "facts": {
+   "ticker": "WDC",
+   "name": "Western Digital",
+   "date": "2026-11-04",
+   "close": 323.83,
+   "prev_close": 347.35,
+   "change_pct": -6.77,
+   "moves_over_5pct_last_year": 80,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 54,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-02",
+    "change_pct": -7.52
+   },
+   "ytd_pct": 87.98,
+   "return_1m_pct": -21.22,
+   "return_6m_pct": -32.98,
+   "return_1y_pct": 104.93,
+   "high_52w": {
+    "close": 746.23,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 139.19,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 56.6,
+   "thousand_dollars_5y_ago_now": 7683,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 7265695,
+   "volume_vs_20d_avg": 0.83,
+   "sentences": [
+    "Western Digital's shares moved 5% or more on 80 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 November 2026, when the stock fell 7.5%.",
+    "The stock is up 88.0% this year, and at $323.83 it sits 56.6% below its 52-week closing high of $746.23 from 18 June 2026.",
+    "$1,000 invested in Western Digital five years ago would be worth $7,683 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-02/seagate-stx-and-western-digital-wdc-shares-slide-again-with-no-fresh-news/",
+    "date": "2026-11-02",
+    "title": "Seagate (STX) and Western Digital (WDC) Shares Slide Again With No Fresh News",
+    "type": "why-it-moved",
+    "tickers": [
+     "STX",
+     "WDC",
+     "SNDK",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+    "date": "2026-10-31",
+    "title": "Why Memory Stocks Have Fallen for Four Months While Profits Hit Records",
+    "type": "narrative",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC",
+     "STX",
+     "INTC",
+     "QCOM"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/",
+    "date": "2026-10-31",
+    "title": "Korea's KOSPI Jumped 6.6%, Then Fell 3.5%. How Seoul's Week Set Up the Chip Rout",
+    "type": "analysis",
+    "tickers": [
+     "SNDK",
+     "MU",
+     "WDC",
+     "STX"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/ai-memory-for-2027-is-sold-out-before-its-made-what-the-evidence-says/",
+    "date": "2026-10-31",
+    "title": "AI Memory for 2027 Is Sold Out Before It's Made: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "MU",
+     "NVDA",
+     "SNDK",
+     "WDC"
+    ]
+   }
+  ]
+ }
+}

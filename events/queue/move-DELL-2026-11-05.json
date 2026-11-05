@@ -1,0 +1,146 @@
+{
+ "id": "move-DELL-2026-11-05",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 85,
+ "created": "2026-11-05T10:01:09-05:00",
+ "expires": "2026-11-06T12:00:00-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "Why Dell Technologies (DELL) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-05T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 334.09,
+   "change_pct": -10.28,
+   "prev_close": 372.36,
+   "time": "2026-11-05T10:00:02.675-0500",
+   "mktcap": "212.419B",
+   "pe": 19.38,
+   "fpe": 11.81,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 350.01,
+    "change_pct": -6.0,
+    "time": "2026-11-05T09:30:00.038-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-04",
+   "close": 372.36,
+   "prev_close": 408.4,
+   "change_pct": -8.82,
+   "moves_over_5pct_last_year": 50,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 18,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": -10.77
+   },
+   "ytd_pct": 195.81,
+   "return_1m_pct": -35.13,
+   "return_6m_pct": 55.93,
+   "return_1y_pct": 132.57,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 36.72,
+   "thousand_dollars_5y_ago_now": 6824,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 10771210,
+   "volume_vs_20d_avg": 1.63,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 50 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock fell 10.8%.",
+    "The stock is up 195.8% this year, and at $372.36 it sits 36.7% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $6,824 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-04/supermicro-smci-shares-jump-as-sales-hit-19-9-billion-and-it-raises-its-forecast/",
+    "date": "2026-11-04",
+    "title": "Supermicro (SMCI) Shares Jump as Sales Hit $19.9 Billion and It Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "SMCI",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+    "date": "2026-11-03",
+    "title": "Memory's Boom Has Become the Device Makers' Bill: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "AAPL",
+     "HPQ",
+     "DELL",
+     "QCOM",
+     "MU",
+     "SNDK",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/",
+    "date": "2026-11-03",
+    "title": "Astera Labs, Monolithic Power and Credo Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MPWR",
+     "ALAB",
+     "CRDO",
+     "AMD",
+     "DELL",
+     "SNDK",
+     "HPE"
+    ]
+   },
+   {
+    "path": "/news/2026-10-30/why-dell-technologies-dell-stock-is-sinking-today/",
+    "date": "2026-10-30",
+    "title": "Dell Technologies (DELL) Shares Slide After Intel Warns on the PC Market",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "HPQ",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-10-22/three-of-the-sp-500s-five-best-stocks-this-year-make-ai-hardware/",
+    "date": "2026-10-22",
+    "title": "Three of the S&P 500's Five Best Stocks This Year Make AI Hardware",
+    "type": "chart",
+    "tickers": [
+     "SNDK",
+     "DELL",
+     "MU",
+     "MRNA",
+     "MPC",
+     "APP",
+     "BSX",
+     "FICO",
+     "LULU",
+     "PODD"
+    ]
+   }
+  ]
+ }
+}

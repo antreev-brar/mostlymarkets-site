@@ -1,0 +1,114 @@
+{
+ "id": "move-STX-2026-11-05",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 84,
+ "created": "2026-11-05T10:01:09-05:00",
+ "expires": "2026-11-06T12:00:00-05:00",
+ "tickers": [
+  "STX"
+ ],
+ "headline_hint": "Why Seagate Technology (STX) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-05T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 487.51,
+   "change_pct": -12.49,
+   "prev_close": 557.06,
+   "time": "2026-11-05T10:00:07.216-0500",
+   "mktcap": "111.912B",
+   "pe": 25.61,
+   "fpe": 12.03,
+   "yr_high": 1145.0,
+   "yr_low": 228.61,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 521.0,
+    "change_pct": -6.47,
+    "time": "2026-11-05T09:29:04.061-0500"
+   }
+  },
+  "facts": {
+   "ticker": "STX",
+   "name": "Seagate Technology",
+   "date": "2026-11-04",
+   "close": 557.06,
+   "prev_close": 606.38,
+   "change_pct": -8.13,
+   "moves_over_5pct_last_year": 73,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 18,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-06",
+    "change_pct": -9.18
+   },
+   "ytd_pct": 102.28,
+   "return_1m_pct": -30.85,
+   "return_6m_pct": -29.17,
+   "return_1y_pct": 109.78,
+   "high_52w": {
+    "close": 1094.04,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 237.49,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 49.08,
+   "thousand_dollars_5y_ago_now": 5845,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 6778518,
+   "volume_vs_20d_avg": 1.23,
+   "sentences": [
+    "Seagate Technology's shares moved 5% or more on 73 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 October 2026, when the stock fell 9.2%.",
+    "The stock is up 102.3% this year, and at $557.06 it sits 49.1% below its 52-week closing high of $1,094.04 from 22 June 2026.",
+    "$1,000 invested in Seagate Technology five years ago would be worth $5,845 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-02/seagate-stx-and-western-digital-wdc-shares-slide-again-with-no-fresh-news/",
+    "date": "2026-11-02",
+    "title": "Seagate (STX) and Western Digital (WDC) Shares Slide Again With No Fresh News",
+    "type": "why-it-moved",
+    "tickers": [
+     "STX",
+     "WDC",
+     "SNDK",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+    "date": "2026-10-31",
+    "title": "Why Memory Stocks Have Fallen for Four Months While Profits Hit Records",
+    "type": "narrative",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC",
+     "STX",
+     "INTC",
+     "QCOM"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/koreas-kospi-jumped-6-6-then-fell-3-5-how-seouls-week-set-up-the-chip-rout/",
+    "date": "2026-10-31",
+    "title": "Korea's KOSPI Jumped 6.6%, Then Fell 3.5%. How Seoul's Week Set Up the Chip Rout",
+    "type": "analysis",
+    "tickers": [
+     "SNDK",
+     "MU",
+     "WDC",
+     "STX"
+    ]
+   }
+  ]
+ }
+}

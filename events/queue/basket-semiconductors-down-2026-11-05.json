@@ -1,0 +1,147 @@
+{
+ "id": "basket-semiconductors-down-2026-11-05",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-05T10:01:09-05:00",
+ "expires": "2026-11-05T23:59:00-05:00",
+ "tickers": [
+  "ALAB",
+  "AMD",
+  "MU",
+  "CRDO",
+  "MRVL"
+ ],
+ "headline_hint": "ALAB, AMD, MU shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-05T10:00:10-05:00",
+ "pack": {
+  "industry": "Semiconductors",
+  "quotes": {
+   "ALAB": {
+    "price": 193.66,
+    "change_pct": -13.26,
+    "prev_close": 223.27,
+    "time": "2026-11-05T10:00:00.509-0500",
+    "mktcap": "33.597B",
+    "pe": 76.84,
+    "fpe": 31.35,
+    "yr_high": 499.48,
+    "yr_low": 97.89,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 211.09,
+     "change_pct": -5.46,
+     "time": "2026-11-05T09:30:00.014-0500"
+    }
+   },
+   "AMD": {
+    "price": 427.14,
+    "change_pct": -12.61,
+    "prev_close": 488.78,
+    "time": "2026-11-05T10:00:00.773-0500",
+    "mktcap": "697.295B",
+    "pe": 91.55,
+    "fpe": 35.25,
+    "yr_high": 658.52,
+    "yr_low": 188.22,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 452.12,
+     "change_pct": -7.5,
+     "time": "2026-11-05T09:29:59.932-0500"
+    }
+   },
+   "MU": {
+    "price": 713.52,
+    "change_pct": -10.28,
+    "prev_close": 795.23,
+    "time": "2026-11-05T10:00:06.527-0500",
+    "mktcap": "807.293B",
+    "pe": 9.61,
+    "fpe": 4.06,
+    "yr_high": 1255.0,
+    "yr_low": 192.59,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 752.2,
+     "change_pct": -5.41,
+     "time": "2026-11-05T09:30:00.007-0500"
+    }
+   },
+   "CRDO": {
+    "price": 123.12,
+    "change_pct": -9.8,
+    "prev_close": 136.5,
+    "time": "2026-11-05T10:00:02.153-0500",
+    "mktcap": "23.141B",
+    "pe": 43.97,
+    "fpe": 16.84,
+    "yr_high": 308.67,
+    "yr_low": 86.49,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 129.1,
+     "change_pct": -5.42,
+     "time": "2026-11-05T09:30:00.201-0500"
+    }
+   },
+   "MRVL": {
+    "price": 145.38,
+    "change_pct": -9.02,
+    "prev_close": 159.8,
+    "time": "2026-11-05T10:00:05.643-0500",
+    "mktcap": "127.642B",
+    "pe": 47.98,
+    "fpe": 25.81,
+    "yr_high": 329.88,
+    "yr_low": 70.69,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 151.7,
+     "change_pct": -5.07,
+     "time": "2026-11-05T09:30:01.521-0500"
+    }
+   }
+  },
+  "facts": {
+   "ALAB": {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "date": "2026-11-04",
+    "close": 223.27,
+    "prev_close": 233.62,
+    "change_pct": -4.43,
+    "moves_over_5pct_last_year": 93,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 106,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-02",
+     "change_pct": -11.22
+    },
+    "ytd_pct": 34.21,
+    "return_1m_pct": -42.72,
+    "return_6m_pct": 4.38,
+    "return_1y_pct": 16.55,
+    "high_52w": {
+     "close": 483.02,
+     "date": "2026-06-30"
+    },
+    "low_52w": {
+     "close": 100.27,
+     "date": "2026-03-30"
+    },
+    "pct_below_52w_high": 53.78,
+    "thousand_dollars_5y_ago_now": null,
+    "five_years_ago_date": null,
+    "volume": 8216324,
+    "volume_vs_20d_avg": 1.95,
+    "sentences": [
+     "Astera Labs's shares moved 5% or more on 93 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 2 November 2026, when the stock fell 11.2%.",
+     "The stock is up 34.2% this year, and at $223.27 it sits 53.8% below its 52-week closing high of $483.02 from 30 June 2026."
+    ]
+   }
+  }
+ }
+}

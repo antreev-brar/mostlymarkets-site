@@ -1,0 +1,135 @@
+{
+ "id": "move-MU-2026-11-05",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 85,
+ "created": "2026-11-05T10:01:09-05:00",
+ "expires": "2026-11-06T12:00:00-05:00",
+ "tickers": [
+  "MU"
+ ],
+ "headline_hint": "Why Micron Technology (MU) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-05T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 713.52,
+   "change_pct": -10.28,
+   "prev_close": 795.23,
+   "time": "2026-11-05T10:00:06.527-0500",
+   "mktcap": "807.293B",
+   "pe": 9.61,
+   "fpe": 4.06,
+   "yr_high": 1255.0,
+   "yr_low": 192.59,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 752.2,
+    "change_pct": -5.41,
+    "time": "2026-11-05T09:30:00.007-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "date": "2026-11-04",
+   "close": 795.23,
+   "prev_close": 855.1,
+   "change_pct": -7.0,
+   "moves_over_5pct_last_year": 75,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 36,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-18",
+    "change_pct": -7.02
+   },
+   "ytd_pct": 178.63,
+   "return_1m_pct": -23.94,
+   "return_6m_pct": 19.3,
+   "return_1y_pct": 238.83,
+   "high_52w": {
+    "close": 1213.56,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 201.37,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 34.47,
+   "thousand_dollars_5y_ago_now": 11008,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 35906090,
+   "volume_vs_20d_avg": 1.35,
+   "sentences": [
+    "Micron Technology's shares moved 5% or more on 75 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 18 August 2026, when the stock fell 7.0%.",
+    "The stock is up 178.6% this year, and at $795.23 it sits 34.5% below its 52-week closing high of $1,213.56 from 25 June 2026.",
+    "$1,000 invested in Micron Technology five years ago would be worth $11,008 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+    "date": "2026-11-03",
+    "title": "Memory's Boom Has Become the Device Makers' Bill: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "AAPL",
+     "HPQ",
+     "DELL",
+     "QCOM",
+     "MU",
+     "SNDK",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/seagate-stx-and-western-digital-wdc-shares-slide-again-with-no-fresh-news/",
+    "date": "2026-11-02",
+    "title": "Seagate (STX) and Western Digital (WDC) Shares Slide Again With No Fresh News",
+    "type": "why-it-moved",
+    "tickers": [
+     "STX",
+     "WDC",
+     "SNDK",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/why-memory-stocks-have-fallen-for-four-months-while-profits-hit-records/",
+    "date": "2026-10-31",
+    "title": "Why Memory Stocks Have Fallen for Four Months While Profits Hit Records",
+    "type": "narrative",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC",
+     "STX",
+     "INTC",
+     "QCOM"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/micron-mu-earns-87-gross-margins-is-this-the-top/",
+    "date": "2026-10-31",
+    "title": "Micron (MU) Earns 87% Gross Margins. Is This the Top?",
+    "type": "breakdown",
+    "tickers": [
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/memory-chip-prices-are-still-rising-just-more-slowly/",
+    "date": "2026-10-31",
+    "title": "Memory Chip Prices Are Still Rising, Just More Slowly",
+    "type": "chart",
+    "tickers": [
+     "MU"
+    ]
+   }
+  ]
+ }
+}
