@@ -1,0 +1,91 @@
+{
+ "id": "news-ARM-2026-11-05-arm-holdings-plc-arm-q2-2027-earnings-ca",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-05T01:01:14-05:00",
+ "expires": "2026-11-05T11:01:14-05:00",
+ "tickers": [
+  "ARM"
+ ],
+ "headline_hint": "Arm Holdings: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T01:00:11-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "ARM Holdings PLC (ARM) (Q2 2027) Earnings Call Highlights: Record Revenue, Surging AI ...",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUHNFYTRvcXhqMVZ0aEpxRFhjTzNmX3JpejAyWWtyajh5Ukk3Vmg4QXgzQ1NFTHRhTmp0Y1lmY0JMTkk2ZDZETWl6QW1iX1dKNnZTbjJJTG55LWZ4RVM5eGxSTkMwNm05cXFZbFFfdzRIVi0tTlgxZTh3X0tudW5LZjl5N3o0M2U5cEhERnhVYm0?oc=5",
+    "published": "2026-11-05T00:37:04-05:00",
+    "also": []
+   },
+   {
+    "title": "Asian chip stocks slide as disappointing Qualcomm, Arm earnings weigh",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZmNLV2plUmpvX1JEb2VFcFRGd1hzRjJQdG44ZGNrX2g2Y2h2Q2dfRmRIT1QzS2UxcXRHUEttdVE0S01hR0Z4SUxpUHJoQTFTcXA5T0k4anpzTWFwTUhhV3psZDNrNzE3azdwTzA2Y0xrNEZBWVpEMHRkMHV0YTZfV0tzLThSaEYtVjhTRDJNT1JERHNFSVBKSmxzTUdKTlE?oc=5",
+    "published": "2026-11-04T23:51:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 191.8,
+   "change_pct": -5.28,
+   "prev_close": 191.8,
+   "time": "2026-11-04",
+   "mktcap": "204.842B",
+   "pe": 196.76,
+   "fpe": 80.35,
+   "yr_high": 452.7,
+   "yr_low": 100.02,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 188.47,
+    "change_pct": -1.74,
+    "time": "2026-11-04"
+   }
+  },
+  "facts": {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "date": "2026-11-03",
+   "close": 202.49,
+   "prev_close": 196.79,
+   "change_pct": 2.9,
+   "moves_over_5pct_last_year": 62,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 114,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": 4.1
+   },
+   "ytd_pct": 85.24,
+   "return_1m_pct": -33.15,
+   "return_6m_pct": -3.04,
+   "return_1y_pct": 19.24,
+   "high_52w": {
+    "close": 439.46,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 104.55,
+    "date": "2026-02-03"
+   },
+   "pct_below_52w_high": 53.92,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 3491886,
+   "volume_vs_20d_avg": 0.7,
+   "sentences": [
+    "Arm Holdings's shares moved 5% or more on 62 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 4.1%.",
+    "The stock is up 85.2% this year, and at $202.49 it sits 53.9% below its 52-week closing high of $439.46 from 18 June 2026."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+   "/news/2026-10-31/intel-intc-lost-28-6-in-a-day-is-the-business-broken/",
+   "/news/2026-10-31/bulls-vs-bears-on-the-ai-chip-selloff-a-normal-pullback-or-the-peak/"
+  ]
+ }
+}

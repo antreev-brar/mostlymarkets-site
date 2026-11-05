@@ -1,0 +1,92 @@
+{
+ "id": "news-MSFT-2026-11-05-microsoft-rejects-multibillion-dollar-ai",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-05T01:01:14-05:00",
+ "expires": "2026-11-05T11:01:14-05:00",
+ "tickers": [
+  "MSFT"
+ ],
+ "headline_hint": "Microsoft: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T01:00:11-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Microsoft Rejects Multibillion-Dollar AI Deal With UK's Nscale - FT",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46L2UJ:0-microsoft-rejects-multibillion-dollar-ai-deal-with-uk-s-nscale-ft/",
+    "published": "2026-11-05T00:11:33-05:00",
+    "also": []
+   },
+   {
+    "title": "Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally",
+    "source": "Investor's Business Daily",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmliVFRWX3pISnI2UzBXQlE0bUhCVExKXzhqZkNWTXY0emxpN2RHYWpqTklDR0x2Mk4talloWE5vSmtZcE9VTlUzVmFhS3ZYZUlpN2psY2lOWGNRV1huaUx5VWtpa29lVGt1ZWFiWU12VzIxamE4cHItM3E4SVAxb2QyZE4wTm8xV0k1RGZDdmhVU0VaLTVsQk9Sd3dnczlpa1JRV2dScVNwOGZpOENqdWRuZi15XzRYaWEyNFFndmFZRHJpNWZYazdMb05PdjJuMEJINS1PRlhESl82VGJFUQ?oc=5",
+    "published": "2026-11-04T23:04:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 555.8,
+   "change_pct": 6.68,
+   "prev_close": 555.8,
+   "time": "2026-11-04",
+   "mktcap": "4.127T",
+   "pe": 29.02,
+   "fpe": 28.12,
+   "yr_high": 559.15,
+   "yr_low": 349.2,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 554.19,
+    "change_pct": -0.29,
+    "time": "2026-11-04"
+   }
+  },
+  "facts": {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "date": "2026-11-03",
+   "close": 520.99,
+   "prev_close": 507.12,
+   "change_pct": 2.74,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 30,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-25",
+    "change_pct": 3.66
+   },
+   "ytd_pct": 7.73,
+   "return_1m_pct": -0.8,
+   "return_6m_pct": 26.64,
+   "return_1y_pct": 0.61,
+   "high_52w": {
+    "close": 543.45,
+    "date": "2026-10-13"
+   },
+   "low_52w": {
+    "close": 352.83,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 4.13,
+   "thousand_dollars_5y_ago_now": 1560,
+   "five_years_ago_date": "2021-11-03",
+   "volume": 20010170,
+   "volume_vs_20d_avg": 0.89,
+   "sentences": [
+    "Microsoft's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 25 September 2026, when the stock rose 3.7%.",
+    "The stock is up 7.7% this year, and at $520.99 it sits 4.1% below its 52-week closing high of $543.45 from 13 October 2026.",
+    "$1,000 invested in Microsoft five years ago would be worth $1,560 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-31/wall-street-now-sees-more-than-1-trillion-of-ai-spending-in-2027-what-has-to-go-right/",
+   "/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/",
+   "/news/2026-10-31/free-cash-flow-is-now-the-scorecard-for-ai-spenders-what-the-evidence-says/"
+  ]
+ }
+}

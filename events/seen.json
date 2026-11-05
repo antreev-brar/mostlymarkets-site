@@ -629,6 +629,14 @@
 "ARM"
 ]
 },
+"news-ARM-2026-11-05-arm-holdings-plc-arm-q2-2027-earnings-ca": {
+"created": "2026-11-05T01:01:14-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"ARM"
+]
+},
 "news-ASML-2026-11-01-is-asml-holding-nasdaqgs-asml-still-unde": {
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
@@ -746,6 +754,14 @@
 "MPC"
 ]
 },
+"news-MSFT-2026-11-05-microsoft-rejects-multibillion-dollar-ai": {
+"created": "2026-11-05T01:01:14-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"MSFT"
+]
+},
 "news-NFLX-2026-11-02-netflix-needs-you-to-watch-not-just-pay": {
 "created": "2026-11-02T06:30:13-05:00",
 "day": "2026-11-02",
@@ -843,6 +859,14 @@
 "kind": "news",
 "tickers": [
 "SHEL"
+]
+},
+"news-TM-2026-11-05-toyota-raises-profit-forecast-on-hybrid": {
+"created": "2026-11-05T01:01:14-05:00",
+"day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"TM"
 ]
 },
 "news-TSLA-2026-11-02-six-reasons-democrats-may-fall-short-of": {
