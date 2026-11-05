@@ -2,7 +2,7 @@
 title = "Sandisk, Micron and AMD Shares Plunge: What Happened"
 dek = "Sandisk fell 22.3%, Micron 17.5% and AMD 17.3% on Thursday as fears that the Democratic sweep will slow the AI data-center buildout hit chip stocks."
 type = "why-it-moved"
-published = 2026-11-05T17:40:00-05:00
+published = 2026-11-05T17:29:00-05:00
 author = "dev-malhotra"
 tickers = ["SNDK", "MU", "AMD", "WDC", "STX", "DELL"]
 reason = "Macro"

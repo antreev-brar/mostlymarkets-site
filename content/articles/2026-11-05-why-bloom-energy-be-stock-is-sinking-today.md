@@ -2,7 +2,7 @@
 title = "Why Bloom Energy (BE) Stock Is Sinking Today"
 dek = "Bloom Energy fell 16.4% on Thursday as fears that new Democratic governors will pause data centers outweighed a 900-megawatt NTT DATA power deal."
 type = "why-it-moved"
-published = 2026-11-05T17:52:00-05:00
+published = 2026-11-05T17:30:30-05:00
 author = "theo-park"
 tickers = ["BE", "VRT"]
 reason = "Legal or regulatory"
