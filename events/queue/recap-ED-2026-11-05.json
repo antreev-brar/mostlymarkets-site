@@ -1,0 +1,90 @@
+{
+ "id": "recap-ED-2026-11-05",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-05T16:45:13-05:00",
+ "expires": "2026-11-06T20:00:00-05:00",
+ "tickers": [
+  "ED"
+ ],
+ "headline_hint": "Consolidated Edison (ED) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-05T16:45:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ED",
+   "name": "Consolidated Edison Inc",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.07,
+   "n_estimates": 4,
+   "eps_last_year": 1.9,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 44490383000.0
+  },
+  "quote": {
+   "price": 121.44,
+   "change_pct": 0.95,
+   "prev_close": 120.3,
+   "time": "2026-11-05T16:10:00.000-0500",
+   "mktcap": "44.912B",
+   "pe": 19.94,
+   "fpe": 19.2,
+   "yr_high": 122.75,
+   "yr_low": 94.96,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 121.07,
+    "change_pct": -0.3,
+    "time": "2026-11-05T16:34:46.551-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ED",
+   "name": "Consolidated Edison",
+   "date": "2026-11-05",
+   "close": 121.44,
+   "prev_close": 120.3,
+   "change_pct": 0.95,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 108,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 2.99
+   },
+   "ytd_pct": 22.27,
+   "return_1m_pct": 16.06,
+   "return_6m_pct": 14.15,
+   "return_1y_pct": 23.97,
+   "high_52w": {
+    "close": 121.44,
+    "date": "2026-11-05"
+   },
+   "low_52w": {
+    "close": 95.41,
+    "date": "2025-12-10"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 1553,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 4470261,
+   "volume_vs_20d_avg": 2.07,
+   "sentences": [
+    "Consolidated Edison's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 3.0%.",
+    "The stock is up 22.3% this year, and at $121.44 it sits 0.0% below its 52-week closing high of $121.44 from 5 November 2026.",
+    "$1,000 invested in Consolidated Edison five years ago would be worth $1,553 today."
+   ]
+  },
+  "sector": "Utilities",
+  "industry": "Multi-Utilities",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000157/0001047862-26-000157-index.htm",
+  "release_text": "events/packs/recap-ED-2026-11-05.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000157/ed-20260930xexx991.htm"
+ }
+}

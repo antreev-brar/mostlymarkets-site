@@ -1676,6 +1676,14 @@
 "DVN"
 ]
 },
+"recap-ED-2026-11-05": {
+"created": "2026-11-05T16:45:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"ED"
+]
+},
 "recap-EL-2026-11-02": {
 "created": "2026-11-02T08:01:12-05:00",
 "day": "2026-11-02",
@@ -1984,6 +1992,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "MLM"
+]
+},
+"recap-MNST-2026-11-05": {
+"created": "2026-11-05T16:45:13-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"MNST"
 ]
 },
 "recap-MO-2026-10-29": {
