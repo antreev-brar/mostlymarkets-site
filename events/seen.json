@@ -1448,6 +1448,14 @@
 "DDOG"
 ]
 },
+"recap-DUK-2026-11-05": {
+"created": "2026-11-05T06:09:29-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"DUK"
+]
+},
 "recap-EL-2026-11-02": {
 "created": "2026-11-02T08:01:12-05:00",
 "day": "2026-11-02",
@@ -1903,6 +1911,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "TKO"
+]
+},
+"recap-TM-2026-11-04": {
+"created": "2026-11-05T06:09:29-05:00",
+"day": "2026-11-05",
+"kind": "earnings-recap",
+"tickers": [
+"TM"
 ]
 },
 "recap-TOST-2026-11-03": {

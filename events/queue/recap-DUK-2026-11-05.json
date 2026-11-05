@@ -1,0 +1,88 @@
+{
+ "id": "recap-DUK-2026-11-05",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-05T06:09:29-05:00",
+ "expires": "2026-11-06T20:00:00-05:00",
+ "tickers": [
+  "DUK"
+ ],
+ "headline_hint": "Duke Energy (DUK) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-05T06:00:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "DUK",
+   "name": "Duke Energy Corporation",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.87,
+   "n_estimates": 6,
+   "eps_last_year": 1.81,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 98640126000.0
+  },
+  "quote": {
+   "price": 129.59,
+   "change_pct": 2.43,
+   "prev_close": 129.59,
+   "time": "2026-11-04",
+   "mktcap": "101.042B",
+   "pe": 19.51,
+   "fpe": 19.16,
+   "yr_high": 134.49,
+   "yr_low": 112.4,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 131.85,
+    "change_pct": 1.74,
+    "time": "2026-11-05T04:13:53.566-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DUK",
+   "name": "Duke Energy",
+   "date": "2026-11-04",
+   "close": 129.59,
+   "prev_close": 126.51,
+   "change_pct": 2.43,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 7,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": 3.92
+   },
+   "ytd_pct": 10.56,
+   "return_1m_pct": 12.04,
+   "return_6m_pct": 3.23,
+   "return_1y_pct": 4.79,
+   "high_52w": {
+    "close": 133.46,
+    "date": "2026-03-16"
+   },
+   "low_52w": {
+    "close": 113.23,
+    "date": "2026-09-24"
+   },
+   "pct_below_52w_high": 2.9,
+   "thousand_dollars_5y_ago_now": 1283,
+   "five_years_ago_date": "2021-11-04",
+   "volume": 6957661,
+   "volume_vs_20d_avg": 1.88,
+   "sentences": [
+    "Duke Energy's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock rose 3.9%.",
+    "The stock is up 10.6% this year, and at $129.59 it sits 2.9% below its 52-week closing high of $133.46 from 16 March 2026.",
+    "$1,000 invested in Duke Energy five years ago would be worth $1,283 today."
+   ]
+  },
+  "sector": "Utilities",
+  "industry": "Electric Utilities",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/0001326160-26-000048-index.htm"
+ }
+}
