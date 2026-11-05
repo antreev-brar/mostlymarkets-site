@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-05-3",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-05T13:30:15-05:00",
+ "expires": "2026-11-05T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Compounder Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Compounder, screened on revenue growth among companies with an operating margin above 20%. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-05T13:30:10-05:00",
+ "pack": {
+  "theme": "compounders",
+  "screen": "revenue growth among companies with an operating margin above 20%",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "industry": "Communications Equipment",
+    "metric": 103.2,
+    "price": 527.41,
+    "pe": -6.77,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3742800000,
+     "revenue_growth_yoy_pct": 103.2,
+     "gross_margin_pct": 45.9,
+     "operating_margin_pct": 23.5,
+     "net_margin_pct": -175.8,
+     "eps_diluted": -77.83,
+     "ocf": 961200000,
+     "fcf": 356300000,
+     "fcf_margin_pct": 9.5
+    }
+   },
+   {
+    "ticker": "BLK",
+    "name": "BlackRock",
+    "industry": "Asset Management & Custody Banks",
+    "metric": 95.6,
+    "price": 1170.58,
+    "pe": 27.92,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 27299000000,
+     "revenue_growth_yoy_pct": 95.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 32.6,
+     "net_margin_pct": 24.1,
+     "eps_diluted": 41.84,
+     "ocf": 3938000000,
+     "fcf": 3515000000,
+     "fcf_margin_pct": 12.9
+    }
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "industry": "Semiconductor Materials & Equipment",
+    "metric": 74.9,
+    "price": 220.0,
+    "pe": 25.25,
+    "ttm": {
+     "end": "2026-09-27",
+     "revenue": 5000771000,
+     "revenue_growth_yoy_pct": 74.9,
+     "gross_margin_pct": 59.3,
+     "operating_margin_pct": 32.1,
+     "net_margin_pct": 27.5,
+     "eps_diluted": 8.71,
+     "ocf": 1329514000,
+     "fcf": 1024864000,
+     "fcf_margin_pct": 20.5
+    }
+   },
+   {
+    "ticker": "RDDT",
+    "name": "Reddit",
+    "industry": "Interactive Media & Services",
+    "metric": 62.2,
+    "price": 92.94,
+    "pe": 19.02,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3088880000,
+     "revenue_growth_yoy_pct": 62.2,
+     "gross_margin_pct": 91.5,
+     "operating_margin_pct": 29.4,
+     "net_margin_pct": 32.1,
+     "eps_diluted": 4.89,
+     "ocf": 1204733000,
+     "fcf": 1198116000,
+     "fcf_margin_pct": 38.8
+    }
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "industry": "Advertising",
+    "metric": 57.8,
+    "price": 350.56,
+    "pe": 26.94,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7608894000,
+     "revenue_growth_yoy_pct": 57.8,
+     "gross_margin_pct": 88.8,
+     "operating_margin_pct": 77.8,
+     "net_margin_pct": 65.9,
+     "eps_diluted": 14.86,
+     "ocf": 4903009000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "APH",
+    "name": "Amphenol",
+    "industry": "Electronic Components",
+    "metric": 57.6,
+    "price": 72.16,
+    "pe": 31.38,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 33046900000,
+     "revenue_growth_yoy_pct": 57.6,
+     "gross_margin_pct": 38.8,
+     "operating_margin_pct": 27.7,
+     "net_margin_pct": 18.0,
+     "eps_diluted": 2.29,
+     "ocf": 6479400000,
+     "fcf": 5121400000,
+     "fcf_margin_pct": 15.5
+    }
+   },
+   {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "industry": "Semiconductors",
+    "metric": 48.7,
+    "price": 297.54,
+    "pe": 37.98,
+    "ttm": {
+     "end": "2026-08-02",
+     "revenue": 89104000000,
+     "revenue_growth_yoy_pct": 48.7,
+     "gross_margin_pct": 68.8,
+     "operating_margin_pct": 48.0,
+     "net_margin_pct": 42.9,
+     "eps_diluted": 7.83,
+     "ocf": 40653000000,
+     "fcf": 39403000000,
+     "fcf_margin_pct": 44.2
+    }
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate Technology",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 44.4,
+    "price": 474.86,
+    "pe": 24.95,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 13799000000,
+     "revenue_growth_yoy_pct": 44.4,
+     "gross_margin_pct": 50.4,
+     "operating_margin_pct": 39.6,
+     "net_margin_pct": 31.9,
+     "eps_diluted": 19.01,
+     "ocf": 4832000000,
+     "fcf": 4157000000,
+     "fcf_margin_pct": 30.1
+    }
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 43.0,
+    "price": 273.49,
+    "pe": 10.58,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 14482000000,
+     "revenue_growth_yoy_pct": 43.0,
+     "gross_margin_pct": 52.6,
+     "operating_margin_pct": 39.4,
+     "net_margin_pct": 69.2,
+     "eps_diluted": 25.76,
+     "ocf": 4861000000,
+     "fcf": 4289000000,
+     "fcf_margin_pct": 29.6
+    }
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "industry": "Communications Equipment",
+    "metric": 40.7,
+    "price": 159.83,
+    "pe": 42.92,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 11890100000,
+     "revenue_growth_yoy_pct": 40.7,
+     "gross_margin_pct": 62.9,
+     "operating_margin_pct": 43.8,
+     "net_margin_pct": 40.0,
+     "eps_diluted": 3.72,
+     "ocf": 5239300000,
+     "fcf": 5017400000,
+     "fcf_margin_pct": 42.2
+    }
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems",
+    "industry": "Semiconductors",
+    "metric": 40.5,
+    "price": 1166.38,
+    "pe": 63.98,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3738391000,
+     "revenue_growth_yoy_pct": 40.5,
+     "gross_margin_pct": 55.3,
+     "operating_margin_pct": 29.5,
+     "net_margin_pct": 23.9,
+     "eps_diluted": 18.14,
+     "ocf": 872984000,
+     "fcf": 609362000,
+     "fcf_margin_pct": 16.3
+    }
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "industry": "Semiconductors",
+    "metric": 33.6,
+    "price": 375.5,
+    "pe": 43.01,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 13881744000,
+     "revenue_growth_yoy_pct": 33.6,
+     "gross_margin_pct": 65.8,
+     "operating_margin_pct": 35.5,
+     "net_margin_pct": 29.8,
+     "eps_diluted": 8.43,
+     "ocf": 5545325000,
+     "fcf": 4937495000,
+     "fcf_margin_pct": 35.6
+    }
+   },
+   {
+    "ticker": "CHTR",
+    "name": "Charter Communications",
+    "industry": "Cable & Satellite",
+    "metric": -1.5,
+    "price": 117.96,
+    "pe": 3.06,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 54396000000,
+     "revenue_growth_yoy_pct": -1.5,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 23.3,
+     "net_margin_pct": 9.1,
+     "eps_diluted": 38.55,
+     "ocf": 16470000000,
+     "fcf": 4358000000,
+     "fcf_margin_pct": 8.0
+    }
+   },
+   {
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "industry": "Oil & Gas Storage & Transportation",
+    "metric": -2.0,
+    "price": 277.77,
+    "pe": 26.55,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 16741500000,
+     "revenue_growth_yoy_pct": -2.0,
+     "gross_margin_pct": 43.2,
+     "operating_margin_pct": 22.9,
+     "net_margin_pct": 13.5,
+     "eps_diluted": 10.48,
+     "ocf": 4285500000,
+     "fcf": 740900000,
+     "fcf_margin_pct": 4.4
+    }
+   },
+   {
+    "ticker": "STZ",
+    "name": "Constellation Brands",
+    "industry": "Distillers & Vintners",
+    "metric": -4.3,
+    "price": 144.24,
+    "pe": 12.94,
+    "ttm": {
+     "end": "2026-08-31",
+     "revenue": 9208700000,
+     "revenue_growth_yoy_pct": -4.3,
+     "gross_margin_pct": 52.7,
+     "operating_margin_pct": 30.2,
+     "net_margin_pct": 20.9,
+     "eps_diluted": null,
+     "ocf": 2658300000,
+     "fcf": 1839300000,
+     "fcf_margin_pct": 20.0
+    }
+   },
+   {
+    "ticker": "CCI",
+    "name": "Crown Castle",
+    "industry": "Telecom Tower REITs",
+    "metric": -4.6,
+    "price": 91.63,
+    "pe": 36.85,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 4161000000,
+     "revenue_growth_yoy_pct": -4.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 47.7,
+     "net_margin_pct": 20.7,
+     "eps_diluted": 1.97,
+     "ocf": 2624000000,
+     "fcf": 2406000000,
+     "fcf_margin_pct": 57.8
+    }
+   }
+  ]
+ }
+}
