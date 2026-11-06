@@ -919,10 +919,26 @@
 "HSBC"
 ]
 },
+"news-HSBC-2026-11-06-hsbc-announces-issuance-of-perpetual-sub": {
+"created": "2026-11-06T00:01:39-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"HSBC"
+]
+},
 "news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
 "created": "2026-11-01T08:26:05-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-JNJ-2026-11-06-johnson-johnson-announces-u-s-fda-approv": {
+"created": "2026-11-06T00:01:39-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"JNJ"
+]
 },
 "news-JPM-2026-11-02-microsoft-nvidia-jpmorgan-among-50-us-gi": {
 "created": "2026-11-02T06:15:14-05:00",
