@@ -887,6 +887,14 @@
 "day": "2026-11-01",
 "kind": "news"
 },
+"news-COST-2026-11-06-mapping-the-market-costco-has-momentum-t": {
+"created": "2026-11-06T06:15:13-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"COST"
+]
+},
 "news-CRWD-2026-11-03-crowdstrike-extends-anthropic-s-claude-c": {
 "created": "2026-11-03T05:01:42-05:00",
 "day": "2026-11-03",
@@ -927,6 +935,14 @@
 },
 "news-HSBC-2026-11-06-hsbc-announces-issuance-of-perpetual-sub": {
 "created": "2026-11-06T00:01:39-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"HSBC"
+]
+},
+"news-HSBC-2026-11-06-hsbc-bought-back-total-170-000-shares-on": {
+"created": "2026-11-06T06:15:13-05:00",
 "day": "2026-11-06",
 "kind": "news",
 "tickers": [
@@ -1924,6 +1940,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "GWW"
+]
+},
+"recap-HUM-2026-11-06": {
+"created": "2026-11-06T06:15:13-05:00",
+"day": "2026-11-06",
+"kind": "earnings-recap",
+"tickers": [
+"HUM"
 ]
 },
 "recap-HWM-2026-10-29": {
