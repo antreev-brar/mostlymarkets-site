@@ -1,0 +1,611 @@
+{
+ "id": "list-2026-11-06-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-06T10:30:15-05:00",
+ "expires": "2026-11-06T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "2 Stocks We Like After Their Earnings and 1 We'd Skip",
+ "instructions": "Theme: After Earnings, screened on companies worth $10bn+ that reported results in the last seven days and that we recapped. Pick 2 to like and 1 to skip from pack.candidates (picks block: like: A, B / skip: E). Each stock's case starts from the quarter it just reported (link our recap in candidates[].our_recap), then the long-run numbers. Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-06T10:30:09-05:00",
+ "pack": {
+  "theme": "after-earnings",
+  "screen": "companies worth $10bn+ that reported results in the last seven days and that we recapped",
+  "like": 2,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "industry": "Semiconductors",
+    "our_recap": {
+     "title": "AMD (AMD) Beats Q3 Estimates and Guides Q4 Sales to $17 Billion",
+     "path": "/news/2026-11-03/amd-amd-beats-q3-estimates-and-guides-q4-sales-to-17-billion/",
+     "date": "2026-11-03"
+    },
+    "quote": {
+     "price": 442.43,
+     "change_pct": 9.4,
+     "prev_close": 404.4,
+     "time": "2026-11-06T10:30:00.439-0500",
+     "mktcap": "722.256B",
+     "pe": 94.83,
+     "fpe": 36.58,
+     "yr_high": 658.52,
+     "yr_low": 188.22,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 443.87,
+      "change_pct": 9.76,
+      "time": "2026-11-06T09:30:01.025-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 45436000000,
+     "revenue_growth_yoy_pct": 41.9,
+     "gross_margin_pct": 53.7,
+     "operating_margin_pct": 17.7,
+     "net_margin_pct": 16.8,
+     "eps_diluted": 4.6,
+     "ocf": 9123000000,
+     "fcf": 7056000000,
+     "fcf_margin_pct": 15.5
+    }
+   },
+   {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "industry": "Integrated Oil & Gas",
+    "our_recap": {
+     "title": "Exxon Mobil (XOM) Tops Q3 Estimates as Refining Profit More Than Doubles",
+     "path": "/news/2026-11-01/exxon-mobil-xom-tops-q3-estimates-as-refining-profit-more-than-doubles/",
+     "date": "2026-11-01"
+    },
+    "quote": {
+     "price": 165.7,
+     "change_pct": 0.24,
+     "prev_close": 165.3,
+     "time": "2026-11-06T10:30:01.552-0500",
+     "mktcap": "675.907B",
+     "pe": 17.0,
+     "fpe": 11.17,
+     "yr_high": 188.5,
+     "yr_low": 113.64,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 163.65,
+      "change_pct": -1.0,
+      "time": "2026-11-06T09:29:31.072-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 396627000000,
+     "revenue_growth_yoy_pct": 19.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 10.2,
+     "eps_diluted": 9.74,
+     "ocf": 70589000000,
+     "fcf": 42964000000,
+     "fcf_margin_pct": 10.8
+    }
+   },
+   {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "industry": "Integrated Oil & Gas",
+    "our_recap": {
+     "title": "Chevron (CVX) Tops Q3 Estimates as Refining Profit Jumps",
+     "path": "/news/2026-10-30/chevron-cvx-tops-q3-estimates-as-refining-profit-jumps/",
+     "date": "2026-10-30"
+    },
+    "quote": {
+     "price": 213.1,
+     "change_pct": 0.08,
+     "prev_close": 212.93,
+     "time": "2026-11-06T10:30:00.706-0500",
+     "mktcap": "415.758B",
+     "pe": 15.59,
+     "fpe": 10.85,
+     "yr_high": 236.48,
+     "yr_low": 146.49,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 211.25,
+      "change_pct": -0.79,
+      "time": "2026-11-06T09:05:55.904-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 233333000000,
+     "revenue_growth_yoy_pct": 20.0,
+     "gross_margin_pct": 45.7,
+     "operating_margin_pct": null,
+     "net_margin_pct": 11.6,
+     "eps_diluted": 13.66,
+     "ocf": 51950000000,
+     "fcf": 34074000000,
+     "fcf_margin_pct": 14.6
+    }
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "industry": "Automobile Manufacturers",
+    "our_recap": {
+     "title": "Toyota (TM) Soars as Q2 Profit Jumps 34% and It Raises Its Forecast to 3.9 Trillion Yen",
+     "path": "/news/2026-11-06/toyota-tm-soars-as-q2-profit-jumps-34-and-it-raises-its-forecast-to-3-9-trillion-yen/",
+     "date": "2026-11-06"
+    },
+    "quote": {
+     "price": 216.05,
+     "change_pct": -0.94,
+     "prev_close": 218.11,
+     "time": "2026-11-06T10:28:29.893-0500",
+     "mktcap": "315.325B",
+     "pe": 9.88,
+     "fpe": 15.88,
+     "yr_high": 248.9,
+     "yr_low": 166.1,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 212.69,
+      "change_pct": -2.49,
+      "time": "2026-11-06T08:47:52.554-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "AZN",
+    "name": "AstraZeneca",
+    "industry": "Pharmaceuticals",
+    "our_recap": {
+     "title": "AstraZeneca (AZN) Tops Q3 Estimates and Shares Jump 7% on a Savings Plan",
+     "path": "/news/2026-11-01/astrazeneca-azn-tops-q3-estimates-and-shares-jump-7-on-a-savings-plan/",
+     "date": "2026-11-01"
+    },
+    "quote": {
+     "price": 185.16,
+     "change_pct": -0.91,
+     "prev_close": 186.85,
+     "time": "2026-11-06T10:30:01.013-0500",
+     "mktcap": "287.187B",
+     "pe": 26.0,
+     "fpe": 17.77,
+     "yr_high": 212.71,
+     "yr_low": 153.41,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 181.31,
+      "change_pct": -2.96,
+      "time": "2026-11-06T09:30:00.120-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "industry": "Biotechnology",
+    "our_recap": {
+     "title": "Amgen (AMGN) Beats Q3 Estimates and Raises Its 2026 Forecast",
+     "path": "/news/2026-11-04/amgen-amgn-beats-q3-estimates-and-raises-its-2026-forecast/",
+     "date": "2026-11-04"
+    },
+    "quote": {
+     "price": 461.32,
+     "change_pct": 0.22,
+     "prev_close": 460.28,
+     "time": "2026-11-06T10:29:56.673-0500",
+     "mktcap": "249.571B",
+     "pe": 26.75,
+     "fpe": 19.56,
+     "yr_high": 483.99,
+     "yr_low": 312.39,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 446.45,
+      "change_pct": -3.0,
+      "time": "2026-11-06T09:30:00.011-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 38903000000,
+     "revenue_growth_yoy_pct": 8.2,
+     "gross_margin_pct": 70.9,
+     "operating_margin_pct": 32.4,
+     "net_margin_pct": 24.1,
+     "eps_diluted": 17.24,
+     "ocf": 12035000000,
+     "fcf": 9581000000,
+     "fcf_margin_pct": 24.6
+    }
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "industry": "Communications Equipment",
+    "our_recap": {
+     "title": "Arista Networks (ANET) Beats Q3 Estimates as Sales Grow 58.5%",
+     "path": "/news/2026-11-03/arista-networks-anet-beats-q3-estimates-as-sales-grow-58-5/",
+     "date": "2026-11-03"
+    },
+    "quote": {
+     "price": 170.35,
+     "change_pct": 7.03,
+     "prev_close": 159.16,
+     "time": "2026-11-06T10:30:00.436-0500",
+     "mktcap": "214.85B",
+     "pe": 45.75,
+     "fpe": 33.4,
+     "yr_high": 217.41,
+     "yr_low": 114.52,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 171.32,
+      "change_pct": 7.64,
+      "time": "2026-11-06T09:29:51.515-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 11890100000,
+     "revenue_growth_yoy_pct": 40.7,
+     "gross_margin_pct": 62.9,
+     "operating_margin_pct": 43.8,
+     "net_margin_pct": 40.0,
+     "eps_diluted": 3.72,
+     "ocf": 5239300000,
+     "fcf": 5017400000,
+     "fcf_margin_pct": 42.2
+    }
+   },
+   {
+    "ticker": "SHOP",
+    "name": "Shopify",
+    "industry": "Internet Services & Infrastructure",
+    "our_recap": {
+     "title": "Shopify (SHOP) Q3: GMV and Subscriptions Miss, and the Stock Sinks 15%",
+     "path": "/news/2026-11-03/shopify-shop-q3-gmv-and-subscriptions-miss-and-the-stock-sinks-15/",
+     "date": "2026-11-03"
+    },
+    "quote": {
+     "price": 147.23,
+     "change_pct": 2.42,
+     "prev_close": 143.75,
+     "time": "2026-11-06T10:30:06.040-0500",
+     "mktcap": "189.408B",
+     "pe": 89.78,
+     "fpe": 70.88,
+     "yr_high": 180.88,
+     "yr_low": 94.0,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 144.8,
+      "change_pct": 0.73,
+      "time": "2026-11-06T09:29:59.818-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 14167000000,
+     "revenue_growth_yoy_pct": 32.5,
+     "gross_margin_pct": 47.5,
+     "operating_margin_pct": 14.6,
+     "net_margin_pct": 15.0,
+     "eps_diluted": 1.64,
+     "ocf": 2682000000,
+     "fcf": 2661000000,
+     "fcf_margin_pct": 18.8
+    }
+   },
+   {
+    "ticker": "PFE",
+    "name": "Pfizer",
+    "industry": "Pharmaceuticals",
+    "our_recap": {
+     "title": "Pfizer (PFE) Beats Q3 Estimates and Raises Its 2026 Forecast",
+     "path": "/news/2026-11-03/pfizer-pfe-beats-q3-estimates-and-raises-its-2026-forecast/",
+     "date": "2026-11-03"
+    },
+    "quote": {
+     "price": 29.28,
+     "change_pct": -0.59,
+     "prev_close": 29.45,
+     "time": "2026-11-06T10:30:06.340-0500",
+     "mktcap": "166.863B",
+     "pe": 41.82,
+     "fpe": 10.5,
+     "yr_high": 31.44,
+     "yr_low": 23.62,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 29.0,
+      "change_pct": -1.53,
+      "time": "2026-11-06T09:30:00.337-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-27",
+     "revenue": 63625000000,
+     "revenue_growth_yoy_pct": 1.3,
+     "gross_margin_pct": 73.4,
+     "operating_margin_pct": null,
+     "net_margin_pct": 6.3,
+     "eps_diluted": 0.7,
+     "ocf": 14173000000,
+     "fcf": 11786000000,
+     "fcf_margin_pct": 18.5
+    }
+   },
+   {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "industry": "Oil & Gas Exploration & Production",
+    "our_recap": {
+     "title": "ConocoPhillips (COP) Beats Q3 Estimates and Raises Its Dividend 11%",
+     "path": "/news/2026-11-05/conocophillips-cop-beats-q3-estimates-and-raises-its-dividend-11/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 136.11,
+     "change_pct": 0.48,
+     "prev_close": 135.46,
+     "time": "2026-11-06T10:29:57.983-0500",
+     "mktcap": "163.514B",
+     "pe": 18.83,
+     "fpe": 11.46,
+     "yr_high": 154.28,
+     "yr_low": 85.57,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 135.16,
+      "change_pct": -0.22,
+      "time": "2026-11-06T09:00:45.669-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 67749000000,
+     "revenue_growth_yoy_pct": 13.3,
+     "gross_margin_pct": 62.2,
+     "operating_margin_pct": null,
+     "net_margin_pct": 17.1,
+     "eps_diluted": 9.52,
+     "ocf": 23242000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony Group",
+    "industry": "Consumer Electronics",
+    "our_recap": {
+     "title": "Sony (SONY) Jumps 6% as Spider-Man and PlayStation Drive a 45% Profit Rise",
+     "path": "/news/2026-11-05/sony-sony-jumps-6-as-spider-man-and-playstation-drive-a-45-profit-rise/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 26.8,
+     "change_pct": -2.71,
+     "prev_close": 27.54,
+     "time": "2026-11-06T10:30:00.615-0500",
+     "mktcap": "159.841B",
+     "pe": 19.91,
+     "fpe": 21.27,
+     "yr_high": 30.34,
+     "yr_low": 19.32,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 26.51,
+      "change_pct": -3.74,
+      "time": "2026-11-06T09:30:01.117-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "industry": "Biotechnology",
+    "our_recap": {
+     "title": "Vertex (VRTX) Tops Q3 Sales Estimates and Raises Its 2026 Forecast",
+     "path": "/news/2026-11-02/vertex-vrtx-tops-q3-sales-estimates-and-raises-its-2026-forecast/",
+     "date": "2026-11-02"
+    },
+    "quote": {
+     "price": 541.77,
+     "change_pct": -0.13,
+     "prev_close": 542.5,
+     "time": "2026-11-06T10:30:02.358-0500",
+     "mktcap": "137.359B",
+     "pe": 34.85,
+     "fpe": 29.53,
+     "yr_high": 568.67,
+     "yr_low": 406.67,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 530.24,
+      "change_pct": -2.26,
+      "time": "2026-11-06T09:30:00.012-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 12951600000,
+     "revenue_growth_yoy_pct": 10.5,
+     "gross_margin_pct": 85.5,
+     "operating_margin_pct": 33.2,
+     "net_margin_pct": 30.7,
+     "eps_diluted": 15.54,
+     "ocf": 3694600000,
+     "fcf": 3202300000,
+     "fcf_margin_pct": 24.7
+    }
+   },
+   {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "industry": "Electrical Components & Equipment",
+    "our_recap": {
+     "title": "Eaton (ETN) Beats Q3 Estimates and Raises Its 2026 Forecast Again",
+     "path": "/news/2026-11-03/eaton-etn-beats-q3-estimates-and-raises-its-2026-forecast-again/",
+     "date": "2026-11-03"
+    },
+    "quote": {
+     "price": 338.42,
+     "change_pct": 3.49,
+     "prev_close": 327.02,
+     "time": "2026-11-06T10:30:01.737-0500",
+     "mktcap": "131.476B",
+     "pe": 32.95,
+     "fpe": 22.26,
+     "yr_high": 478.0,
+     "yr_low": 311.92,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 344.03,
+      "change_pct": 5.2,
+      "time": "2026-11-06T09:30:01.079-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 31984000000,
+     "revenue_growth_yoy_pct": 20.1,
+     "gross_margin_pct": 35.0,
+     "operating_margin_pct": null,
+     "net_margin_pct": 12.2,
+     "eps_diluted": 10.0,
+     "ocf": 4908000000,
+     "fcf": 3795000000,
+     "fcf_margin_pct": 11.9
+    }
+   },
+   {
+    "ticker": "BMY",
+    "name": "Bristol Myers Squibb",
+    "industry": "Pharmaceuticals",
+    "our_recap": {
+     "title": "Bristol Myers Squibb (BMY) Tops Q3 Estimates as Eliquis Sales Grow 26%",
+     "path": "/news/2026-10-30/bristol-myers-squibb-bmy-tops-q3-estimates-as-eliquis-sales-grow-26/",
+     "date": "2026-10-30"
+    },
+    "quote": {
+     "price": 62.62,
+     "change_pct": -0.81,
+     "prev_close": 63.13,
+     "time": "2026-11-06T10:30:00.982-0500",
+     "mktcap": "128.001B",
+     "pe": 13.87,
+     "fpe": 10.56,
+     "yr_high": 68.64,
+     "yr_low": 45.27,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 61.42,
+      "change_pct": -2.71,
+      "time": "2026-11-06T09:30:00.929-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 50033000000,
+     "revenue_growth_yoy_pct": 4.2,
+     "gross_margin_pct": 69.2,
+     "operating_margin_pct": null,
+     "net_margin_pct": 18.5,
+     "eps_diluted": 4.51,
+     "ocf": 10652000000,
+     "fcf": 9286000000,
+     "fcf_margin_pct": 18.6
+    }
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "industry": "Advertising",
+    "our_recap": {
+     "title": "AppLovin (APP) Soars 31% as Q3 Sales Rise 55% and Its Forecast Tops Estimates",
+     "path": "/news/2026-11-05/applovin-app-soars-31-as-q3-sales-rise-55-and-its-forecast-tops-estimates/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 377.04,
+     "change_pct": 5.88,
+     "prev_close": 356.1,
+     "time": "2026-11-06T10:30:00.238-0500",
+     "mktcap": "126.177B",
+     "pe": 25.38,
+     "fpe": 20.63,
+     "yr_high": 738.01,
+     "yr_low": 225.19,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 354.47,
+      "change_pct": -0.46,
+      "time": "2026-11-06T09:30:01.342-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7608894000,
+     "revenue_growth_yoy_pct": 57.8,
+     "gross_margin_pct": 88.8,
+     "operating_margin_pct": 77.8,
+     "net_margin_pct": 65.9,
+     "eps_diluted": 14.86,
+     "ocf": 4903009000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SYK",
+    "name": "Stryker",
+    "industry": "Health Care Equipment",
+    "our_recap": {
+     "title": "Stryker (SYK) Misses Q3 Estimates as Hip and Knee Procedures Slow",
+     "path": "/news/2026-10-30/stryker-syk-misses-q3-estimates-as-hip-and-knee-procedures-slow/",
+     "date": "2026-10-30"
+    },
+    "quote": {
+     "price": 324.13,
+     "change_pct": -3.27,
+     "prev_close": 335.08,
+     "time": "2026-11-06T10:30:06.740-0500",
+     "mktcap": "123.391B",
+     "pe": 34.53,
+     "fpe": 20.68,
+     "yr_high": 389.33,
+     "yr_low": 267.0,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 325.5,
+      "change_pct": -2.86,
+      "time": "2026-11-06T08:13:54.910-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 26300000000,
+     "revenue_growth_yoy_pct": 7.9,
+     "gross_margin_pct": 65.3,
+     "operating_margin_pct": 20.7,
+     "net_margin_pct": 13.8,
+     "eps_diluted": 9.39,
+     "ocf": 5446000000,
+     "fcf": 4573000000,
+     "fcf_margin_pct": 17.4
+    }
+   }
+  ]
+ }
+}
