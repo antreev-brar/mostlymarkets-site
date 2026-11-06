@@ -86,5 +86,8 @@
   "sec_filing": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000061/0000827054-26-000061-index.htm",
   "release_text": "events/packs/recap-MCHP-2026-11-05.txt",
   "release_url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000061/exhibit991q2fy27.htm"
- }
+ },
+ "outcome": "written",
+ "closed": "2026-11-06T10:32:19-05:00",
+ "story": "content/articles/2026-11-06-microchip-mchp-beats-q2-estimates-but-slides-on-a-softer-margin-forecast.md"
 }
