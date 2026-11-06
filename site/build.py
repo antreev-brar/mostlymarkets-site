@@ -43,7 +43,7 @@ MONTH = ["January", "February", "March", "April", "May", "June", "July", "August
          "November", "December"]
 WD = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 TYPE_LABEL = {"daily": "The Daily", "market-wrap": "Markets", "why-it-moved": "Why it moved", "movers": "Why it moved",
-              "earnings-recap": "Earnings", "earnings-roundup": "Earnings", "earnings-preview": "Earnings preview", "preview-roundup": "Earnings preview", "list": "Our picks",
+              "earnings-recap": "Earnings", "earnings-roundup": "Earnings", "earnings-preview": "Earnings preview", "list": "Our picks",
               "macro": "Economy", "chart": "Chart", "analysis": "Analysis", "narrative": "The big story",
               "viewpoints": "Bulls vs bears", "breakdown": "Deep dive", "brief": "News"}
 
@@ -389,8 +389,8 @@ class Story:
             self.cover_opts = [want, "trading-floor", "wall-street-sun", "market-screens", "wall-street-rain", "markets-calm"]
             return want
         opts: list[str] = []
-        if self.type in ("market-wrap", "macro", "chart", "movers", "list", "analysis", "earnings-roundup", "preview-roundup") or not self.tickers:
-            opts = COVERS["type"].get({"preview-roundup": "earnings-preview"}.get(self.type, self.type), ["markets-calm"])
+        if self.type in ("market-wrap", "macro", "chart", "movers", "list", "analysis", "earnings-roundup") or not self.tickers:
+            opts = COVERS["type"].get(self.type, ["markets-calm"])
         if not opts and self.tickers:
             info = UMAP[self.tickers[0]]
             for k, v in COVERS["industry"].items():
@@ -420,7 +420,7 @@ class Story:
 
     def weight(self) -> float:
         base = {"daily": 7, "market-wrap": 6, "narrative": 6, "earnings-recap": 5, "earnings-roundup": 4, "macro": 5, "viewpoints": 5, "analysis": 4,
-                "breakdown": 4, "why-it-moved": 3, "list": 3, "brief": 3, "preview-roundup": 3, "earnings-preview": 2, "movers": 2,
+                "breakdown": 4, "why-it-moved": 3, "list": 3, "brief": 3, "earnings-preview": 2, "movers": 2,
                 "chart": 1}.get(self.type, 2)
         mv = max([abs(m["c"]) for m in self.moves if m.get("c") is not None] or [0])
         cap = max([(Q.get(t) or {}).get("cap") or 0 for t in self.tickers] or [0])
@@ -501,7 +501,7 @@ ICON = {
     "star": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg>',
     "star_on": '<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path class="sf" d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z"/></svg>',
 }
-NAV = [("", "Feed"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
+NAV = [("", "Feed"), ("news/", "News"), ("daily/", "The Daily"), ("discover/", "Discover"), ("earnings/", "Earnings")]
 def page(path: str, title: str, body: str, desc: str = "", image: str | None = None, active: str = "",
          og_type: str = "website", extra_head: str = "") -> str:
     full_title = title if title.endswith(CFG["name"]) else f"{title} | {CFG['name']}"
@@ -1500,7 +1500,7 @@ def hero_card(s: Story, skip: set | None = None, news: list | None = None) -> st
 
 # The shelves between the home page's rows, in the order they come: (key, title, the story types, the line under the
 # title, the page that lists them all).
-SHELVES = [("earnings", "Earnings", ("earnings-recap", "earnings-roundup", "earnings-preview", "preview-roundup"), "What the reports said, and how the stocks took it",
+SHELVES = [("earnings", "Earnings", ("earnings-recap", "earnings-roundup", "earnings-preview"), "What the reports said, and how the stocks took it",
             "earnings/"),
            ("moves", "Why it moved", ("why-it-moved", "movers"), "The big moves, explained", None),
            ("deep", "Deep dives", ("breakdown", "narrative", "viewpoints"), "The big stories, the debates and the businesses, tested against the evidence", None),
@@ -1829,25 +1829,15 @@ def home_pages():
     lead = pick_lead(FEED)
     rest = [s for s in FEED if s is not lead]
     # Rows: every topic, newest first, as StockStory's feed is one stream, with at most two of one topic in each block
-    # of four, so a busy earnings night doesn't fill the page; the rest of a topic waits for its shelf. Every block
-    # holds one of our picks from the last three days in its second row, while there are any (the owner, 3 November
-    # 2026: more on how a reader can make money, StockStory's density of "stocks we like").
+    # of four, so a busy earnings night doesn't fill the page; the rest of a topic waits for its shelf.
     topic = {t: k for k, _, ts, _, _ in SHELVES for t in ts}  # anything else is "markets"
-    picks = [s for s in rest if s.type == "list" and NOW - s.pub < dt.timedelta(days=3)]
     first: list[Story] = []
     for s in rest:
-        if len(first) == 4 * (len(SHELVES) + 1):
-            break
         blk = first[len(first) // 4 * 4:]
-        if len(blk) == 1 and blk[0].type != "list":
-            p = next((x for x in picks if x not in first), None)
-            if p:
-                first.append(p)
-                blk.append(p)
-        if s in first or len(first) == 4 * (len(SHELVES) + 1):
-            continue
         if sum(topic.get(x.type, "markets") == topic.get(s.type, "markets") for x in blk) < 2:
             first.append(s)
+        if len(first) == 4 * (len(SHELVES) + 1):
+            break
     live = []  # a shelf holds its topic's stories that aren't in the rows; it needs three to fill a screen's width
     for key, title, types, sub, more in SHELVES:
         items = [s for s in rest if s.type in types and s not in first][:12]
@@ -2501,6 +2491,20 @@ def grouped_cards(ts: list[str], focus: str, extra, per: int = 3) -> str:
     return "".join(secs)
 
 
+DISCOVER_COMING_SOON = True  # covers Discover with an "upcoming" slide; set False to show the pages
+
+
+def cover_soon(body: str) -> str:
+    """Hide a Discover page behind the upcoming slide: the page stays in the DOM, blurred and inert."""
+    if not DISCOVER_COMING_SOON:
+        return body
+    slide = (f'<div class="soon" role="dialog" aria-label="Discover is coming soon"><div class="soon-card">'
+             f'<span class="soon-tag">Coming soon</span><h2>Discover is on its way</h2>'
+             f'<p>Rated stock lists, sector screens and our picks are almost ready. Meanwhile, the Feed has the day\'s stories.</p>'
+             f'<a class="btn" href="{u("")}">Back to the Feed</a></div></div>')
+    return f'<div class="soon-wrap"><div class="soon-body" aria-hidden="true" inert>{body}</div>{slide}</div>'
+
+
 def discover_pages():
     for key, tab, title, intro, focus, extra, ts in discover_lists_cache():
         body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
@@ -2508,13 +2512,13 @@ def discover_pages():
                 f'<div class="lst-h"><h2>{esc(title)}</h2><p>{esc(intro)} <span class="cnt">{len(ts)} stocks</span></p></div>'
                 f'{grouped_cards(ts, focus, extra)}</div>')
         path = "discover/" + key
-        write(path, page(path, f"{title} | Discover", body, intro, active="discover/"))
+        write(path, page(path, f"{title} | Discover", cover_soon(body), intro, active="discover/"))
     picks = [s for s in STORIES if s.type == "list"][:9]
     body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
             f'and the price against its sector; they aren\'t advice to buy or sell.</p></div>{discover_tabs("picks/")}'
             f'<div class="lst-h"><h2>Our picks</h2><p>Three stocks we\'d skip and one we like, or the reverse, one theme at a time, with the reasons in numbers.</p></div>'
             f'<div class="feed-wrap" style="margin:8px 0 0"><div class="cards-col">{"".join(row(s) for s in picks)}</div></div></div>')
-    write("discover/picks/", page("discover/picks/", "Our picks | Discover", body, "Three stocks we'd skip and one we like, with the reasons in numbers.", active="discover/"))
+    write("discover/picks/", page("discover/picks/", "Our picks | Discover", cover_soon(body), "Three stocks we'd skip and one we like, with the reasons in numbers.", active="discover/"))
 
 
 def table_rows(ts):
@@ -2582,13 +2586,9 @@ def earnings_days(days: list[dt.date], per_day: int = 8) -> str:
         for r in rows:
             t = r["ticker"]
             out = d < today or (d == today and (r["time"] == "bmo" and NOW.hour >= 9 or r["time"] == "amc" and NOW.hour >= 17))
-            # a company in a roundup links to the roundup (its own recap or preview first)
-            st = next((x for x in sorted(BY_TICKER.get(t, []), key=lambda x: x.type != "earnings-recap")
-                       if x.type in ("earnings-recap", "earnings-roundup") and 0 <= (x.pub.date() - d).days <= 2), None) if out else \
-                next((x for x in sorted(BY_TICKER.get(t, []), key=lambda x: x.type != "earnings-preview")
-                      if x.type in ("earnings-preview", "preview-roundup") and 0 <= (d - x.pub.date()).days <= 6), None)
-            rc = st is not None and st.type in ("earnings-recap", "earnings-roundup")
-            tag = (f'<span class="et-tag{" rc" if rc else ""}">{"Recap" if rc else "Preview"}</span>'
+            st = next((x for x in BY_TICKER.get(t, []) if x.type == "earnings-recap" and 0 <= (x.pub.date() - d).days <= 2), None) if out else \
+                next((x for x in BY_TICKER.get(t, []) if x.type == "earnings-preview" and 0 <= (d - x.pub.date()).days <= 6), None)
+            tag = (f'<span class="et-tag{" rc" if st.type == "earnings-recap" else ""}">{"Recap" if st.type == "earnings-recap" else "Preview"}</span>'
                    if st else "")
             when_ = {"bmo": "Before the open", "amc": "After the close"}.get(r["time"], "Time not confirmed")
             href = u(st.path) if st else u(tpath(t))
@@ -2612,7 +2612,7 @@ def earnings_page():
         days = [start + dt.timedelta(days=7 * w + i) for i in range(5)]
         weeks.append(f'<section class="hsec"><div class="hsec-h"><div><h2>{label}</h2><p>Week of {days[0].day} {MONTH[days[0].month - 1]}</p></div></div>'
                      f'{earnings_days(days)}</section>')
-    recaps = [s for s in STORIES if s.type in ("earnings-recap", "earnings-roundup", "earnings-preview", "preview-roundup")][:12]
+    recaps = [s for s in STORIES if s.type in ("earnings-recap", "earnings-roundup", "earnings-preview")][:12]
     rec = (f'<section class="hsec"><div class="hsec-h"><div><h2>Latest earnings stories</h2></div></div>'
            f'<div class="tiles t3">{"".join(tile(x) for x in recaps)}</div></section>') if recaps else ""
     body = (f'<div class="wrap"><div class="ph"><h1>Earnings</h1><p>The big companies reporting this week and next. We publish a preview '
