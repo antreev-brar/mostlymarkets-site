@@ -2,7 +2,7 @@
 title = "Sony (SONY) Jumps 6% as Spider-Man and PlayStation Drive a 45% Profit Rise"
 dek = "Sony's July-September operating income rose 45% to ¥622.3 billion, 23% above the LSEG consensus, and it raised its full-year forecast. Its US shares rose 6.1% on Thursday."
 type = "earnings-recap"
-published = 2026-11-05T23:15:00-05:00
+published = 2026-11-05T22:43:00-05:00
 author = "marcus-lindqvist"
 tickers = ["SONY"]
 event = "recap-SONY-2026-11-05"

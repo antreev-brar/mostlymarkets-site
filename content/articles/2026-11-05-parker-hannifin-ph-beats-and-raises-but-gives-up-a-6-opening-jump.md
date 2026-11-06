@@ -2,7 +2,7 @@
 title = "Parker Hannifin (PH) Beats and Raises, but Gives Up a 6% Opening Jump"
 dek = "Parker Hannifin earned a record $8.90 a share on an adjusted basis, 8% above the $8.23 Zacks consensus, and raised its forecast. The stock opened 6.4% higher and closed down 2%."
 type = "earnings-recap"
-published = 2026-11-05T23:05:00-05:00
+published = 2026-11-05T22:42:00-05:00
 author = "theo-park"
 tickers = ["PH"]
 event = "recap-PH-2026-11-05"

@@ -2,7 +2,7 @@
 title = "Cigna (CI) Beats Q3 Estimates and Raises Its Outlook, Then Fades"
 dek = "Cigna earned $7.98 a share on an adjusted basis, 7% above the $7.46 Zacks consensus, and raised its 2026 forecast. The stock opened at $318 and closed down 1.3% at $301.48."
 type = "earnings-recap"
-published = 2026-11-05T22:50:00-05:00
+published = 2026-11-05T22:41:00-05:00
 author = "claire-okafor"
 tickers = ["CI"]
 event = "recap-CI-2026-11-05"

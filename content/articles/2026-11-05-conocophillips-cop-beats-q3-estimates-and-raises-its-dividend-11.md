@@ -2,7 +2,7 @@
 title = "ConocoPhillips (COP) Beats Q3 Estimates and Raises Its Dividend 11%"
 dek = "ConocoPhillips earned $3.27 a share on an adjusted basis, 7% above the $3.06 Zacks consensus, as its realized price rose 32%. The stock still fell 1.1% on Thursday."
 type = "earnings-recap"
-published = 2026-11-05T23:25:00-05:00
+published = 2026-11-05T22:44:00-05:00
 author = "theo-park"
 tickers = ["COP", "FANG", "XOM"]
 themes = ["oil-shock"]
