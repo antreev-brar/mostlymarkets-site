@@ -97,5 +97,8 @@
    "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
    "/daily/2026-11-04/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-06T10:36:42-05:00",
+ "reason": "same news as content/articles/2026-11-06-tesla-tsla-will-wind-down-cybertruck-production-by-mid-2027.md"
 }
