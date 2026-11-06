@@ -95,5 +95,8 @@
    "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
    "/news/2026-11-04/supermicro-smci-shares-jump-as-sales-hit-19-9-billion-and-it-raises-its-forecast/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-06T10:36:52-05:00",
+ "reason": "covered in today's chip-rebound basket story"
 }

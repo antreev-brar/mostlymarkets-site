@@ -109,5 +109,8 @@
    "/news/2026-10-30/nebius-coreweave-and-cloudflare-shares-slide-what-happened/",
    "/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-06T10:36:52-05:00",
+ "reason": "already covered by our Cloudflare recap of 5 November"
 }
