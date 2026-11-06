@@ -1,0 +1,105 @@
+{
+ "id": "recap-VST-2026-11-06",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-06T07:15:14-05:00",
+ "expires": "2026-11-09T20:00:00-05:00",
+ "tickers": [
+  "VST"
+ ],
+ "headline_hint": "Vistra (VST) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-06T07:15:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "VST",
+   "name": "Vistra Corp.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.89,
+   "n_estimates": 3,
+   "eps_last_year": 1.75,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 40373559000.0
+  },
+  "quote": {
+   "price": 112.89,
+   "change_pct": -6.15,
+   "prev_close": 112.89,
+   "time": "2026-11-05",
+   "mktcap": "37.89B",
+   "pe": 19.07,
+   "fpe": 12.75,
+   "yr_high": 196.8,
+   "yr_low": 110.89,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 118.9,
+    "change_pct": 5.32,
+    "time": "2026-11-06T07:14:27.776-0500"
+   }
+  },
+  "facts": {
+   "ticker": "VST",
+   "name": "Vistra",
+   "date": "2026-11-05",
+   "close": 112.89,
+   "prev_close": 120.29,
+   "change_pct": -6.15,
+   "moves_over_5pct_last_year": 27,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 15,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": -13.83
+   },
+   "ytd_pct": -30.03,
+   "return_1m_pct": -32.29,
+   "return_6m_pct": -26.67,
+   "return_1y_pct": -39.22,
+   "high_52w": {
+    "close": 191.0,
+    "date": "2025-11-07"
+   },
+   "low_52w": {
+    "close": 112.89,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 40.9,
+   "thousand_dollars_5y_ago_now": 5507,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 15339940,
+   "volume_vs_20d_avg": 2.23,
+   "sentences": [
+    "Vistra's shares moved 5% or more on 27 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock fell 13.8%.",
+    "The stock is down 30.0% this year, and at $112.89 it sits 40.9% below its 52-week closing high of $191.00 from 7 November 2025.",
+    "$1,000 invested in Vistra five years ago would be worth $5,507 today."
+   ]
+  },
+  "sector": "Utilities",
+  "industry": "Electric Utilities",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/",
+    "date": "2026-11-05",
+    "title": "Wall Street Is Betting the Midterms Will Slow the AI Buildout. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "BE",
+     "VST",
+     "AMZN",
+     "MSFT",
+     "GOOGL"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/0001692819-26-000023-index.htm"
+ }
+}
