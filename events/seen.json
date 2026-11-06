@@ -1133,6 +1133,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-TSLA-2026-11-06-tesla-to-wind-down-cybertruck-production": {
+"created": "2026-11-06T02:01:08-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"TSLA"
+]
+},
 "news-UNH-2026-11-05-unitedhealth-unh-q3-earnings-lift-confid": {
 "created": "2026-11-05T00:01:50-05:00",
 "day": "2026-11-05",
