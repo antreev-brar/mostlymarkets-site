@@ -1,0 +1,89 @@
+{
+ "id": "movers-week-2026-11-06",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 50,
+ "created": "2026-11-06T16:45:19-05:00",
+ "expires": "2026-11-06T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves This Week",
+ "instructions": "The week's five biggest moves, Monday open to Friday close.",
+ "quotes_asof": "2026-11-06T16:45:13-05:00",
+ "pack": {
+  "week_ending": "2026-11-06",
+  "moves": [
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "close": 391.22,
+    "change_pct": 71.21
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "close": 538.59,
+    "change_pct": -35.94
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate Technology",
+    "close": 460.99,
+    "change_pct": -28.48
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "close": 141.2,
+    "change_pct": -28.11
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "close": 263.78,
+    "change_pct": -27.95
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 835.06,
+    "change_pct": -27.44
+   },
+   {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "close": 313.0,
+    "change_pct": -26.83
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 190.71,
+    "change_pct": -26.28
+   },
+   {
+    "ticker": "GRAB",
+    "name": "Grab Holdings",
+    "close": 3.41,
+    "change_pct": 25.83
+   },
+   {
+    "ticker": "FISV",
+    "name": "Fiserv",
+    "close": 62.88,
+    "change_pct": 25.71
+   },
+   {
+    "ticker": "FIS",
+    "name": "Fidelity National Information Services",
+    "close": 28.73,
+    "change_pct": -25.47
+   },
+   {
+    "ticker": "MCHP",
+    "name": "Microchip Technology",
+    "close": 58.35,
+    "change_pct": -24.55
+   }
+  ]
+ }
+}
