@@ -1,0 +1,500 @@
+{
+ "id": "daily-2026-11-06",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-06T05:02:06-05:00",
+ "expires": "2026-11-06T10:30:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the one story behind yesterday's market>",
+ "instructions": "The morning edition before the open on Friday 06 November. Tell the story of the last session (Thursday 05 November) and set up today: a narrative lede, then a thread of 6 to 8 takes, each one claim with one chart or stat block, then What's next (today's reporters and data) and The numbers. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-06T05:00:08-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7353.73,
+    "change": -334.89,
+    "change_pct": -4.36,
+    "prev_close": 7353.73,
+    "open": 7678.72,
+    "high": 7681.29,
+    "low": 7350.35,
+    "volume": 0,
+    "time": "2026-11-05",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 24314.997,
+    "change": -1421.516,
+    "change_pct": -5.52,
+    "prev_close": 24314.997,
+    "open": 25558.11,
+    "high": 25559.032,
+    "low": 24262.144,
+    "volume": 0,
+    "time": "2026-11-05",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 51523.06,
+    "change": -1833.06,
+    "change_pct": -3.44,
+    "prev_close": 51523.06,
+    "open": 53679.01,
+    "high": 53710.61,
+    "low": 51486.82,
+    "volume": 854774053,
+    "time": "2026-11-05",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2729.887,
+    "change": -127.063,
+    "change_pct": -4.45,
+    "prev_close": 2729.887,
+    "open": 2855.248,
+    "high": 2855.248,
+    "low": 2723.933,
+    "volume": 0,
+    "time": "2026-11-05",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 25.99,
+    "change": -2.19,
+    "change_pct": -7.77,
+    "prev_close": 28.18,
+    "open": 27.68,
+    "high": 27.68,
+    "low": 25.38,
+    "volume": 0,
+    "time": "2026-11-06T05:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.841,
+    "change": 0.004,
+    "change_pct": 0.0827,
+    "prev_close": 4.837,
+    "open": 4.835,
+    "high": 4.859,
+    "low": 4.818,
+    "volume": 0,
+    "time": "2026-11-06T04:59:58.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.48,
+    "change": 0.003,
+    "change_pct": -0.0078,
+    "prev_close": 4.477,
+    "open": 4.459,
+    "high": 4.491,
+    "low": 4.445,
+    "volume": 0,
+    "time": "2026-11-06T04:59:58.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 89.13,
+    "change": -1.39,
+    "change_pct": -1.54,
+    "prev_close": 90.52,
+    "open": 91.2,
+    "high": 92.53,
+    "low": 89.07,
+    "volume": 59176,
+    "time": "2026-11-06T04:50:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 96.75,
+    "change": -1.54,
+    "change_pct": -1.57,
+    "prev_close": 98.29,
+    "open": 98.87,
+    "high": 100.83,
+    "low": 96.67,
+    "volume": 89913,
+    "time": "2026-11-06T10:50:06.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 4084.0,
+    "change": -29.5,
+    "change_pct": -0.72,
+    "prev_close": 4113.5,
+    "open": 4098.5,
+    "high": 4116.2,
+    "low": 4044.5,
+    "volume": 63163,
+    "time": "2026-11-06T04:50:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 76060.3,
+    "change": 31.32,
+    "change_pct": 0.04,
+    "prev_close": 76028.98,
+    "open": 76078.82,
+    "high": 76295.44,
+    "low": 75109.33,
+    "volume": 0,
+    "time": "2026-11-06T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 107479.16,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 102.039,
+    "change": 0.492,
+    "change_pct": 0.48,
+    "prev_close": 101.547,
+    "open": 101.494,
+    "high": 102.046,
+    "low": 101.553,
+    "volume": 0,
+    "time": "2026-11-06T05:00:07.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-11-05",
+  "moves": [
+   {
+    "ticker": "VTR",
+    "name": "Ventas",
+    "close": 89.04,
+    "change_pct": -0.18,
+    "our_stories": []
+   },
+   {
+    "ticker": "WEC",
+    "name": "WEC Energy Group",
+    "close": 118.32,
+    "change_pct": 0.18,
+    "our_stories": []
+   },
+   {
+    "ticker": "VEEV",
+    "name": "Veeva Systems",
+    "close": 310.1,
+    "change_pct": -0.17,
+    "our_stories": []
+   },
+   {
+    "ticker": "D",
+    "name": "Dominion Energy",
+    "close": 69.64,
+    "change_pct": -0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "PEG",
+    "name": "Public Service Enterprise Group",
+    "close": 73.1,
+    "change_pct": -0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "VICI",
+    "name": "Vici Properties",
+    "close": 25.21,
+    "change_pct": -0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "XEL",
+    "name": "Xcel Energy",
+    "close": 80.37,
+    "change_pct": -0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "close": 167.1,
+    "change_pct": -0.13,
+    "our_stories": []
+   },
+   {
+    "ticker": "TSN",
+    "name": "Tyson Foods",
+    "close": 60.11,
+    "change_pct": 0.13,
+    "our_stories": []
+   },
+   {
+    "ticker": "YUM",
+    "name": "Yum! Brands",
+    "close": 166.09,
+    "change_pct": -0.13,
+    "our_stories": []
+   },
+   {
+    "ticker": "MDT",
+    "name": "Medtronic",
+    "close": 104.84,
+    "change_pct": -0.11,
+    "our_stories": []
+   },
+   {
+    "ticker": "VZ",
+    "name": "Verizon",
+    "close": 46.12,
+    "change_pct": -0.11,
+    "our_stories": []
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "Air Products (APD) Meets Q4 Estimates and Guides for Slower Growth in 2027",
+    "path": "/news/2026-11-05/air-products-apd-matches-q4-estimates-and-guides-for-slower-growth-in-2027/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Airbnb (ABNB) Jumps After Hours as Bookings Grow 21% and It Raises Its Outlook",
+    "path": "/news/2026-11-05/airbnb-abnb-jumps-after-hours-as-bookings-grow-21-and-it-raises-its-outlook/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "AppLovin (APP) Soars 31% as Q3 Sales Rise 55% and Its Forecast Tops Estimates",
+    "path": "/news/2026-11-05/applovin-app-soars-31-as-q3-sales-rise-55-and-its-forecast-tops-estimates/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Cigna (CI) Beats Q3 Estimates and Raises Its Outlook, Then Fades",
+    "path": "/news/2026-11-05/cigna-ci-beats-q3-estimates-and-raises-its-outlook-then-fades/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Cloudflare (NET) Jumps After Hours as Q3 Revenue Growth Speeds Up to 39%",
+    "path": "/news/2026-11-05/cloudflare-net-jumps-after-hours-as-q3-revenue-growth-speeds-up-to-39/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "ConocoPhillips (COP) Beats Q3 Estimates and Raises Its Dividend 11%",
+    "path": "/news/2026-11-05/conocophillips-cop-beats-q3-estimates-and-raises-its-dividend-11/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Duke Energy (DUK) Beats Q3 Estimates and Aims for the Top of Its 2026 Range",
+    "path": "/news/2026-11-05/duke-energy-duk-beats-q3-estimates-and-aims-for-the-top-of-its-2026-range/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Palantir (PLTR) Shares Slide for an Eighth Straight Day",
+    "path": "/news/2026-11-05/palantir-pltr-shares-slide-for-an-eighth-straight-day/",
+    "type": "why-it-moved",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Parker Hannifin (PH) Beats and Raises, but Gives Up a 6% Opening Jump",
+    "path": "/news/2026-11-05/parker-hannifin-ph-beats-and-raises-but-gives-up-a-6-opening-jump/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Qualcomm (QCOM) Shares Slide as Phone-Chip Sales Fall 26% and Memory Costs Bite",
+    "path": "/news/2026-11-05/qualcomm-qcom-shares-slide-as-phone-chip-sales-fall-26-and-memory-costs-bite/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Sandisk, Micron and AMD Shares Plunge: What Happened",
+    "path": "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Sony (SONY) Jumps 6% as Spider-Man and PlayStation Drive a 45% Profit Rise",
+    "path": "/news/2026-11-05/sony-sony-jumps-6-as-spider-man-and-playstation-drive-a-45-profit-rise/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Southern (SO) Beats Q3 Estimates and Raises Its 2026 Forecast to $4.70",
+    "path": "/news/2026-11-05/southern-so-beats-q3-estimates-and-raises-its-2026-forecast-to-4-70/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Stock Market Today: Nasdaq Sinks 5.5% Into a Correction on Midterm AI Fears",
+    "path": "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
+    "type": "market-wrap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Targa Resources (TRGP) Raises Its Outlook on Record Volumes but Slides 4.6%",
+    "path": "/news/2026-11-05/targa-resources-trgp-raises-its-outlook-on-record-permian-volumes-but-slides-4-6/",
+    "type": "earnings-recap",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Wall Street Is Betting the Midterms Will Slow the AI Buildout. 3 Numbers Will Decide It",
+    "path": "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/",
+    "type": "narrative",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Why Bloom Energy (BE) Stock Is Sinking Today",
+    "path": "/news/2026-11-05/why-bloom-energy-be-stock-is-sinking-today/",
+    "type": "why-it-moved",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "Why Tesla (TSLA) Stock Is Sinking Today",
+    "path": "/news/2026-11-05/why-tesla-tsla-stock-is-sinking-today/",
+    "type": "why-it-moved",
+    "date": "2026-11-05"
+   }
+  ],
+  "reporting_today": [
+   {
+    "ticker": "BRK.B",
+    "time": "unknown",
+    "eps_forecast": 5.91
+   },
+   {
+    "ticker": "MRNA",
+    "time": "bmo",
+    "eps_forecast": null
+   },
+   {
+    "ticker": "HUM",
+    "time": "bmo",
+    "eps_forecast": null
+   },
+   {
+    "ticker": "VST",
+    "time": "bmo",
+    "eps_forecast": 2.89
+   },
+   {
+    "ticker": "PPL",
+    "time": "bmo",
+    "eps_forecast": 0.53
+   },
+   {
+    "ticker": "ECHO",
+    "time": "bmo",
+    "eps_forecast": 0.02
+   },
+   {
+    "ticker": "BEN",
+    "time": "bmo",
+    "eps_forecast": 0.78
+   },
+   {
+    "ticker": "CHTR",
+    "time": "bmo",
+    "eps_forecast": 10.06
+   },
+   {
+    "ticker": "OKLO",
+    "time": "bmo",
+    "eps_forecast": null
+   }
+  ]
+ }
+}
