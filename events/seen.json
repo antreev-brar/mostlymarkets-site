@@ -962,6 +962,14 @@
 "L"
 ]
 },
+"news-MET-2026-11-06-chesnara-agrees-to-buy-100-of-metlife-uk": {
+"created": "2026-11-06T06:09:20-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"MET"
+]
+},
 "news-MPC-2026-11-03-cvr-near-deal-to-buy-refineries-from-mar": {
 "created": "2026-11-03T03:01:05-05:00",
 "day": "2026-11-03",
@@ -986,6 +994,14 @@
 "MSFT"
 ]
 },
+"news-NET-2026-11-06-cloudflare-stock-surges-after-earnings-w": {
+"created": "2026-11-06T06:09:20-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"NET"
+]
+},
 "news-NFLX-2026-11-02-netflix-needs-you-to-watch-not-just-pay": {
 "created": "2026-11-02T06:30:13-05:00",
 "day": "2026-11-02",
@@ -997,6 +1013,14 @@
 "news-NVDA-2026-11-03-nvidia-orders-data-centre-clients-to-red": {
 "created": "2026-11-03T02:01:03-05:00",
 "day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-06-nvidia-stock-rises-on-dip-buying-3-reaso": {
+"created": "2026-11-06T06:09:20-05:00",
+"day": "2026-11-06",
 "kind": "news",
 "tickers": [
 "NVDA"
@@ -1138,6 +1162,14 @@
 "day": "2026-11-04",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-TSLA-2026-11-06-is-it-the-end-of-the-cybertruck-elon-mus": {
+"created": "2026-11-06T06:09:20-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"TSLA"
+]
 },
 "news-TSLA-2026-11-06-tesla-to-wind-down-cybertruck-production": {
 "created": "2026-11-06T02:01:08-05:00",
@@ -2333,6 +2365,14 @@
 "TM"
 ]
 },
+"recap-TM-2026-11-05": {
+"created": "2026-11-06T06:09:20-05:00",
+"day": "2026-11-06",
+"kind": "earnings-recap",
+"tickers": [
+"TM"
+]
+},
 "recap-TOST-2026-11-03": {
 "created": "2026-11-04T10:45:13-05:00",
 "day": "2026-11-04",
@@ -2365,6 +2405,14 @@
 "recap-VMRK-2026-11-04": {
 "created": "2026-11-04T17:01:45-05:00",
 "day": "2026-11-04",
+"kind": "earnings-recap",
+"tickers": [
+"VMRK"
+]
+},
+"recap-VMRK-2026-11-05": {
+"created": "2026-11-06T06:09:20-05:00",
+"day": "2026-11-06",
 "kind": "earnings-recap",
 "tickers": [
 "VMRK"

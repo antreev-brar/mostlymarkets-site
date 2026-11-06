@@ -1,0 +1,101 @@
+{
+ "id": "news-TSLA-2026-11-06-is-it-the-end-of-the-cybertruck-elon-mus",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-06T06:09:20-05:00",
+ "expires": "2026-11-06T16:09:20-05:00",
+ "tickers": [
+  "TSLA"
+ ],
+ "headline_hint": "Tesla: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-06T06:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Is it the end of the Cybertruck? Elon Musk announces factory will shift production",
+    "source": "MarketWatch",
+    "url": "https://www.tradingview.com/news/DJN_SN20261106005169:0-is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production/",
+    "published": "2026-11-06T05:37:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Tesla Raises Price Of Cybertruck Cyberbeast To $102,490 In The US - Website",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46N1HM:0-tesla-raises-price-of-cybertruck-cyberbeast-to-102-490-in-the-us-website/",
+    "published": "2026-11-06T04:54:29-05:00",
+    "also": []
+   },
+   {
+    "title": "Elon Musk Confirms Cybertruck Production Wind-Down at Texas Factory as Tesla Makes Room for Cybercab",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:31d1dad90094b:0-elon-musk-confirms-cybertruck-production-wind-down-at-texas-factory-as-tesla-makes-room-for-cybercab/",
+    "published": "2026-11-06T03:02:09-05:00",
+    "also": [
+     "Reuters"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 343.69,
+   "change_pct": -10.77,
+   "prev_close": 343.69,
+   "time": "2026-11-05",
+   "mktcap": "1.359T",
+   "pe": 413.09,
+   "fpe": 187.71,
+   "yr_high": 498.83,
+   "yr_low": 297.38,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 348.53,
+    "change_pct": 1.41,
+    "time": "2026-11-06T06:00:06.873-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "date": "2026-11-05",
+   "close": 343.69,
+   "prev_close": 385.19,
+   "change_pct": -10.77,
+   "moves_over_5pct_last_year": 16,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-23",
+    "change_pct": -14.52
+   },
+   "ytd_pct": -23.58,
+   "return_1m_pct": -9.03,
+   "return_6m_pct": -16.54,
+   "return_1y_pct": -22.64,
+   "high_52w": {
+    "close": 489.88,
+    "date": "2025-12-16"
+   },
+   "low_52w": {
+    "close": 298.32,
+    "date": "2026-07-29"
+   },
+   "pct_below_52w_high": 29.84,
+   "thousand_dollars_5y_ago_now": 844,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 79675510,
+   "volume_vs_20d_avg": 2.13,
+   "sentences": [
+    "Tesla's shares moved 5% or more on 16 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 July 2026, when the stock fell 14.5%.",
+    "The stock is down 23.6% this year, and at $343.69 it sits 29.8% below its 52-week closing high of $489.88 from 16 December 2025.",
+    "$1,000 invested in Tesla five years ago would be worth $844 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-05/why-tesla-tsla-stock-is-sinking-today/",
+   "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
+   "/daily/2026-11-04/"
+  ]
+ }
+}
