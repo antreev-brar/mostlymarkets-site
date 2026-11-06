@@ -1010,6 +1010,14 @@
 "MSFT"
 ]
 },
+"news-NBIS-2026-11-06-nebius-group-nv-ydx-hm-stock-price-news": {
+"created": "2026-11-06T06:30:14-05:00",
+"day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"NBIS"
+]
+},
 "news-NET-2026-11-06-cloudflare-stock-surges-after-earnings-w": {
 "created": "2026-11-06T06:09:20-05:00",
 "day": "2026-11-06",
