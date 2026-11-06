@@ -44,7 +44,7 @@ Moderna (MRNA) Q3 2026 highlights
 
 The beat came from COVID vaccines sold abroad. Revenue rose mainly on "higher COVID vaccine sales in international markets," delivered under long-term deals with governments such as the UK, Canada and Australia, the release said. Costs fell at the same time: research spending dropped 27% as late-stage infectious-disease trials wound down, which is what turned a $200 million loss a year ago into a $162 million profit.
 
-Chief Executive Stéphane Bancel pointed to the pipeline: the US approval of mFLUSIVA, its flu vaccine, and positive late-stage results for intismeran, its personalized cancer vaccine, in melanoma. The flu shot will get only a limited US launch this season because it was approved after governments and pharmacies had signed their annual contracts, the release said, so it adds little to 2026 sales.
+Chief Executive Stéphane Bancel pointed to the pipeline: the US approval of mFLUSIVA, its flu vaccine, and positive late-stage results for intismeran, its personalized cancer vaccine, in melanoma. The flu shot will get only a limited US launch this season because it was approved after the annual contracting cycle, the release said, so it adds little to 2026 sales.
 
 ## The outlook
 
