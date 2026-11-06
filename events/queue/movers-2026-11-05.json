@@ -1,0 +1,121 @@
+{
+ "id": "movers-2026-11-05",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-06T09:01:11-05:00",
+ "expires": "2026-11-06T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Thursday 05 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-06T09:00:10-05:00",
+ "pack": {
+  "session": "2026-11-05",
+  "moves": [
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "close": 356.1,
+    "change_pct": 31.04,
+    "our_stories": [
+     "/daily/2026-11-06/",
+     "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
+     "/news/2026-11-05/applovin-app-soars-31-as-q3-sales-rise-55-and-its-forecast-tops-estimates/"
+    ]
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 806.43,
+    "change_pct": -22.26,
+    "our_stories": [
+     "/daily/2026-11-06/",
+     "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 179.47,
+    "change_pct": -19.62,
+    "our_stories": []
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "close": 509.7,
+    "change_pct": -18.68,
+    "our_stories": []
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 112.33,
+    "change_pct": -17.71,
+    "our_stories": []
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "close": 656.39,
+    "change_pct": -17.46,
+    "our_stories": [
+     "/daily/2026-11-06/",
+     "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/",
+     "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/"
+    ]
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "close": 267.63,
+    "change_pct": -17.35,
+    "our_stories": [
+     "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/"
+    ]
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "close": 404.4,
+    "change_pct": -17.26,
+    "our_stories": [
+     "/daily/2026-11-06/",
+     "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
+     "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/"
+    ]
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "close": 133.55,
+    "change_pct": -16.43,
+    "our_stories": []
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "close": 167.52,
+    "change_pct": -16.41,
+    "our_stories": [
+     "/news/2026-11-05/why-bloom-energy-be-stock-is-sinking-today/",
+     "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/"
+    ]
+   },
+   {
+    "ticker": "P",
+    "name": "Everpure",
+    "close": 93.44,
+    "change_pct": -16.4,
+    "our_stories": []
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "close": 185.2,
+    "change_pct": -16.36,
+    "our_stories": []
+   }
+  ]
+ }
+}
