@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-06-1",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-06T07:30:14-05:00",
+ "expires": "2026-11-06T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Momentum Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Momentum, screened on six-month price return. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-06T07:30:09-05:00",
+ "pack": {
+  "theme": "momentum",
+  "screen": "six-month price return",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "MRNA",
+    "name": "Moderna",
+    "industry": "Biotechnology",
+    "metric": 397.4,
+    "price": 241.46,
+    "pe": -30.24,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 2228000000,
+     "revenue_growth_yoy_pct": -27.6,
+     "gross_margin_pct": 23.4,
+     "operating_margin_pct": -149.0,
+     "net_margin_pct": -141.4,
+     "eps_diluted": -7.99,
+     "ocf": -1073000000,
+     "fcf": -1244000000,
+     "fcf_margin_pct": -55.8
+    }
+   },
+   {
+    "ticker": "TEAM",
+    "name": "Atlassian",
+    "industry": "Application Software",
+    "metric": 98.4,
+    "price": 183.29,
+    "pe": -986.49,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 6572308000,
+     "revenue_growth_yoy_pct": 26.0,
+     "gross_margin_pct": 84.8,
+     "operating_margin_pct": 0.2,
+     "net_margin_pct": -0.8,
+     "eps_diluted": -0.19,
+     "ocf": 1353136000,
+     "fcf": 1319076000,
+     "fcf_margin_pct": 20.1
+    }
+   },
+   {
+    "ticker": "VEEV",
+    "name": "Veeva Systems",
+    "industry": "Health Care Technology",
+    "metric": 84.3,
+    "price": 310.1,
+    "pe": 50.71,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 3458098000,
+     "revenue_growth_yoy_pct": 16.5,
+     "gross_margin_pct": 75.0,
+     "operating_margin_pct": 29.9,
+     "net_margin_pct": 29.3,
+     "eps_diluted": 6.11,
+     "ocf": 1665459000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SNOW",
+    "name": "Snowflake",
+    "industry": "Application Software",
+    "metric": 75.3,
+    "price": 269.54,
+    "pe": -84.91,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 5434647000,
+     "revenue_growth_yoy_pct": 32.0,
+     "gross_margin_pct": 67.0,
+     "operating_margin_pct": -22.8,
+     "net_margin_pct": -20.1,
+     "eps_diluted": -3.18,
+     "ocf": 1253253000,
+     "fcf": 1195274000,
+     "fcf_margin_pct": 22.0
+    }
+   },
+   {
+    "ticker": "CRL",
+    "name": "Charles River Laboratories",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 72.3,
+    "price": 313.02,
+    "pe": 346.95,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3976867000,
+     "revenue_growth_yoy_pct": -1.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 4.0,
+     "net_margin_pct": 1.0,
+     "eps_diluted": 0.91,
+     "ocf": 622407000,
+     "fcf": 399634000,
+     "fcf_margin_pct": 10.0
+    }
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "industry": "Systems Software",
+    "metric": 72.0,
+    "price": 105.74,
+    "pe": -83.47,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 1542178000,
+     "revenue_growth_yoy_pct": 42.4,
+     "gross_margin_pct": 80.2,
+     "operating_margin_pct": -18.3,
+     "net_margin_pct": -16.5,
+     "eps_diluted": -1.26,
+     "ocf": 337064000,
+     "fcf": 303905000,
+     "fcf_margin_pct": 19.7
+    }
+   },
+   {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "industry": "Systems Software",
+    "metric": 71.8,
+    "price": 217.2,
+    "pe": 3803.85,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 5396145000,
+     "revenue_growth_yoy_pct": 24.3,
+     "gross_margin_pct": 75.2,
+     "operating_margin_pct": -2.2,
+     "net_margin_pct": 1.1,
+     "eps_diluted": 0.06,
+     "ocf": 2016615000,
+     "fcf": 1608718000,
+     "fcf_margin_pct": 29.8
+    }
+   },
+   {
+    "ticker": "BBY",
+    "name": "Best Buy",
+    "industry": "Computer & Electronics Retail",
+    "metric": 69.8,
+    "price": 99.4,
+    "pe": 16.5,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 42201000000,
+     "revenue_growth_yoy_pct": 1.4,
+     "gross_margin_pct": 22.7,
+     "operating_margin_pct": 4.1,
+     "net_margin_pct": 3.0,
+     "eps_diluted": 6.01,
+     "ocf": 2475000000,
+     "fcf": 1768000000,
+     "fcf_margin_pct": 4.2
+    }
+   },
+   {
+    "ticker": "HUM",
+    "name": "Humana",
+    "industry": "Managed Health Care",
+    "metric": 66.6,
+    "price": 411.79,
+    "pe": 39.0,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 137200000000,
+     "revenue_growth_yoy_pct": 14.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 1.8,
+     "net_margin_pct": 0.8,
+     "eps_diluted": 9.35,
+     "ocf": 1844000000,
+     "fcf": 1272000000,
+     "fcf_margin_pct": 0.9
+    }
+   },
+   {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "industry": "Systems Software",
+    "metric": 60.1,
+    "price": 314.67,
+    "pe": 618.09,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 11480000000,
+     "revenue_growth_yoy_pct": 24.5,
+     "gross_margin_pct": 70.4,
+     "operating_margin_pct": 6.1,
+     "net_margin_pct": 2.7,
+     "eps_diluted": 0.51,
+     "ocf": 4553000000,
+     "fcf": 4113000000,
+     "fcf_margin_pct": 35.8
+    }
+   },
+   {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "industry": "Oil & Gas Refining & Marketing",
+    "metric": 55.8,
+    "price": 377.32,
+    "pe": 7.38,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 174800000000,
+     "revenue_growth_yoy_pct": 31.2,
+     "gross_margin_pct": 15.9,
+     "operating_margin_pct": 12.5,
+     "net_margin_pct": 8.4,
+     "eps_diluted": 51.16,
+     "ocf": 25249000000,
+     "fcf": 20842000000,
+     "fcf_margin_pct": 11.9
+    }
+   },
+   {
+    "ticker": "WDAY",
+    "name": "Workday",
+    "industry": "Application Software",
+    "metric": 52.9,
+    "price": 200.17,
+    "pe": 39.23,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 10155000000,
+     "revenue_growth_yoy_pct": 13.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 10.7,
+     "net_margin_pct": 12.3,
+     "eps_diluted": 4.93,
+     "ocf": 3081000000,
+     "fcf": 2844000000,
+     "fcf_margin_pct": 28.0
+    }
+   },
+   {
+    "ticker": "ALB",
+    "name": "Albemarle",
+    "industry": "Specialty Chemicals",
+    "metric": -50.4,
+    "price": 98.37,
+    "pe": 25.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6153172000,
+     "revenue_growth_yoy_pct": 24.4,
+     "gross_margin_pct": 25.8,
+     "operating_margin_pct": 10.0,
+     "net_margin_pct": 11.1,
+     "eps_diluted": 4.14,
+     "ocf": 1850522000,
+     "fcf": 1444356000,
+     "fcf_margin_pct": 23.5
+    }
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "industry": "Diversified Metals & Mining",
+    "metric": -51.2,
+    "price": 33.74,
+    "pe": -98.02,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 305377000,
+     "revenue_growth_yoy_pct": 26.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -41.5,
+     "net_margin_pct": -19.9,
+     "eps_diluted": -0.34,
+     "ocf": -83963000,
+     "fcf": -504576000,
+     "fcf_margin_pct": -165.2
+    }
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "industry": "Alternative Carriers",
+    "metric": -53.8,
+    "price": 30.2,
+    "pe": -14.1,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 115299000,
+     "revenue_growth_yoy_pct": 706.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -536.7,
+     "eps_diluted": -2.14,
+     "ocf": -144705000,
+     "fcf": -1638039000,
+     "fcf_margin_pct": -1420.7
+    }
+   },
+   {
+    "ticker": "CIEN",
+    "name": "Ciena",
+    "industry": "Communications Equipment",
+    "metric": -57.2,
+    "price": 230.81,
+    "pe": 51.51,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 6020894000,
+     "revenue_growth_yoy_pct": 32.6,
+     "gross_margin_pct": 44.1,
+     "operating_margin_pct": 12.3,
+     "net_margin_pct": 10.9,
+     "eps_diluted": 4.48,
+     "ocf": 1054683000,
+     "fcf": 814362000,
+     "fcf_margin_pct": 13.5
+    }
+   }
+  ]
+ }
+}
