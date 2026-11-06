@@ -1,0 +1,121 @@
+{
+ "id": "move-LRCX-2026-11-06",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 87,
+ "created": "2026-11-06T10:01:11-05:00",
+ "expires": "2026-11-09T12:00:00-05:00",
+ "tickers": [
+  "LRCX"
+ ],
+ "headline_hint": "Why Lam Research (LRCX) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-06T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 205.27,
+   "change_pct": 10.84,
+   "prev_close": 185.2,
+   "time": "2026-11-06T10:00:05.941-0500",
+   "mktcap": "256.417B",
+   "pe": 30.54,
+   "fpe": 21.34,
+   "yr_high": 438.5,
+   "yr_low": 135.5,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 207.3,
+    "change_pct": 11.93,
+    "time": "2026-11-06T09:30:01.249-0500"
+   }
+  },
+  "facts": {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "date": "2026-11-05",
+   "close": 185.2,
+   "prev_close": 221.43,
+   "change_pct": -16.36,
+   "moves_over_5pct_last_year": 56,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": null,
+   "ytd_pct": 8.19,
+   "return_1m_pct": -43.8,
+   "return_6m_pct": -35.36,
+   "return_1y_pct": 18.89,
+   "high_52w": {
+    "close": 433.33,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 139.59,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 57.26,
+   "thousand_dollars_5y_ago_now": 3032,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 31453340,
+   "volume_vs_20d_avg": 2.72,
+   "sentences": [
+    "Lam Research's shares moved 5% or more on 56 of the last 252 sessions.",
+    "The stock is up 8.2% this year, and at $185.20 it sits 57.3% below its 52-week closing high of $433.33 from 30 June 2026.",
+    "$1,000 invested in Lam Research five years ago would be worth $3,032 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductor Materials & Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-29/kla-klac-tops-q1-estimates-as-chip-inspection-sales-rise-29/",
+    "date": "2026-10-29",
+    "title": "KLA (KLAC) Tops Q1 Estimates as Chip-Inspection Sales Rise 29%",
+    "type": "earnings-recap",
+    "tickers": [
+     "KLAC",
+     "LRCX"
+    ]
+   },
+   {
+    "path": "/news/2026-10-23/stocks-making-the-biggest-moves-yesterday-moderna-lam-research-spotify-meta-and-pg/",
+    "date": "2026-10-23",
+    "title": "Stocks Making the Biggest Moves Yesterday: Moderna, Lam Research, Spotify, Meta and P&G",
+    "type": "movers",
+    "tickers": [
+     "MRNA",
+     "LRCX",
+     "SPOT",
+     "META",
+     "PG"
+    ]
+   },
+   {
+    "path": "/news/2026-10-23/five-stocks-that-made-news-this-week-zscaler-hasbro-lam-research-meta-and-moderna/",
+    "date": "2026-10-23",
+    "title": "Five Stocks That Made News This Week: Zscaler, Hasbro, Lam Research, Meta and Moderna",
+    "type": "movers",
+    "tickers": [
+     "ZS",
+     "HAS",
+     "LRCX",
+     "META",
+     "MRNA"
+    ]
+   },
+   {
+    "path": "/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/",
+    "date": "2026-10-22",
+    "title": "Lam Research (LRCX), KLA (KLAC) and Applied Materials (AMAT) Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "NVDA"
+    ]
+   }
+  ]
+ }
+}

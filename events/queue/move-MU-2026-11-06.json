@@ -1,0 +1,146 @@
+{
+ "id": "move-MU-2026-11-06",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 84,
+ "created": "2026-11-06T10:01:11-05:00",
+ "expires": "2026-11-09T12:00:00-05:00",
+ "tickers": [
+  "MU"
+ ],
+ "headline_hint": "Why Micron Technology (MU) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-06T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 719.5,
+   "change_pct": 9.61,
+   "prev_close": 656.39,
+   "time": "2026-11-06T10:00:06.835-0500",
+   "mktcap": "814.053B",
+   "pe": 9.69,
+   "fpe": 4.09,
+   "yr_high": 1255.0,
+   "yr_low": 192.59,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 706.37,
+    "change_pct": 7.61,
+    "time": "2026-11-06T09:30:01.788-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "date": "2026-11-05",
+   "close": 656.39,
+   "prev_close": 795.23,
+   "change_pct": -17.46,
+   "moves_over_5pct_last_year": 75,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 3,
+   "last_move_at_least_this_big_same_direction": null,
+   "ytd_pct": 129.98,
+   "return_1m_pct": -39.67,
+   "return_6m_pct": 1.51,
+   "return_1y_pct": 201.05,
+   "high_52w": {
+    "close": 1213.56,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 201.37,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 45.91,
+   "thousand_dollars_5y_ago_now": 9002,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 77872750,
+   "volume_vs_20d_avg": 2.89,
+   "sentences": [
+    "Micron Technology's shares moved 5% or more on 75 of the last 252 sessions.",
+    "The stock is up 130.0% this year, and at $656.39 it sits 45.9% below its 52-week closing high of $1,213.56 from 25 June 2026.",
+    "$1,000 invested in Micron Technology five years ago would be worth $9,002 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/",
+    "date": "2026-11-05",
+    "title": "Wall Street Is Betting the Midterms Will Slow the AI Buildout. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "BE",
+     "VST",
+     "AMZN",
+     "MSFT",
+     "GOOGL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
+    "date": "2026-11-05",
+    "title": "Stock Market Today: Nasdaq Sinks 5.5% Into a Correction on Midterm AI Fears",
+    "type": "market-wrap",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "MU",
+     "TSLA",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/",
+    "date": "2026-11-05",
+    "title": "Sandisk, Micron and AMD Shares Plunge: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "SNDK",
+     "MU",
+     "AMD",
+     "WDC",
+     "STX",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+    "date": "2026-11-03",
+    "title": "Memory's Boom Has Become the Device Makers' Bill: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "AAPL",
+     "HPQ",
+     "DELL",
+     "QCOM",
+     "MU",
+     "SNDK",
+     "INTC"
+    ]
+   }
+  ]
+ }
+}

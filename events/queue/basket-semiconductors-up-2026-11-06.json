@@ -1,0 +1,148 @@
+{
+ "id": "basket-semiconductors-up-2026-11-06",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-06T10:01:11-05:00",
+ "expires": "2026-11-06T23:59:00-05:00",
+ "tickers": [
+  "AMD",
+  "MU",
+  "CRDO",
+  "MRVL",
+  "INTC"
+ ],
+ "headline_hint": "AMD, MU, CRDO shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-06T10:00:11-05:00",
+ "pack": {
+  "industry": "Semiconductors",
+  "quotes": {
+   "AMD": {
+    "price": 456.85,
+    "change_pct": 12.97,
+    "prev_close": 404.4,
+    "time": "2026-11-06T10:00:00.367-0500",
+    "mktcap": "745.796B",
+    "pe": 97.92,
+    "fpe": 37.77,
+    "yr_high": 658.52,
+    "yr_low": 188.22,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 443.87,
+     "change_pct": 9.76,
+     "time": "2026-11-06T09:30:01.025-0500"
+    }
+   },
+   "MU": {
+    "price": 719.5,
+    "change_pct": 9.61,
+    "prev_close": 656.39,
+    "time": "2026-11-06T10:00:06.835-0500",
+    "mktcap": "814.053B",
+    "pe": 9.69,
+    "fpe": 4.09,
+    "yr_high": 1255.0,
+    "yr_low": 192.59,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 706.37,
+     "change_pct": 7.61,
+     "time": "2026-11-06T09:30:01.788-0500"
+    }
+   },
+   "CRDO": {
+    "price": 122.5,
+    "change_pct": 9.05,
+    "prev_close": 112.33,
+    "time": "2026-11-06T10:00:01.641-0500",
+    "mktcap": "23.024B",
+    "pe": 43.75,
+    "fpe": 16.76,
+    "yr_high": 308.67,
+    "yr_low": 86.49,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 124.66,
+     "change_pct": 10.98,
+     "time": "2026-11-06T09:30:00.115-0500"
+    }
+   },
+   "MRVL": {
+    "price": 144.58,
+    "change_pct": 8.26,
+    "prev_close": 133.55,
+    "time": "2026-11-06T10:00:05.884-0500",
+    "mktcap": "126.937B",
+    "pe": 47.71,
+    "fpe": 25.67,
+    "yr_high": 329.88,
+    "yr_low": 70.69,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 145.19,
+     "change_pct": 8.72,
+     "time": "2026-11-06T09:30:00.713-0500"
+    }
+   },
+   "INTC": {
+    "price": 56.17,
+    "change_pct": 7.5,
+    "prev_close": 52.25,
+    "time": "2026-11-06T10:00:04.960-0500",
+    "mktcap": "298.544B",
+    "pe": -23.49,
+    "fpe": 43.85,
+    "yr_high": 142.35,
+    "yr_low": 32.89,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 54.99,
+     "change_pct": 5.24,
+     "time": "2026-11-06T09:30:00.504-0500"
+    }
+   }
+  },
+  "facts": {
+   "AMD": {
+    "ticker": "AMD",
+    "name": "AMD",
+    "date": "2026-11-05",
+    "close": 404.4,
+    "prev_close": 488.78,
+    "change_pct": -17.26,
+    "moves_over_5pct_last_year": 56,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 3,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-02-04",
+     "change_pct": -17.31
+    },
+    "ytd_pct": 88.83,
+    "return_1m_pct": -37.39,
+    "return_6m_pct": -0.99,
+    "return_1y_pct": 61.73,
+    "high_52w": {
+     "close": 649.42,
+     "date": "2026-10-06"
+    },
+    "low_52w": {
+     "close": 190.95,
+     "date": "2026-03-03"
+    },
+    "pct_below_52w_high": 37.73,
+    "thousand_dollars_5y_ago_now": 2966,
+    "five_years_ago_date": "2021-11-05",
+    "volume": 71237440,
+    "volume_vs_20d_avg": 3.02,
+    "sentences": [
+     "AMD's shares moved 5% or more on 56 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 4 February 2026, when the stock fell 17.3%.",
+     "The stock is up 88.8% this year, and at $404.40 it sits 37.7% below its 52-week closing high of $649.42 from 6 October 2026.",
+     "$1,000 invested in AMD five years ago would be worth $2,966 today."
+    ]
+   }
+  }
+ }
+}
