@@ -2501,6 +2501,20 @@ def grouped_cards(ts: list[str], focus: str, extra, per: int = 3) -> str:
     return "".join(secs)
 
 
+DISCOVER_COMING_SOON = True  # covers Discover with an "upcoming" slide; set False to show the pages
+
+
+def cover_soon(body: str) -> str:
+    """Hide a Discover page behind the upcoming slide: the page stays in the DOM, blurred and inert."""
+    if not DISCOVER_COMING_SOON:
+        return body
+    slide = (f'<div class="soon" role="dialog" aria-label="Discover is coming soon"><div class="soon-card">'
+             f'<span class="soon-tag">Coming soon</span><h2>Discover is on its way</h2>'
+             f'<p>Rated stock lists, sector screens and our picks are almost ready. Meanwhile, the Feed has the day\'s stories.</p>'
+             f'<a class="btn" href="{u("")}">Back to the Feed</a></div></div>')
+    return f'<div class="soon-wrap"><div class="soon-body" aria-hidden="true" inert>{body}</div>{slide}</div>'
+
+
 def discover_pages():
     for key, tab, title, intro, focus, extra, ts in discover_lists_cache():
         body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
@@ -2508,13 +2522,13 @@ def discover_pages():
                 f'<div class="lst-h"><h2>{esc(title)}</h2><p>{esc(intro)} <span class="cnt">{len(ts)} stocks</span></p></div>'
                 f'{grouped_cards(ts, focus, extra)}</div>')
         path = "discover/" + key
-        write(path, page(path, f"{title} | Discover", body, intro, active="discover/"))
+        write(path, page(path, f"{title} | Discover", cover_soon(body), intro, active="discover/"))
     picks = [s for s in STORIES if s.type == "list"][:9]
     body = (f'<div class="wrap"><div class="ph"><h1>Discover</h1><p>Find stocks worth a closer look. Ratings describe the business '
             f'and the price against its sector; they aren\'t advice to buy or sell.</p></div>{discover_tabs("picks/")}'
             f'<div class="lst-h"><h2>Our picks</h2><p>Three stocks we\'d skip and one we like, or the reverse, one theme at a time, with the reasons in numbers.</p></div>'
             f'<div class="feed-wrap" style="margin:8px 0 0"><div class="cards-col">{"".join(row(s) for s in picks)}</div></div></div>')
-    write("discover/picks/", page("discover/picks/", "Our picks | Discover", body, "Three stocks we'd skip and one we like, with the reasons in numbers.", active="discover/"))
+    write("discover/picks/", page("discover/picks/", "Our picks | Discover", cover_soon(body), "Three stocks we'd skip and one we like, with the reasons in numbers.", active="discover/"))
 
 
 def table_rows(ts):

@@ -1574,3 +1574,12 @@ span.xp-tk:hover { text-decoration: none; }
 /* the watchlist's empty message only holds focus */
 .wl-empty:focus { outline: none; }
 @media (max-width: 359px) { .srch { padding-inline: 10px; } .srch .bx { padding: 10px; } .srch .res .sres a { gap: 8px; padding-inline: 8px; } }
+
+/* ------------------------------------------------------------------ Discover "coming soon" slide */
+.soon-wrap { position: relative; overflow: hidden; height: calc(100vh - 140px); min-height: 520px; }
+.soon-body { filter: blur(9px); opacity: .55; pointer-events: none; user-select: none; }
+.soon { position: absolute; inset: 0; display: flex; align-items: flex-start; justify-content: center; padding: 14vh 16px 0; background: color-mix(in srgb, var(--bg) 55%, transparent); }
+.soon-card { max-width: 440px; text-align: center; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 32px 28px; box-shadow: var(--shadow-lg); }
+.soon-tag { display: inline-block; font: 650 12px/1 var(--sans, inherit); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); border-radius: 99px; padding: 6px 12px; }
+.soon-card h2 { font: 650 28px/1.15 var(--serif); margin: 16px 0 10px; }
+.soon-card p { color: var(--ink-3); line-height: 1.55; margin-bottom: 20px; }
