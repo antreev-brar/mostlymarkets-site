@@ -1,0 +1,382 @@
+{
+ "ticker": "LYB",
+ "updated": "2026-11-06T06:07:44-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "0955ee54173e5da0af92e3c683e0d61ae3487279",
+   "title": "LyondellBasell 13D update: an active investor changed its stake",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1489393/000119312526450035/0001193125-26-450035-index.htm",
+   "published": "2026-11-05T16:44:47-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "f7427e392b3fce4c77c9136407bea316e3094003",
+   "title": "LyondellBasell Industries N.V. (LYB) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWUjVNdGhGcy1GUVRqSWIzeWJLLUFISWJ6OV9zTE9ubHBlc2tpanE4S05kQ2tZM0Z5OW1FQnY1M0Q2Ri1NNlpmMGFjanlKY1B2?oc=5",
+   "published": "2026-11-04T02:36:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f73645a524249b775078f7e98347c1d4e4d1b18e",
+   "title": "Citigroup maintains LyondellBasell Industries at Neutral, raises price target to $74 from $63",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:9a1d539532dd4:0-citigroup-maintains-lyondellbasell-industries-at-neutral-raises-price-target-to-74-from-63/",
+   "published": "2026-11-03T14:16:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1a7d7e427a4f697bbec3f1f0f5859b9e0383e958",
+   "title": "UBS maintains LyondellBasell Industries at Neutral, raises price target to $69 from $62",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:5998abf6d26de:0-ubs-maintains-lyondellbasell-industries-at-neutral-raises-price-target-to-69-from-62/",
+   "published": "2026-11-03T11:02:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e090ddfa060b8372dadab391b3a987981f12191",
+   "title": "Deutsche Bank Adjusts LyondellBasell Industries Price Target to $70 From $65",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNDZxMnhydlBtWE5TdVN6VUhwNzg3YnY5UjZKVW96WlZXTzJncVU2VGRka08xcGdORHNUbW9QRnJyWTU2Y3NiOVJCV1lSTG4tX2RCYlVGVGV6Q0xLM2ViNmllNXlrN3VTNGhUc1hkRDRncTZuZEpwT1dIODNNb0ZNN1ozRnJXenJyTGFOMTVPMHdJcnJlem1YSDA2MVNEMGM4QUltTVJ1QW14U1E0VlVIT3NB?oc=5",
+   "published": "2026-11-03T08:56:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de7e6ddc91b5c3852c99e4d95121ca01ca9c9ce8",
+   "title": "Barclays maintains LyondellBasell Industries at Equal-Weight, raises price target to $69 from $66",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d84b9cb82d42e:0-barclays-maintains-lyondellbasell-industries-at-equal-weight-raises-price-target-to-69-from-66/",
+   "published": "2026-11-02T15:47:54-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fbfd64390b1d10fda29471f5d2d80e637d20cc00",
+   "title": "LyondellBasell Analysts Boost Their Forecasts After Q3 Earnings",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUktwc2Z5UUpYdmh1TzI0dnAzdHBMWUh0aHZla1R5S2hQcEFuSkdmcjFvdkhNZTYzZ3JVSjRLZ2k5b0hXWmlCclAtWFdzYkFJVm1MZWVIUFpZR1Z6QXBRbVB6Z1hxRWJBQ2Y0eU1aQUt6TVNhOWxOTm5mUWI0RDJnQVgtQjdMODVnMGdhWTN2MlZaaEFJckJDNUtLMk9XWUE0T01sS2ZXX3I5amlIazRNTDNwaXBxT084YzMzUVRVQ3pDVnBiSEoyb3J4Y3NQbjdJdlp1Ng?oc=5",
+   "published": "2026-11-02T11:45:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3adfddaddaa1124309ca74795b622d869c8186d8",
+   "title": "RBC Capital maintains LyondellBasell Industries at Outperform, raises price target to $82 from $68",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4826c6caaa7e5:0-rbc-capital-maintains-lyondellbasell-industries-at-outperform-raises-price-target-to-82-from-68/",
+   "published": "2026-11-02T10:33:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8ea488218a86ecf30e56ee2af4451bc97ab1652",
+   "title": "LyondellBasell to Sell Former Houston Refinery Site for $320.5M",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3020719/lyondellbasell-to-sell-former-houston-refinery-site-for-320-5m?cid=CS-TRADINGVIEW-FT-analyst_blog%7Ccompany_news_corporate_actions-3020719",
+   "published": "2026-11-02T09:42:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "92522b00f5031fc0c77791ddcfc283201c94e475",
+   "title": "BofA raises LyondellBasell stock price target to $66 on refinery sale",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZDZ2QmhJRGRsc2hwRmpnU2ZFNmRPdmVtTE9nSUhhNHhyVlF5V1JMOHBCajhtd0hTbEhESlhQNkhZQmZMcXFESGdDbEg2WDhhQ3FxNUJzc2J4Q0Uyc1lDMjZoR3I3NmdvQ2F3enoyeTFsSkR0YzZDTEQzaWdIZ0dTeE9PY25UUEU0RldMOGM1WF9Da0QyS3p6Wk5wNXNpRW5xQWxsQjQ1WXBvamgyNUlsT191dUNqYjVlQUhuWUE1ZVV3TVFpOHNv?oc=5",
+   "published": "2026-11-02T06:44:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "29aeab3866f3e359f1e1cf1eeb386b9f0c6883f8",
+   "title": "Wells Fargo raises LyondellBasell stock price target to $76 on PE pricing",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ3hJdG1ESkxXRDJROVNjUnVDSkNPdGpJdXBlOFQ4ZEhUaW9DbEN1Ylg1ekljVW0zUUJreUhxbUJscHJEVTVrNFdTX2VVMFFOUXNXUUk3VDVDSjFmQWF5Ml9vRzNZb1NELXdnRm9mYWlWM2VFZDBWTmtBTmlybl91bWhVWEZpM3JqdWlkYWV0WVVkeDg0d1AtWEUxdjRjem9hc1lXTENULVdRZlFfcUt1TjhOQTZsZ3dDQ2w2SjEtcjBHU0NFaGlSMDJFelM?oc=5",
+   "published": "2026-11-02T06:18:16-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f08b0629cbaad62749f44ce6ff61fe7321cf2d4f",
+   "title": "Weekly Recap: Houston site sale to Valero and Q3 revenue miss",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f270b3be11a36:0-weekly-recap-houston-site-sale-to-valero-and-q3-revenue-miss/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7f47abfa7c03812bc2eaf3c4c0c1972dddf3f5ab",
+   "title": "BMO raises LyondellBasell stock price target to $72 on strong Q3",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGpTZlN3aFVIcUFjMDJTYlBOOU9OcWhncmVQU01rdXQwczJBSUxfWWFHc2IwTjFCY2lvYlVhb1pTektOTzVQYUNGcWltMTNTdU8tbEszNno0NFJJRkRyMXlyMGdhT3lXQnZtOTdpMW51ZUdVNXRGRmV6MXdPZjhONEs1eVVLR2pmSkRsNnZUdHRPZlZFcmZnaDlwS1N3RGMzRG53TVNSMTRTSU1SOGtiNEZkdlBQSlRDdW5wZGlubEY?oc=5",
+   "published": "2026-11-02T05:14:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f9b5d0ec5e124886c3d3cd5397b9885cef1f30ea",
+   "title": "Goldman Sachs raises LyondellBasell stock price target to $69 on near-term outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdWpTTkp2cjltT2RlZlVfRWVGbjQydGlJRkgxamtlNnFzd2s5YUpuWjRTT2IxNEtEeHFfeHBFZmNwRlc0N0hmTHkweHRqY0Y5Q05BTmVTNU81cDVwZUs0MlR6Z1ZVWUlualNaTUtDdGVRODJ0THlfWjJkVWxoTERScXBrYTZBQWg3WTlvY3hzSGdCblNsQnJ0emFhUG5yTHZPZGo4eXlGc3lfWUFfYzB6dFZNa01ZV1JpdzY2cVZCeTNqX3Q1a1Nqc0xiMTh2ZjBrSDF5NXRVaw?oc=5",
+   "published": "2026-11-02T04:21:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "327fcda820bd5939d1fd4fd77585a094a1ea85a0",
+   "title": "LyondellBasell Industries N.V. (LYB) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtM043NS1yMVJQcGtYOFAwS2l2bWFmMzJDcjVQOUtCMjVUN2FpNVNOMS1sQXp2X3h6aFpjbVZaMXhnbDNDLXpaREJleVZsVUVP?oc=5",
+   "published": "2026-11-01T21:04:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "76b3a6edf78895781bf5a8383b55d8e0743e33f1",
+   "title": "LyondellBasell Earnings: Tight Supply Remains a Boon for Lyondell; Shares Undervalued",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQzBEamRTRDJvYlNtTGx5UTNURlZvZkRKS2R4MXQ4UjY5MTFNdkRyTll4MzdmdmVYdm5FODhPVDFUd2ViN3gzUUo2Z0czMEFKc3lCdHJaVUdwOElhY0lURzI2NnR4SGlwUG5sd1VPMWh3Y0V5bElreGFydk5fRkFpWTJ3MnZJUXRiMklOR1ZhZmVhZjV1NVdpM0RfcmFVd3A3ZUNJZm1yZS1lcmctOXdKOUNLbzMzVHJhQVo5X2JfQzNWR29ZejRXSWthTHlQSl9RVmgxT3ZYdTlWN3JOVzBtVm42SDJkWUw3VGc?oc=5",
+   "published": "2026-11-01T19:56:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9eabd898bce7ef3cbd46fc99746c6388d32f14cb",
+   "title": "LyondellBasell (LYB) Stock Rallies On Q3 Earnings And Cash Strength",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZEJGSHJqRmNyLWl5MkMwRVdqUGpwb3Ewb3VidVExQjVGMGoxc0xtT2RFTF9jeEsxYjk3X1o4U01lVGRfdTlQOU1FU3FDZnJJQ241aEFmSW1adzRzc3g1eVpMMEdYU3BIcUtrcVVJRzhyZXpVV29DaUJ1SHBZb3hORkVBeHdXWEJuTE00bVpROFZ4ZHRmeVFpbkpHWGZXSmx0aEE?oc=5",
+   "published": "2026-11-01T13:10:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3a01b138dfaa2b4ed59f77753e8c44b86cf502af",
+   "title": "LyondellBasell's Dividend Looks Safer, But a New Risk Could Change That",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSncxeDdreE0zTmZEOHN2RVVBMmx2SU5ScHpvZFZsX0FzZkFyTTJ0cjZnN0d2cjBVeHNEMms5QUF1YUVsWl95UXVSelJTaF80aGJYeGFZLVh3ODZQbHFPRDlUR0xmUjJiNGotUFlCMUN5ejZaRFlPdWlVSEFxazA3N2xZVEtRZy1La0NWcHlVdkEyUC1WREdkZm04ZHo1c2JJTTNFLXNQZXZWUQ?oc=5",
+   "published": "2026-11-01T09:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "087f2523bd0f27daea61be2c24e6f2e69322f811",
+   "title": "LyondellBasell Stock Faces Earnings Miss After Houston Refinery Sale",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYl9JeGRLVDRFZHhPdV9XbHRJd3NFaEg4bXhnLV9zeVNmbTAwQy05NEJieXZtb0d3ekVoellJWlBOR0V2U3dMTi0wekM4ZG9wdkhOdW0wcTdXSm5fOFBIUlhGUW52ZU9XM1RyamZFcGZYRnRmR3dkbXJYdlFaWkFTZWlCVklyNFZPTG9ycjJ2V2VEVTBOeVB2cW12TU5qR2txMzhsZW14eWM?oc=5",
+   "published": "2026-10-31T21:07:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "004df515a924a379d018595ef4509e54af4144a6",
+   "title": "LyondellBasell Industries (LYB) Returns To Profit And Sells Houston Site, Is It Fully Priced?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzIyQlUyRzhFUlBEUFN1dE12dGhjQldSTFMwXzFHc0FSb3l5bTZ4SFY0M2Jiak12dDZxVFg5SGpEQWRYZ0hNRUluMHY0TlE2YUczRzhLUnBrUzJGbi1vR3BaY1h3ODFiY2ZjQzFOMy0wUjN3MHpMdzBlRXB2Y1BmcnpSaXdycWdCa3VpVlp2YlhsdGVxYUdvbzRsUnZkUXAteS1TNVdHeFRMbkxZRWc?oc=5",
+   "published": "2026-10-31T20:19:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d8d4b4d4f6ea5719b38b90e96457405d6c19be1f",
+   "title": "LyondellBasell Industries Q3 Earnings Call Highlights",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-lyondellbasell-industries-q3-earnings-call-highlights-2026-10-30/",
+   "published": "2026-10-30T21:14:08-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "104f0a631596fca68664e4210623de1d31c5534a",
+   "title": "LYB: Record I&D earnings and strong cash flow offset weaker O&P results amid prolonged market disruption",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4392757:0-lyb-record-i-d-earnings-and-strong-cash-flow-offset-weaker-o-p-results-amid-prolonged-market-disruption/",
+   "published": "2026-10-30T13:13:40-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d564283d294593cda4afcc5f6e8b111a357c260c",
+   "title": "LyondellBasell 2026: Revenue $8.5B, Net income $758M, EPS $2.32— 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:7d45428388bed:0-lyondellbasell-2026-revenue-8-5b-net-income-758m-eps-2-32-10-q-summary/",
+   "published": "2026-10-30T12:31:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e0bab0cb8401a56544d0dfc888a6da9a27502ce0",
+   "title": "LYB: I&D strength and supply constraints lifted 9M results, while softer Q3 pricing pressured margins",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3934884:0-lyb-i-d-strength-and-supply-constraints-lifted-9m-results-while-softer-q3-pricing-pressured-margins/",
+   "published": "2026-10-30T12:25:53-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e59189487c60e65580b2ffcf39b4e4f83020c9f7",
+   "title": "LyondellBasell files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000070/lyb-20260930.htm",
+   "published": "2026-10-30T12:24:59-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "841862291784b0a061b9e80d4d1452e3fff32819",
+   "title": "Mizuho Adjusts Price Target on LyondellBasell Industries to $68 From $66",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM1VVN0JHaGZSWno1TC1UaVRnMzNwSWU0QWtoZG1NLXBKMGRJbFFuWXljSHBXMFVxWU5ESDFDM0luRnpVRFRtelptYzNLLU9sNzB3a1BHT0xhbXo4M1ZjdWtCbzJ6bEs5WWthNTRacC1KM2k4TVFfc05HZ2FBTVBKbFVxdThOZFU0NWlNcGoyZUVYRGdmazVzbFdWN19qRFp2OUI5TzY1R19wWXM?oc=5",
+   "published": "2026-10-30T10:59:38-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4a0ac0b8efc431937cf08ce70a7f2f4655a34297",
+   "title": "LyondellBasell 3Q Revenue Rises; Warns of Slow Recovery in Middle East",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030006794:0-lyondellbasell-3q-revenue-rises-warns-of-slow-recovery-in-middle-east/",
+   "published": "2026-10-30T08:59:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2c699da9d3d9180f6d0722d1f177fa4549dda728",
+   "title": "LyondellBasell Sells Houston Refinery Assets to Valero",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFRNYUkxWE00ODZxcklWUnRCai1IYVdud0wzaWdldW1SSkFTdGJPSVN1dTc0SjZmM3NDcFNWdXlCazlzbFJMT1dlSDBlUEswdjFBbElmVjlUeGdrNVNxb05SNUlXUUsyUXNXR0xNSU9rUEdQTUNjY1o2dTdUd0gyOHk3NHkyck5SaUhLb1NqRXBnaGo1TmE5ZXBsYlpUbE5SXzVlV2ZpMy1YMXdSamRPbg?oc=5",
+   "published": "2026-10-30T08:10:15-04:00",
+   "also": [
+    "Reuters",
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "17e17c2e6d73a1aea7db5259dae4967c49428cd4",
+   "title": "Valero to buy former LyondellBasell refinery site in Houston",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46G18Y:0-valero-to-buy-former-lyondellbasell-refinery-site-in-houston/",
+   "published": "2026-10-30T07:11:48-04:00",
+   "also": [
+    "GlobeNewswire",
+    "Seeking Alpha",
+    "Dow Jones",
+    "TradingView",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7aa3591dc54fc7ce9093559f09b89e743240a3a4",
+   "title": "LyondellBasell (LYB) Q3 Earnings Lag Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQVlvS0xpelNONzNKQ2owbGxlVmJOZ1kwSUNKTE9MVjNHaVRoZE9GWWZxc1pOTEdzOG9mM1pLemJ5Z0NCaVZiUDFPZXRCRGRsZGF4bFh2SE9kOG9EQkhUb0JDLWdHbmNyaDZEWnpZSGQyczNxT1VUSy1pRERfMzJNOG52dy10WVBzWkJwcDVQQmhVTzJwZW9xeTB1RXZ4bHBR?oc=5",
+   "published": "2026-10-30T07:00:02-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de1f19a5651c8f867e24d73723088880ad52f040",
+   "title": "LyondellBasell: Q3 Earnings Snapshot",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTWx0ZllvSVQ1cWpPLW5kNXRqU1NGeUlDTDQ0a1B1MTJPaWJRUGdpajRtbUUxZTlqSFpFaFh5dnI3RFBNUVNXU2tfamphZldLbHZ4SktwX2NIZlJDR2RFNmk5TFphWGttSnRwakVta1IzcEdXMndQamFZRHE5TUpndDhqX2JNV1pmUEh1OFo4RlEyd21BeWxGeVJTbWgwVkJjU0E?oc=5",
+   "published": "2026-10-30T06:51:42-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "539dfb06708ea0ea4509dab39cda8138267fb3c8",
+   "title": "LyondellBasell stock edges down on missing Q3 estimates amid weaker demand",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNemxCNTdRVkZLWm1yRk4zQVVjcFhSVWRwOGhSSnlZZnZBMnc4TjFwZVRUc21kVkRVcHdHbE9wQzB1Q3BPWWo4SWlMUVNnRGFzb3VCMTlmSGtHemxTX0gyTEFmRzRWN1VVUXY5RUUzZmxwZDAyaXVVSDVuVzF5U3Vzd1NfR3R6dl8xT1dxSHA2T1BralM5S2h1YjZaMFJEemtVQTRnU21CVFZGWG5HTVFzZFBhQ29pY255Qng0QnJKUjV4QQ?oc=5",
+   "published": "2026-10-30T06:40:27-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "65ebcf0e0f59d897dd1bf381cb1d22890c66dbec",
+   "title": "LyondellBasell 8-K: quarterly results, other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000067/0001489393-26-000067-index.htm",
+   "published": "2026-10-30T06:31:17-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "fada6af68ecc2751a6ef48768c7403f55857665e",
+   "title": "BRIEF-LyondellBasell Q3 Adjusted EPS USD 2.54 Vs. IBES Estimate USD 2.57",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-30:newsml_PLX78LW2H:0-brief-lyondellbasell-q3-adjusted-eps-usd-2-54-vs-ibes-estimate-usd-2-57/",
+   "published": "2026-10-30T06:31:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "12cbc43a0752ffb83e1c7b629a6fc0920cfb7278",
+   "title": "LyondellBasell reports third quarter 2026 earnings",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/10/30/3392122/0/en/lyondellbasell-reports-third-quarter-2026-earnings.html",
+   "published": "2026-10-30T06:30:00-04:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "b4adb910e8aad6d55abb86765fd6e5bbf9a2a4cc",
+   "title": "LyondellBasell: Valero Assuming Responsibility for Ongoing Site Operations, Environmental Liabilities, Pension Costs, Related Employee Obligations >LYB VLO",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030003996_20261030004041:0-lyondellbasell-valero-assuming-responsibility-for-ongoing-site-operations-environmental-liabilities-pension-costs-related-employee-obligations-lyb-vlo/",
+   "published": "2026-10-30T06:28:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a9e6490884044ccffcf7f85ca24fb4ad73cccdc2",
+   "title": "Valero Energy Sees Opportunity to Invest in High-Complexity, Heavy Sour Crude Processing >VLO LYB",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030003996_20261030004046:0-valero-energy-sees-opportunity-to-invest-in-high-complexity-heavy-sour-crude-processing-vlo-lyb/",
+   "published": "2026-10-30T06:28:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0af6969187d6d19e86b896d92a945a2e0d7e91bd",
+   "title": "Valero Energy Plans to Restart 165,000 BPD of Throughput Capacity by End 2027 >VLO LYB",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030003996_20261030004015:0-valero-energy-plans-to-restart-165-000-bpd-of-throughput-capacity-by-end-2027-vlo-lyb/",
+   "published": "2026-10-30T06:26:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9792a6c75bd1383f6a8aaf959c0f0b947b0850b7",
+   "title": "Valero to Buy Refinery From LyondellBasell for $320.5 Million >VLO LYB",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030003996_20261030004017:0-valero-to-buy-refinery-from-lyondellbasell-for-320-5-million-vlo-lyb/",
+   "published": "2026-10-30T06:26:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ed5425d5acf596a31ad720453eadf8c958197e1f",
+   "title": "Why is LyondellBasell Industries stock climbing today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM1RQTWIxaDc2UUpvTm16bXBRdVBMOWdJbk1WQTRHZUNHVFRhZUxKRGlUOG1fU25YNWJ1Y09sX3FSX3J5cU5TYTFGZGZlUkZ5UllBUmxLcURLbEI0Ti02VWxNYVB4YThJY3plRm5OYUlLME1mRGFqd0dkcWgweUlkQ29TeVRPRF9LOWJuenBFX1dvNVExa0NjTnBnUXZHNXJHTUV2XzdkaU9wRV9aclgtY2k0eGJGdw?oc=5",
+   "published": "2026-10-26T09:59:05-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "ticker": "AFL",
+ "updated": "2026-11-06T06:05:56-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "777cb98d36984ce7cb481860bf3ec0f061ba0cb0",
+   "title": "Aflac’s Q3 2026 earnings call: our top 5 analyst questions",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/afl/news/earnings-call/aflacs-q3-2026-earnings-call-our-top-5-analyst-questions",
+   "published": "2026-11-06T01:05:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f29396f4bfefe17fe92e5bf24bad5f4977dad928",
+   "title": "AFL: Portfolio losses and tax charges cut reported earnings, while U.S. operations strengthened",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3687699:0-afl-portfolio-losses-and-tax-charges-cut-reported-earnings-while-u-s-operations-strengthened/",
+   "published": "2026-11-05T12:57:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6703129a1ff9e7a3e5b539aabb3eb4f0a99e5645",
+   "title": "Aflac 3Q 2026: Revenue $3.27B, EPS $0.61 — 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:451e663cc58aa:0-aflac-3q-2026-revenue-3-27b-eps-0-61-10-q-summary/",
+   "published": "2026-11-05T12:51:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "625cf6ad17874c07529a9cf68c6ee5034b5c04e6",
+   "title": "Aflac files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026070776/afl-20260930.htm",
+   "published": "2026-11-05T12:45:27-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "df7c927d94f191ee4b3c8a053ba2af59a8d9dc49",
+   "title": "Aflac Q3 Earnings Beat Estimates on Strong U.S. Profit Growth",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3024652/aflac-q3-earnings-beat-estimates-on-strong-u-s-profit-growth?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3024652",
+   "published": "2026-11-05T11:24:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3b022f36b45030abb52e09d06fef55c05203fad0",
+   "title": "Aflac stock hits all-time high at 130.23 USD",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd1ZVWUl6elFQaTdrQVVadXAwbjRXRy1SU05nbnZtRFBSbWhiSXUyU29sbk5CUWZYd2U5RjRCS1NfcW5UOHVQc1lHSThlMDNjcHNjbnVMOFMwelZqTFcxS0JMdjZPdmxoeUI1V09pM3dzMW9XaDlNSmo1amgtNnc2azFjZGMydEF0elJOOWNSTXhtbS1SbExmeDZ3elNvZVNZ?oc=5",
+   "published": "2026-11-05T10:41:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "145a5d7369907b1cd1c85d5a8637858d6b0d89b8",
+   "title": "AFL: Actuarial gains lifted earnings and guidance as U.S. growth and capital returns continued",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4475191:0-afl-actuarial-gains-lifted-earnings-and-guidance-as-u-s-growth-and-capital-returns-continued/",
+   "published": "2026-11-05T10:09:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "567bbbfa34bbd6d98aa83a50ef3117afebf38d37",
+   "title": "AFLAC declares $0.61 dividend",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4666049-aflac-declares-0_61-dividend",
+   "published": "2026-11-04T21:28:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0eb3c3655b0266b5d3d4daeb91adac561148d2b9",
+   "title": "Aflac (NYSE:AFL) misses Q3 2026 revenue estimates",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/afl/news/earnings/aflac-nyseafl-misses-q3-2026-revenue-estimates",
+   "published": "2026-11-04T17:01:49-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f3fdc42ed90e93f6f32a782f210d6caf67053b2f",
+   "title": "Aflac: Q3 Earnings Snapshot",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWmhHSWFOTWNDbWwyZTF6YUQzVUdYa2t6VVA0c2hrVkJuNTExS2J1anlkMVBSUHdsWDlFb3Z6MmxiV2ZLOEN0RE9Fd3cxMFVzblVMNGNRdDBHNmZuZmd6NHA3YXR4RTA0OVIzWVdwY216S2FFeEZjT25nYkJtQWJFR0Z6MWtpYnJOc19YWEZMVTRZZXRhN3c?oc=5",
+   "published": "2026-11-04T16:28:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de095491e6a75ac26cffee31185ede3d6fe27ff7",
+   "title": "AFLAC Inc Q3 Profit Falls",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:6e8e685209b7c:0-aflac-inc-q3-profit-falls/",
+   "published": "2026-11-04T16:26:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d0d57e70c662693990620ec656359dd4aff080df",
+   "title": "AFL: U.S. growth and steady adjusted EPS offset Japan softness and large portfolio repositioning losses",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3687701:0-afl-u-s-growth-and-steady-adjusted-eps-offset-japan-softness-and-large-portfolio-repositioning-losses/",
+   "published": "2026-11-04T16:22:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "48e1bd8159c85ec5124cc1a43b2a0577a09e50af",
+   "title": "Aflac 8-K: quarterly results, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026070181/0001628280-26-070181-index.htm",
+   "published": "2026-11-04T16:20:48-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "4cbf13626dbf17606106e1d135b7967abb335260",
+   "title": "Aflac Q3 revenue misses on Japan segment pressure",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L1EG:0-aflac-q3-revenue-misses-on-japan-segment-pressure/",
+   "published": "2026-11-04T16:16:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "07c9ad47a60be15b1aadd27546240110cc08112d",
+   "title": "AFL: Adjusted EPS was $2.43 as Japan and U.S. margins exceeded outlook ranges",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4253160:0-afl-adjusted-eps-was-2-43-as-japan-and-u-s-margins-exceeded-outlook-ranges/",
+   "published": "2026-11-04T16:14:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "12107429979d6cd7f8e5968c2295030a1fbe5db4",
+   "title": "BRIEF-Aflac Q3 Adjusted EPS USD 2.43 Vs. IBES Estimate USD 1.79",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-04:newsml_PLXR68QVH:0-brief-aflac-q3-adjusted-eps-usd-2-43-vs-ibes-estimate-usd-1-79/",
+   "published": "2026-11-04T16:06:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "09729dd61213f6cd5a8e52e50136a496ff5f45fd",
+   "title": "Aflac Incorporated Announces Third Quarter 2026 Results, Declares Fourth Quarter Dividend",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:a60590002ef49:0-aflac-incorporated-announces-third-quarter-2026-results-declares-fourth-quarter-dividend/",
+   "published": "2026-11-04T16:05:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "823eecfda816ee5a02781a98fdfbae20e2af64d3",
+   "title": "Aflac Incorporated (AFL) Adjusted EPS Falls 2.4% to $2.43",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:377fcda075965:0-aflac-incorporated-afl-adjusted-eps-falls-2-4-to-2-43/",
+   "published": "2026-11-04T16:05:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8b92339ec0e1c9c32721df97fda68f9ce4b4bb4",
+   "title": "For Aflac, 25 years of holiday giving is just ducky!",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:55012c835a407:0-for-aflac-25-years-of-holiday-giving-is-just-ducky/",
+   "published": "2026-11-03T09:04:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "05f09b4dca7b61c49ea34afc0bf60a1199b53e33",
+   "title": "ALL, MET, AFL or PRI: Which Insurer Has the Edge for a Q3 Beat?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3021654/all-met-afl-or-pri-which-insurer-has-the-edge-for-a-q3-beat?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_preview_esp-3021654",
+   "published": "2026-11-03T08:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3f0e98af1bf12ae2f601d8d367ad088b457cc194",
+   "title": "AFL Q3'26 Earnings: EPS estimate is 1.80 USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:bea92435bb8a3:0-afl-q3-26-earnings-eps-estimate-is-1-80-usd/",
+   "published": "2026-11-03T07:00:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a7a3471b680a730f8ed744641ef2be7e68d6116e",
+   "title": "Aflac (AFL) reports earnings tomorrow: what to expect",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/afl/news/earnings/aflac-afl-reports-earnings-tomorrow-what-to-expect-3",
+   "published": "2026-11-02T22:24:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7982c7c80c37fc4501e174cc7c1b1141e2975bce",
+   "title": "Will Lower Investment Income Weigh on Aflac's Q3 Earnings?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3020996/will-lower-investment-income-weigh-on-aflac-s-q3-earnings?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_preview-3020996",
+   "published": "2026-11-02T12:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d28886354c662a9a3f3ef472a17aa45b0fe35ed5",
+   "title": "Aflac Incorporated Announces Leadership Promotions for Aflac Japan and Aflac U.S.",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:ce9d7b3347fae:0-aflac-incorporated-announces-leadership-promotions-for-aflac-japan-and-aflac-u-s/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "a2466e89de95fda065658e1ab14dfb969ab23b47",
+   "title": "Aflac Incorporated (AFL) Names New Japan and U.S. Presidents",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:29615e02f1b8b:0-aflac-incorporated-afl-names-new-japan-and-u-s-presidents/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "213f78458f4b1046f02feaafcbdb360ff3e900c8",
+   "title": "Aflac (AFL) Stock May Trade At A Discount On Capital Returns",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYXFSTFU1YmhmYjZqeWk5RUxob3Z3WTNqTXNDLWdIVHFQZWxNZFhidmxMTUU4eUVZX2VTR1hqM2FmTkVJem5KM2hzaE1kNzdqUDRyRTBnOXcyLXZ6czFYeldSTHJ0eFhYb2hFTERIR1lNaTRHYjhoRHgwZmUwd1c2WGFWZ2lXSjkwWm5vdVFDX1JRVmNW?oc=5",
+   "published": "2026-11-01T02:07:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "669235f2a3243a78b2c3015cc7c4115f4ecfc150",
+   "title": "Is Aflac (AFL) Fully Valued After Rising Ahead Of Earnings?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjFCZ01OQ25IcVpzOXczRFhqeEFwQnNURWE2dUFJUGNUY0xmUXF4OEIyS1M3dnFSVEoyOTlRVzA4OFVJVjRnNlUwcWdYWHA0LXpzX3EyMms0dHktOHd1WkFPM1NRWmE0S1NvRGlxWFJDVVZnV0ZGaEI2V1duOEdyWU4xclMtcVpKamlwdFFxc29HdjcxMGVxMjVB?oc=5",
+   "published": "2026-10-31T20:21:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ca1e3a57e8e29a9e626d2e568b3dbe1dc23d45a8",
+   "title": "How Investors May Respond To Aflac (AFL) Ahead Of Weaker Earnings Expectations",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZkctZzRhZ21uUzhZU2pRNmxuUTBJS0hDWjU5YXA0X3FLLVpiaXcwbXphd0hDOTdUdnlsT1VfRXNhUnkzT0xLYWVWdXJwQ2s5em81dDVyLUhQRkNIX3R5U3daMFlxd3duTG1iX2NPS2hGcURLVmpfRWtMQUxOMjdZaFVPYVRodDNyZ2ZMT2tCUWlmYW9GV2lub0xlMUo?oc=5",
+   "published": "2026-10-31T16:09:17-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a083b2cb3f4333c506b3dc998ac8497198ef9a88",
+   "title": "Here's How Much $1000 Invested In Aflac 5 Years Ago Would Be Worth Today",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVnpYUGR6empnTlFFSkFrbmlJNTlGOV85ZmpyTWpKVFNlemxQSVFMaDNXdXQ5ZW42MDZ2a3dTSTQzajlZc3VrWGhHXzRvYmtkbmhBdHZyMkJwb01HcC1UUzl6a2dmVy1oWnNWc0NOSjhkZTR2THJ4Yjk4Q05RQ3dtV0l3bV9wUncxLURILWxxZGhhUE5yRl90WVJweTVQcERXNG8wbTJ1SjhpLTJmMHRadWEyMA?oc=5",
+   "published": "2026-10-30T10:45:23-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a41f86ebca6da1755512f23840ed15f98dacc967",
+   "title": "Insights Into Aflac (AFL) Q3: Wall Street Projections for Key Metrics",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMXZiMFY3a25oZjkyYjBjd3l1b1ZGR2owam9hc1I2Z1pDb1k0TDl4clFFR0w4TVR6RWJtWkVySzBoMjB5M00ySUI4WDRfY2huV1lBVkpiejFuTlNjZTcwbGRmczNtVXYyaEppYzBuNUExU1JBX1BncTd4VHlQX2tobE9RTjVoX1I5ZmtMVTBpYkZycnB0aHc?oc=5",
+   "published": "2026-10-30T08:15:02-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de4106b940c58290522577cab204fbeb21990e1b",
+   "title": "AFL Q3'26 Earnings: revenue estimate is 4.12B USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:270a939d18f79:0-afl-q3-26-earnings-revenue-estimate-is-4-12b-usd/",
+   "published": "2026-10-28T07:00:02-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e79937c14c0a51099862fcceac8621db2c8a11a9",
+   "title": "Aflac Q3 2026 Earnings Date and Estimates",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWhwNkRoLUJMOVY3c0V1ZFJ1YjFxTjZrQXhxVFBCc2RjODI0WVZDRGtYay0zQ3lRZkNXcW5NM2Z4bm9wOVB2VkVRdzBza1RXVFozVXFnV2RETE9OYjdBQTlPa1JYaUo2bEZjbDhEcTFrS2pDb0NTNldJSVBGdm45c3ZzTVEyZw?oc=5",
+   "published": "2026-10-28T06:39:49-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6f761d2fbbff0ad4e6b4f37829c278ffc013aca5",
+   "title": "Aflac Incorporated (AFL) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8ydkJuZWw1YjhOWU0tWm1qbjc5YXd1M0NGa3BkMWdfM25ZWVZIbWhLSllHdVl3aUx3ZmlMbnZ4VTdudWE1RXliRnd6RV85VmZR?oc=5",
+   "published": "2026-10-27T11:04:18-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "efbb000e20093124f0a19c56f7a668f1bdf7ef0b",
+   "title": "Aflac Incorporated to Webcast 2026 Financial Analysts Briefing",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT3lncnlsN1dKWGJodmo0cUJvNnZLSUFhZXZnXzU3OTU1dnd4cDZtTWZnTHNCUHJQbl85bFRxRWg0NXZBaUlhNzQtVXNycHdJMzVuYzdHWmhGRmliUHBCMjlDcnFoTldUblJFcjQ3NWljUmFaN1c5M3VLWUtLZDRLYUdFLU05V1RGaHhkemdkUU1JZTZYWFJQYWluVkl0MFhVd3RqOTZpRlhtQQ?oc=5",
+   "published": "2026-10-26T16:05:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ee24a2dd7aa749f43e6c4950ee9d7ccc05e96537",
+   "title": "Japan Post Holdings sells $1.37M in Aflac stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOWlBeFptMFdpVm44QUY1UVhhRzF2Wjk3b2FJMFNzT0NzbmJGejZ6Sk11YnV0akxLeHFadVhZLWxZRHBVSjE4STl4NGkwOTJqZk9DZTFnbHI0bkFKUEhYNVkzWk9FMjEzVkxvMTBJSTNLMW54SnpVNm01VHpnZ0hLclZWVk9mVTFaYlF6M0d5TmRQOGFEdWdTc1ctSGYzbDBmRTBPakJCcnhkYVJTdHBj?oc=5",
+   "published": "2026-10-24T20:38:46-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

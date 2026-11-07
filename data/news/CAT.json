@@ -1,0 +1,381 @@
+{
+ "ticker": "CAT",
+ "updated": "2026-11-07T08:03:25-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "14c87793e15394fe8c07aaf050eafc8294f6540b",
+   "title": "Caterpillar (CAT) Falls After Steady Guidance As Fair Value Debate Grows",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT3U5b3JnQWhIbXFkNVBMYlRYU0xtR2VXU21vOHpzbVN3aXdpcXFNTkV1aDNlWXlSekU0SVlWWk1ybkoyTUJzY0lJYXhPV3FqMWVWSDdEN3lXWGoyODVkS3J2clNLSFA4QlRtRHZLcm5uWEtxNG1kcWVmN2VUcUNiakUxRjhtSC1qTkVKMnYxUlRUZllGazBlV3Bqak1hR0tJdklJaA?oc=5",
+   "published": "2026-11-07T00:17:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9647f7c32e4867d5ea54b2ede0e2a871fc7c4dc7",
+   "title": "What Mattered Most In Caterpillar's Latest Quarter?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDdTNEIzRzhsUHhrbHg2ajdwYmRPeXZsR0lrM2xhQ0VaTzlyWFFXeTBFenNGYXlaakdJMDQxQXFRMTAxc2VrUEZrVUYxaHVaWnBXb2tudGpQdG9QQnJWUUlUeW51VGprVElNZlJSWHN2ZWtsU1o5YUs3MWZxNEFmZ0gtbTZmWVhTZ2Z5eUF3QUhZT1BZY2hQLTRxankxVDR4NzZETHRkdlZvQQ?oc=5",
+   "published": "2026-11-06T18:32:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3a6c9218fef614e22a3aa6fed4e2a7ca70aa9784",
+   "title": "Caterpillar Springs Ahead of Nov. 17 Meeting",
+   "source": "BayStreet",
+   "url": "https://www.baystreet.ca/articles/stockstowatch/125178/caterpillar-springs-ahead-of-nov-17-meeting",
+   "published": "2026-11-06T11:53:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "afeb72927082972d7122c9d9a03ba83ac0d645f3",
+   "title": "Caterpillar Group President of Construction Industries Rod Shurman to Participate in Fireside Chat Hosted by Chad Dillard of Bernstein",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:4e093d5e51afe:0-caterpillar-group-president-of-construction-industries-rod-shurman-to-participate-in-fireside-chat-hosted-by-chad-dillard-of-bernstein/",
+   "published": "2026-11-06T09:15:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "bd68df0f6d079bc932731fd014246e5d0f3347d1",
+   "title": "Caterpillar Sinks Another 6%, Vertiv Down 14%, Quanta Down 12% as AI Selloff Spreads to Industrials",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQzhYZC1Sa0FOeHItcC1RcF9qclJQcl9JbTRJWXAtTTZZbGZMQUdzRi0xaVgtSThWZlBIaXhMUTRHNEVWdWxYVU5kR21BV2k5aU9hYUpMYWVCR2VJenZBZjkzZGdkaXgyUFdjN0o2bkg4VWJaYVJPQ2RFWTdFVG4zZll5TGNjeEowV3JCcVhIQmFWR0tvemcwZVpMLW5rUkVQ?oc=5",
+   "published": "2026-11-05T16:31:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a77b0fbeb2baba0267c8c15ad8a41d0f744adfa1",
+   "title": "The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMUJTRThwQm5WTzNHb2tfR2Y3VUVqRGEzZUF2ZEl3ZWVFTVB6VzdCVGluQll6UGdvSkducHBJdFNhenhXVHpHSnR0SUVmaHlVS1V1aGIzVndLUkRTNjlQNGhxU0FqVWNRX0gxeWtIS2I4cWhKOTBxbVhOaFhHbEJoZHdnTFFfcnFoX0U1Vkw2QS1heWc?oc=5",
+   "published": "2026-11-05T14:27:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2b9b171f61a2650c1844d7d5ef4601bf94aaa5bb",
+   "title": "Caterpillar and GE Vernova Stock Sink on AI Fears: Where the Valuation Floor Is",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRHhFMUN6eS14Z2Fma1A3a0RnNFo1Zy1ieE5TaUhEZEdXdG1YWmpKSUlYM0RZLVVCU25qTWE3T3ZzdGpCRG1JYjQyeHg4OUM3ZThDb1JWblNfTkc1UExyWEdWdkVxTUl0SGt2elh5cWZPSVhiR2t2UEJJYWQ2X0t3U1Q0dW00SXJlQzZWV3p3?oc=5",
+   "published": "2026-11-05T12:54:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "35b021bcddf8ee1dbb2b6b17d2024d215e08c2c5",
+   "title": "Caterpillar files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm",
+   "published": "2026-11-04T10:49:09-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "5b8900ca420d24e1189f9b5b55d8b5912acb432b",
+   "title": "Why is Caterpillar stock sliding today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVUhKcnlrdE9vdXJDSlpwMFktcTZwV3I2SVRKRFJfSXhlbTIzMzY3b3RwRzNNdjg1NlVxdmk5WC01dGdBcG1lRVBGaHNDTkJXUmZpM1JqcFBhRWxiSmhzOXd3VG9vVXJvbDBuS0JfOTBmZmFPSGhyRWpTSnpEazlIaVN3bzU5MnliUFMwODRETF9fMjcwemJXaF9DWDBZSEszRXc?oc=5",
+   "published": "2026-11-04T09:52:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f72075e62b5302fb3360f8f90c8216177358396f",
+   "title": "Caterpillar Vs. Deere: The Tortoise And The Hare",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZTgwd0FPY09MR2x4NXNFOWdJTmVweElfLVZNeVJ4V3ZTYjNDMjE5RWR4WFhnaFZRZDJIdHVBdzhCWXU1TFpYbVRwT0x6R2ZhMUpFVzR3cnZGMDljU01CTVZXdjgtV3lUa3VGaHdyUGY4RkotVFMtc0Zka1Rfb0xmWG0xcEthZw?oc=5",
+   "published": "2026-11-03T02:25:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "60c72ed6c6d2279586847ff2eb39e6fd58d60fb5",
+   "title": "DA Davidson cuts Caterpillar stock price target on valuation concerns",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONHNtcUVUZFU5Z21RVUc0WEFuREd0NDdlMGpnelQ4aTZ3N1duX0stYVJpX3pFNm5IZC1qWEVhekhjWl9OMm5qX1ZreHd4bEZyU0JLd3E3RTlPeW42ZXJBZ0FhbzJVSGxNTERHOXBxaE5nYUlySmZJaEFuWDRwZ1ZPbEhXQ1hCQXNub1V1MWtJWURFbDdEdVhtY3NVcS1PMnZVQ3RXRG8ybnhFSlRHaVFkdmU4VFA2ZE1IMjVPLWNkcXZ6S2JKLS1SdQ?oc=5",
+   "published": "2026-11-02T10:16:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cec5872421425b3228745a58edd527575f12c256",
+   "title": "Caterpillar Inc. Acquires Fabick Cat Dealership",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:96c17fb9fe908:0-caterpillar-inc-acquires-fabick-cat-dealership/",
+   "published": "2026-11-02T09:00:00-05:00",
+   "also": [
+    "TradingView",
+    "dpa-AFX",
+    "Yahoo Finance"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "d7fdc27f1dffeca6a7913f6d9e6f9a4c2b40190f",
+   "title": "Caterpillar Inc. (CAT) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vbUgtczgyQV9xU01NSU15OXdKeTNBdkhRbXdqMktkTFkzbjJrZWJmNE1LWTdYUnVmYjdqd2xsZHpzc0t0Nnl1LWlBdnNFc2JN?oc=5",
+   "published": "2026-11-02T05:28:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b62b609f27367710995321192b65e31f9ac34986",
+   "title": "Caterpillar Earnings: Tremendous, Broad-Based Growth Apparently not Enough Amid High Expectations",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNjhzR3N0RzhEYnVXOXdkcGU0TlNTU011TEdpYWhoRURHZmRUbl9HTURVOWFNQmswZ2pUZlY2YnZrMDBDS0J2aEpCSjEtV2NrV2I3VVptalU2N1VpRktXX0VBQXpJMUZOSjZZaDFMUURYMzVBbWhWXzBYaE9OT1BtTjU2eWNlQi05dnNDYmQ2T1JTaUJkTmozSjNncHV3Q1V1dXQ4TkZ6WUJBTjJHRDd3UDg4cm44OFlnUTYtd29PT1RWRE5EMTJKWTFnUlRrTWctVXQzSmowckZSTGk3TVZkcGdzdExrZG9rM2lRNURTMzdqLV9MTmtEX1J3?oc=5",
+   "published": "2026-10-30T15:40:47-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "766c2d27b2f5efcee28ddeba98d5a0d1c3778c78",
+   "title": "Caterpillar, Deere on Different Roads With Investors Lately",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030009846:0-caterpillar-deere-on-different-roads-with-investors-lately-wsj/",
+   "published": "2026-10-30T14:37:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b92025328e88fd2f7dda17f763b1ee60e1ea7ea0",
+   "title": "GE Vernova vs. Caterpillar: Wall Street Splinters on the AI Power Trade",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030008467:0-ge-vernova-vs-caterpillar-wall-street-splinters-on-the-ai-power-trade-barrons-com/",
+   "published": "2026-10-30T11:46:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "24f18d6435910c43ffaeedb2f2e28db4b7d823df",
+   "title": "Caterpillar: Down 30% Since My Sell Rating, Upgrading To Hold But Demand More Safety (CAT)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNFNsMDRLN29lbGhBajU3eDdySnB0VERuajU3ZXRUbVFEVWVfV2M5dC1VT3o1OHN2UHFZenR0N2h0bE9NMlFVQlZ3R1lOaXZzMG54MHhmRVFhc0lBdXljVmstZzFOazN1NXBHS0Z6bmdQSERmVktXVHdtbno1Z2NoYVZya1duY3FHM1NFU0VMUlBzVVIzV2EwazJBeFgwZzlfOGRUUV9FdkpPRlNza2RHQ3ZraENpRlJ6UmRxUndXc0pNWkx5Z2hnaXpB?oc=5",
+   "published": "2026-10-30T10:45:27-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b5502185aaae572a585281aa3ec25d483231c40d",
+   "title": "Caterpillar Q3: Growth With A Caveat, Shares Fairly Valued",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlF3UlBDVFhsSkg0bGNPX2VuRXI0V2ZvdklaXzF0bS1TMWJjcU9fN0RvT3JPbWpBdkU1VEJxbDhEWFhqal9HaFBmSGFOejVqLW5sbmhhazlKQ1BDTjBYQW1VVmJ5QmFHYzg0R2dsa1hhSXBKRE91OVVyUHh1MnVfS3lodFlOWGdWVFZuMnZIbUlnOC1nU0E3Q3QtT2xMdw?oc=5",
+   "published": "2026-10-30T10:45:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bf18cfaaec6aaaf8ae36afcc92af2ccfcce7d26e",
+   "title": "Caterpillar: A 10% Drop That Is Not Yet A Gift (Earnings Review)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0RGbmJLVE9ranMtUm5kNTJJYXdXSFcwRFpURHlmTmFEcTJTaGxoVmc5aEtxUkQ5cnZYSUtQR1ZqZnJnMVZhaElKTjB5ZXdkSC03c0lnYUF5dGlockx4X01NR3RIVVgzOVItMmE3M1cwMzdqRUhRZU5nMlgxNEdIRVBTa0V3MHBObW1fLTNnc2RScU1Pbk80ODI0RldlOU1CcFphcTNVaXhMcXZkMHc?oc=5",
+   "published": "2026-10-30T07:05:51-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "63d92ad0aed0a8e589d8d47796807f5d4b0a4ee5",
+   "title": "AI Bubble Burst: Confirmed By Alphabet, Caterpillar, ServiceNow, And Amazon",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlM0SGF2ZjhJc0dWOEFPYmE0enZlSHZFTnp1WWc4ZWc1YUtWZktiUkNOTVhNZ0NIcHdsR0p2UU9LV1VGRG5tZWdMR0M2aHI4T3VINUV4b1NHZm5Xc1FjQlBqN3NwVUJCajRidFRFSlVhbG9vMlpCSE45Vko1ckFMZXhURWhEbFZzalpLRjY3TW13RGFYQmVrMmZBUkVCbGs1bWF0ejU5cG1RTEZR?oc=5",
+   "published": "2026-10-30T04:42:59-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "58f18ba9af974fefc2c139c32c19b1fd07dd063b",
+   "title": "Caterpillar shares slump 10% despite earnings beat amid rapid AI buildout",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORmZTQVpMQ0FFQnJFeGxTUlRWWjlHUHpYclVVSzBXWFBtV2ZONkpYWWl0elE3OEtacDdDR3p0bXVNblRLNUtzZGQySThCVEFYWlBtZjdmWGRUWjh5azZhSkp5bHd2aEkxUzlXa0VYVGlWNjZUMVNzSkVBQ1A5amc5OUJiZzFSbDBsbzI2NF93RnV4UjBSRndaMVFjWEFvVVJGNFNSSDFjQzNyZw?oc=5",
+   "published": "2026-10-29T22:04:34-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5267f8cae6cc4ed52c9f4a7f2c090b173c280c7d",
+   "title": "Alphabet, Marvell, ServiceNow, Fortinet, Caterpillar, Lilly, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3WFgzTVlLTWhPQ2JoRWdwQWRTY3F6TzNUb1pPSjUxaXdXSWM3VmVmZlhNSEJIS3p6TFE0anpfQWFOcXAzcWxwWWowQjZ2Y05SSzctQTFCX3NrcjFoeUJsanlCc08?oc=5",
+   "published": "2026-10-29T17:21:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fe7bf1472ed463bfe854b4ff38a42ee83679b615",
+   "title": "Caterpillar Slumps as Modest Beat Fails to Soothe AI Jitters",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV082TVdHVmE0bDVJYzlWdkt6elBnQ2ZxYXY2RHBpNUkwSkJ3d0I2Q1lqdU5KSUdBSzJZcTFmRWtYWkZPXzlJZkJmZnBlck1iYjFneEhvdXl4c2E2YTZ5ZUluQUhjY2NaWmpKbzNFUG96R1U3V1hwUGFkS2tON0QwblVYMzl5ZWhVLTB1RWZxd3JsZnl6R0V4YTU0SE1EeFdiUDl5VE5LcC16OURNbXc?oc=5",
+   "published": "2026-10-29T16:09:02-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "629b1bc6d51f08d236e9e1e2e946391ceb6abe0f",
+   "title": "Tariff Refunds Boost Polaris and Logistics Stocks, but Leave Caterpillar Sidelined",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2JtdHI3eGE4eHNJX3l2Qk5mNjdQVnY3clEzOS1PeGFSNG5NWEVVTDNKUURvc1ZtUXg3YTB3bkFWNHRqUmFORHNMWTY3cjJPLWJJLUY5TjlpZnZ1U1dFSkh6NUJZdmtpbF9DUHBKcmZkcnJBek55WFdxY2x3cFE5aGY5SlNXX2M2Y0h3aW5IQ1BxdExKZ2Nn?oc=5",
+   "published": "2026-10-29T13:51:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6e9e6e7c087480dd2a10d5eaf691bafe8d82df85",
+   "title": "Caterpillar Shares Down, but Generator Order Backlog Stretches for Years",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029013380:0-caterpillar-shares-down-but-generator-order-backlog-stretches-for-years-wsj/",
+   "published": "2026-10-29T12:28:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ae8c5d1b57700f233cb116afb094aa596ce2a063",
+   "title": "Caterpillar sticks to annual sales forecast amid cost pressures, shares dive",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS21ocmJBakxUZmFUVWdxWExLS0gtcmNiVDFGb24zbTBUa25wd1I3MVBrOVVzNm9jSFFFVktiaTRXay1yOEhsWWd5ZlBhRU9EQVNJZlhtRVVySzVoNUZqajZ0MnNLeF9sZ1N3QTY2MEZHeUlKaUJnUlR4NkQ4ODh5Nmx0MWxiYm54aWphcXhpcTNTMVl3TUw3TFpQeGltQU5iRy1sLXVvME5fQQ?oc=5",
+   "published": "2026-10-29T11:44:28-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "64a0eae2b804fa50d2ed5ee118a0885002a976d4",
+   "title": "Caterpillar’s stock is sinking. Here’s what that means for the Dow.",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcTFJRWVHOUlkMlFXbFRrZ0xsSEZ1X2V1THprS3B5M2x3dUdnSEltSG5wZE93RDdCM2M4SjBlcDl4SFk5aG1FVjBNN3VFUjd5MG0tbEFIZWtIYzlscUVPaklaZGhIOW9saWYwSzFpNWkyd3o0UDB4LW9Pandpakt3VmlyLXljci1RS1lrcDJFWmliMmI0dWIwNEM4aGNfbHE5b1c1X3ZGRzNOOXI5NmZVNmgzSlVFY3ZJazZXaDB3MHhaUQ?oc=5",
+   "published": "2026-10-29T11:12:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "66b2431c5c1a9dc6f828bedd5eadf1bdec104586",
+   "title": "Caterpillar Sales Jump on Growing AI Demand, But Wall Street Wanted More",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHE3aHNuODdMb2JLRU1GMENOVkJhXzhyX1JLb2hiTG1uNjJ2ZUhkSjhTc3ZJZjFhTnI0eUFmSF9qUHRTYkN4cEhTV1hDeEZDd3V4Tkp0ZGxSRS1hbUJ3bS1lTXpQczZBeWRad0NWYjU1RGhUTFkyeERSOWs5QjdWeS1UNnZ0cGc2UVlwUzlncktMZkhqMFI4UXRGT21wdw?oc=5",
+   "published": "2026-10-29T10:40:00-04:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e723ecab20eb442882374242fbc09143185963dd",
+   "title": "Caterpillar CEO Says Middle East Continues To Face Challenges - Conf Call",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46F339:0-caterpillar-ceo-says-middle-east-continues-to-face-challenges-conf-call/",
+   "published": "2026-10-29T09:32:51-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a122aa685ccd10f0f1d1fc032b5d1af4b5e01958",
+   "title": "Caterpillar’s Strong Earnings Fail to Calm Wall Street’s Nerves. The Stock Is Tumbling.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Mem9lcnlnZERWZVo2RmYtcUdVQXM1eEhKQnY2aUh2UzBGN3NfTEQ5MFRCMkNmMTR6WGJMQzUwSDNnQWNlcHZJU09YY3hpZU03RWFKbnBDT3daSk5tUHhJNlhSdVVOTWtUcWJfdmFuU0hsOWN4U1huakdDdXY2Y2s?oc=5",
+   "published": "2026-10-29T09:09:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fc217167de0f8777aab57697def89758e14140d4",
+   "title": "Stocks making the biggest moves premarket: Alphabet, Caterpillar, Eli Lilly, DoorDash & more",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQX2lMclVxZnZSSThMT3FpZmFXX1FGNXJBWDVMUkgxYzQ1cVlMMHdsbVlqOEdQMWcycE53VkRvMjJtVFRWZlUySC1fWHo2d3hGdkVHVVNfMUxFMXh5Ny0xY0pCSlJaZEFLWUhaN1FBU1hwcjdPLVBjeTNnYnlWXzREUWREa1ZCUQ?oc=5",
+   "published": "2026-10-29T08:00:38-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f15bd95a40322e45ad4f4b2c50995c4433874c74",
+   "title": "Caterpillar Stock Slides After Missing Revenue Forecasts",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029008990:0-caterpillar-stock-slides-after-missing-revenue-forecasts-wsj/",
+   "published": "2026-10-29T07:38:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fd29f4cb04840d562195495619571263ce3ef96a",
+   "title": "Caterpillar Maintains Consolidated Full Year Outlook",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46F1QN:0-caterpillar-maintains-consolidated-full-year-outlook/",
+   "published": "2026-10-29T06:45:06-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "602c942ec7a8183ffc5592a6b4f36a170d2a81b9",
+   "title": "Caterpillar Q3 revenue rises 17%, slightly beats estimates",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46F0IE:0-caterpillar-q3-revenue-rises-17-slightly-beats-estimates/",
+   "published": "2026-10-29T06:42:53-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2307aa40d4fd9f85f42bbf2468a7c16bcc74e8d4",
+   "title": "Caterpillar earnings beat by $0.17, revenue topped estimates",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDVqbmdBdkpRNjZxbkJneVFadnFfX0JsUFhPT2E4NnhxcGNhVEc1UndNekl0TXhITW1zNzZ2ckdCb1pkLTZXT2ZUa2tpLTZibjZzVEtGZUxjVWhPdG52MTFxcVNpa0FxX0pBaGpSZUhRbWlOdDVwSEltY3M5NW4xRERQLUJJV1pWaHVWSDlrSk8xV0Y1d3BZUGFIVlZfN09pSHVjWVVtNG0?oc=5",
+   "published": "2026-10-29T06:38:29-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "359f01b5206b11fc0d44ea97d3d18c0c8018ec48",
+   "title": "Earnings Snapshot: Caterpillar Q3 sales jump 17% to $20.7B, driven by strong Power & Energy growth",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4660015-earnings-snapshot-caterpillar-q3-sales-jump-17-to-207b-driven-by-strong-power-energy-growth",
+   "published": "2026-10-29T06:36:59-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fcc3f7186b1e324b9afae5f6e51248d5f28a7b9c",
+   "title": "Caterpillar 8-K: quarterly results, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/0000018230-26-000052-index.htm",
+   "published": "2026-10-29T06:33:40-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "b7e987cd6aeef51b6b3ba5eca47973d0a1f44919",
+   "title": "Caterpillar third-quarter profit rises on power equipment demand",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46F16P:0-caterpillar-third-quarter-profit-rises-on-power-equipment-demand/",
+   "published": "2026-10-29T06:31:36-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "840308d3964699bb0c472a6c54da0315ab42da0b",
+   "title": "BRIEF-Caterpillar Q3 Adjusted EPS USD 7.2 Vs. IBES Estimate USD 7.08",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-29:newsml_PLXL7RGPQ:0-brief-caterpillar-q3-adjusted-eps-usd-7-2-vs-ibes-estimate-usd-7-08/",
+   "published": "2026-10-29T06:31:03-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2f4f9b6fcce467173bcbf369a02cefc7a7d1047f",
+   "title": "Watch Caterpillar Shares Plunge on AI Jitters",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSENCNHRrWm15dUhtMzZYZF92WllvNl81M1FfcTc2a1pzR2J0M1FYamYxZTJ3Q0lKUGNreVVKUGF4ZHJnV1Q1aU83TVJtWTRiNERzbEljOTZEQktwS2ZFUW04NW5ERGpZR0VRNE55NGpOdUtIR1ZBQVJ2eVVJVFd6VmpIVWJxWUtxZ1JNRlVseHJlbFph?oc=5",
+   "published": "2026-10-28T20:00:00-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  }
+ ]
+}

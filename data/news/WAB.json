@@ -1,0 +1,110 @@
+{
+ "ticker": "WAB",
+ "updated": "2026-11-06T06:09:07-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "e4336eca7f2abd1154152e3ca0b5ca404f5e7595",
+   "title": "Wabtec CEO Rafael Santana sells $629,365 in company stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVlg1cl9Pc2NONjl5VTg3SzJBNnlhX3RQMHcxTnB4WnBIa184R1pWcEJKa3J5SmdTZnRuUGtwWDljSUJyRGlBTEtHamtNSUk0cGh0d3BJUS04YnJaNFNVN3QySkExS1RfUkI2TnFkTUpEYWdWSW5kaTZQZDFjamNTS0MwUWhMNy1jRWxKc0kwME40QzFQVXhHTXhNRmNjNEhFTlhrcV83b0wzcm5SZ1J3U2V3YmlsZHhkNllkVw?oc=5",
+   "published": "2026-11-05T08:05:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4441d5c5181a98acb3aef6b70ea98611d4c4b57b",
+   "title": "Wabtec Issues $500 Million of 5.9% Senior Notes Due 2037 to Refinance Debt",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ce3060f53ffb3:0-wabtec-issues-500-million-of-5-9-senior-notes-due-2037-to-refinance-debt/",
+   "published": "2026-11-04T16:33:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc76f996b073bbe573e48e8b8461d2485b599dd9",
+   "title": "Wabtec 8-K: a material agreement, new debt",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000114036126041966/0001140361-26-041966-index.htm",
+   "published": "2026-11-04T16:20:56-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d30cbe034c4349664be53c032b0cd5250b55e0ca",
+   "title": "Westinghouse Air Brake Technologies Prices $500 Million of 5.9% Senior Notes Due 2037",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:394b5740eb141:0-westinghouse-air-brake-technologies-prices-500-million-of-5-9-senior-notes-due-2037/",
+   "published": "2026-11-03T17:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0f1f097646b7f6d27620a670351e91d2b11d0a69",
+   "title": "Wabtec 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000114036126041841/0001140361-26-041841-index.htm",
+   "published": "2026-11-03T17:20:01-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "8fa601b2fea0ba27d5320305a8d77ffcdfb58261",
+   "title": "Wabtec Announces Pricing Of Senior Notes Offering",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA7KZSYH:0-wabtec-announces-pricing-of-senior-notes-offering/",
+   "published": "2026-11-02T17:35:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dfe5eb1abad98006269525d367c1b3d3466c8a89",
+   "title": "Wabtec prices $500M senior notes offering due 2037",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663013-wabtec-prices-500m-senior-notes-offering-due-2037",
+   "published": "2026-11-02T17:09:59-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2710a210a35efe79d593d2864a5d4c55a7e5d010",
+   "title": "Wabtec Secures Approximately $390 Million Services Agreement with Transnet Engineering",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:b62240cc8b3cc:0-wabtec-secures-approximately-390-million-services-agreement-with-transnet-engineering/",
+   "published": "2026-11-02T07:00:00-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "3b8e0f96ba31090b400b3ecaba264aa2a391edc3",
+   "title": "Wabtec Corporation Finalizes Approximately $390M Transnet Agreement",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f8352ca2b9c5d:0-wabtec-corporation-finalizes-approximately-390m-transnet-agreement/",
+   "published": "2026-11-02T07:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d70efe08a5d6c42c5609c0aec064f3c55a12a844",
+   "title": "Weekly Recap: Indian Railways contract and India revenue growth targets",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:db50dc0cbe257:0-weekly-recap-indian-railways-contract-and-india-revenue-growth-targets/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "94b057362e6b874cc9294f55527ae1845ae23c85",
+   "title": "Weekly Recap: 12-month backlog growth and quarter-over-quarter margin gains",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:43dd314bbc562:0-weekly-recap-12-month-backlog-growth-and-quarter-over-quarter-margin-gains/",
+   "published": "2026-10-26T07:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

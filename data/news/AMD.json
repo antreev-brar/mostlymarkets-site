@@ -1,0 +1,397 @@
+{
+ "ticker": "AMD",
+ "updated": "2026-11-07T08:03:14-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "3eeb55a26fb7bf024c6e39f6d27a809f6bad068d",
+   "title": "Nvidia, AMD and other chip stocks rebound. Is the ‘violent’ AI selloff over?",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS05rMlNIQXZwWGRFbUlERjJ6bXlobEFuV19nckJuSlpWZlpKYmJvd1c0Z0FiOGtqc0FaeTItWDBsUkZJY044ZnV0emk5dlBjcVFtNkxBM2xGbzhmRi1adk9XNXpIZVpYNXRubUcwOVNYcHZJVjFzMEducG1pMXFscE9rX0xJazdhaHh0UDZUN3gzZ19aRm4xOG1acE5ONXBVeUVKM1dBb0ZYRjdrUGZNTzBhaEs?oc=5",
+   "published": "2026-11-06T10:48:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ca87c1755239f056ace6df70219b254e97e0abec",
+   "title": "Sandisk, AMD, Coherent, Lam Research, Airbnb, Moderna, and More Stocks That Explain Today's Market",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106004712:0-sandisk-amd-coherent-lam-research-airbnb-moderna-and-more-stocks-that-explain-today-s-market-barrons-com/",
+   "published": "2026-11-06T10:40:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f26fbd116af388740e9e439a60c93b73e88f71c6",
+   "title": "Intel, Sandisk, AMD, Airbnb, Monster, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QWWdJbFNPU3lTWno5NXYzMDV0ZmN0MDhBdVN3bFFRNXlZVHlWZk9BNElHaUg4N0xzUHZ4Z0JoTWdUcFVyTEF4SThELV9vdFRFLWVTV1NzODh3LWdnRVh5cGpuQ01UbkN5QWM2aGk1WQ?oc=5",
+   "published": "2026-11-06T06:25:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "86c77038735e9507a00ab85f9bf1fe6777409f45",
+   "title": "AMD CEO Lisa Su Calls This Market Moment ‘Short-Sighted’ on AI Spending",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:38e37bfce094b:0-amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending/",
+   "published": "2026-11-05T15:32:21-05:00",
+   "also": [
+    "24/7 Wall St.",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6e7829e652b7904c4c71d225c0efab517a91d89b",
+   "title": "IBM, AMD, Oak Ridge National Laboratory launch quantum error correction platform",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M0SP:0-ibm-amd-oak-ridge-national-laboratory-launch-quantum-error-correction-platform/",
+   "published": "2026-11-05T08:00:00-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f392585e1f9b9e42eb3d35dcc13f98917744e2ec",
+   "title": "SpaceX, Tesla, AMD, CVS, Datadog, DJT, and More Stocks That Explain Today's Market",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104007218:0-spacex-tesla-amd-cvs-datadog-djt-and-more-stocks-that-explain-today-s-market-barrons-com/",
+   "published": "2026-11-04T09:18:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2271ce816f9393edd5265a6b42cb31d5f736394b",
+   "title": "AMD Q3: Fueled By Data Center Growth, Shares Fairly Valued",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWkJDRVNXTXVnTDlxcE9ORDBITjdfQVJCSmtoQzlVWi1JRnphNnJDVHlKS2hzQUlqcEhlcDFDWFA3bTF5UnBYaTREc2hiY1pwZEFyN3BSdzNwWkZ3ajVNQnRES0ZJR2N4dlFkVjgyMTd1VDNmQ3Z3SENNakpTSGt3UHR0YXNHUFVtWUlNem82U1k5bjVDTVRLbkdTOVRHZw?oc=5",
+   "published": "2026-11-04T08:45:16-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "45c728df22098423646d2d2cedb8f43f7dc7ac15",
+   "title": "AMD earnings beat the Street. Here's what analysts are saying",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyZGQ0QXhqYkxYQUljejlZY0ZzU3lmNU0wRXZIaVZrS0hHQlZCM1ZCTDNiWHhlYkdSYXU2c1JzT2xsMEpUN3RlX3dfNEdIOFhVQjh5UzJ3d1NxTWQ2VEdfQzVNQWpNWFA3OUVYYUNhSXN1ejlSVHdr?oc=5",
+   "published": "2026-11-04T07:44:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3afda89b88e4f340cfb66af3ffb74d8137af0b82",
+   "title": "SpaceX, AMD, Arista, Block, Super Micro, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xV29Bc3Y1dGlJTExPbEEtcVNrQVYySWI3SWxReWl2NTEya3FJeGV0dVR0cTdDVVMwUGZ6TW51MFh4aTJFMDVfZnNKdEtSU3NkMGpFal9vSTB5QjAxbUxUTEFtMDI?oc=5",
+   "published": "2026-11-04T07:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d6c9dec2b6d7ef748a45cbab5b4fea53689b8765",
+   "title": "AMD shares jump as AI-driven data-center strength fuels growth outlook",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT1otSGFrSy03TGU4SkFJWHJ0SlJER0pMU0FvV3RIZm1udEtsLTlqazJwbzFEX1lNR3NGYWdNRnRBMDc1ZEk0elNtb2xHcXFFOEFqSnVsWkVRSTBpeHBPUEwtNDZtSUxuZUpKSnM1aXFlX2VUczJlNWRFSXM3MGxmRXAyYkt0dUloMlhaYVJZUVhqNmU2cGVpNkJaMXY3Sm5Qck04ZjNtbHdBSC02Q3hxd3BR?oc=5",
+   "published": "2026-11-04T04:53:53-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "18ba847076b0f220c9c99577cf06b93432819a3a",
+   "title": "Stifel raises AMD stock price target on strong data center growth",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ2pPQmJsSkppR0I5U3hPYXd3eVhzMlhiTFowaE92REI1bVBqYzd1c0xZNkdJbkYySnNjbTlHbEo4NnBKLU5PN2pJZmlFWUxZMkd4QmJDaWZMMTBLdi1Kd2VxSW5pQWE3WkdBRkRmQzF6SWRNNzhXWEtLVDNxcWVVcHhacnMxRGlITzlTZmZnYmM4TVZob0JTQ2VkYzRDY3ZmSjMtQU5mR1hEM1ZxQmZKcHdOMkZyRk1fdWMzblVISnBPZTg?oc=5",
+   "published": "2026-11-04T03:14:09-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "61d7f8d94bedb783dd3861ecb070a67a4ce16c43",
+   "title": "AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print ‘On",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNFJxaUtmQWlxR1ZuVDdLRkJFVFBoWHk4VGJqbVFKN19wSEp5a3AtdGRsSU90bXRDanFmQXZkUWZlVXFpN2pseFYxTHdtWjFYbTJXWF9xT2dzRXBneWJUd1NJRkl1NnliUGkwanZuQTZRcXAwenlsQlpTQzVsNTFJa19lbTBDaS1mYkg3WHVnVmlxbGxack80?oc=5",
+   "published": "2026-11-03T22:16:16-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "cce6774088a39d15df6963ed17bd3d8b1256e472",
+   "title": "AMD's OpenAI, Meta chip deals trigger $1 billion quarterly charge",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L004:0-amd-s-openai-meta-chip-deals-trigger-1-billion-quarterly-charge/",
+   "published": "2026-11-03T21:10:34-05:00",
+   "also": [
+    "Investing.com",
+    "GuruFocus",
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2d7b24b7e5d62e48bd535922e66c4b17fed94614",
+   "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN1RkTUttWkc2OFZDbk9uczZTZ3FPcFNCYmg4Q0ZZbjFjZ3luNVR1Yi1Qb0F2RE5ua2RubWtXaFo1UGZkNUdCd2QwUmJkckZiZ1hmT1EycmpuNTAyajlWX2hrLWlqbXFlbkxhcW41Y3V3STdheVJvakhsN3k0RlJSRkZmYXg1blNsMzNvUngtLW5INjNVQ21LOWZrMFlDOV92dG1JVDJDQkY2QTBicmpNWFM5dmNKaTVQTF9KVUVBc080QQ?oc=5",
+   "published": "2026-11-03T19:17:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc77fbd013c86997179f576f559f6d320e9eff4e",
+   "title": "AMD files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+   "published": "2026-11-03T18:00:17-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "5482f8a8507e752e22fb3a503a6fcaab5ad7b09d",
+   "title": "AMD Earnings Show Big Tech Can't Get Enough AI Chips",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103002669:0-amd-earnings-show-big-tech-can-t-get-enough-ai-chips-barrons-com/",
+   "published": "2026-11-03T17:36:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5ba0f1d06efb69243dfcd0007947f4091e50e6d6",
+   "title": "AMD CEO - Now Expect Revenue to Grow More Than 80% in 2027",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46K2EL:0-amd-ceo-now-expect-revenue-to-grow-more-than-80-in-2027/",
+   "published": "2026-11-03T17:26:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3f15c45ec4c7a80625d8e3c36f52c405b917b002",
+   "title": "AMD Stock Jumps on Big Earnings Beat",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mcnlEQzhqWExyWFlMNDhsWkRvc2VrVmtkR2tqUXJzQWZBWGh2UzMySGZqUjhEN3dQcFhEWGpUczZnUHJ3WFB4cEJOUDhIMHlwaGxpRGI4YmlUclBaVkVBWHFoNmhBckFUU1ctUllKaF96bTB6?oc=5",
+   "published": "2026-11-03T17:09:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "41d4b863239897c02fa4d6cd710eb99deb51e4c1",
+   "title": "Stocks making the biggest moves after hours: Arista Networks, AMD, Super Micro, Skyworks Solutions & more",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQlozRVA0VGN0bWpqSlFrWGdNM3hoYUdsdzlFRFl2YjdSY21ma3NpR1Z6REJZeEU2eWJpamVBTkJubFpDUlNZeEF0ckctQ3lyYXh1Y0h0NURFdWs1RENxaE0tYmJjcGFxTTVDZjRibU5wX1hyVmIzSVQtZ0F3R2tLaGIzblhMcXRkWmZPZVpZWWhTNlM4blNtQUQtWUNoeGs0?oc=5",
+   "published": "2026-11-03T17:06:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5c2d31597e1e26852a8955c96f215c605b93d0e9",
+   "title": "Bernstein's Stacy Rasgon reacts to AMD's Q3 beat, stock jumps 7%",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TVktsTUVHVnFPZ2tSTEptdmdQa3hxcF93TXVpOVJvcWxWN0dOSFhOb3FfaldNQmR2M0ptdElzZ3VVNWpKRTk0bjltN3JieVFXRFNodW90Q0dRWnA1eUZtcmFGRFVGcVdrcGJsejVBajJBSDMtX0pyakhaNA?oc=5",
+   "published": "2026-11-03T16:55:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e1ec4f723f103d95577fc03c1bb40023c818b076",
+   "title": "AMD posts Q3 beat, stock pops slightly in extended trading",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRExrcUVudVRqLTc4b0dmdGwzUUtlUS1vRFRFRFhCcTktb2JneFY3LUcxajlmRF9wREo2SnB3MDlRT1hMVHZTaHpIX0UtelpNZXc5Vy1NWHVkcHljUUdURDRJak9EcU9XWE9UQTUtN0ItLTBsak80c3BINy1uSUVaNXRSa2xKQlZBbjF2MXdSUl9tbU9HQnlDRUJZbDdNbHhmZkE?oc=5",
+   "published": "2026-11-03T16:39:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6e468457d98b783b95758d93252cf6fd30474a29",
+   "title": "AMD forecasts quarterly revenue above estimates as data-center growth accelerates",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM01ic0VHVkhaaTh2RV9KVV8zNHFCNW1TZnRlc29mMDg5T200aGRFZkdhd0JtYmtiZGt4LVJRdTdzWlV4dnhnRk9WVW5NWE1QWEFXSmhnZFVDNHpUVk94b0NFOEt4MXNLRWFmYTQzZnlZN3VvTGNtVzZFNnFHQVJ6NWlISXlsNFFBYnVVMnhXTVlOUHE0MWk2TWhYUFgtQ2Yzc1JzVHVRNmo5RmpvQ3Qwc3E3bkJVQTRnQ2JIX2x5NVg?oc=5",
+   "published": "2026-11-03T16:34:27-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6d4ba9491d6f14e60ad2cbdbbaf96dc2368bfcf9",
+   "title": "Chipmaker AMD forecasts Q4 revenue above estimates on strong data center demand; shares rise",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46K177:0-chipmaker-amd-forecasts-q4-revenue-above-estimates-on-strong-data-center-demand-shares-rise/",
+   "published": "2026-11-03T16:26:34-05:00",
+   "also": [
+    "GuruFocus"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c15ec10766df841e53360706939a2bc5898944cc",
+   "title": "AMD forecasts 2027 sales above estimates as data-center business booms",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46K153:0-amd-forecasts-2027-sales-above-estimates-as-data-center-business-booms/",
+   "published": "2026-11-03T16:20:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4bbe1581beb927e4461f82bd0c01aad0512388db",
+   "title": "AMD forecast eases AI spending fears as data-center sales surge",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46K153:0-amd-forecast-eases-ai-spending-fears-as-data-center-sales-surge/",
+   "published": "2026-11-03T16:20:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "195e22bc9907cb664a8bf4e67acbad52c762db1b",
+   "title": "AMD Sales Forecast Tops Estimates on Soaring AI Chip Demand",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5",
+   "published": "2026-11-03T16:18:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a359927a615fa718883c53d42a14b2e6a57a2482",
+   "title": "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfVXVMaFFzOXpSSmhDS2xlZWZLZDk0V2w5MHpTSnZ3d2c5bkMzRDhwbzhURWpMMVcwX3ZiME8ybmU4UHR1ekdtVlUwRTYxcTI0T1dadVhheUQ0LVVpWnRqYjdmeDkxMGJKQXBkNUtpaEVKZVlXNEhYRdIBfkFVX3lxTFAwT0pLTUtFX3FhLU4tWFFuU3JjMXF4NWxpWFNVZEoxeTdqMVc2d201ZHRMdXV4cEg4VGNnd0RDRmhKbnNYZndMa1hhMzZ3Y0lUdk82SUprYVVibVZQT19vR05WaGZKZlBzcDFLZWNzczZkb0pDN180UTZ5MTRuUQ?oc=5",
+   "published": "2026-11-03T16:17:55-05:00",
+   "also": [
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d1a853f1c1c3f566c1f0bfb42e975eed50ca0e30",
+   "title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfVXVMaFFzOXpSSmhDS2xlZWZLZDk0V2w5MHpTSnZ3d2c5bkMzRDhwbzhURWpMMVcwX3ZiME8ybmU4UHR1ekdtVlUwRTYxcTI0T1dadVhheUQ0LVVpWnRqYjdmeDkxMGJKQXBkNUtpaEVKZVlXNEhYRQ?oc=5",
+   "published": "2026-11-03T16:17:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "08a12b1bffcf896050019c29dc33a2accc4236b3",
+   "title": "AMD Beats Wall Street Expectations as it Pivots to Data-Center First Status",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTS1ackJyUFczU0ZLRnVmUkF2M2M2MUtueVFjd3ZpOEVkSlJQRWY3eUFNa2g2MVlHOTJDZTROanJCRkMzN0k0S0s2WWh6c2VMVW84VklCRmNBdW5CcmlMYzFXX2RpNmp2UDNPbjNWOFZRMVJUYWtyQkcxX0NPTE1FZU1TXzQ4d2VmaXZkNEVRNTRsQUVPTlUtcXIxRUg5endOZVZyT29sYmtEbmhCQ2pxUA?oc=5",
+   "published": "2026-11-03T16:17:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e0a31f35cdb2c2d8c368632818c22ea8b3a60af",
+   "title": "AMD 8-K: quarterly results, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/0000002488-26-000188-index.htm",
+   "published": "2026-11-03T16:16:27-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "9ac95895ce5dbfec2d082e034fb06309b904ef2d",
+   "title": "BRIEF-AMD Q3 EPS USD 1.46",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_PLXFNW413:0-brief-amd-q3-eps-usd-1-46/",
+   "published": "2026-11-03T16:16:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "312f7f005bf449759962164bd45d2935038eb55f",
+   "title": "AMD Reports Third Quarter 2026 Financial Results",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html",
+   "published": "2026-11-03T16:15:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "2d93330857fa888bd1a8bf0cbfe3420b6f1af014",
+   "title": "AMD has been crushed into earnings. Here’s one way to trade it",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUTkwNkpvdTJyX05fdUJGY0ZvZUtuTnhtTXJzM1FIQ3U5T2JxVG1pVVRiWTlVVFg4X3J1aURPWEI5X1pMZGFjQktfUjJoUnF3bTMyMFI0WGVIbmVINXktSmJEQ0duV2R1cEtoRzNNR2ZYcllPbjNGU3VJNWtVeGdXV2NCSHZnTmlPSms1ZF9HWVdfVWdhY1R1UWFVejNoQdIBowFBVV95cUxQb0MtZXNHNHRfaGVjU1RuNlRJTUxnZnFER0N1czM5NTM2NS11TmpLVFRPTV96R05iSFZqZmE1ZVZMU1NKRWlQeXVRSHlqY2N2RWlmdEM0UkJ1MU11OTF6LUZMQWVzMmhBc2o2SzRqU3lwQnBDLWJyUnotbVRTVERTMHV3SjFlSS13SUxKeU03ZVBtNmJuTWtiWi1hVlN2VU44NHo4?oc=5",
+   "published": "2026-11-03T15:40:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "afbf44f895037120ef1bb0e61340c76cc5e74812",
+   "title": "Here's how options traders are playing AMD ahead of earnings",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQVQyclpZQWhwaUs5SlIwNDZJTV9maE9vcFVvUE91emxaRmJQTi1VdWVyM3NOOGFKTWtmbzF1RFVZSENPYzhsR3RjTzgzUEJnaHRFS05KZFRIOEdjZDZqQ0ZzTXJBRnk2UUQzUEcwRkxJaDdaMDBTV2NHb0dVWTVEMk5fYzREaWtZXzdBSWFWZWw3Q0g4ci1XZWhvZm9Ud3JvWFJmRA?oc=5",
+   "published": "2026-11-03T15:40:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4df861c11bfaf7e907f398e74df33ab227824dc3",
+   "title": "Apple, Palantir, Pfizer, Marvell, AMD, Bloom Energy, Gartner, and More Stocks That Explain Today's Market",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103003335:0-apple-palantir-pfizer-marvell-amd-bloom-energy-gartner-and-more-stocks-that-explain-today-s-market-barrons-com/",
+   "published": "2026-11-03T12:38:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2016ff5d0a625b50a224db4f50e01f7cd0e41b6d",
+   "title": "AMD Needs a Huge Outlook to Avoid Intel’s Fate as AI Fears Rise",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd1c2MWstT1VvTHRuSWJHdnJucWkwSzBlanBDOGVCelhJS2t0VXV5TlpJREl3OVFfUGtOWDBtLXJ4WGs3S0tlelNLSl9tYUo5RWRGVlB5X2tva2VLaEZJc3V3NmNkX1d1ejNHZC0xSlZrNnI2RHVtckY3Z1Jxb3BCcEdjbkU1QXhKRFVseWkwX0xiaHlMRWdKYm5haWpiWGZVZHYwenZVcFZFNmhfT2dET25Wd3hEYk1JM2NKVGloM291T2JwcVMybmM1OFhGdC0xd3E4?oc=5",
+   "published": "2026-11-03T06:43:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a97e9b606c9d5d8e79e28b6df9d97895b5a1c36e",
+   "title": "Apple, Palantir, AMD, Sandisk, Onsemi, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43RWNvbkRVVzdUX0dYdVBwSWRQbHZfTmp1WHpuYkRyTjNLNlZFQWlxLUpQOWtiQnRoMVJQaks5QXdWNVo1WTVKLXdVQUlGVVduT0JPOGVqZE5GQmp5QTF4TF9XS04?oc=5",
+   "published": "2026-11-03T06:27:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a912f843ff4eb733dc46fe5a0579b69c441e2618",
+   "title": "AMD Earnings Set for Tuesday",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Y1B4UUdST0p5WjBoNVB5UlNRelN1VVpraWJibWRCS2g3RE9RMVBzdmFpUHo3bl8xamFGUUNrUGthbGd3dnFjaVlvNUY3bVFxbm12djdaZDVUcnhEUjlkMXlJcDRPUGZBLWdkNHNUVW1KSEtPNlY4Ql9RNGt1RGs?oc=5",
+   "published": "2026-11-03T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "15e9ff539f7c43054ffbe39ad1a2c4bdd459dd08",
+   "title": "AMD Will Try to Change the Mood With Earnings",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103002669:0-amd-will-try-to-change-the-mood-with-earnings-barrons-com/",
+   "published": "2026-11-03T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "427986de0c2dc01a25e5c4d0714b5e0c00193ff0",
+   "title": "AMD to invest $1B in Meta's equity offering, expands partnership",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4657909-amd-to-invest-1b-in-metas-equity-offering-expands-partnership",
+   "published": "2026-10-27T10:24:05-04:00",
+   "also": [
+    "Stocktwits",
+    "dpa-AFX",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  }
+ ]
+}

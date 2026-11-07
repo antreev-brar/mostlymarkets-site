@@ -1,0 +1,373 @@
+{
+ "ticker": "DD",
+ "updated": "2026-11-06T06:06:43-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "e2ebb5988c50e211ea139ad313d0b5f92cc60401",
+   "title": "Cramer's lightning round: 'Xylem is not as good as Dupont'",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWG4zTTVhOHdfZVdMcmxyNFYzVkZteHdPeF9OX0N2N21BQ1dOUS0wSDNPUVpqUHVoZG5GM0VndlFXVXZMdGsxRUZ1VkFCb2U5U2NHSWQxc2FaWXVMOXV3eW1fdmtDR2NibTF3S0hCbXJpM0U0bjJOblF3bEc3RkVMU2pIMEJCZkxvVEk5VW0tam5hRHNlRnR3QkVpNNIBmwFBVV95cUxNWG4zTTVhOHdfZVdMcmxyNFYzVkZteHdPeF9OX0N2N21BQ1dOUS0wSDNPUVpqUHVoZG5GM0VndlFXVXZMdGsxRUZ1VkFCb2U5U2NHSWQxc2FaWXVMOXV3eW1fdmtDR2NibTF3S0hCbXJpM0U0bjJOblF3bEc3RkVMU2pIMEJCZkxvVEk5VW0tam5hRHNlRnR3QkVpNA?oc=5",
+   "published": "2026-11-05T18:55:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e0e7329f4c58dafab02d4c0aa7643eb919b6eef4",
+   "title": "RBC Capital maintains DuPont de Nemours at Outperform, raises price target to $173 from $160",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:06d02e907cb39:0-rbc-capital-maintains-dupont-de-nemours-at-outperform-raises-price-target-to-173-from-160/",
+   "published": "2026-11-05T13:57:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fa15ba823803eb7eb9f84fc36fdd77bceb8569f9",
+   "title": "Wells Fargo raises DuPont stock price target to $170 on valuation",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRGF4LVVWdW9oV3FoYWt0V3l3THNHTkdQcVQyZElUcmUzWmJMbFltcTJkdU5RVFNUTGlRLWhhc05OMFdlbjkzMzdIMmxPLUM1bmViUlNOSHhtZFBuZjlGaUdxYVNlNEg2S2lYTm5NdGtQOWtGS1U1eURrQVkzdHk1QjN1RHFPWjJxZkxqSjFONGIwaUFEaVhBdFd1bEFQa1hQVzNXaFFjQ1lmR1dmVy05azY3TzZjcDhwTExJMGh2bmdsZw?oc=5",
+   "published": "2026-11-05T06:25:50-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2a20c503f473ebb018a9a77357829bad5ae3dddc",
+   "title": "UBS maintains DuPont de Nemours at Buy, raises price target to $182 from $172",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:639ba46569aa6:0-ubs-maintains-dupont-de-nemours-at-buy-raises-price-target-to-182-from-172/",
+   "published": "2026-11-04T17:54:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "580814b6ebe9589a0cfdadc1dcfce1d4ca9c85b2",
+   "title": "Citigroup maintains DuPont de Nemours at Buy, raises price target to $176 from $162",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:91803e0c7708f:0-citigroup-maintains-dupont-de-nemours-at-buy-raises-price-target-to-176-from-162/",
+   "published": "2026-11-04T16:45:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b7dac6f58316a01db90d1255837c31381925bbd5",
+   "title": "Barclays maintains DuPont de Nemours at Overweight, raises price target to $176 from $156",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:93e27566fafd6:0-barclays-maintains-dupont-de-nemours-at-overweight-raises-price-target-to-176-from-156/",
+   "published": "2026-11-04T13:30:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "945ab065746ebd8a955e4f050c9d1622ae99d603",
+   "title": "UBS raises DuPont stock price target to $182 on margin strength",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeUozWmRwOHJqb05QQzhtTDY0UkxlY0t4ek1QaUk5dlFQX0VGUmh6Y2N6NWFQRlE3LUs1TmZQcE44S3R3X1V5RmZVb1RCM0lKNERfSEJDWEo2amM2RkxFcHpNeUdmT3JmQ1NSZjZqUWtVOXlsU29DaVVXMUJNbEhfdnF2LXJNWi16cHlJcDNzSGd2MmZTSGVOY1FLeGYtZHI3ZUxEdHVqazJ3eWR2VGlrWkxwajFSV01tMlZyQzJtRQ?oc=5",
+   "published": "2026-11-04T10:08:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9f94723300e700731a065bb746c8e885e388c7c9",
+   "title": "What Just Happened To DuPont Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcG8yVE5LNGphZWlKakhZMzA3Umk5bjRxZnYzOHRHMVQzT0d5R01Ic2pnUTViTFdmSEhxNDNxRmc3N2N1X3AxYjN4a2dpeHJSYmIzYTM2d2FfUGlmRzVmYkU3MWhYZW5QZ3NHYXBLT1BGSXZoMGhUY1psSlJCZGk2aHl5bDRTTjAxQ2tCM052MlJBUHdxUnc?oc=5",
+   "published": "2026-11-04T07:56:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc827ff91c0c45b540b341514942b21c26544093",
+   "title": "DuPont de Nemours Q3 Earnings Call Highlights",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-dupont-de-nemours-q3-earnings-call-highlights-2026-11-03/",
+   "published": "2026-11-04T00:14:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b63ef44bd05257d500a74e3394df5cd0f9d1e50e",
+   "title": "Why DuPont Stock Trounced the Market on Tuesday",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON2tYUXZ4ekIwQVJWM1Z3QjF5RXdGSzdEVUkzMDBWQWV3ckdRTEZscWllQ0lQZ09NYVdqMi1ZRFNGdDB1TmFOakNqQzdUbE9uUGRjWkZxR0NNRzhiSTBmMklNQk9tZ3p2d1pWRlRIOVdaTnFqcjBVQm5nZ0owLUZVRHFPdGlnVE1QQ0g4?oc=5",
+   "published": "2026-11-03T19:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc77394185f0885272dc64ef75d3eae87bb4a2c4",
+   "title": "Stock Market Today: Dow Dips Amid Midterm Elections; Palantir Slips, DuPont Surges Past Entry",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcEFVaXAzcGdNaDVQVzZzT1dUaVdCUVlQc0pBUnN5SkFyMUc3clF3Q0dzamdzNUQwVFBEbVNLT28xX0RGUWhmWnB6STZ1QVVjODk3S20tR0h6ek5QQnQ0TjNYUlZ4YW1LQWNXZjVFLXpzUWlWT2NGZEt3OEhBNkpUdi1TSzhfNWk5ZWY3MGpjeUVMQ242RmZUVnNVS3RTMlZMcExUZ242REQzckJZV3dtQkg4UmRlU0Zra0otVmdB?oc=5",
+   "published": "2026-11-03T16:27:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a87a13d25faa2cf6509ed8bcae706b6616f12db3",
+   "title": "Why is DuPont stock surging today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNWlGQVlJUmtYMmxzZmcwWmdxUThoVmU2ZEJCa3JkaTR2dno1SHdzeDZlSDJrRmdpNl9jTW5SbHNWcjNveEJFcnFhNUdObmxmVmZhZWpRT3VqWFN1OFNyd1JuWG9keHhXdVJDZ0h4ekN6aHV0QjVXc25tVjFGOEJ5MmtkSmcteVBTSTNtdG0zOEZEekd6dTBka1p0MA?oc=5",
+   "published": "2026-11-03T15:41:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "42abd0ea2b98c2c5a9556c69b667fe5965771f9e",
+   "title": "DD: Sales and segment EBITDA advanced as cash generation improved, amid significant legacy-liability risks",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3954086:0-dd-sales-and-segment-ebitda-advanced-as-cash-generation-improved-amid-significant-legacy-liability-risks/",
+   "published": "2026-11-03T14:28:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fbc231dd5433d4836ca11e1d98e2d141ccbae5bc",
+   "title": "DuPont files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000060/dd-20260930.htm",
+   "published": "2026-11-03T14:27:46-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "e304a4fa618adf0ba675a1724383ac728107a55b",
+   "title": "Why we're keeping a hold rating on DuPont despite its beat-and-raise quarter",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmtxMjRmeGpvcEEwcWJWVVVlS2EwNXR5S0p3eTItbDlBMHJ2T0JjclJEVzRlQl9qMkU0S05iZXVsUkNicUFVWHVRc0xzYm5ZT3l5OTBYemFPZzhJSXBHRnJpbUZPOXAxTWlJVXdxS2FuRXhENEtLWXhVY2hWS0xhSFVyeldvcFlSSXUtV3F0ZnhtOGVBVC1ZempkZTY4M0VpX19BRklZSERKczlIdVpDMTFxRGZsS3RIbW5sQmJlaw?oc=5",
+   "published": "2026-11-03T14:26:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "26d17982b1ba9b844dd3cf495820fb30fd4a8757",
+   "title": "DD: Q3 beat guidance, with 5% organic growth and higher FY26 outlook",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4440628:0-dd-q3-beat-guidance-with-5-organic-growth-and-higher-fy26-outlook/",
+   "published": "2026-11-03T14:05:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "786f3e4d89e33ee85d798f94d8c11d8a7e51d043",
+   "title": "Fermium Research maintains DuPont de Nemours at Buy, raises price target to $160 from $154",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4ed1015ddb2f8:0-fermium-research-maintains-dupont-de-nemours-at-buy-raises-price-target-to-160-from-154/",
+   "published": "2026-11-03T12:14:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "38331e6fcfaee5e56083f152e626c49469418ab8",
+   "title": "DuPont Raises Outlook As Order Book Climbs and AI Cuts Development Time",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:8ff559b41094b:0-dupont-raises-outlook-as-order-book-climbs-and-ai-cuts-development-time/",
+   "published": "2026-11-03T11:28:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aec84329f2e88fdbe8549769a23a9b9f43418a8e",
+   "title": "DuPont boosts guidance on strong Q3, shares jump",
+   "source": "ShareCast",
+   "url": "https://www.tradingview.com/news/sharecast:4fdc85de7094b:0-dupont-boosts-guidance-on-strong-q3-shares-jump/",
+   "published": "2026-11-03T11:15:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ddbbe681758dfbbc304c8fd9f945e3f9b268d107",
+   "title": "DD Q3 Earnings Beat on Organic Growth, Raises 2026 Outlook",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3021875/dd-q3-earnings-beat-on-organic-growth-raises-2026-outlook?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3021875",
+   "published": "2026-11-03T09:14:00-05:00",
+   "also": [
+    "Quartr"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4d81f5953c0af3c122ad6988a80e5c351ad968f4",
+   "title": "DuPont de Nemours (DD) Shares Rise After Q3 Beat, Dividend Susta",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2ZMVUN5cWprbDBHZkVZNlZ1NjM1RnB5Z2pZNml5YjdhNFJhU2hMb1M4RHJEOEpWenpZOVZGbEFDRnJ6cHVsb0ItX1hndDZnQUdXcy0zNkV3ZHBRZHpxU1RkYlZvU0paRUlrRDdDS1VLcmhlMEh3d1VVWmNUVnliNHQ3WF80ck9uUEhjY0diN29ldEtpQ3FSMUtiMmZfc3I4Rl9pZzNvbldqeUp6RXlzWURWaDNab203TUE?oc=5",
+   "published": "2026-11-03T08:56:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fde5cecffde02b57251aace348cf45ee0d5ed188",
+   "title": "Dupont Says Large Middle East Water Projects Will Be Delayed Into 2027 Due To Ongoing Disruptions",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46K1YP:0-dupont-says-large-middle-east-water-projects-will-be-delayed-into-2027-due-to-ongoing-disruptions/",
+   "published": "2026-11-03T08:49:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bf011d026b1dde42b3d99a67a89ead727b1c1d9b",
+   "title": "DuPont de Nemours (DD) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMURFdmx3ZFRHbTZhZGhhZjVZNzdLMFhxSnN6dFZXWWJKdEkzc3Z1cjV0NmpIX21KSENZblB3Y2lPSnU3cTVuNE9YM0YyV09zbTdsQ1lnYTNoVEFsU2hpU3RPZHRHWTdZSHpmcGw1NjJUWlRhMy1ETlRpZVM3alRsRWhmQl9VSjVkeXRQSEJqV2MxWEhRME94Z3Rn?oc=5",
+   "published": "2026-11-03T08:30:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "21fbbc5b9135a25ce62e1320a46cc36872e52ec6",
+   "title": "DuPont Reports 4% Sales Growth, Raises 2026 Guidance",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4573b46538c65:0-dupont-reports-4-sales-growth-raises-2026-guidance/",
+   "published": "2026-11-03T08:13:10-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9349ab1e376e7f22abbbca100cb2e0dfad89c444",
+   "title": "DuPont 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000058/0001666700-26-000058-index.htm",
+   "published": "2026-11-03T08:05:28-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "72ebe9fa6e015876c0e6d761b5b3a7ba6e736e35",
+   "title": "DuPont’s Earnings Outlook Is Improving",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mNEdxWldnRjBNRWN6bHNXMW1aWTZwZXlBN0FXZlVEc25NdDI4OVpZWUt3UjdWcVRmelRpaDY1X3ZBMFV1MERIS1BGMjRjM0ZsNUFaQjFzU2loRUdiUkIyTnltQ3c5bDZjN3ZQdldsekFGQkVtazhURw?oc=5",
+   "published": "2026-11-03T06:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e0e8e30b1f4685608b6f97c3a2600105a5cfdcb5",
+   "title": "DuPont rises as earnings beat estimates, company raises outlook",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663242-dupont-rises-as-earnings-beat-estimates-company-raises-outlook",
+   "published": "2026-11-03T06:47:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ae94a9b5302d8bd0e0c8e0827c6bff08052dba7f",
+   "title": "DuPont raises annual profit forecasts, sees upbeat Q4 on healthcare, aerospace strength",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46K0TO:0-dupont-raises-annual-profit-forecasts-sees-upbeat-q4-on-healthcare-aerospace-strength/",
+   "published": "2026-11-03T06:31:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f2e2e7e1d616950a456fe45041fea19521bf0912",
+   "title": "DD: Higher guidance followed 5% organic growth, EBITDA expansion, and 121% FCF conversion",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4248214:0-dd-higher-guidance-followed-5-organic-growth-ebitda-expansion-and-121-fcf-conversion/",
+   "published": "2026-11-03T06:19:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "35b6d996f51274e89881c6de1692a88331403169",
+   "title": "DuPont Lifts Outlook, Swings to 3Q Profit",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103003295:0-dupont-lifts-outlook-swings-to-3q-profit/",
+   "published": "2026-11-03T06:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ec426ae21d97026914e8c0fceaf0732528b0085",
+   "title": "DuPont Q3 sales beat estimates, lifts 2026 profit outlook",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46K0E1:0-dupont-q3-sales-beat-estimates-lifts-2026-profit-outlook/",
+   "published": "2026-11-03T06:11:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c43d71144b31eb4ccd75492a0fc7daa65b1807e1",
+   "title": "BRIEF-Dupont De Nemours Inc Q3 Adjusted EPS USD 2.09 Vs. IBES Estimate USD 1.87",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_PLX5FCC9Z:0-brief-dupont-de-nemours-inc-q3-adjusted-eps-usd-2-09-vs-ibes-estimate-usd-1-87/",
+   "published": "2026-11-03T06:01:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "02dcb12d433045dca2eef05767cef5cb090b251c",
+   "title": "DuPont raises full-year profit forecasts on strong healthcare, aerospace demand",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46K0E1:0-dupont-raises-full-year-profit-forecasts-on-strong-healthcare-aerospace-demand/",
+   "published": "2026-11-03T06:01:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2884d7aa92fd16004b46a022add6ca8eb8445f66",
+   "title": "DuPont Reports Third Quarter 2026 Results",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:801bd0e95d163:0-dupont-reports-third-quarter-2026-results/",
+   "published": "2026-11-03T06:00:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "f9b1dd1ad7d50a3992ea2af3efeab892b7fd1f6b",
+   "title": "DuPont (DD) Raises 2026 Adjusted EPS Outlook to $7.47–$7.52",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d5fbe72808de3:0-dupont-dd-raises-2026-adjusted-eps-outlook-to-7-47-7-52/",
+   "published": "2026-11-03T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "973cc12b798838cab61a41ad4f7c762ba2d1268c",
+   "title": "DuPont de Nemours, Inc. (DD) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MS1hINlZFQXFXNU0xQkFjMDV3QXpXd0VHYlJsQVNXbE4wc05maVh4U2Y1X3lleDJTb2lGR1NuYi03TW5PWVZ6VlM1OUxSUEk?oc=5",
+   "published": "2026-11-02T15:06:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "39880510fecb8dfbb2c38e2124b824c8da66edc7",
+   "title": "DD Q3'26 Earnings: EPS estimate is 1.87 USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:b685cb2fdfb8e:0-dd-q3-26-earnings-eps-estimate-is-1-87-usd/",
+   "published": "2026-11-02T07:00:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9ba23076147d7bed75361f36214dd5996284dfc0",
+   "title": "Bet on Winning DuPont Analysis & Pick 5 Top Stocks",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQXg2X1M5R2FiQ1BVcWJjbkZtaDU4dHlzcnExRHB4RnhheHZiVGJLLU9KaGdXOVpmZzdLX0IwbXotd0E2SEI0UGtwc2g3YTRCYWo4WGxOVDdpeXpxNHVBNUZ2TVBuTVlGc0tvLXl0UUNJczVSUF9ndklybmh6eW8tbzZQWHo2RjE5algtZTBpUndia0FHeXJzQnpjR05CUQ?oc=5",
+   "published": "2026-11-02T06:54:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f02627937ab9674c34ef357979d131510ec4b8a9",
+   "title": "DuPont de Nemours, Inc. (DD) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5fcWUxaDFWVTVGRW9yaC1YUkNvZlV5WGNhR2R4ZUFWaTNSSUlJTmc3bTBZN19USF9LZHlSMmFadFB5SE9uYVJjc2Ryc0pjdGM?oc=5",
+   "published": "2026-10-30T22:41:18-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dfb346d5e1daff16b74f06745487411528e813b3",
+   "title": "DuPont Net-Zero Climate Targets Validated by Science Based Targets initiative",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:092478f083914:0-dupont-net-zero-climate-targets-validated-by-science-based-targets-initiative/",
+   "published": "2026-10-29T09:00:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "ticker": "TECH",
+ "updated": "2026-11-06T06:08:46-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "cb09b79190a035813be332a70017424617de3715",
+   "title": "Bio-Techne earnings missed by $0.03, revenue fell short of estimates",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeFV5a09xc1ZTTHh5cjVlSXRCR254VTM0ZC02QkRMV3dkVF8tdjVRQWFmc3ZIYng3ZmdGcjk4M2Zzc2lCOGQySmNQQ3BhaXhUc1dVa2NOLWQzRmE5U1VQN20tcURYbWJ3NzlVNW1RU0t5bWpMYXdfWEhVWDRtMkZfNDJmR1B3Sm9EUWhfQUpiNzR4UVRrTDFmTUlUWVU2aTRTSTBXMW5TdkQxRnlTMFpnZGdn?oc=5",
+   "published": "2026-11-03T23:30:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ff224f2f6d86dd7a1a8fc17ea4c02af62816d7ec",
+   "title": "Bio-Techne 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/842023/000110465926122283/0001104659-26-122283-index.htm",
+   "published": "2026-11-03T20:30:14-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "8444df2cb12fcf44972cd59458606a96861b297e",
+   "title": "BIO-TECHNE DECLARES DIVIDEND",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:39aa01ec4515c:0-bio-techne-declares-dividend/",
+   "published": "2026-11-03T20:30:00-05:00",
+   "also": [
+    "Seeking Alpha",
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "068f2db81425dff599238bb8eae1b73e837b8433",
+   "title": "TECH Q1'27 Earnings: EPS estimate is 0.44 USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f4fecdedec744:0-tech-q1-27-earnings-eps-estimate-is-0-44-usd/",
+   "published": "2026-11-02T07:00:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e60814560c65d951028ea000f8b999f3d90a80a",
+   "title": "TECH Q1'27 Earnings: revenue estimate is 292.60M USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:0ac4060629c48:0-tech-q1-27-earnings-revenue-estimate-is-292-60m-usd/",
+   "published": "2026-10-27T07:00:20-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a7c4400d3562d84ffaab64c8c815ab3fd7d9e1c3",
+   "title": "What You Need to Know Ahead of Bio-Techne’s Earnings Release",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaUJJckRGMlhMTEszTFh6b2k2RTB5R05qenlSczB1LWp2S3Ewc0hrM2JrdXNScGRGR01DMjVsLVJqMVYzaDlkRHZUZE5mdm9oakNlcWdnNE9Rd1h3elpIZGRmZUkzcUhRZ3ZUa3MzUVpZOTJUNnZGTUJPRWVFTXlZR3NBbUsyV1dtRVI2emhBWlVDZmtWLVE?oc=5",
+   "published": "2026-10-26T10:15:42-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "ticker": "CARR",
+ "updated": "2026-11-06T06:06:21-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "4faf74088ca5d7f2ad754862f7690d9ad96d6dde",
+   "title": "Carrier Global's Automated Logic Agrees to Acquire Logical Solutions",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105025555:0-carrier-global-s-automated-logic-agrees-to-acquire-logical-solutions/",
+   "published": "2026-11-05T17:53:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7777e7586547f825d08cb08bced986d9c2efe7d2",
+   "title": "Carrier Raises $1.5 Billion Through Notes Offering to Refinance Debt",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ef20c70dd8fa1:0-carrier-raises-1-5-billion-through-notes-offering-to-refinance-debt/",
+   "published": "2026-11-04T16:33:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e7b9ec575beeb4acf65f5400fdeca75c7066b4ca",
+   "title": "Carrier Global 8-K: a material agreement, new debt",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783180/000121390026115944/0001213900-26-115944-index.htm",
+   "published": "2026-11-04T16:15:21-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "24dc84eb2e57a6fb09955f8ab2c447009e8cdb64",
+   "title": "Carrier Global Corp Files For Two-Part Notes Offering; Size Not Disclosed",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J2HO:0-carrier-global-corp-files-for-two-part-notes-offering-size-not-disclosed/",
+   "published": "2026-11-02T10:08:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4d0235194bfce195972437e34ef55ae4e6ed908d",
+   "title": "Baird maintains Carrier Global at Outperform, lowers price target to $70 from $72",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:18690f503516a:0-baird-maintains-carrier-global-at-outperform-lowers-price-target-to-70-from-72/",
+   "published": "2026-11-02T07:17:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "100c185895546377f3db1d6af3c384631bc0006e",
+   "title": "Weekly Recap: Q3 growth and cost headwinds, planned price hikes",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:40245f216d20a:0-weekly-recap-q3-growth-and-cost-headwinds-planned-price-hikes/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d692ca7841bd44be0ef3fea21b3707775595ada0",
+   "title": "UBS maintains Carrier Global at Buy, lowers price target to $70 from $78",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:5b93235dcb1f2:0-ubs-maintains-carrier-global-at-buy-lowers-price-target-to-70-from-78/",
+   "published": "2026-10-30T22:50:52-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5300a2c0000618dd4d47766d5cdd174505ef90d7",
+   "title": "JP Morgan maintains Carrier Global at Neutral, lowers price target to $60 from $61",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:65cf7cf4e4f4d:0-jp-morgan-maintains-carrier-global-at-neutral-lowers-price-target-to-60-from-61/",
+   "published": "2026-10-30T19:39:37-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "df35adbbfc475cb47f1deb8aa12b0c1bcbf16326",
+   "title": "Citigroup maintains Carrier Global at Buy, lowers price target to $71 from $80",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:34ab813f5605c:0-citigroup-maintains-carrier-global-at-buy-lowers-price-target-to-71-from-80/",
+   "published": "2026-10-30T17:02:09-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4e33b09b4967a9ebe93db24778e8fe148ccfa89c",
+   "title": "Wells Fargo maintains Carrier Global at Overweight, lowers price target to $65 from $67",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:75e612a4eebd6:0-wells-fargo-maintains-carrier-global-at-overweight-lowers-price-target-to-65-from-67/",
+   "published": "2026-10-30T14:09:12-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3668a3d61f89685191ef76eccae9a7af3fb8b4e9",
+   "title": "BNP Paribas maintains Carrier Global at Neutral, lowers price target to $60 from $68",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:b778c6a4f45c1:0-bnp-paribas-maintains-carrier-global-at-neutral-lowers-price-target-to-60-from-68/",
+   "published": "2026-10-30T13:01:51-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20d8f0a090b17445d9b45a28a43aec8c1d5ff00f",
+   "title": "CARR Q3 deep dive: margin pressures and robust backlog reshape outlook",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/carr/news/earnings-call/carr-q3-deep-dive-margin-pressures-and-robust-backlog-reshape-outlook",
+   "published": "2026-10-30T12:20:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5db63e0c86222f31e2939efc869bb049d028f18d",
+   "title": "RBC Capital maintains Carrier Global at Outperform, lowers price target to $70 from $72",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:5b9db6f89ac78:0-rbc-capital-maintains-carrier-global-at-outperform-lowers-price-target-to-70-from-72/",
+   "published": "2026-10-30T11:31:47-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "07e11e4df5313fc3152977275dbf3aab348fd0de",
+   "title": "Evercore ISI Group maintains Carrier Global at Outperform, lowers price target to $75 from $90",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:0fb21cc0b0655:0-evercore-isi-group-maintains-carrier-global-at-outperform-lowers-price-target-to-75-from-90/",
+   "published": "2026-10-30T08:22:41-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ec715c3b5bca97960120c6063375c8b8db118b7",
+   "title": "Did Earnings Beat Just Shift Carrier's (CARR) Investment Narrative?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcU5UbzRZaTZfOXI3dE41RjMtb09oRmN2MjVkSGdFQ1l3UXd5X0hTa1NoVHNtcUQxMklzdDI2UEptelNUQjVUdGxrTmUzSEZTR1ZDam82Q0FnX2dwWFdPN0xlemVta3didUdCdEQxdGJESVVaMTV6a3luT3Z0RXBieDhFQW5MQjdUZkVneTI3MGx5UUFFX1hBeQ?oc=5",
+   "published": "2026-10-30T01:15:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc50e81722715e5ba533e84d6771f7821b46cba1",
+   "title": "What Carrier Global (CARR) Said on Its Q3 Earnings Call",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-what-carrier-global-carr-said-on-its-q3-earnings-call-2026-10-30/",
+   "published": "2026-10-30T01:14:16-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f40992eb0dd34cecde5d2690c63df291f5c4e7e3",
+   "title": "Carrier Global Sees Unusually Large Options Volume",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBMSW5uWS1DVXkwdkN6dEcyUnhBQ196M3pBUWhDelc4UWJxLW1NenBlU2k3enMzdC01Si1qM2R6WlNjSWZPNVBqQzh0eFNBMHNWa2tEQUxueXdTQjg3N1kzWDdOXzdQZ2dUeVY4RzFtcG5wMzBHdURsYkRBXy0tZTZqVXoxSDR2ZDI1RktmaVlJakYtWF9pZzdjbWM0QWVkQzVGcHZDWkh4d1lNUmdYYjNlc1BzMkd0NzhZTi1qbw?oc=5",
+   "published": "2026-10-29T17:51:23-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8543bc5aaf1465f0ac86b77fc608ace412042e54",
+   "title": "Carrier 3Q 2026: Revenue $6.26B, Net income ($2.59B), EPS ($3.16) — 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:9257ea448fd2a:0-carrier-3q-2026-revenue-6-26b-net-income-2-59b-eps-3-16-10-q-summary/",
+   "published": "2026-10-29T15:01:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "83cbe07f4d39a59721e1f4de482f681f67037833",
+   "title": "CARR: Q3 growth was overshadowed by a $3.1B impairment and $2.540B net loss",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3904548:0-carr-q3-growth-was-overshadowed-by-a-3-1b-impairment-and-2-540b-net-loss/",
+   "published": "2026-10-29T14:46:08-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f63c03c03cde916b40243cf7325d1564e3952f33",
+   "title": "Carrier Global files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000037/carr-20260930.htm",
+   "published": "2026-10-29T14:45:13-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d24f79ce081a00b309321f6663f8bac040fc9fc6",
+   "title": "Carrier Q3 Earnings & Sales Beat on HVAC Demand, Tariff Refunds",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3018800/carrier-q3-earnings-sales-beat-on-hvac-demand-tariff-refunds?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3018800",
+   "published": "2026-10-29T10:57:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "01a21b0e6005ef9e5297b99c4b6c3a96cd210ea8",
+   "title": "CARR: Record orders and data center demand drive growth amid persistent cost and pricing pressure",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4383213:0-carr-record-orders-and-data-center-demand-drive-growth-amid-persistent-cost-and-pricing-pressure/",
+   "published": "2026-10-29T09:51:27-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e067aba300cb1a01017571b7c9e42b3d862b6473",
+   "title": "Carrier shares sink as $3.1B charge, outlook overshadow AI boom",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4660213-carrier-shares-sink-as-31b-charge-outlook-overshadow-ai-boom",
+   "published": "2026-10-29T08:55:12-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ceee1223a1a57b9639745a96edda3cdd9a8d1a67",
+   "title": "Why is Carrier Global stock sliding today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUHhCNWRhTFJtMXhmWFR6dTI4Z1pnMV9VQVdyMF9qbEY4RXF2alk0TDZCa2FDaFUwLWljM2t4bXZzZkdEaEUyOGFDUmY2U1QyRXg5bnhsT3NOeVY2X1BWYlNxeDBSMUVTQ0NqcmgzcXFCekF3aWpNVmNHUnlURW5WdTUxYW5vUExJY3VEZnYyWjlyOTRBNFRFcS1nakdnUU9mZnhJTWlB?oc=5",
+   "published": "2026-10-29T08:19:23-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "07a45902dc01cb69bfeb0d6774c0b62224f0969e",
+   "title": "Carrier Global Q3 Adjusted Profit, Sales Rise; Ups Sales View",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:7e5dc6f247a47:0-carrier-global-q3-adjusted-profit-sales-rise-ups-sales-view/",
+   "published": "2026-10-29T07:50:23-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e904e4e07afc23698b2cd5bc7a40b54b33099c36",
+   "title": "Carrier Global 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000035/0001783180-26-000035-index.htm",
+   "published": "2026-10-29T07:26:46-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "9281a2909c5d43484cd8ddd9612293efd7bc30df",
+   "title": "Carrier Global Corp's Dividend Analysis",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZEgtNjZvWC1NbWhIRVhZX1lqMTBnZnMzS3BDdG9TRmNBY0UtWjRRQzFOR21qYWMyQnFVOFpacnh1N0N1RFZIU1RQSldueFNaZnZyOS1DMjl5QXloRjB5SXJCM3FSVHNfdEdDWU5yekZaMHlsbnloTGJ5Q3pZd3J3c2tCZGhzU2pNTHdWTW9oTXVNVk5VRGRlUDZNUXJSTkpFTUo4Wi1n?oc=5",
+   "published": "2026-10-29T07:00:29-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8c7464c3d74eb7f66b54500566bd6ba51a39c73",
+   "title": "Carrier Global stock gains on earnings beat and strong guidance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMGJzZ0NlTUxtNzQ3VlV1aGpzaDNWYTJLTmJxOVJEQmlGd0tYSmFJcGJyZ0htX0x4aFZhWHJnZjQwR25ZMG9lUTM3OFZQZkpnci12d1drVHp3QjMzQUJJZEdHbTZqb2xuRTlXOVhRVktyVEt1NG1BSXdYMjJSZEJBR3U4eWFwTWg1ak42a05mWWxnZHdIU1NHbmhNOEJadFoxb1E?oc=5",
+   "published": "2026-10-29T06:48:17-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f273e8acaa72bb34ad623d254a63f05f5efc02ab",
+   "title": "Carrier Global's Q3 Adjusted Earnings, Sales Rise; 2026 Guidance Updated",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQkJtTlNsWGthUFplNC1vSzV6MXFBWmpYbjMzVzItTjBpcVVJT0F1dmtVZXI0UkRvRFVla1lQcDVFM0dfd3VUU1ExTjhJRW5JampEcFNYRDI5c0prYjAxZjFLM3Q3RkNub3FyWUp3M1lNZGJGaDl5S1lwU3VlNzk5YmlzcHJNZmplWkpMWFJsMDZGX3RhOUtRTldtT3U?oc=5",
+   "published": "2026-10-29T06:38:41-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ef62781db487217e0420e89a242472af9d794cba",
+   "title": "Air conditioner maker Carrier Q3 revenue rises on data center demand, raises FY outlook",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46F0FU:0-air-conditioner-maker-carrier-q3-revenue-rises-on-data-center-demand-raises-fy-outlook/",
+   "published": "2026-10-29T06:12:05-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b8c5447d9a162be9a966f3ab5df884a8c3adf7f8",
+   "title": "Carrier Global’s (NYSE:CARR) Q3 2026 sales top estimates, guides for strong full-year sales",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/carr/news/earnings/carrier-globals-nysecarr-q3-2026-sales-top-estimates-guides-for-strong-full-year-sales",
+   "published": "2026-10-29T06:11:12-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c596ca310bae59b26bbdd8479c601e22e2368e58",
+   "title": "Carrier Global stock jumps 4% on Q3 beat-and-raise",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUE9BbTdnTVdYUXMxT05IaEIydjM1NnR5eDVmM3FjQldmdnRfME44ZUp1X2xRMFowNDBUb2h5Q0hXM0xEV2QzbFJQekxpT2V0c3FfUmJHaWJiVEt4d3NQUGhqMnN5c1FpbWxoa2ExcG85SGd5d196NW1LTnFsSXNMUHdTZ05vTjdSdWstOTNadWJVamxIS0hKdm40dU9OcmVYd3c?oc=5",
+   "published": "2026-10-29T06:09:51-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5d3617b77ace2cd87bd0ac96e7eac2b7358dcab3",
+   "title": "CARR: Record backlog and data center demand drove growth; FY sales guidance increased despite cost headwinds",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4255344:0-carr-record-backlog-and-data-center-demand-drove-growth-fy-sales-guidance-increased-despite-cost-headwinds/",
+   "published": "2026-10-29T06:04:16-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "455cac7179fc2aa9d5c57946af08508f53ebb0f3",
+   "title": "BRIEF-Carrier Q3 Adjusted EPS USD 0.87",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-29:newsml_PLXPW4PSG:0-brief-carrier-q3-adjusted-eps-usd-0-87/",
+   "published": "2026-10-29T06:01:06-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a2268f8f5a1a18f01abfdaeb7d36d57ac1d2eac",
+   "title": "Carrier Global Corporation (CARR) Q3 Sales Up 12%; Adjusted EPS $0.87; Sees ~10% 2026 Organic Growth",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f87a3bc363849:0-carrier-global-corporation-carr-q3-sales-up-12-adjusted-eps-0-87-sees-10-2026-organic-growth/",
+   "published": "2026-10-29T06:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "87dfadac0fb27f7a7c601393d3d4ac6645c8f73f",
+   "title": "CARR Q3'26 Earnings: EPS estimate is 0.76 USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:6031c6be64ccb:0-carr-q3-26-earnings-eps-estimate-is-0-76-usd/",
+   "published": "2026-10-28T07:00:16-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e0dab6b3e9e8128ec90268132a22bbd104371749",
+   "title": "Carrier Global (CARR) Q3 earnings: what to expect",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/carr/news/earnings/carrier-global-carr-q3-earnings-what-to-expect",
+   "published": "2026-10-27T23:15:58-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "099868e44111b0e0ae97bda4d867104b6b113907",
+   "title": "Carrier Global: Why We Purchased The Stock In Q3",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX2JWM19WU0hfNHA0NmF6QkZSWlBYWlVTbFcwSjI4YWxielppdjFxM3VMeFRzWDB4NzNIeTd1UURocUZLNExsUGRLcXdmZml1WmgyV1R6MUpiTURkckkteENOWlpkb2FRQmZhYVdLNzY4V2ozaXhidnJLNnJvZDdFQjVobnY?oc=5",
+   "published": "2026-10-27T12:42:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "46d5bd37051aac71f18be35762b1f360cf8b53aa",
+   "title": "Here's What Investors Must Know Ahead of Carrier's Q3 Earnings",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3016102/here-s-what-investors-must-know-ahead-of-carrier-s-q3-earnings?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_preview-3016102",
+   "published": "2026-10-27T09:18:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

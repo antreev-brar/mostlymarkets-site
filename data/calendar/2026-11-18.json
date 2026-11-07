@@ -1,0 +1,80 @@
+[
+{
+"ticker": "PANW",
+"name": "Palo Alto Networks, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 0.52,
+"n_estimates": 15,
+"eps_last_year": 0.53,
+"last_year_date": "11/19/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 257539490000.0
+},
+{
+"ticker": "TJX",
+"name": "TJX Companies, Inc. (The)",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 1.33,
+"n_estimates": 7,
+"eps_last_year": 1.28,
+"last_year_date": "11/19/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 152445403000.0
+},
+{
+"ticker": "LOW",
+"name": "Lowe's Companies, Inc.",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 2.86,
+"n_estimates": 11,
+"eps_last_year": 3.06,
+"last_year_date": "11/19/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 127493915000.0
+},
+{
+"ticker": "TGT",
+"name": "Target Corporation",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 2.04,
+"n_estimates": 12,
+"eps_last_year": 1.78,
+"last_year_date": "11/19/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 71756169000.0
+},
+{
+"ticker": "P",
+"name": "Everpure, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 0.27,
+"n_estimates": 8,
+"eps_last_year": 0.18,
+"last_year_date": "12/02/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 31136753700.0
+},
+{
+"ticker": "WSM",
+"name": "Williams-Sonoma, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 2.16,
+"n_estimates": 10,
+"eps_last_year": 1.96,
+"last_year_date": "11/19/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 30458871800.0
+}
+]

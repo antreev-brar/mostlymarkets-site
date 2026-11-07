@@ -1,0 +1,90 @@
+{
+ "ticker": "NDAQ",
+ "updated": "2026-11-06T06:07:59-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "ebad63742a15f348bf9e0ff2da87a91a3a24d7e2",
+   "title": "Nasdaq, Inc. (NDAQ) latest stock news and headlines",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EV1dRTU5PNVdSWlcybHVJUFpqLUg5VzhINmZnWUlhd1IwaFhvNGZRTUlYNnNBTEN6WjJSNlhwVE45SkpJNjdFbFdzZWM4MmtibEFJYnNQOVc?oc=5",
+   "published": "2026-11-04T03:48:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "829663f1717315c06edb2c110e3c67ec0528e667",
+   "title": "Nasdaq, Inc. (NDAQ) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QRkpMTjkxWGxERVdpcU9wSzJVTW1fOHhMVWtlSlBEaWdHdUFtSnp1bTlsdWVEa0pnUlJmbzZWeU5nMnVvbjVUTlhpUmpZNFR4U0E?oc=5",
+   "published": "2026-11-03T17:55:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9c18da1c0cce9935d76300e6a4bc7cb84c959d8f",
+   "title": "Nasdaq Inc. Pushes to $108.62, a Fresh 52-Week High",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMXVYN3RhT0JKa0Z3TTh6QmVpLWJKSHZscDRIeWlOUGxjdnp0LUtoQ1RxZ2lScWtnLUdHNG1XVnlDQTR1SmVEYVU0TkNET2pCQm9zUV9HQTBEVnFlSm1YZUp5ZWJyNVlCYXFmS0k4T0ljUWdwRnZCUlZfbF9xZGZMZVRuRTduQWJKbXhteFJrWEkxRFM2TmVnbEFzZ0RVVVRWSDR5WnZkVEh3ek1VS0JEZTJoWFk3MV9BVGVlSENRci1LMnRyMGIxU2lRV0o?oc=5",
+   "published": "2026-11-02T19:08:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "609e7203a871d72d79ce7bfa0463df574711d710",
+   "title": "SVRN Shares Fall on Nasdaq Delisting Determination",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030011929:0-svrn-shares-fall-on-nasdaq-delisting-determination/",
+   "published": "2026-10-30T18:02:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "71c9c56b5794a48170045d5ff954f7153e086f73",
+   "title": "Nasdaq Pres. Market Platforms Sold Shares Worth Over $1M",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e2adc818789b1:0-nasdaq-pres-market-platforms-sold-shares-worth-over-1m/",
+   "published": "2026-10-27T16:10:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5738fd805d74be04467f614634769d267e87fee6",
+   "title": "Nasdaq 8-K: executive or board changes",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526431976/0001193125-26-431976-index.htm",
+   "published": "2026-10-26T16:20:29-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "4dd090120aea637e2bf22b72e9957587dfecdde4",
+   "title": "Nasdaq Names Börje Ekholm to Board",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261026007599_20261026008084:0-nasdaq-names-b-rje-ekholm-to-board/",
+   "published": "2026-10-26T16:10:00-04:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "028687519e228f777598eafdfcfe6d2e5e97e647",
+   "title": "Nasdaq: Holden Spaht to Step Down From Board Dec. 31",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261026007599_20261026008111:0-nasdaq-holden-spaht-to-step-down-from-board-dec-31/",
+   "published": "2026-10-26T16:10:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "665ba8fc50e603999af4b44627c1b424982a6126",
+   "title": "Weekly Recap: Q3 revenue growth, buybacks and record $1.16T ETP assets",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:a7be8d76beeb8:0-weekly-recap-q3-revenue-growth-buybacks-and-record-1-16t-etp-assets/",
+   "published": "2026-10-26T07:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

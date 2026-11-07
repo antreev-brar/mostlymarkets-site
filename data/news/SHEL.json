@@ -1,0 +1,382 @@
+{
+ "ticker": "SHEL",
+ "updated": "2026-11-07T08:03:23-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "973cc0eca45c5b1fcebc095d66d39664338ae8fa",
+   "title": "ZAWYA: Shell Lubricants Egypt teams up with TAQA Petroleum to expand distribution network",
+   "source": "Zawya",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-06:newsml_Zaw5VQYNZ:0-zawya-shell-lubricants-egypt-teams-up-with-taqa-petroleum-to-expand-distribution-network/",
+   "published": "2026-11-06T01:28:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f52ffa53140ab964e6d502582b74d836d36eae7d",
+   "title": "What is Market Cap of Shell Plc - ADR (Representing - Ordinary Shares)?",
+   "source": "Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HVDFSMzhrMmQwblU2dTFfbnNpN2FwVXhCVUctMnpwbTZPRnRCTTNhMEwtZWR0TTdBdEtkS25nZzFaQWRzNnRQOG9YOUIxbmN1cXc?oc=5",
+   "published": "2026-11-05T05:31:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c25e643d545fb17ff77375cf76adb00401f924d2",
+   "title": "Key facts: XRG agrees to buy Shell LNG stake for $1.45bn; share buyback",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ea304c35651c1:0-key-facts-xrg-agrees-to-buy-shell-lng-stake-for-1-45bn-share-buyback/",
+   "published": "2026-11-05T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aae11803a64a1db92d25fbc749eba901bf41f369",
+   "title": "ZAWYA: ADNOC's XRG to acquire Shell's Australian LNG stake for $1.45bln",
+   "source": "Zawya",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-05:newsml_Zaw2Hv1Wf:0-zawya-adnoc-s-xrg-to-acquire-shell-s-australian-lng-stake-for-1-45bln/",
+   "published": "2026-11-04T22:27:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c6c90dcc95d971db6529dcc427cacbb6423c3a28",
+   "title": "BP taps Shell's Emma Lewis to head downstream business",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L0JV:0-bp-taps-shell-s-emma-lewis-to-head-downstream-business/",
+   "published": "2026-11-04T02:43:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8d91436f5cf60d067c307babd0af003794a68fdf",
+   "title": "ADNOC’s XRG to acquire Shell’s Australian LNG plant stake for $1.45B",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663160-adnocs-xrg-to-acquire-shells-australian-lng-plant-stake-for-145b",
+   "published": "2026-11-03T04:37:27-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bd6df0c5a2c34acc090540facc6c98b04b79acfc",
+   "title": "Shell Agrees To Sell 16.67% Stake In North West Shelf Project For $1.45 Billion Base Consideration",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K0EQ:0-shell-agrees-to-sell-16-67-stake-in-north-west-shelf-project-for-1-45-billion-base-consideration/",
+   "published": "2026-11-03T01:11:37-05:00",
+   "also": [
+    "Dow Jones",
+    "Zacks"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b2adbd01102b55a4bd2753a5e71e61a343fe24f3",
+   "title": "Shell: Deal Includes an Additional Milestone-Linked Contingent Payment",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103000282_20261103000315:0-shell-deal-includes-an-additional-milestone-linked-contingent-payment/",
+   "published": "2026-11-03T01:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c398aa3cae4ea635676731a23d47260d535696a3",
+   "title": "Shell to Sell 16.67% Non-operated Interest in North West Shelf to XRG",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103000282_20261103000303:0-shell-to-sell-16-67-non-operated-interest-in-north-west-shelf-to-xrg/",
+   "published": "2026-11-03T01:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0add7e1391424f7e3f9cfd6a4d60419508ca544f",
+   "title": "Shell: Sale Is for a Base Consideration of $1.45B",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103000282_20261103000305:0-shell-sale-is-for-a-base-consideration-of-1-45b/",
+   "published": "2026-11-03T01:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f14e58ef6ada45f2838350b7e0c3e682584ff7ae",
+   "title": "Shell files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1306965/000117184326007022/0001171843-26-007022-index.htm",
+   "published": "2026-11-02T11:53:30-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "c6831e863feeb12118360dfecd80a3915575168c",
+   "title": "Could Shell (LSE:SHEL) Reshape UK Energy After Jackdaw Approval?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZlhsOXg5M293TFBEaUZ0ODk3U0RxaHdTdXJEajlkaXlVTS1xV01kUGVMczZsT0RtQ243cWctMVBBWFo0eWVjRlVjUEx2aXFVU2IzNm9yNUhZYkM0dnZvUFd2bHo0YWlkbm1vTFJkdG1NRVY5aDE5X3ZJWk1iQ2ExYnZqakw3czctOTRTTTln?oc=5",
+   "published": "2026-11-02T10:07:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e3401917b7fad7dece07460e43c65dd5d34c1ffb",
+   "title": "Shell plc (SHEL.L) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55V0w3ZS1sbHFMX01vcmxreXVDSng5OE5WQ1N3WjlQRFN5SkFIZm5oR3M3cnpNOHhhazhPaGp4WXY1MnFOVUVuckF2TkZDX2hNd3d5dg?oc=5",
+   "published": "2026-11-02T08:57:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "542431e0173ef6b4944f755177e08c3c95196f5e",
+   "title": "Shell files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1306965/000117184326007013/0001171843-26-007013-index.htm",
+   "published": "2026-11-02T07:06:04-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "8bf19a99176e8c31122983f2abfe5c89b828e216",
+   "title": "Shell Signs Long-Term Sustainable Aviation Fuel Agreement From Planned Morocco Facility",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46I02I:0-shell-signs-long-term-sustainable-aviation-fuel-agreement-from-planned-morocco-facility/",
+   "published": "2026-11-02T04:14:16-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ac7a769916c6e0a2a5e3a2b6a8c44b6d6455b5d0",
+   "title": "Shell: Contract Covers SAF or Equivalent Volume of Hydrogenated Vegetable Oil, Plus Bionaphtha, Biopropane",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001487:0-shell-contract-covers-saf-or-equivalent-volume-of-hydrogenated-vegetable-oil-plus-bionaphtha-biopropane/",
+   "published": "2026-11-02T04:11:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "61fe7a44fd16f530ccb50c4e554ccc70dee38071",
+   "title": "Shell: Port Nador Plant Scheduled to Start Up in October 2028",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001482:0-shell-port-nador-plant-scheduled-to-start-up-in-october-2028/",
+   "published": "2026-11-02T04:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e92f2b3fe61a103c2fc9f25e3a3ade124652105d",
+   "title": "Shell Signs Products Offtake Agreement with Green Sky Manara for Planned Facility at Port Nador, Morocco",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001472:0-shell-signs-products-offtake-agreement-with-green-sky-manara-for-planned-facility-at-port-nador-morocco/",
+   "published": "2026-11-02T04:09:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1fa91abf9fad66dc77aa0d2b334568d702543319",
+   "title": "Shell: Agreement Gives Shell Exclusive Offtake Rights for Around 150,000 Tonnes a Year of SAF",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102001470_20261102001473:0-shell-agreement-gives-shell-exclusive-offtake-rights-for-around-150-000-tonnes-a-year-of-saf/",
+   "published": "2026-11-02T04:09:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b1422cad7eeb4fe19cfaddf4f95697f96085bb9b",
+   "title": "Voting Rights and Capital",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102001354:0-voting-rights-and-capital/",
+   "published": "2026-11-02T03:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4c9e096148b2c26f580a5e12ed5a815032d1e6f1",
+   "title": "Metlen Energy: Cargoes Will Be Sourced Primarily From Shell's US LNG Portfolio",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102000825_20261102000829:0-metlen-energy-cargoes-will-be-sourced-primarily-from-shell-s-us-lng-portfolio/",
+   "published": "2026-11-02T02:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "49cce8885a4225c98bb4c513291ce7075295bfc6",
+   "title": "Shell plc 2026 Q3 - Results - Earnings Call Presentation (NYSE:SHEL) 2026-11-01",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdm0zY3JWM05pczJRY2hrNkJNMXZ4M09XSnNWallnNUlmRU9mWWFXbG01OUczNVRTRlpCMnZSblAyZTBDSE9xN2gxZF9kRGFFWnh1ZUdzekhNajNIWXp3S2I4azNSY0hnbE1Vb0pnOVVsYldGYlFENXlsdEw1WGE1dWVnaUJMUmpVWHhTdFVhZVl5S2gxbWVDTA?oc=5",
+   "published": "2026-11-01T18:30:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "10a459841c16236c6701a1ddc81033af97975fb6",
+   "title": "Shell stock hits all-time high at 108.45 USD",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2NMNGpVNW0wTGM2R0pRc1V2SGp6SjJ5OXRSMUNjOTY3S3pyb3N6bHBkMW1RNUFBLVNVT3hHS1dZWDkyeXV2eFdYSnlIVnItUnlnd2dQZy16a1M5cUV4T09NRHNNeHliNk1MVEVWNHB0VU5lLXdaVE9SQVhqT2NtVmpmdlNCOUI0U3VxeU5abXZhWHZFb3Q5cUFOOS1fUlVP?oc=5",
+   "published": "2026-10-30T09:43:06-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "85c861e919353508ebc10707c26ffb98bb2d011f",
+   "title": "Shell Stock Surges on Record Refining Results. Don’t Expect It to Last.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZDZhWGdlZEhwR0EyNG5SVGNOOWZkaVdXMmVHZWJzXzhWNkVhWEdMcHBvek9QNG4zR3AzQmxtSURDOTc1Y0VRTGYtUUkzT2JqcXJfdThIS085LV8zdm0wbXhRLVpubFdldF96OXoxdHJxU3JVVHBVZ21SeHplbVlXNGFaeGQtUlBtQ1E?oc=5",
+   "published": "2026-10-29T15:05:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5ab6c2bad309734fd1cdea94e41a123eff8117db",
+   "title": "Soaring freight rates add $5.4 billion to Shell's debt, squeeze Total's margins",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46F135:0-soaring-freight-rates-add-5-4-billion-to-shell-s-debt-squeeze-total-s-margins/",
+   "published": "2026-10-29T12:34:52-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "70ac5674fff37a9feba316bfa760910bd7b50176",
+   "title": "Shell CEO Says We Are Seeing More Structural Stability In Higher Oil Price Because Of Lower Inventories, Will Take Time To Refill",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46F0ZX:0-shell-ceo-says-we-are-seeing-more-structural-stability-in-higher-oil-price-because-of-lower-inventories-will-take-time-to-refill/",
+   "published": "2026-10-29T11:29:17-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5311db26c43ba43705ffe4f421f941c6f6870325",
+   "title": "Shell Q3 Earnings Reach Highest Level Since 2022 Amid Middle-East Turmoil",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:b5f50edfe094b:0-shell-q3-earnings-reach-highest-level-since-2022-amid-middle-east-turmoil/",
+   "published": "2026-10-29T11:02:35-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d2e230b019e71cdc357ba124dd2bd9136d8d5853",
+   "title": "Shell files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1306965/000117184326006962/0001171843-26-006962-index.htm",
+   "published": "2026-10-29T09:47:30-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "29b6322ee86060bd168211074c8903bc2b1880d9",
+   "title": "Shell files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026068044/0001628280-26-068044-index.htm",
+   "published": "2026-10-29T08:23:14-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "b848e181d81d7826162487c7427fece7afccdf6f",
+   "title": "Shell Leans on Flexible Buybacks in Bumper Third Quarter",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029008416:0-shell-leans-on-flexible-buybacks-in-bumper-third-quarter-market-talk/",
+   "published": "2026-10-29T07:25:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eddcb5521a954fdfdacf38a08f5b4096d6a68a41",
+   "title": "Shell Stock Climbs After Earnings Double",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029004240:0-shell-stock-climbs-after-earnings-double-wsj/",
+   "published": "2026-10-29T05:50:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a3948d83486f97aa0dbad3f67b1192d935391311",
+   "title": "Shell's Downstream Cash Generation Stands Out in Strong Results",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029003560:0-shell-s-downstream-cash-generation-stands-out-in-strong-results-market-talk/",
+   "published": "2026-10-29T04:36:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "571fc9409ac278a929a4c47f503f81e710147fc8",
+   "title": "Shell Captures Value Across Energy Complex",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029003451:0-shell-captures-value-across-energy-complex-market-talk/",
+   "published": "2026-10-29T04:30:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3f8e5ca9cd56785453df76251ecc4b3e600639de",
+   "title": "Shell Q3 adjusted earnings beat on higher refining margins",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46F091:0-shell-q3-adjusted-earnings-beat-on-higher-refining-margins/",
+   "published": "2026-10-29T03:12:08-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b1228df8a049279dbfd13811daa6f73239299a44",
+   "title": "Shell Declares Dividend of $0.3906",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029002483_20261029002640:0-shell-declares-dividend-of-0-3906/",
+   "published": "2026-10-29T03:06:00-04:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9b2df64b5f402690861a9a38c547b6ceee4e13fa",
+   "title": "Shell beats expectations with $10.8 billion third-quarter profit",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46F0DG:0-shell-beats-expectations-with-10-8-billion-third-quarter-profit/",
+   "published": "2026-10-29T03:04:57-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20e80f6d442dbf0bc693198de0a92d0d5e42961a",
+   "title": "SHELL PLC 2027 INTERIM DIVIDEND TIMETABLE",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3390959/0/en/shell-plc-2027-interim-dividend-timetable.html",
+   "published": "2026-10-29T03:04:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "1195d1b50ea933400a5f7ef3e175a506070e99b3",
+   "title": "Shell plc publishes third quarter 2026 press release",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3390956/0/en/shell-plc-publishes-third-quarter-2026-press-release.html",
+   "published": "2026-10-29T03:01:00-04:00",
+   "also": [
+    "Dow Jones",
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "9a1bdfa3f3417b4bd8aa703c913353e3db7bf712",
+   "title": "SHELL PLC 3rd QUARTER 2026 AND NINE MONTHS UNAUDITED RESULTS",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3390953/0/en/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results.html",
+   "published": "2026-10-29T03:00:00-04:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "d7c21343afe564d8046dd56d5d7f255b619cbca6",
+   "title": "Canada takes a page from the Saudi oil playbook: Bousso",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46C0X8:0-canada-takes-a-page-from-the-saudi-oil-playbook-bousso/",
+   "published": "2026-10-27T06:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

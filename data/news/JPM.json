@@ -1,0 +1,374 @@
+{
+ "ticker": "JPM",
+ "updated": "2026-11-07T08:03:13-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "35c8f620eea926ce1563baa0bd7ccee793a956f0",
+   "title": "Cramer's Lightning round: JPMorgan is 'a great bank'",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc2llUjQzeWFDb29UUG9jSjVERFZkVDBLOTJhMkxwYnJqem1pVjBpaHNzNXZxcFZBWEI2VVZmQUQ1OXVNUWFXN185MWRiVmZSNlpfWWtINnF6Vi0wR3BuV25wZlk5RV9MQ01pTnQyMmQtc19hVTZENC1CWWZUdmx2ay10Z3M2eFpOWjJpNnJR?oc=5",
+   "published": "2026-11-06T18:55:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "90ca9eeb89b7bc41b05751ef82e76276cbf425c6",
+   "title": "J.P. Morgan global market strategist on tech stock selloff",
+   "source": "NBC News",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTmdWTWRpXzc0MGtDSVEzam5zMXRYVERfbkUzWXpiR3dJUkdtSXF1bjRudG40SVh2RHZXSTJDZnlmR21vbWVSSjZpZXVqSTNKZ3czc0FVdExlMEF6dWQzVXFuSEY1bGx2a1N2SFFaUDJISTBYUklJTjlOVllLOHpWTXhVYkNEWjRFaThkM2dJaEMtdGtMZXEzUUlOR1NqRFZTZmc?oc=5",
+   "published": "2026-11-06T11:23:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7947181c842c01d8184c16d90c0cb41a9e56184d",
+   "title": "JPM Flags Higher Rate Risks: Can Its Balance Sheet Stay Resilient?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3025362/jpm-flags-higher-rate-risks-can-its-balance-sheet-stay-resilient?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cquick_take-3025362",
+   "published": "2026-11-06T08:12:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b5ccadc3b36614bcd3983154cb2c16cecde37288",
+   "title": "Indusind Bank Leverages J.P. Morgan Payments For Outward Remittance Experience By Expanding Coverage To 123 Currencies",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46M3TO:0-indusind-bank-leverages-j-p-morgan-payments-for-outward-remittance-experience-by-expanding-coverage-to-123-currencies/",
+   "published": "2026-11-06T00:12:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "31e0e863c0be39b6d19c5a1e048644274347c074",
+   "title": "The JPMorgan Alums Whose Big Bet on AI Stocks Is Being Put to the Test",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRzhlalhpa09sQ25wWmlUb3BNMnFIM1ZKT3JuVU16Y1N5Skk4T3lrT0xCLU5UanBLN0VpUFJ5YkN5SjJGM2xUNzVtYUFqeUZoaldlWFZrRTZOZWo4WVhpeVVZendRUjNOMFlycl9WYWtCV2dtOG1wdXdhNkRxZV94aDZQZ2pDYldlRnhhRjBKNmlNamtLaGZUczItcG16LXU1eGxoOEhKTFVwck1NU2VPT29HUjRYbE5r?oc=5",
+   "published": "2026-11-05T21:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fee452528e3931e572495e52ea6f43083d1b7ec9",
+   "title": "JPMorgan Drops 6.2% in a Single Session: What It Means",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnBNeVhaelpNUWNLUzZ4TU91blhhWHVjX1lNRjc0cHY0UU5fcU44RlZLY3ZJVGZzM1R2dVZoakRGcGNsRUM4eWRKVjlsQy1oT1JwYkt3dk9uOW5CSXduakhDYmlkM1pCLVBKTzdfZ3U3dERERDF6eXZLTGFLb3RES1ZVaUs5cHRiZVYtYWxISQ?oc=5",
+   "published": "2026-11-05T15:28:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d149654401f2a1e4c37d45ca5859d8c6d44d76e9",
+   "title": "JPMorgan Stock Loses Over 100% of Its Post-Election Rally. But Why?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMXJFekNOaWVaVFd6WW5BdldQU05QUk5ldURDV196SXZGTUQ5NG9aMUtvWmhLeGRoaHYtTnk0ajBYOS1mcU9DeVFXTEtOM3BlR1ZCZGZ3NEhKSHhGbVF1QVh1VWRKTTdaM2p0RHZqanBWekpRTG1heGFVdXJ1Q29qcWdRWG51MS1pc05YV3pMZnpGb3RUaVU2ZjdB?oc=5",
+   "published": "2026-11-05T14:34:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8333c6a0045996d8b35b01dcec96aad944aa1e4",
+   "title": "JPMorgan Stock Falls as Democrats Plan Probe of Epstein Ties",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZkZ2ZFR1UG03dHQtX19LY2FCU2hJM3FVSDZIMjZSZmpxazhfdGNCZ09neVNFQU5waUxyRWpsamI4YlNKZXlpWHZTRFN6SnJVMnNIMnVlTm5qMEdvWURLWXRoeUs2VUxqd0NJcXJHY2JZTC1VQXlLb18yYTNEbmcxcVZCZTFYNEU?oc=5",
+   "published": "2026-11-05T12:08:00-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "caadadacc51210ed9c723c0824c94ae83e2d4a36",
+   "title": "Capitalize On JPMorgan Stock Strength With A Bullish Spread Trade",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUzJOVVEtb24zMEQ5MEthOFZNWWl5T2J1NlYxTEdsVG5LTzFxVE5jcVZicUVxX29Xd2k3QzZUbExVR0RjNkZYbTlrUWh0b2VyajZBUnNKdlpBWUE0Rm9YQkZYUklMVGVMLTBGOGZnblFhR3JRVVpOQzV1SWRZbTMxZi1FdVFqdFNqbnAwanh3Q09sYzhVNWl5blR2NlQ1NTBIclNfWFFRVUQtZEl4ZnNMbm9jQVo4UnlyOEp1Qk8tbERkY1V6XzI0a1pleFlQUDZ0R3ZCUzk3ZmpsWGtfLVZXbWgyZU5CSVJsdkE?oc=5",
+   "published": "2026-11-05T11:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fa705f48c8efb208be03341634fac930dee533bf",
+   "title": "Democrats gearing up to probe JPMorgan's relationship with Epstein, CNBC reports",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46M1FD:0-democrats-gearing-up-to-probe-jpmorgan-s-relationship-with-epstein-cnbc-reports/",
+   "published": "2026-11-05T11:20:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8bb40d1175b284603f3c0ca1f6722c576d5a39a2",
+   "title": "Democrats to probe JPMorgan's relationship with Jeffrey Epstein when they take Senate control",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQjFWNlloX1R1TU1ucFFGM3hldzdYRnhCbUs2aUpDbmM2cnR3cHp1ckxySDFfdVVjb2lDR2JjbTJkWHNjZ0xlajZLQm9rdldGV1VKQWF2a1lrLXczUHo5TmNvWWhYRDlwaWlCbVNIS015YUUyUDI3dmZpTFFOXzQ2U1ZCWm56d1lpOEMxQk1wbWzSAZYBQVVfeXFMUE0zOEItT3dleWpoblBTc3JFZWR1QU85dURRRy1RTXJOUGo3MVVyQjJwWW1xemNtMkJGaHlSMXJIekN3WkpOdmpSMldIUGt3QUx1VWxUeTBQMHNDcWp3QnhTVG56RlNCR3EyNFduSWdaWUFIbWpuV0RhZFI5VW1qZ1owZU5PU3k1WWI3WktFaDA3TGlQMnRR?oc=5",
+   "published": "2026-11-05T09:58:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "53ad45a609e508169c402a32799c7eaf063030bb",
+   "title": "AppLovin Has 47% Upside After a Brutal Year, JPMorgan Defies the Gloom",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUx5LXN6YVE4cmVwQktDbTZzQ2ZQV2xVbjQ2RmVyTVgzVXVTXzk0dXBjeFBKODIyaEk0eHRJakJNU1BXSHNhX0IyNkdoNGIyOTdyWlpFNjJxU1V2d3FXTG5KWXp3Y1VZSUNpVThaZ0EwVkQxaE9KUjNjOXp3Sms2ZFNmR0o2c0hEWGhkcFpuVGJDSTZOdjhEWm82UQ?oc=5",
+   "published": "2026-11-05T09:53:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "40f09384dc8d3b57245bd96fe9b4de3c3665ee49",
+   "title": "JPMorgan: Buy Despite Expensive Valuation",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTFqRmlZMFh5VHRQU2dyZEZzVnZWcTdvWVlYcy1UaVlPMHVxVDZiWGRTSVZzOWUtYUZkZEZjM0ozc2w3cHEzQ0VEZV9uQUVGQ0xsZHVtR2dWYUtnVmRKcHBPcU1iQzVyVksyQXQzQTVWaTA2ajhvbWRMLXp1N1pYLThSMzdFT0VYNXc?oc=5",
+   "published": "2026-11-05T02:04:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e93e7fddbf31de61ab5bd62e7b4ba6e038002322",
+   "title": "JPMorgan raises McDonald’s stock price target to $270 on modernization",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEJGRjZXLU9aYXY2MjVuODN0MFR2cWFWMC1JVWhjRFZuVnFydHBWWnp4V0lUUjhhTmxjSmdJcDlnZUZ1dkNHdHMwZ2gxZHJuMWRxNWdtVjBISktyb1B5ZU5kSE1zQjE3RHpURzZjUDA4eGNVMVNlT3Q1c0FKaDlaSzJFQjRPcFdKXzFuemxISFdTcGpTRkZZZkR0ZTRCalVXRzM1RTQ2djl5NklPcUZKd0RVUHZPSWtTX0EtaGFoV0xDZEVvd2lj?oc=5",
+   "published": "2026-11-05T01:49:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d18bba57c07f923a668da14b90dc99593d71e32e",
+   "title": "What Does JPMorgan Chase (JPM) Gain From Its Dubai Push And US Hires?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcmlBcHZCVmVlNFlabHJPWU9HaHJweFV4cVhybU1nZ29OOU8xdXFUckM1QXhza0RiVG0zSUhRcmdGcGNkWVhteVdwUGJYbDNKMS12TjlOU1VHRWZhWU82WXZrblo4NWZ0TzNYRG5hby1tUFFFdkNZZGlsY3BERFVsRks1bmdpTlQ4dV9GeDgzNjR0R09ESHRnYQ?oc=5",
+   "published": "2026-11-04T17:13:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c8f77f813ea0b921f274a60628fa656940f57df7",
+   "title": "JPMorgan, HSBC say oil supplies are recovering from Middle East disruption",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L0TE:0-jpmorgan-hsbc-say-oil-supplies-are-recovering-from-middle-east-disruption/",
+   "published": "2026-11-04T09:46:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "66ef6365982ab8fc744ae3c077e22c642306f7b8",
+   "title": "JPMorgan Trading Desk Sees Tech Rebounding After Midterms",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeHU2QWU3TXg5bkZyRUk5eXRnaGxrSDRHRnVkNnYycnVicF9MT3E0NWJHZnNsWWFwWElpTDN0NWh3OGVlQW85RGlqRThrVHVad1ItV1UwSmd4RDRRQ0xhOUpQcmhGelZCZGFrX3dWUWVld1ctcUxwX2cyZ3ZwQ2pCaGViVkVUMnVFd2VqX1JJTjVoZ0JYYmRlbmtvQV8?oc=5",
+   "published": "2026-11-04T09:45:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f2eae02324094c446b12961a6ad79b05152a8b9f",
+   "title": "JPMorgan Just Upgraded Cloudflare Stock. Here's Why.",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeU5iNHdHQTJSdE5RYWNMck9aZktPQTFtZ21uQ01NY3BNUzlFTjRQaUZ3V3hvTXRsSmt4ZHo5YXhySWpwZkFjWTBCaUtjbUI3b1htdVk5UkhybVlId2pkWDQxek8waWRDMVptSU9JeUJnc1V5X3JheklXQ3BOajYtMUdqaGdYVnlNemt6WUhuZ2J1ZXhhY09ScGZR?oc=5",
+   "published": "2026-11-04T08:26:49-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f574881e60bcb88af95b99d59f9e19ab6e484d59",
+   "title": "JPMorgan, BofA prepare $2.4 bln debt sale for CVC's IFF deal - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L0RK:0-jpmorgan-bofa-prepare-2-4-bln-debt-sale-for-cvc-s-iff-deal-bloomberg-news/",
+   "published": "2026-11-04T08:12:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0e2af6d28815f9c7eadf51695941be2eba7254f3",
+   "title": "JPMorgan Chase files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "published": "2026-11-03T16:17:12-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "7e024dfe5f72a161a87e7d3cd7ac742e3006da22",
+   "title": "J.P. Morgan Recruits Financial Advisor From Merrill Who Oversaw $940 Million in Assets",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103010032:0-j-p-morgan-recruits-financial-advisor-from-merrill-who-oversaw-940-million-in-assets-barrons-com/",
+   "published": "2026-11-03T15:54:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ced9757126743c7edecf5d6c1dbb72f94f4baaf",
+   "title": "Is Wall Street Bullish or Bearish on JPMorgan Chase Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUC00SW1QbW9TdzAwalRBZW92bzhLb0RJWHRVQk84MUM3LTBOUW9wZnA1UFprNTJmN2hMZXUtUE5pYmhJMkMtVm1NYmJQYjZZWllOWjduU0ZuLWtwVGpCSU91bE5STGJXbnoxMjJmUG51d09jSHk3U2lzMkZtb3FpdnltZkZnNk5XdlVNb3gzRkFoS0l1SlFCSWxyb1FTeHVMclU0?oc=5",
+   "published": "2026-11-03T14:03:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3a040a85c2d53d88580c22cc614736009b81ab3b",
+   "title": "JPMorgan Highlights Top Copper Stocks Amid U.S. Supply Push",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbFFsVHVOQzBmNklKbVZ5a2w1N2E1YWt6WHNEMDNlR3lyRGNUNFMwamRKTHgxYTdVeU9FaWRGbnhrVXFqdHlaa0VLVzBnMXhHY252NlJ1TVhCMmEzX2FuQ0NodlJVYVdGQ2ZkdE1NQzl6N2p4Zm9oWjd3U0tnZ3dFUFJDM0pUNHloMXRPbDBJcFVTYVRuQWtOcUw3N2xjWXhCd3Yzbkl1RXhEMm9XNEtFbk1HX2c?oc=5",
+   "published": "2026-11-03T11:14:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dc563aeafc03e0eae1a0c86fc491ea7a40da71aa",
+   "title": "JPMorgan Chase & Co. (JPM) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4ybnVYelpCZ3ZOWFVCSndpWE4zMnAxdXQ3OGRtRElSNVBZeFpfS1djclV2RjU2UTRXVTdFQ3NCYUwxM18ydzFYUzNVWHVweFRq?oc=5",
+   "published": "2026-11-03T08:38:10-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cd0a7f732603a3746497ac5e345a6524cce05b51",
+   "title": "Alstom shares fall 6% as J.P. Morgan, Citi flag prolonged margin pressure",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSTNEc0kwZFdROE0yRGhhczl5a1BmaUpCQnU0allkN1NueTBHX25PTnhYVjc3TlhxX0lYaHY0NUFRbTljNjJxd3I0TlZwUjlHZ3ZwQU9UUmo3YTRfUURyRU1JTEpUVWxIbGE5dW5NMGUtLUYxV051elBSMlAxc3p4dHkwWTJLMlZKVkw1UGhoT0Q?oc=5",
+   "published": "2026-11-03T06:18:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "30f40cc4192b9023bb1f72fab24db2898d71e4a6",
+   "title": "Amazon is on a course to spend half a trillion dollars in a single year: JPMorgan",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQzd2cGx2Y1k2a0JBeDRHQURkdmlWdk5PRE00ZndYc0FON0tUdXNLYjc1SXdmU0Jqa2I2dHI0Y1BwdzlkdzVBaDZyVVBoejMyRnNkTm0wLXRRVlpCTGVYaW5vb0w4cDk0OVlSMHNQVGRvbjE2azVYdl9ORmZYRXdTVUdNVXMxcl9NWkF0dktybHFnRjBRSUt3UlNCd3RrNnBSbmc3am5Oc0FkRzRmZU5wYUZfbnQ2RU83ajhQTHhyQUhIMFBhX0I0Q2Yta01ncUpHbFRWV3U0UHFLMTJo?oc=5",
+   "published": "2026-11-02T11:31:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "29677c6d409a7b36f3969e90da3f8e429f39a9b2",
+   "title": "JPMorgan sets Palantir stock at Overweight with $262 price target",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcWJZZllSUHdhRkdCNG5FZi14VVJKdFplTWQ0R1ZWMi05X25wbFFQeGFSeFVVQVNSQnowRXNHTnA0NjZmaVM5TkNIdzRkUlJlWE9vZWd4SDBkdE91R05iOGV1djhEM3BsOVNNQkdpeU9pZmJaTmRGUXFjWUt6X0NLdTB2aUVqWG5EaTExVnNSUQ?oc=5",
+   "published": "2026-11-02T09:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1e2366ee99c739774a4a7c6518097c20727c1168",
+   "title": "Post-midterm geopolitical risks could create another buying opportunity: JPM",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0pzS2lrcGVkNUNOSEM4NDF2NDZMOXJDSTdZYk5LdmFYY2lmYkFJZzNEYlV6NE14ZEk4eTlTNy1mNTZNRHFxUnJPai1GLVI3bmNCM0NfYjZ0c0UyNmYzTEVJN3MtN1prLU9PQ0ZrcnI1UzBMdENYRXByeEg1QmFEU3B3c0hLaDhXZXdsbHhhWGFySy1mV3N6TVJPT2dDLUtsZFUzcw?oc=5",
+   "published": "2026-11-02T09:01:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "430981ac276d655af14b39eadf83a8719504a740",
+   "title": "ETFs Bought $83.1 Million of JPMorgan (JPM) on Oct. 29",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTGt2V2NmWUNPXzFrdy02Q2lvZlJKTnJZWG01Z2FTLXNPMTVwWXBKUjItcndDRTJ0TjJMWUxQeVVHak1jLTNmUnlQb0g2cXpRX24tTXlmRjM5SzM3NmxVVVNqeWtxaGpNbjF4RGR3Sk1GRWhJSms0enhYQ1Z3ZERoWWZLektIRVBXQm5PSXJzYmpEMXM?oc=5",
+   "published": "2026-11-02T06:00:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7f294e1b03e8add9fba2ddfa14b1668eb01e67ee",
+   "title": "Microsoft, Nvidia, JPMorgan Among 50 US Giants Blocking Tokenized Shares on OKXICE",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYnotZk14UElzQkgtMktXRmRyUldweC1WYUNuYktVaUFoelU4MW5wMUhoTEpRN19vMzR6Uk9VcFhORFFvWEpuY1N6ajFnVzVObzRCRXhBd0pSUWVkUXNjTGtvMUdUd2JhTTA5MlpYWFJjcm1zZTdmMUZfNWFTOHVaQXAtbGs3QTJ6endyUktuNTBRekczSWU2VzBZRXBYTkFl?oc=5",
+   "published": "2026-11-02T05:25:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "318168e67d150a90712c38ae7bb285d72bb362ad",
+   "title": "Nu Holdings Stock Plunged After Lula Win: UBS and JPMorgan See Opportunity",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUpkZEhQN3I2akhaQU9lMGF2QlkzQjNxd0tGY2daZzhpQ1U0UXdoT3oxZ0VEaG9rSXdjd2d6TFNmeEYwRy1ZeFNVaUE0dFFFS3ZEWHF6VGVqRHJ5dUV4dzM3NU9BSnREaEZCZjNhMl9tNTRxd1lLdDBrSXpZdzVsUnIwMFVHMW1fMzRiSVlCc1UwNHhWVllDYW9DTUZpUWJ2dC00RGRXWFFkUkxNb1YtN0JEY0hsWmxhcDZCMU5IbUVGemoxbjBBQUNxVzFtQQ?oc=5",
+   "published": "2026-11-01T15:50:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "536091dcb65b4f594eb064597671241655ba9564",
+   "title": "Bank Stocks Are Having a Tough Time. Why Morgan Stanley and JPMorgan Chase Can Beat the Odds.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmdjNIWTdnSmgzSUZjenBGeE1VTW5zYm03OWxwOGVnQlZBYWRKd01UNTl4dXlUTjNhSUl4NTVQYTV4UmEwN0RDWlU2SE0xVTFHT2dxSy1Eb3dWaUp4aS1LTWxEdVlqUkJlTUJLOXBnd190YTJEUm5qV0hBNHg?oc=5",
+   "published": "2026-10-29T03:45:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1ccb790660b79f91b53eef9c78b2ef335cb90530",
+   "title": "JPMorgan Isn't Happy With Andy Burnham's First U.K. Budget",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028009192:0-jpmorgan-isn-t-happy-with-andy-burnham-s-first-u-k-budget-wsj/",
+   "published": "2026-10-28T11:22:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cfa987943b6729058dd111f212b06e28b86d88da",
+   "title": "JPM, AMD, Coca-Cola Join Corporate Pushback Against Efforts to Tokenize Their Stocks",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028008766:0-jpm-amd-coca-cola-join-corporate-pushback-against-efforts-to-tokenize-their-stocks-wsj/",
+   "published": "2026-10-28T10:38:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a91a9dbf905747b99371a9ca04b3e7c9e0913d6c",
+   "title": "JPMorgan Faces Paying £100M-£150M In Additional Sum Following Healey's Decision On Corporation Tax Surcharge - Sky News Reporter On X",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46E21O:0-jpmorgan-faces-paying-100m-150m-in-additional-sum-following-healey-s-decision-on-corporation-tax-surcharge-sky-news-reporter-on-x/",
+   "published": "2026-10-28T10:29:33-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ed875117a9c1e03efc8147dd732b48c71e1b9e9c",
+   "title": "JPMorgan's Skyscraper on Park Avenue Estimated to Cost Around $6 Billion",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028002845:0-jpmorgan-s-skyscraper-on-park-avenue-estimated-to-cost-around-6-billion-wsj/",
+   "published": "2026-10-28T05:30:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cb4b647c63ba39ace4b01ee05b7038cc6ec3cf8f",
+   "title": "Anthropic Said To Pick JPMorgan to lead IPO’s US Retail offering - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46D1RJ:0-anthropic-said-to-pick-jpmorgan-to-lead-ipo-s-us-retail-offering-bloomberg-news/",
+   "published": "2026-10-27T20:38:27-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5ca443e1a46cc5556efec9cccd99ad6c9af82759",
+   "title": "J.P. Morgan, UBS Teams That Managed $1.1 Billion Jump to Rockefeller Capital",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027009052:0-j-p-morgan-ubs-teams-that-managed-1-1-billion-jump-to-rockefeller-capital-barrons-com/",
+   "published": "2026-10-27T15:32:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d24d83b312adbfdbce7dfead419ad1e65b3ac9b9",
+   "title": "J.P. Morgan Asset Management's 55op Working With Anthropic To Deliver Tax-Smart Technology Within Claude",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46D1Y4:0-j-p-morgan-asset-management-s-55op-working-with-anthropic-to-deliver-tax-smart-technology-within-claude/",
+   "published": "2026-10-27T12:39:27-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7d6bbe289d22a865416a06e545720e395922d284",
+   "title": "China tax crackdown hasn't hurt asset management flow - J.P. Morgan AM",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46C1BY:0-china-tax-crackdown-hasn-t-hurt-asset-management-flow-j-p-morgan-am/",
+   "published": "2026-10-26T21:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

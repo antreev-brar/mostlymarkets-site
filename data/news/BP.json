@@ -1,0 +1,389 @@
+{
+ "ticker": "BP",
+ "updated": "2026-11-07T08:03:50-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "dbd9e83da769284800807cd5b662b2ccb6fa602d",
+   "title": "BP says Whiting, Indiana refinery offered to meet union, awaits response",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46N165:0-bp-says-whiting-indiana-refinery-offered-to-meet-union-awaits-response/",
+   "published": "2026-11-06T18:05:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a9fbd6673f063d855979298e557ced06dc83c266",
+   "title": "BP Trimming Aker BP Stake Is Sensible",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105013996:0-bp-trimming-aker-bp-stake-is-sensible-market-talk/",
+   "published": "2026-11-05T09:12:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a84236843c2e859a32cb2c46effb18f2b81df2eb",
+   "title": "BP files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426009536/0001654954-26-009536-index.htm",
+   "published": "2026-11-05T06:50:16-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "3445ef424b941bc3748280f3ab0aec5c40836a95",
+   "title": "BP shares fall after $1.06 bln Aker BP stake sale",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSS1Uc2VsRUFhNGhQb09sb0FDZkM4RkQwZ2Rma2phX0xDWS1FNnFramR6UzhMNjBTT0xFdjVtMGNxS0QtR2F5bERycldPY3YycllrSy1vSEZqQmh1SVRIOWZOYjlPMkZDQmRwWllneTRlOUx1bWd6U2VMNzNuN0RySVZFVm1Jbk8yNEJXNFhfSXRvMEVEbV9YY1hZUEg1R0lJU1gybVMwZngtdw?oc=5",
+   "published": "2026-11-05T05:58:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7b9f039ec49b856390f6e30ee709e2a164b22f9e",
+   "title": "BP Sells 5% Stake in Aker BP for $1 Billion as Balance Sheet Repair Continues",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105003407:0-bp-sells-5-stake-in-aker-bp-for-1-billion-as-balance-sheet-repair-continues-update/",
+   "published": "2026-11-05T03:20:00-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e80a2fc2375e6ba7adf491dbcbbf4460304bc573",
+   "title": "BP sells stake in Norway's Aker BP at 12% discount",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46M0MJ:0-bp-sells-stake-in-norway-s-aker-bp-at-12-discount/",
+   "published": "2026-11-05T02:43:26-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d36e98daf0fec46eb4bb67ad3b62505a2dca2f54",
+   "title": "BP PLC Now Sees 2026 Divestment, Other Proceeds to Be Around $9B",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105002362_20261105002687:0-bp-plc-now-sees-2026-divestment-other-proceeds-to-be-around-9b/",
+   "published": "2026-11-05T02:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0c1959c7653fa7fbdcfb08f676be7a452aeefaad",
+   "title": "BP PLC to Use Funds to Strengthen Balance Sheet",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105002362_20261105002679:0-bp-plc-to-use-funds-to-strengthen-balance-sheet/",
+   "published": "2026-11-05T02:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5472e545ddcc8fc3e5f21ce0c6e94bd11be119cc",
+   "title": "BP PLC Will Hold 68.7M Shrs in Aker BP After Sale, or 10.9%",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105002362_20261105002678:0-bp-plc-will-hold-68-7m-shrs-in-aker-bp-after-sale-or-10-9/",
+   "published": "2026-11-05T02:13:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a37af8a2be6f09688a828f4717c3f7d64d16e51a",
+   "title": "BP raises roughly $1 billion from Aker BP stake sale",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46M0I5:0-bp-raises-roughly-1-billion-from-aker-bp-stake-sale/",
+   "published": "2026-11-05T02:10:13-05:00",
+   "also": [
+    "Dow Jones",
+    "Yahoo Finance",
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2ce31b5ef8b7179333a7b77d91f394ee824565c0",
+   "title": "Successful Sale Of Existing Shares In Aker BP ASA",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUC4RW6GH:0-successful-sale-of-existing-shares-in-aker-bp-asa/",
+   "published": "2026-11-05T02:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0cc8cc77cdfa55eef269bb9a93c0df9e508efbfa",
+   "title": "BP PLC Raised $1.06B From Sale",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105002362_20261105002494:0-bp-plc-raised-1-06b-from-sale/",
+   "published": "2026-11-05T02:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b4028f2e8506aa7c60df9c1384ede3cf98376b7",
+   "title": "BP PLC Sold 5% of Aker BP at NOK311/Share",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105002362_20261105002489:0-bp-plc-sold-5-of-aker-bp-at-nok311-share/",
+   "published": "2026-11-05T02:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "54b6e061e5190879feefdb22654bef5672fb9eaa",
+   "title": "BP to sell 5% stake in Norway's Aker BP",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46L30E:0-bp-to-sell-5-stake-in-norway-s-aker-bp/",
+   "published": "2026-11-04T13:31:50-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2685b5c2e9f5ed7e88918109b0b6a56229dfa976",
+   "title": "Aker BP Reports BP Contemplates Selling About 5% Of Aker BP Shares Outstanding",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUC80TWZ6:0-aker-bp-reports-bp-contemplates-selling-about-5-of-aker-bp-shares-outstanding/",
+   "published": "2026-11-04T12:34:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6344aa7f798bc77e6b98dd4e8e94283212dbccc9",
+   "title": "BP: Lewis to Be Member of Leadership Team",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104002221_20261104002239:0-bp-lewis-to-be-member-of-leadership-team/",
+   "published": "2026-11-04T02:41:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a4dc555391e5b2f0e199d89d65600e5c0acfabd1",
+   "title": "BP: Lewis Joins From Shell",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104002221_20261104002230:0-bp-lewis-joins-from-shell/",
+   "published": "2026-11-04T02:40:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eaef995987ed51eded4d6f4c468f1bb4da2f93d6",
+   "title": "BP: Lewis Replaces Richard Harding, Who Took Role on in Interim Capacity",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104002221_20261104002234:0-bp-lewis-replaces-richard-harding-who-took-role-on-in-interim-capacity/",
+   "published": "2026-11-04T02:40:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "07ead24e1afddf87790f876db7ffd8172e2596b1",
+   "title": "BP Names Emma Lewis as Head of Downstream",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104002221_20261104002221:0-bp-names-emma-lewis-as-head-of-downstream/",
+   "published": "2026-11-04T02:39:00-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3ba3fad57ecb75990bb65e6485d4eb0d89ced966",
+   "title": "BP: Lewis Will Join on 4 January 2027",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104002221_20261104002223:0-bp-lewis-will-join-on-4-january-2027/",
+   "published": "2026-11-04T02:39:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bdda62c2acbf3c604c24e157b5341b6c05ccd1ad",
+   "title": "BP Appoints Emma Lewis To Lead Downstream Business",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46K2G9:0-bp-appoints-emma-lewis-to-lead-downstream-business/",
+   "published": "2026-11-04T02:23:33-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a502552e63d555eb328375bf77a13dcdde23a9d0",
+   "title": "BP's Balance Sheet Repair Accelerates",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103005589:0-bp-s-balance-sheet-repair-accelerates-market-talk/",
+   "published": "2026-11-03T07:47:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ab3395489dedb10f297cee7beae3a76fb613acce",
+   "title": "BP files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426009343/0001654954-26-009343-index.htm",
+   "published": "2026-11-02T09:14:38-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "860e0c68a756ea7c82667ac082667047325a6b87",
+   "title": "BP files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426009335/0001654954-26-009335-index.htm",
+   "published": "2026-11-02T08:55:56-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "8e610406959d20f097212789cbb8cf334b83c101",
+   "title": "BP completes Castrol sale, gets $6B to pay down debt",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4662035-bp-completes-castrol-sale-gets-6b-to-pay-down-debt",
+   "published": "2026-11-02T06:51:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2f5980ca4371e990193fc0721409fb6c5c79071e",
+   "title": "BP Must Finish Strengthening Balance Sheet",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102001701:0-bp-must-finish-strengthening-balance-sheet-market-talk/",
+   "published": "2026-11-02T04:58:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "14209952f5416d9a669b1476e265c14b2ba878b6",
+   "title": "Wells Fargo raises BP stock price target to $63 on debt reduction",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVmRpWTBVZldUMTBGS0pYckNDUEdHRkQyWGlPYk01NEFTNmtBTnpBWFJhd3NpVF9GVVFLXzZjbUVuM2ZySmtGeVpSanZrdUoxMUNMOEVhTm9iZU1PZDdtZE5NYWk5dVVNMXFJMlJzUUNYQjZ5a3hBeV9VSWlUMGV6WE9udzdVS3JXWHBJbWMtQzVtVXctZ0FVQjJ0bk9DT0dMcUNUMWtDRHFIWHZZb0k3X2VLbUlpZzFMZWZXSG13VmN6Zw?oc=5",
+   "published": "2026-11-02T04:49:10-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "968bab588beabd773ed9b90c36b535c47df247d5",
+   "title": "Ex-Shell CEO van Beurden to chair Castrol as Stonepeak closes deal with BP",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J0FT:0-ex-shell-ceo-van-beurden-to-chair-castrol-as-stonepeak-closes-deal-with-bp/",
+   "published": "2026-11-02T02:28:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e07ce262b74923abf1d784820dd32dc327cc811e",
+   "title": "BP Says Following Two-Year Lock-Up Period, Has Optionality To Sell Its 35% Stake In Castrol",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46H02A:0-bp-says-following-two-year-lock-up-period-has-optionality-to-sell-its-35-stake-in-castrol/",
+   "published": "2026-11-02T02:19:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3c51125b1008d266f25376b3e260269893a05eb2",
+   "title": "Stonepeak Completes Acquisition Of Majority Controlling Interest In Castrol From BP",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46J0XF:0-stonepeak-completes-acquisition-of-majority-controlling-interest-in-castrol-from-bp/",
+   "published": "2026-11-02T02:19:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b17479799934aca8c862675fbbe5070d9b26f77",
+   "title": "BP completes sale of 65% Castrol stake to Stonepeak",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J0DM:0-bp-completes-sale-of-65-castrol-stake-to-stonepeak/",
+   "published": "2026-11-02T02:05:22-05:00",
+   "also": [
+    "Dow Jones",
+    "dpa-AFX",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5e20d60a9c2d64feddf88f69b3a2fed5c77e6431",
+   "title": "BP has not considered breakup, says CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46G0V4:0-bp-has-not-considered-breakup-says-ceo/",
+   "published": "2026-10-30T10:35:39-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "91124e5271026f580dc380af1df1998337a5b6ee",
+   "title": "BP beats forecasts with record profit, targets early settling of Deepwater Horizon bill",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT3h0ZnhqQXNOaC15cXFDMlJfa0kwa0xKeDloU0hKQVducC1rOERkX2R5bG1rQ1JSUFpYMUVaZ0p5RGw1eDZEMVliNTJ6V2s3elFyaks4UDg4UWNMMklreW9iUHBoZWpVZE5mZmxnY2JybHI3bUI3SWxuVV9lZVFvUDRYREYydzN5dDVHMXV6bXp5T3ZHZTlIXw?oc=5",
+   "published": "2026-10-30T10:29:40-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "597d41a37f87a23075b3d9fc02fdeb8f7a4b5593",
+   "title": "This one chart tells you everything you need to know about Exxon, Chevron and BP's forecast-beating earnings",
+   "source": "MarketWatch",
+   "url": "https://www.tradingview.com/news/DJN_SN20261030007311:0-this-one-chart-tells-you-everything-you-need-to-know-about-exxon-chevron-and-bp-s-forecast-beating-earnings/",
+   "published": "2026-10-30T10:17:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a40f131d5d58314c64dd81bc19a9788c21e54d7e",
+   "title": "BP CEO denies breakup talks after media report",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46G0QB:0-bp-ceo-denies-breakup-talks-after-media-report/",
+   "published": "2026-10-30T08:55:44-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c9204ebcfeeb4e06d86fbe2530015813a6a89dbe",
+   "title": "BP p.l.c. 2026 Q3 - Results - Earnings Call Presentation (NYSE:BP) 2026-10-30",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaUo0eG9DWFhhTU1wN0ZUcTlZTTBTbkhtQmhWQWtJb2gyRjBFWUJrV1g4d1kwbmFCeHd1UHZPQjY3R2dRT1ZkOUNCQWV6UGgyZDNWeXQ4cGNEMEhlQzFSOHpVYU84d3RNZWFvdGs3UWlmNTlDT1k3LTVkbS1Ja2gyTXZGWGJ0cUctMndQMXBWaDNWVV9lZkJVRWV2bzVEVTZWTVFOazFHaEZRaHBRSVdUXw?oc=5",
+   "published": "2026-10-30T08:36:24-04:00",
+   "also": [
+    "MarketBeat"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b730ffbe0837038b74f5e1647f90f48ec34ae6a4",
+   "title": "BP tops Q3 profit expectations on higher refining margins and trading",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46G07J:0-bp-tops-q3-profit-expectations-on-higher-refining-margins-and-trading/",
+   "published": "2026-10-30T03:12:05-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ff3004001d26b7d2dc02647dd05522189a3e5827",
+   "title": "BP posts net income of $8.46 bln, beating expectations",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_PLXDQNQJ5:0-bp-posts-net-income-of-8-46-bln-beating-expectations/",
+   "published": "2026-10-30T03:03:34-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "184d3bd57f369bb8d4761fe4ec47a83f377b36d1",
+   "title": "BP Identifies Hydrocarbons In Tupinambá Exploration Well, Santos Basin",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46E24T:0-bp-identifies-hydrocarbons-in-tupinamb-exploration-well-santos-basin/",
+   "published": "2026-10-28T13:03:03-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5ea456ce18823af66e6ba2fbee8a1c3aace4dedd",
+   "title": "BP Whiting, Indiana, refinery says it revised proposal to address union concerns, awaits response",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46C2H5:0-bp-whiting-indiana-refinery-says-it-revised-proposal-to-address-union-concerns-awaits-response/",
+   "published": "2026-10-26T17:07:47-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

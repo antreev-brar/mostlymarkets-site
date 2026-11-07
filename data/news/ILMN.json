@@ -1,0 +1,371 @@
+{
+ "ticker": "ILMN",
+ "updated": "2026-11-06T06:07:26-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "0120c40c7ab7545cf6f0d3096f872cc83d0eed40",
+   "title": "Illumina selected to help bring precision medicine into everyday healthcare in Singapore",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:cf8a0704756c3:0-illumina-selected-to-help-bring-precision-medicine-into-everyday-healthcare-in-singapore/",
+   "published": "2026-11-04T18:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "966ab7f1ae574d7c40fcce8b5a216dc4248dca26",
+   "title": "Illumina, Inc. (ILMN) Selected For Study Covering Around 450,000 Singapore Residents",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:1b9ef93325740:0-illumina-inc-ilmn-selected-for-study-covering-around-450-000-singapore-residents/",
+   "published": "2026-11-04T18:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "94a6be62c006df94459f79c8c78fd045d4e915ae",
+   "title": "REGN vs. ILMN: Which Stock Is the Better Value Option?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1ckxyekRJQmZ3NGlJUGMzVUhxZXY4MWwybkpyUmFkdkJXM3FyVURieVNZUmNOZ01nbjJUbEZVRlZaaF9XN0g0SjlzMGhfRlk4TGQ0QWRuWTRmMnlPbHg4U3NBaURFd2doWFJLUUgxNWpfaEFFYjhVM25jbHIwZGc?oc=5",
+   "published": "2026-11-04T10:40:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "359018275b4a4cd757948da8a561b15202b43503",
+   "title": "Illumina, Inc. (ILMN) Rallied, but Mott Capital Decided to Take Some Profits: Here’s Why",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlpvTzdxdXE5WjZUQ0RxZkpnLWU1cFNJWG9IQ3BQaUpadkpSbmJaVlRNVXRjUFFCazVJRHZ3bE0ydE5VRERXcFpHbXoxWjhpdWdVREpzaVZUZmV5SHk1RHpQeVItY0czTExLdGRjcXdQSVNHVk4ybzdvanhwUE1MOGtnVHpwejI0SHA0NGN5RnFtNDh6OHBqc3E2aw?oc=5",
+   "published": "2026-11-03T13:44:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3357a49403258025b83946d8befb6e7f97738954",
+   "title": "Illumina (ILMN) Selected for Singapore's SG-INSIGHT Whole-Genome Sequencing Initiative",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZEZreVdwUTZRMWliZkZ3TjN5TENmaWtiNGs2a1VYVkVVYTZhX09iTmlKWDc4Wm16RlV2aGpZaU5vVU1xOUNPcGVfaHNaNmhQUWU0UzAxdndZYU5NcTVZNDNZTEg4TGlXWDlIVDMxME4ySENHYjJLNFF0eU5GTkppbjYxSktlMGx6V0tsVnQyY0VOT2JQQUN1MW5YanBDT3Btb1FhWExQcWo4a2xvN2V3RnlxVnJxN2lJT0dpRA?oc=5",
+   "published": "2026-11-02T21:42:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b7b73a918ce920704a29baf2e723174be50bf83c",
+   "title": "Illumina selected to help bring precision medicine into everyday healthcare in Singapore",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:85014ed71f089:0-illumina-selected-to-help-bring-precision-medicine-into-everyday-healthcare-in-singapore/",
+   "published": "2026-11-02T20:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "c361ca8f7eec8cfb856e9f1905ceb00a6125253d",
+   "title": "Illumina, Inc. (ILMN) Selected for Singapore Study of Around 450,000 People",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:79cd3cdb6181a:0-illumina-inc-ilmn-selected-for-singapore-study-of-around-450-000-people/",
+   "published": "2026-11-02T20:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0479e0a607f0f4cf3ae287c0f33ac76ad70474aa",
+   "title": "Illumina Inc (ILMN) Stock Down 4.0% but Still Overvalued -- GF S",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN0thdHc1SXpOQ3hNeTJoNXJOXzVLd3VrMXpuNXZZTjRKN0MtLVYwWW1ESFlFaE5LYV93bG93dFJMZVlIZ2FJQ0Y2MXZOem5EczNsbk9fdzVLTzVPVGUwY0drVGwzbTU0S3J6bnFIVk5XeG5ZRkZ0ZlAwVmdFd1FBemtKTkFNSWpscnBuWW8wUnotTm05MXg4Z3N6S2xHQkhTY291YmhPZFNHdw?oc=5",
+   "published": "2026-11-02T18:32:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "97c4ef9f50fd61035390c5d9e10de680df148546",
+   "title": "Citigroup maintains Illumina at Sell, raises price target to $210 from $113",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e60d25332ae7d:0-citigroup-maintains-illumina-at-sell-raises-price-target-to-210-from-113/",
+   "published": "2026-11-02T13:51:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5f91771d5cf334fd992275513da26463b84476b2",
+   "title": "The top 5 analyst questions from Illumina’s Q3 earnings call",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWVQWTFEQ3lMQXhTbHJmcm1FR1g3TWV2VWxxUGFuMV9DVFBoZHRsZFBycGZ0bEU4OGtGUDJGNHJ5aC1KTVBBR1RiRXpOZEJZOEVUc01XTVAtSndmM1hpeWQ5YzNydUg0RFhYaDNubGg2RkhuaFVodFNqeHFsb3JmWktLMF9YQzRhTnJXOVhJSHVjQWNKTkJqSTFzUEJJQQ?oc=5",
+   "published": "2026-11-02T10:17:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8f85df2486477dc91dd83e4dc0d1d9e4b629adcc",
+   "title": "Don't Overlook Illumina (ILMN) International Revenue Trends While Assessing the Stock",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaGdjZ193VDY4UHZYSWZsajMycTRsbG1QV29qR2dSbm1ZLTBrU1N5MjFYRnI5SVVOMTVyQlYzM3JxR3lVNTBpYVNLamUtZk55eEJHb1RCV0pNcnRyNzRFOE5tV01UanAySm4yWllYd1VFck1nS2pNWkxyOFF0RHNUZVdGT3pUdkRRVk44QVprbEtSdU94ZWtDRXllQVZmUTJ1OHduX0ZaVDYydw?oc=5",
+   "published": "2026-11-02T08:15:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "029699716f1fcfbd9775ba2a5e1ee3a88ec6f1ed",
+   "title": "Weekly Recap: Raised 2026 outlook and J.P. Morgan cuts price target",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:500dad7570258:0-weekly-recap-raised-2026-outlook-and-j-p-morgan-cuts-price-target/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6dcc3e48c4d78a26000de867ef826cf9071f28d7",
+   "title": "What Sent Illumina Stock Lower?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVEEtWmtjdGNfdGViLUluMzRFT1A4UW9GYzZsMG1wVWdxc1RhcFdpNE5fZldydnlQdHBNU0NUeVRaR1NiUlR2NGlUUDNTem5QZms4R19KUzdrQkNUOTQ5VThTaWdLSEZvdW9BX2ltcklMOUp4WjdSV1hRcjN4UnU4WnZOOVhxVEVyVXFCckRfenFXTUtU?oc=5",
+   "published": "2026-11-01T20:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "96bc52a52d39fa07f5708a04fce72ca84ae8f65f",
+   "title": "Illumina, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:ILMN) 2026-11-01",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ0s5czRYRzl4OUdEWmFSdGlLdC1zcDJEamdEcDBDSC1zSDBaRUs5aDlqYjhWZTQ4UlMxbi10U1MxaVBjYTFXVFdZdWJiZ0pkZFVHcDJyLUtUR1M0M2xtYVFFUG13eWJEZ2otUEpacWk1MzZtckVOQi1DRGUteFVxUklYLWd2LW0zbEZ4UERrU1B6Q2xuU0xfTlZ1N2o?oc=5",
+   "published": "2026-11-01T18:16:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "645e9087229748ca3b1a2d4e3a7e4574ae7b1030",
+   "title": "Illumina, Inc. (ILMN) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44X2YyM2hfT2ZKcUFYdVJMLXlJb1gxekJzTE1LVVBleXNzS25VS3RRd1FSSmtuWEpmVGVBMGwxdkg3THFMWnVRVXRFcW9seXZxMEE?oc=5",
+   "published": "2026-11-01T13:39:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "32e4a6161495af8e1f34d6f760f18f472296aabb",
+   "title": "Illumina (ILMN) Stock Falls After Q3 Results Lift Guidance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzVYT1lQMkNRcXNHZVpna240VG5WOUJHV2Y3Qkh3NS0tQlBqbURXM2xsTzZNM2U1VE1WeFR3ajRlZ2FwQmZwY2ozMnNwUUFPWVhXUEVDb0g3b3I1Z2llWERWTTczNUkxWTFtbWVYTUJIQUd6UkRYV3pxUTY0ZS1pR05IZVhwN2VQLWZ2TnI3TVR4S3VaSmRHNA?oc=5",
+   "published": "2026-11-01T13:10:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "03079a80c9482bb85fafcbf4c424c44df9bef569",
+   "title": "Cathie Wood Loads Up On TEM, ILMN And Biotech Stocks — But Pares Stake In This Pharma Giant That Had A Blowout Q3",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-buys-tem-ilmn-biotech-stocks-sells-lly/cZUKolkR9ch",
+   "published": "2026-10-31T01:05:41-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e95c2767e9a80eeaa17d820c3f06343660a1418f",
+   "title": "Illumina (ILMN) Stock Stays Reasonable After Raised 2026 Guidance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlEtVTBDc0VNQjdwdXcwMWJUcmxaSmJKZno4blBZbkJQOXhMUlZaSk9PUTh0MGloclBaNmg2Vjd3ZWFCaTJKS1dremJmU0FoS3NfMFJUMllrM1VabHJJMEdGUlRhcG5TQzloTjJjWkVVTFMwUU5jQW5INWlSdTkySUpMbUMtbk9WbVdZcmFBZWx3VGxEaWVudnFrRzlyWkk4ZVNB?oc=5",
+   "published": "2026-10-30T22:11:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4fc23f00c54ba0285c650263c468009d78541a7a",
+   "title": "JP Morgan maintains Illumina at Overweight, lowers price target to $300 from $320",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:43931132f8e82:0-jp-morgan-maintains-illumina-at-overweight-lowers-price-target-to-300-from-320/",
+   "published": "2026-10-30T19:55:11-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "49191d2fcba05d66bb75a4a23c52e9d74a3b531e",
+   "title": "Illumina Crashes As Tariffs, AI Woes Eat Into 157% Run-Up",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVVMTGhCTG1ZOWFhc1F1Nm5LLURWZHhmTUNmQUJGUkJWcmNGc2kxTk9BSHJDeUVNYno0VVpBVDdTZEwyQjJ0YzNuLUlwVk9YOGtiTHFhMjVYb3BEQnJGMHZtX0NvNFg4NDFnUDNyTzE4cmt6ejNsVDFwNzZmR1hFSXd3cTJxejAxOVU4?oc=5",
+   "published": "2026-10-30T17:34:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "da94fa869e7f107ba96c313dbb26121e5cb130b0",
+   "title": "Illumina files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000207/ilmn-20260927.htm",
+   "published": "2026-10-30T16:14:37-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "459dfe89aa31fd63739c818a82125d9f053d13ef",
+   "title": "Why Illumina (ILMN) shares are getting obliterated today",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nasdaq/ilmn/news/why-up-down/why-illumina-ilmn-shares-are-getting-obliterated-today",
+   "published": "2026-10-30T13:15:42-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "45d9cf639a5792f4b412b811a3e91ce66bc045b6",
+   "title": "ILMN Q3 deep dive: clinical demand and AI initiatives drive outlook amid revenue miss",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nasdaq/ilmn/news/earnings-call/ilmn-q3-deep-dive-clinical-demand-and-ai-initiatives-drive-outlook-amid-revenue-miss",
+   "published": "2026-10-30T12:06:48-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "184a1f99ee3b95c6adabfa1e19e469d78fd4a5c9",
+   "title": "Evercore ISI Group maintains Illumina at Outperform, lowers price target to $275 from $290",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:0856ea8822cdd:0-evercore-isi-group-maintains-illumina-at-outperform-lowers-price-target-to-275-from-290/",
+   "published": "2026-10-30T08:35:24-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b1930f35de8bc6c855001237d2c6b74e7ad6e7bf",
+   "title": "Why is Illumina stock tumbling today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQW1hTzdjdE5kMEh1SXpQZ0d0d2x4V0hnaGVIZmhIRGFKbGtDSW9CbjhEeDZfQlF4MjN5WWhPVVg1UXFxVUQzTUNpQk43YTcwV3Y2V3RteTYzWk5TcG9iaDFIVWhCRlVpdFRGem1ZVmtWbHpCekVoRG9weVA0SFRTMkdjdUZfOTF5OGF4YXJvMkxIemU5TmxoU01JTWFWa0k?oc=5",
+   "published": "2026-10-30T05:24:48-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8876b5c644ffc17405630b3ff8180f44e2cfece9",
+   "title": "Illumina Earnings: Market Disappointed That Growth Has Not Accelerated Further",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTzQtaUd4eGtpTlFYNTJCTHRVbUhSRUZZd0JxcmR1Tkc2V2o1YkgwSmRlNDhuNG9hTXh1dVF3clJNemxBUHk4bGdwd2xRNURrRS1JTjhXd2tXUi11QjE1aTUxUGFacGhqMk4wd1BCVDhIODJ5VjZVa0hub3daTjU4MTVlUEJlU0ZwVGRJb2R0XzhMYm1DeFFCcldjOXlTRjdrd2hmN2JELVRvNzNGeXpiaU5lWFRRUmUxRjJjd2E2RHAwTTZydFRhdA?oc=5",
+   "published": "2026-10-29T19:07:19-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e5a3fc669c6937cf7f19ac8410f823af7437dcd3",
+   "title": "Illumina (NASDAQ:ILMN) reports sales below analyst estimates in Q3 2026 earnings, stock drops 16%",
+   "source": "StockStory",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNa0lXR09sMEtDWWVSbE54NmE2c0VDQVJUNHA4R2xNU0FpT01oaHF2RUY0VjJUTFhlcHNKejJ1aWNoX2Z2VEFCWk5CRE83NW1felViZEJfYU9KbS1mRF9WTVFQb2t0MnVtaEkybUtUM0ZfVTBkejFwclpqSkNQTHRQenF1V3NyMER6NWVGVUJYYk9Jb3pRa1dxRzUwYUFxcDlSZHY3bC1fcm53aFBUVFJ5Z3pnUGxTSExsMDViNC1xWElKQjk4eTR5QmpaTFh0VUo5YXhhZXRtUmNZcEFNTFY3SGJuSTVqbnJYTEVZcmxETQ?oc=5",
+   "published": "2026-10-29T18:42:17-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "22b48c20a41a734dc8bb81a8bcd5bd0458f13d42",
+   "title": "Illumina (ILMN) Shares Drop 13% After Q3 Earnings Despite EPS Be",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY1Y0V2RoQldtNkFHRk9EbkRsRXRNN05YMC16N2hEVWtCNFlsdlN3ZnNUcndULWxCWmFLNWlQVGpLNU5namtuSjFNdGJpOVIzSzQ2QXQ1NmdHaDdaRmtFOHVPZEw3MURPWmgwaWZOcVZrQlZkSi01TlFPVzZNS1BhSHh0dTFIMFliY2tTUmR4bWNwT0NUUWs1N19ZTTFTXzJiamhxYQ?oc=5",
+   "published": "2026-10-29T18:39:37-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "47ab8b6e8d649b8d67ea09524d01e83799780fc4",
+   "title": "Illumina Q3 Earnings Call Highlights",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-illumina-q3-earnings-call-highlights-2026-10-29/",
+   "published": "2026-10-29T18:14:46-04:00",
+   "also": [
+    "Zacks",
+    "Stock Story",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b12f9555d81136be093ba5c0770793d634cc723e",
+   "title": "Illumina shares tumble 12% despite earnings beat on China woes",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2pBV1lGSHYwM21Lbld2NjZXODQwMVFOdXMzMENKNU5IVG5jdVBKS1ZQeVh1X0Z2WWlBNnFnVzhLZE5pMktVWG94N2k3V3NaSkZ5VW9LeU5kM0ZPREhtLWJ0OUdlY2dQMlhIT0Z2eXF6eXNwU0lWZDhrRnZqeGpaamxsSXAtZHZGSHIyQ3dMQUJOdFlKb3ZMazVxTm9uTWc?oc=5",
+   "published": "2026-10-29T17:59:10-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2959bed052c2110556cd5cc3abe44a464c52654b",
+   "title": "Illumina falls despite boosting full-year profit, revenue guidance",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4660920-illumina-falls-despite-boosting-full-year-profit-revenue-guidance",
+   "published": "2026-10-29T17:33:56-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "76ce4b495ddaf6ab9d11a47ed9ce6555a6c3bbbb",
+   "title": "Illumina Q3 Adjusted Earnings, Revenue Rise",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMFFDOER2b3YzWWZFVUdzMnRzX1J6SFRyTnh1YThRU1pVTHNpX0VKNExFOVZlYnNBMmc5bExPMWpqQmlsaXBobFZQZFR5enVZQ1c5UVNQVWxjQk1Ua2JtTVhRcHlmTW85VlNvS0puWTE5a3ZzcHRZMjlTZDRJcjNPNHVCNm9Xc0tIdVltVGFMQldIb0JlSWUwVE5BTlVyUEE?oc=5",
+   "published": "2026-10-29T17:04:15-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3a7d56186a7ab5b7269b54967e0eed8288d1cdec",
+   "title": "Illumina (ILMN) Q3 Earnings Beat Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQWhyZFV0TWlJUklPbUc4SVh2cDZiYk1udHYxSmlZSzU0dW9sV0xZVVFXYXkwbFphWmV2ekZSVk1ydHpQNjAycl9sR21IcEIzVmNKeUlFd2tiQ3JLUmcybUhaZVZySUhrTnl4WThQeENXU3RQMEQ4RVFCUG9CWjRnSi16eXlQV09adFZBOFZjdHp1LUFxWlE?oc=5",
+   "published": "2026-10-29T16:35:04-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "db244d6123ae9e941debec29e40c38559f6ab891",
+   "title": "ILMN: Q3 delivered 4.8% organic growth and $1.44 adjusted EPS; FY26 revenue guidance is $4.64B–$4.66B",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4252708:0-ilmn-q3-delivered-4-8-organic-growth-and-1-44-adjusted-eps-fy26-revenue-guidance-is-4-64b-4-66b/",
+   "published": "2026-10-29T16:32:04-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a95398f7f2a680ed33cdaba66d4243e0b4d1a06a",
+   "title": "Illumina Q3 revenue rises but misses estimates; lifts outlook",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46F1H6:0-illumina-q3-revenue-rises-but-misses-estimates-lifts-outlook/",
+   "published": "2026-10-29T16:24:08-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d14af8359869e5c1b1461e46909dd2b6aa908543",
+   "title": "ILMN: Revenue growth and margin gains advanced, but Q3 gross margin included a $42M tariff benefit",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3924354:0-ilmn-revenue-growth-and-margin-gains-advanced-but-q3-gross-margin-included-a-42m-tariff-benefit/",
+   "published": "2026-10-29T16:16:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "85a56864d474849e97830464128f3ff523b95ffe",
+   "title": "Illumina Q3 Revenue Rises 4.2% to $1.13 Billion; Raises 2026 Guidance",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:a39caec18fdee:0-illumina-q3-revenue-rises-4-2-to-1-13-billion-raises-2026-guidance/",
+   "published": "2026-10-29T16:13:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d0a46acbcccd09a70cce09d3943fc93e96c6de04",
+   "title": "Illumina 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000202/0001110803-26-000202-index.htm",
+   "published": "2026-10-29T16:07:40-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "816abd709b8f7287852850fd761ab711e02af721",
+   "title": "BRIEF-Illumina Q3 Adjusted EPS USD 1.62 Vs. IBES Estimate USD 1.36",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-29:newsml_PLX6GN86J:0-brief-illumina-q3-adjusted-eps-usd-1-62-vs-ibes-estimate-usd-1-36/",
+   "published": "2026-10-29T16:06:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d67b57c76c7129cbd66fe23cb879371fa67c1c58",
+   "title": "Illumina Reports Financial Results for Third Quarter of Fiscal Year 2026",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:d582efe184316:0-illumina-reports-financial-results-for-third-quarter-of-fiscal-year-2026/",
+   "published": "2026-10-29T16:05:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

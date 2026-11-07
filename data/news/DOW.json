@@ -1,0 +1,70 @@
+{
+ "ticker": "DOW",
+ "updated": "2026-11-06T06:06:48-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "5424f7d4722e45d58d02fdc1c813a3eb987ec321",
+   "title": "Dow Inc. (DOW) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JN0h4Wkg2SE5wem9CR2JBUXlOYks5dkdWcDdUelNGR1NpTU9IQUpLTWUxTWFKcGlRQjV4SS1VNlNicTFqbl9ydGU4amdzWWc0?oc=5",
+   "published": "2026-11-05T14:47:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cbc7c574a5e2c9c37dd1d087f4681097f3ac3cea",
+   "title": "Is Dow Inc (DOW) a Bargain After 3.2% Drop? GF Value Says Underv",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTUVvajcxQnpRWmI3UEhNSERON0VEY1NLMEJRa01rTjVwaTNISENfcU0zQnozWHdiU1NwaTAzU2hIeVdpM1QtSnczaHB2S3IxZVh5TjRBN2lMVnNSRVFMclgxem5LYTlxMmZadzRJQnk1WG1mMG9rekwwbFF4NWI5bk5NV2NsRzNSaWxrUjJ2R2h2UVZNdzAzTFF5dVdFM0pkYmFhelVn?oc=5",
+   "published": "2026-11-04T20:02:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b75de6fc8658bdb6e0b5eb9004eb6e5240a79103",
+   "title": "Correction to Dow Headline on Oct. 22",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029014130:0-correction-to-dow-headline-on-oct-22/",
+   "published": "2026-10-29T13:47:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ef1d3af9bfcf32eb9b1b465af2cef8a4eed467b7",
+   "title": "Dow Launches DOWSIL IE-5619 Emulsion for Textile Industry",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3018692/dow-launches-dowsil-ie-5619-emulsion-for-textile-industry?cid=CS-TRADINGVIEW-FT-analyst_blog%7Ccompany_news_corporate_actions-3018692",
+   "published": "2026-10-29T09:53:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d11963c1692e38e715ad74b29b3b52f814f35bce",
+   "title": "Weekly Recap: Q3 sales and earnings and operating cash flow, debt cuts",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:609ab41fd2f23:0-weekly-recap-q3-sales-and-earnings-and-operating-cash-flow-debt-cuts/",
+   "published": "2026-10-26T07:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0598ef5e0fbce8343ee1a318a8a4b31f080bfcf4",
+   "title": "RBC Capital maintains Sector Perform rating on Dow, $32 price target",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:3c9b2ade56c10:0-rbc-capital-maintains-sector-perform-rating-on-dow-32-price-target/",
+   "published": "2026-10-23T10:08:20-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "899059b991e6226ef917387a7daa914ed8c41f3f",
+   "title": "Dow files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000160/dow-20260930.htm",
+   "published": "2026-10-23T07:44:54-04:00",
+   "also": [],
+   "kind": "filing"
+  }
+ ]
+}

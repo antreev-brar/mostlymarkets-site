@@ -1,0 +1,371 @@
+{
+ "ticker": "EW",
+ "updated": "2026-11-06T06:06:58-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "bdddf9917c1dae451a61761422cd5a6fc8293ae6",
+   "title": "Key facts: EW beats, lifts view; TAVR meets goals; stock hits 2022 high",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:aae0ad1d6cf09:0-key-facts-ew-beats-lifts-view-tavr-meets-goals-stock-hits-2022-high/",
+   "published": "2026-11-06T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f7d84ebbf38bd7f4b5eecee26c3a8e374905905e",
+   "title": "UBS maintains Edwards Lifesciences at Buy, raises price target to $118 from $110",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4f89b168f6fe8:0-ubs-maintains-edwards-lifesciences-at-buy-raises-price-target-to-118-from-110/",
+   "published": "2026-11-05T19:05:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "79c242ea3aaf7d20078fff8d07b8702cbcd1e27e",
+   "title": "JP Morgan maintains Edwards Lifesciences at Overweight, raises price target to $120 from $105",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:96e60b334c7d0:0-jp-morgan-maintains-edwards-lifesciences-at-overweight-raises-price-target-to-120-from-105/",
+   "published": "2026-11-05T18:07:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2237815214bc0522f910add1b790ba927d262f94",
+   "title": "Citigroup maintains Edwards Lifesciences at Buy, raises price target to $117 from $110",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:1dabd1316d74c:0-citigroup-maintains-edwards-lifesciences-at-buy-raises-price-target-to-117-from-110/",
+   "published": "2026-11-05T16:37:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "45ba464dfa1b3ff266098bf0082c078e4e3b09c4",
+   "title": "Leerink Partners maintains Edwards Lifesciences at Outperform, raises price target to $112 from $101",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:bc4e1f8a8b89e:0-leerink-partners-maintains-edwards-lifesciences-at-outperform-raises-price-target-to-112-from-101/",
+   "published": "2026-11-05T14:48:21-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fdc0a1e3b4f35c0c8908bd53a84be62e960e96ab",
+   "title": "RBC Capital maintains Edwards Lifesciences at Outperform, raises price target to $115 from $110",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e8cbc00dddca5:0-rbc-capital-maintains-edwards-lifesciences-at-outperform-raises-price-target-to-115-from-110/",
+   "published": "2026-11-05T14:00:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3ae3672704ce291ba7444429c53b8931cbc66fbe",
+   "title": "Barclays maintains Edwards Lifesciences at Overweight, raises price target to $120 from $110",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f41ef1300eddc:0-barclays-maintains-edwards-lifesciences-at-overweight-raises-price-target-to-120-from-110/",
+   "published": "2026-11-05T13:44:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8080cd73c9a5ba93d448d5ffe39bd432f7c3b03",
+   "title": "CAH Shares Post New Record, EW Stock Hits Over Three-Year High – What’s Driving Today’s Rally?",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/cah-shares-post-new-record-ew-stock-hits-over-three-year-high-what-s-driving-today-s-rally/cNG1qI1R94k",
+   "published": "2026-11-05T13:07:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "177a76a960c3c46625fc0d676395048adc17e8a7",
+   "title": "Bernstein maintains Edwards Lifesciences at Market Perform, raises price target to $106 from $99",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4e329d97928b9:0-bernstein-maintains-edwards-lifesciences-at-market-perform-raises-price-target-to-106-from-99/",
+   "published": "2026-11-05T12:14:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3b35123f6c887e48db5b0c5bd4e785d8b7880b4d",
+   "title": "Piper Sandler maintains Edwards Lifesciences at Overweight, raises price target to $115 from $101",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ba02067ed0f45:0-piper-sandler-maintains-edwards-lifesciences-at-overweight-raises-price-target-to-115-from-101/",
+   "published": "2026-11-05T11:54:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "568b117311b3c28c27a4e6c259c472cf9e193460",
+   "title": "Edwards Lifesciences stock rating reiterated at Buy by TD Cowen",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVEVjUzJZd3ZLMFpPa0kwV3QtbWpSZ0tObnNaNmVtQTl2ekRQcENmZDNISTVfUGdDYlZMUXFZeV9Za21faExrNU5pNVhKTHRXX1Z2Z3I5OWQyTHhFc3FsSVZEeE9NcHFFajNrdVVCZ2VKbnQ1Slg5bk9wTktnXy05Qy1pZDZIMVNpT0dzNk51UXNVclM2VEFwd01tVldZcmhUN2lmaGJVTGhHU0JRNTVwV004dmU0dXIycnVud2liLW8?oc=5",
+   "published": "2026-11-05T10:28:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "405890024d58a63c9fa3fd37a6b269e31601c9e7",
+   "title": "Wells Fargo maintains Edwards Lifesciences at Overweight, raises price target to $113 from $100",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:acb03b9176523:0-wells-fargo-maintains-edwards-lifesciences-at-overweight-raises-price-target-to-113-from-100/",
+   "published": "2026-11-05T10:11:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0c39244e727519813232cc8901cfff14ab5722bc",
+   "title": "Evercore ISI Group maintains Edwards Lifesciences at Outperform, raises price target to $112 from $102",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:bcebb6f309653:0-evercore-isi-group-maintains-edwards-lifesciences-at-outperform-raises-price-target-to-112-from-102/",
+   "published": "2026-11-05T09:19:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bafa1e77dbeebce5b2d3a3a1cc9bf3ec8f0929ad",
+   "title": "Edwards Q3 Earnings & Revenues Surpass Estimates, Stock Climbs",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3023978/edwards-q3-earnings-revenues-surpass-estimates-stock-climbs?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3023978",
+   "published": "2026-11-05T07:46:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9b96f884d9e8ee91f987e8544d3511dc66e44129",
+   "title": "Mizuho raises Edwards Lifesciences stock price target on TAVR beat",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDJlSlpwYTBRLUZkN1JZMzRmSlFXX0ZNRlQ5VkhSOEtMZkpFT3pKaUtWUC1VMkQ1NjFaZjJnRi1Wa2lGZTJLd2tiYmtfZWdIQ3JqTUdkeEpRNWF0MmJjeFkwOVQ0RXpFbGFlQ083bjZ5TDB6cGM0eEVjbVRCTF9EdGxFN0VFR1RfeDVsa2Z4UXFnNU1VWEJOQ09Ga1hGWDhHdy0tYWZ0SmI4Zk8zZ2NaR3RxV2FlYldLX1IwNjhuUkkzMHVH?oc=5",
+   "published": "2026-11-05T05:44:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "55fa124d037b7d995966c1f3905e627eeda8b993",
+   "title": "BTIG maintains Edwards Lifesciences at Buy, raises price target to $115 from $110",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:3959372b754d5:0-btig-maintains-edwards-lifesciences-at-buy-raises-price-target-to-115-from-110/",
+   "published": "2026-11-05T04:52:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3e3ea185cbd4cb6cde19e55eb5c259dc0505c1e2",
+   "title": "Key facts: Edwards Raises Guidance; FDA Approvals; CMS TAVR Rules",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d8371b6616667:0-key-facts-edwards-raises-guidance-fda-approvals-cms-tavr-rules/",
+   "published": "2026-11-05T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7f7649240c9543553e23ee78dbc78339aca732f4",
+   "title": "Edwards Lifesciences Corp (EW) Stock Up 4.4% but GF Value Says O",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSnJGeGFHdFM5TEZHNGl0NUEwWGxSaDFnX0NpeUNsMm5Eem1RZDJPTjN3a3FfZEdpbFgybWtvakc1MUJSR3Z0RURVaTRzNzhreEE2OE1tZ3hUbkpEWGZqMlpodHEwQXJSTGFUY2ExR1M5aVhxaWVSVTVmeXJwOEpSbHU0cGFURUlCWVJxNlp6ZDQ0aHEyRV9QcjlmQTFybkh6aktVRWZxbDVyc0xqSnFMNktHTDVLUEdvNUhqaFVwTFg?oc=5",
+   "published": "2026-11-04T19:30:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aa3d05e02cba06846ebe94fd212dd511fc6d781c",
+   "title": "Edwards Lifesciences earnings beat by $0.06, revenue topped estimates",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUVyMDBzcEhrTDRDOGM0bTBRNmlyRnV3ak1walY0UU9SalRrS2ZYaTdibUY2Z1AtNkdXS1RUZDdvak5ZSktRRkt2QVNCNkY5LVFNNzZsMWtYVEZVbDBXUHdPT3N3Z05HaFlHWlhidmxzYnphTDZWb0VRb3lPQjNhOXVrRU5fM2NESjJuUFpZSEtGQ1A5VG5TN05kSFlqNWZUNkVLSGVFMFBxRm5ZZE96NG1xeDQ?oc=5",
+   "published": "2026-11-04T17:42:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "020d0b03f997f219a43f2001c006d0cbcc42249a",
+   "title": "Edwards Lifesciences Corp. Q3 Income Climbs",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:fb63beda28643:0-edwards-lifesciences-corp-q3-income-climbs/",
+   "published": "2026-11-04T17:30:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b216bffa8259d5c53183972bf130b4c0dffad8d7",
+   "title": "Edwards Lifesciences Revises Full-Year Outlook on Higher Procedure Volumes",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104018720:0-edwards-lifesciences-revises-full-year-outlook-on-higher-procedure-volumes/",
+   "published": "2026-11-04T16:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4f92434770cd0ce1fd67f48a5cc92b30a1457955",
+   "title": "Edwards Lifesciences Q3 Adjusted Earnings, Revenue Rise; Q4 Outlook Issued; 2026 Forecast Narrowed",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3dfODlVWXlBT0F1UXZ1SnNSSkdBdS01N1RoemcxMjJXMFFjX2R3bUxvb2lIOE13MUtJbmFZTGMxSUFwSE9SeG1NNVVGWkp5cE1IRGRpSU9zVTNGWEhveHdEc2RXck92bHhKUGhZUWNJZXBTSk5vY0hfNDcxR2V6b1c4LW5yZktTbVFORlF0S1ZBUUtoOUZfdU1paEZqT3pOQzZzaw?oc=5",
+   "published": "2026-11-04T16:45:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f8da144d60a1670f4df46225243572f1c61efeff",
+   "title": "Edwards Lifesciences Increasing FY26 Total Co Sales Growth Guidance to About 11.5%",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104016194_20261104018169:0-edwards-lifesciences-increasing-fy26-total-co-sales-growth-guidance-to-about-11-5/",
+   "published": "2026-11-04T16:34:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "05d1e845ebebe2fc9c8a3e1901bbaa4a8c8453b5",
+   "title": "Edwards Lifesciences Q3 Sales Rise 10.5%; Raises 2026 Outlook",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:af3b38139eb1c:0-edwards-lifesciences-q3-sales-rise-10-5-raises-2026-outlook/",
+   "published": "2026-11-04T16:33:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6a3053cf31e0430a6ec9726ce8d810b8bacab817",
+   "title": "Edwards Lifesciences 2026: Revenue $1.72B, EPS $0.53— 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:10e956bf6e6ef:0-edwards-lifesciences-2026-revenue-1-72b-eps-0-53-10-q-summary/",
+   "published": "2026-11-04T16:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "406ba31abcb4ecae599f7f5b02f712c125da73c5",
+   "title": "EW: TAVR and TMTT drove sales growth, tempered by impairment charges and tax headwinds",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3876819:0-ew-tavr-and-tmtt-drove-sales-growth-tempered-by-impairment-charges-and-tax-headwinds/",
+   "published": "2026-11-04T16:28:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0e043c3be815eb8851ee07751f210219ebe11315",
+   "title": "Edwards Lifesciences Q3 sales beat on TMTT portfolio adoption",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L1IY:0-edwards-lifesciences-q3-sales-beat-on-tmtt-portfolio-adoption/",
+   "published": "2026-11-04T16:27:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ce2d0c64374b21a9b7fcf342cc056d1506808f0e",
+   "title": "Edwards Lifesciences files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000054/ew-20260930.htm",
+   "published": "2026-11-04T16:24:36-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "2c2371b35adaa5b3ede38ecd70145d7022014ea9",
+   "title": "Edwards Lifesciences 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000053/0001099800-26-000053-index.htm",
+   "published": "2026-11-04T16:21:25-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "de92063edf8e35620eaf1f7ef362f46f72244a15",
+   "title": "BRIEF-Edwards Lifesciences Q3 Adjusted EPS USD 0.8 Vs. IBES Estimate USD 0.74",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-04:newsml_PLXQLZHB8:0-brief-edwards-lifesciences-q3-adjusted-eps-usd-0-8-vs-ibes-estimate-usd-0-74/",
+   "published": "2026-11-04T16:16:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a0c85dd5f2ddcee4aa415355b9a2b55eed9c4269",
+   "title": "Edwards Lifesciences Reports Third Quarter Results",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:ff9705e0a6d49:0-edwards-lifesciences-reports-third-quarter-results/",
+   "published": "2026-11-04T16:15:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "946c6385949508441b22a81b9387ffbcb29aa547",
+   "title": "This Edwards Lifesciences Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaGJ0VWNzX1RFUTZPUk5oU0RvNWxVMFRKWkxfMFIxSmh2VmxsZEdwYXpET1hVcXdUemh6RTdLMlc2b2pla2tSMlhpY09LcnoxeVZGNlFVZE1SdDFJYkNXaDlDLVZaMUdNRGRMWG12T1VlcmYwbG5jSE1HSmhnZjNrUlVacUJFQkVGTW5lTy1vZ2Jibm9URDFWRmRjd2JmbXd3TFpLVEJJUG1FUkMwYVRMdmxITzZqNWxtZEszZkJmbmR6TTJtUlVCTXIwQkMxdVBKSTZVSEVZN0N2QmVIWlBGWHY5eWlSVUl0T1dYNg?oc=5",
+   "published": "2026-11-04T08:59:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bcaa28df64be0216d2b17b1066cae0797fcd0e0e",
+   "title": "Truist Securities upgrades Edwards Lifesciences to Buy from Hold, raises price target to $113 from $95",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:c9834158d38b1:0-truist-securities-upgrades-edwards-lifesciences-to-buy-from-hold-raises-price-target-to-113-from-95/",
+   "published": "2026-11-04T04:56:16-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2900a462c1db28eff8c6f33acf72a108c5c498b3",
+   "title": "Truist upgrades Edwards Lifesciences stock rating on trial results",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0o4WVlPZXNPbUlCS3J0WnRfYjlvczVzZTFhSVZpV0U5UHdWX1JVR1JDd3NFRVhncUhvdVl5cHRpb21TWjZrTzU3R0xCc1JnbWhuVm1vYms2N2tCMVg3d2pYUThzNWY3SmtfOXpTVDFsM0tsNXpBbWhMM0pzbG9SNk5zMFROSG1FOWM2em1zd1YxX04tZEZTM2tmeGx5RzdFVzJzNU9zN1Q1LTc4SWxMa1AxY1NQc0lJM2E2U04talVhY0NT?oc=5",
+   "published": "2026-11-04T02:03:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4999405e9cf5da0a79bcd72ed0f56ec09d9798d1",
+   "title": "Edwards Lifesciences' Progress Data Unlikely to Expand TAVR Market, RBC Says",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRXZZVG1HQ003ekZJbmtKNENBNWZSRjdKaWFVZzk3M1hjMENBSDB1dGoteUxXQUhDNTJKNUxWQVpTcFNWdDBDTUtucFo1MVg1RFVzSUp6Q203ZUFPZVVROGJHejZrSmc2WUVpcEVfY3lLaWY2ZjVVWWU5V2JCWFlrUmRTX2xsQnNpVWxuMmxmbERwUFQzX3Y3ejhPbXdGYmxXTFE?oc=5",
+   "published": "2026-11-03T11:49:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ff77df4c2bb1d108a708945720e066737173aca",
+   "title": "Edwards Lifesciences Highlights PASCAL, TAVR Data Showing Patient Benefits",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa2JuckUwOGRSWk10MXZOUGV4WW5kTHZ4dWc3SU9saEltMDl1WnMyR2NWUmpIbTZLQnU4VzVqNndLQWtBaS1yUV9KM1dWWWlmeEM3SlFwd3FORnRVTkFOVl9BR2YxMHZiNmFBWmxhVnZXd0RSQXVraU91bGVGVTJJc0E4NGNZZTJ3TGhWa2NVVnZqRXBNMzZiQWxBdUJmRUIyaFBQLUdvUQ?oc=5",
+   "published": "2026-11-02T23:12:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0d24f4177b7321fe9b9a11f4539434f63392589d",
+   "title": "Edwards Lifesciences says PASCAL beats medical therapy for tricuspid repair",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4662776-edwards-lifesciences-says-pascal-beats-medical-therapy-tricuspid-repair",
+   "published": "2026-11-02T14:47:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c0cef0672ecc609b270226e991917d0fb7bce584",
+   "title": "Edwards Lifesciences Says PASCAL Tricuspid Repair System Meets Main Goal In Clasp II TR Study",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA6XMBBQ:0-edwards-lifesciences-says-pascal-tricuspid-repair-system-meets-main-goal-in-clasp-ii-tr-study/",
+   "published": "2026-11-02T13:29:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "69985dfb030a893b793bb5f783f257de31105040",
+   "title": "Edwards Reports Superior TAVR Results Compared To Clinical Surveillance In At-Risk Feature",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3ZRQJL:0-edwards-reports-superior-tavr-results-compared-to-clinical-surveillance-in-at-risk-feature/",
+   "published": "2026-11-02T12:46:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4ddccffe2577681ea43abe2c54c132339f19c7e5",
+   "title": "Edwards Lifesciences Continually Innovating Ahead Of Q3 Results, Cardio Portfolio Thrives",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeGNQODFnODBXNHpLc1BVWWI5SndlUnkxdzZBX2dIX1V2MkJrb09OSXB6cGdNZ2k3NF9JSkJOSERwTmtaZ0M2NkhEOUVOWVJOWVdPUVZwRGNtNWs1ZVpGczdTa01leDFiTXVVWDBNUlFiNnk2Y3VuZzE0bmZ5TDRCOXFyZEZVZEtFTXBMdVIwRXkzemJEbUZqMWt4aWpWNklTMkdWYlFFSXJHSjJJQ1BadW9qSGNZdUx4NHpPRXRRVUJwak5HTlE?oc=5",
+   "published": "2026-10-29T07:30:15-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

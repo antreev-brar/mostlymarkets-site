@@ -1,0 +1,367 @@
+{
+ "ticker": "BAC",
+ "updated": "2026-11-07T08:03:19-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "4ef2c00aa07529d11961bcbe5062888d69ed9d96",
+   "title": "Bank of America's Holly O'Neill: \"I'm Very Bullish on What AI Has in Store for Us\"",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106010728:0-bank-of-america-s-holly-o-neill-i-m-very-bullish-on-what-ai-has-in-store-for-us-barrons-com/",
+   "published": "2026-11-06T14:39:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e4bebc7fb519bff5c53645c30fb6b8972e49aec3",
+   "title": "AI stocks will ‘come back in vogue’ but AI data center buildout will slow after Democrat sweep – BofA",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4668434-ai-stocks-will-come-back-in-vogue-but-ai-data-center-buildout-will-slow-after-democrat-sweep",
+   "published": "2026-11-06T13:45:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "331a63e213757d2a289875fccfdcd7e89199bd7f",
+   "title": "Bank of America revamps Uber stock target amid rider-price paradox",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WVDI5S2dOV2QzdVQ1NGp5OEtEcUlrZW9zZmRDOUZmSE1DNzZDN1hENFh6UXFIZE5GdFl3OFg2akM1QS1rLXhGUFpqV1dyRmItOWpmbmNEQ0FtTGNJeF9QMWJKZVdHSTczTjRoWGZ0ajV5eURfOXJSc01uZw?oc=5",
+   "published": "2026-11-06T11:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7d5be54ce1929278410e3ac0a09550456f466055",
+   "title": "BAC Sees Untapped Merrill Banking Potential: Can Cross-Selling Pay Off?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3025637/bac-sees-untapped-merrill-banking-potential-can-cross-selling-pay-off?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cquick_take-3025637",
+   "published": "2026-11-06T09:29:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f7f9a6cbb010e3cbb6bb2b8af6bd06f1163e9086",
+   "title": "Key facts: Bank of America Merges Credit Trading; Restructures Lending",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4864b109e81e3:0-key-facts-bank-of-america-merges-credit-trading-restructures-lending/",
+   "published": "2026-11-06T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "65f117e3ca90650ed85f40bb4544c6bdbbbb3cb2",
+   "title": "Bank of America doubles down on its Apple stock bet",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM25XUUloZjJKX21WYVZWamxJeVlodXN3V1MzZUVsNzhuWUZ5VmduWG5HbTJwWGp4aUV0akoweEVNRWs2T3NubFdaOXRKX3I4Y0RwQTNSRUV4TWgtbnBaZW5kRktyOTlzRkhKTElQUnZzMU5YZlJPTDdvYWloT1pJUk90Y2JCMXRyVnRwQ0w1eV94bjFtRFNwb0Zn?oc=5",
+   "published": "2026-11-05T20:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "428f78d47dfef36f83ae7f5e61c6386c2a98b30c",
+   "title": "$1000 Invested In Bank of America 15 Years Ago Would Be Worth This Much Today",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0ZKSm1BcGJ0Qk0tS0ZOTUJOZVVLSThfOXYtV1RsVk5HUU16clJKd1RueG1McmYwU3pLV1JQNHdXTU5UUmROelUwSXVxR09rSmxTM05XeGJOX203enVHeDZ4Zl9OQkpjQW4yOHJ2aEJDMmU5eFluZmpRdHRwVUQ1OWtGbzlLekxRc25VYkNFTFVvcmk2LTFuVVRXQ0p6NEplZFV3WEdaNDVWdXB4emZ3?oc=5",
+   "published": "2026-11-05T17:16:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "30d72d350299a465bf46fbc6f45f44dc548c080b",
+   "title": "BAC: Growth across franchises, with scaled technology and higher-return targets",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4362855:0-bac-growth-across-franchises-with-scaled-technology-and-higher-return-targets/",
+   "published": "2026-11-05T16:36:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9fd6890c802358352200d31495a607ec4ad42923",
+   "title": "BofA Rejigs Global Credit Trading Businesses To Boost Liquidity - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M1IJ:0-bofa-rejigs-global-credit-trading-businesses-to-boost-liquidity-bloomberg-news/",
+   "published": "2026-11-05T16:24:21-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3578bf64f5ea45d50ccde8d8868f74defda5913d",
+   "title": "BofA cuts Tripadvisor to underperform, slashes PT to $8",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazM2b0stVEY5OWZDbE9ncHJxeUtDRncwZVdZSU5vUmxqYXlPYTQ0N0xWNlpxUjk0dVdEUFNaWmNPZnJORDAybFQ4OGZsWE1qVnJzVDd1OF9DSmkwQmtCU3IzZkc5Qkhqa0VDcHk0ZjZSSGdJM1VwUEVKZ253ZEN0YV84ME9fOXVlVjVvbDdQVzJiT1FuU1VJd1lINm9UU2VSMFdodWJqR0lyb0U5QmZDTklFMllDMTA?oc=5",
+   "published": "2026-11-05T15:33:24-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8b317489b8bb4bfa825e4535c1c3ebbd7e97fbdb",
+   "title": "Nvidia and Microsoft Get a New Spotlight From Bank of America",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTnJISXFqbHhoVmJGcFhaR2o5dGlxclFjU0V1WVk3aTVkdmo4MjhKRU5yTFN1eTd6SndEdUp5dWxJY3lDcTduMTdnZFJkTWIzSDRDOXFiZ21QMjBackZzUlNsRjlWUDZIajBwT0pCdzRObWktLURMX3pMekxVMGh6RWpzRTl0MF8yOG5oaEdva2ZwZVRWVlVwSjJHTXZISlhiSDN3WDBUbw?oc=5",
+   "published": "2026-11-05T14:34:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e19705986a12b3f6cc5a6c2b87a19aa2843ab729",
+   "title": "BofA adds TSLA, AVGO, IBM, others to its Global Defenders list",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOEliQ1JydERlMjZiT296UlVRTGdlbFEtR3dCMW1FbVpnQjVzMUNxd0dnZU9VVVN0ckowQmNIOXgxSEE5cHpZVXBJVXhlbEUwRGlQRTV4ZGVNcnVMZnlSc2w4Sk1XMFRJXy1jeWp3ZDZLYmFiVkE4UTdRMTZhMWdlNklGRU5LMzBVdC1iazVMaVlXXzZodnktN3RsUUpDZw?oc=5",
+   "published": "2026-11-05T10:17:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4d233dbad0af8339198476035272a833a232350e",
+   "title": "BofA adds Nvidia, Microsoft, Bajaj Auto to its Global Contenders list",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0o2WmZ4YThINXNIV25rODlHa1JIT25hcnIxdW9QQTZNM0E5MXE3UHZrM09Ha1psMV9fUl9ha2xrUktGOVJRWF9Rc01nMnRDSzBNT1BDLXlGZXBaT0oxYnlQenQ0dllZTHNPWTNTYnFadGxNRlZjc2RBaFZVcVJJY3lLQ2JVMFpLQmwtTWVsNjNrbHR2TjJacTVTVHVFSVpKMmlHY1Fiei0?oc=5",
+   "published": "2026-11-05T09:22:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "80d196152d5a69646a3e854e5739e0309b0ad9c1",
+   "title": "Fidelity National cut to Neutral from Buy at BofA over potential capital return delay",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1lHNzZ1LTNmQmQ2bzUzVzRFYVI1cDdPUFQ4T09zZDV4ZU9RaEgwdVdoU0xQamQ0cUtpUGxIY2pyWWxGTEVwSzZXNWhCVmRNWU9zN0ZZUzZTc21DS3pJbFlhV3E2YV9mSEltV1dUWFVBWmdjUm4wTWhaUVRkMTRheGtzV0NfYlpuX0ZGOXFzX0ExVG05aVMxV0pGeFY1Wl9VWDZLYVh0b0pnVU9ob1lBbXo1SVpXc2hnT09OUXk4VlI?oc=5",
+   "published": "2026-11-05T08:00:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ce2c9f84edee862fa2a35c1f9585f8e695b151d6",
+   "title": "BAC: NII outlook rises as AI, relationship growth, and capital returns support targets",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4480650:0-bac-nii-outlook-rises-as-ai-relationship-growth-and-capital-returns-support-targets/",
+   "published": "2026-11-04T19:18:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3ee453a126edc5bedfd67e01ff3bc2519fb82ccc",
+   "title": "Bank of America has unexpected verdict on AI stocks after post-midterm Democrat sweep",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWS1MRG9qN0ZQWndMRXo3YlYtRF9GenUwVjVUTUoyWUhHa3lyOVJwU0FJUTB4Y3duXzllbnpONWY3cTVHcWZFckh2Y0lFeUN5X0FNZmpMT0ZxUGpkalcwYVNiVzkwQngxRWZGdC1LcVNJbURHUkRMdVlRdHI0ZV9OaVNORXpWdw?oc=5",
+   "published": "2026-11-04T10:47:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f574881e60bcb88af95b99d59f9e19ab6e484d59",
+   "title": "JPMorgan, BofA prepare $2.4 bln debt sale for CVC's IFF deal - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L0RK:0-jpmorgan-bofa-prepare-2-4-bln-debt-sale-for-cvc-s-iff-deal-bloomberg-news/",
+   "published": "2026-11-04T08:12:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "738e5f8f8d4596ad02f00e532735a608517ee3c9",
+   "title": "BofA raises Expeditors Int’l stock price target on strong margins",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbGZDcUNZTXAtSUVkalZKS2dIcU9HR3lRckR3dGh0VklsX3VFbWY2VG9kQ0xHQkwwVXRmWHdBeTk2Zk9FeW1vSXQza3BKVXlNcFVWVHpNb0Y5aDFaeVRKVjVfZjl3ZnRYU0ZVUEpQa2N3YlVMamExMzludEMzZVRnUHZlSXVxbThvZGFxS2hrOVdUVmlJZG9YMlZER3lucmtPZ0lKQVl6N1JPWDBjQUExWEdQNmpYTk1PR3R2TXVTQXdHUQ?oc=5",
+   "published": "2026-11-04T03:12:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ece89d3d2ba1094374916548ee772726014981a5",
+   "title": "Bank of America 13D update: an active investor changed its stake",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000559/0000070858-26-000559-index.htm",
+   "published": "2026-11-03T15:01:45-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "ed87cc19562f485f856b92b81505f5447044049e",
+   "title": "Bank of America 13D update: an active investor changed its stake",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000558/0000070858-26-000558-index.htm",
+   "published": "2026-11-03T15:00:05-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "14b32fe50171ee46a159472d58c913bebff5a280",
+   "title": "Bank of America 13D update: an active investor changed its stake",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000557/0000070858-26-000557-index.htm",
+   "published": "2026-11-03T14:58:33-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "13321f9a10625b596cf587ccb8b63295388c60aa",
+   "title": "Bank Of America Preferreds: Enhance Your Yield To 9%",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTENNXzhmTDByRG5kUms5WHdfTzFTSHEtUkl4THprVHdOS3IxaFhlQndlX011SWRVV1Q2RzBHMVQ5Tjd2eHRoaEMtMExfaFBzTW1zX3JoU0Q1bEdaREN2WnA4NjF5anl6dnItYWpxUXAyVlAtcklBajJ0TXFkV01tVUtlMmZoaENweHZ1R0g0dUpUeXBTV0lQaFhSRnZjeWhx?oc=5",
+   "published": "2026-11-03T12:04:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a61830f33691546c328b559cf9c39073b4feefb8",
+   "title": "AML Settlement Charge Might Change The Case For Investing In Bank of America (BAC)",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM1Nna2RWbndiY28xMnF0a0FXdDhER1BCbk5mTllzMXJfZUY0OWd3S2VtaDNUNy1jT0l6MDA2NjlWX3dtSV9yOWFlV0N0QURTQ0FiQzgxVnZfWDFnOC1RZTFJOXRITlB2OWVKckVSQ0w1R0NIeDZFSl9mWnRZTVdhM2ZfazNDUnBFN2t4cllCaTI2UVJtQ1Jic28wQkkzV0xw?oc=5",
+   "published": "2026-11-03T03:10:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ee59e2a77b474703aa37390457e33dc9bd5d7f7",
+   "title": "Oracle says $20 billion is all it needs, and BofA buys it",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUjdHTU9keUo0cFNmTUpfTGtPc0xCUmhYcm5tQ05fRklabVV6R1l6MEJWU1dWZTUta1U2UGVucEJZcUVoYURJRlppMkVXdk45M1cxZXNPZ0tBOW5sSW1HNlFrQnZjeGZGZnZaNnFTV245WVNQa2ZVV2lDdlhOMEFEV0hSazdWSzlJNGFHelAwQU40UQ?oc=5",
+   "published": "2026-11-02T18:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "515ca1ddfc88f05f55ab5330ab3b5ee851fdacd9",
+   "title": "Capex cuts could be 'unwelcome' but extend the cycle: BofA",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGIxbU4xbGdwa0h0b3NWLVlwV096elRYalc4Q181MlNRUW5QU2hDVTZ5aU1kQ2tURmdkcnE0NkZhaDZlMHQ1czZiX2NXYXNfbDVSM1V1SEpmcU5vU0lDOEs5aTRRVGRONW91TzRkZ1k2bmh2Qi1MU1hFelhVNXpHUTRwV2JxQW81Vm1hMzJfUkhNMVRHelFtZw?oc=5",
+   "published": "2026-11-02T15:43:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "227106d1e2b2f3881ee4f28e1be386b6a35d3e67",
+   "title": "BofA Securities Keeps Software Top Picks Despite AI Worries",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYm5FZXpjbnlpWFQ5N0pzdWlLRHAyMjdKNlZRc2o0T19vNHpNTm85a0FsTHBVNjB1cklDYVg5bDNieFVkdURuTmkwelU1ME04UmNleFlESW53VXY4c1YybGozRkd3SXBGZWZhN21MU2F1WGJjcXNBamd6YTFjaldwbGhteW5YbnpnYUhRTVgtT0lYSGI1Ykd6cEh5ZXRWeVNh?oc=5",
+   "published": "2026-11-02T06:49:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "af41a12b0ba5eebcefe6ce6dad647ff164ff124b",
+   "title": "BofA cuts Carter’s stock price target on retail demand concerns",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd2pkemNocmxlaV9rOGdmMHh5Qlc0VS1MQV96Y1JhVmg2a25VZGozaHQ4dHFQZzdHNG9NXzI0cnY1OVl0T0p6ek1NWDI1LUxkMUFGZzVlNVRTcXNqeEVGOWhiZ3FkbmZibkN4WXotMEs0T2Fwa3gwMkFQU2lWNTlEZ3B0NUEtc0Q3d0FRR1B5Z0FxVkJhQy1wSFhqY1g0Zng5R3NNME1OYUNzYUxLN09BUVZNY3lkNG9ydHIzTXd6OA?oc=5",
+   "published": "2026-11-02T05:47:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "779f5d75818175f029b1f7cfc551013fa95103f8",
+   "title": "Bank of America Corporation (BAC) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aRFMxeXY5Vml5UjlfaGZhYktxRmo4aXd1bkhDY2lYZ3ctanNxVHFmMGxuYUZpMzFIajl4TC1RbnZ6aHZqNHQ1aGFwbWpDWnZx?oc=5",
+   "published": "2026-11-01T20:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9c9f7936efbf7ac3e1331626b027f1ca5f22ff6f",
+   "title": "Bank Of America: Convertible Series L Delivering High Income With Equity Participation",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQajV4Y0tOSWdvQmtOVzFqeUktbFkyWDhQNTFGOXdkMFlPbklLSlp3Y3VyeWJ4cm0zVlVkOFA2eV9reldmTGVyUmJER1ZDY2lyeGFySDFKUjl0aVppNklsVnMxbi1jMXQydldjNTRmSlZHeC1XS2h3VjZQTGJob2NDc05VWms3MjY0LW5kWEt4NFdsMnRtXzJUWlZfaXRGeTJaeEM2cFpWTGlHTS1jMk5OS3drZ19qcDR2YU52T0dTRHpxYk15?oc=5",
+   "published": "2026-10-31T08:29:35-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8f72dfe2d4194181ee0de7acc1089baa03cfa1b",
+   "title": "Bank Of America Does Not Expect AML Remediation, Compliance Costs To Significantly Impact Consolidated Noninterest Expense In Future Periods",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VF:0-bank-of-america-does-not-expect-aml-remediation-compliance-costs-to-significantly-impact-consolidated-noninterest-expense-in-future-periods/",
+   "published": "2026-10-30T17:28:40-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fa717454a9e39e943685fe05fd07eab1c4ff6105",
+   "title": "Bank of America files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "published": "2026-10-30T17:04:27-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "dd0eecf416b975a4a686c5951f137c146b88dff8",
+   "title": "Bank of America sued over mandatory arbitration policy for employees - report",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4661720-bank-of-america-sued-over-mandatory-arbitration-policy-for-employees",
+   "published": "2026-10-30T16:27:57-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b8877ad7aeeb3455329a8b186a051fb3377aa93e",
+   "title": "BofA's Merrill Lynch to end use of proxy advisers starting 2027",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46G146:0-bofa-s-merrill-lynch-to-end-use-of-proxy-advisers-starting-2027/",
+   "published": "2026-10-30T13:06:30-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b7ff37ded6f6d7914a068679ec262d125e6fcba2",
+   "title": "BofA cuts Floor & Decor stock price target on margin pressures",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObHVRVm9TUWZpdTZvUWF0UE1MWXpnX2dJRExsZFlnMHMyUmJMRUo1WXRlV1pfajdyR0pqOW5RSzc0ckpFc0xIaEpxMmpxZmZ4VWxpWXRsdkQtRWVMXzd2aFB1aDlzeURreWZVQWJqUVJkZ1VsVEFxbnA1ZG02RXptQnFtUVpPdzN6RnMtSlp6UW1yUnBLdXRqM2RhV29IWEUwQklGNTZBRng0cGtwb2ZObWpmeGpJdjVBUld0d09R?oc=5",
+   "published": "2026-10-30T06:51:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4be5e0b2ebec44a55d98bff16a893a729592e878",
+   "title": "Higher yields now hurting AI stock bull as bond markets police capex: BofA",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWkFSVmF0VHpkajRiOVlUbzdtVVpybXIydm4zM1pad01oV2RsUW1mcFpjUHVMaVJwd2c2X1FTZkZMYlhudkZ6bFVxcWJZSTNGSmNNWGQ4ZmdsbW9xWFplZEliNXotazZabWlSUW9UbFAza1FLR0FDNF9zMFRmMDZYQ1lPbmh1SGNKVDFzaUxvZ3ZkalVqUkZUNXl3YThLMGdUYWh2UmU5THJjR1FMenNncUdQVFdWcktxbzBFaXBVbUxnMVdPSnkxNFRR?oc=5",
+   "published": "2026-10-30T06:36:27-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0dce25dd2f040f96696a53094b8c49e1140cf305",
+   "title": "Bank of America Faces Criminal Probe Push From Elizabeth Warren After $1.21 Billion Fine: ‘Slap on the Wrist’",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:55e3e23f9094b:0-bank-of-america-faces-criminal-probe-push-from-elizabeth-warren-after-1-21-billion-fine-slap-on-the-wrist/",
+   "published": "2026-10-30T01:38:04-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f99ea707ca7adb3ba07926524e8735eb1d99d7f9",
+   "title": "BofA clients keep selling stocks, but ETF buying persists",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46F10W:0-bofa-clients-keep-selling-stocks-but-etf-buying-persists/",
+   "published": "2026-10-29T12:03:20-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a396194b96942437e534760c571110b1bacedbe",
+   "title": "Bank of America plans new branches in Wisconsin, Alabama, New Orleans",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46D0PU:0-bank-of-america-plans-new-branches-in-wisconsin-alabama-new-orleans/",
+   "published": "2026-10-28T09:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bb668e6ad6d16034d48788bd738f962e68c3f663",
+   "title": "Bank of America Opens First Financial Centers in Wisconsin, Sets 2027 Entry into Alabama and Louisiana",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:bee8c80f9a44c:0-bank-of-america-opens-first-financial-centers-in-wisconsin-sets-2027-entry-into-alabama-and-louisiana/",
+   "published": "2026-10-28T09:00:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "25bc96325f89d32f77f52e0226364f5a9e6625ac",
+   "title": "Bank of America, Blackstone, Citi and Morgan Stanley Announce Landmark $63 Billion Financing Structure to Enable AI Compute Capacity in Partnership with Broadcom",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:2388e00819ff3:0-bank-of-america-blackstone-citi-and-morgan-stanley-announce-landmark-63-billion-financing-structure-to-enable-ai-compute-capacity-in-partnership-with-broadcom/",
+   "published": "2026-10-26T16:15:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

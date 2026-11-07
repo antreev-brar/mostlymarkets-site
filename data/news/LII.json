@@ -1,0 +1,370 @@
+{
+ "ticker": "LII",
+ "updated": "2026-11-06T06:07:41-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "c0ab4a3b49562c117d20d6749ea2f4e6f41c1a06",
+   "title": "Lennox Announces Building Climate Solutions Leadership Transition",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3NHPWQ:0-lennox-announces-building-climate-solutions-leadership-transition/",
+   "published": "2026-11-02T17:18:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8f54efa521901d965727d95e4bbf36b95bc8c80a",
+   "title": "Lennox International names Geoffrey Dethlefsen successor to Joseph F. Nassab",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:c7621f5ebd224:0-lennox-international-names-geoffrey-dethlefsen-successor-to-joseph-f-nassab/",
+   "published": "2026-11-02T16:33:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cf399b2db0465e872b769293bc4de3aaa68bddde",
+   "title": "Lennox International 8-K: executive or board changes, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000102/0001069202-26-000102-index.htm",
+   "published": "2026-11-02T16:26:25-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "aebb283011dd060cf5678138373727f5a8920c31",
+   "title": "Lennox International Inc. (LII) Names Geoff Dethlefsen Segment President",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:2a36b22e3567c:0-lennox-international-inc-lii-names-geoff-dethlefsen-segment-president/",
+   "published": "2026-11-02T16:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7266a43332e8bdf1c37bd433158bed7cd02dd128",
+   "title": "Weekly Recap: 2026 EPS guidance cut and analysts lower price targets",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:12a30e1bb9f0c:0-weekly-recap-2026-eps-guidance-cut-and-analysts-lower-price-targets/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ce5f057ddd8fdc5edf512d251ad612400abbfcca",
+   "title": "BNP Paribas maintains Lennox International at Neutral, lowers price target to $350 from $450",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:57ae97b01fc92:0-bnp-paribas-maintains-lennox-international-at-neutral-lowers-price-target-to-350-from-450/",
+   "published": "2026-10-30T13:03:06-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9f4b74170d039310a17c57556ee9e17966a0ed0c",
+   "title": "Lennox’s Q3 earnings call: our top 5 analyst questions",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/lii/news/earnings-call/lennoxs-q3-earnings-call-our-top-5-analyst-questions",
+   "published": "2026-10-30T12:43:55-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ab1fb8bf0b94bee822d7e80f0590f383774d3b23",
+   "title": "RBC Capital maintains Lennox International at Sector Perform, lowers price target to $378 from $406",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:09507cb62750b:0-rbc-capital-maintains-lennox-international-at-sector-perform-lowers-price-target-to-378-from-406/",
+   "published": "2026-10-29T16:08:31-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "673677a28d2a05a9b97a6c943fd13361a324e90f",
+   "title": "Lennox downgraded at Oppenheimer as inflation, competition delay recovery",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4660525-lennox-downgraded-at-oppenheimer-as-inflation-competition-delay-recovery",
+   "published": "2026-10-29T12:51:05-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e73617683abc069d387c94b666f4203103cb0426",
+   "title": "Wells Fargo maintains Lennox International at Equal-Weight, lowers price target to $355 from $424",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:9f3399fceeff5:0-wells-fargo-maintains-lennox-international-at-equal-weight-lowers-price-target-to-355-from-424/",
+   "published": "2026-10-29T10:11:19-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3937c3fb589d312b610d81916bf27fffeac63f2a",
+   "title": "This Lennox International Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Thursday",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQX19TUGJSWkE2LW9kUVRweTRlX3pORzVZN1lvZWdLVkVtU3NnNmNYNU1QYk9wTDJ5ZGJSQS03dWZONVdKdDJXU1BBUTFJYTBmcURHejhCV0tiLXU1XzlRdjNxc084NmhLYjZPM0VveE1Pd08yUDdvaXZ4dTk3ZXBYakE2ZkI1SVg4LVBDc2lDejN3OEZoc1gxczlFR3BITk5lNXdWZVBvMjNCbkd2WTV4RjhBdlF1T3BTdW1VZTJrcVJ1NWw3M05LVDdwcjFKYjNZZ3ZYdGJlWFlEaVJ1Z3ZTd2t6TWl0cUk1bFhTQXAtUEtpbFNCdlJ1c1VB?oc=5",
+   "published": "2026-10-29T09:11:38-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "243efe5051674f97f21f99fcec5efac3806f1819",
+   "title": "Here Are Thursday's Top Wall Street Analyst Research Calls: Alphabet, Boston Scientific, eBay, Fervo Energy, Fortinet, Hilton Worldwide Holdings, Lennox International, Palantir Technologies, and More",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPVjZoYVAxRldnTVZOOFBrX3RyQ01DTGdqSW9TMXprNkNsbExEMk9kdEVlZ2t6Q3cxMzhkWG53YWc0NndkazRKQ0xTc0JSOGEwWXJWeEFicGcxdzdPWGlVNXFUV3AyYmpVRC1EWmJ5Qi1vR0xTMkUzQm9TMzB2bFZrcEtmR2xqTTlIVWV5a2JxY3ZzQWFPSnZoMGI1QWdmMkNKdkNNVm04V2xwejNIX1hwWVdnSV9CTjYxekd5UHJRV01Kd3NJNWlaNVczWGlCQ2FnX2pBRzhQbnFqYlhnVXMwMjR0cEkyZERuR3h6XzBwMEVjYlgtSC1DRGVJNm5sOHdjSHdnSEtMV0pLWDdtMTQ1czQ5bWhhT1o3YVowOGlPS0lDekYxZEVYSTNidzREa2o2WVJvV3U5UkV5VEFac2kyeDFVRDlTSUcwZG1rWWotUC03dW8?oc=5",
+   "published": "2026-10-29T08:57:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3e2781e882ec9ebf45a72f97ae7b5b4a91c816ba",
+   "title": "LII Q3 deep dive: Competitive pricing and inflation weigh on margins, recovery plan underway",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/lii/news/earnings-call/lii-q3-deep-dive-competitive-pricing-and-inflation-weigh-on-margins-recovery-plan-underway",
+   "published": "2026-10-29T06:43:18-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5e0bc7b97f0c528e2d4a4952e495df5b2a5caf6d",
+   "title": "Oppenheimer downgrades Lennox International to Perform from Outperform",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d18225b4ed172:0-oppenheimer-downgrades-lennox-international-to-perform-from-outperform/",
+   "published": "2026-10-29T06:31:23-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3181a4d7e4c9feff499c250f5f630b27876b9b05",
+   "title": "Mizuho cuts Lennox International stock price target on earnings miss",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTkhDdGpEcExxeWVLOW5BajZVOUlZb3N4NmNPdnJWTkNTZXdJLUpjbGhUOV9CSC1ITTRWNHN6RHpaYWlrazV1Sy1ZVjZUSWNVRTBYZGxuTWsyemlOckd2c25kcFFoVVlQXy1SY3FiUXljUWNiTkt2ZHhnS1U0TnB3LVNNRmtaa1ZSR1ptTGtTU29vTVFyWUt1RW9UM0xLbEpEbHVpekxiSHlJUFRNT3NVcVY4eTcyYUtqZ0lCdjI5SS1NWlVhVWVr?oc=5",
+   "published": "2026-10-29T06:00:57-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "31369ba3db22e2d5bc1fcfdc6a5c2a7f17b3971a",
+   "title": "Oppenheimer downgrades Lennox stock rating on inflation pressures",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcmtoZGNOM2l2MzRpNExPcElBalZJVnNRZ0lHWDVTMndzaGw5MnR2Z0RqZC1pZkRsLXFKbTVBMDNodkxZeWRiSzBTaFhDYkRBTF9YU1VJcU5PMkFnNnN4d3NoajJfMTYySFdMaWxQeVVMaDRtXzJValJUai05WEpacGttM0tvWF9GLWtVa2JLclRrNThicWhsbkxuYmRwS2xYeFRETzkyUFVBMjJ4LUxZbGhuX2FQTG1xRDdheUpjU2sxSVk?oc=5",
+   "published": "2026-10-29T04:24:21-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1a01b6b3b510573c6b7b159a8173b2e91320f4c8",
+   "title": "Is Lennox International (LII) A Bargain Following Mixed Q3 Results And Lower Guidance?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVVVZDM0cDdvX2pDMlU3UGtSTkctbWhJUWVZc3EzYkRpd0lCMms1c2tTUU96Z2VYTl9qZGk4Y25kMjJzOWQ5bmdLR2dsR1dlZFA3OHFrSXc1Q1FmZFhIMnNhRktqeUZBMEJncTUzZWczYU5QTUpjX0RKdU56aFB1RjAxei1IOUZEdG5ZbHc2ZHEwN2lWNXhRb29UOElQUS02YTBzNHhYeWZVdGM?oc=5",
+   "published": "2026-10-29T04:21:06-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "145210cd45e12e83018540a88b1b61b5d09ebe37",
+   "title": "Lennox: 3 Key Takeaways for Long-Term Investors",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd3oxVHlOaHZZVGd4Qm1TQzZSQkVhcHQ5QXI4S01vX0ZydktoSVJlckpBVXBmdXlsZDBpSUk0NWZyYWpLWm5tdWh6V2tqak5GY283US1BT3VDV2hQZVRGTlFQR1pTbThfVEpBeTFieWR4RUk1SHNOLWZiU0xGeTJ1Wm1uemJ4eXlsc3ZpOWgxX0ZfeC1YblprVGs4bkxEVXc?oc=5",
+   "published": "2026-10-29T00:26:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5dcaae212cfbb6d8a12bac5f02ca50c24c08d6da",
+   "title": "Lennox International (LII) Adds Smart Thermostat Energy Saving Services",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU2JBSHlLOU9ua2RyYlRjTjgxTlRia2hLQWxFLXJxRFlieERyS1UtLWhKbUVrR1lQemNQWUU2cS1WaE1Vd055cFg2UHUyQW5tVHhMWHBuWG1YdGJjbHJjMHI5aEgyd01Jck1NMDgwY2dfZFM0OF9aWXhrQVI5NjZiUjRnT09aVnd0MHhRU3JmQ3dHTXNEbkY0?oc=5",
+   "published": "2026-10-28T19:10:14-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc47aa547a605b1ac0e3c24dd91938b4c5a88894",
+   "title": "Lennox International falls 11% to new 52-week low after earnings miss",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRE9zVndoQmhqZ093TWowOFJvNDJxOGlFeTIxWVNRcmpuaFFVNzJjbUNlZUJTS0M2Y1RIQ1J4OUZ4X1Zqc180OGpIbmtSbTFIZlNlTTlrZXprTDV0blRLWlBabzlaWUlPaG11c09oLVNleXhTNlVNUll1WTJoUU12RV9xTWxGVVhvNTU3YkE0NUhMc0FRS0FGY21oQTRqci1UY0UxREk3R3Ewdw?oc=5",
+   "published": "2026-10-28T17:38:43-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a10342314c45520e16fba099dbd89ef2266e3ea",
+   "title": "Lennox International 3Q 2026: Revenue $1.57B, Net income $221.2M, EPS $6.41— 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:6e6cd25eb1b03:0-lennox-international-3q-2026-revenue-1-57b-net-income-221-2m-eps-6-41-10-q-summary/",
+   "published": "2026-10-28T16:01:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c5e95b5c7d677d09f098cabe8b365107415e03de",
+   "title": "LII: Sales growth was offset by margin pressure; Building Climate outperformed Home Comfort",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3912934:0-lii-sales-growth-was-offset-by-margin-pressure-building-climate-outperformed-home-comfort/",
+   "published": "2026-10-28T15:58:42-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c996717e41747992714c87507c2ae72b1aebda24",
+   "title": "Lennox International files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000096/lii-20260930.htm",
+   "published": "2026-10-28T15:57:59-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "9e2f210a0d7782b52a41e3deafa1683e464836c8",
+   "title": "What Lennox International (LII) Said on Its Q3 Earnings Call",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-what-lennox-international-lii-said-on-its-q3-earnings-call-2026-10-28/",
+   "published": "2026-10-28T13:04:42-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0e35a162b06bcc40a10bbd65b6f2ed9588500e6e",
+   "title": "Lennox Sinks 8% on Slashed Earnings Guidance as “Heightened Competitive Pressure” Squeezes Margins",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTdpUWR2THBoUHhmdmJQTWRla3QwRnVLbVNQbjJMaE5qbTdNNkRaSnI3bkF2dFhrUmtEMzNOUjFGZThqQ0hCSXp4RGg2N0E1bUxYNTd1d19KY19JU2ZQbWtQN3ZQVElaZzY5NGlLVjFqWW4xSFdFWEJ0Wl9aVE5kU2ZRblFTeU15NHRqQlVrZHQxXzh4ZF91QUxYSFg?oc=5",
+   "published": "2026-10-28T12:06:30-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "be65ac7f90b8f179a330f065f7e3c1f1c94d8d35",
+   "title": "LII: Revenue growth was outweighed by price-cost pressure, prompting lower FY guidance and a share-and-margin recovery plan",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4374579:0-lii-revenue-growth-was-outweighed-by-price-cost-pressure-prompting-lower-fy-guidance-and-a-share-and-margin-recovery-plan/",
+   "published": "2026-10-28T12:06:10-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "feb816346a1fabedcac36f1b873bbb0c3f2c8587",
+   "title": "Lennox Says Competition Is Making It Hard to Raise Prices",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028008920:0-lennox-says-competition-is-making-it-hard-to-raise-prices-market-talk/",
+   "published": "2026-10-28T10:53:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "29eca5aa91debe55ecebafad1a9240e2de496ef1",
+   "title": "Lennox International stock hits 52-week low at $337.81",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOODJWT2JUVmRGb2xCYjAxNmxIUk5DeDJNeG9ZQ1hjZ2hxS0R4QUVQWjA5QUpnazRRNDV6dXRGM0dFbHhzME1PVDVHNWZ6UDZySXhodjlrT3hvTkRka3ktSlQ4Nzh1eks0Y0Vod1Vxd0t1TGN2dG85RmNISkx4dEcxVEk3TzJZcC1kTThFRUN5UVlHR0hKTHdlNjhFMENhQUdwN0V4UVFHNGZLSkJB?oc=5",
+   "published": "2026-10-28T09:40:38-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1a0c69e4b8eef77e742d4cf2d91d41fe51ad5597",
+   "title": "Why is Lennox International stock sliding today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2FhR1JEXzREOHR6UDZ6YkNPZlpVX3pkT0lVZUxfTlB2eWVxQ2tFOTgxYV83M3VHVjREcjR3d2hUWHdBSjRkOFhCMWhtbEdyUlc3bkJLWHZwOXhvZkFOTzREM0Q1LVRwN3BnaElmS21vWDkzRmdnaDVMZ1ZhUkNHQ1dSQ3FYWlZyMHQ4b01LXzFuTEJhY2RJaWhRLWkxYy0yOUhxQWY0QXpJLV9rZmc?oc=5",
+   "published": "2026-10-28T07:47:50-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "174f5547dd8dd416c2f638545a748a7db4481ef9",
+   "title": "Lennox Says Higher Costs Are Weighing on Residential HVAC Business",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028005306:0-lennox-says-higher-costs-are-weighing-on-residential-hvac-business/",
+   "published": "2026-10-28T07:18:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6782bbc4515e4092bbd53ad6b4fafcd7f0b4d8ba",
+   "title": "ROUNDUP: Lennox Int'l Slashes FY26 Outlook; Stock Down 5.5%",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:af3e31ccc4e9e:0-roundup-lennox-int-l-slashes-fy26-outlook-stock-down-5-5/",
+   "published": "2026-10-28T07:15:09-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "76403f6d05479c77db8c3f9bb51428377c485953",
+   "title": "LII: Revenue grew 10%, while lower profit and EPS drove reduced FY2026 guidance",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4246242:0-lii-revenue-grew-10-while-lower-profit-and-eps-drove-reduced-fy2026-guidance/",
+   "published": "2026-10-28T07:09:47-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fb8c6ba6ac0eb7e903ec7801e8331d7ba12e2a13",
+   "title": "Lennox International Inc Announces Retreat In Q3 Bottom Line",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:7c1be4fa72105:0-lennox-international-inc-announces-retreat-in-q3-bottom-line/",
+   "published": "2026-10-28T07:04:38-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8021f2351e5717913b0a660da4d5e995195cd536",
+   "title": "Lennox Q3 revenue misses on competitive pressure, inflation",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46E0HB:0-lennox-q3-revenue-misses-on-competitive-pressure-inflation/",
+   "published": "2026-10-28T06:54:18-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f45e42c9520b564036c909a9979048ed06b57151",
+   "title": "Lennox Reports 10% Revenue Growth as Q3 Adjusted EPS Falls 7%",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:fedd995131bb6:0-lennox-reports-10-revenue-growth-as-q3-adjusted-eps-falls-7/",
+   "published": "2026-10-28T06:53:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "822ba688be2ebb3214bb7634189e72c7d07bc953",
+   "title": "LII: Revenue grew 10%, but margin pressure drove a cut to FY2026 adjusted EPS guidance",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3912935:0-lii-revenue-grew-10-but-margin-pressure-drove-a-cut-to-fy2026-adjusted-eps-guidance/",
+   "published": "2026-10-28T06:51:49-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ad29fcbc6c68bdee32fee31f07066317486cecf4",
+   "title": "Lennox International 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000094/0001069202-26-000094-index.htm",
+   "published": "2026-10-28T06:49:56-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d3d0759a839ff479a63360f7c76d5a87c183b116",
+   "title": "BRIEF-Lennox International Q3 Revenue USD 1,572.5 Million Vs. IBES Estimate USD 1,578 Million",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-28:newsml_PLXTVWRFF:0-brief-lennox-international-q3-revenue-usd-1-572-5-million-vs-ibes-estimate-usd-1-578-million/",
+   "published": "2026-10-28T06:46:01-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3e8643f19fe4f1701e2becb6f50c471e0d32f6c2",
+   "title": "Lennox Reports 2026 Third Quarter Earnings Results",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:67ce097a9a8a2:0-lennox-reports-2026-third-quarter-earnings-results/",
+   "published": "2026-10-28T06:45:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "af87fc04d7b3d11d4923a7b8badcd34539252d55",
+   "title": "What to expect from Lennox’s (LII) Q3 earnings",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/lii/news/earnings/what-to-expect-from-lennoxs-lii-q3-earnings-2",
+   "published": "2026-10-26T23:07:29-04:00",
+   "also": [
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  }
+ ]
+}

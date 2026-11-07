@@ -1,0 +1,414 @@
+{
+ "ticker": "AAPL",
+ "updated": "2026-11-07T08:03:08-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "41acd152400b712c947af4bcf143edfca030d044",
+   "title": "Correction to Monthly Monitor on Oct. 5",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106010138:0-correction-to-monthly-monitor-on-oct-5-wsj/",
+   "published": "2026-11-06T13:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "478b4a9b032f4faab037c22b41344ebc5f4408f7",
+   "title": "Apple Draws $31 Billion Of Orders For High-Grade Bond Sale- Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46M3SE:0-apple-draws-31-billion-of-orders-for-high-grade-bond-sale-bloomberg-news/",
+   "published": "2026-11-05T13:38:44-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ce8e43f504f84e0d83fbba88887fc218d3667a00",
+   "title": "Apple raises $7.5 billion from bond sale, term sheet seen by Reuters shows",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M18B:0-apple-raises-7-5-billion-from-bond-sale-term-sheet-seen-by-reuters-shows/",
+   "published": "2026-11-05T11:05:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d176d72f8f3848e8eebf2d4dc7439e788ea36bd4",
+   "title": "Apple Seeks About $7 Billion From First Bond Sale in Over a Year",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX25fSHREY3NhWXh5ZUNNVTRrdWxVMlRDQnRneGh3N2p2dTBXalRnSUJuMkdsZDBPRWZ1WDhINVdSMEdjYUMyY2dDS29ITENRSmYyUGVMWDI1cjhCejBSMDFWRzlqR183SUhvMmhwM0JLMHdLTDdoUHlvTWNKcjJ6ejNMUE1peFlyU0p2YVI3eExrLXA4elRkTllCNUc1RW9acUp3d0RMMTZUOExQMHFR?oc=5",
+   "published": "2026-11-05T09:52:05-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a8ce4e7853d7fb785481dd9cc38f13cb10d818d4",
+   "title": "Apple Seeks About $7 Billion From US Dollar Bond Offering- Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46M3JY:0-apple-seeks-about-7-billion-from-us-dollar-bond-offering-bloomberg-news/",
+   "published": "2026-11-05T09:16:21-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d729b737c76ead271f3994f21a604bb00b40ff81",
+   "title": "Arm Stock Has an Apple and Android Problem",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuVjZBaXd6TElWMGlscnN2dWNpQ0Q2RWQ0a1FGWTZra1VXV1I0ZkVudDZ6OWI5Qy10VXpwdVBIRF9qZGxLaE5QTU5GeVl5bUx1Vi1Lanllc2dzUkpSOEg3ZW41ZENIUWVwb095WEh0VUJwRnRX?oc=5",
+   "published": "2026-11-05T05:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e666f94654306106f48732f5c4713429e80948ef",
+   "title": "Apple cements its status as tech's biggest heavyweight with the stock's best day in over a year",
+   "source": "MarketWatch",
+   "url": "https://www.tradingview.com/news/DJN_SN20261104015949:0-apple-cements-its-status-as-tech-s-biggest-heavyweight-with-the-stock-s-best-day-in-over-a-year/",
+   "published": "2026-11-04T16:18:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e22323478bc380419f35cf838b542f619e6634b4",
+   "title": "Apple’s Supply Chain Faces Big Test From AI Chip Shortage",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GT2JYQXNPZVZQekZ4eVBvUGpRMDRva29mY2hRY0w2YlVCa3dkdjNpblF3eWEyUV9zdDVSTF9xV1ladXdYV2VsU2tKQ1N1VGdEbFFwbUtVS2dUMk1sOFJQelptSXRmQm1UX1JUekxOYmhDQ3pYT19GYktkaGFSVzg?oc=5",
+   "published": "2026-11-04T16:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f9a83b67f026bb9c3a749b9c563b684414e0c214",
+   "title": "Apple cuts employee AI budgets in cost-control push, Bloomberg News reports",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L1CP:0-apple-cuts-employee-ai-budgets-in-cost-control-push-bloomberg-news-reports/",
+   "published": "2026-11-04T15:25:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e24ad182bf9c2b1141994f23a4efd9ba42b2cbba",
+   "title": "Apple surpasses Nvidia in market cap to take lead",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L1CC:0-apple-surpasses-nvidia-in-market-cap-to-take-lead/",
+   "published": "2026-11-04T15:16:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9db70084ef86ce136fca59554b6dff3d84a57b95",
+   "title": "Apple Cuts Internal AI Usage Budgets In Move To Reduce Spending -Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46L2T2:0-apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending-bloomberg-news/",
+   "published": "2026-11-04T14:50:46-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a45c598ebb90cd176b6a64e373eaa9b3a99d12c7",
+   "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWmplNFEtTXU2b1NKbUJMa01Wd09UUGVIdGVFLS1UM053RUNzRlpKX0pOb3JTcWFzZjlUSkdobEcyVTM5V3U5WTJKWDNnWHN4ejF1dXpGcFZ5eXY5eVVWaHVfZGpSb3pVVW8zWnlWeG5LUlFsWHF4V2FiWlFEbW4wSUt1MDE4UDZUSmdCclYycFdwNERTWTk2MlpCb2hUbUg2Q3Zmc3Jn0gGrAUFVX3lxTE9Rc0NOODZwbWVUdjMwQTNON09qTzYtcFdOSy1MaVRsWTh5TW1jT2NVdndaeW55RkowcXlwOEpiUTVzLXBsWjhWbmtSRWVzZWJBSi1DWnAxUlA3elBKUGdvZFpEQlNBckpUUjNFeWVYbENaTDNDT0Fqczdyd3VoU1JQS2wzcXd6QkRSUUxPU1c0c0J6ak1NUEdGZGk1Sms0X2hBbC1LNUNmV0I0VQ?oc=5",
+   "published": "2026-11-04T14:37:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "be92ce50586238f1b3b5bbfa94a6f956c1071519",
+   "title": "Mag 7 Stocks Rise After Elections, Set to Add $600B in Market Cap",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104011140:0-mag-7-stocks-rise-after-elections-set-to-add-600b-in-market-cap-barrons-com/",
+   "published": "2026-11-04T12:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "84d99eef9ac2cee50d732bf82e9d7798e5ea46e5",
+   "title": "Apple’s Growth Machine Is Slowing. High Prices Might Not Save It.",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdXg1T0wzZEdfLVgtQjFMTXdtM3ctMGZDM3kta2tabVczRUZkNU5KMUdJTTk4SkliaGhnSzllNllMaWt5ZG0xUC01WjdyTmR2UEFlNkg2QVlTNXlEalI0YmV5dVFycUtnbGdNcDh4RzNNSkg3VmdESlM4MmVrQkNmR0JSa2lfblk3MGlQenktcUtvSnVhTlB3TGxLNElBcnZ5V1E?oc=5",
+   "published": "2026-11-04T10:37:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1c7a5f560ebadbbcb1260e646b3ca078b50bfa7b",
+   "title": "Even stingy Apple endures AI collateral damage",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46K0ZQ:0-even-stingy-apple-endures-ai-collateral-damage/",
+   "published": "2026-11-04T08:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f45edb4ac0ba2a4180f572b4ec635a849d3e6f9b",
+   "title": "Apple Is an AI Safe Haven—but Safety Isn’t Cheap",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXB2Vm1NLVhnZGpidHJQanlpdzBaZjRWSmxBc1dMOWdWdXRIWlpPOWpLeHhTdGJPU1VFQnBzV05sUU1tcmdNSTZHZ1k1RDA0OXRiR0V4VDVGTHJNY2JuRHlhZGNBa08yaE5SSkhyWXJJYVVibUlReVdZQWJaRVVoMExkblVETW81bTc2QU43ZkFZTGZl?oc=5",
+   "published": "2026-11-03T21:37:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f38bb785de0440204dbfd3e2d2ce9fafc0a08f3b",
+   "title": "What analysts are telling us while Apple’s stock falls after earnings report",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSi1VSkN0WV84bHdPV2Fydm9ETUxMMjhzbnlFSFc3MjZvMzVhRG5GRHFvMVV6dlB2LUFNdm5JeWdfVjJUZkhpeDVUbjJMZjdweTFKRDdpM2hPSlF5VDJERWZwSlctVkdENVljX2JSWG5nQVpHOGRQaDJaV0NyRmdQdGkxVDhQaENHS1VIUTlCTVFDVzRSWTZZYllpekJuQ1JNMGZ5MTZoSS1KTjJydWN0WQ?oc=5",
+   "published": "2026-11-03T17:48:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4df861c11bfaf7e907f398e74df33ab227824dc3",
+   "title": "Apple, Palantir, Pfizer, Marvell, AMD, Bloom Energy, Gartner, and More Stocks That Explain Today's Market",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103003335:0-apple-palantir-pfizer-marvell-amd-bloom-energy-gartner-and-more-stocks-that-explain-today-s-market-barrons-com/",
+   "published": "2026-11-03T16:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "19fcf98d66f5d9bc2e37e37f07cbdf3cce60ea50",
+   "title": "Apple Paid Almost 5% of U.S. Corporate Taxes Last Year",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103010091:0-apple-paid-almost-5-of-u-s-corporate-taxes-last-year-wsj/",
+   "published": "2026-11-03T16:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "738212422d492c94864315af2ee3b5ed5818563e",
+   "title": "Apple: The Midterms Won’t Save It",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6RkNJaloxY2pfNWF6c1djdVBGV2pSUFBfNmdmRk5FNGtYODBRald2T1RjeWdET051NkRwUlB5SDdHU2ZqOWU5M19ZQ19sa1JPaUh6ZEFjZTdFT1p6UXVuTUpqV0NDelBldzFTR0s1aHdlVlJqVDRZOHVnRU4?oc=5",
+   "published": "2026-11-03T15:30:38-05:00",
+   "also": [
+    "24/7 Wall St.",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7399028b7f6da15209677647b9c136003c36866b",
+   "title": "Nvidia and other Big Tech stocks lift Wall Street and make up for a drop by Apple",
+   "source": "AP",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOekRxNGUzaWpTRy1SLXpVUmlsbkNPVWMyQ3Q4WWx2eHFvRjhvUzViNUtXcGlxLVlmdlphQUc2bk5CX2ZwVmp5RnJQNTJxaVdjd0dra051ZUJNaVpQcVFVQjBPa1MtY0tEZ0N3MG9VMGJWWXZ4cXoyRzhKSm02NHJLbDdlYUpVbE4tbnhuOEZodFlmX0k?oc=5",
+   "published": "2026-11-03T15:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cb2aef7b8f6d172de0b6c37e96f51e6220581ff4",
+   "title": "Apple Ramps Up Commitments to Combat Memory Crunch",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103009695:0-apple-ramps-up-commitments-to-combat-memory-crunch-wsj/",
+   "published": "2026-11-03T14:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e3215972302020966d300f09a0862110799a031a",
+   "title": "Apple Health App Expands Support To 11 Languages Including Chinese, French, Japanese",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46K277:0-apple-health-app-expands-support-to-11-languages-including-chinese-french-japanese/",
+   "published": "2026-11-03T13:29:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0831c84508ad3049084a362d437b4bda7564f2a0",
+   "title": "Nvidia Stock Jumps and It's Set to Surpass Apple Again",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYzZKaktWWi1qSmtNT3paUnJfRjB5QUpjODNwcUJQblg2TnlWaWt5OWxUSTRuTTA2dHM4OG15czlmbkxSZkhweXA2WXV3Nl9jXzVReWVZRUFRVE5TbXp1OEpNajZvTTlnelFOSDBpS1FuMGFpblMtX1JlTEtrdE83MlJPaw?oc=5",
+   "published": "2026-11-03T13:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d0991f9f8337aacb0decdac6a940fe596a5c8dae",
+   "title": "Apple files its 10-K annual report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+   "published": "2026-11-03T08:05:15-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "1b0783cf64db850fd17ecae50178a0851a7ada7e",
+   "title": "Apple shares slide as higher memory costs fuel margin concerns",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46K0SY:0-apple-shares-slide-as-higher-memory-costs-fuel-margin-concerns/",
+   "published": "2026-11-03T06:32:30-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4b0d132c0c9209b4af50193abcacfe50331785b9",
+   "title": "US stock futures mixed as Apple slides, midterms loom",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46K0PL:0-us-stock-futures-mixed-as-apple-slides-midterms-loom/",
+   "published": "2026-11-03T05:40:51-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1e8734cf746cc3c1969ea593b9e8b960dc90c65e",
+   "title": "Why Apple Stock Is Falling: 'Unprecedented' Memory Costs Hit Margins",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103002374:0-why-apple-stock-is-falling-unprecedented-memory-costs-hit-margins-wsj/",
+   "published": "2026-11-03T05:20:00-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d5b4d7df0916b95f666dd6e65e5ff7b8ac82d95f",
+   "title": "Apple posts stronger-than-expected revenue in first earnings report for new CEO John Ternus",
+   "source": "The Guardian",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNC1QQUxNVG5GNHdHNWRMZFhydGtCTnlwcmhFOEgtTzZuMXN1QnBUOXVIeW1EWDBrZy15enZwdXloYVFLVjR3UEhsUU16RmpiWDdSLXR4T0RmcnJKdVgxUFJXYi1rQ250SVpVWHdPV2pETEhOM2VVX3BMLXFZeU9XSng4enU4VWhBZDdNVlRSTVM?oc=5",
+   "published": "2026-11-02T18:07:00-05:00",
+   "also": [
+    "Invezz",
+    "CNBC",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4ac0a440eb656dae39dc2bf789c55f3d0dbebc99",
+   "title": "S&P 500 ends down; Apple dips ahead of quarterly report",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J199:0-s-p-500-ends-down-apple-dips-ahead-of-quarterly-report/",
+   "published": "2026-11-02T16:41:42-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "76792b1d4efd8e1837667caf5605056406d473d4",
+   "title": "Apple results beat Wall Street expectations on strong iPhone sales",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTGFsc2NMYXRUbERoRkphY2hPVWNDM0ZRRmw3OHZzNnlfN0h1aEowUG9uaHZraTJPNlcyVFVYZGVjYmx2Ui01d09OTm9YejM3UGF1aUJKcHVUSUxxb0ZGNTktQmVuRVF0X0pKYTF2clJ6YnJpVmNmUEZESHc4ZWRqMkt1d0VyMEV2RVZlUkYtUE9EcW03ZXB5RzFmQk01endLRWtzNFpnVGd4el90TFUxLWhxaXRxYUsyT1lmbjIySjQ2NXcxdVE?oc=5",
+   "published": "2026-11-02T16:36:38-05:00",
+   "also": [
+    "Dow Jones",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8822d1a83ed4dab3f672b88fd943226b8a82f461",
+   "title": "Apple forecasts margin drop in holiday quarter as rising memory costs bite",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J19M:0-apple-forecasts-margin-drop-in-holiday-quarter-as-rising-memory-costs-bite/",
+   "published": "2026-11-02T16:36:17-05:00",
+   "also": [
+    "Dow Jones",
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "60f7018e41b8fd1db3024f8055834bc7b9f9cb5d",
+   "title": "Apple 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
+   "published": "2026-11-02T16:30:23-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "2808cbbe1b564d2d9c3365ddefbd037711aa4515",
+   "title": "Apple reports after the bell. Options traders expect a big move",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlpFbzQwU0htUVNpYUcxWWhsbjFiOXdtNzRGUmlOUkJUVWlJV3ZEd0pZaDFFeUMxcmM0T0VXaHFPa0FZZ2t1Snh4dm4xalpVZmpqa29JaTZRaVNYVG5ud0pfb3pub0FzcVR3X2dhejhxNk93OHgyekEzM3pvN3BYMlhMN3BkX0ZINUF4RFdKa2o0UWhPNE5BZGRVQVpBR21f0gGmAUFVX3lxTE41TjU0OG5oM05palprcnhiUHpVSnhYaFgxWmNlQjFHTmpGc1prN0wxWVIxeDdZc0J2dEZrZUF3NC1fWm1pYWM2REdZdEJvck1VZWFhaEdHRGVuSHk3eHlRT0FpUVlWeDJPLXRqMmdJSzdDMHpKNnE2VDk5dDF6WklIRi03YW50b1hHelliYkJxWGVaTU5QNnd6ZnRyaFRrOEdva3FJM1E?oc=5",
+   "published": "2026-11-02T13:19:03-05:00",
+   "also": [
+    "Zacks",
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "375ac91b3faa1cbf27af46f4f31046600d8c993b",
+   "title": "What to Watch For in Apple Earnings Today",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102006779:0-what-to-watch-for-in-apple-earnings-today-wsj/",
+   "published": "2026-11-02T12:08:00-05:00",
+   "also": [
+    "Stocktwits",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "88798436dced8f321c58558a851463e96e0f58d2",
+   "title": "Apple's healthier core",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46J0OT:0-apple-s-healthier-core/",
+   "published": "2026-11-02T06:33:56-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ec3d91af77399c93dc31068aeb5487e9ef7fe3bb",
+   "title": "Apple’s $1 Trillion Rally Leaves No Room for Error on Earnings",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjc5RkZlVlNFVy1jRUNDbnhCZGJLd3JWTWVMMnV6LUlWaUpxNWFNSmRrTFVWMmFwaDVmSERlTTlVdzZEVHJmVmViemgzMnB3dXBha01ZeXg2a2ZNNEQ5dzN3RWgyQktQVFRYZnRkWko4aTduQjliWTljSmQzYlBiSnJWSU5POVZtRVNtNnBGc2NEc3lFVEs1Y2l5QXpZa1p4bndfcUFaU1VIVVp0NFF0XzlB?oc=5",
+   "published": "2026-11-02T04:57:33-05:00",
+   "also": [
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e0390dd6fd2179df6716543dbb54359a89400c7e",
+   "title": "Stocks bounce as Apple earnings near, oil falls",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbXpaWVRrQUkzYThuc1E5TnFCUXBTSTV2bHNaR1FhUmdEYnhjSHVneFdpbGhjeENwWlE2WVE1c3FCUV9qeGZzRGNoNFEzdERMblBDb005a2NBV3B2YzdfNF95dGtrVmxiNlJrNFU3UC1BTnZHcVh4a3hna25vdEFkSEtMUQ?oc=5",
+   "published": "2026-11-01T19:41:00-05:00",
+   "also": [
+    "Investing.com",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4a8e6a19efcf58999cbb24e24b2034edc82518e3",
+   "title": "Apple Overtakes Nvidia to Become World’s Most Valuable Company",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQemhEdzVEaEpkYUJtQ2dYN2c3MlQ1N01MR0oxMnNheDZlbXVzaEJJd2k3bksyWGZwR0stcFZUOTNJZFB5dU1jajQ3RVZZYTBodlRJQXR4TG5tbjRibWYtUk9pUVpOWFZ5UGNOQV9sNnUyR3dfZllSSm81U2FjMDJFQTBsOU9XN2ZhRkVoTVBNdWxtVmJzdEVLRElxU2dkdG1HdjU4cGp6WmhjLVVEenJqQU80aw?oc=5",
+   "published": "2026-10-30T16:28:39-04:00",
+   "also": [
+    "Yahoo Finance",
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "674aaa38a9253e6b06b7d60eec6a9843e81f2e9b",
+   "title": "Apple Introduces The New 14-Inch Macbook Pro With M6",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA7VHDCH:0-apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "published": "2026-10-27T09:14:39-04:00",
+   "also": [
+    "TradingView",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  }
+ ]
+}

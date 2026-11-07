@@ -1,0 +1,367 @@
+{
+ "ticker": "SMCI",
+ "updated": "2026-11-06T06:08:36-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "733d3341ba6721ada81ae479d2f9ea1269359c8f",
+   "title": "Supermicro files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/smci-20260930.htm",
+   "published": "2026-11-05T19:25:23-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "2722b731092c5e2ef8b85da6d5f2b8d9994aee8d",
+   "title": "Supermicro Stock In Focus After Earnings Beat And Higher 2027 Sales Outlook",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbkNKbERvQVRfbDBGeTZLWVVnLUJLRC1WeW54VXZ5TEkwZHZjWjJfeHc2VFpuLUxueDNQazhld2cyd25YdnRlQ1pCckdzOVYxZDVhbENkMkZibGhIRnJUanlaZGhRVHlHYkxPVUIxblFxdERvQ0xwOTlWOER3cll5WjhNSjZMa2E3SWZRSW9kRmp4cDFBeDNxb2RmcXotS18xVDE4?oc=5",
+   "published": "2026-11-05T18:18:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d04634bb487370cf4c5a4b39cebfae8bb9124d95",
+   "title": "Nvidia Stock Tumbles. IBM and Supermicro AI Deal Delivers 56x Speed Boost",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9175242/nvidia-stock-tumbles-ibm-and-supermicro-ai-deal-delivers-56x-speed-boost",
+   "published": "2026-11-05T13:45:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ff00791b233ff5ae3857ddfbabfa7a0546eb08e",
+   "title": "SMCI Stock Falls 5.7% After Q1 Results: Should You Hold or Fold?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3024554/smci-stock-falls-5-7-after-q1-results-should-you-hold-or-fold?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cmost_popular_stocks-3024554",
+   "published": "2026-11-05T10:22:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1b5106cf992698c5ef5201456b62eb31c9cf7568",
+   "title": "Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:67e425f7b0700:0-supermicro-launches-kv-cache-solution-with-ibm-and-nvidia-demonstrating-significant-inference-performance-benefits/",
+   "published": "2026-11-05T09:05:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "ea57317d613eb038239400e65c55429b38832e47",
+   "title": "Super Micro Computer (SMCI) Launches KV Cache Solution With IBM and NVIDIA",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:b4c98aee603f6:0-super-micro-computer-smci-launches-kv-cache-solution-with-ibm-and-nvidia/",
+   "published": "2026-11-05T09:05:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ac86d11e2984a67ee1b20818b1da008a8b789d6c",
+   "title": "Super Micro's $19.9 billion quarter exposes a hidden problem",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9174227/super-micros-199-billion-quarter-exposes-a-hidden-problem",
+   "published": "2026-11-05T07:00:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5afe0cb491e4fec6d0865ea5185e9cb56ee179a3",
+   "title": "BofA lifts Supermicro target despite AI margin concerns",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVlRhOVpyVHJ1ZWRLeGxkNmZwMy1GXzIyaF8tNWxreXFiSzhiMnRnMnF5RWttc0dqTjFlVE50dU1RWWxuTGNwdDlTNVRKbkJCOVNPRUlSbWZUTmt0bUVQb0pLQVExUjFfbzFYYmJXWElHM1VBTV9oMHhNWDltSzk0SGJ6eXRzQ3M2Wm8wdnd2TnFTWWpSdkdOdzZuX3JZRjg?oc=5",
+   "published": "2026-11-04T21:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "31893785a44122f9116fd448bf3f07592262ce76",
+   "title": "Super Micro's AI Boom Just Got Much Bigger",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9169514/super-micros-ai-boom-just-got-much-bigger",
+   "published": "2026-11-04T14:28:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d80aa95467899c7fee7bb9a6012a998af1b8f26c",
+   "title": "Super Micro Stock Soars -- Raises 2027 Sales Outlook as AI Demand Surges",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9169448/super-micro-stock-soars--raises-2027-sales-outlook-as-ai-demand-surges",
+   "published": "2026-11-04T14:11:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9e1116bd2e2b659dcd2b6fa1d5ff58b0337bc11c",
+   "title": "SMCI Stock Near 3-Month Low: Super Micro’s Earnings Beat Fails To Ease Analyst Concerns Over Margins",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/smci-stock-near-3-month-low-super-micro-s-earnings-beat-fails-to-ease-analyst-concerns-over-margins/cNGL18LR93M",
+   "published": "2026-11-04T12:15:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "afba2799432328627339e2ac896434f6d816566d",
+   "title": "Super Micro's Revenue Soars 298%. One Number Raises Questions",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9169440/super-micros-revenue-soars-298-one-number-raises-questions",
+   "published": "2026-11-04T12:04:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0fa432b0e151dd8a3453d8e15573407b66eca0ba",
+   "title": "SMCI Q1 Earnings Beat on Large AI Deployments, Outlook Raised",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3023109/smci-q1-earnings-beat-on-large-ai-deployments-outlook-raised?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3023109",
+   "published": "2026-11-04T09:11:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fe6e6e125bb0b28b4f62c2e3327635cb5809c139",
+   "title": "SMCI Q1 Earnings Call Highlights AI Growth and Margin Pressures",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3023052/smci-q1-earnings-call-highlights-ai-growth-and-margin-pressures?cid=CS-TRADINGVIEW-FT-analyst_blog_plus%7Cearnings_call_takeaways-3023052",
+   "published": "2026-11-04T09:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8f119373670fce6346724dc4f9a8a0404eed1672",
+   "title": "Supermicro's strong Q1 bodes well for other AI server providers: analysts",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4664736-supermicros-strong-q1-bodes-well-for-other-ai-server-providers-analysts",
+   "published": "2026-11-04T08:45:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b979d49af97c05a523fa626381aeba5d64e7b36a",
+   "title": "Rosenblatt maintains Super Micro Computer at Buy, keeps price target at $57",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:697115b5e25a9:0-rosenblatt-maintains-super-micro-computer-at-buy-keeps-price-target-at-57/",
+   "published": "2026-11-04T08:00:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7b93c5b83a417f8ce7ba730ce8dd9fae75fb3874",
+   "title": "B of A Securities maintains Super Micro Computer at Underperform, raises price target to $39 from $38",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e3eb1d3d10bb3:0-b-of-a-securities-maintains-super-micro-computer-at-underperform-raises-price-target-to-39-from-38/",
+   "published": "2026-11-04T07:03:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "393ff8de0d5f7ae353eb802f9910b3cb5bbaaa6b",
+   "title": "US Stock Futures Rise As Democrats Make Midterm Gains — AMD, SMCI, PLTR, SPCX, DJT In Focus",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rise-as-democrats-make-midterm-gains-amd-smci-pltr-spcx-djt-in-focus/cNGLEtIR93P",
+   "published": "2026-11-04T04:51:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f66b968b8ad735e89d977d6b9b22d0f1cf440b44",
+   "title": "Supermicro tops Q1 estimates, offers strong Q2 outlook",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNHU3czI3cm1Gc282cDVnTUh1YXlDV2Vfel9tSmFjR25Say1IQkF1TVUzNllyZUxKd2R3NGdzWHBYVi1raE1pY09WZWRKc0ExSS1iYllhQ3BhNlVQSVV3WnBQNGpqSGdkNldJdEpwcTktRE82RG56LUtKTTFLVkxrV0w2em91eXpwc1RRZW9GQThfbjRvcDBHVUYzaUczZW0tRDlwcG1xZmRvODlvZkEybzI4cw?oc=5",
+   "published": "2026-11-04T04:38:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cd118f1685f9aaaea88508d0feb774095b458c90",
+   "title": "SMCI Q3 CY2026 deep dive: data center demand, AI mix, and supply constraints shape outlook",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nasdaq/smci/news/earnings-call/smci-q3-cy2026-deep-dive-data-center-demand-ai-mix-and-supply-constraints-shape-outlook",
+   "published": "2026-11-04T00:33:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a2e9747a3891e3cd60895f9c63fcf242a470af17",
+   "title": "AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print ‘One of the Best Prints of the Season’",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:957c75d82094b:0-amd-super-micro-shares-jump-after-hours-as-lisa-su-eyes-80-growth-in-2027-analyst-calls-smci-print-one-of-the-best-prints-of-the-season/",
+   "published": "2026-11-03T22:16:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "79b72ab1c036bd4586c4ede7bb5a13410287fd05",
+   "title": "What Super Micro Computer (SMCI) Said on Its Q1 Earnings Call",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-what-super-micro-computer-smci-said-on-its-q1-earnings-call-2026-11-03/",
+   "published": "2026-11-03T22:14:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "26d916262136b14bbfaa7d5a8bbf33c1087ad95b",
+   "title": "Super Micro's stock pops as earnings show booming demand for AI servers",
+   "source": "MarketWatch",
+   "url": "https://www.tradingview.com/news/DJN_SN20261103012131:0-super-micro-s-stock-pops-as-earnings-show-booming-demand-for-ai-servers/",
+   "published": "2026-11-03T20:12:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "473609a27135a507223500ab65b1b0b97f48f2e5",
+   "title": "Super Micro’s Q1 Revenue Nearly Quadruples To $20B On Surging AI Server Demand",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/super-micro-s-q1-revenue-nearly-quadruples-to-20-b-on-surging-ai-server-demand/cNGhsPWR9dk",
+   "published": "2026-11-03T19:02:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "12c8b8877b459b0ab282d195b5e8bebacad09466",
+   "title": "SMCI: Record $19.9B revenue and higher FY27 guidance, tempered by supply and deployment constraints.",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4441134:0-smci-record-19-9b-revenue-and-higher-fy27-guidance-tempered-by-supply-and-deployment-constraints/",
+   "published": "2026-11-03T18:30:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "db425c8cd6b1bedf4ba8c59e8ccc1f1da242dd44",
+   "title": "Super Micro Reports Strong Earnings Beat. The Stock Pops.",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103009435:0-super-micro-reports-strong-earnings-beat-the-stock-pops-barrons-com/",
+   "published": "2026-11-03T16:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9979bd674752dccad1977896032c9826feff7526",
+   "title": "Supermicro climbs after Q1 results and outlook show successful AI strategy",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4664035-supermicro-climbs-after-q1-results-and-outlook-show-successful-ai-strategy",
+   "published": "2026-11-03T16:45:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9078784def7a31502bcf2810257903e6d3739d11",
+   "title": "Super Micro Computer 1Q Revenue Surges on AI Infrastructure Demand",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103013355:0-super-micro-computer-1q-revenue-surges-on-ai-infrastructure-demand/",
+   "published": "2026-11-03T16:35:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "605118088fabf0da4b15530356792cd5bdaa7bbd",
+   "title": "Supermicro 8-K: quarterly results, other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000026/0001375365-26-000026-index.htm",
+   "published": "2026-11-03T16:31:04-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "3967794c311897eb4afd2e694ff01334c5c226bd",
+   "title": "Earnings Snapshot: Super Micro Q1 net income surges 847%; Q2 sales guidance tops views",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4664174-earnings-snapshot-super-micro-q1-net-income-surges-847-q2-sales-guidance-tops-views",
+   "published": "2026-11-03T16:30:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "96885443088ad0d257af8319878dfb0150c6ec63",
+   "title": "Super Micro Stock Rips After Q1 Print Tops Its Own Preliminary Figures",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:1b1a8126e094b:0-super-micro-stock-rips-after-q1-print-tops-its-own-preliminary-figures/",
+   "published": "2026-11-03T16:19:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6ce1b7dd667150925da438e1be7377555f67cf19",
+   "title": "Super Micro forecasts quarterly revenue above estimates on strong AI server demand",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46K14W:0-super-micro-forecasts-quarterly-revenue-above-estimates-on-strong-ai-server-demand/",
+   "published": "2026-11-03T16:17:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c327c777b5b39b95c0664aa3a57d3e116bb9c071",
+   "title": "Supermicro forecasts quarterly revenue above estimates, after Q1 sales jump to record amid AI datacenter transformation",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46K14P:0-supermicro-forecasts-quarterly-revenue-above-estimates-after-q1-sales-jump-to-record-amid-ai-datacenter-transformation/",
+   "published": "2026-11-03T16:17:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5dac21d2f0914db01de5f3a7cbc2a847f90a2aa2",
+   "title": "Super Micro Computer (SMCI) Stock Dropped, So What Is Driving Attention Now?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdnhFb1NvQVdPOS1yWlBhUU04aHJXYk9iQ1Vodk5ZT2ViWDNraEdJMC1wcGxkNWZfMkJSdzRWMTQzbC0zSGI5aGJxUWsyX0FNOHRrWWVDR1dxRFZEdUZZVFNJSGRieHJCYVU5X2phbGtoR1M2WTZXOFR1OEVURC03eGRfcGN6YkFtTFBtZ3VRdWxlYlJRZ0xsaHRhU1E?oc=5",
+   "published": "2026-11-03T16:10:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b3dc9ba7ade5f452fed7ece9c264ef4522e87651",
+   "title": "BRIEF-Super Micro Computer Q1 Adjusted EPS USD 1.81 Vs. IBES Estimate USD 1.23",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_PLXV8XW4M:0-brief-super-micro-computer-q1-adjusted-eps-usd-1-81-vs-ibes-estimate-usd-1-23/",
+   "published": "2026-11-03T16:06:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4803165a03d0fbbc4ee82aaeab0660a4ed90b5e9",
+   "title": "Supermicro Announces First Quarter of Fiscal Year 2027 Financial Results",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:f3335292201c6:0-supermicro-announces-first-quarter-of-fiscal-year-2027-financial-results/",
+   "published": "2026-11-03T16:05:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "3d3ec2ec420c33a83c1f74c0e668ff89a8199101",
+   "title": "Super Micro's options wildcard: 12.51% post-Q1 swing, calls in focus",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663807-super-micros-options-wildcard-1251-post-q1-swing-calls-in-focus",
+   "published": "2026-11-03T13:18:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0340b7ab7b364e11137889703c1b064cfeeba1bb",
+   "title": "Super Micro Stock Slips: What's Going On?",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:4caa3abb9094b:0-super-micro-stock-slips-what-s-going-on/",
+   "published": "2026-11-02T14:49:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "723c99c7ef0d1c763e64bd21179f920c429135c8",
+   "title": "AMD, Arista, Supermicro Earnings Previews: Can AI Infrastructure Shake Off Friday’s Rout?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWk8wanoxTlU4RHRyNUMxUV8xLXhKeDdVQzRSMGJyRlQ3ZjNnUWw1azNIS3l4bHRWN3BXc2o3NE5FUFJJR0E2Rzh4Vmd4Q25kWnozWW1Udy1LSUpnbzBrSHlrSUtWbW5DTHdlZ0c0dHNTUThTTXpaZk5iNGw1OGlGak1tOG9ya0E2YTFwWW9NT0FzSHM3WVB3M2d4clVZWnZHajlXSGd6OA?oc=5",
+   "published": "2026-11-02T07:20:21-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "678932ab096374602a7982f9645bcfd16b833007",
+   "title": "Super Micro Earnings Due Next Week: Here's What to Watch",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:821c5a062094b:0-super-micro-earnings-due-next-week-here-s-what-to-watch/",
+   "published": "2026-10-28T10:45:41-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+ "ticker": "PYPL",
+ "updated": "2026-11-06T06:08:23-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "164ae4324156dc7ad1593b63a438a789b92c3b18",
+   "title": "Block Surges 16% on Earnings Beat and Raised Outlook; SoFi and PayPal Advance 4%",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZThMeEMxN0FRRzJodld5c25pZlNjdkstYTVmQk5lc3A2ZkEtMnZwUk5jZHZidWZ1NGxPb2RzdlZRekpFakpvMzA2clZMNzJXUnlMaVBERTl3cWhVUmZEM1RMTFdHU0NRdWdvZXpxQzFhcWxLUDQyaXJUZHhTTkM2bnhMQ0NTQkVLeHZRR0hNR1RNakRxWXNQNEc0YkJrWE5YV2tfblYyVlJvekZfRDVXb0thX3RqQmxiWjEzaGJB?oc=5",
+   "published": "2026-11-04T14:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8ebdbfc396c823b496b6236b1c863afedeeed5a5",
+   "title": "PayPal Stock: Still Struggling, But Still Mispriced",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV1ViSTdQR1JXVDZPLWdLQnR1c0NWRlh1b1BCUGtCZlNlXzY3bzExMUZZUjNpQzhRS1BGaXdBN2hIZWlTd1ZNMkIxbzBXOGlnQndibXFfUGIwcFdqb3NTTW85M0VwWDdTc2FqMFZRVUtaa1pQcUVkaGR0OUFDdzlBRE9QRFhPd2VBN2R0ag?oc=5",
+   "published": "2026-11-04T10:24:25-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a9b6c2b7cc2a25fa5935836b6ec0bc0d91c98cc",
+   "title": "PYPL Stock Crash: Mizuho Highlights Three Key Risks For PayPal After Stripe, Advent Reportedly Abandon Takeover Bid",
+   "source": "Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTzBBdlVOV0EwS0stNDl1SWxfVmhhajlTNjNIVkw5ZEhVbnpYRkxmdzFRcmNTRTc4aUJrTHZiQmJfRzJORFNjRTI3bUc3dzdBeDg3R3BuY3pzRGozRTM5dHp3Tk1wbm8tdFAtT1o0Y0w1Y3VpNG53c1FhZGdfc0V6bmoxX2s0VzdkVmFBSm5xamhiNGIwOF9naWVOSUFNZGl5Z1k2emJFSlM1OUFBaUd4NnlBam1FdElpLXYxaVJwTHdmX3dQbEZJTV9RX3VPQ1VnaUYzSW1xTEo1NHp0ZXlpTUlGZ2hTUjlBYmN5cVZQZjlBdG1GTUFUYXR5cTloUnlieE9hVDFJNzlLZw?oc=5",
+   "published": "2026-11-03T20:20:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "60aecb55af3dc92eabe543087c8497743dacb779",
+   "title": "Freedom Broker downgrades PayPal stock rating on valuation concerns",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX19RdGlYOF9KYmN2dFFrVk1tMlpENVdReWFsc2ZycnJja3BuZnR3VDZzSnJqWTZDRk8wYi1iZUc1N05DZ2xvVjh4RzFDQU9nclpoN0xiYlRUYXJaaG1fWFZ2VGZUdTd0akdGQndwemZEakhmaHNuQUh5SWprRHpuRkRreHRkSFVKSEkxVGlCTFRZY1pZeHNwS2EtTHV0MWV0WjdwNGNFc292SzRKaTJHbmtjS2tVVC1LTEFybzR5Z09Dd2VFaEE?oc=5",
+   "published": "2026-11-03T15:21:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2dca49a19ea1aa38ba7196824dc366b5a905e5c1",
+   "title": "PayPal cut to Hold from Buy at Freedom Broker as Q3 branded checkout stalled",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663965-paypal-cut-to-hold-from-buy-at-freedom-broker-as-q3-branded-checkout-stalled",
+   "published": "2026-11-03T15:04:33-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0f48127d4d266ec0cd80ccdcafd1aeaa0534605c",
+   "title": "PayPal Holdings, Inc. (PYPL) Delivered a 163% IRR: What Drove the Exit?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONU50cUswT2lLR19oVXNlNGlSOTBzSHR1aExGeVd6QzkwZ3FXZlQzQndWY0o0c1dBWGlfeXo0SGhaSTdxZUNySEdhOWZkUG9xQUg4ZkRGVjBtS1lnTUd0WTlFc0JKamR6WmlMZEhXOTlENS0yTG13TldXS2xFZHZQRkI5dnRrRTVEVWFya0ZHbFl4bTU0X0xNS1J4UmxLSVZn?oc=5",
+   "published": "2026-11-03T14:05:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3883ce3f3d21cc2645a9782d4638e34cabbd5832",
+   "title": "PayPal Just Gained 11% in a Month. Michael Burry Still Calls It a “Fat Pitch”",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX3lSZ0FEbXhueWhTNEtCUGdyOUVRNzdkeTh0SU8tWlJmSU8xQ1poOWlscW5xVDg2WTJyanZJRFpsR2h0S1lBMHQ4MDFTTHp2aEhEZzhpZHphU3NoMnlHZl9BSUx6a3dmMnEyX05XMXY5TXBqa0RFSWN5U3ZKOFVhUllKcWNncWtHSHdRcDdxNVloZWFGLVZR?oc=5",
+   "published": "2026-11-03T08:58:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f01ad7066d086f6a20fa2d2ebc886306dc03f342",
+   "title": "How Investors Are Reacting To PayPal (PYPL) LianLian Payout Partnership",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWm41MjNoMEI4ODR1VlBnUUZnU2J6QnBhTUNFUm5ObnpxeFNCZWRBY0hPMXRXM2ZEdFpCUHNKWTViRUttamozMHQ5eEswajZHWnJVVEpuaC15Y1NZeVo4V3haZ2xaZk9rZkRaLVRVTXA2WXo5ajJEa0NmRVNjWG1LNF8tc1RPN3BWWWVXUVNsb2FUeG54cGxwa3lHYXJIbmdtcmNONXZqdw?oc=5",
+   "published": "2026-11-03T08:09:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cc66255ad0f0c04f3655232ad7c85fd320d44998",
+   "title": "PayPal Holdings, Inc. (PYPL) latest stock news and headlines",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQjZ4bjlYZFVFRWNiQUFtMUlNTDIyMmlIeWNDMHJpZEItS1dqVlpmanFvTXBEbGxwZHdYT2FRVHdzSkxsVG5TOHg2RVRCX2pHNTdpZmtIRXA?oc=5",
+   "published": "2026-11-03T02:57:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "091a5ed2cd56ef4cf053859a21cf6aff57d74e4f",
+   "title": "Do Wall Street Analysts Like PayPal Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHpqN09WU1JaY2FEM0N0eDJqZTZzUzdRSVV3MDI2S3BmY0hYZmhCcU1WQjNqTDV6cE9FNzlMNEQ3YXdMV3pEMWt2bFVwQmJnNGp3NmhaZ0JSMFVJQ19WSmd0QWw1TDF3Y004U2NJQ1Zpd3c0Q3FvRXF3U1pqUjdJMjMycEFqdXJhODQ4WDVURm9NTWlqT1doTFJxbzQwc2c?oc=5",
+   "published": "2026-11-02T06:39:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "736e8f21d3502c8460fdceae07fec7c911690a61",
+   "title": "PayPal Holdings, Inc. (PYPL) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5odENvcHZiXzhnTTBZVEV6MmxNbGpZUGlpcnhVQnl1WUVlRjRicFhLT3F6ekRqNFRUOWNHelVxOE43Mk5GNlNNNnFXcGZvRjBrTHhheVJsOUgwbXloQzF5Rk9n?oc=5",
+   "published": "2026-11-01T14:52:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "400528f6fb119eabf278d826be29c7ae941099e4",
+   "title": "PayPal pres. Frank Keller sells $40,530 in common stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUxrY2c5eVA0SVZtS0p2eUY1VjNRUkdJeUhKUmRHeVVYajVNZDEwUnhOaklnSGtiS21xU3p6S2R1WXlXdkthaElpb1NxX1BLaUlFVGw3NVMtdklIZDJxTGRlb19XV0daazg2ckwxM1VnbEhFS3ZjYU5TNmt0N3ByUEpCYkx3a25YUzFBaU9tWW9BbkUwZFl2Yk9oSVJsRk9YV0lYOGxuRmtUd1ZlZ3Vfdy1TZ3JxRWot?oc=5",
+   "published": "2026-10-30T19:17:02-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "882f1e6b29aa54b7a27cad963f13d710839dee71",
+   "title": "Barclays downgrades PayPal Holdings to Underweight from Equal-Weight, lowers price target to $53 from $56",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:83db97404b1d9:0-barclays-downgrades-paypal-holdings-to-underweight-from-equal-weight-lowers-price-target-to-53-from-56/",
+   "published": "2026-10-29T08:45:51-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b6427bfbf84fb0ba8077ddd983b8283ce4d615bf",
+   "title": "PayPal: A 24% FCF Yield Trading At 9.7x Earnings",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZk13dGpIU01scjNRU3RqNk5TS2owNHhfSXJKTmVIaHcyTzB1R0xfMERreXNwNGFxTzdSNTRxMEpueTJEYTEwTGw4LXBhcm9jS1N6VWpibk1rQjRSdjRnVDYtWTVYN1dESlpQd0ZUWmdTZ3pBSXVyeVE1QkdzUXZxemdOT0tkckpoVFBKejdjTVNZYzI0LXFQZ3JBUQ?oc=5",
+   "published": "2026-10-28T15:45:47-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "952b294481c30669b784ba388d69454b43898b6f",
+   "title": "Down 82% from all-time highs, can PayPal stock finally recover in 2027?",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFZWVFhJTngxY1NfbkhVM1Q0Vk1iZXktZmFQSnFod0RIdjA5aGpnbHZkNnpMOVlmY193Z3N2MXJwQjN4dGtzdmNGN1kwVTBzck96UEdMdklwNEIzcnJCdVNobWZIdk9JczNJdjRnR2VDOUhfWWR0MTFfWkJiNzVjNDRhVFYyTDZ6bmg2V0t0ejh4eUlLSmRXcU5mM3o?oc=5",
+   "published": "2026-10-28T13:09:32-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "64c4cc035b59df1c141d3d52873351ae3a3a97fc",
+   "title": "PayPal Analysts Boost Their Forecasts Following Upbeat Q3 Earnings",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOY2VqbWlRZHFkcks5R0V1OTJMZ25xeWJ1ZUQtdW1uUFVjTWlfakkyVDFCLWR3Z0N1MDctZTFpWWZueU9YOTZtV2I5TGNPUGRYWnZzMlhCWGRSVEhzbk1BX0o3MGtsSmJHeVNRdWktdm5CS2xyLVYzbDUzQVlJVHpXUmsyT19WOVNSb3pOMzFSMjF1YWJnN05Xcno2QkVDSEtyRUh4UWpQc0FlUnllSjJEMmV6Y2JRY0lBVnJWaWZvV1lOOTB2YmFGR1dTS2twcVI2TC1adzlEWnY?oc=5",
+   "published": "2026-10-28T09:34:47-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b06f6fa70b48540db0362ff4504448f52a0d4750",
+   "title": "PayPal: A Potential Bid Holds The Floor",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORlN1aUJ1OVkwdXpSLWt2cko3bjVFdVowVHBpa1RUYVFERzJaS0trcjRiTVN5SW8wSldxOTVNT0VpUmxMSlBCNHdtSHllZmJ4LXAtWXA4cjBSN29HcjlHZ1ZpZkt2UVZTSThSbHlXeHBtV1ItczNZTV9KZjl5WkZUOVUtZlpxUQ?oc=5",
+   "published": "2026-10-28T09:25:31-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3c4d0b964f5fe330b00de841d97ce25617cdc45b",
+   "title": "Morgan Stanley raises PayPal stock price target to $46 on cost execution",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYnFseEUyMXhlTTdHZ1NUT2ZuXzRuaWJwRlgtemVoU2V1WkptUk84Y0wybHN1dlktV2tzTnR1dnU2V2JTUklCU3h0cGRsSkozNFRPWmJabVphYmJjaUg2UGZoN3U1MnlaZ1FmQ09lblVGdUt0UF9LRVhhb2VLN21jeWhHZmdfZlp4TFpUTmhMU3FsaFZQMG04Y25kbFVlNUxvMFZrTlVGZkoyNS04UmtFR2Rrei1kbXBxbkZaNXZLTjhsLTNvQW9lMmdwTQ?oc=5",
+   "published": "2026-10-28T07:37:05-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0e5e55422d2da49b4e5b030640af7128621eee5b",
+   "title": "BofA raises PayPal stock price target to $54 on model update",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRFEzcUhDaUtLZ282NWVnMF84UWpfYkVlRDV4NzhxZkxkNWdTTU1yUm9qQ1dTRzR1czBjX094U3NLclRWd1dEVGNRZXJGaEI1S0NPUXlobjJRTjlVY1VPdmQxM0I3WU5hSTBBaXhleGVBQjB6WUZYdXd4QlowTTNhQzNyOEhyRktDdHM2U3RnWHBPeTk4OGJsSUVGSExrSHhaU3RMdnQzWTVZc01HaHZOQnlkYkFVeDZiYWxv?oc=5",
+   "published": "2026-10-28T06:37:26-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7afe8db241e7ee804d44da9f5a1db370101ebfc0",
+   "title": "UBS cuts PayPal stock price target on balanced growth strategy",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmJSVHNpX1l0T2VMb1g0SkVtbll1WXR6c1RJT2VRMkhNd3QzNWd3MzQ4cEhPa2djVGJaTlJZdW44bUowUDV0WlV0RDdVMTVFbVRBYUFqZU0tM3JwbGFYbXJOQy1qTm95RGpqX0F3al9mTFpnT1hlVFdDVUVZN3l4c3dacmJGMnBxOURmajRxN0lVYV94UWNqVFc2cVE0V05jUXJJdTdzS21RX0ZYQm00N0FZR1ZTUE82UVgwYWctMA?oc=5",
+   "published": "2026-10-28T05:39:16-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f0e12dea0078a6c79c01710c13cf4aba01c5871a",
+   "title": "PayPal files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "published": "2026-10-27T17:05:11-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "6e53eeae5e93ad86cba40047a558cf9ec9469dae",
+   "title": "PayPal Beats Earnings Estimates. Does It Now Have a Shorter Path to Recovery?",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZdXR4REozU1A1ME45X1NpZlBMSkhJWUdoNTEtNlRBd1pvc0VmV0lkLTYybXdYVDlKNGxfVmVmZXpOaE9FVndOYXgtZWZOOHVmOVJGNXBuUENranhfckRxeVpvMGVaS3JXSEdsX3R0djFpQWJ3dF9nMw?oc=5",
+   "published": "2026-10-27T13:54:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "abc035adc8ff779edff867a3de75f80f6effc7db",
+   "title": "PayPal Aims to Broaden Offerings Beyond Payment Tools, CEO Says — Interview",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027007959:0-paypal-aims-to-broaden-offerings-beyond-payment-tools-ceo-says-interview/",
+   "published": "2026-10-27T12:30:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "09b7d4903e986f24bc6a979a366294dda1ee378a",
+   "title": "PayPal Q3 Earnings Call Highlights",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-paypal-q3-earnings-call-highlights-2026-10-27/",
+   "published": "2026-10-27T11:05:04-04:00",
+   "also": [
+    "Zacks",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "83468a86b2652ff3c102020f5d5eeafe17208f14",
+   "title": "PayPal CEO touts turnaround progress as annual profit forecast rises",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWWw1WXExaHRRdW0xNk5WUENBWXRnNUg3ajZvVElQYnZPR0c3dHRPUkw0X2hMcFlpWVRfSF94OXU1YjZXMDdMOW5vWEVWUDVIbDNHNmJyYS1CRHBxVzQ4TWJadnNCRXJfN3Q0X2JjdElYRDRWbjlQSDdRMmxfYkZMZnUxemUyeVBNRTg5REZPQnh0TnNiTl90Y2dmdmltVmNUUmVCRkkyUUw?oc=5",
+   "published": "2026-10-27T09:57:13-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "29f230667a0f550d45706eb47770045c086534db",
+   "title": "PayPal Earnings Top Q3 Estimates. Revenue, Merchant Volume Miss.",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaDZMdHc2YkltTkRlZkdCb0h2NnB3R0t0cWtBaXZlWnJleHVRbldOTllsM0hhVlV0YnVnX1F2ajVRVTZyVzUzTWd1b3kwYlA3Qi1FWTY2azluVTd5VnJqYmw4T2k5VDBwY2RrV2pkRlAwc2t1ZFMyWnQzOHVfcUZoRU01QUNsT3dvMER4b2FwZzVsUQ?oc=5",
+   "published": "2026-10-27T09:47:00-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0ed4f57eb7cd2d2108167d4fe5a5a60eb1ff54f9",
+   "title": "PayPal Leans on AI to Increase Productivity, Innovate Faster",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027006335:0-paypal-leans-on-ai-to-increase-productivity-innovate-faster-market-talk/",
+   "published": "2026-10-27T09:12:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c1f9ae25e6d40d30027fc604da26b57f3e6bf05d",
+   "title": "You Can Now Use Venmo to Pay Your Tuition, Travel Costs",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027006273:0-you-can-now-use-venmo-to-pay-your-tuition-travel-costs-market-talk/",
+   "published": "2026-10-27T09:06:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "109d0fa3a4f7cc1625780c8da9c9efcdbc2b8150",
+   "title": "Venmo Continues to Help Drive PayPal's Growth in Payments, Accounts",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027005923:0-venmo-continues-to-help-drive-paypal-s-growth-in-payments-accounts-market-talk/",
+   "published": "2026-10-27T08:53:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d6b376b4ddafb85a5b50a98f45b7c1ea827e7e20",
+   "title": "PayPal Cuts Thousands of Jobs, Bets on AI and Lifts Profit Outlook",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:a70a744ec094b:0-paypal-cuts-thousands-of-jobs-bets-on-ai-and-lifts-profit-outlook/",
+   "published": "2026-10-27T08:41:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "10213d101c1137c1bae5b960901421f7a028b8f9",
+   "title": "PayPal in charts: TPV rises 6% to $487.1B as payment transactions grow 7% to 6.8B",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4657780-paypal-in-charts-tpv-rises-6-to-4871b-as-payment-transactions-grow-7-to-68b",
+   "published": "2026-10-27T07:31:59-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eb8b417d2df04944469725d65fc76ac5466d4124",
+   "title": "PayPal Raises 2026 Profit Guidance After Solid Quarter — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027004152:0-paypal-raises-2026-profit-guidance-after-solid-quarter-company-talk/",
+   "published": "2026-10-27T07:19:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2b2b81c56cef3952f1434f86077ddff2e08b42cc",
+   "title": "PayPal Leverages Venmo and Braintree to Scale Financial Services — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261027004150:0-paypal-leverages-venmo-and-braintree-to-scale-financial-services-company-talk/",
+   "published": "2026-10-27T07:18:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5f391a4496b2a097da0c79293d53d90b157fa527",
+   "title": "PayPal tops Q3 adjusted EPS estimates, raises FY forecast",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46D0F4:0-paypal-tops-q3-adjusted-eps-estimates-raises-fy-forecast/",
+   "published": "2026-10-27T07:14:35-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "172b909ed0810d46d611dae7e318506ab4f54c19",
+   "title": "BRIEF-Paypal Q3 Revenue USD 8,600 Million Vs. IBES Estimate USD 8,713 Million",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-27:newsml_PLXFNWB1J:0-brief-paypal-q3-revenue-usd-8-600-million-vs-ibes-estimate-usd-8-713-million/",
+   "published": "2026-10-27T07:04:06-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4aa43633822394431bdf2a19be0063fe11d6e84b",
+   "title": "PayPal 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/0001633917-26-000086-index.htm",
+   "published": "2026-10-27T07:02:43-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "0eacc65a106f612f10c1ca930c77ecfcecd2a302",
+   "title": "PayPal Targets At Least $1.5 Bln Gross Run-Rate Savings Over Next 2-3 Years",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N3Z20H9:0-paypal-targets-at-least-1-5-bln-gross-run-rate-savings-over-next-2-3-years/",
+   "published": "2026-10-27T07:00:53-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "90d299e3d87e06dcf4b76453a7b8338e76828fd2",
+   "title": "Paypal Expects FY Adj EPS About $5.60 Versus IBES Estimate $5.38",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N3Z60CU:0-paypal-expects-fy-adj-eps-about-5-60-versus-ibes-estimate-5-38/",
+   "published": "2026-10-27T07:00:43-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "369d8c7627713ef7763cfaabd4340df11852c7c0",
+   "title": "PayPal raises 2026 profit forecast as turnaround gains traction",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46D07T:0-paypal-raises-2026-profit-forecast-as-turnaround-gains-traction/",
+   "published": "2026-10-27T07:00:39-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1a8172656bf172ccc52af912be500adff2a814ce",
+   "title": "PayPal Reports Third Quarter 2026 Results",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:230e6cfee28e4:0-paypal-reports-third-quarter-2026-results/",
+   "published": "2026-10-27T07:00:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

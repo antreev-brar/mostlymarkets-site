@@ -1,0 +1,403 @@
+{
+ "ticker": "GOOGL",
+ "updated": "2026-11-07T08:03:09-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "e864f556b6e7d2608f70af25e04feb836a7db50c",
+   "title": "AI Panic Gives Investors A Serious Opening",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104003244:0-ai-panic-gives-investors-a-serious-opening-barron-s/",
+   "published": "2026-11-06T21:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8deca06fbbc53490bcb1cd4709d8fdab37ef02e2",
+   "title": "Google executive Donald Harrison resigns from SpaceX board",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
+   "published": "2026-11-06T18:53:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3af225b9472fabe6b17d6262f617f361a8b6c6d6",
+   "title": "Alphabet's Drone Unit to Invest Up to $125M in New Texas Manufacturing Facility",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106010735:0-alphabet-s-drone-unit-to-invest-up-to-125m-in-new-texas-manufacturing-facility/",
+   "published": "2026-11-06T14:45:00-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c374785f16b1a9e0459bd45f2db9aa9de9ef4714",
+   "title": "Alphabet's Wing to Invest Up to $125M in Direct Manufacturing Over Next Two Years",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106010735_20261106010735:0-alphabet-s-wing-to-invest-up-to-125m-in-direct-manufacturing-over-next-two-years/",
+   "published": "2026-11-06T14:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e099c0983d8eaad44e60f968499dfbe37c3b017a",
+   "title": "Wing to Invest in R&D, Engineering Capabilities in California",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106010735_20261106010737:0-wing-to-invest-in-r-d-engineering-capabilities-in-california/",
+   "published": "2026-11-06T14:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0acb37be57c5b2a3e567a6a652033e83b47ddd1c",
+   "title": "Crusoe Says Google Has Acquired It's Data Center Site In Southeast Wyoming",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46N3KX:0-crusoe-says-google-has-acquired-it-s-data-center-site-in-southeast-wyoming/",
+   "published": "2026-11-06T14:36:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f778e436ce904ab27eefff863b2dd1e6c06eea09",
+   "title": "Alphabet discloses $548 million worth of Qualcomm stake",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46N0XB:0-alphabet-discloses-548-million-worth-of-qualcomm-stake/",
+   "published": "2026-11-06T06:20:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "43bc25fd6c4592c5fae21950ed974643fede1fa7",
+   "title": "Google plans $17 billion Wyoming data center amid rising threats of curbs",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M1G6:0-google-plans-17-billion-wyoming-data-center-amid-rising-threats-of-curbs/",
+   "published": "2026-11-05T15:43:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e9a9df164660ec39ed15ce8358870018e359e704",
+   "title": "Meta, Google, and TikTok sue California over youth social media law",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4666928-meta-google-tiktok-sue-california-over-youth-social-media-law",
+   "published": "2026-11-05T12:48:38-05:00",
+   "also": [
+    "Benzinga"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c3a9013a6c3df1ba898670793d4df366f1d70f9f",
+   "title": "Google Reports Gemini Omni 1.2 Flash is generally available on Google Cloud",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46M3N4:0-google-reports-gemini-omni-1-2-flash-is-generally-available-on-google-cloud/",
+   "published": "2026-11-05T12:39:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "74a8d2902a29004fe9f14573455a4fe4d92fb6f1",
+   "title": "Google faces claims student used AI chat on US school laptop to plan suicide attempt",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M19Q:0-google-faces-claims-student-used-ai-chat-on-us-school-laptop-to-plan-suicide-attempt/",
+   "published": "2026-11-05T12:19:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c9ea6f627c98d95c2e1d25aa662d4417cea7f462",
+   "title": "Alphabet’s Search Dominance Is at Risk From Its Own AI Success",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQy01RXgzZmM0aHcxVXMzRUpod3NjVDV0TVRwcDlFRDk5V1lCbWhvd29pelNTOHlzNDQ5aElPOUtueTBtNjdLcEpjYTNNclBvUEhtNHhuYkk0LVhxZkU2MFVGZ09sZ29QeFFDQkd5UUFKUnlLaFAyREtzdE43dkpmV0JlRE9Hdm5IZUJtSkZNN19OY2ZYOGlNY1E4SXZEMkMxVWNieTNqU3VibUNxUzF6NjVxbw?oc=5",
+   "published": "2026-11-05T05:05:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "768d3d428fda533764200126af3680080dddf8a2",
+   "title": "Isomorphic Labs In Talks For About $5 Billion In Funding - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46L2YV:0-isomorphic-labs-in-talks-for-about-5-billion-in-funding-bloomberg-news/",
+   "published": "2026-11-04T18:04:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6f2f3fa79a3ac2f69f8797a7cb3703e493a1260f",
+   "title": "In midterm ballot measures, voters send a message to AI builders",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L1G5:0-in-midterm-ballot-measures-voters-send-a-message-to-ai-builders/",
+   "published": "2026-11-04T16:48:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1cf0d524f0f37e93e32aba50918991afc2a45132",
+   "title": "Alphabet Stock Jumps: What's Going On?",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:90f2ebcc9094b:0-alphabet-stock-jumps-what-s-going-on/",
+   "published": "2026-11-04T13:08:34-05:00",
+   "also": [
+    "The Motley Fool"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "75ade6814466b5c6e9823ce278347136e0eb2e6b",
+   "title": "Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdXNkMW9NdmlTdmZjb3RnNExVdEhkWFBOeEYxdG0ybk5hTWVpQllQSHVXRUNjTi0wQkRFNE5DSWJCcUVtcG9BTzFUMzVrWXRpVnIxWjUybFhkX1k1cXRreWRpM3E5MHJvOWJ5ZDZHSmFiWFVUX29HcW84Qkpha29GRG9ndGxRRG9oWmhQamZBdEVYZ2FnZ3ZVQjR0aUxPc0t0TE9QN0hGSU9EdFhVeG5DQkJ5bExyZ1VQWkNmT05keTNiSzF2UkVtbTFuMndBVW1mY3dodTM3ajJKNWNNLWdqS1p3eThpbzQ?oc=5",
+   "published": "2026-11-04T12:44:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e80fd210ee3ecb6a1c8c612652964c28f066e80f",
+   "title": "Terawulf gets credit backstop from Google for Anthropic data center project",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46L1IG:0-terawulf-gets-credit-backstop-from-google-for-anthropic-data-center-project/",
+   "published": "2026-11-04T08:24:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a05800140729c4dcf92a50e66b659398999d3de9",
+   "title": "Alphabet Is on the Ropes. It’s an Opening for Long-Term Investors.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95dTlJWTl0RE53bG90eXRjYlExNEMwOWFYenh6bWpCR1hjQ21NbFZlN1Z1NE9BY0RSRTJTd3QtNk1jTEZlNGJ5ZWYxMTZvTFBLMXY2Y2hyaVlHcWNBVkVQR2lLeGNsS1M2NEtWLXFNRnZQTVZzTzdXZFVSZjI?oc=5",
+   "published": "2026-11-04T05:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8968d32edb7e8a9483fed496ca625339c6f1748b",
+   "title": "Google to invest $15 billion in Malaysia in 2027 and 2028",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46L0NO:0-google-to-invest-15-billion-in-malaysia-in-2027-and-2028/",
+   "published": "2026-11-04T04:11:51-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5421c5f034c52096d6716e085ad4f36b9c061835",
+   "title": "EXCLUSIVE: Google extends voluntary buyout offers to employees in several countries",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3N5M3JKaG93ZWY0OHkzNkZuaXNvcllrWV9EZTJocmdSZ19NTWU5Nzg4aVV3VTF1dUIxdHZoczZkZU1MYjVpaEJRQ0txUG44c214NjFDeFNvN21nbnltZFBUZ0F4YkVobEI2R3F2ZXJqUW56N3psczhCSWM2RXBMMEd2VXJjV1VqeFFsWnA5R1A0dnpOUTZGc2ZEVXNCTWNHME4tSU9yaTdSRzhWbzlaRF9QRXM3OVJSS3N5Q2diU2JKT00?oc=5",
+   "published": "2026-11-04T03:34:13-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0279d28505e5c4651ea7204cdab038de5967de2c",
+   "title": "Google Curbs AI in School Accounts After Pushback",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261103009431:0-google-curbs-ai-in-school-accounts-after-pushback-wsj/",
+   "published": "2026-11-03T13:39:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a6b5763a20fdb4121ababb559676807fe3884b29",
+   "title": "Setback for Google as EU court adviser sides with publishers against AI chatbot",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K0V5:0-setback-for-google-as-eu-court-adviser-sides-with-publishers-against-ai-chatbot/",
+   "published": "2026-11-03T05:51:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3b94e062e81f7fbb7d58fb07df2b1b63927cb00d",
+   "title": "Google's use of press by AI chatbot may infringe copyright rules, EU court adviser says",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45101J:0-google-s-use-of-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-says/",
+   "published": "2026-11-03T03:49:21-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c7b70809c55ddff8aae5169046ad739f12c156cf",
+   "title": "Alphabet kicks off €6 billion bond sale, tests appetite for tech debt",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSm5nTThDOUxTZDlERFZrWjg0WllEVktOcXZOWGdDQWtvX3VIQXhaWGc5amxQMHdacndmRng1R3pnSko1ZnV5OExhbVVRVGh5c2RtYUw0dmNfODU1NklnbXp1dkx3ZHlpSTAtY01WOGY5SkpFTnRGaXo4OEZ0cVUweTl2bk1hTFFqbC1hM1I1MUVraXdhWVRoTWJkZjJGVDlmSmZEaEs4em0tVkhSUjdRMjlMaU5EQ2M?oc=5",
+   "published": "2026-11-02T12:16:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "10428d21ea40c480fe6edf57d67a15fcd004e998",
+   "title": "Berkshire Hathaway’s Alphabet Loss Exposes Weak Stock-Picking Record",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzg5Z0JmTGJKTXNlaWROTlRkLW5FYkxFN1pNT0dBcE85d1Y5akRqOFBfeWc5MU4xcFAxOU9oWnFIYm40ejNnRkNxUkJsbnVxR2RYb0ZUdzFGZmFNTDB6TDYwOURHbmxZaTJGeU41VXBtWG0yTExhYU1JTlJvQzVORU5KU0lNdzYwQmdsaDVBMGNWMkdNY0dMNTktMA?oc=5",
+   "published": "2026-11-02T11:38:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7f2b628af83ff03cff9a9dea169aa8af7c10cc07",
+   "title": "Berkshire's Alphabet Loss Highlights a Tough Decade for Its New Stock Picks",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261102006423:0-berkshire-s-alphabet-loss-highlights-a-tough-decade-for-its-new-stock-picks-barrons-com/",
+   "published": "2026-11-02T11:38:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4c4b9d25397b29afaf32604b1b943535245c0490",
+   "title": "Alphabet Kicks Off Sale of Its Second Euro Bond This Year",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTXZEZVR0eFFhajNmbHRXVldFdzBMWXlOWHo5WnhHcTJHR0t3bng5SEZNVERBU09IRW1Va0xMVVo0MlVGX3FxNHo1MTlVUHlDV0RGZ21FZVg5QjAzUGZ0MnA4UVpwWXBSdUsxTldiTHEzbEItRnVwdlVvSzM1LXJtdF9OWU94bXJnaEFMckdlRnZ6WElLeUlmYVpjUGlETzU4UkpXV2NSUFFPYmlC?oc=5",
+   "published": "2026-11-02T03:51:08-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e0d4377f5aa1d96d781bac16ab279ead26e4ca98",
+   "title": "Why AI is boosting Meta's ad business while hurting Google search",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96VFFxN2pKNFVfSEdGZVpaUmU0ZUVyWGE2VnEwUE5oZE41bmo5Z2dsTnM2alRKM1VaV0g5ZWcxb2FKcXZxdUZsWUktQzJVel9aelpQQ2FScE43X0RncXl2cnJDY2FjdVBYb3EzR1NySdIBdEFVX3lxTFAxZ0VWZ1FUemdMTjR6NktfMmpJUmYyY3BycTBTQ2tocUZLa2RoaEJZVFAyamFxU1ZwdmJOYjdOZ2xqVWMxbGNVLXNOSjBrUFVFQ0lwZ1ZQcGRXYmtjaERRaE10b3JEWDBnTG1IUHU3YTZZLVNa?oc=5",
+   "published": "2026-11-01T07:00:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c7d0d16988339f2b1e551725b24074593f4059c3",
+   "title": "Yes, Alphabet Stock Got Hammered. No, We’re Not Selling.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FSDJJcUY4c1h5RV9Xc0tUVVNrak9BaTNXZTVpc2l1STRPWGVYNk5VbnA2aEpaMGV0ejNGY2ZPSmIyaXNKLUNiT1V5MDVJUnR2blBQRGM1Z2JLcFRRbDBRcDk3TWt6V3owQl9ZcHRySDE1emRVQ1E?oc=5",
+   "published": "2026-10-31T10:43:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "abdd8995a2b85ee31441efd42136962af991a2d8",
+   "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
+   "published": "2026-10-31T06:31:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3efdeb6df7067ef0593f7bd8c43ff213e452e180",
+   "title": "Alphabet Is In Talks To Join Trump’s Golden Dome Defense Program - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46G3VE:0-alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program-bloomberg-news/",
+   "published": "2026-10-30T17:21:50-04:00",
+   "also": [
+    "Bloomberg"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "843dfa413e767b55d7faad91551400a846e2719a",
+   "title": "Reddit shares plunge as Google's AI search squeezes traffic",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5",
+   "published": "2026-10-30T12:15:23-04:00",
+   "also": [
+    "Yahoo Finance",
+    "TheStreet",
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "46c5a5dd9047fb4614cd4a107907ae4f5d2d3610",
+   "title": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVVHMHFyMGd3YVdTZkQ3bklRNHRlQWtYU0VkcU9ibWo0dGVPTm5wcVdibDc5eElXdUZoUEtWWVQwREUyd2RCYlhxV1E2NlBkSGtUQks4Z3U2NzNTbXB6TVEzSVVCc1FpNG1aNE1iOFJiZ2ppdVpYWGdSeERMUDhXQUVZV1cxY1B0OGZnY1RKeU5RSFBPZGJnX29BU21jQ0Rz?oc=5",
+   "published": "2026-10-29T16:43:00-04:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2897bb008acec6aa365c07e8209a3f2bfd501d38",
+   "title": "A historic drop for Alphabet’s stock drags the US market lower",
+   "source": "AP",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWE2NlZVNmVDNUoyd0IzVGhKeDFtWFV0VEYwdU0xeWNGdk1mdGdCZFI1OTM2aE5fbTh1Rk55S3lubUdIMkc1UVY3d2xsUm9IOHZJdFNFSmlKSkVZdFNOTERLbzlTN2VjSEUxZnZleElyQ1Z5WHRQNl9KY25xZjVhQ0s3YWtyTDNUQWFQQWlB?oc=5",
+   "published": "2026-10-29T16:42:00-04:00",
+   "also": [
+    "Reuters",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "30f210d133b739a13b261d0fe9bff82389b8a546",
+   "title": "Why Alphabet’s stock is on track for its worst day ever after the latest results",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlBxRDZhQ1NwcDZLUzFsX1FMNU0tLXRIMmctT3I0cVNQRU9SMzhqN2RwSkhaclJ5dVQ3c3lFUTN2ZmpLbVc0X0QyalZTT0U4ZGNfN2ZyaVkzWFFQUWIwS1lxcGFuYW94SmJyWDZHSDRQOTdhWHE3RU8yWDJOZEtkOEl2UXBGN3FzRi1xVWZHOFVuZEM3U1Q2OFVVdm8xbTkwbnJJZ21TcDh0dlBUWERmMmQtZXJqN0lOSWM1aUtR?oc=5",
+   "published": "2026-10-29T14:50:00-04:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5dadaf9dd5df12b8ae89b91083cdee616336a540",
+   "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46F15Q:0-wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters/",
+   "published": "2026-10-29T14:27:38-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "761ab04c9c7f5d95ee9ad2c4c9e802e53a01ee95",
+   "title": "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc0dhT2FxS3RWNmx0Y1ZrbFY4OFBwZHpINU9Od01NMlcxZTMyYTd3X1NiOTZYYzJLRmpzQ2N0OWNJdzk1akxtSERuUl9aT0E1ZUFBRTJTZTMxSVBRTmJtQjBaWVgwMWMwanpsb1ExZEVPUEVQR1ZINW1zOGlWR0o5bkljQjJUcFA1M0NKNDdOLUNyb2PSAZgBQVVfeXFMUEtscFE2UFdzM0pIME56Ty1ZQlBvLUFSVUttY3NNU3ZWYmROUDFkaVZWYkdSZVZzSlYzNGdGMU9FclMxZ0VNZzZiR0JScmI3azBJWWxXVV9rSXNQRC0tTElRLUxNWTBSM2lhZ0NER3RuRGxRY3dmcC1FVVY4RHJza0RBaWVLNGFUZVV1VHg5R0RJYU9WWkp6VUI?oc=5",
+   "published": "2026-10-29T04:35:01-04:00",
+   "also": [
+    "NBC News",
+    "GuruFocus",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b85dd4fa2c80bfc8c022182f55fb0cfcf4ba47ff",
+   "title": "Alphabet files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+   "published": "2026-10-28T20:29:06-04:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "164bd1d679363f816808e5a0fb4acad7023b34d8",
+   "title": "Alphabet shares fall on Q3 revenue miss",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTE01UThqUkdrbGVnRkNpWHhRejg1TTBNdXNUVGZBTHZDX0VybXRrc0k0UTV1Ynh6VkRiVWxYZUJqeXVhUzE3UGtCSG9hREQ1NWxKZWJON2RIMER6YklMT0x0Q2k3ZGlXY2NsUDZiOVVzQVppbER4LWtZRi1XQ2NrS2UxTkhWXy1rd2c?oc=5",
+   "published": "2026-10-28T16:12:00-04:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "623eb8357a25cb93146ae746750a06cf9560c3b6",
+   "title": "Alphabet 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/0001652044-26-000080-index.htm",
+   "published": "2026-10-28T16:01:33-04:00",
+   "also": [],
+   "kind": "filing"
+  }
+ ]
+}

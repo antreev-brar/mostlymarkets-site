@@ -1,0 +1,80 @@
+[
+{
+"ticker": "WMT",
+"name": "Walmart Inc.",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 0.64,
+"n_estimates": 12,
+"eps_last_year": 0.62,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 1013298100000.0
+},
+{
+"ticker": "INTU",
+"name": "Intuit Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 2.47,
+"n_estimates": 9,
+"eps_last_year": 1.88,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 94826021000.0
+},
+{
+"ticker": "ROST",
+"name": "Ross Stores, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.82,
+"n_estimates": 7,
+"eps_last_year": 1.58,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 75144954000.0
+},
+{
+"ticker": "VEEV",
+"name": "Veeva Systems Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.68,
+"n_estimates": 7,
+"eps_last_year": 1.42,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 50207932000.0
+},
+{
+"ticker": "KEYS",
+"name": "Keysight Technologies Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 3.09,
+"n_estimates": 2,
+"eps_last_year": 1.65,
+"last_year_date": "11/24/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 44367483000.0
+},
+{
+"ticker": "CPRT",
+"name": "Copart, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.41,
+"n_estimates": 4,
+"eps_last_year": 0.41,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 30088757200.0
+}
+]

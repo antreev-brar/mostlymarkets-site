@@ -1,0 +1,351 @@
+{
+ "ticker": "SCHW",
+ "updated": "2026-11-07T08:03:38-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "8ac00cf67c814d262b53331b70e6a278fbfdf550",
+   "title": "Charles Schwab 3Q 2026: Revenue $7.17B, EPS $1.62 — 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:4ff8037c3e3fc:0-charles-schwab-3q-2026-revenue-7-17b-eps-1-62-10-q-summary/",
+   "published": "2026-11-06T16:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8de384f05dcb0e6d9e8b24df80082ca5bd00439",
+   "title": "Charles Schwab files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "published": "2026-11-06T16:22:54-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "9624cc16660bde1cd771cdf6b3cba2388d1666a7",
+   "title": "Why Schwab’s SCHD Tops These 3 Dividend ETFs for Retirees Right Now",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR3RSRXlzS3Q2RTIxSVlwa2JTNWQxcnRiYmRVMWRzcF91eVMwLUY1TUlsQzl6OXFoTzhZRGdjM2tacGtQWGhuS0o0Y2loc0RKQUV5bzAzWFdsWnZnYnJNdFVUOHBRZFlDUGdSRHQ0aUlyUzg5OC0yX1hFejlnMm5PMDh3Szk0VzZ4bHFfUkNZTk40OWxLVHVUS2JRM29uOXdTWmNERlR4TDJzTjc3akxFQWpLel8?oc=5",
+   "published": "2026-11-06T10:02:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6146900417283df36abbe6d5deda1a3e66645903",
+   "title": "Charles Schwab co-chairman sells $1.04M in company stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSksyTUlmYm9wUTVLOVNEVUxlQURkdmxZaUZYOGJrY19yenRUVTJsdlV0NVpubUljY1hibnZrNUZjSGJsTWZIeUxFdlFUSHFwLVh2dWxTV2pQTXhkNHZLN3RGTEI4U2lyQWZkR29EdjhfQVY2OU5vS0tnLUJzUE01aHZudGNGUUN4N3oxbjNlZW1zV0JZNmNmd2VwckdSeUZ2N0VxZVhNNlcta1lCZjhHWTRUWlBoeVB1V1E?oc=5",
+   "published": "2026-11-05T19:22:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "afa1b7d4702c28e3aa4e9e7faffbdb0c3da32fac",
+   "title": "Charles Schwab Stock: Analyst Estimates & Ratings",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcG9jRU1FWXFjU240UDRONEEtV3N6QjVMZlBzd0VsbTROSTJFdjBJY1ZTQXdDN0VzMnBaWEVLMDZtRlMyTTIyNHJiYUVhTWVMeGZqRkJrUWxNQVhCVXdEa3Y5ZVMwRWZndXR3aXd3VTd4RWhNNU82M2R6NmtpZlcyNjJMcEZRRkRjRGdIZ3NQZmR2VGE2?oc=5",
+   "published": "2026-11-05T06:10:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0137cec09401951994443b2021d5e9c45c3a85dd",
+   "title": "$1000 Invested In Charles Schwab 15 Years Ago Would Be Worth This Much Today",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHRuUEhHdE5TUV94cUQzeDctVHczWVo1dVlPb01uQzRIZHpKdnRvYVlVelZyYXc5aEVONDJ2dmVNN19IN3RScXBPdDhvcXNyaEtTeTNMalNrdF9XVEZaWENPdWt6aVVuM0YySDFBZ3BXRUsxNXZTUjlrYXN6MzNpTzRpNmp4eWd0bmdVYWg1LXRSeTd4aXZNVGRKRlRKN25xdndfcnNvcE1LZEtUNnBFVnd3?oc=5",
+   "published": "2026-11-04T10:15:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b8e599a3737eca9b8e83228b1a9768452f66b26",
+   "title": "Charles Schwab (SCHW) Says It Will Not Charge RIA Custody Fees",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzc0MlREVkpGYTd0Z3pTRnJNQzh1VnloSC1tZUxMclVXMWtqQ1gwTnVOY0RRT0lrTkdfdi1kVFBvc0VrQ3RjR3J4eDdremhTckRKbnR3cDBVcjBiSFpyTTJMc3RnVDh3bFF4NU9nWmdkaVBYa3g4VWhXdXN5UWZSNjl2dEtxNkxrbk04OWJtUDJPRkd5d3dabA?oc=5",
+   "published": "2026-11-04T07:17:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bb5d70cf2d729b6f2b2ce880c62ea7f215496396",
+   "title": "Schwab's Dividend ETF Keeps Hitting Records. I'd Still Buy It Now.",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSXJwdks2dzdaRF9fQ0ZqS2YzeWtYdnVMb0lrMHpjV2h3ZDFGR3JCVkYtWUUtZWhiWjVJY0RkbjRSNFFoaG4yRWxGdTROVkN4OWttbFlRX0lhN1FGd1RIbTJIVHJOSTJacmFUeDdka3VESHJGNVhfLURTX1RndFpVSXE4THVmVzJ1M0hiMWRYS3BVLWZXZlNWYjV4RnVER2F4?oc=5",
+   "published": "2026-11-03T23:01:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1b8976a54e278af1a423fb4aee6f91883034fffe",
+   "title": "Schwab md Neesha Hathi sells $444,617 in SCHW stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMWcwMk5rTjhNZFQtQWNWMHB4VjJLUzNpenR4WFN5cEZEUHhTX2hFRUJoX1FkZ2ZkSEtpR3NhNHdfNElCQVZPUFdiR0EwTDZfZ0F2eGs4aXFZSFZ5SWtYRnUzZXJWU3Q2SlBBczRaVVdmbm1iYXA3bU4taERUOUxLYzg1ZHQ4d05iTUNmMVRiUWZBeEY2SDZtaWF2MTlvOEllTlJDd21wYzZoaGw3Wkc3NnpuRHA?oc=5",
+   "published": "2026-11-03T18:16:10-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b35c6fa0baabe5c8bd780160789c915e24aff51a",
+   "title": "Schwab’s (SCHW) Latest Move Proves Its Moat Is Doing Its Job",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUEhpOUowNzN5NGpJVEt3cU1zdnFyR2JxbHA1eWw4ZjRzUy15VFFvbTBIWHhqS0owNHYxZWc1ZXA1N3pJeExhT0JzTW4yZFV0OU9fczExXzhra0F4U3FTRS1nR3FId0laMnNuY3piVlV2OEtJYUEzbV9PMFg0Sjg0NkFMZjBON0JYcXQ2TndCVmpOcjg5MER5Sm10OA?oc=5",
+   "published": "2026-11-03T13:43:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6c3bd2709c7438bb37fce0c6a3c9a1454a7cbeee",
+   "title": "NDEX Expands Relationship with Schwab Advisor Services to Support RIAs with Data and Wealth Management Solutions",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUXBBMFJrc19lNHlUTmVVdU80czFOSmtsRWVFcEtvcGtWSDRLZk8xallaSEQwOXNjRFV3X1otaEp2TDF5Q3FJTlhxN1VJZDZ5clB6OFlPSWxaSmo5ZEVneXhCWGo2X3FOeTFMV19xVVFuQjhDZktvX2U4N0c5MXJtbUJWN05DS05zZ0cxR0ZSWHlHaVVMYzNsV3pWOFpkWUhBb19r?oc=5",
+   "published": "2026-11-03T10:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f2a1385b12b8f6f49dd07c93468fb8b89b3e7f3d",
+   "title": "8 Best Charles Schwab Mutual Funds Of 2026",
+   "source": "Forbes",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tTmxOOGNUclVudm0tWThBVnJ3YjlleUhnSzdjWTlaTEtxeDNOaEFVaGRjNmwtQXpEWlZwS3JSS3BacURrWTNBUWVENGVVd3pSRzdLaVBPd3dKREhyZ0FiQ19ZVmNfUDJxZlk4WElLd1hCWmgz?oc=5",
+   "published": "2026-11-03T04:08:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a3aefe25c9a7c1b52daee17815245b37e21c49f2",
+   "title": "If You Own SPY, Schwab’s Large-Cap ETF Costs $60 Less a Year on $100K",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTTRseHRFZ0pZWkxrdE51MFBpbDdnMl9pc29JdXJodHZQT2dhQTdCc0t3X2pFU3VXMzUxamJqTU9fc3RLbmxyaWx1N2s1bXhONXRqWVlJSXJ1MXlJWFJlaE9TWFp5U1FLWmh2b2M4ZFRnUDhRYlZZUWJ3SEJ3OUpqZlhZSDFJU1V5VFMzRkVOc29reEpw?oc=5",
+   "published": "2026-11-02T19:33:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "881f2a902aa07a41b604bbc1685dbfb9ad82064c",
+   "title": "Schwab Q4 Retail Client Sentiment Report: Investors Turn More Bearish on the U.S. Stock Market but Confidence in Reaching Financial Goals Remains High",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:1040d041b0dec:0-schwab-q4-retail-client-sentiment-report-investors-turn-more-bearish-on-the-u-s-stock-market-but-confidence-in-reaching-financial-goals-remains-high/",
+   "published": "2026-11-02T08:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "f3fb16cf5cbe8ad6ce13768190f54d078fa572ac",
+   "title": "Weekly Recap: Margin loans rose 93% and tax-aware account minimums rose",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e226b7bfbf5d8:0-weekly-recap-margin-loans-rose-93-and-tax-aware-account-minimums-rose/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b695a417c38e2368238ef401b1d45462126905c4",
+   "title": "The Charles Schwab Corporation (SCHW) latest stock news and headlines",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mWjc1SkR2RjhCa0tHdE5PYm9wNEY3SUQ1VHJGQzhWUWsyWGFmdUZMMFVHY0U4MzZOWGFhNkN3NDI1V1A3WGdVczRHZWdSVVBiX01sblZvZEY?oc=5",
+   "published": "2026-10-31T22:11:28-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fa7d35362d0c2f894920556fbb86f86f573a1cf4",
+   "title": "The Charles Schwab Corporation (SCHW) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14bFZnZUlfZE95NElfeGpSOGtHNVJRVnQydGNLREdQbkd4aU5FYTg3am9vRUpFaF9ZX2hpNWlpYm5GeXdwSG1MRmE0ek15MktzNVhLX1pYS2NEWXlFdmd2dVVn?oc=5",
+   "published": "2026-10-31T08:45:57-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "adcfd91f263071653ff1208d66979053b39651ca",
+   "title": "Schwab International Equity ETF vs. Vanguard Total International Stock ETF: Two Low-Cost International ETFs, but One Offers More Growth Potential for the Next Decade",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNdG1yQ1AtbXFTZjdKQkJucFowV19HMW9iUzlfM05HMlNWd0l3eWN3ajNrT2JvYUI0cFprQ1BmVXNobml1c253Sl9IdzJVQ0VxWEkyZFNUR0lTZ0lmMW82OWpTWWFEVzlMUGZBcnFQNmJYTklRaE9reHVOWFNyd3R4Q0Q5VHpsWks0UU9PV3dCb1BoREg3SHM1ajM2WFg0cUdVR3lCNl9XY29pRFRYWElTNXFJLUxnZThHczAyaTBzUlRGVk5HaTZYNmJyRFE4WE9MUm1ZUmJYTmlzcUF5UVFnbUpQRTluTEtpa0l4XzY4ZUtMZk9ZQms2SUlveUNYMG1XYTB3cHowQXpDemNkek80MkpvTlR2NjZGeWllSGE3VU15N1BFVkdWR1ZWOW5xWkZLRmpn?oc=5",
+   "published": "2026-10-31T07:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3129fa0542bd32125489e1c8620cfb61586afb8a",
+   "title": "Why wealthy Americans pay Wall Street to realise losses",
+   "source": "Invezz",
+   "url": "https://invezz.com/news/2026/10/31/why-wealthy-americans-pay-wall-street-to-realise-losses/",
+   "published": "2026-10-31T06:30:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7af8c799a2b1548d1d8a608f6ed3a5f2c9bba223",
+   "title": "Charles Schwab (SCHW) Stock Could Be A Bargain Based On Returns",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObTFUOFN4cmpuSll5aHAtTm1ZRDU4TUEzRGYtTXBvb1VFQ3YwS1FqUVhZOUp5VEdTbnNLU3lFNVBScm9GZFNRYWp2R1gyVm5HRFNVOVllRjRMUTZrNkZVeUtFQVI3a05pb2dNR1MzanJhNmZIcU16aE8tNUprT3lxWVcyWEhnNktjcEZHSXVOT255WUhqNV9pd3RnRm0?oc=5",
+   "published": "2026-10-31T00:24:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8686a8a07dac8b96cd78f946fbc8af4e0c00022",
+   "title": "Charles Schwab CEO Sees a Bigger Role for Retail Investors in IPOs",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030009066:0-charles-schwab-ceo-sees-a-bigger-role-for-retail-investors-in-ipos-barrons-com/",
+   "published": "2026-10-30T13:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "95b3504b2eeb9af40e01ef481c56edf22ecd3aa5",
+   "title": "Top Charles Schwab (SCHW) Competitors 2026",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hRXVteGNTWmhxQWQ2bVFjUUI4X29Ed3E5Q0dxeDVxOFNUV0w2MXNmYU1YamViU3Vhdjhsd2o4SWFfVUp1ZjUtLVV5QU1kcHNzZHFjN09PUWRiQ0JndUxOZVdiM2czX0pxWjZKZkVzR2xZc29NUnFOR1FwTlpyZw?oc=5",
+   "published": "2026-10-30T03:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b2dea259cfa5ea99c110ccf28f5ba92afb74c00a",
+   "title": "Charles Schwab co-chairman sells $18.1M in stock at $88.36-$89.50",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVk2SjMtYXhrRy00V1Q0X1Q0ak5hTjRLUWtiOEZmNEVjdlIxR3FkOXNlQmNTTkxPcFlOWHdjbmJIVm44d2NnZ0xnX0V3YWU5RU5HS1UzT0FwYlRnVUxDb3BtLS1BYmZMSUYyc3pEaFV1bW1mNzQ3QS1SNVRsemhtNWdaaGxzTU84ZUVpLTBwMDBpbXptN2U1Q2d3Tnl6R0UwMGx5M01tTUpqZUNqOEMxWlRPQ2l0b200bFdLcVhLVQ?oc=5",
+   "published": "2026-10-29T19:59:52-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7eda516df0f8b7e7a9e510ee7aef8b40a11c2b75",
+   "title": "Charles Schwab Eyes ETF Expansion. What's in The Pipeline.",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261029014950:0-charles-schwab-eyes-etf-expansion-what-s-in-the-pipeline-barrons-com/",
+   "published": "2026-10-29T16:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "543cb7a2f4f49517b608c2060495c71e0434fd0b",
+   "title": "‘Rapid-fire rotations are still the name of the game’ – Schwab’s Liz Ann Sonders",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4660657-rapid-fire-rotations-are-still-the-name-of-the-game-schwab-s-liz-ann-sonders",
+   "published": "2026-10-29T14:51:25-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f3c51aa03881c1ec802ca118d6c1292b8f0e3fe2",
+   "title": "Bank of America Flags Shift from Stocks to ETFs: 3 Funds to Watch - Schwab US Dividend Equity ETF (ARCA:S",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWGM1cUZYNktHNVhEenlzdGJQb2RmYm5KTWljQm9MVXozYmk2RktDTlUxVGV0emRRci13bnZRTzRQR2NRRGsxd0hFeHZiTnJkSDZsZzdVSEJEV1J6Um1paWpnTEE0ZlhUaG5IVjdxQjNfZmhtTlNpcERPRzViOWxjUFVyczl3bF9ORkdMam1qX2hEbG51Vk9pMDQ4LXJkN3FTd0FQUkxGd25NV25yN1dJTXhQdDNHWVZnNlBqQjJaME9HVXl5R29HSUFha3NwbGl4UGRnbldkSVowMHV5U0E?oc=5",
+   "published": "2026-10-29T13:35:36-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "10621f52255c2624a2ddea06fc5008a65e09c72d",
+   "title": "Charles Schwab (SCHW) Pushes AI For Advisors As 23 Hour Trading Nears",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWhqM056eWZFLUhFQnN5VWhyUWlKN3plMjhkWHlHZFlETUkzNWhseldBQVhnYXNCLXZEc2ZvNjNBM2hPaklSV09jeXpTRDRVazZ2bEhQeE5qWldTcGxSemVWM25XS1dGSm5aQmt0MlVzVUFCbklaSi1XbVk4LUM2VTRNWHJtZ3BlU3VremRiRG9qSGJjY2JpYw?oc=5",
+   "published": "2026-10-29T11:15:44-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d087d9d8ba98c1504d27a1f8bf152b9c008d75aa",
+   "title": "Schwab: It's Time To Evaluate The Preferreds And Common",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd2Nob3RYc01EOWxkUEpRTGlUdjZQb2NUZ2QzbXhuTWk0ZmExNTU1Z0JDZmo5SGVXUXdCNGF0b1BvLUhwZ1VwclV5R1d4NUo5WjVjbndRQ3M3YXA0NWxvVUpLb2d0dHkzSUN5ZjlaVGFyV1hmaUlQMTJ2OWlsRUlPdmRoNDNGRzRmZnp0YjBEc3AyNGtjRVFjbEZR?oc=5",
+   "published": "2026-10-29T08:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ad1f680fda7bc165b464eea4cb977419ac1587a2",
+   "title": "Schwab Reaffirms Commitment to Smaller Advisory Firms",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028010216:0-schwab-reaffirms-commitment-to-smaller-advisory-firms-barrons-com/",
+   "published": "2026-10-28T13:13:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "357c14ee236460d2b7f7148b4a80679fb5ade10e",
+   "title": "Schwab Advisor Services™ Expands AI Inside Schwab Advisor Center and Across the Third-Party Solutions RIAs Use",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:39b5bdec1ab90:0-schwab-advisor-services-expands-ai-inside-schwab-advisor-center-and-across-the-third-party-solutions-rias-use/",
+   "published": "2026-10-28T09:30:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "7e0004fec26c22e30633033a5762e3f0e95c5097",
+   "title": "The Charles Schwab Corporation Expands AI Offerings for RIAs",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:1526178d6c5d8:0-the-charles-schwab-corporation-expands-ai-offerings-for-rias/",
+   "published": "2026-10-28T09:30:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a018cd80f950f78ff82aada4fc1743c0315da257",
+   "title": "Charles Schwab Invests in AI Start-Up Nevis as Advisor Tech Race Intensifies",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261028007310:0-charles-schwab-invests-in-ai-start-up-nevis-as-advisor-tech-race-intensifies-barrons-com/",
+   "published": "2026-10-28T09:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "83bd7c247f796cce38928ce49c0416a4eb0b5db2",
+   "title": "Evercore ISI cuts Charles Schwab stock price target on funding costs",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMWlDWDZacUcxSldrNUpvZGVHczFDZWFlYlNZeHZ2ZDM5clFDS3VjY2lBbEZ0bEFXY2UyazR6QUY2cEVha21LMlNpT0pTSnVMZ2pOLU9OQUpqRFIzb29UdGlwNnlRZ0k1QmRCQlZxVnNLaURjenBkU3hqMUpURGxaWDRJUUNWSWp5TXoxRF9wQUdkc0I5STlTdVVQUE9fdWQybUUyTVhTUlMxTjB3OVY4RklEdGlNMUFFSVpOYmxZdHFUZXgzSHVB?oc=5",
+   "published": "2026-10-28T06:37:25-04:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "35ef208db2dcaf4df1a221e07389e4ab72ddb646",
+   "title": "Schwab Advisor Services Announces National RIA Day, the First Annual Day Celebrating Independent Registered Investment Advisors",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:d3aef9328b843:0-schwab-advisor-services-announces-national-ria-day-the-first-annual-day-celebrating-independent-registered-investment-advisors/",
+   "published": "2026-10-27T18:00:00-04:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "6f451e437efbda23cfbfa055a0296ae5a1dcba47",
+   "title": "The 'Buy, Borrow and Die' Wealth Strategy Has Become a $5 Trillion Market",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261026010299:0-the-buy-borrow-and-die-wealth-strategy-has-become-a-5-trillion-market-wsj/",
+   "published": "2026-10-26T21:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8dd9a7026bf946af581ffd17801e956ececb4687",
+   "title": "Charles Schwab 4.450% DEP SHS REP 1/40TH N-CUM PFD SER J declares $0.2782 dividend",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4657463-charles-schwab-4_450-percent-dep-shs-rep-1-40th-n-cum-pfd-ser-j-declares-0_2782-dividend",
+   "published": "2026-10-26T15:02:36-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6b89cda7e1eb4c7db71521fc4d6c2f00da0a5e88",
+   "title": "Charles Schwab Corp Deposit Shs Non-Cum Pfd Shs Series D declares $0.372 dividend",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4657462-charles-schwab-corp-deposit-shs-non-cum-pfd-shs-series-d-declares-0_372-dividend",
+   "published": "2026-10-26T15:02:15-04:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eb4d1710ef353fcb6cc211875df5e53d03b523e0",
+   "title": "Weekly Recap: Record $190.4B net new assets and $0.32 quarterly dividend",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d25954660e250:0-weekly-recap-record-190-4b-net-new-assets-and-0-32-quarterly-dividend/",
+   "published": "2026-10-26T07:00:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}
