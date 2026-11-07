@@ -157,6 +157,12 @@
 "kind": "breakdown",
 "tickers": []
 },
+"breakdown-2026-11-07-1": {
+"created": "2026-11-07T11:01:39-05:00",
+"day": "2026-11-07",
+"kind": "breakdown",
+"tickers": []
+},
 "daily-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -1159,6 +1165,14 @@
 "news-JNJ-2026-11-06-johnson-johnson-announces-u-s-fda-approv": {
 "created": "2026-11-06T00:01:39-05:00",
 "day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"JNJ"
+]
+},
+"news-JNJ-2026-11-07-j-j-s-once-daily-pill-eases-psoriatic-ar": {
+"created": "2026-11-07T11:01:39-05:00",
+"day": "2026-11-07",
 "kind": "news",
 "tickers": [
 "JNJ"
