@@ -1,0 +1,87 @@
+{
+ "id": "recap-BRK.B-2026-11-06",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 82,
+ "created": "2026-11-07T03:03:57-05:00",
+ "expires": "2026-11-09T20:00:00-05:00",
+ "tickers": [
+  "BRK.B"
+ ],
+ "headline_hint": "Berkshire Hathaway (BRK.B) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-07T03:02:31-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "BRK.B",
+   "name": "Berkshire Hathaway Inc.",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": 5.91,
+   "n_estimates": 2,
+   "eps_last_year": null,
+   "last_year_date": null,
+   "eps_actual": 6.26,
+   "surprise_pct": null,
+   "mktcap": 1248701050000.0
+  },
+  "quote": {
+   "price": 570.89,
+   "change_pct": -0.25,
+   "prev_close": 572.33,
+   "time": "2026-11-06",
+   "mktcap": "1.232T",
+   "pe": 14.35,
+   "fpe": 53.17,
+   "yr_high": 586.3,
+   "yr_low": 464.01,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 571.71,
+    "change_pct": 0.14,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "BRK.B",
+   "name": "Berkshire Hathaway",
+   "date": "2026-11-06",
+   "close": 570.89,
+   "prev_close": 572.33,
+   "change_pct": -0.25,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 182,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -1.17
+   },
+   "ytd_pct": 13.58,
+   "return_1m_pct": 11.71,
+   "return_6m_pct": 19.95,
+   "return_1y_pct": 16.8,
+   "high_52w": {
+    "close": 579.09,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 465.4,
+    "date": "2026-04-22"
+   },
+   "pct_below_52w_high": 1.42,
+   "thousand_dollars_5y_ago_now": 1983,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 4988274,
+   "volume_vs_20d_avg": 1.01,
+   "sentences": [
+    "Berkshire Hathaway's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 1.2%.",
+    "The stock is up 13.6% this year, and at $570.89 it sits 1.4% below its 52-week closing high of $579.09 from 4 November 2026.",
+    "$1,000 invested in Berkshire Hathaway five years ago would be worth $1,983 today."
+   ]
+  },
+  "sector": "Financials",
+  "industry": "Multi-Sector Holdings",
+  "recent_stories": []
+ }
+}
