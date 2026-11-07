@@ -333,6 +333,13 @@
 "theme": "dividend-payers",
 "tickers": []
 },
+"list-2026-11-07-1": {
+"created": "2026-11-07T08:01:36-05:00",
+"day": "2026-11-07",
+"kind": "list",
+"theme": "after-earnings",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1040,6 +1047,14 @@
 "news-BRK.B-2026-11-05-is-berkshire-hathaway-brk-a-still-a-barg": {
 "created": "2026-11-05T04:01:12-05:00",
 "day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"BRK.B"
+]
+},
+"news-BRK.B-2026-11-07-berkshire-shares-surge-as-wall-street-sw": {
+"created": "2026-11-07T08:01:36-05:00",
+"day": "2026-11-07",
 "kind": "news",
 "tickers": [
 "BRK.B"
