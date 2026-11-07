@@ -996,6 +996,14 @@
 "BABA"
 ]
 },
+"news-BABA-2026-11-07-alibaba-just-gained-12-in-a-week-as-the": {
+"created": "2026-11-07T10:01:34-05:00",
+"day": "2026-11-07",
+"kind": "news",
+"tickers": [
+"BABA"
+]
+},
 "news-BKNG-2026-11-03-how-investors-are-reacting-to-booking-ho": {
 "created": "2026-11-03T00:01:33-05:00",
 "day": "2026-11-03",
@@ -2811,6 +2819,12 @@
 "viewpoints-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
+"kind": "viewpoints",
+"tickers": []
+},
+"viewpoints-2026-11-07": {
+"created": "2026-11-07T10:01:34-05:00",
+"day": "2026-11-07",
 "kind": "viewpoints",
 "tickers": []
 },

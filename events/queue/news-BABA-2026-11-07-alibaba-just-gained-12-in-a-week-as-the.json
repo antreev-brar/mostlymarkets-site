@@ -1,0 +1,90 @@
+{
+ "id": "news-BABA-2026-11-07-alibaba-just-gained-12-in-a-week-as-the",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-07T10:01:34-05:00",
+ "expires": "2026-11-07T20:01:34-05:00",
+ "tickers": [
+  "BABA"
+ ],
+ "headline_hint": "Alibaba: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-07T10:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Alibaba Just Gained 12% in a Week as the Nasdaq Fell: Take Profits, or Buy More?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWGxwSG5ub0Q3RGhpMUhzaDVDemp0Z01ZSDVRVmNMd3Q5YXAzakhrV2xoZVpNZUFXMDAzWWRfQU5hRWZKdW91WFJWTGk0dGtGQk9tYkV0SkdmOTZFS0htMkxTQlFKRXlEQks0UVFXRE16VVlFTHkzYzB3akQtQ0hpczQxSzU1VmhydF9KY3dKTnNDem01QXRz?oc=5",
+    "published": "2026-11-07T07:28:46-05:00",
+    "also": []
+   },
+   {
+    "title": "Alibaba FY Q2 2027 Preview: Quietly Winning The AI War",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWZjTldqcEd5bFo3LVFZby1WYnI4ckdCcm5XMEd4Y0oxc3dWLWFNWlZkc2x0akl1V3BhZXRjRjFmU1IzYXdkN2JqZVE0Y2xqa21WYl84UEotdHMzZFJqSUpMbmFKV3pKVS0ybmdZbG1OekR1SlFKSkFMNUZpOFgyRnFkMmFEMGNDUHJZc3draFJ4UTdySmlB?oc=5",
+    "published": "2026-11-07T06:49:07-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 109.45,
+   "change_pct": 1.28,
+   "prev_close": 108.07,
+   "time": "2026-11-06",
+   "mktcap": "272.284B",
+   "pe": 24.4,
+   "fpe": 13.73,
+   "yr_high": 181.1,
+   "yr_low": 91.99,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 109.35,
+    "change_pct": -0.09,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "date": "2026-11-06",
+   "close": 109.45,
+   "prev_close": 108.07,
+   "change_pct": 1.28,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 136,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": 2.64
+   },
+   "ytd_pct": -25.33,
+   "return_1m_pct": 3.55,
+   "return_6m_pct": -21.85,
+   "return_1y_pct": -33.59,
+   "high_52w": {
+    "close": 177.18,
+    "date": "2026-01-22"
+   },
+   "low_52w": {
+    "close": 94.81,
+    "date": "2026-06-26"
+   },
+   "pct_below_52w_high": 38.23,
+   "thousand_dollars_5y_ago_now": 690,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 9560383,
+   "volume_vs_20d_avg": 1.03,
+   "sentences": [
+    "Alibaba's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock rose 2.6%.",
+    "The stock is down 25.3% this year, and at $109.45 it sits 38.2% below its 52-week closing high of $177.18 from 22 January 2026.",
+    "$1,000 invested in Alibaba five years ago would be worth $690 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/alibaba-baba-shares-jump-after-apple-picks-its-qwen-ai-for-iphones-in-china/"
+  ]
+ }
+}
