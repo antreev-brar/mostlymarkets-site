@@ -163,6 +163,12 @@
 "kind": "breakdown",
 "tickers": []
 },
+"breakdown-2026-11-07-2": {
+"created": "2026-11-07T14:01:46-05:00",
+"day": "2026-11-07",
+"kind": "breakdown",
+"tickers": []
+},
 "daily-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -1425,6 +1431,12 @@
 "tickers": [
 "TSLA"
 ]
+},
+"news-TSLA-2026-11-07-tesla-to-expand-cybertruck-production-in": {
+"created": "2026-11-07T14:01:46-05:00",
+"day": "2026-11-07",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-UNH-2026-11-05-unitedhealth-unh-q3-earnings-lift-confid": {
 "created": "2026-11-05T00:01:50-05:00",
