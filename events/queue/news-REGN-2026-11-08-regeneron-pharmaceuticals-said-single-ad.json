@@ -1,0 +1,93 @@
+{
+ "id": "news-REGN-2026-11-08-regeneron-pharmaceuticals-said-single-ad",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-08T17:01:39-05:00",
+ "expires": "2026-11-09T03:01:39-05:00",
+ "tickers": [
+  "REGN"
+ ],
+ "headline_hint": "Regeneron Pharmaceuticals: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-08T17:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Regeneron (REGN) Reports Promising MASLD Treatment Data, Stock S",
+    "source": "GuruFocus",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSEloR0dWNjBOMGY3bzhiX0txU1NVTnJYbENfd1ZHYzFkVndTeDFvRFZrTzdSaEpsdWFwcG9yWXdkRWplMUF1RTZEazdBc0pISnJFZmdLRGt5d1pzNkRwbmpzQ3pmTmFXTE9iS1FsdDVTZEFtSGJTQ2xuSFBoWGJXaV82QVZhWVJ4eGZWMl9UbWFwSjFOZzg1NS1DcnphTnhKZkpYbGM4cUdVcHlXSFdHWEcxSEx1dmFxUUR6eXNBMEEwVUlteGZJV3hTTQ?oc=5",
+    "published": "2026-11-08T16:42:05-05:00",
+    "also": []
+   },
+   {
+    "title": "Regeneron Pharmaceuticals Said Single Administration Of CIDEB(siRNA) Led To Reductions In Liver Fat Up To 80% That Were Sustained Through 36 Weeks",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46N3M3:0-regeneron-pharmaceuticals-said-single-administration-of-cideb-sirna-led-to-reductions-in-liver-fat-up-to-80-that-were-sustained-through-36-weeks/",
+    "published": "2026-11-08T16:12:28-05:00",
+    "also": [
+     "TradingView"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 904.35,
+   "change_pct": 0.16,
+   "prev_close": 902.9,
+   "time": "2026-11-06",
+   "mktcap": "93.553B",
+   "pe": 19.97,
+   "fpe": 11.76,
+   "yr_high": 991.73,
+   "yr_low": 591.52,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 900.0,
+    "change_pct": -0.48,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "date": "2026-11-06",
+   "close": 904.35,
+   "prev_close": 902.9,
+   "change_pct": 0.16,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 236,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": 1.26
+   },
+   "ytd_pct": 17.16,
+   "return_1m_pct": 22.28,
+   "return_6m_pct": 26.5,
+   "return_1y_pct": 40.39,
+   "high_52w": {
+    "close": 973.36,
+    "date": "2026-11-03"
+   },
+   "low_52w": {
+    "close": 600.66,
+    "date": "2026-06-01"
+   },
+   "pct_below_52w_high": 7.09,
+   "thousand_dollars_5y_ago_now": 1479,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 1122872,
+   "volume_vs_20d_avg": 1.24,
+   "sentences": [
+    "Regeneron Pharmaceuticals's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock rose 1.3%.",
+    "The stock is up 17.2% this year, and at $904.35 it sits 7.1% below its 52-week closing high of $973.36 from 3 November 2026.",
+    "$1,000 invested in Regeneron Pharmaceuticals five years ago would be worth $1,479 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-01/regeneron-regn-beats-q3-estimates-and-has-its-best-day-since-2022/",
+   "/news/2026-11-01/abbvie-abbv-tops-q3-estimates-as-skyrizi-and-rinvoq-grow-23/"
+  ]
+ }
+}
