@@ -1,0 +1,91 @@
+{
+ "id": "news-SNDK-2026-11-08-ai-stocks-like-nvidia-micron-and-sandisk",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-08T07:01:30-05:00",
+ "expires": "2026-11-08T17:01:30-05:00",
+ "tickers": [
+  "SNDK"
+ ],
+ "headline_hint": "Sandisk: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-08T07:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "AI stocks like Nvidia, Micron, and Sandisk have been blown up, but keep this in mind",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNnFBSnpqTnBzMkpXOXVzbFI0ZDdIRWowYXU2SWtGMDJJN2wxUDFDQk5NcGZxMFBtSW9ycURoZXNhRnBRTHJZOWx0OFJYU20xWEVwUXJ3NzAyYUYzTFdDdUFvbTJsSjdfcmJIQVpSdXFnNFVYVGZLUDh6UWpDN2hTUXBpX3A4bDl6WmVoMlJWeWdnaFdpTmhubUlWNzEtX2RIMVBHeV81M3RFa0lmS3RDZGtJSmIyckRjYlNPUzFRZk9TRzhSQzJTWWpkaXIzX1lEbE4zZg?oc=5",
+    "published": "2026-11-08T06:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Sandisk Lost 51% in a Month. Bernstein Sees 259% Upside From Here",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHloQUdNRHdjWnl5UmVScW5raklGWTVxTjFyc2drVWpqWERQb2FaaURZSUJHeDI1VkZ0dm40LXB2WjlUNTE1VXkyWXZ4UTlHU2ttVVFhT2lxbmtuWUpCbjVhZzR5VXFmRjlnajdCT0R3aGpSZDhLYzBBX0lLUlhQcGlZMlFMRWoyeVA2VWV4b1JuTnBEWE5DWGcyT2I?oc=5",
+    "published": "2026-11-08T03:13:43-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 835.06,
+   "change_pct": 3.55,
+   "prev_close": 806.43,
+   "time": "2026-11-06",
+   "mktcap": "118.82B",
+   "pe": 6.65,
+   "fpe": 3.72,
+   "yr_high": 2354.39,
+   "yr_low": 183.0,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 841.46,
+    "change_pct": 0.77,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "date": "2026-11-06",
+   "close": 835.06,
+   "prev_close": 806.43,
+   "change_pct": 3.55,
+   "moves_over_5pct_last_year": 116,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 147,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": 4.78
+   },
+   "ytd_pct": 251.78,
+   "return_1m_pct": -48.12,
+   "return_6m_pct": -46.55,
+   "return_1y_pct": 285.71,
+   "high_52w": {
+    "close": 2335.0,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 194.38,
+    "date": "2025-12-03"
+   },
+   "pct_below_52w_high": 64.24,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 17763670,
+   "volume_vs_20d_avg": 1.75,
+   "sentences": [
+    "Sandisk's shares moved 5% or more on 116 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock rose 4.8%.",
+    "The stock is up 251.8% this year, and at $835.06 it sits 64.2% below its 52-week closing high of $2,335.00 from 25 June 2026."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-06/",
+   "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/",
+   "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/"
+  ]
+ }
+}

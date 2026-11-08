@@ -945,6 +945,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-08": {
+"created": "2026-11-08T07:01:30-05:00",
+"day": "2026-11-08",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -1373,6 +1379,14 @@
 "kind": "news",
 "tickers": [
 "SHEL"
+]
+},
+"news-SNDK-2026-11-08-ai-stocks-like-nvidia-micron-and-sandisk": {
+"created": "2026-11-08T07:01:30-05:00",
+"day": "2026-11-08",
+"kind": "news",
+"tickers": [
+"SNDK"
 ]
 },
 "news-SONY-2026-11-05-sony-fiscal-q2-earnings-snapshot": {
