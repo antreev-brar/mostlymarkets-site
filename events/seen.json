@@ -398,6 +398,13 @@
 "theme": "profitable-small-caps",
 "tickers": []
 },
+"list-2026-11-08-3": {
+"created": "2026-11-08T15:01:38-05:00",
+"day": "2026-11-08",
+"kind": "list",
+"theme": "under-50",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1235,6 +1242,12 @@
 "tickers": [
 "JNJ"
 ]
+},
+"news-JNJ-2026-11-08-johnson-johnson-jnj-limited-analyst-upsi": {
+"created": "2026-11-08T15:01:38-05:00",
+"day": "2026-11-08",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-JPM-2026-11-02-microsoft-nvidia-jpmorgan-among-50-us-gi": {
 "created": "2026-11-02T06:15:14-05:00",

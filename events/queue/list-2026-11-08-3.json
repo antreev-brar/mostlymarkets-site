@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-08-3",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-08T15:01:38-05:00",
+ "expires": "2026-11-08T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Under $50 Stocks We'd Skip and 1 We Like",
+ "instructions": "Theme: Under $50, screened on revenue growth over the last 12 months among stocks under $50 a share with positive free cash flow. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-08T15:00:09-05:00",
+ "pack": {
+  "theme": "under-50",
+  "screen": "revenue growth over the last 12 months among stocks under $50 a share with positive free cash flow",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "CELH",
+    "name": "Celsius Holdings",
+    "industry": "Soft Drinks & Non-alcoholic Beverages",
+    "metric": 49.1,
+    "price": 32.16,
+    "pe": 35.84,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3169396000,
+     "revenue_growth_yoy_pct": 49.1,
+     "gross_margin_pct": 47.6,
+     "operating_margin_pct": 13.0,
+     "net_margin_pct": 10.0,
+     "eps_diluted": 0.89,
+     "ocf": 330746000,
+     "fcf": 269010000,
+     "fcf_margin_pct": 8.5
+    }
+   },
+   {
+    "ticker": "FIG",
+    "name": "Figma",
+    "industry": "Application Software",
+    "metric": 44.4,
+    "price": 18.81,
+    "pe": -17.43,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1398713000,
+     "revenue_growth_yoy_pct": 44.4,
+     "gross_margin_pct": 81.4,
+     "operating_margin_pct": -40.7,
+     "net_margin_pct": -40.2,
+     "eps_diluted": -1.66,
+     "ocf": 246492000,
+     "fcf": 224362000,
+     "fcf_margin_pct": 16.0
+    }
+   },
+   {
+    "ticker": "AMCR",
+    "name": "Amcor",
+    "industry": "Paper & Plastic Packaging Products & Materials",
+    "metric": 37.3,
+    "price": 44.87,
+    "pe": 19.19,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 23890000000,
+     "revenue_growth_yoy_pct": 37.3,
+     "gross_margin_pct": 19.8,
+     "operating_margin_pct": 7.9,
+     "net_margin_pct": 4.5,
+     "eps_diluted": 2.34,
+     "ocf": 1757000000,
+     "fcf": 772000000,
+     "fcf_margin_pct": 3.2
+    }
+   },
+   {
+    "ticker": "DVN",
+    "name": "Devon Energy",
+    "industry": "Oil & Gas Exploration & Production",
+    "metric": 35.7,
+    "price": 42.21,
+    "pe": 10.52,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 23820000000,
+     "revenue_growth_yoy_pct": 35.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 15.1,
+     "eps_diluted": 4.0,
+     "ocf": 9671000000,
+     "fcf": 5218000000,
+     "fcf_margin_pct": 21.9
+    }
+   },
+   {
+    "ticker": "HBAN",
+    "name": "Huntington Bancshares",
+    "industry": "Regional Banks",
+    "metric": 30.6,
+    "price": 15.47,
+    "pe": 12.68,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 10375000000,
+     "revenue_growth_yoy_pct": 30.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 24.0,
+     "eps_diluted": 1.21,
+     "ocf": 3348000000,
+     "fcf": 2920000000,
+     "fcf_margin_pct": 28.1
+    }
+   },
+   {
+    "ticker": "HIMS",
+    "name": "Hims & Hers Health",
+    "industry": "Health Care Services",
+    "metric": 28.0,
+    "price": 26.0,
+    "pe": -41.49,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 2578112000,
+     "revenue_growth_yoy_pct": 28.0,
+     "gross_margin_pct": 68.4,
+     "operating_margin_pct": -6.0,
+     "net_margin_pct": -5.5,
+     "eps_diluted": -0.64,
+     "ocf": 263450000,
+     "fcf": 61550000,
+     "fcf_margin_pct": 2.4
+    }
+   },
+   {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "industry": "Soft Drinks & Non-alcoholic Beverages",
+    "metric": 27.5,
+    "price": 36.63,
+    "pe": 33.49,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 20090000000,
+     "revenue_growth_yoy_pct": 27.5,
+     "gross_margin_pct": 49.4,
+     "operating_margin_pct": 16.2,
+     "net_margin_pct": 7.1,
+     "eps_diluted": 0.99,
+     "ocf": 2527000000,
+     "fcf": 1970000000,
+     "fcf_margin_pct": 9.8
+    }
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 26.6,
+    "price": 44.77,
+    "pe": 23.32,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 41871000000,
+     "revenue_growth_yoy_pct": 26.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 6.2,
+     "net_margin_pct": 6.7,
+     "eps_diluted": 1.96,
+     "ocf": 6694000000,
+     "fcf": 4156000000,
+     "fcf_margin_pct": 9.9
+    }
+   },
+   {
+    "ticker": "KEY",
+    "name": "KeyCorp",
+    "industry": "Regional Banks",
+    "metric": 25.1,
+    "price": 20.85,
+    "pe": 11.52,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7974000000,
+     "revenue_growth_yoy_pct": 25.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 26.6,
+     "eps_diluted": 1.82,
+     "ocf": 1637000000,
+     "fcf": 1516000000,
+     "fcf_margin_pct": 19.0
+    }
+   },
+   {
+    "ticker": "TOST",
+    "name": "Toast",
+    "industry": "Transaction & Payment Processing Services",
+    "metric": 22.1,
+    "price": 34.67,
+    "pe": 37.63,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7152000000,
+     "revenue_growth_yoy_pct": 22.1,
+     "gross_margin_pct": 27.0,
+     "operating_margin_pct": 7.2,
+     "net_margin_pct": 7.7,
+     "eps_diluted": 0.91,
+     "ocf": 668000000,
+     "fcf": 604000000,
+     "fcf_margin_pct": 8.4
+    }
+   },
+   {
+    "ticker": "CSGP",
+    "name": "CoStar Group",
+    "industry": "Real Estate Services",
+    "metric": 20.2,
+    "price": 30.55,
+    "pe": 70.26,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3674000000,
+     "revenue_growth_yoy_pct": 20.2,
+     "gross_margin_pct": 78.3,
+     "operating_margin_pct": 5.8,
+     "net_margin_pct": 4.9,
+     "eps_diluted": 0.44,
+     "ocf": 617000000,
+     "fcf": 422000000,
+     "fcf_margin_pct": 11.5
+    }
+   },
+   {
+    "ticker": "MNST",
+    "name": "Monster Beverage",
+    "industry": "Soft Drinks & Non-alcoholic Beverages",
+    "metric": 20.2,
+    "price": 45.72,
+    "pe": 41.62,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 9584870000,
+     "revenue_growth_yoy_pct": 20.2,
+     "gross_margin_pct": 55.3,
+     "operating_margin_pct": 28.5,
+     "net_margin_pct": 22.7,
+     "eps_diluted": 1.11,
+     "ocf": 2050250000,
+     "fcf": 1921434000,
+     "fcf_margin_pct": 20.0
+    }
+   },
+   {
+    "ticker": "CMCSA",
+    "name": "Comcast",
+    "industry": "Cable & Satellite",
+    "metric": -0.2,
+    "price": 24.39,
+    "pe": 7.7,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 123005000000,
+     "revenue_growth_yoy_pct": -0.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 14.7,
+     "net_margin_pct": 9.2,
+     "eps_diluted": 3.16,
+     "ocf": 31727000000,
+     "fcf": 19667000000,
+     "fcf_margin_pct": 16.0
+    }
+   },
+   {
+    "ticker": "F",
+    "name": "Ford Motor",
+    "industry": "Automobile Manufacturers",
+    "metric": -1.4,
+    "price": 12.44,
+    "pe": -6.29,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 186965000000,
+     "revenue_growth_yoy_pct": -1.4,
+     "gross_margin_pct": 8.4,
+     "operating_margin_pct": -3.8,
+     "net_margin_pct": -4.2,
+     "eps_diluted": -1.98,
+     "ocf": 14972000000,
+     "fcf": 5145000000,
+     "fcf_margin_pct": 2.8
+    }
+   },
+   {
+    "ticker": "KHC",
+    "name": "Kraft Heinz",
+    "industry": "Packaged Foods & Meats",
+    "metric": -1.5,
+    "price": 24.61,
+    "pe": -8.41,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 24778000000,
+     "revenue_growth_yoy_pct": -1.5,
+     "gross_margin_pct": 33.5,
+     "operating_margin_pct": -13.4,
+     "net_margin_pct": -14.0,
+     "eps_diluted": -2.92,
+     "ocf": 4336000000,
+     "fcf": 3532000000,
+     "fcf_margin_pct": 14.3
+    }
+   },
+   {
+    "ticker": "GME",
+    "name": "GameStop",
+    "industry": "Specialty Retail",
+    "metric": -7.7,
+    "price": 25.12,
+    "pe": 16.47,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 3550800000,
+     "revenue_growth_yoy_pct": -7.7,
+     "gross_margin_pct": 37.9,
+     "operating_margin_pct": 13.5,
+     "net_margin_pct": 25.2,
+     "eps_diluted": 1.53,
+     "ocf": 704700000,
+     "fcf": 688000000,
+     "fcf_margin_pct": 19.4
+    }
+   }
+  ]
+ }
+}
