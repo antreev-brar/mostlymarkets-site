@@ -385,6 +385,13 @@
 "theme": "ai-infrastructure",
 "tickers": []
 },
+"list-2026-11-08-2": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "list",
+"theme": "profitable-small-caps",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1583,6 +1590,14 @@
 "BRK.B"
 ]
 },
+"preview-CEG-2026-11-09": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "earnings-preview",
+"tickers": [
+"CEG"
+]
+},
 "preview-COP-2026-11-05": {
 "created": "2026-11-04T17:30:14-05:00",
 "day": "2026-11-04",
@@ -1609,6 +1624,14 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-FERG-2026-11-09": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "earnings-preview",
+"tickers": [
+"FERG"
+]
+},
 "preview-HUM-2026-11-06": {
 "created": "2026-11-05T17:30:21-05:00",
 "day": "2026-11-05",
@@ -1623,6 +1646,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "KDP"
+]
+},
+"preview-KKR-2026-11-09": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "earnings-preview",
+"tickers": [
+"KKR"
 ]
 },
 "preview-MAR-2026-11-02": {
@@ -1658,6 +1689,14 @@
 "created": "2026-11-01T19:46:23-05:00",
 "day": "2026-11-01",
 "kind": "earnings-preview"
+},
+"preview-OXY-2026-11-09": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "earnings-preview",
+"tickers": [
+"OXY"
+]
 },
 "preview-PFE-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
@@ -1716,6 +1755,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "TM"
+]
+},
+"preview-TTWO-2026-11-09": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "earnings-preview",
+"tickers": [
+"TTWO"
 ]
 },
 "preview-VRTX-2026-11-02": {
@@ -2925,6 +2972,12 @@
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "week-ahead"
+},
+"weekahead-2026-11-08": {
+"created": "2026-11-08T12:01:41-05:00",
+"day": "2026-11-08",
+"kind": "week-ahead",
+"tickers": []
 },
 "wrap-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",

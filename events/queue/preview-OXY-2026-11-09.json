@@ -1,0 +1,128 @@
+{
+ "id": "preview-OXY-2026-11-09",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-08T12:01:41-05:00",
+ "expires": "2026-11-09T15:30:00-05:00",
+ "tickers": [
+  "OXY"
+ ],
+ "headline_hint": "What to expect from Occidental Petroleum's (OXY) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-08T12:00:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "OXY",
+   "name": "Occidental Petroleum Corporation",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.43,
+   "n_estimates": 10,
+   "eps_last_year": 0.64,
+   "last_year_date": "11/10/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 56339562000.0
+  },
+  "report_date": "2026-11-09",
+  "quote": {
+   "price": 56.38,
+   "change_pct": 0.04,
+   "prev_close": 56.36,
+   "time": "2026-11-06",
+   "mktcap": "56.36B",
+   "pe": 18.02,
+   "fpe": 8.97,
+   "yr_high": 67.45,
+   "yr_low": 38.8,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 56.7,
+    "change_pct": 0.57,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "OXY",
+   "name": "Occidental Petroleum",
+   "date": "2026-11-06",
+   "close": 56.38,
+   "prev_close": 56.36,
+   "change_pct": 0.04,
+   "moves_over_5pct_last_year": 10,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 246,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": 1.57
+   },
+   "ytd_pct": 37.11,
+   "return_1m_pct": -6.47,
+   "return_6m_pct": 6.32,
+   "return_1y_pct": 41.84,
+   "high_52w": {
+    "close": 66.24,
+    "date": "2026-03-30"
+   },
+   "low_52w": {
+    "close": 38.92,
+    "date": "2025-12-16"
+   },
+   "pct_below_52w_high": 14.89,
+   "thousand_dollars_5y_ago_now": 1687,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 9024327,
+   "volume_vs_20d_avg": 1.0,
+   "sentences": [
+    "Occidental Petroleum's shares moved 5% or more on 10 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock rose 1.6%.",
+    "The stock is up 37.1% this year, and at $56.38 it sits 14.9% below its 52-week closing high of $66.24 from 30 March 2026.",
+    "$1,000 invested in Occidental Petroleum five years ago would be worth $1,687 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-02/diamondback-energy-fang-beats-q3-estimates-and-raises-its-dividend-7-3/",
+    "date": "2026-11-02",
+    "title": "Diamondback Energy (FANG) Beats Q3 Estimates and Raises Its Dividend 7.3%",
+    "type": "earnings-recap",
+    "tickers": [
+     "FANG",
+     "COP",
+     "OXY"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-story-wall-street-is-telling-about-100-oil-and-the-fed/",
+    "date": "2026-10-31",
+    "title": "The Story Wall Street Is Telling About $100 Oil and the Fed",
+    "type": "narrative",
+    "tickers": [
+     "XOM",
+     "CVX",
+     "MPC",
+     "VLO",
+     "COP",
+     "OXY",
+     "UAL",
+     "DAL",
+     "LUV"
+    ]
+   }
+  ],
+  "last_recap": [
+   {
+    "path": "/news/2026-11-02/diamondback-energy-fang-beats-q3-estimates-and-raises-its-dividend-7-3/",
+    "date": "2026-11-02",
+    "title": "Diamondback Energy (FANG) Beats Q3 Estimates and Raises Its Dividend 7.3%",
+    "type": "earnings-recap",
+    "tickers": [
+     "FANG",
+     "COP",
+     "OXY"
+    ]
+   }
+  ]
+ }
+}

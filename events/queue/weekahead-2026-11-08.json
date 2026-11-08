@@ -1,0 +1,135 @@
+{
+ "id": "weekahead-2026-11-08",
+ "kind": "week-ahead",
+ "story_type": "analysis",
+ "priority": 40,
+ "created": "2026-11-08T12:01:41-05:00",
+ "expires": "2026-11-09T09:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "The Week Ahead: <the big tests for stocks>",
+ "instructions": "Day by day: the big reporters and the economic calendar.",
+ "quotes_asof": "2026-11-08T12:00:09-05:00",
+ "pack": {
+  "week": [
+   {
+    "date": "2026-11-09",
+    "reporters": [
+     {
+      "ticker": "CEG",
+      "time": "bmo",
+      "eps_forecast": 3.9
+     },
+     {
+      "ticker": "KKR",
+      "time": "bmo",
+      "eps_forecast": 1.41
+     },
+     {
+      "ticker": "OXY",
+      "time": "amc",
+      "eps_forecast": 1.43
+     },
+     {
+      "ticker": "FERG",
+      "time": "bmo",
+      "eps_forecast": 3.28
+     },
+     {
+      "ticker": "TTWO",
+      "time": "amc",
+      "eps_forecast": 0.49
+     },
+     {
+      "ticker": "RKLB",
+      "time": "amc",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "NRG",
+      "time": "bmo",
+      "eps_forecast": 3.44
+     },
+     {
+      "ticker": "ASTS",
+      "time": "amc",
+      "eps_forecast": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-10",
+    "reporters": [
+     {
+      "ticker": "TDG",
+      "time": "bmo",
+      "eps_forecast": 11.43
+     },
+     {
+      "ticker": "SE",
+      "time": "bmo",
+      "eps_forecast": 0.79
+     },
+     {
+      "ticker": "CRWV",
+      "time": "amc",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "ONON",
+      "time": "bmo",
+      "eps_forecast": 0.42
+     },
+     {
+      "ticker": "QBTS",
+      "time": "bmo",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "RGTI",
+      "time": "amc",
+      "eps_forecast": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "reporters": [
+     {
+      "ticker": "VYLR",
+      "time": "amc",
+      "eps_forecast": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-12",
+    "reporters": [
+     {
+      "ticker": "CSCO",
+      "time": "amc",
+      "eps_forecast": 1.15
+     },
+     {
+      "ticker": "AMAT",
+      "time": "amc",
+      "eps_forecast": 4.06
+     },
+     {
+      "ticker": "NU",
+      "time": "unknown",
+      "eps_forecast": 0.22
+     },
+     {
+      "ticker": "NBIS",
+      "time": "bmo",
+      "eps_forecast": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-13",
+    "reporters": []
+   }
+  ]
+ }
+}

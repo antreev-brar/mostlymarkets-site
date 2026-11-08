@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-08-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-08T12:01:41-05:00",
+ "expires": "2026-11-08T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "2 Under-the-Radar Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Under-the-Radar, screened on operating margin among companies worth $5-30 billion. Pick 2 to like and 1 to skip from pack.candidates (picks block: like: A, B / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-08T12:00:09-05:00",
+ "pack": {
+  "theme": "profitable-small-caps",
+  "screen": "operating margin among companies worth $5-30 billion",
+  "like": 2,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "TPL",
+    "name": "Texas Pacific Land",
+    "industry": "Oil & Gas Exploration & Production",
+    "metric": 75.5,
+    "price": 272.36,
+    "pe": 32.0,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 967846000,
+     "revenue_growth_yoy_pct": 25.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 75.5,
+     "net_margin_pct": 60.7,
+     "eps_diluted": 8.51,
+     "ocf": 640932000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "REG",
+    "name": "Regency Centers",
+    "industry": "Retail REITs",
+    "metric": 72.3,
+    "price": 74.84,
+    "pe": 26.82,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 1585065000,
+     "revenue_growth_yoy_pct": 7.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 72.3,
+     "net_margin_pct": 34.5,
+     "eps_diluted": null,
+     "ocf": 819390000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "FRT",
+    "name": "Federal Realty Investment Trust",
+    "industry": "Retail REITs",
+    "metric": 53.6,
+    "price": 112.58,
+    "pe": 22.58,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 1310905000,
+     "revenue_growth_yoy_pct": 7.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 53.6,
+     "net_margin_pct": 38.6,
+     "eps_diluted": 5.75,
+     "ocf": 627928000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "UDR",
+    "name": "UDR",
+    "industry": "Multi-Family Residential REITs",
+    "metric": 52.2,
+    "price": 36.58,
+    "pe": 17.3,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1712435000,
+     "revenue_growth_yoy_pct": 0.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 52.2,
+     "net_margin_pct": 40.8,
+     "eps_diluted": 2.12,
+     "ocf": 854082000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SBAC",
+    "name": "SBA Communications",
+    "industry": "Telecom Tower REITs",
+    "metric": 47.7,
+    "price": 189.42,
+    "pe": 20.43,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2852219000,
+     "revenue_growth_yoy_pct": 2.3,
+     "gross_margin_pct": 75.7,
+     "operating_margin_pct": 47.7,
+     "net_margin_pct": 34.5,
+     "eps_diluted": 9.27,
+     "ocf": 1298132000,
+     "fcf": 1051807000,
+     "fcf_margin_pct": 36.9
+    }
+   },
+   {
+    "ticker": "CPAY",
+    "name": "Corpay",
+    "industry": "Transaction & Payment Processing Services",
+    "metric": 43.9,
+    "price": 455.16,
+    "pe": 25.01,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5229953000,
+     "revenue_growth_yoy_pct": 21.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 43.9,
+     "net_margin_pct": 23.7,
+     "eps_diluted": 18.18,
+     "ocf": 1529021000,
+     "fcf": 1333198000,
+     "fcf_margin_pct": 25.5
+    }
+   },
+   {
+    "ticker": "VRSK",
+    "name": "Verisk Analytics",
+    "industry": "Research & Consulting Services",
+    "metric": 43.9,
+    "price": 204.59,
+    "pe": 31.03,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3176700000,
+     "revenue_growth_yoy_pct": 4.9,
+     "gross_margin_pct": 70.2,
+     "operating_margin_pct": 43.9,
+     "net_margin_pct": 27.7,
+     "eps_diluted": 6.6,
+     "ocf": 1366900000,
+     "fcf": 1100400000,
+     "fcf_margin_pct": 34.6
+    }
+   },
+   {
+    "ticker": "GEN",
+    "name": "Gen Digital",
+    "industry": "Systems Software",
+    "metric": 41.8,
+    "price": 29.79,
+    "pe": 15.03,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 5228000000,
+     "revenue_growth_yoy_pct": 16.9,
+     "gross_margin_pct": 77.4,
+     "operating_margin_pct": 41.8,
+     "net_margin_pct": 23.1,
+     "eps_diluted": 1.99,
+     "ocf": 1780000000,
+     "fcf": 1764000000,
+     "fcf_margin_pct": 33.7
+    }
+   },
+   {
+    "ticker": "CF",
+    "name": "CF Industries",
+    "industry": "Fertilizers & Agricultural Chemicals",
+    "metric": 41.6,
+    "price": 119.39,
+    "pe": 8.42,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7940000000,
+     "revenue_growth_yoy_pct": 17.9,
+     "gross_margin_pct": 42.5,
+     "operating_margin_pct": 41.6,
+     "net_margin_pct": 32.2,
+     "eps_diluted": 14.17,
+     "ocf": 3083000000,
+     "fcf": 2081000000,
+     "fcf_margin_pct": 26.2
+    }
+   },
+   {
+    "ticker": "PTC",
+    "name": "PTC",
+    "industry": "Application Software",
+    "metric": 37.8,
+    "price": 195.07,
+    "pe": 22.06,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 2953972000,
+     "revenue_growth_yoy_pct": 19.5,
+     "gross_margin_pct": 84.5,
+     "operating_margin_pct": 37.8,
+     "net_margin_pct": 41.4,
+     "eps_diluted": 10.28,
+     "ocf": 955321000,
+     "fcf": 935484000,
+     "fcf_margin_pct": 31.7
+    }
+   },
+   {
+    "ticker": "FSLR",
+    "name": "First Solar",
+    "industry": "Semiconductors",
+    "metric": 37.7,
+    "price": 201.14,
+    "pe": 11.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5014151000,
+     "revenue_growth_yoy_pct": -0.7,
+     "gross_margin_pct": 49.3,
+     "operating_margin_pct": 37.7,
+     "net_margin_pct": 37.1,
+     "eps_diluted": 17.28,
+     "ocf": 839179000,
+     "fcf": 232790000,
+     "fcf_margin_pct": 4.6
+    }
+   },
+   {
+    "ticker": "AWK",
+    "name": "American Water Works",
+    "industry": "Water Utilities",
+    "metric": 37.2,
+    "price": 150.29,
+    "pe": 26.01,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5321000000,
+     "revenue_growth_yoy_pct": 5.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 37.2,
+     "net_margin_pct": 21.3,
+     "eps_diluted": 5.77,
+     "ocf": 2298000000,
+     "fcf": -1157000000,
+     "fcf_margin_pct": -21.7
+    }
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "industry": "Diversified Metals & Mining",
+    "metric": -20.5,
+    "price": 35.41,
+    "pe": -102.88,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 399479000,
+     "revenue_growth_yoy_pct": 71.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -20.5,
+     "net_margin_pct": -9.9,
+     "eps_diluted": -0.22,
+     "ocf": -54611000,
+     "fcf": -537267000,
+     "fcf_margin_pct": -134.5
+    }
+   },
+   {
+    "ticker": "FIG",
+    "name": "Figma",
+    "industry": "Application Software",
+    "metric": -40.7,
+    "price": 18.81,
+    "pe": -17.43,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1398713000,
+     "revenue_growth_yoy_pct": 44.4,
+     "gross_margin_pct": 81.4,
+     "operating_margin_pct": -40.7,
+     "net_margin_pct": -40.2,
+     "eps_diluted": -1.66,
+     "ocf": 246492000,
+     "fcf": 224362000,
+     "fcf_margin_pct": 16.0
+    }
+   },
+   {
+    "ticker": "RIVN",
+    "name": "Rivian",
+    "industry": "Automobile Manufacturers",
+    "metric": -52.9,
+    "price": 13.61,
+    "pe": -6.04,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6480000000,
+     "revenue_growth_yoy_pct": 11.1,
+     "gross_margin_pct": 9.2,
+     "operating_margin_pct": -52.9,
+     "net_margin_pct": -45.9,
+     "eps_diluted": -2.25,
+     "ocf": -2629000000,
+     "fcf": -4192000000,
+     "fcf_margin_pct": -64.7
+    }
+   },
+   {
+    "ticker": "JOBY",
+    "name": "Joby Aviation",
+    "industry": "Passenger Airlines",
+    "metric": -658.1,
+    "price": 5.93,
+    "pe": -8.22,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 148810000,
+     "revenue_growth_yoy_pct": 557.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -658.1,
+     "net_margin_pct": -462.8,
+     "eps_diluted": -0.73,
+     "ocf": -639386000,
+     "fcf": -784494000,
+     "fcf_margin_pct": -527.2
+    }
+   }
+  ]
+ }
+}
