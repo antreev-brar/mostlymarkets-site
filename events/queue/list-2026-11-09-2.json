@@ -1,0 +1,622 @@
+{
+ "id": "list-2026-11-09-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-09T10:30:14-05:00",
+ "expires": "2026-11-09T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Stocks We'd Skip After Their Earnings and 1 We Like",
+ "instructions": "Theme: After Earnings, screened on companies worth $10bn+ that reported results in the last seven days and that we recapped. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Each stock's case starts from the quarter it just reported (link our recap in candidates[].our_recap), then the long-run numbers. Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-09T10:30:09-05:00",
+ "pack": {
+  "theme": "after-earnings",
+  "screen": "companies worth $10bn+ that reported results in the last seven days and that we recapped",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "BRK.B",
+    "name": "Berkshire Hathaway",
+    "industry": "Multi-Sector Holdings",
+    "our_recap": {
+     "title": "Berkshire Hathaway (BRK.B) Q3 Profit Falls 6% as Buybacks Hit a Record $9.6 Billion",
+     "path": "/news/2026-11-07/berkshire-hathaway-brk-b-q3-profit-falls-6-as-buybacks-hit-a-record-9-6-billion/",
+     "date": "2026-11-07"
+    },
+    "quote": {
+     "price": 563.48,
+     "change_pct": -1.3,
+     "prev_close": 570.89,
+     "time": "2026-11-09T10:30:00.595-0500",
+     "mktcap": "1.216T",
+     "pe": 14.17,
+     "fpe": 52.48,
+     "yr_high": 586.3,
+     "yr_low": 464.01,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 569.25,
+      "change_pct": -0.29,
+      "time": "2026-11-09T09:30:00.111-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 384687000000,
+     "revenue_growth_yoy_pct": 3.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 22.3,
+     "eps_diluted": null,
+     "ocf": 46634000000,
+     "fcf": 24215000000,
+     "fcf_margin_pct": 6.3
+    }
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "industry": "Semiconductors",
+    "our_recap": {
+     "title": "AMD (AMD) Beats Q3 Estimates and Guides Q4 Sales to $17 Billion",
+     "path": "/news/2026-11-03/amd-amd-beats-q3-estimates-and-guides-q4-sales-to-17-billion/",
+     "date": "2026-11-03"
+    },
+    "quote": {
+     "price": 491.51,
+     "change_pct": 9.46,
+     "prev_close": 449.04,
+     "time": "2026-11-09T10:30:00.235-0500",
+     "mktcap": "806.119B",
+     "pe": 105.35,
+     "fpe": 40.64,
+     "yr_high": 658.52,
+     "yr_low": 188.22,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 473.13,
+      "change_pct": 5.36,
+      "time": "2026-11-09T09:30:01.112-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 45436000000,
+     "revenue_growth_yoy_pct": 41.9,
+     "gross_margin_pct": 53.7,
+     "operating_margin_pct": 17.7,
+     "net_margin_pct": 16.8,
+     "eps_diluted": 4.6,
+     "ocf": 9123000000,
+     "fcf": 7056000000,
+     "fcf_margin_pct": 15.5
+    }
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "industry": "Automobile Manufacturers",
+    "our_recap": {
+     "title": "Toyota (TM) Soars as Q2 Profit Jumps 34% and It Raises Its Forecast to 3.9 Trillion Yen",
+     "path": "/news/2026-11-06/toyota-tm-soars-as-q2-profit-jumps-34-and-it-raises-its-forecast-to-3-9-trillion-yen/",
+     "date": "2026-11-06"
+    },
+    "quote": {
+     "price": 218.18,
+     "change_pct": 0.92,
+     "prev_close": 216.19,
+     "time": "2026-11-09T10:29:57.253-0500",
+     "mktcap": "318.433B",
+     "pe": 9.98,
+     "fpe": 16.04,
+     "yr_high": 248.9,
+     "yr_low": 166.1,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 221.0,
+      "change_pct": 2.22,
+      "time": "2026-11-09T06:32:42.018-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "industry": "Biotechnology",
+    "our_recap": {
+     "title": "Amgen (AMGN) Beats Q3 Estimates and Raises Its 2026 Forecast",
+     "path": "/news/2026-11-04/amgen-amgn-beats-q3-estimates-and-raises-its-2026-forecast/",
+     "date": "2026-11-04"
+    },
+    "quote": {
+     "price": 458.4,
+     "change_pct": -0.44,
+     "prev_close": 460.42,
+     "time": "2026-11-09T10:29:59.682-0500",
+     "mktcap": "247.954B",
+     "pe": 26.58,
+     "fpe": 19.44,
+     "yr_high": 483.99,
+     "yr_low": 312.39,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 467.01,
+      "change_pct": 1.43,
+      "time": "2026-11-09T09:28:00.065-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 38903000000,
+     "revenue_growth_yoy_pct": 8.2,
+     "gross_margin_pct": 70.9,
+     "operating_margin_pct": 32.4,
+     "net_margin_pct": 24.1,
+     "eps_diluted": 17.24,
+     "ocf": 12035000000,
+     "fcf": 9581000000,
+     "fcf_margin_pct": 24.6
+    }
+   },
+   {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "industry": "Oil & Gas Exploration & Production",
+    "our_recap": {
+     "title": "ConocoPhillips (COP) Beats Q3 Estimates and Raises Its Dividend 11%",
+     "path": "/news/2026-11-05/conocophillips-cop-beats-q3-estimates-and-raises-its-dividend-11/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 134.84,
+     "change_pct": -1.05,
+     "prev_close": 136.27,
+     "time": "2026-11-09T10:29:53.191-0500",
+     "mktcap": "161.982B",
+     "pe": 14.18,
+     "fpe": 11.31,
+     "yr_high": 154.28,
+     "yr_low": 85.7,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 134.71,
+      "change_pct": -1.14,
+      "time": "2026-11-09T08:03:07.900-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 67749000000,
+     "revenue_growth_yoy_pct": 13.3,
+     "gross_margin_pct": 62.2,
+     "operating_margin_pct": null,
+     "net_margin_pct": 17.1,
+     "eps_diluted": 9.52,
+     "ocf": 23242000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony Group",
+    "industry": "Consumer Electronics",
+    "our_recap": {
+     "title": "Sony (SONY) Jumps 6% as Spider-Man and PlayStation Drive a 45% Profit Rise",
+     "path": "/news/2026-11-05/sony-sony-jumps-6-as-spider-man-and-playstation-drive-a-45-profit-rise/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 26.88,
+     "change_pct": -0.46,
+     "prev_close": 27.0,
+     "time": "2026-11-09T10:30:01.601-0500",
+     "mktcap": "160.318B",
+     "pe": 19.97,
+     "fpe": 21.33,
+     "yr_high": 30.34,
+     "yr_low": 19.32,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 27.28,
+      "change_pct": 1.04,
+      "time": "2026-11-09T09:29:44.401-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin",
+    "industry": "Advertising",
+    "our_recap": {
+     "title": "AppLovin (APP) Soars 31% as Q3 Sales Rise 55% and Its Forecast Tops Estimates",
+     "path": "/news/2026-11-05/applovin-app-soars-31-as-q3-sales-rise-55-and-its-forecast-tops-estimates/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 408.52,
+     "change_pct": 4.42,
+     "prev_close": 391.22,
+     "time": "2026-11-09T10:30:00.169-0500",
+     "mktcap": "135.35B",
+     "pe": 27.49,
+     "fpe": 22.35,
+     "yr_high": 738.01,
+     "yr_low": 225.19,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 386.15,
+      "change_pct": -1.3,
+      "time": "2026-11-09T09:30:00.673-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7608894000,
+     "revenue_growth_yoy_pct": 57.8,
+     "gross_margin_pct": 88.8,
+     "operating_margin_pct": 77.8,
+     "net_margin_pct": 65.9,
+     "eps_diluted": 14.86,
+     "ocf": 4903009000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "PH",
+    "name": "Parker Hannifin",
+    "industry": "Industrial Machinery & Supplies & Components",
+    "our_recap": {
+     "title": "Parker Hannifin (PH) Beats and Raises, but Gives Up a 6% Opening Jump",
+     "path": "/news/2026-11-05/parker-hannifin-ph-beats-and-raises-but-gives-up-a-6-opening-jump/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 948.62,
+     "change_pct": 3.36,
+     "prev_close": 917.79,
+     "time": "2026-11-09T10:29:29.659-0500",
+     "mktcap": "119.632B",
+     "pe": 32.58,
+     "fpe": 26.28,
+     "yr_high": 1099.94,
+     "yr_low": 806.22,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 945.91,
+      "change_pct": 3.06,
+      "time": "2026-11-09T08:54:23.895-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 22407000000,
+     "revenue_growth_yoy_pct": 11.9,
+     "gross_margin_pct": 37.7,
+     "operating_margin_pct": 23.6,
+     "net_margin_pct": 16.6,
+     "eps_diluted": 29.11,
+     "ocf": 4334000000,
+     "fcf": 3855000000,
+     "fcf_margin_pct": 17.2
+    }
+   },
+   {
+    "ticker": "SO",
+    "name": "Southern",
+    "industry": "Electric Utilities",
+    "our_recap": {
+     "title": "Southern (SO) Beats Q3 Estimates and Raises Its 2026 Forecast to $4.70",
+     "path": "/news/2026-11-05/southern-so-beats-q3-estimates-and-raises-its-2026-forecast-to-4-70/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 92.58,
+     "change_pct": 0.26,
+     "prev_close": 92.34,
+     "time": "2026-11-09T10:30:04.976-0500",
+     "mktcap": "106.501B",
+     "pe": 21.19,
+     "fpe": 19.96,
+     "yr_high": 99.58,
+     "yr_low": 81.69,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 93.67,
+      "change_pct": 1.44,
+      "time": "2026-11-09T09:03:59.701-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 30174000000,
+     "revenue_growth_yoy_pct": 8.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 24.2,
+     "net_margin_pct": 14.5,
+     "eps_diluted": 3.9,
+     "ocf": 9778000000,
+     "fcf": -3466000000,
+     "fcf_margin_pct": -11.5
+    }
+   },
+   {
+    "ticker": "NET",
+    "name": "Cloudflare",
+    "industry": "Internet Services & Infrastructure",
+    "our_recap": {
+     "title": "Cloudflare (NET) Jumps After Hours as Q3 Revenue Growth Speeds Up to 39%",
+     "path": "/news/2026-11-05/cloudflare-net-jumps-after-hours-as-q3-revenue-growth-speeds-up-to-39/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 292.51,
+     "change_pct": 8.84,
+     "prev_close": 268.75,
+     "time": "2026-11-09T10:30:03.590-0500",
+     "mktcap": "104.157B",
+     "pe": -427.27,
+     "fpe": 183.97,
+     "yr_high": 370.35,
+     "yr_low": 158.83,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 276.0,
+      "change_pct": 2.7,
+      "time": "2026-11-09T09:30:00.552-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2732836000,
+     "revenue_growth_yoy_pct": 35.7,
+     "gross_margin_pct": 71.9,
+     "operating_margin_pct": -14.1,
+     "net_margin_pct": -8.7,
+     "eps_diluted": -0.68,
+     "ocf": 681670000,
+     "fcf": 359479000,
+     "fcf_margin_pct": 13.2
+    }
+   },
+   {
+    "ticker": "DUK",
+    "name": "Duke Energy",
+    "industry": "Electric Utilities",
+    "our_recap": {
+     "title": "Duke Energy (DUK) Beats Q3 Estimates and Aims for the Top of Its 2026 Range",
+     "path": "/news/2026-11-05/duke-energy-duk-beats-q3-estimates-and-aims-for-the-top-of-its-2026-range/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 127.54,
+     "change_pct": -0.19,
+     "prev_close": 127.78,
+     "time": "2026-11-09T10:29:56.155-0500",
+     "mktcap": "99.443B",
+     "pe": 18.69,
+     "fpe": 18.88,
+     "yr_high": 134.49,
+     "yr_low": 112.4,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 129.33,
+      "change_pct": 1.21,
+      "time": "2026-11-09T09:30:00.816-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 32518000000,
+     "revenue_growth_yoy_pct": 5.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 27.7,
+     "net_margin_pct": 15.8,
+     "eps_diluted": 6.54,
+     "ocf": 11665000000,
+     "fcf": -3299000000,
+     "fcf_margin_pct": -10.1
+    }
+   },
+   {
+    "ticker": "WMB",
+    "name": "Williams Companies",
+    "industry": "Oil & Gas Storage & Transportation",
+    "our_recap": {
+     "title": "Williams (WMB) Q3 Earnings Match Estimates as EBITDA Grows 6%",
+     "path": "/news/2026-11-02/williams-wmb-q3-earnings-match-estimates-as-ebitda-grows-6/",
+     "date": "2026-11-02"
+    },
+    "quote": {
+     "price": 65.44,
+     "change_pct": 2.12,
+     "prev_close": 64.08,
+     "time": "2026-11-09T10:30:05.763-0500",
+     "mktcap": "81.813B",
+     "pe": 25.8,
+     "fpe": 27.02,
+     "yr_high": 80.08,
+     "yr_low": 58.09,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 64.03,
+      "change_pct": -0.08,
+      "time": "2026-11-09T09:22:26.162-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 15431000000,
+     "revenue_growth_yoy_pct": 10.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 30.2,
+     "net_margin_pct": 19.9,
+     "eps_diluted": 2.51,
+     "ocf": 5994000000,
+     "fcf": -108000000,
+     "fcf_margin_pct": -0.7
+    }
+   },
+   {
+    "ticker": "CI",
+    "name": "Cigna",
+    "industry": "Health Care Services",
+    "our_recap": {
+     "title": "Cigna (CI) Beats Q3 Estimates and Raises Its Outlook, Then Fades",
+     "path": "/news/2026-11-05/cigna-ci-beats-q3-estimates-and-raises-its-outlook-then-fades/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 293.29,
+     "change_pct": -0.1,
+     "prev_close": 293.59,
+     "time": "2026-11-09T10:29:58.200-0500",
+     "mktcap": "77.498B",
+     "pe": 12.98,
+     "fpe": 9.26,
+     "yr_high": 318.05,
+     "yr_low": 256.52,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 296.94,
+      "change_pct": 1.14,
+      "time": "2026-11-09T09:22:58.090-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 286317000000,
+     "revenue_growth_yoy_pct": 6.8,
+     "gross_margin_pct": 20.7,
+     "operating_margin_pct": 3.4,
+     "net_margin_pct": 2.1,
+     "eps_diluted": 22.67,
+     "ocf": 9430000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "industry": "Oil & Gas Exploration & Production",
+    "our_recap": {
+     "title": "EOG Resources (EOG) Tops Q3 Estimates on Record Output and Raises Its Dividend 8%",
+     "path": "/news/2026-11-06/eog-resources-eog-tops-q3-estimates-on-record-output-and-raises-its-dividend-8/",
+     "date": "2026-11-06"
+    },
+    "quote": {
+     "price": 147.11,
+     "change_pct": -0.01,
+     "prev_close": 147.13,
+     "time": "2026-11-09T10:29:52.558-0500",
+     "mktcap": "77.163B",
+     "pe": 9.51,
+     "fpe": 8.07,
+     "yr_high": 165.93,
+     "yr_low": 101.59,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 144.9,
+      "change_pct": -1.52,
+      "time": "2026-11-09T09:30:00.919-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 29728000000,
+     "revenue_growth_yoy_pct": 31.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 35.8,
+     "net_margin_pct": 27.5,
+     "eps_diluted": 15.48,
+     "ocf": 14060000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SPG",
+    "name": "Simon Property Group",
+    "industry": "Retail REITs",
+    "our_recap": {
+     "title": "Simon Property Group (SPG) Tops Q3 FFO Estimates and Raises Its Forecast and Dividend",
+     "path": "/news/2026-11-06/simon-property-group-spg-tops-q3-ffo-estimates-and-raises-its-forecast-and-dividend/",
+     "date": "2026-11-06"
+    },
+    "quote": {
+     "price": 230.03,
+     "change_pct": 0.7,
+     "prev_close": 228.42,
+     "time": "2026-11-09T10:30:02.500-0500",
+     "mktcap": "74.428B",
+     "pe": 16.6,
+     "fpe": 33.12,
+     "yr_high": 238.5,
+     "yr_low": 177.88,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 229.22,
+      "change_pct": 0.35,
+      "time": "2026-11-09T07:00:11.522-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7153709000,
+     "revenue_growth_yoy_pct": 16.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 45.9,
+     "net_margin_pct": 73.4,
+     "eps_diluted": 13.86,
+     "ocf": 4304359000,
+     "fcf": 3354497000,
+     "fcf_margin_pct": 46.9
+    }
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "industry": "Industrial Gases",
+    "our_recap": {
+     "title": "Air Products (APD) Meets Q4 Estimates and Guides for Slower Growth in 2027",
+     "path": "/news/2026-11-05/air-products-apd-matches-q4-estimates-and-guides-for-slower-growth-in-2027/",
+     "date": "2026-11-05"
+    },
+    "quote": {
+     "price": 309.72,
+     "change_pct": 1.6,
+     "prev_close": 304.84,
+     "time": "2026-11-09T10:29:55.648-0500",
+     "mktcap": "68.97B",
+     "pe": 129.97,
+     "fpe": 21.9,
+     "yr_high": 324.0,
+     "yr_low": 229.11,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 306.01,
+      "change_pct": 0.38,
+      "time": "2026-11-09T08:43:55.449-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 12602200000,
+     "revenue_growth_yoy_pct": 4.5,
+     "gross_margin_pct": 32.1,
+     "operating_margin_pct": -4.7,
+     "net_margin_pct": -0.4,
+     "eps_diluted": -0.22,
+     "ocf": 4570800000,
+     "fcf": -301400000,
+     "fcf_margin_pct": -2.4
+    }
+   }
+  ]
+ }
+}
