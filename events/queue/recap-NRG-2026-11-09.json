@@ -1,0 +1,102 @@
+{
+ "id": "recap-NRG-2026-11-09",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-09T10:15:13-05:00",
+ "expires": "2026-11-10T20:00:00-05:00",
+ "tickers": [
+  "NRG"
+ ],
+ "headline_hint": "NRG Energy (NRG) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-09T10:15:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "NRG",
+   "name": "NRG Energy, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.44,
+   "n_estimates": 3,
+   "eps_last_year": 2.75,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 16932454400.0
+  },
+  "quote": {
+   "price": 96.0,
+   "change_pct": 8.73,
+   "prev_close": 88.29,
+   "time": "2026-11-09T10:14:59.670-0500",
+   "mktcap": "20.18B",
+   "pe": 25.41,
+   "fpe": 10.05,
+   "yr_high": 189.96,
+   "yr_low": 79.65,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 93.0,
+    "change_pct": 5.33,
+    "time": "2026-11-09T09:28:09.724-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NRG",
+   "name": "NRG Energy",
+   "date": "2026-11-06",
+   "close": 88.29,
+   "prev_close": 80.55,
+   "change_pct": 9.61,
+   "moves_over_5pct_last_year": 26,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2025-05-12",
+    "change_pct": 26.21
+   },
+   "ytd_pct": -44.56,
+   "return_1m_pct": -16.96,
+   "return_6m_pct": -36.07,
+   "return_1y_pct": -49.02,
+   "high_52w": {
+    "close": 184.03,
+    "date": "2026-02-24"
+   },
+   "low_52w": {
+    "close": 80.55,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 52.02,
+   "thousand_dollars_5y_ago_now": 2434,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 8716464,
+   "volume_vs_20d_avg": 2.42,
+   "sentences": [
+    "NRG Energy's shares moved 5% or more on 26 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 May 2025, when the stock rose 26.2%.",
+    "The stock is down 44.6% this year, and at $88.29 it sits 52.0% below its 52-week closing high of $184.03 from 24 February 2026.",
+    "$1,000 invested in NRG Energy five years ago would be worth $2,434 today."
+   ]
+  },
+  "sector": "Utilities",
+  "industry": "Independent Power Producers & Energy Traders",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/what-to-expect-from-constellation-energys-ceg-q3-earnings/",
+    "date": "2026-11-08",
+    "title": "What to Expect From Constellation Energy's (CEG) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "CEG",
+     "NRG",
+     "VST"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/0001013871-26-000022-index.htm",
+  "release_text": "events/packs/recap-NRG-2026-11-09.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm"
+ }
+}
