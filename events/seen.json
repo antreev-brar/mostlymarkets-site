@@ -2008,6 +2008,14 @@
 "QCOM"
 ]
 },
+"preview-SE-2026-11-10": {
+"created": "2026-11-09T17:30:57-05:00",
+"day": "2026-11-09",
+"kind": "earnings-preview",
+"tickers": [
+"SE"
+]
+},
 "preview-SHOP-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -2028,6 +2036,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "SONY"
+]
+},
+"preview-TDG-2026-11-10": {
+"created": "2026-11-09T17:30:57-05:00",
+"day": "2026-11-09",
+"kind": "earnings-preview",
+"tickers": [
+"TDG"
 ]
 },
 "preview-TM-2026-11-04": {
