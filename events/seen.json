@@ -1214,6 +1214,12 @@
 "DIS"
 ]
 },
+"news-GOOGL-2026-11-09-google-says-new-australian-internet-safe": {
+"created": "2026-11-09T01:01:02-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-HSBC-2026-11-05-hsbc-bought-back-156-261-shares-for-gbp": {
 "created": "2026-11-05T04:01:12-05:00",
 "day": "2026-11-05",
@@ -1363,6 +1369,12 @@
 },
 "news-NVDA-2026-11-09-nvidia-board-to-probe-spying-case-after": {
 "created": "2026-11-09T00:01:43-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"outcome": "already-written"
+},
+"news-NVDA-2026-11-09-nvidia-crisis-may-hurt-china-more-than-i": {
+"created": "2026-11-09T01:01:02-05:00",
 "day": "2026-11-09",
 "kind": "news",
 "outcome": "already-written"
