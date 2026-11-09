@@ -1,0 +1,100 @@
+{
+ "id": "recap-FERG-2026-11-09",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-09T07:01:04-05:00",
+ "expires": "2026-11-10T20:00:00-05:00",
+ "tickers": [
+  "FERG"
+ ],
+ "headline_hint": "Ferguson Enterprises (FERG) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-09T07:00:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "FERG",
+   "name": "Ferguson Enterprises Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 3.28,
+   "n_estimates": 3,
+   "eps_last_year": 2.84,
+   "last_year_date": "N/A",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 45587132000.0
+  },
+  "quote": {
+   "price": 233.7,
+   "change_pct": -0.83,
+   "prev_close": 233.7,
+   "time": "2026-11-06",
+   "mktcap": "45.21B",
+   "pe": 23.0,
+   "fpe": 19.54,
+   "yr_high": 271.64,
+   "yr_low": 212.13,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 233.7,
+    "change_pct": 0.0,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "FERG",
+   "name": "Ferguson Enterprises",
+   "date": "2026-11-06",
+   "close": 233.7,
+   "prev_close": 235.65,
+   "change_pct": -0.83,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 161,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -5.18
+   },
+   "ytd_pct": 4.97,
+   "return_1m_pct": 7.83,
+   "return_6m_pct": -3.17,
+   "return_1y_pct": -6.14,
+   "high_52w": {
+    "close": 267.71,
+    "date": "2026-04-30"
+   },
+   "low_52w": {
+    "close": 214.26,
+    "date": "2026-09-17"
+   },
+   "pct_below_52w_high": 12.7,
+   "thousand_dollars_5y_ago_now": 1527,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 2190200,
+   "volume_vs_20d_avg": 1.6,
+   "sentences": [
+    "Ferguson Enterprises's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 5.2%.",
+    "The stock is up 5.0% this year, and at $233.70 it sits 12.7% below its 52-week closing high of $267.71 from 30 April 2026.",
+    "$1,000 invested in Ferguson Enterprises five years ago would be worth $1,527 today."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Trading Companies & Distributors",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/what-to-expect-from-fergusons-ferg-q3-earnings/",
+    "date": "2026-11-08",
+    "title": "What to Expect From Ferguson's (FERG) Q3 Earnings on Monday",
+    "type": "earnings-preview",
+    "tickers": [
+     "FERG"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/2011641/000201164126000042/0002011641-26-000042-index.htm",
+  "release_text": "events/packs/recap-FERG-2026-11-09.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/2011641/000201164126000042/exhibit991pressreleasesept.htm"
+ }
+}
