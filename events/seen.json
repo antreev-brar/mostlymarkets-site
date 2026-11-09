@@ -1075,6 +1075,14 @@
 "BABA"
 ]
 },
+"news-BHP-2026-11-09-bhp-signs-copper-cathode-purchase-sales": {
+"created": "2026-11-09T00:01:43-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"tickers": [
+"BHP"
+]
+},
 "news-BKNG-2026-11-03-how-investors-are-reacting-to-booking-ho": {
 "created": "2026-11-03T00:01:33-05:00",
 "day": "2026-11-03",
@@ -1150,6 +1158,14 @@
 "news-BX-2026-11-02-blackstone-to-invest-3-10-billion-for-49": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"BX"
+]
+},
+"news-BX-2026-11-09-blackstone-in-talks-for-15-stake-in-iifl": {
+"created": "2026-11-09T00:01:43-05:00",
+"day": "2026-11-09",
 "kind": "news",
 "tickers": [
 "BX"
@@ -1344,6 +1360,12 @@
 "tickers": [
 "NVDA"
 ]
+},
+"news-NVDA-2026-11-09-nvidia-board-to-probe-spying-case-after": {
+"created": "2026-11-09T00:01:43-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
 "created": "2026-11-04T05:01:57-05:00",

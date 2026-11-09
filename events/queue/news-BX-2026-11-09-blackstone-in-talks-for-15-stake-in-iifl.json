@@ -1,0 +1,90 @@
+{
+ "id": "news-BX-2026-11-09-blackstone-in-talks-for-15-stake-in-iifl",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-09T00:01:43-05:00",
+ "expires": "2026-11-09T10:01:43-05:00",
+ "tickers": [
+  "BX"
+ ],
+ "headline_hint": "Blackstone: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-09T00:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Blackstone in talks for 15% stake in IIFL Finance for a $500-600 million deal; Advent also in fray - Money Control",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Q08L:0-blackstone-in-talks-for-15-stake-in-iifl-finance-for-a-500-600-million-deal-advent-also-in-fray-money-control/",
+    "published": "2026-11-08T23:24:59-05:00",
+    "also": []
+   },
+   {
+    "title": "Dwindling Pay Fuels High-Profile Exits From Blackstone's Marquee Real Estate Team",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261108001203:0-dwindling-pay-fuels-high-profile-exits-from-blackstone-s-marquee-real-estate-team-wsj/",
+    "published": "2026-11-08T21:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 119.5,
+   "change_pct": -0.27,
+   "prev_close": 119.5,
+   "time": "2026-11-06",
+   "mktcap": "143.858B",
+   "pe": 26.61,
+   "fpe": 19.48,
+   "yr_high": 165.14,
+   "yr_low": 101.73,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 119.5,
+    "change_pct": 0.0,
+    "time": "2026-11-06"
+   }
+  },
+  "facts": {
+   "ticker": "BX",
+   "name": "Blackstone",
+   "date": "2026-11-06",
+   "close": 119.5,
+   "prev_close": 119.82,
+   "change_pct": -0.27,
+   "moves_over_5pct_last_year": 14,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 224,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -4.58
+   },
+   "ytd_pct": -22.47,
+   "return_1m_pct": 6.05,
+   "return_6m_pct": -3.45,
+   "return_1y_pct": -17.2,
+   "high_52w": {
+    "close": 163.5,
+    "date": "2026-01-16"
+   },
+   "low_52w": {
+    "close": 102.12,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 26.91,
+   "thousand_dollars_5y_ago_now": 838,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 6323325,
+   "volume_vs_20d_avg": 1.03,
+   "sentences": [
+    "Blackstone's shares moved 5% or more on 14 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 4.6%.",
+    "The stock is down 22.5% this year, and at $119.50 it sits 26.9% below its 52-week closing high of $163.50 from 16 January 2026.",
+    "$1,000 invested in Blackstone five years ago would be worth $838 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/blackstone-bx-leads-a-3-1-billion-investment-in-mitsubishis-lng-canada-stake/"
+  ]
+ }
+}
