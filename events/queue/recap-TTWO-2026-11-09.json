@@ -1,0 +1,98 @@
+{
+ "id": "recap-TTWO-2026-11-09",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-09T16:15:16-05:00",
+ "expires": "2026-11-10T20:00:00-05:00",
+ "tickers": [
+  "TTWO"
+ ],
+ "headline_hint": "Take-Two Interactive (TTWO) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-09T16:15:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive Software, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.49,
+   "n_estimates": 6,
+   "eps_last_year": 1.04,
+   "last_year_date": "11/06/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 39894147000.0
+  },
+  "quote": {
+   "price": 207.4,
+   "change_pct": -3.48,
+   "prev_close": 214.87,
+   "time": "2026-11-09T16:00:00.000-0500",
+   "mktcap": "38.78B",
+   "pe": -119.77,
+   "fpe": 25.4,
+   "yr_high": 265.94,
+   "yr_low": 183.86,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 209.32,
+    "change_pct": 0.93,
+    "time": "2026-11-09T16:15:09.568-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "date": "2026-11-09",
+   "close": 207.4,
+   "prev_close": 214.87,
+   "change_pct": -3.48,
+   "moves_over_5pct_last_year": 10,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 25,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-13",
+    "change_pct": -4.07
+   },
+   "ytd_pct": -18.99,
+   "return_1m_pct": -2.83,
+   "return_6m_pct": -6.35,
+   "return_1y_pct": -17.83,
+   "high_52w": {
+    "close": 258.41,
+    "date": "2026-07-06"
+   },
+   "low_52w": {
+    "close": 189.69,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 19.74,
+   "thousand_dollars_5y_ago_now": 1110,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 5065667,
+   "volume_vs_20d_avg": 1.84,
+   "sentences": [
+    "Take-Two Interactive's shares moved 5% or more on 10 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 October 2026, when the stock fell 4.1%.",
+    "The stock is down 19.0% this year, and at $207.40 it sits 19.7% below its 52-week closing high of $258.41 from 6 July 2026.",
+    "$1,000 invested in Take-Two Interactive five years ago would be worth $1,110 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Interactive Home Entertainment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/what-to-expect-from-take-two-interactives-ttwo-q2-earnings/",
+    "date": "2026-11-08",
+    "title": "What to Expect From Take-Two Interactive's (TTWO) Q2 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "TTWO"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/0001628280-26-072175-index.htm"
+ }
+}

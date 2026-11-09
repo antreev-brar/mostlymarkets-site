@@ -1,0 +1,403 @@
+{
+ "id": "wrap-2026-11-09",
+ "kind": "market-wrap",
+ "story_type": "market-wrap",
+ "priority": 85,
+ "created": "2026-11-09T16:15:16-05:00",
+ "expires": "2026-11-09T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stock Market Today: <the story of the day>",
+ "instructions": "The close. Use pack.markets for the numbers table. Link today's stories where they fit.",
+ "quotes_asof": "2026-11-09T16:15:11-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7549.94,
+    "change": 173.08,
+    "change_pct": 2.35,
+    "prev_close": 7376.86,
+    "open": 7422.24,
+    "high": 7577.39,
+    "low": 7422.24,
+    "volume": 0,
+    "time": "2026-11-09T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25253.139,
+    "change": 673.714,
+    "change_pct": 2.74,
+    "prev_close": 24579.425,
+    "open": 24777.444,
+    "high": 25354.303,
+    "low": 24762.569,
+    "volume": 1831613207,
+    "time": "2026-11-09T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 52389.75,
+    "change": 1104.02,
+    "change_pct": 2.15,
+    "prev_close": 51285.73,
+    "open": 51643.01,
+    "high": 52574.34,
+    "low": 51643.01,
+    "volume": 807417882,
+    "time": "2026-11-09T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2840.903,
+    "change": 86.798,
+    "change_pct": 3.15,
+    "prev_close": 2754.105,
+    "open": 2787.92,
+    "high": 2852.685,
+    "low": 2784.04,
+    "volume": 0,
+    "time": "2026-11-09T15:59:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 19.92,
+    "change": -5.72,
+    "change_pct": -22.31,
+    "prev_close": 25.64,
+    "open": 25.08,
+    "high": 25.08,
+    "low": 19.64,
+    "volume": 0,
+    "time": "2026-11-09T16:15:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.876,
+    "change": 0.017,
+    "change_pct": 0.3499,
+    "prev_close": 4.859,
+    "open": 4.859,
+    "high": 4.886,
+    "low": 4.831,
+    "volume": 0,
+    "time": "2026-11-09T16:15:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.566,
+    "change": 0.044,
+    "change_pct": -0.082,
+    "prev_close": 4.522,
+    "open": 4.515,
+    "high": 4.57,
+    "low": 4.503,
+    "volume": 0,
+    "time": "2026-11-09T16:14:56.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 87.03,
+    "change": -3.8,
+    "change_pct": -4.18,
+    "prev_close": 90.83,
+    "open": 90.83,
+    "high": 91.42,
+    "low": 85.02,
+    "volume": 303659,
+    "time": "2026-11-09T16:05:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 92.87,
+    "change": -5.45,
+    "change_pct": -5.54,
+    "prev_close": 98.32,
+    "open": 98.2,
+    "high": 98.43,
+    "low": 90.56,
+    "volume": 409102,
+    "time": "2026-11-09T22:05:08.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 4148.7,
+    "change": 73.8,
+    "change_pct": 1.81,
+    "prev_close": 4074.9,
+    "open": 4074.3,
+    "high": 4157.7,
+    "low": 4062.5,
+    "volume": 176463,
+    "time": "2026-11-09T16:05:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 74785.47,
+    "change": -945.3,
+    "change_pct": -1.25,
+    "prev_close": 75730.77,
+    "open": 75653.94,
+    "high": 75689.8,
+    "low": 73533.8,
+    "volume": 0,
+    "time": "2026-11-09T16:15:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 107479.16,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 101.675,
+    "change": -0.623,
+    "change_pct": -0.61,
+    "prev_close": 102.298,
+    "open": 102.236,
+    "high": 102.284,
+    "low": 101.642,
+    "volume": 0,
+    "time": "2026-11-09T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.95,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "top_moves": [
+   {
+    "ticker": "FSLR",
+    "name": "First Solar",
+    "change_pct": -4.74,
+    "price": 191.61
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "change_pct": -4.27,
+    "price": 178.67
+   },
+   {
+    "ticker": "BABA",
+    "name": "Alibaba",
+    "change_pct": -3.72,
+    "price": 105.38
+   },
+   {
+    "ticker": "TTWO",
+    "name": "Take-Two Interactive",
+    "change_pct": -3.48,
+    "price": 207.4
+   },
+   {
+    "ticker": "AKAM",
+    "name": "Akamai Technologies",
+    "change_pct": -3.37,
+    "price": 80.29
+   },
+   {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "change_pct": -3.14,
+    "price": 303.18
+   },
+   {
+    "ticker": "PDD",
+    "name": "PDD Holdings",
+    "change_pct": -3.05,
+    "price": 80.5
+   },
+   {
+    "ticker": "DVA",
+    "name": "DaVita",
+    "change_pct": -3.04,
+    "price": 185.54
+   },
+   {
+    "ticker": "MSTR",
+    "name": "Strategy",
+    "change_pct": -2.59,
+    "price": 125.59
+   },
+   {
+    "ticker": "HSY",
+    "name": "Hershey",
+    "change_pct": -2.58,
+    "price": 173.48
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "change_pct": 16.79,
+    "price": 225.19
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems",
+    "change_pct": 16.6,
+    "price": 1388.05
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "change_pct": 14.1,
+    "price": 36.89
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "change_pct": 13.72,
+    "price": 216.87
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "change_pct": 13.26,
+    "price": 508.58
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "change_pct": 12.73,
+    "price": 246.0
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "change_pct": 12.03,
+    "price": 78.17
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "change_pct": 11.91,
+    "price": 193.88
+   },
+   {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "change_pct": 11.37,
+    "price": 370.55
+   },
+   {
+    "ticker": "FERG",
+    "name": "Ferguson Enterprises",
+    "change_pct": 11.22,
+    "price": 259.93
+   }
+  ],
+  "todays_stories": [
+   {
+    "path": "/daily/2026-11-09/",
+    "date": "2026-11-09",
+    "title": "Nvidia Is Set to Open Below Where It Began the Year as the Week's AI Tests Begin",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "KKR",
+     "CEG",
+     "AMAT"
+    ]
+   }
+  ],
+  "reporting_after_close": [
+   "OXY",
+   "SKYD",
+   "TTWO",
+   "RKLB",
+   "ASTS",
+   "HIMS",
+   "ACHR",
+   "LCID"
+  ]
+ }
+}
