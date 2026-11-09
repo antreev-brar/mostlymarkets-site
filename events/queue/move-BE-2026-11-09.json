@@ -1,0 +1,122 @@
+{
+ "id": "move-BE-2026-11-09",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 83,
+ "created": "2026-11-09T10:01:18-05:00",
+ "expires": "2026-11-10T12:00:00-05:00",
+ "tickers": [
+  "BE"
+ ],
+ "headline_hint": "Why Bloom Energy (BE) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-09T10:00:20-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 194.6,
+   "change_pct": 12.33,
+   "prev_close": 173.24,
+   "time": "2026-11-09T10:00:01.744-0500",
+   "mktcap": "57.535B",
+   "pe": 120.64,
+   "fpe": 48.57,
+   "yr_high": 351.28,
+   "yr_low": 75.7,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 182.4,
+    "change_pct": 5.29,
+    "time": "2026-11-09T09:29:58.148-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "date": "2026-11-06",
+   "close": 173.24,
+   "prev_close": 167.52,
+   "change_pct": 3.41,
+   "moves_over_5pct_last_year": 107,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 147,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": 9.05
+   },
+   "ytd_pct": 99.38,
+   "return_1m_pct": -36.5,
+   "return_6m_pct": -33.63,
+   "return_1y_pct": 22.51,
+   "high_52w": {
+    "close": 345.85,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 76.97,
+    "date": "2025-12-17"
+   },
+   "pct_below_52w_high": 49.91,
+   "thousand_dollars_5y_ago_now": 5414,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 23285600,
+   "volume_vs_20d_avg": 1.34,
+   "sentences": [
+    "Bloom Energy's shares moved 5% or more on 107 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock rose 9.1%.",
+    "The stock is up 99.4% this year, and at $173.24 it sits 49.9% below its 52-week closing high of $345.85 from 22 June 2026.",
+    "$1,000 invested in Bloom Energy five years ago would be worth $5,414 today."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Electrical Components & Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/alphabet-googl-takes-over-crusoes-wyoming-data-center-site-a-day-after-its-17-billion-pledge/",
+    "date": "2026-11-06",
+    "title": "Alphabet (GOOGL) Takes Over Crusoe's Wyoming Data Center Site a Day After Its $17 Billion Pledge",
+    "type": "brief",
+    "tickers": [
+     "GOOGL",
+     "AEP",
+     "BE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/why-bloom-energy-be-stock-is-sinking-today/",
+    "date": "2026-11-05",
+    "title": "Why Bloom Energy (BE) Stock Is Sinking Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "BE",
+     "VRT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/",
+    "date": "2026-11-05",
+    "title": "Wall Street Is Betting the Midterms Will Slow the AI Buildout. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "BE",
+     "VST",
+     "AMZN",
+     "MSFT",
+     "GOOGL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/bloom-energy-be-shares-soar-on-a-1-gigawatt-pact-with-california-resources/",
+    "date": "2026-11-03",
+    "title": "Bloom Energy (BE) Shares Soar on a 1-Gigawatt Pact With California Resources",
+    "type": "why-it-moved",
+    "tickers": [
+     "BE"
+    ]
+   }
+  ]
+ }
+}

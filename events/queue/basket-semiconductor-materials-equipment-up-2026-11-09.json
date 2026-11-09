@@ -1,0 +1,148 @@
+{
+ "id": "basket-semiconductor-materials-equipment-up-2026-11-09",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-09T10:01:18-05:00",
+ "expires": "2026-11-09T23:59:00-05:00",
+ "tickers": [
+  "AMAT",
+  "Q",
+  "LRCX",
+  "TER",
+  "KLAC"
+ ],
+ "headline_hint": "AMAT, Q, LRCX shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-09T10:00:20-05:00",
+ "pack": {
+  "industry": "Semiconductor Materials & Equipment",
+  "quotes": {
+   "AMAT": {
+    "price": 361.7,
+    "change_pct": 8.71,
+    "prev_close": 332.72,
+    "time": "2026-11-09T09:59:59.460-0500",
+    "mktcap": "287.044B",
+    "pe": 31.2,
+    "fpe": 20.35,
+    "yr_high": 739.67,
+    "yr_low": 203.4,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 343.8,
+     "change_pct": 3.33,
+     "time": "2026-11-09T09:29:59.401-0500"
+    }
+   },
+   "Q": {
+    "price": 124.64,
+    "change_pct": 6.53,
+    "prev_close": 117.0,
+    "time": "2026-11-09T10:00:01.276-0500",
+    "mktcap": "26.055B",
+    "pe": 44.69,
+    "fpe": 23.98,
+    "yr_high": 177.28,
+    "yr_low": 72.81,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 119.49,
+     "change_pct": 2.13,
+     "time": "2026-11-09T09:27:59.998-0500"
+    }
+   },
+   "LRCX": {
+    "price": 213.39,
+    "change_pct": 6.46,
+    "prev_close": 200.44,
+    "time": "2026-11-09T10:00:12.148-0500",
+    "mktcap": "266.564B",
+    "pe": 31.75,
+    "fpe": 22.19,
+    "yr_high": 438.5,
+    "yr_low": 135.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 206.19,
+     "change_pct": 2.87,
+     "time": "2026-11-09T09:29:30.088-0500"
+    }
+   },
+   "TER": {
+    "price": 231.88,
+    "change_pct": 6.26,
+    "prev_close": 218.22,
+    "time": "2026-11-09T10:00:08.478-0500",
+    "mktcap": "36.202B",
+    "pe": 26.62,
+    "fpe": 24.83,
+    "yr_high": 487.91,
+    "yr_low": 151.52,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 222.59,
+     "change_pct": 2.0,
+     "time": "2026-11-09T09:30:00.004-0500"
+    }
+   },
+   "KLAC": {
+    "price": 145.7,
+    "change_pct": 5.21,
+    "prev_close": 138.49,
+    "time": "2026-11-09T10:00:07.902-0500",
+    "mktcap": "189.842B",
+    "pe": 36.46,
+    "fpe": 25.35,
+    "yr_high": 307.37,
+    "yr_low": 107.2,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 143.12,
+     "change_pct": 3.34,
+     "time": "2026-11-09T09:30:00.009-0500"
+    }
+   }
+  },
+  "facts": {
+   "AMAT": {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "date": "2026-11-06",
+    "close": 332.71,
+    "prev_close": 319.25,
+    "change_pct": 4.22,
+    "moves_over_5pct_last_year": 45,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 62,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-28",
+     "change_pct": 5.07
+    },
+    "ytd_pct": 29.47,
+    "return_1m_pct": -34.71,
+    "return_6m_pct": -23.59,
+    "return_1y_pct": 38.12,
+    "high_52w": {
+     "close": 723.0,
+     "date": "2026-06-30"
+    },
+    "low_52w": {
+     "close": 220.23,
+     "date": "2025-11-20"
+    },
+    "pct_below_52w_high": 53.98,
+    "thousand_dollars_5y_ago_now": 2170,
+    "five_years_ago_date": "2021-11-05",
+    "volume": 9472140,
+    "volume_vs_20d_avg": 1.17,
+    "sentences": [
+     "Applied Materials's shares moved 5% or more on 45 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 5.1%.",
+     "The stock is up 29.5% this year, and at $332.71 it sits 54.0% below its 52-week closing high of $723.00 from 30 June 2026.",
+     "$1,000 invested in Applied Materials five years ago would be worth $2,170 today."
+    ]
+   }
+  }
+ }
+}

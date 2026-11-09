@@ -67,6 +67,18 @@
 "TER"
 ]
 },
+"basket-semiconductor-materials-equipment-up-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "basket",
+"tickers": [
+"AMAT",
+"Q",
+"LRCX",
+"TER",
+"KLAC"
+]
+},
 "basket-semiconductors-down-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -105,6 +117,18 @@
 "CRDO",
 "MRVL",
 "INTC"
+]
+},
+"basket-semiconductors-up-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "basket",
+"tickers": [
+"ALAB",
+"CRDO",
+"AMD",
+"MPWR",
+"AVGO"
 ]
 },
 "basket-technology-hardware-storage-peripherals-up-2026-11-03": {
@@ -498,9 +522,25 @@
 "AMD"
 ]
 },
+"move-AMZN-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"AMZN"
+]
+},
 "move-ANET-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
+"kind": "why-it-moved",
+"tickers": [
+"ANET"
+]
+},
+"move-ANET-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
 "kind": "why-it-moved",
 "tickers": [
 "ANET"
@@ -540,6 +580,14 @@
 "ASML"
 ]
 },
+"move-ASML-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"ASML"
+]
+},
 "move-AXON-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
@@ -564,9 +612,25 @@
 "BE"
 ]
 },
+"move-BE-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"BE"
+]
+},
 "move-COHR-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
+"kind": "why-it-moved",
+"tickers": [
+"COHR"
+]
+},
+"move-COHR-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
 "kind": "why-it-moved",
 "tickers": [
 "COHR"
@@ -665,6 +729,14 @@
 "GEV"
 ]
 },
+"move-GEV-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"GEV"
+]
+},
 "move-GOOGL-2026-11-04": {
 "created": "2026-11-04T10:01:17-05:00",
 "day": "2026-11-04",
@@ -723,6 +795,14 @@
 "LRCX"
 ]
 },
+"move-META-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"META"
+]
+},
 "move-MRVL-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -760,6 +840,14 @@
 "MU"
 ]
 },
+"move-NVDA-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"NVDA"
+]
+},
 "move-ORCL-2026-11-02": {
 "created": "2026-11-02T10:01:14-05:00",
 "day": "2026-11-02",
@@ -777,6 +865,14 @@
 "move-PLTR-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
+"kind": "why-it-moved",
+"tickers": [
+"PLTR"
+]
+},
+"move-PLTR-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
 "kind": "why-it-moved",
 "tickers": [
 "PLTR"
@@ -881,6 +977,14 @@
 "move-TSLA-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
+"kind": "why-it-moved",
+"tickers": [
+"TSLA"
+]
+},
+"move-TSLA-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
 "kind": "why-it-moved",
 "tickers": [
 "TSLA"
@@ -3139,6 +3243,12 @@
 "viewpoints-2026-11-08": {
 "created": "2026-11-08T10:01:35-05:00",
 "day": "2026-11-08",
+"kind": "viewpoints",
+"tickers": []
+},
+"viewpoints-2026-11-09": {
+"created": "2026-11-09T10:01:18-05:00",
+"day": "2026-11-09",
 "kind": "viewpoints",
 "tickers": []
 },

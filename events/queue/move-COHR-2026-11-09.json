@@ -1,0 +1,116 @@
+{
+ "id": "move-COHR-2026-11-09",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 72,
+ "created": "2026-11-09T10:01:18-05:00",
+ "expires": "2026-11-10T12:00:00-05:00",
+ "tickers": [
+  "COHR"
+ ],
+ "headline_hint": "Why Coherent (COHR) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-09T10:00:20-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 213.93,
+   "change_pct": 10.95,
+   "prev_close": 192.81,
+   "time": "2026-11-09T10:00:04.250-0500",
+   "mktcap": "42.135B",
+   "pe": 44.23,
+   "fpe": 20.86,
+   "yr_high": 440.0,
+   "yr_low": 130.42,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 197.0,
+    "change_pct": 2.17,
+    "time": "2026-11-09T09:29:49.020-0500"
+   }
+  },
+  "facts": {
+   "ticker": "COHR",
+   "name": "Coherent",
+   "date": "2026-11-06",
+   "close": 192.81,
+   "prev_close": 169.76,
+   "change_pct": 13.58,
+   "moves_over_5pct_last_year": 92,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-02",
+    "change_pct": 17.63
+   },
+   "ytd_pct": 4.46,
+   "return_1m_pct": -36.23,
+   "return_6m_pct": -42.49,
+   "return_1y_pct": 43.21,
+   "high_52w": {
+    "close": 426.89,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 135.61,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 54.83,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 16269340,
+   "volume_vs_20d_avg": 1.93,
+   "sentences": [
+    "Coherent's shares moved 5% or more on 92 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 June 2026, when the stock rose 17.6%.",
+    "The stock is up 4.5% this year, and at $192.81 it sits 54.8% below its 52-week closing high of $426.89 from 2 June 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Electronic Components",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/amd-micron-and-lam-research-shares-jump-what-happened/",
+    "date": "2026-11-06",
+    "title": "AMD, Micron and Lam Research Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "MU",
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "COHR",
+     "ANET",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/lumentum-lite-and-marvell-mrvl-shares-slide-on-the-day-their-deal-is-signed/",
+    "date": "2026-11-02",
+    "title": "Lumentum (LITE) and Marvell (MRVL) Shares Slide on the Day Their Deal Is Signed",
+    "type": "why-it-moved",
+    "tickers": [
+     "LITE",
+     "MRVL",
+     "COHR"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/bulls-vs-bears-on-marvell-mrvl-is-lumentum-worth-a-third-of-the-company/",
+    "date": "2026-11-02",
+    "title": "Bulls vs Bears on Marvell (MRVL): Is Lumentum Worth a Third of the Company?",
+    "type": "viewpoints",
+    "tickers": [
+     "MRVL",
+     "LITE",
+     "AVGO",
+     "COHR"
+    ]
+   }
+  ]
+ }
+}

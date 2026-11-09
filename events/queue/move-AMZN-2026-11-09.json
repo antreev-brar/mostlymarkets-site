@@ -1,0 +1,141 @@
+{
+ "id": "move-AMZN-2026-11-09",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 72,
+ "created": "2026-11-09T10:01:18-05:00",
+ "expires": "2026-11-10T12:00:00-05:00",
+ "tickers": [
+  "AMZN"
+ ],
+ "headline_hint": "Why Amazon (AMZN) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-09T10:00:20-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 272.05,
+   "change_pct": 4.92,
+   "prev_close": 259.3,
+   "time": "2026-11-09T10:00:00.762-0500",
+   "mktcap": "2.942T",
+   "pe": 21.99,
+   "fpe": 29.52,
+   "yr_high": 287.2,
+   "yr_low": 196.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 269.25,
+    "change_pct": 3.84,
+    "time": "2026-11-09T09:29:52.460-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "date": "2026-11-06",
+   "close": 259.3,
+   "prev_close": 260.21,
+   "change_pct": -0.35,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 212,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -2.19
+   },
+   "ytd_pct": 12.34,
+   "return_1m_pct": 2.06,
+   "return_6m_pct": -4.91,
+   "return_1y_pct": 3.64,
+   "high_52w": {
+    "close": 284.02,
+    "date": "2026-08-03"
+   },
+   "low_52w": {
+    "close": 198.79,
+    "date": "2026-02-13"
+   },
+   "pct_below_52w_high": 8.7,
+   "thousand_dollars_5y_ago_now": 1474,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 42571530,
+   "volume_vs_20d_avg": 0.89,
+   "sentences": [
+    "Amazon's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 2.2%.",
+    "The stock is up 12.3% this year, and at $259.30 it sits 8.7% below its 52-week closing high of $284.02 from 3 August 2026.",
+    "$1,000 invested in Amazon five years ago would be worth $1,474 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Broadline Retail",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/microsoft-msft-sells-more-than-ever-but-keeps-less-cash-is-the-business-still-strong/",
+    "date": "2026-11-08",
+    "title": "Microsoft (MSFT) Sells More Than Ever but Keeps Less Cash. Is the Business Still Strong?",
+    "type": "breakdown",
+    "tickers": [
+     "MSFT",
+     "AMZN",
+     "GOOGL",
+     "ORCL",
+     "CRWV"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-07/",
+    "date": "2026-11-07",
+    "title": "The AI Buyers Rose and Their Suppliers Sank in the Week the Nasdaq Hit a Correction",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMZN",
+     "MU",
+     "APP",
+     "VST"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/bulls-vs-bears-on-anthropics-ipo-is-1-5-trillion-a-fair-price/",
+    "date": "2026-11-07",
+    "title": "Bulls vs Bears on Anthropic's IPO: Is $1.5 Trillion a Fair Price?",
+    "type": "viewpoints",
+    "tickers": [
+     "AMZN",
+     "GOOGL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/alphabet-googl-had-its-worst-day-since-2004-is-the-business-broken/",
+    "date": "2026-11-07",
+    "title": "Alphabet (GOOGL) Had Its Worst Day Since 2004. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "GOOGL",
+     "MSFT",
+     "AMZN",
+     "META"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/wall-street-is-betting-the-midterms-will-slow-the-ai-buildout-3-numbers-will-decide-it/",
+    "date": "2026-11-05",
+    "title": "Wall Street Is Betting the Midterms Will Slow the AI Buildout. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "BE",
+     "VST",
+     "AMZN",
+     "MSFT",
+     "GOOGL"
+    ]
+   }
+  ]
+ }
+}
