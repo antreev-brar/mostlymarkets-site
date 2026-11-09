@@ -234,6 +234,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-09": {
+"created": "2026-11-09T05:02:01-05:00",
+"day": "2026-11-09",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1214,6 +1220,14 @@
 "DIS"
 ]
 },
+"news-GEV-2026-11-09-ge-vernova-announces-agreement-to-supply": {
+"created": "2026-11-09T05:02:01-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"tickers": [
+"GEV"
+]
+},
 "news-GOOGL-2026-11-09-google-says-new-australian-internet-safe": {
 "created": "2026-11-09T01:01:02-05:00",
 "day": "2026-11-09",
@@ -1387,6 +1401,12 @@
 },
 "news-NVDA-2026-11-09-nvidia-crisis-may-hurt-china-more-than-i": {
 "created": "2026-11-09T01:01:02-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"outcome": "already-written"
+},
+"news-NVDA-2026-11-09-stock-futures-treasurys-steady-but-nvidi": {
+"created": "2026-11-09T05:02:01-05:00",
 "day": "2026-11-09",
 "kind": "news",
 "outcome": "already-written"
