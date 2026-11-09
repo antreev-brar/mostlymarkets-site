@@ -1379,6 +1379,12 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-NVDA-2026-11-09-what-we-know-about-nvidia-s-probe-into-c": {
+"created": "2026-11-09T02:01:02-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
 "created": "2026-11-04T05:01:57-05:00",
 "day": "2026-11-04",
@@ -1492,6 +1498,14 @@
 "kind": "news",
 "tickers": [
 "SONY"
+]
+},
+"news-SPGI-2026-11-09-s-p-global-spgi-is-reviewing-a-separatio": {
+"created": "2026-11-09T02:01:02-05:00",
+"day": "2026-11-09",
+"kind": "news",
+"tickers": [
+"SPGI"
 ]
 },
 "news-TM-2026-11-05-toyota-raises-profit-forecast-on-hybrid": {
