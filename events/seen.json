@@ -270,6 +270,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-10": {
+"created": "2026-11-10T05:02:05-05:00",
+"day": "2026-11-10",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1625,6 +1631,14 @@
 },
 "news-NVDA-2026-11-10-jensen-huang-puts-200-billion-dent-in-nv": {
 "created": "2026-11-10T03:01:06-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-10-nvidia-stock-edges-higher-as-pressure-mo": {
+"created": "2026-11-10T05:02:05-05:00",
 "day": "2026-11-10",
 "kind": "news",
 "tickers": [

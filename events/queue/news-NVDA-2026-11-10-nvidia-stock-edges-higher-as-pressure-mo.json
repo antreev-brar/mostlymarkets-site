@@ -1,0 +1,92 @@
+{
+ "id": "news-NVDA-2026-11-10-nvidia-stock-edges-higher-as-pressure-mo",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-10T05:02:05-05:00",
+ "expires": "2026-11-10T15:02:05-05:00",
+ "tickers": [
+  "NVDA"
+ ],
+ "headline_hint": "Nvidia: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-10T05:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Nvidia stock edges higher as pressure mounts following alleged China spy links",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYUp3aWtLM3FHZFMycjJkRGVUeXFXWUdPOV9fbEtkVUhwUk5oX2xDVHZ4alZwdl93VnY1UzMwSUN5QjJneHVzdTZHR21JUnkyU2NtZ05LazhQMHoteDNzSVUxQ2lTR0VVSk8yczdTVTd5cXFHNnFUR1hHdVlfc1psbktyRy1OTTQ?oc=5",
+    "published": "2026-11-10T04:14:29-05:00",
+    "also": []
+   },
+   {
+    "title": "Jensen Huang Puts $200 Billion Dent in Nvidia\u2019s Stock Price",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcms4NmFRS0JiemF2SGRaMDczOXZ5LXRlTVFFanhvSEZxMlV0VVBXaDh6RWl5VXBTM1hWeXpNZHRuY2NmM25PNVM1eXE4NmF2VHdvWnJzREwtNXRXeUFBWGl6Y0lDWXdLdDF0VGRabXFwQ2RNZ3p2czY0TGY4aU9zbkt4ekZRd0dkZkVhdHJLZUd1dWFnZEdSdGRoMmFHMl9CWENDN0JFZUs1QldJSFR5SzFR?oc=5",
+    "published": "2026-11-10T01:54:53-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 178.67,
+   "change_pct": -4.27,
+   "prev_close": 178.67,
+   "time": "2026-11-09",
+   "mktcap": "4.306T",
+   "pe": 22.59,
+   "fpe": 14.77,
+   "yr_high": 243.37,
+   "yr_low": 164.27,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 182.3,
+    "change_pct": 2.03,
+    "time": "2026-11-10T05:00:04.259-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "date": "2026-11-06",
+   "close": 186.64,
+   "prev_close": 181.6,
+   "change_pct": 2.78,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 61,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-02",
+    "change_pct": 3.21
+   },
+   "ytd_pct": 0.08,
+   "return_1m_pct": -19.02,
+   "return_6m_pct": -13.27,
+   "return_1y_pct": -4.39,
+   "high_52w": {
+    "close": 239.24,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 165.17,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 21.99,
+   "thousand_dollars_5y_ago_now": 6273,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 180212300,
+   "volume_vs_20d_avg": 1.6,
+   "sentences": [
+    "Nvidia's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 September 2026, when the stock rose 3.2%.",
+    "The stock is up 0.1% this year, and at $186.64 it sits 22.0% below its 52-week closing high of $239.24 from 6 October 2026.",
+    "$1,000 invested in Nvidia five years ago would be worth $6,273 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-09/",
+   "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+   "/news/2026-11-08/nvidia-nvda-ceo-jensen-huang-admits-an-affair-in-a-letter-to-staff-9-days-before-earnings/"
+  ]
+ }
+}
