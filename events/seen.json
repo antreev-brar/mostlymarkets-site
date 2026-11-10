@@ -482,6 +482,13 @@
 "theme": "high-margin",
 "tickers": []
 },
+"list-2026-11-10-2": {
+"created": "2026-11-10T10:30:14-05:00",
+"day": "2026-11-10",
+"kind": "list",
+"theme": "after-earnings",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -648,6 +655,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "ASML"
+]
+},
+"move-ASTS-2026-11-10": {
+"created": "2026-11-10T10:30:14-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"ASTS"
 ]
 },
 "move-AVGO-2026-11-10": {
