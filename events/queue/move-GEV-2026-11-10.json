@@ -1,0 +1,110 @@
+{
+ "id": "move-GEV-2026-11-10",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 75,
+ "created": "2026-11-10T10:01:22-05:00",
+ "expires": "2026-11-11T12:00:00-05:00",
+ "tickers": [
+  "GEV"
+ ],
+ "headline_hint": "Why GE Vernova (GEV) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-10T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 776.33,
+   "change_pct": -6.39,
+   "prev_close": 829.34,
+   "time": "2026-11-10T10:00:02.047-0500",
+   "mktcap": "205.475B",
+   "pe": 20.35,
+   "fpe": 36.94,
+   "yr_high": 1195.94,
+   "yr_low": 530.16,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 748.13,
+    "change_pct": -9.79,
+    "time": "2026-11-10T09:29:58.920-0500"
+   }
+  },
+  "facts": {
+   "ticker": "GEV",
+   "name": "GE Vernova",
+   "date": "2026-11-09",
+   "close": 829.34,
+   "prev_close": 774.11,
+   "change_pct": 7.13,
+   "moves_over_5pct_last_year": 31,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 12,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-30",
+    "change_pct": 9.07
+   },
+   "ytd_pct": 26.89,
+   "return_1m_pct": -17.46,
+   "return_6m_pct": -22.71,
+   "return_1y_pct": 50.74,
+   "high_52w": {
+    "close": 1174.86,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 554.93,
+    "date": "2025-11-18"
+   },
+   "pct_below_52w_high": 29.41,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 4349406,
+   "volume_vs_20d_avg": 1.11,
+   "sentences": [
+    "GE Vernova's shares moved 5% or more on 31 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 July 2026, when the stock rose 9.1%.",
+    "The stock is up 26.9% this year, and at $829.34 it sits 29.4% below its 52-week closing high of $1,174.86 from 30 June 2026."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Heavy Electrical Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-07/3-cash-machine-stocks-wed-skip-and-1-we-like/",
+    "date": "2026-11-07",
+    "title": "3 Cash Machine Stocks We'd Skip and 1 We Like",
+    "type": "list",
+    "tickers": [
+     "FTNT",
+     "GEV",
+     "EQT",
+     "EXR"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/bulls-vs-bears-on-the-midterm-ai-sell-off-how-many-data-centers-will-stall/",
+    "date": "2026-11-06",
+    "title": "Bulls vs Bears on the Midterm AI Sell-Off: How Many Data Centers Will Stall?",
+    "type": "viewpoints",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "GEV",
+     "AMD",
+     "ETN"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/ge-vernova-gev-tops-q3-estimates-as-orders-nearly-double-to-29-billion/",
+    "date": "2026-10-29",
+    "title": "GE Vernova (GEV) Tops Q3 Estimates as Orders Nearly Double to $29 Billion",
+    "type": "earnings-recap",
+    "tickers": [
+     "GEV"
+    ]
+   }
+  ]
+ }
+}

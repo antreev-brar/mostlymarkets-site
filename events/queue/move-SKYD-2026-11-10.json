@@ -1,0 +1,74 @@
+{
+ "id": "move-SKYD-2026-11-10",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 65,
+ "created": "2026-11-10T10:01:22-05:00",
+ "expires": "2026-11-11T12:00:00-05:00",
+ "tickers": [
+  "SKYD"
+ ],
+ "headline_hint": "Why Skydance (SKYD) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-11-10T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 7.98,
+   "change_pct": -8.33,
+   "prev_close": 8.7,
+   "time": "2026-11-10T10:00:08.050-0500",
+   "mktcap": "8.968B",
+   "pe": -14.2,
+   "fpe": -54.25,
+   "yr_high": 14.07,
+   "yr_low": 6.25,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 8.42,
+    "change_pct": -3.22,
+    "time": "2026-11-10T09:29:57.348-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SKYD",
+   "name": "Skydance",
+   "date": "2026-11-09",
+   "close": 8.7,
+   "prev_close": 8.01,
+   "change_pct": 8.61,
+   "moves_over_5pct_last_year": 22,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 9,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-21",
+    "change_pct": 10.85
+   },
+   "ytd_pct": -20.81,
+   "return_1m_pct": 15.85,
+   "return_6m_pct": -2.65,
+   "return_1y_pct": -28.3,
+   "high_52w": {
+    "close": 13.72,
+    "date": "2025-11-11"
+   },
+   "low_52w": {
+    "close": 6.4,
+    "date": "2026-07-30"
+   },
+   "pct_below_52w_high": 36.61,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 28646590,
+   "volume_vs_20d_avg": 1.01,
+   "sentences": [
+    "Skydance's shares moved 5% or more on 22 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 21 October 2026, when the stock rose 10.8%.",
+    "The stock is down 20.8% this year, and at $8.70 it sits 36.6% below its 52-week closing high of $13.72 from 11 November 2025."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Movies & Entertainment",
+  "recent_stories": []
+ }
+}

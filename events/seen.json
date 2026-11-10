@@ -542,6 +542,14 @@
 "AAPL"
 ]
 },
+"move-ACHR-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"ACHR"
+]
+},
 "move-AMAT-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -563,6 +571,14 @@
 "move-AMD-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
+"kind": "why-it-moved",
+"tickers": [
+"AMD"
+]
+},
+"move-AMD-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
 "kind": "why-it-moved",
 "tickers": [
 "AMD"
@@ -664,6 +680,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "BE"
+]
+},
+"move-CLS-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"CLS"
 ]
 },
 "move-COHR-2026-11-06": {
@@ -783,6 +807,14 @@
 "GEV"
 ]
 },
+"move-GEV-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"GEV"
+]
+},
 "move-GOOGL-2026-11-04": {
 "created": "2026-11-04T10:01:17-05:00",
 "day": "2026-11-04",
@@ -797,6 +829,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "GRAB"
+]
+},
+"move-HIMS-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"HIMS"
 ]
 },
 "move-ILMN-2026-10-30": {
@@ -894,6 +934,14 @@
 "NVDA"
 ]
 },
+"move-ONON-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"ONON"
+]
+},
 "move-ORCL-2026-11-02": {
 "created": "2026-11-02T10:01:14-05:00",
 "day": "2026-11-02",
@@ -964,6 +1012,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "RVTY"
+]
+},
+"move-SKYD-2026-11-10": {
+"created": "2026-11-10T10:01:22-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"SKYD"
 ]
 },
 "move-SNDK-2026-11-05": {

@@ -1,0 +1,99 @@
+{
+ "id": "move-HIMS-2026-11-10",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 68,
+ "created": "2026-11-10T10:01:22-05:00",
+ "expires": "2026-11-11T12:00:00-05:00",
+ "tickers": [
+  "HIMS"
+ ],
+ "headline_hint": "Why Hims & Hers Health (HIMS) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so. The company reported results today or last night: make the results the cause, and link the recap if one exists.",
+ "quotes_asof": "2026-11-10T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 20.78,
+   "change_pct": -9.42,
+   "prev_close": 22.94,
+   "time": "2026-11-10T10:00:04.288-0500",
+   "mktcap": "4.848B",
+   "pe": -33.16,
+   "fpe": 55.12,
+   "yr_high": 42.7,
+   "yr_low": 13.74,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 22.11,
+    "change_pct": -3.62,
+    "time": "2026-11-10T09:30:00.806-0500"
+   }
+  },
+  "facts": {
+   "ticker": "HIMS",
+   "name": "Hims & Hers Health",
+   "date": "2026-11-09",
+   "close": 22.94,
+   "prev_close": 26.0,
+   "change_pct": -11.77,
+   "moves_over_5pct_last_year": 71,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 10,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-29",
+    "change_pct": -14.73
+   },
+   "ytd_pct": -29.35,
+   "return_1m_pct": -25.81,
+   "return_6m_pct": -21.28,
+   "return_1y_pct": -44.75,
+   "high_52w": {
+    "close": 41.05,
+    "date": "2025-11-10"
+   },
+   "low_52w": {
+    "close": 14.52,
+    "date": "2026-02-27"
+   },
+   "pct_below_52w_high": 44.12,
+   "thousand_dollars_5y_ago_now": 2771,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 50147240,
+   "volume_vs_20d_avg": 4.92,
+   "sentences": [
+    "Hims & Hers Health's shares moved 5% or more on 71 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 July 2026, when the stock fell 14.7%.",
+    "The stock is down 29.4% this year, and at $22.94 it sits 44.1% below its 52-week closing high of $41.05 from 10 November 2025.",
+    "$1,000 invested in Hims & Hers Health five years ago would be worth $2,771 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Health Care Services",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/eli-lilly-lly-is-worth-1-3-trillion-on-one-molecule-how-long-can-it-last/",
+    "date": "2026-11-08",
+    "title": "Eli Lilly (LLY) Is Worth $1.3 Trillion on One Molecule. How Long Can It Last?",
+    "type": "breakdown",
+    "tickers": [
+     "LLY",
+     "NVO",
+     "PFE",
+     "HIMS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/hims-hers-hims-will-sell-lillys-zepbound-and-foundayo-on-its-platform/",
+    "date": "2026-11-06",
+    "title": "Hims & Hers (HIMS) Will Sell Lilly's Zepbound and Foundayo on Its Platform",
+    "type": "brief",
+    "tickers": [
+     "HIMS",
+     "LLY",
+     "NVO"
+    ]
+   }
+  ]
+ }
+}

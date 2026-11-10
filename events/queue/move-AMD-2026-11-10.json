@@ -1,0 +1,152 @@
+{
+ "id": "move-AMD-2026-11-10",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 72,
+ "created": "2026-11-10T10:01:22-05:00",
+ "expires": "2026-11-11T12:00:00-05:00",
+ "tickers": [
+  "AMD"
+ ],
+ "headline_hint": "Why AMD (AMD) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-10T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 534.25,
+   "change_pct": 5.05,
+   "prev_close": 508.58,
+   "time": "2026-11-10T10:00:00.530-0500",
+   "mktcap": "876.208B",
+   "pe": 114.5,
+   "fpe": 44.0,
+   "yr_high": 658.52,
+   "yr_low": 188.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 504.07,
+    "change_pct": -0.89,
+    "time": "2026-11-10T09:30:01.221-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AMD",
+   "name": "AMD",
+   "date": "2026-11-09",
+   "close": 508.58,
+   "prev_close": 449.04,
+   "change_pct": 13.26,
+   "moves_over_5pct_last_year": 57,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-05-06",
+    "change_pct": 18.61
+   },
+   "ytd_pct": 137.48,
+   "return_1m_pct": -16.37,
+   "return_6m_pct": 10.85,
+   "return_1y_pct": 113.96,
+   "high_52w": {
+    "close": 649.42,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 190.95,
+    "date": "2026-03-03"
+   },
+   "pct_below_52w_high": 21.69,
+   "thousand_dollars_5y_ago_now": 3415,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 51261050,
+   "volume_vs_20d_avg": 1.86,
+   "sentences": [
+    "AMD's shares moved 5% or more on 57 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 May 2026, when the stock rose 18.6%.",
+    "The stock is up 137.5% this year, and at $508.58 it sits 21.7% below its 52-week closing high of $649.42 from 6 October 2026.",
+    "$1,000 invested in AMD five years ago would be worth $3,415 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/stock-market-today-chips-win-back-part-of-thursdays-rout-as-the-dow-slips/",
+    "date": "2026-11-06",
+    "title": "Stock Market Today: Chips Win Back Part of Thursday's Rout as the Dow Slips",
+    "type": "market-wrap",
+    "tickers": [
+     "AMD",
+     "MU",
+     "INTC",
+     "NVDA",
+     "AXON",
+     "TEAM",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/nvidia-nvda-is-down-22-from-its-high-is-the-business-broken/",
+    "date": "2026-11-06",
+    "title": "Nvidia (NVDA) Is Down 22% From Its High. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "GOOGL",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/bulls-vs-bears-on-the-midterm-ai-sell-off-how-many-data-centers-will-stall/",
+    "date": "2026-11-06",
+    "title": "Bulls vs Bears on the Midterm AI Sell-Off: How Many Data Centers Will Stall?",
+    "type": "viewpoints",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "GEV",
+     "AMD",
+     "ETN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/amd-micron-and-lam-research-shares-jump-what-happened/",
+    "date": "2026-11-06",
+    "title": "AMD, Micron and Lam Research Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "MU",
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "COHR",
+     "ANET",
+     "DELL",
+     "NVDA"
+    ]
+   }
+  ]
+ }
+}
