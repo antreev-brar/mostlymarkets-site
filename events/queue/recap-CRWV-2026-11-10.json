@@ -1,0 +1,154 @@
+{
+ "id": "recap-CRWV-2026-11-10",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-10T16:15:14-05:00",
+ "expires": "2026-11-11T20:00:00-05:00",
+ "tickers": [
+  "CRWV"
+ ],
+ "headline_hint": "CoreWeave (CRWV) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-10T16:15:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 10,
+   "eps_last_year": null,
+   "last_year_date": "11/10/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 25591298000.0
+  },
+  "quote": {
+   "price": 48.73,
+   "change_pct": -0.51,
+   "prev_close": 48.98,
+   "time": "2026-11-10T16:00:00.000-0500",
+   "mktcap": "26.876B",
+   "pe": -12.82,
+   "fpe": -16.92,
+   "yr_high": 138.25,
+   "yr_low": 40.58,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 51.47,
+    "change_pct": 5.62,
+    "time": "2026-11-10T16:15:01.517-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CRWV",
+   "name": "CoreWeave",
+   "date": "2026-11-10",
+   "close": 48.73,
+   "prev_close": 48.98,
+   "change_pct": -0.51,
+   "moves_over_5pct_last_year": 96,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 235,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -9.83
+   },
+   "ytd_pct": -31.95,
+   "return_1m_pct": -39.28,
+   "return_6m_pct": -54.77,
+   "return_1y_pct": -53.15,
+   "high_52w": {
+    "close": 137.98,
+    "date": "2026-05-06"
+   },
+   "low_52w": {
+    "close": 43.66,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 64.68,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 55315796,
+   "volume_vs_20d_avg": 0.79,
+   "sentences": [
+    "CoreWeave's shares moved 5% or more on 96 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 9.8%.",
+    "The stock is down 31.9% this year, and at $48.73 it sits 64.7% below its 52-week closing high of $137.98 from 6 May 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-09/",
+    "date": "2026-11-09",
+    "title": "Nvidia Is Set to Open Below Where It Began the Year as the Week's AI Tests Begin",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "KKR",
+     "CEG",
+     "AMAT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/the-week-ahead-october-inflation-coreweave-and-the-chip-gear-makers-test-a-nasdaq-in-correction/",
+    "date": "2026-11-08",
+    "title": "The Week Ahead: October Inflation, CoreWeave and the Chip-Gear Makers Test a Nasdaq in Correction",
+    "type": "analysis",
+    "tickers": [
+     "CRWV",
+     "AMAT",
+     "CSCO",
+     "NBIS",
+     "CEG",
+     "OXY"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/microsoft-msft-sells-more-than-ever-but-keeps-less-cash-is-the-business-still-strong/",
+    "date": "2026-11-08",
+    "title": "Microsoft (MSFT) Sells More Than Ever but Keeps Less Cash. Is the Business Still Strong?",
+    "type": "breakdown",
+    "tickers": [
+     "MSFT",
+     "AMZN",
+     "GOOGL",
+     "ORCL",
+     "CRWV"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-08/",
+    "date": "2026-11-08",
+    "title": "Inflation and CoreWeave Report on the Same Tuesday, and Each Tests One of Last Week's Fears",
+    "type": "daily",
+    "tickers": [
+     "CRWV",
+     "NVDA",
+     "AMAT",
+     "CSCO",
+     "CEG"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/wall-street-is-betting-the-neoclouds-are-ais-weak-link-coreweaves-report-will-test-it/",
+    "date": "2026-11-07",
+    "title": "Wall Street Is Betting the Neoclouds Are AI's Weak Link. CoreWeave's Report Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "NVDA"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/0001769628-26-000461-index.htm"
+ }
+}
