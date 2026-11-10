@@ -1162,6 +1162,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-AAPL-2026-11-10-apple-s-team-visiting-tata-s-india-iphon": {
+"created": "2026-11-10T03:01:06-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
 "news-AAPL-2026-11-10-apple-will-investigate-incident-that-led": {
 "created": "2026-11-10T00:01:32-05:00",
 "day": "2026-11-10",
@@ -1601,6 +1609,14 @@
 },
 "news-NVDA-2026-11-10-how-jensen-huang-s-affair-spiraled-into": {
 "created": "2026-11-10T00:01:32-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-10-jensen-huang-puts-200-billion-dent-in-nv": {
+"created": "2026-11-10T03:01:06-05:00",
 "day": "2026-11-10",
 "kind": "news",
 "tickers": [
