@@ -1,0 +1,90 @@
+{
+ "id": "news-ACN-2026-11-10-qantas-to-move-corporate-roles-to-accent",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-10T04:01:05-05:00",
+ "expires": "2026-11-10T14:01:05-05:00",
+ "tickers": [
+  "ACN"
+ ],
+ "headline_hint": "Accenture: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-10T04:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Qantas to move corporate roles to Accenture, affecting 850 jobs",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONkhwTDBfRnhtVnJwXzVSRnEwNEdQeGJzdlhSQ1Z2T3k0R0lZbGlkZXRmWXhORktLQU5IeDhwSXhJSGFXRV9HOExYdzR3Mk50VTVSNFQ4NFdCR2xFVmdNd1YtTTVLRXVNQ29Ncjd5aVRKYzJ3SW5MSC1uUTJ2Rnk3aWRkcDNsc29sWjNGMTNFUExtS2FyR0NjdlpLTVNlN0U?oc=5",
+    "published": "2026-11-10T02:33:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Qantas, Accenture Ink Deal To Modernise Operations, 850 Jobs To Be Cut In Coming Years",
+    "source": "dpa-AFX",
+    "url": "https://www.tradingview.com/news/dpa_afx:da2beaf4d4bdc:0-qantas-accenture-ink-deal-to-modernise-operations-850-jobs-to-be-cut-in-coming-years/",
+    "published": "2026-11-10T01:29:44-05:00",
+    "also": [
+     "Dow Jones"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 254.37,
+   "change_pct": -2.35,
+   "prev_close": 254.37,
+   "time": "2026-11-09",
+   "mktcap": "150.266B",
+   "pe": 18.75,
+   "fpe": 17.34,
+   "yr_high": 291.09,
+   "yr_low": 118.15,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 254.16,
+    "change_pct": -0.08,
+    "time": "2026-11-09"
+   }
+  },
+  "facts": {
+   "ticker": "ACN",
+   "name": "Accenture",
+   "date": "2026-11-06",
+   "close": 260.5,
+   "prev_close": 265.16,
+   "change_pct": -1.76,
+   "moves_over_5pct_last_year": 23,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 113,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": -2.45
+   },
+   "ytd_pct": -2.91,
+   "return_1m_pct": 25.02,
+   "return_6m_pct": 44.39,
+   "return_1y_pct": 5.12,
+   "high_52w": {
+    "close": 288.54,
+    "date": "2026-01-14"
+   },
+   "low_52w": {
+    "close": 124.44,
+    "date": "2026-06-30"
+   },
+   "pct_below_52w_high": 9.72,
+   "thousand_dollars_5y_ago_now": 707,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 4263134,
+   "volume_vs_20d_avg": 0.65,
+   "sentences": [
+    "Accenture's shares moved 5% or more on 23 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock fell 2.5%.",
+    "The stock is down 2.9% this year, and at $260.50 it sits 9.7% below its 52-week closing high of $288.54 from 14 January 2026.",
+    "$1,000 invested in Accenture five years ago would be worth $707 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
