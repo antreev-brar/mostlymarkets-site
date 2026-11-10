@@ -1812,6 +1812,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-TSM-2026-11-10-tsmc-s-october-sales-jump-as-global-chip": {
+"created": "2026-11-10T02:01:04-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"TSM"
+]
+},
 "news-UBS-2026-11-08-ubs-ceo-says-ai-investors-were-pricing-p": {
 "created": "2026-11-08T22:01:44-05:00",
 "day": "2026-11-08",

@@ -1,0 +1,111 @@
+{
+ "id": "news-TSM-2026-11-10-tsmc-s-october-sales-jump-as-global-chip",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-10T02:01:04-05:00",
+ "expires": "2026-11-10T12:01:04-05:00",
+ "tickers": [
+  "TSM"
+ ],
+ "headline_hint": "Taiwan Semiconductor: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-10T02:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "TSMC October revenue jumps nearly 60% on strong AI chip demand",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4669505-tsmc-october-revenue-jumps-nearly-60-on-strong-ai-chip-demand",
+    "published": "2026-11-10T01:30:35-05:00",
+    "also": []
+   },
+   {
+    "title": "TSMC: Revenue for October Totaled NT$586.89B, Up 15% From September >2330.TW",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261110000592_20261110000615:0-tsmc-revenue-for-october-totaled-nt-586-89b-up-15-from-september-2330-tw/",
+    "published": "2026-11-10T01:12:00-05:00",
+    "also": []
+   },
+   {
+    "title": "TSMC Revenue Rose 60% on Year in October >2330.TW",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261110000592_20261110000592:0-tsmc-revenue-rose-60-on-year-in-october-2330-tw/",
+    "published": "2026-11-10T01:10:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Table: Taiwan Semiconductor Mfg Oct Rev NT$586.89B Vs NT$367.47B",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261110000456:0-table-taiwan-semiconductor-mfg-oct-rev-nt-586-89b-vs-nt-367-47b/",
+    "published": "2026-11-10T01:01:00-05:00",
+    "also": []
+   },
+   {
+    "title": "TSMC's October sales jump as global chip boom rolls on",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53MEU3NHBqUUQ4NC1NLWctWUhvVzRaRHR5Y1VwcnFPY2h5eDZlUUR0cGxXd25QUDNKT1ZCaXpjenM0a1hFekRBWHk3M1I2OXBKV0NjZVlWYV9pZ2ZQdjNRcm5HM01YaTBM?oc=5",
+    "published": "2026-11-10T00:41:45-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 388.62,
+   "change_pct": 3.51,
+   "prev_close": 388.62,
+   "time": "2026-11-09",
+   "mktcap": "2.016T",
+   "pe": 25.21,
+   "fpe": 18.93,
+   "yr_high": 487.47,
+   "yr_low": 266.82,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 390.05,
+    "change_pct": 0.37,
+    "time": "2026-11-09"
+   }
+  },
+  "facts": {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor",
+   "date": "2026-11-06",
+   "close": 375.44,
+   "prev_close": 353.1,
+   "change_pct": 6.33,
+   "moves_over_5pct_last_year": 19,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 9,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-30",
+    "change_pct": 7.64
+   },
+   "ytd_pct": 23.54,
+   "return_1m_pct": -18.02,
+   "return_6m_pct": -8.8,
+   "return_1y_pct": 27.86,
+   "high_52w": {
+    "close": 485.8,
+    "date": "2026-10-05"
+   },
+   "low_52w": {
+    "close": 275.06,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 22.72,
+   "thousand_dollars_5y_ago_now": 3187,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 23841900,
+   "volume_vs_20d_avg": 1.7,
+   "sentences": [
+    "Taiwan Semiconductor's shares moved 5% or more on 19 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 July 2026, when the stock rose 7.6%.",
+    "The stock is up 23.5% this year, and at $375.44 it sits 22.7% below its 52-week closing high of $485.80 from 5 October 2026.",
+    "$1,000 invested in Taiwan Semiconductor five years ago would be worth $3,187 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/"
+  ]
+ }
+}
