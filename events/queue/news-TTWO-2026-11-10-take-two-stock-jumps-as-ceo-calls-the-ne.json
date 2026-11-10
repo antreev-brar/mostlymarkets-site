@@ -1,0 +1,111 @@
+{
+ "id": "news-TTWO-2026-11-10-take-two-stock-jumps-as-ceo-calls-the-ne",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-10T06:15:12-05:00",
+ "expires": "2026-11-10T16:15:12-05:00",
+ "tickers": [
+  "TTWO"
+ ],
+ "headline_hint": "Take-Two Interactive: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-10T06:15:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Why is Take-Two Interactive stock climbing today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEg3RmU2enlTZ1g4VlJTUzdTYlcwSXFtNll4TkdoMDM3YUZYTWRvV01HZGhwaUVVZkxVMkp6WHR5cGt5WEJsczdhamFTVEszd2FEWmIySHJxY2hOVzJBTHRlb0JfQmc3SVVaRlVvblBObmt4V3RfV0VVdDhfLVBiekVWZVFMY0I5eUxmbjItVU03SWstblpzSndDdVVic3NPbDdscU1CbnZoQS1rS0E?oc=5",
+    "published": "2026-11-10T05:29:04-05:00",
+    "also": []
+   },
+   {
+    "title": "Take-Two Interactive (TTWO) Gains Amid Mixed Futures Ahead of Oc",
+    "source": "GuruFocus",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQVM2M01PN1ktbnRqQUZQcFJTZWZ4WVRTMm96YkdERDB2UWN2VVhDaHVoZ0o3YVNDUEpKUVAwQTRsbVRoSHktTUgxdmYydkxYREZwblpJbWJWU2oyYlFXb3hCOXVPbS1CZE8tRjZWc2JlSjJ2VjFaYWc3QlJnVG9QSjEwYUlGSFlCUzJTWFdUMGhOU242UTdTdS02Rko3a0xaZ0FPdEpCanRPODlILUcwRmdFX28?oc=5",
+    "published": "2026-11-10T05:07:23-05:00",
+    "also": []
+   },
+   {
+    "title": "Take-Two Stock Jumps as CEO Calls the Next Grand Theft Auto 'Uncharted Territory'",
+    "source": "Barron's",
+    "url": "https://www.tradingview.com/news/DJN_DN20261109011591:0-take-two-stock-jumps-as-ceo-calls-the-next-grand-theft-auto-uncharted-territory-barrons-com/",
+    "published": "2026-11-10T04:50:00-05:00",
+    "also": []
+   },
+   {
+    "title": "GTA VI Preorders \u2018Far In Excess Of Expectations\u2026Numbers Will Speak Soon\u2019 \u2014 CEO Boosts Expectations As TTWO Lifts Annual Forecasts",
+    "source": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/gta-vi-preorders-far-in-excess-of-expectations-numbers-will-speak-soon-ceo-boosts-expectations-as-ttwo-lifts-annual-forecasts/cNGuacWR978",
+    "published": "2026-11-10T03:13:12-05:00",
+    "also": []
+   },
+   {
+    "title": "Key facts: GTA VI Preloads Begin; Strong Preorders, NBA 2K Sales Lag",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:b1dca01414911:0-key-facts-gta-vi-preloads-begin-strong-preorders-nba-2k-sales-lag/",
+    "published": "2026-11-10T03:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 207.4,
+   "change_pct": -3.48,
+   "prev_close": 207.4,
+   "time": "2026-11-09",
+   "mktcap": "38.78B",
+   "pe": -119.77,
+   "fpe": 25.4,
+   "yr_high": 265.94,
+   "yr_low": 183.86,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 216.0,
+    "change_pct": 4.15,
+    "time": "2026-11-10T06:06:13.827-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "date": "2026-11-09",
+   "close": 207.4,
+   "prev_close": 214.87,
+   "change_pct": -3.48,
+   "moves_over_5pct_last_year": 10,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 25,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-13",
+    "change_pct": -4.07
+   },
+   "ytd_pct": -18.99,
+   "return_1m_pct": -2.83,
+   "return_6m_pct": -6.35,
+   "return_1y_pct": -17.83,
+   "high_52w": {
+    "close": 258.41,
+    "date": "2026-07-06"
+   },
+   "low_52w": {
+    "close": 189.69,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 19.74,
+   "thousand_dollars_5y_ago_now": 1110,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 6053538,
+   "volume_vs_20d_avg": 2.2,
+   "sentences": [
+    "Take-Two Interactive's shares moved 5% or more on 10 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 October 2026, when the stock fell 4.1%.",
+    "The stock is down 19.0% this year, and at $207.40 it sits 19.7% below its 52-week closing high of $258.41 from 6 July 2026.",
+    "$1,000 invested in Take-Two Interactive five years ago would be worth $1,110 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/what-to-expect-from-take-two-interactives-ttwo-q2-earnings/"
+  ]
+ }
+}
