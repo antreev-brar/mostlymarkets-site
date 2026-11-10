@@ -3130,6 +3130,14 @@
 "day": "2026-10-30",
 "kind": "earnings-recap"
 },
+"recap-SE-2026-11-10": {
+"created": "2026-11-10T08:01:10-05:00",
+"day": "2026-11-10",
+"kind": "earnings-recap",
+"tickers": [
+"SE"
+]
+},
 "recap-SHEL-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
