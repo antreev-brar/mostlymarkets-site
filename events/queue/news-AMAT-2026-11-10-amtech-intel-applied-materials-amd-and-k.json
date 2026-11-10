@@ -1,0 +1,92 @@
+{
+ "id": "news-AMAT-2026-11-10-amtech-intel-applied-materials-amd-and-k",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-10T00:01:32-05:00",
+ "expires": "2026-11-10T10:01:32-05:00",
+ "tickers": [
+  "AMAT"
+ ],
+ "headline_hint": "Applied Materials: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-10T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies",
+    "source": "The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObFJVMzhzQVVWbGxyZGdXcTV6YnVsVG05cUp4T083ekE5alZnMUVKSXVlZnJCMGhBN3p2SXVtOUlrd0IybXJGUUtzd3V2WWF5aGlocGdxUGt5U1k5SzJZX2R5eUtOeTBBQmdQSmZiQVpma0c5aXNQWTIzWm1lcFU5YlBMdE5Ubzc1TUhyVnNocGk4VjM3TE1NYnRkTk5SS3FnWTdoLTVLVG9xcTN6a09YUmJYd3FpS1N5eUxpTGNTR0ZYQ1ExNkwzRkR1cHhmUGRqeDRFaXlWYW5McFE1ZzlXOHhjd1pzSGR6bHpBYXgyVmE2bTYtQmpQeUZoRjFENVJmWW5ZemhPRQ?oc=5",
+    "published": "2026-11-09T22:25:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Amtech, Intel, Applied Materials, AMD, and KLA Corporation shares are soaring, what you need to know",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPczB4YktaRUtsWjNobS0zMzQ3WGUyLU5YY1hFQW45TmZ2c1g5bEdoU01HUEQzSzh1UTFrcEF6OTlETnY5ZVR0MDl3UFYtbFZqcE4yUlNHUzhZYng1c0Q0cTJNRVhjSG80ZlFzT1VwZmdWNU1iLUxlX2Fva05udlBVdG02cEoxa2s3T0VF?oc=5",
+    "published": "2026-11-09T21:37:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 370.55,
+   "change_pct": 11.37,
+   "prev_close": 370.55,
+   "time": "2026-11-09",
+   "mktcap": "294.068B",
+   "pe": 31.96,
+   "fpe": 20.85,
+   "yr_high": 739.67,
+   "yr_low": 203.4,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 369.75,
+    "change_pct": -0.22,
+    "time": "2026-11-09"
+   }
+  },
+  "facts": {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "date": "2026-11-06",
+   "close": 332.71,
+   "prev_close": 319.25,
+   "change_pct": 4.22,
+   "moves_over_5pct_last_year": 45,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 62,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-28",
+    "change_pct": 5.07
+   },
+   "ytd_pct": 29.47,
+   "return_1m_pct": -34.71,
+   "return_6m_pct": -23.59,
+   "return_1y_pct": 38.12,
+   "high_52w": {
+    "close": 723.0,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 220.23,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 53.98,
+   "thousand_dollars_5y_ago_now": 2170,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 9472140,
+   "volume_vs_20d_avg": 1.17,
+   "sentences": [
+    "Applied Materials's shares moved 5% or more on 45 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 October 2026, when the stock rose 5.1%.",
+    "The stock is up 29.5% this year, and at $332.71 it sits 54.0% below its 52-week closing high of $723.00 from 30 June 2026.",
+    "$1,000 invested in Applied Materials five years ago would be worth $2,170 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-09/",
+   "/news/2026-11-08/the-week-ahead-october-inflation-coreweave-and-the-chip-gear-makers-test-a-nasdaq-in-correction/",
+   "/daily/2026-11-08/"
+  ]
+ }
+}

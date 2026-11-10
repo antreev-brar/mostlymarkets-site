@@ -1162,6 +1162,22 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-AAPL-2026-11-10-apple-will-investigate-incident-that-led": {
+"created": "2026-11-10T00:01:32-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
+"news-AMAT-2026-11-10-amtech-intel-applied-materials-amd-and-k": {
+"created": "2026-11-10T00:01:32-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"AMAT"
+]
+},
 "news-AMD-2026-11-04-amd-s-openai-meta-chip-deals-trigger-1-b": {
 "created": "2026-11-04T00:01:51-05:00",
 "day": "2026-11-04",
@@ -1574,6 +1590,14 @@
 "day": "2026-11-09",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-NVDA-2026-11-10-how-jensen-huang-s-affair-spiraled-into": {
+"created": "2026-11-10T00:01:32-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
 },
 "news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
 "created": "2026-11-04T05:01:57-05:00",

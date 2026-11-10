@@ -1,0 +1,92 @@
+{
+ "id": "news-NVDA-2026-11-10-how-jensen-huang-s-affair-spiraled-into",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-10T00:01:32-05:00",
+ "expires": "2026-11-10T10:01:32-05:00",
+ "tickers": [
+  "NVDA"
+ ],
+ "headline_hint": "Nvidia: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-10T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "How Jensen Huang's Affair Spiraled Into a National Security Nightmare",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261109014409:0-how-jensen-huang-s-affair-spiraled-into-a-national-security-nightmare-wsj/",
+    "published": "2026-11-09T23:17:00-05:00",
+    "also": []
+   },
+   {
+    "title": "The Spy Scandal That Lays Bare Nvidia's Governance Vacuum",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261109014076:0-the-spy-scandal-that-lays-bare-nvidia-s-governance-vacuum-wsj/",
+    "published": "2026-11-09T20:58:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 178.67,
+   "change_pct": -4.27,
+   "prev_close": 178.67,
+   "time": "2026-11-09",
+   "mktcap": "4.306T",
+   "pe": 22.59,
+   "fpe": 14.77,
+   "yr_high": 243.37,
+   "yr_low": 164.27,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 180.5,
+    "change_pct": 1.02,
+    "time": "2026-11-09"
+   }
+  },
+  "facts": {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "date": "2026-11-06",
+   "close": 186.64,
+   "prev_close": 181.6,
+   "change_pct": 2.78,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 61,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-02",
+    "change_pct": 3.21
+   },
+   "ytd_pct": 0.08,
+   "return_1m_pct": -19.02,
+   "return_6m_pct": -13.27,
+   "return_1y_pct": -4.39,
+   "high_52w": {
+    "close": 239.24,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 165.17,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 21.99,
+   "thousand_dollars_5y_ago_now": 6273,
+   "five_years_ago_date": "2021-11-05",
+   "volume": 180212300,
+   "volume_vs_20d_avg": 1.6,
+   "sentences": [
+    "Nvidia's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 September 2026, when the stock rose 3.2%.",
+    "The stock is up 0.1% this year, and at $186.64 it sits 22.0% below its 52-week closing high of $239.24 from 6 October 2026.",
+    "$1,000 invested in Nvidia five years ago would be worth $6,273 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-09/",
+   "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+   "/news/2026-11-08/nvidia-nvda-ceo-jensen-huang-admits-an-affair-in-a-letter-to-staff-9-days-before-earnings/"
+  ]
+ }
+}
