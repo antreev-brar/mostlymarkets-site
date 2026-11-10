@@ -650,6 +650,14 @@
 "ASML"
 ]
 },
+"move-AVGO-2026-11-10": {
+"created": "2026-11-10T10:15:15-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"AVGO"
+]
+},
 "move-AXON-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
@@ -1090,6 +1098,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "TSLA"
+]
+},
+"move-TWLO-2026-11-10": {
+"created": "2026-11-10T10:15:15-05:00",
+"day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"TWLO"
 ]
 },
 "move-UAL-2026-11-02": {
