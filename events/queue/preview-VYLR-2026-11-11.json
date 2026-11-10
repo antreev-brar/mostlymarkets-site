@@ -1,0 +1,50 @@
+{
+ "id": "preview-VYLR-2026-11-11",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-10T17:30:16-05:00",
+ "expires": "2026-11-11T15:30:00-05:00",
+ "tickers": [
+  "VYLR"
+ ],
+ "headline_hint": "What to expect from Vylor's (VYLR) earnings",
+ "instructions": "Reports Wednesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-10T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "VYLR",
+   "name": "Vylor Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 3,
+   "eps_last_year": null,
+   "last_year_date": "N/A",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 46804627000.0
+  },
+  "report_date": "2026-11-11",
+  "quote": {
+   "price": 72.53,
+   "change_pct": 0.0,
+   "prev_close": 72.53,
+   "time": "2026-11-10T16:10:00.000-0500",
+   "mktcap": "48.392B",
+   "pe": 88.64,
+   "fpe": null,
+   "yr_high": 77.39,
+   "yr_low": 65.0,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 72.18,
+    "change_pct": -0.48,
+    "time": "2026-11-10T16:46:00.511-0500"
+   }
+  },
+  "facts": null,
+  "recent_stories": [],
+  "last_recap": []
+ }
+}
