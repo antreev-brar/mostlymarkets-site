@@ -1170,6 +1170,14 @@
 "AAPL"
 ]
 },
+"news-AAPL-2026-11-10-fires-protests-pollution-apple-s-supply": {
+"created": "2026-11-10T01:01:07-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
 "news-AMAT-2026-11-10-amtech-intel-applied-materials-amd-and-k": {
 "created": "2026-11-10T00:01:32-05:00",
 "day": "2026-11-10",
@@ -1593,6 +1601,14 @@
 },
 "news-NVDA-2026-11-10-how-jensen-huang-s-affair-spiraled-into": {
 "created": "2026-11-10T00:01:32-05:00",
+"day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-10-what-we-know-about-megaspeed-singapore-b": {
+"created": "2026-11-10T01:01:07-05:00",
 "day": "2026-11-10",
 "kind": "news",
 "tickers": [
