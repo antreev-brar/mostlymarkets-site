@@ -293,6 +293,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-11": {
+"created": "2026-11-11T05:02:07-05:00",
+"day": "2026-11-11",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1846,6 +1852,14 @@
 },
 "news-NVDA-2026-11-11-nvidia-scandal-tests-the-resilience-of-t": {
 "created": "2026-11-11T00:03:04-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-11-nvidia-stock-why-jensen-huang-scrutiny-m": {
+"created": "2026-11-11T05:02:07-05:00",
 "day": "2026-11-11",
 "kind": "news",
 "tickers": [
