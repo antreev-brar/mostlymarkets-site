@@ -2308,6 +2308,14 @@
 "day": "2026-11-01",
 "kind": "earnings-preview"
 },
+"preview-AMAT-2026-11-12": {
+"created": "2026-11-11T17:30:15-05:00",
+"day": "2026-11-11",
+"kind": "earnings-preview",
+"tickers": [
+"AMAT"
+]
+},
 "preview-AMD-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -2384,6 +2392,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "COP"
+]
+},
+"preview-CSCO-2026-11-12": {
+"created": "2026-11-11T17:30:15-05:00",
+"day": "2026-11-11",
+"kind": "earnings-preview",
+"tickers": [
+"CSCO"
 ]
 },
 "preview-ETN-2026-11-03": {
@@ -2463,6 +2479,22 @@
 "kind": "earnings-preview",
 "tickers": [
 "MRNA"
+]
+},
+"preview-NBIS-2026-11-12": {
+"created": "2026-11-11T17:30:15-05:00",
+"day": "2026-11-11",
+"kind": "earnings-preview",
+"tickers": [
+"NBIS"
+]
+},
+"preview-NU-2026-11-12": {
+"created": "2026-11-11T17:30:15-05:00",
+"day": "2026-11-11",
+"kind": "earnings-preview",
+"tickers": [
+"NU"
 ]
 },
 "preview-O-2026-11-02": {

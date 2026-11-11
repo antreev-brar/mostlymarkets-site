@@ -1,0 +1,110 @@
+{
+ "id": "preview-NU-2026-11-12",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-11T17:30:15-05:00",
+ "expires": "2026-11-12T15:30:00-05:00",
+ "tickers": [
+  "NU"
+ ],
+ "headline_hint": "What to expect from Nu Holdings's (NU) earnings",
+ "instructions": "Reports Thursday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-11T17:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "NU",
+   "name": "Nu Holdings Ltd.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.22,
+   "n_estimates": 4,
+   "eps_last_year": 0.17,
+   "last_year_date": "11/13/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 58413752000.0
+  },
+  "report_date": "2026-11-12",
+  "quote": {
+   "price": 12.32,
+   "change_pct": 1.99,
+   "prev_close": 12.08,
+   "time": "2026-11-11T16:10:00.000-0500",
+   "mktcap": "59.514B",
+   "pe": 16.77,
+   "fpe": 12.55,
+   "yr_high": 18.98,
+   "yr_low": 11.2,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 12.25,
+    "change_pct": -0.57,
+    "time": "2026-11-11T17:30:05.158-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NU",
+   "name": "Nu Holdings",
+   "date": "2026-11-09",
+   "close": 12.36,
+   "prev_close": 12.03,
+   "change_pct": 2.74,
+   "moves_over_5pct_last_year": 16,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 58,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 3.27
+   },
+   "ytd_pct": -26.16,
+   "return_1m_pct": -23.33,
+   "return_6m_pct": -8.44,
+   "return_1y_pct": -22.46,
+   "high_52w": {
+    "close": 18.76,
+    "date": "2026-01-28"
+   },
+   "low_52w": {
+    "close": 11.6,
+    "date": "2026-06-08"
+   },
+   "pct_below_52w_high": 34.12,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 49201160,
+   "volume_vs_20d_avg": 0.56,
+   "sentences": [
+    "Nu Holdings's shares moved 5% or more on 16 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 3.3%.",
+    "The stock is down 26.2% this year, and at $12.36 it sits 34.1% below its 52-week closing high of $18.76 from 28 January 2026."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-27/stocks-making-the-biggest-moves-yesterday-nu-holdings-fair-isaac-lumentum-mercadolibre-and-doordash/",
+    "date": "2026-10-27",
+    "title": "Stocks Making Big Moves Yesterday: Nu Holdings, Fair Isaac, Lumentum, MercadoLibre and DoorDash",
+    "type": "movers",
+    "tickers": [
+     "NU",
+     "FICO",
+     "LITE",
+     "MELI",
+     "DASH"
+    ]
+   },
+   {
+    "path": "/news/2026-10-26/nu-holdings-nu-and-mercadolibre-meli-shares-slide-after-lula-wins-in-brazil/",
+    "date": "2026-10-26",
+    "title": "Nu Holdings (NU) and MercadoLibre (MELI) Shares Slide After Lula Wins in Brazil",
+    "type": "why-it-moved",
+    "tickers": [
+     "NU",
+     "MELI"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}
