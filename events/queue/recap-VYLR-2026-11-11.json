@@ -1,0 +1,50 @@
+{
+ "id": "recap-VYLR-2026-11-11",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-11T17:03:11-05:00",
+ "expires": "2026-11-12T20:00:00-05:00",
+ "tickers": [
+  "VYLR"
+ ],
+ "headline_hint": "Vylor (VYLR) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-11T17:00:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "VYLR",
+   "name": "Vylor Inc.",
+   "time": "amc",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 3,
+   "eps_last_year": null,
+   "last_year_date": "N/A",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 46804627000.0
+  },
+  "quote": {
+   "price": 72.1,
+   "change_pct": -0.59,
+   "prev_close": 72.53,
+   "time": "2026-11-11T16:10:00.000-0500",
+   "mktcap": "48.105B",
+   "pe": 88.11,
+   "fpe": null,
+   "yr_high": 77.39,
+   "yr_low": 65.0,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 71.02,
+    "change_pct": -1.5,
+    "time": "2026-11-11T16:58:46.267-0500"
+   }
+  },
+  "facts": null,
+  "sector": "Consumer Staples",
+  "industry": "Agricultural Products & Services",
+  "recent_stories": []
+ }
+}
