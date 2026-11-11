@@ -1,0 +1,101 @@
+{
+ "id": "movers-2026-11-10",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-11T09:01:11-05:00",
+ "expires": "2026-11-11T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Tuesday 10 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-11T09:00:09-05:00",
+ "pack": {
+  "session": "2026-11-10",
+  "moves": [
+   {
+    "ticker": "V",
+    "name": "Visa",
+    "close": 423.0,
+    "change_pct": 0.2,
+    "our_stories": []
+   },
+   {
+    "ticker": "D",
+    "name": "Dominion Energy",
+    "close": 68.37,
+    "change_pct": 0.19,
+    "our_stories": []
+   },
+   {
+    "ticker": "ES",
+    "name": "Eversource Energy",
+    "close": 69.62,
+    "change_pct": 0.19,
+    "our_stories": []
+   },
+   {
+    "ticker": "FERG",
+    "name": "Ferguson Enterprises",
+    "close": 259.44,
+    "change_pct": -0.19,
+    "our_stories": []
+   },
+   {
+    "ticker": "RJF",
+    "name": "Raymond James Financial",
+    "close": 168.11,
+    "change_pct": 0.18,
+    "our_stories": []
+   },
+   {
+    "ticker": "AON",
+    "name": "Aon",
+    "close": 336.34,
+    "change_pct": 0.17,
+    "our_stories": []
+   },
+   {
+    "ticker": "ZTS",
+    "name": "Zoetis",
+    "close": 82.46,
+    "change_pct": 0.17,
+    "our_stories": []
+   },
+   {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "close": 164.47,
+    "change_pct": -0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "CL",
+    "name": "Colgate-Palmolive",
+    "close": 98.09,
+    "change_pct": 0.15,
+    "our_stories": []
+   },
+   {
+    "ticker": "MDLZ",
+    "name": "Mondelez International",
+    "close": 66.54,
+    "change_pct": 0.15,
+    "our_stories": []
+   },
+   {
+    "ticker": "NWSA",
+    "name": "News Corp (Class A)",
+    "close": 26.61,
+    "change_pct": 0.15,
+    "our_stories": []
+   },
+   {
+    "ticker": "PCAR",
+    "name": "Paccar",
+    "close": 105.57,
+    "change_pct": -0.15,
+    "our_stories": []
+   }
+  ]
+ }
+}
