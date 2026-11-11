@@ -1529,6 +1529,14 @@
 "day": "2026-11-01",
 "kind": "news"
 },
+"news-CEG-2026-11-11-constellation-energy-ceg-stock-cools-aft": {
+"created": "2026-11-11T00:03:04-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"CEG"
+]
+},
 "news-COST-2026-11-06-mapping-the-market-costco-has-momentum-t": {
 "created": "2026-11-06T06:15:13-05:00",
 "day": "2026-11-06",
@@ -1580,6 +1588,14 @@
 "day": "2026-11-09",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-GOOGL-2026-11-11-alphabet-taps-banks-for-inaugural-hkd-sg": {
+"created": "2026-11-11T00:03:04-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"GOOGL"
+]
 },
 "news-HSBC-2026-11-05-hsbc-bought-back-156-261-shares-for-gbp": {
 "created": "2026-11-05T04:01:12-05:00",
@@ -1799,6 +1815,14 @@
 "news-NVDA-2026-11-10-what-we-know-about-megaspeed-singapore-b": {
 "created": "2026-11-10T01:01:07-05:00",
 "day": "2026-11-10",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-11-nvidia-scandal-tests-the-resilience-of-t": {
+"created": "2026-11-11T00:03:04-05:00",
+"day": "2026-11-11",
 "kind": "news",
 "tickers": [
 "NVDA"

@@ -1,0 +1,92 @@
+{
+ "id": "news-GOOGL-2026-11-11-alphabet-taps-banks-for-inaugural-hkd-sg",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-11T00:03:04-05:00",
+ "expires": "2026-11-11T10:03:04-05:00",
+ "tickers": [
+  "GOOGL"
+ ],
+ "headline_hint": "Alphabet: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-11T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Alphabet taps banks for inaugural HKD, SGD bond sale, term sheet shows",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46S04N:0-alphabet-taps-banks-for-inaugural-hkd-sgd-bond-sale-term-sheet-shows/",
+    "published": "2026-11-10T21:19:26-05:00",
+    "also": []
+   },
+   {
+    "title": "Alphabet Appoints Joint Global Coordinators For Potential Inaugural Dual Currency Bond Offering, Term Sheet Shows",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46R2CO:0-alphabet-appoints-joint-global-coordinators-for-potential-inaugural-dual-currency-bond-offering-term-sheet-shows/",
+    "published": "2026-11-10T21:11:36-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 287.38,
+   "change_pct": -0.27,
+   "prev_close": 287.38,
+   "time": "2026-11-10",
+   "mktcap": "3.455T",
+   "pe": 14.98,
+   "fpe": 22.01,
+   "yr_high": 408.61,
+   "yr_low": 270.7,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 289.18,
+    "change_pct": 0.63,
+    "time": "2026-11-10"
+   }
+  },
+  "facts": {
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "date": "2026-11-09",
+   "close": 288.15,
+   "prev_close": 284.78,
+   "change_pct": 1.18,
+   "moves_over_5pct_last_year": 6,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 117,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 3.18
+   },
+   "ytd_pct": -7.94,
+   "return_1m_pct": -18.06,
+   "return_6m_pct": -25.86,
+   "return_1y_pct": 1.19,
+   "high_52w": {
+    "close": 402.62,
+    "date": "2026-05-13"
+   },
+   "low_52w": {
+    "close": 273.5,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 28.43,
+   "thousand_dollars_5y_ago_now": 1935,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 36497920,
+   "volume_vs_20d_avg": 0.94,
+   "sentences": [
+    "Alphabet's shares moved 5% or more on 6 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 3.2%.",
+    "The stock is down 7.9% this year, and at $288.15 it sits 28.4% below its 52-week closing high of $402.62 from 13 May 2026.",
+    "$1,000 invested in Alphabet five years ago would be worth $1,935 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/microsoft-msft-sells-more-than-ever-but-keeps-less-cash-is-the-business-still-strong/",
+   "/news/2026-11-07/bulls-vs-bears-on-anthropics-ipo-is-1-5-trillion-a-fair-price/",
+   "/news/2026-11-07/alphabet-googl-had-its-worst-day-since-2004-is-the-business-broken/"
+  ]
+ }
+}

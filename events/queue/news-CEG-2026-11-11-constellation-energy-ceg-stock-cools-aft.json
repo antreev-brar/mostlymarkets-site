@@ -1,0 +1,91 @@
+{
+ "id": "news-CEG-2026-11-11-constellation-energy-ceg-stock-cools-aft",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-11T00:03:04-05:00",
+ "expires": "2026-11-11T10:03:04-05:00",
+ "tickers": [
+  "CEG"
+ ],
+ "headline_hint": "Constellation Energy: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-11T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "CEG Stock Is On Track To Reverse Last Week's Losses: Here's Why This Analyst Sees An Upside Of 29%",
+    "source": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/ceg-stock-is-on-track-to-reverse-last-week-s-losses-here-s-why-this-analyst-sees-an-upside-of-29/cNGDf4dR9Jp",
+    "published": "2026-11-10T23:27:30-05:00",
+    "also": []
+   },
+   {
+    "title": "Constellation Energy (CEG) Stock Cools After Q3 Earnings Powerhouse",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaEZqZVlkazZEQXlNV1kxbGpKU0w1ekFyX0ZMTDN0TnozREt4aFdEbDRCRVpBdlZQRHJmeU1uMWFMbDZLM1AyQ1dxdFljWHNiNWszMWJJcmRDSkxSNWpiQThlUXd5UTUtZGw2X2pqWEh3dktJUk1QNnlsUFNPSVFTY1ZieWhKel9rZ1BQb2dLT1lJXzRGZW52dWdUWko3YU83eG8w?oc=5",
+    "published": "2026-11-10T21:15:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 267.76,
+   "change_pct": -3.02,
+   "prev_close": 267.76,
+   "time": "2026-11-10",
+   "mktcap": "94.869B",
+   "pe": 21.46,
+   "fpe": 21.85,
+   "yr_high": 380.78,
+   "yr_low": 228.63,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 268.8,
+    "change_pct": 0.39,
+    "time": "2026-11-10"
+   }
+  },
+  "facts": {
+   "ticker": "CEG",
+   "name": "Constellation Energy",
+   "date": "2026-11-09",
+   "close": 276.09,
+   "prev_close": 249.95,
+   "change_pct": 10.46,
+   "moves_over_5pct_last_year": 25,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 3,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-06",
+    "change_pct": 12.25
+   },
+   "ytd_pct": -21.85,
+   "return_1m_pct": -7.37,
+   "return_6m_pct": -7.87,
+   "return_1y_pct": -21.41,
+   "high_52w": {
+    "close": 378.6,
+    "date": "2025-12-11"
+   },
+   "low_52w": {
+    "close": 236.5,
+    "date": "2026-07-01"
+   },
+   "pct_below_52w_high": 27.08,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 7338427,
+   "volume_vs_20d_avg": 1.98,
+   "sentences": [
+    "Constellation Energy's shares moved 5% or more on 25 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 October 2026, when the stock rose 12.2%.",
+    "The stock is down 21.9% this year, and at $276.09 it sits 27.1% below its 52-week closing high of $378.60 from 11 December 2025."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-09/",
+   "/news/2026-11-08/what-to-expect-from-constellation-energys-ceg-q3-earnings/",
+   "/news/2026-11-08/the-week-ahead-october-inflation-coreweave-and-the-chip-gear-makers-test-a-nasdaq-in-correction/"
+  ]
+ }
+}
