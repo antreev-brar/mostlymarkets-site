@@ -1420,6 +1420,14 @@
 "BABA"
 ]
 },
+"news-BABA-2026-11-11-alibaba-announces-plans-to-list-t-head-i": {
+"created": "2026-11-11T01:01:08-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"BABA"
+]
+},
 "news-BHP-2026-11-09-bhp-signs-copper-cathode-purchase-sales": {
 "created": "2026-11-09T00:01:43-05:00",
 "day": "2026-11-09",
@@ -1651,6 +1659,14 @@
 "news-JPM-2026-11-02-microsoft-nvidia-jpmorgan-among-50-us-gi": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
+"kind": "news",
+"tickers": [
+"JPM"
+]
+},
+"news-JPM-2026-11-11-jpmorgan-chase-jpm-takes-lead-role-in-a": {
+"created": "2026-11-11T01:01:08-05:00",
+"day": "2026-11-11",
 "kind": "news",
 "tickers": [
 "JPM"
@@ -1965,6 +1981,14 @@
 "kind": "news",
 "tickers": [
 "TM"
+]
+},
+"news-TMO-2026-11-11-thermo-fisher-scientific-tmo-is-a-key-su": {
+"created": "2026-11-11T01:01:08-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"TMO"
 ]
 },
 "news-TSLA-2026-11-02-six-reasons-democrats-may-fall-short-of": {
