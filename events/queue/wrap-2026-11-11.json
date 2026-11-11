@@ -1,0 +1,382 @@
+{
+ "id": "wrap-2026-11-11",
+ "kind": "market-wrap",
+ "story_type": "market-wrap",
+ "priority": 85,
+ "created": "2026-11-11T16:15:16-05:00",
+ "expires": "2026-11-11T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stock Market Today: <the story of the day>",
+ "instructions": "The close. Use pack.markets for the numbers table. Link today's stories where they fit.",
+ "quotes_asof": "2026-11-11T16:15:11-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7619.38,
+    "change": 98.45,
+    "change_pct": 1.31,
+    "prev_close": 7520.93,
+    "open": 7586.65,
+    "high": 7647.2,
+    "low": 7571.88,
+    "volume": 0,
+    "time": "2026-11-11T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25466.189,
+    "change": 400.314,
+    "change_pct": 1.6,
+    "prev_close": 25065.874,
+    "open": 25448.803,
+    "high": 25649.851,
+    "low": 25326.691,
+    "volume": 1528456865,
+    "time": "2026-11-11T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 52486.49,
+    "change": 254.6,
+    "change_pct": 0.49,
+    "prev_close": 52231.89,
+    "open": 52196.35,
+    "high": 52512.72,
+    "low": 52055.14,
+    "volume": 545692099,
+    "time": "2026-11-11T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2846.03,
+    "change": 24.655,
+    "change_pct": 0.87,
+    "prev_close": 2821.375,
+    "open": 2842.15,
+    "high": 2852.136,
+    "low": 2832.42,
+    "volume": 0,
+    "time": "2026-11-11T16:00:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 17.49,
+    "change": -1.97,
+    "change_pct": -10.12,
+    "prev_close": 19.46,
+    "open": 18.81,
+    "high": 18.96,
+    "low": 17.33,
+    "volume": 0,
+    "time": "2026-11-11T16:15:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 5.0,
+    "change": 0.138,
+    "change_pct": 2.8383,
+    "prev_close": 4.862,
+    "open": 4.876,
+    "high": 5.021,
+    "low": 4.855,
+    "volume": 0,
+    "time": "2026-11-10T17:05:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.748,
+    "change": 0.201,
+    "change_pct": -0.375,
+    "prev_close": 4.547,
+    "open": 4.561,
+    "high": 4.771,
+    "low": 4.544,
+    "volume": 0,
+    "time": "2026-11-10T17:05:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 86.4,
+    "change": 0.36,
+    "change_pct": 0.42,
+    "prev_close": 86.04,
+    "open": 86.43,
+    "high": 88.74,
+    "low": 85.81,
+    "volume": 206624,
+    "time": "2026-11-11T16:04:59.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 92.55,
+    "change": 1.06,
+    "change_pct": 1.16,
+    "prev_close": 91.49,
+    "open": 92.0,
+    "high": 94.73,
+    "low": 91.44,
+    "volume": 280278,
+    "time": "2026-11-11T22:05:08.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 0.0,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3990.7,
+    "change": -39.5,
+    "change_pct": -0.98,
+    "prev_close": 4030.2,
+    "open": 4043.7,
+    "high": 4074.7,
+    "low": 3989.6,
+    "volume": 122215,
+    "time": "2026-11-11T16:05:04.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3879.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 74630.19,
+    "change": 1016.69,
+    "change_pct": 1.38,
+    "prev_close": 73613.5,
+    "open": 73687.79,
+    "high": 74702.1,
+    "low": 73120.65,
+    "volume": 0,
+    "time": "2026-11-11T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 107479.16,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 102.94,
+    "change": 0.709,
+    "change_pct": 0.69,
+    "prev_close": 102.231,
+    "open": 102.222,
+    "high": 102.962,
+    "low": 102.206,
+    "volume": 0,
+    "time": "2026-11-11T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 102.96,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "top_moves": [
+   {
+    "ticker": "SE",
+    "name": "Sea Limited",
+    "change_pct": -3.66,
+    "price": 73.99
+   },
+   {
+    "ticker": "ABNB",
+    "name": "Airbnb",
+    "change_pct": -3.09,
+    "price": 181.13
+   },
+   {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "change_pct": -2.66,
+    "price": 34.06
+   },
+   {
+    "ticker": "LULU",
+    "name": "Lululemon Athletica",
+    "change_pct": -2.65,
+    "price": 107.45
+   },
+   {
+    "ticker": "MCD",
+    "name": "McDonald's",
+    "change_pct": -2.61,
+    "price": 274.8
+   },
+   {
+    "ticker": "LDOS",
+    "name": "Leidos",
+    "change_pct": -2.44,
+    "price": 133.89
+   },
+   {
+    "ticker": "AEM",
+    "name": "Agnico Eagle Mines",
+    "change_pct": -2.36,
+    "price": 185.96
+   },
+   {
+    "ticker": "BF.B",
+    "name": "Brown\u2013Forman",
+    "change_pct": -2.34,
+    "price": 30.1
+   },
+   {
+    "ticker": "NVR",
+    "name": "NVR",
+    "change_pct": -2.34,
+    "price": 5895.4
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "change_pct": -2.26,
+    "price": 521.13
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "change_pct": 24.71,
+    "price": 60.77
+   },
+   {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "change_pct": 15.44,
+    "price": 154.69
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "change_pct": 13.69,
+    "price": 977.69
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "change_pct": 12.97,
+    "price": 209.47
+   },
+   {
+    "ticker": "ARM",
+    "name": "Arm Holdings",
+    "change_pct": 12.05,
+    "price": 203.36
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "change_pct": 11.89,
+    "price": 811.3
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "change_pct": 11.75,
+    "price": 373.68
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "change_pct": 10.67,
+    "price": 648.06
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate Technology",
+    "change_pct": 9.99,
+    "price": 551.72
+   },
+   {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "change_pct": 9.5,
+    "price": 30.43
+   }
+  ],
+  "todays_stories": [],
+  "reporting_after_close": [
+   "VYLR"
+  ]
+ }
+}
