@@ -1,0 +1,112 @@
+{
+ "id": "basket-semiconductor-materials-equipment-up-2026-11-11",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-11T10:01:13-05:00",
+ "expires": "2026-11-11T23:59:00-05:00",
+ "tickers": [
+  "TER",
+  "LRCX",
+  "AMAT"
+ ],
+ "headline_hint": "TER, LRCX, AMAT shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-11T10:00:10-05:00",
+ "pack": {
+  "industry": "Semiconductor Materials & Equipment",
+  "quotes": {
+   "TER": {
+    "price": 257.86,
+    "change_pct": 5.08,
+    "prev_close": 245.4,
+    "time": "2026-11-11T10:00:07.821-0500",
+    "mktcap": "40.258B",
+    "pe": 29.6,
+    "fpe": 27.61,
+    "yr_high": 487.91,
+    "yr_low": 151.52,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 263.45,
+     "change_pct": 7.36,
+     "time": "2026-11-11T09:30:00.723-0500"
+    }
+   },
+   "LRCX": {
+    "price": 231.91,
+    "change_pct": 4.28,
+    "prev_close": 222.39,
+    "time": "2026-11-11T10:00:05.438-0500",
+    "mktcap": "289.689B",
+    "pe": 34.51,
+    "fpe": 24.11,
+    "yr_high": 438.5,
+    "yr_low": 135.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 235.51,
+     "change_pct": 5.9,
+     "time": "2026-11-11T09:30:00.781-0500"
+    }
+   },
+   "AMAT": {
+    "price": 387.5,
+    "change_pct": 4.02,
+    "prev_close": 372.53,
+    "time": "2026-11-11T10:00:00.085-0500",
+    "mktcap": "307.519B",
+    "pe": 33.42,
+    "fpe": 21.8,
+    "yr_high": 739.67,
+    "yr_low": 203.4,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 393.23,
+     "change_pct": 5.56,
+     "time": "2026-11-11T09:29:59.995-0500"
+    }
+   }
+  },
+  "facts": {
+   "TER": {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "date": "2026-11-09",
+    "close": 246.0,
+    "prev_close": 218.22,
+    "change_pct": 12.73,
+    "moves_over_5pct_last_year": 66,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 7,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-07-30",
+     "change_pct": 14.43
+    },
+    "ytd_pct": 27.09,
+    "return_1m_pct": -38.91,
+    "return_6m_pct": -32.9,
+    "return_1y_pct": 32.96,
+    "high_52w": {
+     "close": 483.84,
+     "date": "2026-06-30"
+    },
+    "low_52w": {
+     "close": 155.9,
+     "date": "2025-11-20"
+    },
+    "pct_below_52w_high": 49.16,
+    "thousand_dollars_5y_ago_now": 1692,
+    "five_years_ago_date": "2021-11-09",
+    "volume": 5357856,
+    "volume_vs_20d_avg": 1.22,
+    "sentences": [
+     "Teradyne's shares moved 5% or more on 66 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 30 July 2026, when the stock rose 14.4%.",
+     "The stock is up 27.1% this year, and at $246.00 it sits 49.2% below its 52-week closing high of $483.84 from 30 June 2026.",
+     "$1,000 invested in Teradyne five years ago would be worth $1,692 today."
+    ]
+   }
+  }
+ }
+}

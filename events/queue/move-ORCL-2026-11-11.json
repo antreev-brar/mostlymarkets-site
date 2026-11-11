@@ -1,0 +1,138 @@
+{
+ "id": "move-ORCL-2026-11-11",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 74,
+ "created": "2026-11-11T10:01:13-05:00",
+ "expires": "2026-11-12T12:00:00-05:00",
+ "tickers": [
+  "ORCL"
+ ],
+ "headline_hint": "Why Oracle (ORCL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-11T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 124.65,
+   "change_pct": 5.65,
+   "prev_close": 117.98,
+   "time": "2026-11-11T10:00:05.857-0500",
+   "mktcap": "387.653B",
+   "pe": 19.57,
+   "fpe": 14.62,
+   "yr_high": 250.25,
+   "yr_low": 109.21,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 124.02,
+    "change_pct": 5.12,
+    "time": "2026-11-11T09:29:34.896-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "date": "2026-11-09",
+   "close": 119.79,
+   "prev_close": 116.1,
+   "change_pct": 3.18,
+   "moves_over_5pct_last_year": 40,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 89,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": 5.85
+   },
+   "ytd_pct": -38.54,
+   "return_1m_pct": -15.28,
+   "return_6m_pct": -38.2,
+   "return_1y_pct": -50.87,
+   "high_52w": {
+    "close": 248.15,
+    "date": "2026-06-01"
+   },
+   "low_52w": {
+    "close": 114.99,
+    "date": "2026-07-24"
+   },
+   "pct_below_52w_high": 51.73,
+   "thousand_dollars_5y_ago_now": 1266,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 27724750,
+   "volume_vs_20d_avg": 0.64,
+   "sentences": [
+    "Oracle's shares moved 5% or more on 40 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock rose 5.8%.",
+    "The stock is down 38.5% this year, and at $119.79 it sits 51.7% below its 52-week closing high of $248.15 from 1 June 2026.",
+    "$1,000 invested in Oracle five years ago would be worth $1,266 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/microsoft-msft-sells-more-than-ever-but-keeps-less-cash-is-the-business-still-strong/",
+    "date": "2026-11-08",
+    "title": "Microsoft (MSFT) Sells More Than Ever but Keeps Less Cash. Is the Business Still Strong?",
+    "type": "breakdown",
+    "tickers": [
+     "MSFT",
+     "AMZN",
+     "GOOGL",
+     "ORCL",
+     "CRWV"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/wall-street-is-betting-the-neoclouds-are-ais-weak-link-coreweaves-report-will-test-it/",
+    "date": "2026-11-07",
+    "title": "Wall Street Is Betting the Neoclouds Are AI's Weak Link. CoreWeave's Report Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/microsoft-msft-is-winding-down-a-deal-to-rent-ai-capacity-from-oracle-orcl/",
+    "date": "2026-11-06",
+    "title": "Microsoft (MSFT) Is Winding Down a Deal to Rent AI Capacity From Oracle (ORCL)",
+    "type": "brief",
+    "tickers": [
+     "MSFT",
+     "ORCL",
+     "CRWV",
+     "NBIS",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/stocks-making-the-biggest-moves-yesterday-idexx-lumentum-marvell-oracle-and-rivian/",
+    "date": "2026-11-03",
+    "title": "Stocks Making the Biggest Moves Yesterday: Idexx, Lumentum, Marvell, Oracle and Rivian",
+    "type": "movers",
+    "tickers": [
+     "IDXX",
+     "LITE",
+     "MRVL",
+     "ORCL",
+     "RIVN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/oracle-orcl-sells-its-new-shares-at-116-raising-the-full-20-billion/",
+    "date": "2026-11-03",
+    "title": "Oracle (ORCL) Sells Its New Shares at $116, Raising the Full $20 Billion",
+    "type": "brief",
+    "tickers": [
+     "ORCL",
+     "META"
+    ]
+   }
+  ]
+ }
+}

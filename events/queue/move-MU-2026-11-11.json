@@ -1,0 +1,145 @@
+{
+ "id": "move-MU-2026-11-11",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 81,
+ "created": "2026-11-11T10:01:13-05:00",
+ "expires": "2026-11-12T12:00:00-05:00",
+ "tickers": [
+  "MU"
+ ],
+ "headline_hint": "Why Micron Technology (MU) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-11T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 786.74,
+   "change_pct": 8.5,
+   "prev_close": 725.11,
+   "time": "2026-11-11T10:00:06.113-0500",
+   "mktcap": "890.136B",
+   "pe": 10.6,
+   "fpe": 4.48,
+   "yr_high": 1255.0,
+   "yr_low": 192.59,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 776.92,
+    "change_pct": 7.15,
+    "time": "2026-11-11T09:30:01.772-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "date": "2026-11-09",
+   "close": 733.15,
+   "prev_close": 690.0,
+   "change_pct": 6.25,
+   "moves_over_5pct_last_year": 76,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 50,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-04",
+    "change_pct": 7.62
+   },
+   "ytd_pct": 156.88,
+   "return_1m_pct": -28.75,
+   "return_6m_pct": -7.82,
+   "return_1y_pct": 207.62,
+   "high_52w": {
+    "close": 1213.56,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 201.37,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 39.59,
+   "thousand_dollars_5y_ago_now": 9699,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 32172100,
+   "volume_vs_20d_avg": 1.05,
+   "sentences": [
+    "Micron Technology's shares moved 5% or more on 76 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 August 2026, when the stock rose 7.6%.",
+    "The stock is up 156.9% this year, and at $733.15 it sits 39.6% below its 52-week closing high of $1,213.56 from 25 June 2026.",
+    "$1,000 invested in Micron Technology five years ago would be worth $9,699 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+    "date": "2026-11-08",
+    "title": "TSMC (TSM) Rose 6% on a Report It May Make 3D Memory Chips for Nvidia",
+    "type": "brief",
+    "tickers": [
+     "TSM",
+     "NVDA",
+     "MU"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-07/",
+    "date": "2026-11-07",
+    "title": "The AI Buyers Rose and Their Suppliers Sank in the Week the Nasdaq Hit a Correction",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMZN",
+     "MU",
+     "APP",
+     "VST"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/stock-market-today-chips-win-back-part-of-thursdays-rout-as-the-dow-slips/",
+    "date": "2026-11-06",
+    "title": "Stock Market Today: Chips Win Back Part of Thursday's Rout as the Dow Slips",
+    "type": "market-wrap",
+    "tickers": [
+     "AMD",
+     "MU",
+     "INTC",
+     "NVDA",
+     "AXON",
+     "TEAM",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/bulls-vs-bears-on-the-midterm-ai-sell-off-how-many-data-centers-will-stall/",
+    "date": "2026-11-06",
+    "title": "Bulls vs Bears on the Midterm AI Sell-Off: How Many Data Centers Will Stall?",
+    "type": "viewpoints",
+    "tickers": [
+     "VRT",
+     "MU",
+     "NVDA",
+     "GEV",
+     "AMD",
+     "ETN"
+    ]
+   }
+  ]
+ }
+}

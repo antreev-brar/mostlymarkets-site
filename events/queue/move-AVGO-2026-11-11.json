@@ -1,0 +1,140 @@
+{
+ "id": "move-AVGO-2026-11-11",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 74,
+ "created": "2026-11-11T10:01:13-05:00",
+ "expires": "2026-11-12T12:00:00-05:00",
+ "tickers": [
+  "AVGO"
+ ],
+ "headline_hint": "Why Broadcom (AVGO) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-11T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 351.76,
+   "change_pct": 5.96,
+   "prev_close": 331.98,
+   "time": "2026-11-11T10:00:01.016-0500",
+   "mktcap": "1.679T",
+   "pe": 44.91,
+   "fpe": 20.34,
+   "yr_high": 495.0,
+   "yr_low": 289.77,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 349.01,
+    "change_pct": 5.13,
+    "time": "2026-11-11T09:30:01.156-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "date": "2026-11-09",
+   "close": 319.48,
+   "prev_close": 293.69,
+   "change_pct": 8.78,
+   "moves_over_5pct_last_year": 18,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2025-11-24",
+    "change_pct": 11.1
+   },
+   "ytd_pct": -7.69,
+   "return_1m_pct": -11.63,
+   "return_6m_pct": -25.43,
+   "return_1y_pct": -10.15,
+   "high_52w": {
+    "close": 481.57,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 291.53,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 33.66,
+   "thousand_dollars_5y_ago_now": 5728,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 36685300,
+   "volume_vs_20d_avg": 1.54,
+   "sentences": [
+    "Broadcom's shares moved 5% or more on 18 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 24 November 2025, when the stock rose 11.1%.",
+    "The stock is down 7.7% this year, and at $319.48 it sits 33.7% below its 52-week closing high of $481.57 from 2 June 2026.",
+    "$1,000 invested in Broadcom five years ago would be worth $5,728 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-broadcom-amphenol-seagate-supermicro/",
+    "date": "2026-11-08",
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "AVGO",
+     "APH",
+     "STX",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/nvidia-nvda-is-down-22-from-its-high-is-the-business-broken/",
+    "date": "2026-11-06",
+    "title": "Nvidia (NVDA) Is Down 22% From Its High. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "GOOGL",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/bulls-vs-bears-on-marvell-mrvl-is-lumentum-worth-a-third-of-the-company/",
+    "date": "2026-11-02",
+    "title": "Bulls vs Bears on Marvell (MRVL): Is Lumentum Worth a Third of the Company?",
+    "type": "viewpoints",
+    "tickers": [
+     "MRVL",
+     "LITE",
+     "AVGO",
+     "COHR"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/amd-amd-has-signed-up-openai-and-meta-is-the-business-worth-the-price/",
+    "date": "2026-11-02",
+    "title": "AMD (AMD) Has Signed Up OpenAI and Meta. Is the Business Worth the Price?",
+    "type": "breakdown",
+    "tickers": [
+     "AMD",
+     "NVDA",
+     "INTC",
+     "AVGO",
+     "META"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-chip-index-fell-7-2-in-a-day-where-did-the-damage-land/",
+    "date": "2026-10-31",
+    "title": "The Chip Index Fell 7.2% in a Day. Where Did the Damage Land?",
+    "type": "analysis",
+    "tickers": [
+     "INTC",
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "SNDK",
+     "MPWR"
+    ]
+   }
+  ]
+ }
+}

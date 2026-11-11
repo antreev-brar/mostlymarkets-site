@@ -39,6 +39,16 @@
 "MELI"
 ]
 },
+"basket-communications-equipment-up-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "basket",
+"tickers": [
+"LITE",
+"CIEN",
+"ANET"
+]
+},
 "basket-internet-services-infrastructure-down-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -77,6 +87,16 @@
 "LRCX",
 "TER",
 "KLAC"
+]
+},
+"basket-semiconductor-materials-equipment-up-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "basket",
+"tickers": [
+"TER",
+"LRCX",
+"AMAT"
 ]
 },
 "basket-semiconductors-down-2026-10-30": {
@@ -723,6 +743,14 @@
 "AVGO"
 ]
 },
+"move-AVGO-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "why-it-moved",
+"tickers": [
+"AVGO"
+]
+},
 "move-AXON-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
@@ -750,6 +778,14 @@
 "move-BE-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
+"kind": "why-it-moved",
+"tickers": [
+"BE"
+]
+},
+"move-BE-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
 "kind": "why-it-moved",
 "tickers": [
 "BE"
@@ -819,6 +855,14 @@
 "move-DELL-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
+"kind": "why-it-moved",
+"tickers": [
+"DELL"
+]
+},
+"move-DELL-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
 "kind": "why-it-moved",
 "tickers": [
 "DELL"
@@ -917,6 +961,14 @@
 "day": "2026-10-30",
 "kind": "why-it-moved"
 },
+"move-INTC-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "why-it-moved",
+"tickers": [
+"INTC"
+]
+},
 "move-ISRG-2026-11-04": {
 "created": "2026-11-04T10:01:17-05:00",
 "day": "2026-11-04",
@@ -936,6 +988,14 @@
 "move-LITE-2026-11-02": {
 "created": "2026-11-02T10:01:14-05:00",
 "day": "2026-11-02",
+"kind": "why-it-moved",
+"tickers": [
+"LITE"
+]
+},
+"move-LITE-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
 "kind": "why-it-moved",
 "tickers": [
 "LITE"
@@ -999,6 +1059,22 @@
 "MU"
 ]
 },
+"move-MU-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "why-it-moved",
+"tickers": [
+"MU"
+]
+},
+"move-NBIS-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "why-it-moved",
+"tickers": [
+"NBIS"
+]
+},
 "move-NVDA-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
@@ -1028,6 +1104,14 @@
 "day": "2026-11-03",
 "kind": "why-it-moved",
 "outcome": "already-written"
+},
+"move-ORCL-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "why-it-moved",
+"tickers": [
+"ORCL"
+]
 },
 "move-PLTR-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
@@ -1109,6 +1193,14 @@
 "kind": "why-it-moved",
 "outcome": "already-written"
 },
+"move-SNDK-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
+"kind": "why-it-moved",
+"tickers": [
+"SNDK"
+]
+},
 "move-STX-2026-11-02": {
 "created": "2026-11-02T10:01:14-05:00",
 "day": "2026-11-02",
@@ -1120,6 +1212,14 @@
 "move-STX-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
+"kind": "why-it-moved",
+"tickers": [
+"STX"
+]
+},
+"move-STX-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
 "kind": "why-it-moved",
 "tickers": [
 "STX"
@@ -3728,6 +3828,12 @@
 "viewpoints-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
+"kind": "viewpoints",
+"tickers": []
+},
+"viewpoints-2026-11-11": {
+"created": "2026-11-11T10:01:13-05:00",
+"day": "2026-11-11",
 "kind": "viewpoints",
 "tickers": []
 },
