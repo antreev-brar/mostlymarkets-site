@@ -1428,6 +1428,14 @@
 "BABA"
 ]
 },
+"news-BABA-2026-11-11-alibaba-plans-hong-kong-listing-for-semi": {
+"created": "2026-11-11T02:01:07-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"BABA"
+]
+},
 "news-BHP-2026-11-09-bhp-signs-copper-cathode-purchase-sales": {
 "created": "2026-11-09T00:01:43-05:00",
 "day": "2026-11-09",
@@ -2048,6 +2056,14 @@
 "day": "2026-11-07",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-TSLA-2026-11-11-finland-approves-tesla-s-assisted-drivin": {
+"created": "2026-11-11T02:01:07-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"TSLA"
+]
 },
 "news-TSM-2026-11-10-tsmc-s-october-sales-jump-as-global-chip": {
 "created": "2026-11-10T02:01:04-05:00",
