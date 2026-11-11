@@ -1,0 +1,127 @@
+{
+ "id": "news-NVDA-2026-11-11-tesla-stock-thrives-on-key-man-drama-nvi",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-11T07:01:07-05:00",
+ "expires": "2026-11-11T17:01:07-05:00",
+ "tickers": [
+  "NVDA"
+ ],
+ "headline_hint": "Nvidia: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-11T07:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Tesla Stock Thrives on Key-Man Drama. Nvidia Might Not Be So Lucky.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pT2tuZE1GekpnV012aXltMkVZVVE5Y0kxamZ4Ukd1Nzk1NXFHTjBDTG1rNmpCSHg5dzUzUXA2TWk3d1FBMVluWUVadDdCeTUzVU5zTDdFMXBqQWhHQzZxWHEyQ1dfenl1clB2OV85SVFEMHF1WnJqWUtjb2tZRWM?oc=5",
+    "published": "2026-11-11T06:47:00-05:00",
+    "also": []
+   },
+   {
+    "title": "The Case for Nvidia Stock Having the Cheapest Valuation",
+    "source": "Barron's",
+    "url": "https://www.tradingview.com/news/DJN_DN20261111002686:0-the-case-for-nvidia-stock-having-the-cheapest-valuation-barrons-com/",
+    "published": "2026-11-11T06:44:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Nvidia, CoreWeave, Marvell, Dell, Costco, and More Stocks That Explain Today\u2019s Market",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44ODBlZWJGdVVoT25IZnpyM3hDQTBZaVdMRmVJeWpoeFNDTG9oMXhMRjhFakExamctVlhjSVdYNUdqTFFyS2luTVZaOE1laGVBWjRvVldzYzhrUzdlNjRNb0kyZFI?oc=5",
+    "published": "2026-11-11T06:27:00-05:00",
+    "also": []
+   },
+   {
+    "title": "This Trader Raised Alarm About Nvidia\u2019s China Entanglements Months Ago",
+    "source": "The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDNUF3Y0g3NjR4VDRvdUtZRkNDd2tuTnpvS3hUc0VFR185YU9WNjhpa25zcWtYSkJWbnhMOE1fWFpXd0UtMloxZmtmMzBMZFJjWWhwbXU4Q2NrRkVsTExvdTRVTmFmTTB6Z0QyYXdnZmx3?oc=5",
+    "published": "2026-11-11T05:03:56-05:00",
+    "also": []
+   },
+   {
+    "title": "Nvidia shares rebound 4% as Huang faces scrutiny ahead of earnings",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalRRWWRUS0VHb2Q4Y0dhNFdWY1BzTWlqWG8yOXBwZVJtRlFOck5iZlMzcmJlTHZnRkNaZ0hNUXBrTkptb0xqU3RBSUo5V09ERzlxb095YmRmRHNZaFVYVVhUY0ZxN1E4Q0twdFhLTzA0N0lDTnpXUGl3Szc2eHVUcw?oc=5",
+    "published": "2026-11-11T05:03:29-05:00",
+    "also": []
+   },
+   {
+    "title": "Nvidia Stock: Why Jensen Huang Scrutiny Might Be a Buying Opportunity",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaHBxd0d6UzRkMEl1VVFsUkhDd2t4N25vWnl1ZUlldVVGSWswLVFWU3NhSVdfUXY1eXRFeHA2WjEweWJVQUVHeF8zYmpUbzdkR202a2JiTGRPaVpOWkFfb2NjRTdxVUlqYjBvU19Va0ZWbV9ieFF5RUpwWUhic1dGekh2RVE?oc=5",
+    "published": "2026-11-11T04:57:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Why Nvidia Stock Could Be a Bargain Even as CEO Huang Faces Tougher Scrutiny",
+    "source": "Barron's",
+    "url": "https://www.tradingview.com/news/DJN_DN20261111002686:0-why-nvidia-stock-could-be-a-bargain-even-as-ceo-huang-faces-tougher-scrutiny-barrons-com/",
+    "published": "2026-11-11T04:57:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 168.89,
+   "change_pct": -5.47,
+   "prev_close": 168.89,
+   "time": "2026-11-10",
+   "mktcap": "4.07T",
+   "pe": 21.35,
+   "fpe": 13.96,
+   "yr_high": 243.37,
+   "yr_low": 164.27,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 175.93,
+    "change_pct": 4.17,
+    "time": "2026-11-11T07:00:05.270-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "date": "2026-11-09",
+   "close": 178.67,
+   "prev_close": 186.64,
+   "change_pct": -4.27,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 18,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -9.26
+   },
+   "ytd_pct": -4.2,
+   "return_1m_pct": -22.07,
+   "return_6m_pct": -18.58,
+   "return_1y_pct": -5.0,
+   "high_52w": {
+    "close": 239.24,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 165.17,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 25.32,
+   "thousand_dollars_5y_ago_now": 5828,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 462719300,
+   "volume_vs_20d_avg": 3.93,
+   "sentences": [
+    "Nvidia's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 9.3%.",
+    "The stock is down 4.2% this year, and at $178.67 it sits 25.3% below its 52-week closing high of $239.24 from 6 October 2026.",
+    "$1,000 invested in Nvidia five years ago would be worth $5,828 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-09/",
+   "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+   "/news/2026-11-08/nvidia-nvda-ceo-jensen-huang-admits-an-affair-in-a-letter-to-staff-9-days-before-earnings/"
+  ]
+ }
+}

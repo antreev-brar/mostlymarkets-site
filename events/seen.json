@@ -1295,6 +1295,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-11": {
+"created": "2026-11-11T07:01:07-05:00",
+"day": "2026-11-11",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -1860,6 +1866,14 @@
 },
 "news-NVDA-2026-11-11-nvidia-stock-why-jensen-huang-scrutiny-m": {
 "created": "2026-11-11T05:02:07-05:00",
+"day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-11-tesla-stock-thrives-on-key-man-drama-nvi": {
+"created": "2026-11-11T07:01:07-05:00",
 "day": "2026-11-11",
 "kind": "news",
 "tickers": [
