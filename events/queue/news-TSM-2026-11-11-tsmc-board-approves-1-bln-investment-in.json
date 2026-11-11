@@ -1,0 +1,100 @@
+{
+ "id": "news-TSM-2026-11-11-tsmc-board-approves-1-bln-investment-in",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-11T03:01:06-05:00",
+ "expires": "2026-11-11T13:01:06-05:00",
+ "tickers": [
+  "TSM"
+ ],
+ "headline_hint": "Taiwan Semiconductor: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-11T03:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Why is TSMC stock rallying today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWTNYYzlyeHU3VzhGVVZtYndXOW9SN1QxeUstbEpWMDlVR1Bzc043RU5BRW84NmlRQ0JWTVRwYnltTjlWU3lsaDBMTGYtRUdvQ01rSTRMVmxiYzVvbDBndHEwcWUwS3VpZ0FMODVieDZqazFNanhfWU41UFBYT1lTUnRpWUw1V3pjMGg2WHM3dUk2NkxYVWhRenZ3?oc=5",
+    "published": "2026-11-11T00:56:03-05:00",
+    "also": []
+   },
+   {
+    "title": "TSMC board approves $1 bln investment in Anthropic, OpenAI; shares rise By Investing.com",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdExyWExIRDNCQXVYRGFPVlJSYkZBSTg4UEtGQWlfRFltN1dqY3dCY2tnMjNJRmR2Z0o3S3NuVnJsdVVTS0poUTF4dFk4Z3pSc3dhYTVrNlRnbDVpbDNtOUJXdDYyN0xGU2lmY0Z1SWc2MkxGTUNQVk1WYWdDNjJvV1dpNXl2d2V2ZDhJN28teXFpUHpyTEpWNy16Y2RKdC1vbF83SWkwTTNPYnk2aDdLc0FSU1ZYNEszS1dXcGRTM3A5U081ejdzQjRDcw?oc=5",
+    "published": "2026-11-11T00:50:46-05:00",
+    "also": [
+     "WSJ",
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "TSMC Shares Rise 1.54% After Hours",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1JnT1VFWkxmdFRWZ1Y2X2VBcjJCcEM3NzRMR1RiOHVPdG8tU1M5b2xHSC1rc3FoZzNxTGljTmZUNTlVbXFlTm1YQkdxNDFsaVNCOFFNQjVfYUsxb2lXeWhZMWRRYm1oOXh5QWFsRUlxaE9sR3FuVDZPXzdqbUxScm5VZlZkWTRHX0xNRk5oLUUtakVzby1KbVJzMzk2eWNQLUZnSjJKTG5GZVBzSFNPRkRsYw?oc=5",
+    "published": "2026-11-10T23:01:42-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 396.48,
+   "change_pct": 2.02,
+   "prev_close": 396.48,
+   "time": "2026-11-10",
+   "mktcap": "2.056T",
+   "pe": 25.72,
+   "fpe": 19.32,
+   "yr_high": 487.47,
+   "yr_low": 266.82,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 402.59,
+    "change_pct": 1.54,
+    "time": "2026-11-10"
+   }
+  },
+  "facts": {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor",
+   "date": "2026-11-09",
+   "close": 388.62,
+   "prev_close": 375.44,
+   "change_pct": 3.51,
+   "moves_over_5pct_last_year": 19,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 38,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-06",
+    "change_pct": 6.33
+   },
+   "ytd_pct": 27.88,
+   "return_1m_pct": -14.27,
+   "return_6m_pct": -3.94,
+   "return_1y_pct": 34.36,
+   "high_52w": {
+    "close": 485.8,
+    "date": "2026-10-05"
+   },
+   "low_52w": {
+    "close": 275.06,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 20.0,
+   "thousand_dollars_5y_ago_now": 3191,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 15644510,
+   "volume_vs_20d_avg": 1.06,
+   "sentences": [
+    "Taiwan Semiconductor's shares moved 5% or more on 19 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 November 2026, when the stock rose 6.3%.",
+    "The stock is up 27.9% this year, and at $388.62 it sits 20.0% below its 52-week closing high of $485.80 from 5 October 2026.",
+    "$1,000 invested in Taiwan Semiconductor five years ago would be worth $3,191 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/"
+  ]
+ }
+}
