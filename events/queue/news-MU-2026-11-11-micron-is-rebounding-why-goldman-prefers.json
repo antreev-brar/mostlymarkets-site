@@ -1,0 +1,99 @@
+{
+ "id": "news-MU-2026-11-11-micron-is-rebounding-why-goldman-prefers",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-11T07:15:14-05:00",
+ "expires": "2026-11-11T17:15:14-05:00",
+ "tickers": [
+  "MU"
+ ],
+ "headline_hint": "Micron Technology: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-11T07:15:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Micron Is Rebounding. Why Goldman Prefers These Memory Stocks.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5",
+    "published": "2026-11-11T06:38:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Micron Shares Gain 1.5% Premarket",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREhId3o0Tkdvd00wZFpwZ25rQmVidXFieXZwU3Ata0JMTEpJM2w2TTNEVm10ZkFnSmMxZXEzT1AxRG5yUjR5Z0FGWkhzR2tpaDJLXzMyckxVUWpwTWJXRE9wVGFlNjl3bnZud0kxNjYyRTFsRVB6WkxsZzlhVkYySndNQ0Vxa29HeHBnZ2dTbV9CLVMzTTRBbVB0TWlSMzI4RlJBa2pYZHJkdlhXQmhN?oc=5",
+    "published": "2026-11-11T03:29:13-05:00",
+    "also": []
+   },
+   {
+    "title": "Micron (MU) Stock Is Trending Pre-Market: Here\u2019s What You Should Know",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:fbc4e8023094b:0-micron-mu-stock-is-trending-pre-market-here-s-what-you-should-know/",
+    "published": "2026-11-11T03:29:13-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 725.11,
+   "change_pct": -1.1,
+   "prev_close": 725.11,
+   "time": "2026-11-10",
+   "mktcap": "820.406B",
+   "pe": 9.77,
+   "fpe": 4.13,
+   "yr_high": 1255.0,
+   "yr_low": 192.59,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 772.89,
+    "change_pct": 6.59,
+    "time": "2026-11-11T07:15:05.632-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "date": "2026-11-09",
+   "close": 733.15,
+   "prev_close": 690.0,
+   "change_pct": 6.25,
+   "moves_over_5pct_last_year": 76,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 50,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-04",
+    "change_pct": 7.62
+   },
+   "ytd_pct": 156.88,
+   "return_1m_pct": -28.75,
+   "return_6m_pct": -7.82,
+   "return_1y_pct": 207.62,
+   "high_52w": {
+    "close": 1213.56,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 201.37,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 39.59,
+   "thousand_dollars_5y_ago_now": 9699,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 32172100,
+   "volume_vs_20d_avg": 1.05,
+   "sentences": [
+    "Micron Technology's shares moved 5% or more on 76 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 August 2026, when the stock rose 7.6%.",
+    "The stock is up 156.9% this year, and at $733.15 it sits 39.6% below its 52-week closing high of $1,213.56 from 25 June 2026.",
+    "$1,000 invested in Micron Technology five years ago would be worth $9,699 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+   "/daily/2026-11-07/",
+   "/daily/2026-11-06/"
+  ]
+ }
+}
