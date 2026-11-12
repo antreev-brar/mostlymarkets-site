@@ -1771,6 +1771,14 @@
 "GOOGL"
 ]
 },
+"news-GOOGL-2026-11-12-alphabet-s-debut-hong-kong-singapore-bon": {
+"created": "2026-11-12T00:03:18-05:00",
+"day": "2026-11-12",
+"kind": "news",
+"tickers": [
+"GOOGL"
+]
+},
 "news-HSBC-2026-11-05-hsbc-bought-back-156-261-shares-for-gbp": {
 "created": "2026-11-05T04:01:12-05:00",
 "day": "2026-11-05",
@@ -2029,6 +2037,14 @@
 "news-NVDA-2026-11-11-tesla-stock-thrives-on-key-man-drama-nvi": {
 "created": "2026-11-11T07:01:07-05:00",
 "day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-12-who-s-next-ceo-at-nvidia-top-engineer-an": {
+"created": "2026-11-12T00:03:18-05:00",
+"day": "2026-11-12",
 "kind": "news",
 "tickers": [
 "NVDA"
