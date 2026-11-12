@@ -1,0 +1,113 @@
+{
+ "id": "news-AVGO-2026-11-12-amd-broadcom-rally-as-nvidia-faces-a-maj",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-12T07:01:07-05:00",
+ "expires": "2026-11-12T17:01:07-05:00",
+ "tickers": [
+  "AVGO"
+ ],
+ "headline_hint": "Broadcom: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-12T07:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Why is Broadcom stock rallying today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUmRRdFhZaXpvTmNaOTk1YUx6MGJWM1A4Uk5uTDBDWHNvUEhlSlZHUEg4ZnZXOVExZXJRTGhiWDd1V082UHh4b0MtaXVmVXBZbXNaMjFxa0ZvZ2tFM08tVEdiQ1BkWHh3VU5DSlNmR28xRWYtWUE2Y2FuMU5mSk5MdEhYZFh3U2NxcFhiVlpRVGdsd3hNZFhoUlhpb28wOVE?oc=5",
+    "published": "2026-11-12T06:57:23-05:00",
+    "also": []
+   },
+   {
+    "title": "AMD, Broadcom Stocks Gain as Investors Rotate Away From Nvidia: What\u2019s Going On?",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVmhQZTNGMDJzUHRLMDcydWY5MVU1OVlFdGJWYkQyUmE4Qi1STlo3dTJJam5jYnVqSzhiQ0xZVzI0VWRCM0hmdjNXRHc1STFWcnI4d2hJcmpiR084X2lidk9TNmZ1dFdHMkY4NGZ0bjRQRG5fMm4tN1ZHNVlSbWlyM19mTTF6OTZKd3R6cFlkZzR6dzNCbzc1VXhybHVfYjlJalJFOVpsTFdULXpaSExwSDVrYkZCNGs1VG9MaXZvOVBMVUhQNUJUUjEwZG9oa1hhNXRN?oc=5",
+    "published": "2026-11-12T06:51:28-05:00",
+    "also": []
+   },
+   {
+    "title": "AMD, Broadcom rally as Nvidia faces a major leadership test",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVEtEQ290N3J6RW95LTlIR0g1Q3Q4UFd2eDVCdGFOeGoxWXkwdjR4Nzc1VHFOVG5laUtYa050NkxuVlk1blhPUW5yRE5rcEJXWXlKXzR2aURVeUlGbVI5WDR2RFBzU2MyNHowQjhhalk1emRueEpaYW9RTDMzQW5sNHdqMTZkUzVZaUlqMEtwS3FZWXFKSW0wdVRJeEM?oc=5",
+    "published": "2026-11-12T06:15:38-05:00",
+    "also": []
+   },
+   {
+    "title": "AMD and Broadcom Stocks Jump. What It Says About the Future of the AI Trade.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMGJPR1pTTlRRSUZBTFNIZTZCd1JYRHltdEx2N2F3OVpvRzRDbFZ2UWlhR01SLWZadTlKNnRjbi1sQU5RazZKaDdReWZmdHhqOEVuemFRTlQ3dWk5SUt2RnMtTU1CcTlDbGctMWZGLUhNREtPNXNnZXNNRUJwQkpMQTVB?oc=5",
+    "published": "2026-11-12T05:41:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Nvidia Turmoil Lifts AMD, Broadcom on Bets for Business Gains",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOVNuY1hQVVBKWnpYYldPbW1yYm9Nc3lhMGhyM1E0aTE2ektOem82UkdWZWtQclFUem41QWFpLUZXRnNWQV9YT2J4eUNrZ0Y2Z1JBajBYTlJmWjBHSXBVVFIyNC1jX2FiTnNIenZjSlNQX1lvb1JxVjQtMTZ4TG1BZTc4X3BJTk5SeWpibEwzeWM0VF9rSEs3SHpLcXpYckJmQ0Q4RXN1REVuNDhUS09xYg?oc=5",
+    "published": "2026-11-12T05:17:03-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 345.22,
+   "change_pct": 3.99,
+   "prev_close": 345.22,
+   "time": "2026-11-11",
+   "mktcap": "1.648T",
+   "pe": 44.07,
+   "fpe": 19.96,
+   "yr_high": 495.0,
+   "yr_low": 289.77,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 351.24,
+    "change_pct": 1.74,
+    "time": "2026-11-12T07:00:00.324-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "date": "2026-11-09",
+   "close": 319.48,
+   "prev_close": 293.69,
+   "change_pct": 8.78,
+   "moves_over_5pct_last_year": 18,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2025-11-24",
+    "change_pct": 11.1
+   },
+   "ytd_pct": -7.69,
+   "return_1m_pct": -11.63,
+   "return_6m_pct": -25.43,
+   "return_1y_pct": -10.15,
+   "high_52w": {
+    "close": 481.57,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 291.53,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 33.66,
+   "thousand_dollars_5y_ago_now": 5728,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 36685300,
+   "volume_vs_20d_avg": 1.54,
+   "sentences": [
+    "Broadcom's shares moved 5% or more on 18 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 24 November 2025, when the stock rose 11.1%.",
+    "The stock is down 7.7% this year, and at $319.48 it sits 33.7% below its 52-week closing high of $481.57 from 2 June 2026.",
+    "$1,000 invested in Broadcom five years ago would be worth $5,728 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-broadcom-amphenol-seagate-supermicro/",
+   "/news/2026-11-06/nvidia-nvda-is-down-22-from-its-high-is-the-business-broken/",
+   "/news/2026-11-02/bulls-vs-bears-on-marvell-mrvl-is-lumentum-worth-a-third-of-the-company/"
+  ]
+ }
+}

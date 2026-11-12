@@ -1453,6 +1453,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-12": {
+"created": "2026-11-12T07:01:07-05:00",
+"day": "2026-11-12",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -1567,6 +1573,14 @@
 "created": "2026-11-01T14:41:07-05:00",
 "day": "2026-11-01",
 "kind": "news"
+},
+"news-AVGO-2026-11-12-amd-broadcom-rally-as-nvidia-faces-a-maj": {
+"created": "2026-11-12T07:01:07-05:00",
+"day": "2026-11-12",
+"kind": "news",
+"tickers": [
+"AVGO"
+]
 },
 "news-BABA-2026-11-02-alibaba-group-holding-limited-baba-stock": {
 "created": "2026-11-02T05:01:44-05:00",
