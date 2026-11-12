@@ -1,0 +1,112 @@
+{
+ "id": "basket-semiconductors-up-2026-11-12",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-12T11:01:13-05:00",
+ "expires": "2026-11-12T23:59:00-05:00",
+ "tickers": [
+  "SWKS",
+  "AMD",
+  "AVGO"
+ ],
+ "headline_hint": "SWKS, AMD, AVGO shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-12T11:00:11-05:00",
+ "pack": {
+  "industry": "Semiconductors",
+  "quotes": {
+   "SWKS": {
+    "price": 92.89,
+    "change_pct": 5.99,
+    "prev_close": 87.64,
+    "time": "2026-11-12T11:00:02.361-0500",
+    "mktcap": "21.816B",
+    "pe": 81.42,
+    "fpe": 18.43,
+    "yr_high": 93.11,
+    "yr_low": 51.93,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 86.92,
+     "change_pct": -0.82,
+     "time": "2026-11-12T09:29:54.006-0500"
+    }
+   },
+   "AMD": {
+    "price": 583.84,
+    "change_pct": 5.6,
+    "prev_close": 552.9,
+    "time": "2026-11-12T11:00:00.425-0500",
+    "mktcap": "957.548B",
+    "pe": 125.13,
+    "fpe": 48.09,
+    "yr_high": 658.52,
+    "yr_low": 188.22,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 565.31,
+     "change_pct": 2.24,
+     "time": "2026-11-12T09:30:01.534-0500"
+    }
+   },
+   "AVGO": {
+    "price": 363.36,
+    "change_pct": 5.25,
+    "prev_close": 345.22,
+    "time": "2026-11-12T11:00:01.176-0500",
+    "mktcap": "1.735T",
+    "pe": 46.39,
+    "fpe": 21.01,
+    "yr_high": 495.0,
+    "yr_low": 289.77,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 356.37,
+     "change_pct": 3.23,
+     "time": "2026-11-12T09:30:01.130-0500"
+    }
+   }
+  },
+  "facts": {
+   "SWKS": {
+    "ticker": "SWKS",
+    "name": "Skyworks Solutions",
+    "date": "2026-11-09",
+    "close": 82.83,
+    "prev_close": 82.19,
+    "change_pct": 0.78,
+    "moves_over_5pct_last_year": 29,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 182,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-06",
+     "change_pct": 1.21
+    },
+    "ytd_pct": 30.63,
+    "return_1m_pct": 8.49,
+    "return_6m_pct": 18.11,
+    "return_1y_pct": 17.26,
+    "high_52w": {
+     "close": 91.45,
+     "date": "2026-09-23"
+    },
+    "low_52w": {
+     "close": 52.5,
+     "date": "2026-03-30"
+    },
+    "pct_below_52w_high": 9.43,
+    "thousand_dollars_5y_ago_now": 505,
+    "five_years_ago_date": "2021-11-09",
+    "volume": 3720854,
+    "volume_vs_20d_avg": 0.78,
+    "sentences": [
+     "Skyworks Solutions's shares moved 5% or more on 29 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 6 November 2026, when the stock rose 1.2%.",
+     "The stock is up 30.6% this year, and at $82.83 it sits 9.4% below its 52-week closing high of $91.45 from 23 September 2026.",
+     "$1,000 invested in Skyworks Solutions five years ago would be worth $505 today."
+    ]
+   }
+  }
+ }
+}

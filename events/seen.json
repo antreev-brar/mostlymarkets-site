@@ -162,6 +162,16 @@
 "AVGO"
 ]
 },
+"basket-semiconductors-up-2026-11-12": {
+"created": "2026-11-12T11:01:13-05:00",
+"day": "2026-11-12",
+"kind": "basket",
+"tickers": [
+"SWKS",
+"AMD",
+"AVGO"
+]
+},
 "basket-technology-hardware-storage-peripherals-down-2026-11-12": {
 "created": "2026-11-12T10:15:13-05:00",
 "day": "2026-11-12",
@@ -261,6 +271,12 @@
 "breakdown-2026-11-11-1": {
 "created": "2026-11-11T11:01:14-05:00",
 "day": "2026-11-11",
+"kind": "breakdown",
+"tickers": []
+},
+"breakdown-2026-11-12-1": {
+"created": "2026-11-12T11:01:13-05:00",
+"day": "2026-11-12",
 "kind": "breakdown",
 "tickers": []
 },
