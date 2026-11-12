@@ -1,0 +1,113 @@
+{
+ "id": "move-SMCI-2026-11-12",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 62,
+ "created": "2026-11-12T10:01:09-05:00",
+ "expires": "2026-11-13T12:00:00-05:00",
+ "tickers": [
+  "SMCI"
+ ],
+ "headline_hint": "Why Supermicro (SMCI) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-12T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 28.27,
+   "change_pct": -7.1,
+   "prev_close": 30.43,
+   "time": "2026-11-12T10:00:06.423-0500",
+   "mktcap": "18.636B",
+   "pe": 6.1,
+   "fpe": 4.96,
+   "yr_high": 51.4,
+   "yr_low": 19.48,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 27.32,
+    "change_pct": -10.22,
+    "time": "2026-11-12T09:30:01.368-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SMCI",
+   "name": "Supermicro",
+   "date": "2026-11-09",
+   "close": 28.6,
+   "prev_close": 28.76,
+   "change_pct": -0.56,
+   "moves_over_5pct_last_year": 70,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 227,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -8.51
+   },
+   "ytd_pct": -2.29,
+   "return_1m_pct": -31.67,
+   "return_6m_pct": -14.68,
+   "return_1y_pct": -29.09,
+   "high_52w": {
+    "close": 50.17,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 20.53,
+    "date": "2026-03-20"
+   },
+   "pct_below_52w_high": 42.99,
+   "thousand_dollars_5y_ago_now": 6378,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 41827690,
+   "volume_vs_20d_avg": 1.0,
+   "sentences": [
+    "Supermicro's shares moved 5% or more on 70 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 8.5%.",
+    "The stock is down 2.3% this year, and at $28.60 it sits 43.0% below its 52-week closing high of $50.17 from 2 June 2026.",
+    "$1,000 invested in Supermicro five years ago would be worth $6,378 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-broadcom-amphenol-seagate-supermicro/",
+    "date": "2026-11-08",
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "AVGO",
+     "APH",
+     "STX",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/supermicro-smci-shares-jump-as-sales-hit-19-9-billion-and-it-raises-its-forecast/",
+    "date": "2026-11-04",
+    "title": "Supermicro (SMCI) Shares Jump as Sales Hit $19.9 Billion and It Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "SMCI",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-04/",
+    "date": "2026-11-04",
+    "title": "Democrats Swept Congress, and the AI Trade Shook Off Its Overnight Scare",
+    "type": "daily",
+    "tickers": [
+     "AMD",
+     "ANET",
+     "SMCI",
+     "TSLA",
+     "NVO",
+     "SWKS"
+    ]
+   }
+  ]
+ }
+}

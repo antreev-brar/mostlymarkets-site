@@ -1,0 +1,131 @@
+{
+ "id": "move-NVDA-2026-11-12",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 75,
+ "created": "2026-11-12T10:01:09-05:00",
+ "expires": "2026-11-13T12:00:00-05:00",
+ "tickers": [
+  "NVDA"
+ ],
+ "headline_hint": "Why Nvidia (NVDA) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-12T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 162.71,
+   "change_pct": -6.34,
+   "prev_close": 173.73,
+   "time": "2026-11-12T10:00:05.339-0500",
+   "mktcap": "3.921T",
+   "pe": 20.57,
+   "fpe": 13.44,
+   "yr_high": 243.37,
+   "yr_low": 148.8,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 151.26,
+    "change_pct": -12.93,
+    "time": "2026-11-12T09:30:08.845-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "date": "2026-11-09",
+   "close": 178.67,
+   "prev_close": 186.64,
+   "change_pct": -4.27,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 18,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -9.26
+   },
+   "ytd_pct": -4.2,
+   "return_1m_pct": -22.07,
+   "return_6m_pct": -18.58,
+   "return_1y_pct": -5.0,
+   "high_52w": {
+    "close": 239.24,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 165.17,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 25.32,
+   "thousand_dollars_5y_ago_now": 5828,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 462719300,
+   "volume_vs_20d_avg": 3.93,
+   "sentences": [
+    "Nvidia's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 9.3%.",
+    "The stock is down 4.2% this year, and at $178.67 it sits 25.3% below its 52-week closing high of $239.24 from 6 October 2026.",
+    "$1,000 invested in Nvidia five years ago would be worth $5,828 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-09/",
+    "date": "2026-11-09",
+    "title": "Nvidia Is Set to Open Below Where It Began the Year as the Week's AI Tests Begin",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "KKR",
+     "CEG",
+     "AMAT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+    "date": "2026-11-08",
+    "title": "TSMC (TSM) Rose 6% on a Report It May Make 3D Memory Chips for Nvidia",
+    "type": "brief",
+    "tickers": [
+     "TSM",
+     "NVDA",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/nvidia-nvda-ceo-jensen-huang-admits-an-affair-in-a-letter-to-staff-9-days-before-earnings/",
+    "date": "2026-11-08",
+    "title": "Nvidia (NVDA) CEO Jensen Huang Admits an Affair in a Letter to Staff, 9 Days Before Earnings",
+    "type": "brief",
+    "tickers": [
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/nvidia-nvda-board-opens-an-independent-probe-10-days-before-its-ceos-house-briefing/",
+    "date": "2026-11-08",
+    "title": "Nvidia (NVDA) Board Opens an Independent Probe 10 Days Before Its CEO's House Briefing",
+    "type": "brief",
+    "tickers": [
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-08/",
+    "date": "2026-11-08",
+    "title": "Inflation and CoreWeave Report on the Same Tuesday, and Each Tests One of Last Week's Fears",
+    "type": "daily",
+    "tickers": [
+     "CRWV",
+     "NVDA",
+     "AMAT",
+     "CSCO",
+     "CEG"
+    ]
+   }
+  ]
+ }
+}

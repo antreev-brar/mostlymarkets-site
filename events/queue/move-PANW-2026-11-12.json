@@ -1,0 +1,99 @@
+{
+ "id": "move-PANW-2026-11-12",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-12T10:01:09-05:00",
+ "expires": "2026-11-13T12:00:00-05:00",
+ "tickers": [
+  "PANW"
+ ],
+ "headline_hint": "Why Palo Alto Networks (PANW) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-12T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 320.8,
+   "change_pct": -4.09,
+   "prev_close": 334.47,
+   "time": "2026-11-12T10:00:04.579-0500",
+   "mktcap": "262.557B",
+   "pe": 630.13,
+   "fpe": 76.69,
+   "yr_high": 432.33,
+   "yr_low": 139.57,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 324.2,
+    "change_pct": -3.07,
+    "time": "2026-11-12T09:30:01.356-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "date": "2026-11-09",
+   "close": 330.89,
+   "prev_close": 313.84,
+   "change_pct": 5.43,
+   "moves_over_5pct_last_year": 30,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 26,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-23",
+    "change_pct": 7.22
+   },
+   "ytd_pct": 79.64,
+   "return_1m_pct": -20.99,
+   "return_6m_pct": 54.87,
+   "return_1y_pct": 56.55,
+   "high_52w": {
+    "close": 419.91,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 141.67,
+    "date": "2026-02-24"
+   },
+   "pct_below_52w_high": 21.2,
+   "thousand_dollars_5y_ago_now": 3875,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 5843847,
+   "volume_vs_20d_avg": 0.94,
+   "sentences": [
+    "Palo Alto Networks's shares moved 5% or more on 30 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 October 2026, when the stock rose 7.2%.",
+    "The stock is up 79.6% this year, and at $330.89 it sits 21.2% below its 52-week closing high of $419.91 from 6 October 2026.",
+    "$1,000 invested in Palo Alto Networks five years ago would be worth $3,875 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Systems Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/",
+    "date": "2026-10-29",
+    "title": "Fortinet (FTNT) Shares Plunge After It Cuts Its Service Revenue Forecast",
+    "type": "why-it-moved",
+    "tickers": [
+     "FTNT",
+     "PANW",
+     "CRWD"
+    ]
+   },
+   {
+    "path": "/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/",
+    "date": "2026-10-23",
+    "title": "Why CrowdStrike (CRWD) Stock Is Soaring Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRWD",
+     "PANW",
+     "ZS",
+     "NET"
+    ]
+   }
+  ]
+ }
+}
