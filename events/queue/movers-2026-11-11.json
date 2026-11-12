@@ -1,0 +1,101 @@
+{
+ "id": "movers-2026-11-11",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-12T09:01:11-05:00",
+ "expires": "2026-11-12T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Wednesday 11 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-12T09:00:08-05:00",
+ "pack": {
+  "session": "2026-11-11",
+  "moves": [
+   {
+    "ticker": "FOX",
+    "name": "Fox Corporation (Class B)",
+    "close": 60.63,
+    "change_pct": 0.2,
+    "our_stories": []
+   },
+   {
+    "ticker": "UHS",
+    "name": "Universal Health Services",
+    "close": 196.77,
+    "change_pct": -0.2,
+    "our_stories": []
+   },
+   {
+    "ticker": "FE",
+    "name": "FirstEnergy",
+    "close": 46.53,
+    "change_pct": -0.19,
+    "our_stories": []
+   },
+   {
+    "ticker": "ETR",
+    "name": "Entergy",
+    "close": 111.99,
+    "change_pct": 0.18,
+    "our_stories": []
+   },
+   {
+    "ticker": "GME",
+    "name": "GameStop",
+    "close": 25.55,
+    "change_pct": -0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "WSM",
+    "name": "Williams-Sonoma",
+    "close": 262.09,
+    "change_pct": 0.16,
+    "our_stories": []
+   },
+   {
+    "ticker": "PODD",
+    "name": "Insulet",
+    "close": 150.03,
+    "change_pct": 0.15,
+    "our_stories": []
+   },
+   {
+    "ticker": "KEY",
+    "name": "KeyCorp",
+    "close": 21.44,
+    "change_pct": 0.14,
+    "our_stories": []
+   },
+   {
+    "ticker": "PTC",
+    "name": "PTC",
+    "close": 196.14,
+    "change_pct": 0.14,
+    "our_stories": []
+   },
+   {
+    "ticker": "SJM",
+    "name": "J.M. Smucker",
+    "close": 133.07,
+    "change_pct": -0.14,
+    "our_stories": []
+   },
+   {
+    "ticker": "TFC",
+    "name": "Truist Financial",
+    "close": 50.26,
+    "change_pct": -0.14,
+    "our_stories": []
+   },
+   {
+    "ticker": "AES",
+    "name": "AES",
+    "close": 14.92,
+    "change_pct": 0.13,
+    "our_stories": []
+   }
+  ]
+ }
+}
