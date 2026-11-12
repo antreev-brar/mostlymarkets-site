@@ -1,0 +1,104 @@
+{
+ "id": "news-BABA-2026-11-12-alibaba-shares-drop-7-as-nvidia-saga-tri",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-12T03:01:09-05:00",
+ "expires": "2026-11-12T13:01:09-05:00",
+ "tickers": [
+  "BABA"
+ ],
+ "headline_hint": "Alibaba: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-12T03:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Alibaba Group (BABA) Expected to Announce Earnings on Thursday",
+    "source": "MarketBeat",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM0swVzhlN0FGYzNNQVV5MU1qV1FwRnc0WHRaMm1QTXBaSk85VXg0c24tZ1EzaFdtRkVKU0dDbWZjWmZWOTNQNjRocDYyZTNlUmJKQlpDc1M0dUpYTEFuV1JzZUNDZ0p1bkRvVDFlZzl3MEk5d0gwTVlXbzdmNUNTY3EwbFBEQ1NVNU5vOVRpdzlFQ05QcTZzOE4wTUZWTkEwNXVFZTVQaG1qbTFjaTNPNllFcEJQbk5RT3NHZzBYaUg?oc=5",
+    "published": "2026-11-12T02:28:09-05:00",
+    "also": []
+   },
+   {
+    "title": "Alibaba Shares Drop 7% as Nvidia Saga Triggers Chip Access Fears",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUmhVSk5qT2NLYndEQXBfcjgzNGJUaTJXZ0NZTnBvYWhiZUlVOGFkanVoQi16S2g4YzNDVG1IZExsYl9CSlNnUjF4SWJJa0RoWEpiNkU4VC1BQlhFdzUtVnNDWklvMTRkVGVVaTQyVkkzQzU0NDNabjdzRHpTelVOZ2o0bE0zdnNjWXRmcVJIVkZlOTNHUHRUd1VVWXhIZEt4Qmw0ZWhfemhyY3Z6N3JxOFprS0E?oc=5",
+    "published": "2026-11-12T02:18:45-05:00",
+    "also": []
+   },
+   {
+    "title": "Why is Alibaba stock sliding today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTUFnV2FSa1I5bVNpVHoxbkFLNHJMSkdiTDB3NzZYc1BNanJsSVlNWEtEdlhCTGtjaTN3LWoxMm5Gdm1JSlZIQldsOXJudDAyZGU3T0NKanZ4MENUZUZpSHZZTnRoemctQUxlVk5QLWpBSmo2eUEzcEw3NkdlamtRVExkYW1kelNjTDc1RkcyT3BtdmxpR25CZ3VSWi0?oc=5",
+    "published": "2026-11-12T01:50:27-05:00",
+    "also": []
+   },
+   {
+    "title": "Alibaba, Tencent shares fall on report U.S. weighs curbs on remote AI chip access",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeTRnV3I3bm5OWkNEdUE5Q0traUZiQkE1U0gtM1FNazFLWjM1ZmlkaWg0QUc0MF9CMWhzdnRTRkxmRzhUX0RRVjM1bWJBaVZNVGVxQWs4dGFPUV9fbGxqWGx0S2Y0bmx2bnFCZng0VEJEMGZPVE1ZLVVDZWJzYkRZTjhuR3c5OWUxY1VEb1VHX09za2dBYjlZS3Y5SE40QUE1SGs1NUp1ODY5LXg3dTl3X1Zrd09sRmNIMDA4M1F0Unh0eUZvbFo3UVRSQUF6NkNl?oc=5",
+    "published": "2026-11-12T00:16:30-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 101.52,
+   "change_pct": -1.17,
+   "prev_close": 101.52,
+   "time": "2026-11-10",
+   "mktcap": "252.556B",
+   "pe": 22.63,
+   "fpe": 12.74,
+   "yr_high": 181.1,
+   "yr_low": 91.99,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 101.25,
+    "change_pct": -0.27,
+    "time": "2026-11-11"
+   }
+  },
+  "facts": {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "date": "2026-11-09",
+   "close": 105.38,
+   "prev_close": 109.45,
+   "change_pct": -3.72,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 32,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-21",
+    "change_pct": -3.87
+   },
+   "ytd_pct": -28.11,
+   "return_1m_pct": -5.38,
+   "return_6m_pct": -23.25,
+   "return_1y_pct": -37.13,
+   "high_52w": {
+    "close": 177.18,
+    "date": "2026-01-22"
+   },
+   "low_52w": {
+    "close": 94.81,
+    "date": "2026-06-26"
+   },
+   "pct_below_52w_high": 40.52,
+   "thousand_dollars_5y_ago_now": 658,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 11570690,
+   "volume_vs_20d_avg": 1.26,
+   "sentences": [
+    "Alibaba's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 21 October 2026, when the stock fell 3.9%.",
+    "The stock is down 28.1% this year, and at $105.38 it sits 40.5% below its 52-week closing high of $177.18 from 22 January 2026.",
+    "$1,000 invested in Alibaba five years ago would be worth $658 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/alibaba-baba-shares-jump-after-apple-picks-its-qwen-ai-for-iphones-in-china/"
+  ]
+ }
+}
