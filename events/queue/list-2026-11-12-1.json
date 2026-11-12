@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-12-1",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-12T07:30:13-05:00",
+ "expires": "2026-11-12T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 AI Infrastructure Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: AI Infrastructure, screened on revenue growth among chip, networking, power and data-center names. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-12T07:30:08-05:00",
+ "pack": {
+  "theme": "ai-infrastructure",
+  "screen": "revenue growth among chip, networking, power and data-center names",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "industry": "Internet Services & Infrastructure",
+    "metric": 115.3,
+    "price": 60.77,
+    "pe": -12.54,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 7589580000,
+     "revenue_growth_yoy_pct": 115.3,
+     "gross_margin_pct": 67.4,
+     "operating_margin_pct": -3.0,
+     "net_margin_pct": -25.4,
+     "eps_diluted": -3.26,
+     "ocf": 6911000000,
+     "fcf": -13655000000,
+     "fcf_margin_pct": -179.9
+    }
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "industry": "Electrical Components & Equipment",
+    "metric": 110.1,
+    "price": 209.47,
+    "pe": 129.86,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3820511000,
+     "revenue_growth_yoy_pct": 110.1,
+     "gross_margin_pct": 32.4,
+     "operating_margin_pct": 14.9,
+     "net_margin_pct": 13.7,
+     "eps_diluted": 1.64,
+     "ocf": 690968000,
+     "fcf": 436704000,
+     "fcf_margin_pct": 11.4
+    }
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "industry": "Communications Equipment",
+    "metric": 103.2,
+    "price": 648.06,
+    "pe": -8.32,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3742800000,
+     "revenue_growth_yoy_pct": 103.2,
+     "gross_margin_pct": 45.9,
+     "operating_margin_pct": 23.5,
+     "net_margin_pct": -175.8,
+     "eps_diluted": -77.83,
+     "ocf": 961200000,
+     "fcf": 356300000,
+     "fcf_margin_pct": 9.5
+    }
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "industry": "Semiconductor Materials & Equipment",
+    "metric": 74.9,
+    "price": 265.78,
+    "pe": 30.51,
+    "ttm": {
+     "end": "2026-09-27",
+     "revenue": 5000771000,
+     "revenue_growth_yoy_pct": 74.9,
+     "gross_margin_pct": 59.3,
+     "operating_margin_pct": 32.1,
+     "net_margin_pct": 27.5,
+     "eps_diluted": 8.71,
+     "ocf": 1329514000,
+     "fcf": 1024864000,
+     "fcf_margin_pct": 20.5
+    }
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "industry": "Electronic Manufacturing Services",
+    "metric": 61.6,
+    "price": 242.92,
+    "pe": 22.98,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 18230200000,
+     "revenue_growth_yoy_pct": 61.6,
+     "gross_margin_pct": 11.5,
+     "operating_margin_pct": 8.3,
+     "net_margin_pct": 6.8,
+     "eps_diluted": 10.56,
+     "ocf": 1407500000,
+     "fcf": 545400000,
+     "fcf_margin_pct": 3.0
+    }
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 49.0,
+    "price": 373.68,
+    "pe": 21.68,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 151197000000,
+     "revenue_growth_yoy_pct": 49.0,
+     "gross_margin_pct": 19.8,
+     "operating_margin_pct": 9.4,
+     "net_margin_pct": 7.5,
+     "eps_diluted": 17.24,
+     "ocf": 12152000000,
+     "fcf": 8560000000,
+     "fcf_margin_pct": 5.7
+    }
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 43.0,
+    "price": 313.31,
+    "pe": 12.17,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 14482000000,
+     "revenue_growth_yoy_pct": 43.0,
+     "gross_margin_pct": 52.6,
+     "operating_margin_pct": 39.4,
+     "net_margin_pct": 69.2,
+     "eps_diluted": 25.76,
+     "ocf": 4861000000,
+     "fcf": 4289000000,
+     "fcf_margin_pct": 29.6
+    }
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "industry": "Semiconductors",
+    "metric": 41.9,
+    "price": 552.9,
+    "pe": 118.5,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 45436000000,
+     "revenue_growth_yoy_pct": 41.9,
+     "gross_margin_pct": 53.7,
+     "operating_margin_pct": 17.7,
+     "net_margin_pct": 16.8,
+     "eps_diluted": 4.6,
+     "ocf": 9123000000,
+     "fcf": 7056000000,
+     "fcf_margin_pct": 15.5
+    }
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems",
+    "industry": "Semiconductors",
+    "metric": 40.5,
+    "price": 1478.69,
+    "pe": 81.11,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3738391000,
+     "revenue_growth_yoy_pct": 40.5,
+     "gross_margin_pct": 55.3,
+     "operating_margin_pct": 29.5,
+     "net_margin_pct": 23.9,
+     "eps_diluted": 18.14,
+     "ocf": 872984000,
+     "fcf": 609362000,
+     "fcf_margin_pct": 16.3
+    }
+   },
+   {
+    "ticker": "NET",
+    "name": "Cloudflare",
+    "industry": "Internet Services & Infrastructure",
+    "metric": 35.7,
+    "price": 315.0,
+    "pe": -460.12,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2732836000,
+     "revenue_growth_yoy_pct": 35.7,
+     "gross_margin_pct": 71.9,
+     "operating_margin_pct": -14.1,
+     "net_margin_pct": -8.7,
+     "eps_diluted": -0.68,
+     "ocf": 681670000,
+     "fcf": 359479000,
+     "fcf_margin_pct": 13.2
+    }
+   },
+   {
+    "ticker": "VRT",
+    "name": "Vertiv",
+    "industry": "Electrical Components & Equipment",
+    "metric": 35.3,
+    "price": 206.51,
+    "pe": 38.63,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 13116600000,
+     "revenue_growth_yoy_pct": 35.3,
+     "gross_margin_pct": 38.1,
+     "operating_margin_pct": 20.1,
+     "net_margin_pct": 16.0,
+     "eps_diluted": 5.35,
+     "ocf": 3665500000,
+     "fcf": 3147200000,
+     "fcf_margin_pct": 24.0
+    }
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "industry": "Semiconductors",
+    "metric": 33.6,
+    "price": 409.08,
+    "pe": 46.86,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 13881744000,
+     "revenue_growth_yoy_pct": 33.6,
+     "gross_margin_pct": 65.8,
+     "operating_margin_pct": 35.5,
+     "net_margin_pct": 29.8,
+     "eps_diluted": 8.43,
+     "ocf": 5545325000,
+     "fcf": 4937495000,
+     "fcf_margin_pct": 35.6
+    }
+   },
+   {
+    "ticker": "EMR",
+    "name": "Emerson Electric",
+    "industry": "Electrical Components & Equipment",
+    "metric": 5.4,
+    "price": 167.06,
+    "pe": 34.87,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 18982000000,
+     "revenue_growth_yoy_pct": 5.4,
+     "gross_margin_pct": 53.4,
+     "operating_margin_pct": null,
+     "net_margin_pct": 14.2,
+     "eps_diluted": 4.79,
+     "ocf": 3978000000,
+     "fcf": 3535000000,
+     "fcf_margin_pct": 18.6
+    }
+   },
+   {
+    "ticker": "ON",
+    "name": "ON Semiconductor",
+    "industry": "Semiconductors",
+    "metric": 2.9,
+    "price": 73.62,
+    "pe": 42.91,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 6369200000,
+     "revenue_growth_yoy_pct": 2.9,
+     "gross_margin_pct": 38.7,
+     "operating_margin_pct": 12.3,
+     "net_margin_pct": 10.8,
+     "eps_diluted": 1.72,
+     "ocf": 1769700000,
+     "fcf": 1616600000,
+     "fcf_margin_pct": 25.4
+    }
+   },
+   {
+    "ticker": "BBY",
+    "name": "Best Buy",
+    "industry": "Computer & Electronics Retail",
+    "metric": 1.4,
+    "price": 105.16,
+    "pe": 17.46,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 42201000000,
+     "revenue_growth_yoy_pct": 1.4,
+     "gross_margin_pct": 22.7,
+     "operating_margin_pct": 4.1,
+     "net_margin_pct": 3.0,
+     "eps_diluted": 6.01,
+     "ocf": 2475000000,
+     "fcf": 1768000000,
+     "fcf_margin_pct": 4.2
+    }
+   },
+   {
+    "ticker": "SWKS",
+    "name": "Skyworks Solutions",
+    "industry": "Semiconductors",
+    "metric": -3.1,
+    "price": 87.64,
+    "pe": 76.82,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 3959600000,
+     "revenue_growth_yoy_pct": -3.1,
+     "gross_margin_pct": 40.8,
+     "operating_margin_pct": 5.5,
+     "net_margin_pct": 4.3,
+     "eps_diluted": 1.14,
+     "ocf": 549900000,
+     "fcf": 229300000,
+     "fcf_margin_pct": 5.8
+    }
+   }
+  ]
+ }
+}
