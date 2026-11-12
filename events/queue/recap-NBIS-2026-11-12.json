@@ -1,0 +1,154 @@
+{
+ "id": "recap-NBIS-2026-11-12",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-12T08:01:09-05:00",
+ "expires": "2026-11-13T20:00:00-05:00",
+ "tickers": [
+  "NBIS"
+ ],
+ "headline_hint": "Nebius Group (NBIS) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-12T08:00:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "NBIS",
+   "name": "Nebius Group N.V.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 4,
+   "eps_last_year": null,
+   "last_year_date": "11/11/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 35202531000.0
+  },
+  "quote": {
+   "price": 154.69,
+   "change_pct": 15.44,
+   "prev_close": 154.69,
+   "time": "2026-11-11",
+   "mktcap": "42.053B",
+   "pe": -391.13,
+   "fpe": -48.03,
+   "yr_high": 299.86,
+   "yr_low": 73.52,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 136.67,
+    "change_pct": -11.65,
+    "time": "2026-11-12T08:00:05.190-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NBIS",
+   "name": "Nebius Group",
+   "date": "2026-11-09",
+   "close": 141.45,
+   "prev_close": 129.49,
+   "change_pct": 9.24,
+   "moves_over_5pct_last_year": 103,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 39,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": 11.22
+   },
+   "ytd_pct": 68.99,
+   "return_1m_pct": -36.02,
+   "return_6m_pct": -23.99,
+   "return_1y_pct": 29.25,
+   "high_52w": {
+    "close": 286.69,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 73.87,
+    "date": "2026-02-05"
+   },
+   "pct_below_52w_high": 50.66,
+   "thousand_dollars_5y_ago_now": 1671,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 19053590,
+   "volume_vs_20d_avg": 0.75,
+   "sentences": [
+    "Nebius Group's shares moved 5% or more on 103 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock rose 11.2%.",
+    "The stock is up 69.0% this year, and at $141.45 it sits 50.7% below its 52-week closing high of $286.69 from 18 June 2026.",
+    "$1,000 invested in Nebius Group five years ago would be worth $1,671 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/the-week-ahead-october-inflation-coreweave-and-the-chip-gear-makers-test-a-nasdaq-in-correction/",
+    "date": "2026-11-08",
+    "title": "The Week Ahead: October Inflation, CoreWeave and the Chip-Gear Makers Test a Nasdaq in Correction",
+    "type": "analysis",
+    "tickers": [
+     "CRWV",
+     "AMAT",
+     "CSCO",
+     "NBIS",
+     "CEG",
+     "OXY"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/wall-street-is-betting-the-neoclouds-are-ais-weak-link-coreweaves-report-will-test-it/",
+    "date": "2026-11-07",
+    "title": "Wall Street Is Betting the Neoclouds Are AI's Weak Link. CoreWeave's Report Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/microsoft-msft-is-winding-down-a-deal-to-rent-ai-capacity-from-oracle-orcl/",
+    "date": "2026-11-06",
+    "title": "Microsoft (MSFT) Is Winding Down a Deal to Rent AI Capacity From Oracle (ORCL)",
+    "type": "brief",
+    "tickers": [
+     "MSFT",
+     "ORCL",
+     "CRWV",
+     "NBIS",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-01/",
+    "date": "2026-11-01",
+    "title": "Wall Street Is Buying Insurance on the AI Boom Before Apple and AMD Report",
+    "type": "daily",
+    "tickers": [
+     "CRWV",
+     "ORCL",
+     "AAPL",
+     "AMD",
+     "NBIS"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-ai-build-outs-debt-is-cracking-at-the-edges-starting-with-coreweave-crwv/",
+    "date": "2026-10-31",
+    "title": "The AI Build-Out's Debt Is Cracking at the Edges, Starting With CoreWeave (CRWV)",
+    "type": "analysis",
+    "tickers": [
+     "CRWV",
+     "NBIS",
+     "META",
+     "ORCL",
+     "MSFT"
+    ]
+   }
+  ]
+ }
+}
