@@ -1711,6 +1711,14 @@
 "CEG"
 ]
 },
+"news-CEG-2026-11-12-constellation-energy-ceg-launched-peak-n": {
+"created": "2026-11-12T01:01:08-05:00",
+"day": "2026-11-12",
+"kind": "news",
+"tickers": [
+"CEG"
+]
+},
 "news-COST-2026-11-06-mapping-the-market-costco-has-momentum-t": {
 "created": "2026-11-06T06:15:13-05:00",
 "day": "2026-11-06",
@@ -2037,6 +2045,14 @@
 "news-NVDA-2026-11-11-tesla-stock-thrives-on-key-man-drama-nvi": {
 "created": "2026-11-11T07:01:07-05:00",
 "day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"NVDA"
+]
+},
+"news-NVDA-2026-11-12-jensen-hangs-on-as-nvidia-tumbles": {
+"created": "2026-11-12T01:01:08-05:00",
+"day": "2026-11-12",
 "kind": "news",
 "tickers": [
 "NVDA"
