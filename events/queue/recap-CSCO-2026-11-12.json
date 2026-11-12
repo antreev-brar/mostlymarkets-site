@@ -1,0 +1,118 @@
+{
+ "id": "recap-CSCO-2026-11-12",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-12T16:15:16-05:00",
+ "expires": "2026-11-13T20:00:00-05:00",
+ "tickers": [
+  "CSCO"
+ ],
+ "headline_hint": "Cisco (CSCO) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-12T16:15:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "CSCO",
+   "name": "Cisco Systems, Inc.",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.15,
+   "n_estimates": 8,
+   "eps_last_year": 0.81,
+   "last_year_date": "11/12/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 397255049000.0
+  },
+  "quote": {
+   "price": 102.01,
+   "change_pct": 1.24,
+   "prev_close": 100.76,
+   "time": "2026-11-12T16:00:00.000-0500",
+   "mktcap": "401.611B",
+   "pe": 30.65,
+   "fpe": 20.0,
+   "yr_high": 130.37,
+   "yr_low": 71.72,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 104.91,
+    "change_pct": 2.84,
+    "time": "2026-11-12T16:14:59.913-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CSCO",
+   "name": "Cisco",
+   "date": "2026-11-09",
+   "close": 98.65,
+   "prev_close": 93.85,
+   "change_pct": 5.11,
+   "moves_over_5pct_last_year": 8,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 7,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-02",
+    "change_pct": 5.5
+   },
+   "ytd_pct": 28.07,
+   "return_1m_pct": -16.67,
+   "return_6m_pct": -0.07,
+   "return_1y_pct": 38.87,
+   "high_52w": {
+    "close": 130.0,
+    "date": "2026-06-04"
+   },
+   "low_52w": {
+    "close": 71.07,
+    "date": "2025-11-07"
+   },
+   "pct_below_52w_high": 24.12,
+   "thousand_dollars_5y_ago_now": 1717,
+   "five_years_ago_date": "2021-11-09",
+   "volume": 20355800,
+   "volume_vs_20d_avg": 1.1,
+   "sentences": [
+    "Cisco's shares moved 5% or more on 8 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 June 2026, when the stock rose 5.5%.",
+    "The stock is up 28.1% this year, and at $98.65 it sits 24.1% below its 52-week closing high of $130.00 from 4 June 2026.",
+    "$1,000 invested in Cisco five years ago would be worth $1,717 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Communications Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/the-week-ahead-october-inflation-coreweave-and-the-chip-gear-makers-test-a-nasdaq-in-correction/",
+    "date": "2026-11-08",
+    "title": "The Week Ahead: October Inflation, CoreWeave and the Chip-Gear Makers Test a Nasdaq in Correction",
+    "type": "analysis",
+    "tickers": [
+     "CRWV",
+     "AMAT",
+     "CSCO",
+     "NBIS",
+     "CEG",
+     "OXY"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-08/",
+    "date": "2026-11-08",
+    "title": "Inflation and CoreWeave Report on the Same Tuesday, and Each Tests One of Last Week's Fears",
+    "type": "daily",
+    "tickers": [
+     "CRWV",
+     "NVDA",
+     "AMAT",
+     "CSCO",
+     "CEG"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/0000858877-26-000170-index.htm",
+  "release_text": "events/packs/recap-CSCO-2026-11-12.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/exhibit991pressrelease-q1f.htm"
+ }
+}
