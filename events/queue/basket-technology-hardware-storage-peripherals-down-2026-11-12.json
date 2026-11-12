@@ -1,0 +1,112 @@
+{
+ "id": "basket-technology-hardware-storage-peripherals-down-2026-11-12",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-12T10:15:13-05:00",
+ "expires": "2026-11-12T23:59:00-05:00",
+ "tickers": [
+  "SMCI",
+  "SNDK",
+  "DELL"
+ ],
+ "headline_hint": "SMCI, SNDK, DELL shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-12T10:15:08-05:00",
+ "pack": {
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "quotes": {
+   "SMCI": {
+    "price": 28.07,
+    "change_pct": -7.76,
+    "prev_close": 30.43,
+    "time": "2026-11-12T10:15:06.389-0500",
+    "mktcap": "18.504B",
+    "pe": 6.05,
+    "fpe": 4.93,
+    "yr_high": 51.4,
+    "yr_low": 19.48,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 27.32,
+     "change_pct": -10.22,
+     "time": "2026-11-12T09:30:01.368-0500"
+    }
+   },
+   "SNDK": {
+    "price": 911.93,
+    "change_pct": -6.73,
+    "prev_close": 977.69,
+    "time": "2026-11-12T10:15:06.658-0500",
+    "mktcap": "129.757B",
+    "pe": 7.33,
+    "fpe": 4.06,
+    "yr_high": 2354.39,
+    "yr_low": 183.0,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 886.85,
+     "change_pct": -9.29,
+     "time": "2026-11-12T09:30:01.589-0500"
+    }
+   },
+   "DELL": {
+    "price": 354.68,
+    "change_pct": -5.08,
+    "prev_close": 373.68,
+    "time": "2026-11-12T10:15:02.331-0500",
+    "mktcap": "225.51B",
+    "pe": 20.58,
+    "fpe": 12.54,
+    "yr_high": 595.51,
+    "yr_low": 110.22,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 338.42,
+     "change_pct": -9.44,
+     "time": "2026-11-12T09:30:01.128-0500"
+    }
+   }
+  },
+  "facts": {
+   "SMCI": {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "date": "2026-11-09",
+    "close": 28.6,
+    "prev_close": 28.76,
+    "change_pct": -0.56,
+    "moves_over_5pct_last_year": 70,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 227,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-05",
+     "change_pct": -8.51
+    },
+    "ytd_pct": -2.29,
+    "return_1m_pct": -31.67,
+    "return_6m_pct": -14.68,
+    "return_1y_pct": -29.09,
+    "high_52w": {
+     "close": 50.17,
+     "date": "2026-06-02"
+    },
+    "low_52w": {
+     "close": 20.53,
+     "date": "2026-03-20"
+    },
+    "pct_below_52w_high": 42.99,
+    "thousand_dollars_5y_ago_now": 6378,
+    "five_years_ago_date": "2021-11-09",
+    "volume": 41827690,
+    "volume_vs_20d_avg": 1.0,
+    "sentences": [
+     "Supermicro's shares moved 5% or more on 70 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 8.5%.",
+     "The stock is down 2.3% this year, and at $28.60 it sits 43.0% below its 52-week closing high of $50.17 from 2 June 2026.",
+     "$1,000 invested in Supermicro five years ago would be worth $6,378 today."
+    ]
+   }
+  }
+ }
+}
