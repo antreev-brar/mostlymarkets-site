@@ -1,0 +1,75 @@
+{
+ "id": "move-RKLB-2026-11-13",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 58,
+ "created": "2026-11-13T10:01:17-05:00",
+ "expires": "2026-11-16T12:00:00-05:00",
+ "tickers": [
+  "RKLB"
+ ],
+ "headline_hint": "Why Rocket Lab (RKLB) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-13T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 60.56,
+   "change_pct": -5.48,
+   "prev_close": 64.07,
+   "time": "2026-11-13T10:00:07.177-0500",
+   "mktcap": "38.275B",
+   "pe": -166.97,
+   "fpe": -338.32,
+   "yr_high": 151.0,
+   "yr_low": 37.57,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 63.89,
+    "change_pct": -0.28,
+    "time": "2026-11-13T09:30:01.215-0500"
+   }
+  },
+  "facts": {
+   "ticker": "RKLB",
+   "name": "Rocket Lab",
+   "date": "2026-11-12",
+   "close": 64.07,
+   "prev_close": 66.15,
+   "change_pct": -3.14,
+   "moves_over_5pct_last_year": 91,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 146,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -12.18
+   },
+   "ytd_pct": -8.16,
+   "return_1m_pct": 8.26,
+   "return_6m_pct": -51.66,
+   "return_1y_pct": 25.04,
+   "high_52w": {
+    "close": 150.23,
+    "date": "2026-05-27"
+   },
+   "low_52w": {
+    "close": 39.48,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 57.35,
+   "thousand_dollars_5y_ago_now": 4459,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 13523950,
+   "volume_vs_20d_avg": 0.63,
+   "sentences": [
+    "Rocket Lab's shares moved 5% or more on 91 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 12.2%.",
+    "The stock is down 8.2% this year, and at $64.07 it sits 57.4% below its 52-week closing high of $150.23 from 27 May 2026.",
+    "$1,000 invested in Rocket Lab five years ago would be worth $4,459 today."
+   ]
+  },
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "recent_stories": []
+ }
+}

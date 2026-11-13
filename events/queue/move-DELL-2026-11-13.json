@@ -1,0 +1,149 @@
+{
+ "id": "move-DELL-2026-11-13",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 76,
+ "created": "2026-11-13T10:01:17-05:00",
+ "expires": "2026-11-16T12:00:00-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "Why Dell Technologies (DELL) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-13T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 346.87,
+   "change_pct": -6.55,
+   "prev_close": 371.17,
+   "time": "2026-11-13T10:00:01.989-0500",
+   "mktcap": "220.544B",
+   "pe": 20.13,
+   "fpe": 12.26,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 368.0,
+    "change_pct": -0.85,
+    "time": "2026-11-13T09:29:58.078-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-12",
+   "close": 371.17,
+   "prev_close": 373.68,
+   "change_pct": -0.67,
+   "moves_over_5pct_last_year": 53,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 218,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-10",
+    "change_pct": -3.44
+   },
+   "ytd_pct": 194.86,
+   "return_1m_pct": -26.92,
+   "return_6m_pct": 49.73,
+   "return_1y_pct": 167.49,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 36.92,
+   "thousand_dollars_5y_ago_now": 6628,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 8840339,
+   "volume_vs_20d_avg": 1.17,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 53 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 November 2026, when the stock fell 3.4%.",
+    "The stock is up 194.9% this year, and at $371.17 it sits 36.9% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $6,628 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/amd-micron-and-lam-research-shares-jump-what-happened/",
+    "date": "2026-11-06",
+    "title": "AMD, Micron and Lam Research Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "MU",
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "COHR",
+     "ANET",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/",
+    "date": "2026-11-05",
+    "title": "Sandisk, Micron and AMD Shares Plunge: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "SNDK",
+     "MU",
+     "AMD",
+     "WDC",
+     "STX",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-04/supermicro-smci-shares-jump-as-sales-hit-19-9-billion-and-it-raises-its-forecast/",
+    "date": "2026-11-04",
+    "title": "Supermicro (SMCI) Shares Jump as Sales Hit $19.9 Billion and It Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "SMCI",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/memorys-boom-has-become-the-device-makers-bill-what-the-evidence-says/",
+    "date": "2026-11-03",
+    "title": "Memory's Boom Has Become the Device Makers' Bill: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "AAPL",
+     "HPQ",
+     "DELL",
+     "QCOM",
+     "MU",
+     "SNDK",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/",
+    "date": "2026-11-03",
+    "title": "Astera Labs, Monolithic Power and Credo Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MPWR",
+     "ALAB",
+     "CRDO",
+     "AMD",
+     "DELL",
+     "SNDK",
+     "HPE"
+    ]
+   }
+  ]
+ }
+}

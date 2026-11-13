@@ -1,0 +1,140 @@
+{
+ "id": "move-NBIS-2026-11-13",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 71,
+ "created": "2026-11-13T10:01:17-05:00",
+ "expires": "2026-11-16T12:00:00-05:00",
+ "tickers": [
+  "NBIS"
+ ],
+ "headline_hint": "Why Nebius Group (NBIS) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-13T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 114.76,
+   "change_pct": -10.79,
+   "prev_close": 128.64,
+   "time": "2026-11-13T10:00:06.285-0500",
+   "mktcap": "31.198B",
+   "pe": -290.17,
+   "fpe": -35.63,
+   "yr_high": 299.86,
+   "yr_low": 73.52,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 123.61,
+    "change_pct": -3.91,
+    "time": "2026-11-13T09:30:01.027-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NBIS",
+   "name": "Nebius Group",
+   "date": "2026-11-12",
+   "close": 128.64,
+   "prev_close": 154.69,
+   "change_pct": -16.84,
+   "moves_over_5pct_last_year": 105,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-01",
+    "change_pct": -17.01
+   },
+   "ytd_pct": 53.68,
+   "return_1m_pct": -30.84,
+   "return_6m_pct": -41.83,
+   "return_1y_pct": 25.85,
+   "high_52w": {
+    "close": 286.69,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 73.87,
+    "date": "2026-02-05"
+   },
+   "pct_below_52w_high": 55.13,
+   "thousand_dollars_5y_ago_now": 1567,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 69538440,
+   "volume_vs_20d_avg": 2.67,
+   "sentences": [
+    "Nebius Group's shares moved 5% or more on 105 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 1 July 2026, when the stock fell 17.0%.",
+    "The stock is up 53.7% this year, and at $128.64 it sits 55.1% below its 52-week closing high of $286.69 from 18 June 2026.",
+    "$1,000 invested in Nebius Group five years ago would be worth $1,567 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-13/why-coreweave-crwv-stock-fell-after-nvidias-ceo-resigned/",
+    "date": "2026-11-13",
+    "title": "Why CoreWeave (CRWV) Stock Fell After Nvidia's CEO Resigned",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRWV",
+     "NVDA",
+     "NBIS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/wall-street-is-betting-nvidias-loss-is-amd-and-broadcoms-gain-tuesday-will-test-it/",
+    "date": "2026-11-13",
+    "title": "Wall Street Is Betting Nvidia's Loss Is AMD and Broadcom's Gain. Tuesday Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "CRWV",
+     "NBIS",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/stocks-making-the-biggest-moves-yesterday-nebius-global-payments-supermicro-keurig-dr-pepper-and-alibaba/",
+    "date": "2026-11-13",
+    "title": "Stocks Making the Biggest Moves Yesterday: Nebius, Global Payments, Supermicro, Keurig Dr Pepper and Alibaba",
+    "type": "movers",
+    "tickers": [
+     "NBIS",
+     "GPN",
+     "SMCI",
+     "KDP",
+     "BABA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-13/",
+    "date": "2026-11-13",
+    "title": "Nvidia Lost Its Founder and $182 Billion, and Its Rivals Gained on the Day",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "NBIS",
+     "BABA",
+     "CSCO",
+     "AMAT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/nebius-nbis-q3-sales-jump-571-but-it-trims-its-2026-outlook-and-plunges-17/",
+    "date": "2026-11-13",
+    "title": "Nebius (NBIS) Q3: Sales Jump 571%, but a Trimmed Outlook Sinks the Stock 17%",
+    "type": "earnings-recap",
+    "tickers": [
+     "NBIS",
+     "CRWV",
+     "MSFT"
+    ]
+   }
+  ]
+ }
+}

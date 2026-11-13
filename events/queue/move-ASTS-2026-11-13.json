@@ -1,0 +1,86 @@
+{
+ "id": "move-ASTS-2026-11-13",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 65,
+ "created": "2026-11-13T10:01:17-05:00",
+ "expires": "2026-11-16T12:00:00-05:00",
+ "tickers": [
+  "ASTS"
+ ],
+ "headline_hint": "Why AST SpaceMobile (ASTS) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-13T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 31.7,
+   "change_pct": -8.12,
+   "prev_close": 34.5,
+   "time": "2026-11-13T09:59:59.349-0500",
+   "mktcap": "12.367B",
+   "pe": -14.86,
+   "fpe": -18.96,
+   "yr_high": 133.86,
+   "yr_low": 27.58,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 33.99,
+    "change_pct": -1.48,
+    "time": "2026-11-13T09:30:01.140-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ASTS",
+   "name": "AST SpaceMobile",
+   "date": "2026-11-12",
+   "close": 34.5,
+   "prev_close": 36.62,
+   "change_pct": -5.79,
+   "moves_over_5pct_last_year": 127,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 108,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-10",
+    "change_pct": -8.67
+   },
+   "ytd_pct": -52.5,
+   "return_1m_pct": -18.13,
+   "return_6m_pct": -58.44,
+   "return_1y_pct": -49.18,
+   "high_52w": {
+    "close": 133.09,
+    "date": "2026-05-28"
+   },
+   "low_52w": {
+    "close": 30.2,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 74.08,
+   "thousand_dollars_5y_ago_now": 2685,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 9978217,
+   "volume_vs_20d_avg": 0.56,
+   "sentences": [
+    "AST SpaceMobile's shares moved 5% or more on 127 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 November 2026, when the stock fell 8.7%.",
+    "The stock is down 52.5% this year, and at $34.50 it sits 74.1% below its 52-week closing high of $133.09 from 28 May 2026.",
+    "$1,000 invested in AST SpaceMobile five years ago would be worth $2,685 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Alternative Carriers",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/echostar-echo-q3-boost-loses-182-000-customers-as-one-off-gains-drive-its-profit/",
+    "date": "2026-11-06",
+    "title": "EchoStar (ECHO) Q3: Boost Loses 182,000 Customers as One-Off Gains Drive Its Profit",
+    "type": "earnings-recap",
+    "tickers": [
+     "ECHO",
+     "ASTS"
+    ]
+   }
+  ]
+ }
+}

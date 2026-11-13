@@ -1,0 +1,112 @@
+{
+ "id": "move-IONQ-2026-11-13",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 63,
+ "created": "2026-11-13T10:01:17-05:00",
+ "expires": "2026-11-16T12:00:00-05:00",
+ "tickers": [
+  "IONQ"
+ ],
+ "headline_hint": "Why IonQ (IONQ) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-13T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 28.63,
+   "change_pct": -7.23,
+   "prev_close": 30.86,
+   "time": "2026-11-13T10:00:04.016-0500",
+   "mktcap": "13.217B",
+   "pe": 42.61,
+   "fpe": -18.27,
+   "yr_high": 73.65,
+   "yr_low": 24.92,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 30.04,
+    "change_pct": -2.66,
+    "time": "2026-11-13T09:30:01.443-0500"
+   }
+  },
+  "facts": {
+   "ticker": "IONQ",
+   "name": "IonQ",
+   "date": "2026-11-12",
+   "close": 30.86,
+   "prev_close": 34.06,
+   "change_pct": -9.4,
+   "moves_over_5pct_last_year": 81,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 24,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -10.53
+   },
+   "ytd_pct": -31.22,
+   "return_1m_pct": -1.78,
+   "return_6m_pct": -46.3,
+   "return_1y_pct": -43.29,
+   "high_52w": {
+    "close": 72.07,
+    "date": "2026-05-29"
+   },
+   "low_52w": {
+    "close": 26.43,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 57.18,
+   "thousand_dollars_5y_ago_now": 1532,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 20902020,
+   "volume_vs_20d_avg": 0.9,
+   "sentences": [
+    "IonQ's shares moved 5% or more on 81 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 10.5%.",
+    "The stock is down 31.2% this year, and at $30.86 it sits 57.2% below its 52-week closing high of $72.07 from 29 May 2026.",
+    "$1,000 invested in IonQ five years ago would be worth $1,532 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Computer Hardware",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-13/ionq-ionq-replaces-its-finance-chief-with-commvaults-gary-merrill/",
+    "date": "2026-11-13",
+    "title": "IonQ (IONQ) Replaces Its Finance Chief With Commvault's Gary Merrill",
+    "type": "brief",
+    "tickers": [
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/stock-market-today-chips-win-back-part-of-thursdays-rout-as-the-dow-slips/",
+    "date": "2026-11-06",
+    "title": "Stock Market Today: Chips Win Back Part of Thursday's Rout as the Dow Slips",
+    "type": "market-wrap",
+    "tickers": [
+     "AMD",
+     "MU",
+     "INTC",
+     "NVDA",
+     "AXON",
+     "TEAM",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/3-fast-grower-stocks-we-like-and-1-wed-skip/",
+    "date": "2026-11-02",
+    "title": "3 Fast-Grower Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "CRDO",
+     "ALAB",
+     "NVDA",
+     "IONQ"
+    ]
+   }
+  ]
+ }
+}
