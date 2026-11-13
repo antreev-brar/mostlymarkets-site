@@ -1728,6 +1728,14 @@
 "AVGO"
 ]
 },
+"news-AVGO-2026-11-13-broadcom-avgo-stock-gets-a-fresh-ai-open": {
+"created": "2026-11-13T04:01:11-05:00",
+"day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"AVGO"
+]
+},
 "news-BABA-2026-11-02-alibaba-group-holding-limited-baba-stock": {
 "created": "2026-11-02T05:01:44-05:00",
 "day": "2026-11-02",
@@ -2095,6 +2103,14 @@
 "news-MSFT-2026-11-05-microsoft-will-not-expand-texas-data-cen": {
 "created": "2026-11-05T03:01:10-05:00",
 "day": "2026-11-05",
+"kind": "news",
+"tickers": [
+"MSFT"
+]
+},
+"news-MSFT-2026-11-13-indigo-says-while-global-microsoft-servi": {
+"created": "2026-11-13T04:01:11-05:00",
+"day": "2026-11-13",
 "kind": "news",
 "tickers": [
 "MSFT"
