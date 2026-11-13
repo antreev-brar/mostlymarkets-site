@@ -1686,6 +1686,12 @@
 "kind": "movers",
 "tickers": []
 },
+"movers-week-2026-11-13": {
+"created": "2026-11-13T16:45:13-05:00",
+"day": "2026-11-13",
+"kind": "movers",
+"outcome": "already-written"
+},
 "narrative-2026-11-01": {
 "created": "2026-11-01T08:26:05-05:00",
 "day": "2026-11-01",
