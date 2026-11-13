@@ -39,6 +39,16 @@
 "MELI"
 ]
 },
+"basket-communications-equipment-down-2026-11-13": {
+"created": "2026-11-13T10:15:15-05:00",
+"day": "2026-11-13",
+"kind": "basket",
+"tickers": [
+"LITE",
+"CIEN",
+"ANET"
+]
+},
 "basket-communications-equipment-up-2026-11-11": {
 "created": "2026-11-11T10:01:13-05:00",
 "day": "2026-11-11",

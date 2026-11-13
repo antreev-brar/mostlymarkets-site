@@ -1,0 +1,112 @@
+{
+ "id": "basket-communications-equipment-down-2026-11-13",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-13T10:15:15-05:00",
+ "expires": "2026-11-13T23:59:00-05:00",
+ "tickers": [
+  "LITE",
+  "CIEN",
+  "ANET"
+ ],
+ "headline_hint": "LITE, CIEN, ANET shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-13T10:15:09-05:00",
+ "pack": {
+  "industry": "Communications Equipment",
+  "quotes": {
+   "LITE": {
+    "price": 576.59,
+    "change_pct": -7.69,
+    "prev_close": 624.65,
+    "time": "2026-11-13T10:15:05.001-0500",
+    "mktcap": "52.297B",
+    "pe": -7.4,
+    "fpe": 23.34,
+    "yr_high": 1143.0,
+    "yr_low": 215.35,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 612.49,
+     "change_pct": -1.95,
+     "time": "2026-11-13T09:29:59.082-0500"
+    }
+   },
+   "CIEN": {
+    "price": 274.58,
+    "change_pct": -6.6,
+    "prev_close": 293.99,
+    "time": "2026-11-13T10:14:43.681-0500",
+    "mktcap": "38.938B",
+    "pe": 61.27,
+    "fpe": 26.39,
+    "yr_high": 637.51,
+    "yr_low": 168.22,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 289.44,
+     "change_pct": -1.55,
+     "time": "2026-11-13T09:30:01.032-0500"
+    }
+   },
+   "ANET": {
+    "price": 197.83,
+    "change_pct": -4.26,
+    "prev_close": 206.63,
+    "time": "2026-11-13T10:14:59.160-0500",
+    "mktcap": "249.933B",
+    "pe": 53.13,
+    "fpe": 38.59,
+    "yr_high": 217.41,
+    "yr_low": 114.52,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 208.18,
+     "change_pct": 0.75,
+     "time": "2026-11-13T09:27:22.651-0500"
+    }
+   }
+  },
+  "facts": {
+   "LITE": {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "date": "2026-11-12",
+    "close": 624.65,
+    "prev_close": 648.06,
+    "change_pct": -3.61,
+    "moves_over_5pct_last_year": 116,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 148,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-05",
+     "change_pct": -18.68
+    },
+    "ytd_pct": 69.47,
+    "return_1m_pct": -30.31,
+    "return_6m_pct": -37.65,
+    "return_1y_pct": 147.42,
+    "high_52w": {
+     "close": 1133.4,
+     "date": "2026-10-06"
+    },
+    "low_52w": {
+     "close": 226.86,
+     "date": "2025-11-13"
+    },
+    "pct_below_52w_high": 44.89,
+    "thousand_dollars_5y_ago_now": 6804,
+    "five_years_ago_date": "2021-11-12",
+    "volume": 4482700,
+    "volume_vs_20d_avg": 0.68,
+    "sentences": [
+     "Lumentum's shares moved 5% or more on 116 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 18.7%.",
+     "The stock is up 69.5% this year, and at $624.65 it sits 44.9% below its 52-week closing high of $1,133.40 from 6 October 2026.",
+     "$1,000 invested in Lumentum five years ago would be worth $6,804 today."
+    ]
+   }
+  }
+ }
+}
