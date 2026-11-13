@@ -2,7 +2,7 @@
 title = "Strategy (MSTR) Shares Slide as MSCI Drops It and Bitcoin Falls"
 dek = "Strategy fell 6.5% on Thursday after MSCI confirmed it will cut the bitcoin holder from its indexes at the end of November, and bitcoin slipped below $72,000."
 type = "why-it-moved"
-published = 2026-11-13T07:41:00-05:00
+published = 2026-11-13T07:31:00-05:00
 author = "nora-whitfield"
 tickers = ["MSTR"]
 reason = "Legal or regulatory"

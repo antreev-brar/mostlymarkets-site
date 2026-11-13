@@ -2,7 +2,7 @@
 title = "Supermicro (SMCI) Shares Plunge on a Report of a DOJ Smuggling Inquiry"
 dek = "Supermicro fell 11.3% on Thursday, its worst day since June, after Bloomberg reported prosecutors are examining whether its servers were smuggled into China."
 type = "why-it-moved"
-published = 2026-11-13T07:52:00-05:00
+published = 2026-11-13T07:33:00-05:00
 author = "dev-malhotra"
 tickers = ["SMCI", "NVDA"]
 reason = "Legal or regulatory"
