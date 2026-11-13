@@ -114,5 +114,8 @@
   "sec_filing": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/0000858877-26-000170-index.htm",
   "release_text": "events/packs/recap-CSCO-2026-11-12.txt",
   "release_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/exhibit991pressrelease-q1f.htm"
- }
+ },
+ "outcome": "written",
+ "closed": "2026-11-13T06:33:11-05:00",
+ "story": "content/articles/2026-11-13-cisco-csco-beats-and-raises-as-ai-networking-sales-jump-43-but-margins-slip.md"
 }
