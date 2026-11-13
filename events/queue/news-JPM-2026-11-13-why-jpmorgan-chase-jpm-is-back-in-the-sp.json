@@ -1,0 +1,90 @@
+{
+ "id": "news-JPM-2026-11-13-why-jpmorgan-chase-jpm-is-back-in-the-sp",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-13T06:09:37-05:00",
+ "expires": "2026-11-13T16:09:37-05:00",
+ "tickers": [
+  "JPM"
+ ],
+ "headline_hint": "JPMorgan Chase: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-13T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Why JPMorgan Chase (JPM) Is Back In The Spotlight",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYTk3NzNqX0VtODU4aG1tRDVqM1RRTFQwSmJUS3pWTXBxOVZvTzBIYXd0SXRjekEtdzZKV2tVWmYxS3JheUdjaS0yWmN5bjFWYnRtV0dWT2FFVUZMckoyZjBtTUJDT05aNkp5NWhqNFJ3M1N2b3REU2Nvc0JydHNxcXRaVk5YQmYtb3NScUVKRnFFY2x2N0ZR?oc=5",
+    "published": "2026-11-13T05:10:09-05:00",
+    "also": []
+   },
+   {
+    "title": "JPMorgan reports 36% rise in Strategy share holdings and $540 million in BlackRock\u2019s bitcoin ETF",
+    "source": "The Block",
+    "url": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
+    "published": "2026-11-13T04:59:16-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 342.82,
+   "change_pct": -0.17,
+   "prev_close": 342.82,
+   "time": "2026-11-12",
+   "mktcap": "910.396B",
+   "pe": 14.38,
+   "fpe": 14.06,
+   "yr_high": 366.5,
+   "yr_low": 279.1,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 345.2,
+    "change_pct": 0.69,
+    "time": "2026-11-13T05:58:33.634-0500"
+   }
+  },
+  "facts": {
+   "ticker": "JPM",
+   "name": "JPMorgan Chase",
+   "date": "2026-11-12",
+   "close": 342.82,
+   "prev_close": 343.39,
+   "change_pct": -0.17,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 221,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-06",
+    "change_pct": -0.84
+   },
+   "ytd_pct": 6.39,
+   "return_1m_pct": 2.25,
+   "return_6m_pct": 14.31,
+   "return_1y_pct": 8.62,
+   "high_52w": {
+    "close": 365.18,
+    "date": "2026-08-12"
+   },
+   "low_52w": {
+    "close": 282.84,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 6.12,
+   "thousand_dollars_5y_ago_now": 2055,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 4151880,
+   "volume_vs_20d_avg": 0.6,
+   "sentences": [
+    "JPMorgan Chase's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 November 2026, when the stock fell 0.8%.",
+    "The stock is up 6.4% this year, and at $342.82 it sits 6.1% below its 52-week closing high of $365.18 from 12 August 2026.",
+    "$1,000 invested in JPMorgan Chase five years ago would be worth $2,055 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/the-debate-over-a-december-rate-hike-daly-says-tighten-tom-lee-says-the-fed-may-skip/"
+  ]
+ }
+}

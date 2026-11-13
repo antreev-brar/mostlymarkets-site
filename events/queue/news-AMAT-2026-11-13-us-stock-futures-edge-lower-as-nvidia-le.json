@@ -1,0 +1,113 @@
+{
+ "id": "news-AMAT-2026-11-13-us-stock-futures-edge-lower-as-nvidia-le",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-13T06:09:37-05:00",
+ "expires": "2026-11-13T16:09:37-05:00",
+ "tickers": [
+  "AMAT"
+ ],
+ "headline_hint": "Applied Materials: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-13T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "KeyBanc reiterates Applied Materials stock rating on strong demand",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHUxWEFWSTRIR1VLUVlYMzUwMloyMVMybzdEbS1EbW1wcDJhQV9PaTFnN04yeTJiUUw5bzBJdms5RXlZYzBwRkw2RmpjQTNNdTJkczZBZlRFOWF0Y2lyRzJoU0Y5NUJIMnZ4dVF4eXhiOHVnREdKZEpwVndpV05lOHdTQ1FwY0tUYlgwNnVLVm1YT2JrNk9ycEtLcGdjMTBwMTNoT0RqRm8wWmZhbkpud05ZdnNsRl9pTzl4WGlpczJTQmk3?oc=5",
+    "published": "2026-11-13T05:53:38-05:00",
+    "also": []
+   },
+   {
+    "title": "Applied Materials Sees Another Record Year in 2027",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONWpHZHQ3MHZJUVJlTHpRM0tNSkdmY25vSE1qTUxSMFBtSk9Tai1sejBpRkN1eXhwajBYQzBVR1dINzFyUmZwbnhRUHFFWHlsaGV2S0lkVFc0cTRIWDlEcWx5c2VnSWNYX1g1Mkl0aHRvQkF2WlJYLWpaU2xXWDJmOGozX2RaSURvRmxRUFBjLVdNdDdKYUZ3THFGV1drX2hBdVJYdXhNZi0welZX?oc=5",
+    "published": "2026-11-13T05:38:33-05:00",
+    "also": []
+   },
+   {
+    "title": "US Stock Futures Edge Lower as Nvidia Leadership Changes Offset Cisco and Applied Materials Forecasts: Dow Jones, S&P, Nasdaq, Wall Street",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWk1fam4tWGxsSWI3dGV0WnVKTnN2bV82ZFBULXZRY3BZbzVpQklkRTZ2ZUt5R3JaRkczOWdUMzJremRjdWdUM1dyb1ZXaml4RFFpY09USTdnaGhFcWtvS1J1UnhyOE1kVm16WHNYYVlkd1pSUWM2WElrSzRRRGNQSXc4dGtDWTZNRkhZa2cwNW01U3JiX01R?oc=5",
+    "published": "2026-11-13T04:54:55-05:00",
+    "also": []
+   },
+   {
+    "title": "Huang ouster fallout; Cisco, Applied Materials outlooks - what\u2019s moving markets",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbC1iWEVobEsyMWh1ZHVySW1tUmhiNzN6ZXo4VGtoWUo2d0lNdUYtRWdIUlpDWEc2dUN4VEVpLVR2SmRMNmdnazRpQW5jaWNudmRva0FPZzk1b2xlcUZkQWpHZnplT2xmMWpHbExfOTZaNms3OHM5TjNmcEg5LVRGZUFjZGI1OVdDODJIZ1hKS2hDRTNoVUVQSnhJVHdoTzU2?oc=5",
+    "published": "2026-11-13T04:35:48-05:00",
+    "also": []
+   },
+   {
+    "title": "Summit Insights downgrades Applied Materials stock rating on valuation concerns",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQenNJdnc2QzFIdXpSaFdnNERKaVFsbzlTWHRSYU9hT193bm8xN1BGVlhsb3JJNUZtaWVxZUc2bWpNZ0RTTk5HNUoyZDd0eTUxWXFOdkRMT3hJTEVDbUplLTQ4UG12R01EMkNlOUxYRDh3TFFweHpqcG55M2hrdlh1SE13enJURlZlUEhldzNiaEw3MllGVWJyTkNZdWlaQnNydTF4cHVfaEh6alBET0xFM0JoV0xFdTNoT3FGVVYyN01pY3cxaWFYaHJIMnRLenloc3lhV3hB?oc=5",
+    "published": "2026-11-13T02:56:12-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 380.95,
+   "change_pct": -3.58,
+   "prev_close": 380.95,
+   "time": "2026-11-12",
+   "mktcap": "302.321B",
+   "pe": 32.86,
+   "fpe": 21.43,
+   "yr_high": 739.67,
+   "yr_low": 203.4,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 383.0,
+    "change_pct": 0.54,
+    "time": "2026-11-13T05:58:46.996-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "date": "2026-11-12",
+   "close": 380.95,
+   "prev_close": 395.08,
+   "change_pct": -3.58,
+   "moves_over_5pct_last_year": 47,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 84,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -13.58
+   },
+   "ytd_pct": 48.24,
+   "return_1m_pct": -14.71,
+   "return_6m_pct": -13.53,
+   "return_1y_pct": 66.59,
+   "high_52w": {
+    "close": 723.0,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 220.23,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 47.31,
+   "thousand_dollars_5y_ago_now": 2429,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 9197996,
+   "volume_vs_20d_avg": 1.08,
+   "sentences": [
+    "Applied Materials's shares moved 5% or more on 47 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 13.6%.",
+    "The stock is up 48.2% this year, and at $380.95 it sits 47.3% below its 52-week closing high of $723.00 from 30 June 2026.",
+    "$1,000 invested in Applied Materials five years ago would be worth $2,429 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-09/",
+   "/news/2026-11-08/the-week-ahead-october-inflation-coreweave-and-the-chip-gear-makers-test-a-nasdaq-in-correction/",
+   "/daily/2026-11-08/"
+  ]
+ }
+}

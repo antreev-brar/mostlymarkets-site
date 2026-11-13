@@ -1,0 +1,134 @@
+{
+ "id": "news-MSFT-2026-11-13-microsoft-stock-falls-amid-global-office",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-13T06:09:37-05:00",
+ "expires": "2026-11-13T16:09:37-05:00",
+ "tickers": [
+  "MSFT"
+ ],
+ "headline_hint": "Microsoft: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-13T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Microsoft Stock Falls Amid Global Office Outage. The Timing Couldn\u2019t Be Worse.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5",
+    "published": "2026-11-13T05:40:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Microsoft On Track to Lose $100 Billion in Value as Widespread Outage Continues",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261113003330:0-microsoft-on-track-to-lose-100-billion-in-value-as-widespread-outage-continues/",
+    "published": "2026-11-13T05:31:00-05:00",
+    "also": []
+   },
+   {
+    "title": "UK's Insolvency Service Says Currently Experiencing Problems Sending & Receiving Emails Due To Microsoft Outage",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T281:0-uk-s-insolvency-service-says-currently-experiencing-problems-sending-receiving-emails-due-to-microsoft-outage/",
+    "published": "2026-11-13T04:27:49-05:00",
+    "also": []
+   },
+   {
+    "title": "Microsoft On Outage Says Seeing Early Signs Of Stabilization",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T24W:0-microsoft-on-outage-says-seeing-early-signs-of-stabilization/",
+    "published": "2026-11-13T04:25:47-05:00",
+    "also": []
+   },
+   {
+    "title": "Microsoft 365 Outage Extends Into Friday\u2014Governments, Airlines Report Disruptions",
+    "source": "Forbes",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZE53VDdPY3BrWW5MRUJLU094MWg3bWZISzBtdVo2QkZUblRiVGY4d2dfQXZZVjlLS211LTEtWVpMc0FlSGZqbG91dWt4X1ZRNnhVOFhpQ2xsMHMwLVRrRVp4UWt3NlByb3hESmNteG9WWno5dlNjQ0VkUzhmYkJxZjZhTThTY0hzZnV3ZTFVYVhwY1JkOW9UTHM0ZDdOdVh6dEdVV3doalpGdFFmT2hjeTZDOG04SUJGdVU2dWQxX1lQcUY4dGZvX0lGNWVJWGxpc2ZYbQ?oc=5",
+    "published": "2026-11-13T04:13:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:a0ad53248094b:0-microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release/",
+    "published": "2026-11-13T04:09:58-05:00",
+    "also": []
+   },
+   {
+    "title": "MAS: Monitoring Systems and Broader Situation Closely",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261113002536_20261113002537:0-mas-monitoring-systems-and-broader-situation-closely/",
+    "published": "2026-11-13T03:57:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Monetary Authority of Singapore: Core Operations Remain Unaffected by Microsoft Outage",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261113002536_20261113002536:0-monetary-authority-of-singapore-core-operations-remain-unaffected-by-microsoft-outage/",
+    "published": "2026-11-13T03:57:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 523.0,
+   "change_pct": 0.36,
+   "prev_close": 523.0,
+   "time": "2026-11-12",
+   "mktcap": "3.884T",
+   "pe": 27.31,
+   "fpe": 26.46,
+   "yr_high": 559.15,
+   "yr_low": 349.2,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 507.91,
+    "change_pct": -2.89,
+    "time": "2026-11-13T05:59:58.238-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "date": "2026-11-12",
+   "close": 523.0,
+   "prev_close": 521.12,
+   "change_pct": 0.36,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 206,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 2.75
+   },
+   "ytd_pct": 8.14,
+   "return_1m_pct": -2.0,
+   "return_6m_pct": 27.74,
+   "return_1y_pct": 2.82,
+   "high_52w": {
+    "close": 555.8,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 352.83,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 5.9,
+   "thousand_dollars_5y_ago_now": 1553,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 18644020,
+   "volume_vs_20d_avg": 0.7,
+   "sentences": [
+    "Microsoft's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 2.8%.",
+    "The stock is up 8.1% this year, and at $523.00 it sits 5.9% below its 52-week closing high of $555.80 from 4 November 2026.",
+    "$1,000 invested in Microsoft five years ago would be worth $1,553 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/microsoft-msft-sells-more-than-ever-but-keeps-less-cash-is-the-business-still-strong/",
+   "/news/2026-11-07/wall-street-is-betting-the-neoclouds-are-ais-weak-link-coreweaves-report-will-test-it/",
+   "/news/2026-11-07/alphabet-googl-had-its-worst-day-since-2004-is-the-business-broken/"
+  ]
+ }
+}

@@ -1681,6 +1681,14 @@
 "AMAT"
 ]
 },
+"news-AMAT-2026-11-13-us-stock-futures-edge-lower-as-nvidia-le": {
+"created": "2026-11-13T06:09:37-05:00",
+"day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"AMAT"
+]
+},
 "news-AMD-2026-11-04-amd-s-openai-meta-chip-deals-trigger-1-b": {
 "created": "2026-11-04T00:01:51-05:00",
 "day": "2026-11-04",
@@ -1953,6 +1961,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-CSCO-2026-11-13-us-stock-futures-edge-lower-as-nvidia-le": {
+"created": "2026-11-13T06:09:37-05:00",
+"day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"CSCO"
+]
+},
 "news-DIS-2026-11-03-disney-eyes-thousands-of-layoffs-asks-ma": {
 "created": "2026-11-03T01:01:02-05:00",
 "day": "2026-11-03",
@@ -2066,6 +2082,14 @@
 "JPM"
 ]
 },
+"news-JPM-2026-11-13-why-jpmorgan-chase-jpm-is-back-in-the-sp": {
+"created": "2026-11-13T06:09:37-05:00",
+"day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"JPM"
+]
+},
 "news-KO-2026-11-08-coca-cola-ko-makes-the-dow-s-low-upside": {
 "created": "2026-11-08T13:01:37-05:00",
 "day": "2026-11-08",
@@ -2124,6 +2148,14 @@
 },
 "news-MSFT-2026-11-13-indigo-says-while-global-microsoft-servi": {
 "created": "2026-11-13T04:01:11-05:00",
+"day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"MSFT"
+]
+},
+"news-MSFT-2026-11-13-microsoft-stock-falls-amid-global-office": {
+"created": "2026-11-13T06:09:37-05:00",
 "day": "2026-11-13",
 "kind": "news",
 "tickers": [
