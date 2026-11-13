@@ -1611,6 +1611,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-13": {
+"created": "2026-11-13T07:01:10-05:00",
+"day": "2026-11-13",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -2128,6 +2134,14 @@
 "kind": "news",
 "tickers": [
 "MPC"
+]
+},
+"news-MRK-2026-11-13-merck-gets-positive-eu-opinion-to-expand": {
+"created": "2026-11-13T07:01:10-05:00",
+"day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"MRK"
 ]
 },
 "news-MSFT-2026-11-05-microsoft-rejects-multibillion-dollar-ai": {
