@@ -109,5 +109,8 @@
    "/news/2026-11-07/wall-street-is-betting-the-neoclouds-are-ais-weak-link-coreweaves-report-will-test-it/",
    "/news/2026-11-07/alphabet-googl-had-its-worst-day-since-2004-is-the-business-broken/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-13T06:38:02-05:00",
+ "reason": "covered in our Microsoft outage brief"
 }
