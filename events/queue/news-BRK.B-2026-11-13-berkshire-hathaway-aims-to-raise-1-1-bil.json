@@ -1,0 +1,90 @@
+{
+ "id": "news-BRK.B-2026-11-13-berkshire-hathaway-aims-to-raise-1-1-bil",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-13T02:01:05-05:00",
+ "expires": "2026-11-13T12:01:05-05:00",
+ "tickers": [
+  "BRK.B"
+ ],
+ "headline_hint": "Berkshire Hathaway: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-13T02:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Berkshire's latest Japan bond sale comes at higher borrowing costs - report",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4672103-berkshires-latest-japan-bond-sale-comes-at-higher-borrowing-costs---report",
+    "published": "2026-11-13T01:07:46-05:00",
+    "also": []
+   },
+   {
+    "title": "Berkshire Hathaway aims to raise $1.1 billion in yen bond sale, term sheet shows",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46U0GO:0-berkshire-hathaway-aims-to-raise-1-1-billion-in-yen-bond-sale-term-sheet-shows/",
+    "published": "2026-11-12T23:43:46-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 589.83,
+   "change_pct": 0.27,
+   "prev_close": 589.83,
+   "time": "2026-11-12",
+   "mktcap": "1.273T",
+   "pe": 16.47,
+   "fpe": 54.93,
+   "yr_high": 596.92,
+   "yr_low": 464.01,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 589.63,
+    "change_pct": -0.03,
+    "time": "2026-11-12"
+   }
+  },
+  "facts": {
+   "ticker": "BRK.B",
+   "name": "Berkshire Hathaway",
+   "date": "2026-11-11",
+   "close": 588.24,
+   "prev_close": 583.34,
+   "change_pct": 0.84,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 78,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-10",
+    "change_pct": 1.41
+   },
+   "ytd_pct": 17.03,
+   "return_1m_pct": 12.99,
+   "return_6m_pct": 21.16,
+   "return_1y_pct": 18.36,
+   "high_52w": {
+    "close": 588.24,
+    "date": "2026-11-11"
+   },
+   "low_52w": {
+    "close": 465.4,
+    "date": "2026-04-22"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 2067,
+   "five_years_ago_date": "2021-11-11",
+   "volume": 5127362,
+   "volume_vs_20d_avg": 0.99,
+   "sentences": [
+    "Berkshire Hathaway's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 November 2026, when the stock rose 1.4%.",
+    "The stock is up 17.0% this year, and at $588.24 it sits 0.0% below its 52-week closing high of $588.24 from 11 November 2026.",
+    "$1,000 invested in Berkshire Hathaway five years ago would be worth $2,067 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-07/berkshire-hathaway-brk-b-q3-profit-falls-6-as-buybacks-hit-a-record-9-6-billion/"
+  ]
+ }
+}
