@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-13-4",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-13T16:30:24-05:00",
+ "expires": "2026-11-13T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Fast-Grower Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Fast-Grower, screened on revenue growth over the last 12 months. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-13T16:30:19-05:00",
+ "pack": {
+  "theme": "fast-growers",
+  "screen": "revenue growth over the last 12 months",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "JOBY",
+    "name": "Joby Aviation",
+    "industry": "Passenger Airlines",
+    "metric": 557.2,
+    "price": 5.08,
+    "pe": -7.04,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 148810000,
+     "revenue_growth_yoy_pct": 557.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -658.1,
+     "net_margin_pct": -462.8,
+     "eps_diluted": -0.73,
+     "ocf": -639386000,
+     "fcf": -784494000,
+     "fcf_margin_pct": -527.2
+    }
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "industry": "Alternative Carriers",
+    "metric": 411.4,
+    "price": 32.6,
+    "pe": -15.28,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 142881000,
+     "revenue_growth_yoy_pct": 411.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -439.7,
+     "eps_diluted": -2.13,
+     "ocf": -249508000,
+     "fcf": -1799400000,
+     "fcf_margin_pct": -1259.4
+    }
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "industry": "Internet Services & Infrastructure",
+    "metric": 129.6,
+    "price": 53.13,
+    "pe": -10.96,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 9886000000,
+     "revenue_growth_yoy_pct": 129.6,
+     "gross_margin_pct": 66.8,
+     "operating_margin_pct": -0.8,
+     "net_margin_pct": -25.6,
+     "eps_diluted": -4.31,
+     "ocf": 7197000000,
+     "fcf": -20421000000,
+     "fcf_margin_pct": -206.6
+    }
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "industry": "Electrical Components & Equipment",
+    "metric": 110.1,
+    "price": 191.99,
+    "pe": 119.03,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3820511000,
+     "revenue_growth_yoy_pct": 110.1,
+     "gross_margin_pct": 32.4,
+     "operating_margin_pct": 14.9,
+     "net_margin_pct": 13.7,
+     "eps_diluted": 1.64,
+     "ocf": 690968000,
+     "fcf": 436704000,
+     "fcf_margin_pct": 11.4
+    }
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "industry": "Communications Equipment",
+    "metric": 103.2,
+    "price": 596.62,
+    "pe": -7.66,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3742800000,
+     "revenue_growth_yoy_pct": 103.2,
+     "gross_margin_pct": 45.9,
+     "operating_margin_pct": 23.5,
+     "net_margin_pct": -175.8,
+     "eps_diluted": -77.83,
+     "ocf": 961200000,
+     "fcf": 356300000,
+     "fcf_margin_pct": 9.5
+    }
+   },
+   {
+    "ticker": "TLN",
+    "name": "Talen Energy",
+    "industry": "Independent Power Producers & Energy Traders",
+    "metric": 90.2,
+    "price": 376.01,
+    "pe": -65.45,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 4874000000,
+     "revenue_growth_yoy_pct": 90.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 1.6,
+     "net_margin_pct": -5.2,
+     "eps_diluted": -5.74,
+     "ocf": 770000000,
+     "fcf": 396000000,
+     "fcf_margin_pct": 8.1
+    }
+   },
+   {
+    "ticker": "BLK",
+    "name": "BlackRock",
+    "industry": "Asset Management & Custody Banks",
+    "metric": 86.9,
+    "price": 1222.91,
+    "pe": 29.16,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 28542000000,
+     "revenue_growth_yoy_pct": 86.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 32.5,
+     "net_margin_pct": 24.2,
+     "eps_diluted": 43.98,
+     "ocf": 5230000000,
+     "fcf": 4784000000,
+     "fcf_margin_pct": 16.8
+    }
+   },
+   {
+    "ticker": "WAT",
+    "name": "Waters",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 80.7,
+    "price": 460.25,
+    "pe": 198.43,
+    "ttm": {
+     "end": "2026-10-03",
+     "revenue": 5611362000,
+     "revenue_growth_yoy_pct": 80.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 4.7,
+     "net_margin_pct": 1.8,
+     "eps_diluted": 2.33,
+     "ocf": 479555000,
+     "fcf": 290810000,
+     "fcf_margin_pct": 5.2
+    }
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "industry": "Diversified Metals & Mining",
+    "metric": 71.6,
+    "price": 38.76,
+    "pe": -174.99,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 399479000,
+     "revenue_growth_yoy_pct": 71.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -20.5,
+     "net_margin_pct": -9.9,
+     "eps_diluted": -0.22,
+     "ocf": -54611000,
+     "fcf": -537267000,
+     "fcf_margin_pct": -134.5
+    }
+   },
+   {
+    "ticker": "CPT",
+    "name": "Camden Property Trust",
+    "industry": "Multi-Family Residential REITs",
+    "metric": 61.9,
+    "price": 99.15,
+    "pe": 9.28,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 14933000,
+     "revenue_growth_yoy_pct": 61.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 7484.5,
+     "eps_diluted": 10.74,
+     "ocf": 712828000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "industry": "Electronic Manufacturing Services",
+    "metric": 61.6,
+    "price": 240.34,
+    "pe": 22.73,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 18230200000,
+     "revenue_growth_yoy_pct": 61.6,
+     "gross_margin_pct": 11.5,
+     "operating_margin_pct": 8.3,
+     "net_margin_pct": 6.8,
+     "eps_diluted": 10.56,
+     "ocf": 1407500000,
+     "fcf": 545400000,
+     "fcf_margin_pct": 3.0
+    }
+   },
+   {
+    "ticker": "RKLB",
+    "name": "Rocket Lab",
+    "industry": "Aerospace & Defense",
+    "metric": 59.0,
+    "price": 61.53,
+    "pe": -169.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 881900000,
+     "revenue_growth_yoy_pct": 59.0,
+     "gross_margin_pct": 36.2,
+     "operating_margin_pct": -27.6,
+     "net_margin_pct": -25.7,
+     "eps_diluted": -0.36,
+     "ocf": -191785000,
+     "fcf": -325624000,
+     "fcf_margin_pct": -36.9
+    }
+   },
+   {
+    "ticker": "ARE",
+    "name": "Alexandria Real Estate Equities",
+    "industry": "Office REITs",
+    "metric": -9.9,
+    "price": 43.84,
+    "pe": -5.21,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2759402000,
+     "revenue_growth_yoy_pct": -9.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -51.8,
+     "eps_diluted": -8.42,
+     "ocf": 1187788000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "NVR",
+    "name": "NVR",
+    "industry": "Homebuilding",
+    "metric": -10.8,
+    "price": 5853.92,
+    "pe": 16.13,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 9322457000,
+     "revenue_growth_yoy_pct": -10.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 11.2,
+     "eps_diluted": 362.77,
+     "ocf": 851824000,
+     "fcf": 818245000,
+     "fcf_margin_pct": 8.8
+    }
+   },
+   {
+    "ticker": "ECHO",
+    "name": "EchoStar",
+    "industry": "Wireless Telecommunication Services",
+    "metric": -19.8,
+    "price": 100.0,
+    "pe": 3.65,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 12167278000,
+     "revenue_growth_yoy_pct": -19.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 2.3,
+     "net_margin_pct": 81.3,
+     "eps_diluted": 27.39,
+     "ocf": -83955000,
+     "fcf": -532754000,
+     "fcf_margin_pct": -4.4
+    }
+   },
+   {
+    "ticker": "COIN",
+    "name": "Coinbase",
+    "industry": "Financial Exchanges & Data",
+    "metric": -26.6,
+    "price": 127.65,
+    "pe": -44.91,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5629761000,
+     "revenue_growth_yoy_pct": -26.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 3.6,
+     "net_margin_pct": -12.5,
+     "eps_diluted": -2.8,
+     "ocf": 1409211000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   }
+  ]
+ }
+}
