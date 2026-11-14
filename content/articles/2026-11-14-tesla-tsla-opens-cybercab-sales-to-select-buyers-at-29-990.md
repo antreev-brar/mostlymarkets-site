@@ -16,6 +16,8 @@ sources = [
   "https://techxplore.com/news/2026-11-tesla-cybercab-sales-customers.html",
   "https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-now-available-purchase-060937273.html",
   "https://teslanorth.com/2026/11/13/tesla-cybercab-personal-purchase-invitations/",
+  "https://driveteslacanada.ca/news/tesla-cybercab-fleet-purchase-program/",
+  "https://runtimewire.com/article/tesla-opens-cybercab-fleet-purchase-interest-list",
 ]
 +++
 
