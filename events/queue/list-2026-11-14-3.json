@@ -1,0 +1,329 @@
+{
+ "id": "list-2026-11-14-3",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-14T15:01:37-05:00",
+ "expires": "2026-11-14T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Momentum Stocks We'd Skip and 1 We Like",
+ "instructions": "Theme: Momentum, screened on six-month price return. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-14T15:00:09-05:00",
+ "pack": {
+  "theme": "momentum",
+  "screen": "six-month price return",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "CRL",
+    "name": "Charles River Laboratories",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 124.0,
+    "price": 337.97,
+    "pe": 374.61,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3976867000,
+     "revenue_growth_yoy_pct": -1.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 4.0,
+     "net_margin_pct": 1.0,
+     "eps_diluted": 0.91,
+     "ocf": 622407000,
+     "fcf": 399634000,
+     "fcf_margin_pct": 10.0
+    }
+   },
+   {
+    "ticker": "BBY",
+    "name": "Best Buy",
+    "industry": "Computer & Electronics Retail",
+    "metric": 84.9,
+    "price": 104.07,
+    "pe": 17.28,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 42201000000,
+     "revenue_growth_yoy_pct": 1.4,
+     "gross_margin_pct": 22.7,
+     "operating_margin_pct": 4.1,
+     "net_margin_pct": 3.0,
+     "eps_diluted": 6.01,
+     "ocf": 2475000000,
+     "fcf": 1768000000,
+     "fcf_margin_pct": 4.2
+    }
+   },
+   {
+    "ticker": "SNOW",
+    "name": "Snowflake",
+    "industry": "Application Software",
+    "metric": 84.8,
+    "price": 291.0,
+    "pe": -91.67,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 5434647000,
+     "revenue_growth_yoy_pct": 32.0,
+     "gross_margin_pct": 67.0,
+     "operating_margin_pct": -22.8,
+     "net_margin_pct": -20.1,
+     "eps_diluted": -3.18,
+     "ocf": 1253253000,
+     "fcf": 1195274000,
+     "fcf_margin_pct": 22.0
+    }
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "industry": "Systems Software",
+    "metric": 72.3,
+    "price": 109.88,
+    "pe": -86.74,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 1542178000,
+     "revenue_growth_yoy_pct": 42.4,
+     "gross_margin_pct": 80.2,
+     "operating_margin_pct": -18.3,
+     "net_margin_pct": -16.5,
+     "eps_diluted": -1.26,
+     "ocf": 337064000,
+     "fcf": 303905000,
+     "fcf_margin_pct": 19.7
+    }
+   },
+   {
+    "ticker": "MTD",
+    "name": "Mettler Toledo",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 68.6,
+    "price": 1738.91,
+    "pe": 37.68,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 4198470000,
+     "revenue_growth_yoy_pct": 6.5,
+     "gross_margin_pct": 60.4,
+     "operating_margin_pct": null,
+     "net_margin_pct": 22.2,
+     "eps_diluted": 46.16,
+     "ocf": 984365000,
+     "fcf": 870567000,
+     "fcf_margin_pct": 20.7
+    }
+   },
+   {
+    "ticker": "CDW",
+    "name": "CDW",
+    "industry": "Technology Distributors",
+    "metric": 68.2,
+    "price": 171.65,
+    "pe": 20.01,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 24517500000,
+     "revenue_growth_yoy_pct": 10.9,
+     "gross_margin_pct": 21.0,
+     "operating_margin_pct": 7.0,
+     "net_margin_pct": 4.5,
+     "eps_diluted": 8.57,
+     "ocf": 1052300000,
+     "fcf": 933700000,
+     "fcf_margin_pct": 3.8
+    }
+   },
+   {
+    "ticker": "TECH",
+    "name": "Bio-Techne",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 68.1,
+    "price": 72.8,
+    "pe": 66.61,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1228196000,
+     "revenue_growth_yoy_pct": 0.9,
+     "gross_margin_pct": 65.8,
+     "operating_margin_pct": 19.6,
+     "net_margin_pct": 14.0,
+     "eps_diluted": 1.09,
+     "ocf": 337601000,
+     "fcf": 308197000,
+     "fcf_margin_pct": 25.1
+    }
+   },
+   {
+    "ticker": "RVTY",
+    "name": "Revvity",
+    "industry": "Health Care Equipment",
+    "metric": 64.3,
+    "price": 154.39,
+    "pe": 68.59,
+    "ttm": {
+     "end": "2026-10-04",
+     "revenue": 2941761000,
+     "revenue_growth_yoy_pct": 4.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 12.6,
+     "net_margin_pct": 8.6,
+     "eps_diluted": 2.26,
+     "ocf": 655837000,
+     "fcf": 590472000,
+     "fcf_margin_pct": 20.1
+    }
+   },
+   {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "industry": "Health Care Technology",
+    "metric": 63.0,
+    "price": 71.6,
+    "pe": -67.61,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1509350000,
+     "revenue_growth_yoy_pct": 36.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -18.5,
+     "net_margin_pct": -12.5,
+     "eps_diluted": -1.06,
+     "ocf": -108374000,
+     "fcf": -136794000,
+     "fcf_margin_pct": -9.1
+    }
+   },
+   {
+    "ticker": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 59.7,
+    "price": 700.22,
+    "pe": 36.97,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 47351000000,
+     "revenue_growth_yoy_pct": 8.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 17.9,
+     "net_margin_pct": 14.9,
+     "eps_diluted": 18.96,
+     "ocf": 9324000000,
+     "fcf": 7596000000,
+     "fcf_margin_pct": 16.0
+    }
+   },
+   {
+    "ticker": "IQV",
+    "name": "IQVIA",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 56.8,
+    "price": 265.12,
+    "pe": 32.2,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 17311000000,
+     "revenue_growth_yoy_pct": 8.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 12.8,
+     "net_margin_pct": 8.1,
+     "eps_diluted": 8.23,
+     "ocf": 2736000000,
+     "fcf": 2079000000,
+     "fcf_margin_pct": 12.0
+    }
+   },
+   {
+    "ticker": "FDS",
+    "name": "FactSet",
+    "industry": "Financial Exchanges & Data",
+    "metric": 56.5,
+    "price": 332.69,
+    "pe": 22.86,
+    "ttm": {
+     "end": "2026-08-31",
+     "revenue": 2476256000,
+     "revenue_growth_yoy_pct": 6.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 28.3,
+     "net_margin_pct": 21.5,
+     "eps_diluted": 14.55,
+     "ocf": 822200000,
+     "fcf": 707480000,
+     "fcf_margin_pct": 28.6
+    }
+   },
+   {
+    "ticker": "RKLB",
+    "name": "Rocket Lab",
+    "industry": "Aerospace & Defense",
+    "metric": -50.7,
+    "price": 61.53,
+    "pe": -169.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 881900000,
+     "revenue_growth_yoy_pct": 59.0,
+     "gross_margin_pct": 36.2,
+     "operating_margin_pct": -27.6,
+     "net_margin_pct": -25.7,
+     "eps_diluted": -0.36,
+     "ocf": -191785000,
+     "fcf": -325624000,
+     "fcf_margin_pct": -36.9
+    }
+   },
+   {
+    "ticker": "JOBY",
+    "name": "Joby Aviation",
+    "industry": "Passenger Airlines",
+    "metric": -51.0,
+    "price": 5.08,
+    "pe": -7.04,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 148810000,
+     "revenue_growth_yoy_pct": 557.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -658.1,
+     "net_margin_pct": -462.8,
+     "eps_diluted": -0.73,
+     "ocf": -639386000,
+     "fcf": -784494000,
+     "fcf_margin_pct": -527.2
+    }
+   },
+   {
+    "ticker": "NIO",
+    "name": "NIO",
+    "industry": "Automobile Manufacturers",
+    "metric": -52.5,
+    "price": 2.9,
+    "pe": -11.28,
+    "ttm": {}
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "industry": "Alternative Carriers",
+    "metric": -61.0,
+    "price": 32.6,
+    "pe": -15.28,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 142881000,
+     "revenue_growth_yoy_pct": 411.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -439.7,
+     "eps_diluted": -2.13,
+     "ocf": -249508000,
+     "fcf": -1799400000,
+     "fcf_margin_pct": -1259.4
+    }
+   }
+  ]
+ }
+}
