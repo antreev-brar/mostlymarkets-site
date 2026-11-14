@@ -2140,6 +2140,14 @@
 "COST"
 ]
 },
+"news-COST-2026-11-14-walmart-just-took-another-step-to-beat-c": {
+"created": "2026-11-14T10:01:39-05:00",
+"day": "2026-11-14",
+"kind": "news",
+"tickers": [
+"COST"
+]
+},
 "news-CRWD-2026-11-03-crowdstrike-extends-anthropic-s-claude-c": {
 "created": "2026-11-03T05:01:42-05:00",
 "day": "2026-11-03",
@@ -4532,6 +4540,12 @@
 "viewpoints-2026-11-13": {
 "created": "2026-11-13T10:01:17-05:00",
 "day": "2026-11-13",
+"kind": "viewpoints",
+"tickers": []
+},
+"viewpoints-2026-11-14": {
+"created": "2026-11-14T10:01:39-05:00",
+"day": "2026-11-14",
 "kind": "viewpoints",
 "tickers": []
 },

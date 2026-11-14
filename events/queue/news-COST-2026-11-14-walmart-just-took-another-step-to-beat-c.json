@@ -1,0 +1,88 @@
+{
+ "id": "news-COST-2026-11-14-walmart-just-took-another-step-to-beat-c",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-14T10:01:39-05:00",
+ "expires": "2026-11-14T20:01:39-05:00",
+ "tickers": [
+  "COST"
+ ],
+ "headline_hint": "Costco: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-14T10:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Walmart just took another step to beat Costco that could backfire",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHk4VEJoUllSaU1vbXo5bW4xX25WeUtTVEJTTy1VaUZING8zeUpBTlAtY3UwVmVZSFZ1ZjZwSl91ZFVaZmEwSGRSZlFkUWhtV3Bubk5rZUoxWGtJQzRuQ2VOSEI5algzZFFyeERpZFdGc19OS19OWFlQeFZ0aUFTaXpBck1IVHhwSHFIQzFucVpvM3NJbmp2TURndw?oc=5",
+    "published": "2026-11-14T09:33:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Costco Wholesale (COST) Director Resigned After Winning Rhode Island Governor Race",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUxDcUlZcER5cVJMSG5TS2ZqcE54clVvUTVpRnd0b2g2WW0tMFl4Q3ZPVnNGa29aSE9TVEszeFJWbzZaTVBCWjRPZE9KNFo0Q0RhOF9udktlSE1OMWRxT3NIVjZqSTIzQnpSV2M1VlJndFZETGVUQTdCc1hvVEFiWURPdkRBWmNCVndCTFR0ZDlWNVoxOWd5ZkZJVm43WFpkX294YlJmOA?oc=5",
+    "published": "2026-11-14T07:11:18-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 1106.21,
+   "change_pct": 1.28,
+   "prev_close": 1092.21,
+   "time": "2026-11-13",
+   "mktcap": "490.194B",
+   "pe": 53.29,
+   "fpe": 48.5,
+   "yr_high": 1109.5,
+   "yr_low": 844.06,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 1105.8,
+    "change_pct": -0.04,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "COST",
+   "name": "Costco",
+   "date": "2026-11-13",
+   "close": 1106.21,
+   "prev_close": 1092.21,
+   "change_pct": 1.28,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 72,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 2.01
+   },
+   "ytd_pct": 28.28,
+   "return_1m_pct": 13.11,
+   "return_6m_pct": 5.46,
+   "return_1y_pct": 21.03,
+   "high_52w": {
+    "close": 1106.21,
+    "date": "2026-11-13"
+   },
+   "low_52w": {
+    "close": 850.0,
+    "date": "2025-12-22"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 2139,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 1875259,
+   "volume_vs_20d_avg": 0.79,
+   "sentences": [
+    "Costco's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 2.0%.",
+    "The stock is up 28.3% this year, and at $1,106.21 it sits 0.0% below its 52-week closing high of $1,106.21 from 13 November 2026.",
+    "$1,000 invested in Costco five years ago would be worth $2,139 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
