@@ -708,6 +708,13 @@
 "theme": "fast-growers",
 "tickers": []
 },
+"list-2026-11-14-1": {
+"created": "2026-11-14T08:01:48-05:00",
+"day": "2026-11-14",
+"kind": "list",
+"theme": "after-earnings",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -2112,6 +2119,14 @@
 "news-COST-2026-11-06-mapping-the-market-costco-has-momentum-t": {
 "created": "2026-11-06T06:15:13-05:00",
 "day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"COST"
+]
+},
+"news-COST-2026-11-14-costco-wholesale-cost-director-resigned": {
+"created": "2026-11-14T08:01:48-05:00",
+"day": "2026-11-14",
 "kind": "news",
 "tickers": [
 "COST"
