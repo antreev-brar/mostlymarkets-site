@@ -721,6 +721,13 @@
 "theme": "after-earnings",
 "tickers": []
 },
+"list-2026-11-14-2": {
+"created": "2026-11-14T12:01:46-05:00",
+"day": "2026-11-14",
+"kind": "list",
+"theme": "dividend-payers",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -1955,6 +1962,14 @@
 "kind": "news",
 "tickers": [
 "AXP"
+]
+},
+"news-BA-2026-11-14-boeing-retiree-weighs-working-again-as-c": {
+"created": "2026-11-14T12:01:46-05:00",
+"day": "2026-11-14",
+"kind": "news",
+"tickers": [
+"BA"
 ]
 },
 "news-BABA-2026-11-02-alibaba-group-holding-limited-baba-stock": {

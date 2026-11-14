@@ -1,0 +1,318 @@
+{
+ "id": "list-2026-11-14-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-14T12:01:46-05:00",
+ "expires": "2026-11-14T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "2 Dividend Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Dividend, screened on dividend yield, with free cash flow covering the payout. Pick 2 to like and 1 to skip from pack.candidates (picks block: like: A, B / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-14T12:00:11-05:00",
+ "pack": {
+  "theme": "dividend-payers",
+  "screen": "dividend yield, with free cash flow covering the payout",
+  "like": 2,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "ARE",
+    "name": "Alexandria Real Estate Equities",
+    "industry": "Office REITs",
+    "metric": 6.57,
+    "price": 43.84,
+    "pe": -5.21,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2759402000,
+     "revenue_growth_yoy_pct": -9.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -51.8,
+     "eps_diluted": -8.42,
+     "ocf": 1187788000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "KHC",
+    "name": "Kraft Heinz",
+    "industry": "Packaged Foods & Meats",
+    "metric": 6.37,
+    "price": 25.11,
+    "pe": -8.58,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 24778000000,
+     "revenue_growth_yoy_pct": -1.5,
+     "gross_margin_pct": 33.5,
+     "operating_margin_pct": -13.4,
+     "net_margin_pct": -14.0,
+     "eps_diluted": -2.92,
+     "ocf": 4336000000,
+     "fcf": 3532000000,
+     "fcf_margin_pct": 14.3
+    }
+   },
+   {
+    "ticker": "DOC",
+    "name": "Healthpeak Properties",
+    "industry": "Health Care REITs",
+    "metric": 6.11,
+    "price": 19.98,
+    "pe": 36.78,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3064825000,
+     "revenue_growth_yoy_pct": 9.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 12.3,
+     "eps_diluted": 0.54,
+     "ocf": 1270524000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "VZ",
+    "name": "Verizon",
+    "industry": "Integrated Telecommunication Services",
+    "metric": 6.1,
+    "price": 46.36,
+    "pe": 11.83,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 139387000000,
+     "revenue_growth_yoy_pct": 1.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 20.9,
+     "net_margin_pct": 11.8,
+     "eps_diluted": 3.92,
+     "ocf": 39050000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "UPS",
+    "name": "United Parcel Service",
+    "industry": "Air Freight & Logistics",
+    "metric": 5.84,
+    "price": 112.4,
+    "pe": 21.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 91368000000,
+     "revenue_growth_yoy_pct": 2.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 7.1,
+     "net_margin_pct": 4.8,
+     "eps_diluted": 5.19,
+     "ocf": 9288000000,
+     "fcf": 6351000000,
+     "fcf_margin_pct": 7.0
+    }
+   },
+   {
+    "ticker": "EIX",
+    "name": "Edison International",
+    "industry": "Electric Utilities",
+    "metric": 5.83,
+    "price": 60.18,
+    "pe": 7.88,
+    "ttm": {}
+   },
+   {
+    "ticker": "MO",
+    "name": "Altria",
+    "industry": "Tobacco",
+    "metric": 5.65,
+    "price": 78.64,
+    "pe": 16.24,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 23517000000,
+     "revenue_growth_yoy_pct": 0.5,
+     "gross_margin_pct": 63.3,
+     "operating_margin_pct": 47.0,
+     "net_margin_pct": 34.5,
+     "eps_diluted": 4.84,
+     "ocf": 9422000000,
+     "fcf": 9071000000,
+     "fcf_margin_pct": 38.6
+    }
+   },
+   {
+    "ticker": "RIO",
+    "name": "Rio Tinto",
+    "industry": "Diversified Metals & Mining",
+    "metric": 5.61,
+    "price": 82.95,
+    "pe": 11.24,
+    "ttm": {}
+   },
+   {
+    "ticker": "O",
+    "name": "Realty Income",
+    "industry": "Retail REITs",
+    "metric": 5.53,
+    "price": 58.82,
+    "pe": 40.57,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6205962000,
+     "revenue_growth_yoy_pct": 10.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 22.9,
+     "eps_diluted": 1.45,
+     "ocf": 4148994000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "IP",
+    "name": "International Paper",
+    "industry": "Paper & Plastic Packaging Products & Materials",
+    "metric": 5.37,
+    "price": 34.43,
+    "pe": -5.36,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 24178000000,
+     "revenue_growth_yoy_pct": 12.2,
+     "gross_margin_pct": 29.8,
+     "operating_margin_pct": null,
+     "net_margin_pct": -14.3,
+     "eps_diluted": -6.56,
+     "ocf": 2381000000,
+     "fcf": 75000000,
+     "fcf_margin_pct": 0.3
+    }
+   },
+   {
+    "ticker": "HRL",
+    "name": "Hormel Foods",
+    "industry": "Packaged Foods & Meats",
+    "metric": 5.3,
+    "price": 22.09,
+    "pe": 35.51,
+    "ttm": {
+     "end": "2026-07-26",
+     "revenue": 12146911000,
+     "revenue_growth_yoy_pct": 0.7,
+     "gross_margin_pct": 15.7,
+     "operating_margin_pct": 4.7,
+     "net_margin_pct": 2.8,
+     "eps_diluted": 0.63,
+     "ocf": 1091658000,
+     "fcf": 780869000,
+     "fcf_margin_pct": 6.4
+    }
+   },
+   {
+    "ticker": "CMCSA",
+    "name": "Comcast",
+    "industry": "Cable & Satellite",
+    "metric": 5.25,
+    "price": 25.16,
+    "pe": 7.98,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 123005000000,
+     "revenue_growth_yoy_pct": -0.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 14.7,
+     "net_margin_pct": 9.2,
+     "eps_diluted": 3.16,
+     "ocf": 31727000000,
+     "fcf": 19667000000,
+     "fcf_margin_pct": 16.0
+    }
+   },
+   {
+    "ticker": "TXT",
+    "name": "Textron",
+    "industry": "Aerospace & Defense",
+    "metric": 0.1,
+    "price": 83.65,
+    "pe": 15.04,
+    "ttm": {
+     "end": "2026-10-03",
+     "revenue": 15448000000,
+     "revenue_growth_yoy_pct": 8.5,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 6.3,
+     "eps_diluted": 5.56,
+     "ocf": 1312000000,
+     "fcf": 809000000,
+     "fcf_margin_pct": 5.2
+    }
+   },
+   {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "industry": "Industrial Machinery & Supplies & Components",
+    "metric": 0.09,
+    "price": 85.06,
+    "pe": 24.01,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 8052100000,
+     "revenue_growth_yoy_pct": 8.0,
+     "gross_margin_pct": 43.1,
+     "operating_margin_pct": 22.9,
+     "net_margin_pct": 17.2,
+     "eps_diluted": 3.55,
+     "ocf": 1642400000,
+     "fcf": 1517100000,
+     "fcf_margin_pct": 18.8
+    }
+   },
+   {
+    "ticker": "PWR",
+    "name": "Quanta Services",
+    "industry": "Construction & Engineering",
+    "metric": 0.07,
+    "price": 602.01,
+    "pe": 54.53,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 37288609000,
+     "revenue_growth_yoy_pct": 37.1,
+     "gross_margin_pct": 15.8,
+     "operating_margin_pct": 6.8,
+     "net_margin_pct": 4.5,
+     "eps_diluted": 11.04,
+     "ocf": 4068494000,
+     "fcf": 3155895000,
+     "fcf_margin_pct": 8.5
+    }
+   },
+   {
+    "ticker": "MGM",
+    "name": "MGM Resorts",
+    "industry": "Casinos & Gaming",
+    "metric": 0.03,
+    "price": 33.49,
+    "pe": 12.88,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 17722869000,
+     "revenue_growth_yoy_pct": 2.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 7.0,
+     "net_margin_pct": 3.9,
+     "eps_diluted": 2.62,
+     "ocf": 2314061000,
+     "fcf": 1399900000,
+     "fcf_margin_pct": 7.9
+    }
+   }
+  ]
+ }
+}
