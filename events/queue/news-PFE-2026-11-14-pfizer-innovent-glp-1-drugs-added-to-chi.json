@@ -1,0 +1,92 @@
+{
+ "id": "news-PFE-2026-11-14-pfizer-innovent-glp-1-drugs-added-to-chi",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-14T04:01:37-05:00",
+ "expires": "2026-11-14T14:01:37-05:00",
+ "tickers": [
+  "PFE"
+ ],
+ "headline_hint": "Pfizer: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-14T04:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Key facts: Pfizer secures up to $1.5B; ends Premarin in Canada",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:c05060b85b281:0-key-facts-pfizer-secures-up-to-1-5b-ends-premarin-in-canada/",
+    "published": "2026-11-14T03:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Pfizer, Innovent GLP-1 drugs added to China national insurance for diabetes",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46V03L:0-pfizer-innovent-glp-1-drugs-added-to-china-national-insurance-for-diabetes/",
+    "published": "2026-11-14T01:32:02-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 28.89,
+   "change_pct": 0.21,
+   "prev_close": 28.83,
+   "time": "2026-11-13",
+   "mktcap": "164.669B",
+   "pe": 41.27,
+   "fpe": 10.36,
+   "yr_high": 31.44,
+   "yr_low": 23.62,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 28.93,
+    "change_pct": 0.13,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "PFE",
+   "name": "Pfizer",
+   "date": "2026-11-13",
+   "close": 28.89,
+   "prev_close": 28.83,
+   "change_pct": 0.21,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 215,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 0.31
+   },
+   "ytd_pct": 16.02,
+   "return_1m_pct": -1.87,
+   "return_6m_pct": 14.05,
+   "return_1y_pct": 11.67,
+   "high_52w": {
+    "close": 30.79,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 23.67,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 6.17,
+   "thousand_dollars_5y_ago_now": 581,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 20512938,
+   "volume_vs_20d_avg": 0.58,
+   "sentences": [
+    "Pfizer's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 0.3%.",
+    "The stock is up 16.0% this year, and at $28.89 it sits 6.2% below its 52-week closing high of $30.79 from 4 November 2026.",
+    "$1,000 invested in Pfizer five years ago would be worth $581 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-08/eli-lilly-lly-is-worth-1-3-trillion-on-one-molecule-how-long-can-it-last/",
+   "/news/2026-11-06/3-dividend-stocks-we-like-and-1-wed-skip/",
+   "/news/2026-11-03/pfizer-pfe-beats-q3-estimates-and-raises-its-2026-forecast/"
+  ]
+ }
+}
