@@ -88,5 +88,8 @@
    "/news/2026-11-06/3-dividend-stocks-we-like-and-1-wed-skip/",
    "/news/2026-11-03/pfizer-pfe-beats-q3-estimates-and-raises-its-2026-forecast/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-14T06:40:50-05:00",
+ "reason": "not material: a China insurance listing for one diabetes drug is small for Pfizer's numbers, and only Reuters confirms the final listing"
 }
