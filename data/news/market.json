@@ -1,0 +1,561 @@
+{
+ "ticker": "MARKET",
+ "updated": "2026-11-14T14:03:59-05:00",
+ "items": [
+  {
+   "id": "10ab3d931d5ff5e49f193c78c056ce8d277ec9d0",
+   "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+   "published": "2026-11-14T13:48:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e878c343827a9efde8280e94d1a01c2e3e31ad2",
+   "title": "The trillion-dollar mistake corporate America is making about retirement",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996",
+   "published": "2026-11-14T12:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9d653831610f85973c747e931add4673128aa31f",
+   "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f",
+   "published": "2026-11-14T12:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8a85b24f7aa716519c7acf0aca0ea5b0e262670a",
+   "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e",
+   "published": "2026-11-14T12:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9a2034b630808d916fce38b77b40bd795e9f7ccc",
+   "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "published": "2026-11-14T12:46:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "63e56ee5c80ff5ee54b365eebfd675f95908a23e",
+   "title": "Novo's Wegovy pill helps patients lose about 6% of weight in three months, real-world data show",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T0WG:0-novo-s-wegovy-pill-helps-patients-lose-about-6-of-weight-in-three-months-real-world-data-show/",
+   "published": "2026-11-14T12:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "906dc18ff970e12e8e83d621c718f96785c4fc34",
+   "title": "Eli Lilly Phase 2 Data Showed Eloratzp Delivered Weight Loss Of Up To Average Of 54.1 Lbs (23.3%) At 48 Weeks In Adults With Obesity, Type 2 Diabetes",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N44303A:0-eli-lilly-phase-2-data-showed-eloratzp-delivered-weight-loss-of-up-to-average-of-54-1-lbs-23-3-at-48-weeks-in-adults-with-obesity-type-2-diabetes/",
+   "published": "2026-11-14T12:01:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "75413b4d22947e620f03ac4985e763bed322309b",
+   "title": "Lilly says its obesity drugs helped patients lose weight in clinical trials",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46U17E:0-lilly-says-its-obesity-drugs-helped-patients-lose-weight-in-clinical-trials/",
+   "published": "2026-11-14T12:01:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "90efe7abd3ca47fe8b534f5f53d521092e3acb0d",
+   "title": "Ground stop followed updates to older L3Harris communication system: DOT’s Duffy",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+   "published": "2026-11-14T11:18:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "90e0a44e38f725c3be3e22edf1fc17463d3af736",
+   "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+   "published": "2026-11-14T10:50:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3f887a4ae9199ce2a379d259862e2364d73e6428",
+   "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+   "published": "2026-11-14T10:14:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0a02f5847f15e824423eaf54dd98e10a7307ec7f",
+   "title": "Musk says Nvidia will lose 'critical' deals without Jensen Huang",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46V06I:0-musk-says-nvidia-will-lose-critical-deals-without-jensen-huang/",
+   "published": "2026-11-14T09:46:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "78267cc5a44b0c82b98a899df802e53609430aac",
+   "title": "Elon Musk Says Jensen Drove Supply Chain Brilliantly At Nvidia, But Many Of Those Deals Were A Handshake With Jensen, Not A Written Contract",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46V001:0-elon-musk-says-jensen-drove-supply-chain-brilliantly-at-nvidia-but-many-of-those-deals-were-a-handshake-with-jensen-not-a-written-contract/",
+   "published": "2026-11-14T09:38:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cafdcfb9c10c9fa674b0c6d6f1a8c20b27844145",
+   "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+   "published": "2026-11-14T09:30:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4445b1a56a321a9ed2dbdb0ae472c1755cd0b00c",
+   "title": "Bank of America says these stocks have major upside potential in an uncertain market",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/stocks-with-upside-potential-in-an-uncertain-market.html",
+   "published": "2026-11-14T09:13:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "38c78f2b3a0f4f1e19050f8648453340c14ebdb8",
+   "title": "How Canadian stocks could be big winners of U.S. midterms",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/canada-stocks-us-midterms-tariffs.html",
+   "published": "2026-11-14T09:11:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c3b558a2b152810a242ffd0b70dce88268083823",
+   "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+   "published": "2026-11-14T09:02:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc0c1051e2db10a129fa2a0971e49eb5f85e19d7",
+   "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd",
+   "published": "2026-11-14T08:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6a4f5de70a30259492d62735861c3596c040877c",
+   "title": "These 6 battered AI stocks could bounce back big, an analyst says",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24",
+   "published": "2026-11-14T08:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9be82a0bb899144b2ab74c3b43e594cd895121ed",
+   "title": "Italy fines Meta $887 million over Android users' data access",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46V0AZ:0-italy-fines-meta-887-million-over-android-users-data-access/",
+   "published": "2026-11-14T07:18:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "340879c876707987d7f306a9c093341e8c35f146",
+   "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521",
+   "published": "2026-11-14T07:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d909cc764459f18ed1171390781d8ebd4d726a4c",
+   "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html",
+   "published": "2026-11-14T03:16:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d29d43d990e2472662d6160b270ccfde03971175",
+   "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "published": "2026-11-14T03:11:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "72d538e5c41e4af755965cbf711f23a268d70b25",
+   "title": "Microsoft says all services restored after global outage",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46V01U:0-microsoft-says-all-services-restored-after-global-outage/",
+   "published": "2026-11-14T01:49:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bce2e1a5ed4eac3bc2759ff8e0eafca2f63d3085",
+   "title": "Pfizer, Innovent GLP-1 drugs added to China national insurance for diabetes",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46V03L:0-pfizer-innovent-glp-1-drugs-added-to-china-national-insurance-for-diabetes/",
+   "published": "2026-11-14T01:32:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "85c2dba887cf6a3b0d50677284a33c9226faf35a",
+   "title": "Microsoft says consumer products services recovered on Friday",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46V06F:0-microsoft-says-consumer-products-services-recovered-on-friday/",
+   "published": "2026-11-14T00:10:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8e5402f47dd773110994bda94d48928ef4f7a6d",
+   "title": "Microsoft says affected services fully recovered",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EJ:0-microsoft-says-affected-services-fully-recovered/",
+   "published": "2026-11-13T22:59:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a0d1dddd2a363f1d784f9d16cedb0f9de721758",
+   "title": "Nvidia fallout throws spotlight on Southeast Asia's AI boom",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46V02L:0-nvidia-fallout-throws-spotlight-on-southeast-asia-s-ai-boom/",
+   "published": "2026-11-13T22:40:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "40f871d1a5a39108b9d7e247930b2dbd19af7f8c",
+   "title": "14 dividend stocks selected for long-term growth",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d",
+   "published": "2026-11-13T20:58:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fb6439c21542d974344cba6528f46dc7967c9067",
+   "title": "The Next Wave of Food Inflation Is Coming",
+   "source": "WSJ",
+   "url": "https://www.wsj.com/economy/consumers/the-next-wave-of-food-inflation-is-coming-b06f37db",
+   "published": "2026-11-13T20:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "be9027e9137ab9a0dd9b159673d473e82951940a",
+   "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+   "published": "2026-11-13T19:56:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "26e26b5439bdfa55ed4eb649fce0683c3941fd3b",
+   "title": "OpenAI: Errors Affecting The Microsoft 365 Connector Resolved",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1DU:0-openai-errors-affecting-the-microsoft-365-connector-resolved/",
+   "published": "2026-11-13T19:27:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "14650d85455f260d6df4ccd5cfcb2507393bed34",
+   "title": "Microsoft Says No Indication That FAA’s Nationwide Ground Stop Is Related To Any Microsoft Services",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1DT:0-microsoft-says-no-indication-that-faa-s-nationwide-ground-stop-is-related-to-any-microsoft-services/",
+   "published": "2026-11-13T18:57:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ae3217570306e2c9696a2cee1cf04c714544f3ff",
+   "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+   "published": "2026-11-13T18:54:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3d479ba367daeac0cbe4881c47c11e14bc4a2a2e",
+   "title": "Tesla Robotaxi: Select Customers Are Now Being Invited To Purchase Cybercab For Personal Use",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2HB:0-tesla-robotaxi-select-customers-are-now-being-invited-to-purchase-cybercab-for-personal-use/",
+   "published": "2026-11-13T18:43:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d59d8b283071a9bc295a9b08459aa35113843c8a",
+   "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U188:0-stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session/",
+   "published": "2026-11-13T18:42:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "published": "2026-11-13T18:42:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e0fc81b2bdf910d32a65cf90eec5f8832848363d",
+   "title": "Soros Fund ramps up Intel stake to over $340 million in third quarter",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46U22T:0-soros-fund-ramps-up-intel-stake-to-over-340-million-in-third-quarter/",
+   "published": "2026-11-13T18:34:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1eceb576c92ff34b5ebeecf93670f484be2728b4",
+   "title": "Grades steady as global oil markets set to return to surplus",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U18R:0-grades-steady-as-global-oil-markets-set-to-return-to-surplus/",
+   "published": "2026-11-13T17:34:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "58e8372f7e1842cccfee847ed52c8ea4ed2098d6",
+   "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e",
+   "published": "2026-11-13T17:21:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "144650ff8d44722cc1793e876e76b1eae10d42c8",
+   "title": "Oil Futures End Week Lower",
+   "source": "WSJ",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-slips-again-as-traders-weigh-diplomacy-hopes-808f1641",
+   "published": "2026-11-13T17:20:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "114b36ab1d27fb608c6d120c993579a5b34c4042",
+   "title": "AT&T sues Comcast over 'fiber-powered' internet advertising",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U187:0-at-t-sues-comcast-over-fiber-powered-internet-advertising/",
+   "published": "2026-11-13T17:19:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "094e18ee8d37c80ed9072204696c4228f5b78538",
+   "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8",
+   "published": "2026-11-13T17:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f0260524b237ac96ad6bfa1fcf20743e355a7ddd",
+   "title": "Investors flock to Anthropic IPO but question durability of AI lead",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T18K:0-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead/",
+   "published": "2026-11-13T16:59:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d3b722d82e2636a1d52237320e7b94348422eeee",
+   "title": "Wall Street ends a strong week with a daily decline",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U17Z:0-wall-street-ends-a-strong-week-with-a-daily-decline/",
+   "published": "2026-11-13T16:52:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7bbce77cc559aa592824dfdf0d5c445a37ac35a7",
+   "title": "Dollar set for best week in two months, yen weakens toward 160",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U17B:0-dollar-set-for-best-week-in-two-months-yen-weakens-toward-160/",
+   "published": "2026-11-13T16:52:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "651952f48421cd883a58b7d7d53bebcc7b3425af",
+   "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+   "published": "2026-11-13T16:44:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1ab7bcba15260b7da164c48108b3b3ef562bcad7",
+   "title": "KeyCorp Provides Notice Of Redemption Of Series E Preferred Stock",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUAW4PDH:0-keycorp-provides-notice-of-redemption-of-series-e-preferred-stock/",
+   "published": "2026-11-13T16:36:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dc5dfa02a04414bf5b4faf196660fd30b41dd67c",
+   "title": "Lowe's Companies - Declares QTRLY Cash Dividend Of $1.25 Per Share Payable Feb 3, 2027",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1DB:0-lowe-s-companies-declares-qtrly-cash-dividend-of-1-25-per-share-payable-feb-3-2027/",
+   "published": "2026-11-13T16:36:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d8fd8dbe4f6aa55d7d01d5eb35b393f0e4aad1ab",
+   "title": "Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+   "published": "2026-11-13T16:34:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a0155649789f3a9b697f6325374efb0471274257",
+   "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U16Z:0-s-p-500-nasdaq-end-lower-as-nvidia-uncertainty-weighs-on-tech-shares/",
+   "published": "2026-11-13T16:34:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "82dcca48dc1f654be65f38d9b67c0b9f90d175af",
+   "title": "U.S. Stocks Mixed on Nvidia Fallout Fears",
+   "source": "WSJ",
+   "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-on-nvidia-fallout-fears-f9946e8d",
+   "published": "2026-11-13T16:33:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2936ce2633f6a4b5346adab75402d82e6dec7943",
+   "title": "Incyte - Will Not Proceed With Phase 3 Maestra-3 Study Of Incb123667 In Ovarian Cancer",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2E6:0-incyte-will-not-proceed-with-phase-3-maestra-3-study-of-incb123667-in-ovarian-cancer/",
+   "published": "2026-11-13T16:32:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "894b5fd8258ebac1d7e31779a3d624532df7f3ce",
+   "title": "Trump says ex Apple CEO Cook should replace Huang at Nvidia",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T1IU:0-trump-says-ex-apple-ceo-cook-should-replace-huang-at-nvidia/",
+   "published": "2026-11-12T10:29:52-05:00",
+   "also": [
+    "CNBC"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3b9e89cb89a29654a65b5b81311293500091d542",
+   "title": "Nvidia CEO Jensen Huang resigns, Colette Kress named interim chief: Live updates",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+   "published": "2026-11-12T08:58:15-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c25dff373aac874218896c97d794d681116d82a7",
+   "title": "Nvidia Board Meeting Wednesday To Decide Whether To Oust CEO Jensen Huang - Source",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46S1QV:0-nvidia-board-meeting-wednesday-to-decide-whether-to-oust-ceo-jensen-huang-source/",
+   "published": "2026-11-11T18:22:25-05:00",
+   "also": [
+    "CNBC"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9d0d461811048aef445b2252cddfad176bb2e018",
+   "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks further",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+   "published": "2026-11-11T17:42:05-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7290b0c33712b6f1c483d1a52a80e4e3aecbd3eb",
+   "title": "Nasdaq futures jump as CoreWeave earnings beat drives global tech rebound: Live updates",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html",
+   "published": "2026-11-11T04:19:37-05:00",
+   "also": [
+    "WSJ"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e7c92c10bacb0557ec9adca066aadb2a4d0f3bb9",
+   "title": "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected",
+   "source": "WSJ",
+   "url": "https://www.wsj.com/livecoverage/stock-market-cpi-inflation-11-10-2026",
+   "published": "2026-11-10T05:01:59-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "26a78b8c98a3d9d9343b81415ae16eaec92eff5c",
+   "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "published": "2026-11-08T15:50:54-05:00",
+   "also": [
+    "MarketWatch",
+    "Reuters"
+   ],
+   "kind": "news"
+  }
+ ]
+}

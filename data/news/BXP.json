@@ -1,0 +1,52 @@
+{
+ "ticker": "BXP",
+ "updated": "2026-11-13T06:06:41-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "c8b8c96bed99d6a182add30616bbfae455e219bc",
+   "title": "BXP 10-Q & SEC Filings",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yaTYwbVpjdE5JcXlHR2FRMk1Ya21PSkpkMDlObXJFWGhkc0RreS1qWEVjRTlmUkpUbGMyZnZoSzZINERNN2hPY3lkV1BmVmdFZVJSWUVDbXZ6bWlIeG5WcklWMTdDNzkzMTI2aDVoZ1VzZVpJeXVpRQ?oc=5",
+   "published": "2026-11-06T23:11:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "71d44389d1792b7451b78de77c4c0b34168d2512",
+   "title": "BXP files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm",
+   "published": "2026-11-06T10:47:22-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "2725de2492c76a6a8127d04409b6636d6450156f",
+   "title": "Jefferies Adjusts Price Target on BXP to $70 From $66",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRk5HRG4wZ3lLNEFVemRfU0htNGs3UnZma2NRR0t3eGctbVpRdGZKRDRqczBmcHlFbXEySHh0R0NJNFRfUGVnUk5FLU1sbWJtamJXMkpZeGR1Tzh0dFFQNUlMNXloVWJoVUNLY0xkTEhWLXNvQ0lKRVlKQWgtTFJsZjJyRGNpT1RWVWRBcjluNC10MEZDUGpmcjE0TEJMeHN5?oc=5",
+   "published": "2026-11-02T06:46:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e154d9d5bf3ea963b523417875b30ddfa98c6869",
+   "title": "Weekly Recap: Q3 Revenue and FFO Growth and Leasing and Occupancy Gains",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f1ca1e746f770:0-weekly-recap-q3-revenue-and-ffo-growth-and-leasing-and-occupancy-gains/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "874f4a899a265fdea5cf8a22eb1b50af487be957",
+   "title": "Weil Gotshal's Demise Created a Surprise NYC Office Windfall",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030010266:0-weil-gotshal-s-demise-created-a-surprise-nyc-office-windfall-wsj/",
+   "published": "2026-10-30T15:36:00-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

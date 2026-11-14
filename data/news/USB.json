@@ -1,0 +1,369 @@
+{
+ "ticker": "USB",
+ "updated": "2026-11-13T06:09:18-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "8150151464f1302cb328be0cb9e908b70fb826ba",
+   "title": "Stock Futures Lower as Investors Look to U.S. Inflation Data",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEdLelU4VXpMTmdPeTgxTjBhZkd3NEIyZDg5ZnZCWXdtVnVFd3Fxbm95Z2ZfbkNZRnh2WVppWUhnR0pvZXZsRHdEaWdkaEJ1emVweFpFbG9WUTBPV3B1UktyeVNodWY0SXBtOGNUbXZQWXcyRmNWUnRGR21vYWt0WmxraHFsZ2haSGRCdHZacG1uTkpMTTlNQUpsNEFSRUY4Z2MzaUZn?oc=5",
+   "published": "2026-11-13T04:28:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3267952fbc1040eda08140f13d12601374064be6",
+   "title": "U.S. stock futures turn lower as tech recovery falters amid Nvidia CEO scandal",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdmFvVkpNVVZZU2h5S2xOZElDMktUQWp2SEFDdnJlWGN5ZUtCMWxjTnRhbkpBMzgyUkllcW5HUmVDYkh3RmMxWFYzRlZXU0NtYWdEUERwNE10RlBYaGVkc0JPbnN2NXhYck1NVFp3NWY0MTFHdkJLU1ZNN2gzTXFmNVgxSks5amhKVmxCUmxBRU1RN1BIMGpMbXU0cWNpX29DVmRwOXRMWFd4bWI2Q2hKUDJyVWRjZw?oc=5",
+   "published": "2026-11-13T01:15:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "10f9e52b6b0e9a96c33fbb72fbdd4f36c4e96c29",
+   "title": "U.S. stock futures rise after Nvidia CEO exit spooks Wall St",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPakdzLTNVTjhwd1J2aGphRzJBMTRQU21iMlVLRGNmNE5aUHdxZWk2dUNkN0o3bGU0VC1SWkEtYnkzUEhkY0VmN2lGTUEzaW41V3AwVEdXaHdqa1lUT0w4bzZrTXRvYlVkYUZUUGJyTGhrVDY3WlJmeWRONVNMUVA4Wk5qVGo3WDNYUnl2RTNLSUhHTElPa2Jv?oc=5",
+   "published": "2026-11-12T19:52:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "745823906f101b9a690289260128f98b5f9ec229",
+   "title": "Nvidia Leadership Crisis Drags on U.S. Stock Futures, Pressures AI Trade",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGkySm81VjBXcUpPR3dfMGVnRG1SYU80ekFpTTNPTVN1REhlV1JpblJPSE9FWGlHTm1EWk9GLW91N213ZjBQdUM1OXprWE82bEtXTVQtb2NwT1VvLS12dU5obVFHeVlNckVRaVNSUFVSalVVeW55SGh6d3ZBRkh5T0hULUdibklnZDgtZ1YwLVFOQWxmV0dlbEpRTGk4dw?oc=5",
+   "published": "2026-11-12T08:01:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0d35f82881b5a54037e91a813cdc67c38716305c",
+   "title": "U.S. Bank Expands Nationwide Middle Market Banking Team to Accelerate Growth",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:a90f43e3530ee:0-u-s-bank-expands-nationwide-middle-market-banking-team-to-accelerate-growth/",
+   "published": "2026-11-12T08:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "c340717b9eab7a4ff7c771c85875b20d5cff506e",
+   "title": "U.S. Bancorp (USB) Plans to Add 60 Middle Market Banking Roles",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e4e4bf6d36005:0-u-s-bancorp-usb-plans-to-add-60-middle-market-banking-roles/",
+   "published": "2026-11-12T08:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fd47387128d19ebc51dffc7fb46293a51300e403",
+   "title": "Peak 10 Energy Announces $500 Million Acquisition Finance Facility With US Bank",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T0YL:0-peak-10-energy-announces-500-million-acquisition-finance-facility-with-us-bank/",
+   "published": "2026-11-12T06:43:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d96b6126ce2ea68b0051abc5911319ee4775c116",
+   "title": "Speed Bumps? How Rate Spikes Shape U.S. Stock Valuations",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVnRFdUE0MTBqN1JzLXN0UGRKVWQ5dHRpSXY5Q1NFUEJwSFlLRzEwNHRKUHlLV1VubWJMVVhTdC1IWnB2d2xZUExmajVZOHJHZkZ0UmZUQW5kY0poU1JHNVE3dTVWV2ZkNHJPTmRSQW15ejN3Q3ROSm13dkplaGJoWjVHcEJITFd5bHpzbm9KUUw2em9kaXJEUHlR?oc=5",
+   "published": "2026-11-12T02:48:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a75a6c0ae37c5ad0a78c6a12d1329d70bbe293ca",
+   "title": "U.S. Bancorp Stock: Floating Rate Series Remains Attractive",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVkI5NDNxYzhfNWwwUDY0OUFSZXRVOG85RWdWZlc2UlM3clpnSEw5aGlNaVBfQm5HQkMteE9ScHVmMm1RTHpHVzBRdzJ6cVNPXzBhb2dnMXBiUzNITE9mazNQWTlLQ1BOal9qRVBlZFliSVRuRVBSWXdEV0R1ZWJOWTJuVGx6TFlCMDFvYUpPN1BST3RhaWc?oc=5",
+   "published": "2026-11-11T07:24:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5c6a57f53f6a88b1797fb7d90f213d75bb7450d3",
+   "title": "24-Hour Trading Is Coming To U.S. Stock Markets",
+   "source": "Forbes",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTGFNU0ZHNFlmaVlrRktiZ2FwRXpBZGMxNUpVdjl1cEZobWlVTTVHUHhUaFNSWE5PSFVZRU0xbFFLOG51enpTV3lhVHRwaWUweU55WEtkZjUxTXhua3pSZlB1SGwyTXRKSFJwMzBwSzdON3NMWEIzUlZ5akNSNm1LQmY2YU5reFU3SDRabDc2LVhZVHMyaVdpU1BlOA?oc=5",
+   "published": "2026-11-11T06:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "833fd350491eea6e6ea838e0aa24ef70acc73b05",
+   "title": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUNTNGk2aVpBNHQzZXJoaUFTcm5HMTJBOHhGLU5qeGt3T19DN3I4Y21VSl8yVjZDR2VDc0l1RkI0bjUyZm5ZS0NOTzZTN0ZQeGgzYnZTQjd0YzJRMl9BSjFUV3dNV3l2YWx1QXBGOXNlT3ZTWjRKWUpuNDNpUXE4M0c1b0RjTnpGcmE0WkJtMGZudFBVUGYw?oc=5",
+   "published": "2026-11-10T20:12:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a384d18df50d9dcb71c73ada2034b7d787e6d06d",
+   "title": "On Holding Stock Tumbles on Slowing U.S. Growth. Why Analysts See Better Days Ahead.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XdnBub0MxZ1VIX3A5aU84ZEVHZ1F2VU9GOWd6U1VIS0ZSSS1iZkExZnZZcVdkeFRfSzhHVGczQ0oyQnh0eWk2LTA1Wms2SWxjQ1k1LW5YOEwzWWV3V0M0MFY2U3k4dlRBd0h4QkRsNjFTWjU5cHlHekNMenctUQ?oc=5",
+   "published": "2026-11-10T11:08:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "58549f44c82805339c31899967368bbd6e65d534",
+   "title": "U.S. Stock Futures Retreat as October CPI Exceeds Forecasts and Fed Rate Hike Expectations Increase: Dow Jones, S&P, Nasdaq, Wall Street",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGlIZGYwOERQM19hR3JwM1Z5ZmQta1AtZllqXzhNUzlSUDlRUkxTWmRnSjdReVF3LW1RcEVEeVBEVDYxVXRNSWpSV3A1akhBREMzMWdKN0Y3ajlEd19feDZhT3hCNkRBUTRIUzJHR3o5ZGluUVBwbnlOQklkWjRfdzJ4TnlQbVE?oc=5",
+   "published": "2026-11-10T09:09:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "31d5e3e3a891771b717eef7bb8e79713ec219df0",
+   "title": "Raymond James upgrades Senseonics stock rating on U.S. execution",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQmZiRy1WNFNqT3pteW5tMlVQVUEzcjVxbFpELU5EblM4SWxjdUh1VEdJcVQyVzN4blFJNVdaMHVZM2pJNmVGRjd2YkZHajJYck5VbkJ2YTQ0Nmw5RjRYZXNDS3ozN2lwaVVENDNMSGh1MVNWTU1YV05HaGQtUXVrMXctSFZBZkhGdHlMT19FcDYwQlNDaGhoMGZLc2J0cUVVVWJkWk5UZlZIOGR3ZWtWSHBvcUtJM1RUSE1Kdk11aw?oc=5",
+   "published": "2026-11-10T04:35:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "16f218965a3cdaefd8ecb5187435520e8e47a9bc",
+   "title": "U.S. inflation data ahead; Huang scandal fallout - what’s moving markets",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVRoODQyaHl5WngwMzhYWlNBUEUwbG9UZkpnS0V5eS1sSWJmbHdzSkRoU3E1cnJhZlRGSjRFdGd5UmVzaGFtNFhlQVo1TUtmOUM1XzhqeFlnYUNNaXU4cjNiVnRzXzMxSmpWMlFMLXBzSk92blFabDJTOXYxT3ZmZmJ4OVBMZ3o0T0lOTGIyQmMzZ0JSLVRPQlJ5TFJJeTAxWUVKTWxBS1RVWGJ1SVBSTGZSOTU3bG1UVUtZ?oc=5",
+   "published": "2026-11-10T04:10:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eafc3742566f976dd48a1271aabf18b69861ffdf",
+   "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Fb1BOWF9rUzdDMjdNMzR5TjdJRXFPYWNWT2s1Y1NyekxWaWJBN2Naa09nVFdhNWFwaXFTZ2liZlVicEswNUVDamtZVDlCRklIX1I4SmZ3Nk5XUlZTQzE0cjVRMUNPSU5Ea1dTTkdxbThZSXdzektycmtscVVnQQ?oc=5",
+   "published": "2026-11-09T19:43:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d354626b93b679eee16e584ec03259c29032ed27",
+   "title": "U.S. Stocks Leap Despite Nvidia Slide",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX0N4MG4xaFJUQjN1c2hSV2dIbjI3UlptZ3BDenpiYmFNdVkzOFVlSFcxSGJiSDY1bTBkckZnMldxaTBzaWxqWkRzaGlaTmtzVXI3MkRqM2NHeHhsZHJsVDNSQWdtRTA1cEM1OWNkYnlYeVZGRjBlZldWSklJVVIxN0NFQnhsbFF4dGRocHRSa1BuZXJaMmRLOFpCQ3A0RlY4cC0xbEVYU2gzeW0xTkhoSjRPSEx3cEV0?oc=5",
+   "published": "2026-11-09T14:29:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "def42258d8f5f3f5033283c93a3ec63b87d1e9bf",
+   "title": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRUh5TFdGSHdZMldSRkxUUjRNYjFRV3ZVdURtUkEwSG9mSHVhdlhES2ZObmtJVzFLRUhNbm4xdkl6YmZHV2d1VUNHNE9Md2ZKVlowUU5yOU8wa1AyMGNtdWNlX2NIUXpsOUJVa3pJNjRKa2MxWGdrTW9jYVNqLVM5cmpCblZSVzkwTVR5YzJ2TER0c3VpZ3AyZw?oc=5",
+   "published": "2026-11-09T11:02:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b44f4a6e1a7076799d6efdfdcd12e286f05f1f59",
+   "title": "U.S. futures muted as Nvidia probe and AI earnings gauntlet test tech rebound",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUm1RZWNobzNpNVlVbEw2X210Y29vb3prRHFDQjYwelpJVHA5NXk0cXg0UWxRWEdLbkIyYmJnN2hMVkVDYUpCOUQ0c2lEU1VPeVpLVm9lNU1xYlFWVlNvWnF5ZGNjLTg5X1BuQ1RSSFpEZmRFNHlGazJORnI3RkhOc0JLX3Y3Unk1NjZCLUNjNFhTM04taVd1Y1ZlTWZjaFZ2WDRXSGN0S3AyRFRQdnBEQVBhSjZZQW5KMnRoeGZtTDNQSXVEdmc?oc=5",
+   "published": "2026-11-09T06:36:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "074b1804d940e9a7e736f4428b91eae48303be9f",
+   "title": "U.S. Bancorp (USB) Stock May Trade At A Discount On New Fund Launch",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZUM3Rm1GdFJjdnd6RUxNTmVRcDBZS0pqTVdmSlBtSGtfM0hxNEQ2b0djUGNEV0tEazE5X3o4bDdpNGNWUjFHeFdVb1FwM3pvemtQV1kxNm4wME12VjFtbVROeUNiUFl2N3NkYy03TDJZNi1GWFZmM0RVRDZvYnVCbVdKZmdid1k1aUEzMUIyYkF1QQ?oc=5",
+   "published": "2026-11-07T23:45:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "884f1c00363ffe22a0ad59ef949c07ead62bcc99",
+   "title": "Live Updates: U.S. Jobs Report Shows Strength After Stock Market Falls",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSWtWUC0wbVZ5Um5oQUpudDNtcUZWLXV0SWJDRFRpSVBTRDhJTHUtT20xV3hPR3FwV2NRUERjVVFMeWgtMFhVV2QyNEVJcndzSEJ2Wmo3dkMzb2FWWkV4OXk0R292RnhOUENMbi1rX2d3NE4xV2RJcDIzWmJrbERwdkpabWo4QnhGb0E?oc=5",
+   "published": "2026-11-06T16:11:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3654c4cdd58e1003beee899c2b020e470bdc95ed",
+   "title": "Kalshi Launches U.S. Stock Perps, Hits $300M",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ2VyU3JPVk15WWFQcUgxbmExQUhjSGxfNHpiTGxZd0stUm8zRHFQaXlLQktEeWE5ZmhwZm9sTjB5aGxXcl9KZnBZMUtDTmxyZXAzQjZzajVIU2J2ODdGYW51Rjl4aU9kTjV5SGFHMENTUHBTbTVyOE03aFE0T2lIMjZyVFU4SHhpdGZ6R3BRN2Ezd1p5UWZXUG4xOA?oc=5",
+   "published": "2026-11-06T11:08:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "06de3d42e761b4ffb8113c96551052acabc76e42",
+   "title": "U.S. added 165,000 jobs in October, a positive update after the stock market purge",
+   "source": "CBS News",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWXk3ZlJkM091WTFPc0FLc1hyTHhQLXlwYXJZM1htaDFKN0Z0MFZRbDIxeXZlemJaSHZEWFNxZ3NvUWVhTmlHUG5BQXBPTjBnZUM5RWlqTXZ0TmJ5ZXZLVUZCZ1AzQzFlSUI1UHdTVl9OVHlyRFZPOWZfQ0lYWGo2ckRpakYyMkt1TW1odmZJbmwtZ2l6T2ZNVHJ2YnBOM3VBSThEWlp5N1lsekhXRnc?oc=5",
+   "published": "2026-11-06T09:01:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a68c1c3ca8f379fc753bf003a81907d630a015de",
+   "title": "U.S. Bancorp 8-K: a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/36104/000119312526450781/0001193125-26-450781-index.htm",
+   "published": "2026-11-06T08:00:19-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d0ba5c366d497c4e7a0b305433dc1800f9c9ab7d",
+   "title": "Is Wall Street Bullish or Bearish on U.S. Bancorp’s Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ0FkOF8xWE5PUTNIeFgyRnVXYjJkeTcySE5rSzdZWFVZQUxScjJtQW1QTHN4N2h1U21nSXFpWUhvYVo1ckZ4R1NrNWdwMndOT1JnNEZuOEJ1Si1rRENKcEFMeVF0S0YzV1NEMnF6dXlraTZwdncyNmt6YnBKakZocHBlcVFXT3J0NlNEdE9Yemc1N3V4TnplS1B3?oc=5",
+   "published": "2026-11-06T07:52:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3185410ec15811fddabb2ddd9fee684081378e62",
+   "title": "Kalshi Users Pour $300 Million Into Stock Perps Within Hours of U.S. Debut",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDBlQVN2R3ltaHZTS3lfZTJpTEx4M0VPNnJXM0ZnLXlCcDZKTks2VEplRmlpU2x5Mkd5eV8yLVJSS19OVEJHa1dtUjRBZW1CdUtVS0kzYUd4c3Mza3NCLUdZN2VpY25vVXNJcldqcVRQQmt4eTNrMENrMmo3aTZFX3ZIcVUtSElEY0E1NGppaEMzWmJtandUSTN0WQ?oc=5",
+   "published": "2026-11-06T05:45:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b206cc398a872a3ae3317a96265dd8e3ee60edaa",
+   "title": "This solar stock is likely to rise following the U.S. 2026 midterm elections",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcDhpcFJMMHh6SjYtS21Yei1lRGFNZzhnM3p3dDg1VG0yYUlLeF9ITXZ5clpRZ0tNQThXR0JOX1p0ZVJDYmNicVdxdmdaMHZmaDFGOGpYVXdMbVlNa2d5aW92WjJQX3NrbWg4RU51MGNrQzhzbms2T0N1RzRYczJKY3JZejNfY2RPT0pnVWh5cGg4QzZpZy01c0lITFJrUHVUZGVreg?oc=5",
+   "published": "2026-11-05T08:22:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "055a267ff35377ea27cef6bbf8f7bf3bfafdcfb1",
+   "title": "U.S. Bancorp files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000058/usb-20260930.htm",
+   "published": "2026-11-04T17:44:17-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "775543dc6516e2bc2a447aa46d936ad692e8558d",
+   "title": "U.S. Stocks Jump After Democrats Sweep Congress",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
+   "published": "2026-11-04T14:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "62022a5c847b010f9b32d891cd608a2509465d21",
+   "title": "U.S. stock futures turn positive as Dems sweep Congress; AMD rises",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ25BOExabF9pWHRSMzU1aVJBXzY2WmNiVUdiblcxRzNlaUZPZTR2Y3dEd20taXdRb1lmSGFCS21FSnVXYWdpZlVUb054T2liM052NDJBUGdaLUl1U2IycUh0Z2pubFdKbW9ROWcxckh6U1lfU21id0JwcnZPUHNjTU9NSHY2Yks0ZGZGcXBoTHBOd0VIWVlKNnl4Rm9KS1FvQlpMakE1MEV0dFR3U3h4Uk9DN0VSYlVZS1hObG9Ic2tBSTVodU05X3J4RGNzRE0?oc=5",
+   "published": "2026-11-04T04:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "723bb5834efd1934d6907e6c893e426d2ec04d1f",
+   "title": "Gold rises as dollar weakens ahead of U.S. midterm election results",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObkQ5MzAyekZrcWZOb0lvMEJ4dWdGMmNUMzNzRmpHZUtwaXJNam9NTkJUMmowRkFVNncyRlNQdDk2YnpyRmo4Zk01ZVE5eEZTRXE0ZkJGMXJfUEhCeVVLWXV2U0E5VUpZT0dsSXN5a010ZlpfcFg4d2EycFNGR0VKYko5Y2RSZE5kZXM4dTJoYlVabDB1N2tLZk1PdU9jZHFoUUI4NtIBqgFBVV95cUxNUGUzRlBIeVdYcEZTV2N1eUZUT2NZOXZibE05Z3E5WV9FRTg5VmhpYzYwOENrTTBES3RSZU9yUk96WFlBeHVIdEtMTHdRUmFZT2w0RUJtZVpVUGdkYXlneWtHX3RvMU1xYXFhOVdOYUhRb2wtT2N0b3JLd1NVMjJfOVRzQ3JhUldka3VFUFhUMnQ5U0diN3p4UXFYMnhucDNmNkp5aTNJcnVmQQ?oc=5",
+   "published": "2026-11-04T00:04:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1501ab1b11c6a240895542cda6884d539f127410",
+   "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTWJheEhEQ01fLWtTSXB4YXR3S0xjaDFuNGdRa3NOZjlETXA4OS1fOHkyVmd6a3pSVkxvdmp4cndPV3RlZnBZU0I0d1FaZ2NES1B0dmd4dDNrWW40M1M4SnhyNjFpQUs0UC1WU2lhaTQ1dkpnQ24tS1R1SHV2UkhucjhNc3ZSTk1zb3NYUDNkWjhHUmx3YXdDQ3VIb9IBoAFBVV95cUxOSWF6Ym1UZ3pDa1hIaVRBUUd0RVJvSHFjT0VnUnRTcU1rMFZPTXgwb0dxYTB5czlrc0duRFM5b0wycHU0NVhYWUota3k3T0VhY0paYTQxSXBoNlM0LXdKd2NxRlJxR2w5VGVKeG80Z2VtTEpPbEhVOWN4RzBOVlpfY2lLY1BNbDdIZWRCNnJSeEVQTG9NemFzQXg2WUMySHla?oc=5",
+   "published": "2026-11-04T00:01:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f43f53121ff134279af9ca8122e67d488c18755e",
+   "title": "Stock market is mixed as investors await U.S. midterm results, tech trade pushes to recover",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmlmd0pQN3BaVkI0X2dubmxfMjFhaFVaSmdabG55UF9jMEJsRUpUb1RxejNPNVMtSjZ1YV9KMmFwLWFhazVMMkY1SnVGZWw4V052ZVNpRGlsbVI5dkJEUmFDTmNkSklwSkRRczQ4SUVWT0JmV01UZlZaNDBVT0dlLXo2ZmZ5NWxmdlpDSUtUTnc0UQ?oc=5",
+   "published": "2026-11-03T10:08:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0c1a706552cb9cb4f5120103cc8a4afee6d9fab3",
+   "title": "U.S. Loses $35.1 Billion From Its Bet On Intel's Imploding Stock",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHRVWWJGd21Mbm1EZHYtWGJTLWxnQ1NyRWVySVBsVkpVeW5OcEswZW9jVVg1amJkWVB1bEVkMTJKZVdNV1F2SVVoMl9fNXNaY1NpZDlOdkNtM2p5a2pZZ3AzMm1JeHNFa2tROVRyVmYzb2tnT0RQcV91MVdFZVEyYWtoemFPdElucjJGb0dzbnR3d3FaN01PdDdUMmNjT0hyRV8zTDBMOS02YkNhMGZuRk1qUQ?oc=5",
+   "published": "2026-11-03T07:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3cf0a9c8a1e77e7a1c9115bc8de41c1d2606e467",
+   "title": "The only U.S. pure-play humanoid robotics stock begins trading this week",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUVJBQ2U4U0pDMmxwNW95OGJMSG9IcVc4SmdfVFdEQTdkSzJNSlJYTGJkV2RQN1ZzSlNRMlVwSzFHZjdxbmdTT0pyZUc3ZEYyMldLSjZIeFgxUmVqOXlYRVRIX0hnbHQ1LUoxekFqRWduR2RyS1c3MEZBUzYwbmx6empickZxYkFBaW5CbVZkYmN0MFVvZDl2eGE0eEszV0lQVDJHR1VFVXZHZnhW?oc=5",
+   "published": "2026-11-03T06:41:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "055c1cc90108708529bed278679c097a6423908d",
+   "title": "Palantir stock slides amid slowdown in U.S. commercial bookings",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb1dnR3lzUEx3RmlsT2JtNkY3VXV4Um4tYXZyZnZVSTJ6cU9QZHZMMmpxTDhlQllBS1Z1ZEhVdElKTERpNVpERXJDcVI4R2JjV0tVb1JHNVdnWlhIRVd6SHhHaTY2TzdaTFlqNDZQTEppcHRBLTc3NFZIaTg0WXRZOE4zWm0yZEQ1QkR0Xw?oc=5",
+   "published": "2026-11-03T04:56:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "76f324d39b48f5e1ab46f2afc3e5d9f5d57b328e",
+   "title": "U.S. stock futures steady; Apple dips after mixed earnings",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVWlSTDN0T3BSMGpscFRDcTRpWTJoRHJ4RXpxV0IxTmtHMHhFSlVlYnF2YkNvRlJkS01GdThmZE1HM2VBaUF3ZXpOaEVZb2drcW4zeFphVWV6VUV5bzZoSDQwa25Kc3NBcVhXYjlUYmRrVjBHdHdUSG5ZWjVJZ3lNNldSSkVHWWE0YnlPcTlXaU9hTDZQdnA5cExfZFhaaW9vTmtKd2cyMHIzZE9FWHBSWHZ3?oc=5",
+   "published": "2026-11-02T20:03:56-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0aeec6b1cd673867c613aa7b07710f51d244fcd6",
+   "title": "Palantir Stock Tumbles Even as Earnings Get Big Boost From U.S. Customers",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmaHVqdkxNZVdKWERyTmp6U1VTRHdub05tMHZSRHlrd0MwajF1aDdWeW5YT2JHMXpSeTR5a3RXcG1PeUQ4S244U2xLT1NYTlRaajVDb0RGN1FlTjJINk1QQmdrRzFRMVhpa2ZuNU1PbTR5cWVtcGVtVlIybw?oc=5",
+   "published": "2026-11-02T18:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6a5c9a7db1da0a6bb3f5b552a6b250cd51819e0d",
+   "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wdkIzdGt1UWFvU0E0ZUlmQWhkdG5GaWJvZVc4UDZYaHFnYU9yOWNkdU5xekxFTDJWTERpcDJSN2VIcWI0M01qYlBHSVRhU2FBaE1VOEU1VHJodFgtX2FhYm5IQjBnMkpDSWNlWktFWmlrdFRJSlHSAXtBVV95cUxQVzlMd0xTcFNwb2dGc3dTR1RLYzVWUV9qcGFmRV9TM19rVm9uLWY5OTBkVXRHVFhPa0REbko0dENhaDBNbHduU2pwN2lkT0p3Tll6N0ZPeEQ1emphekVOdlYxSHM4b0NUalZaZGZmM2J6aTVfcnJ4UHQycEU?oc=5",
+   "published": "2026-11-02T16:09:24-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2af666b3cb381a30a4650016972a62755fa51606",
+   "title": "Campari Shares Fall After Company Warns U.S. Sales Squeezed by Competition, Supply Issues",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDFrOWYxTnEycnI1SVFaN3JxZE9qSDZEMWt3R2VSM2lHNHdxeU8tLWFaaVJLR1hoXzVnU3NWekNkNVNSM0E0UVFucXhnMmpSMFF1dVNNWTdNTF9TV3FjMm84NzZ0RS1WVk9fRjM1bXlwMF9nU01peGYzVjJjZGYxNE5xVnFNVl9JaEpPem9pQWpPZl9NYldtVVpiOGgzLURabmVmd0tsSU5tTkFJN0pJeW1FU2NMdXdiTTFNOHpRX3hvRE9TaF9MekEyVFE?oc=5",
+   "published": "2026-11-02T13:34:39-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

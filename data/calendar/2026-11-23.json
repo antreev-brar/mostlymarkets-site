@@ -1,0 +1,41 @@
+[
+{
+"ticker": "HPE",
+"name": "Hewlett Packard Enterprise Company",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 1.17,
+"n_estimates": 7,
+"eps_last_year": 0.54,
+"last_year_date": "12/04/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 66585633000.0
+},
+{
+"ticker": "A",
+"name": "Agilent Technologies, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 1.72,
+"n_estimates": 6,
+"eps_last_year": 1.59,
+"last_year_date": "11/24/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 48776511000.0
+},
+{
+"ticker": "J",
+"name": "Jacobs Solutions Inc.",
+"time": "amc",
+"quarter": "Sep/2026",
+"eps_forecast": 2.14,
+"n_estimates": 4,
+"eps_last_year": 1.75,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 18572857300.0
+}
+]

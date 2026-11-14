@@ -1,0 +1,377 @@
+{
+ "ticker": "NRG",
+ "updated": "2026-11-13T06:08:22-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "87f41e46b9c61bc326b5777ef58a97090708a8b7",
+   "title": "NRG Energy: One Step Back For Two Steps Forward",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLUExc29RUHA5ZDlVZVh2Y3c0emdNTGIxNm93OVV4d292cU12SmZyNThXaS1sUEJabFVGbTdSM2hVUlBCdVRwd0gzMzV3c2FxMkV4UERieVloX2FqRm1SdlhtQ0Zndl9HaWIzRXduMm5DNUJzNXR4QlVtVjBjU3pna0pEVEtfYU1XMUtkU0UtWmJFOEVXX1FBNQ?oc=5",
+   "published": "2026-11-12T08:00:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "062bc9bdd69c9b562482754a6c5ee30f3a6001df",
+   "title": "NRG Energy to Sell Power Generation Assets to LS Power Affiliate for $4 Billion",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:51ec5391595d5:0-nrg-energy-to-sell-power-generation-assets-to-ls-power-affiliate-for-4-billion/",
+   "published": "2026-11-12T06:03:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "426dfa14867e984ede6f1c5dc11034fd9f114b5e",
+   "title": "NRG Energy 8-K: a material agreement",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926125375/0001104659-26-125375-index.htm",
+   "published": "2026-11-10T18:04:08-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "0c09c9fdca91dce7ef43f65066b2734626ec14ac",
+   "title": "A $4 Billion Jolt: NRG Energy Powers Data Center Ambitions",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/articles/a-4-billion-jolt-nrg-energy-powers-data-center-ambitions/",
+   "published": "2026-11-10T15:20:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c2c742b39cfe92b9cb8055a65e50e06b5d8f5b8f",
+   "title": "NRG Q3 Earnings Call Focuses on Asset Sale and 2027 Outlook",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3027493/nrg-q3-earnings-call-focuses-on-asset-sale-and-2027-outlook?cid=CS-TRADINGVIEW-FT-analyst_blog_plus%7Cearnings_call_takeaways-3027493",
+   "published": "2026-11-10T14:12:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d8e0bceac1c193e9b1eb13deb274d51a339a27e1",
+   "title": "Raymond James cuts NRG Energy stock price target on weaker ERCOT pricing",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdzVISU1yU0tFWktoTnRyemlSWFpON0dQUGhkd3NTWW91TGZqUGtRVEE4cm9VQllTVXJVM1ZlUG5HTDNfUVlBeDdwd3BPdFRvRG9lakNiUHJOOXotRUh2V2hqV0xjZVQ4cjJwNGF5dDlLcnRINzF1cGhjMFpHLW9RLUpLLXltRENlZE9OUkhVd1c3OUV1TlVZSE13SnhyNXF0aXdBUlFKOFhyTkZneWdKZWVucVlJOElIYjYyM3hvWDZDS3dDdmFpcFhVdTc?oc=5",
+   "published": "2026-11-10T13:03:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fcabfdbddf4bcf948153ea4836aaaa143c440b65",
+   "title": "NRG Energy, Inc. (NRG) Secured a 15-Year Hyperscaler Contract: Could AI Power Demand Drive Its Growth?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUlpYWlxYmZkRFZfM1dMZWNnd3NGS2w3WHNMRWR3UENHci1PR2V3Vk9SR05OSy1qYUhNZ2xqTmt5TktOV0FwUGRVOVdVUlZLcHhuRDMyUmwzTVNpaFNydTRWM3N1dWtBQTFYM3dieUtyclhPUThERV9mV1ZZTzJZMVhnWUpOLWlsNHVsYVdZSHowQm9RVVE?oc=5",
+   "published": "2026-11-10T11:17:47-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7fe9065c14b04e0b97fa325b10cd3dee9a94ad32",
+   "title": "Key facts: NRG Beats Q3; Plant Sale, 20-GW Fleet, Texas Data Center",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:18c58e25d474c:0-key-facts-nrg-beats-q3-plant-sale-20-gw-fleet-texas-data-center/",
+   "published": "2026-11-10T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "47bac0edc8e8ca4eb875cfaa5b5c9d44b0f0109d",
+   "title": "NRG Energy declares $0.475 dividend",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4669469-nrg-energy-declares-0_475-dividend",
+   "published": "2026-11-09T23:08:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cf76752a40a3b76341bd2803a72a40a6964b8e30",
+   "title": "NRG Energy 3Q 2026: Revenue $9.47B, EPS $2.59 — 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f3538e45ffc28:0-nrg-energy-3q-2026-revenue-9-47b-eps-2-59-10-q-summary/",
+   "published": "2026-11-09T16:41:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bb7007a342f893b0b610bf18915c6173693a3920",
+   "title": "NRG: Acquisition-led earnings growth meets a planned $4B generation-asset sale",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3954623:0-nrg-acquisition-led-earnings-growth-meets-a-planned-4b-generation-asset-sale/",
+   "published": "2026-11-09T16:38:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "37b9617ac16395d0a8c698488f3d295054888c40",
+   "title": "NRG Energy files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm",
+   "published": "2026-11-09T16:37:06-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "36f52032706ac74426fa597d70e2358581636387",
+   "title": "NRG Energy earnings analysis: questions answered and next catalysts",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY0JoaHV0NE05ZzJRb2d6LURrRy1YVlFjZlJHbUNqZU9PbmxXWWlCdFd3eXIybTJlYlhQQURRTFkxVTJNdFhVUXFxa1NQRDNvNU1lMDZaNllSZUxDaXNEQk5SVTNHb1BsYVdMU1FKbmpmUzVSUG1xXzBsZ1oyVFptbV9aSHRXTkVqWVp0VWVQUG4zX1c4QTZOTmF4SGxDYnhxR3hDLVlCcXNnMGx2dlVrZFJaaUp6VGd4TGpKU1h2WHVzcVpILWlJ?oc=5",
+   "published": "2026-11-09T15:38:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f018097398e3f8da8b95edfba6fc7157071b2def",
+   "title": "Crude Oil Falls Over 3%; NRG Energy Shares Jump After Strong Q3 Results",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY3l4dWxJN29KQjVzMTlwY0dPZXhfWmx0dnkzSnRGdTdhcXJIR0d1YUt4aUFDbEpfbjFGZTFPa2hxdUdnaXVPanpRVWZtSDM5N3M5YTBzZ3FRTU0wSnNYR0xMRDRXc3czM3B6S01Mc2s4eHRmTHhZMUdPNG9ZNE55RGt0XzVGTTNRYUJrdXRlSDBkZzdOcFpZZl9rOFZZTUlFVXVQV3czOUtYVFFZdC16ZlQ1enBSQndKbXRiN04yRTJEQlFSVzdjdmhxR1o?oc=5",
+   "published": "2026-11-09T12:12:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7da3d843da5811f9066e10c48d9bca1f4ace2c8f",
+   "title": "Nuke Stock Constellation Fueled By Earnings; NRG Hits Gas On Buybacks",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZVJnN3A5MG9xU29VekNOTV9YUlUwRkZzZDJGdEJoNjUwTmFFdmRNcjVIQjN1LVRQX0w3STgwdnRmLVZYOERBaEtLbGdOSkE1NHd0MDlOZlhsT0FYSENUZHNfeVp3MnZpeExBRE84b29TN2c4S3RXcGRiX1pxdXRZcUdjZWc4ZTA5Uml6c0N2bXN2UExKVjBhX0lnZE95d21FQlFsNTJDa2I2UQ?oc=5",
+   "published": "2026-11-09T10:58:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a97679cd2fbee9fbd2d99a57b4707603f9cdaacc",
+   "title": "NRG Energy Gains After Earnings Beat, $4 Billion Sale Sharpens Buyback and Debt Plans",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:f738caa27094b:0-nrg-energy-gains-after-earnings-beat-4-billion-sale-sharpens-buyback-and-debt-plans/",
+   "published": "2026-11-09T10:33:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ea58e73c5f9acd23542045cc88bbf58c51550984",
+   "title": "NRG Energy Q3 Earnings Beat Estimates on LS Power Asset Gains",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3026562/nrg-energy-q3-earnings-beat-estimates-on-ls-power-asset-gains?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3026562",
+   "published": "2026-11-09T10:13:00-05:00",
+   "also": [
+    "MarketBeat",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3b65a070b9025ed1057c10915dead9f278041dfc",
+   "title": "NRG: A $4 billion asset sale accelerates capital returns while long-term growth targets hold",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4539072:0-nrg-a-4-billion-asset-sale-accelerates-capital-returns-while-long-term-growth-targets-hold/",
+   "published": "2026-11-09T10:11:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "52c226f693cd24d747184ff48e76996d413a0d0d",
+   "title": "NRG Energy In Talks With Financing Partners For Data Center Buildout Announcement Targeted By Year-End",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Q1OP:0-nrg-energy-in-talks-with-financing-partners-for-data-center-buildout-announcement-targeted-by-year-end/",
+   "published": "2026-11-09T09:53:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "98e1b7efbcd1c31386b4dd5182d230e6587b2c0f",
+   "title": "Why is NRG Energy stock surging today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObUFvdHYwUW5lcXpBTURQSTdrVmJYNGtWUlA5WUlreVdOYllYTkl1RmxqeElkekhlNDcySEZZeVF6dGtsQ1RNbWNJckZuOHNJNnBnRkRlRXdDZ25HNFdydFVKQXp0SVlQZGhsOGhHb0pzWkpuNHVJdEtMOEF0dHg4SU50U0RuWFJDU2lnOEktc1lhaXcxYkpfNFc1cmdidDVG?oc=5",
+   "published": "2026-11-09T08:36:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9f118e8f53086a079104ebfa14a2cde7bdd46f0d",
+   "title": "NRG Energy to sell six power plants to LS Power for $4 billion",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46Q0UH:0-nrg-energy-to-sell-six-power-plants-to-ls-power-for-4-billion/",
+   "published": "2026-11-09T07:35:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4adb9870caedd4cd0cd8a3d7c25b04a6b5688ce0",
+   "title": "NRG Energy Inc Reveals Advance In Q3 Profit",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:fcd9368f32c3b:0-nrg-energy-inc-reveals-advance-in-q3-profit/",
+   "published": "2026-11-09T07:22:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b44e0a5404701787588756b23b57cd9f5be0b3f5",
+   "title": "NRG Energy Signs $4 Billion Asset-Sale Agreement, Posts Higher 3Q Earnings",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261109004370:0-nrg-energy-signs-4-billion-asset-sale-agreement-posts-higher-3q-earnings/",
+   "published": "2026-11-09T07:22:00-05:00",
+   "also": [
+    "Business Wire"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b2fc24e751e958d7d405b4102938aa81d055a3fa",
+   "title": "NRG Energy to sell six gas generation assets to LS Power in $4B deal",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4668872-nrg-energy-to-sell-six-gas-generation-assets-to-ls-power-in-4b-deal",
+   "published": "2026-11-09T07:15:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5d6da990e073c759b20efc2c8425d2daddbce6fa",
+   "title": "NRG: 3Q26 earnings rose as a $4.0B asset sale boosts buybacks and debt reduction",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4250836:0-nrg-3q26-earnings-rose-as-a-4-0b-asset-sale-boosts-buybacks-and-debt-reduction/",
+   "published": "2026-11-09T07:14:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5cad3de3bf49ea5b6a3f6f52ddb9a217754ef084",
+   "title": "NRG: Strong Q3 cash generation pairs with a $4 billion asset sale and expanded capital returns",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3954624:0-nrg-strong-q3-cash-generation-pairs-with-a-4-billion-asset-sale-and-expanded-capital-returns/",
+   "published": "2026-11-09T07:07:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f2080ffe0f6ac912772e2a63fadf98fc0cd20625",
+   "title": "NRG Energy stock surges 4.2% on $4 billion asset sale",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLVFaaFVwNUV1cUVVcF82U1B0VG9WU0NVT09QbEcyNF9QMGRWdzZlai0xZmg1NHNOVGpqd3AxcTZRS1l4N1Vyc2NFVEsyR1FtNXp4NmJKLVpxQk1MeEhDNFZLVTZVQi1YdGtXdlRPM0N0UG9fLUhDZTVaV0tWZnJfVERlZjJwTDZlR0xPWndtUDdteFRQNzRNM0lnNklZbTFBV1BIUUNGUGFXZWY2RTJLN2hB?oc=5",
+   "published": "2026-11-09T07:07:09-05:00",
+   "also": [
+    "GuruFocus",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b3e6e2aaea0c43b6bb50dfa2e6861eab69f34939",
+   "title": "NRG Energy 8-K: a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/0001104659-26-124147-index.htm",
+   "published": "2026-11-09T07:02:22-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "e6f2ac3eb8b53a8a5bcc3b9c812e4354c52615e7",
+   "title": "NRG Energy Plans $3 Bln Debt Reduction in 2027 After $4 Bln Deal Closing",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Q17D:0-nrg-energy-plans-3-bln-debt-reduction-in-2027-after-4-bln-deal-closing/",
+   "published": "2026-11-09T06:56:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5321d9866edeb8890bcd5850d252c2a176e91356",
+   "title": "NRG Energy announces $4 bln asset sale; Q3 adj EPS beats on higher capacity prices, favorable weather",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46Q0D0:0-nrg-energy-announces-4-bln-asset-sale-q3-adj-eps-beats-on-higher-capacity-prices-favorable-weather/",
+   "published": "2026-11-09T06:55:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ac0a81802023b09f95932252e21041a97bb7051c",
+   "title": "Nrg Energy Announces $4 Billion Agreement To Sell Select Generation Assets",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Q07S:0-nrg-energy-announces-4-billion-agreement-to-sell-select-generation-assets/",
+   "published": "2026-11-09T06:55:16-05:00",
+   "also": [
+    "Business Wire"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "330d036400b1070b7a91972d140cb64d4e96bc42",
+   "title": "NRG Energy Reports Third Quarter 2026 Results, Reaffirms 2026 Financial Guidance, and Initiates 2027 Guidance",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:35ba703f635cd:0-nrg-energy-reports-third-quarter-2026-results-reaffirms-2026-financial-guidance-and-initiates-2027-guidance/",
+   "published": "2026-11-09T06:51:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "98bafda10434881d099adcd671f32c80cf8f9651",
+   "title": "NRG Energy, Inc. (NRG) Agrees to Sell 4.9 GW of Assets for $4B",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:dc85e7f9fa1f5:0-nrg-energy-inc-nrg-agrees-to-sell-4-9-gw-of-assets-for-4b/",
+   "published": "2026-11-09T06:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "91b333f01d938a09416c41a86c7f08209145c8b6",
+   "title": "BRIEF-NRG Energy Q3 Net Income USD 561 Million",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-09:newsml_PLXDHRM77:0-brief-nrg-energy-q3-net-income-usd-561-million/",
+   "published": "2026-11-09T06:46:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7b601c8353ebf536069ff8773e093a9dc284a359",
+   "title": "NRG Energy 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/0001013871-26-000022-index.htm",
+   "published": "2026-11-09T06:45:04-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "528d75133d086db73f762d72e2baeacc83587dad",
+   "title": "Do Wall Street Analysts Like NRG Energy Stock?",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWTF6TXlVSjZhTzJQdHE3enRMMzlVQzc3MkNxeFllUDBEQ0FpT01yRUc0Uk16U2FQcHRPY2otcUtVbGhtRDMxekNKUVhGNDBEc20zcVhmMnY1cGNCVjRRcEhmX1pZZS1ZbDUySEdaQld0UjkxdVNFLTFJOXBmOXdUU0tWXzdSV3hHNkxmWEI5V2stQlE?oc=5",
+   "published": "2026-11-09T05:41:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "50f57b4cdc9e388667f1fd9bb8e56307f400142f",
+   "title": "What NRG Energy (NRG)'s Revenue Beat Means For Shareholders",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnJULXRVOEkxVmZTQXVaUkFMNFpFaWJYZ1hBcTBYU2tTT1RzN0FxakJiT29GNVNyenRHOXBYT2xUNXVuNDN5WXBfeVpicUt3UFc5aC1KZlVTNFZtakhwczl4Tjh6TDBjMDhLd1UtTXFya2N6YS1ZVXozNDRQVHdUNmpxX2pNdWczeEQzM1dYVk5fcUVqZEZN?oc=5",
+   "published": "2026-11-06T06:15:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f8818ef2d615673e693b4a0232a6d523700b5145",
+   "title": "NRG Energy (NRG) Stock Still Looks Like A Bargain On Its 171% Run",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQVBuS1RBb0M1WlRzN3BIMExIQkx6M21aVmhjVXJTWHJQdHBmZGxDTFVaMzVheUtsQld6eTQ2MVVuanRuZS1CZUhkT1dPNWc0N2xvMDBFMUNuNDIzcFloT2l0VUstRUxDLTc3QUs5RWo3OXRvdi1zMXFjcVNuc1Q0T3BRVUFvaVlicHNibDhISnlzMERZU0E?oc=5",
+   "published": "2026-11-05T16:12:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4fa4c1507f05454f4bbfd82082e001f1377c8aab",
+   "title": "NRG Energy stock hits 52-week low at 90.75 USD",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRGhzTk04ZlFIZWc0UzYzNjIxaS1ENS1xU1BJeGduWERKdUVrMjlid2k0aHl0VGVGN0hlenFyY2RGcjBlbVVTMEhWclNCOEtYNXhZTXR3dG9XenNlY1d3c2ltVjVueUtVVDhIa3FpWG9pSjV4SFI2bEFGMHN3a2ZnSmw3LUpGMUI5WkJSd0dWZFVST2RJa3gtaUdTS0htQmJHNTJz?oc=5",
+   "published": "2026-11-04T10:00:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b9e4982188d51068f4a6c81706c2532b7512be56",
+   "title": "Utilities sector outperforms in October as Exelon leads the gainers and NRG lags",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4661634-utilities-sector-outperforms-in-october-as-exelon-leads-the-gainers-and-nrg-lags",
+   "published": "2026-10-31T15:05:38-04:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

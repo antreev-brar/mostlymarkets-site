@@ -1,0 +1,402 @@
+{
+ "ticker": "MSFT",
+ "updated": "2026-11-14T14:03:04-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "72d538e5c41e4af755965cbf711f23a268d70b25",
+   "title": "Microsoft says all services restored after global outage",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46V01U:0-microsoft-says-all-services-restored-after-global-outage/",
+   "published": "2026-11-14T01:49:27-05:00",
+   "also": [
+    "WSJ",
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "85c2dba887cf6a3b0d50677284a33c9226faf35a",
+   "title": "Microsoft says consumer products services recovered on Friday",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46V06F:0-microsoft-says-consumer-products-services-recovered-on-friday/",
+   "published": "2026-11-14T00:10:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8e5402f47dd773110994bda94d48928ef4f7a6d",
+   "title": "Microsoft says affected services fully recovered",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EJ:0-microsoft-says-affected-services-fully-recovered/",
+   "published": "2026-11-13T22:59:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "26e26b5439bdfa55ed4eb649fce0683c3941fd3b",
+   "title": "OpenAI: Errors Affecting The Microsoft 365 Connector Resolved",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1DU:0-openai-errors-affecting-the-microsoft-365-connector-resolved/",
+   "published": "2026-11-13T19:27:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aa082fd98940e599dc6fde4c58936a2a5437e6e7",
+   "title": "The Chaos and Unexpected Joys of a 19-Hour Global Email Outage",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113011740:0-the-chaos-and-unexpected-joys-of-a-19-hour-global-email-outage-wsj/",
+   "published": "2026-11-13T19:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "14650d85455f260d6df4ccd5cfcb2507393bed34",
+   "title": "Microsoft Says No Indication That FAA’s Nationwide Ground Stop Is Related To Any Microsoft Services",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1DT:0-microsoft-says-no-indication-that-faa-s-nationwide-ground-stop-is-related-to-any-microsoft-services/",
+   "published": "2026-11-13T18:57:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7a37055834cb7c9fc6b3a250aaf7be0ebd537f59",
+   "title": "Microsoft Outlook Has Us All in a Chokehold, Apparently",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113009623:0-microsoft-outlook-has-us-all-in-a-chokehold-apparently-barrons-com/",
+   "published": "2026-11-13T15:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a118a8903050ebaf20c52564c601d5c547a372b",
+   "title": "Microsoft Do Not Have An ETA For Full Recovery Of Microsoft 365 Services Yet",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1D0:0-microsoft-do-not-have-an-eta-for-full-recovery-of-microsoft-365-services-yet/",
+   "published": "2026-11-13T15:24:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "96ae5f276db5a6c73e7851c35372e20ce6a15b66",
+   "title": "Microsoft outage will supercharge backup plans",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U0ZA:0-microsoft-outage-will-supercharge-backup-plans/",
+   "published": "2026-11-13T11:40:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b9bf718468f78b5031ebb59c8962e1c95d7702cd",
+   "title": "Microsoft Outage Unlikely to Cost Insurers as Much as CrowdStrike's Did",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113007802:0-microsoft-outage-unlikely-to-cost-insurers-as-much-as-crowdstrike-s-did-wsj/",
+   "published": "2026-11-13T11:11:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4ea609dea2e3ca908e25a75e2e6ca3dbbaaa4b7d",
+   "title": "Faxes, phones and Bluetooth: Microsoft outage forces businesses to find fixes",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46U0NP:0-faxes-phones-and-bluetooth-microsoft-outage-forces-businesses-to-find-fixes/",
+   "published": "2026-11-13T09:51:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "28a9ce253a428595281ebf3862470c419d069211",
+   "title": "Why Microsoft Outage Is the Worst Possible Timing for the Stock",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113003393:0-why-microsoft-outage-is-the-worst-possible-timing-for-the-stock-barrons-com/",
+   "published": "2026-11-13T08:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b00584a5c4dc64011afc2fea7145937ca97ec736",
+   "title": "Widespread Microsoft Outage Roils Businesses, Governments and More",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113005065:0-widespread-microsoft-outage-roils-businesses-governments-and-more-wsj/",
+   "published": "2026-11-13T07:59:00-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "638b335a77a0661041417e32427f099e58cff393",
+   "title": "Microsoft stock slips as global outage knocks out Outlook, Teams, and Copilot",
+   "source": "Quartz",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZy1KS2lPYjZlU3hyNXhSMVlZdlEzTDZYaHhYbUJRMnhFVEpZWURSOHNWaW5mYk12Uko3b3haR1Vjd0xOUVNXWk5Kb19fRnFfYVJjaU02M1F6dWo5M1dnMUFxeGQ4NVdXUnlGa1ZJVXlxMF9yNVhMbmFNdFE1eGlzcnRRTDM4UQ?oc=5",
+   "published": "2026-11-13T07:53:31-05:00",
+   "also": [
+    "GuruFocus",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7c1c1939921f5b16bdc348b716c29c4911998af3",
+   "title": "UK Government Says Technical Issues Affected Systems Used In ACS Approval Processes",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U0XY:0-uk-government-says-technical-issues-affected-systems-used-in-acs-approval-processes/",
+   "published": "2026-11-13T07:44:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ac5b0e57013c64bed5eff6114e9c7ab98064714d",
+   "title": "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3JfTWdHazZ1d0hZM2RZaktTendJdWFRVDNEVEs1a3VqY19GUF9oZW1zUTN4aUlPV0wzZUhsRDBST250bHl3VHMxTzRqb2QzSG1FWDBlNk1Yc0lmNmJvTTJEMmhRZmQ3RFNLUDQ2U3U3bTZHNC1ZTExHLUlGcjN3ak15OTZkTDV0aEVOTEp0Skw5dGtRbGZUcjhHOUowWjlMVUpPbnB2R2FkOFdvVEp3TnEzMHlPSEVERTZHRkkwMFVSMWlDUmVTRHdfRkZZM253OVE?oc=5",
+   "published": "2026-11-13T07:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dc169bbd97fb0e1240e12c06fe99287a86fac059",
+   "title": "UK's Planning Inspectorate Says Manage Appeals Service Currently Paused Due To Worldwide Microsoft Outage",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U0AG:0-uk-s-planning-inspectorate-says-manage-appeals-service-currently-paused-due-to-worldwide-microsoft-outage/",
+   "published": "2026-11-13T07:04:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9c6a9a595413a001b5df94a5a34a447ffe0f4cb9",
+   "title": "Microsoft stock down; cybersecurity gains as outage disrupts Outlook, Teams",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4672253-microsoft-stock-down-cybersecurity-gains-as-outage-disrupts-outlook-teams",
+   "published": "2026-11-13T06:57:21-05:00",
+   "also": [
+    "GuruFocus",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e99a21c38d668a92db14a09c7557a7fecbbd47e1",
+   "title": "Microsoft outage expected to significantly affect German economy, government says",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46U1A4:0-microsoft-outage-expected-to-significantly-affect-german-economy-government-says/",
+   "published": "2026-11-13T06:48:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6dab5c5b69338593e1fcc99d8f54fc79c51b12c0",
+   "title": "Nvidia, AMD, Microsoft, Broadcom, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xNUN1dEs4N0hEbVFCd3JKNGlNTTkycmp5al82X1RBdWxPSzgxc181eF8zZHpyWHVtYlR3OWlxMTFySzlKQjVLNUg1aWFJLUVQa3c3enFtMER5QUd6OUZ0VzNvQ3o?oc=5",
+   "published": "2026-11-13T06:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "deffb7993ad745ce1517873a8c3b69fe8b36bf5d",
+   "title": "Microsoft Stock Falls Amid Global Office Outage. The Timing Couldn’t Be Worse.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5",
+   "published": "2026-11-13T05:40:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b39a58bcbdfb6945c8dd3025a0e4c597fd695ca",
+   "title": "UK's Insolvency Service Says Currently Experiencing Problems Sending & Receiving Emails Due To Microsoft Outage",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T281:0-uk-s-insolvency-service-says-currently-experiencing-problems-sending-receiving-emails-due-to-microsoft-outage/",
+   "published": "2026-11-13T04:27:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9938814bc18fe74a0532d7a254e2a2209d243ae1",
+   "title": "Microsoft On Outage Says Seeing Early Signs Of Stabilization",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T24W:0-microsoft-on-outage-says-seeing-early-signs-of-stabilization/",
+   "published": "2026-11-13T04:25:47-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "57ed433ed942cfcd7fd6185fe94abfca9a3dc6a6",
+   "title": "Indigo Says While Global Microsoft Service Disruption Continues To Impact Email Support, Indigo's Flight Operations Remain Unaffected- X Post",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U090:0-indigo-says-while-global-microsoft-service-disruption-continues-to-impact-email-support-indigo-s-flight-operations-remain-unaffected-x-post/",
+   "published": "2026-11-13T03:39:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bd38885d9a189eea3d3c47e888479a904702d898",
+   "title": "Cerebras Stock: Earnings Beat and New Microsoft Partnership",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GV3pHZXI5bHdjSjFjc2JBMEF0UGNGZTBYVUgzZzZ6Smd0dGhTdUdyYzd2QzVYbnBrUkRweWhSWW9OQ1ZWVWotWXlBbHFob05kWUtqSmVwOEhZXzh6azBFZ0haOTh3eXYzazZ3SFluUDRWRW5FYi1EY0FtOA?oc=5",
+   "published": "2026-11-12T18:02:00-05:00",
+   "also": [
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "462e6cb4cda0b1bc53ed215c3d0c834042500f0b",
+   "title": "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTDJyVUx6MkpJbEpzUUFYQlRacC1pMmRiYUt0ZTNMQ3k1Y2xXTUowQ3lHaVE2XzlkbVhRa25DSHRYdXlpQXA3NWlWU3lHRS10WVAyU2hkYWx2eWxOM01sM2s1blhQWmNBV2Q3VGZPaTZ3T0FHWURtdS1vM2ExNEJGYUJaX1VoMTkyeUHSAY8BQVVfeXFMT2tTZnh4UXd6a0dCTGVYcGxzODNjZktGT1Y5aUxoV0hnQ2lkZTFKVHBzeE1GNEx6ZHRvU210cUtjekJLS1lIQUdNTmVsclBJT3dBUmlIdk50T24tRHR2OXMwS0VDRFFic0N1dkhWQ0EzN0JlNW41eDRGWGpEd3cwZ2M2YngtVzZnSDNETF9ELWs?oc=5",
+   "published": "2026-11-12T16:07:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c16c3515c328921170960bf2a23bfa1bbf06cc10",
+   "title": "Microsoft outage hits Outlook, Teams and Copilot worldwide",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T1BY:0-microsoft-outage-hits-outlook-teams-and-copilot-worldwide/",
+   "published": "2026-11-12T14:24:44-05:00",
+   "also": [
+    "Cointelegraph",
+    "Yahoo Finance",
+    "GuruFocus",
+    "Quartz",
+    "TradingView",
+    "Benzinga"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8f28323186d66adc35ace8e6750a8ac28f3a0f00",
+   "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T1BY:0-microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands/",
+   "published": "2026-11-12T14:24:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "545783e9c2599dad1aab9596c2fa53b4ea6f1d9e",
+   "title": "Microsoft outage spills into Asia-Pacific business hours despite 'partial recovery'",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T1BY:0-microsoft-outage-spills-into-asia-pacific-business-hours-despite-partial-recovery/",
+   "published": "2026-11-12T14:24:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "759c0a8ce88f1dc8c4f70d229304be7fcf4c7b2e",
+   "title": "Microsoft Outlook, Teams outage eases after over a day; recovery timeline uncertain",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
+   "published": "2026-11-12T13:32:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e5ebf03ae42dd91bc018ee4214d00b108f9dbe8a",
+   "title": "Microsoft 365, Outlook down for thousands of US users, Downdetector shows",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46T1UA:0-microsoft-365-outlook-down-for-thousands-of-us-users-downdetector-shows/",
+   "published": "2026-11-12T13:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8bd75c34147a8e407e58dd6df9f2709d9bf1f3a8",
+   "title": "Microsoft Says Mitigative Actions Have Successfully Restored Service Health And Functionality",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T1PV:0-microsoft-says-mitigative-actions-have-successfully-restored-service-health-and-functionality/",
+   "published": "2026-11-12T12:11:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0b26442754099317b6fe4b4a0ddb16b2d890642f",
+   "title": "DuPont Announces Collaboration With Microsoft And NobleAI To Accelerate Research And Development Innovation With AI",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA91GW55:0-dupont-announces-collaboration-with-microsoft-and-nobleai-to-accelerate-research-and-development-innovation-with-ai/",
+   "published": "2026-11-12T09:51:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6ebd363ffee9aef582213963501876a0e30ebea0",
+   "title": "Microsoft Is Off Its Record High. Next Week Could See the Stock Reignited.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU2h5SUhpTF8yai04dGJxYW8tVXdnWjhXSTN0elY2WVlnYTlNUnVmckVpSTJBUjcyOENTWmZNSDZqLTBLZkgyMnRiTW9vcF9fcWs4aDhHUm9HUDlTSFdUWThiN0pSR2w0LUM1RUppUnlWX3R4Z05GVG5OcXRRTXBESA?oc=5",
+   "published": "2026-11-12T08:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1e3a540dde21e861db456c26a753a4e078e96c77",
+   "title": "Ohio State University And Microsoft Announce Five-Year Strategic Partnership",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA6BKD36:0-ohio-state-university-and-microsoft-announce-five-year-strategic-partnership/",
+   "published": "2026-11-10T13:02:10-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a7d3273a3a736486d21358f1a320b2f5a669717d",
+   "title": "Microsoft tumbles as Anthropic unveils office tools ahead of IPO",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4669998-microsoft-tumbles-as-anthropic-unveils-office-tools-ahead-of-ipo",
+   "published": "2026-11-10T12:53:27-05:00",
+   "also": [
+    "Quartz",
+    "Business Insider",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2be87e0a7a82cfdaf63f5299908f7b26a13d28a8",
+   "title": "Microsoft top Nvidia's market cap for first time since June 2025",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46R17Z:0-microsoft-top-nvidia-s-market-cap-for-first-time-since-june-2025/",
+   "published": "2026-11-10T11:55:55-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "20bf43bc6ddfce16630dd6bd8a03c8177d56ddb9",
+   "title": "Microsoft Is Winding Down Oracle Deal To Rent AI Cloud Capacity - Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46N2AM:0-microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news/",
+   "published": "2026-11-06T12:41:23-05:00",
+   "also": [
+    "Investing.com",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "19489f2aebb915b49e546c872999130bf2d105f8",
+   "title": "Microsoft 8-K: executive or board changes",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/0001193125-26-448357-index.htm",
+   "published": "2026-11-05T06:01:52-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d8ea8c1cdb416f2bc347320d04d9e604055c6ea1",
+   "title": "Microsoft will not expand Texas data center deal with UK's Nscale, source says",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M0CA:0-microsoft-will-not-expand-texas-data-center-deal-with-uk-s-nscale-source-says/",
+   "published": "2026-11-05T00:44:23-05:00",
+   "also": [
+    "Stocktwits",
+    "Seeking Alpha",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  }
+ ]
+}

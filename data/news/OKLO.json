@@ -1,0 +1,371 @@
+{
+ "ticker": "OKLO",
+ "updated": "2026-11-13T06:08:28-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "ef2bfb85251490191f582421145dee269154739f",
+   "title": "Oklo, Centrus sign HALEU fuel supply contracts for Ohio nuclear campus",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4671641-oklo-centrus-sign-haleu-fuel-supply-contracts-for-ohio-nuclear-campus",
+   "published": "2026-11-12T12:28:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6deb07221fa5660472a2960d01380cbb5ced5ecc",
+   "title": "Oklo Advances Groves-1 Reactor Into Research and Testing Phase",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3028818/oklo-advances-groves-1-reactor-into-research-and-testing-phase?cid=CS-TRADINGVIEW-FT-analyst_blog%7Ccompany_news_energy_sector-3028818",
+   "published": "2026-11-12T10:18:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bcaef5601ab5f73a42d3cfcc53017a673b60d819",
+   "title": "Oklo Signs Multi-Year HALEU Supply Contracts With Centrus",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T1H0:0-oklo-signs-multi-year-haleu-supply-contracts-with-centrus/",
+   "published": "2026-11-12T08:38:41-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a39433101f7132ffaa341478d7c826655d868bf1",
+   "title": "Can Oklo (OKLO) Be Below Fair Value After Groves Progress?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdk5wTzExTEtxMFd0SlZiZEJ5UExJMDlnQ1k0YmM5R0FKRUY1ZGI0N3lLaWJVR2FYZ3oza2Y4ckFJZlRLRmktaG9pTVFyVFRieTNOc2tvelRLZE9mc3RoMHhQWEJnbERZT1dma3lsSndseDRZcnVwTmtBTDJDMVVPcXAwQ195bE05NjY2eDJHN1VxSkFmcEE?oc=5",
+   "published": "2026-11-11T22:50:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7345009ff6d133986fe869952476d20e708b8222",
+   "title": "OKLO Jumps After DOE Clears Groves-1 to Run Without Restrictions",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:03a10610e094b:0-oklo-jumps-after-doe-clears-groves-1-to-run-without-restrictions/",
+   "published": "2026-11-11T10:22:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8fdfb010518576f23c6344226f2c86fcccb97a7c",
+   "title": "Oklo Gets Final DOE Operational Clearance For Groves-1 Reactor – Retail Eyes 85% Upside By 2026-End",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/oklo-gets-final-doe-operational-clearance-for-groves-1-reactor/cNGDAS4R9Bp",
+   "published": "2026-11-11T09:39:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "56b8afdbfc19d5b76ff208827046eac627567b55",
+   "title": "Oklo’s Groves-1 To Begin Research And Demonstration Phase After Being Cleared By US Department Of Energy For Unrestricted Operations",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46S0O2:0-oklo-s-groves-1-to-begin-research-and-demonstration-phase-after-being-cleared-by-us-department-of-energy-for-unrestricted-operations/",
+   "published": "2026-11-11T09:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4dd1744396c1677a6777008930e6db74460a78e1",
+   "title": "Oklo stock rises after DOE clears reactor for full operations",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQVRnVGRpY0hCUHR0bkxkYjZ1dE5BVzZzZlpfWF80Y2VjZElDRFgwZFJKcFlQeUFlZnNzTXZuTGVpM2VtUW9KdWF6WXJDalhSeFRmMzltSngzN1R5NG83aUd3UnNKaWtsNVNLaHhmcEdBajJqaUk3WVFXYlVyX1lSRDNQTjBHVmNMRjhzUl9TODQzVHUxWVg0?oc=5",
+   "published": "2026-11-11T09:01:25-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d046d5f5bc5e8f90045eabed60cf40610fe2a99e",
+   "title": "Oklo Receives DOE Clearance for Groves-1 Reactor Research, Testing and Training Operations",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaVZCUXFDNEV2R3BScVFtVTRhQURDVFluWkVRTnVnWE04eW1hNFNoRVRMWDdMSExMTzlnZWR0a1hZYkVxMU1VZDhrZzVWTWg1TVdSZUZsdXNPeGp1VURYU3JQdnZKNUJQWWRiMjJNNVAyRWRvS3FlMHl0ZkRaQzlYU1dmemxUcWVMeWhKak5uMlprY2VJcGc?oc=5",
+   "published": "2026-11-11T08:45:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f252a28057a42d59d48a85aab5b3eff804b47ffa",
+   "title": "Oklo Shares Gain on DOE Clearance to Begin Research, Demonstration at Isotope Test Reactor",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261111004556:0-oklo-shares-gain-on-doe-clearance-to-begin-research-demonstration-at-isotope-test-reactor/",
+   "published": "2026-11-11T08:25:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b7feabdd1a0732b6a4aa344e1ad2a81f85b3aacb",
+   "title": "Oklo shares rise as Groves-1 clears final DOE operational milestone",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4670510-oklo-shares-rise-as-groves-1-clears-final-doe-operational-milestone",
+   "published": "2026-11-11T07:37:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c884bbd82545934e35718eccb49ed01f325eca84",
+   "title": "Oklo Inc. (OKLO) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GSU9ZdmItV0VjbzdGS2dfVllZOG5fcFlLYXBXN0djdmR0Q09ibWNYRzI5dTdFaXFIS1ZURl9yc250OWZZTWVtSG1GRlFZZmdBRWY5N3o4UDhDZHdSMTZ4ci1n?oc=5",
+   "published": "2026-11-10T17:48:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dd01ea73285815cdf4d177f2284b2150e885e384",
+   "title": "Oklo Stock and Its Manufacturing Deal Have The Bull Case Changed?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlBmbVBPdHVpQTVtbnlMVU9pcm96SW8wdmpBTWxfMVJXU2UzTkJBSVNlY3RoOHlhQWdNUGh6SnhQMTRxMzY3QVBvQ3NvZERIUjN6ZzYyVER2WHBZTWRvV0NmZ3ROYV8xRVlWck5wV2lzZkRScXJtY3lWcEc4bURIYWNRNnNCVWZQd1l3ZWsxUlRINmRDdGlqRzdHbEwtMy1I?oc=5",
+   "published": "2026-11-10T07:11:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "94b799025dbc57ec274f55ffd630443b3b9c775b",
+   "title": "Key facts: Q3 beats estimates; Idaho Aurora 2028–29; Ohio complex 2030+",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:38c1edbc00694:0-key-facts-q3-beats-estimates-idaho-aurora-2028-29-ohio-complex-2030/",
+   "published": "2026-11-10T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a767ee9182400621e24491b74c1fcf6a90620485",
+   "title": "OKLO Stock Is On Track To Reverse 6 Weeks Of Losses, But This Analyst Warns Nuclear Euphoria Is Fading",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/oklo-stock-is-on-track-to-reverse-6-weeks-of-losses-but-this-analyst-warns-nuclear-euphoria-is-fading/cNGuGRmR97O",
+   "published": "2026-11-09T20:20:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7f4066bc92365e3f0e3e492296a2b0fbd3697b92",
+   "title": "OKLO Maintains Buy Rating -- Price Target Lowered to $66.00 by C",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV29JbEo4Uy1uUHdyMno4Y0h0WEplUzhiTk1GU1JBTm9XeXFLNE81bzFIWUFhb1g4Y0dhN3VKQW1ITTRpY0I3UUJYc0k1dmdKTFg4b2NsaW1lS19jdUphbmlyck5Eb1F6eWRkcGlwdjVEVGRlaXBqZ2dpQVJ0eHh5TjhrRHN4OWxZdEpPaDlVVUNVUkl6RmxHc2x3Z25qMVkyUzFoeXpVMl9QXzFqYkw0dHFaWXA?oc=5",
+   "published": "2026-11-09T15:16:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e00cac5f379cb54ef1a7a7e66a9cd71cd19b6ec1",
+   "title": "Oklo Changes the Narrative: Does a Nuclear Stock Price Explosion Come Next?",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/articles/oklo-changes-the-narrative-does-a-nuclear-stock-price-explosion-come-next/",
+   "published": "2026-11-09T14:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b4a32c1f3f256180dae579a49b88ba890fd60d9",
+   "title": "Oklo Is Down 86% From Its High. Will Shares Soar When Meta's Reactor Comes Online?",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNHZZMUM4WDR6RjZ1R3NWb3ZPWjBqcjB3bFhCZnV0cFdfaHBNWTVKaHRrYkhwZ1c0ZUJJQ09RZDRXTlh0ZlFvUTh2TWV5em9ReXFRenRHbFA4WXctR2V1YVUxWlNObkJJX01IZ2dWMm1KX3Q4dDN0Q0JLR2h3OEVhT2RLUjJlRjBwUkU3QjdkdFJJT1FxbUE?oc=5",
+   "published": "2026-11-09T13:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b3177bc5f9d4d1e1c84c7f4cfa4b85f78275366b",
+   "title": "Oklo Posts Higher Q3 Net Loss, Aurora-ID Construction Moves Toward Structural Work",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbFEwLXJIWnFLSXhycUxYa1dFanQ4UkpZdUw0bFNHLTBUMG5TZElkSjRyOUZIbXRVbVQwMVdpZDk0SlpMQ2dpemdvenZUT3M1alVOZEtHbnZnM0t6RzdCZHZ0UGp1UlBodkpfUE5GZEUwVnBnRWJYUDRnTHkxRjlYdFhvWktxN2hwQ0hJT1hZV0pZcGc5THBITzh5RDRqTXB3RzVIM05ic2tTUjgzVFNUT2hCeHNZTmRCdmJCcHZmcHk2RnZJZjl3SVgyMkwybGdmbFd5YU1tenpiS05QenpBOUp6TkZuNUhySUlSWUdB?oc=5",
+   "published": "2026-11-09T10:43:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0a8ab236065bd21e96a9843292d3b3467e9fbb85",
+   "title": "Oklo: 3 Key Takeaways for Long-Term Investors",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdWJjT2dZMGxqSmRiVzd4bG5oWXRGbDJRQ2dBNzVVRW1HNWFTSG1UNXRvUGtFSHVYektBdFZJUHFMd0xodWhUR1plLUZ0QUFQTXZyelRhaFR1UHU1TC14NEpCLTFUUllvSWh6Nl9Bd1V1WEFCUEFDMG12c0dkM2ZNbnUzN3RvRFdxbG02MUFIbWtORThI?oc=5",
+   "published": "2026-11-08T20:55:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8c0a29bd9f0a00bc44f00c9992d44eddd98ab9ac",
+   "title": "Nuclear stocks surge as Oklo results spark rally for reactors, uranium suppliers",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4668778-nuclear-stocks-surge-as-oklo-results-spark-rally-for-reactors-uranium-suppliers",
+   "published": "2026-11-08T17:51:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "05c78c868d56e2164873c293894ac725095e5a2b",
+   "title": "Oklo Inc. (OKLO) Soars 22.7% After 7-Day Loss, Q3 Beat",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjE5RGZyejFkX1FHVFpnQ1lNbDl2N1F1RUZaOWpmdEs2NEtIS3ItdDNIZ1BEVXhqblBXaGJIaHFadzRaYzJ0SkdKRXRGcHl4TE1uUzc5bkQ3TF9JMXhJNmFVRDg3ckdyUG43elZMaWRaLW80UzY3SzVBWmdwV1dKZEkyUlBUREtBTWlHdFdBX1c?oc=5",
+   "published": "2026-11-06T20:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cbddd28af9bfa39d12ca815b5057bbc91d05b3a6",
+   "title": "Oklo Stock Jumps on Promising Updates on Its Novel Nuclear Reactors",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrRmJJWUcxdzBUQUVOYURmaFFJWVhNUTl2cnVhb0hEQlp0cE5sdXJkVkl3MzE5ekZyMXpnNDd5VW1WVWExLWZhRXp5cy1weUFZU0N3NGg5dDNSTWpqb0oxRmc4WEhVenBIR01zdW44XzNxWUE3OGc?oc=5",
+   "published": "2026-11-06T18:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "63a1058c53cc7f0d5346ae61db6bfd39bbf8e68e",
+   "title": "Nuclear Reactor Firm Oklo Beats Earnings Expectations. That's Not Why the Stock Is Up.",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106012893:0-nuclear-reactor-firm-oklo-beats-earnings-expectations-that-s-not-why-the-stock-is-up-barrons-com/",
+   "published": "2026-11-06T18:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5cdddea384df1668000b98a3531f3d5422ae47a6",
+   "title": "Oklo enters manufacturing agreement with U.S. Forged Rings",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTXZfeHVud19aVkc2TXJUT2lZOUFYS3BCekFReERuUURmcHc1SElnQ0FqWThKUW1zQW5WNGQwSEdZb2hVcWFZZG94NkZIVTNZeVBmd3ZPQ3NrNUhKUHphTzJKbFZyQm5OekQ5NHRhX3p1amdwUkY2TmQ2Zk81cXNheDc1Q3NHREFpZW1FRXB4ZjQtS2Y1UzhiLU93?oc=5",
+   "published": "2026-11-06T15:38:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f86a40ecafd59897c05cdce4be785ed04e528eb5",
+   "title": "Truist holds Oklo stock rating at Hold on deployment progress",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaUQ5Mkt2a19lQktaNElmR0RBdmtYYThnU2o5S2ZZMmVGWmZSdjR6S2l1dUotWThPbFJoZXFmWFpRSHVFY2JTTUoteGtzelAyMHQxc25zNlBIVkpMOVJFRHJOczNvRE45OUY5ZTUzTnNuVF8xMTRTei04dUtyUUlQSTE2cVRNTDI2eDZtQU9hXzJtcDdQVU1yOEVDdDlkY0RmZXY2Z3AtaWItTzUwaUdmZDQ0RDdnOUlUY2xpdVdR?oc=5",
+   "published": "2026-11-06T14:20:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a795112ddaac99cdf886d52b682e8b5aba2b67e0",
+   "title": "Oklo CEO Jake DeWitte on shares surging after earnings",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOVVoN0NTMmRYa25fZXZlYkFmSlVWMXBGcVg0ZmUxaG94TEdReGY0Nl92WGhoMFBxc21NRnFDNVd0bGZnZ2xmYXJ5NlRHSFhGNy1BNDJZcjhrYWs0b24xNmdQSGxIZ1U3NjZZZ0dMUGduNDhaMGtqbjM0WkJKOUswdUliblo3dEFGQTNlNHBLWVpDVWE3eEJCQzZIaDZ6Zw?oc=5",
+   "published": "2026-11-06T13:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "67635754270ae9bac8417e59cd00bab3f1269a43",
+   "title": "Oklo (OKLO) Stock Fair Value Falls As Analysts Cut Targets On Rate And Execution Risks",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLXRFenZ0VkZMMzVQbUJvdGNvekI1OFNBeTZGeWIzYXp6NVBmTXdIMURBVUg2Tmh2Q1pxWlpqQlAxc0ZzZERsdEotR2QwX3FmN3YzSEd0bDRKUG1RcGptVTF5cXBiV3RFMHM3bVpHR0ZTS3VEMGcycWtzdElaWW1ibGVWYnNBU1ZkazltYjhhUllKMlJnLXc?oc=5",
+   "published": "2026-11-06T13:20:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0b5d917acdee93c05b5d213612534d37f1c46742",
+   "title": "Oklo Jumps 19% on Narrower-Than-Expected Loss as Nuclear Stocks Rebound; NuScale Power Surges 15%, Nano Nuclear Energy Jumps 9%",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFuenc0WE5udWpFcDQ5aWQxa0JkMzk4TzVRUzdBRU5WQy1ZVTZoWGJtR3FKbnNJd0Y5Rk00Q29TcktaVk1sb0toTGJEWGp1X3luQTJrcmQzN1R4NXUzQV92N1Npc1JhTzREeGw1b0JBSmlKM1lqY1RZTThmOE9TQ0xPYnk1SGhLY1NVUmpnTFlQUzUtWEJTd3RXU3g?oc=5",
+   "published": "2026-11-06T11:05:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "81ab772b3fd9ab442491d1c75b1b7a2492ce23c4",
+   "title": "Oklo stock climbs as revenue and loss beat forecasts",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNjMzNi1JU1c2TGpiYlM2OEsyN3BYblhPaEdmYVF4Tm9ualdoNGZWLUJ5ZXVpOTEwX3ZCOFo0MWQycVFoaTZvNDBjckx3TFdRaktXYWRMakZ6SUFLRF9rdHNlazRyRktZS0NRTS1Jd1NmU2RqQXpPMFk0ZTM2R2ZHYWxBRzVTNkUwSU1ETzFuWGRuWkxwajFmV2pESQ?oc=5",
+   "published": "2026-11-06T10:29:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8bb7330dfc3ddc044deee7de8b8a14f9d0054bf",
+   "title": "Oklo, US Forged Rings Partner To Advance Domestic Manufacturing For Future Aurora Powerhouse Deployments",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46N1IM:0-oklo-us-forged-rings-partner-to-advance-domestic-manufacturing-for-future-aurora-powerhouse-deployments/",
+   "published": "2026-11-06T10:25:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d3c9824de3608f475d5fa4345e1d5cff0f214d38",
+   "title": "Why Is Oklo Stock Gaining Friday?",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:9c6457c00094b:0-why-is-oklo-stock-gaining-friday/",
+   "published": "2026-11-06T09:46:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6da34be3cd895e64b8992027ce66645b90877764",
+   "title": "Oklo Shares Gain on Narrower-Than-Expected 3Q Loss",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261106007700:0-oklo-shares-gain-on-narrower-than-expected-3q-loss/",
+   "published": "2026-11-06T08:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "55e210aa0d8ecde41f292c94c461a82d8fc2884f",
+   "title": "Why is Oklo stock surging today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTW1iZUd0MGhUSEhyYVBWaUd0SlYxaGVBS0hzTUtTZXh5QWhsMTlVMG5LS0FUanJ4cW5XTXVuOElfc25kWEZzTFdFQ0xRZHlpQWVueTdDTi1nTVpuUllvdG45eUZxNXVqRDdVMmk4bFlsSjY4aW5abEpxdUplVDk3ajhFSS1WaUtRdG1HLVp5RWplckxXb2dtVQ?oc=5",
+   "published": "2026-11-06T08:00:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1db5d19de3d0a025eebb09ce91bedba15ec4c837",
+   "title": "Oklo reports Q3 loss per share of $0.22",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46N0I1:0-oklo-reports-q3-loss-per-share-of-0-22/",
+   "published": "2026-11-06T07:46:24-05:00",
+   "also": [
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2a622953eb7c3113e9a69151dc13e2bbaa49a09e",
+   "title": "Oklo Inc. (OKLO) Reports Q3 Loss, Lags Revenue Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEg4OVBPWXNKc1FnSE1DaXdmRmY5RHlKUFkzUDNIV1RwZUlBVHpnZFc2MU5ieXpIWTJyQWJ6T3hPa3dXX01OSlpERTJtcW5BN2hPVnh4WWlYaENkeVNFcE14LVVUR0xtVWlDZlQ4MlBTRlpJcDVmWW5FTC1McEdaLVB5VVpRdkZHUXoxbDIyc001UWs?oc=5",
+   "published": "2026-11-06T07:45:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "36629165f2f09d69a7c4953aa74952ec9c70a892",
+   "title": "Oklo files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+   "published": "2026-11-06T07:32:23-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "5a2b498b35a1d2fb847fb809bd996af8bf9b5045",
+   "title": "Oklo Publishes Third Quarter 2026 Financial Results and Business Update",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:b092d4df8ed72:0-oklo-publishes-third-quarter-2026-financial-results-and-business-update/",
+   "published": "2026-11-06T07:30:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "2782fcb0fbc092b57c35942fd34d7079804ed394",
+   "title": "Oklo tops most shorted utility stocks in above $2B market cap category",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663913-oklo-tops-most-shorted-utility-stocks-in-above-2b-market-cap-category",
+   "published": "2026-11-03T16:15:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "957416a4ea48dede3408a9d92bfdaa588cc3f430",
+   "title": "NuScale started with Sell equivalent at Wedbush; Oklo, X-Energy, NANO rated Outperform",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663999-nuscale-started-with-sell-equivalent-at-wedbush-oklo-x-energy-nano-rated-outperform",
+   "published": "2026-11-03T15:46:52-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

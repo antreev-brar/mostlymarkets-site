@@ -1,0 +1,67 @@
+[
+{
+"ticker": "NVDA",
+"name": "NVIDIA Corporation",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 2.49,
+"n_estimates": 13,
+"eps_last_year": 1.24,
+"last_year_date": "11/19/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 4005178900000.0
+},
+{
+"ticker": "HD",
+"name": "Home Depot, Inc. (The)",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 3.87,
+"n_estimates": 11,
+"eps_last_year": 3.74,
+"last_year_date": "11/18/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 347455390000.0
+},
+{
+"ticker": "BHP",
+"name": "BHP Group Limited",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": null,
+"n_estimates": 1,
+"eps_last_year": null,
+"last_year_date": "N/A",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 206448001000.0
+},
+{
+"ticker": "DIS",
+"name": "Walt Disney Company (The)",
+"time": "bmo",
+"quarter": "Sep/2026",
+"eps_forecast": 1.67,
+"n_estimates": 9,
+"eps_last_year": 1.11,
+"last_year_date": "11/13/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 204146196000.0
+},
+{
+"ticker": "JD",
+"name": "JD.com, Inc.",
+"time": "bmo",
+"quarter": "Sep/2026",
+"eps_forecast": 0.88,
+"n_estimates": 2,
+"eps_last_year": 0.44,
+"last_year_date": "11/13/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 36946559000.0
+}
+]

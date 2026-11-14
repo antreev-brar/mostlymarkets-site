@@ -1,0 +1,522 @@
+{
+ "ticker": "NVDA",
+ "updated": "2026-11-14T14:03:05-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "07616cb5f77a75dec897fa066f1fe17062798071",
+   "title": "U.S. Stocks Mixed on Nvidia Fallout Fears",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXo0WGszbS1hZnpTdTRYYjJ0MnNDYVo3c1paejV2WkowZl93UVNiamRIQ0xEWU9HZWp3Ui14aEhFUEZkbWNQTXhfUVNSVE5tQkhELWJEcmZxYVpEM2c0aGRwdWpQZWM5MmdETXFXMDd5TTR5cHNvZUdaWmp4MlBLMG5KTm9JTFVrRmpfVA?oc=5",
+   "published": "2026-11-13T16:34:51-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "917d099c748ce755b27ceffad545d3df15ccc209",
+   "title": "Arm Boss Rene Haas Approached In Nvidia CEO Search- FT",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45Z08U:0-arm-boss-rene-haas-approached-in-nvidia-ceo-search-ft/",
+   "published": "2026-11-13T11:56:19-05:00",
+   "also": [
+    "Businessworld"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6dab5c5b69338593e1fcc99d8f54fc79c51b12c0",
+   "title": "Nvidia, AMD, Microsoft, Broadcom, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xNUN1dEs4N0hEbVFCd3JKNGlNTTkycmp5al82X1RBdWxPSzgxc181eF8zZHpyWHVtYlR3OWlxMTFySzlKQjVLNUg1aWFJLUVQa3c3enFtMER5QUd6OUZ0VzNvQ3o?oc=5",
+   "published": "2026-11-13T06:31:00-05:00",
+   "also": [
+    "The Motley Fool"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f941ba6c16b449ecf7c32ecf7ca8e844565a189f",
+   "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46U03Q:0-colette-kress-the-cfo-who-challenged-huang-s-bets-is-nvidia-s-interim-ceo/",
+   "published": "2026-11-13T06:00:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d479e3a7411e8b4e8b2535253ff3f7236f63398d",
+   "title": "Huang’s Ouster Sends Nvidia Stock Tumbling",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjZud2VvbjhHWjlsOFFna1JjWExjOVU5WndwcUw1aTlmNDktQVRSTUFLV0VrUjhYTDBBUGQxZXRiWjR2ZE0yNXZmdElmNVlYUEtZQ2h2eVE5UnY4aUV2TkhMYU1RWnRwcEJnbHlHaURxU2h4UXVYWEhqdmZWRTFvbXJZZzNQU3JtVlhZWXlyQXVDOXYxdkJzREV5ajR4WjlkcVBDZXhWYlBtZHVOYmhLdlRGdEw?oc=5",
+   "published": "2026-11-12T21:08:40-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0de402ba3d35b2b69f0ae41b2d00403705fe152c",
+   "title": "Trump had urged Jensen Huang to fight for his job, New York Times reports",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46T25Z:0-trump-had-urged-jensen-huang-to-fight-for-his-job-new-york-times-reports/",
+   "published": "2026-11-12T19:15:41-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e2b1ca6255e868811d000dfd5af2e9fdf26767c1",
+   "title": "Retail buyers limit Nvidia stock rout",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T1CP:0-retail-buyers-limit-nvidia-stock-rout/",
+   "published": "2026-11-12T14:53:52-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "91cf7c9c81b11f627c27d2caae44fc75ff974259",
+   "title": "Nvidia’s stock is on sale after Jensen Huang’s exit. But is the selloff just beginning?",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSzhsOVgxd0RNbktDMFM4NTkwbTRmV1ZzZVg5LVFYV2xEbEpzcnVYcG4xSjR3V2w0THRqd1I5bVlEa0ZNenN4VVY5ZGdvcENqZUNxbEFJdElrYjVaUGdTdDBraUFqZVR4OHNPazVtc19GZll3UXpzVUNMeFZZb2NUS0lSSkdXclJrUno5WTlyVmVsZDhfUUxqenRqWTRkbm9xOG1fX3dPdFZQaFBES1BTeGtaRWp0VTc0THZVTUVDcElPU2FI?oc=5",
+   "published": "2026-11-12T13:09:00-05:00",
+   "also": [
+    "Forbes"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "876bd0cffda3909dc8a404237476d1983226d054",
+   "title": "Individual Investors Rush to Buy the Dip in Nvidia",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112012090:0-individual-investors-rush-to-buy-the-dip-in-nvidia-wsj/",
+   "published": "2026-11-12T12:45:00-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a65726aee1007c1e168517b55773aa2cb107c948",
+   "title": "AI stocks pare losses as investors assess fallout of Nvidia CEO's exit",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5",
+   "published": "2026-11-12T12:41:51-05:00",
+   "also": [
+    "Zacks"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "cc9fe0e53632ce24c445897c28de5dd47c26eb4d",
+   "title": "Wall Street Reacts to Jensen Huang's Resignation",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112011795:0-wall-street-reacts-to-jensen-huang-s-resignation-wsj/",
+   "published": "2026-11-12T12:14:00-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "75dd0659fe316348aca236e05cdb54225d322d6c",
+   "title": "Nvidia Bonds Hold Steady",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112011282:0-nvidia-bonds-hold-steady-wsj/",
+   "published": "2026-11-12T11:44:00-05:00",
+   "also": [
+    "Barron's"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fc2d8eba2e5930d8861f6735c2afadd8b6e44d43",
+   "title": "Who is Harvey Jones, Nvidia's first-ever board chair?",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46T1FD:0-who-is-harvey-jones-nvidia-s-first-ever-board-chair/",
+   "published": "2026-11-12T09:39:37-05:00",
+   "also": [
+    "WSJ",
+    "Invezz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4b2c01a31036dd44a9c30d740c4b17e6023f2434",
+   "title": "Jensen Huang Is Out at Nvidia. Who Could Replace Him?",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112009993:0-jensen-huang-is-out-at-nvidia-who-could-replace-him-barrons-com/",
+   "published": "2026-11-12T09:34:00-05:00",
+   "also": [
+    "Yahoo Finance",
+    "GuruFocus",
+    "The Motley Fool"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "780fbd42a8099954521c85aa4739cf83c3a698ac",
+   "title": "Nvidia CEO Jensen Huang Resigns. Stock Dives 12%.",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261111009007:0-nvidia-ceo-jensen-huang-resigns-stock-dives-12-barrons-com/",
+   "published": "2026-11-12T09:23:00-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Dow Jones",
+    "WSJ",
+    "dpa-AFX",
+    "Yahoo Finance",
+    "Cointelegraph"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b2a43ce0924f161a4a8bae499367c39fe5291058",
+   "title": "Nvidia CEO Jensen Huang resigns, Colette Kress named interim chief: Live updates",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLXdpNk1zM3AtTjV1OFB4d0xkbXhnQkhIYUtYVWRxalR2dVJLZ0d6ajJDdS1Nb05ycVZnNnkxbGkzLXF4WVB1NnVlREtiVWdBOE9vbFRERGh2NGxjUGt0T01CbjVrZEUzZjB3UVhacUlZYnBxMURYV2pmQXBMdw?oc=5",
+   "published": "2026-11-12T08:55:00-05:00",
+   "also": [
+    "TradingView",
+    "Reuters",
+    "WSJ",
+    "Dow Jones",
+    "Yahoo Finance",
+    "Benzinga"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5dd56914af993e4fc7eb8538cb41789fe4e1fd28",
+   "title": "Nvidia 8-K: executive or board changes",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.htm",
+   "published": "2026-11-12T08:52:41-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "b0bc212de44fc8682c4a49cd85639e35bfcac4e3",
+   "title": "Nvidia Leadership Scandal Drags on U.S. Stock Futures, Pressures AI Trade",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFA2c196U0Ewd255MEZwXzRYX0xlQTZzRV90enFaMGk3REwzVmtQVFVQRFV5Q2Q1WWdOTnVXUlY4VEJ5SjhQanJNckVzcnhxdzloTWMzc095MTk2Q1FWN0xTYl9lbkpPRnliNVFFcngyVjl5ZlVuX05IOFc1ODUzNjRUTzl5YkM2UU9nWGNES1ZRaWRkdFAxMzlBZFd0eW1nTlc2QU11R0tjT2FMZ1NNSVlWOHFJUQ?oc=5",
+   "published": "2026-11-12T04:17:00-05:00",
+   "also": [
+    "Dow Jones",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9e305642c63c094f69aec2aa0e5bfbccaf564d65",
+   "title": "Nvidia stock falls nearly 10% as CEO Jensen Huang announces resignation",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVFBOVnFZT1F2M3oteUktWm1qb29oLW5DLW9MZ2pBRzhEenlNZWFERC1NRXJlSV9saDN5MmNRZzdzQm0xQ0hWSzVpSktBSy00aDZlUTcyQzd2Vmlia1F1UTlEdE11anNMVE10RDNEVlc4cUlMcW5CRlpxaWFEbDh2Mg?oc=5",
+   "published": "2026-11-12T04:02:10-05:00",
+   "also": [
+    "Barron's",
+    "Quartz",
+    "dpa-AFX",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bf343dd044187a22a381d071f804e5af227a1232",
+   "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XcTlzd01BSWFhRWROazZzbHhQNmpWLXRjY3Ayd291bVRRNUFfbnhlRnpJekdIZnhMWDVSeng2Q19aOXQydWltRnlxMEpfLXctZVJRMFM4eFBUREhxQW10YkdRLXBqTmszWWdEYUx0U2k0OWtwUEg4NVV6Vy0?oc=5",
+   "published": "2026-11-11T22:25:00-05:00",
+   "also": [
+    "Benzinga",
+    "Barron's",
+    "GuruFocus"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "821efcb453d7a3191014f11f6c3063569b70e75e",
+   "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5",
+   "published": "2026-11-11T20:57:34-05:00",
+   "also": [
+    "Reuters",
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "742f0876084dcb7f1be574e17b4664eb05c84ec8",
+   "title": "Trump's ties to Nvidia CEO Jensen Huang in the spotlight",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ1RYYVlNcjVQeGNHTUREclhvOXJQaEtpd2N5UmU2em9ZSTRQdTFJTjZlTGVBQTlSUGJuanhhXzV1cXNoVFBYbDk1aHNWeGpPcl9Hd2ZCM0w2YW95T1c3dFJUX0Z2WVF5cEZRNVBWaXNTRF9nOElKbnFuN3g1R0lXdTViRXpQclFxR2dyR0hpVlIxSk81?oc=5",
+   "published": "2026-11-11T20:56:00-05:00",
+   "also": [
+    "Benzinga",
+    "Barron's"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5458754219ee0e5d411537843598fcf87af5ed1d",
+   "title": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaW1tUGR6WFlEVmNGLXlEaVd2UnBSdkRKRlRxYUtieXVsbHh5WWRpNWUtMnp3WTRNUHhaYllYdG5MZEN4czNyUXJ6TVpyc2F6U0NBN3ZvM1pxWkJWSDREa0dJSlctQXQ1eGl4R3BHUTU3WEVIdTZWeGdOT0hVcHNzcVp5NklibXIwalRQWTkxcHBOdjNlXy1nSDVR?oc=5",
+   "published": "2026-11-11T19:54:00-05:00",
+   "also": [
+    "Benzinga",
+    "Yahoo Finance",
+    "WSJ",
+    "Dow Jones",
+    "Fox Business"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "776f514fa98c1b4626d95867f6f61a89660cc527",
+   "title": "Nvidia’s Board Has Been Working With An Outside Firm To Identify Potential Replacements For CEO Jensen Huang - Bloomberg Reporter On X",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46S1L3:0-nvidia-s-board-has-been-working-with-an-outside-firm-to-identify-potential-replacements-for-ceo-jensen-huang-bloomberg-reporter-on-x/",
+   "published": "2026-11-11T19:00:28-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Yahoo Finance",
+    "GuruFocus"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e6cad3c7f7ff2eb026462f5013c15f4fcefed1b2",
+   "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcVQyZWxhdEhVbG5RODQzMTRrcmZQQWlFblRqNVZhVDBkUTY1LVhGd1dlbFR0RDFZNllYQk1WRHEtV1JVeFZZekpoSDBJOTQ2dkd2d2hteVlnOGxCRkZBY0otcngwZ0FVaUJmTXY0MVBnUkdZQnBWWlBKdmtLOW93VHdOWmpRUm5LVjM0LUVGYXBDTm1STGRsMXoyaDBIakNrZElwQ1Bn?oc=5",
+   "published": "2026-11-11T18:12:58-05:00",
+   "also": [
+    "Dow Jones",
+    "Yahoo Finance",
+    "Reuters",
+    "WSJ",
+    "Cointelegraph",
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0fa53ce62c93c2a1346f9bc8750dc4ab289ad4a3",
+   "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYmdkdUluVHVQWUhGdnVOemo1NFU2N3RwV3dYY1Qta0RNckhBeVZXejVkb1RsdzdUeDlzUEV1XzQ3N0dPcFhPNVRRTTN5TTJXRktBYWdvcVBmWm9veUNoR2U2VHJJN0FzbC04TzBiTW5raWdOWk5CZ2djQTJjMlJ6bGRPR3lJbG1BOEhJbWh5X2xLMzMxazlxZzNBT0ZuUmJtZG80akFMUkFVSHV5LUdUaEplOGtvYU1RdDY4TFEzOA?oc=5",
+   "published": "2026-11-11T18:08:00-05:00",
+   "also": [
+    "Investor's Business Daily",
+    "CNN",
+    "TechCrunch",
+    "Investopedia",
+    "Yahoo Finance",
+    "Forbes"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "234b493a30f88d05ddd4b32a9414a4af44458264",
+   "title": "Nvidia Stock Tumbles on Report Board to Oust CEO Jensen Huang",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOFdBZ3c4MHN6VndFa1FXODBzUlYtaVM3cmJKMmxEWERoU1A3SlJzMUxyZ1A3OEJrR3lQY1dXSHNmN2c5Q3JhVXlQaU5KcDhoZllMN2poWlp6SlRfMkJ0R2x3X1dnR1BRc0lTWnVLWHduOUw1Y01xNTV4ek5qYVAycnlB?oc=5",
+   "published": "2026-11-11T17:42:00-05:00",
+   "also": [
+    "Reuters",
+    "WSJ",
+    "Investor's Business Daily",
+    "CBS News",
+    "TechCrunch",
+    "Cointelegraph"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ba4c0ddd86b638014f8cef81c0e262a43a14581f",
+   "title": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair — with an employee",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NaFFJVUxuMG1NR25FakxCNU9rUnpXUEl0UVE4ZTJUS0VUN2lEWjlsQVVJRTdMUWt1Vkd1RUsxcjZKa3JCaWFWN0JYbXk0TWpUM3M4SVQ1OGlJaTNQYWJsRnZVczF4NVpyeUZIQTVUQnRYVS0xX2RSQWhGWGs?oc=5",
+   "published": "2026-11-11T17:06:48-05:00",
+   "also": [
+    "Dow Jones",
+    "Benzinga",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6381466417a0c9fcf92a4f5d5515be0489c56ebf",
+   "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MUldsMl9mWlZIdmo2ZUxRd3BPWHZJYzI5S3hHMmN5ZXFCdVhuc3V2ZEpVeHJNV0YzSUVsT1VQaDNXRml4Q0ZYb051SEhxYzZyT0tsanB3b05OUHpWNWtnRzRRQU5XTWttaHBrTnlwZUFheXQ2NVE?oc=5",
+   "published": "2026-11-10T07:00:01-05:00",
+   "also": [
+    "Politico",
+    "Quartz",
+    "The Guardian",
+    "CBS News"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "dcc90ed3028aba04ce5e5e45f06e09999beee51b",
+   "title": "Who Will Lead Nvidia's Investigation Into Jensen Huang's Affair?",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261109004773:0-who-will-lead-nvidia-s-investigation-into-jensen-huang-s-affair-wsj/",
+   "published": "2026-11-09T07:45:00-05:00",
+   "also": [
+    "CNN",
+    "Yahoo Finance",
+    "MarketWatch",
+    "Fortune",
+    "Dow Jones",
+    "CNBC"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7ccfc7b33ce8d8dba9691ffc300d0b35978cd33b",
+   "title": "The Stock Market Doesn't Understand the Nvidia Spy Scandal",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261109004712:0-the-stock-market-doesn-t-understand-the-nvidia-spy-scandal-barrons-com/",
+   "published": "2026-11-09T07:39:00-05:00",
+   "also": [
+    "Benzinga",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "809dc822cf8f43a4e2874c8329eedb2669df1d66",
+   "title": "What Is Jensen Huang Worth to Nvidia?",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261109003106:0-what-is-jensen-huang-worth-to-nvidia-wsj/",
+   "published": "2026-11-09T06:38:00-05:00",
+   "also": [
+    "Fortune",
+    "Business Insider",
+    "Barron's",
+    "Benzinga",
+    "Yahoo Finance",
+    "Invezz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "aac4a341d77fc6834ccaa57e4f9b60b2fe2c32c3",
+   "title": "What to Know About Nvidia's Investigation After CEO's Affair",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261109002383:0-what-to-know-about-nvidia-s-investigation-after-ceo-s-affair-wsj/",
+   "published": "2026-11-09T05:30:00-05:00",
+   "also": [
+    "CNN",
+    "Yahoo Finance",
+    "CBS News",
+    "CNBC"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "80cadcaf658a8b4ddcd0460d8b46c958b48ac475",
+   "title": "Nvidia’s Stock Price Set to Drop After Investigation Into CEO Jensen Huang",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzFYLWFQR0pubVFMTlN3dGwzNnBmUktlNU9ZeUJBeWlLb3JBWWhucjVrUEhmQ0gwOGIxTGUtX0djWWI0R1gzOWs0UTktZUpod0xycmNjbl9PYTJJVVJXN2EzNm5YaWQ5bU80UkpIWVVnd3QwbVdtQmFOcHV6YTdlOU1PeXhHSm9VM08ySA?oc=5",
+   "published": "2026-11-09T05:23:53-05:00",
+   "also": [
+    "Quartz",
+    "Yahoo Finance",
+    "CBS News"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d354626b93b679eee16e584ec03259c29032ed27",
+   "title": "Stock Futures, Treasurys Steady But Nvidia Slides Premarket on Huang Probe",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX0N4MG4xaFJUQjN1c2hSV2dIbjI3UlptZ3BDenpiYmFNdVkzOFVlSFcxSGJiSDY1bTBkckZnMldxaTBzaWxqWkRzaGlaTmtzVXI3MkRqM2NHeHhsZHJsVDNSQWdtRTA1cEM1OWNkYnlYeVZGRjBlZldWSklJVVIxN0NFQnhsbFF4dGRocHRSa1BuZXJaMmRLOFpCQ3A0RlY4cC0xbEVYU2gzeW0xTkhoSjRPSEx3cEV0?oc=5",
+   "published": "2026-11-09T04:41:00-05:00",
+   "also": [
+    "Dow Jones",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "263269c6604cbadaae522d60dd75eb8cfb71bfa9",
+   "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcndzRG1jRHQ5c25nX1RuQVVNeXJUXzNnemotNFRpWGhwUGNCN3hmV2VkMndSVkl4V1hIMmhUMDhjWTJFa1BYckVYM1BkX0ZMMEQ2WmFxRGRhYXFtNzVJQUEtNW9PaUhfekFYM1RWeG0xbldSZlcwVldGZXVXVjNvcDdNN2dReWFqM3c?oc=5",
+   "published": "2026-11-09T04:05:48-05:00",
+   "also": [
+    "Quartz",
+    "Politico"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8f7d80b50594aa6c5bd190d0bc7e62a5483a8f57",
+   "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDekcxMEVUWTFWVEJVNUNBcmx0bFlzNkI2SnZYLWVlanJfdEtxN0lMV1RMZ2lfRHlYVHMwMm05dU1lNlQzS21OQlJwY1J2VThCVUpxZU5hcmxRWE8yTUNaVzlnZzRCTUJUNFFfSERTZ0RQaU9QdmRTMUZ1dEwxVDR5MzFOOXNBVmt4eW0zbHlEaWVRWWdFQUYydXVXWFIxcE5scC05YlZ4ckw1VkNtUDd1UXBGa2I2cjg?oc=5",
+   "published": "2026-11-08T23:46:00-05:00",
+   "also": [
+    "Investor's Business Daily",
+    "WSJ",
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fb5cd873d14ddf330ca5a7dc644bd47305e0f284",
+   "title": "Nvidia CEO Jensen Huang apologizes as firm probes affair with alleged spy",
+   "source": "Fox Business",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSTRwNXA3OUpOT0Zsa013OTJUS05iOUwxOTNJTlJGSGRManNpdnZEQkhYRlplRVgyeHRuT0NlZXlsenBPZlNVUllUeWZYUlpwOVA4c1BJVmRpNW0yT3hDX0VyOEJISmhHLTJIUUVjODZNOFJjcVNnUVVDcW9ibm1yVDVDWkwwYmR4Skk0d1k1c1RHTGo5bGpySWdlWjZ2LUtud1ZGQ9IBqgFBVV95cUxQekt4d2tYOGZ2a2hEcXByS1J5NFR1VkpkVUd5UXV6bEl5eGhadkhkRkswdUZQR2FzQlRHNldkdHpPc3hWaW53UkotdnlSLVR1MHpCeG90UF9waloyOWFDOGFNQXVhcHVZQUtndzNVSU5vZVRoZlo0UkpsSjNpNkxoVmJjT1MyMTNURG5laFhlRGdwQTNXblVHdjZmVF83RTlGajBYaVpwSjB1dw?oc=5",
+   "published": "2026-11-08T16:25:00-05:00",
+   "also": [
+    "Brave New Coin",
+    "Yahoo Finance",
+    "CNN",
+    "Politico"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3b647755f162a94818b06bd4c5111604a226344b",
+   "title": "Nvidia launches probe after report CEO Huang was target of foreign intelligence",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46P07H:0-nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence/",
+   "published": "2026-11-08T15:14:43-05:00",
+   "also": [
+    "Business Insider",
+    "The Washington Post",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "0155222ecd7c8154589123e433970c2ef9cad5ce",
+   "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1BJNjAwTmc1dWhNWkFEblREai1hbkhYZFBjT2MxaWV1b283RXNKTnk1emdfY2p5LWlXOEo5M0hLWWhjTG1UVmdVV2xvS09sb0tlelBpalV1Z1lTdUZ1VWJ5Uzl4cFJqeXV2ZUF5WVpTSWFGeGU4eldfdHpScTMySHpZQk9fWGc?oc=5",
+   "published": "2026-11-08T15:12:09-05:00",
+   "also": [
+    "Yahoo Finance",
+    "Forbes",
+    "BBC",
+    "Reuters",
+    "The New York Times"
+   ],
+   "kind": "news"
+  }
+ ]
+}

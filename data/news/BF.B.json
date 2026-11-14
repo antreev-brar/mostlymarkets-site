@@ -1,0 +1,25 @@
+{
+ "ticker": "BF.B",
+ "updated": "2026-11-13T06:06:35-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "cefeed8feb07cfa6fb1d772b3c402403719f11aa",
+   "title": "Brown-Forman Corporation (BF-B) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMak1uOE5MbHhkQmVjczBsRHhFbzVvbndRZlh5anNHNWFMYjhkbTZpYnpqU3ZPTFVwYnBYVnc4WTdaaHpFWnRJY25JdnZMVEU5YXc?oc=5",
+   "published": "2026-11-10T07:03:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eb3fc253ade443ee3d8fb0ebc808d5f51640e86f",
+   "title": "Brown-Forman Second Quarter Earnings Release and Conference Call Scheduled for December 3, 2026",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:d2622dd9c18c2:0-brown-forman-second-quarter-earnings-release-and-conference-call-scheduled-for-december-3-2026/",
+   "published": "2026-11-04T08:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

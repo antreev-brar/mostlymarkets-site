@@ -1,0 +1,387 @@
+{
+ "ticker": "BABA",
+ "updated": "2026-11-14T14:03:24-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "981d256c937a882eaaefd8218683d6d8e23382c3",
+   "title": "“Very Bad” News for Alibaba: Nvidia’s B300 Servers Now Cost Nearly $3 Million in China.",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVC1PUUdxOEJBNjk2Z1pQTzlnSGJhSkVzeklaSUZqaENOak1xTEQ2dDR6eENBeXpWbFk4R3VOT1NjajVaYmpwajJYMUNrdnE0NmdTeVlKb0N5eXk5U3JDdUxxR01wREs1WEFqZExMNk95M052a3h2blRiaWYzOTNpMlNPcTFHR0pSN0xuenBMR1FjdUQ3bjhVOA?oc=5",
+   "published": "2026-11-14T05:31:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eaa0c39caf2f248c0fe791f75f75909b84da6cb5",
+   "title": "Jensen Huang scandal trail leads to Alibaba, the king of free Chinese AI: Chart of the Day",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQlluSFJQZVVhTGNaeU9WUGVVajNBbVFoVkFjSENOckpJUDFpdUtzWmdwNFJacXlaMzFQU3BMLWQyaWthV290WWFaaW1EcXE3anQ0X09abXU4U09mTmxFU2ZpOVh4dnBNdnJjUk1KanozM2w5ZzFMSEtTdjlxdEFoZHR2WXdqRERwOGp5Y0MyQ0FQOHI2NjZqUk5xR2xQUF9NcUtwcDJiclZDaENfbTNVM2tzZmwzVXFNM2ZqMlUzQWRHN2xaaHZUUnRtMVZnWjJYTUQzMURMc0NOSFF5QWc?oc=5",
+   "published": "2026-11-13T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b65ab4d8a22c3c61301362605ffac57400109a42",
+   "title": "Why Jensen Huang's Exit Is Bad News for Alibaba and China",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112012725:0-why-jensen-huang-s-exit-is-bad-news-for-alibaba-and-china-barrons-com/",
+   "published": "2026-11-12T17:58:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4da0d6ceffd56cacf5dc3b3fbaafa33d3ae3dbdb",
+   "title": "Alibaba (BABA) Risks A Cloud Setback From New US AI Chip Rules",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeWJhSlhjcC1YSFNOVG1YNnVrRlBmM09HcGJBQVhpT1RrNTViXzhCdzFXTWp4WXEtYXhzLUE3UWNvOFpjdlhsNmRFZFctOUZtU2ZVa2I2RFZ3QkZDVkFpX2JGb2dxUmRJRHJXa3J0Qi1uSmxQT1dGU3BSTnY4WVBKQjVIUmNmRlBoTThVblBrNElubEVlLXpQYlQ2bno?oc=5",
+   "published": "2026-11-12T16:13:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f488200c135bca031f4fff116cda23af5df11386",
+   "title": "Nvidia Fallout Hits Alibaba and Other China Stocks as Tighter Regulation Looks Likely",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUW9tQlZLbEV6QmZoSDU4Q3FjcmkzVHR1WWF5dzlISmE0ZVJxVWlpdi0yYmVuRTRyNF9ZbmpGSW9oN3F5Nk16WjdDRkNSNmwtOU1pWWlCZjdPeE1qaDJjbUo0N0dFYWloT1F0ellJcmVGaU5IVGZZaWI2VlhlS3RpWU15bw?oc=5",
+   "published": "2026-11-12T14:55:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "17f6652ae7ac4789257c9ec75b2861044cd936dc",
+   "title": "Nvidia Chip Crackdown Fears Send Alibaba Shares Tumbling",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9194409/nvidia-chip-crackdown-fears-send-alibaba-shares-tumbling",
+   "published": "2026-11-12T14:43:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6b96f6d7f87654372417c18eb1188070807b1853",
+   "title": "Alibaba Has Slumped for a Year: Why DBS Thinks It Can Double",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUFOMlpUbUZHMlpGZjlLZ2Q1ZUd0V0tRcE9vSWpsRzAyekY0aFJYRFVsa0t5X0VTeUE5YjRSNFJBMlRJWjZmRmt6ay1ZSUtscTBqanRMaW9UcHp4Qm51c0tMbnpUcXlKUGdDeDVSazBjNUN6bGt0dm4zZVlNMV8zZUVtYktqZTlKMnpjd1VYSG1qcjBuV1lheFZGcw?oc=5",
+   "published": "2026-11-12T11:54:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ec3e90d4c0fa6d0b10747fc69ee646756f9a0806",
+   "title": "Alibaba shares may move 5.7% on Nov. 19 earnings release",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcUpNUGphaFF2clo4Q2I5dHpQOWQtTDNMYUFNUmJIUVZhaklYaTdrelF5cUd1Q09RQXFFelZiNTBEQXZhdWpMZmp3UFVHZFRVQy1RQjRNNVUwN2p6SnE1TTJ6ckowZUh0ZTJ2OXBkNmE2S3RoZThwX0RIY1ltWmRYWHFSaGVIRS1lUnRIX05adU5UYkpIaXFFc29CYXh6VTdHb2hHRnBwZWhEQjJwbjhmaG9WNDRHdw?oc=5",
+   "published": "2026-11-12T10:45:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9255efe0e0e6f874e3383720468ac6d4163b3677",
+   "title": "Nvidia, Alibaba among market cap stock movers on Thursday",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaVd3eHhaZDlDNzdsa0MtUVBkc1Q1bUJpQTY4MlRtTzJzUzJpb1lRNkszN0p3aTJzXzNLdUIzR3Ztam5VSGU3MU5rR1FuTkQyQ2FZQ0ZDN1h4ckotYkpvYXJfODZSbXNWRGZZWGtTa1dvWC1FdklBN3BBd3M1djdCRFFHM3dqQk5MeWZJMlAtSTR3OHNjWFdJeDVDOHlZaURDYTJLWDB3SnhyRjFMTDZoQktqMzk5Mm1iV1E?oc=5",
+   "published": "2026-11-12T10:41:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "79993178a8103f586a59672d13ff64fac34680dc",
+   "title": "Alibaba Q2 Preview: Cash Flow Pressures Will Continue To Weigh On AI Cloud Potential",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQUpsMG9Ib1hWMzQ5cnJoR1Z5ZTk1eGtOczNjT0JKX3dobDQ5a2JkNGZteE9oaVB6dE4tN0djZzRxb3lIMW5UeXBhUmNIeDVWa1JPeGZkSWdjSXdNMkM3MzRqMjh5WXcydUFNQW13Z0hJc3RNOHVPd20tVThEblhtQTdaMXV1S3VhU2tQRFU3QnB5cHpyblpXTE9iODRBSUQ2R1VzS3N2MThBU3c?oc=5",
+   "published": "2026-11-12T10:04:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fb284a78b4daebfe52c0fadaeac2f856faf714a2",
+   "title": "Alibaba Sinks 8% on Report U.S. Is Finalizing Curbs on China's Remote AI Chip Access; Baidu Falls 4%, PDD Slides 3%",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZWVLb0Jmc04teDdIWWNxZzZrSE5ENHE4X1FxdHNIYWtUd0NqTnl6YWJLZnFSLVo1WDYtajBpMnJxenJTdTZfODF2cldOU3dOUHlkMUZtWDlLMkZ6ajZPYmtSVGc2c1FkQVAydkFwek5WbTRvVWpET3FFYlhlRFlMR3NzaE1uSVNHdlEwVnpuN1NES0ctNUJLWGdrUmdmWlBJTjlQeEFDTG5KVy1uREhOVVpkOVlBckU5NkpNV1JpSEJ1dHdjWDdTXzRQYTRsYmVENjBEaGRIdmVBbEZwbVJaTkRNRWVkNTQ?oc=5",
+   "published": "2026-11-12T09:48:00-05:00",
+   "also": [
+    "Yahoo Finance",
+    "GuruFocus",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "577bce92c702a55d104cadc33caa5113b685558b",
+   "title": "Alibaba Is Spinning Off Its Nvidia Rival in a Hong Kong IPO",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdm9OMVJoYVo0a0hZZzBxbVROS3pjVlZ0M0psTlJQcE1zYXpnQ1RidVBWXzhOQ09yT3F3ZlBYVVRoc0tlcjJQQ2FnSEFqZ0YzSlVnRXZ1c3NRLUxWcXBqcXFNQUhteEtTSC13SWMwYmx4XzllYTJFeWp1R0k4WHRBeTJVclNmYWRpbmZlOGxlcGFPN2VaVW04SnNYZWZOQQ?oc=5",
+   "published": "2026-11-12T09:12:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "35e7669dbcde33b783a6634ce2417fec0be2ed5c",
+   "title": "Alibaba stock falls as much as 7% on fears of tighter U.S. AI chip scrutiny",
+   "source": "Quartz",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82Y2JtUjFIT3FQVFpPd01Mb0NTMTR1M181eGtwMFhlTUZuYVp6YXBTUUZVOGFaX1BrcXRkNENMUHVhaUo2VE1lMVNpS1FUWkNXdUZ0U2YyU0gwcmhaSTRXMjl0UUFkU0JFbnFZR0RETjVHUkxGQW9Z?oc=5",
+   "published": "2026-11-12T07:58:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1005203062ea2d47123bd6aaca50011a62dc7fa7",
+   "title": "Nvidia Fallout Hits Alibaba Stock Amid Fears of Chip Cutoff",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112004462:0-nvidia-fallout-hits-alibaba-stock-amid-fears-of-chip-cutoff-wsj/",
+   "published": "2026-11-12T05:57:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "63064e9ea6e58a4b3d66d0ff6578c5efaa90447f",
+   "title": "Why Is Alibaba Stock Falling Thursday?",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:ebc515083094b:0-why-is-alibaba-stock-falling-thursday/",
+   "published": "2026-11-12T05:16:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "76e52916bf528b05f26ecddf174dd4700cc9284e",
+   "title": "Alibaba Shares Fall as Nvidia Turmoil Stokes Chip-Access Fears",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261112003976:0-alibaba-shares-fall-as-nvidia-turmoil-stokes-chip-access-fears/",
+   "published": "2026-11-12T04:49:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f04496ccf662ae2cd18923be886513192bc1ef70",
+   "title": "Nvidia said to preparing Huang ouster; Alibaba slumps - what’s moving markets",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaUNMOXEwQ1FaUGVRZFl6Sndjanp6WWpsQW5pRXgxLUV5TGNyTUFSSVhhdDBISGY1ZExwU29SalFVMU5zSWVjbzM5bWZIckZSbGx2Q2lUVUhjUlp5TnpXQVF2WDdrRm9KLWdNYVBkOFN3RTdZMGt6eVhwYzYxUm1tc2kzaG5hZzlGSUpZOHFoZFZiZDZyekk4Ym5qcW4wRjFHNUhTU2VfVXpOZkNOeXNZTThMeE5IMVNncUpyeWJhcHJuaWJO?oc=5",
+   "published": "2026-11-12T04:07:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "10c95ee236ddb394ef40a5f2488afd8c2d340edd",
+   "title": "Alibaba Shares Drop 7% as Nvidia Saga Triggers Chip Access Fears",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUmhVSk5qT2NLYndEQXBfcjgzNGJUaTJXZ0NZTnBvYWhiZUlVOGFkanVoQi16S2g4YzNDVG1IZExsYl9CSlNnUjF4SWJJa0RoWEpiNkU4VC1BQlhFdzUtVnNDWklvMTRkVGVVaTQyVkkzQzU0NDNabjdzRHpTelVOZ2o0bE0zdnNjWXRmcVJIVkZlOTNHUHRUd1VVWXhIZEt4Qmw0ZWhfemhyY3Z6N3JxOFprS0E?oc=5",
+   "published": "2026-11-12T02:18:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "af478ac30cdfea5be07a74a1fa41d979d449f381",
+   "title": "Why is Alibaba stock sliding today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTUFnV2FSa1I5bVNpVHoxbkFLNHJMSkdiTDB3NzZYc1BNanJsSVlNWEtEdlhCTGtjaTN3LWoxMm5Gdm1JSlZIQldsOXJudDAyZGU3T0NKanZ4MENUZUZpSHZZTnRoemctQUxlVk5QLWpBSmo2eUEzcEw3NkdlamtRVExkYW1kelNjTDc1RkcyT3BtdmxpR25CZ3VSWi0?oc=5",
+   "published": "2026-11-12T01:50:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0190ae367e9911beea13cf582839a73816ed9ec6",
+   "title": "Nvidia’s Megaspeed Probe Leads to Alibaba, Whose Singapore Unit Made $4.1 Billion in Prepayments",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONENhZzd6N1VHeW5CY3ZGVk5XMG5zaW5zWUNzc0NGMF84YmhxeWFsMGpFWWtIWFh0VmZyY0lYUFpJZkRiRHN4WE1yQ3RTSXAtaDZrWUtaWjhOZXlyb3R1QkU3SnhqUDI4b1JiWWZmdC1HN242MTIwam52eDlWQTZ3OGZZUS1KNlZYdmJsa1NhWVc0MWhPVXdTSUF4emMwd3ZuQldr?oc=5",
+   "published": "2026-11-12T00:27:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8acfe21dbdcbf240939cd5195acd1b8d4db0b646",
+   "title": "Alibaba, Tencent shares fall on report U.S. weighs curbs on remote AI chip access",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeTRnV3I3bm5OWkNEdUE5Q0traUZiQkE1U0gtM1FNazFLWjM1ZmlkaWg0QUc0MF9CMWhzdnRTRkxmRzhUX0RRVjM1bWJBaVZNVGVxQWs4dGFPUV9fbGxqWGx0S2Y0bmx2bnFCZng0VEJEMGZPVE1ZLVVDZWJzYkRZTjhuR3c5OWUxY1VEb1VHX09za2dBYjlZS3Y5SE40QUE1SGs1NUp1ODY5LXg3dTl3X1Zrd09sRmNIMDA4M1F0Unh0eUZvbFo3UVRSQUF6NkNl?oc=5",
+   "published": "2026-11-12T00:16:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b299812b03ac8f372c811e6d646a5689e628304",
+   "title": "Alibaba Group Holding Limited (BABA) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUUWRxcUJQblJYSEVpeC1FNi1aQU1GdU42MkRkUTRUWVhfSFVtX0NWbTFHck5CRFBSM3B5czRrR3JOQXVIN1NrZS1pNXItTW1hZmc?oc=5",
+   "published": "2026-11-11T15:36:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "07880697c561b6b0368cfe2d845c0ae3beed3a5a",
+   "title": "Alibaba T-Head spin-off a positive catalyst, but upside ‘premature,’ says BofA",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNnpjdDdPRlVKZEJkRkhhVWpMcWg1bWdDdUJOTjFlblV4bThBSGlqVnJNTWgzMzNwVUF4ckR2MTZFMWQ2ajY4STZBVlFyU1JlSWNZeG5ZamxoalZpS1FCbEV5aVQtZmNCVER4RFlFR1IyTnF0b2dHM3N3dTluQm5UbDBGX3kwdVpEanYxaDJPbGh4QQ?oc=5",
+   "published": "2026-11-11T15:25:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "25dc829d126a433e3cf36e19950131b3e8eea855",
+   "title": "What Alibaba Group Holding (BABA)'s T Head Spin Off Means For Shareholders",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQnJBV1Bfbl9SQWxyN0M1Yi04elFBLVJoUVY5OVdiSUVNWlExNEwtRTZyX2llcHNDci0tczVNUW84UEszN01MTVFZYm1kUFUza0lYQUJQOTRtWUZwQVozbENEUWM3MWY2RFd1ZzAzTHpYbnBxbXE4WWc0S04ycnc0cGJxMGUwT3F6Wk9KY2xQaE5KeEpZRlliQw?oc=5",
+   "published": "2026-11-11T14:13:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8447276c8ef29cf33d7139cb61e57eaaf3eae8b",
+   "title": "Alibaba Advances a Multibillion-Dollar Chip Spin-Off in Hong Kong as the Nvidia Scandal Turns the Deal Into a Double-Edged Bet",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVUhjU1cyaXlMT3JtSUFvQ0p0RWFhN1RzTVZEbVQ2cWxFd0pUWDNhQWhJSDRnRkJ4ejNUTFdSNWN4WTdBSmZ0MmgtRXJSc3pZYjB0ZVFLMHRxRVNJM1pocXAtT0tzd1l5VEJ4VDJNNkFQaWIyS2RMMGw0YW9rZFNfaXNNWlN3M3F1cEFCbFFXQm1sd0lmd05ZM0NKVmNVQ3pEYWZFbg?oc=5",
+   "published": "2026-11-11T11:27:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6eec1e2ac9740e93c61640cfe073ebb74c70f373",
+   "title": "Alibaba Has Disappointed for a Year: Why Bank of America Sees 76% Upside",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbm1kTlNnbkU3X3VIZEIwdzZ3NzlfSDdkZ2pISzZjVER3ZGk4SFhpWHpWeVp3enVFTFY1V0p4bEZ5MWlNOFdvSUlqb09oZE9fbEtxVW5TVmNKaVl6Tm8tVGo0cHN1RXY2LUZ6amVhM21VWjRpbzdyV09HaVRvUGF1SXRVcjBjaG9LZHVXVURZUUJlYWc1d0MzdF9jVkNEX2FVcHdOYQ?oc=5",
+   "published": "2026-11-11T10:44:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e9bf747b545071d9169278f418a56456ea458cd",
+   "title": "Alibaba is expected to benefit from the Hong Kong listing of AI chip unit T-Head",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4670592-alibaba-is-expected-to-benefit-from-hong-kong-listing-of-ai-chip-unit-t-head",
+   "published": "2026-11-11T07:32:25-05:00",
+   "also": [
+    "Reuters",
+    "Bloomberg",
+    "WSJ",
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4d5515baf47b3f70f3d871296ea5fe5144087fae",
+   "title": "Alibaba Prepares Hong Kong IPO For Chip Unit T-Head as China Ramps Up AI Chip Ambitions to Challenge Nvidia",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNT2VJUzNDdGdRVllZMmF6S1cwMndUaG5lUVRadlh3bmVWV1hkRnB1ZFcwZWlwQ0dPelIwc2w1dFM4WS1hMDhFNGlybHdsd1YzQkhSSnJkUDVYT19MWWRoYzU4eEUyRUFaQlA2b1l4SVNLWlNBUmVSRUVKWlVNaGpaV3dJcGx5WVh0MllXS2tCYzJGZFJIVVp5NzZiR2lDUVgxb242UmFoemtKVWJYb2d3ZTB5czkwSFc3R1lPVS1IZlVNU09wUjFKT1BqRW5kcl9BV2kwTFB5RHFzRjNhMG5Dd0docmp0cnhMUVFVd0FyQTQxdw?oc=5",
+   "published": "2026-11-11T03:03:53-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fb3b0828b7b5a5ed10948fe8f61f716c74af6e38",
+   "title": "Alibaba plans Hong Kong listing for semiconductor subsidiary T-Head",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4670404-alibaba-plans-hong-kong-listing-for-semiconductor-subsidiary-t-head",
+   "published": "2026-11-11T00:08:43-05:00",
+   "also": [
+    "Investing.com",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1bacbe21b522fb3689dcd94e91a9a6ca4e10a7ad",
+   "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FNi1GS1ZoRTI5MUsxZ3RMZnE5bEpuYUxXaTRiNV9wVmFYMFg1NlNlOHVWVkdoZHJkTnZRcTR1RTZIamZXcjNyaG85NUt6NlFfTmlhX2p4WlM1Njg?oc=5",
+   "published": "2026-11-10T22:08:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "678a24e5d6175065b0728cf3f02639a44de423d8",
+   "title": "Alibaba files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/0001104659-26-124859-index.htm",
+   "published": "2026-11-10T08:58:20-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "ba5b0e2bc99d1e634f834ad2effcb319fa5c2660",
+   "title": "Alibaba Group Announces Proposed Spin-Off And Separate Listing Of T-Head",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46R11U:0-alibaba-group-announces-proposed-spin-off-and-separate-listing-of-t-head/",
+   "published": "2026-11-10T08:09:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c92d00ee8e37522500e06f11d7572b054de85a94",
+   "title": "Alibaba chip unit T-Head files confidential Hong Kong IPO application",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46R11B:0-alibaba-chip-unit-t-head-files-confidential-hong-kong-ipo-application/",
+   "published": "2026-11-10T07:44:19-05:00",
+   "also": [
+    "Investing.com",
+    "Bloomberg",
+    "Yahoo Finance",
+    "Dow Jones",
+    "WSJ"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a013faaae23094883a249e5f76b46575f1e247da",
+   "title": "Alibaba: Potential T-Head Chip Unit IPO to Improve Cash Flow; Shares Remain Undervalued",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNGZBN2V2S0U5MVNGOW1DOC1kcHNPaXNFSkhRTlh0UmZCWXFTbEpxRFB4dVB6eDdWbTlGQ2ZMSk5PSVhRYjZHWFBBWjJ0NWo0LUJocGZLdFE4SElsbGxpb21vczA5akREaFJrVnpQU09fcE5KX1ZiNTFxWVRITmdrc2FoTllCdWRqTTNVUWI2cFJGeWxZMlkyaEdEM1ZZVUplUzk0WVNKMTk0UkhoVVl5Qnl2UGlXLTBlLV9Xd3FzUW5GQm5sa2ZmdFd3cmx2azFLaDdBZFVPRXFHQjVtekdpZFFNbXh4dzhSZ2VyWg?oc=5",
+   "published": "2026-11-10T05:18:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9dea7a8d05d2131447d54d64079cab1f1e05388c",
+   "title": "Top Research Reports for ASML, Alibaba & Intuitive Surgical",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLWMxNUExQWg0VjVEMXNlSlh5aFkxZWN0akFuOFNEX1lIVlNEQUJBaDdtYTVncWZvamMtY3FmWnB1dmk1R0Fvc3BmcUpiei1HN1RDZk9TSTJQaXhOMGUzaS1zanFyZy1qV3pEUjlDQzJ3TS15VXRIZ1JyMUtVaGJ1bUFJVFlpUzBKeHh4TWNyNmltMHNobk9EY2xWc1JpOGc?oc=5",
+   "published": "2026-11-09T15:33:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2c7081d13174f849eac3895fea384017c59a23ab",
+   "title": "Aletheia Capital raises Alibaba stock price target on AI cloud strength",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONElCUGQzLVZ6RTJhbjdUbUZlM0VoVXBmcndWUS1XRlY3SUFRT0xMTHpTMUZmTEl0REpWUHhOUmo5eks0WkRlOU5KVXN3WHFPWF9OVGNGYVBLek1rMW1LaEVLU3RUUm5xSkpfbXFZSlE1bkRSaGtGWHp4cnNLVnk4b3cyWi16YXVCUFprQ1dKaWJlaF9iQjVSYzZLUnMyQnk4LUNDT1dDTm5MQ214d0ozaF9OaVFuWE1xRzN1YWgtNkNFRVVVR1R6d1pOVQ?oc=5",
+   "published": "2026-11-09T06:02:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ea27fb1d913d5ce3c3276d67c13fc3aa430b388f",
+   "title": "Why is Alibaba stock rising today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOWcwZlZaODdIMWhWQ2cyWEg4dTJlNXBTbGp2MnhhVUdCQ05OYTJab0k5UloxWE9tQzVuMmlJN3kyczVZZ2s0Q2t1dHhCb2VWM3NZZlVINUI3Nkk2TGFzTFdmalc5ZFl1SDFQQTVyWTR3Ykd1VVM4Vjh6R1hOXzltSUhvRlRTVWNSczZ5N1dYdGlVb2gzWkY3U1VEcw?oc=5",
+   "published": "2026-11-09T00:58:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b81ab3914bd9e112d4986332aeb1a2c31d365d86",
+   "title": "Alibaba FY Q2 2027 Preview: Quietly Winning The AI War",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWZjTldqcEd5bFo3LVFZby1WYnI4ckdCcm5XMEd4Y0oxc3dWLWFNWlZkc2x0akl1V3BhZXRjRjFmU1IzYXdkN2JqZVE0Y2xqa21WYl84UEotdHMzZFJqSUpMbmFKV3pKVS0ybmdZbG1OekR1SlFKSkFMNUZpOFgyRnFkMmFEMGNDUHJZc3draFJ4UTdySmlB?oc=5",
+   "published": "2026-11-07T06:49:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fad22da26e8ae2b088dbef2a5cfffe4e298f7cf0",
+   "title": "Alibaba files a 6-K report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/0001104659-26-123545-index.htm",
+   "published": "2026-11-06T06:01:17-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d1c73f70ca05dbb2bbfb5f94c989a0b46d97f09a",
+   "title": "Alibaba Group Will Announce September Quarter 2026 Results on November 19, 2026",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:5c1beffa60f5d:0-alibaba-group-will-announce-september-quarter-2026-results-on-november-19-2026/",
+   "published": "2026-11-06T04:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

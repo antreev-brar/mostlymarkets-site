@@ -1,0 +1,384 @@
+{
+ "ticker": "OXY",
+ "updated": "2026-11-13T06:08:30-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "d5c01ef4f74ca4531e90d52c50dd1c75f8e9b70d",
+   "title": "Occidental Petroleum Q3 Earnings Beat Estimates on Strong Oil Prices",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3028391/occidental-petroleum-q3-earnings-beat-estimates-on-strong-oil-prices?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3028391",
+   "published": "2026-11-12T07:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "35d57c714d959c0d3d05c9a0019ad907bfb21e66",
+   "title": "Occidental Petroleum Unveils Bold $6 Billion Debt Plan",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9192131/occidental-petroleum-unveils-bold-6-billion-debt-plan",
+   "published": "2026-11-11T11:43:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20585525557d7b27c944e240cfaa2dccd23fe499",
+   "title": "ETFs Investing in Occidental Petroleum Corporation Stocks",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE52N1JpQ3JlclRHQUZYXzJsYTRFRnhxQU8xWmRmY05FNHN3c19wMDNtLWFYd2FNTkhQc1ZNNjhmNm12ZE5QaXBfNGFhN3JGbGx6S2pKTHhGZURzYlNGWFk5SGxn?oc=5",
+   "published": "2026-11-11T11:33:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bd4a70d872a13e023e0aec94b3efe8d84a769e11",
+   "title": "Occidental Q3 Earnings Call Centers on Debt Cuts and Cash Flow",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3027765/occidental-q3-earnings-call-centers-on-debt-cuts-and-cash-flow?cid=CS-TRADINGVIEW-FT-analyst_blog_plus%7Cearnings_call_takeaways-3027765",
+   "published": "2026-11-11T10:47:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d1efd810a7786665f6ab5c25af02ee1e78819e3d",
+   "title": "Wells Fargo maintains Occidental Petroleum at Overweight, lowers price target to $76 from $82",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:750c633505bcd:0-wells-fargo-maintains-occidental-petroleum-at-overweight-lowers-price-target-to-76-from-82/",
+   "published": "2026-11-11T09:39:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "28cd3f11574a3cbab76cc04d4c8fc7ccbc658616",
+   "title": "Wells Fargo cuts Occidental Petroleum price target on gas forecasts",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMjB5djAyX3RFNDR1Y1BxMG0zbmk2MFVoc01BQm93dkxjalYwOFBUaElqSUptZkNSWTd3cVd1VEtEclUxWkcyM3R3bm5XZE1RUTB2d2FGVFZXZUoyVnQ4SWN4UUg4MklpNEJLbEdaaHJlOVhLd0o3ZGU4RTRWNEJVTnpTYUduWGN1cjhSSG91MGQ0MW1uQ3czYl9wVmNSdF90a1plTXpWXzQwX0RQOThNTTV2RXhBZ0JIZXRDYlI0U1dObWlhRVE?oc=5",
+   "published": "2026-11-11T06:49:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e2d9847409d51f971b93e4404665c09d6c6df3a",
+   "title": "5 must-read analyst questions from Occidental Petroleum’s Q3 2026 earnings call",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/oxy/news/earnings-call/5-must-read-analyst-questions-from-occidental-petroleums-q3-2026-earnings-call",
+   "published": "2026-11-11T00:31:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "25b333cd1e21392f192d075f60c1800771e65f78",
+   "title": "OXY Q3 2026 deep dive: margin expansion driven by operational improvements and debt reduction",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/oxy/news/earnings-call/oxy-q3-2026-deep-dive-margin-expansion-driven-by-operational-improvements-and-debt-reduction",
+   "published": "2026-11-10T16:35:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9ce6e3b09bd87872fa690b39500537fa83e4ec55",
+   "title": "Occidental Petroleum Earnings: Production Beat, New Lower Debt Target",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNczVhUDJOTjVxdzlyWDZEVW5SS0dUalo5NU9BYzhWZFB0b19nZUY0WHhyTzRmNDdLeGpuOVpVZFZlSjVaMi13Wkc4dFBDRmxMSDMzT3U4YkhDcE1YVHJSVWJBcFpvSUVHcUVSTno1c2Fwb3BodXZXeTRONEh6MjBYMGlLcGxCb2V3OXUxRUlYMHljTGFlYmxIa2xIbDAxd210eGV0NlNYdjB1X0lEV3lXMm11clJjdWZGclBmaVl4R0tNNXI2ZWRfWjdBdDB2TUV3OG00TA?oc=5",
+   "published": "2026-11-10T16:21:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a0af72a782aff0b2b3c61374516a57894fe7f609",
+   "title": "Analysts flag Occidental's soft Q4 oil guidance, see debt progress as bright spot",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46L0YP:0-analysts-flag-occidental-s-soft-q4-oil-guidance-see-debt-progress-as-bright-spot/",
+   "published": "2026-11-10T08:31:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3088428788ff27c6707bd509379c49e1e627ee72",
+   "title": "Occidental Petroleum signs pair of CO2 offtake agreements for Permian Basin operations",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4669423-occidental-petroleum-signs-pair-of-co2-offtake-agreements-for-permian-basin-operations",
+   "published": "2026-11-09T20:32:33-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "033390216a06fbdeae8b92213280d68134829ea1",
+   "title": "Occidental Signs Long-Term Co₂ Offtake Agreements To Support Enhanced Oil Recovery Operations",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Q2HI:0-occidental-signs-long-term-co-offtake-agreements-to-support-enhanced-oil-recovery-operations/",
+   "published": "2026-11-09T18:25:01-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bd9d66d8ced2f1ec27e0bee735ce8e9cf3f61ace",
+   "title": "Occidental Petroleum (OXY) Q3 Earnings Beat Expectations Amid Di",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNU9zMEhMYmNnazhvcGIyMm40dU9uNk1ZUXRSLUxzc2xXVEphX0dnaWxiamg3ejA2NldueGR1Z1lMTUNlaWc4UEU3bkZaaGUzbUdsWjNyVktlWUk4R0luYS1LVzQtTW50bHZ1UmpLZjBHaHlyc0l2Uk84QkhPRXlWZ3YwVGthUkhIRzcwRkdxUlpXNjIzUFJ0N0w2cTlTWUF2aUUyb00tRUN2azlqc2ZnVmcxb3EzNEU?oc=5",
+   "published": "2026-11-09T17:45:49-05:00",
+   "also": [
+    "MarketBeat",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6d94123ddd90f516ae987097fa895182faf22496",
+   "title": "Why is Occidental Petroleum stock slipping today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa2FobDZMZDBLWmY4MXM3bUx0SC12MG5wejFXYTk0YThrbnoxZmIzM1g5aFQ3OXN1R3BuU0lBMXFQUVNwQUJhMkM3eFNvRENleW5hc3ppelJQSEhxSjBQOE1vbllsMzRBbHE3TTQ2cFNNN0VsZmxIcmFnZXY2TzM0UmdOeU9OLXVZSXQ0MnZSbUx4ZVpnSXdKcDRHNXYtbl93S1IxdWlnbjdwUzB0Njdr?oc=5",
+   "published": "2026-11-09T17:10:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ac2f79c5a167036472a3f5f86f9686373d4363ce",
+   "title": "Occidental Petroleum Q3 Net Income Rises",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:edda158dceac4:0-occidental-petroleum-q3-net-income-rises/",
+   "published": "2026-11-09T17:06:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "68569572ca8788c10b2a08bd69576142abb59b43",
+   "title": "Occidental Reports $1.61 EPS and $2.8 Billion Free Cash Flow in Q3 2026",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f8935a4b7a219:0-occidental-reports-1-61-eps-and-2-8-billion-free-cash-flow-in-q3-2026/",
+   "published": "2026-11-09T16:24:10-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "899afd4a1201d8c5f9dfdaafec53b82bdd1e61c0",
+   "title": "Occidental Q3 oil and gas pre-tax income falls sequentially on lower crude prices",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46Q139:0-occidental-q3-oil-and-gas-pre-tax-income-falls-sequentially-on-lower-crude-prices/",
+   "published": "2026-11-09T16:22:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1441a5e0eb2162f829ea615f2e453cff2679a68c",
+   "title": "Occidental 3Q 2026: Revenue $6.57B, EPS $1.61 — 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d495e5c877347:0-occidental-3q-2026-revenue-6-57b-eps-1-61-10-q-summary/",
+   "published": "2026-11-09T16:21:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1930c4676d764c6dd83f3a3532e8620ebe67e45d",
+   "title": "OXY: OxyChem proceeds cut debt as Q3 earnings rose YoY but fell QoQ",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3969320:0-oxy-oxychem-proceeds-cut-debt-as-q3-earnings-rose-yoy-but-fell-qoq/",
+   "published": "2026-11-09T16:18:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8dbccb4b82fb1d0c658621bfc5b4e0b034430823",
+   "title": "OXY: Strong 3Q cash generation and debt reduction advance the $4B 2030 cash flow target",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4251704:0-oxy-strong-3q-cash-generation-and-debt-reduction-advance-the-4b-2030-cash-flow-target/",
+   "published": "2026-11-09T16:17:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c1ee992c121c8dfbb3e68d044fd8f443d31b3d88",
+   "title": "Occidental Petroleum beats quarterly profit estimates",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46Q1PX:0-occidental-petroleum-beats-quarterly-profit-estimates/",
+   "published": "2026-11-09T16:16:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "94036b5a5008b7611c408e8cc5e42ea34f968ad9",
+   "title": "Occidental (OXY) Signs CO₂ Deals for About 2M Tons Annually",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:29e1f2f8a17e9:0-occidental-oxy-signs-co-deals-for-about-2m-tons-annually/",
+   "published": "2026-11-09T16:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "52c0a32cb260652c298196884956914fa0da7702",
+   "title": "OXY: Production beat guidance, free cash flow reached $2.8B, and principal debt hit $10.0B",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3969321:0-oxy-production-beat-guidance-free-cash-flow-reached-2-8b-and-principal-debt-hit-10-0b/",
+   "published": "2026-11-09T16:15:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de29183bf7d80cf9ad251da54c49889afbf0ae16",
+   "title": "Occidental Petroleum files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026072198/oxy-20260930.htm",
+   "published": "2026-11-09T16:15:34-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "34fff1a1d855df1b7f288c564aa7f707d398d910",
+   "title": "BRIEF-Occidental Q3 EPS USD 1.61",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-09:newsml_PLXFFX6B9:0-brief-occidental-q3-eps-usd-1-61/",
+   "published": "2026-11-09T16:14:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fa40a954e670d601c160edb58f3815bf0c84e594",
+   "title": "Occidental Petroleum 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026072193/0001628280-26-072193-index.htm",
+   "published": "2026-11-09T16:13:54-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "145a5d56de572aa21e36afaee6f299b7132bd186",
+   "title": "Occidental Petroleum Q3 2026 Earnings Date and Estimates",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUpvQVFVY082cjhkcUZhblpaSXBoRmJVYTlFTHY1a05YVm5HejFYcTBKYUxMRDMzdGRDQmxuLWQzSkFhdXNFcjZHY1MtNTM2aVA1ekdESVFxNGl6TEltOWp3MzBGLXpMaUJ5NGRmVlhmZnVOdXF4SGJXRHFmSjkzc2hZT0JZdHMwUWRFcg?oc=5",
+   "published": "2026-11-08T12:03:39-05:00",
+   "also": [
+    "Stock Story",
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "24318082c0df39a7028ebb9cbf82cf3db4592cac",
+   "title": "Occidental Petroleum earnings: what to look for from OXY",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/oxy/news/earnings/occidental-petroleum-earnings-what-to-look-for-from-oxy-2",
+   "published": "2026-11-07T22:08:50-05:00",
+   "also": [
+    "GuruFocus"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "103da9814c7e66a946e04ed40d628750061e7ccf",
+   "title": "Occidental Petroleum Q3 2026 Earnings Preview",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUjVUa2x6X2pEZUtiQWJraDd6MnpTNGFnU0RDNlA3NFVqc3VVRmJxbmhrZGlkSGtoMzR2c2U4QjlBQkZFWkU2SHhhTzcxUGtFUmhDcnFKS2ZNSmNKenE0RUk1SmlhMHhzcHlZcXphQXlCMDg0Q3FQMUdvMnhNUHItMjBDT19Ka0FxN3Iw?oc=5",
+   "published": "2026-11-06T09:35:48-05:00",
+   "also": [
+    "Zacks",
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f44aa1b5a89ae1bc6b9b343e31d5235302f06e29",
+   "title": "OXY Q3'26 Earnings: EPS estimate is 1.45 USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:01f37cc45e73e:0-oxy-q3-26-earnings-eps-estimate-is-1-45-usd/",
+   "published": "2026-11-06T07:00:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "93f838e0189ccf6150a343d1e92d5587f6803914",
+   "title": "Occidental Petroleum (OXY) Stock Moves -1.69%: What You Should Know",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMl9ucjByY3FjeS1wb0Z0SGtFOHNaVlZKUVIyOE9acmVZeS00bUFWZXlZQ0tkMXlMUFBVbUVhdDlVMVBfcGZGZUQ5bVFjbzlXaTIxMXVRaHlCV0NKT3dFQ29HbndneGJIbWd3R0xGbmpsU2k1cGR0UFpxU3dLT0hONWVBTnRxdXk4MkM0Umd4N1pnS1JVczBzYkdvOHdhRDd1Z0ZJ?oc=5",
+   "published": "2026-11-05T16:50:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "837dccd34073550b49ce518426774c5a3c87d1f7",
+   "title": "Occidental Petroleum: Solid Q3 Earnings May Overshadow The Preferred Redemption Hang (OXY)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeHlIcnFUbklBSVYxNnVmN045ekFCS200S0ZESzZ3OVpSY09Jb1FCQWdidkZIS0d0SFFVM3A0OTRTbnc1VXZnUXhXb2NZamo2Tmtwc3dZTDZSTHNaMVh4VHdGUWNVVkc4dzNIRmlUZTlQalNYdDhkb1pVYlNLMjBwQUFLdXJnOVVRQzAyTHdSQ1M0cV9yWGFFYUFZRndJWi13NEEyU2ZTLUpOWHJvUzBFaUhHdXF3NUJ3bGhtUg?oc=5",
+   "published": "2026-11-04T14:43:47-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c01163d8a58f8b4dc95e5c956f696e0863bb2283",
+   "title": "Stock Traders Purchase Large Volume of Occidental Petroleum Call Options",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ2dNNDBrd255bWtQLWluR0QtMVJBQnpVWG5sVUQwV0J5V3NWQUZMVXBOXzktTVEwVzZNeU9ZM2NoX3RVTWZZRHcwQ3dIdFNKRTVidjJZRkZXUTRpR0JIY0g2ZWs5VVdEQ3pjenl2YWtqak9kNEYtRG13ZmNXRFVkVVVpX1dqeTl6cHNWV09tSDBmSjNTN1haZ2puckd1LU9mNEFyRy04SUJfazEwN3lOU05uTGJyLVR1Ml9LMHNvSUlnaWtkRVhVdzAyUUpBQlppT2E0RDZlREFrajg?oc=5",
+   "published": "2026-11-04T13:05:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a10cb661a7ec659e9cfb51c94ee18a0c54e5903c",
+   "title": "Do Wall Street Analysts Like Occidental Petroleum Stock?",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUXYwNnVzby1hQlZwRWpfbnQ5RTRRTi01bFZIMk1wV3FreWQ4cjdkbjVOVm1WX1ZqOVg2U21KWEl2X1E0U0FSd3dWY0lMTFZtWW10dWYxV1g5dDE4LS13SE5rWHk2TXljRVJXdzAwdi1CSHhkMEpwUDlFZVpTZmwzYm9mOWhGaFI2YkxQVExyNlRDUXN5RkpTZnprZ292UDEw?oc=5",
+   "published": "2026-11-04T09:37:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "766e5fcd5cae81cc6c71bf0f0d5bd2eeb0771ba7",
+   "title": "Occidental Petroleum: Market Beating Returns Ahead",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzV3Z293SWQ4SHZjb201R1BQMFVHTHlKcndocEdFYkYtUkgxcUhLZzB5Ml9leXpyYzB3NDF3R2RvREVNZTVfbzNKYVktZEEyY1pRQlprYWtyMFpkSXB4R0o1a1hCcWtQTld0eHJXVDZibm9hbkdJaDB2dTEyT2RGZU1leVNFZmNITlJJVmtCRlZfQ281?oc=5",
+   "published": "2026-11-03T10:51:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a04b7b71585390637122301e147136673b4c88c",
+   "title": "A Look at Occidental Petroleum Corp (OXY) After 5.1% Decline -- GF Value $51.21 vs Price $60.72",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdDdwSHlna2dIWHVNZXc2NzhtT1J6Y2RrTldpSTRieFZFczlpZ21nUGxuZV9yVEFnMzFZOHpxbzcweWJlMGJSTG5pX1NlQ3Q2djBDam1ra3NUb1ZzeW8xMUozRG1BNFBUQV9sZ0RycWJ1U1Uxdl9tMTdiMXh5akdQY0xMelpSSUNNcmlHcmpkN0hiNWVCQm85dGd5NVZKdmJnSTdaeDJwMDRac2xkZ1RXYmRpaU02Mkx1YWJwZ05OZ24?oc=5",
+   "published": "2026-11-02T18:10:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "69b5551dc094698d179ee6defe133dfe13440879",
+   "title": "Riley Exploration Permian, Occidental Petroleum, Permian Resources, Matador Resources, and Tidewater shares are falling, what you need to know",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNX253c2d6UGJCaWNHazA3RTV3MGJ1VUwtc0IxUXpTTmdpTlpaT0tESkFtRzBORGNTZEJ6TXEzS2ZvY3pJOHdabDRGSk9NMGRtUnFXOXpDOXBRQVpiZU9hblExSnFMSG85U0NvNmNTMGVqV05WQ29WTURpR1E2Mi04TjBkdW1jdVY1M3NpcEpKV0hfX2EwbWNkUWJQR1hUZURUY24yeWl5MXZKdWVMMm80Z2RiMl85Z1hQVUxiV2dUWHFfX1JVVWdVM3V5c2xneGU4X3o0d1BJQ1F1M25Nd3JmMGFubDFZRU5yRmNRcldmb3JZSWphazhKa21LVm1XYnBMaTBWd29RSEVrX1NKUFZjTmdwcC1CdENLdURESVdCRm1TWWFv?oc=5",
+   "published": "2026-11-02T13:06:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5be96d7fd148e594be7558bd7626166d98eb2242",
+   "title": "Occidental Petroleum (OXY) Projected to Announce Earnings on Monday",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSmVMT2JDeTJjVlFicENoSjhvcl9WUF9QelBGWFlqTFRQVC1VTlRIcjlGZml3TXJwYXBWQUtQS3p5Z1JvQm9OY3dkR2lfX2Z3cVJIeDFBby1sWEN1dmZ0VWtxZm1nRXFGclFJb0tDYWFPek9Nd0tZdFpKVkZ6eV9YRmpoMVo2aEZMaU00cDdVN0tfSzZCUWxPcEJTVkxfeWdVdk5tOEJGYm05Y2h4VjhBZ1ZmTDhKb2pCbHlDYnhicHdqR1RfazVF?oc=5",
+   "published": "2026-11-02T09:55:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "603b4291dc54a528f380d28b97563df535bc215b",
+   "title": "Occidental Petroleum (OXY) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNnlqcEk1dHVQaGs3c2xHOXVzcVJWdGIxSFViVXBGWkJ3NE5qOGxTZ2d1M0JOczAxZ1dQQmFOZ3dVRExKOWhzdHBDSzJvSWFsd0dza2d5UmtoMXVwTlFWZUpyM3BLMVJZM2RQcWlwbl85UnBzWDBibVd5N3lWS3duY1JPdTlDeG0tWDdLSExvbUFlakxQZVplZHY1bTMybFFNTlNxWWFvSEpzbVk?oc=5",
+   "published": "2026-11-02T09:00:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d903731961bf755167ee65ba1eb4e3a89670deda",
+   "title": "Should Value Investors Buy Occidental Petroleum (OXY) Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZGhrR19NVXcwTVpPUnFNTDdnRngzQk5aeWxGdEZhU3E4bVp0U2ZxbW9kVk5faGRhXzhsanUtemEtOTRha3lWSjd3VnZpMHNYODNhS3h6eTFPQkxHVWg4OS1OMjBTbENkYnZvb0FMZTVIZFAxNGhQMUU1bFF2YkFkLW1uSTd6V1MtaHQxVzh5bFlJMEhBNWxtVHZVTk5qb1czbnJLX1lON0k?oc=5",
+   "published": "2026-11-02T08:40:03-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "ticker": "ROK",
+ "updated": "2026-11-13T06:08:47-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "dccce611197565ab00c856da055febfe7da9f9ee",
+   "title": "Laminar Joins Rockwell Automation PartnerNetwork to Advance Productive and Sustainable Manufacturing",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:487de367ddb90:0-laminar-joins-rockwell-automation-partnernetwork-to-advance-productive-and-sustainable-manufacturing/",
+   "published": "2026-11-12T16:37:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "1290318dad8adbc124351ec1aabf655aea76c0c3",
+   "title": "Rockwell Automation FY 2026: Revenue $8.99B, EPS $12.54 — 10-K Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:04ccef8be1385:0-rockwell-automation-fy-2026-revenue-8-99b-eps-12-54-10-k-summary/",
+   "published": "2026-11-12T11:45:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8aafab12b88c5c36f4a47ca37fb3cdf46d6d32f5",
+   "title": "Rockwell Automation files its 10-K annual report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000048/rok-20260930.htm",
+   "published": "2026-11-12T11:35:11-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d60e68107d86c0878140408e3bb89066e0f53922",
+   "title": "Rockwell Automation Introduces LogixEdge Controllers for Software-Defined Automation",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:ce6128f5c746a:0-rockwell-automation-introduces-logixedge-controllers-for-software-defined-automation/",
+   "published": "2026-11-12T10:43:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "9a0e51e4741107eec5c7cb52ec70b3850e72a83a",
+   "title": "Rockwell Automation Sees Up to 9% Organic Growth as Orders Surge",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/event-rockwell-automation-sees-up-to-9-organic-growth-as-orders-surge-2026-11-11/",
+   "published": "2026-11-12T00:12:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fe68ddcab464b4d5776f06085e132f7f014cc1c2",
+   "title": "ROK: Favorable demand, pricing and AI-enabled automation underpin FY2027 growth plans",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4587598:0-rok-favorable-demand-pricing-and-ai-enabled-automation-underpin-fy2027-growth-plans/",
+   "published": "2026-11-11T06:22:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a3e87ecd55293f8d726e07615fa09a43f1c9b6ef",
+   "title": "Rockwell Automation (ROK) Unveils PanelView Pro For Easier Factory HMI Upgrades",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXYxMV93MWVneHlLSlRudlNoR3FMWDNvd3hNRDdOTnFTSDJLTzF3RDBZTjU2Qzh6RnNYLWJENU5FQi1LaUs2MGVWczVlN0VjRk41WjhkYmdZQzN0RS1tdHY4RlhkRENubm92N2t4NzlUUmlYbU8xMnllUlpITXZ4dEFnRTBYT0xrbEdUZXZKZVBaeXNaY2R5dmhfUkp4YU0wa2EtQQ?oc=5",
+   "published": "2026-11-11T03:13:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e4670391ceec3269cbd5590dade6cba8761fb426",
+   "title": "Internet of things stocks Q3 results: benchmarking Rockwell Automation",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/rok/news/earnings/internet-of-things-stocks-q3-results-benchmarking-rockwell-automation-nyserok",
+   "published": "2026-11-10T22:31:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20740277f2d35195929bef860396c8e8186de2cf",
+   "title": "Rockwell Gains on PanelView Launch",
+   "source": "BayStreet",
+   "url": "https://www.baystreet.ca/articles/stockstowatch/125255/rockwell-gains-on-panelview-launch",
+   "published": "2026-11-10T11:27:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e9f8ed687ae8296cfc1b99e65e21736611ed5a1d",
+   "title": "Rockwell Automation Introduces PanelView Pro to Deliver High-Performance Visualization for Modern Manufacturing",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:74a58667b616c:0-rockwell-automation-introduces-panelview-pro-to-deliver-high-performance-visualization-for-modern-manufacturing/",
+   "published": "2026-11-10T08:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "9e7c8055ca5d71f5998e7cd52208792633cc44ac",
+   "title": "Rockwell Automation to Present at Baird’s 2026 Global Industrial Conference",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:f549f26dd6fff:0-rockwell-automation-to-present-at-baird-s-2026-global-industrial-conference/",
+   "published": "2026-11-10T07:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "7ec286f023ed4f98a57bf92f2df4b049e3587ba0",
+   "title": "Rockwell Automation CEO Moret buys $1.5M in common stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPenZiQmRMcHZaSzNLTTd4dXdKUWR3WTRCejVGWF9YN3RnYXctX2kwUkVtRHpGeUZNYjZXRENrTUROSzR3TmNYNlJ5UC1aNWcwOUZQOTdVNkZTekNBbUQ3RnlHOXRhVUhzY2xjX3JkWFMwa3VibmZWQ3hkNXJ6Sl9ybi1LTWdPVmlNOWVKQTlpOEJkb2RPbUVpODZ5a09Yb0N5TkFITTRoZ0w5VVNoNHBMRk9nVFVDNXd1eTV3?oc=5",
+   "published": "2026-11-09T18:17:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "40cdf166ffc1e7729e9e2143f9c0407d58559dff",
+   "title": "Rockwell Automation, Inc. (ROK) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BOGtOc051UlBXSlJWYV8yajgtWW9GZTlyY3FzcUpFZzNhcEs3bE5BemJLTkFDZi1selE3RUJ2VHVZdVdxQXpTS3pKNXk1YkJ3?oc=5",
+   "published": "2026-11-09T09:09:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "08b44513aa8d4d927541b86c328455bfd890ab21",
+   "title": "Weekly Recap: Mixed Q4 segment sales and three price-target cuts",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:cc397d34fcea0:0-weekly-recap-mixed-q4-segment-sales-and-three-price-target-cuts/",
+   "published": "2026-11-09T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9a8b5487d03743b556735ff3431a205bc5ae7879",
+   "title": "Rockwell Automation Q4 Earnings Call Highlights",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-rockwell-automation-q4-earnings-call-highlights-2026-11-07/",
+   "published": "2026-11-07T19:14:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3aaf1399c3ebe2914a522b6102e1ef8d53af5137",
+   "title": "Rockwell Automation, Inc. (ROK) latest stock news and headlines – Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15eF9oeTM5aVYzUUpBOEE0YV9nV1ktMDV0U242QVhTUkhIS01MZm95RUVVR2wyLWlXNkZOMGItYWdDcHhGd0QzRUctd2R3ODlid3RlSVgzTQ?oc=5",
+   "published": "2026-11-07T03:34:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3862878ea1ec184a4c0977a003fcdd75d95db3da",
+   "title": "Citigroup maintains Rockwell Automation at Buy, lowers price target to $504 from $536",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:da8ecc88e075b:0-citigroup-maintains-rockwell-automation-at-buy-lowers-price-target-to-504-from-536/",
+   "published": "2026-11-06T16:29:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "890d8ee7efec478e1f83039df55d57a5c4e6a4aa",
+   "title": "Stephens & Co. maintains Rockwell Automation at Overweight, lowers price target to $500 from $550",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f376f7868cfdb:0-stephens-co-maintains-rockwell-automation-at-overweight-lowers-price-target-to-500-from-550/",
+   "published": "2026-11-06T15:40:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20778339139e7d29fedbd11a447970076382388f",
+   "title": "Evercore ISI Group maintains Rockwell Automation at In-Line, lowers price target to $425 from $485",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:6d323d48dd2e6:0-evercore-isi-group-maintains-rockwell-automation-at-in-line-lowers-price-target-to-425-from-485/",
+   "published": "2026-11-06T09:57:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bb5431553c430c7d47f046ef8fdb4105afaf7b99",
+   "title": "ROK Q3 CY2026 deep dive: margin expansion and AI-driven segment growth offset flat sales",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/rok/news/earnings-call/rok-q3-cy2026-deep-dive-margin-expansion-and-ai-driven-segment-growth-offset-flat-sales",
+   "published": "2026-11-06T00:51:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "75fa0f4b65fc27279d373f94f38d8ce4813b9630",
+   "title": "Rockwell Automation Inc (ROK) Stock Down 14.2% but Still Overval",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNenlRS1hFa2xaWUVjeFBYMWEwZVdSVnJJb2lRNjBDS29tZ1dOcjBmMGcySDAxWFlXaFRsdE96VHdtZW9Lem9sZ1MwWE15ckY1TWUxRDU0c0hEV2JjRlpNZXdrWUlsTEY1ZDYyLUVFQWVWUzNKZ0hLTmpLbTFvYWtET0k4UnZ4WGJ0TkwwZ1o1WU13VWNzMWk1RWFPYlR1TkFDSnJVWDdCVUk2Ty12ek0xbTFaelVkY3ha?oc=5",
+   "published": "2026-11-05T19:39:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aeac17a8e93d1dcd6adf3d3fe67efb8302f60d28",
+   "title": "Rockwell Automation (ROK) Beat On EPS, Is The Premium Already Priced In?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlNhOEI5N2MwMTZDM1lSSHR1Ni0wVDhxYkJ1SEVGaWtvNWdBanJIcWpEaF9QQmJXVzY5SWhPM2dlYzNhYzhyQVdVSUNjTXdEdXNPbEtNUHU3NXBoRDNZQVhVMS0ydjVsa2ZNeWd1M0hKM1ZwQ3ZERmdJQ3J0Q1Y2V0xDU25GaUZaVGFGYUJTZnVFUGk4V1dfQ2Z4dE1HQQ?oc=5",
+   "published": "2026-11-05T17:15:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3804521af6f7d252ab30a87d1d1f3dba94263b21",
+   "title": "Rockwell Automation Q4 Earnings Beat Estimates on Margin Gains",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3024708/rockwell-automation-q4-earnings-beat-estimates-on-margin-gains?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3024708",
+   "published": "2026-11-05T11:46:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20e4d0f79540c20acca1dafef8f8e8c07d0c2330",
+   "title": "ROK: Sales rose 8%; adjusted EPS advanced 27%, with software and devices leading",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3868534:0-rok-sales-rose-8-adjusted-eps-advanced-27-with-software-and-devices-leading/",
+   "published": "2026-11-05T11:36:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fcdc7be66e7ce894bf2ff4cd228d77d6892d5790",
+   "title": "Rockwell Automation Issues Fiscal 2027 Outlook",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:1cb630e52094b:0-rockwell-automation-issues-fiscal-2027-outlook/",
+   "published": "2026-11-05T09:25:11-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "51773f5b9879173e93d415976009c20cbc03e2c6",
+   "title": "Rockwell Automation Stock Is Falling Thursday: What's Going On?",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUdCSVBmVDZZR2xzS05yUms4RGFOZUlpdXMtUmxfVE1oRHVqZnJzZmxYdnJMQlpwR0MtdW9vSms0UjNpNkF4cjFPQVItOUxyM1paMGJvSlFmUU9HcXFLTzE3ZXIzZHdJQ0xiMlh3S1J1Qk9YNHF3WTUtSUppV2Vab01PeHRpWk54Uk9sZGNubWY0Mm40Z1lxTUNjWFotMlVaTWN1UzlB?oc=5",
+   "published": "2026-11-05T09:25:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1d174ffe051e792e13aca47c550cb988101ad276",
+   "title": "Rockwell Automation 4Q Profit Rises, Issues FY27 Outlook",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261105013117:0-rockwell-automation-4q-profit-rises-issues-fy27-outlook/",
+   "published": "2026-11-05T08:35:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "71a44d10257fa636ff6c50587149ba75e9b0dfc7",
+   "title": "Rockwell Automation (ROK) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU1BDSmpqbGtKdWU5QmY1RTdfaTJBUjJ5ZWF4dllDak40R291TmtoVkFscTFvSURubl9VRVpCUHljUldGbjJnVnlFWmZTeWhkUW10c3d0eDJqcmtPaDZvWF9iSmg2WFZQMV9YUnl1cmlucW01akpLY1c0YmJlWEJmOF9UWUhkV0tyT0wxeWh2bV8wNFlmSV9kUUh5VzJ0ZG5ReVE?oc=5",
+   "published": "2026-11-05T08:30:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ed0ffe9417a014d7113b28a4ffd68139db2f2fc",
+   "title": "ROUNDUP: Rockwell Automation Sees Growth In FY27",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:9af5f4de0cf74:0-roundup-rockwell-automation-sees-growth-in-fy27/",
+   "published": "2026-11-05T07:43:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2c14419442ea18cb7ac79621e0bdb1cbd6399a17",
+   "title": "Rockwell Automation Inc. Q4 Income Climbs",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:868fcd22bd25b:0-rockwell-automation-inc-q4-income-climbs/",
+   "published": "2026-11-05T07:42:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fbbb4f732d27ef49ef36260d55f93c7d29eddd0c",
+   "title": "ROK: FY26 adjusted EPS rose 27%; FY27 adjusted EPS guidance is $14.50–$15.50",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4255809:0-rok-fy26-adjusted-eps-rose-27-fy27-adjusted-eps-guidance-is-14-50-15-50/",
+   "published": "2026-11-05T07:42:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e82f443a0ae6ab77edb96fdd897c79693fc2b0e4",
+   "title": "Rockwell Automation (NYSE:ROK) misses Q3 CY2026 sales expectations",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/rok/news/earnings/rockwell-automation-nyserok-misses-q3-cy2026-sales-expectations",
+   "published": "2026-11-05T07:12:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a14f748817a1f27f84c6084784aa11f94e14e844",
+   "title": "ROK: FY26 growth and margin gains set up FY27 guidance for 6%–9% organic sales growth",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3868533:0-rok-fy26-growth-and-margin-gains-set-up-fy27-guidance-for-6-9-organic-sales-growth/",
+   "published": "2026-11-05T07:11:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6f1e0f4b94e8fc456832f39527062999938a24ce",
+   "title": "ROK: FY26 margin and earnings gains set up another year of growth, despite cost and project risks",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4572162:0-rok-fy26-margin-and-earnings-gains-set-up-another-year-of-growth-despite-cost-and-project-risks/",
+   "published": "2026-11-05T07:09:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "040369b133b42941e6ba81450950892e13a18c10",
+   "title": "Rockwell Automation 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000045/0001024478-26-000045-index.htm",
+   "published": "2026-11-05T07:02:20-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "018f037e9a5435c1a46e45b524b8d7d6aa609d7d",
+   "title": "BRIEF-Rockwell Automation Q4 Adjusted EPS USD 3.88 Vs. IBES Estimate USD 3.69",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-05:newsml_PLX1VSNSW:0-brief-rockwell-automation-q4-adjusted-eps-usd-3-88-vs-ibes-estimate-usd-3-69/",
+   "published": "2026-11-05T07:01:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1ab748b91963866272d9b2333c963a9b4af7a523",
+   "title": "Rockwell Automation Reports Fourth Quarter and Full Year 2026 Results; Introduces Fiscal 2027 Guidance",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:db9b3ab00a056:0-rockwell-automation-reports-fourth-quarter-and-full-year-2026-results-introduces-fiscal-2027-guidance/",
+   "published": "2026-11-05T07:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "0815e25c37d3b6c066ba0c3ba25097d7fc1cc763",
+   "title": "Rockwell Automation, Inc. (ROK) FY26 Adjusted EPS Rose 27% to $13.42",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:da92ff67f5e5d:0-rockwell-automation-inc-rok-fy26-adjusted-eps-rose-27-to-13-42/",
+   "published": "2026-11-05T07:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cf188dd5f02b2d86201071e3086d3dd060383f3b",
+   "title": "Rockwell Automation Raises Dividend 5%",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261030011036:0-rockwell-automation-raises-dividend-5/",
+   "published": "2026-10-30T16:33:00-04:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2c55122542fc362c347aada3169755032a61afa0",
+   "title": "Rockwell Automation Increases Quarterly Dividend to $1.45 Per Share on Common Stock",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:d75a524de10c2:0-rockwell-automation-increases-quarterly-dividend-to-1-45-per-share-on-common-stock/",
+   "published": "2026-10-30T16:15:00-04:00",
+   "also": [
+    "Seeking Alpha",
+    "TradingView"
+   ],
+   "kind": "press-release"
+  }
+ ]
+}

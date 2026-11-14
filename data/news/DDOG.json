@@ -1,0 +1,385 @@
+{
+ "ticker": "DDOG",
+ "updated": "2026-11-13T06:07:04-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "0867c209cf0e74a3e44126267fea657705e1b3dd",
+   "title": "Rocket Companies Appoints Datadog COO Adam Blitzer To Board Of Directors",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA4H0YG1:0-rocket-companies-appoints-datadog-coo-adam-blitzer-to-board-of-directors/",
+   "published": "2026-11-12T09:53:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a373dfd2c9e351b0f82adec3c5075866ac471104",
+   "title": "Why is Datadog stock sliding today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM20tZjNaY1k1RlRGQ0RQTExxaUF0eXBSN0pvMVByRVh6TklFQVdNcFR0S29NYWFVZU54eGNJM0dzSy1Za0FuMGFlcWY5czVaenJmTUgtVUw0NDhCOHlTQThYa29qY2NaN0hPSlJaTkZObVltMWlkNkJyUzlzR0dvZ0FzSkt1X1p5Q2UzQnhPQXg4bXpUWDBGNGFtdm8?oc=5",
+   "published": "2026-11-12T09:38:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0bf910b953e3de4933669010485182feeb114c68",
+   "title": "Datadog to Present at Upcoming Investor Conferences",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3401122/0/en/datadog-to-present-at-upcoming-investor-conferences.html",
+   "published": "2026-11-11T16:05:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "b95cbb2ba8ffed42f3016698691820511686ae38",
+   "title": "Is It Worth Investing in Datadog (DDOG) Based on Wall Street's Bullish Views?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbG5HaWxCUmZRSWRjYVNJNUlQMmNGaXBpQVBjZlczd0VacXV1dFpNc1F1WTJBMVozSGk1dG1rUVlleTRIUVpPdlRaZFZIOWZWMF9tUGZiSlJZQzhHV2VUZ1dNcGUtbVhsNUlHM1BaZjM5VGtSOGhiOExIZDNJUENuTXJPM2dFOGRxX3ltQmx5cEx6dXFud3Q5Y1U4X21jUThu?oc=5",
+   "published": "2026-11-11T15:22:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "daf5f2e0468ade83325d75fbb4359c326a1bb07b",
+   "title": "Down 37% in 4 Weeks, Here's Why Datadog (DDOG) Looks Ripe for a Turnaround",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFcjhOTFhDcjhXcm15SkVaczgxamVSZTlwN1Z0d2FqdVpCdlZhWV9sQlZtVUM2bmIyeUI5VElGRUhPTThaYjA0cVh2Qi01MkpQQ29SVU1TRGFhcFJNemlaY19TWW55TEw5Yy1MZDVoY0M5T2JTNm5aY1Z3?oc=5",
+   "published": "2026-11-11T15:15:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6c6e6bd8c6a49b15afe53beb1dd93db8e3abb014",
+   "title": "Datadog and Cloudflare Rise 5% as CoreWeave's Results Lift Software Stocks; CrowdStrike Climbs 4%",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ3BPWWw5Y21GenhoSkxjclJSZk1VcDY1Vk03LWt0TXJlSUtkd1JUSkgwbmxkMDhHZWd5dWlST0ZVd2JVTHF1SjZFTkM0bmVsdEhaYk9vWVo2VGMyeXZieUZYQ19oYjRRd2RNNGZab3NDX3RWb0p4VDg0amdqV2FPcFBQOGxPaXJDdHJ3X2JzY1ozY0pULVIzd1ZBSklKa1hqWHJSR3ZZcHd6eUdheDlxb2lpQ0RiT0ctX042QjlQc2oxYzdDb0sySDZ3a0JiVTJZZzFv?oc=5",
+   "published": "2026-11-11T14:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "df7a3d6a49af5420f37f61c4843d79169b51a3f0",
+   "title": "Datadog (DDOG) Stock Gets Fair Value Trim After Mixed Views On Q4 And AI Demand",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNWg2dXRVLWFjZzZkRHR1d096WUxZY3VDeVhiZUcxbE1xbFlsQnpxQklQa3htN1ZSanVsaDZKUXNDTjZibkprN2JzRF9ERGx0TGpGV2Q2S211R29FRzZsMnZvMjhBMGRxWm1odTBuRzRqRGVOLWZacy1lWE5ZWlA1T3JTM19qdWp4V1dMMG5icmNYNXA3b3Ixaw?oc=5",
+   "published": "2026-11-10T16:08:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4c1499894f36be928f658d688256a03fcd012a39",
+   "title": "Datadog has a big-customer problem after a strong quarter",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVzQ1WmJCeDNFVTFwRk5yR0tKRXJzSlhQX0E5WTFyU2xoRV9uRlpwWllfSG5qajdpbXV6Y3BtbGNINEs3OTZHXy1NcXZDYkw0VURUSXJzcW51bFAxczc3TUttNHl3eDBncnNOZXFOSm5IcVYtNHhXc2w2WGh0Y0s2N25NZk40aE5uVXc2MERfOE5rUFh5VlNic1J6MzlkdGR1emc?oc=5",
+   "published": "2026-11-08T21:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4a07672b589391927f59fb7650d0c6e59fe00f87",
+   "title": "CarMax Strategy Shows Promise, but Don’t Buy the Stock Yet, Says Analyst. Plus, Datadog and 3 More.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWm5KVkdLTlI0Zk15TnBCbFVWOFN1ejVQRWl5QUgtelgxTEFKN1h2RUVFZVN3VTlhN1Nma0FMNUJBU3hSTTdHS2hvT2JhdnhIMndNZDRWTlFma2lucl9XUmZFZlhNSndkSFRyZDQ5VTloRFRFNWxXMWJ5cXRiZHlsa2hRNEh2OXpXbnpBSGZKSmoyMER1amR1WF80T1pEMDI5SmVHcjlMS3dfdGtjYlMyWW5UU0hNa0R2T1QxbXNQMHpfMU9kcVNXak55MnctLWdj?oc=5",
+   "published": "2026-11-06T18:25:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "864a205ac45238f481a5611b6e5fc656b2c6e491",
+   "title": "Datadog Posts Q3 Beat, Q4 Revenue Guide Implies 1st Sequential Growth Decline Since 2019",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTVV2dmVMb09JRHg0N05Sck5XdVhmcU5wWDlPUnJQRmtwLUVYTmE1RXFwSnh0SndELVFYb3h0RGstb2xTeXR0Wk5wOW5Qb1dQdUl3cTh6b0hmckFlckdhNmtfRkdabElKQ3ozYmNDM1M5eURDVG5zR3YzUnd0eWZKRjlSSmNNd1BBOEtPOXBKdkhsWTJMRnMtaFloYWxuZ2FHSUl1WDU0ajN4WW1DQ3JfRy1SaVRNUVdybVcxLUkzUmlHekhnOWpZeEpIMzc0aEU5eUEzVkRpWDVJei1CSGlOMUFSb3RlR25ybzhDcU1YeWpBUDRL?oc=5",
+   "published": "2026-11-05T12:15:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dfdcd0a55689891373d29ef71ef65f5b6fe5040c",
+   "title": "Datadog stock price target lowered to $240 by StoneX on AI growth",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSGlYOThMdEl5SmIzcEswSmRoUkQ5ODNoYjFCbjc4Q2g0aG1rM0NkaVdaaVZFNkpXckh1akJPVndyYXREZ2pIaG11SFdLOHJuamhvdTB4QU5tVUc0RS14c0lRaDhLZTMtWmItWVV2a3hyR2UyUFhrYnJmMkVJNTJtWkxBU3dTX1BYd1BGZHZoYk9UQ1RPZGtXZXVuQk5xQ2NONkg1dWJoYThYNU04Znc3TjRPdEtJd1QxZ0ctWER3OEpRZw?oc=5",
+   "published": "2026-11-05T11:00:42-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "494e25bbe271d2f3cd837519ab6984246e6d6eeb",
+   "title": "Datadog stock price target lowered to $275 by TD Cowen on guidance",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUVNyUnNOS1hPR1I3NTRleEhkcU5MZGp1d3Yxc0UtU05TVmEwYU5jNURtNFlYZTJfelBwa2NOLXBKU0trUDBxbHRVX3h2SlFNQXRHWkdDZXFWTE81TmhJbzhlS1VFYmdoZnFxRHEzVDJBTVFPdlE0SjV6NVNwZUgydEhuWUZBUGs0bl9BN3YwTUs5MHJIWTBZanZGZThFTUJTRGxPWEhrUFpkdE9sWGZfbm1JTFExX2ZubzhCNEFENXl6dnc?oc=5",
+   "published": "2026-11-05T10:34:41-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "935c812833c948d0c3cdb83c33c1073faf3605d5",
+   "title": "Stock of the Day: Is This the Bottom for Datadog?",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:bf6e24f04094b:0-stock-of-the-day-is-this-the-bottom-for-datadog/",
+   "published": "2026-11-05T09:58:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9c2d099507249f2cf3a967c714c3ca00ea68555e",
+   "title": "Datadog Analysis: Will DDOG Rally From Here?",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRjQxeVlVNWRndm52ZjI2ZUFXMWZ6aWg0MW9oOWk0T1RHbGVjbm9SRFdsdGZfWDBKbFlaX2VGTlV2OUNGMjhZQV83NHJOUFM0NVJXeG1HUWwwU3lDYS1fVXhZOTEyN2FpVThXMDdrQUpSdnRCU1JyQ1FlZXA5a1Q0WWplUDRmLVZGMWZKZGpSZVU5LTlPZTVaN0pRRHNxemcxZXk3T0JzbGU5UkRsSVhNNU13?oc=5",
+   "published": "2026-11-05T09:58:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f51a1357d5a473a759a07e27ef2f573585472390",
+   "title": "Datadog: AI Story Priced For Perfection (Rating Downgrade)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmh1UzBXS0YxWVFxbXlrenpMSm5QQnVyWUpkamV3T3VBcFpyd3RjYXlXTG04eGNSaGFoR1Zaek5xT3drNTFJUklaYzdyYUNFTTZzQVNLRDFicVl2NWhFQ3ZMbHFfSDJMVUI3c3U3WWhtNzVIeUxEdkc4VEstdEZjdW83ZF9EdWFWWC1Gb2xFOFJUT2lWZHN3YVdNM1Y?oc=5",
+   "published": "2026-11-05T08:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ce561c72dd057952eebee1a5fea017f142091100",
+   "title": "Scotiabank cuts Datadog stock price target on muted guidance",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnhGWUNUTFVFUndsc3d4NWVYUElIUVhaR1RraXhLYl9HMDg1VGNGTFlkN29VUFJUVFVKYzhmSU5hckdFNE0ydmRpN3pQZ2ljVmZvRERMQ1d0ekgtNEtQTENaU2ZEeFBjRUVNRFRKR1gyV1Jmalo5MWE0U1Nvd0tHdlpIdUg2QV9fODZDdjJfZVFVd1RvYmFsWnVEWnl0ZmtfUTVxdmR5OW9Bbm5renJSbnphSVllbVB2LWE1Qw?oc=5",
+   "published": "2026-11-05T08:09:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e77a5b9109309d1693375e1af0f95574b605d6d6",
+   "title": "Datadog files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm",
+   "published": "2026-11-04T17:22:04-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "2a34d3b5d06f9c3046e286e7d46d9d11e0ac52ab",
+   "title": "Truist reiterates Datadog stock Buy rating after strong quarter",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN2dJVzJYdHhMZUZhRFhiSzlpNTZCcV8tRmlESDVXdmRLU3pPdGFrY3ptZ2JMQ2VST0JRbEJOVHdTdHRfSmtDZXVNZnhCdjgtVmhELXlVdDBGblhYT2VFOGRtWFotck5sbHRfR3gwdU43OC1HZ0ZUa3JUX1lvUXotUnU4MFpyU3RuQzNEcHdjclExZnRGcmRERklEVGFIdUJ6THJLY2FPMjY5TURNSUdPeVkxYzdTV0pMZ0JUTGxJNlQ?oc=5",
+   "published": "2026-11-04T16:59:25-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a8fa41ad1c4e6aa2bbc0b98c724ba4b255fe1854",
+   "title": "Datadog slides 14% after earnings",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NZG13SnRvS2JwTEhHRlNVZGxQeHlMWjBneWRKSVlJQjNOLVA5eXBKLWRZNzRYMWlDYk5POG93WGhGaGs1WVV4WHA2ZFFWbFVwaVZFalhoT1RLNWlqeV9wSERkVkUyMnZlNHhYNnlfc3Z1MVAzR2lBbXFn?oc=5",
+   "published": "2026-11-04T16:30:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1e9f16169693c674cec1b8bcaf149c5b339730c8",
+   "title": "Jefferies cuts Datadog stock price target on customer concentration concerns",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWDFPNTZtT19TOHpoZ05wQkN1ejNGajNadWtObm1DSnk3Nk56RWxwTzc3YzZha2QtTDU5Q19HOENHSjhUSXQ0TWcxSTFxV0VQdVYyQ1RIdG5nTkdmbkJHN1BleThreDdsVVlyS1VNcEhGNmY2V0JQblNUcHBZYS1kN1VDMUd2VEhPZ0JyUEpqeS1wekRoQVFfekZCU01Ca0tiMVlVczJ3djZvbHM4TGkyZ0dSa0llQUZoa3dKUjRyYlFPSGpjLWN6UzE2MzdMWWkzQUE?oc=5",
+   "published": "2026-11-04T15:59:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "809e7b50cd663bcb87341a82067b8b216a50ca00",
+   "title": "Datadog: Fears Surrounding Largest Customer Return In Full Force",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTNyYTA5bHM0QVE0c19LbmUtQ0tWUXY3b19MbC1JcWt2aktkQWsyNDVXOFZKck5ka1FLdmxyZF9OUVZuX2J0TldMSFhkdE05QXAxaTVzTFBTSGdtNkFKYVBJU0Y0QUVqSTZYUlhtQzZjUUR3ODVlaU43NG9fdlc3WGRXZFlSYXBya0pUNlFzd3gzV09HbkQ1RERjOTJJNnNJQ1lZRlk5SQ?oc=5",
+   "published": "2026-11-04T15:00:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c69234ff0f412d6916902575a15feae2febc41a0",
+   "title": "Datadog stock falls after Q3 2026 earnings as AI customer cuts usage",
+   "source": "Quartz",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FbTUzSlNqT3gya21FelVzWkJRU2xUeFdncDdtWVJyNVlKeUVYdEhRdXRSRHZHMkQxaHdEcHhTQkwyYk1wWE41b1VyX2NFclkxa3ZjeEFFR1k2OXozb0d4OXFDTHdrVWVkTC1CSW9CUy0tSjlnSXB3?oc=5",
+   "published": "2026-11-04T13:35:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4c514609c363f948b808e62f6c0d4116af82ca11",
+   "title": "Rosenblatt cuts Datadog stock price target on renewal headwinds",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZnl3RVVXcHJvS2ZDN2ZrQ1RrckRVVXZjQ01GdmNrdG9TQVVvMzRibGRzaEttcDhEVGhGdkZlRmdUN2R6dEQyTFNQSDEwb2VrN2hnMG4yeFpNNEJPNV85NjFFVWRJQ2FiajVOcXR5N2k2VU5XVURRUXBsRWxBVHRCU0Zfejh0N2RqQ0dJWEZFSmE5VVZGWmxFTzBocmw1UUswNU0yeWptUXRQVHlreG1IQ05CLUZBVm9YYk9iTWR6SWU?oc=5",
+   "published": "2026-11-04T12:59:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "26d7bb0f4a93cfe2d599f41c1ddf633c4a3b6bbe",
+   "title": "Datadog Says Lower Usage From Major AI Customer Is Weighing on Growth",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcmp1Rm9XbGFTcnExVl9GRzh3aWJabXprcU5lVzRFYzYwNzR1V3p3VV84M3F0RC13SUMyanlGNElDSDlnTDUxUm8xSW5uSWs4VzdQbzRiOGg0VDI3Y2J6dHFhaTMtTU5zY0Nzc2Flb01ZWkI0SDJDV3l6ZFFMbE9qemRJd0E5TmpCbGhTakU5UDI2YVVhVGFudThlbXEzZmRMUTVWaGRQd0Frcy1oSkhzQzV3UEpLVms?oc=5",
+   "published": "2026-11-04T12:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3311c8662ad25f64ebe3e278b54895bab1d7d792",
+   "title": "Datadog Q3 Earnings Call Highlights",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-datadog-q3-earnings-call-highlights-2026-11-04/",
+   "published": "2026-11-04T12:14:37-05:00",
+   "also": [
+    "Zacks",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5a64bc8e41d699396b11f8d9c569b9b672819bd2",
+   "title": "Midday Need to Know: Oil slides, Datadog tumbles on Q4 results & more",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4665033-midday-need-to-know-oil-slides-datadog-tumbles-on-q4-results-more",
+   "published": "2026-11-04T11:44:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a157f65cdedeff001d8811019381d8dd780e7bd6",
+   "title": "Datadog stock price target lowered to $260 by BTIG on Q4 guidance",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRS1wSkZKemU4a0xDT0FLbEUzc2ZSZU5XX3NiYVo1U3hmVGpHMC1NaFhKc0pGbVdydTBfTU4tWGltNUtDQXZBU0k0VURsQ0xnaENSaUFrSTV4bWtoRWlDVTFRbjlMQ2VZWF82YTA1dE02VVRoY01hZjc0N1VzUXFzbzNNRzZGSlJJVHg3dHhmZ0h5QnpOMTdHeGN1UDV6dWRfc3ZDUlVONGdURDB1S3VkRGl0MkFuZGJHX0k3LU5hWVVjUQ?oc=5",
+   "published": "2026-11-04T11:08:02-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f65eb6ca593d34f344ec0f0dfa94adc354bc5d9d",
+   "title": "Why is Datadog stock sliding today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNanlRY0tCZFdMdC1xUkRZMlQ4SGVWemVMYUlRa3puMFkxU2ZfYkdsOFFOSHRzaTZPVFpKdWozT1R0WDRxSUpRbFZqS0taZ2VTVktxbWw5T0tvb1VxQ2pYUXIycXhRalNHaUUyZFhnVXhsQ3QxMzlXdzd3RTJLQTlXWDJ2MjB2UXZDU19ySi1UYVBrZFRQMlRMRWtKUXE?oc=5",
+   "published": "2026-11-04T10:19:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c4494e58af7fddc5e3a318465d02a3b43a34b7ed",
+   "title": "Datadog’s stock extends steep declines in the wake of earnings",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZk1ZNE14YVlPVmg1Qlh6aWNjQi1EMlpUaW1oX3FyVS1USXg3aERoZlF4cDJSalBqVjBTN09SY2NvcFRsczF5MWo4aUdKSzVtYUZFVXRlRnRwRHdTZHpzTXR2SFg1VFUtV1pqaHo0UklnbVNJanlESnlGVXRKenV6ZTZ0RlNkZUJMY21ka2NQWmlxSmQ5bUpXeXk1a19Tc243RThEeW9rRQ?oc=5",
+   "published": "2026-11-04T10:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dc9cc7611f8b2fb58bfdca7490f383729e8add58",
+   "title": "Datadog Tumbles 11% Despite Earnings Beat as Soft Revenue Outlook Weighs; MongoDB Slides 3%, Snowflake Dips",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkMwWGdvNXVzQzFCc3pkRXZrMWpZMzlwc2hodkJyOERFSEtrcXpHUnE2dV9LMnZwR3hZSFpIX3Z6OTlENXU2czl5dE1xMG1WRDlFeTdhOEp5Q21zYTQwVk1RTGZpUUhyZjh5RXNZcGNjTlZtUkEyWGpDdnZEMlBlc1dLd1owSXdIN3BwT1hxcDdlMGpDNXhwbkItSF96Y0V3MVE?oc=5",
+   "published": "2026-11-04T09:47:06-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b366450206ce577ef1d9dfd6db44988c86e6c3fd",
+   "title": "Democratic Win Raises Fears Trump Could Seek Iran Escalation",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104009608:0-democratic-win-raises-fears-trump-could-seek-iran-escalation-market-talk/",
+   "published": "2026-11-04T09:37:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c3438a1fcead53694d3dfbd12bf04c79f46bf321",
+   "title": "Datadog Had a Strong 3Q, Excluding One Customer",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104009576:0-datadog-had-a-strong-3q-excluding-one-customer-market-talk/",
+   "published": "2026-11-04T09:34:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f3adff787ec75da708e2fda3dca904ac72f51159",
+   "title": "Datadog's 4Q Outlook Fails To Top Expectations, Largest Customer Reins in Usage",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261104009373:0-datadog-s-4q-outlook-fails-to-top-expectations-largest-customer-reins-in-usage-market-talk/",
+   "published": "2026-11-04T09:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "abde43f19059c7d6024a4446db6ccf27aadca827",
+   "title": "Datadog Earnings Top Views. Shares Plunge On Weak Sales Outlook.",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNkZmZTVXSzRtTktXYWV0eEdWbWFta040czV6NHB0TjhVd0RqVUljRnZRN01ELWJXenRwQTZJRFNIUmdHbnhhOXJhT29kbjd6dHJ0bDgzQXhpX3JWYnFSV2ozVzB6NlB2RVpVYWFPdEFEdmFXTVJIdXZUbWFiWmJiMXFOcFM1SXlsUWdLemZjS0I1SE9h?oc=5",
+   "published": "2026-11-04T09:08:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c74665dd8c72861e7d975e9925e76c0670424d36",
+   "title": "Datadog Beats Earnings Expectations. The Stock Is Acting as If It Didn’t.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBLaFNTdTRhY2s4dGpMMjNJYkpqdnkxWEkwRWt6MHR4eHZaSjlIcGNIbjBGbGZXejJHVzNEQ29oMm5TT2VOdVNZS1Nlck11c0NhSTZabkRqSDJvUFR3b3VBUlg5VUxIeG43bDE0Nk9vdk94S2hlS2RRbFhZaGljdw?oc=5",
+   "published": "2026-11-04T08:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "748f55bc5eba42daba92fb3f92f882f88ba2e08e",
+   "title": "Datadog 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026069792/0001628280-26-069792-index.htm",
+   "published": "2026-11-04T07:11:26-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "71475c538bddc957d7ddbc7da8a20667e431e2d4",
+   "title": "Datadog beats Q3 revenue, profit estimates",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46L0ME:0-datadog-beats-q3-revenue-profit-estimates/",
+   "published": "2026-11-04T07:09:57-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1ea8713fa53ce978c0c57c73195ea46f3ffb3495",
+   "title": "BRIEF-Datadog Q3 Adjusted EPS USD 0.81 Vs. IBES Estimate USD 0.65",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-04:newsml_PLXLLNH90:0-brief-datadog-q3-adjusted-eps-usd-0-81-vs-ibes-estimate-usd-0-65/",
+   "published": "2026-11-04T07:01:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a6a76b3e29abfc5194579ffbe00a4e0499d0efc2",
+   "title": "Datadog Announces Third Quarter 2026 Financial Results",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/11/04/3395166/0/en/datadog-announces-third-quarter-2026-financial-results.html",
+   "published": "2026-11-04T07:00:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "a96c87f3bf6dcf95a65bf511e94edb9958a2914e",
+   "title": "Datadog Q3 earnings on deck: What to expect",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4663757-datadog-q3-earnings-on-deck-what-to-expect",
+   "published": "2026-11-03T12:18:31-05:00",
+   "also": [
+    "dpa-AFX",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  }
+ ]
+}

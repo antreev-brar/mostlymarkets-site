@@ -1,0 +1,384 @@
+{
+ "ticker": "FISV",
+ "updated": "2026-11-13T06:07:25-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "c5e5cb8c0c57a6ceb867dbfa474a02af89c41269",
+   "title": "Is Fiserv Inc (FISV) a Bargain After 3.8% Drop? GF Value Says Un",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVB3T0NidGFLcHdWSXB4RHJteHhnUEZPcEZKQmJQVHNBTzZUXy1fSWd4R2t6c0NMRVZIblBfNnJIRXUtMzNxSFhsU2dzWjVNVGNBVl81ZmI3TEVQY01WcUJUUWc0cUxqcGpVcjA2QWhoQmhGSVRnNkZTUjE5RXVaYUxDRUZrM0dFSTBWX2dGRlVIb0pRTGVYY1pCX29rZEZmQlJUTDMwc1FJVWc?oc=5",
+   "published": "2026-11-12T17:49:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7e816062e303db687a872801fed646c942b6e02a",
+   "title": "Fiserv Stock Outlook: Is Wall Street Bullish or Bearish?",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGhQaVppQ3F4REpLWktnWEdQdlNKVmpwYUUtb1BObUt1Y3BROWo4UlgxRU1zbTNidTBqa3RvdXQxOTdTUTVSRUl0N1lxSHVRM0JFb2ZYVmdIckVnMW12bWFFdVNXTFFEZWdiU2ZTSkRUQnE0Y0FWckFrZFlFWEdrbV9JY1VaRHFWa1pSY1pzclVTUVhTQmpySm0ta3dsZXM?oc=5",
+   "published": "2026-11-12T07:23:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c5d21b96e2517009ac0ec16576a5c703406f642d",
+   "title": "What Is Fiserv (FISV) Planning With Its Debit Networks And Clover AI?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXJhQzdiV1RDM192azZVdUd1R2JRR0RKZmlNZTJJaWpVNUNZOFh5MVhOUGt0UnhGRGxybk5EWGtyQ01oYmxsd280SHhjS1g0QVc4akk1aWhiR3ZwNkRiblVhamV2Y1dRSWdIaFRKZnE5M3l6NnpLaGhpYm1TRnZwaWNMcWhla1ROakotMUlENDVIb3dxSFdDWkx5ZE1NSUVB?oc=5",
+   "published": "2026-11-12T01:09:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "91eed44395fa1ad403ec338c90fc69940f50baa9",
+   "title": "Fiserv (FISV) Stock Looks Undervalued With Strong Excess Returns",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHFKeG5XdVc5ay11MjhUdHA2UFFDSkFmSXBGN2RCaEVteURjVVgySmh4RHZuNFFXNmJqUUtERzJtd0ZjQmFnSy1mOWxkN0t5cWdaTE5waWFhZ3BxcWpSMF9BLUlMOXhFWUxXbUJVZHJSaDNyVjFvRzVXYjMzeVJBWGU2VTBmWmJ2LUpwWTFRSll4enRRa3M0aWpLcElSS0hza1E?oc=5",
+   "published": "2026-11-11T17:14:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0845b8ce275649f3870c745db98a7433a64dd4ef",
+   "title": "Citigroup maintains Fiserv at Neutral, raises price target to $67 from $62",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:19c919a6fdfeb:0-citigroup-maintains-fiserv-at-neutral-raises-price-target-to-67-from-62/",
+   "published": "2026-11-11T13:27:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c678b5bdc888d77117584e74ea09e43ccfc6a393",
+   "title": "Bernstein maintains Fiserv at Market Perform, raises price target to $70 from $60",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:fb3e489f8ab6d:0-bernstein-maintains-fiserv-at-market-perform-raises-price-target-to-70-from-60/",
+   "published": "2026-11-11T12:38:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1d8422c8ca1bc148bf91cd708a161f061142a0a5",
+   "title": "Fiserv preps debit network sale",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ3hqNjI3bnhGRHBYc3hBRXVGQlRfUGh1RTVsd3M0RnVYRnNGS0I5ZVpEZk5KTUg5S0pRZWl4dTJxZWRPZjE2T0RmUzVQRnRXZ3l6Uy1lSUc1VGJ3MkZIQ3RodWxxMG1US1c4eTNXQXBOTklTeXE4T0o5b2lRdVk2Vkd4bF92UWJ1dVRiZkZ3Z3hMYmdaVGQ0?oc=5",
+   "published": "2026-11-11T11:30:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fe77b0b6ebc66d2595594fe93defeee3e43d81d5",
+   "title": "Fiserv CEO Sees Clearer Results Ahead as Company Targets $1 Billion in Savings",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/event-fiserv-ceo-sees-clearer-results-ahead-as-company-targets-1-billion-in-savings-2026-11-11/",
+   "published": "2026-11-11T01:14:43-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2c9914445d78f8ba31070013ad84c1f96dd7dc33",
+   "title": "FISV: A $1B efficiency plan backs a push to renew Clover, enterprise, and banking growth",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4556753:0-fisv-a-1b-efficiency-plan-backs-a-push-to-renew-clover-enterprise-and-banking-growth/",
+   "published": "2026-11-10T10:54:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eaa45b5f2082fd94d738a6cdc2a7f4812575d690",
+   "title": "Fiserv at Citi fintech conference: cleaner quarters, sharper focus",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMU4zbzlEMW05Z2xkOTQ2dFg1MFNENF9KQ0U2SURtMUNwZThaaEtVOUZHcWxkVE1UR1hLTlBSNXRUVE5HVTRPY2U3V2Yxb2ZDOW5rby1rLU5Fc2cxMlM3VEdJcHZMcGV3MjIxYVBsamY5bWwzVVRKRnpLQ3ZsTmRVQnp6V205dE1pXzRIZFJCV0NfUTZkY1Z2RlFYYTVaRXRfekZVcldWY09pVnI3SmtKNDdEa1lDODdJa0lUdw?oc=5",
+   "published": "2026-11-10T09:52:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b5b1d8c435ef53333227a53864a39896e3b101eb",
+   "title": "Fiserv, Inc. (FISV) Launches AI-Powered Clover eCommerce Features",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:8cfd4c5b84da8:0-fiserv-inc-fisv-launches-ai-powered-clover-ecommerce-features/",
+   "published": "2026-11-10T08:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "64c9f66a64d16dc05e24333ddec56466b798e74c",
+   "title": "Truist raises Fiserv stock price target to $65 on margin outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSjVRaVlBUm9TWXFTd1RMc3V3MG8xRDBTVzFwb0xHSUtNU2NnN053SmhpcDgxT3FnRC1qMkMxVEFTamgtU2ZvNVV0VXM5a2NDY3ZUaG91Smd2X2d0RVVFTWU1LVFsVVJzZ21oZnZpVmIwVHNBcEFkR3dWYjhMUTVNMjRqNGJXcEJLdlFhWl8wNEh2N0NCalE5Q1ZjOUcwQ0tXaU8xcTBBQmM4MDNVLUZrb2tkMjdfTHNMWmZsNU1KQ3M?oc=5",
+   "published": "2026-11-10T07:04:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e4c8738b188c5cee46eb9193f11d4a6becb87289",
+   "title": "Cantor Fitzgerald maintains Fiserv at Neutral, raises price target to $65 from $48",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:898088d70058e:0-cantor-fitzgerald-maintains-fiserv-at-neutral-raises-price-target-to-65-from-48/",
+   "published": "2026-11-09T06:50:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "379287bf898e8b1bfadee90fddf254daacc86400",
+   "title": "Weekly Recap: 2026 outlook affirmed and average price target rises",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:88b0f0c787c66:0-weekly-recap-2026-outlook-affirmed-and-average-price-target-rises/",
+   "published": "2026-11-09T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f61e196912509a92eaf70a6b0b035235262c399e",
+   "title": "Michael Burry Is Betting a Buyer Will Pay Up to $120 a Share for Fiserv",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0J0aXZ1QW4yNFFJQU5vdHpqd3ZYY2pDemdBRnFTV1BvcDVpdlgyaUl2M19uSmlvNzZJRERNblJpS0NfaEtJZVF2ZU9ybWJtTDVwVlVwVWNEbzVTYnJ4SHppNnpzaTdIMWs4ZEpFc1hHRVFOLWNXOUdzX18xbUh3cWV1TkdLMWVTYTlpNFA5UEZMeE5qSkI3TGh6Yldzd2xFTGp4MDh2eDctUE9nTG9ibEg5VnY?oc=5",
+   "published": "2026-11-08T16:17:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "463eba41e0b364d27c7d3dcb868631a76793b258",
+   "title": "Fiserv (FISV) Rebounds On Project Elevate As The Undervalued Narrative Builds",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcjREeTR3Y3hCOThZWC1VSDVyRVpzbklYcVNrMGtiMzB6Nk5ydFhIdXplVkV6bFFJQVBiZmgwbldyRUNYZmhlbWpEaG1QQ1loNDV5LU1FdzB4UWVpdUwxQUxYa09nZE4ycEg1TXU5ckF0QnJDVjItSW5qQ3NVV3ZhVmR5Z0FEMU43TlNsZW90Y0pGYzFQRmJ6MlpIdEotVUxKbkJ3?oc=5",
+   "published": "2026-11-05T07:18:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "da44f91b9e4d9db7dcd59aec441b125d03e55d48",
+   "title": "Why Fiserv Stock Is In Focus After Earnings Beat And $1b Cost Cut Plan",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlZOZUg2aDZ2UUdwSnZCc21uVWVtVHR5MkdPVnVYZUtpUkFITmR1UjNKRWMwQUJYVjZGYUhVLWZPSmYtNmRvdjdhSmk5dWVCckk3Ui0zX0lUdUVKaUlsNFBKaVZtNUJtdTBsUmJRU3I0UzVaQ1Rwd0RMUTRuVWZYcGQ3R1E1SHBYZ1lwemEtc2VDVXFsU29NZTNpT08?oc=5",
+   "published": "2026-11-05T06:10:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c3560b555bdb419d921cf7ae314199e425c96d47",
+   "title": "Wall Street Bets: Navitas, Duolingo And Fiserv Get Upgrades While CleanSpark Faces Texas Headwinds",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMVoycktmbERDNnVuWkJxZXphSWpMOVNtREdZZExnd2ExYkdlZVFuOU9QWS1vMDdqblRNVk1FYmduZ1R0MTBGRVJWSWFaRWtXeGNRS2hYRG5CdzREemtuZC1xSXM2VHUyc2hFQ3JZMHpLTkRfQ3lwcXRTSXBBNE5QNkZhbXlsZWZjVGJOcG1pcFZaWWluYnVIbnBnUE5kNlE5Z2l0dkNhQjRDMlB3Q0xLR2w0WWVTUGNnUEo3OGRLRlRLeDRiVF9kWGpCbi13WmRHSGtxVkxGcFBTbV8xZklqSW94ZG5MWHZYaEstOHR3?oc=5",
+   "published": "2026-11-05T03:58:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3676c641458ddc35ff5b09c1e1a537da846de7ff",
+   "title": "Fiserv CEO’s ‘give a damn’ pitch meets Burry’s buyout math",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUMzdno2Z21UNmViN0RoaENZT1lnbXB2ajVNaG04REd6eWdCMzJFb2V6RnJPVVVBd09CeDN5R1RBdlFVMHQ0MGZsZlB3NzUwd1RHRmpybW9Kc1BTUnd4VDdMMFdNMlBMWmZWT2k5LVJhUzRzUG5FcVpmbjc0UmRrS2ZJal9OUnc?oc=5",
+   "published": "2026-11-04T15:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2d28c418e3eef343138224be4d118f33927bc7c7",
+   "title": "Argus Research upgrades Fiserv to Buy from Hold, sets price target at $72",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ccb4ff603a3b2:0-argus-research-upgrades-fiserv-to-buy-from-hold-sets-price-target-at-72/",
+   "published": "2026-11-04T13:54:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8b0f15c51a69ea879350a550cc45e3678a7ef5d9",
+   "title": "TD Cowen raises Fiserv stock price target on improving execution",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSUM5VEFoMk9XeDc2NFE4NGxuV2FOcHJPVzhVZjlJR1dwZENtT0JPNlZFUTVSTnlGZERiUEpjTkw1TWhaU0tIYzlva2FrUVJkMUtlSktucXFwb1RxOTNmelJOTEFwVDBnRE5HVDZJdUlOcmhWQnpYMFE5d3dHRWNNamY5VGpTcm5ZWUhVczF0NGRKdmlJN1VlUU9RbkxXT045WXVUemtSa3V2dmtORmhvUXJqQTRscGhsTFQxRWt6MmZRdw?oc=5",
+   "published": "2026-11-04T09:50:01-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bff9408698e4bd3ac7d0929334965eeb11d64420",
+   "title": "Fiserv Analysis: Will FISV Reverse and Head Lower?",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYXdmRExrSnZpTmNnMV9UQU5QMUgwWkVfUHNydjFxcmxCc2l5SVF0QndXdXF2NFZMQ0JrQU1zeHhwV1lwdDVNZDVNLWFLNHJQMDBhWmVscWpxazFSRk9fSW9BamV2dElCeE9qZ1JoTzYzaGp5Yk1SeW9NWkw2Mm82Ykl3V2xLc3RrSmYydTdQSDdTYV9wMEp5WDRVaUVPdVlJWEFjYm9RT0NlZ3ly?oc=5",
+   "published": "2026-11-04T08:56:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c5d93ac8b016248771f626954e1b7b702c5308ca",
+   "title": "Fiserv Analysts Boost Their Forecasts After Upbeat Q3 Results",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ0NXOG1pbEtRcHdlOTRXREhmRHd6ZDk4cFlsbGwycDM0Z1VkbzFyTzZCSWtuMzM0allVMzJFYklvY3pSVHhQbWhmVThIRjQ5NjJWTUY0RzQtUDZyZk9uZGZlQlJnSHZ6dEYzVDRxZjBTUmhRQktiRWt5NS1tMUNib2pvdVdzTDNQTjJicy1ld09JUHVkcXBHSGVJWGU4RXQ2ZFpuWnF6aTVSTGttWFdKUjZGRU5TMU9ZSVRWRHowZ05zcnlZVUJFMUI4TGwtdjFhWGc?oc=5",
+   "published": "2026-11-04T08:19:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "13c7c60a3b7fc2e2aca88b39f02dcb253288d7b5",
+   "title": "Fiserv files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "published": "2026-11-04T07:12:51-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d6837e25a5acf74b652eb539ecb0b6f2f3e76708",
+   "title": "Morgan Stanley raises Fiserv stock price target to $61 on stabilization signs",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdmJXMFpXUWVLSTNTcVBlUGFuNG0tSWpadkM1ZjJWTEFIbi1fdThiSi1YZkt6NnIyZ0FXU25UTm9XdzV4QnFlQ0NCZ2JzRTN6VFBFQUh6Z1c2aEYwY1hwRG1ZbnFzX0E1YXZaZDAzYkQtNVZxRVhidkN0eEtaVE81NVAwNU1YekdGdkg1YWlsajlITU5zYl9RaXFsaXRWZjEzVXNSWXBPbTdaZlF1blpUaXU2dXI4dkNPRm9LeDY3RkFMZTJqX3hGNEUySHRNN3RvSVE?oc=5",
+   "published": "2026-11-04T06:53:42-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c74dc15d8dee1be1ff04abd164c3b2c43c2393c5",
+   "title": "BofA raises Fiserv stock price target on earnings outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONXNaVFhGb2lpQm14SkxqOEZqNlFuSF84YlZidmExejZVZEoxQXhNbFdUMEhhSXVBZDcxc0xFbkREYlUwMzM3cUdHTC1LVEVZSnJqTG5sOVlEVmdLOExweVJTbzJ0NzdRVVNfVlBQVWtFcWUxOUJyejcxTlFmVUpYRkFxeVVWQTduVVd0Uk9hZlhjQ3NPaFJCWkYzcllxUXZELU5LQjI1bnkwRzVHNVdLM2NVQUlBaUEz?oc=5",
+   "published": "2026-11-04T05:11:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ed3fd5820c77f3db5464b14238af338ad1c90b81",
+   "title": "Fiserv cuts 3,000 employees and contractor jobs under new CEO By Reuters",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTzVXTmdfbF9KZHhkQV9NYXU1V29lRVpsNHRManNfc1puc1hlOUx1ZF9SVjRoNXVlYm1SeHFscmhVNEJuU0ZtQTdDZm83WGhFY1pCdk1aZ0hWeGhMeG5UZUdUSzZQdFRaYzdmcUwyalFVQWVwUnZCQUpicDFoTkg0VU5ZZThRaVlmbWp3dTdaWEk4Z3UxSGI2aU05U2VfNk9mWnlfb25XTDUyNk5VdVhOOFB6YmtEbXNU?oc=5",
+   "published": "2026-11-03T21:41:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2950511d9f2524f2d2093cf92759a871cf9dedf1",
+   "title": "Fiserv jumps 12% after Q3 beat",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LYmc2VWhxSWlQTEo3M0IxdHNEZzZoV25mZ0xweGtKYS1hNHFGRXlzdlotcXB3ejI2d2JkZHpVb0o1V2ZzQWhXaDRTNlhyaG1JOXlhMU1RaWJjdlpaMHBkWThlZ3JVcHNKVk9CTHJvZVc2NEkzcUE?oc=5",
+   "published": "2026-11-03T16:09:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dbeb1098c7eee94a81ab592818af33771f51021e",
+   "title": "Fiserv Small Business Index Shows Sales Momentum Heading into Holiday Season",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394703/0/en/fiserv-small-business-index-shows-sales-momentum-heading-into-holiday-season.html",
+   "published": "2026-11-03T15:00:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "fecdf0dc5a5a21cd727dd39f54c79e49694a52e4",
+   "title": "Fabrinet, EverQuote, Lattice Semiconductor, Fiserv And Other Big Stocks Moving Higher On Tuesday",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUWtOOFU4Qy1teTdIUm9ibFNtY0JtVHFZaHVNS09qa2pwa0N1NmJKUUpORVFONmJ4QVMyRUgyUWNzOVUzVVhFVmRRRl9NQTAtdkJQb1V2cG54SDk1emdrNzZyTmdMSEFhQnNSSUJkMnZPalNJY0pEWG8tbVNQRlVRZVRrcXBxbkhhM0UxUUptRUl0WWl2d212R0VDU1J0TUZ5RDFiUUtMV1dLNVZwUTYzRV9IZjRhOXBnQXVkazFBelZpR29MUE5yaGFhYk5Ib09wU2FkXzVMT2F1NDd6LS1pc1J6NS0wRGMwbHc?oc=5",
+   "published": "2026-11-03T12:02:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "74a059cdddcda7d7da841dcade653f3ae4cd01d6",
+   "title": "Fiserv Q3 Review: Positive Inflection Is Approaching",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2tadkJIZHg2YlN6RU5vVmdyb2JDMWJxLXlFOXA2UkF0anB2NFVfdnExQkt6ODdaYjFfczNUank1d0UyWmstdEI0SjdOcm0xNTlTaG56NGdtcm1UWnNIOFhrYkYzblE1MFdWTm9Iblpwem5lZ1R2QjVmaWNuUndnckhMMF9XVkRGS0hBNzU0Z3hZM2ZwWlBJ?oc=5",
+   "published": "2026-11-03T10:34:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fbd5fba8ff1f9808000fd0c51d3b4af74d2de591",
+   "title": "Fiserv Q3 2026 slides: stabilization theme drives 8% stock surge",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSXBSaFRad0FxUTRaVEdjWnM4T1VzQ2lRR0VYaUVpc0hzQ0JoOEdhcGdpeWpIaWQwNkhCMGNUejdZejdRVEFkaUliOVpYSXFBSGJxWksxSVplTm5IanRGNmJKN01jd2lEdHZ1M1pKc2cyYTBQbkpzc29pZ1RXMEpIT09nVXJLMU85SW9hUW9rSm5jdWplWmJCSld4cU0zMjBDQXhrcWpydE1MUFI3RF9zRjFSWFhWTFhRT0Nv?oc=5",
+   "published": "2026-11-03T10:20:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c7378a9739d9147df49e6a29e3132a277a174c88",
+   "title": "Why Is Fiserv Stock Soaring Tuesday?",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSWdQWmY0Zm0zTUt6eDFGei1NeExBb2JTWXIxSU5yQmZENXJMOVlOZnhTQVgwem9rTTA5Z2NBRUV3TFpBeGpPcEhCWml1cUZMUC02QnhjS3plV0U5WlZweWk1WTN1MTd4eWxyRmZ3ZzJlLVNVdHB5X04wSVdMekt0bHEyS3JsUUdNMDhSaGYycFdIUFRFaERvOEswdjBvblAxVHktV0FLUkREY2NaSS1yS0dKMjI?oc=5",
+   "published": "2026-11-03T09:20:39-05:00",
+   "also": [
+    "The Motley Fool",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "fda35819bdc0282ec0fae9a2c4e318ba3887c2a1",
+   "title": "Fiserv 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/0000798354-26-000039-index.htm",
+   "published": "2026-11-03T08:11:51-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "e7eebd33e5b03b66798b69a9f4f14d7834f12fc9",
+   "title": "Fiserv earnings beat by $0.03, revenue was in line with estimates",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX1U3blBnX2tjajVUZlRCSm0xbFViVmEyQTNSZkFNRGs5ZnNLNlUwU01hajVGbjN6S0pqZWVMYmFVQkZsRVlrdURjRlVwX0NLNUlMLWlmdUNuN1hNN19KQUg4V1lDWEJGSl9IQmdRTVVBX09MR2JzaUNBVUpteEk1Q1JwMkhnX19obC1nbGZna3VQZHhydk5uOEdsd0dSbkVxM3ZPUl9VYUdMVjJDYWNj?oc=5",
+   "published": "2026-11-03T08:05:59-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c18364145ce113a56068bd2f6ae3db2e000fdd5d",
+   "title": "Why is Fiserv stock surging today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLTdUM19nTVdqbDZmSXB6dlF4bTVtaGJ4SG42dTJGTkVkalE0LV9XVEw2Y2NYRy1qM0ptYUlxekZnUG9VTWY5QWRDNE9fQURqUk5mRDJJRV9IdWRUX2ZfdkNzNV93NzhlRmMyQmM3UU55QUVBS0FkOERVZ3lacW1tcUZTdGZPRXNRcHpRYUR0WHJFYzZ2V0FEMFVENA?oc=5",
+   "published": "2026-11-03T07:56:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9faa57b4f2fbfb2904fda606e4bf80a7b40dc4eb",
+   "title": "Fiserv stock climbs as Q3 earnings beat, cost savings guidance revised up",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV09SUlY5X3pRVE9MNm5aVWRhdzgza2VtVlNZZHJRM0xyVGY3VFNaTWxNRVBObW4zVzA2NkRfVThIcmE4STBmVzhzMjNEdklfNW1PcHhKOF9YQWREVmxySUM1NWctU19GVGR6UUYzSGVQTjRwM0hGY2Z0WXlVNVhJSUVNSjFETGVQMXlQSVFiY1JlU3pDM1liSmRKNlRtempjX2hZSnV4a2lTYktnSjFB?oc=5",
+   "published": "2026-11-03T07:48:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fa2de744b5cfae3a687938d7852cef2d90ff479b",
+   "title": "Michael Burry adds to BYD, SFM, JD, sees up to 140% potential in Fiserv (BYDDF:OTCMKTS)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbHpwRnlVeV9OVHNtQm4xeVNfYUJxR0tuZWRZYU93TWIyRHhycEdySXUtS1NnUXQ0TVVkQmpubjMzRTl1eUFSNjlTenVhaW5xY1B4T2RWSXdiOFU2MU5wUDlXU2dISV9TUzVjV1VIX0p2LXBOUTl5RzlSaHNleE1hTjVGdkRUWWhLM3NXNnN4UjRiRzZ5TmtOamRlTU02YVdYWDU5aEg1ZzE?oc=5",
+   "published": "2026-11-03T01:52:34-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d5486b8b1f2096aadfb612c2a1ebb9813bbb8509",
+   "title": "Michael Burry Says Global Payments Buyout Math Means Fiserv Stock Could Hit $100",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbWtqWk1VQ2hOd3hCLU5MOWxSWE1jbHJaQnNXYTZycWp1ckpNT0lhZ01EMUp6QnY1ODAwSlFYOEh6bEE3ZlFJT21OSVo2cEVxRHRxVnZObENpMUZxa0lPbnh2a0hvT2JFMUtvODZQT3puOWZnUTFfeERtSVJiV05rQ2NVcFpDNjNlWUpSaUVUQ01GSGdVaTZja2llQzVJLUdlbXdFV1k3UXJMekFaT2pOc2FhWUI?oc=5",
+   "published": "2026-11-02T10:51:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c199a3d24b3ed6bec6aa450b51c51ec8862cbe1a",
+   "title": "Fiserv (FISV) Q3 earnings: what to expect",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQV9lQlBjMjNmZDNlaDRzT2wydHBEMURwRzQ0eTI1bHB5aE4wSnNkMmxMZUNfajVoLWVvYzg5aklqLTJFT0lQWDM0bG1LVHhOaUdlMGZMcU5YTnJBTjZpTnB1QkpNWjZxdFRtSFljaktCckFMYzZZZGp5RE9QdldGVUVPRldnS1Zrc2VzOHhOMlJEeUVIQjV6VE12NA?oc=5",
+   "published": "2026-11-02T00:01:00-05:00",
+   "also": [
+    "GuruFocus"
+   ],
+   "kind": "news"
+  }
+ ]
+}

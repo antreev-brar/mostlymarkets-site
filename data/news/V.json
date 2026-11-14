@@ -1,0 +1,340 @@
+{
+ "ticker": "V",
+ "updated": "2026-11-14T14:03:10-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "1e68eaa80816ce1722e65f7cae7927305de18489",
+   "title": "Can Visa's Stablecoin Push Gain Momentum With WU and Anchorage?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3029710/can-visa-s-stablecoin-push-gain-momentum-with-wu-and-anchorage?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cquick_take-3029710",
+   "published": "2026-11-13T10:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "653f8b8cf68530a52d9d5d27497ff62487acb255",
+   "title": "Visa CEO: Trust Is “the Next Growth Vector.” A $2.4 Billion BioCatch Deal Shows the Price",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXNZZVNzdTVrc2xFS3I1TWh0ZERzRzZJc1hBbEg1dDhiSHE1TkpXejktYmpZeDVkRGNCMjZZanpiWjRUcXRMU1g5dEZBc3IzUzJEeHlkTUYyekFIOG54Y0tTdkFXU2JyUTJzVW51QWhfel85eU96R0cyUnlfV2NCbEcwV21wUFo2RWZBdkNnS0F6a05Ea1E?oc=5",
+   "published": "2026-11-12T20:32:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f9f7b61de65005d49279cad651ccd2c7f7137cd9",
+   "title": "Bernstein maintains Visa at Outperform, raises price target to $486 from $475",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ea7a3218aa54c:0-bernstein-maintains-visa-at-outperform-raises-price-target-to-486-from-475/",
+   "published": "2026-11-11T12:27:51-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7e29c5680dfe648e7cfb361ac4522910420c439e",
+   "title": "Can Visa's Monad Integration Boost Its Stablecoin Strategy?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3027990/can-visa-s-monad-integration-boost-its-stablecoin-strategy?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cquick_take-3027990",
+   "published": "2026-11-11T12:17:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b22ae866e0788aa113d469e0b44942a1781827ae",
+   "title": "Visa’s Services Grow Over 20% as Company Pushes Beyond Payments",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMG1ReW51WUJLSVNWMTlKaFVEbkRrVTNDdlhzUUlyM1Ixd1lRN1VwYndtUm1UZy1KbzdRWDZwMXRIejJGQV9zU05pYnBiNWJ2ZlN2NXVubHFlcm04Z0JaOE5ldWJDa3JDc2ZfYkFSajExN3RYYU11VlVjbTQ5WkIxY3ZmaDF3cGttS052YV9iMFBQSXdYQ2c?oc=5",
+   "published": "2026-11-10T21:23:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "48debe1e8f56677705aa84ef124f6e82f66744ab",
+   "title": "Citigroup maintains Visa at Buy, raises price target to $490 from $440",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:580a1775cd42a:0-citigroup-maintains-visa-at-buy-raises-price-target-to-490-from-440/",
+   "published": "2026-11-10T14:12:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ca2f93c93d11257fc8075839757fce482be4fe70",
+   "title": "Visa (V) Stock Could Be Reasonable With Excess Returns Intact",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamgyTVlJR1Rza3hGS3VHejlSczNrQ2J0cndUSVM4cDlsQ0xsNWNkdzdtUVo5ZkZQOTJkSVZNNHcwWUkxMUNQQ0hrTmxCZU1wdUV6OHlla1VoTTlDZmRxTUhZTFhfbF8yMTVCTTVNYjEwR2d4clpoTzFHZkZ3aUhQeDVoZlJVOGxnWEtqZEVOdFUzLTJKekdoSDNB?oc=5",
+   "published": "2026-11-10T10:11:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "58973d125522a49b0b4176a099bd174e1c5b12f2",
+   "title": "The Dates That Matter Most For Visa Stock",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmpoWXZMUTBkcjM0ZGVfZ1lDYV9hMEJvUm9PdlZoQ2xrbWg4bXo4R2M4TzZXcUoxUWQ1NmNMdWdWRHNjNVhuNmY0Z0tRdEhYSUpZcGtZSko4ZUNiSGY3UW5kcG1WUDh3TXpZMmRqR3dPblNqX0NLWGpsQkNfX2pDMlgzVGZHLVNMTFlLNVRYTVg1NUx3SnUtWQ?oc=5",
+   "published": "2026-11-10T08:11:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "695369f20fdf3ebd521d1d635a4406276656f98c",
+   "title": "V: AI-led delivery and expansion into core banking, cyber and agentic commerce drive VAS growth",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4561670:0-v-ai-led-delivery-and-expansion-into-core-banking-cyber-and-agentic-commerce-drive-vas-growth/",
+   "published": "2026-11-09T19:02:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "47f3e3a25a8b3cc24d248dfeb6256769d93d1658",
+   "title": "Visa Sees 20%-Plus Services Growth as U.S. Payment Volumes Gain Momentum",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/event-visa-sees-20plus-services-growth-as-us-payment-volumes-gain-momentum-2026-11-09/",
+   "published": "2026-11-09T11:15:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b3bc5399f99e566ee807197f3323587c16230a79",
+   "title": "V: FY 2027 growth plans pair strong services momentum with investment in trust and emerging payments",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4539254:0-v-fy-2027-growth-plans-pair-strong-services-momentum-with-investment-in-trust-and-emerging-payments/",
+   "published": "2026-11-09T10:45:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bf9793954422dd22e046408f29977641a02ff7af",
+   "title": "Weekly Recap: Fiscal 2026 revenue and net income growth and value-added services revenue increase",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:2552ee722b30f:0-weekly-recap-fiscal-2026-revenue-and-net-income-growth-and-value-added-services-revenue-increase/",
+   "published": "2026-11-09T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0b5a25d64f88912464e8aab20bd31b72b60f1043",
+   "title": "Are Wall Street Analysts Predicting Visa Stock Will Climb or Sink?",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWFo1NndIamNkOFJQelRHZWNOcm9vMFpWNTJDVmZEdDdyM083Tlh0eS1HLWpfbm1EYmpZeFh6Sk9oTkNqOFdnOE9VVEh1Nk1KNkxGbVNyZlFpUFBxcTBXVUk4Nk1RM2VJdzNMejVydFhXdTUwX0NRd1ZrTHczbmFmTmdoeENYMUR5MkFGRzBPSWh5M2R1TjN1NDhkY0l6R3RsTDNFU2xGblJ1b2ZHMnc?oc=5",
+   "published": "2026-11-09T05:42:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "67eb1ed149db97ffee4587886d6557687e1af5ae",
+   "title": "Mark Zandi Says Strong Jobs Report Gives Fed ‘Latitude To Raise Rates’ as He Sees ‘Very High Probability’ of December Hike",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:c8cfd5788094b:0-mark-zandi-says-strong-jobs-report-gives-fed-latitude-to-raise-rates-as-he-sees-very-high-probability-of-december-hike/",
+   "published": "2026-11-07T02:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "da0363e1a1e98412be88c532b4cf7f770c735656",
+   "title": "Visa (V) Q4 Earnings Justified Strong Growth But Left Valuation Questions",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNakZsMnhhamx5d1UzNGRHMW9Ic2Nnc0VFNE1BRVd3QUt1UHlnbEUzMGdvaHdSUUNmcFhTQmhoVk1nVWR2WDRHOVRyZ1N0c1BBMmVSVjZxMXc3TFE2R0RHV3ZGV3ljTjViZ1ZrU0kzV0FydlZPb25OZjhyc1dReGM0MU5oaUJVMnBzLW1QS0x6YzVWc1ZWWDMzWg?oc=5",
+   "published": "2026-11-06T20:13:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6293d4461a38e1d34a18b6dd02502bc69789b4b3",
+   "title": "48 ETFs Add to Visa (V) Holdings on Nov. 4",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONVBFem9NV1EyYmdWUHlVWlFVU0dRcUNMaUQ0U1RWMXEtcDlMaDQ4bVJxZkpDUU55ZFVIMkJUMnp1NlExblctdjRHTXI0dm5ZQjdFRkVFSkkxUkxYS0xVUWdMellqYWU4RUtXQnpXOXF0T0pSVWt2Tms3ZENVU0pFRUFaZzBILWRtSE9mcjNCbjY2SVNUVmR5dQ?oc=5",
+   "published": "2026-11-06T06:01:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8698a4774def816596804711fd0bb69789b4294b",
+   "title": "Key facts: Visa services revenue up 31%; analysts raise price targets",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e7fefcc31bb23:0-key-facts-visa-services-revenue-up-31-analysts-raise-price-targets/",
+   "published": "2026-11-06T03:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cf43a1ad95d88cfa292bbdd0b317824adfa1266a",
+   "title": "Visa Acceptance Platform Enables Jaywan For Online Payments In UAE",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46M403:0-visa-acceptance-platform-enables-jaywan-for-online-payments-in-uae/",
+   "published": "2026-11-06T02:13:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "60b846404b9055dca4e3fb5d181ad7d783f7dd6d",
+   "title": "'Hyper-personalisation Remains At The Core Of Visa's Marketing Strategy', Says Gaurav Ramdev",
+   "source": "Businessworld",
+   "url": "https://www.tradingview.com/news/moodys:03505f5face19:0-hyper-personalisation-remains-at-the-core-of-visa-s-marketing-strategy-says-gaurav-ramdev/",
+   "published": "2026-11-06T01:31:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7e4a24cbe505dbba7638370754b6dd5d404b4aee",
+   "title": "A Look at Visa Inc (V) After 3.2% Decline -- GF Value $376.40 vs Price $422.59",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNOVFGR1ItbzZ5VVM2dDUtVXBoeGZ3TENobWZYQWMyNUVtaXJPUkJYekMwNUk1S0xsbHFmeTRLNTFwUzNKbmZwZC1IT2w1VXdvc2o1SUJSVEVPQi1VRUlzbUZUc1lXQ1NVVVI5Ry1pZWFKcjBOb2pMVUIxRWxDRXBJcVpoYU1KTFZOcTR0MWlGcm11ZWRNeGxONGtpZmJTd3dycUp5NGpJcnhQdzVUV3k1MElhN2l1dUN6ZDM0M1RQRHJJX2EtWUw4V0Nhd21yMlJlVlhYek1SZ1drdzN6cVJuVWJiakpWVThMSEs3NUdrWUhIUTZiT25kQ3RhVzlDZHpaeUU1Yl9VekotdFJvbnZOcXR0OHlHUF9hVU02c2lwcjl4UGVPQklESkQ5WG9ZREhoR2dDdzJ6RGRiTWJveDhTV21nRkxNQzlNY2RPWA?oc=5",
+   "published": "2026-11-05T19:18:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aa1eee83a0e8c9730a724747279d1a4dc6418503",
+   "title": "Visa President, Technology Sold Shares Worth Over $14M",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:17e46eaf3fef0:0-visa-president-technology-sold-shares-worth-over-14m/",
+   "published": "2026-11-05T16:40:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6b5291294623688d08f5a8bd11c761dc6682b9a3",
+   "title": "Visa FY 2026: Revenue $45.9B — 10-K Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:b3df38ba8adf3:0-visa-fy-2026-revenue-45-9b-10-k-summary/",
+   "published": "2026-11-05T16:15:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d8b6f077eeb2f04109b26f9ec577b5cdcaf11671",
+   "title": "Visa files its 10-K annual report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "published": "2026-11-05T16:07:24-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "d49b5016d10739eeef9ed0fd227c758b1a99e2e6",
+   "title": "Visa Stock Drops 3.8%, Shedding Nearly $28 Billion in One Session",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fT1NLR3lPeDJtLWNPQkQzM1Y2eEUweWx5Y3BPZHJfeXFCQVhWOW5JUHcycmRjNmlwWDhGRU4wVFRmbVZTU3ZLdEhaU2VVcHNtUWlZTEJnUk9rRlk2di1iamJnbmdONGtVSjBvOFRJNk5iV2ZMR0NSZmdBb2gzQQ?oc=5",
+   "published": "2026-11-05T14:24:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "069f5f5c172dfa01d4b2911db164fb26ba14b042",
+   "title": "Visa (V) Reports Record Earnings And Dividend Hike, Is The Stock Overvalued?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdXpqaG1VWEp2U3lwcXQ4STBKUS1hR3ZhVGVnelFmaFI1NkdSR3VsU1BYemx4VUlScTIzN0pXWEhVVUJNbG9ETnZpWXltS28yejJNVHpkZzRTOFFkaThzblJ5X3JnRUJ3dVB0QUZoVGpOSk1YUVE1ZlFFNlE2a2RFZTkzdzJDODBGZXMxSXg2Tk5iNFdreldPNEhpMA?oc=5",
+   "published": "2026-11-05T14:11:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2d703c16664f6befb3e2872b178ca6be5f49c9de",
+   "title": "Truist Securities maintains Visa at Buy, raises price target to $470 from $443",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:5c66334653364:0-truist-securities-maintains-visa-at-buy-raises-price-target-to-470-from-443/",
+   "published": "2026-11-05T11:07:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7caf2e3f1198eaf473901f9c01c2e73f12d1d26d",
+   "title": "Visa (V) Benchmark Finds AI Models Fail Nearly Half of Shopping Tests",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:df44b787aa4f7:0-visa-v-benchmark-finds-ai-models-fail-nearly-half-of-shopping-tests/",
+   "published": "2026-11-05T09:43:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f43a52665eb85721647b04a2a9e49a5158045aa4",
+   "title": "Visa (V) Forecasts Holiday Retail Sales Growth of 4.5%",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:5274e4205de3e:0-visa-v-forecasts-holiday-retail-sales-growth-of-4-5/",
+   "published": "2026-11-05T07:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de8a3b9be9e51abc345e381371cc93f4cf838a2f",
+   "title": "Visa Inc. (V) Is Benefiting From a Powerful Payments Trend: What’s Next for the Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdjZqS3p5MWlNVDgzY0Q0VEFIWkIyLWJVaFJrTEFBdmFtRXhyVnIxS0xDUHItNE1heTdHS2ctX0RZZVhnSHBldWhfYlBLSlo2WkQ2bUFKSC1tUmpGU215S2tfWm1Sb1lMTDZlZmNYVkl3LTM0SXFGcUVYYjJhWG9MVVJxRUxOaF9SZGJBVG5ZVVV2Wnc3cm5PeUpxdw?oc=5",
+   "published": "2026-11-04T09:54:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e1a20b3f9767db94cb830c46b9057b4a484184d0",
+   "title": "Freedom Broker downgrades Visa stock rating on growth slowdown outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX3FZMXVQenRYRHRiT196S2s2MGtEM0hzZlRNYTBHUC05ajNCSFU4dlJvTEIzV0V1WXZRQjNoWTZveUxIQ05KcDdKb3F0dXdpWlZKR3VxWU1PTWpWYXhraFRXaEhHZXlSLW5WMUpnVzl2Y3hOZXNwaTVSZDJLWlQza3A3S2otUll5Q2dyTGotdVY3c19xZThMWFJfT0Y5Vzh4VndzbW5xZ2ZBTkdFd0dtN3drVURmeHNkMWdlRHlYRmZzeDRVYjlKel9B?oc=5",
+   "published": "2026-11-04T07:12:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f9edcb861eb7ac134a33e7f7a30362ae89db95f7",
+   "title": "Visa CEO Ryan McInerney sells $2.45 million in company stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1hQS2FkQ0loMGZGX0UxQ1Z1blNvR25rbVI5NUdaazVWTG5YSFJRRm5EeXNFY2doQVpsbDF0TTdKOE1yVktMa3BuOUd4ajVIS1IwNjl0aENBdWFrbWQxdkNiVVM3enViOG02c0RFakVNLS04U0pJYllnTnhPcXVRaUVIVHIyNm9OTGZoa3VxeE9vOXU4YlRwb2ZwOFA0cDgyUkFmNWpFbndFSTBseG5rTmprdnItNXRGc3Jub28xR1E?oc=5",
+   "published": "2026-11-04T04:29:24-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "02bad5d609a67cd6cc529895169a95521aca8f06",
+   "title": "Visa President, Technology Sold Shares Worth Over $14M",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:b455a1ecc70e9:0-visa-president-technology-sold-shares-worth-over-14m/",
+   "published": "2026-11-03T17:00:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3d410961a0a614f801a7493424cc1562c3f7ec1a",
+   "title": "Will Earnings Beat Change Visa Stock's Narrative",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXdZZkpGdGdZY1I2a1N1WGVJeHhEbURnRFlHZHRSS0JZNm81ajhmVTQ3SDB0YUlsS2hTWnNReDhDb0NaQ0x4RWVLbWVJMUNSb045aDFpNVhQRDZnNzhCdU9HbkFuZ0RjZFJFQVZvWUpGNkVMb2pVT3FBdnAxMFBRUHllelZGMEs4d29SOTZCbkZQVFpRSDl0VFZDZWVJUQ?oc=5",
+   "published": "2026-11-03T07:09:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4ab5d784c931eea4b3efc4d1914553c3e16644d6",
+   "title": "Visa Stocks Rise 2.4% With Higher Cantor Target Facing a Payments-Mix Test",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9162562/visa-stocks-rise-24-with-higher-cantor-target-facing-a-paymentsmix-test",
+   "published": "2026-11-02T12:22:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dd8cd0fd9f81fc992e98c108714ef1fe38168f7c",
+   "title": "Visa (V) Upgraded to Buy: Here's What You Should Know",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSnRvc3BiVWJzdF9ZWUsxa0p6eU1maWFQck5iQVVaTW5SZ1lOcXFmZjhUZi1LM01YX25LM1M1dVREYnM4T1VjMjFQVUR0bC1JUWw3WWNEVmNaOEVFbkFPT00wR0N2dUpSLUJMekVHNTl2amdhejF4QXNsN093U2lmcGx5S3Y5dlhpakxpWEllN1d3S3cw?oc=5",
+   "published": "2026-11-02T11:00:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8f95daa2949e89c9b985e227b30006efc329361c",
+   "title": "ETFs Bought $64.1 Million of Visa (V) on Oct. 29",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb2M1SHQzOWhnX2V1S2pFZFBwWkV3ckNlcW5tVWFmV0RGVlN4MFh4QUx3bUhpTWpKRVdhY0laMlpMTFJMOU9RSzdpZzVHakNXdGc4QmRaeENHMXpzbkZIWGM5UEVwaXpBTi1PMnA3eWc3dEhoMFZjaHVVbWRLX3M1MUdJLUdCdVRsZ08wWDRoS1BjWjg?oc=5",
+   "published": "2026-11-02T06:01:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "38e396a8f22f37ffa45ad1e3581694648f7df85b",
+   "title": "Weekly Recap: Q4 results beat estimates and shareholder returns hit $25.6B",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:9dfaaa73f9e1d:0-weekly-recap-q4-results-beat-estimates-and-shareholder-returns-hit-25-6b/",
+   "published": "2026-11-02T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}
