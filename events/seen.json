@@ -2796,6 +2796,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-ORCL-2026-11-15-oracle-stock-and-us-ai-data-center-winne": {
+"created": "2026-11-15T15:03:51-05:00",
+"day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"ORCL"
+]
+},
 "news-PANW-2026-11-04-binance-hack-puts-palo-alto-networks-sto": {
 "created": "2026-11-04T00:01:51-05:00",
 "day": "2026-11-04",
