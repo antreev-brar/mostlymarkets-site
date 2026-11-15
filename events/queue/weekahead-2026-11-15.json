@@ -1,0 +1,145 @@
+{
+ "id": "weekahead-2026-11-15",
+ "kind": "week-ahead",
+ "story_type": "analysis",
+ "priority": 40,
+ "created": "2026-11-15T12:01:39-05:00",
+ "expires": "2026-11-16T09:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "The Week Ahead: <the big tests for stocks>",
+ "instructions": "Day by day: the big reporters and the economic calendar.",
+ "quotes_asof": "2026-11-15T12:00:09-05:00",
+ "pack": {
+  "week": [
+   {
+    "date": "2026-11-16",
+    "reporters": [
+     {
+      "ticker": "BIDU",
+      "time": "bmo",
+      "eps_forecast": 0.57
+     },
+     {
+      "ticker": "TSN",
+      "time": "bmo",
+      "eps_forecast": 0.65
+     }
+    ]
+   },
+   {
+    "date": "2026-11-17",
+    "reporters": [
+     {
+      "ticker": "NVDA",
+      "time": "amc",
+      "eps_forecast": 2.49
+     },
+     {
+      "ticker": "HD",
+      "time": "bmo",
+      "eps_forecast": 3.87
+     },
+     {
+      "ticker": "DIS",
+      "time": "bmo",
+      "eps_forecast": 1.67
+     },
+     {
+      "ticker": "BHP",
+      "time": "unknown",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "JD",
+      "time": "bmo",
+      "eps_forecast": 0.88
+     }
+    ]
+   },
+   {
+    "date": "2026-11-18",
+    "reporters": [
+     {
+      "ticker": "PANW",
+      "time": "amc",
+      "eps_forecast": 0.52
+     },
+     {
+      "ticker": "TJX",
+      "time": "bmo",
+      "eps_forecast": 1.33
+     },
+     {
+      "ticker": "LOW",
+      "time": "bmo",
+      "eps_forecast": 2.86
+     },
+     {
+      "ticker": "TGT",
+      "time": "bmo",
+      "eps_forecast": 2.03
+     },
+     {
+      "ticker": "P",
+      "time": "amc",
+      "eps_forecast": 0.27
+     },
+     {
+      "ticker": "WSM",
+      "time": "unknown",
+      "eps_forecast": 2.17
+     }
+    ]
+   },
+   {
+    "date": "2026-11-19",
+    "reporters": [
+     {
+      "ticker": "WMT",
+      "time": "bmo",
+      "eps_forecast": 0.64
+     },
+     {
+      "ticker": "BABA",
+      "time": "bmo",
+      "eps_forecast": 1.56
+     },
+     {
+      "ticker": "PDD",
+      "time": "bmo",
+      "eps_forecast": 2.61
+     },
+     {
+      "ticker": "INTU",
+      "time": "amc",
+      "eps_forecast": 2.47
+     },
+     {
+      "ticker": "ROST",
+      "time": "amc",
+      "eps_forecast": 1.82
+     },
+     {
+      "ticker": "KEYS",
+      "time": "amc",
+      "eps_forecast": 3.09
+     },
+     {
+      "ticker": "VEEV",
+      "time": "unknown",
+      "eps_forecast": 1.68
+     },
+     {
+      "ticker": "CPRT",
+      "time": "unknown",
+      "eps_forecast": 0.41
+     }
+    ]
+   },
+   {
+    "date": "2026-11-20",
+    "reporters": []
+   }
+  ]
+ }
+}

@@ -760,6 +760,13 @@
 "theme": "high-margin",
 "tickers": []
 },
+"list-2026-11-15-2": {
+"created": "2026-11-15T12:01:39-05:00",
+"day": "2026-11-15",
+"kind": "list",
+"theme": "cash-machines",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -4666,6 +4673,12 @@
 "weekahead-2026-11-08": {
 "created": "2026-11-08T12:01:41-05:00",
 "day": "2026-11-08",
+"kind": "week-ahead",
+"tickers": []
+},
+"weekahead-2026-11-15": {
+"created": "2026-11-15T12:01:39-05:00",
+"day": "2026-11-15",
 "kind": "week-ahead",
 "tickers": []
 },
