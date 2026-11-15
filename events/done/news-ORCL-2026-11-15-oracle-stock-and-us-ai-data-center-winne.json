@@ -88,5 +88,8 @@
    "/news/2026-11-07/wall-street-is-betting-the-neoclouds-are-ais-weak-link-coreweaves-report-will-test-it/",
    "/news/2026-11-06/microsoft-msft-is-winding-down-a-deal-to-rent-ai-capacity-from-oracle-orcl/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-15T15:36:50-05:00",
+ "reason": "noise: listicle and an explainer on an existing health-data program"
 }
