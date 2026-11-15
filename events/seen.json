@@ -773,6 +773,13 @@
 "theme": "cash-machines",
 "tickers": []
 },
+"list-2026-11-15-3": {
+"created": "2026-11-15T15:01:37-05:00",
+"day": "2026-11-15",
+"kind": "list",
+"theme": "beaten-down-quality",
+"tickers": []
+},
 "macro-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -2258,6 +2265,14 @@
 "DIS"
 ]
 },
+"news-DIS-2026-11-15-netflix-disney-hbo-and-peacock-keep-rais": {
+"created": "2026-11-15T15:01:37-05:00",
+"day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"DIS"
+]
+},
 "news-GEV-2026-11-09-ge-vernova-announces-agreement-to-supply": {
 "created": "2026-11-09T05:02:01-05:00",
 "day": "2026-11-09",
@@ -2286,6 +2301,14 @@
 "kind": "news",
 "tickers": [
 "GOOGL"
+]
+},
+"news-GS-2026-11-15-goldman-sachs-2027-economic-outlook-for": {
+"created": "2026-11-15T15:01:37-05:00",
+"day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"GS"
 ]
 },
 "news-HSBC-2026-11-05-hsbc-bought-back-156-261-shares-for-gbp": {

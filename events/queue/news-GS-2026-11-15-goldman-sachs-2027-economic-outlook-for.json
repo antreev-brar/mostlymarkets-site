@@ -1,0 +1,97 @@
+{
+ "id": "news-GS-2026-11-15-goldman-sachs-2027-economic-outlook-for",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-15T15:01:37-05:00",
+ "expires": "2026-11-16T01:01:37-05:00",
+ "tickers": [
+  "GS"
+ ],
+ "headline_hint": "Goldman Sachs: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-15T15:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Goldman Sachs 2027 Economic Outlook For Investors",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNck1FYkJNZUFJUDd3RWIzVnhZN1c2Tk9wUThZbGYzSzcyb2luckVkYzlJckpPellVN0YwNWM0bXdsVmo0QTF5SENvYmM5X3pTLTgyZE45TG9CaFR3TFVZTUxGU01YZlRQUzMxeEhLLWZVN3B5anltMkM5WEFHY3k0VWlMaVNFZmZlZ3ozZjlMdjFSQUFMMm9TRQ?oc=5",
+    "published": "2026-11-15T14:26:59-05:00",
+    "also": []
+   },
+   {
+    "title": "Goldman Sachs Small Cap Growth Fund Q3 2026 Commentary",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLV8tazZ4LTktMnJnN1ROYXhVaXlVeXpXdFJ0TGJ4V3RkT1ZGT0ZlQmhva1p2ek9KYjI1T3QwUmJCTTFOaVBHSk44NFgyRVdfbFNKQXlYS1VlUG15aTZGTmlZY1A1QkJvN0lkMzJZVUVYdlhTUUV3b2JuUHJxcWtMTU9uUDFIeWRsVmRpYm44dTRsMGd1ZnM0ajdOYw?oc=5",
+    "published": "2026-11-15T13:54:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Goldman Sachs\u2019 calm 2027 forecast comes with a catch",
+    "source": "TheStreet",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VR3B4MzVMYnc1cVpFVGp3Q2lOWV9BN19qQ0lPTFhrZHVOa1hIbmwwYy1OdFYyak5nNkhSaFZVYWZiUV85TndTN3dUdndGMWd4dkZHQ0VoczdMQV9EdDVjSE1vd0JJbUpGdWZkQ2dB?oc=5",
+    "published": "2026-11-15T12:13:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 916.56,
+   "change_pct": 0.32,
+   "prev_close": 913.6,
+   "time": "2026-11-13",
+   "mktcap": "264.368B",
+   "pe": 13.18,
+   "fpe": 13.78,
+   "yr_high": 1153.99,
+   "yr_low": 754.0,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 911.5,
+    "change_pct": -0.55,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "GS",
+   "name": "Goldman Sachs",
+   "date": "2026-11-13",
+   "close": 916.56,
+   "prev_close": 913.6,
+   "change_pct": 0.32,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 215,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 1.83
+   },
+   "ytd_pct": 4.27,
+   "return_1m_pct": 2.84,
+   "return_6m_pct": -3.36,
+   "return_1y_pct": 9.25,
+   "high_52w": {
+    "close": 1152.07,
+    "date": "2026-07-15"
+   },
+   "low_52w": {
+    "close": 773.7,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 20.44,
+   "thousand_dollars_5y_ago_now": 2264,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 1266300,
+   "volume_vs_20d_avg": 0.6,
+   "sentences": [
+    "Goldman Sachs's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 1.8%.",
+    "The stock is up 4.3% this year, and at $916.56 it sits 20.4% below its 52-week closing high of $1,152.07 from 15 July 2026.",
+    "$1,000 invested in Goldman Sachs five years ago would be worth $2,264 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/wall-street-is-betting-stocks-rally-after-the-midterms-whoever-wins/"
+  ]
+ }
+}

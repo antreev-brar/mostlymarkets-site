@@ -1,0 +1,90 @@
+{
+ "id": "news-DIS-2026-11-15-netflix-disney-hbo-and-peacock-keep-rais",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-15T15:01:37-05:00",
+ "expires": "2026-11-16T01:01:37-05:00",
+ "tickers": [
+  "DIS"
+ ],
+ "headline_hint": "Walt Disney: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-15T15:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Disney's New CEO Josh D'Amaro Is Reportedly Planning Thousands of Job Cuts Ahead of Nov. 17 Earnings. Here's What It Means for a 72-Year-Old Widow With $150,000 of Disney",
+    "source": "24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOTGl1WS0yc1lFOVlkSGlNdGREbGEyMWNabnRCdFE4WXF4d3loOE9seElybHNOeElKS2tkWWQwUjhjM1cxY3pDMGQtOEFzWVhzOGI1LXFpbzJEX05ab19LUDFFU0dUNFczMUhfTHJUeC1JYW1BTUxQZXZqdUllVV92M2dZQ1llMEpGYkp3UjJEbFlyRWdYTXpGS2VsYU5fOFd0SzliQkI1Q19aalJnd2hwUjVZVWhwcHFIbmpPUEdWVnROUFN5QjR5aXVleUM4WEllM0k4YnNOY0xMM2VLZHVobFlDdkpoeXJRMGM3a2pxRU9fd3VxR3pacGhBc21XYTEwRjFmTGZSTFRYbFFta3czYm9oS3B1VlFFNW9PbFpQcmQ0ZzRPVGx4SkNFRnhtNkdH?oc=5",
+    "published": "2026-11-15T14:43:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Netflix, Disney, HBO, and Peacock keep raising streaming prices",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcWNoenZHaTE2dW4zMlN1THFlcUY5bHFNOWhEdHE2bF9CT1pDSXBsZWRvYTZWUDB4SVhaXzVPRDNuYUJHb0JrRzIyZ2UzVVhtcEtBdzMwTGEweTVUSmdCb0N1SkRJMWhZRi15QmtkU191ek40dmhUM05lME5WM2dHNHJvU1pFODhfeFE3dlNVTlRvRTdCWldkbm1kUG5fMHEy?oc=5",
+    "published": "2026-11-15T11:33:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 118.97,
+   "change_pct": 0.63,
+   "prev_close": 118.23,
+   "time": "2026-11-13",
+   "mktcap": "205.424B",
+   "pe": 24.54,
+   "fpe": 15.73,
+   "yr_high": 120.8,
+   "yr_low": 92.19,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 118.4,
+    "change_pct": -0.48,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "DIS",
+   "name": "Walt Disney",
+   "date": "2026-11-13",
+   "close": 118.97,
+   "prev_close": 118.23,
+   "change_pct": 0.63,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 156,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 2.03
+   },
+   "ytd_pct": 4.57,
+   "return_1m_pct": 7.49,
+   "return_6m_pct": 15.82,
+   "return_1y_pct": 1.99,
+   "high_52w": {
+    "close": 119.65,
+    "date": "2026-11-11"
+   },
+   "low_52w": {
+    "close": 92.42,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 0.57,
+   "thousand_dollars_5y_ago_now": 745,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 7719355,
+   "volume_vs_20d_avg": 0.99,
+   "sentences": [
+    "Walt Disney's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 2.0%.",
+    "The stock is up 4.6% this year, and at $118.97 it sits 0.6% below its 52-week closing high of $119.65 from 11 November 2026.",
+    "$1,000 invested in Walt Disney five years ago would be worth $745 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-03/disney-dis-plans-thousands-of-job-cuts-with-a-20-savings-target/"
+  ]
+ }
+}
