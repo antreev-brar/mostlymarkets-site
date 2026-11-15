@@ -1,0 +1,90 @@
+{
+ "id": "news-T-2026-11-15-at-t-s-new-settlement-payout-could-net-y",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-15T14:01:40-05:00",
+ "expires": "2026-11-16T00:01:40-05:00",
+ "tickers": [
+  "T"
+ ],
+ "headline_hint": "AT&T: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-15T14:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "FAA Chief Warns System 'Will Continue to Break.' AT&T, Verizon, and Lumen Could Be Big Winners",
+    "source": "24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemVVWklnMjBhUnRXUTRhcmRscXhkcDNMdmlYVGpjS1FHVm5KMkxlVXlodHhkUmNLMkxtZllvdmU0SklWM1YyN0hTMFpDT3QyYjZmY2Ywc2ZyMm8tZk84YXU0cGF5Z0V6WjRaQXNRYWhpS3dpMWZLZ1JRWUZXQ2ZnSTlfRmNOalE0aGdmdUFSMXRYaWtrX3F3SHNjOFh1YmMxRncxVmdVMHVLMThWYkN0TDlYcTdHOWdDN1Y5bmtmYjc0dEhac3dNN21JVko?oc=5",
+    "published": "2026-11-15T12:41:00-05:00",
+    "also": []
+   },
+   {
+    "title": "AT&T's New Settlement Payout Could Net You $5,000 \u2014 Here's How",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWJFaHFlQVNKbE1iTWZuVDB5WUtqcmU3clVZMGx1d1hIbHZrVloxYkdMZTFWazNQSE0wZGlaYmVGSXN4TXFSN2FjWm04cFNabEUwOU8tdkF5SXNNeVNCcWlnajRiVGt4Z0pIczdSQm1WSHZmU3Q3dXBZWnhRWU5kMkZSOHlac2YzRW00bHJIZWNtdFBDVnlmdENfVQ?oc=5",
+    "published": "2026-11-15T12:00:43-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 22.18,
+   "change_pct": 0.0,
+   "prev_close": 22.18,
+   "time": "2026-11-13",
+   "mktcap": "149.415B",
+   "pe": 11.9,
+   "fpe": 9.1,
+   "yr_high": 29.44,
+   "yr_low": 19.89,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 22.16,
+    "change_pct": -0.09,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "T",
+   "name": "AT&T",
+   "date": "2026-11-13",
+   "close": 22.18,
+   "prev_close": 22.18,
+   "change_pct": 0.0,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 248,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 1.46
+   },
+   "ytd_pct": -10.71,
+   "return_1m_pct": -5.62,
+   "return_6m_pct": -7.7,
+   "return_1y_pct": -13.53,
+   "high_52w": {
+    "close": 29.1,
+    "date": "2026-03-27"
+   },
+   "low_52w": {
+    "close": 20.48,
+    "date": "2026-07-01"
+   },
+   "pct_below_52w_high": 23.78,
+   "thousand_dollars_5y_ago_now": 1137,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 50508320,
+   "volume_vs_20d_avg": 1.0,
+   "sentences": [
+    "AT&T's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 1.5%.",
+    "The stock is down 10.7% this year, and at $22.18 it sits 23.8% below its 52-week closing high of $29.10 from 27 March 2026.",
+    "$1,000 invested in AT&T five years ago would be worth $1,137 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-23/att-t-shares-slide-after-report-spacex-is-seeking-80000-cell-sites/"
+  ]
+ }
+}
