@@ -427,6 +427,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-16": {
+"created": "2026-11-16T05:02:04-05:00",
+"day": "2026-11-16",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-29": {
 "created": "2026-10-29T17:11:47-04:00",
 "day": "2026-10-29",
@@ -3116,6 +3122,14 @@
 "news-TSM-2026-11-15-what-tsmc-doubters-got-wrong": {
 "created": "2026-11-15T16:01:43-05:00",
 "day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"TSM"
+]
+},
+"news-TSM-2026-11-16-nvidia-stock-shock-has-investors-looking": {
+"created": "2026-11-16T05:02:04-05:00",
+"day": "2026-11-16",
 "kind": "news",
 "tickers": [
 "TSM"

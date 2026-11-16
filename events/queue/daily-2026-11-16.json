@@ -1,0 +1,625 @@
+{
+ "id": "daily-2026-11-16",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-16T05:02:04-05:00",
+ "expires": "2026-11-16T10:30:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the week's big test>",
+ "instructions": "The Monday edition. Weekend news that moves stocks today, then the thread: 6 to 8 takes on what this week will decide (the big reporters, the data, the Fed), each with one chart or stat block. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-16T05:00:07-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7561.67,
+    "change": -30.73,
+    "change_pct": -0.4,
+    "prev_close": 7561.67,
+    "open": 7616.85,
+    "high": 7621.78,
+    "low": 7499.4,
+    "volume": 0,
+    "time": "2026-11-13",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 25136.273,
+    "change": -229.82,
+    "change_pct": -0.91,
+    "prev_close": 25136.273,
+    "open": 25408.001,
+    "high": 25423.089,
+    "low": 24872.408,
+    "volume": 0,
+    "time": "2026-11-13",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 52347.55,
+    "change": 50.46,
+    "change_pct": 0.1,
+    "prev_close": 52347.55,
+    "open": 52490.68,
+    "high": 52521.48,
+    "low": 52017.86,
+    "volume": 645244111,
+    "time": "2026-11-13",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2790.489,
+    "change": -8.571,
+    "change_pct": -0.31,
+    "prev_close": 2790.489,
+    "open": 2805.902,
+    "high": 2805.902,
+    "low": 2763.717,
+    "volume": 0,
+    "time": "2026-11-13",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 19.99,
+    "change": 0.69,
+    "change_pct": 3.58,
+    "prev_close": 19.3,
+    "open": 20.0,
+    "high": 20.16,
+    "low": 19.84,
+    "volume": 0,
+    "time": "2026-11-16T05:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 5.133,
+    "change": -0.02,
+    "change_pct": -0.3881,
+    "prev_close": 5.153,
+    "open": 5.166,
+    "high": 5.166,
+    "low": 5.129,
+    "volume": 0,
+    "time": "2026-11-16T04:59:02.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.853,
+    "change": -0.021,
+    "change_pct": 0.043,
+    "prev_close": 4.874,
+    "open": 4.863,
+    "high": 4.887,
+    "low": 4.848,
+    "volume": 0,
+    "time": "2026-11-16T04:59:20.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 88.31,
+    "change": -0.25,
+    "change_pct": -0.28,
+    "prev_close": 88.56,
+    "open": 88.65,
+    "high": 89.49,
+    "low": 87.59,
+    "volume": 33672,
+    "time": "2026-11-16T04:50:04.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 95.26,
+    "change": -0.58,
+    "change_pct": -0.61,
+    "prev_close": 95.84,
+    "open": 95.84,
+    "high": 96.77,
+    "low": 94.32,
+    "volume": 64368,
+    "time": "2026-11-16T10:50:03.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3857.9,
+    "change": -28.4,
+    "change_pct": -0.73,
+    "prev_close": 3886.3,
+    "open": 3869.7,
+    "high": 3904.3,
+    "low": 3835.2,
+    "volume": 70132,
+    "time": "2026-11-16T04:50:03.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3835.2,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 64282.88,
+    "change": -688.73,
+    "change_pct": -1.06,
+    "prev_close": 64971.61,
+    "open": 65093.07,
+    "high": 65463.04,
+    "low": 64065.72,
+    "volume": 0,
+    "time": "2026-11-16T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 104004.31,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 103.505,
+    "change": 0.093,
+    "change_pct": 0.09,
+    "prev_close": 103.412,
+    "open": 103.411,
+    "high": 103.533,
+    "low": 103.331,
+    "volume": 0,
+    "time": "2026-11-16T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 103.53,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-11-13",
+  "moves": [
+   {
+    "ticker": "NU",
+    "name": "Nu Holdings",
+    "close": 13.22,
+    "change_pct": 11.75,
+    "our_stories": [
+     "/news/2026-11-14/3-stocks-we-like-after-their-earnings-and-1-wed-skip-cisco-applied-materials-nu-nebius/",
+     "/news/2026-11-13/stock-market-today-chipmakers-give-back-their-nvidia-windfall-as-yields-climb/",
+     "/news/2026-11-13/nu-holdings-nu-q3-profit-hits-a-record-1-1-billion-as-it-adds-3-7-million-customers/"
+    ]
+   },
+   {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "close": 115.88,
+    "change_pct": -9.92,
+    "our_stories": [
+     "/news/2026-11-14/3-stocks-we-like-after-their-earnings-and-1-wed-skip-cisco-applied-materials-nu-nebius/",
+     "/news/2026-11-13/why-coreweave-crwv-stock-fell-after-nvidias-ceo-resigned/",
+     "/news/2026-11-13/wall-street-is-betting-nvidias-loss-is-amd-and-broadcoms-gain-tuesday-will-test-it/"
+    ]
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "close": 534.06,
+    "change_pct": -8.75,
+    "our_stories": [
+     "/news/2026-11-15/wall-street-is-betting-anthropics-ipo-can-rescue-the-ai-trade-3-numbers-will-decide-it/",
+     "/daily/2026-11-15/",
+     "/daily/2026-11-14/"
+    ]
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "close": 344.53,
+    "change_pct": -7.18,
+    "our_stories": [
+     "/news/2026-11-13/amd-broadcom-and-credo-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "close": 28.88,
+    "change_pct": -6.42,
+    "our_stories": [
+     "/news/2026-11-13/ionq-ionq-replaces-its-finance-chief-with-commvaults-gary-merrill/"
+    ]
+   },
+   {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "close": 95.64,
+    "change_pct": -6.24,
+    "our_stories": [
+     "/daily/2026-11-14/",
+     "/news/2026-11-14/3-stocks-we-like-after-their-earnings-and-1-wed-skip-cisco-applied-materials-nu-nebius/",
+     "/news/2026-11-13/stock-market-today-chipmakers-give-back-their-nvidia-windfall-as-yields-climb/"
+    ]
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "close": 53.13,
+    "change_pct": -6.13,
+    "our_stories": [
+     "/daily/2026-11-14/",
+     "/news/2026-11-13/why-coreweave-crwv-stock-fell-after-nvidias-ceo-resigned/",
+     "/news/2026-11-13/wall-street-is-betting-nvidias-loss-is-amd-and-broadcoms-gain-tuesday-will-test-it/"
+    ]
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "close": 218.15,
+    "change_pct": -6.0,
+    "our_stories": [
+     "/news/2026-11-13/amd-broadcom-and-credo-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 131.51,
+    "change_pct": -5.94,
+    "our_stories": [
+     "/news/2026-11-13/amd-broadcom-and-credo-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "close": 71.6,
+    "change_pct": -5.65,
+    "our_stories": []
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 885.01,
+    "change_pct": -5.59,
+    "our_stories": []
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "close": 32.6,
+    "change_pct": -5.51,
+    "our_stories": []
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "2 High-Margin Stocks We Like and 1 We'd Skip: Adobe, Autodesk and Arm",
+    "path": "/news/2026-11-15/2-high-margin-stocks-we-like-and-1-wed-skip-adobe-autodesk-and-arm/",
+    "type": "list",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "3 Beaten-Down Quality Stocks We Like and 1 We'd Skip: Intuit, Vertiv, Comfort Systems and Oracle",
+    "path": "/news/2026-11-15/3-beaten-down-quality-stocks-we-like-and-1-wed-skip-intuit-vertiv-comfort-systems-oracle/",
+    "type": "list",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "3 Cash Machine Stocks We'd Skip and 1 We Like: Crown Castle, Capital One, ICE and Visa",
+    "path": "/news/2026-11-15/3-cash-machine-stocks-wed-skip-and-1-we-like-crown-castle-capital-one-ice-and-visa/",
+    "type": "list",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Amazon (AMZN) Spends All Its Cash on AI. Is the Business Still Strong?",
+    "path": "/news/2026-11-15/amazon-amzn-spends-all-its-cash-on-ai-is-the-business-still-strong/",
+    "type": "breakdown",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Berkshire Hathaway (BRK.B) Is Up 19% Since October. Is the Business Worth the Price?",
+    "path": "/news/2026-11-15/berkshire-hathaway-brk-b-is-up-19-since-october-is-the-business-worth-the-price/",
+    "type": "breakdown",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Bessent Says Nvidia (NVDA) Should Hire an Outside CEO After Huang",
+    "path": "/news/2026-11-15/bessent-says-nvidia-nvda-should-hire-an-outside-ceo-after-huang/",
+    "type": "brief",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Bulls vs Bears on Gold: Can It Rally While the Fed Is Still Hiking?",
+    "path": "/news/2026-11-15/bulls-vs-bears-on-gold-can-it-rally-while-the-fed-is-still-hiking/",
+    "type": "viewpoints",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Jensen Huang Has Discussed a Return as Nvidia (NVDA) CEO, FT Reports",
+    "path": "/news/2026-11-15/jensen-huang-has-discussed-a-return-as-nvidia-nvda-ceo-ft-reports/",
+    "type": "brief",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Johnson & Johnson (JNJ) Is in Talks to Buy Eye-Drug Developer Ollin for Up to $3.4 Billion",
+    "path": "/news/2026-11-15/johnson-johnson-jnj-is-in-talks-to-buy-eye-drug-developer-ollin-for-up-to-3-4-billion/",
+    "type": "brief",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Musk Says Nvidia (NVDA) Will Lose 'Critical' Deals Without Jensen Huang",
+    "path": "/news/2026-11-15/musk-says-nvidia-nvda-will-lose-critical-deals-without-jensen-huang/",
+    "type": "brief",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Nvidia's First Report Without Huang and Anthropic's IPO Will Test the AI Trade This Week",
+    "path": "/daily/2026-11-15/",
+    "type": "daily",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "type": "analysis",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "ULA Rocket Fails and Destroys 40 Amazon (AMZN) Leo Internet Satellites",
+    "path": "/news/2026-11-15/ula-rocket-fails-and-destroys-40-amazon-amzn-leo-internet-satellites/",
+    "type": "brief",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Wall Street Is Betting Anthropic's IPO Can Rescue the AI Trade. 3 Numbers Will Decide It",
+    "path": "/news/2026-11-15/wall-street-is-betting-anthropics-ipo-can-rescue-the-ai-trade-3-numbers-will-decide-it/",
+    "type": "narrative",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "2 Dividend Stocks We Like and 1 We'd Skip: Altria, Comcast and UPS",
+    "path": "/news/2026-11-14/2-dividend-stocks-we-like-and-1-wed-skip-altria-comcast-and-ups/",
+    "type": "list",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "3 Momentum Stocks We'd Skip and 1 We Like: Charles River, Best Buy, Snowflake and FactSet",
+    "path": "/news/2026-11-14/3-momentum-stocks-wed-skip-and-1-we-like-charles-river-best-buy-snowflake-factset/",
+    "type": "list",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "3 Stocks We Like After Their Earnings and 1 We'd Skip: Cisco, Applied Materials, Nu and Nebius",
+    "path": "/news/2026-11-14/3-stocks-we-like-after-their-earnings-and-1-wed-skip-cisco-applied-materials-nu-nebius/",
+    "type": "list",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Bulls vs Bears on Apple (AAPL): Is Safety Worth 40 Times Earnings?",
+    "path": "/news/2026-11-14/bulls-vs-bears-on-apple-aapl-is-safety-worth-40-times-earnings/",
+    "type": "viewpoints",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Eli Lilly (LLY) Says Its EloraTZP Combination Cut Weight 23.3% in a Phase 2 Trial",
+    "path": "/news/2026-11-14/eli-lilly-lly-says-its-eloratzp-combination-cut-weight-23-3-in-a-phase-2-trial/",
+    "type": "brief",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Italy Fines Meta (META) $887 Million Over Access to Android Users' Photos",
+    "path": "/news/2026-11-14/italy-fines-meta-meta-887-million-over-access-to-android-users-photos/",
+    "type": "brief",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Novo Nordisk (NVO) Says Lower CagriSema Doses Cut Weight About 21% in a Phase 3 Trial",
+    "path": "/news/2026-11-14/novo-nordisk-nvo-says-lower-cagrisema-doses-cut-weight-about-21-in-a-phase-3-trial/",
+    "type": "brief",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Nvidia Ended the Week at a 52-Week Low, and the S&P 500 Rose 2.5% Anyway",
+    "path": "/daily/2026-11-14/",
+    "type": "daily",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Tesla (TSLA) Opens Cybercab Sales to Select Buyers at $29,990",
+    "path": "/news/2026-11-14/tesla-tsla-opens-cybercab-sales-to-select-buyers-at-29-990/",
+    "type": "brief",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Transportation Secretary Ties Friday's Flight Halt to an L3Harris (LHX) System Update",
+    "path": "/news/2026-11-14/transportation-secretary-ties-fridays-flight-halt-to-an-l3harris-lhx-system-update/",
+    "type": "brief",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "TSMC (TSM) Is 18% Below Its High After the Chip Rout. Is the Business Broken?",
+    "path": "/news/2026-11-14/tsmc-tsm-is-18-below-its-high-after-the-chip-rout-is-the-business-broken/",
+    "type": "breakdown",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Two Nvidia (NVDA) Investors Ask Its Board to Keep Jensen Huang's Return on the Table",
+    "path": "/news/2026-11-14/two-nvidia-nvda-investors-ask-its-board-to-keep-jensen-huangs-return-on-the-table/",
+    "type": "brief",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Wall Street Is Betting Stocks Can Ride Out More Fed Hikes. 3 Numbers Will Decide It",
+    "path": "/news/2026-11-14/wall-street-is-betting-stocks-can-ride-out-more-fed-hikes-3-numbers-will-decide-it/",
+    "type": "narrative",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "Walmart (WMT) Reports Thursday at 46 Times Earnings. Is the Business Worth It?",
+    "path": "/news/2026-11-14/walmart-wmt-reports-thursday-at-46-times-earnings-is-the-business-worth-it/",
+    "type": "breakdown",
+    "date": "2026-11-14"
+   },
+   {
+    "title": "2 Value Stocks We Like and 1 We'd Skip: EOG, Synchrony and Global Payments",
+    "path": "/news/2026-11-13/2-value-stocks-we-like-and-1-wed-skip-eog-synchrony-and-global-payments/",
+    "type": "list",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "3 Compounder Stocks We Like and 1 We'd Skip: AppLovin, Meta, Monolithic Power and Teradyne",
+    "path": "/news/2026-11-13/3-compounder-stocks-we-like-and-1-wed-skip-applovin-meta-monolithic-power-teradyne/",
+    "type": "list",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "3 Fast-Grower Stocks We Like and 1 We'd Skip: Celestica, Bloom Energy, Talen and CoreWeave",
+    "path": "/news/2026-11-13/3-fast-grower-stocks-we-like-and-1-wed-skip-celestica-bloom-energy-talen-and-coreweave/",
+    "type": "list",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "3 Stocks We'd Skip After Their Earnings and 1 We Like: Vistra",
+    "path": "/news/2026-11-13/3-stocks-wed-skip-after-their-earnings-and-1-we-like-vistra/",
+    "type": "list",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "Alibaba (BABA) Shares Slide on Fears Over Its Access to Nvidia Chips",
+    "path": "/news/2026-11-13/alibaba-baba-shares-slide-on-fears-over-its-access-to-nvidia-chips/",
+    "type": "why-it-moved",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "AMD, Broadcom and Credo Shares Slide: What Happened",
+    "path": "/news/2026-11-13/amd-broadcom-and-credo-shares-slide-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "Applied Materials (AMAT) Tops Q4 Estimates as Memory Chipmakers Spend More",
+    "path": "/news/2026-11-13/applied-materials-amat-tops-q4-estimates-as-memory-chipmakers-spend-more/",
+    "type": "earnings-recap",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "Broadcom (AVGO) and AMD Shares Jump After Nvidia's CEO Resigns",
+    "path": "/news/2026-11-13/broadcom-avgo-and-amd-shares-jump-after-nvidias-ceo-resigns/",
+    "type": "why-it-moved",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "Broadcom (AVGO) Sells 86% More but Keeps Less of Each Dollar. Is the Business Still Strong?",
+    "path": "/news/2026-11-13/broadcom-avgo-sells-86-more-but-keeps-less-of-each-dollar-is-the-business-still-strong/",
+    "type": "breakdown",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "Bulls vs Bears on Nvidia (NVDA): Is 13 Times Earnings Cheap Without Jensen Huang?",
+    "path": "/news/2026-11-13/bulls-vs-bears-on-nvidia-nvda-is-13-times-earnings-cheap-without-jensen-huang/",
+    "type": "viewpoints",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "Cisco (CSCO) Beats and Raises as Networking Sales Jump 43%, but Margins Slip",
+    "path": "/news/2026-11-13/cisco-csco-beats-and-raises-as-ai-networking-sales-jump-43-but-margins-slip/",
+    "type": "earnings-recap",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "FAA Grounds Every US Flight for Hours, and United (UAL) and Delta (DAL) Slip After Hours",
+    "path": "/news/2026-11-13/faa-grounds-every-us-flight-for-hours-and-airline-stocks-slide-after-hours/",
+    "type": "brief",
+    "date": "2026-11-13"
+   }
+  ],
+  "reporting_today": [
+   {
+    "ticker": "BIDU",
+    "time": "bmo",
+    "eps_forecast": 0.57
+   },
+   {
+    "ticker": "TSN",
+    "time": "bmo",
+    "eps_forecast": 0.65
+   }
+  ]
+ }
+}
