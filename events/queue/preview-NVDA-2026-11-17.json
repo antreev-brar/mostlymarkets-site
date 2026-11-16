@@ -1,0 +1,147 @@
+{
+ "id": "preview-NVDA-2026-11-17",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-16T17:30:20-05:00",
+ "expires": "2026-11-17T15:30:00-05:00",
+ "tickers": [
+  "NVDA"
+ ],
+ "headline_hint": "What to expect from Nvidia's (NVDA) earnings",
+ "instructions": "Reports Tuesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-16T17:30:13-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.49,
+   "n_estimates": 14,
+   "eps_last_year": 1.24,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 3924684960000.0
+  },
+  "report_date": "2026-11-17",
+  "quote": {
+   "price": 156.14,
+   "change_pct": -4.12,
+   "prev_close": 162.85,
+   "time": "2026-11-16T16:00:00.000-0500",
+   "mktcap": "3.763T",
+   "pe": 19.74,
+   "fpe": 12.94,
+   "yr_high": 243.37,
+   "yr_low": 148.8,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 156.4,
+    "change_pct": 0.17,
+    "time": "2026-11-16T17:30:06.161-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "date": "2026-11-16",
+   "close": 156.14,
+   "prev_close": 162.85,
+   "change_pct": -4.12,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 24,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -4.34
+   },
+   "ytd_pct": -16.28,
+   "return_1m_pct": -27.08,
+   "return_6m_pct": -29.77,
+   "return_1y_pct": -16.44,
+   "high_52w": {
+    "close": 239.24,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 156.14,
+    "date": "2026-11-16"
+   },
+   "pct_below_52w_high": 34.73,
+   "thousand_dollars_5y_ago_now": 5170,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 284990560,
+   "volume_vs_20d_avg": 1.36,
+   "sentences": [
+    "Nvidia's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 4.3%.",
+    "The stock is down 16.3% this year, and at $156.14 it sits 34.7% below its 52-week closing high of $239.24 from 6 October 2026.",
+    "$1,000 invested in Nvidia five years ago would be worth $5,170 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-16/why-dell-technologies-dell-stock-is-falling-today/",
+    "date": "2026-11-16",
+    "title": "Why Dell Technologies (DELL) Stock Is Falling Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "SMCI",
+     "HPE",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/wall-street-is-betting-ais-1-trillion-money-loop-breaks-at-the-neoclouds-nvidias-report-will-test-it/",
+    "date": "2026-11-16",
+    "title": "Wall Street Is Betting AI's $1 Trillion Money Loop Breaks at the Neoclouds. Nvidia Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "META"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/us-moves-to-cut-off-chinas-remote-access-to-nvidia-nvda-chips-abroad/",
+    "date": "2026-11-16",
+    "title": "US Moves to Cut Off China's Remote Access to Nvidia (NVDA) Chips Abroad",
+    "type": "brief",
+    "tickers": [
+     "NVDA",
+     "AMD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/trump-says-he-wouldnt-mind-jensen-huang-returning-as-nvidia-nvda-ceo/",
+    "date": "2026-11-16",
+    "title": "Trump Says He Wouldn't Mind Jensen Huang Returning as Nvidia (NVDA) CEO",
+    "type": "brief",
+    "tickers": [
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/teradyne-lam-research-and-asml-shares-slide-what-happened/",
+    "date": "2026-11-16",
+    "title": "Teradyne, Lam Research and ASML Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "TER",
+     "LRCX",
+     "ASML",
+     "KLAC",
+     "AMAT",
+     "NVDA"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

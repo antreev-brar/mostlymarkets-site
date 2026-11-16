@@ -1,0 +1,87 @@
+{
+ "id": "preview-BHP-2026-11-17",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-16T17:30:20-05:00",
+ "expires": "2026-11-17T15:30:00-05:00",
+ "tickers": [
+  "BHP"
+ ],
+ "headline_hint": "What to expect from BHP Group's (BHP) earnings",
+ "instructions": "Reports Tuesday . Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-16T17:30:13-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "BHP",
+   "name": "BHP Group Limited",
+   "time": "unknown",
+   "quarter": "Sep/2026",
+   "eps_forecast": null,
+   "n_estimates": 1,
+   "eps_last_year": null,
+   "last_year_date": "N/A",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 202457072000.0
+  },
+  "report_date": "2026-11-17",
+  "quote": {
+   "price": 75.55,
+   "change_pct": -4.96,
+   "prev_close": 79.49,
+   "time": "2026-11-16T16:10:00.000-0500",
+   "mktcap": "192.055B",
+   "pe": 19.55,
+   "fpe": null,
+   "yr_high": 98.71,
+   "yr_low": 52.18,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 75.8,
+    "change_pct": 0.33,
+    "time": "2026-11-16T17:29:57.541-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BHP",
+   "name": "BHP Group",
+   "date": "2026-11-16",
+   "close": 75.55,
+   "prev_close": 79.49,
+   "change_pct": -4.96,
+   "moves_over_5pct_last_year": 8,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 10,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-10",
+    "change_pct": -5.31
+   },
+   "ytd_pct": 25.14,
+   "return_1m_pct": -9.29,
+   "return_6m_pct": -10.08,
+   "return_1y_pct": 35.03,
+   "high_52w": {
+    "close": 98.69,
+    "date": "2026-08-25"
+   },
+   "low_52w": {
+    "close": 52.58,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 23.45,
+   "thousand_dollars_5y_ago_now": 1545,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 3956777,
+   "volume_vs_20d_avg": 1.25,
+   "sentences": [
+    "BHP Group's shares moved 5% or more on 8 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 September 2026, when the stock fell 5.3%.",
+    "The stock is up 25.1% this year, and at $75.55 it sits 23.4% below its 52-week closing high of $98.69 from 25 August 2026.",
+    "$1,000 invested in BHP Group five years ago would be worth $1,545 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

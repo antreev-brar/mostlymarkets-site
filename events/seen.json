@@ -3395,6 +3395,14 @@
 "ARM"
 ]
 },
+"preview-BHP-2026-11-17": {
+"created": "2026-11-16T17:30:20-05:00",
+"day": "2026-11-16",
+"kind": "earnings-preview",
+"tickers": [
+"BHP"
+]
+},
 "preview-BKNG-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -3435,6 +3443,14 @@
 "CSCO"
 ]
 },
+"preview-DIS-2026-11-17": {
+"created": "2026-11-16T17:30:20-05:00",
+"day": "2026-11-16",
+"kind": "earnings-preview",
+"tickers": [
+"DIS"
+]
+},
 "preview-ETN-2026-11-03": {
 "created": "2026-11-02T17:30:15-05:00",
 "day": "2026-11-02",
@@ -3459,6 +3475,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "FERG"
+]
+},
+"preview-HD-2026-11-17": {
+"created": "2026-11-16T17:30:20-05:00",
+"day": "2026-11-16",
+"kind": "earnings-preview",
+"tickers": [
+"HD"
 ]
 },
 "preview-HUM-2026-11-06": {
@@ -3528,6 +3552,14 @@
 "kind": "earnings-preview",
 "tickers": [
 "NU"
+]
+},
+"preview-NVDA-2026-11-17": {
+"created": "2026-11-16T17:30:20-05:00",
+"day": "2026-11-16",
+"kind": "earnings-preview",
+"tickers": [
+"NVDA"
 ]
 },
 "preview-O-2026-11-02": {
