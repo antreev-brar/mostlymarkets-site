@@ -1,0 +1,147 @@
+{
+ "id": "basket-semiconductors-down-2026-11-16",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-16T10:01:09-05:00",
+ "expires": "2026-11-16T23:59:00-05:00",
+ "tickers": [
+  "CRDO",
+  "MRVL",
+  "MPWR",
+  "ALAB",
+  "MU"
+ ],
+ "headline_hint": "CRDO, MRVL, MPWR shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-16T10:00:09-05:00",
+ "pack": {
+  "industry": "Semiconductors",
+  "quotes": {
+   "CRDO": {
+    "price": 121.65,
+    "change_pct": -7.5,
+    "prev_close": 131.51,
+    "time": "2026-11-16T10:00:02.514-0500",
+    "mktcap": "22.864B",
+    "pe": 43.44,
+    "fpe": 16.64,
+    "yr_high": 308.67,
+    "yr_low": 86.49,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 122.9,
+     "change_pct": -6.55,
+     "time": "2026-11-16T09:28:00.024-0500"
+    }
+   },
+   "MRVL": {
+    "price": 145.31,
+    "change_pct": -7.3,
+    "prev_close": 156.76,
+    "time": "2026-11-16T10:00:05.315-0500",
+    "mktcap": "127.58B",
+    "pe": 47.96,
+    "fpe": 25.81,
+    "yr_high": 329.88,
+    "yr_low": 70.69,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 147.86,
+     "change_pct": -5.68,
+     "time": "2026-11-16T09:30:00.223-0500"
+    }
+   },
+   "MPWR": {
+    "price": 1302.05,
+    "change_pct": -6.36,
+    "prev_close": 1390.54,
+    "time": "2026-11-16T10:00:04.708-0500",
+    "mktcap": "63.498B",
+    "pe": 71.42,
+    "fpe": 34.08,
+    "yr_high": 1714.09,
+    "yr_low": 833.18,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 1320.6,
+     "change_pct": -5.03,
+     "time": "2026-11-16T09:30:01.055-0500"
+    }
+   },
+   "ALAB": {
+    "price": 207.75,
+    "change_pct": -6.35,
+    "prev_close": 221.83,
+    "time": "2026-11-16T09:59:59.227-0500",
+    "mktcap": "36.311B",
+    "pe": 82.43,
+    "fpe": 33.34,
+    "yr_high": 499.48,
+    "yr_low": 97.89,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 208.44,
+     "change_pct": -6.04,
+     "time": "2026-11-16T09:30:01.028-0500"
+    }
+   },
+   "MU": {
+    "price": 729.31,
+    "change_pct": -6.3,
+    "prev_close": 778.31,
+    "time": "2026-11-16T10:00:05.815-0500",
+    "mktcap": "825.158B",
+    "pe": 9.82,
+    "fpe": 4.15,
+    "yr_high": 1255.0,
+    "yr_low": 192.59,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 734.59,
+     "change_pct": -5.62,
+     "time": "2026-11-16T09:30:01.122-0500"
+    }
+   }
+  },
+  "facts": {
+   "CRDO": {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "date": "2026-11-13",
+    "close": 131.51,
+    "prev_close": 139.81,
+    "change_pct": -5.94,
+    "moves_over_5pct_last_year": 107,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 85,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-05",
+     "change_pct": -17.71
+    },
+    "ytd_pct": -8.6,
+    "return_1m_pct": -26.32,
+    "return_6m_pct": -23.62,
+    "return_1y_pct": -17.98,
+    "high_52w": {
+     "close": 302.52,
+     "date": "2026-06-22"
+    },
+    "low_52w": {
+     "close": 87.81,
+     "date": "2026-03-30"
+    },
+    "pct_below_52w_high": 56.53,
+    "thousand_dollars_5y_ago_now": null,
+    "five_years_ago_date": null,
+    "volume": 6554276,
+    "volume_vs_20d_avg": 0.77,
+    "sentences": [
+     "Credo Technology's shares moved 5% or more on 107 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 17.7%.",
+     "The stock is down 8.6% this year, and at $131.51 it sits 56.5% below its 52-week closing high of $302.52 from 22 June 2026."
+    ]
+   }
+  }
+ }
+}

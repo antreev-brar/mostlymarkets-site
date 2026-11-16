@@ -1,0 +1,107 @@
+{
+ "id": "move-ASML-2026-11-16",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 71,
+ "created": "2026-11-16T10:01:09-05:00",
+ "expires": "2026-11-17T12:00:00-05:00",
+ "tickers": [
+  "ASML"
+ ],
+ "headline_hint": "Why ASML (ASML) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-16T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 1429.0,
+   "change_pct": -4.42,
+   "prev_close": 1495.16,
+   "time": "2026-11-16T10:00:00.888-0500",
+   "mktcap": "554.663B",
+   "pe": 36.83,
+   "fpe": 24.59,
+   "yr_high": 1999.96,
+   "yr_low": 946.11,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 1437.31,
+    "change_pct": -3.87,
+    "time": "2026-11-16T09:30:00.320-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ASML",
+   "name": "ASML",
+   "date": "2026-11-13",
+   "close": 1495.16,
+   "prev_close": 1497.12,
+   "change_pct": -0.13,
+   "moves_over_5pct_last_year": 27,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 243,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -2.43
+   },
+   "ytd_pct": 39.75,
+   "return_1m_pct": -9.79,
+   "return_6m_pct": -0.44,
+   "return_1y_pct": 44.14,
+   "high_52w": {
+    "close": 1989.44,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 966.57,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 24.85,
+   "thousand_dollars_5y_ago_now": 1756,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 1365713,
+   "volume_vs_20d_avg": 0.8,
+   "sentences": [
+    "ASML's shares moved 5% or more on 27 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 2.4%.",
+    "The stock is up 39.8% this year, and at $1,495.16 it sits 24.9% below its 52-week closing high of $1,989.44 from 30 June 2026.",
+    "$1,000 invested in ASML five years ago would be worth $1,756 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductor Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/amd-micron-and-lam-research-shares-jump-what-happened/",
+    "date": "2026-11-06",
+    "title": "AMD, Micron and Lam Research Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "MU",
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "COHR",
+     "ANET",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-10-22/lam-research-lrcx-kla-klac-and-applied-materials-amat-shares-slide-what-happened/",
+    "date": "2026-10-22",
+    "title": "Lam Research (LRCX), KLA (KLAC) and Applied Materials (AMAT) Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "NVDA"
+    ]
+   }
+  ]
+ }
+}

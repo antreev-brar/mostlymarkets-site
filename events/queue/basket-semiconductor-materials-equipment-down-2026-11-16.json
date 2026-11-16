@@ -1,0 +1,130 @@
+{
+ "id": "basket-semiconductor-materials-equipment-down-2026-11-16",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-16T10:01:09-05:00",
+ "expires": "2026-11-16T23:59:00-05:00",
+ "tickers": [
+  "TER",
+  "LRCX",
+  "KLAC",
+  "AMAT"
+ ],
+ "headline_hint": "TER, LRCX, KLAC shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-16T10:00:09-05:00",
+ "pack": {
+  "industry": "Semiconductor Materials & Equipment",
+  "quotes": {
+   "TER": {
+    "price": 233.76,
+    "change_pct": -6.33,
+    "prev_close": 249.55,
+    "time": "2026-11-16T10:00:07.144-0500",
+    "mktcap": "36.496B",
+    "pe": 26.83,
+    "fpe": 24.93,
+    "yr_high": 487.91,
+    "yr_low": 151.52,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 236.04,
+     "change_pct": -5.41,
+     "time": "2026-11-16T09:28:00.061-0500"
+    }
+   },
+   "LRCX": {
+    "price": 213.32,
+    "change_pct": -5.58,
+    "prev_close": 225.92,
+    "time": "2026-11-16T10:00:05.324-0500",
+    "mktcap": "266.473B",
+    "pe": 31.74,
+    "fpe": 22.18,
+    "yr_high": 438.5,
+    "yr_low": 135.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 214.34,
+     "change_pct": -5.13,
+     "time": "2026-11-16T09:30:00.656-0500"
+    }
+   },
+   "KLAC": {
+    "price": 144.36,
+    "change_pct": -5.08,
+    "prev_close": 152.09,
+    "time": "2026-11-16T10:00:04.187-0500",
+    "mktcap": "188.096B",
+    "pe": 36.13,
+    "fpe": 25.11,
+    "yr_high": 307.37,
+    "yr_low": 107.2,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 144.6,
+     "change_pct": -4.92,
+     "time": "2026-11-16T09:30:01.427-0500"
+    }
+   },
+   "AMAT": {
+    "price": 354.14,
+    "change_pct": -4.41,
+    "prev_close": 370.5,
+    "time": "2026-11-16T10:00:00.071-0500",
+    "mktcap": "281.047B",
+    "pe": 28.05,
+    "fpe": 19.65,
+    "yr_high": 739.67,
+    "yr_low": 215.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 349.05,
+     "change_pct": -5.79,
+     "time": "2026-11-16T09:30:00.498-0500"
+    }
+   }
+  },
+  "facts": {
+   "TER": {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "date": "2026-11-13",
+    "close": 249.55,
+    "prev_close": 263.75,
+    "change_pct": -5.38,
+    "moves_over_5pct_last_year": 68,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 59,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-05",
+     "change_pct": -15.24
+    },
+    "ytd_pct": 28.93,
+    "return_1m_pct": -27.29,
+    "return_6m_pct": -26.14,
+    "return_1y_pct": 39.2,
+    "high_52w": {
+     "close": 483.84,
+     "date": "2026-06-30"
+    },
+    "low_52w": {
+     "close": 155.9,
+     "date": "2025-11-20"
+    },
+    "pct_below_52w_high": 48.42,
+    "thousand_dollars_5y_ago_now": 1707,
+    "five_years_ago_date": "2021-11-12",
+    "volume": 3079027,
+    "volume_vs_20d_avg": 0.69,
+    "sentences": [
+     "Teradyne's shares moved 5% or more on 68 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 15.2%.",
+     "The stock is up 28.9% this year, and at $249.55 it sits 48.4% below its 52-week closing high of $483.84 from 30 June 2026.",
+     "$1,000 invested in Teradyne five years ago would be worth $1,707 today."
+    ]
+   }
+  }
+ }
+}
