@@ -1,0 +1,95 @@
+{
+ "id": "news-BLK-2026-11-16-nio-stock-hits-6-year-low-blackrock-cuts",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-16T04:30:13-05:00",
+ "expires": "2026-11-16T14:30:13-05:00",
+ "tickers": [
+  "BLK"
+ ],
+ "headline_hint": "BlackRock: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-16T04:30:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "NIO Stock Hits 6-Year Low: BlackRock Cuts Stake By 73%, But One Chinese EV Rival Saw Its Biggest Boost In 5 Years",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObzQyMlN2LUw4VUowc0hibVZ3akZRTDh4dmR6RFFEdGFzczc5MkxyU094TzZLeWN5MFFKdWRhdE9adWo3NGNpTVBISC0wUXk5djdFRWh5SzNjMXZKcjdsNGNYa0VoOFVMdEphdE1ZMTg2LVhVN1hyV0dsY3A2bFQ0aWFLUF83M0VNdmJLcU1B?oc=5",
+    "published": "2026-11-16T03:00:52-05:00",
+    "also": []
+   },
+   {
+    "title": "SLS, IBRX And IOVA Join Merck And Lilly On BlackRock\u2019s Q3 Buy List \u2014 A Vanguard Unit Adds All Of Them Too",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVDVhaWRqUEJEMkctVE9wUHJBMFNYSnhSdng5TnJoZFE5d0dYNzhILWU2eGMxcXBuUEYyZVNpNjh0Z0Zud2hoTmpuSmIzVzl3dXRUbTBPZlFJbG8ySGtOdGZ4ems3cmxYNl9pVjdMUHhoTEF0TFFHQTU0ZUtNNUQtUUgtX2xWUUdOamlad3VR?oc=5",
+    "published": "2026-11-16T02:31:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BlackRock Greater Europe Investment Trust Plc - Total Voting Rights",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSE1xOWs5MDAwVlkxbE1xSERKMWJHdDg0NjA2bmdSV005WDRSSndpLWd0MFVpZFZJQ3A0dnRBTFIwaE9QUTB4RzZEVE9tWlVZeGJ6WWdKZGhxQ2tvZVh1eDF4R0ZJOXhfRGtCdU5FU09xWlVjY05PQV8yZjk4dW4yVTQzejdtdUpjVlhBelc2NVU5X0hR?oc=5",
+    "published": "2026-11-16T02:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 1222.91,
+   "change_pct": 0.52,
+   "prev_close": 1222.91,
+   "time": "2026-11-13",
+   "mktcap": "198.148B",
+   "pe": 29.16,
+   "fpe": 20.39,
+   "yr_high": 1242.12,
+   "yr_low": 917.39,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 1219.76,
+    "change_pct": -0.26,
+    "time": "2026-11-16T04:27:45.966-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BLK",
+   "name": "BlackRock",
+   "date": "2026-11-13",
+   "close": 1222.91,
+   "prev_close": 1216.61,
+   "change_pct": 0.52,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 185,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-10",
+    "change_pct": 0.61
+   },
+   "ytd_pct": 14.25,
+   "return_1m_pct": 9.11,
+   "return_6m_pct": 13.03,
+   "return_1y_pct": 11.79,
+   "high_52w": {
+    "close": 1226.31,
+    "date": "2026-11-11"
+   },
+   "low_52w": {
+    "close": 922.9,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 0.28,
+   "thousand_dollars_5y_ago_now": 1259,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 415917,
+   "volume_vs_20d_avg": 0.59,
+   "sentences": [
+    "BlackRock's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 November 2026, when the stock rose 0.6%.",
+    "The stock is up 14.2% this year, and at $1,222.91 it sits 0.3% below its 52-week closing high of $1,226.31 from 11 November 2026.",
+    "$1,000 invested in BlackRock five years ago would be worth $1,259 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
