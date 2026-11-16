@@ -2510,6 +2510,14 @@
 "MRVL"
 ]
 },
+"news-MS-2026-11-15-morgan-stanley-max-overweight-global-sto": {
+"created": "2026-11-15T21:30:42-05:00",
+"day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"MS"
+]
+},
 "news-MSFT-2026-11-05-microsoft-rejects-multibillion-dollar-ai": {
 "created": "2026-11-05T01:01:14-05:00",
 "day": "2026-11-05",
