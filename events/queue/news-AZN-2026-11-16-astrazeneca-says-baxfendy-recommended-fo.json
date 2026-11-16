@@ -1,0 +1,118 @@
+{
+ "id": "news-AZN-2026-11-16-astrazeneca-says-baxfendy-recommended-fo",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-16T03:01:04-05:00",
+ "expires": "2026-11-16T13:01:04-05:00",
+ "tickers": [
+  "AZN"
+ ],
+ "headline_hint": "AstraZeneca: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-16T03:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Grafton revenues up 2pc on strong Iberian and Irish trading, Astrazeneca's gMG asset secures EU and US approvals",
+    "source": "ShareCast",
+    "url": "https://www.tradingview.com/news/sharecast:3c8ab0e61094b:0-grafton-revenues-up-2pc-on-strong-iberian-and-irish-trading-astrazeneca-s-gmg-asset-secures-eu-and-us-approvals/",
+    "published": "2026-11-16T02:41:25-05:00",
+    "also": []
+   },
+   {
+    "title": "Astrazeneca Says Baxfendy Recommended For Approval In The EU",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUC8MDYHK:0-astrazeneca-says-baxfendy-recommended-for-approval-in-the-eu/",
+    "published": "2026-11-16T02:40:32-05:00",
+    "also": []
+   },
+   {
+    "title": "Astrazeneca Says Imfinzi + EV Approved In US In Bladder Cancer",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUC5G015Q:0-astrazeneca-says-imfinzi-ev-approved-in-us-in-bladder-cancer/",
+    "published": "2026-11-16T02:40:15-05:00",
+    "also": []
+   },
+   {
+    "title": "AstraZeneca's Klygefa Gets U.S., E.U. Approval",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261116000842:0-astrazeneca-s-klygefa-gets-u-s-e-u-approval/",
+    "published": "2026-11-16T02:34:00-05:00",
+    "also": []
+   },
+   {
+    "title": "AstraZeneca Announces Klygefa Approved In The EU",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUCMPTYM:0-astrazeneca-announces-klygefa-approved-in-the-eu/",
+    "published": "2026-11-16T02:17:43-05:00",
+    "also": []
+   },
+   {
+    "title": "Weekly Recap: Q3 growth and guidance upheld and IMFINZI cuts VOLGA risks",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:1a0f179ffd615:0-weekly-recap-q3-growth-and-guidance-upheld-and-imfinzi-cuts-volga-risks/",
+    "published": "2026-11-16T00:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 184.45,
+   "change_pct": 0.04,
+   "prev_close": 184.45,
+   "time": "2026-11-12",
+   "mktcap": "286.094B",
+   "pe": 25.9,
+   "fpe": 17.7,
+   "yr_high": 212.71,
+   "yr_low": 153.41,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 185.06,
+    "change_pct": 0.33,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "AZN",
+   "name": "AstraZeneca",
+   "date": "2026-11-13",
+   "close": 184.45,
+   "prev_close": 184.38,
+   "change_pct": 0.04,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 243,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 1.59
+   },
+   "ytd_pct": 5.1,
+   "return_1m_pct": 10.66,
+   "return_6m_pct": 1.58,
+   "return_1y_pct": 5.0,
+   "high_52w": {
+    "close": 209.48,
+    "date": "2026-02-17"
+   },
+   "low_52w": {
+    "close": 155.62,
+    "date": "2026-08-04"
+   },
+   "pct_below_52w_high": 11.95,
+   "thousand_dollars_5y_ago_now": 1558,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 1850947,
+   "volume_vs_20d_avg": 0.6,
+   "sentences": [
+    "AstraZeneca's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 1.6%.",
+    "The stock is up 5.1% this year, and at $184.45 it sits 11.9% below its 52-week closing high of $209.48 from 17 February 2026.",
+    "$1,000 invested in AstraZeneca five years ago would be worth $1,558 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-01/astrazeneca-azn-tops-q3-estimates-and-shares-jump-7-on-a-savings-plan/"
+  ]
+ }
+}

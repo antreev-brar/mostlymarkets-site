@@ -2022,6 +2022,14 @@
 "AXP"
 ]
 },
+"news-AZN-2026-11-16-astrazeneca-says-baxfendy-recommended-fo": {
+"created": "2026-11-16T03:01:04-05:00",
+"day": "2026-11-16",
+"kind": "news",
+"tickers": [
+"AZN"
+]
+},
 "news-BA-2026-11-14-boeing-retiree-weighs-working-again-as-c": {
 "created": "2026-11-14T12:01:46-05:00",
 "day": "2026-11-14",
@@ -3124,6 +3132,14 @@
 "news-USB-2026-11-06-ai-wipeout-in-focus-u-s-employment-data": {
 "created": "2026-11-06T06:16:09-05:00",
 "day": "2026-11-06",
+"kind": "news",
+"tickers": [
+"USB"
+]
+},
+"news-USB-2026-11-16-u-s-stock-futures-fall-as-investors-awai": {
+"created": "2026-11-16T03:01:04-05:00",
+"day": "2026-11-16",
 "kind": "news",
 "tickers": [
 "USB"
