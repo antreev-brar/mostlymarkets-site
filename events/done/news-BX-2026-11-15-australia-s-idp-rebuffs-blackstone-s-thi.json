@@ -93,5 +93,8 @@
   "recent_stories": [
    "/news/2026-11-02/blackstone-bx-leads-a-3-1-billion-investment-in-mitsubishis-lng-canada-stake/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-15T22:36:49-05:00",
+ "reason": "rejected A$3/share bid for IDP (~$565M) is immaterial to a $144B Blackstone"
 }

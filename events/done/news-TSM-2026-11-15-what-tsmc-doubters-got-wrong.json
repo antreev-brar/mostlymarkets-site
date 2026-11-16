@@ -87,5 +87,8 @@
    "/news/2026-11-14/tsmc-tsm-is-18-below-its-high-after-the-chip-rout-is-the-business-broken/",
    "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-15T22:36:49-05:00",
+ "reason": "opinion pieces, no new company news; TSMC breakdown ran 14 Nov"
 }
