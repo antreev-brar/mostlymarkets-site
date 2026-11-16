@@ -1,32 +1,18 @@
 {
- "id": "news-AZN-2026-11-16-astrazeneca-gets-us-nod-for-expanded-imf",
+ "id": "news-AZN-2026-11-16-astrazeneca-says-baxfendy-recommended-fo",
  "kind": "news",
  "story_type": "brief",
  "priority": 58,
- "created": "2026-11-16T04:01:02-05:00",
- "expires": "2026-11-16T14:01:02-05:00",
+ "created": "2026-11-16T03:01:04-05:00",
+ "expires": "2026-11-16T13:01:04-05:00",
  "tickers": [
   "AZN"
  ],
  "headline_hint": "AstraZeneca: <what just happened>",
  "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
- "quotes_asof": "2026-11-16T04:00:07-05:00",
+ "quotes_asof": "2026-11-16T03:00:09-05:00",
  "pack": {
   "headlines": [
-   {
-    "title": "Key facts: Imfinzi, Klygefa win approvals; EMA backs Baxfendy",
-    "source": "TradingView",
-    "url": "https://www.tradingview.com/news/tradingview:fcda7e67c5728:0-key-facts-imfinzi-klygefa-win-approvals-ema-backs-baxfendy/",
-    "published": "2026-11-16T03:00:00-05:00",
-    "also": []
-   },
-   {
-    "title": "AstraZeneca gets US nod for expanded Imfinzi use, new rare-disease therapy",
-    "source": "Reuters",
-    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46X0H8:0-astrazeneca-gets-us-nod-for-expanded-imfinzi-use-new-rare-disease-therapy/",
-    "published": "2026-11-16T02:59:49-05:00",
-    "also": []
-   },
    {
     "title": "Grafton revenues up 2pc on strong Iberian and Irish trading, Astrazeneca's gMG asset secures EU and US approvals",
     "source": "ShareCast",
@@ -61,13 +47,20 @@
     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUCMPTYM:0-astrazeneca-announces-klygefa-approved-in-the-eu/",
     "published": "2026-11-16T02:17:43-05:00",
     "also": []
+   },
+   {
+    "title": "Weekly Recap: Q3 growth and guidance upheld and IMFINZI cuts VOLGA risks",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:1a0f179ffd615:0-weekly-recap-q3-growth-and-guidance-upheld-and-imfinzi-cuts-volga-risks/",
+    "published": "2026-11-16T00:00:00-05:00",
+    "also": []
    }
   ],
   "quote": {
    "price": 184.45,
    "change_pct": 0.04,
    "prev_close": 184.45,
-   "time": "2026-11-13",
+   "time": "2026-11-12",
    "mktcap": "286.094B",
    "pe": 25.9,
    "fpe": 17.7,
@@ -121,5 +114,8 @@
   "recent_stories": [
    "/news/2026-11-01/astrazeneca-azn-tops-q3-estimates-and-shares-jump-7-on-a-savings-plan/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-16T06:32:30-05:00",
+ "reason": "Folded into the AstraZeneca approvals brief published today"
 }
