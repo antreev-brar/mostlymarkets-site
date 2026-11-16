@@ -2030,6 +2030,14 @@
 "BA"
 ]
 },
+"news-BA-2026-11-16-spcx-stock-climbs-after-starship-catch-m": {
+"created": "2026-11-16T00:01:32-05:00",
+"day": "2026-11-16",
+"kind": "news",
+"tickers": [
+"BA"
+]
+},
 "news-BABA-2026-11-02-alibaba-group-holding-limited-baba-stock": {
 "created": "2026-11-02T05:01:44-05:00",
 "day": "2026-11-02",
@@ -2065,6 +2073,14 @@
 "news-BABA-2026-11-12-alibaba-shares-drop-7-as-nvidia-saga-tri": {
 "created": "2026-11-12T03:01:09-05:00",
 "day": "2026-11-12",
+"kind": "news",
+"tickers": [
+"BABA"
+]
+},
+"news-BABA-2026-11-16-alibaba-unveils-new-flagship-ai-model-wi": {
+"created": "2026-11-16T00:01:32-05:00",
+"day": "2026-11-16",
 "kind": "news",
 "tickers": [
 "BABA"
@@ -2513,6 +2529,14 @@
 "news-MS-2026-11-15-morgan-stanley-max-overweight-global-sto": {
 "created": "2026-11-15T21:30:42-05:00",
 "day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"MS"
+]
+},
+"news-MS-2026-11-16-morgan-stanley-max-overweight-global-sto": {
+"created": "2026-11-16T00:01:32-05:00",
+"day": "2026-11-16",
 "kind": "news",
 "tickers": [
 "MS"

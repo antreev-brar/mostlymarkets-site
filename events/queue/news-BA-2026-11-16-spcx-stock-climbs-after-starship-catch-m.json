@@ -1,0 +1,99 @@
+{
+ "id": "news-BA-2026-11-16-spcx-stock-climbs-after-starship-catch-m",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-16T00:01:32-05:00",
+ "expires": "2026-11-16T10:01:32-05:00",
+ "tickers": [
+  "BA"
+ ],
+ "headline_hint": "Boeing: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-16T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "SPCX Stock Climbs After Starship Catch \u2014 Musk Taunts Bezos, Boeing And Lockheed Martin For Trailing SpaceX",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb1RIYTlNQ1ZnbjUzc0llcF9xVzF1RlNRYnpFYnlwUjU1SzJzU1cxeWxoejRzRFZkeE9LOWhRUFBsckhUY3JMazcwNEtKaTdVb2V1amxSRFdzQktBd2xnVkRFU0Rxcnk0cjRaR2NNR0hzU3FYRk1hbVJGbFBRRkFLUW5OajJZZXhXUERfdmtFMUFPeHJTMnVOYlJmeG5FQQ?oc=5",
+    "published": "2026-11-15T23:28:45-05:00",
+    "also": []
+   },
+   {
+    "title": "Elon Musk Takes Aim at Boeing, Jeff Bezos\u2019 Blue Origin After SpaceX Catches Starship With \u2018Chopsticks\u2019: \u2018I Am Genuinely Curious\u2019",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQUs3UHRzQmJuamwxekl6N0FKQzV5ODFodlJXTjF2enAtSUtoOFhENDQwYlNPQlh0TVAyck1tUHFVVGZDYm5ET29uZWItczJQTENFeDM4SUJQMjhoRFM0NEtfdXhTMHl3RmZVbHQyXzdUa25wWXRfV2dIVkhZNC1qa2tSdmRrRWZTRHR0bktXbXpmcFpmanc?oc=5",
+    "published": "2026-11-15T21:41:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Airbus, Boeing Supply-Chain Shift Boosts India Aerospace Stocks",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMUgydDRvd0VJYURiREUtVUZ0NzR2aXcxMi1yN0hzYUxLbGhYQ0pLZkE5UENVN2pETkRxZ1oxd3k3eWpZVEJBVkFFTmxQZXlsQTZyc25hd0R4UlJ5Qm5aYkFSNHdxMzB0T2VZYk5nd1ZseVlXUnNkcURYOTBudzdEV0RTZWpMdm5oSTdMSWFnaXpCZlpmQ3dlVGtmVHRNUWk1YjRRNmI2UUJMSE1ieFFfUnhWNA?oc=5",
+    "published": "2026-11-15T21:39:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 171.5,
+   "change_pct": -0.03,
+   "prev_close": 171.5,
+   "time": "2026-11-13",
+   "mktcap": "135.905B",
+   "pe": 18.25,
+   "fpe": -150.7,
+   "yr_high": 254.35,
+   "yr_low": 165.01,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 170.25,
+    "change_pct": -0.73,
+    "time": "2026-11-13"
+   }
+  },
+  "facts": {
+   "ticker": "BA",
+   "name": "Boeing",
+   "date": "2026-11-13",
+   "close": 171.5,
+   "prev_close": 171.55,
+   "change_pct": -0.03,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 246,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -1.71
+   },
+   "ytd_pct": -21.01,
+   "return_1m_pct": -9.13,
+   "return_6m_pct": -22.22,
+   "return_1y_pct": -12.28,
+   "high_52w": {
+    "close": 252.15,
+    "date": "2026-01-23"
+   },
+   "low_52w": {
+    "close": 167.14,
+    "date": "2026-10-28"
+   },
+   "pct_below_52w_high": 31.98,
+   "thousand_dollars_5y_ago_now": 776,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 5308819,
+   "volume_vs_20d_avg": 0.5,
+   "sentences": [
+    "Boeing's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 1.7%.",
+    "The stock is down 21.0% this year, and at $171.50 it sits 32.0% below its 52-week closing high of $252.15 from 23 January 2026.",
+    "$1,000 invested in Boeing five years ago would be worth $776 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-15/ula-rocket-fails-and-destroys-40-amazon-amzn-leo-internet-satellites/",
+   "/news/2026-10-28/stocks-making-the-biggest-moves-yesterday-xylem-sofi-pentair-celestica-and-boeing/",
+   "/news/2026-10-27/boeing-ba-shares-slide-after-it-delays-its-737-production-ramp/"
+  ]
+ }
+}
