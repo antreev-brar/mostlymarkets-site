@@ -1,0 +1,90 @@
+{
+ "id": "recap-TSN-2026-11-16",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-16T07:45:14-05:00",
+ "expires": "2026-11-17T20:00:00-05:00",
+ "tickers": [
+  "TSN"
+ ],
+ "headline_hint": "Tyson Foods (TSN) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-16T07:45:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TSN",
+   "name": "Tyson Foods, Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 0.65,
+   "n_estimates": 4,
+   "eps_last_year": 1.15,
+   "last_year_date": "11/10/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 20847757300.0
+  },
+  "quote": {
+   "price": 58.82,
+   "change_pct": -0.74,
+   "prev_close": 58.82,
+   "time": "2026-11-13",
+   "mktcap": "20.693B",
+   "pe": 36.14,
+   "fpe": 17.41,
+   "yr_high": 69.48,
+   "yr_low": 49.96,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 57.61,
+    "change_pct": -2.06,
+    "time": "2026-11-16T07:41:18.666-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TSN",
+   "name": "Tyson Foods",
+   "date": "2026-11-13",
+   "close": 58.82,
+   "prev_close": 59.26,
+   "change_pct": -0.74,
+   "moves_over_5pct_last_year": 6,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 147,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -1.02
+   },
+   "ytd_pct": 0.34,
+   "return_1m_pct": 8.85,
+   "return_6m_pct": -10.59,
+   "return_1y_pct": 8.81,
+   "high_52w": {
+    "close": 68.75,
+    "date": "2026-05-04"
+   },
+   "low_52w": {
+    "close": 50.47,
+    "date": "2026-10-01"
+   },
+   "pct_below_52w_high": 14.44,
+   "thousand_dollars_5y_ago_now": 724,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 7180288,
+   "volume_vs_20d_avg": 2.03,
+   "sentences": [
+    "Tyson Foods's shares moved 5% or more on 6 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 1.0%.",
+    "The stock is up 0.3% this year, and at $58.82 it sits 14.4% below its 52-week closing high of $68.75 from 4 May 2026.",
+    "$1,000 invested in Tyson Foods five years ago would be worth $724 today."
+   ]
+  },
+  "sector": "Consumer Staples",
+  "industry": "Packaged Foods & Meats",
+  "recent_stories": [],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/100493/000010049326000077/0000100493-26-000077-index.htm",
+  "release_text": "events/packs/recap-TSN-2026-11-16.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/100493/000010049326000077/tsn2026q4exh-991.htm"
+ }
+}
