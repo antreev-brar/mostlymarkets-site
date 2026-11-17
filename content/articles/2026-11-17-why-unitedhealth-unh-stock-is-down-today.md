@@ -2,7 +2,7 @@
 title = "Why UnitedHealth (UNH) Stock Is Down Today"
 dek = "UnitedHealth fell 4.8% by 10:15 a.m. ET Tuesday, with Humana down 4.0% and CVS 3.4%. No insurer had news of its own; the only fresh item was a Monday call from Elizabeth Warren to break the groups up."
 type = "why-it-moved"
-published = 2026-11-17T10:40:00-05:00
+published = 2026-11-17T10:29:00-05:00
 author = "claire-okafor"
 tickers = ["UNH", "HUM", "CVS", "ELV", "CI"]
 reason = "No clear news"

@@ -2,7 +2,7 @@
 title = "Salesforce, MongoDB and SAP Shares Slide: What Happened"
 dek = "Salesforce sank 7.2% by 10:15 a.m. ET Tuesday, MongoDB 5.7% and SAP 4.5%, as software fell about three times as hard as tech. No company news; a BofA survey showed the biggest tech exit since 2006."
 type = "why-it-moved"
-published = 2026-11-17T10:55:00-05:00
+published = 2026-11-17T10:31:00-05:00
 author = "dev-malhotra"
 tickers = ["CRM", "MDB", "SAP", "NOW", "WDAY", "INTU", "TEAM"]
 reason = "No clear news"
