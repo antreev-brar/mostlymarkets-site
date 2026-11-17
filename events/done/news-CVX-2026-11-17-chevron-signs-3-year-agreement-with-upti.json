@@ -88,5 +88,8 @@
    "/news/2026-11-01/exxon-mobil-xom-tops-q3-estimates-as-refining-profit-more-than-doubles/",
    "/news/2026-11-01/bp-bp-tops-q3-estimates-with-its-highest-profit-in-18-years/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-17T06:32:34-05:00",
+ "reason": "not material: a software maintenance contract with no disclosed value"
 }

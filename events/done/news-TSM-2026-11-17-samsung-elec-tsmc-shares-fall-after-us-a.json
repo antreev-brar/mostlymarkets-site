@@ -88,5 +88,8 @@
    "/daily/2026-11-16/",
    "/news/2026-11-14/tsmc-tsm-is-18-below-its-high-after-the-chip-rout-is-the-business-broken/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-17T06:32:34-05:00",
+ "reason": "already covered: the chip-curb sell-off in Asia is in today's Daily and Monday's chip-access brief"
 }
