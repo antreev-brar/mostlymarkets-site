@@ -1,0 +1,127 @@
+{
+ "id": "preview-PANW-2026-11-18",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-17T18:46:10-05:00",
+ "expires": "2026-11-18T15:30:00-05:00",
+ "tickers": [
+  "PANW"
+ ],
+ "headline_hint": "What to expect from Palo Alto Networks's (PANW) earnings",
+ "instructions": "Reports Wednesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-17T18:46:05-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks, Inc.",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 0.52,
+   "n_estimates": 16,
+   "eps_last_year": 0.53,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 258701689000.0
+  },
+  "report_date": "2026-11-18",
+  "quote": {
+   "price": 309.29,
+   "change_pct": -2.15,
+   "prev_close": 316.09,
+   "time": "2026-11-17T16:00:00.000-0500",
+   "mktcap": "253.136B",
+   "pe": 607.52,
+   "fpe": 73.92,
+   "yr_high": 432.33,
+   "yr_low": 139.57,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 315.5,
+    "change_pct": 2.01,
+    "time": "2026-11-17T18:42:58.624-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "date": "2026-11-17",
+   "close": 309.29,
+   "prev_close": 316.09,
+   "change_pct": -2.15,
+   "moves_over_5pct_last_year": 30,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 106,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -3.53
+   },
+   "ytd_pct": 67.91,
+   "return_1m_pct": -10.85,
+   "return_6m_pct": 28.8,
+   "return_1y_pct": 50.69,
+   "high_52w": {
+    "close": 419.91,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 141.67,
+    "date": "2026-02-24"
+   },
+   "pct_below_52w_high": 26.34,
+   "thousand_dollars_5y_ago_now": 3612,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 6261210,
+   "volume_vs_20d_avg": 1.02,
+   "sentences": [
+    "Palo Alto Networks's shares moved 5% or more on 30 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 3.5%.",
+    "The stock is up 67.9% this year, and at $309.29 it sits 26.3% below its 52-week closing high of $419.91 from 6 October 2026.",
+    "$1,000 invested in Palo Alto Networks five years ago would be worth $3,612 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/",
+    "date": "2026-10-29",
+    "title": "Fortinet (FTNT) Shares Plunge After It Cuts Its Service Revenue Forecast",
+    "type": "why-it-moved",
+    "tickers": [
+     "FTNT",
+     "PANW",
+     "CRWD"
+    ]
+   },
+   {
+    "path": "/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/",
+    "date": "2026-10-23",
+    "title": "Why CrowdStrike (CRWD) Stock Is Soaring Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRWD",
+     "PANW",
+     "ZS",
+     "NET"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

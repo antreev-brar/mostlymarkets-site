@@ -1,0 +1,131 @@
+{
+ "id": "preview-TGT-2026-11-18",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-17T18:46:10-05:00",
+ "expires": "2026-11-18T09:00:00-05:00",
+ "tickers": [
+  "TGT"
+ ],
+ "headline_hint": "What to expect from Target's (TGT) earnings",
+ "instructions": "Reports Wednesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-17T18:46:05-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TGT",
+   "name": "Target Corporation",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.05,
+   "n_estimates": 12,
+   "eps_last_year": 1.78,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 72832852000.0
+  },
+  "report_date": "2026-11-18",
+  "quote": {
+   "price": 159.53,
+   "change_pct": -0.49,
+   "prev_close": 160.32,
+   "time": "2026-11-17T16:10:00.000-0500",
+   "mktcap": "72.474B",
+   "pe": 16.56,
+   "fpe": 17.1,
+   "yr_high": 170.75,
+   "yr_low": 83.44,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 157.88,
+    "change_pct": -1.03,
+    "time": "2026-11-17T18:26:03.430-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TGT",
+   "name": "Target",
+   "date": "2026-11-17",
+   "close": 159.53,
+   "prev_close": 160.32,
+   "change_pct": -0.49,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 199,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -0.7
+   },
+   "ytd_pct": 63.2,
+   "return_1m_pct": 4.07,
+   "return_6m_pct": 25.38,
+   "return_1y_pct": 77.45,
+   "high_52w": {
+    "close": 169.89,
+    "date": "2026-08-24"
+   },
+   "low_52w": {
+    "close": 83.68,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 6.1,
+   "thousand_dollars_5y_ago_now": 629,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 5314549,
+   "volume_vs_20d_avg": 1.39,
+   "sentences": [
+    "Target's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 0.7%.",
+    "The stock is up 63.2% this year, and at $159.53 it sits 6.1% below its 52-week closing high of $169.89 from 24 August 2026.",
+    "$1,000 invested in Target five years ago would be worth $629 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
+    "date": "2026-11-17",
+    "title": "Wall Street Is Hiding in the American Shopper. This Week's Retailers Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "WMT",
+     "COST",
+     "HD",
+     "TGT",
+     "LOW",
+     "TJX",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   },
+   {
+    "path": "/news/2026-11-14/walmart-wmt-reports-thursday-at-46-times-earnings-is-the-business-worth-it/",
+    "date": "2026-11-14",
+    "title": "Walmart (WMT) Reports Thursday at 46 Times Earnings. Is the Business Worth It?",
+    "type": "breakdown",
+    "tickers": [
+     "WMT",
+     "COST",
+     "TGT",
+     "AMZN"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

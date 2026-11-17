@@ -1,0 +1,103 @@
+{
+ "id": "preview-TJX-2026-11-18",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-17T18:46:10-05:00",
+ "expires": "2026-11-18T09:00:00-05:00",
+ "tickers": [
+  "TJX"
+ ],
+ "headline_hint": "What to expect from TJX Companies's (TJX) earnings",
+ "instructions": "Reports Wednesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-17T18:46:05-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "TJX",
+   "name": "TJX Companies, Inc. (The)",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.33,
+   "n_estimates": 7,
+   "eps_last_year": 1.28,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 144195600000.0
+  },
+  "report_date": "2026-11-18",
+  "quote": {
+   "price": 129.85,
+   "change_pct": -0.95,
+   "prev_close": 131.09,
+   "time": "2026-11-17T16:10:00.000-0500",
+   "mktcap": "142.832B",
+   "pe": 24.02,
+   "fpe": 24.03,
+   "yr_high": 170.0,
+   "yr_low": 122.78,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 130.25,
+    "change_pct": 0.31,
+    "time": "2026-11-17T18:39:31.666-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TJX",
+   "name": "TJX Companies",
+   "date": "2026-11-17",
+   "close": 129.85,
+   "prev_close": 131.09,
+   "change_pct": -0.95,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 112,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -2.44
+   },
+   "ytd_pct": -15.47,
+   "return_1m_pct": -11.88,
+   "return_6m_pct": -13.82,
+   "return_1y_pct": -11.11,
+   "high_52w": {
+    "close": 168.41,
+    "date": "2026-06-12"
+   },
+   "low_52w": {
+    "close": 122.84,
+    "date": "2026-09-16"
+   },
+   "pct_below_52w_high": 22.9,
+   "thousand_dollars_5y_ago_now": 1765,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 9852834,
+   "volume_vs_20d_avg": 1.61,
+   "sentences": [
+    "TJX Companies's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 2.4%.",
+    "The stock is down 15.5% this year, and at $129.85 it sits 22.9% below its 52-week closing high of $168.41 from 12 June 2026.",
+    "$1,000 invested in TJX Companies five years ago would be worth $1,765 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
+    "date": "2026-11-17",
+    "title": "Wall Street Is Hiding in the American Shopper. This Week's Retailers Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "WMT",
+     "COST",
+     "HD",
+     "TGT",
+     "LOW",
+     "TJX",
+     "NVDA"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

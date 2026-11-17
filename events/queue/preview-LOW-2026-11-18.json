@@ -1,0 +1,150 @@
+{
+ "id": "preview-LOW-2026-11-18",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-17T18:46:10-05:00",
+ "expires": "2026-11-18T09:00:00-05:00",
+ "tickers": [
+  "LOW"
+ ],
+ "headline_hint": "What to expect from Lowe's's (LOW) earnings",
+ "instructions": "Reports Wednesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-17T18:46:05-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "LOW",
+   "name": "Lowe's Companies, Inc.",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.86,
+   "n_estimates": 11,
+   "eps_last_year": 3.06,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 126197883000.0
+  },
+  "report_date": "2026-11-18",
+  "quote": {
+   "price": 220.46,
+   "change_pct": -1.99,
+   "prev_close": 224.93,
+   "time": "2026-11-17T16:10:00.000-0500",
+   "mktcap": "123.69B",
+   "pe": 18.64,
+   "fpe": 17.7,
+   "yr_high": 293.06,
+   "yr_low": 178.45,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 221.44,
+    "change_pct": 0.44,
+    "time": "2026-11-17T18:35:33.375-0500"
+   }
+  },
+  "facts": {
+   "ticker": "LOW",
+   "name": "Lowe's",
+   "date": "2026-11-17",
+   "close": 220.46,
+   "prev_close": 224.93,
+   "change_pct": -1.99,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 67,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": -2.19
+   },
+   "ytd_pct": -8.58,
+   "return_1m_pct": 12.53,
+   "return_6m_pct": 0.96,
+   "return_1y_pct": -3.24,
+   "high_52w": {
+    "close": 287.39,
+    "date": "2026-02-13"
+   },
+   "low_52w": {
+    "close": 179.5,
+    "date": "2026-10-05"
+   },
+   "pct_below_52w_high": 23.29,
+   "thousand_dollars_5y_ago_now": 897,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 4193590,
+   "volume_vs_20d_avg": 1.22,
+   "sentences": [
+    "Lowe's's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock fell 2.2%.",
+    "The stock is down 8.6% this year, and at $220.46 it sits 23.3% below its 52-week closing high of $287.39 from 13 February 2026.",
+    "$1,000 invested in Lowe's five years ago would be worth $897 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
+    "date": "2026-11-17",
+    "title": "Wall Street Is Hiding in the American Shopper. This Week's Retailers Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "WMT",
+     "COST",
+     "HD",
+     "TGT",
+     "LOW",
+     "TJX",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/home-depot-hd-tops-q3-estimates-and-names-cfo-richard-mcphail-ceo/",
+    "date": "2026-11-17",
+    "title": "Home Depot (HD) Tops Q3 Estimates and Names CFO Richard McPhail CEO",
+    "type": "earnings-recap",
+    "tickers": [
+     "HD",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/what-to-expect-from-home-depots-hd-q3-earnings/",
+    "date": "2026-11-16",
+    "title": "What to Expect From Home Depot's (HD) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "HD",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   }
+  ],
+  "last_recap": [
+   {
+    "path": "/news/2026-11-17/home-depot-hd-tops-q3-estimates-and-names-cfo-richard-mcphail-ceo/",
+    "date": "2026-11-17",
+    "title": "Home Depot (HD) Tops Q3 Estimates and Names CFO Richard McPhail CEO",
+    "type": "earnings-recap",
+    "tickers": [
+     "HD",
+     "LOW"
+    ]
+   }
+  ]
+ }
+}
