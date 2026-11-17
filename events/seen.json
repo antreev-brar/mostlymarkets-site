@@ -9,6 +9,16 @@
 "GE"
 ]
 },
+"basket-application-software-down-2026-11-17": {
+"created": "2026-11-17T10:01:22-05:00",
+"day": "2026-11-17",
+"kind": "basket",
+"tickers": [
+"CRM",
+"MDB",
+"SAP"
+]
+},
 "basket-application-software-up-2026-11-04": {
 "created": "2026-11-04T10:01:17-05:00",
 "day": "2026-11-04",
@@ -1832,6 +1842,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "UAL"
+]
+},
+"move-UNH-2026-11-17": {
+"created": "2026-11-17T10:01:22-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"UNH"
 ]
 },
 "move-WDC-2026-11-05": {

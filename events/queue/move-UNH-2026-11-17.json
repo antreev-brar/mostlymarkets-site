@@ -1,0 +1,101 @@
+{
+ "id": "move-UNH-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 73,
+ "created": "2026-11-17T10:01:22-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "UNH"
+ ],
+ "headline_hint": "Why UnitedHealth (UNH) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 390.26,
+   "change_pct": -5.28,
+   "prev_close": 412.02,
+   "time": "2026-11-17T10:00:06.938-0500",
+   "mktcap": "349.677B",
+   "pe": 22.27,
+   "fpe": 18.18,
+   "yr_high": 461.62,
+   "yr_low": 255.97,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 400.0,
+    "change_pct": -2.92,
+    "time": "2026-11-17T09:27:30.075-0500"
+   }
+  },
+  "facts": {
+   "ticker": "UNH",
+   "name": "UnitedHealth",
+   "date": "2026-11-16",
+   "close": 412.02,
+   "prev_close": 407.46,
+   "change_pct": 1.12,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 126,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-10",
+    "change_pct": 1.89
+   },
+   "ytd_pct": 24.81,
+   "return_1m_pct": 2.64,
+   "return_6m_pct": 5.34,
+   "return_1y_pct": 23.91,
+   "high_52w": {
+    "close": 436.35,
+    "date": "2026-07-21"
+   },
+   "low_52w": {
+    "close": 259.02,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 5.58,
+   "thousand_dollars_5y_ago_now": 916,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 4428647,
+   "volume_vs_20d_avg": 0.9,
+   "sentences": [
+    "UnitedHealth's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 November 2026, when the stock rose 1.9%.",
+    "The stock is up 24.8% this year, and at $412.02 it sits 5.6% below its 52-week closing high of $436.35 from 21 July 2026.",
+    "$1,000 invested in UnitedHealth five years ago would be worth $916 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Managed Health Care",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/humana-hum-beats-q3-estimates-with-a-smaller-loss-and-raises-its-2026-outlook/",
+    "date": "2026-11-06",
+    "title": "Humana (HUM) Beats Q3 Estimates With a Smaller Loss and Raises Its 2026 Outlook",
+    "type": "earnings-recap",
+    "tickers": [
+     "HUM",
+     "CI",
+     "UNH"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/wall-street-is-betting-stocks-rally-after-the-midterms-whoever-wins/",
+    "date": "2026-11-02",
+    "title": "Wall Street Is Betting Stocks Rally After the Midterms, Whoever Wins",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CNC",
+     "UNH",
+     "HCA",
+     "GS",
+     "LMT"
+    ]
+   }
+  ]
+ }
+}
