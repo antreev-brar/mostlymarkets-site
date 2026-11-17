@@ -1,0 +1,135 @@
+{
+ "id": "news-BP-2026-11-17-bp-bolsters-board-with-veteran-appointme",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-17T03:02:08-05:00",
+ "expires": "2026-11-17T13:02:08-05:00",
+ "tickers": [
+  "BP"
+ ],
+ "headline_hint": "BP: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-17T03:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "BP Names New Directors as Restructuring Continues",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261117000613:0-bp-names-new-directors-as-restructuring-continues/",
+    "published": "2026-11-17T02:47:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BP bolsters board with veteran appointments as Tyler begins rebuild",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Y0F0:0-bp-bolsters-board-with-veteran-appointments-as-tyler-begins-rebuild/",
+    "published": "2026-11-17T02:46:33-05:00",
+    "also": []
+   },
+   {
+    "title": "BP Says Dave Hager To Succeed Dame Amanda Blanc As Co's Senior Independent Director from December 1",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUCC0NQF7:0-bp-says-dave-hager-to-succeed-dame-amanda-blanc-as-co-s-senior-independent-director-from-december-1/",
+    "published": "2026-11-17T02:30:59-05:00",
+    "also": [
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "BP PLC: Hager to Succeed Blanc From Dec 1",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261117000613_20261117000693:0-bp-plc-hager-to-succeed-blanc-from-dec-1/",
+    "published": "2026-11-17T02:08:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BP PLC to Further Strengthen Deep Nonexecutive Oil, Gas Expertise",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261117000613_20261117000685:0-bp-plc-to-further-strengthen-deep-nonexecutive-oil-gas-expertise/",
+    "published": "2026-11-17T02:07:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BP PLC: Appointments Form First Stage of a Broader Rebuilding of Bd",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261117000613_20261117000683:0-bp-plc-appointments-form-first-stage-of-a-broader-rebuilding-of-bd/",
+    "published": "2026-11-17T02:06:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BP PLC: Bonfield Appointment Effective Dec 1",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261117000613_20261117000642:0-bp-plc-bonfield-appointment-effective-dec-1/",
+    "published": "2026-11-17T02:03:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BP PLC Appoints Andrew Bonfield as Independent Nonexecutive Director",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261117000613_20261117000613:0-bp-plc-appoints-andrew-bonfield-as-independent-nonexecutive-director/",
+    "published": "2026-11-17T02:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 44.92,
+   "change_pct": -1.71,
+   "prev_close": 44.92,
+   "time": "2026-11-13",
+   "mktcap": "117.586B",
+   "pe": 13.19,
+   "fpe": 5.64,
+   "yr_high": 51.49,
+   "yr_low": 33.22,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 44.89,
+    "change_pct": -0.07,
+    "time": "2026-11-16"
+   }
+  },
+  "facts": {
+   "ticker": "BP",
+   "name": "BP",
+   "date": "2026-11-13",
+   "close": 45.7,
+   "prev_close": 45.82,
+   "change_pct": -0.26,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 219,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-06",
+    "change_pct": -0.38
+   },
+   "ytd_pct": 31.59,
+   "return_1m_pct": -5.66,
+   "return_6m_pct": 3.04,
+   "return_1y_pct": 23.98,
+   "high_52w": {
+    "close": 51.32,
+    "date": "2026-10-23"
+   },
+   "low_52w": {
+    "close": 33.31,
+    "date": "2025-12-18"
+   },
+   "pct_below_52w_high": 10.95,
+   "thousand_dollars_5y_ago_now": 1669,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 5217920,
+   "volume_vs_20d_avg": 0.6,
+   "sentences": [
+    "BP's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 November 2026, when the stock fell 0.4%.",
+    "The stock is up 31.6% this year, and at $45.70 it sits 10.9% below its 52-week closing high of $51.32 from 23 October 2026.",
+    "$1,000 invested in BP five years ago would be worth $1,669 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-02/bp-bp-completes-castrol-sale-bringing-in-6-billion-to-cut-debt/",
+   "/news/2026-11-01/bp-bp-tops-q3-estimates-with-its-highest-profit-in-18-years/"
+  ]
+ }
+}
