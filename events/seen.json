@@ -5409,5 +5409,11 @@
 "day": "2026-11-16",
 "kind": "market-wrap",
 "tickers": []
+},
+"wrap-2026-11-17": {
+"created": "2026-11-17T16:15:15-05:00",
+"day": "2026-11-17",
+"kind": "market-wrap",
+"tickers": []
 }
 }
