@@ -1,0 +1,150 @@
+{
+ "id": "recap-NVDA-2026-11-17",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 82,
+ "created": "2026-11-17T16:30:15-05:00",
+ "expires": "2026-11-18T20:00:00-05:00",
+ "tickers": [
+  "NVDA"
+ ],
+ "headline_hint": "Nvidia (NVDA) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-17T16:30:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.49,
+   "n_estimates": 14,
+   "eps_last_year": 1.24,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 3762974100000.0
+  },
+  "quote": {
+   "price": 155.46,
+   "change_pct": -0.44,
+   "prev_close": 156.14,
+   "time": "2026-11-17T16:15:00.000-0500",
+   "mktcap": "3.747T",
+   "pe": 19.65,
+   "fpe": 12.88,
+   "yr_high": 243.37,
+   "yr_low": 148.8,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 160.91,
+    "change_pct": 3.51,
+    "time": "2026-11-17T16:30:06.428-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "date": "2026-11-17",
+   "close": 155.46,
+   "prev_close": 156.14,
+   "change_pct": -0.44,
+   "moves_over_5pct_last_year": 9,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 219,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -4.12
+   },
+   "ytd_pct": -16.64,
+   "return_1m_pct": -28.39,
+   "return_6m_pct": -29.53,
+   "return_1y_pct": -18.25,
+   "high_52w": {
+    "close": 239.24,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 155.46,
+    "date": "2026-11-17"
+   },
+   "pct_below_52w_high": 35.02,
+   "thousand_dollars_5y_ago_now": 5313,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 317315015,
+   "volume_vs_20d_avg": 1.44,
+   "sentences": [
+    "Nvidia's shares moved 5% or more on 9 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 4.1%.",
+    "The stock is down 16.6% this year, and at $155.46 it sits 35.0% below its 52-week closing high of $239.24 from 6 October 2026.",
+    "$1,000 invested in Nvidia five years ago would be worth $5,313 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
+    "date": "2026-11-17",
+    "title": "Wall Street Is Hiding in the American Shopper. This Week's Retailers Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "WMT",
+     "COST",
+     "HD",
+     "TGT",
+     "LOW",
+     "TJX",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/stock-market-today-salesforce-leads-a-software-rout-as-the-dow-drops-849-points/",
+    "date": "2026-11-17",
+    "title": "Stock Market Today: Salesforce Leads a Software Rout as the Dow Drops 849 Points",
+    "type": "market-wrap",
+    "tickers": [
+     "CRM",
+     "NVDA",
+     "MSFT",
+     "INTU",
+     "UNH"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-17/",
+    "date": "2026-11-17",
+    "title": "Nvidia Reports Tonight at a One-Year Low, and Options Price a $335 Billion Swing",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "HD",
+     "TSN",
+     "JD",
+     "TSM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/nvidia-nvda-hires-heidrick-for-its-ceo-search-and-talks-to-arms-rene-haas/",
+    "date": "2026-11-17",
+    "title": "Nvidia (NVDA) Hires Heidrick for Its CEO Search and Talks to Arm's Rene Haas",
+    "type": "brief",
+    "tickers": [
+     "NVDA",
+     "ARM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/nvidia-nvda-board-sets-up-export-control-committee-hours-before-its-q3-report/",
+    "date": "2026-11-17",
+    "title": "Nvidia (NVDA) Board Sets Up Export-Control Committee Hours Before Its Q3 Report",
+    "type": "brief",
+    "tickers": [
+     "NVDA"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.htm"
+ }
+}

@@ -1,0 +1,318 @@
+{
+ "id": "list-2026-11-17-4",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-17T16:30:15-05:00",
+ "expires": "2026-11-17T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Dividend Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Dividend, screened on dividend yield, with free cash flow covering the payout. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-17T16:30:10-05:00",
+ "pack": {
+  "theme": "dividend-payers",
+  "screen": "dividend yield, with free cash flow covering the payout",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "ARE",
+    "name": "Alexandria Real Estate Equities",
+    "industry": "Office REITs",
+    "metric": 6.8,
+    "price": 42.38,
+    "pe": -5.03,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2759402000,
+     "revenue_growth_yoy_pct": -9.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": -51.8,
+     "eps_diluted": -8.42,
+     "ocf": 1187788000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "DOC",
+    "name": "Healthpeak Properties",
+    "industry": "Health Care REITs",
+    "metric": 6.27,
+    "price": 19.46,
+    "pe": 35.82,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3064825000,
+     "revenue_growth_yoy_pct": 9.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 12.3,
+     "eps_diluted": 0.54,
+     "ocf": 1270524000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "VZ",
+    "name": "Verizon",
+    "industry": "Integrated Telecommunication Services",
+    "metric": 6.16,
+    "price": 45.93,
+    "pe": 11.72,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 139387000000,
+     "revenue_growth_yoy_pct": 1.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 20.9,
+     "net_margin_pct": 11.8,
+     "eps_diluted": 3.92,
+     "ocf": 39050000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "RIO",
+    "name": "Rio Tinto",
+    "industry": "Diversified Metals & Mining",
+    "metric": 5.85,
+    "price": 79.47,
+    "pe": 10.77,
+    "ttm": {}
+   },
+   {
+    "ticker": "IP",
+    "name": "International Paper",
+    "industry": "Paper & Plastic Packaging Products & Materials",
+    "metric": 5.75,
+    "price": 32.17,
+    "pe": -5.01,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 24178000000,
+     "revenue_growth_yoy_pct": 12.2,
+     "gross_margin_pct": 29.8,
+     "operating_margin_pct": null,
+     "net_margin_pct": -14.3,
+     "eps_diluted": -6.56,
+     "ocf": 2381000000,
+     "fcf": 75000000,
+     "fcf_margin_pct": 0.3
+    }
+   },
+   {
+    "ticker": "EIX",
+    "name": "Edison International",
+    "industry": "Electric Utilities",
+    "metric": 5.63,
+    "price": 62.37,
+    "pe": 8.16,
+    "ttm": {}
+   },
+   {
+    "ticker": "O",
+    "name": "Realty Income",
+    "industry": "Retail REITs",
+    "metric": 5.6,
+    "price": 58.04,
+    "pe": 40.03,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6205962000,
+     "revenue_growth_yoy_pct": 10.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 22.9,
+     "eps_diluted": 1.45,
+     "ocf": 4148994000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "F",
+    "name": "Ford Motor",
+    "industry": "Automobile Manufacturers",
+    "metric": 5.29,
+    "price": 11.34,
+    "pe": -5.73,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 186965000000,
+     "revenue_growth_yoy_pct": -1.4,
+     "gross_margin_pct": 8.4,
+     "operating_margin_pct": -3.8,
+     "net_margin_pct": -4.2,
+     "eps_diluted": -1.98,
+     "ocf": 14972000000,
+     "fcf": 5145000000,
+     "fcf_margin_pct": 2.8
+    }
+   },
+   {
+    "ticker": "MAA",
+    "name": "Mid-America Apartment Communities",
+    "industry": "Multi-Family Residential REITs",
+    "metric": 5.26,
+    "price": 116.25,
+    "pe": 35.22,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 2213556000,
+     "revenue_growth_yoy_pct": 0.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 17.6,
+     "eps_diluted": 3.3,
+     "ocf": 1031201000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "HRL",
+    "name": "Hormel Foods",
+    "industry": "Packaged Foods & Meats",
+    "metric": 5.18,
+    "price": 22.58,
+    "pe": 36.3,
+    "ttm": {
+     "end": "2026-07-26",
+     "revenue": 12146911000,
+     "revenue_growth_yoy_pct": 0.7,
+     "gross_margin_pct": 15.7,
+     "operating_margin_pct": 4.7,
+     "net_margin_pct": 2.8,
+     "eps_diluted": 0.63,
+     "ocf": 1091658000,
+     "fcf": 780869000,
+     "fcf_margin_pct": 6.4
+    }
+   },
+   {
+    "ticker": "T",
+    "name": "AT&T",
+    "industry": "Integrated Telecommunication Services",
+    "metric": 4.98,
+    "price": 22.29,
+    "pe": 11.96,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 128852000000,
+     "revenue_growth_yoy_pct": 3.5,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 18.3,
+     "net_margin_pct": 10.2,
+     "eps_diluted": 1.85,
+     "ocf": 40235000000,
+     "fcf": 17816000000,
+     "fcf_margin_pct": 13.8
+    }
+   },
+   {
+    "ticker": "TROW",
+    "name": "T. Rowe Price",
+    "industry": "Asset Management & Custody Banks",
+    "metric": 4.84,
+    "price": 107.34,
+    "pe": 10.86,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7703400000,
+     "revenue_growth_yoy_pct": 6.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 32.0,
+     "net_margin_pct": 28.4,
+     "eps_diluted": 9.89,
+     "ocf": 1866200000,
+     "fcf": 1598400000,
+     "fcf_margin_pct": 20.7
+    }
+   },
+   {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "industry": "Industrial Machinery & Supplies & Components",
+    "metric": 0.1,
+    "price": 82.07,
+    "pe": 23.17,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 8052100000,
+     "revenue_growth_yoy_pct": 8.0,
+     "gross_margin_pct": 43.1,
+     "operating_margin_pct": 22.9,
+     "net_margin_pct": 17.2,
+     "eps_diluted": 3.55,
+     "ocf": 1642400000,
+     "fcf": 1517100000,
+     "fcf_margin_pct": 18.8
+    }
+   },
+   {
+    "ticker": "TXT",
+    "name": "Textron",
+    "industry": "Aerospace & Defense",
+    "metric": 0.1,
+    "price": 81.63,
+    "pe": 14.67,
+    "ttm": {
+     "end": "2026-10-03",
+     "revenue": 15448000000,
+     "revenue_growth_yoy_pct": 8.5,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 6.3,
+     "eps_diluted": 5.56,
+     "ocf": 1312000000,
+     "fcf": 809000000,
+     "fcf_margin_pct": 5.2
+    }
+   },
+   {
+    "ticker": "PWR",
+    "name": "Quanta Services",
+    "industry": "Construction & Engineering",
+    "metric": 0.09,
+    "price": 598.53,
+    "pe": 54.21,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 37288609000,
+     "revenue_growth_yoy_pct": 37.1,
+     "gross_margin_pct": 15.8,
+     "operating_margin_pct": 6.8,
+     "net_margin_pct": 4.5,
+     "eps_diluted": 11.04,
+     "ocf": 4068494000,
+     "fcf": 3155895000,
+     "fcf_margin_pct": 8.5
+    }
+   },
+   {
+    "ticker": "MGM",
+    "name": "MGM Resorts",
+    "industry": "Casinos & Gaming",
+    "metric": 0.03,
+    "price": 33.35,
+    "pe": 12.83,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 17722869000,
+     "revenue_growth_yoy_pct": 2.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 7.0,
+     "net_margin_pct": 3.9,
+     "eps_diluted": 2.62,
+     "ocf": 2314061000,
+     "fcf": 1399900000,
+     "fcf_margin_pct": 7.9
+    }
+   }
+  ]
+ }
+}
