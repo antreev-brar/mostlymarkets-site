@@ -1,0 +1,112 @@
+{
+ "id": "basket-systems-software-down-2026-11-17",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-17T10:30:14-05:00",
+ "expires": "2026-11-17T23:59:00-05:00",
+ "tickers": [
+  "NOW",
+  "RBRK",
+  "ZS"
+ ],
+ "headline_hint": "NOW, RBRK, ZS shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-17T10:30:09-05:00",
+ "pack": {
+  "industry": "Systems Software",
+  "quotes": {
+   "NOW": {
+    "price": 93.81,
+    "change_pct": -5.6,
+    "prev_close": 99.37,
+    "time": "2026-11-17T10:30:04.634-0500",
+    "mktcap": "97.367B",
+    "pe": 67.59,
+    "fpe": 21.6,
+    "yr_high": 175.0,
+    "yr_low": 81.24,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 97.67,
+     "change_pct": -1.71,
+     "time": "2026-11-17T09:29:59.394-0500"
+    }
+   },
+   "RBRK": {
+    "price": 100.3,
+    "change_pct": -5.4,
+    "prev_close": 106.03,
+    "time": "2026-11-17T10:29:57.668-0500",
+    "mktcap": "20.793B",
+    "pe": -79.18,
+    "fpe": 201.0,
+    "yr_high": 139.92,
+    "yr_low": 42.25,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 106.99,
+     "change_pct": 0.91,
+     "time": "2026-11-17T09:29:33.686-0500"
+    }
+   },
+   "ZS": {
+    "price": 181.26,
+    "change_pct": -5.02,
+    "prev_close": 190.84,
+    "time": "2026-11-17T10:30:02.152-0500",
+    "mktcap": "29.555B",
+    "pe": -458.54,
+    "fpe": 37.11,
+    "yr_high": 304.8,
+    "yr_low": 114.63,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 191.84,
+     "change_pct": 0.52,
+     "time": "2026-11-17T09:28:44.324-0500"
+    }
+   }
+  },
+  "facts": {
+   "NOW": {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "date": "2026-11-16",
+    "close": 99.37,
+    "prev_close": 102.25,
+    "change_pct": -2.82,
+    "moves_over_5pct_last_year": 40,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 86,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-10",
+     "change_pct": -3.07
+    },
+    "ytd_pct": -35.13,
+    "return_1m_pct": -30.01,
+    "return_6m_pct": -3.92,
+    "return_1y_pct": -41.53,
+    "high_52w": {
+     "close": 173.5,
+     "date": "2025-12-11"
+    },
+    "low_52w": {
+     "close": 83.0,
+     "date": "2026-04-10"
+    },
+    "pct_below_52w_high": 42.73,
+    "thousand_dollars_5y_ago_now": 717,
+    "five_years_ago_date": "2021-11-16",
+    "volume": 12700080,
+    "volume_vs_20d_avg": 0.64,
+    "sentences": [
+     "ServiceNow's shares moved 5% or more on 40 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 10 November 2026, when the stock fell 3.1%.",
+     "The stock is down 35.1% this year, and at $99.37 it sits 42.7% below its 52-week closing high of $173.50 from 11 December 2025.",
+     "$1,000 invested in ServiceNow five years ago would be worth $717 today."
+    ]
+   }
+  }
+ }
+}

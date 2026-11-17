@@ -227,6 +227,16 @@
 "AVGO"
 ]
 },
+"basket-systems-software-down-2026-11-17": {
+"created": "2026-11-17T10:30:14-05:00",
+"day": "2026-11-17",
+"kind": "basket",
+"tickers": [
+"NOW",
+"RBRK",
+"ZS"
+]
+},
 "basket-technology-hardware-storage-peripherals-down-2026-11-12": {
 "created": "2026-11-12T10:15:13-05:00",
 "day": "2026-11-12",
@@ -864,6 +874,13 @@
 "day": "2026-11-17",
 "kind": "list",
 "theme": "fast-growers",
+"tickers": []
+},
+"list-2026-11-17-2": {
+"created": "2026-11-17T10:30:14-05:00",
+"day": "2026-11-17",
+"kind": "list",
+"theme": "value",
 "tickers": []
 },
 "macro-2026-10-29": {
