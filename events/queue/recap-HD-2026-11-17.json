@@ -1,0 +1,145 @@
+{
+ "id": "recap-HD-2026-11-17",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-17T06:30:15-05:00",
+ "expires": "2026-11-18T20:00:00-05:00",
+ "tickers": [
+  "HD"
+ ],
+ "headline_hint": "Home Depot (HD) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-17T06:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "HD",
+   "name": "Home Depot, Inc. (The)",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 3.86,
+   "n_estimates": 11,
+   "eps_last_year": 3.74,
+   "last_year_date": "11/18/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 347884388000.0
+  },
+  "quote": {
+   "price": 347.51,
+   "change_pct": -0.34,
+   "prev_close": 347.51,
+   "time": "2026-11-16",
+   "mktcap": "346.707B",
+   "pe": 24.33,
+   "fpe": 22.66,
+   "yr_high": 397.63,
+   "yr_low": 277.15,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 345.0,
+    "change_pct": -0.72,
+    "time": "2026-11-17T06:29:59.908-0500"
+   }
+  },
+  "facts": {
+   "ticker": "HD",
+   "name": "Home Depot",
+   "date": "2026-11-16",
+   "close": 347.51,
+   "prev_close": 348.69,
+   "change_pct": -0.34,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 212,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -0.87
+   },
+   "ytd_pct": 0.99,
+   "return_1m_pct": 12.23,
+   "return_6m_pct": 15.91,
+   "return_1y_pct": -5.59,
+   "high_52w": {
+    "close": 391.05,
+    "date": "2026-02-13"
+   },
+   "low_52w": {
+    "close": 281.15,
+    "date": "2026-10-05"
+   },
+   "pct_below_52w_high": 11.13,
+   "thousand_dollars_5y_ago_now": 886,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 6211595,
+   "volume_vs_20d_avg": 1.41,
+   "sentences": [
+    "Home Depot's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 0.9%.",
+    "The stock is up 1.0% this year, and at $347.51 it sits 11.1% below its 52-week closing high of $391.05 from 13 February 2026.",
+    "$1,000 invested in Home Depot five years ago would be worth $886 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Home Improvement Retail",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-17/",
+    "date": "2026-11-17",
+    "title": "Nvidia Reports Tonight at a One-Year Low, and Options Price a $335 Billion Swing",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "HD",
+     "TSN",
+     "JD",
+     "TSM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/what-to-expect-from-home-depots-hd-q3-earnings/",
+    "date": "2026-11-16",
+    "title": "What to Expect From Home Depot's (HD) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "HD",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-15/",
+    "date": "2026-11-15",
+    "title": "Nvidia's First Report Without Huang and Anthropic's IPO Will Test the AI Trade This Week",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "WMT",
+     "BABA",
+     "HD"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000184/0000354950-26-000184-index.htm",
+  "release_text": "events/packs/recap-HD-2026-11-17.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000184/hd_exhibit991x11012026.htm"
+ }
+}
