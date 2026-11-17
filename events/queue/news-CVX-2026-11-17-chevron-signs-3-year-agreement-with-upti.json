@@ -1,0 +1,92 @@
+{
+ "id": "news-CVX-2026-11-17-chevron-signs-3-year-agreement-with-upti",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-17T00:02:25-05:00",
+ "expires": "2026-11-17T10:02:25-05:00",
+ "tickers": [
+  "CVX"
+ ],
+ "headline_hint": "Chevron: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-17T00:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Chevron Signs 3-Year Agreement with UptimeAI, Scaling Expertise to Enhance Asset Reliability and Operational Efficiency",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR2lCV3puYTNGTmthb0ZOTTJkMllTLU1rNG1BaVVSNmE5RmtqNzdaT1dDbml6RUFYNWdXQXU3WEc4VVgyVWNJbmpwbUV0dHAxdTdyaWxHTU1tV3pwUlo2c0FxTHF1YkxnT3dDOU83bmZvdHNKTHNMSm9CaUZYc2o0NjZCSFpNM1ZjanF3?oc=5",
+    "published": "2026-11-16T22:30:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Chevron and Texaco give drivers a reason to skip Costco gas",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa0loTTNvODI4ZGJXOUhtVk4zcFRzTHYtQndsMmpFQlllRFZOSmVPNE9SS0NvbTQ1d2d0aU0tTktCQVpWekdwU1N1OE9sdW5uQkMzRmlBQTNSeVZKdWxlRXozcncxU0F3WS1Zalh1NElBbDRtR1VVeEhjS3FvZ3RDNG80Z2gtZ2VXOWxwQ1JhYVdSRHRuVHc?oc=5",
+    "published": "2026-11-16T20:03:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 217.14,
+   "change_pct": -1.25,
+   "prev_close": 217.14,
+   "time": "2026-11-16",
+   "mktcap": "426.772B",
+   "pe": 15.89,
+   "fpe": 10.91,
+   "yr_high": 236.48,
+   "yr_low": 146.49,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 217.0,
+    "change_pct": -0.06,
+    "time": "2026-11-16"
+   }
+  },
+  "facts": {
+   "ticker": "CVX",
+   "name": "Chevron",
+   "date": "2026-11-13",
+   "close": 219.89,
+   "prev_close": 216.35,
+   "change_pct": 1.64,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 67,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": 1.75
+   },
+   "ytd_pct": 44.28,
+   "return_1m_pct": 0.26,
+   "return_6m_pct": 15.07,
+   "return_1y_pct": 43.42,
+   "high_52w": {
+    "close": 235.52,
+    "date": "2026-10-30"
+   },
+   "low_52w": {
+    "close": 146.75,
+    "date": "2025-12-16"
+   },
+   "pct_below_52w_high": 6.64,
+   "thousand_dollars_5y_ago_now": 1925,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 7579317,
+   "volume_vs_20d_avg": 0.91,
+   "sentences": [
+    "Chevron's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock rose 1.8%.",
+    "The stock is up 44.3% this year, and at $219.89 it sits 6.6% below its 52-week closing high of $235.52 from 30 October 2026.",
+    "$1,000 invested in Chevron five years ago would be worth $1,925 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-01/what-to-expect-from-diamondback-energys-fang-q3-earnings/",
+   "/news/2026-11-01/exxon-mobil-xom-tops-q3-estimates-as-refining-profit-more-than-doubles/",
+   "/news/2026-11-01/bp-bp-tops-q3-estimates-with-its-highest-profit-in-18-years/"
+  ]
+ }
+}

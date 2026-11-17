@@ -1,0 +1,90 @@
+{
+ "id": "news-COST-2026-11-17-costco-just-gained-13-in-a-month-what-wi",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-17T00:02:25-05:00",
+ "expires": "2026-11-17T10:02:25-05:00",
+ "tickers": [
+  "COST"
+ ],
+ "headline_hint": "Costco: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-17T00:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Costco Just Gained 13% in a Month. What Will It Take to Hit $1,200?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaTg3M2F1U2wwT1JLY0R0SThWTDFZN1NMc1RVaG55aVdGclROQWhyTWxwVTJVcFd1U2swVEhmdlFPTFlhaDNVU2d5Z0FjTWJUTGR5RG04OUZqaEwwT0labjhwM180SnhrM01FVFJCYzVLUENITHpmY000TGZYRWFtLVVUZUVXTkdmTzgyYl9oWlZDRXlvUGVB?oc=5",
+    "published": "2026-11-16T23:12:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Chevron and Texaco give drivers a reason to skip Costco gas",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa0loTTNvODI4ZGJXOUhtVk4zcFRzTHYtQndsMmpFQlllRFZOSmVPNE9SS0NvbTQ1d2d0aU0tTktCQVpWekdwU1N1OE9sdW5uQkMzRmlBQTNSeVZKdWxlRXozcncxU0F3WS1Zalh1NElBbDRtR1VVeEhjS3FvZ3RDNG80Z2gtZ2VXOWxwQ1JhYVdSRHRuVHc?oc=5",
+    "published": "2026-11-16T20:03:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 1113.74,
+   "change_pct": 0.68,
+   "prev_close": 1113.74,
+   "time": "2026-11-16",
+   "mktcap": "493.531B",
+   "pe": 53.65,
+   "fpe": 48.83,
+   "yr_high": 1117.0,
+   "yr_low": 844.06,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 1116.68,
+    "change_pct": 0.26,
+    "time": "2026-11-16"
+   }
+  },
+  "facts": {
+   "ticker": "COST",
+   "name": "Costco",
+   "date": "2026-11-13",
+   "close": 1106.21,
+   "prev_close": 1092.21,
+   "change_pct": 1.28,
+   "moves_over_5pct_last_year": 0,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 72,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 2.01
+   },
+   "ytd_pct": 28.28,
+   "return_1m_pct": 13.11,
+   "return_6m_pct": 5.46,
+   "return_1y_pct": 21.03,
+   "high_52w": {
+    "close": 1106.21,
+    "date": "2026-11-13"
+   },
+   "low_52w": {
+    "close": 850.0,
+    "date": "2025-12-22"
+   },
+   "pct_below_52w_high": 0.0,
+   "thousand_dollars_5y_ago_now": 2139,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 1875259,
+   "volume_vs_20d_avg": 0.79,
+   "sentences": [
+    "Costco's shares moved 5% or more on 0 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 2.0%.",
+    "The stock is up 28.3% this year, and at $1,106.21 it sits 0.0% below its 52-week closing high of $1,106.21 from 13 November 2026.",
+    "$1,000 invested in Costco five years ago would be worth $2,139 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-14/walmart-wmt-reports-thursday-at-46-times-earnings-is-the-business-worth-it/"
+  ]
+ }
+}

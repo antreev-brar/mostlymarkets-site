@@ -2064,6 +2064,14 @@
 "ACN"
 ]
 },
+"news-ACN-2026-11-17-accenture-acn-stock-may-trade-at-a-disco": {
+"created": "2026-11-17T00:02:25-05:00",
+"day": "2026-11-17",
+"kind": "news",
+"tickers": [
+"ACN"
+]
+},
 "news-AMAT-2026-11-10-amtech-intel-applied-materials-amd-and-k": {
 "created": "2026-11-10T00:01:32-05:00",
 "day": "2026-11-10",
@@ -2426,6 +2434,14 @@
 "COST"
 ]
 },
+"news-COST-2026-11-17-costco-just-gained-13-in-a-month-what-wi": {
+"created": "2026-11-17T00:02:25-05:00",
+"day": "2026-11-17",
+"kind": "news",
+"tickers": [
+"COST"
+]
+},
 "news-CRWD-2026-11-03-crowdstrike-extends-anthropic-s-claude-c": {
 "created": "2026-11-03T05:01:42-05:00",
 "day": "2026-11-03",
@@ -2454,6 +2470,14 @@
 "kind": "news",
 "tickers": [
 "CSCO"
+]
+},
+"news-CVX-2026-11-17-chevron-signs-3-year-agreement-with-upti": {
+"created": "2026-11-17T00:02:25-05:00",
+"day": "2026-11-17",
+"kind": "news",
+"tickers": [
+"CVX"
 ]
 },
 "news-DIS-2026-11-03-disney-eyes-thousands-of-layoffs-asks-ma": {
@@ -3121,6 +3145,14 @@
 "news-SNDK-2026-11-08-ai-stocks-like-nvidia-micron-and-sandisk": {
 "created": "2026-11-08T07:01:30-05:00",
 "day": "2026-11-08",
+"kind": "news",
+"tickers": [
+"SNDK"
+]
+},
+"news-SNDK-2026-11-17-why-is-sandisk-sndk-stock-sliding-after": {
+"created": "2026-11-17T00:02:25-05:00",
+"day": "2026-11-17",
 "kind": "news",
 "tickers": [
 "SNDK"
