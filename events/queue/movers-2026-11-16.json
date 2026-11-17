@@ -1,0 +1,120 @@
+{
+ "id": "movers-2026-11-16",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-17T09:01:11-05:00",
+ "expires": "2026-11-17T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Monday 16 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-17T09:00:09-05:00",
+ "pack": {
+  "session": "2026-11-16",
+  "moves": [
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "close": 28.58,
+    "change_pct": -12.33,
+    "our_stories": [
+     "/news/2026-11-16/3-cash-machine-stocks-we-like-and-1-wed-skip-cboe-newmont-ameriprise-and-ast-spacemobile/"
+    ]
+   },
+   {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "close": 64.76,
+    "change_pct": -9.55,
+    "our_stories": []
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 202.34,
+    "change_pct": -8.79,
+    "our_stories": [
+     "/news/2026-11-17/2-fast-grower-stocks-we-like-and-1-wed-skip-credo-astera-labs-and-ionq/"
+    ]
+   },
+   {
+    "ticker": "TSN",
+    "name": "Tyson Foods",
+    "close": 63.95,
+    "change_pct": 8.72,
+    "our_stories": [
+     "/daily/2026-11-17/",
+     "/news/2026-11-16/tyson-foods-tsn-misses-q4-profit-estimates-as-beef-losses-deepen/",
+     "/news/2026-11-16/stock-market-today-nvidia-drags-the-nasdaq-to-a-third-straight-loss-before-its-results/"
+    ]
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 809.11,
+    "change_pct": -8.58,
+    "our_stories": [
+     "/news/2026-11-16/sandisk-seagate-and-western-digital-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "close": 546.0,
+    "change_pct": -8.48,
+    "our_stories": [
+     "/news/2026-11-16/lumentum-coherent-and-arista-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "close": 26.45,
+    "change_pct": -8.41,
+    "our_stories": [
+     "/news/2026-11-17/2-fast-grower-stocks-we-like-and-1-wed-skip-credo-astera-labs-and-ionq/"
+    ]
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 120.71,
+    "change_pct": -8.21,
+    "our_stories": [
+     "/news/2026-11-17/2-fast-grower-stocks-we-like-and-1-wed-skip-credo-astera-labs-and-ionq/",
+     "/news/2026-11-16/lumentum-coherent-and-arista-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "CIEN",
+    "name": "Ciena",
+    "close": 257.56,
+    "change_pct": -8.19,
+    "our_stories": []
+   },
+   {
+    "ticker": "ARM",
+    "name": "Arm Holdings",
+    "close": 175.05,
+    "change_pct": -8.12,
+    "our_stories": []
+   },
+   {
+    "ticker": "MSTR",
+    "name": "Strategy",
+    "close": 103.03,
+    "change_pct": -7.7,
+    "our_stories": [
+     "/daily/2026-11-16/"
+    ]
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "close": 177.28,
+    "change_pct": -7.66,
+    "our_stories": []
+   }
+  ]
+ }
+}
