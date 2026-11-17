@@ -2056,6 +2056,14 @@
 "AAPL"
 ]
 },
+"news-AAPL-2026-11-17-popular-websites-subverted-in-bid-to-ste": {
+"created": "2026-11-17T01:01:58-05:00",
+"day": "2026-11-17",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
 "news-ACN-2026-11-10-qantas-to-move-corporate-roles-to-accent": {
 "created": "2026-11-10T04:01:05-05:00",
 "day": "2026-11-10",
@@ -2566,6 +2574,14 @@
 "IBM"
 ]
 },
+"news-IBM-2026-11-17-bluequbit-names-quantum-flywheel-awardee": {
+"created": "2026-11-17T01:01:58-05:00",
+"day": "2026-11-17",
+"kind": "news",
+"tickers": [
+"IBM"
+]
+},
 "news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
 "created": "2026-11-01T08:26:05-05:00",
 "day": "2026-11-01",
@@ -2626,6 +2642,14 @@
 "news-JPM-2026-11-13-why-jpmorgan-chase-jpm-is-back-in-the-sp": {
 "created": "2026-11-13T06:09:37-05:00",
 "day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"JPM"
+]
+},
+"news-JPM-2026-11-17-jpmorgan-chase-jpm-launches-after-hours": {
+"created": "2026-11-17T01:01:58-05:00",
+"day": "2026-11-17",
 "kind": "news",
 "tickers": [
 "JPM"
@@ -3307,6 +3331,14 @@
 "news-TSM-2026-11-16-nvidia-stock-shock-has-investors-looking": {
 "created": "2026-11-16T05:02:04-05:00",
 "day": "2026-11-16",
+"kind": "news",
+"tickers": [
+"TSM"
+]
+},
+"news-TSM-2026-11-17-samsung-elec-tsmc-shares-fall-after-us-a": {
+"created": "2026-11-17T01:01:58-05:00",
+"day": "2026-11-17",
 "kind": "news",
 "tickers": [
 "TSM"

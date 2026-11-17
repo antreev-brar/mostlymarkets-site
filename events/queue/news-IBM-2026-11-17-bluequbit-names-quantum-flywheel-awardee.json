@@ -1,0 +1,95 @@
+{
+ "id": "news-IBM-2026-11-17-bluequbit-names-quantum-flywheel-awardee",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-17T01:01:58-05:00",
+ "expires": "2026-11-17T11:01:58-05:00",
+ "tickers": [
+  "IBM"
+ ],
+ "headline_hint": "IBM: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-17T01:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "IBM Study: Chief AI Officers See Where AI Creates Value, but Few Control Investment Decisions",
+    "source": "PR Newswire",
+    "url": "https://www.tradingview.com/news/prnewswire:3673f15f7ba28:0-ibm-study-chief-ai-officers-see-where-ai-creates-value-but-few-control-investment-decisions/",
+    "published": "2026-11-17T00:01:00-05:00",
+    "also": []
+   },
+   {
+    "title": "IBM (IBM) Study Finds 63% of High-Impact CAIOs\u2019 AI Projects Deliver Measurable Outcomes",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:8a20fee472c0b:0-ibm-ibm-study-finds-63-of-high-impact-caios-ai-projects-deliver-measurable-outcomes/",
+    "published": "2026-11-17T00:01:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BlueQubit Names Quantum Flywheel Awardees, Backed by IBM, AWS, and NVIDIA Accelerated Computing",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUFcxaVo1TlpXNzhaVmNzOU9rVTZRNTBkeXRRRFBoRE1rZVljWDhCaFYxWjFDSGlKTV9DampaeUVXTGpmVWdRVnM1OTQ4azNhQVpRWXhta2pyYTc2UHlJRjR0XzZWQmEzdUpyS05WMGc2Y0FEZ0cwZ3FiSmNPcDFCeWczNXoxeExGbzMxb3Y4ZXJLWV9p?oc=5",
+    "published": "2026-11-16T22:25:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 242.51,
+   "change_pct": -1.87,
+   "prev_close": 242.51,
+   "time": "2026-11-16",
+   "mktcap": "229.201B",
+   "pe": 18.31,
+   "fpe": 19.07,
+   "yr_high": 332.46,
+   "yr_low": 199.19,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 242.32,
+    "change_pct": -0.08,
+    "time": "2026-11-16"
+   }
+  },
+  "facts": {
+   "ticker": "IBM",
+   "name": "IBM",
+   "date": "2026-11-13",
+   "close": 247.13,
+   "prev_close": 244.67,
+   "change_pct": 1.01,
+   "moves_over_5pct_last_year": 15,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 158,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 1.51
+   },
+   "ytd_pct": -16.57,
+   "return_1m_pct": 5.56,
+   "return_6m_pct": 12.69,
+   "return_1y_pct": -21.54,
+   "high_52w": {
+    "close": 329.23,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 205.77,
+    "date": "2026-07-22"
+   },
+   "pct_below_52w_high": 24.94,
+   "thousand_dollars_5y_ago_now": 2077,
+   "five_years_ago_date": "2021-11-12",
+   "volume": 2669242,
+   "volume_vs_20d_avg": 0.53,
+   "sentences": [
+    "IBM's shares moved 5% or more on 15 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 1.5%.",
+    "The stock is down 16.6% this year, and at $247.13 it sits 24.9% below its 52-week closing high of $329.23 from 2 June 2026.",
+    "$1,000 invested in IBM five years ago would be worth $2,077 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
