@@ -137,5 +137,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-17T12:27:04-05:00",
+ "reason": "covered by the 10:31 a.m. software basket story (salesforce-mongodb-and-sap-shares-slide-what-happened), which lists NOW"
 }
