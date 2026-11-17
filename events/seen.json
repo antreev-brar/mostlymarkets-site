@@ -4430,6 +4430,14 @@
 "kind": "earnings-recap",
 "outcome": "already-written"
 },
+"recap-JD-2026-11-17": {
+"created": "2026-11-17T08:01:25-05:00",
+"day": "2026-11-17",
+"kind": "earnings-recap",
+"tickers": [
+"JD"
+]
+},
 "recap-KDP-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
