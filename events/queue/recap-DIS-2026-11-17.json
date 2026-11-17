@@ -1,0 +1,109 @@
+{
+ "id": "recap-DIS-2026-11-17",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-17T06:45:15-05:00",
+ "expires": "2026-11-18T20:00:00-05:00",
+ "tickers": [
+  "DIS"
+ ],
+ "headline_hint": "Walt Disney (DIS) Sep/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-17T06:45:10-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "DIS",
+   "name": "Walt Disney Company (The)",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.67,
+   "n_estimates": 9,
+   "eps_last_year": 1.11,
+   "last_year_date": "11/13/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 205423935000.0
+  },
+  "quote": {
+   "price": 118.7,
+   "change_pct": -0.23,
+   "prev_close": 118.7,
+   "time": "2026-11-16",
+   "mktcap": "204.958B",
+   "pe": 24.49,
+   "fpe": 15.7,
+   "yr_high": 120.8,
+   "yr_low": 92.19,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 120.25,
+    "change_pct": 1.31,
+    "time": "2026-11-17T06:44:53.826-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DIS",
+   "name": "Walt Disney",
+   "date": "2026-11-16",
+   "close": 118.7,
+   "prev_close": 118.97,
+   "change_pct": -0.23,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 222,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -1.19
+   },
+   "ytd_pct": 4.33,
+   "return_1m_pct": 7.33,
+   "return_6m_pct": 14.23,
+   "return_1y_pct": 10.31,
+   "high_52w": {
+    "close": 119.65,
+    "date": "2026-11-11"
+   },
+   "low_52w": {
+    "close": 92.42,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 0.79,
+   "thousand_dollars_5y_ago_now": 747,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 12715410,
+   "volume_vs_20d_avg": 1.64,
+   "sentences": [
+    "Walt Disney's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 1.2%.",
+    "The stock is up 4.3% this year, and at $118.70 it sits 0.8% below its 52-week closing high of $119.65 from 11 November 2026.",
+    "$1,000 invested in Walt Disney five years ago would be worth $747 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Movies & Entertainment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-16/what-to-expect-from-disneys-dis-q4-earnings/",
+    "date": "2026-11-16",
+    "title": "What to Expect From Disney's (DIS) Q4 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "DIS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/disney-dis-plans-thousands-of-job-cuts-with-a-20-savings-target/",
+    "date": "2026-11-03",
+    "title": "Disney (DIS) Plans Thousands of Job Cuts With a 20% Savings Target",
+    "type": "brief",
+    "tickers": [
+     "DIS"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/0001744489-26-000065-index.htm",
+  "release_text": "events/packs/recap-DIS-2026-11-17.txt",
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm"
+ }
+}
