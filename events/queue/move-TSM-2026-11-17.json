@@ -1,0 +1,139 @@
+{
+ "id": "move-TSM-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-17T10:45:14-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "TSM"
+ ],
+ "headline_hint": "Why Taiwan Semiconductor (TSM) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:45:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 357.15,
+   "change_pct": -4.37,
+   "prev_close": 373.45,
+   "time": "2026-11-17T10:45:07.840-0500",
+   "mktcap": "1.852T",
+   "pe": 23.17,
+   "fpe": 17.4,
+   "yr_high": 487.47,
+   "yr_low": 266.82,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 372.46,
+    "change_pct": -0.27,
+    "time": "2026-11-17T09:30:00.271-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor",
+   "date": "2026-11-16",
+   "close": 373.45,
+   "prev_close": 398.73,
+   "change_pct": -6.34,
+   "moves_over_5pct_last_year": 20,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 9,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -10.78
+   },
+   "ytd_pct": 22.89,
+   "return_1m_pct": -9.49,
+   "return_6m_pct": -5.68,
+   "return_1y_pct": 32.34,
+   "high_52w": {
+    "close": 485.8,
+    "date": "2026-10-05"
+   },
+   "low_52w": {
+    "close": 275.06,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 23.13,
+   "thousand_dollars_5y_ago_now": 3163,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 19649730,
+   "volume_vs_20d_avg": 1.36,
+   "sentences": [
+    "Taiwan Semiconductor's shares moved 5% or more on 20 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 10.8%.",
+    "The stock is up 22.9% this year, and at $373.45 it sits 23.1% below its 52-week closing high of $485.80 from 5 October 2026.",
+    "$1,000 invested in Taiwan Semiconductor five years ago would be worth $3,163 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-17/",
+    "date": "2026-11-17",
+    "title": "Nvidia Reports Tonight at a One-Year Low, and Options Price a $335 Billion Swing",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "HD",
+     "TSN",
+     "JD",
+     "TSM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/stock-market-today-nvidia-drags-the-nasdaq-to-a-third-straight-loss-before-its-results/",
+    "date": "2026-11-16",
+    "title": "Stock Market Today: Nvidia Drags the Nasdaq to a Third Straight Loss Before Its Results",
+    "type": "market-wrap",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "TSM",
+     "AMD",
+     "TSN"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-16/",
+    "date": "2026-11-16",
+    "title": "Asia's Chip Rout Opens Nvidia's Week, and Morgan Stanley Goes 'Max Overweight' Anyway",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "TSM",
+     "AMD",
+     "MSTR",
+     "BIDU",
+     "MS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-14/tsmc-tsm-is-18-below-its-high-after-the-chip-rout-is-the-business-broken/",
+    "date": "2026-11-14",
+    "title": "TSMC (TSM) Is 18% Below Its High After the Chip Rout. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "TSM",
+     "NVDA",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/tsmc-tsm-rises-6-on-a-report-it-may-make-3d-memory-chips-for-nvidia/",
+    "date": "2026-11-08",
+    "title": "TSMC (TSM) Rose 6% on a Report It May Make 3D Memory Chips for Nvidia",
+    "type": "brief",
+    "tickers": [
+     "TSM",
+     "NVDA",
+     "MU"
+    ]
+   }
+  ]
+ }
+}

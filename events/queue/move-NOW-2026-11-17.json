@@ -1,0 +1,141 @@
+{
+ "id": "move-NOW-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 69,
+ "created": "2026-11-17T10:45:14-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "NOW"
+ ],
+ "headline_hint": "Why ServiceNow (NOW) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:45:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 92.86,
+   "change_pct": -6.56,
+   "prev_close": 99.37,
+   "time": "2026-11-17T10:45:04.915-0500",
+   "mktcap": "96.376B",
+   "pe": 66.9,
+   "fpe": 21.38,
+   "yr_high": 175.0,
+   "yr_low": 81.24,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 97.67,
+    "change_pct": -1.71,
+    "time": "2026-11-17T09:29:59.394-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NOW",
+   "name": "ServiceNow",
+   "date": "2026-11-16",
+   "close": 99.37,
+   "prev_close": 102.25,
+   "change_pct": -2.82,
+   "moves_over_5pct_last_year": 40,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 86,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-10",
+    "change_pct": -3.07
+   },
+   "ytd_pct": -35.13,
+   "return_1m_pct": -30.01,
+   "return_6m_pct": -3.92,
+   "return_1y_pct": -41.53,
+   "high_52w": {
+    "close": 173.5,
+    "date": "2025-12-11"
+   },
+   "low_52w": {
+    "close": 83.0,
+    "date": "2026-04-10"
+   },
+   "pct_below_52w_high": 42.73,
+   "thousand_dollars_5y_ago_now": 717,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 12700080,
+   "volume_vs_20d_avg": 0.64,
+   "sentences": [
+    "ServiceNow's shares moved 5% or more on 40 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 10 November 2026, when the stock fell 3.1%.",
+    "The stock is down 35.1% this year, and at $99.37 it sits 42.7% below its 52-week closing high of $173.50 from 11 December 2025.",
+    "$1,000 invested in ServiceNow five years ago would be worth $717 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Systems Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+    "date": "2026-11-17",
+    "title": "Salesforce, MongoDB and SAP Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRM",
+     "MDB",
+     "SAP",
+     "NOW",
+     "WDAY",
+     "INTU",
+     "TEAM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/atlassian-team-beats-q1-estimates-but-sinks-as-it-forecasts-slower-subscription-growth/",
+    "date": "2026-11-06",
+    "title": "Atlassian (TEAM) Beats Q1 Estimates but Sinks as It Forecasts Slower Subscription Growth",
+    "type": "earnings-recap",
+    "tickers": [
+     "TEAM",
+     "NOW",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/",
+    "date": "2026-11-01",
+    "title": "Bulls vs Bears on ServiceNow (NOW): Is AI Breaking the Software Model?",
+    "type": "viewpoints",
+    "tickers": [
+     "NOW",
+     "FTNT",
+     "FFIV",
+     "TWLO",
+     "CRM"
+    ]
+   },
+   {
+    "path": "/daily/2026-10-31/",
+    "date": "2026-10-31",
+    "title": "Intel's Worst Day Since 1974 Capped the Nasdaq's Worst Month Since March 2025",
+    "type": "daily",
+    "tickers": [
+     "INTC",
+     "GOOGL",
+     "NOW",
+     "RDDT",
+     "LLY"
+    ]
+   },
+   {
+    "path": "/news/2026-10-30/stocks-making-the-biggest-moves-this-week-reddit-servicenow-f5-fortinet-and-intel/",
+    "date": "2026-10-30",
+    "title": "Stocks Making the Biggest Moves This Week: Reddit, ServiceNow, F5, Fortinet and Intel",
+    "type": "movers",
+    "tickers": [
+     "RDDT",
+     "NOW",
+     "FFIV",
+     "FTNT",
+     "INTC"
+    ]
+   }
+  ]
+ }
+}

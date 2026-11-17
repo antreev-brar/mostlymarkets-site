@@ -1,0 +1,143 @@
+{
+ "id": "move-APP-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 66,
+ "created": "2026-11-17T10:45:14-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "APP"
+ ],
+ "headline_hint": "Why AppLovin (APP) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:45:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 392.83,
+   "change_pct": -5.39,
+   "prev_close": 415.22,
+   "time": "2026-11-17T10:45:01.459-0500",
+   "mktcap": "130.153B",
+   "pe": 26.44,
+   "fpe": 21.38,
+   "yr_high": 738.01,
+   "yr_low": 225.19,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 411.15,
+    "change_pct": -0.98,
+    "time": "2026-11-17T09:28:46.101-0500"
+   }
+  },
+  "facts": {
+   "ticker": "APP",
+   "name": "AppLovin",
+   "date": "2026-11-16",
+   "close": 415.22,
+   "prev_close": 409.1,
+   "change_pct": 1.5,
+   "moves_over_5pct_last_year": 56,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 175,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-13",
+    "change_pct": 3.92
+   },
+   "ytd_pct": -38.38,
+   "return_1m_pct": 56.02,
+   "return_6m_pct": -15.67,
+   "return_1y_pct": -25.34,
+   "high_52w": {
+    "close": 733.6,
+    "date": "2025-12-22"
+   },
+   "low_52w": {
+    "close": 228.5,
+    "date": "2026-10-30"
+   },
+   "pct_below_52w_high": 43.4,
+   "thousand_dollars_5y_ago_now": 3808,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 4548209,
+   "volume_vs_20d_avg": 0.79,
+   "sentences": [
+    "AppLovin's shares moved 5% or more on 56 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 November 2026, when the stock rose 3.9%.",
+    "The stock is down 38.4% this year, and at $415.22 it sits 43.4% below its 52-week closing high of $733.60 from 22 December 2025.",
+    "$1,000 invested in AppLovin five years ago would be worth $3,808 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Advertising",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-13/3-compounder-stocks-we-like-and-1-wed-skip-applovin-meta-monolithic-power-teradyne/",
+    "date": "2026-11-13",
+    "title": "3 Compounder Stocks We Like and 1 We'd Skip: AppLovin, Meta, Monolithic Power and Teradyne",
+    "type": "list",
+    "tickers": [
+     "APP",
+     "META",
+     "MPWR",
+     "TER"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-07/",
+    "date": "2026-11-07",
+    "title": "The AI Buyers Rose and Their Suppliers Sank in the Week the Nasdaq Hit a Correction",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMZN",
+     "MU",
+     "APP",
+     "VST"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/stocks-making-the-biggest-moves-this-week-applovin-lumentum-seagate-marvell-and-western-digital/",
+    "date": "2026-11-06",
+    "title": "Stocks Making the Biggest Moves This Week: AppLovin, Lumentum, Seagate, Marvell and Western Digital",
+    "type": "movers",
+    "tickers": [
+     "APP",
+     "LITE",
+     "STX",
+     "MRVL",
+     "WDC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/stock-market-today-nasdaq-sinks-5-5-into-a-correction-on-midterm-ai-fears/",
+    "date": "2026-11-05",
+    "title": "Stock Market Today: Nasdaq Sinks 5.5% Into a Correction on Midterm AI Fears",
+    "type": "market-wrap",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "MU",
+     "TSLA",
+     "APP"
+    ]
+   }
+  ]
+ }
+}

@@ -1055,6 +1055,14 @@
 "APH"
 ]
 },
+"move-APP-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"APP"
+]
+},
 "move-ARM-2026-10-30": {
 "created": "2026-10-30T14:51:25-04:00",
 "day": "2026-10-30",
@@ -1241,6 +1249,12 @@
 "COHR"
 ]
 },
+"move-CRM-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"outcome": "already-written"
+},
 "move-CRWV-2026-11-12": {
 "created": "2026-11-12T10:01:09-05:00",
 "day": "2026-11-12",
@@ -1425,6 +1439,14 @@
 "INTC"
 ]
 },
+"move-INTU-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"INTU"
+]
+},
 "move-IONQ-2026-11-13": {
 "created": "2026-11-13T10:01:17-05:00",
 "day": "2026-11-13",
@@ -1492,6 +1514,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "LRCX"
+]
+},
+"move-MDB-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"MDB"
 ]
 },
 "move-META-2026-11-09": {
@@ -1569,6 +1599,14 @@
 "MU"
 ]
 },
+"move-MU-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"MU"
+]
+},
 "move-NBIS-2026-11-11": {
 "created": "2026-11-11T10:01:13-05:00",
 "day": "2026-11-11",
@@ -1590,6 +1628,14 @@
 "day": "2026-11-16",
 "kind": "why-it-moved",
 "outcome": "already-written"
+},
+"move-NOW-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"NOW"
+]
 },
 "move-NVDA-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
@@ -1711,6 +1757,14 @@
 "RVTY"
 ]
 },
+"move-SAP-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"SAP"
+]
+},
 "move-SKYD-2026-11-10": {
 "created": "2026-11-10T10:01:22-05:00",
 "day": "2026-11-10",
@@ -1764,6 +1818,12 @@
 "tickers": [
 "SNDK"
 ]
+},
+"move-SNDK-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"outcome": "already-written"
 },
 "move-STX-2026-11-02": {
 "created": "2026-11-02T10:01:14-05:00",
@@ -1843,6 +1903,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "TSLA"
+]
+},
+"move-TSM-2026-11-17": {
+"created": "2026-11-17T10:45:14-05:00",
+"day": "2026-11-17",
+"kind": "why-it-moved",
+"tickers": [
+"TSM"
 ]
 },
 "move-TWLO-2026-11-10": {

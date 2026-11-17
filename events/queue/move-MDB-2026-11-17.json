@@ -1,0 +1,91 @@
+{
+ "id": "move-MDB-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 62,
+ "created": "2026-11-17T10:45:14-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "MDB"
+ ],
+ "headline_hint": "Why MongoDB (MDB) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:45:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 294.89,
+   "change_pct": -6.95,
+   "prev_close": 316.92,
+   "time": "2026-11-17T10:45:05.127-0500",
+   "mktcap": "23.755B",
+   "pe": 409.51,
+   "fpe": 42.08,
+   "yr_high": 473.1,
+   "yr_low": 215.68,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 313.58,
+    "change_pct": -1.05,
+    "time": "2026-11-17T09:27:39.854-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MDB",
+   "name": "MongoDB",
+   "date": "2026-11-16",
+   "close": 316.92,
+   "prev_close": 334.2,
+   "change_pct": -5.17,
+   "moves_over_5pct_last_year": 48,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 45,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -7.24
+   },
+   "ytd_pct": -24.49,
+   "return_1m_pct": -6.12,
+   "return_6m_pct": -3.96,
+   "return_1y_pct": -9.75,
+   "high_52w": {
+    "close": 472.29,
+    "date": "2026-08-13"
+   },
+   "low_52w": {
+    "close": 225.95,
+    "date": "2026-04-10"
+   },
+   "pct_below_52w_high": 32.9,
+   "thousand_dollars_5y_ago_now": 542,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 1111679,
+   "volume_vs_20d_avg": 0.82,
+   "sentences": [
+    "MongoDB's shares moved 5% or more on 48 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 7.2%.",
+    "The stock is down 24.5% this year, and at $316.92 it sits 32.9% below its 52-week closing high of $472.29 from 13 August 2026.",
+    "$1,000 invested in MongoDB five years ago would be worth $542 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+    "date": "2026-11-17",
+    "title": "Salesforce, MongoDB and SAP Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRM",
+     "MDB",
+     "SAP",
+     "NOW",
+     "WDAY",
+     "INTU",
+     "TEAM"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "move-INTU-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 68,
+ "created": "2026-11-17T10:45:14-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "INTU"
+ ],
+ "headline_hint": "Why Intuit (INTU) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:45:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 323.75,
+   "change_pct": -6.31,
+   "prev_close": 345.56,
+   "time": "2026-11-17T10:44:58.036-0500",
+   "mktcap": "86.518B",
+   "pe": 19.62,
+   "fpe": 13.52,
+   "yr_high": 682.27,
+   "yr_low": 252.84,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 339.0,
+    "change_pct": -1.9,
+    "time": "2026-11-17T09:28:30.019-0500"
+   }
+  },
+  "facts": {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "date": "2026-11-16",
+   "close": 345.56,
+   "prev_close": 341.7,
+   "change_pct": 1.13,
+   "moves_over_5pct_last_year": 27,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 173,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 3.46
+   },
+   "ytd_pct": -47.83,
+   "return_1m_pct": 6.28,
+   "return_6m_pct": -14.29,
+   "return_1y_pct": -46.85,
+   "high_52w": {
+    "close": 676.55,
+    "date": "2025-12-26"
+   },
+   "low_52w": {
+    "close": 255.07,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 48.92,
+   "thousand_dollars_5y_ago_now": 535,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 2251966,
+   "volume_vs_20d_avg": 0.81,
+   "sentences": [
+    "Intuit's shares moved 5% or more on 27 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 3.5%.",
+    "The stock is down 47.8% this year, and at $345.56 it sits 48.9% below its 52-week closing high of $676.55 from 26 December 2025.",
+    "$1,000 invested in Intuit five years ago would be worth $535 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+    "date": "2026-11-17",
+    "title": "Salesforce, MongoDB and SAP Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRM",
+     "MDB",
+     "SAP",
+     "NOW",
+     "WDAY",
+     "INTU",
+     "TEAM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/3-beaten-down-quality-stocks-we-like-and-1-wed-skip-intuit-vertiv-comfort-systems-oracle/",
+    "date": "2026-11-15",
+    "title": "3 Beaten-Down Quality Stocks We Like and 1 We'd Skip: Intuit, Vertiv, Comfort Systems and Oracle",
+    "type": "list",
+    "tickers": [
+     "INTU",
+     "VRT",
+     "FIX",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-10-28/3-beaten-down-quality-stocks-we-love-and-1-we-hate/",
+    "date": "2026-10-28",
+    "title": "3 Beaten-Down Quality Stocks We Love and 1 We Hate",
+    "type": "list",
+    "tickers": [
+     "ADBE",
+     "INTU",
+     "BKNG",
+     "NKE"
+    ]
+   }
+  ]
+ }
+}

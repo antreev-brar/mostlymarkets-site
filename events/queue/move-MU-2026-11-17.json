@@ -1,0 +1,141 @@
+{
+ "id": "move-MU-2026-11-17",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 74,
+ "created": "2026-11-17T10:45:14-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [
+  "MU"
+ ],
+ "headline_hint": "Why Micron Technology (MU) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-17T10:45:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 678.37,
+   "change_pct": -5.65,
+   "prev_close": 719.02,
+   "time": "2026-11-17T10:45:06.180-0500",
+   "mktcap": "767.523B",
+   "pe": 9.14,
+   "fpe": 3.86,
+   "yr_high": 1255.0,
+   "yr_low": 192.59,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 726.4,
+    "change_pct": 1.03,
+    "time": "2026-11-17T09:29:59.917-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "date": "2026-11-16",
+   "close": 719.02,
+   "prev_close": 778.31,
+   "change_pct": -7.62,
+   "moves_over_5pct_last_year": 77,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 34,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -17.46
+   },
+   "ytd_pct": 151.93,
+   "return_1m_pct": -18.19,
+   "return_6m_pct": 5.5,
+   "return_1y_pct": 203.45,
+   "high_52w": {
+    "close": 1213.56,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 201.37,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 40.75,
+   "thousand_dollars_5y_ago_now": 9361,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 27126660,
+   "volume_vs_20d_avg": 0.88,
+   "sentences": [
+    "Micron Technology's shares moved 5% or more on 77 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 17.5%.",
+    "The stock is up 151.9% this year, and at $719.02 it sits 40.8% below its 52-week closing high of $1,213.56 from 25 June 2026.",
+    "$1,000 invested in Micron Technology five years ago would be worth $9,361 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductors",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-17/",
+    "date": "2026-11-17",
+    "title": "Nvidia Reports Tonight at a One-Year Low, and Options Price a $335 Billion Swing",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "HD",
+     "TSN",
+     "JD",
+     "TSM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/stock-market-today-nvidia-drags-the-nasdaq-to-a-third-straight-loss-before-its-results/",
+    "date": "2026-11-16",
+    "title": "Stock Market Today: Nvidia Drags the Nasdaq to a Third Straight Loss Before Its Results",
+    "type": "market-wrap",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "TSM",
+     "AMD",
+     "TSN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/sandisk-seagate-and-western-digital-shares-slide-what-happened/",
+    "date": "2026-11-16",
+    "title": "Sandisk, Seagate and Western Digital Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "SNDK",
+     "STX",
+     "WDC",
+     "MU",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/bulls-vs-bears-on-ai-spending-semianalysis-cut-28-morgan-stanley-says-the-cycle-is-intact/",
+    "date": "2026-11-16",
+    "title": "Bulls vs Bears on AI Spending: SemiAnalysis Cut 28%, Morgan Stanley Says the Cycle Is Intact",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "AVGO",
+     "LRCX",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-micron-western-digital-analog-devices-and-amd/",
+    "date": "2026-11-16",
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip: Micron, Western Digital, Analog Devices and AMD",
+    "type": "list",
+    "tickers": [
+     "MU",
+     "WDC",
+     "ADI",
+     "AMD"
+    ]
+   }
+  ]
+ }
+}
