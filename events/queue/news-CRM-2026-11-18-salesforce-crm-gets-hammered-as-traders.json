@@ -1,0 +1,92 @@
+{
+ "id": "news-CRM-2026-11-18-salesforce-crm-gets-hammered-as-traders",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-18T01:01:24-05:00",
+ "expires": "2026-11-18T11:01:24-05:00",
+ "tickers": [
+  "CRM"
+ ],
+ "headline_hint": "Salesforce: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-18T01:00:25-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Salesforce (CRM) Gets Hammered as Traders Hit Sell Button",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHpqeFl6dHBnWmRSTEdRS3JrLW0tTVhQbEp2V1BZbkg5cHJackZDQ2FrQnFTdmdMRldpVVBYei1uVWdSZ3NaQU96Yy15dWdwV2JmSi1KTWRXc2x3VGZkWGZmMFNFdXpHdTNHSy1TUi1TeFVsajVSSEd2N3lOUVBHSDZreHlvd3NiSEFzMG5XUUxqUTBoc0Z2ZWp0eTMzS3RrMzAw?oc=5",
+    "published": "2026-11-17T23:56:00-05:00",
+    "also": []
+   },
+   {
+    "title": "CRM Stock Faces Worst Week Since April: Fresh Layoffs Reportedly Surface Across Salesforce Teams",
+    "source": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/crm-stock-faces-worst-week-since-april-fresh-layoffs-reportedly-surface-across-salesforce-teams/cNbXF3yR9hV",
+    "published": "2026-11-17T22:10:48-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 194.52,
+   "change_pct": -9.45,
+   "prev_close": 194.52,
+   "time": "2026-11-17",
+   "mktcap": "160.09B",
+   "pe": 17.72,
+   "fpe": 13.27,
+   "yr_high": 269.11,
+   "yr_low": 146.32,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 195.72,
+    "change_pct": 0.62,
+    "time": "2026-11-17"
+   }
+  },
+  "facts": {
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "date": "2026-11-16",
+   "close": 214.83,
+   "prev_close": 217.84,
+   "change_pct": -1.38,
+   "moves_over_5pct_last_year": 13,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 145,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-06",
+    "change_pct": -3.94
+   },
+   "ytd_pct": -18.9,
+   "return_1m_pct": -10.75,
+   "return_6m_pct": 19.7,
+   "return_1y_pct": -10.65,
+   "high_52w": {
+    "close": 266.23,
+    "date": "2025-12-29"
+   },
+   "low_52w": {
+    "close": 150.12,
+    "date": "2026-06-22"
+   },
+   "pct_below_52w_high": 19.31,
+   "thousand_dollars_5y_ago_now": 700,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 5887756,
+   "volume_vs_20d_avg": 0.87,
+   "sentences": [
+    "Salesforce's shares moved 5% or more on 13 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 6 November 2026, when the stock fell 3.9%.",
+    "The stock is down 18.9% this year, and at $214.83 it sits 19.3% below its 52-week closing high of $266.23 from 29 December 2025.",
+    "$1,000 invested in Salesforce five years ago would be worth $700 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-17/stock-market-today-salesforce-leads-a-software-rout-as-the-dow-drops-849-points/",
+   "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+   "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/"
+  ]
+ }
+}

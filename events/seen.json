@@ -2447,6 +2447,14 @@
 "BKNG"
 ]
 },
+"news-BKNG-2026-11-18-what-could-booking-holdings-bkng-ai-trav": {
+"created": "2026-11-18T01:01:24-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"BKNG"
+]
+},
 "news-BLK-2026-11-16-nio-stock-hits-6-year-low-blackrock-cuts": {
 "created": "2026-11-16T04:30:13-05:00",
 "day": "2026-11-16",
@@ -2626,6 +2634,14 @@
 "kind": "news",
 "tickers": [
 "COST"
+]
+},
+"news-CRM-2026-11-18-salesforce-crm-gets-hammered-as-traders": {
+"created": "2026-11-18T01:01:24-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"CRM"
 ]
 },
 "news-CRWD-2026-11-03-crowdstrike-extends-anthropic-s-claude-c": {
@@ -3220,6 +3236,12 @@
 "tickers": [
 "NVDA"
 ]
+},
+"news-NVDA-2026-11-18-business-as-usual-nvidia-s-kress-passes": {
+"created": "2026-11-18T01:01:24-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-NVDA-2026-11-18-nvidia-expands-manufacturing-capacity-wi": {
 "created": "2026-11-18T00:02:08-05:00",
