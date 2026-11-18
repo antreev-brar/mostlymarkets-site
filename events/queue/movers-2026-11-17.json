@@ -1,0 +1,125 @@
+{
+ "id": "movers-2026-11-17",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-18T09:01:05-05:00",
+ "expires": "2026-11-18T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Tuesday 17 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-18T09:00:07-05:00",
+ "pack": {
+  "session": "2026-11-17",
+  "moves": [
+   {
+    "ticker": "CRM",
+    "name": "Salesforce",
+    "close": 194.52,
+    "change_pct": -9.45,
+    "our_stories": [
+     "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+     "/daily/2026-11-18/",
+     "/news/2026-11-17/stock-market-today-salesforce-leads-a-software-rout-as-the-dow-drops-849-points/"
+    ]
+   },
+   {
+    "ticker": "JD",
+    "name": "JD.com",
+    "close": 25.43,
+    "change_pct": -7.66,
+    "our_stories": [
+     "/daily/2026-11-17/",
+     "/news/2026-11-17/jd-com-jd-misses-q3-revenue-estimates-at-309-6-billion-yuan-as-shoppers-hold-back/"
+    ]
+   },
+   {
+    "ticker": "INTU",
+    "name": "Intuit",
+    "close": 320.79,
+    "change_pct": -7.17,
+    "our_stories": [
+     "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+     "/news/2026-11-17/stock-market-today-salesforce-leads-a-software-rout-as-the-dow-drops-849-points/",
+     "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "close": 92.9,
+    "change_pct": -6.51,
+    "our_stories": [
+     "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+     "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "SBAC",
+    "name": "SBA Communications",
+    "close": 174.56,
+    "change_pct": -6.46,
+    "our_stories": []
+   },
+   {
+    "ticker": "MSTR",
+    "name": "Strategy",
+    "close": 96.5,
+    "change_pct": -6.34,
+    "our_stories": []
+   },
+   {
+    "ticker": "NKE",
+    "name": "Nike",
+    "close": 35.85,
+    "change_pct": -6.3,
+    "our_stories": [
+     "/news/2026-11-17/nike-nke-targets-5-billion-of-added-sales-and-a-12-to-14-margin-by-2031/"
+    ]
+   },
+   {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "close": 24.84,
+    "change_pct": -6.09,
+    "our_stories": [
+     "/news/2026-11-17/2-fast-grower-stocks-we-like-and-1-wed-skip-credo-astera-labs-and-ionq/"
+    ]
+   },
+   {
+    "ticker": "TEAM",
+    "name": "Atlassian",
+    "close": 140.98,
+    "change_pct": -5.98,
+    "our_stories": [
+     "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+     "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "FSLR",
+    "name": "First Solar",
+    "close": 152.97,
+    "change_pct": -5.84,
+    "our_stories": []
+   },
+   {
+    "ticker": "CCI",
+    "name": "Crown Castle",
+    "close": 84.16,
+    "change_pct": -5.82,
+    "our_stories": []
+   },
+   {
+    "ticker": "WDAY",
+    "name": "Workday",
+    "close": 182.8,
+    "change_pct": -5.8,
+    "our_stories": [
+     "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+     "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/"
+    ]
+   }
+  ]
+ }
+}
