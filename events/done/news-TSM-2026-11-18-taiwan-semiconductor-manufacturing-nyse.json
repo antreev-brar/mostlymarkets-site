@@ -97,5 +97,8 @@
    "/news/2026-11-17/micron-and-tsmc-shares-fall-what-happened/",
    "/news/2026-11-16/stock-market-today-nvidia-drags-the-nasdaq-to-a-third-straight-loss-before-its-results/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-18T06:31:53-05:00",
+ "reason": "covered: TSMC's move rides Nvidia's results, in our recap and today's Daily"
 }

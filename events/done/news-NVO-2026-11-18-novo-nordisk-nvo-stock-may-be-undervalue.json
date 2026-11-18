@@ -95,5 +95,8 @@
    "/news/2026-11-14/eli-lilly-lly-says-its-eloratzp-combination-cut-weight-23-3-in-a-phase-2-trial/",
    "/news/2026-11-08/eli-lilly-lly-is-worth-1-3-trillion-on-one-molecule-how-long-can-it-last/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-18T06:31:53-05:00",
+ "reason": "noise: valuation piece; foundation grant is not company news"
 }

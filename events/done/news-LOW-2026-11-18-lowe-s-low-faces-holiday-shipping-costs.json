@@ -88,5 +88,8 @@
    "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
    "/news/2026-11-17/home-depot-hd-tops-q3-estimates-and-names-cfo-richard-mcphail-ceo/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-18T06:31:53-05:00",
+ "reason": "noise: opinion piece; Lowe's Q3 results get their own recap and are in today's Daily"
 }

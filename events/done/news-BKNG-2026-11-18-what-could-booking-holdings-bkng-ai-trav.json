@@ -1,25 +1,18 @@
 {
- "id": "news-BKNG-2026-11-18-booking-holdings-bkng-stock-could-be-a-b",
+ "id": "news-BKNG-2026-11-18-what-could-booking-holdings-bkng-ai-trav",
  "kind": "news",
  "story_type": "brief",
  "priority": 58,
- "created": "2026-11-18T02:30:13-05:00",
- "expires": "2026-11-18T12:30:13-05:00",
+ "created": "2026-11-18T01:01:24-05:00",
+ "expires": "2026-11-18T11:01:24-05:00",
  "tickers": [
   "BKNG"
  ],
  "headline_hint": "Booking Holdings: <what just happened>",
  "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
- "quotes_asof": "2026-11-18T02:30:08-05:00",
+ "quotes_asof": "2026-11-18T01:00:25-05:00",
  "pack": {
   "headlines": [
-   {
-    "title": "Booking Holdings (BKNG) Stock Could Be A Bargain Despite AI Spending",
-    "source": "Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTlplaXFfS0dLbDRFWjRrVzAzY2N3eTg0MUJhLXdWNmFzZG5XWHFFb1FnQlhrcDVDSjZSek1kNnF1VzBtU2E1RFRtdTNvc3NqTWtFMFpvSEFacnB3T3c4TVdvNmFhTHpPNm1kMlk2ZGJLM0lNandyamhoZkxudHZ5MFhuM1JQOFl4UU5PUV93S3hGeGh0aV93ZFpkQlRSbVE?oc=5",
-    "published": "2026-11-18T01:14:00-05:00",
-    "also": []
-   },
    {
     "title": "What Could Booking Holdings (BKNG) AI Travel Push Mean For Its Stock?",
     "source": "Yahoo Finance",
@@ -95,5 +88,8 @@
    "/news/2026-11-02/what-to-expect-from-booking-holdings-bkng-q3-earnings/",
    "/news/2026-10-28/3-beaten-down-quality-stocks-we-love-and-1-we-hate/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-18T06:31:53-05:00",
+ "reason": "noise: opinion piece, no new Booking news"
 }

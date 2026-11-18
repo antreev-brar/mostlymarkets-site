@@ -88,5 +88,8 @@
    "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
    "/news/2026-11-01/bulls-vs-bears-on-servicenow-now-is-ai-breaking-the-software-model/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-18T06:31:53-05:00",
+ "reason": "covered: Tuesday's drop is in our why-it-moved and today's Daily; layoff report single-sourced"
 }
