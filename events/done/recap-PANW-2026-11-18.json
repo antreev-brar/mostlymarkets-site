@@ -151,5 +151,8 @@
   "sec_filing": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
   "release_text": "events/packs/recap-PANW-2026-11-18.txt",
   "release_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/ex991q127earningsrelease.htm"
- }
+ },
+ "outcome": "written",
+ "closed": "2026-11-18T17:29:18-05:00",
+ "story": "content/articles/2026-11-18-palo-alto-networks-panw-beats-q1-estimates-raises-its-forecast-and-buys-applied-compute.md"
 }
