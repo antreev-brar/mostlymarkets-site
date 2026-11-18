@@ -1,0 +1,124 @@
+{
+ "id": "move-NET-2026-11-18",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 65,
+ "created": "2026-11-18T10:15:16-05:00",
+ "expires": "2026-11-19T12:00:00-05:00",
+ "tickers": [
+  "NET"
+ ],
+ "headline_hint": "Why Cloudflare (NET) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-18T10:15:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 299.42,
+   "change_pct": 5.13,
+   "prev_close": 284.8,
+   "time": "2026-11-18T10:15:07.337-0500",
+   "mktcap": "107.31B",
+   "pe": -437.36,
+   "fpe": 187.84,
+   "yr_high": 370.35,
+   "yr_low": 158.83,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 288.94,
+    "change_pct": 1.45,
+    "time": "2026-11-18T09:30:00.523-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NET",
+   "name": "Cloudflare",
+   "date": "2026-11-17",
+   "close": 284.8,
+   "prev_close": 293.59,
+   "change_pct": -2.99,
+   "moves_over_5pct_last_year": 45,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 92,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -4.0
+   },
+   "ytd_pct": 44.46,
+   "return_1m_pct": -4.29,
+   "return_6m_pct": 37.76,
+   "return_1y_pct": 35.23,
+   "high_52w": {
+    "close": 360.93,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 160.19,
+    "date": "2026-02-23"
+   },
+   "pct_below_52w_high": 21.09,
+   "thousand_dollars_5y_ago_now": 1345,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 3174744,
+   "volume_vs_20d_avg": 0.74,
+   "sentences": [
+    "Cloudflare's shares moved 5% or more on 45 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 4.0%.",
+    "The stock is up 44.5% this year, and at $284.80 it sits 21.1% below its 52-week closing high of $360.93 from 9 October 2026.",
+    "$1,000 invested in Cloudflare five years ago would be worth $1,345 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/cloudflare-net-jumps-after-hours-as-q3-revenue-growth-speeds-up-to-39/",
+    "date": "2026-11-05",
+    "title": "Cloudflare (NET) Jumps After Hours as Q3 Revenue Growth Speeds Up to 39%",
+    "type": "earnings-recap",
+    "tickers": [
+     "NET"
+    ]
+   },
+   {
+    "path": "/news/2026-10-30/nebius-coreweave-and-cloudflare-shares-slide-what-happened/",
+    "date": "2026-10-30",
+    "title": "Nebius, CoreWeave and Cloudflare Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "NBIS",
+     "CRWV",
+     "NET"
+    ]
+   },
+   {
+    "path": "/news/2026-10-23/why-crowdstrike-crwd-stock-is-soaring-today/",
+    "date": "2026-10-23",
+    "title": "Why CrowdStrike (CRWD) Stock Is Soaring Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRWD",
+     "PANW",
+     "ZS",
+     "NET"
+    ]
+   }
+  ]
+ }
+}

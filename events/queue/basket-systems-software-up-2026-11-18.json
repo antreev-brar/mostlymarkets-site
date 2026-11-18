@@ -1,0 +1,112 @@
+{
+ "id": "basket-systems-software-up-2026-11-18",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-18T10:15:16-05:00",
+ "expires": "2026-11-18T23:59:00-05:00",
+ "tickers": [
+  "PANW",
+  "RBRK",
+  "CRWD"
+ ],
+ "headline_hint": "PANW, RBRK, CRWD shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-18T10:15:11-05:00",
+ "pack": {
+  "industry": "Systems Software",
+  "quotes": {
+   "PANW": {
+    "price": 331.61,
+    "change_pct": 7.22,
+    "prev_close": 309.29,
+    "time": "2026-11-18T10:15:07.580-0500",
+    "mktcap": "271.404B",
+    "pe": 651.37,
+    "fpe": 79.28,
+    "yr_high": 432.33,
+    "yr_low": 139.57,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 314.42,
+     "change_pct": 1.66,
+     "time": "2026-11-18T09:30:00.686-0500"
+    }
+   },
+   "RBRK": {
+    "price": 107.62,
+    "change_pct": 6.89,
+    "prev_close": 100.68,
+    "time": "2026-11-18T10:15:05.760-0500",
+    "mktcap": "22.31B",
+    "pe": -84.95,
+    "fpe": 215.67,
+    "yr_high": 139.92,
+    "yr_low": 42.25,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 102.5,
+     "change_pct": 1.81,
+     "time": "2026-11-18T08:47:34.411-0500"
+    }
+   },
+   "CRWD": {
+    "price": 231.0,
+    "change_pct": 5.2,
+    "prev_close": 219.58,
+    "time": "2026-11-18T10:15:00.394-0500",
+    "mktcap": "236.529B",
+    "pe": 4045.53,
+    "fpe": 163.37,
+    "yr_high": 286.99,
+    "yr_low": 85.68,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 223.99,
+     "change_pct": 2.01,
+     "time": "2026-11-18T09:30:00.415-0500"
+    }
+   }
+  },
+  "facts": {
+   "PANW": {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "date": "2026-11-17",
+    "close": 309.29,
+    "prev_close": 316.09,
+    "change_pct": -2.15,
+    "moves_over_5pct_last_year": 30,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 106,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-12",
+     "change_pct": -3.53
+    },
+    "ytd_pct": 67.91,
+    "return_1m_pct": -10.85,
+    "return_6m_pct": 28.8,
+    "return_1y_pct": 50.69,
+    "high_52w": {
+     "close": 419.91,
+     "date": "2026-10-06"
+    },
+    "low_52w": {
+     "close": 141.67,
+     "date": "2026-02-24"
+    },
+    "pct_below_52w_high": 26.34,
+    "thousand_dollars_5y_ago_now": 3612,
+    "five_years_ago_date": "2021-11-17",
+    "volume": 7453928,
+    "volume_vs_20d_avg": 1.22,
+    "sentences": [
+     "Palo Alto Networks's shares moved 5% or more on 30 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 3.5%.",
+     "The stock is up 67.9% this year, and at $309.29 it sits 26.3% below its 52-week closing high of $419.91 from 6 October 2026.",
+     "$1,000 invested in Palo Alto Networks five years ago would be worth $3,612 today."
+    ]
+   }
+  }
+ }
+}

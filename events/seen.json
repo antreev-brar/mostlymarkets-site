@@ -237,6 +237,16 @@
 "ZS"
 ]
 },
+"basket-systems-software-up-2026-11-18": {
+"created": "2026-11-18T10:15:16-05:00",
+"day": "2026-11-18",
+"kind": "basket",
+"tickers": [
+"PANW",
+"RBRK",
+"CRWD"
+]
+},
 "basket-technology-hardware-storage-peripherals-down-2026-11-12": {
 "created": "2026-11-12T10:15:13-05:00",
 "day": "2026-11-12",
@@ -1240,6 +1250,14 @@
 "BE"
 ]
 },
+"move-BHP-2026-11-18": {
+"created": "2026-11-18T10:15:16-05:00",
+"day": "2026-11-18",
+"kind": "why-it-moved",
+"tickers": [
+"BHP"
+]
+},
 "move-CIEN-2026-11-13": {
 "created": "2026-11-13T10:01:17-05:00",
 "day": "2026-11-13",
@@ -1708,6 +1726,14 @@
 "NEM"
 ]
 },
+"move-NET-2026-11-18": {
+"created": "2026-11-18T10:15:16-05:00",
+"day": "2026-11-18",
+"kind": "why-it-moved",
+"tickers": [
+"NET"
+]
+},
 "move-NOW-2026-11-17": {
 "created": "2026-11-17T10:45:14-05:00",
 "day": "2026-11-17",
@@ -2031,6 +2057,12 @@
 "tickers": [
 "UNH"
 ]
+},
+"move-UNH-2026-11-18": {
+"created": "2026-11-18T10:15:16-05:00",
+"day": "2026-11-18",
+"kind": "why-it-moved",
+"outcome": "already-written"
 },
 "move-WDC-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
