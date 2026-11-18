@@ -1,0 +1,629 @@
+{
+ "id": "wrap-2026-11-18",
+ "kind": "market-wrap",
+ "story_type": "market-wrap",
+ "priority": 85,
+ "created": "2026-11-18T16:15:15-05:00",
+ "expires": "2026-11-18T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stock Market Today: <the story of the day>",
+ "instructions": "The close. Use pack.markets for the numbers table. Link today's stories where they fit.",
+ "quotes_asof": "2026-11-18T16:15:10-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7323.63,
+    "change": -16.9,
+    "change_pct": -0.23,
+    "prev_close": 7340.53,
+    "open": 7355.69,
+    "high": 7367.68,
+    "low": 7285.76,
+    "volume": 0,
+    "time": "2026-11-18T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 24429.885,
+    "change": 101.502,
+    "change_pct": 0.42,
+    "prev_close": 24328.383,
+    "open": 24486.175,
+    "high": 24538.779,
+    "low": 24225.304,
+    "volume": 1458151035,
+    "time": "2026-11-18T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 50198.17,
+    "change": -561.25,
+    "change_pct": -1.11,
+    "prev_close": 50759.42,
+    "open": 50627.36,
+    "high": 50637.7,
+    "low": 50029.35,
+    "volume": 684064522,
+    "time": "2026-11-18T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2714.664,
+    "change": 12.793,
+    "change_pct": 0.47,
+    "prev_close": 2701.871,
+    "open": 2698.914,
+    "high": 2736.441,
+    "low": 2697.711,
+    "volume": 0,
+    "time": "2026-11-18T15:59:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 24.56,
+    "change": -0.9,
+    "change_pct": -3.53,
+    "prev_close": 25.46,
+    "open": 24.22,
+    "high": 26.26,
+    "low": 23.45,
+    "volume": 0,
+    "time": "2026-11-18T16:15:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 5.068,
+    "change": -0.035,
+    "change_pct": -0.6859,
+    "prev_close": 5.103,
+    "open": 5.125,
+    "high": 5.129,
+    "low": 5.052,
+    "volume": 0,
+    "time": "2026-11-18T16:14:27.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.802,
+    "change": 0.013,
+    "change_pct": -0.0273,
+    "prev_close": 4.789,
+    "open": 4.826,
+    "high": 4.836,
+    "low": 4.772,
+    "volume": 0,
+    "time": "2026-11-18T16:11:36.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 82.74,
+    "change": -3.27,
+    "change_pct": -3.8,
+    "prev_close": 86.01,
+    "open": 85.75,
+    "high": 85.95,
+    "low": 81.97,
+    "volume": 78159,
+    "time": "2026-11-18T16:05:04.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 91.48,
+    "change": -1.66,
+    "change_pct": -1.78,
+    "prev_close": 93.14,
+    "open": 93.36,
+    "high": 93.54,
+    "low": 90.34,
+    "volume": 256400,
+    "time": "2026-11-18T22:05:07.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3728.9,
+    "change": -135.3,
+    "change_pct": -3.5,
+    "prev_close": 3864.2,
+    "open": 3855.2,
+    "high": 3859.3,
+    "low": 3721.8,
+    "volume": 238227,
+    "time": "2026-11-18T16:05:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3721.8,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 62371.22,
+    "change": -1505.82,
+    "change_pct": -2.36,
+    "prev_close": 63877.04,
+    "open": 63886.07,
+    "high": 65182.79,
+    "low": 62220.84,
+    "volume": 0,
+    "time": "2026-11-18T16:15:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 97915.9,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 103.794,
+    "change": 0.309,
+    "change_pct": 0.3,
+    "prev_close": 103.485,
+    "open": 103.664,
+    "high": 103.911,
+    "low": 103.586,
+    "volume": 0,
+    "time": "2026-11-18T16:15:09.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 103.91,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "top_moves": [
+   {
+    "ticker": "HUM",
+    "name": "Humana",
+    "change_pct": -12.98,
+    "price": 385.78
+   },
+   {
+    "ticker": "UNH",
+    "name": "UnitedHealth",
+    "change_pct": -10.21,
+    "price": 349.91
+   },
+   {
+    "ticker": "ELV",
+    "name": "Elevance Health",
+    "change_pct": -7.63,
+    "price": 400.84
+   },
+   {
+    "ticker": "CNC",
+    "name": "Centene",
+    "change_pct": -7.03,
+    "price": 67.45
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport-McMoRan",
+    "change_pct": -6.96,
+    "price": 51.45
+   },
+   {
+    "ticker": "DVA",
+    "name": "DaVita",
+    "change_pct": -6.48,
+    "price": 161.79
+   },
+   {
+    "ticker": "AEM",
+    "name": "Agnico Eagle Mines",
+    "change_pct": -6.44,
+    "price": 161.86
+   },
+   {
+    "ticker": "MSTR",
+    "name": "Strategy",
+    "change_pct": -6.4,
+    "price": 90.32
+   },
+   {
+    "ticker": "NEM",
+    "name": "Newmont",
+    "change_pct": -6.05,
+    "price": 104.53
+   },
+   {
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "change_pct": -5.52,
+    "price": 343.7
+   },
+   {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "change_pct": 9.9,
+    "price": 339.92
+   },
+   {
+    "ticker": "GNRC",
+    "name": "Generac",
+    "change_pct": 9.87,
+    "price": 205.45
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "change_pct": 9.26,
+    "price": 110.0
+   },
+   {
+    "ticker": "AKAM",
+    "name": "Akamai Technologies",
+    "change_pct": 8.34,
+    "price": 91.7
+   },
+   {
+    "ticker": "TJX",
+    "name": "TJX Companies",
+    "change_pct": 8.05,
+    "price": 140.3
+   },
+   {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "change_pct": 7.95,
+    "price": 237.03
+   },
+   {
+    "ticker": "ZS",
+    "name": "Zscaler",
+    "change_pct": 6.83,
+    "price": 197.83
+   },
+   {
+    "ticker": "LULU",
+    "name": "Lululemon Athletica",
+    "change_pct": 6.38,
+    "price": 110.78
+   },
+   {
+    "ticker": "TTWO",
+    "name": "Take-Two Interactive",
+    "change_pct": 6.22,
+    "price": 216.61
+   },
+   {
+    "ticker": "FTNT",
+    "name": "Fortinet",
+    "change_pct": 5.87,
+    "price": 131.81
+   }
+  ],
+  "todays_stories": [
+   {
+    "path": "/news/2026-11-18/2-stocks-we-like-after-their-earnings-and-1-wed-skip-nvidia-disney-and-tyson-foods/",
+    "date": "2026-11-18",
+    "title": "2 Stocks We Like After Their Earnings and 1 We'd Skip: Nvidia, Disney and Tyson Foods",
+    "type": "list",
+    "tickers": [
+     "NVDA",
+     "DIS",
+     "TSN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/3-momentum-stocks-we-like-and-1-wed-skip-regeneron-agilent-allegion-and-thermo-fisher/",
+    "date": "2026-11-18",
+    "title": "3 Momentum Stocks We Like and 1 We'd Skip: Regeneron, Agilent, Allegion and Thermo Fisher",
+    "type": "list",
+    "tickers": [
+     "REGN",
+     "A",
+     "ALLE",
+     "TMO"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/3-under-50-stocks-wed-skip-and-1-we-like-toast-nike-gamestop-and-las-vegas-sands/",
+    "date": "2026-11-18",
+    "title": "3 Under $50 Stocks We'd Skip and 1 We Like: Toast, Nike, GameStop and Las Vegas Sands",
+    "type": "list",
+    "tickers": [
+     "TOST",
+     "NKE",
+     "GME",
+     "LVS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/agnico-eagle-freeport-mcmoran-and-newmont-shares-slide-what-happened/",
+    "date": "2026-11-18",
+    "title": "Agnico Eagle, Freeport-McMoRan and Newmont Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AEM",
+     "FCX",
+     "NEM",
+     "BHP",
+     "RIO"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/alphabets-googl-waymo-pulls-its-robotaxis-off-us-freeways-after-a-california-ban/",
+    "date": "2026-11-18",
+    "title": "Alphabet's (GOOGL) Waymo Pulls Its Robotaxis Off US Freeways After a California Ban",
+    "type": "brief",
+    "tickers": [
+     "GOOGL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/applovin-app-is-in-talks-to-buy-ad-tech-firm-criteo-reuters-reports/",
+    "date": "2026-11-18",
+    "title": "AppLovin (APP) Is in Talks to Buy Ad-Tech Firm Criteo, Reuters Reports",
+    "type": "brief",
+    "tickers": [
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/bristol-myers-squibb-bmy-shows-first-phase-3-data-for-cobenfy-in-alzheimers-psychosis/",
+    "date": "2026-11-18",
+    "title": "Bristol Myers Squibb (BMY) Shows First Phase 3 Data for Cobenfy in Alzheimer's Psychosis",
+    "type": "brief",
+    "tickers": [
+     "BMY"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/comfort-systems-usa-fix-shares-rise-after-it-expands-its-buyback-to-1-million-shares/",
+    "date": "2026-11-18",
+    "title": "Comfort Systems USA (FIX) Shares Rise After It Expands Its Buyback to 1 Million Shares",
+    "type": "why-it-moved",
+    "tickers": [
+     "FIX",
+     "VRT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes-and-flag-ai-as-an-inflation-risk/",
+    "date": "2026-11-18",
+    "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes and Flag AI as an Inflation Risk",
+    "type": "brief",
+    "tickers": []
+   },
+   {
+    "path": "/news/2026-11-18/lowes-low-raises-its-sales-forecast-to-92-5-billion-but-tariff-refunds-made-its-beat/",
+    "date": "2026-11-18",
+    "title": "Lowe's (LOW) Raises Its Sales Forecast to $92.5 Billion, but Tariff Refunds Made Its Beat",
+    "type": "brief",
+    "tickers": [
+     "LOW",
+     "HD"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-18/",
+    "date": "2026-11-18",
+    "title": "Nvidia's $130 Billion Forecast Lifts Futures After Software Led a Fourth Straight Loss",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRM",
+     "MSFT",
+     "CRWV",
+     "NBIS",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/",
+    "date": "2026-11-18",
+    "title": "Palo Alto Networks, CrowdStrike and Rubrik Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "PANW",
+     "CRWD",
+     "RBRK",
+     "NET",
+     "ZS",
+     "FTNT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/pfizer-pfe-licenses-starnas-in-vivo-car-t-programs-in-a-deal-worth-up-to-2-6-billion/",
+    "date": "2026-11-18",
+    "title": "Pfizer (PFE) Licenses Starna's In Vivo CAR-T Programs in a Deal Worth Up to $2.6 Billion",
+    "type": "brief",
+    "tickers": [
+     "PFE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/stocks-making-the-biggest-moves-yesterday-salesforce-jd-com-intuit-servicenow-and-nike/",
+    "date": "2026-11-18",
+    "title": "Stocks Making the Biggest Moves Yesterday: Salesforce, JD.com, Intuit, ServiceNow and Nike",
+    "type": "movers",
+    "tickers": [
+     "CRM",
+     "JD",
+     "INTU",
+     "NOW",
+     "NKE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/take-two-ttwo-shares-jump-as-gta-vi-preorders-top-1-5-billion-a-day-before-launch/",
+    "date": "2026-11-18",
+    "title": "Take-Two (TTWO) Shares Jump as GTA VI Preorders Top $1.5 Billion a Day Before Launch",
+    "type": "why-it-moved",
+    "tickers": [
+     "TTWO"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/target-tgt-beats-q3-estimates-as-traffic-jumps-5-and-raises-its-forecast/",
+    "date": "2026-11-18",
+    "title": "Target (TGT) Beats Q3 Estimates as Traffic Jumps 5% and Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "TGT",
+     "LOW",
+     "HD",
+     "WMT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/textron-txt-agrees-to-sell-its-industrial-unit-for-1-2-billion/",
+    "date": "2026-11-18",
+    "title": "Textron (TXT) Agrees to Sell Its Industrial Unit for $1.2 Billion",
+    "type": "brief",
+    "tickers": [
+     "TXT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/the-debate-over-decembers-hike-waller-says-50-williams-says-no-dramatic-action/",
+    "date": "2026-11-18",
+    "title": "The Debate Over December's Hike: Waller Says 50, Williams Says No 'Dramatic Action'",
+    "type": "viewpoints",
+    "tickers": [
+     "AEM",
+     "NEM",
+     "LEN",
+     "DHI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/tjx-companies-tjx-q3-marmaxx-steadies-shares-jump-6-before-the-open/",
+    "date": "2026-11-18",
+    "title": "TJX Companies (TJX) Q3: Marmaxx Steadies, Shares Jump 6% Before the Open",
+    "type": "earnings-recap",
+    "tickers": [
+     "TJX"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/unitedhealth-humana-and-centene-shares-slide-what-happened/",
+    "date": "2026-11-18",
+    "title": "UnitedHealth, Humana and Centene Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "UNH",
+     "HUM",
+     "CNC",
+     "ELV",
+     "CVS",
+     "CI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/unitedhealth-unh-lost-14-in-two-days-on-an-audit-rule-is-the-business-broken/",
+    "date": "2026-11-18",
+    "title": "UnitedHealth (UNH) Lost 14% in Two Days on an Audit Rule. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "UNH",
+     "HUM",
+     "ELV",
+     "CVS",
+     "CI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+    "date": "2026-11-18",
+    "title": "Wall Street Is Betting AI Will Empty Software's Seats. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "CRM",
+     "NOW",
+     "INTU",
+     "ADBE",
+     "WDAY",
+     "TEAM",
+     "MSFT"
+    ]
+   }
+  ],
+  "reporting_after_close": [
+   "PANW",
+   "P"
+  ]
+ }
+}
