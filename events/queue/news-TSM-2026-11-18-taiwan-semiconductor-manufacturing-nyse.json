@@ -1,0 +1,101 @@
+{
+ "id": "news-TSM-2026-11-18-taiwan-semiconductor-manufacturing-nyse",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-18T00:02:08-05:00",
+ "expires": "2026-11-18T10:02:08-05:00",
+ "tickers": [
+  "TSM"
+ ],
+ "headline_hint": "Taiwan Semiconductor: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-18T00:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Taiwan Semiconductor Shares Jump 4.66% After Hours - Taiwan Semiconductor (NYSE:TSM), NVIDIA (NASDAQ:NVDA",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNFJtektvbGxSYVJkOWgtWWtxalpCR1p5VkVySWJHRFZ4UWNsRllyWVNVVWszOWtoXzJmZTFib2lPZHlfLTlsRW12Q3lfczNsYWRXU2pHMzJheUVKTXVsV09vbm8tV1pHdFNwYS0yMW5yX0J2N0xIVXprNTdIVlJldkM2UHlnS3VtWTRtb3F0Z0RKQWNKV2tMN2NrSnhTZ2hwa1hwc1U4VFBjSmZCSHF2bUo1cy1xRmt4Z3ZUWE9n?oc=5",
+    "published": "2026-11-17T22:49:23-05:00",
+    "also": []
+   },
+   {
+    "title": "Taiwan Semiconductor (TSM) Stock Trending After Nvidia Posts Strong Q3 Results: What You Should Know",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:af25d63ce094b:0-taiwan-semiconductor-tsm-stock-trending-after-nvidia-posts-strong-q3-results-what-you-should-know/",
+    "published": "2026-11-17T22:49:23-05:00",
+    "also": []
+   },
+   {
+    "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRGhfT1h2VHNtYVlES2FYa3lSdm40WmcxQ3d3TGl2bG9xZG5KbHFYeHlqZ044TEFjUHNZZDBvVjZxc3ZxdGxKQ18wc1lXNjVXZzItMUt2Ym50X1lfWk84eXJneUpZYUtIVEdwZFN0SlBXbnpPUWdnNmxPUGVBRDI2amdTUDdOU1Naal9ocl9iSlQ2TkJkVl81ZGlnaTFpcWRFX05XZDl2VzVhcXE1?oc=5",
+    "published": "2026-11-17T22:11:00-05:00",
+    "also": [
+     "Investing.com"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 359.69,
+   "change_pct": -3.68,
+   "prev_close": 359.69,
+   "time": "2026-11-17",
+   "mktcap": "1.866T",
+   "pe": 23.33,
+   "fpe": 17.52,
+   "yr_high": 487.47,
+   "yr_low": 266.82,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 376.44,
+    "change_pct": 4.66,
+    "time": "2026-11-17"
+   }
+  },
+  "facts": {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor",
+   "date": "2026-11-16",
+   "close": 373.45,
+   "prev_close": 398.73,
+   "change_pct": -6.34,
+   "moves_over_5pct_last_year": 20,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 9,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -10.78
+   },
+   "ytd_pct": 22.89,
+   "return_1m_pct": -9.49,
+   "return_6m_pct": -5.68,
+   "return_1y_pct": 32.34,
+   "high_52w": {
+    "close": 485.8,
+    "date": "2026-10-05"
+   },
+   "low_52w": {
+    "close": 275.06,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 23.13,
+   "thousand_dollars_5y_ago_now": 3163,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 19649730,
+   "volume_vs_20d_avg": 1.36,
+   "sentences": [
+    "Taiwan Semiconductor's shares moved 5% or more on 20 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 10.8%.",
+    "The stock is up 22.9% this year, and at $373.45 it sits 23.1% below its 52-week closing high of $485.80 from 5 October 2026.",
+    "$1,000 invested in Taiwan Semiconductor five years ago would be worth $3,163 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-17/",
+   "/news/2026-11-17/micron-and-tsmc-shares-fall-what-happened/",
+   "/news/2026-11-16/stock-market-today-nvidia-drags-the-nasdaq-to-a-third-straight-loss-before-its-results/"
+  ]
+ }
+}

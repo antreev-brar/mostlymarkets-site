@@ -2881,6 +2881,14 @@
 "LOW"
 ]
 },
+"news-LOW-2026-11-18-lowe-s-low-faces-holiday-shipping-costs": {
+"created": "2026-11-18T00:02:08-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"LOW"
+]
+},
 "news-MA-2026-11-17-indusind-bank-mastercard-move-collaborat": {
 "created": "2026-11-17T02:02:00-05:00",
 "day": "2026-11-17",
@@ -3213,6 +3221,12 @@
 "NVDA"
 ]
 },
+"news-NVDA-2026-11-18-nvidia-expands-manufacturing-capacity-wi": {
+"created": "2026-11-18T00:02:08-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
 "created": "2026-11-04T05:01:57-05:00",
 "day": "2026-11-04",
@@ -3334,6 +3348,14 @@
 "kind": "news",
 "tickers": [
 "SBUX"
+]
+},
+"news-SCHW-2026-11-18-how-investors-may-respond-to-schwab-stoc": {
+"created": "2026-11-18T00:02:08-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"SCHW"
 ]
 },
 "news-SHEL-2026-11-02-shell-signs-long-term-sustainable-aviati": {
@@ -3530,6 +3552,14 @@
 "TSM"
 ]
 },
+"news-TSM-2026-11-18-taiwan-semiconductor-manufacturing-nyse": {
+"created": "2026-11-18T00:02:08-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"TSM"
+]
+},
 "news-TTWO-2026-11-10-take-two-stock-jumps-as-ceo-calls-the-ne": {
 "created": "2026-11-10T06:15:12-05:00",
 "day": "2026-11-10",
@@ -3549,6 +3579,14 @@
 "news-UBS-2026-11-08-ubs-ceo-says-ai-investors-were-pricing-p": {
 "created": "2026-11-08T22:01:44-05:00",
 "day": "2026-11-08",
+"kind": "news",
+"tickers": [
+"UBS"
+]
+},
+"news-UBS-2026-11-18-ubs-group-swx-ubsg-dropped-so-what-is-dr": {
+"created": "2026-11-18T00:02:08-05:00",
+"day": "2026-11-18",
 "kind": "news",
 "tickers": [
 "UBS"
@@ -3585,6 +3623,12 @@
 "tickers": [
 "V"
 ]
+},
+"news-V-2026-11-18-visa-says-co-expands-agentic-ready-to-he": {
+"created": "2026-11-18T00:02:08-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"outcome": "already-written"
 },
 "preview-AAPL-2026-11-02": {
 "created": "2026-11-01T19:46:23-05:00",

@@ -1,0 +1,95 @@
+{
+ "id": "news-UBS-2026-11-18-ubs-group-swx-ubsg-dropped-so-what-is-dr",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-18T00:02:08-05:00",
+ "expires": "2026-11-18T10:02:08-05:00",
+ "tickers": [
+  "UBS"
+ ],
+ "headline_hint": "UBS: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-18T00:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "UBS Group (SWX:UBSG) Dropped, So What Is Driving Attention Now?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVkxSU3JhaVEtUEVUZzY3RHVPa3pQVW5nbHViZFBhTE5rMllnYTM1dy0xQ05jNHoyb0ZybXh6UkttM0o5WGJSeFM2dDFzeTJhamlvWVJCZTIzWlV4ZlRYVFJCa05tZVUxVUc2eTIzVVBaVXpRck9BdlhlZW1BTUhrMzNhQTBBVnFCWWdQMzlkU002c0t1a2c?oc=5",
+    "published": "2026-11-17T22:45:55-05:00",
+    "also": []
+   },
+   {
+    "title": "UBS Group (SWX:UBSG) Flags AI Agent Threat As Ermotti Lays Out AI Plan",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE14dGJCazJoRmlsQzB1MFdrNW40UFFCVjcwRlRYbjE2T0h6WFN6d0U4eG5LNGZVU3p6dnpUeWVSWWFZV29SZnpTU2RiN2doR19La28wR2lWZ1dXMVAwRGd2T1ZlMkk1aTV1enB3Vi1uWGY3WUt1LXROZmlYZ1NQUQ?oc=5",
+    "published": "2026-11-17T21:18:00-05:00",
+    "also": []
+   },
+   {
+    "title": "UBS Group (SWX:UBSG) Stock Could Be Cheap As Caution Tempers Value",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ2wzdEp6VVJJWEdUNGxOdmM2NnBLLTdIUUlDN2c1d2FqZVI3c1JFanFKU2JZc2djMHVqQ1lISE9pZ1hkMUNwc3BMMDU0MzJJMXo5bjR5SmZ0U25RSWlnVzlKMFh6X00zbUxKSkMyOGdjbTlkRWJqenppZlN4U2tjYXl0d0l4WmdqWERrOWF0YV9rZ1k?oc=5",
+    "published": "2026-11-17T20:15:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 46.56,
+   "change_pct": -2.21,
+   "prev_close": 46.56,
+   "time": "2026-11-17",
+   "mktcap": "152.615B",
+   "pe": 15.2,
+   "fpe": 26.11,
+   "yr_high": 55.99,
+   "yr_low": 36.3,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 46.56,
+    "change_pct": 0.0,
+    "time": "2026-11-17"
+   }
+  },
+  "facts": {
+   "ticker": "UBS",
+   "name": "UBS",
+   "date": "2026-11-16",
+   "close": 47.61,
+   "prev_close": 48.31,
+   "change_pct": -1.45,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 98,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -1.9
+   },
+   "ytd_pct": 2.81,
+   "return_1m_pct": -0.15,
+   "return_6m_pct": 2.85,
+   "return_1y_pct": 21.86,
+   "high_52w": {
+    "close": 55.72,
+    "date": "2026-08-31"
+   },
+   "low_52w": {
+    "close": 36.41,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 14.55,
+   "thousand_dollars_5y_ago_now": 2644,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 1535839,
+   "volume_vs_20d_avg": 0.78,
+   "sentences": [
+    "UBS's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 1.9%.",
+    "The stock is up 2.8% this year, and at $47.61 it sits 14.6% below its 52-week closing high of $55.72 from 31 August 2026.",
+    "$1,000 invested in UBS five years ago would be worth $2,644 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
