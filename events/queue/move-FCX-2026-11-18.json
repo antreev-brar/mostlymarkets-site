@@ -1,0 +1,87 @@
+{
+ "id": "move-FCX-2026-11-18",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-18T10:01:06-05:00",
+ "expires": "2026-11-19T12:00:00-05:00",
+ "tickers": [
+  "FCX"
+ ],
+ "headline_hint": "Why Freeport-McMoRan (FCX) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-18T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 51.41,
+   "change_pct": -7.03,
+   "prev_close": 55.3,
+   "time": "2026-11-18T10:00:02.941-0500",
+   "mktcap": "73.77B",
+   "pe": 21.68,
+   "fpe": 13.28,
+   "yr_high": 80.24,
+   "yr_low": 38.85,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 52.01,
+    "change_pct": -5.95,
+    "time": "2026-11-18T09:29:57.073-0500"
+   }
+  },
+  "facts": {
+   "ticker": "FCX",
+   "name": "Freeport-McMoRan",
+   "date": "2026-11-17",
+   "close": 55.3,
+   "prev_close": 55.19,
+   "change_pct": 0.2,
+   "moves_over_5pct_last_year": 24,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 237,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 3.0
+   },
+   "ytd_pct": 8.88,
+   "return_1m_pct": -20.72,
+   "return_6m_pct": -5.79,
+   "return_1y_pct": 37.7,
+   "high_52w": {
+    "close": 79.91,
+    "date": "2026-08-25"
+   },
+   "low_52w": {
+    "close": 39.0,
+    "date": "2025-11-17"
+   },
+   "pct_below_52w_high": 30.8,
+   "thousand_dollars_5y_ago_now": 1423,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 14955270,
+   "volume_vs_20d_avg": 1.19,
+   "sentences": [
+    "Freeport-McMoRan's shares moved 5% or more on 24 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 3.0%.",
+    "The stock is up 8.9% this year, and at $55.30 it sits 30.8% below its 52-week closing high of $79.91 from 25 August 2026.",
+    "$1,000 invested in Freeport-McMoRan five years ago would be worth $1,423 today."
+   ]
+  },
+  "sector": "Materials",
+  "industry": "Copper",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-16/bhp-freeport-and-rio-tinto-slide-as-iron-ore-hits-a-four-year-low-in-china/",
+    "date": "2026-11-16",
+    "title": "BHP, Freeport and Rio Tinto Slide as Iron Ore Hits a Four-Year Low in China",
+    "type": "brief",
+    "tickers": [
+     "BHP",
+     "FCX",
+     "RIO"
+    ]
+   }
+  ]
+ }
+}

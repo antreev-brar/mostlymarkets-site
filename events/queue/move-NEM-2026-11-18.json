@@ -1,0 +1,98 @@
+{
+ "id": "move-NEM-2026-11-18",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 65,
+ "created": "2026-11-18T10:01:06-05:00",
+ "expires": "2026-11-19T12:00:00-05:00",
+ "tickers": [
+  "NEM"
+ ],
+ "headline_hint": "Why Newmont (NEM) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-18T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 105.65,
+   "change_pct": -5.04,
+   "prev_close": 111.26,
+   "time": "2026-11-18T10:00:04.111-0500",
+   "mktcap": "109.791B",
+   "pe": 12.27,
+   "fpe": 12.21,
+   "yr_high": 135.29,
+   "yr_low": 81.34,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 106.78,
+    "change_pct": -4.03,
+    "time": "2026-11-18T09:29:58.835-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NEM",
+   "name": "Newmont",
+   "date": "2026-11-17",
+   "close": 111.26,
+   "prev_close": 110.31,
+   "change_pct": 0.86,
+   "moves_over_5pct_last_year": 26,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 190,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 3.52
+   },
+   "ytd_pct": 11.43,
+   "return_1m_pct": -5.72,
+   "return_6m_pct": 5.87,
+   "return_1y_pct": 26.72,
+   "high_52w": {
+    "close": 135.14,
+    "date": "2026-08-25"
+   },
+   "low_52w": {
+    "close": 82.0,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 17.67,
+   "thousand_dollars_5y_ago_now": 1920,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 7149516,
+   "volume_vs_20d_avg": 1.02,
+   "sentences": [
+    "Newmont's shares moved 5% or more on 26 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 3.5%.",
+    "The stock is up 11.4% this year, and at $111.26 it sits 17.7% below its 52-week closing high of $135.14 from 25 August 2026.",
+    "$1,000 invested in Newmont five years ago would be worth $1,920 today."
+   ]
+  },
+  "sector": "Materials",
+  "industry": "Gold",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-16/3-cash-machine-stocks-we-like-and-1-wed-skip-cboe-newmont-ameriprise-and-ast-spacemobile/",
+    "date": "2026-11-16",
+    "title": "3 Cash Machine Stocks We Like and 1 We'd Skip: Cboe, Newmont, Ameriprise and AST SpaceMobile",
+    "type": "list",
+    "tickers": [
+     "CBOE",
+     "NEM",
+     "AMP",
+     "ASTS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/bulls-vs-bears-on-gold-can-it-rally-while-the-fed-is-still-hiking/",
+    "date": "2026-11-15",
+    "title": "Bulls vs Bears on Gold: Can It Rally While the Fed Is Still Hiking?",
+    "type": "viewpoints",
+    "tickers": [
+     "NEM",
+     "AEM"
+    ]
+   }
+  ]
+ }
+}

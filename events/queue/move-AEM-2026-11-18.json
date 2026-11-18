@@ -1,0 +1,86 @@
+{
+ "id": "move-AEM-2026-11-18",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-18T10:01:06-05:00",
+ "expires": "2026-11-19T12:00:00-05:00",
+ "tickers": [
+  "AEM"
+ ],
+ "headline_hint": "Why Agnico Eagle Mines (AEM) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-18T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 161.21,
+   "change_pct": -6.82,
+   "prev_close": 173.01,
+   "time": "2026-11-18T10:00:00.067-0500",
+   "mktcap": "81.499B",
+   "pe": 13.16,
+   "fpe": 14.59,
+   "yr_high": 255.24,
+   "yr_low": 134.38,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 166.2,
+    "change_pct": -3.94,
+    "time": "2026-11-18T09:30:00.404-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AEM",
+   "name": "Agnico Eagle Mines",
+   "date": "2026-11-17",
+   "close": 173.01,
+   "prev_close": 170.81,
+   "change_pct": 1.29,
+   "moves_over_5pct_last_year": 27,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 164,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 4.82
+   },
+   "ytd_pct": 2.05,
+   "return_1m_pct": -7.78,
+   "return_6m_pct": -0.22,
+   "return_1y_pct": 2.91,
+   "high_52w": {
+    "close": 252.19,
+    "date": "2026-03-02"
+   },
+   "low_52w": {
+    "close": 136.34,
+    "date": "2026-07-20"
+   },
+   "pct_below_52w_high": 31.4,
+   "thousand_dollars_5y_ago_now": 3035,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 1770387,
+   "volume_vs_20d_avg": 0.88,
+   "sentences": [
+    "Agnico Eagle Mines's shares moved 5% or more on 27 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 4.8%.",
+    "The stock is up 2.0% this year, and at $173.01 it sits 31.4% below its 52-week closing high of $252.19 from 2 March 2026.",
+    "$1,000 invested in Agnico Eagle Mines five years ago would be worth $3,035 today."
+   ]
+  },
+  "sector": "Materials",
+  "industry": "Gold",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-15/bulls-vs-bears-on-gold-can-it-rally-while-the-fed-is-still-hiking/",
+    "date": "2026-11-15",
+    "title": "Bulls vs Bears on Gold: Can It Rally While the Fed Is Still Hiking?",
+    "type": "viewpoints",
+    "tickers": [
+     "NEM",
+     "AEM"
+    ]
+   }
+  ]
+ }
+}

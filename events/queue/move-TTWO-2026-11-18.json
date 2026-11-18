@@ -1,0 +1,85 @@
+{
+ "id": "move-TTWO-2026-11-18",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 63,
+ "created": "2026-11-18T10:01:06-05:00",
+ "expires": "2026-11-19T12:00:00-05:00",
+ "tickers": [
+  "TTWO"
+ ],
+ "headline_hint": "Why Take-Two Interactive (TTWO) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-18T10:00:08-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 219.0,
+   "change_pct": 7.39,
+   "prev_close": 203.93,
+   "time": "2026-11-18T10:00:04.311-0500",
+   "mktcap": "41.00B",
+   "pe": -169.13,
+   "fpe": 26.85,
+   "yr_high": 265.94,
+   "yr_low": 183.86,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 214.85,
+    "change_pct": 5.35,
+    "time": "2026-11-18T09:30:01.207-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "date": "2026-11-17",
+   "close": 203.93,
+   "prev_close": 213.47,
+   "change_pct": -4.47,
+   "moves_over_5pct_last_year": 11,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 16,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -6.3
+   },
+   "ytd_pct": -20.35,
+   "return_1m_pct": -0.48,
+   "return_6m_pct": -14.37,
+   "return_1y_pct": -13.23,
+   "high_52w": {
+    "close": 258.41,
+    "date": "2026-07-06"
+   },
+   "low_52w": {
+    "close": 189.69,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 21.08,
+   "thousand_dollars_5y_ago_now": 1152,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 6262434,
+   "volume_vs_20d_avg": 1.79,
+   "sentences": [
+    "Take-Two Interactive's shares moved 5% or more on 11 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 6.3%.",
+    "The stock is down 20.4% this year, and at $203.93 it sits 21.1% below its 52-week closing high of $258.41 from 6 July 2026.",
+    "$1,000 invested in Take-Two Interactive five years ago would be worth $1,152 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Interactive Home Entertainment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-08/what-to-expect-from-take-two-interactives-ttwo-q2-earnings/",
+    "date": "2026-11-08",
+    "title": "What to Expect From Take-Two Interactive's (TTWO) Q2 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "TTWO"
+    ]
+   }
+  ]
+ }
+}
