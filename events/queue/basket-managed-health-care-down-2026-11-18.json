@@ -1,0 +1,112 @@
+{
+ "id": "basket-managed-health-care-down-2026-11-18",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-18T11:01:12-05:00",
+ "expires": "2026-11-18T23:59:00-05:00",
+ "tickers": [
+  "HUM",
+  "UNH",
+  "CNC"
+ ],
+ "headline_hint": "HUM, UNH, CNC shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-18T11:00:07-05:00",
+ "pack": {
+  "industry": "Managed Health Care",
+  "quotes": {
+   "HUM": {
+    "price": 415.41,
+    "change_pct": -6.3,
+    "prev_close": 443.34,
+    "time": "2026-11-18T11:00:01.422-0500",
+    "mktcap": "49.892B",
+    "pe": 40.43,
+    "fpe": 27.96,
+    "yr_high": 462.87,
+    "yr_low": 163.11,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 441.0,
+     "change_pct": -0.53,
+     "time": "2026-11-18T07:10:20.104-0500"
+    }
+   },
+   "UNH": {
+    "price": 365.28,
+    "change_pct": -6.26,
+    "prev_close": 389.68,
+    "time": "2026-11-18T11:00:06.232-0500",
+    "mktcap": "327.299B",
+    "pe": 20.85,
+    "fpe": 17.01,
+    "yr_high": 461.62,
+    "yr_low": 255.97,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 388.25,
+     "change_pct": -0.37,
+     "time": "2026-11-18T09:28:41.663-0500"
+    }
+   },
+   "CNC": {
+    "price": 68.76,
+    "change_pct": -5.22,
+    "prev_close": 72.55,
+    "time": "2026-11-18T11:00:01.145-0500",
+    "mktcap": "34.041B",
+    "pe": 23.56,
+    "fpe": 13.95,
+    "yr_high": 78.08,
+    "yr_low": 31.63,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 72.12,
+     "change_pct": -0.59,
+     "time": "2026-11-18T07:32:36.610-0500"
+    }
+   }
+  },
+  "facts": {
+   "HUM": {
+    "ticker": "HUM",
+    "name": "Humana",
+    "date": "2026-11-17",
+    "close": 443.34,
+    "prev_close": 461.25,
+    "change_pct": -3.88,
+    "moves_over_5pct_last_year": 15,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 29,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-10-16",
+     "change_pct": -4.41
+    },
+    "ytd_pct": 73.09,
+    "return_1m_pct": 6.83,
+    "return_6m_pct": 42.76,
+    "return_1y_pct": 86.97,
+    "high_52w": {
+     "close": 461.25,
+     "date": "2026-11-16"
+    },
+    "low_52w": {
+     "close": 163.67,
+     "date": "2026-03-12"
+    },
+    "pct_below_52w_high": 3.88,
+    "thousand_dollars_5y_ago_now": 1011,
+    "five_years_ago_date": "2021-11-17",
+    "volume": 1888555,
+    "volume_vs_20d_avg": 1.2,
+    "sentences": [
+     "Humana's shares moved 5% or more on 15 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 16 October 2026, when the stock fell 4.4%.",
+     "The stock is up 73.1% this year, and at $443.34 it sits 3.9% below its 52-week closing high of $461.25 from 16 November 2026.",
+     "$1,000 invested in Humana five years ago would be worth $1,011 today."
+    ]
+   }
+  }
+ }
+}

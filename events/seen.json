@@ -86,6 +86,16 @@
 "AKAM"
 ]
 },
+"basket-managed-health-care-down-2026-11-18": {
+"created": "2026-11-18T11:01:12-05:00",
+"day": "2026-11-18",
+"kind": "basket",
+"tickers": [
+"HUM",
+"UNH",
+"CNC"
+]
+},
 "basket-semiconductor-materials-equipment-down-2026-11-16": {
 "created": "2026-11-16T10:01:09-05:00",
 "day": "2026-11-16",
@@ -394,6 +404,12 @@
 "breakdown-2026-11-17-1": {
 "created": "2026-11-17T11:01:15-05:00",
 "day": "2026-11-17",
+"kind": "breakdown",
+"tickers": []
+},
+"breakdown-2026-11-18-1": {
+"created": "2026-11-18T11:01:12-05:00",
+"day": "2026-11-18",
 "kind": "breakdown",
 "tickers": []
 },
