@@ -1,0 +1,149 @@
+{
+ "id": "recap-LOW-2026-11-18",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-18T08:01:05-05:00",
+ "expires": "2026-11-19T20:00:00-05:00",
+ "tickers": [
+  "LOW"
+ ],
+ "headline_hint": "Lowe's (LOW) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-18T08:00:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "LOW",
+   "name": "Lowe's Companies, Inc.",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.86,
+   "n_estimates": 11,
+   "eps_last_year": 3.06,
+   "last_year_date": "11/19/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 126197883000.0
+  },
+  "quote": {
+   "price": 220.46,
+   "change_pct": -1.99,
+   "prev_close": 220.46,
+   "time": "2026-11-17",
+   "mktcap": "123.69B",
+   "pe": 18.64,
+   "fpe": 17.7,
+   "yr_high": 293.06,
+   "yr_low": 178.45,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 210.0,
+    "change_pct": -4.74,
+    "time": "2026-11-18T07:57:58.349-0500"
+   }
+  },
+  "facts": {
+   "ticker": "LOW",
+   "name": "Lowe's",
+   "date": "2026-11-17",
+   "close": 220.46,
+   "prev_close": 224.93,
+   "change_pct": -1.99,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 67,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": -2.19
+   },
+   "ytd_pct": -8.58,
+   "return_1m_pct": 12.53,
+   "return_6m_pct": 0.96,
+   "return_1y_pct": -3.24,
+   "high_52w": {
+    "close": 287.39,
+    "date": "2026-02-13"
+   },
+   "low_52w": {
+    "close": 179.5,
+    "date": "2026-10-05"
+   },
+   "pct_below_52w_high": 23.29,
+   "thousand_dollars_5y_ago_now": 897,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 4716311,
+   "volume_vs_20d_avg": 1.37,
+   "sentences": [
+    "Lowe's's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock fell 2.2%.",
+    "The stock is down 8.6% this year, and at $220.46 it sits 23.3% below its 52-week closing high of $287.39 from 13 February 2026.",
+    "$1,000 invested in Lowe's five years ago would be worth $897 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Home Improvement Retail",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/target-tgt-beats-q3-estimates-as-traffic-jumps-5-and-raises-its-forecast/",
+    "date": "2026-11-18",
+    "title": "Target (TGT) Beats Q3 Estimates as Traffic Jumps 5% and Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "TGT",
+     "LOW",
+     "HD",
+     "WMT"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-18/",
+    "date": "2026-11-18",
+    "title": "Nvidia's $130 Billion Forecast Lifts Futures After Software Led a Fourth Straight Loss",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRM",
+     "MSFT",
+     "CRWV",
+     "NBIS",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/lowes-low-raises-its-sales-forecast-to-92-5-billion-but-tariff-refunds-made-its-beat/",
+    "date": "2026-11-18",
+    "title": "Lowe's (LOW) Raises Its Sales Forecast to $92.5 Billion, but Tariff Refunds Made Its Beat",
+    "type": "brief",
+    "tickers": [
+     "LOW",
+     "HD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/what-to-expect-from-lowes-low-q3-earnings/",
+    "date": "2026-11-17",
+    "title": "What to Expect From Lowe's (LOW) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "LOW",
+     "HD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
+    "date": "2026-11-17",
+    "title": "Wall Street Is Hiding in the American Shopper. This Week's Retailers Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "WMT",
+     "COST",
+     "HD",
+     "TGT",
+     "LOW",
+     "TJX",
+     "NVDA"
+    ]
+   }
+  ]
+ }
+}
