@@ -141,5 +141,8 @@
   "sec_filing": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/0000027419-26-000051-index.htm",
   "release_text": "events/packs/recap-TGT-2026-11-18.txt",
   "release_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/a2026q3ex-99.htm"
- }
+ },
+ "outcome": "written",
+ "closed": "2026-11-18T07:28:20-05:00",
+ "story": "content/articles/2026-11-18-target-tgt-beats-q3-estimates-as-traffic-jumps-5-and-raises-its-forecast.md"
 }
