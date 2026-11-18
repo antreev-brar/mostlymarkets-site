@@ -1,0 +1,282 @@
+{
+ "id": "list-2026-11-18-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-18T10:30:15-05:00",
+ "expires": "2026-11-18T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "2 Stocks We Like After Their Earnings and 1 We'd Skip",
+ "instructions": "Theme: After Earnings, screened on companies worth $10bn+ that reported results in the last seven days and that we recapped. Pick 2 to like and 1 to skip from pack.candidates (picks block: like: A, B / skip: E). Each stock's case starts from the quarter it just reported (link our recap in candidates[].our_recap), then the long-run numbers. Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-18T10:30:10-05:00",
+ "pack": {
+  "theme": "after-earnings",
+  "screen": "companies worth $10bn+ that reported results in the last seven days and that we recapped",
+  "like": 2,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "industry": "Semiconductors",
+    "our_recap": {
+     "title": "Nvidia (NVDA) Tops Q3 Estimates and Guides to $130 Billion in Its First Report Without Huang",
+     "path": "/news/2026-11-17/nvidia-nvda-tops-q3-estimates-and-guides-to-130-billion-in-its-first-report-without-huang/",
+     "date": "2026-11-17"
+    },
+    "quote": {
+     "price": 153.89,
+     "change_pct": -1.01,
+     "prev_close": 155.46,
+     "time": "2026-11-18T10:30:06.048-0500",
+     "mktcap": "3.709T",
+     "pe": 19.45,
+     "fpe": 12.74,
+     "yr_high": 243.37,
+     "yr_low": 148.8,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 159.2,
+      "change_pct": 2.41,
+      "time": "2026-11-18T09:30:00.015-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-07-26",
+     "revenue": 302969000000,
+     "revenue_growth_yoy_pct": 83.4,
+     "gross_margin_pct": 74.7,
+     "operating_margin_pct": 65.2,
+     "net_margin_pct": 63.7,
+     "eps_diluted": 7.91,
+     "ocf": 134360000000,
+     "fcf": 127006000000,
+     "fcf_margin_pct": 41.9
+    }
+   },
+   {
+    "ticker": "HD",
+    "name": "Home Depot",
+    "industry": "Home Improvement Retail",
+    "our_recap": {
+     "title": "Home Depot (HD) Tops Q3 Estimates and Names CFO Richard McPhail CEO",
+     "path": "/news/2026-11-17/home-depot-hd-tops-q3-estimates-and-names-cfo-richard-mcphail-ceo/",
+     "date": "2026-11-17"
+    },
+    "quote": {
+     "price": 338.54,
+     "change_pct": -0.14,
+     "prev_close": 339.01,
+     "time": "2026-11-18T10:30:02.171-0500",
+     "mktcap": "337.758B",
+     "pe": 23.53,
+     "fpe": 22.24,
+     "yr_high": 397.63,
+     "yr_low": 277.15,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 331.0,
+      "change_pct": -2.36,
+      "time": "2026-11-18T09:29:59.812-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-08-02",
+     "revenue": 169176000000,
+     "revenue_growth_yoy_pct": 2.5,
+     "gross_margin_pct": 33.2,
+     "operating_margin_pct": 12.4,
+     "net_margin_pct": 8.4,
+     "eps_diluted": 14.29,
+     "ocf": 18779000000,
+     "fcf": 15099000000,
+     "fcf_margin_pct": 8.9
+    }
+   },
+   {
+    "ticker": "DIS",
+    "name": "Walt Disney",
+    "industry": "Movies & Entertainment",
+    "our_recap": {
+     "title": "Disney (DIS) Tops Q4 Estimates and Raises Its Dividend 33%",
+     "path": "/news/2026-11-17/disney-dis-tops-q4-estimates-and-raises-its-dividend-33/",
+     "date": "2026-11-17"
+    },
+    "quote": {
+     "price": 119.6,
+     "change_pct": 2.27,
+     "prev_close": 116.94,
+     "time": "2026-11-18T10:30:01.287-0500",
+     "mktcap": "206.512B",
+     "pe": 24.67,
+     "fpe": 15.73,
+     "yr_high": 122.72,
+     "yr_low": 92.19,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 118.59,
+      "change_pct": 1.41,
+      "time": "2026-11-18T09:30:00.217-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-10-03",
+     "revenue": 102344000000,
+     "revenue_growth_yoy_pct": 8.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 19.3,
+     "net_margin_pct": 9.7,
+     "eps_diluted": 5.63,
+     "ocf": 19270000000,
+     "fcf": 10572000000,
+     "fcf_margin_pct": 10.3
+    }
+   },
+   {
+    "ticker": "TJX",
+    "name": "TJX Companies",
+    "industry": "Apparel Retail",
+    "our_recap": {
+     "title": "TJX Companies (TJX) Q3: Marmaxx Steadies, Shares Jump 6% Before the Open",
+     "path": "/news/2026-11-18/tjx-companies-tjx-q3-marmaxx-steadies-shares-jump-6-before-the-open/",
+     "date": "2026-11-18"
+    },
+    "quote": {
+     "price": 143.44,
+     "change_pct": 10.46,
+     "prev_close": 129.85,
+     "time": "2026-11-18T10:30:07.176-0500",
+     "mktcap": "157.775B",
+     "pe": 26.53,
+     "fpe": 26.54,
+     "yr_high": 170.0,
+     "yr_low": 122.78,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 137.0,
+      "change_pct": 5.51,
+      "time": "2026-11-18T09:30:01.197-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 62363000000,
+     "revenue_growth_yoy_pct": 7.7,
+     "gross_margin_pct": 32.0,
+     "operating_margin_pct": null,
+     "net_margin_pct": 9.7,
+     "eps_diluted": 5.4,
+     "ocf": 8034000000,
+     "fcf": 5876000000,
+     "fcf_margin_pct": 9.4
+    }
+   },
+   {
+    "ticker": "TGT",
+    "name": "Target",
+    "industry": "Consumer Staples Merchandise Retail",
+    "our_recap": {
+     "title": "Target (TGT) Beats Q3 Estimates as Traffic Jumps 5% and Raises Its Forecast",
+     "path": "/news/2026-11-18/target-tgt-beats-q3-estimates-as-traffic-jumps-5-and-raises-its-forecast/",
+     "date": "2026-11-18"
+    },
+    "quote": {
+     "price": 168.81,
+     "change_pct": 5.81,
+     "prev_close": 159.53,
+     "time": "2026-11-18T10:30:03.567-0500",
+     "mktcap": "76.688B",
+     "pe": 17.52,
+     "fpe": 18.09,
+     "yr_high": 170.75,
+     "yr_low": 83.44,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 161.48,
+      "change_pct": 1.22,
+      "time": "2026-11-18T09:29:48.529-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 107705000000,
+     "revenue_growth_yoy_pct": 2.0,
+     "gross_margin_pct": 29.3,
+     "operating_margin_pct": 5.6,
+     "net_margin_pct": 4.1,
+     "eps_diluted": 9.63,
+     "ocf": 8723000000,
+     "fcf": 4456000000,
+     "fcf_margin_pct": 4.1
+    }
+   },
+   {
+    "ticker": "VYLR",
+    "name": "Vylor",
+    "industry": "Agricultural Products & Services",
+    "our_recap": {
+     "title": "Vylor (VYLR) Q3 Loss Narrower Than Expected as It Holds Its 2026 Outlook",
+     "path": "/news/2026-11-13/vylor-vylr-q3-loss-narrower-than-expected-as-it-holds-its-2026-outlook/",
+     "date": "2026-11-13"
+    },
+    "quote": {
+     "price": 70.26,
+     "change_pct": 0.07,
+     "prev_close": 70.21,
+     "time": "2026-11-18T10:29:53.328-0500",
+     "mktcap": "46.885B",
+     "pe": 85.86,
+     "fpe": null,
+     "yr_high": 77.39,
+     "yr_low": 65.0,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 70.21,
+      "change_pct": -0.07,
+      "time": "2026-11-17"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "TSN",
+    "name": "Tyson Foods",
+    "industry": "Packaged Foods & Meats",
+    "our_recap": {
+     "title": "Tyson Foods (TSN) Misses Q4 Profit Estimates as Beef Losses Deepen",
+     "path": "/news/2026-11-16/tyson-foods-tsn-misses-q4-profit-estimates-as-beef-losses-deepen/",
+     "date": "2026-11-16"
+    },
+    "quote": {
+     "price": 63.79,
+     "change_pct": 0.22,
+     "prev_close": 63.65,
+     "time": "2026-11-18T10:30:04.198-0500",
+     "mktcap": "21.978B",
+     "pe": 49.57,
+     "fpe": 19.85,
+     "yr_high": 69.48,
+     "yr_low": 49.96,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 63.13,
+      "change_pct": -0.82,
+      "time": "2026-11-18T08:23:32.133-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-10-03",
+     "revenue": 56419000000,
+     "revenue_growth_yoy_pct": 3.6,
+     "gross_margin_pct": 5.7,
+     "operating_margin_pct": 1.9,
+     "net_margin_pct": 0.8,
+     "eps_diluted": 1.28,
+     "ocf": 2433000000,
+     "fcf": 1663000000,
+     "fcf_margin_pct": 2.9
+    }
+   }
+  ]
+ }
+}
