@@ -1,0 +1,99 @@
+{
+ "id": "news-UBER-2026-11-18-momenta-launches-supervised-autonomous-r",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-18T02:01:08-05:00",
+ "expires": "2026-11-18T12:01:08-05:00",
+ "tickers": [
+  "UBER"
+ ],
+ "headline_hint": "Uber: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-18T02:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Momenta launches supervised autonomous ride pilot with Uber in Munich",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Z03O:0-momenta-launches-supervised-autonomous-ride-pilot-with-uber-in-munich/",
+    "published": "2026-11-18T02:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Uber drivers complete 26 EV trips a second, but 2030 zero-pollution rides remain 'out of reach'",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT1F3azFHNmxCVVJHdUFBNXBJbXB3aVdsOFp2aFJzTmZDX1lyd1JYck1mRTNVaDN6LUhNclZ5Z3dYTUY2ZlpVbERuQUVwUTdOOUIyTG9WY0ZHUloyT1JGM0JuaTEzUkhZUkQ4UHRhcXdMMExaSmFCZGNOMk1qZjJzYzVsZV8yd0F0OTdfTQ?oc=5",
+    "published": "2026-11-17T22:37:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVXpaZ2FkTjRHVFlyLXEzMG5uMmdpS0ZrQ1cwcVJaMWRpOFNmd3RPSnFfaF9UbGlQSlJ4YUZ2M1dITklFYjY1MF9PUGx4UG92eHdPQkx1WkJ6N0h3YkhybjFRN3VvUnk3WTVYanM3UTVBdTdOOU1WVFFCNUVUbjFfbnpPTzFNYlNDMXN6NU9BeGpKdlA0Mm5pTA?oc=5",
+    "published": "2026-11-17T22:33:34-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 68.81,
+   "change_pct": -1.69,
+   "prev_close": 68.81,
+   "time": "2026-11-17",
+   "mktcap": "140.503B",
+   "pe": 40.8,
+   "fpe": 17.3,
+   "yr_high": 92.92,
+   "yr_low": 64.04,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 69.1,
+    "change_pct": 0.42,
+    "time": "2026-11-17"
+   }
+  },
+  "facts": {
+   "ticker": "UBER",
+   "name": "Uber",
+   "date": "2026-11-16",
+   "close": 69.99,
+   "prev_close": 69.69,
+   "change_pct": 0.43,
+   "moves_over_5pct_last_year": 11,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 210,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-13",
+    "change_pct": 0.82
+   },
+   "ytd_pct": -14.34,
+   "return_1m_pct": -0.51,
+   "return_6m_pct": -6.78,
+   "return_1y_pct": -23.74,
+   "high_52w": {
+    "close": 92.57,
+    "date": "2025-12-08"
+   },
+   "low_52w": {
+    "close": 65.25,
+    "date": "2026-10-30"
+   },
+   "pct_below_52w_high": 24.39,
+   "thousand_dollars_5y_ago_now": 1530,
+   "five_years_ago_date": "2021-11-16",
+   "volume": 14564370,
+   "volume_vs_20d_avg": 0.77,
+   "sentences": [
+    "Uber's shares moved 5% or more on 11 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 November 2026, when the stock rose 0.8%.",
+    "The stock is down 14.3% this year, and at $69.99 it sits 24.4% below its 52-week closing high of $92.57 from 8 December 2025.",
+    "$1,000 invested in Uber five years ago would be worth $1,530 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-03/grab-grab-shares-soar-after-it-raises-its-2026-forecast-a-second-time/",
+   "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+   "/news/2026-10-29/what-to-expect-from-ubers-uber-q3-earnings/"
+  ]
+ }
+}

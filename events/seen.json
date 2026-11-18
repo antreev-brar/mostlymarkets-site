@@ -3281,6 +3281,14 @@
 "NVO"
 ]
 },
+"news-NVO-2026-11-18-novo-nordisk-nvo-stock-may-be-undervalue": {
+"created": "2026-11-18T02:01:08-05:00",
+"day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"NVO"
+]
+},
 "news-ORCL-2026-11-03-oracle-prices-20-billion-of-common-stock": {
 "created": "2026-11-03T00:01:33-05:00",
 "day": "2026-11-03",
@@ -3593,6 +3601,14 @@
 "news-UBER-2026-11-15-google-could-buy-uber-to-win-the-robotax": {
 "created": "2026-11-15T02:01:37-05:00",
 "day": "2026-11-15",
+"kind": "news",
+"tickers": [
+"UBER"
+]
+},
+"news-UBER-2026-11-18-momenta-launches-supervised-autonomous-r": {
+"created": "2026-11-18T02:01:08-05:00",
+"day": "2026-11-18",
 "kind": "news",
 "tickers": [
 "UBER"
