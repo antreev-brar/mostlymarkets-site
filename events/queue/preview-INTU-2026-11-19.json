@@ -1,0 +1,160 @@
+{
+ "id": "preview-INTU-2026-11-19",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-18T17:30:14-05:00",
+ "expires": "2026-11-19T15:30:00-05:00",
+ "tickers": [
+  "INTU"
+ ],
+ "headline_hint": "What to expect from Intuit's (INTU) earnings",
+ "instructions": "Reports Thursday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-18T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "INTU",
+   "name": "Intuit Inc.",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.47,
+   "n_estimates": 9,
+   "eps_last_year": 1.88,
+   "last_year_date": "11/20/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 85726634000.0
+  },
+  "report_date": "2026-11-19",
+  "quote": {
+   "price": 313.24,
+   "change_pct": -2.35,
+   "prev_close": 320.79,
+   "time": "2026-11-18T16:00:00.000-0500",
+   "mktcap": "83.709B",
+   "pe": 18.98,
+   "fpe": 13.08,
+   "yr_high": 682.27,
+   "yr_low": 252.84,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 312.6,
+    "change_pct": -0.2,
+    "time": "2026-11-18T16:56:54.878-0500"
+   }
+  },
+  "facts": {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "date": "2026-11-18",
+   "close": 313.24,
+   "prev_close": 320.79,
+   "change_pct": -2.35,
+   "moves_over_5pct_last_year": 28,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 114,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-17",
+    "change_pct": -7.17
+   },
+   "ytd_pct": -52.71,
+   "return_1m_pct": -6.58,
+   "return_6m_pct": -18.41,
+   "return_1y_pct": -51.51,
+   "high_52w": {
+    "close": 676.55,
+    "date": "2025-12-26"
+   },
+   "low_52w": {
+    "close": 255.07,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 53.7,
+   "thousand_dollars_5y_ago_now": 498,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 2286355,
+   "volume_vs_20d_avg": 0.81,
+   "sentences": [
+    "Intuit's shares moved 5% or more on 28 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 17 November 2026, when the stock fell 7.2%.",
+    "The stock is down 52.7% this year, and at $313.24 it sits 53.7% below its 52-week closing high of $676.55 from 26 December 2025.",
+    "$1,000 invested in Intuit five years ago would be worth $498 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+    "date": "2026-11-18",
+    "title": "Wall Street Is Betting AI Will Empty Software's Seats. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "CRM",
+     "NOW",
+     "INTU",
+     "ADBE",
+     "WDAY",
+     "TEAM",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/stocks-making-the-biggest-moves-yesterday-salesforce-jd-com-intuit-servicenow-and-nike/",
+    "date": "2026-11-18",
+    "title": "Stocks Making the Biggest Moves Yesterday: Salesforce, JD.com, Intuit, ServiceNow and Nike",
+    "type": "movers",
+    "tickers": [
+     "CRM",
+     "JD",
+     "INTU",
+     "NOW",
+     "NKE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/stock-market-today-salesforce-leads-a-software-rout-as-the-dow-drops-849-points/",
+    "date": "2026-11-17",
+    "title": "Stock Market Today: Salesforce Leads a Software Rout as the Dow Drops 849 Points",
+    "type": "market-wrap",
+    "tickers": [
+     "CRM",
+     "NVDA",
+     "MSFT",
+     "INTU",
+     "UNH"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+    "date": "2026-11-17",
+    "title": "Salesforce, MongoDB and SAP Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRM",
+     "MDB",
+     "SAP",
+     "NOW",
+     "WDAY",
+     "INTU",
+     "TEAM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

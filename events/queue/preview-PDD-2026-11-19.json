@@ -1,0 +1,111 @@
+{
+ "id": "preview-PDD-2026-11-19",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-18T17:30:14-05:00",
+ "expires": "2026-11-19T09:00:00-05:00",
+ "tickers": [
+  "PDD"
+ ],
+ "headline_hint": "What to expect from PDD Holdings's (PDD) earnings",
+ "instructions": "Reports Thursday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-18T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "PDD",
+   "name": "PDD Holdings Inc.",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 2.61,
+   "n_estimates": 2,
+   "eps_last_year": 2.77,
+   "last_year_date": "11/18/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 110156653000.0
+  },
+  "report_date": "2026-11-19",
+  "quote": {
+   "price": 77.45,
+   "change_pct": 0.08,
+   "prev_close": 77.39,
+   "time": "2026-11-18T16:00:00.000-0500",
+   "mktcap": "110.242B",
+   "pe": 8.44,
+   "fpe": 6.83,
+   "yr_high": 125.36,
+   "yr_low": 71.94,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 77.36,
+    "change_pct": -0.12,
+    "time": "2026-11-18T17:28:10.894-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PDD",
+   "name": "PDD Holdings",
+   "date": "2026-11-18",
+   "close": 77.45,
+   "prev_close": 77.39,
+   "change_pct": 0.08,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 242,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-13",
+    "change_pct": 1.86
+   },
+   "ytd_pct": -31.7,
+   "return_1m_pct": -5.12,
+   "return_6m_pct": -21.09,
+   "return_1y_pct": -39.98,
+   "high_52w": {
+    "close": 122.66,
+    "date": "2026-01-06"
+   },
+   "low_52w": {
+    "close": 73.3,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 36.86,
+   "thousand_dollars_5y_ago_now": 910,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 4123262,
+   "volume_vs_20d_avg": 0.71,
+   "sentences": [
+    "PDD Holdings's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 November 2026, when the stock rose 1.9%.",
+    "The stock is down 31.7% this year, and at $77.45 it sits 36.9% below its 52-week closing high of $122.66 from 6 January 2026.",
+    "$1,000 invested in PDD Holdings five years ago would be worth $910 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/jd-com-jd-misses-q3-revenue-estimates-at-309-6-billion-yuan-as-shoppers-hold-back/",
+    "date": "2026-11-17",
+    "title": "JD.com (JD) Misses Q3 Revenue Estimates at 309.6 Billion Yuan as Shoppers Hold Back",
+    "type": "brief",
+    "tickers": [
+     "JD",
+     "BABA",
+     "PDD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/alibaba-baba-shares-jump-after-apple-picks-its-qwen-ai-for-iphones-in-china/",
+    "date": "2026-11-02",
+    "title": "Alibaba (BABA) Shares Jump After Apple Picks Its Qwen AI for iPhones in China",
+    "type": "why-it-moved",
+    "tickers": [
+     "BABA",
+     "AAPL",
+     "PDD",
+     "BIDU"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "id": "previews-2026-11-19",
+ "kind": "preview-roundup",
+ "story_type": "preview-roundup",
+ "priority": 42,
+ "created": "2026-11-18T17:30:14-05:00",
+ "expires": "2026-11-19T09:00:00-05:00",
+ "tickers": [
+  "ROST",
+  "KEYS",
+  "WSM"
+ ],
+ "headline_hint": "What to Expect From Thursday's Earnings: Ross Stores, Keysight Technologies and Williams-Sonoma",
+ "instructions": "A preview roundup of 3 companies reporting on Thursday, biggest first: for each, when it reports, consensus revenue and EPS against a year ago (naming the provider), last quarter's result and how the stock took it, and the one number or comment that will move the stock. Then which report has the most riding on it, with the reasons in numbers. Follow the preview-roundup template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-18T17:30:09-05:00",
+ "pack": {
+  "report_date": "2026-11-19",
+  "companies": [
+   {
+    "ticker": "ROST",
+    "calendar": {
+     "ticker": "ROST",
+     "name": "Ross Stores, Inc.",
+     "time": "amc",
+     "quarter": "Oct/2026",
+     "eps_forecast": 1.85,
+     "n_estimates": 7,
+     "eps_last_year": 1.58,
+     "last_year_date": "11/20/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 70423437000.0
+    },
+    "quote": {
+     "price": 227.64,
+     "change_pct": 3.26,
+     "prev_close": 220.45,
+     "time": "2026-11-18T16:00:00.000-0500",
+     "mktcap": "72.72B",
+     "pe": 27.51,
+     "fpe": 26.52,
+     "yr_high": 257.0,
+     "yr_low": 158.49,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 229.02,
+      "change_pct": 0.61,
+      "time": "2026-11-18T17:05:01.006-0500"
+     }
+    },
+    "name": "Ross Stores",
+    "sector": "Consumer Discretionary",
+    "facts": {
+     "ticker": "ROST",
+     "name": "Ross Stores",
+     "date": "2026-11-18",
+     "close": 227.64,
+     "prev_close": 220.45,
+     "change_pct": 3.26,
+     "moves_over_5pct_last_year": 5,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 16,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-04",
+      "change_pct": 6.11
+     },
+     "ytd_pct": 26.37,
+     "return_1m_pct": -4.05,
+     "return_6m_pct": 4.52,
+     "return_1y_pct": 42.8,
+     "high_52w": {
+      "close": 255.23,
+      "date": "2026-08-07"
+     },
+     "low_52w": {
+      "close": 159.9,
+      "date": "2025-11-18"
+     },
+     "pct_below_52w_high": 10.81,
+     "thousand_dollars_5y_ago_now": 1905,
+     "five_years_ago_date": "2021-11-18",
+     "volume": 2818428,
+     "volume_vs_20d_avg": 1.32,
+     "sentences": [
+      "Ross Stores's shares moved 5% or more on 5 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 6.1%.",
+      "The stock is up 26.4% this year, and at $227.64 it sits 10.8% below its 52-week closing high of $255.23 from 7 August 2026.",
+      "$1,000 invested in Ross Stores five years ago would be worth $1,905 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "KEYS",
+    "calendar": {
+     "ticker": "KEYS",
+     "name": "Keysight Technologies Inc.",
+     "time": "amc",
+     "quarter": "Oct/2026",
+     "eps_forecast": 3.09,
+     "n_estimates": 2,
+     "eps_last_year": 1.65,
+     "last_year_date": "11/24/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 48426119000.0
+    },
+    "quote": {
+     "price": 286.3,
+     "change_pct": 0.65,
+     "prev_close": 284.45,
+     "time": "2026-11-18T16:10:00.000-0500",
+     "mktcap": "48.741B",
+     "pe": 38.73,
+     "fpe": 21.56,
+     "yr_high": 389.93,
+     "yr_low": 167.23,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 286.79,
+      "change_pct": 0.17,
+      "time": "2026-11-18T17:15:26.353-0500"
+     }
+    },
+    "name": "Keysight Technologies",
+    "sector": "Information Technology",
+    "facts": {
+     "ticker": "KEYS",
+     "name": "Keysight Technologies",
+     "date": "2026-11-18",
+     "close": 286.3,
+     "prev_close": 284.45,
+     "change_pct": 0.65,
+     "moves_over_5pct_last_year": 18,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 188,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-11",
+      "change_pct": 4.87
+     },
+     "ytd_pct": 40.9,
+     "return_1m_pct": -14.32,
+     "return_6m_pct": -16.31,
+     "return_1y_pct": 63.12,
+     "high_52w": {
+      "close": 388.03,
+      "date": "2026-10-06"
+     },
+     "low_52w": {
+      "close": 169.67,
+      "date": "2025-11-20"
+     },
+     "pct_below_52w_high": 26.22,
+     "thousand_dollars_5y_ago_now": 1474,
+     "five_years_ago_date": "2021-11-18",
+     "volume": 1168958,
+     "volume_vs_20d_avg": 0.75,
+     "sentences": [
+      "Keysight Technologies's shares moved 5% or more on 18 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 4.9%.",
+      "The stock is up 40.9% this year, and at $286.30 it sits 26.2% below its 52-week closing high of $388.03 from 6 October 2026.",
+      "$1,000 invested in Keysight Technologies five years ago would be worth $1,474 today."
+     ]
+    },
+    "last_recap": []
+   },
+   {
+    "ticker": "WSM",
+    "calendar": {
+     "ticker": "WSM",
+     "name": "Williams-Sonoma, Inc.",
+     "time": "bmo",
+     "quarter": "Oct/2026",
+     "eps_forecast": 2.18,
+     "n_estimates": 11,
+     "eps_last_year": 1.96,
+     "last_year_date": "11/19/2025",
+     "eps_actual": null,
+     "surprise_pct": null,
+     "mktcap": 29450682400.0
+    },
+    "quote": {
+     "price": 260.09,
+     "change_pct": 4.02,
+     "prev_close": 250.05,
+     "time": "2026-11-18T16:10:00.000-0500",
+     "mktcap": "30.633B",
+     "pe": 26.61,
+     "fpe": 26.2,
+     "yr_high": 274.45,
+     "yr_low": 165.51,
+     "ext": {
+      "session": "POST_MKT",
+      "price": 265.3,
+      "change_pct": 2.0,
+      "time": "2026-11-18T17:05:10.654-0500"
+     }
+    },
+    "name": "Williams-Sonoma",
+    "sector": "Consumer Discretionary",
+    "facts": {
+     "ticker": "WSM",
+     "name": "Williams-Sonoma",
+     "date": "2026-11-18",
+     "close": 260.09,
+     "prev_close": 250.05,
+     "change_pct": 4.02,
+     "moves_over_5pct_last_year": 6,
+     "sessions_in_year": 252,
+     "biggest_move_rank_in_year": 15,
+     "last_move_at_least_this_big_same_direction": {
+      "date": "2026-11-04",
+      "change_pct": 6.46
+     },
+     "ytd_pct": 45.64,
+     "return_1m_pct": 2.4,
+     "return_6m_pct": 44.29,
+     "return_1y_pct": 43.44,
+     "high_52w": {
+      "close": 270.08,
+      "date": "2026-11-04"
+     },
+     "low_52w": {
+      "close": 168.64,
+      "date": "2026-05-15"
+     },
+     "pct_below_52w_high": 3.7,
+     "thousand_dollars_5y_ago_now": 2376,
+     "five_years_ago_date": "2021-11-18",
+     "volume": 1817682,
+     "volume_vs_20d_avg": 1.93,
+     "sentences": [
+      "Williams-Sonoma's shares moved 5% or more on 6 of the last 252 sessions.",
+      "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 6.5%.",
+      "The stock is up 45.6% this year, and at $260.09 it sits 3.7% below its 52-week closing high of $270.08 from 4 November 2026.",
+      "$1,000 invested in Williams-Sonoma five years ago would be worth $2,376 today."
+     ]
+    },
+    "last_recap": []
+   }
+  ]
+ }
+}

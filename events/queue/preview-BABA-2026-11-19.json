@@ -1,0 +1,149 @@
+{
+ "id": "preview-BABA-2026-11-19",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-18T17:30:14-05:00",
+ "expires": "2026-11-19T09:00:00-05:00",
+ "tickers": [
+  "BABA"
+ ],
+ "headline_hint": "What to expect from Alibaba's (BABA) earnings",
+ "instructions": "Reports Thursday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-18T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "BABA",
+   "name": "Alibaba Group Holding Limited",
+   "time": "bmo",
+   "quarter": "Sep/2026",
+   "eps_forecast": 1.56,
+   "n_estimates": 2,
+   "eps_last_year": 0.44,
+   "last_year_date": "11/25/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 209908417000.0
+  },
+  "report_date": "2026-11-19",
+  "quote": {
+   "price": 84.37,
+   "change_pct": -2.63,
+   "prev_close": 86.65,
+   "time": "2026-11-18T16:10:00.000-0500",
+   "mktcap": "209.891B",
+   "pe": 18.81,
+   "fpe": 10.58,
+   "yr_high": 181.1,
+   "yr_low": 84.22,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 84.53,
+    "change_pct": 0.19,
+    "time": "2026-11-18T17:29:59.889-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "date": "2026-11-18",
+   "close": 84.37,
+   "prev_close": 86.65,
+   "change_pct": -2.63,
+   "moves_over_5pct_last_year": 14,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 67,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-17",
+    "change_pct": -4.38
+   },
+   "ytd_pct": -42.44,
+   "return_1m_pct": -22.32,
+   "return_6m_pct": -37.26,
+   "return_1y_pct": -46.5,
+   "high_52w": {
+    "close": 177.18,
+    "date": "2026-01-22"
+   },
+   "low_52w": {
+    "close": 84.37,
+    "date": "2026-11-18"
+   },
+   "pct_below_52w_high": 52.38,
+   "thousand_dollars_5y_ago_now": 588,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 15519145,
+   "volume_vs_20d_avg": 1.35,
+   "sentences": [
+    "Alibaba's shares moved 5% or more on 14 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 17 November 2026, when the stock fell 4.4%.",
+    "The stock is down 42.4% this year, and at $84.37 it sits 52.4% below its 52-week closing high of $177.18 from 22 January 2026.",
+    "$1,000 invested in Alibaba five years ago would be worth $588 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/jd-com-jd-misses-q3-revenue-estimates-at-309-6-billion-yuan-as-shoppers-hold-back/",
+    "date": "2026-11-17",
+    "title": "JD.com (JD) Misses Q3 Revenue Estimates at 309.6 Billion Yuan as Shoppers Hold Back",
+    "type": "brief",
+    "tickers": [
+     "JD",
+     "BABA",
+     "PDD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/baidu-bidu-ai-cloud-revenue-jumps-94-as-online-ads-fall-22/",
+    "date": "2026-11-16",
+    "title": "Baidu (BIDU) AI Cloud Revenue Jumps 94% as Online Ads Fall 22%",
+    "type": "brief",
+    "tickers": [
+     "BIDU",
+     "BABA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/alibaba-baba-launches-qwen4-max-saying-it-cuts-ai-task-costs-by-more-than-60/",
+    "date": "2026-11-16",
+    "title": "Alibaba (BABA) Launches Qwen4-Max, Saying It Cuts AI Task Costs by More Than 60%",
+    "type": "brief",
+    "tickers": [
+     "BABA",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-15/",
+    "date": "2026-11-15",
+    "title": "Nvidia's First Report Without Huang and Anthropic's IPO Will Test the AI Trade This Week",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "WMT",
+     "BABA",
+     "HD"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

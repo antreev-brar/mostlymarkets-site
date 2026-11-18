@@ -1,0 +1,169 @@
+{
+ "id": "preview-WMT-2026-11-19",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-18T17:30:14-05:00",
+ "expires": "2026-11-19T09:00:00-05:00",
+ "tickers": [
+  "WMT"
+ ],
+ "headline_hint": "What to expect from Walmart's (WMT) earnings",
+ "instructions": "Reports Thursday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-18T17:30:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "WMT",
+   "name": "Walmart Inc.",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 0.64,
+   "n_estimates": 13,
+   "eps_last_year": 0.62,
+   "last_year_date": "11/20/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 1011711340000.0
+  },
+  "report_date": "2026-11-19",
+  "quote": {
+   "price": 127.36,
+   "change_pct": -0.13,
+   "prev_close": 127.52,
+   "time": "2026-11-18T16:00:00.000-0500",
+   "mktcap": "1.01T",
+   "pe": 46.14,
+   "fpe": 42.52,
+   "yr_high": 135.16,
+   "yr_low": 99.68,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 126.81,
+    "change_pct": -0.43,
+    "time": "2026-11-18T17:29:56.148-0500"
+   }
+  },
+  "facts": {
+   "ticker": "WMT",
+   "name": "Walmart",
+   "date": "2026-11-18",
+   "close": 127.36,
+   "prev_close": 127.52,
+   "change_pct": -0.13,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 229,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-17",
+    "change_pct": -0.69
+   },
+   "ytd_pct": 14.32,
+   "return_1m_pct": 8.07,
+   "return_6m_pct": -2.67,
+   "return_1y_pct": 23.71,
+   "high_52w": {
+    "close": 134.2,
+    "date": "2026-05-19"
+   },
+   "low_52w": {
+    "close": 100.61,
+    "date": "2025-11-19"
+   },
+   "pct_below_52w_high": 5.1,
+   "thousand_dollars_5y_ago_now": 2669,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 26571109,
+   "volume_vs_20d_avg": 1.22,
+   "sentences": [
+    "Walmart's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 17 November 2026, when the stock fell 0.7%.",
+    "The stock is up 14.3% this year, and at $127.36 it sits 5.1% below its 52-week closing high of $134.20 from 19 May 2026.",
+    "$1,000 invested in Walmart five years ago would be worth $2,669 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/target-tgt-beats-q3-estimates-as-traffic-jumps-5-and-raises-its-forecast/",
+    "date": "2026-11-18",
+    "title": "Target (TGT) Beats Q3 Estimates as Traffic Jumps 5% and Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "TGT",
+     "LOW",
+     "HD",
+     "WMT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/what-to-expect-from-targets-tgt-q3-earnings/",
+    "date": "2026-11-17",
+    "title": "What to Expect From Target's (TGT) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "TGT",
+     "WMT",
+     "HD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/wall-street-is-hiding-in-the-shopper-this-weeks-retailers-will-test-it/",
+    "date": "2026-11-17",
+    "title": "Wall Street Is Hiding in the American Shopper. This Week's Retailers Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "WMT",
+     "COST",
+     "HD",
+     "TGT",
+     "LOW",
+     "TJX",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/the-week-ahead-nvidia-anthropics-ipo-the-fed-minutes-and-walmart/",
+    "date": "2026-11-15",
+    "title": "The Week Ahead: Nvidia, Anthropic's IPO, the Fed Minutes and Walmart",
+    "type": "analysis",
+    "tickers": [
+     "NVDA",
+     "HD",
+     "LOW",
+     "WMT",
+     "BABA",
+     "TGT",
+     "PANW",
+     "INTU"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-15/",
+    "date": "2026-11-15",
+    "title": "Nvidia's First Report Without Huang and Anthropic's IPO Will Test the AI Trade This Week",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "WMT",
+     "BABA",
+     "HD"
+    ]
+   }
+  ],
+  "last_recap": [
+   {
+    "path": "/news/2026-11-18/target-tgt-beats-q3-estimates-as-traffic-jumps-5-and-raises-its-forecast/",
+    "date": "2026-11-18",
+    "title": "Target (TGT) Beats Q3 Estimates as Traffic Jumps 5% and Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "TGT",
+     "LOW",
+     "HD",
+     "WMT"
+    ]
+   }
+  ]
+ }
+}
