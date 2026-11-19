@@ -269,5 +269,8 @@
     "name": "US dollar index"
    }
   }
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-19T12:26:07-05:00",
+ "reason": "every candidate (AAPL MSFT NVDA GOOGL AMZN TSM AVGO META TSLA LLY BRK.B WMT JPM MU AMD) was broken down in the last 30 days"
 }
