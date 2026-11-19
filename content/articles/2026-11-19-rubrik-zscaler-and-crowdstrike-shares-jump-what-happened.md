@@ -2,7 +2,7 @@
 title = "Rubrik, Zscaler and CrowdStrike Shares Jump: What Happened"
 dek = "Rubrik rose 8.5%, Zscaler 6.9% and CrowdStrike 6.0% by 10:30 a.m. ET, a day after Palo Alto Networks raised its revenue forecast to as much as $14.57 billion."
 type = "why-it-moved"
-published = 2026-11-19T10:40:00-05:00
+published = 2026-11-19T10:33:30-05:00
 author = "dev-malhotra"
 tickers = ["RBRK", "ZS", "CRWD", "NET", "PANW", "FTNT"]
 reason = "Peer news"

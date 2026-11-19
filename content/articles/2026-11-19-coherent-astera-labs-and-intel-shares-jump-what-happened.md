@@ -2,7 +2,7 @@
 title = "Coherent, Astera Labs and Intel Shares Jump: What Happened"
 dek = "Coherent rose 8.5%, Astera Labs 5.7% and Intel 5.1% by 10:30 a.m. ET as Anthropic's $81.3 billion IPO lifted chip stocks, though the gains shrank as the S&P 500 turned flat."
 type = "why-it-moved"
-published = 2026-11-19T10:36:00-05:00
+published = 2026-11-19T10:32:30-05:00
 author = "dev-malhotra"
 tickers = ["COHR", "ALAB", "INTC", "QCOM", "LITE", "CRDO"]
 reason = "Sector move"
