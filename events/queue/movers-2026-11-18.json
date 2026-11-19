@@ -1,0 +1,130 @@
+{
+ "id": "movers-2026-11-18",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-19T09:01:13-05:00",
+ "expires": "2026-11-19T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Wednesday 18 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-19T09:00:10-05:00",
+ "pack": {
+  "session": "2026-11-18",
+  "moves": [
+   {
+    "ticker": "HUM",
+    "name": "Humana",
+    "close": 385.78,
+    "change_pct": -12.98,
+    "our_stories": [
+     "/news/2026-11-18/unitedhealth-unh-lost-14-in-two-days-on-an-audit-rule-is-the-business-broken/",
+     "/news/2026-11-18/unitedhealth-humana-and-centene-shares-slide-what-happened/",
+     "/news/2026-11-18/stock-market-today-health-insurers-drag-the-dow-down-561-points-as-nvidia-fades/"
+    ]
+   },
+   {
+    "ticker": "UNH",
+    "name": "UnitedHealth",
+    "close": 349.91,
+    "change_pct": -10.21,
+    "our_stories": [
+     "/daily/2026-11-19/",
+     "/news/2026-11-18/unitedhealth-unh-lost-14-in-two-days-on-an-audit-rule-is-the-business-broken/",
+     "/news/2026-11-18/unitedhealth-humana-and-centene-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "close": 339.92,
+    "change_pct": 9.9,
+    "our_stories": [
+     "/daily/2026-11-19/",
+     "/news/2026-11-18/stock-market-today-health-insurers-drag-the-dow-down-561-points-as-nvidia-fades/",
+     "/news/2026-11-18/palo-alto-networks-panw-beats-q1-estimates-raises-its-forecast-and-buys-applied-compute/"
+    ]
+   },
+   {
+    "ticker": "GNRC",
+    "name": "Generac",
+    "close": 205.45,
+    "change_pct": 9.87,
+    "our_stories": []
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "close": 110.0,
+    "change_pct": 9.26,
+    "our_stories": [
+     "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/"
+    ]
+   },
+   {
+    "ticker": "AKAM",
+    "name": "Akamai Technologies",
+    "close": 91.7,
+    "change_pct": 8.34,
+    "our_stories": []
+   },
+   {
+    "ticker": "TJX",
+    "name": "TJX Companies",
+    "close": 140.3,
+    "change_pct": 8.05,
+    "our_stories": [
+     "/news/2026-11-18/tjx-companies-tjx-q3-marmaxx-steadies-shares-jump-6-before-the-open/"
+    ]
+   },
+   {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "close": 237.03,
+    "change_pct": 7.95,
+    "our_stories": [
+     "/news/2026-11-18/palo-alto-networks-panw-beats-q1-estimates-raises-its-forecast-and-buys-applied-compute/",
+     "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/"
+    ]
+   },
+   {
+    "ticker": "ELV",
+    "name": "Elevance Health",
+    "close": 400.84,
+    "change_pct": -7.63,
+    "our_stories": [
+     "/news/2026-11-18/unitedhealth-unh-lost-14-in-two-days-on-an-audit-rule-is-the-business-broken/",
+     "/news/2026-11-18/unitedhealth-humana-and-centene-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "CNC",
+    "name": "Centene",
+    "close": 67.45,
+    "change_pct": -7.03,
+    "our_stories": [
+     "/news/2026-11-18/unitedhealth-humana-and-centene-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport-McMoRan",
+    "close": 51.45,
+    "change_pct": -6.96,
+    "our_stories": [
+     "/news/2026-11-18/stock-market-today-health-insurers-drag-the-dow-down-561-points-as-nvidia-fades/",
+     "/news/2026-11-18/agnico-eagle-freeport-mcmoran-and-newmont-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "ZS",
+    "name": "Zscaler",
+    "close": 197.83,
+    "change_pct": 6.83,
+    "our_stories": [
+     "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/"
+    ]
+   }
+  ]
+ }
+}
