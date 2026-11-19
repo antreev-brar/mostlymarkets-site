@@ -20,8 +20,8 @@ sources = [
   "https://www.marketbeat.com/instant-alerts/earnings-williams-sonoma-nyse-wsm-issues-quarterly-earnings-results-2026-11-19/",
 ]
 cover_brief = "A busy maximalist cartoon of a crowded old department-store kitchenware floor during a holiday sale, packed edge to edge with grey-haired shoppers in coats and balding middle-aged salesmen in aprons: in the exact centre a giant shiny copper cooking pot on a display table tips over, spilling out a heap of plain refund cheques across the floor, and a huge flat white board, half the frame wide, is fixed straight across the table's front, facing the viewer, reading in large plain black block capitals 'WILLIAMS-SONOMA', while directly above the pot a huge flat red banner hangs from the ceiling, reading in large plain black block capitals 'REFUND HELP', while shoppers leap back in surprise, a grey-haired woman checks a long receipt, a bearded chef juggles whisks, a balding manager waves a plain clipboard, a middle-aged couple test a sofa, a delivery man wheels a stack of boxes, a cook stirs soup at a demo counter, a news crew films from an escalator and a cat sleeps in a mixing bowl; every other sign is blank"
-cover_alt = "A cartoon of a copper pot tipping refund cheques off a WILLIAMS-SONOMA display under a REFUND HELP banner"
-cover_text = ["WILLIAMS-SONOMA", "REFUND HELP"]
+cover_alt = "A cartoon of a copper pot tipping refund cheques off a WILLIAMS SONOMA display under a REFUND HELP banner"
+cover_text = ["WILLIAMS SONOMA", "REFUND HELP"]
 +++
 
 Williams-Sonoma ($WSM) reported fiscal third-quarter adjusted earnings of **$2.19 a share** on Thursday morning, a penny above the $2.18 Zacks consensus, on revenue of $1.99 billion, just short of the roughly $2.00 billion analysts expected. Refunds of tariffs collected under the International Emergency Economic Powers Act lifted the gross margin, and the company only reiterated its full-year outlook. The shares **fell 6.9% to $242.21** in premarket trading as of 9:13 a.m. ET, after closing at $260.09, up 4.0%, on Wednesday.
