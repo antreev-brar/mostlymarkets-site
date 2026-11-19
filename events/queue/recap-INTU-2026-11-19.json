@@ -1,0 +1,156 @@
+{
+ "id": "recap-INTU-2026-11-19",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-19T16:15:16-05:00",
+ "expires": "2026-11-20T20:00:00-05:00",
+ "tickers": [
+  "INTU"
+ ],
+ "headline_hint": "Intuit (INTU) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-19T16:15:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "INTU",
+   "name": "Intuit Inc.",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 2.47,
+   "n_estimates": 9,
+   "eps_last_year": 1.88,
+   "last_year_date": "11/20/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 83709002000.0
+  },
+  "quote": {
+   "price": 310.02,
+   "change_pct": -1.03,
+   "prev_close": 313.24,
+   "time": "2026-11-19T16:00:00.000-0500",
+   "mktcap": "82.849B",
+   "pe": 18.79,
+   "fpe": 12.94,
+   "yr_high": 682.27,
+   "yr_low": 252.84,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 264.87,
+    "change_pct": -14.56,
+    "time": "2026-11-19T16:15:05.348-0500"
+   }
+  },
+  "facts": {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "date": "2026-11-19",
+   "close": 310.02,
+   "prev_close": 313.24,
+   "change_pct": -1.03,
+   "moves_over_5pct_last_year": 28,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 179,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-18",
+    "change_pct": -2.35
+   },
+   "ytd_pct": -53.2,
+   "return_1m_pct": -7.62,
+   "return_6m_pct": 0.96,
+   "return_1y_pct": -52.28,
+   "high_52w": {
+    "close": 676.55,
+    "date": "2025-12-26"
+   },
+   "low_52w": {
+    "close": 255.07,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 54.18,
+   "thousand_dollars_5y_ago_now": 448,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 3433008,
+   "volume_vs_20d_avg": 1.21,
+   "sentences": [
+    "Intuit's shares moved 5% or more on 28 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 18 November 2026, when the stock fell 2.4%.",
+    "The stock is down 53.2% this year, and at $310.02 it sits 54.2% below its 52-week closing high of $676.55 from 26 December 2025.",
+    "$1,000 invested in Intuit five years ago would be worth $448 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+    "date": "2026-11-18",
+    "title": "Wall Street Is Betting AI Will Empty Software's Seats. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "CRM",
+     "NOW",
+     "INTU",
+     "ADBE",
+     "WDAY",
+     "TEAM",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/stocks-making-the-biggest-moves-yesterday-salesforce-jd-com-intuit-servicenow-and-nike/",
+    "date": "2026-11-18",
+    "title": "Stocks Making the Biggest Moves Yesterday: Salesforce, JD.com, Intuit, ServiceNow and Nike",
+    "type": "movers",
+    "tickers": [
+     "CRM",
+     "JD",
+     "INTU",
+     "NOW",
+     "NKE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/intuit-intu-reports-thursday-after-a-53-fall-this-year-what-to-watch/",
+    "date": "2026-11-18",
+    "title": "Intuit (INTU) Reports Thursday After a 53% Fall This Year: What to Watch",
+    "type": "earnings-preview",
+    "tickers": [
+     "INTU",
+     "CRM",
+     "NOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/stock-market-today-salesforce-leads-a-software-rout-as-the-dow-drops-849-points/",
+    "date": "2026-11-17",
+    "title": "Stock Market Today: Salesforce Leads a Software Rout as the Dow Drops 849 Points",
+    "type": "market-wrap",
+    "tickers": [
+     "CRM",
+     "NVDA",
+     "MSFT",
+     "INTU",
+     "UNH"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+    "date": "2026-11-17",
+    "title": "Salesforce, MongoDB and SAP Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRM",
+     "MDB",
+     "SAP",
+     "NOW",
+     "WDAY",
+     "INTU",
+     "TEAM"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000043/0000896878-26-000043-index.htm"
+ }
+}

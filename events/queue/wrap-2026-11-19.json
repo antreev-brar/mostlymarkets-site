@@ -1,0 +1,600 @@
+{
+ "id": "wrap-2026-11-19",
+ "kind": "market-wrap",
+ "story_type": "market-wrap",
+ "priority": 85,
+ "created": "2026-11-19T16:15:16-05:00",
+ "expires": "2026-11-19T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stock Market Today: <the story of the day>",
+ "instructions": "The close. Use pack.markets for the numbers table. Link today's stories where they fit.",
+ "quotes_asof": "2026-11-19T16:15:11-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7175.83,
+    "change": -147.8,
+    "change_pct": -2.02,
+    "prev_close": 7323.63,
+    "open": 7389.26,
+    "high": 7415.64,
+    "low": 7173.63,
+    "volume": 0,
+    "time": "2026-11-19T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 23879.199,
+    "change": -550.685,
+    "change_pct": -2.25,
+    "prev_close": 24429.885,
+    "open": 24809.053,
+    "high": 24939.623,
+    "low": 23870.695,
+    "volume": 1645595889,
+    "time": "2026-11-19T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 49097.06,
+    "change": -1101.11,
+    "change_pct": -2.19,
+    "prev_close": 50198.17,
+    "open": 50432.32,
+    "high": 50454.81,
+    "low": 49091.92,
+    "volume": 722120943,
+    "time": "2026-11-19T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2656.573,
+    "change": -57.733,
+    "change_pct": -2.13,
+    "prev_close": 2714.306,
+    "open": 2720.255,
+    "high": 2730.014,
+    "low": 2653.918,
+    "volume": 0,
+    "time": "2026-11-19T15:59:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 28.44,
+    "change": 3.88,
+    "change_pct": 15.8,
+    "prev_close": 24.56,
+    "open": 22.06,
+    "high": 29.13,
+    "low": 21.84,
+    "volume": 0,
+    "time": "2026-11-19T16:15:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 5.048,
+    "change": -0.018,
+    "change_pct": -0.3553,
+    "prev_close": 5.066,
+    "open": 5.074,
+    "high": 5.107,
+    "low": 5.04,
+    "volume": 0,
+    "time": "2026-11-19T16:14:58.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.764,
+    "change": -0.036,
+    "change_pct": 0.0703,
+    "prev_close": 4.8,
+    "open": 4.817,
+    "high": 4.849,
+    "low": 4.755,
+    "volume": 0,
+    "time": "2026-11-19T16:14:34.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 83.98,
+    "change": 0.72,
+    "change_pct": 0.86,
+    "prev_close": 83.26,
+    "open": 82.82,
+    "high": 84.88,
+    "low": 82.6,
+    "volume": 45073,
+    "time": "2026-11-19T16:03:23.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 92.68,
+    "change": 0.73,
+    "change_pct": 0.79,
+    "prev_close": 91.95,
+    "open": 91.4,
+    "high": 93.5,
+    "low": 91.21,
+    "volume": 240264,
+    "time": "2026-11-19T22:05:09.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3660.0,
+    "change": -81.9,
+    "change_pct": -2.19,
+    "prev_close": 3741.9,
+    "open": 3730.3,
+    "high": 3759.5,
+    "low": 3659.2,
+    "volume": 189663,
+    "time": "2026-11-19T16:05:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3659.2,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 61931.13,
+    "change": -569.68,
+    "change_pct": -0.91,
+    "prev_close": 62500.81,
+    "open": 62533.93,
+    "high": 64008.93,
+    "low": 61707.32,
+    "volume": 0,
+    "time": "2026-11-19T16:15:11.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 97915.9,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 103.915,
+    "change": 0.052,
+    "change_pct": 0.05,
+    "prev_close": 103.863,
+    "open": 103.807,
+    "high": 103.974,
+    "low": 103.588,
+    "volume": 0,
+    "time": "2026-11-19T16:15:10.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 103.97,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "top_moves": [
+   {
+    "ticker": "WSM",
+    "name": "Williams-Sonoma",
+    "change_pct": -15.16,
+    "price": 220.66
+   },
+   {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "change_pct": -9.39,
+    "price": 96.92
+   },
+   {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "change_pct": -8.75,
+    "price": 178.78
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "change_pct": -7.72,
+    "price": 489.19
+   },
+   {
+    "ticker": "GRAB",
+    "name": "Grab Holdings",
+    "change_pct": -6.69,
+    "price": 2.93
+   },
+   {
+    "ticker": "FISV",
+    "name": "Fiserv",
+    "change_pct": -6.38,
+    "price": 56.62
+   },
+   {
+    "ticker": "TOST",
+    "name": "Toast",
+    "change_pct": -6.32,
+    "price": 31.85
+   },
+   {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "change_pct": -6.3,
+    "price": 59.61
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "change_pct": -6.1,
+    "price": 44.91
+   },
+   {
+    "ticker": "XYZ",
+    "name": "Block",
+    "change_pct": -6.05,
+    "price": 74.23
+   },
+   {
+    "ticker": "PDD",
+    "name": "PDD Holdings",
+    "change_pct": 11.04,
+    "price": 86.0
+   },
+   {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "change_pct": 6.42,
+    "price": 361.73
+   },
+   {
+    "ticker": "P",
+    "name": "Everpure",
+    "change_pct": 4.73,
+    "price": 105.5
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "change_pct": 4.15,
+    "price": 114.56
+   },
+   {
+    "ticker": "ZS",
+    "name": "Zscaler",
+    "change_pct": 3.98,
+    "price": 205.71
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "change_pct": 2.98,
+    "price": 296.78
+   },
+   {
+    "ticker": "JD",
+    "name": "JD.com",
+    "change_pct": 2.89,
+    "price": 25.64
+   },
+   {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "change_pct": 2.71,
+    "price": 243.46
+   },
+   {
+    "ticker": "EXPD",
+    "name": "Expeditors International",
+    "change_pct": 2.26,
+    "price": 193.14
+   },
+   {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "change_pct": 2.09,
+    "price": 306.98
+   }
+  ],
+  "todays_stories": [
+   {
+    "path": "/news/2026-11-19/2-high-margin-stocks-we-like-and-1-wed-skip-tapestry-f5-and-datadog/",
+    "date": "2026-11-19",
+    "title": "2 High-Margin Stocks We Like and 1 We'd Skip: Tapestry, F5 and Datadog",
+    "type": "list",
+    "tickers": [
+     "TPR",
+     "FFIV",
+     "DDOG"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/3-beaten-down-quality-stocks-we-like-and-1-wed-skip-netflix-caterpillar-lululemon-and-on-semiconductor/",
+    "date": "2026-11-19",
+    "title": "3 Beaten-Down Quality Stocks We Like and 1 We'd Skip: Netflix, Caterpillar, Lululemon and ON",
+    "type": "list",
+    "tickers": [
+     "NFLX",
+     "CAT",
+     "LULU",
+     "ON"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/3-stocks-wed-skip-after-their-earnings-and-1-we-like-walmart-williams-sonoma-everpure-and-palo-alto/",
+    "date": "2026-11-19",
+    "title": "3 Stocks We'd Skip After Their Earnings and 1 We Like: Walmart, Williams-Sonoma, Everpure and Palo Alto",
+    "type": "list",
+    "tickers": [
+     "PANW",
+     "WMT",
+     "WSM",
+     "P"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/alibaba-baba-beats-revenue-estimates-as-ai-cloud-sales-jump-53-but-profit-misses/",
+    "date": "2026-11-19",
+    "title": "Alibaba (BABA) Beats Revenue Estimates as AI Cloud Sales Jump 53%, but Profit Misses",
+    "type": "brief",
+    "tickers": [
+     "BABA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/amd-amd-shares-plunge-after-hunterbrook-shorts-it-over-china-links/",
+    "date": "2026-11-19",
+    "title": "AMD (AMD) Shares Plunge After Hunterbrook Shorts It Over China Links",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "NVDA",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-19/",
+    "date": "2026-11-19",
+    "title": "Anthropic's Record $81 Billion IPO Lifts Futures After the S&P 500's Fifth Straight Loss",
+    "type": "daily",
+    "tickers": [
+     "AMZN",
+     "GOOGL",
+     "NVDA",
+     "UNH",
+     "PANW",
+     "BABA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/coherent-astera-labs-and-intel-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Coherent, Astera Labs and Intel Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "COHR",
+     "ALAB",
+     "INTC",
+     "QCOM",
+     "LITE",
+     "CRDO"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/dell-coreweave-and-bloom-energy-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Dell, CoreWeave and Bloom Energy Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "CRWV",
+     "BE",
+     "HPE",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/jpmorgan-now-expects-fed-rate-hikes-at-each-of-the-next-three-meetings/",
+    "date": "2026-11-19",
+    "title": "JPMorgan Now Expects Fed Rate Hikes at Each of the Next Three Meetings",
+    "type": "brief",
+    "tickers": []
+   },
+   {
+    "path": "/news/2026-11-19/novartis-nvs-cuts-its-sales-growth-target-to-5-a-year-through-2031/",
+    "date": "2026-11-19",
+    "title": "Novartis (NVS) Cuts Its Sales Growth Target to 5% a Year Through 2031",
+    "type": "brief",
+    "tickers": [
+     "NVS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/pdd-holdings-pdd-misses-q3-revenue-estimates-but-beats-on-profit-as-it-cuts-marketing/",
+    "date": "2026-11-19",
+    "title": "PDD Holdings (PDD) Misses Q3 Revenue Estimates but Beats on Profit as It Cuts Marketing",
+    "type": "earnings-recap",
+    "tickers": [
+     "PDD",
+     "BABA",
+     "JD"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/regeneron-regn-wins-fda-approval-for-livsayis-a-four-times-a-year-myasthenia-gravis-shot/",
+    "date": "2026-11-19",
+    "title": "Regeneron (REGN) Wins FDA Approval for Livsayis, a Four-Times-a-Year Myasthenia Gravis Shot",
+    "type": "brief",
+    "tickers": [
+     "REGN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/rubrik-zscaler-and-crowdstrike-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Rubrik, Zscaler and CrowdStrike Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "RBRK",
+     "ZS",
+     "CRWD",
+     "NET",
+     "PANW",
+     "FTNT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/stocks-making-the-biggest-moves-yesterday-humana-unitedhealth-palo-alto-rubrik-and-tjx/",
+    "date": "2026-11-19",
+    "title": "Stocks Making the Biggest Moves Yesterday: Humana, UnitedHealth, Palo Alto, Rubrik and TJX",
+    "type": "movers",
+    "tickers": [
+     "HUM",
+     "UNH",
+     "PANW",
+     "RBRK",
+     "TJX"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/the-average-stock-is-up-while-the-s-p-500-is-down-wall-street-is-betting-techs-lead-is-over/",
+    "date": "2026-11-19",
+    "title": "The Average Stock Is Up While the S&P 500 Is Down. Wall Street Is Betting Tech's Lead Is Over",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "LLY",
+     "COST",
+     "WMT",
+     "PG",
+     "MSFT",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/tsmc-tsm-and-samsung-halt-some-chip-shipments-to-chinese-customers-under-new-us-curbs/",
+    "date": "2026-11-19",
+    "title": "TSMC (TSM) and Samsung Halt Some Chip Shipments to Chinese Customers Under New US Curbs",
+    "type": "brief",
+    "tickers": [
+     "TSM",
+     "BABA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/walmart-wmt-beats-q3-estimates-and-raises-its-outlook-for-the-third-time/",
+    "date": "2026-11-19",
+    "title": "Walmart (WMT) Beats Q3 Estimates and Raises Its Outlook for the Third Time",
+    "type": "earnings-recap",
+    "tickers": [
+     "WMT",
+     "TGT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/western-digital-seagate-and-sandisk-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Western Digital, Seagate and Sandisk Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "WDC",
+     "STX",
+     "SNDK",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/williams-sonoma-wsm-q3-matches-estimates-with-tariff-refund-help-and-the-stock-slides/",
+    "date": "2026-11-19",
+    "title": "Williams-Sonoma (WSM) Q3 Matches Estimates With Tariff-Refund Help, and the Stock Slides",
+    "type": "earnings-recap",
+    "tickers": [
+     "WSM"
+    ]
+   }
+  ],
+  "reporting_after_close": [
+   "INTU",
+   "ROST",
+   "KEYS"
+  ]
+ }
+}
