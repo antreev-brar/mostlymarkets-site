@@ -2382,6 +2382,14 @@
 "AAPL"
 ]
 },
+"news-ABBV-2026-11-19-abbvie-expands-bispecific-cancer-med-pus": {
+"created": "2026-11-19T03:01:18-05:00",
+"day": "2026-11-19",
+"kind": "news",
+"tickers": [
+"ABBV"
+]
+},
 "news-ACN-2026-11-10-qantas-to-move-corporate-roles-to-accent": {
 "created": "2026-11-10T04:01:05-05:00",
 "day": "2026-11-10",
@@ -3124,6 +3132,12 @@
 "news-META-2026-11-15-meta-meta-faces-880-million-italy-fine-o": {
 "created": "2026-11-15T09:01:56-05:00",
 "day": "2026-11-15",
+"kind": "news",
+"outcome": "already-written"
+},
+"news-META-2026-11-19-meta-looks-to-hire-new-india-policy-chie": {
+"created": "2026-11-19T03:01:18-05:00",
+"day": "2026-11-19",
 "kind": "news",
 "outcome": "already-written"
 },
