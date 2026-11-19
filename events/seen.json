@@ -2390,6 +2390,14 @@
 "ABBV"
 ]
 },
+"news-ABBV-2026-11-19-disco-pharmaceuticals-announces-strategi": {
+"created": "2026-11-19T04:01:11-05:00",
+"day": "2026-11-19",
+"kind": "news",
+"tickers": [
+"ABBV"
+]
+},
 "news-ACN-2026-11-10-qantas-to-move-corporate-roles-to-accent": {
 "created": "2026-11-10T04:01:05-05:00",
 "day": "2026-11-10",
@@ -3687,6 +3695,14 @@
 "news-TM-2026-11-16-pony-ai-and-toyota-launch-fully-driverle": {
 "created": "2026-11-16T02:01:02-05:00",
 "day": "2026-11-16",
+"kind": "news",
+"tickers": [
+"TM"
+]
+},
+"news-TM-2026-11-19-toyota-to-recall-over-314-000-us-vehicle": {
+"created": "2026-11-19T04:01:11-05:00",
+"day": "2026-11-19",
 "kind": "news",
 "tickers": [
 "TM"
