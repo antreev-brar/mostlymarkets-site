@@ -1,0 +1,90 @@
+{
+ "id": "news-BLK-2026-11-19-blackrock-declares-quarterly-dividend-of",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-19T00:01:55-05:00",
+ "expires": "2026-11-19T10:01:55-05:00",
+ "tickers": [
+  "BLK"
+ ],
+ "headline_hint": "BlackRock: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-19T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Jio Financial and BlackRock inject capital into India venture",
+    "source": "bne Intellinews",
+    "url": "https://www.tradingview.com/news/moodys:da90dcffe660e:0-jio-financial-and-blackrock-inject-capital-into-india-venture/",
+    "published": "2026-11-18T22:39:14-05:00",
+    "also": []
+   },
+   {
+    "title": "Blackrock Declares Quarterly Dividend Of $5.73 On Common Stock",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA64ZV4N:0-blackrock-declares-quarterly-dividend-of-5-73-on-common-stock/",
+    "published": "2026-11-18T20:17:19-05:00",
+    "also": [
+     "TradingView"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 1169.21,
+   "change_pct": -0.97,
+   "prev_close": 1169.21,
+   "time": "2026-11-18",
+   "mktcap": "189.447B",
+   "pe": 27.88,
+   "fpe": 19.45,
+   "yr_high": 1242.12,
+   "yr_low": 917.39,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 1172.06,
+    "change_pct": 0.24,
+    "time": "2026-11-18"
+   }
+  },
+  "facts": {
+   "ticker": "BLK",
+   "name": "BlackRock",
+   "date": "2026-11-17",
+   "close": 1180.67,
+   "prev_close": 1197.97,
+   "change_pct": -1.44,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 96,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -2.04
+   },
+   "ytd_pct": 10.31,
+   "return_1m_pct": 4.99,
+   "return_6m_pct": 13.93,
+   "return_1y_pct": 11.6,
+   "high_52w": {
+    "close": 1226.31,
+    "date": "2026-11-11"
+   },
+   "low_52w": {
+    "close": 922.9,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 3.72,
+   "thousand_dollars_5y_ago_now": 1267,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 652671,
+   "volume_vs_20d_avg": 0.96,
+   "sentences": [
+    "BlackRock's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 2.0%.",
+    "The stock is up 10.3% this year, and at $1,180.67 it sits 3.7% below its 52-week closing high of $1,226.31 from 11 November 2026.",
+    "$1,000 invested in BlackRock five years ago would be worth $1,267 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

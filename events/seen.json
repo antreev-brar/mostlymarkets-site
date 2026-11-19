@@ -2446,6 +2446,14 @@
 "AMD"
 ]
 },
+"news-AMZN-2026-11-19-blue-owl-plans-513-million-commercial-mo": {
+"created": "2026-11-19T00:01:55-05:00",
+"day": "2026-11-19",
+"kind": "news",
+"tickers": [
+"AMZN"
+]
+},
 "news-ANET-2026-11-05-arista-networks-anet-stock-price-rallies": {
 "created": "2026-11-05T00:01:50-05:00",
 "day": "2026-11-05",
@@ -2622,6 +2630,14 @@
 "news-BLK-2026-11-16-nio-stock-hits-6-year-low-blackrock-cuts": {
 "created": "2026-11-16T04:30:13-05:00",
 "day": "2026-11-16",
+"kind": "news",
+"tickers": [
+"BLK"
+]
+},
+"news-BLK-2026-11-19-blackrock-declares-quarterly-dividend-of": {
+"created": "2026-11-19T00:01:55-05:00",
+"day": "2026-11-19",
 "kind": "news",
 "tickers": [
 "BLK"
@@ -2829,6 +2845,14 @@
 "day": "2026-11-04",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-CRWD-2026-11-19-crowdstrike-crwd-is-getting-investor-att": {
+"created": "2026-11-19T00:01:55-05:00",
+"day": "2026-11-19",
+"kind": "news",
+"tickers": [
+"CRWD"
+]
 },
 "news-CSCO-2026-11-13-us-stock-futures-edge-lower-as-nvidia-le": {
 "created": "2026-11-13T06:09:37-05:00",

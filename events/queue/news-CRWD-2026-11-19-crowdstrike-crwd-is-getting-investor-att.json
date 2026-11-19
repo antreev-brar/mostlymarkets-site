@@ -1,0 +1,92 @@
+{
+ "id": "news-CRWD-2026-11-19-crowdstrike-crwd-is-getting-investor-att",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-19T00:01:55-05:00",
+ "expires": "2026-11-19T10:01:55-05:00",
+ "tickers": [
+  "CRWD"
+ ],
+ "headline_hint": "CrowdStrike: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-19T00:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "CrowdStrike (CRWD) is Getting Investor Attention \u2014 Here\u2019s Why",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVTVCNEc0TTRzbzN0UEdRLWI4Q0ZwVjJJekNqV1ZmemtJSS03c041MGR1d2djdTJNdmVxNGZwdVpibGFxTFk0bkt6Y0oyem9YNUdxNXRTS0V6ZldLR21IQVVBaE9BN0FUd2Y3N2djMnZWaUFfTDNSY29DWHJsY3ptZXU2T1pnbkk4NWlmaF9IdzVfbHlKNzJ6WEE2Z3JBZXZjbjFJZ29uWFNFbG1k?oc=5",
+    "published": "2026-11-18T22:33:00-05:00",
+    "also": []
+   },
+   {
+    "title": "ANT, UNH, CRWD, TTWO, AMZN: 5 Trending Stocks Today",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQM1hzTGlFRE92Z3luTk56dWREVmFONndPN3hGUW90N2o3M1p0aEhXM3pwOHlVTUM5SjFULWJzM0xNNFRsMTA0dU54ZTRCZ1hVUzI3NzdmSGxpQ1o1dnJ3bGcyYUR3OG9adTdOTnZpMnFpYkg4dW55Q3pyempOVHNpbzlfeHl0ZDVubzMwemtlMW5FbmlmVVpteXdiM015RXNNQjJBZnFxX1NaNi1fWk15Wjl1M3lNd3lTbDRybnRuOG9lbmRHMlN1ampINXFZcnRyQ1ZITy1Pb1luWGR5NnhuclcwcjlnejdYbjFjM3YwbDBVZTRlNENUZjRrOVctc3VZdVRIeEI3VlByZw?oc=5",
+    "published": "2026-11-18T20:22:25-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 237.03,
+   "change_pct": 7.95,
+   "prev_close": 237.03,
+   "time": "2026-11-18",
+   "mktcap": "242.703B",
+   "pe": 4151.14,
+   "fpe": 167.63,
+   "yr_high": 286.99,
+   "yr_low": 85.68,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 251.27,
+    "change_pct": 6.01,
+    "time": "2026-11-18"
+   }
+  },
+  "facts": {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "date": "2026-11-17",
+   "close": 219.58,
+   "prev_close": 223.21,
+   "change_pct": -1.63,
+   "moves_over_5pct_last_year": 32,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 134,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -9.88
+   },
+   "ytd_pct": 87.37,
+   "return_1m_pct": -3.74,
+   "return_6m_pct": 42.38,
+   "return_1y_pct": 63.39,
+   "high_52w": {
+    "close": 278.86,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 87.56,
+    "date": "2026-02-24"
+   },
+   "pct_below_52w_high": 21.26,
+   "thousand_dollars_5y_ago_now": 3256,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 7884966,
+   "volume_vs_20d_avg": 0.87,
+   "sentences": [
+    "CrowdStrike's shares moved 5% or more on 32 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 9.9%.",
+    "The stock is up 87.4% this year, and at $219.58 it sits 21.3% below its 52-week closing high of $278.86 from 6 October 2026.",
+    "$1,000 invested in CrowdStrike five years ago would be worth $3,256 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-18/palo-alto-networks-panw-beats-q1-estimates-raises-its-forecast-and-buys-applied-compute/",
+   "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/",
+   "/news/2026-11-03/crowdstrike-crwd-agrees-to-buy-two-ai-security-startups-for-495-million/"
+  ]
+ }
+}
