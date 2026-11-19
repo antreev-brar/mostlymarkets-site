@@ -2,7 +2,7 @@
 title = "Dell, CoreWeave and Bloom Energy Shares Jump: What Happened"
 dek = "Bloom Energy rose 7.2%, CoreWeave 5.1% and Dell 4.7% by 10:15 a.m. ET as Anthropic's record $81.3 billion IPO pulled buyers back into beaten-down AI hardware."
 type = "why-it-moved"
-published = 2026-11-19T10:58:00-05:00
+published = 2026-11-19T10:29:30-05:00
 author = "dev-malhotra"
 tickers = ["DELL", "CRWV", "BE", "HPE", "SMCI"]
 reason = "Sector move"

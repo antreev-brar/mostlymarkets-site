@@ -2,7 +2,7 @@
 title = "Western Digital, Seagate and Sandisk Shares Jump: What Happened"
 dek = "Western Digital rose 8.5% and Seagate 7.5% in the morning session as Anthropic's record IPO revived the AI trade, after a month in which the three lost 18% to 43%."
 type = "why-it-moved"
-published = 2026-11-19T11:08:00-05:00
+published = 2026-11-19T10:30:40-05:00
 author = "dev-malhotra"
 tickers = ["WDC", "STX", "SNDK", "MU"]
 reason = "Sector move"
