@@ -1,0 +1,111 @@
+{
+ "id": "basket-systems-software-up-2026-11-19",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-19T10:01:22-05:00",
+ "expires": "2026-11-19T23:59:00-05:00",
+ "tickers": [
+  "RBRK",
+  "ZS",
+  "CRWD"
+ ],
+ "headline_hint": "RBRK, ZS, CRWD shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-19T10:00:13-05:00",
+ "pack": {
+  "industry": "Systems Software",
+  "quotes": {
+   "RBRK": {
+    "price": 119.72,
+    "change_pct": 8.84,
+    "prev_close": 110.0,
+    "time": "2026-11-19T10:00:02.838-0500",
+    "mktcap": "24.818B",
+    "pe": -94.51,
+    "fpe": 239.92,
+    "yr_high": 139.92,
+    "yr_low": 42.25,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 115.2,
+     "change_pct": 4.73,
+     "time": "2026-11-19T09:30:00.833-0500"
+    }
+   },
+   "ZS": {
+    "price": 214.83,
+    "change_pct": 8.6,
+    "prev_close": 197.83,
+    "time": "2026-11-19T09:45:06.912-0500",
+    "mktcap": "35.03B",
+    "pe": -543.47,
+    "fpe": 43.99,
+    "yr_high": 298.49,
+    "yr_low": 114.63,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 202.12,
+     "change_pct": 2.17,
+     "time": "2026-11-19T09:30:00.682-0500"
+    }
+   },
+   "CRWD": {
+    "price": 252.52,
+    "change_pct": 6.54,
+    "prev_close": 237.03,
+    "time": "2026-11-19T10:00:02.730-0500",
+    "mktcap": "258.564B",
+    "pe": 4422.42,
+    "fpe": 178.59,
+    "yr_high": 286.99,
+    "yr_low": 85.68,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 244.42,
+     "change_pct": 3.12,
+     "time": "2026-11-19T09:30:01.163-0500"
+    }
+   }
+  },
+  "facts": {
+   "RBRK": {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "date": "2026-11-18",
+    "close": 110.0,
+    "prev_close": 100.68,
+    "change_pct": 9.26,
+    "moves_over_5pct_last_year": 51,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 9,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-09-14",
+     "change_pct": 15.64
+    },
+    "ytd_pct": 43.83,
+    "return_1m_pct": -4.01,
+    "return_6m_pct": 64.45,
+    "return_1y_pct": 57.84,
+    "high_52w": {
+     "close": 136.0,
+     "date": "2026-10-28"
+    },
+    "low_52w": {
+     "close": 43.81,
+     "date": "2026-04-10"
+    },
+    "pct_below_52w_high": 19.12,
+    "thousand_dollars_5y_ago_now": null,
+    "five_years_ago_date": null,
+    "volume": 2957733,
+    "volume_vs_20d_avg": 1.02,
+    "sentences": [
+     "Rubrik's shares moved 5% or more on 51 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 14 September 2026, when the stock rose 15.6%.",
+     "The stock is up 43.8% this year, and at $110.00 it sits 19.1% below its 52-week closing high of $136.00 from 28 October 2026."
+    ]
+   }
+  }
+ }
+}

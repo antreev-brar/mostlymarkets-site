@@ -1,0 +1,87 @@
+{
+ "id": "move-DDOG-2026-11-19",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 72,
+ "created": "2026-11-19T10:01:22-05:00",
+ "expires": "2026-11-20T12:00:00-05:00",
+ "tickers": [
+  "DDOG"
+ ],
+ "headline_hint": "Why Datadog (DDOG) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-19T10:00:13-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 179.85,
+   "change_pct": 7.62,
+   "prev_close": 167.11,
+   "time": "2026-11-19T10:00:02.237-0500",
+   "mktcap": "64.932B",
+   "pe": 241.31,
+   "fpe": 64.05,
+   "yr_high": 300.68,
+   "yr_low": 98.01,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 174.93,
+    "change_pct": 4.68,
+    "time": "2026-11-19T09:29:59.996-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DDOG",
+   "name": "Datadog",
+   "date": "2026-11-18",
+   "close": 167.11,
+   "prev_close": 165.18,
+   "change_pct": 1.17,
+   "moves_over_5pct_last_year": 45,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 169,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 3.35
+   },
+   "ytd_pct": 22.88,
+   "return_1m_pct": -34.83,
+   "return_6m_pct": -21.26,
+   "return_1y_pct": -7.3,
+   "high_52w": {
+    "close": 293.26,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 102.61,
+    "date": "2026-02-23"
+   },
+   "pct_below_52w_high": 43.02,
+   "thousand_dollars_5y_ago_now": 877,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 3899463,
+   "volume_vs_20d_avg": 0.82,
+   "sentences": [
+    "Datadog's shares moved 5% or more on 45 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 3.4%.",
+    "The stock is up 22.9% this year, and at $167.11 it sits 43.0% below its 52-week closing high of $293.26 from 9 October 2026.",
+    "$1,000 invested in Datadog five years ago would be worth $877 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-19/2-high-margin-stocks-we-like-and-1-wed-skip-tapestry-f5-and-datadog/",
+    "date": "2026-11-19",
+    "title": "2 High-Margin Stocks We Like and 1 We'd Skip: Tapestry, F5 and Datadog",
+    "type": "list",
+    "tickers": [
+     "TPR",
+     "FFIV",
+     "DDOG"
+    ]
+   }
+  ]
+ }
+}

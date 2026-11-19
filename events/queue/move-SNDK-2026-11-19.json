@@ -1,0 +1,143 @@
+{
+ "id": "move-SNDK-2026-11-19",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 68,
+ "created": "2026-11-19T10:01:22-05:00",
+ "expires": "2026-11-20T12:00:00-05:00",
+ "tickers": [
+  "SNDK"
+ ],
+ "headline_hint": "Why Sandisk (SNDK) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-19T10:00:13-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 823.0,
+   "change_pct": 6.03,
+   "prev_close": 776.22,
+   "time": "2026-11-19T10:00:08.016-0500",
+   "mktcap": "117.104B",
+   "pe": 0.83,
+   "fpe": 3.67,
+   "yr_high": 2354.39,
+   "yr_low": 183.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 811.44,
+    "change_pct": 4.54,
+    "time": "2026-11-19T09:29:59.602-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "date": "2026-11-18",
+   "close": 776.22,
+   "prev_close": 797.24,
+   "change_pct": -2.64,
+   "moves_over_5pct_last_year": 117,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 165,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -8.58
+   },
+   "ytd_pct": 226.99,
+   "return_1m_pct": -43.15,
+   "return_6m_pct": -44.26,
+   "return_1y_pct": 191.94,
+   "high_52w": {
+    "close": 2335.0,
+    "date": "2026-06-25"
+   },
+   "low_52w": {
+    "close": 194.38,
+    "date": "2025-12-03"
+   },
+   "pct_below_52w_high": 66.76,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 12938350,
+   "volume_vs_20d_avg": 1.03,
+   "sentences": [
+    "Sandisk's shares moved 5% or more on 117 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 8.6%.",
+    "The stock is up 227.0% this year, and at $776.22 it sits 66.8% below its 52-week closing high of $2,335.00 from 25 June 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/stocks-making-the-biggest-moves-yesterday-ast-spacemobile-astera-labs-tyson-foods-sandisk-and-lumentum/",
+    "date": "2026-11-17",
+    "title": "Stocks Making the Biggest Moves Yesterday: AST SpaceMobile, Astera Labs, Tyson Foods, Sandisk and Lumentum",
+    "type": "movers",
+    "tickers": [
+     "ASTS",
+     "ALAB",
+     "TSN",
+     "SNDK",
+     "LITE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/micron-and-tsmc-shares-fall-what-happened/",
+    "date": "2026-11-17",
+    "title": "Micron and TSMC Shares Fall: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MU",
+     "TSM",
+     "SNDK",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/sandisk-seagate-and-western-digital-shares-slide-what-happened/",
+    "date": "2026-11-16",
+    "title": "Sandisk, Seagate and Western Digital Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "SNDK",
+     "STX",
+     "WDC",
+     "MU",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-05/sandisk-micron-and-amd-shares-plunge-what-happened/",
+    "date": "2026-11-05",
+    "title": "Sandisk, Micron and AMD Shares Plunge: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "SNDK",
+     "MU",
+     "AMD",
+     "WDC",
+     "STX",
+     "DELL"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "move-CRWV-2026-11-19",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 63,
+ "created": "2026-11-19T10:01:22-05:00",
+ "expires": "2026-11-20T12:00:00-05:00",
+ "tickers": [
+  "CRWV"
+ ],
+ "headline_hint": "Why CoreWeave (CRWV) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-19T10:00:13-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 51.34,
+   "change_pct": 7.34,
+   "prev_close": 47.83,
+   "time": "2026-11-19T10:00:02.890-0500",
+   "mktcap": "28.551B",
+   "pe": -10.59,
+   "fpe": -17.2,
+   "yr_high": 138.25,
+   "yr_low": 40.58,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 50.1,
+    "change_pct": 4.75,
+    "time": "2026-11-19T09:30:00.058-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CRWV",
+   "name": "CoreWeave",
+   "date": "2026-11-18",
+   "close": 47.83,
+   "prev_close": 49.89,
+   "change_pct": -4.13,
+   "moves_over_5pct_last_year": 98,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 118,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -6.12
+   },
+   "ytd_pct": -33.21,
+   "return_1m_pct": -23.02,
+   "return_6m_pct": -52.77,
+   "return_1y_pct": -36.51,
+   "high_52w": {
+    "close": 137.98,
+    "date": "2026-05-06"
+   },
+   "low_52w": {
+    "close": 43.66,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 65.34,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 61302420,
+   "volume_vs_20d_avg": 0.88,
+   "sentences": [
+    "CoreWeave's shares moved 5% or more on 98 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 6.1%.",
+    "The stock is down 33.2% this year, and at $47.83 it sits 65.3% below its 52-week closing high of $137.98 from 6 May 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-18/",
+    "date": "2026-11-18",
+    "title": "Nvidia's $130 Billion Forecast Lifts Futures After Software Led a Fourth Straight Loss",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRM",
+     "MSFT",
+     "CRWV",
+     "NBIS",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/wall-street-is-betting-ais-1-trillion-money-loop-breaks-at-the-neoclouds-nvidias-report-will-test-it/",
+    "date": "2026-11-16",
+    "title": "Wall Street Is Betting AI's $1 Trillion Money Loop Breaks at the Neoclouds. Nvidia Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "META"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-14/",
+    "date": "2026-11-14",
+    "title": "Nvidia Ended the Week at a 52-Week Low, and the S&P 500 Rose 2.5% Anyway",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "CRWV",
+     "CSCO",
+     "BABA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/why-coreweave-crwv-stock-fell-after-nvidias-ceo-resigned/",
+    "date": "2026-11-13",
+    "title": "Why CoreWeave (CRWV) Stock Fell After Nvidia's CEO Resigned",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRWV",
+     "NVDA",
+     "NBIS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/wall-street-is-betting-nvidias-loss-is-amd-and-broadcoms-gain-tuesday-will-test-it/",
+    "date": "2026-11-13",
+    "title": "Wall Street Is Betting Nvidia's Loss Is AMD and Broadcom's Gain. Tuesday Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO",
+     "CRWV",
+     "NBIS",
+     "SMCI"
+    ]
+   }
+  ]
+ }
+}

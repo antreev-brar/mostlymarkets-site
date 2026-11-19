@@ -1,0 +1,145 @@
+{
+ "id": "move-DELL-2026-11-19",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 75,
+ "created": "2026-11-19T10:01:22-05:00",
+ "expires": "2026-11-20T12:00:00-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "Why Dell Technologies (DELL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-19T10:00:13-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 332.92,
+   "change_pct": 6.33,
+   "prev_close": 313.11,
+   "time": "2026-11-19T10:00:01.799-0500",
+   "mktcap": "211.675B",
+   "pe": 19.32,
+   "fpe": 11.72,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 327.09,
+    "change_pct": 4.46,
+    "time": "2026-11-19T09:30:01.343-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-18",
+   "close": 313.11,
+   "prev_close": 322.79,
+   "change_pct": -3.0,
+   "moves_over_5pct_last_year": 54,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 116,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -6.96
+   },
+   "ytd_pct": 148.74,
+   "return_1m_pct": -32.16,
+   "return_6m_pct": 28.89,
+   "return_1y_pct": 155.64,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 46.79,
+   "thousand_dollars_5y_ago_now": 5601,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 6550701,
+   "volume_vs_20d_avg": 0.88,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 54 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 7.0%.",
+    "The stock is up 148.7% this year, and at $313.11 it sits 46.8% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $5,601 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/everpure-p-beats-q3-estimates-as-product-sales-jump-77-and-raises-its-forecast/",
+    "date": "2026-11-18",
+    "title": "Everpure (P) Beats Q3 Estimates as Product Sales Jump 77% and Raises Its Forecast",
+    "type": "earnings-recap",
+    "tickers": [
+     "P",
+     "NTAP",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/why-dell-technologies-dell-stock-is-falling-today/",
+    "date": "2026-11-16",
+    "title": "Why Dell Technologies (DELL) Stock Is Falling Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "SMCI",
+     "HPE",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/bulls-vs-bears-on-ai-spending-semianalysis-cut-28-morgan-stanley-says-the-cycle-is-intact/",
+    "date": "2026-11-16",
+    "title": "Bulls vs Bears on AI Spending: SemiAnalysis Cut 28%, Morgan Stanley Says the Cycle Is Intact",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "AVGO",
+     "LRCX",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/amd-broadcom-and-credo-shares-slide-what-happened/",
+    "date": "2026-11-13",
+    "title": "AMD, Broadcom and Credo Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "AVGO",
+     "CRDO",
+     "MRVL",
+     "NVDA",
+     "DELL",
+     "COHR"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/amd-micron-and-lam-research-shares-jump-what-happened/",
+    "date": "2026-11-06",
+    "title": "AMD, Micron and Lam Research Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "MU",
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "COHR",
+     "ANET",
+     "DELL",
+     "NVDA"
+    ]
+   }
+  ]
+ }
+}

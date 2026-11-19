@@ -1,0 +1,130 @@
+{
+ "id": "move-PLTR-2026-11-19",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 72,
+ "created": "2026-11-19T10:01:22-05:00",
+ "expires": "2026-11-20T12:00:00-05:00",
+ "tickers": [
+  "PLTR"
+ ],
+ "headline_hint": "Why Palantir Technologies (PLTR) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-19T10:00:13-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 164.61,
+   "change_pct": 5.07,
+   "prev_close": 156.67,
+   "time": "2026-11-19T10:00:07.276-0500",
+   "mktcap": "396.627B",
+   "pe": 115.37,
+   "fpe": 91.86,
+   "yr_high": 212.94,
+   "yr_low": 106.37,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 160.62,
+    "change_pct": 2.52,
+    "time": "2026-11-19T09:30:00.003-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies",
+   "date": "2026-11-18",
+   "close": 156.67,
+   "prev_close": 156.56,
+   "change_pct": 0.07,
+   "moves_over_5pct_last_year": 36,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 244,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 2.12
+   },
+   "ytd_pct": -11.86,
+   "return_1m_pct": -18.66,
+   "return_6m_pct": 14.23,
+   "return_1y_pct": -8.51,
+   "high_52w": {
+    "close": 209.05,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 107.27,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 25.06,
+   "thousand_dollars_5y_ago_now": 7287,
+   "five_years_ago_date": "2021-11-18",
+   "volume": 14922440,
+   "volume_vs_20d_avg": 0.61,
+   "sentences": [
+    "Palantir Technologies's shares moved 5% or more on 36 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 2.1%.",
+    "The stock is down 11.9% this year, and at $156.67 it sits 25.1% below its 52-week closing high of $209.05 from 9 October 2026.",
+    "$1,000 invested in Palantir Technologies five years ago would be worth $7,287 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-05/palantir-pltr-shares-slide-for-an-eighth-straight-day/",
+    "date": "2026-11-05",
+    "title": "Palantir (PLTR) Shares Slide for an Eighth Straight Day",
+    "type": "why-it-moved",
+    "tickers": [
+     "PLTR"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/palantir-pltr-shares-slide-as-its-new-contracts-grow-just-6/",
+    "date": "2026-11-03",
+    "title": "Palantir (PLTR) Shares Slide as Its New Contracts Grow Just 6%",
+    "type": "why-it-moved",
+    "tickers": [
+     "PLTR"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-03/",
+    "date": "2026-11-03",
+    "title": "Apple and Palantir Beat Estimates and Are Falling Anyway on Election Day",
+    "type": "daily",
+    "tickers": [
+     "AAPL",
+     "PLTR",
+     "ORCL",
+     "NVDA",
+     "LITE",
+     "MRVL",
+     "UAL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/3-stocks-wed-skip-after-their-earnings-and-1-we-like/",
+    "date": "2026-11-03",
+    "title": "3 Stocks We'd Skip After Their Earnings and 1 We Like",
+    "type": "list",
+    "tickers": [
+     "MA",
+     "PLTR",
+     "ABBV",
+     "LIN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/palantir-pltr-beats-q3-estimates-as-us-commercial-sales-overtake-government/",
+    "date": "2026-11-02",
+    "title": "Palantir (PLTR) Beats Q3 Estimates as US Commercial Sales Overtake Government",
+    "type": "earnings-recap",
+    "tickers": [
+     "PLTR"
+    ]
+   }
+  ]
+ }
+}
