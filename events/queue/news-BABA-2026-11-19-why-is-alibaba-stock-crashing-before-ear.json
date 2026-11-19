@@ -1,0 +1,92 @@
+{
+ "id": "news-BABA-2026-11-19-why-is-alibaba-stock-crashing-before-ear",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-19T04:30:15-05:00",
+ "expires": "2026-11-19T14:30:15-05:00",
+ "tickers": [
+  "BABA"
+ ],
+ "headline_hint": "Alibaba: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-19T04:30:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "BABA Stock Dips Further After Hitting 22-Month Low \u2014 US AI Curbs Weigh Ahead Of Earnings, But Retail Bulls Aren\u2019t Budging",
+    "source": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/baba-stock-dips-further-after-hitting-22-month-low-us-ai-curbs-weigh-ahead-of-earnings-but-retail-bulls-aren-t-budging/cNbiclUR9iY",
+    "published": "2026-11-19T03:58:53-05:00",
+    "also": []
+   },
+   {
+    "title": "Why Is Alibaba Stock Crashing Before Earnings?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNblRRMlZJZmswODV4LVFfWEhQSXhrbUVaR0hnYlRuRlZuaExOblRvUnJ4OWlGZEFMeGZFQmw5dDZxT00ybzV6LVNDa3FXYnhFemxPVUlvUTR5eVhxd2ZmTWc5X2tOdVFPcVFzM3JOdERMUjlDSkEyMnhVTktfa1FRZ3FBX3QyR0o5VUxtQTdEVTlPbjVhLUJxVTBoM1BVbTBnUGc?oc=5",
+    "published": "2026-11-19T02:37:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 84.37,
+   "change_pct": -2.63,
+   "prev_close": 84.37,
+   "time": "2026-11-18",
+   "mktcap": "209.891B",
+   "pe": 18.81,
+   "fpe": 10.58,
+   "yr_high": 181.1,
+   "yr_low": 84.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 83.26,
+    "change_pct": -1.32,
+    "time": "2026-11-19T04:30:00.319-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "date": "2026-11-17",
+   "close": 86.65,
+   "prev_close": 90.62,
+   "change_pct": -4.38,
+   "moves_over_5pct_last_year": 14,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 24,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-12",
+    "change_pct": -7.05
+   },
+   "ytd_pct": -40.89,
+   "return_1m_pct": -20.19,
+   "return_6m_pct": -36.12,
+   "return_1y_pct": -43.66,
+   "high_52w": {
+    "close": 177.18,
+    "date": "2026-01-22"
+   },
+   "low_52w": {
+    "close": 86.65,
+    "date": "2026-11-17"
+   },
+   "pct_below_52w_high": 51.09,
+   "thousand_dollars_5y_ago_now": 536,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 17734050,
+   "volume_vs_20d_avg": 1.62,
+   "sentences": [
+    "Alibaba's shares moved 5% or more on 14 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 November 2026, when the stock fell 7.0%.",
+    "The stock is down 40.9% this year, and at $86.65 it sits 51.1% below its 52-week closing high of $177.18 from 22 January 2026.",
+    "$1,000 invested in Alibaba five years ago would be worth $536 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-18/what-to-expect-from-pdd-holdings-pdd-q3-earnings/",
+   "/news/2026-11-18/what-to-expect-from-alibabas-baba-september-quarter-earnings/",
+   "/news/2026-11-17/jd-com-jd-misses-q3-revenue-estimates-at-309-6-billion-yuan-as-shoppers-hold-back/"
+  ]
+ }
+}
