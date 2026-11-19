@@ -1,0 +1,91 @@
+{
+ "id": "news-RIO-2026-11-19-rio-tinto-lse-rio-stock-looks-fairly-pri",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-19T02:01:16-05:00",
+ "expires": "2026-11-19T12:01:16-05:00",
+ "tickers": [
+  "RIO"
+ ],
+ "headline_hint": "Rio Tinto: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-19T02:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Rio Tinto (LSE:RIO) Stock Looks Fairly Priced After Iron Ore Pricing Warning",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaXd2dWMzOEtIWkhTdTdOZ2M2Zkx5RWVJQmFQUWZYWGJBV1JsWDFYTVRnYk9pdVRIakpzVjVKc2RqSFlZUTUyVEctNEVqLXJTLWdvYkNScDJWVUd3a2dwdk1Od09ZVWlBMHBlNW50NXhQVWZUbEJqNU9oOTVqZ2tLYklsd2VkY2NDaUVxdnhPckFQdw?oc=5",
+    "published": "2026-11-19T00:14:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Rio Tinto Group (LSE:RIO) Restarts Tiwai Point Capacity, Is The Valuation Gap Too Wide?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWHcteDZTTkNpVWNURWd1dXlJU0w2TVVzYTJCd2E3UVoyaDNmUmVRWjdZaVFpTDJnOG41LVp3bEpETjg0bm4zRmlmVU92Q3pzSGt3VWQtQmhPN1B6X1VJQWUwQlZzUC1OQkotYXZrOEFZLTgtcnhPYTZYZHl3VXJtOWJKVktUVjBkaF8xR0tta0tPUQ?oc=5",
+    "published": "2026-11-18T23:35:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 75.9,
+   "change_pct": -4.49,
+   "prev_close": 75.9,
+   "time": "2026-11-18",
+   "mktcap": "123.50B",
+   "pe": 10.28,
+   "fpe": null,
+   "yr_high": 112.58,
+   "yr_low": 68.7,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 75.9,
+    "change_pct": 0.0,
+    "time": "2026-11-18"
+   }
+  },
+  "facts": {
+   "ticker": "RIO",
+   "name": "Rio Tinto",
+   "date": "2026-11-17",
+   "close": 79.47,
+   "prev_close": 80.05,
+   "change_pct": -0.72,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 170,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -3.5
+   },
+   "ytd_pct": -0.7,
+   "return_1m_pct": -11.21,
+   "return_6m_pct": -21.25,
+   "return_1y_pct": 12.52,
+   "high_52w": {
+    "close": 112.04,
+    "date": "2026-05-13"
+   },
+   "low_52w": {
+    "close": 68.78,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 29.07,
+   "thousand_dollars_5y_ago_now": 1310,
+   "five_years_ago_date": "2021-11-17",
+   "volume": 2387306,
+   "volume_vs_20d_avg": 0.74,
+   "sentences": [
+    "Rio Tinto's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 3.5%.",
+    "The stock is down 0.7% this year, and at $79.47 it sits 29.1% below its 52-week closing high of $112.04 from 13 May 2026.",
+    "$1,000 invested in Rio Tinto five years ago would be worth $1,310 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-18/agnico-eagle-freeport-mcmoran-and-newmont-shares-slide-what-happened/",
+   "/news/2026-11-16/bhp-freeport-and-rio-tinto-slide-as-iron-ore-hits-a-four-year-low-in-china/"
+  ]
+ }
+}

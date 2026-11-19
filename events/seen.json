@@ -2643,6 +2643,12 @@
 "BLK"
 ]
 },
+"news-BMY-2026-11-19-evotec-bristol-myers-squibb-gain-second": {
+"created": "2026-11-19T02:01:16-05:00",
+"day": "2026-11-19",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-BP-2026-11-02-ex-shell-ceo-van-beurden-to-chair-castro": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
@@ -3477,6 +3483,14 @@
 "NVO"
 ]
 },
+"news-NVS-2026-11-19-novartis-targets-5-annual-sales-growth-t": {
+"created": "2026-11-19T02:01:16-05:00",
+"day": "2026-11-19",
+"kind": "news",
+"tickers": [
+"NVS"
+]
+},
 "news-ORCL-2026-11-03-oracle-prices-20-billion-of-common-stock": {
 "created": "2026-11-03T00:01:33-05:00",
 "day": "2026-11-03",
@@ -3555,6 +3569,14 @@
 "news-RIO-2026-11-16-rio-tinto-to-contribute-250-million-to-f": {
 "created": "2026-11-16T04:01:02-05:00",
 "day": "2026-11-16",
+"kind": "news",
+"tickers": [
+"RIO"
+]
+},
+"news-RIO-2026-11-19-rio-tinto-lse-rio-stock-looks-fairly-pri": {
+"created": "2026-11-19T02:01:16-05:00",
+"day": "2026-11-19",
 "kind": "news",
 "tickers": [
 "RIO"
@@ -3725,6 +3747,14 @@
 "news-TSLA-2026-11-11-finland-approves-tesla-s-assisted-drivin": {
 "created": "2026-11-11T02:01:07-05:00",
 "day": "2026-11-11",
+"kind": "news",
+"tickers": [
+"TSLA"
+]
+},
+"news-TSLA-2026-11-19-musk-pledges-higher-tesla-output-at-chin": {
+"created": "2026-11-19T02:01:16-05:00",
+"day": "2026-11-19",
 "kind": "news",
 "tickers": [
 "TSLA"
