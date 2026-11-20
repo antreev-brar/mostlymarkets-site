@@ -116,5 +116,8 @@
    "/news/2026-11-19/intuit-intu-beats-q1-estimates-but-cuts-its-revenue-forecast-and-sells-mailchimp/",
    "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-20T06:31:56-05:00",
+ "reason": "covered: the guidance cut and Mailchimp sale behind the pre-market drop are in our 19 Nov recap; the Business Insider report on departures could not be confirmed in detail by a second outlet and is noted in today's Daily"
 }
