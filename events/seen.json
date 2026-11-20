@@ -560,11 +560,6 @@
 "kind": "daily",
 "tickers": []
 },
-"list-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "list"
-},
 "list-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -1024,11 +1019,6 @@
 "kind": "list",
 "theme": "fast-growers",
 "tickers": []
-},
-"macro-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "macro-check"
 },
 "macro-2026-10-30": {
 "created": "2026-10-30T09:37:13-04:00",
@@ -2273,12 +2263,6 @@
 "ZBRA"
 ]
 },
-"movers-2026-10-28": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "movers",
-"outcome": "already-written"
-},
 "movers-2026-10-29": {
 "created": "2026-10-30T09:37:13-04:00",
 "day": "2026-10-30",
@@ -2778,6 +2762,12 @@
 "tickers": [
 "BABA"
 ]
+},
+"news-BABA-2026-11-20-alibaba-puts-quixotic-faith-in-made-in-c": {
+"created": "2026-11-20T00:02:06-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-BHP-2026-11-09-bhp-signs-copper-cathode-purchase-sales": {
 "created": "2026-11-09T00:01:43-05:00",
@@ -4644,12 +4634,6 @@
 "AMGN"
 ]
 },
-"recap-AMZN-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap",
-"outcome": "already-written"
-},
 "recap-ANET-2026-11-03": {
 "created": "2026-11-03T16:15:23-05:00",
 "day": "2026-11-03",
@@ -4665,11 +4649,6 @@
 "tickers": [
 "APD"
 ]
-},
-"recap-APH-2026-10-28": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
 },
 "recap-APO-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
@@ -4773,12 +4752,6 @@
 "tickers": [
 "CAH"
 ]
-},
-"recap-CAT-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap",
-"outcome": "already-written"
 },
 "recap-CBOE-2026-10-30": {
 "created": "2026-11-01T01:04:20-05:00",
@@ -5081,22 +5054,6 @@
 "day": "2026-11-01",
 "kind": "earnings-recap"
 },
-"recap-GEV-2026-10-28": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
-},
-"recap-GILD-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
-},
-"recap-GOOGL-2026-10-28": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap",
-"outcome": "already-written"
-},
 "recap-GWW-2026-11-04": {
 "created": "2026-11-04T08:01:14-05:00",
 "day": "2026-11-04",
@@ -5147,12 +5104,6 @@
 "IFF"
 ]
 },
-"recap-INTC-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap",
-"outcome": "already-written"
-},
 "recap-INTU-2026-11-19": {
 "created": "2026-11-19T16:15:16-05:00",
 "day": "2026-11-19",
@@ -5201,11 +5152,6 @@
 "KKR"
 ]
 },
-"recap-KLAC-2026-10-28": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
-},
 "recap-KMB-2026-11-05": {
 "created": "2026-11-05T06:45:14-05:00",
 "day": "2026-11-05",
@@ -5227,11 +5173,6 @@
 "L"
 ]
 },
-"recap-LIN-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
-},
 "recap-LITE-2026-11-02": {
 "created": "2026-11-03T12:01:45-05:00",
 "day": "2026-11-03",
@@ -5239,12 +5180,6 @@
 "tickers": [
 "LITE"
 ]
-},
-"recap-LLY-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap",
-"outcome": "already-written"
 },
 "recap-LOW-2026-11-18": {
 "created": "2026-11-18T08:01:05-05:00",
@@ -5266,11 +5201,6 @@
 "tickers": [
 "LYV"
 ]
-},
-"recap-MA-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
 },
 "recap-MAR-2026-11-02": {
 "created": "2026-11-02T07:01:13-05:00",
@@ -5354,11 +5284,6 @@
 "MPC"
 ]
 },
-"recap-MRK-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
-},
 "recap-MRNA-2026-11-06": {
 "created": "2026-11-06T07:01:09-05:00",
 "day": "2026-11-06",
@@ -5366,12 +5291,6 @@
 "tickers": [
 "MRNA"
 ]
-},
-"recap-MSFT-2026-10-28": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap",
-"outcome": "already-written"
 },
 "recap-MSI-2026-11-04": {
 "created": "2026-11-04T16:15:15-05:00",
@@ -5600,11 +5519,6 @@
 "tickers": [
 "SE"
 ]
-},
-"recap-SHEL-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "earnings-recap"
 },
 "recap-SHOP-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
@@ -6029,12 +5943,6 @@
 "day": "2026-11-15",
 "kind": "week-ahead",
 "tickers": []
-},
-"wrap-2026-10-29": {
-"created": "2026-10-29T17:11:47-04:00",
-"day": "2026-10-29",
-"kind": "market-wrap",
-"outcome": "already-written"
 },
 "wrap-2026-10-30": {
 "created": "2026-10-30T18:48:32-04:00",
