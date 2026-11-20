@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-20-3",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-20T13:30:14-05:00",
+ "expires": "2026-11-20T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Under-the-Radar Stocks We'd Skip and 1 We Like",
+ "instructions": "Theme: Under-the-Radar, screened on operating margin among companies worth $5-30 billion. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-20T13:30:09-05:00",
+ "pack": {
+  "theme": "profitable-small-caps",
+  "screen": "operating margin among companies worth $5-30 billion",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 72.5,
+    "price": 79.86,
+    "pe": 5.14,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 28971000000,
+     "revenue_growth_yoy_pct": 272.4,
+     "gross_margin_pct": 80.0,
+     "operating_margin_pct": 72.5,
+     "net_margin_pct": 67.0,
+     "eps_diluted": 124.47,
+     "ocf": 17546000000,
+     "fcf": 17365000000,
+     "fcf_margin_pct": 59.9
+    }
+   },
+   {
+    "ticker": "REG",
+    "name": "Regency Centers",
+    "industry": "Retail REITs",
+    "metric": 72.3,
+    "price": 74.24,
+    "pe": 26.54,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 1585065000,
+     "revenue_growth_yoy_pct": 7.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 72.3,
+     "net_margin_pct": 34.5,
+     "eps_diluted": null,
+     "ocf": 819390000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "FRT",
+    "name": "Federal Realty Investment Trust",
+    "industry": "Retail REITs",
+    "metric": 53.6,
+    "price": 111.27,
+    "pe": 22.32,
+    "ttm": {
+     "end": "2026-03-31",
+     "revenue": 1310905000,
+     "revenue_growth_yoy_pct": 7.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 53.6,
+     "net_margin_pct": 38.6,
+     "eps_diluted": 5.75,
+     "ocf": 627928000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "UDR",
+    "name": "UDR",
+    "industry": "Multi-Family Residential REITs",
+    "metric": 52.2,
+    "price": 35.88,
+    "pe": 16.96,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1712435000,
+     "revenue_growth_yoy_pct": 0.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 52.2,
+     "net_margin_pct": 40.8,
+     "eps_diluted": 2.12,
+     "ocf": 854082000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "SBAC",
+    "name": "SBA Communications",
+    "industry": "Telecom Tower REITs",
+    "metric": 47.7,
+    "price": 173.45,
+    "pe": 18.7,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2852219000,
+     "revenue_growth_yoy_pct": 2.3,
+     "gross_margin_pct": 75.7,
+     "operating_margin_pct": 47.7,
+     "net_margin_pct": 34.5,
+     "eps_diluted": 9.27,
+     "ocf": 1298132000,
+     "fcf": 1051807000,
+     "fcf_margin_pct": 36.9
+    }
+   },
+   {
+    "ticker": "VRSK",
+    "name": "Verisk Analytics",
+    "industry": "Research & Consulting Services",
+    "metric": 43.9,
+    "price": 204.6,
+    "pe": 31.03,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3176700000,
+     "revenue_growth_yoy_pct": 4.9,
+     "gross_margin_pct": 70.2,
+     "operating_margin_pct": 43.9,
+     "net_margin_pct": 27.7,
+     "eps_diluted": 6.6,
+     "ocf": 1366900000,
+     "fcf": 1100400000,
+     "fcf_margin_pct": 34.6
+    }
+   },
+   {
+    "ticker": "PTC",
+    "name": "PTC",
+    "industry": "Application Software",
+    "metric": 37.8,
+    "price": 195.38,
+    "pe": 22.1,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 2953972000,
+     "revenue_growth_yoy_pct": 19.5,
+     "gross_margin_pct": 84.5,
+     "operating_margin_pct": 37.8,
+     "net_margin_pct": 41.4,
+     "eps_diluted": 10.28,
+     "ocf": 955321000,
+     "fcf": 935484000,
+     "fcf_margin_pct": 31.7
+    }
+   },
+   {
+    "ticker": "ATO",
+    "name": "Atmos Energy",
+    "industry": "Gas Utilities",
+    "metric": 37.3,
+    "price": 170.57,
+    "pe": 20.04,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 4980252000,
+     "revenue_growth_yoy_pct": 5.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 37.3,
+     "net_margin_pct": 28.6,
+     "eps_diluted": 8.51,
+     "ocf": 2075570000,
+     "fcf": -2098236000,
+     "fcf_margin_pct": -42.1
+    }
+   },
+   {
+    "ticker": "KIM",
+    "name": "Kimco Realty",
+    "industry": "Retail REITs",
+    "metric": 36.0,
+    "price": 25.63,
+    "pe": 24.1,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 2187134000,
+     "revenue_growth_yoy_pct": 4.4,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 36.0,
+     "net_margin_pct": 27.8,
+     "eps_diluted": 0.85,
+     "ocf": 1179106000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "ESS",
+    "name": "Essex Property Trust",
+    "industry": "Multi-Family Residential REITs",
+    "metric": 32.5,
+    "price": 272.27,
+    "pe": 50.47,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 1926734000,
+     "revenue_growth_yoy_pct": 4.7,
+     "gross_margin_pct": 70.1,
+     "operating_margin_pct": 32.5,
+     "net_margin_pct": 22.7,
+     "eps_diluted": 6.43,
+     "ocf": 1118023000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "TROW",
+    "name": "T. Rowe Price",
+    "industry": "Asset Management & Custody Banks",
+    "metric": 32.0,
+    "price": 103.56,
+    "pe": 10.48,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7703400000,
+     "revenue_growth_yoy_pct": 6.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 32.0,
+     "net_margin_pct": 28.4,
+     "eps_diluted": 9.89,
+     "ocf": 1866200000,
+     "fcf": 1598400000,
+     "fcf_margin_pct": 20.7
+    }
+   },
+   {
+    "ticker": "STZ",
+    "name": "Constellation Brands",
+    "industry": "Distillers & Vintners",
+    "metric": 30.2,
+    "price": 144.07,
+    "pe": 12.92,
+    "ttm": {
+     "end": "2026-08-31",
+     "revenue": 9208700000,
+     "revenue_growth_yoy_pct": -4.3,
+     "gross_margin_pct": 52.7,
+     "operating_margin_pct": 30.2,
+     "net_margin_pct": 20.9,
+     "eps_diluted": null,
+     "ocf": 2658300000,
+     "fcf": 1839300000,
+     "fcf_margin_pct": 20.0
+    }
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "industry": "Systems Software",
+    "metric": -18.3,
+    "price": 107.44,
+    "pe": -84.81,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 1542178000,
+     "revenue_growth_yoy_pct": 42.4,
+     "gross_margin_pct": 80.2,
+     "operating_margin_pct": -18.3,
+     "net_margin_pct": -16.5,
+     "eps_diluted": -1.26,
+     "ocf": 337064000,
+     "fcf": 303905000,
+     "fcf_margin_pct": 19.7
+    }
+   },
+   {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "industry": "Health Care Technology",
+    "metric": -18.5,
+    "price": 55.39,
+    "pe": -52.3,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 1509350000,
+     "revenue_growth_yoy_pct": 36.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -18.5,
+     "net_margin_pct": -12.5,
+     "eps_diluted": -1.06,
+     "ocf": -108374000,
+     "fcf": -136794000,
+     "fcf_margin_pct": -9.1
+    }
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "industry": "Diversified Metals & Mining",
+    "metric": -20.5,
+    "price": 34.21,
+    "pe": -154.45,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 399479000,
+     "revenue_growth_yoy_pct": 71.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -20.5,
+     "net_margin_pct": -9.9,
+     "eps_diluted": -0.22,
+     "ocf": -54611000,
+     "fcf": -537267000,
+     "fcf_margin_pct": -134.5
+    }
+   },
+   {
+    "ticker": "RIVN",
+    "name": "Rivian",
+    "industry": "Automobile Manufacturers",
+    "metric": -52.9,
+    "price": 10.6,
+    "pe": -4.7,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6480000000,
+     "revenue_growth_yoy_pct": 11.1,
+     "gross_margin_pct": 9.2,
+     "operating_margin_pct": -52.9,
+     "net_margin_pct": -45.9,
+     "eps_diluted": -2.25,
+     "ocf": -2629000000,
+     "fcf": -4192000000,
+     "fcf_margin_pct": -64.7
+    }
+   }
+  ]
+ }
+}
