@@ -2,7 +2,7 @@
 title = "Wall Street Bet AMD Would Win Nvidia's China Crisis. Now It Is Pricing China Risk Across Chips"
 dek = "AMD has lost 16.4% since 12 November as a short seller, new US curbs and a lawsuit spread Nvidia's China problem to rivals, suppliers and customers. Broadcom, with the least China talk, has held up best."
 type = "narrative"
-published = 2026-11-20T07:58:00-05:00
+published = 2026-11-20T07:30:40-05:00
 author = "dev-malhotra"
 tickers = ["AMD", "NVDA", "AVGO", "TSM", "BABA", "SMCI", "INTC"]
 event = "narrative-2026-11-20"

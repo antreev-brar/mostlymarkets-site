@@ -2,7 +2,7 @@
 title = "Merck (MRK) Says Its Sac-TMT Drug Extended Survival in a Late-Stage Stomach Cancer Trial"
 dek = "Merck said on Friday its TroFuse-015 trial in 473 patients met its overall survival goal but missed on progression-free survival. The shares were up 0.5% before the open after a 10.1% four-day fall."
 type = "brief"
-published = 2026-11-20T08:12:00-05:00
+published = 2026-11-20T07:32:10-05:00
 author = "claire-okafor"
 tickers = ["MRK"]
 event = "news-MRK-2026-11-20-merck-co-trofuse-015-trial-meets-primary"
