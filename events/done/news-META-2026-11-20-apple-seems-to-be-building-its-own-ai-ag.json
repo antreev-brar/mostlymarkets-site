@@ -95,5 +95,8 @@
    "/news/2026-11-16/wall-street-is-betting-ais-1-trillion-money-loop-breaks-at-the-neoclouds-nvidias-report-will-test-it/",
    "/news/2026-11-14/italy-fines-meta-meta-887-million-over-access-to-android-users-photos/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-20T06:30:56-05:00",
+ "reason": "not material: an opinion column on Apple's AI agent and a procedural arbitration filing with no financial figure"
 }

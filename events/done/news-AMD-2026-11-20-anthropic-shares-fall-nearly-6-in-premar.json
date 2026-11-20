@@ -88,5 +88,8 @@
    "/news/2026-11-19/amd-amd-shares-plunge-after-hunterbrook-shorts-it-over-china-links/",
    "/news/2026-11-17/nvidia-nvda-tops-q3-estimates-and-guides-to-130-billion-in-its-first-report-without-huang/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-20T06:30:56-05:00",
+ "reason": "covered: Hunterbrook short in our 19 Nov why-it-moved and today's pre-market fall in the Daily; Cramer comment is not news"
 }

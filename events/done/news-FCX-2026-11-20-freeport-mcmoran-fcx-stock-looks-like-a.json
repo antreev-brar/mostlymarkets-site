@@ -88,5 +88,8 @@
    "/news/2026-11-18/agnico-eagle-freeport-mcmoran-and-newmont-shares-slide-what-happened/",
    "/news/2026-11-16/bhp-freeport-and-rio-tinto-slide-as-iron-ore-hits-a-four-year-low-in-china/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-20T06:30:56-05:00",
+ "reason": "noise: valuation commentary; gold-led slide covered in 18 Nov story and today's Daily"
 }

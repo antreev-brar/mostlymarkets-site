@@ -88,5 +88,8 @@
    "/news/2026-11-18/palo-alto-networks-panw-beats-q1-estimates-raises-its-forecast-and-buys-applied-compute/",
    "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-20T06:30:56-05:00",
+ "reason": "noise: brokerage roundup and an industry award, nothing that changes the numbers"
 }
