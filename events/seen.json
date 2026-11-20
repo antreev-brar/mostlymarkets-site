@@ -3066,6 +3066,14 @@
 "DIS"
 ]
 },
+"news-FTNT-2026-11-20-what-is-fortinet-ftnt-signaling-with-its": {
+"created": "2026-11-20T03:01:26-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"FTNT"
+]
+},
 "news-GEV-2026-11-09-ge-vernova-announces-agreement-to-supply": {
 "created": "2026-11-09T05:02:01-05:00",
 "day": "2026-11-09",
@@ -3995,6 +4003,12 @@
 "tickers": [
 "TSM"
 ]
+},
+"news-TSM-2026-11-20-asia-tech-stocks-reel-from-anthropic-ipo": {
+"created": "2026-11-20T03:01:26-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-TTWO-2026-11-10-take-two-stock-jumps-as-ceo-calls-the-ne": {
 "created": "2026-11-10T06:15:12-05:00",
