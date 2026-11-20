@@ -2470,6 +2470,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-20": {
+"created": "2026-11-20T07:01:27-05:00",
+"day": "2026-11-20",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -3168,6 +3174,14 @@
 },
 "news-HSBC-2026-11-20-hsbc-bought-back-10-000-shares-on-nov-19": {
 "created": "2026-11-20T06:09:45-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"HSBC"
+]
+},
+"news-HSBC-2026-11-20-hsbc-holdings-plc-announces-results-of-i": {
+"created": "2026-11-20T07:01:27-05:00",
 "day": "2026-11-20",
 "kind": "news",
 "tickers": [
