@@ -1,0 +1,148 @@
+{
+ "id": "move-TEAM-2026-11-20",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 59,
+ "created": "2026-11-20T10:01:17-05:00",
+ "expires": "2026-11-23T12:00:00-05:00",
+ "tickers": [
+  "TEAM"
+ ],
+ "headline_hint": "Why Atlassian (TEAM) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-20T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 140.84,
+   "change_pct": 5.89,
+   "prev_close": 133.01,
+   "time": "2026-11-20T10:00:06.488-0500",
+   "mktcap": "35.471B",
+   "pe": 389.71,
+   "fpe": 26.49,
+   "yr_high": 229.96,
+   "yr_low": 56.01,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 131.15,
+    "change_pct": -1.4,
+    "time": "2026-11-20T09:25:18.435-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TEAM",
+   "name": "Atlassian",
+   "date": "2026-11-19",
+   "close": 133.01,
+   "prev_close": 135.05,
+   "change_pct": -1.51,
+   "moves_over_5pct_last_year": 53,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 182,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-18",
+    "change_pct": -4.21
+   },
+   "ytd_pct": -17.97,
+   "return_1m_pct": -41.02,
+   "return_6m_pct": 61.85,
+   "return_1y_pct": -10.58,
+   "high_52w": {
+    "close": 227.61,
+    "date": "2026-10-23"
+   },
+   "low_52w": {
+    "close": 57.15,
+    "date": "2026-04-10"
+   },
+   "pct_below_52w_high": 41.56,
+   "thousand_dollars_5y_ago_now": 309,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 4015000,
+   "volume_vs_20d_avg": 1.11,
+   "sentences": [
+    "Atlassian's shares moved 5% or more on 53 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 18 November 2026, when the stock fell 4.2%.",
+    "The stock is down 18.0% this year, and at $133.01 it sits 41.6% below its 52-week closing high of $227.61 from 23 October 2026.",
+    "$1,000 invested in Atlassian five years ago would be worth $309 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/",
+    "date": "2026-11-18",
+    "title": "Wall Street Is Betting AI Will Empty Software's Seats. 3 Numbers Will Decide It",
+    "type": "narrative",
+    "tickers": [
+     "CRM",
+     "NOW",
+     "INTU",
+     "ADBE",
+     "WDAY",
+     "TEAM",
+     "MSFT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-17/salesforce-mongodb-and-sap-shares-slide-what-happened/",
+    "date": "2026-11-17",
+    "title": "Salesforce, MongoDB and SAP Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "CRM",
+     "MDB",
+     "SAP",
+     "NOW",
+     "WDAY",
+     "INTU",
+     "TEAM"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-06/",
+    "date": "2026-11-06",
+    "title": "The Chip Crash Spread to Asia, and Now the Jobs Report Decides the Bounce",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "SNDK",
+     "AMD",
+     "NET",
+     "ABNB",
+     "TEAM",
+     "APP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/stock-market-today-chips-win-back-part-of-thursdays-rout-as-the-dow-slips/",
+    "date": "2026-11-06",
+    "title": "Stock Market Today: Chips Win Back Part of Thursday's Rout as the Dow Slips",
+    "type": "market-wrap",
+    "tickers": [
+     "AMD",
+     "MU",
+     "INTC",
+     "NVDA",
+     "AXON",
+     "TEAM",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/atlassian-team-beats-q1-estimates-but-sinks-as-it-forecasts-slower-subscription-growth/",
+    "date": "2026-11-06",
+    "title": "Atlassian (TEAM) Beats Q1 Estimates but Sinks as It Forecasts Slower Subscription Growth",
+    "type": "earnings-recap",
+    "tickers": [
+     "TEAM",
+     "NOW",
+     "MSFT"
+    ]
+   }
+  ]
+ }
+}

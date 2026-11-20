@@ -1,0 +1,135 @@
+{
+ "id": "move-CRWD-2026-11-20",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-20T10:01:17-05:00",
+ "expires": "2026-11-23T12:00:00-05:00",
+ "tickers": [
+  "CRWD"
+ ],
+ "headline_hint": "Why CrowdStrike (CRWD) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-20T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 233.22,
+   "change_pct": -4.21,
+   "prev_close": 243.46,
+   "time": "2026-11-20T09:59:56.059-0500",
+   "mktcap": "238.797B",
+   "pe": 4084.33,
+   "fpe": 164.93,
+   "yr_high": 286.99,
+   "yr_low": 85.68,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 238.68,
+    "change_pct": -1.96,
+    "time": "2026-11-20T09:30:00.851-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "date": "2026-11-19",
+   "close": 243.46,
+   "prev_close": 237.03,
+   "change_pct": 2.71,
+   "moves_over_5pct_last_year": 33,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 96,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-18",
+    "change_pct": 7.95
+   },
+   "ytd_pct": 107.75,
+   "return_1m_pct": 1.72,
+   "return_6m_pct": 50.23,
+   "return_1y_pct": 89.58,
+   "high_52w": {
+    "close": 278.86,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 87.56,
+    "date": "2026-02-24"
+   },
+   "pct_below_52w_high": 12.69,
+   "thousand_dollars_5y_ago_now": 3780,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 11597290,
+   "volume_vs_20d_avg": 1.27,
+   "sentences": [
+    "CrowdStrike's shares moved 5% or more on 33 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 18 November 2026, when the stock rose 8.0%.",
+    "The stock is up 107.8% this year, and at $243.46 it sits 12.7% below its 52-week closing high of $278.86 from 6 October 2026.",
+    "$1,000 invested in CrowdStrike five years ago would be worth $3,780 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Systems Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-19/rubrik-zscaler-and-crowdstrike-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Rubrik, Zscaler and CrowdStrike Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "RBRK",
+     "ZS",
+     "CRWD",
+     "NET",
+     "PANW",
+     "FTNT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/palo-alto-networks-panw-beats-q1-estimates-raises-its-forecast-and-buys-applied-compute/",
+    "date": "2026-11-18",
+    "title": "Palo Alto Networks (PANW) Beats Q1 Estimates, Raises Its Forecast and Buys Applied Compute",
+    "type": "earnings-recap",
+    "tickers": [
+     "PANW",
+     "CRWD",
+     "FTNT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-18/palo-alto-networks-crowdstrike-and-rubrik-shares-jump-what-happened/",
+    "date": "2026-11-18",
+    "title": "Palo Alto Networks, CrowdStrike and Rubrik Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "PANW",
+     "CRWD",
+     "RBRK",
+     "NET",
+     "ZS",
+     "FTNT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/crowdstrike-crwd-agrees-to-buy-two-ai-security-startups-for-495-million/",
+    "date": "2026-11-03",
+    "title": "CrowdStrike (CRWD) Agrees to Buy Two AI Security Startups for $495 Million",
+    "type": "brief",
+    "tickers": [
+     "CRWD"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/fortinet-ftnt-shares-plunge-after-it-cuts-its-service-revenue-forecast/",
+    "date": "2026-10-29",
+    "title": "Fortinet (FTNT) Shares Plunge After It Cuts Its Service Revenue Forecast",
+    "type": "why-it-moved",
+    "tickers": [
+     "FTNT",
+     "PANW",
+     "CRWD"
+    ]
+   }
+  ]
+ }
+}

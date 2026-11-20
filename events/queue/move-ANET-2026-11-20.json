@@ -1,0 +1,144 @@
+{
+ "id": "move-ANET-2026-11-20",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 73,
+ "created": "2026-11-20T10:01:17-05:00",
+ "expires": "2026-11-23T12:00:00-05:00",
+ "tickers": [
+  "ANET"
+ ],
+ "headline_hint": "Why Arista Networks (ANET) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-20T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 179.3,
+   "change_pct": -5.43,
+   "prev_close": 189.59,
+   "time": "2026-11-20T10:00:00.409-0500",
+   "mktcap": "226.528B",
+   "pe": 48.15,
+   "fpe": 34.83,
+   "yr_high": 217.41,
+   "yr_low": 114.52,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 184.9,
+    "change_pct": -2.47,
+    "time": "2026-11-20T09:10:12.901-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "date": "2026-11-19",
+   "close": 189.59,
+   "prev_close": 193.94,
+   "change_pct": -2.24,
+   "moves_over_5pct_last_year": 39,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 134,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-16",
+    "change_pct": -5.21
+   },
+   "ytd_pct": 44.69,
+   "return_1m_pct": 2.85,
+   "return_6m_pct": 27.59,
+   "return_1y_pct": 53.58,
+   "high_52w": {
+    "close": 216.74,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 116.13,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 12.53,
+   "thousand_dollars_5y_ago_now": 5881,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 6653966,
+   "volume_vs_20d_avg": 0.76,
+   "sentences": [
+    "Arista Networks's shares moved 5% or more on 39 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 16 November 2026, when the stock fell 5.2%.",
+    "The stock is up 44.7% this year, and at $189.59 it sits 12.5% below its 52-week closing high of $216.74 from 9 October 2026.",
+    "$1,000 invested in Arista Networks five years ago would be worth $5,881 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Communications Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-16/lumentum-coherent-and-arista-shares-slide-what-happened/",
+    "date": "2026-11-16",
+    "title": "Lumentum, Coherent and Arista Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "LITE",
+     "COHR",
+     "ANET",
+     "MRVL",
+     "CRDO",
+     "MPWR",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/cisco-csco-beats-and-raises-as-ai-networking-sales-jump-43-but-margins-slip/",
+    "date": "2026-11-13",
+    "title": "Cisco (CSCO) Beats and Raises as Networking Sales Jump 43%, but Margins Slip",
+    "type": "earnings-recap",
+    "tickers": [
+     "CSCO",
+     "ANET"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/amd-micron-and-lam-research-shares-jump-what-happened/",
+    "date": "2026-11-06",
+    "title": "AMD, Micron and Lam Research Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "AMD",
+     "MU",
+     "LRCX",
+     "KLAC",
+     "AMAT",
+     "ASML",
+     "COHR",
+     "ANET",
+     "DELL",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/2-stocks-we-like-after-their-earnings-and-1-wed-skip/",
+    "date": "2026-11-06",
+    "title": "2 Stocks We Like After Their Earnings and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "ANET",
+     "VRTX",
+     "SHOP"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-04/",
+    "date": "2026-11-04",
+    "title": "Democrats Swept Congress, and the AI Trade Shook Off Its Overnight Scare",
+    "type": "daily",
+    "tickers": [
+     "AMD",
+     "ANET",
+     "SMCI",
+     "TSLA",
+     "NVO",
+     "SWKS"
+    ]
+   }
+  ]
+ }
+}
