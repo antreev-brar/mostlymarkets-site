@@ -107,6 +107,17 @@
 "AMAT"
 ]
 },
+"basket-semiconductor-materials-equipment-down-2026-11-20": {
+"created": "2026-11-20T10:15:14-05:00",
+"day": "2026-11-20",
+"kind": "basket",
+"tickers": [
+"AMAT",
+"LRCX",
+"TER",
+"KLAC"
+]
+},
 "basket-semiconductor-materials-equipment-up-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
@@ -190,6 +201,18 @@
 "MPWR",
 "ALAB",
 "MU"
+]
+},
+"basket-semiconductors-down-2026-11-20": {
+"created": "2026-11-20T10:15:14-05:00",
+"day": "2026-11-20",
+"kind": "basket",
+"tickers": [
+"CRDO",
+"MU",
+"ALAB",
+"ARM",
+"AVGO"
 ]
 },
 "basket-semiconductors-up-2026-11-03": {
