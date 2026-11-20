@@ -560,6 +560,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-20": {
+"created": "2026-11-20T05:02:31-05:00",
+"day": "2026-11-20",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -2601,6 +2607,14 @@
 "news-AMD-2026-11-04-amd-super-micro-shares-jump-after-hours": {
 "created": "2026-11-04T01:01:17-05:00",
 "day": "2026-11-04",
+"kind": "news",
+"tickers": [
+"AMD"
+]
+},
+"news-AMD-2026-11-20-anthropic-shares-fall-nearly-6-in-premar": {
+"created": "2026-11-20T05:02:31-05:00",
+"day": "2026-11-20",
 "kind": "news",
 "tickers": [
 "AMD"
