@@ -1,0 +1,120 @@
+{
+ "id": "news-INTU-2026-11-20-senior-leaders-exit-turbotax-maker-intui",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-20T06:09:45-05:00",
+ "expires": "2026-11-20T16:09:45-05:00",
+ "tickers": [
+  "INTU"
+ ],
+ "headline_hint": "Intuit: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-20T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Premarket movers: Anthropic slides after debut, Intuit tumbles on Mailchimp sale",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNzVPU0NQSU83UHZfRXJfc1VfdU1nMWVQSHVCU3JfM3k0Qkx4LXlGa0YzbXFZMkc5bGNHSjBIb0ZLZ245dWF6d2NwRVVDZDY0d19FS3Z1SUN5NTBRVVRDdFdjdGhGYUx2OXcwbmRtcDZmY2pMTWRjMnZmM1VreUpXRGZSdGp5dWRNVldRNEJDRURMM0NMZlA0M0xraVpVOFJEV0h1RTExbWVST1ZWbklmWWFYaTYybElhWlBMWE9ISkc2RnNsMmpJMlozY0FtZ0ct?oc=5",
+    "published": "2026-11-20T05:29:55-05:00",
+    "also": []
+   },
+   {
+    "title": "Senior leaders exit TurboTax maker Intuit as AI fears hammer its stock- Business Insider",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4710QG:0-senior-leaders-exit-turbotax-maker-intuit-as-ai-fears-hammer-its-stock-business-insider/",
+    "published": "2026-11-20T05:20:37-05:00",
+    "also": []
+   },
+   {
+    "title": "TurboTax maker Intuit has been hit with a string of recent executive departures",
+    "source": "Business Insider",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOajVPSDViXzJjZWR5MHlSbnozOFZnREFFbWtCdVF0RzFFM2tKTkpQU1F1YW12Qk8tUHhwUU9oVThZRlZJMGtCanRkbGRpVThLOV82eFZaRTBXMFQyM2QwMTNwQlhkV2NKb2JTUnQ2SlpOUUhpUDhoRzVyZkF2MVJKWlhHVi1sd1lST0pr?oc=5",
+    "published": "2026-11-20T05:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Why is Intuit stock tumbling today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSGVnNDlaUkhzQm5Ca1pPZXpNaHVfTmFvR2stS2dhQVhkRXZSanhIYm44SWR5R0I5RlRHLURCVmFvSm90QzZDWk5WQUVSQ3ktUG1kQWtVN0hNc1dxeVdlUFBKeU1UZ0U4VmJBMWl1WGJFV19IMXdWQ2pINFdSLUNKaWM1VGYtRTNJWHU5cFhGOHd5djctOWxHSkozbXU?oc=5",
+    "published": "2026-11-20T04:27:33-05:00",
+    "also": []
+   },
+   {
+    "title": "Piper Sandler maintains Intuit at Underweight, lowers price target to $270 from $290",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:15e8d0e51bef0:0-piper-sandler-maintains-intuit-at-underweight-lowers-price-target-to-270-from-290/",
+    "published": "2026-11-20T04:15:07-05:00",
+    "also": []
+   },
+   {
+    "title": "Key facts: Intuit Q1 Revenue Up 12%; Business Up 15%, Consumer 7%",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:437baffc9cab6:0-key-facts-intuit-q1-revenue-up-12-business-up-15-consumer-7/",
+    "published": "2026-11-20T03:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 310.02,
+   "change_pct": -1.03,
+   "prev_close": 310.02,
+   "time": "2026-11-19",
+   "mktcap": "82.849B",
+   "pe": 18.79,
+   "fpe": 12.94,
+   "yr_high": 682.27,
+   "yr_low": 252.84,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 281.5,
+    "change_pct": -9.2,
+    "time": "2026-11-20T05:53:17.674-0500"
+   }
+  },
+  "facts": {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "date": "2026-11-19",
+   "close": 310.02,
+   "prev_close": 313.24,
+   "change_pct": -1.03,
+   "moves_over_5pct_last_year": 28,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 179,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-18",
+    "change_pct": -2.35
+   },
+   "ytd_pct": -53.2,
+   "return_1m_pct": -7.62,
+   "return_6m_pct": 0.96,
+   "return_1y_pct": -52.28,
+   "high_52w": {
+    "close": 676.55,
+    "date": "2025-12-26"
+   },
+   "low_52w": {
+    "close": 255.07,
+    "date": "2026-06-25"
+   },
+   "pct_below_52w_high": 54.18,
+   "thousand_dollars_5y_ago_now": 448,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 4448097,
+   "volume_vs_20d_avg": 1.57,
+   "sentences": [
+    "Intuit's shares moved 5% or more on 28 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 18 November 2026, when the stock fell 2.4%.",
+    "The stock is down 53.2% this year, and at $310.02 it sits 54.2% below its 52-week closing high of $676.55 from 26 December 2025.",
+    "$1,000 invested in Intuit five years ago would be worth $448 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-19/stock-market-today-anthropic-jumps-17-in-its-debut-but-the-dow-drops-1101-points/",
+   "/news/2026-11-19/intuit-intu-beats-q1-estimates-but-cuts-its-revenue-forecast-and-sells-mailchimp/",
+   "/news/2026-11-18/wall-street-is-betting-ai-will-empty-softwares-seats-3-numbers-will-decide-it/"
+  ]
+ }
+}

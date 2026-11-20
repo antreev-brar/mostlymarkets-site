@@ -2962,6 +2962,14 @@
 "C"
 ]
 },
+"news-C-2026-11-20-is-citi-wrong-to-give-up-on-mcdonald-s-w": {
+"created": "2026-11-20T06:09:45-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"C"
+]
+},
 "news-CEG-2026-11-11-constellation-energy-ceg-stock-cools-aft": {
 "created": "2026-11-11T00:03:04-05:00",
 "day": "2026-11-11",
@@ -3150,6 +3158,14 @@
 "HSBC"
 ]
 },
+"news-HSBC-2026-11-20-hsbc-bought-back-10-000-shares-on-nov-19": {
+"created": "2026-11-20T06:09:45-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"HSBC"
+]
+},
 "news-IBM-2026-11-12-ai-stocks-are-sinking-why-is-smart-money": {
 "created": "2026-11-12T03:01:09-05:00",
 "day": "2026-11-12",
@@ -3164,6 +3180,14 @@
 "kind": "news",
 "tickers": [
 "IBM"
+]
+},
+"news-INTU-2026-11-20-senior-leaders-exit-turbotax-maker-intui": {
+"created": "2026-11-20T06:09:45-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"INTU"
 ]
 },
 "news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
@@ -3336,6 +3360,14 @@
 "day": "2026-11-19",
 "kind": "news",
 "outcome": "already-written"
+},
+"news-META-2026-11-20-apple-seems-to-be-building-its-own-ai-ag": {
+"created": "2026-11-20T06:09:45-05:00",
+"day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"META"
+]
 },
 "news-MPC-2026-11-03-cvr-near-deal-to-buy-refineries-from-mar": {
 "created": "2026-11-03T03:01:05-05:00",
