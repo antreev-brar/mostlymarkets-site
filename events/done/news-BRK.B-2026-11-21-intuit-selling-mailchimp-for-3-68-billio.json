@@ -88,5 +88,8 @@
    "/news/2026-11-15/berkshire-hathaway-brk-b-is-up-19-since-october-is-the-business-worth-the-price/",
    "/news/2026-11-07/berkshire-hathaway-brk-b-q3-profit-falls-6-as-buybacks-hit-a-record-9-6-billion/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-21T06:40:11-05:00",
+ "reason": "Mailchimp sale already in our Intuit recap (19 Nov); Buffett's letter came out 16 Nov, no new Berkshire news"
 }
