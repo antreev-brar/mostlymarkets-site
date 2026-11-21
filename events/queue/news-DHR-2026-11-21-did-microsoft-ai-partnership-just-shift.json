@@ -1,0 +1,95 @@
+{
+ "id": "news-DHR-2026-11-21-did-microsoft-ai-partnership-just-shift",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-21T01:02:15-05:00",
+ "expires": "2026-11-21T11:02:15-05:00",
+ "tickers": [
+  "DHR"
+ ],
+ "headline_hint": "Danaher: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-21T01:00:11-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Did Microsoft AI Partnership Just Shift Danaher's (DHR) Investment Narrative?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX0tWZGtzMkJSYjRucW9iMDR6Z1VIeTZPalBIdkdOb1dMTEphdng4OHJTOEJlcVYzTDFOM0ZOSklURi1CRnFBU3IxWUVMblpVTjRiQlFaUXU1OXZzU2JVQUNpX1N3eFlaa1dlYm1QZlZoYmR0WDZxWU1pcmNnN05jaXJxZVd1ZXFrZFpRR0dmNnkxVHUzSTBXRVFIRFlRdw?oc=5",
+    "published": "2026-11-21T00:15:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Is Danaher (DHR) Undervalued After Its Microsoft AI Lab Partnership?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWXJMSkI3WjVZT0FsT2NIdWZqem9oZFNXVjBFTFBlX3U3Sm5ESXlzNmpSa280bnR4a1UxdllQVHhOSDhOMkJlaGt6UC1laGVpckNySS04c3JNdUtGa09nSzRLS3owOW1KN2w1d3E3TDRtVEVsYTRXTjlIcnN5d21NQjRPUnBvU2NlWkZ2TlhVcy05ZVljTnlySVI3WlFJWGUzYTVF?oc=5",
+    "published": "2026-11-20T23:20:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Can Danaher (DHR) Hold A Premium As Bioprocessing Markets Grow?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQURVZkx2RVhqZTlVYmQyaVlHbm5iY2hWbHRsVUttc1RRdllYZHpTTVhtYzFDS3NiNzkyOURVQ2swSFBqaEhoQ25VZnNhc0dkLWNHV3BvbXBHZkZmY2NoWWozd1JSZUk0a1A5RlRqZTc2TlRmOXdPTXhuZ3hzY1FHQmVPMThqVzJuMmUxNkxxaF91dHhTZmlSNVJFTThTd1RDVVpWMmFB?oc=5",
+    "published": "2026-11-20T22:16:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 220.36,
+   "change_pct": -3.16,
+   "prev_close": 227.56,
+   "time": "2026-11-20",
+   "mktcap": "155.03B",
+   "pe": 36.43,
+   "fpe": 25.13,
+   "yr_high": 242.8,
+   "yr_low": 160.93,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 221.31,
+    "change_pct": 0.43,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "DHR",
+   "name": "Danaher",
+   "date": "2026-11-20",
+   "close": 220.36,
+   "prev_close": 227.56,
+   "change_pct": -3.16,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 19,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -3.66
+   },
+   "ytd_pct": -3.74,
+   "return_1m_pct": -4.09,
+   "return_6m_pct": 28.12,
+   "return_1y_pct": -0.92,
+   "high_52w": {
+    "close": 242.05,
+    "date": "2026-01-21"
+   },
+   "low_52w": {
+    "close": 161.91,
+    "date": "2026-05-15"
+   },
+   "pct_below_52w_high": 8.96,
+   "thousand_dollars_5y_ago_now": 795,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 3799248,
+   "volume_vs_20d_avg": 1.13,
+   "sentences": [
+    "Danaher's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 3.7%.",
+    "The stock is down 3.7% this year, and at $220.36 it sits 9.0% below its 52-week closing high of $242.05 from 21 January 2026.",
+    "$1,000 invested in Danaher five years ago would be worth $795 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}
