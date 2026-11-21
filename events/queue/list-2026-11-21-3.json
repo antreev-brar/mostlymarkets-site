@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-21-3",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-21T15:02:00-05:00",
+ "expires": "2026-11-21T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Value Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Value, screened on the lowest forward P/E among companies whose revenue grew over the last 12 months. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-21T15:00:12-05:00",
+ "pack": {
+  "theme": "value",
+  "screen": "the lowest forward P/E among companies whose revenue grew over the last 12 months",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "FIS",
+    "name": "Fidelity National Information Services",
+    "industry": "Transaction & Payment Processing Services",
+    "metric": 4.64,
+    "price": 25.83,
+    "pe": 3.86,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 12938000000,
+     "revenue_growth_yoy_pct": 23.6,
+     "gross_margin_pct": 35.8,
+     "operating_margin_pct": 16.4,
+     "net_margin_pct": 26.8,
+     "eps_diluted": 6.7,
+     "ocf": 2941000000,
+     "fcf": 2780000000,
+     "fcf_margin_pct": 21.5
+    }
+   },
+   {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "industry": "Oil & Gas Refining & Marketing",
+    "metric": 4.78,
+    "price": 367.19,
+    "pe": 7.18,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 174800000000,
+     "revenue_growth_yoy_pct": 31.2,
+     "gross_margin_pct": 15.9,
+     "operating_margin_pct": 12.5,
+     "net_margin_pct": 8.4,
+     "eps_diluted": 51.16,
+     "ocf": 25249000000,
+     "fcf": 20842000000,
+     "fcf_margin_pct": 11.9
+    }
+   },
+   {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "industry": "Oil & Gas Refining & Marketing",
+    "metric": 5.95,
+    "price": 239.33,
+    "pe": 7.66,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 168192000000,
+     "revenue_growth_yoy_pct": 27.5,
+     "gross_margin_pct": 15.1,
+     "operating_margin_pct": null,
+     "net_margin_pct": 7.5,
+     "eps_diluted": 31.27,
+     "ocf": 15028000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "APTV",
+    "name": "Aptiv",
+    "industry": "Automotive Parts & Equipment",
+    "metric": 6.16,
+    "price": 35.33,
+    "pe": 9.14,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 16712000000,
+     "revenue_growth_yoy_pct": 4.1,
+     "gross_margin_pct": 20.0,
+     "operating_margin_pct": 8.7,
+     "net_margin_pct": 4.6,
+     "eps_diluted": 3.63,
+     "ocf": 1087000000,
+     "fcf": 393000000,
+     "fcf_margin_pct": 2.4
+    }
+   },
+   {
+    "ticker": "SNAP",
+    "name": "Snap",
+    "industry": "Interactive Media & Services",
+    "metric": 6.49,
+    "price": 4.55,
+    "pe": -45.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6566716000,
+     "revenue_growth_yoy_pct": 13.8,
+     "gross_margin_pct": 59.1,
+     "operating_margin_pct": -1.8,
+     "net_margin_pct": -2.3,
+     "eps_diluted": -0.09,
+     "ocf": 983055000,
+     "fcf": 776554000,
+     "fcf_margin_pct": 11.8
+    }
+   },
+   {
+    "ticker": "LYB",
+    "name": "LyondellBasell",
+    "industry": "Specialty Chemicals",
+    "metric": 7.44,
+    "price": 55.84,
+    "pe": 13.5,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 31964000000,
+     "revenue_growth_yoy_pct": 3.5,
+     "gross_margin_pct": 14.3,
+     "operating_margin_pct": 8.6,
+     "net_margin_pct": 4.1,
+     "eps_diluted": 3.96,
+     "ocf": 3706000000,
+     "fcf": 2414000000,
+     "fcf_margin_pct": 7.6
+    }
+   },
+   {
+    "ticker": "VTRS",
+    "name": "Viatris",
+    "industry": "Pharmaceuticals",
+    "metric": 7.6,
+    "price": 19.63,
+    "pe": -37.02,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 14681000000,
+     "revenue_growth_yoy_pct": 4.3,
+     "gross_margin_pct": 35.4,
+     "operating_margin_pct": -0.0,
+     "net_margin_pct": -4.1,
+     "eps_diluted": -0.57,
+     "ocf": 2485300000,
+     "fcf": 2110400000,
+     "fcf_margin_pct": 14.4
+    }
+   },
+   {
+    "ticker": "FANG",
+    "name": "Diamondback Energy",
+    "industry": "Oil & Gas Exploration & Production",
+    "metric": 7.71,
+    "price": 175.75,
+    "pe": 23.93,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 18609000000,
+     "revenue_growth_yoy_pct": 21.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 12.6,
+     "net_margin_pct": 11.0,
+     "eps_diluted": 7.34,
+     "ocf": 10359000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "PCG",
+    "name": "PG&E",
+    "industry": "Multi-Utilities",
+    "metric": 8.11,
+    "price": 13.78,
+    "pe": 10.22,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 25837000000,
+     "revenue_growth_yoy_pct": 5.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 20.0,
+     "net_margin_pct": 12.3,
+     "eps_diluted": 1.39,
+     "ocf": 8147000000,
+     "fcf": -4263000000,
+     "fcf_margin_pct": -16.5
+    }
+   },
+   {
+    "ticker": "VICI",
+    "name": "Vici Properties",
+    "industry": "Hotel & Resort REITs",
+    "metric": 8.39,
+    "price": 24.2,
+    "pe": 11.12,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 4155600000,
+     "revenue_growth_yoy_pct": 4.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 56.5,
+     "eps_diluted": 2.18,
+     "ocf": 2707193000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "STLD",
+    "name": "Steel Dynamics",
+    "industry": "Steel",
+    "metric": 8.56,
+    "price": 205.96,
+    "pe": 15.2,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 22219882000,
+     "revenue_growth_yoy_pct": 26.0,
+     "gross_margin_pct": 15.9,
+     "operating_margin_pct": 11.5,
+     "net_margin_pct": 8.8,
+     "eps_diluted": 13.55,
+     "ocf": 1694758000,
+     "fcf": 1094833000,
+     "fcf_margin_pct": 4.9
+    }
+   },
+   {
+    "ticker": "BG",
+    "name": "Bunge Global",
+    "industry": "Agricultural Products & Services",
+    "metric": 8.61,
+    "price": 90.9,
+    "pe": 17.63,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 93468000000,
+     "revenue_growth_yoy_pct": 55.5,
+     "gross_margin_pct": 5.1,
+     "operating_margin_pct": null,
+     "net_margin_pct": 1.2,
+     "eps_diluted": 5.95,
+     "ocf": -955000000,
+     "fcf": -2656000000,
+     "fcf_margin_pct": -2.8
+    }
+   },
+   {
+    "ticker": "NET",
+    "name": "Cloudflare",
+    "industry": "Internet Services & Infrastructure",
+    "metric": 172.5,
+    "price": 274.96,
+    "pe": -401.64,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 2732836000,
+     "revenue_growth_yoy_pct": 35.7,
+     "gross_margin_pct": 71.9,
+     "operating_margin_pct": -14.1,
+     "net_margin_pct": -8.7,
+     "eps_diluted": -0.68,
+     "ocf": 681670000,
+     "fcf": 359479000,
+     "fcf_margin_pct": 13.2
+    }
+   },
+   {
+    "ticker": "LYV",
+    "name": "Live Nation Entertainment",
+    "industry": "Movies & Entertainment",
+    "metric": 179.82,
+    "price": 174.96,
+    "pe": -547.43,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 27878427000,
+     "revenue_growth_yoy_pct": 13.5,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 3.2,
+     "net_margin_pct": 0.5,
+     "eps_diluted": -0.17,
+     "ocf": 2046690000,
+     "fcf": 892992000,
+     "fcf_margin_pct": 3.2
+    }
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "industry": "Automobile Manufacturers",
+    "metric": 188.87,
+    "price": 345.82,
+    "pe": 415.65,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 103570000000,
+     "revenue_growth_yoy_pct": 8.3,
+     "gross_margin_pct": 19.3,
+     "operating_margin_pct": 3.3,
+     "net_margin_pct": 3.1,
+     "eps_diluted": 0.91,
+     "ocf": 18710000000,
+     "fcf": 3303000000,
+     "fcf_margin_pct": 3.2
+    }
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "industry": "Systems Software",
+    "metric": 213.89,
+    "price": 106.73,
+    "pe": -84.25,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 1542178000,
+     "revenue_growth_yoy_pct": 42.4,
+     "gross_margin_pct": 80.2,
+     "operating_margin_pct": -18.3,
+     "net_margin_pct": -16.5,
+     "eps_diluted": -1.26,
+     "ocf": 337064000,
+     "fcf": 303905000,
+     "fcf_margin_pct": 19.7
+    }
+   }
+  ]
+ }
+}
