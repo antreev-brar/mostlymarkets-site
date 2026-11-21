@@ -32,6 +32,9 @@ sources = [
   "https://seekingalpha.com/news/4675203-google-shifts-2027-ai-chip-orders-from-broadcom-to-mediatek-ming-chi-kuo-says",
   "https://finance.yahoo.com/technology/ai/articles/google-reportedly-cuts-broadcom-designed-165518878.html",
   "https://www.benzinga.com/node/62311094",
+  "https://www.trendforce.com/presscenter/news/20261119-13314.html",
+  "https://evertiq.com/news/2026-11-19-nand-flash-prices-set-to-fall-in-2027-as-chinese-cloud-firms-cut-orders",
+  "https://iconnect007.com/article/152454/nand-flash-prices-to-fall-in-2027-on-chinese-csp-order-cuts/152451/ein",
   "https://www.bloomberg.com/news/articles/2026-05-15/these-memory-stocks-are-getting-cheaper-despite-scorching-rally",
   "https://www.pzena.com/americas/investment-professionals/insights/memorys-margins-2q-2026/",
   "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
@@ -46,7 +49,7 @@ sources = [
 
 Micron ($MU) **fell 23.6%** this week, one of the steepest weekly falls among the big stocks we track, even though the company is earning the highest margins in its history. The story Wall Street is telling with that price is simple: memory profits have peaked, and the shares should be valued on what comes after.
 
-The news peg was a string of cuts in four days. Research firm SemiAnalysis lowered its AI chip spending forecast on Monday 16 November, GF Securities cut its flash-memory price forecast on Tuesday, and on Friday an analyst survey said Google had trimmed its 2027 orders for its own AI chips. Sandisk ($SNDK) lost 28.4% on the week, Applied Materials ($AMAT) 18.3% and Seagate ($STX) 13.5%, by our data.
+The news peg was a string of cuts in five days. Research firm SemiAnalysis lowered its AI chip spending forecast on Monday 16 November, GF Securities and then TrendForce cut their flash-memory price forecasts on Tuesday and Thursday, and on Friday an analyst survey said Google had trimmed its 2027 orders for its own AI chips. Sandisk ($SNDK) lost 28.4% on the week, Applied Materials ($AMAT) 18.3% and Seagate ($STX) 13.5%, by our data.
 
 ```stat
 [{"ticker": "MU", "metric": "week", "date": "2026-11-20", "label": "Micron this week", "note": "To $594.51, 51% below its 25 June high"},
@@ -56,7 +59,7 @@ The news peg was a string of cuts in four days. Research firm SemiAnalysis lower
 
 ```highlights
 The short version
-- **What's happening:** Micron trades at 3.4 times forward earnings after a 23.6% weekly fall, as three forecast cuts in four days made investors price memory's record profits as a peak.
+- **What's happening:** Micron trades at 3.4 times forward earnings after a 23.6% weekly fall, as four forecast cuts in five days made investors price memory's record profits as a peak.
 - **Why it matters:** Memory has been the AI trade's most profitable link; if prices turn, the earnings fall fastest at the makers with the highest margins, and buyers like Nvidia get relief.
 - **Our read:** Partly supported. 2027 HBM is contracted, so the peak call is early for AI memory, but flash and ordinary DRAM have no such cushion, and the dated new supply is real.
 ```
@@ -77,7 +80,7 @@ SemiAnalysis lowered its forecast for global spending on AI accelerators in 2028
 
 ### 2. Flash prices are forecast to stall, then fall
 
-GF Securities said on 17 November that it now expects NAND flash prices to stay flat in the first quarter of 2027 and fall in each of the three quarters after, against an earlier call for a 6% rise, 24/7 Wall St. and Seeking Alpha reported. It sees NAND supply growing **28%** in 2027 and named Sandisk the most exposed.
+GF Securities said on 17 November that it now expects NAND flash prices to stay flat in the first quarter of 2027 and fall in each of the three quarters after, against an earlier call for a 6% rise, 24/7 Wall St. and Seeking Alpha reported. It sees NAND supply growing **28%** in 2027 and named Sandisk the most exposed. Two days later, on 19 November, TrendForce cut its forecast for fourth-quarter NAND contract prices to a rise of 8% to 13% from 15% to 20%, and said it expects them to fall 0% to 5% in the first quarter of 2027 and across all product types from the second, as Chinese cloud companies cut orders, Evertiq and iConnect007 reported.
 
 ```chart
 {"kind": "moves", "tickers": ["SNDK", "MU", "AMAT", "LRCX", "STX", "WDC"], "from": "2026-11-13", "to": "2026-11-20", "names": true,
@@ -101,6 +104,7 @@ Micron's own filings show how fast a peak fades: in fiscal 2023, the year after 
 |---|---|---|---|
 | AI accelerator spending forecast, 2028 | Cut 28% | Prior SemiAnalysis forecast | SemiAnalysis via Futu and PANews, 16 November 2026 |
 | NAND price forecast, 1Q27 | Flat | +6% | GF Securities via 24/7 Wall St., 17 November 2026 |
+| NAND contract prices, 1Q27 forecast | -0% to -5% | 4Q26 rise cut to 8%-13% from 15%-20% | TrendForce, 19 November 2026 |
 | Micron gross margin, quarter | 86.8% | 44.7% a year earlier | Micron results, 30 September 2026 |
 | Micron forward P/E | 3.4x | Trailing P/E median of 26.1x since October 2024 | Our data, 20 November 2026 |
 | Micron capital spending, fiscal year | $30.7 billion | Nearly double the year before | Micron annual report |
@@ -133,11 +137,11 @@ We think the first point is the strongest, because it rests on signed contracts,
 | Nvidia | Gains if it breaks: lower memory costs would help its 71% to 72% margin guide | -22.9% |
 
 ```chart
-{"kind": "compare", "tickers": ["MU", "SNDK", "WDC", "STX", "NVDA"], "range": "6m", "end": "2026-11-20", "highlight": "MU",
+{"kind": "compare", "tickers": ["MU", "AMAT", "WDC", "STX", "NVDA"], "range": "6m", "end": "2026-11-20", "highlight": "MU",
  "title": "Micron has given back half its value since its June peak",
  "subtitle": "Change over six months to Friday 20 November, %"}
 ```
 
 ## Our read
 
-**Partly supported.** The flash part of the story is well supported: a named broker sees prices falling through 2027 and supply growing 28%, and Sandisk's slide shows the market believes it. The weakest link is HBM, where three makers say 2027 is sold out at higher prices, so a peak in AI memory profits is at least a year away on the evidence we have. At 3.4 times forward earnings, Micron is priced for the bear case already; the number we'll watch on 17 December is its gross margin against the 86.25% it guided.
+**Partly supported.** The flash part of the story is well supported: GF Securities and TrendForce both now see NAND prices falling in 2027, and Sandisk's slide shows the market believes it. The weakest link is HBM, where three makers say 2027 is sold out at higher prices, so a peak in AI memory profits is at least a year away on the evidence we have. At 3.4 times forward earnings, Micron is priced for the bear case already; the number we'll watch on 17 December is its gross margin against the 86.25% it guided.
