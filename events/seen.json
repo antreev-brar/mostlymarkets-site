@@ -466,6 +466,12 @@
 "kind": "breakdown",
 "tickers": []
 },
+"breakdown-2026-11-21-2": {
+"created": "2026-11-21T14:02:00-05:00",
+"day": "2026-11-21",
+"kind": "breakdown",
+"tickers": []
+},
 "daily-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -4070,6 +4076,14 @@
 "T"
 ]
 },
+"news-T-2026-11-21-musk-says-at-t-and-verizon-may-lose-some": {
+"created": "2026-11-21T14:02:00-05:00",
+"day": "2026-11-21",
+"kind": "news",
+"tickers": [
+"T"
+]
+},
 "news-TM-2026-11-05-toyota-raises-profit-forecast-on-hybrid": {
 "created": "2026-11-05T01:01:14-05:00",
 "day": "2026-11-05",
@@ -4108,6 +4122,14 @@
 "kind": "news",
 "tickers": [
 "TMO"
+]
+},
+"news-TMUS-2026-11-21-t-mobile-leak-reveals-major-phone-plan-c": {
+"created": "2026-11-21T14:02:00-05:00",
+"day": "2026-11-21",
+"kind": "news",
+"tickers": [
+"TMUS"
 ]
 },
 "news-TSLA-2026-11-02-six-reasons-democrats-may-fall-short-of": {
@@ -4183,6 +4205,12 @@
 "tickers": [
 "TSLA"
 ]
+},
+"news-TSLA-2026-11-21-tesla-to-launch-fsd-15-next-month-elon-m": {
+"created": "2026-11-21T14:02:00-05:00",
+"day": "2026-11-21",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-TSM-2026-11-10-tsmc-s-october-sales-jump-as-global-chip": {
 "created": "2026-11-10T02:01:04-05:00",

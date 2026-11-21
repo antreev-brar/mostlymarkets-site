@@ -1,0 +1,91 @@
+{
+ "id": "news-T-2026-11-21-musk-says-at-t-and-verizon-may-lose-some",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-21T14:02:00-05:00",
+ "expires": "2026-11-22T00:02:00-05:00",
+ "tickers": [
+  "T"
+ ],
+ "headline_hint": "AT&T: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-21T14:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Musk Says AT&T and Verizon May \u201cLose Some Revenue\u201d as Starlink\u2019s Phone Service Gets 40x the Bandwidth",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFNsZEZTekVuVHA2TmhOSFg5b2pyaktFcDVJbURFQWZWa2czenI2bVl6SDFUc1JzZ0xZY3NtNXA0UnU1NnVScjdnQU42aDdiTWlaYW94ZHBZUmxZT3Y4b2k1THhEMnpuZ0pJVFVFTU1LU29vd1I0X3NtYW8ycnUzOFpNZEMwcGo1M1JaSFpxZnBYUQ?oc=5",
+    "published": "2026-11-21T12:20:39-05:00",
+    "also": []
+   },
+   {
+    "title": "AT&T vs. T-Mobile: Higher Dividend Yield or Faster Income Growth",
+    "source": "24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUmdoWE9oX05jdVFLVDBUc1BYQWZXQ2pQcXRkSUhfVWFfR1F6NkxLNXJ6amhjVHBaTlV2VnBQZHlYQU5KV0c5VkR3SlgzcGd1dHdkSEFUSEJWbzVGZmthQVF6djJ3NkdtRXZWRWh1a29xMXdpbEY5ZGRHUUwxdWwyWGxkZ3R0VDFVN0h6aElFZFBLSXI4OUt6a2hzQ1RFaGZfekVrai1qMXk?oc=5",
+    "published": "2026-11-21T12:07:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 22.31,
+   "change_pct": 2.11,
+   "prev_close": 21.85,
+   "time": "2026-11-20",
+   "mktcap": "150.291B",
+   "pe": 11.97,
+   "fpe": 9.15,
+   "yr_high": 29.44,
+   "yr_low": 19.89,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 22.33,
+    "change_pct": 0.09,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "T",
+   "name": "AT&T",
+   "date": "2026-11-20",
+   "close": 22.31,
+   "prev_close": 21.85,
+   "change_pct": 2.11,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 39,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-30",
+    "change_pct": 2.34
+   },
+   "ytd_pct": -10.19,
+   "return_1m_pct": -1.89,
+   "return_6m_pct": -11.68,
+   "return_1y_pct": -11.71,
+   "high_52w": {
+    "close": 29.1,
+    "date": "2026-03-27"
+   },
+   "low_52w": {
+    "close": 20.48,
+    "date": "2026-07-01"
+   },
+   "pct_below_52w_high": 23.33,
+   "thousand_dollars_5y_ago_now": 1182,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 54055090,
+   "volume_vs_20d_avg": 1.12,
+   "sentences": [
+    "AT&T's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 30 October 2026, when the stock rose 2.3%.",
+    "The stock is down 10.2% this year, and at $22.31 it sits 23.3% below its 52-week closing high of $29.10 from 27 March 2026.",
+    "$1,000 invested in AT&T five years ago would be worth $1,182 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-17/3-dividend-stocks-we-like-and-1-wed-skip-verizon-att-realty-income-and-international-paper/",
+   "/news/2026-10-23/att-t-shares-slide-after-report-spacex-is-seeking-80000-cell-sites/"
+  ]
+ }
+}

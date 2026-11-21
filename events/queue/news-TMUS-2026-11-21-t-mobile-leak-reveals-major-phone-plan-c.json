@@ -1,0 +1,90 @@
+{
+ "id": "news-TMUS-2026-11-21-t-mobile-leak-reveals-major-phone-plan-c",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-21T14:02:00-05:00",
+ "expires": "2026-11-22T00:02:00-05:00",
+ "tickers": [
+  "TMUS"
+ ],
+ "headline_hint": "T-Mobile US: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-21T14:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "T-Mobile leak reveals major phone plan change for core customers",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY3JMdTdIMHJaQzJyRm41Q2NPOW5BVDQzWXRtYU42UkZhWG1saEw3SHFIZjBEWWc1WWZYYkpwbXl3M2RlNVBnaHBpVTBhaEU5Wmt1aXA4R1ROanlXUmEzeVlMLXlLSW85Mm1CRkNQczJ4NTk5NDc4NE5JRkdiZ0VEUGZWMVE2dGpqSDJkY3ctT0hnRDdqWm5oSlAtNA?oc=5",
+    "published": "2026-11-21T13:33:00-05:00",
+    "also": []
+   },
+   {
+    "title": "AT&T vs. T-Mobile: Higher Dividend Yield or Faster Income Growth",
+    "source": "24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUDdWbExkME0yQjBVN0xYLUFjWTlyQWVYLTYycHJmbHhCTkVock0xWmhaVTc4aVlFdENoT3JncWZXUHJ1WWpSNzhBTUd2QTRJVHZ2OXJkbnEybnFhUDA5ZEdRN1NNUmVONlpXMEt1NVpENURLcERHaEhSaEQ4ZzF2Y0ppbGh4THhfUFhUTEJ2R2tReXVWZVpKcjJVVi13YWZyZ1lBMGI4V0RRUHJCREZyZzVHTHNRd29CeWVQQWlUcVpPSHlHbmVDZmowSTJYR2RHellXNEVTbw?oc=5",
+    "published": "2026-11-21T12:07:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 165.6,
+   "change_pct": 1.89,
+   "prev_close": 162.53,
+   "time": "2026-11-20",
+   "mktcap": "175.416B",
+   "pe": 15.96,
+   "fpe": 12.95,
+   "yr_high": 224.75,
+   "yr_low": 143.75,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 163.32,
+    "change_pct": -1.38,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "TMUS",
+   "name": "T-Mobile US",
+   "date": "2026-11-20",
+   "close": 165.6,
+   "prev_close": 162.53,
+   "change_pct": 1.89,
+   "moves_over_5pct_last_year": 8,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 70,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 4.14
+   },
+   "ytd_pct": -18.44,
+   "return_1m_pct": 4.29,
+   "return_6m_pct": -13.51,
+   "return_1y_pct": -21.62,
+   "high_52w": {
+    "close": 221.98,
+    "date": "2026-02-24"
+   },
+   "low_52w": {
+    "close": 146.54,
+    "date": "2026-10-23"
+   },
+   "pct_below_52w_high": 25.4,
+   "thousand_dollars_5y_ago_now": 1432,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 6053338,
+   "volume_vs_20d_avg": 0.97,
+   "sentences": [
+    "T-Mobile US's shares moved 5% or more on 8 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 4.1%.",
+    "The stock is down 18.4% this year, and at $165.60 it sits 25.4% below its 52-week closing high of $221.98 from 24 February 2026.",
+    "$1,000 invested in T-Mobile US five years ago would be worth $1,432 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-10-23/att-t-shares-slide-after-report-spacex-is-seeking-80000-cell-sites/"
+  ]
+ }
+}
