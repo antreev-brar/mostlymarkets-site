@@ -1,0 +1,99 @@
+{
+ "ticker": "BR",
+ "updated": "2026-11-20T06:06:39-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "7a2777d40fb3197532189068374df59a04baed23",
+   "title": "Broadridge Names Lauren Boyman Chief Marketing And Communications Officer",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA2FSV8S:0-broadridge-names-lauren-boyman-chief-marketing-and-communications-officer/",
+   "published": "2026-11-18T08:55:21-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d913cdf79b40ed1894e1c92c9ff53854a7b2e3fe",
+   "title": "Broadridge Financial Solutions (BR) Launches Oracle for Tokenized-Shareholder Communications",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:e616e9f3d23cc:0-broadridge-financial-solutions-br-launches-oracle-for-tokenized-shareholder-communications/",
+   "published": "2026-11-16T07:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "019af219c70872dfe6bc239e34f5ff3e20782dcb",
+   "title": "Broadridge Financial Solutions 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1383312/000138331226000035/0001383312-26-000035-index.htm",
+   "published": "2026-11-10T12:53:25-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "7fed89ac50fdc44657b9ea72123f7c45d6c1d941",
+   "title": "Broadridge Financial Solutions, Inc. (BR) Declares $1.09 Quarterly Dividend",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ae893a1e88d83:0-broadridge-financial-solutions-inc-br-declares-1-09-quarterly-dividend/",
+   "published": "2026-11-10T12:41:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cb6c2c36f7d6ecb7b56f00774e8a70d68e9a67c7",
+   "title": "BR: FY2026 growth and strong shareholder votes backed a strategy focused on tokenization and AI",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4556564:0-br-fy2026-growth-and-strong-shareholder-votes-backed-a-strategy-focused-on-tokenization-and-ai/",
+   "published": "2026-11-10T10:26:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6ac45c00d3199bd83d2cf530b5dac314719093bb",
+   "title": "Dinari Adds Broadridge Voting Rails to Tokenized US Shares",
+   "source": "NewsBTC",
+   "url": "https://www.newsbtc.com/news/dinari-adds-broadridge-voting-rails-to-tokenized-us-shares/",
+   "published": "2026-11-09T18:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7a4b2e2eab6d6efae13d6c0cf063f42d33930e9f",
+   "title": "Implied Volatility Surging for Broadridge Financial Solutions Stock Options",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3026795/implied-volatility-surging-for-broadridge-financial-solutions-stock-options?cid=CS-TRADINGVIEW-FT-tale_of_the_tape%7Coptions-3026795",
+   "published": "2026-11-09T17:39:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f020d4d73d798409099a6f3322f8f082b8ac69f3",
+   "title": "Broadridge Says Blockchain Repo Platform Processed $7.6T in October",
+   "source": "NewsBTC",
+   "url": "https://www.newsbtc.com/news/broadridge-says-blockchain-repo-platform-processed-7-6t-in-october/",
+   "published": "2026-11-09T17:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c40979a1b231641aab4c02055e95a12df9ae31b9",
+   "title": "Broadridge Financial Solutions, Inc. (BR) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MU0gyb092ak5YdFRuVlphLWxfTE9lWlAydmx4QUlqbGltLUU4YXdSZGZBVV9xOU9Bd1pqMWZXLUItUEtJanV2VVZiX0c5bms?oc=5",
+   "published": "2026-11-09T09:59:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8560df24eeb33f4a3e1a8781bf083484758f362",
+   "title": "Weekly Recap: NYSE tokenized-securities deal and $93 million pretax loss",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ae9b9cd3dc9ad:0-weekly-recap-nyse-tokenized-securities-deal-and-93-million-pretax-loss/",
+   "published": "2026-11-09T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

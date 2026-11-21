@@ -1,0 +1,67 @@
+[
+{
+"ticker": "PANW",
+"name": "Palo Alto Networks, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.52,
+"n_estimates": 16,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.46,
+"surprise_pct": -11.54,
+"mktcap": 296055439000.0
+},
+{
+"ticker": "TJX",
+"name": "TJX Companies, Inc. (The)",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.33,
+"n_estimates": 7,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 1.34,
+"surprise_pct": 0.75,
+"mktcap": 153347391000.0
+},
+{
+"ticker": "LOW",
+"name": "Lowe's Companies, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 2.86,
+"n_estimates": 11,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 3.1,
+"surprise_pct": 8.39,
+"mktcap": 122949378000.0
+},
+{
+"ticker": "TGT",
+"name": "Target Corporation",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 2.05,
+"n_estimates": 13,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 2.15,
+"surprise_pct": 4.88,
+"mktcap": 76076532000.0
+},
+{
+"ticker": "P",
+"name": "Everpure, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.28,
+"n_estimates": 8,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.32,
+"surprise_pct": 14.29,
+"mktcap": 35155476000.0
+}
+]

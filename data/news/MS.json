@@ -1,0 +1,385 @@
+{
+ "ticker": "MS",
+ "updated": "2026-11-21T14:01:04-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "ce15bbc1c801f40695299add56993e6f668d130d",
+   "title": "Morgan Stanley sends a strong signal to Google stock investors",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSzRVY0RVM0VDalQtcmhKX1JKTlZiTmFidmFTQUZIT183bGNnN2hJNFUtME1jQ1pYYm44NGZiTEdXQ3NOX0Q1TWktbjlWS3dHTXZ4UjhIaHdkdVlkOUEzSnp5Q0ZHODlXQXJMX1NadzdPdWVpay1kaTFsd3F5Mmk5UmliNzBtRFdCREl2bWR2b2kxcGU2cDMyZzl4UU9kcFhFLUpWX1l6WGo?oc=5",
+   "published": "2026-11-20T17:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "34f196bf1ea294dfa7d0efdc3638026ec291fc9d",
+   "title": "Morgan Stanley Changes Accounting Policies For Carried Interest Revenue Effective October 1, 2026",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4710YF:0-morgan-stanley-changes-accounting-policies-for-carried-interest-revenue-effective-october-1-2026/",
+   "published": "2026-11-20T16:21:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "432781e10c4d1d07029c38e4b7f6213968a9aa78",
+   "title": "Morgan Stanley 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000358/0000895421-26-000358-index.htm",
+   "published": "2026-11-20T16:01:02-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "ebc1f1bfa80b545c52213c12037229925b5265ba",
+   "title": "GTA 6’s Day-One Sales Were Within Reach Of Morgan Stanley’s Quarterly Target — Firm Says Game ‘Vastly Exceeded’ High Expectations",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMjNfZ3lGSkFOeXBDdE9aNFIzWkZOVHdUZ1NpRl9sSjBqSlhZcUlrbHlQcVk5U1hvc2pkY3ZmMDlKdk03SVJSZ0h4Q213LWd4TG8tQ3JBMkhYRWVmdWlLOHk4UmdOenhYZ01qa1YzdGdBa1FTZHEwcjhQaUhpVUF6ZGJPcEdwOWFJS3FCcg?oc=5",
+   "published": "2026-11-20T07:46:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2de0a0d96dfc01978153b8f41de67f7fb052af5e",
+   "title": "Coinbase slides to a one-year low, below Morgan Stanley’s $120 target",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjVEMGtrNWtXZ2d0dk1JNkZ6a3pvVXFJMUVXM056NVFrVWNXQ2RNYk5EV3Vfbl80QzdzMHJCZ2lSWHBVbXhxT1EweFpLN1o2cExqNEVlT01BQTlMOWVMTl9EWk9mOHdKMVpNeWFWb0ZmcmZmSXZ5dXFtNldnRDV6T2piNy1BR0UwNnlrc3ZlUWxxMENZcnVIM0syM3JBa2tQeFVvb2JDcmtGR28?oc=5",
+   "published": "2026-11-20T07:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "eb15e2da5044a13933c2c7334d721c187b9c910f",
+   "title": "Morgan Stanley cuts Bath & Body Works stock price target on margin risks",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT0VOa0p1ZDBDN05UazhsalFPSG5iMzV4N0JnVm5XbGs0Z0FsYXNMMXFQRDJOUlJackEzeDROeEF5bEI5ejZPVlgwa2hDQ3prRUFLdjFQSVZLR2UtU19tMEM3VWNoazl3VnI3TWJlODFaMy1vTDRkUkRTb0FJdWNUSllsUk9feE9LQXdyM1VqVjc1QzBwNHc2ZkdTbmxDTGlPNFQyOFZFZGduU0s3NGxMTzQ3ZldwbGVSZWhwcDV5Qk1LQzVNTVhyTWdzSQ?oc=5",
+   "published": "2026-11-20T06:02:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b1fbc0c329d6e14a262c976cc6e263a62e89f114",
+   "title": "What Morgan Stanley Saw Before Raising Its Visa (V) Target",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYWItaUdaUmxrc3pCNEhKNGZqb3ZDZTBVZEc3Y21mdmxQS3J2UUVOaVI0YlF2NmhyajVmMEdCT2Vob0dJbXFwMDZsMmRySVM2RW5WMGg1WC1YREdWdGhhOExUNmZnZ0taclRDWHRKVEJucm85QWgzeUhSdHhfMVFGZk9VS09xM0k?oc=5",
+   "published": "2026-11-19T17:33:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d6d91f9b44ff651beca3b82a51ab251bfab975b0",
+   "title": "Morgan Stanley tweaks Nvidia price target after blowout earnings",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOHphU0c5UHdwVzBJbTNGRDFfeXV2Y2VBUnNNMkxsQl9lR01TUWxEVGQxbldIV2RKTmxmdlJ4V3c1RzYxVmw4ckVWQnBjczU4VkJ0MGpMYXR5ejNVd3dmSVdnSjJuRzRvNjg2bS1KMUJ5WndyWlN3aVVzeE5xNUp3eFMxeWpYMml2?oc=5",
+   "published": "2026-11-19T11:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c18f7c49b09742f072c98c6af368a3fc37dd55e7",
+   "title": "Goldman Sachs, Morgan Stanley set to reap $113 million from Anthropic IPO",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWHRTb3JISWE4dGdmVGU2WFIxNDNpSk1SbmR3UTEwSDQwNHNveEJkaE9iZllnY2k1djl5NjJvZVJkMWRMRFduUm5mbnZfOVNDX1ZreDNwcmdOZ0VtdC1mYVhRbmUtNk5JNlB4Z0xleTJjRWt2T0V5aXVwZUpKUHpRZmNkSm44aG9ZVS0wWWZvazFIX1M3X2xadi0xZDhwNWhPOE1EbFNRRURmOHhmTmJ1dEl5M2Z1aWdORjlVZm9JM2lLT2QteXBB?oc=5",
+   "published": "2026-11-19T09:49:33-05:00",
+   "also": [
+    "Fortune"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "dbafa98cd1bc1751c20a617f9c55e10179007e67",
+   "title": "Goldman, Morgan Stanley to Each Earn Over $110 Million in Anthropic IPO Fees",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261119006040:0-goldman-morgan-stanley-to-each-earn-over-110-million-in-anthropic-ipo-fees-wsj/",
+   "published": "2026-11-19T09:38:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b407d436795405bc18cc8a83078085845ec4987c",
+   "title": "Morgan Stanley cuts Accor on debt concerns and reduced buyback room",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclUzSDZTdWQ1bGFoOTVLOUlycWxFYnRqcTBvRVROdFM1STlPRDJpdXpZQWkwNjVjY2RFOHZ3YmtCT19CSTZlaHdHNHlVVnhtYU9YcE40OWQ3UXd1Q1NNeE1ZR3ZRWVJEclJMT2dPcnFHazY0SE9KOWNCUlRlOEgyQjEtYjF0dWY5NU5Damk5eWpzcmR6MldxRzdqNXk5enNjQWlNY015UnJ2WFFRZDE5NThaTXpvVkR5RVlTRWM4NnFwQQ?oc=5",
+   "published": "2026-11-19T05:37:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8c3dcf8d1121bb72b0923695d0117c6da12385b8",
+   "title": "Morgan Stanley Constructive but Not Complacent About Risk Assets in 2027",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261119000158:0-morgan-stanley-constructive-but-not-complacent-about-risk-assets-in-2027-market-talk/",
+   "published": "2026-11-19T01:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "18cf1e6ec928ae63ad078b080653a57ab5039ca1",
+   "title": "Morgan Stanley’s Hornbach Says Rogue AI Biggest Underpriced Risk",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcTRkWGUyQ3lZeFh6dFF6TEpuUXRET1pCSmFSZWJGa0pHUk9RU2RfdnhSSFhCalpHYWxtZTMzRHRTbXdqbWpMZjQwRWhQeHJyTnUwRW9xU18tY0ZJeXpqanlJNXhfNE9VSnNxREk3czJCczIzaHA3QllOTjhnZjZpcUtSTDlPV0p4TVp1WW5xSVF1clduU2FNQTBNdDFLQ2x1OTBldWtaeFl6dDZ5NnpTZjZvVE1yQQ?oc=5",
+   "published": "2026-11-18T20:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ffb0c24572abbad1f2af36879b4502fc99a9d178",
+   "title": "Morgan Stanley Projects $37 Billion in Nebius Capex. The Company Has Bigger Plans",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaVVPbjY5QzZYTmxKVTJWWjBrV0NrX1pjMWpGeVdCWG5XR2pSNUxua3lMandUSVRZZTMxX2dvYmQ5ekxrdGd6UFJDUlFzaWpGRDVjZjJrOEZFYXhUUlFCb1FhMWV0eFk4ZU5rYTlZa3VpOFk3UEZjQ2dYell1Z0syTUozR3FodmFkZUdWMzA2cXE0dnk3eXUxOFFWTXdGR2M?oc=5",
+   "published": "2026-11-18T18:49:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "701c0a064914155cafaa17633947e91ded05ec8c",
+   "title": "Goldman and Morgan Stanley Have Gotten Too High On AI",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWUtDUVZuYm5rUVJjdFBWVGl0OG9XSUl4WVk2WkI5MTZQUlplQUF3RW1EOTZSUDhJY3gwd1Z4WHZGa3FNdWU5cW9WZnBLOTRiWWtWRjYwbWtSVFVSMDRtSTMwa0t1b2RZZW45VFlRV3VPeGkyQUdzZ2FSdFdEVHlYOGhyLU5uZElqVGxJUDZ6Wmh2WHJRRExybGN5QXBaYlhWLXprN2RZc1hCOUZOZVNWRQ?oc=5",
+   "published": "2026-11-18T06:45:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2023c9cb3c6ddd13855efeb444180b7adda49ceb",
+   "title": "Fed's December meeting is the 'final hurdle' before stocks find a bottom: Morgan Stanley's Mike Wilson",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOUNhd05PaTY0MVhTSy14X2FmNnVYRktnQnlObHRYWEJUQjNwWGtjQWpUdnl2NmR6WGN5R1QtWW83ekdKWDVBaU5ub2d0WDFXNHlENUM4UzVVU1hvX3dNUE94RjEzQ2lDUjZad0EweDFETkprLUZwLTdtdXZDQXpwZUpaR19rcFpFeUQ4d3lIQW5KdHRadWhZSWF1cnlCbmM0QWxWN0Niek1WMUNoOVV0Uw?oc=5",
+   "published": "2026-11-17T23:33:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1efdb1fe702bd4d9ac2d7706777c6da3add3fd09",
+   "title": "Morgan Stanley-led group gets $1.3B loan from private credit for Fullscript deal - report",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4673833-morgan-stanley-led-group-gets-13b-loan-from-private-credit-for-fullscript-deal---report",
+   "published": "2026-11-17T14:15:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "002341fd5b31e66e6f197345e5eadda64de7bef6",
+   "title": "Private Credit Helps Morgan Stanley Avoid $1.3 Billion Hung Loan",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSzVPQVFiQ1JDSEx5T2RmbXRpZGhfbkR0R3dJMWM0OVBSNmUwc2FWRnU3MmpobW45OGR6eFFBc3JBenVQcUZZVUZ5SHd6UWprVHRiVVA0YzV2dkRvRjdjXzJnQjVIWWFDNlE0Q0JER3J1aDN2S1dabzVrTmdsYzd1NU5ka3pMMkViUjFoSHppZF9SZEFESTl2US0tWF83ckQyZ1ZSbnBFeDRUQU5Sb29mLUJEQ1Q?oc=5",
+   "published": "2026-11-17T13:18:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ab951f1f4c6953bbe76cdaa7ac79e9305beeb52c",
+   "title": "Morgan Stanley sends strong signal on where stocks are headed",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWVpPdnA1RGpENmFGT0JwelRMeDBuTmwwRU1hcE82UTJCcmoya0swOGs3NDdhR0NxQmJqOGp2bG1jMHBlaGZlaTktZVRlVG1uLUxnUlppX0hxRXBUbnF6MEZKb0dNVFFKZU55R0k2LVFBclNSU1ZrZnFvUmw0dEJ3c0VhWldNR0ZYYW9YeVBfQlFKUkJ2Zkx2Z213czNIYktO?oc=5",
+   "published": "2026-11-17T12:47:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "488d32886f8a8e9e7e30047559c3536051feb2de",
+   "title": "Morgan Stanley Investment Management Launches Active ETF Platform in Europe",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:ccc1471b17940:0-morgan-stanley-investment-management-launches-active-etf-platform-in-europe/",
+   "published": "2026-11-17T04:35:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "d9dfe72d29b56c058e4759a6167b04d30f634638",
+   "title": "Jonathan Jackson sells BP stock in Morgan Stanley trust account",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVzlMbTR4SkE2UWpoNXNvOEJmYUJ6ekNQb1g0Z0V5MThLQTRVNEYyOVUwWVpFTnVMVTdBMHNNNm9EUWowTVFjRks0T2g3QnlXcnpuTGJaQXIxRkRpS290RTVTRTlFUXUzVVpseHhRQXdrOTVOYTczUDFWeldIQ1N6RDJIZmQtQ1pYQkhwZkRaalZxME1QTEVKTldjaC1vZlVsZFhtNDdwTkpBbGF1eUdXS3NEVDlCc1BVUUZfWg?oc=5",
+   "published": "2026-11-16T20:07:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1bcc1cde2b4c74ac684a0bef34e1d64e44bc8bd5",
+   "title": "Morgan Stanley’s Europe Call Puts These ETFs on the Radar - Vanguard FTSEEuropean ETF (ARCA:VGK)",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNU5XRy1fam1HVGpJMXFSUm14bEFURkFZeTF3MUZHWFN6cmVELUpzbnRpaEpPSElqelJOSmcxUGhvUnVWNnE4T2haTjI5d01GeFRtbHpyTEtpQS1mYmdwdUIxaUlYVjJIc1hEcE9UWk5GLUw3LTllcDRPRmNyYVpMMXZDUWN4S3RueWpQZzRubnpobmdhTnREMG9jd2lGSDFUbUY0NmhkVkZ0RkdEVk14WmFybGFBcldGQm9XZ2MzYjJaNy1ZX185TkZYeGtveG54M0g4S0w3Z29TODdIY2o5WDZ3MGJwN3FqOGpvTmxn?oc=5",
+   "published": "2026-11-16T14:26:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d806bfc24cc414b22bf57019b5c5fae9e999da90",
+   "title": "Morgan Stanley resets S&P 500 target for 2027 as tech stocks slide",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTTJ5QU9Uczh0b1NwQlN2bmRGa2d1OWtNN1czcXJnUk5zMmVEYTAyanZRVjRHbjV2Qzg5R1pxNDltU2t5WTJiZ3kyUFU5NG50M1pVczVJT2JtdzY1V3RhMjRrdC1obk1PWFFjSlVxM1cxOEpTY3hjU3daMDhuTlYta05ZaVFfVVlvT1E?oc=5",
+   "published": "2026-11-16T14:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e6a5e10a63c210db94410f6850ba80917965c835",
+   "title": "Morgan Stanley Goes Max Overweight On Global Stocks, Sees S&P 500 Up 15%",
+   "source": "Forbes",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb1N6aHVaczMxSW9pTnNwUGthbUZuZHViNUFIUG56ZWFnUDlDU09pbE15VHpsd0FHM0VxTExBamQzb0Q5S3drd1VrYzhaNlZQdzhyQS1oby1BRWcteHpFSVdWWUR6Y09IZXpmN1JoUVlnWmtQRHI3U1VQM1B3STJFRnFqemlXcW53Y3BER2NUVlF3NVJENWFHelpoMzJyVTRoWXlBSzY3ZlUyV3JhRnlNQkFiMjduREhGd1ZoMmNB?oc=5",
+   "published": "2026-11-16T11:18:24-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e8798a300a5764024f8234ef0cbca311823c660e",
+   "title": "2027 the year to ‘embrace risk,’ to maximize on stocks – Morgan Stanley",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4673060-2027-the-year-to-embrace-risk-to-maximize-on-stocks-morgan-stanley",
+   "published": "2026-11-16T09:34:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "04f6a5d0b54c4c397932ee1be6284ef9e33ff60f",
+   "title": "Morgan Stanley is out with its 2027 outlook for equities. Here’s what the bank expects",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vWTItVzlxaVp1YlJiNHU1bXBqa3hTM1Ywdl9FN0ZZY0x6eDBCRkJoaE5JaGVIamtJeUtxMXYyMlR3UV9TQ2dGSHA3SmdWVW5kZVQ0cFJfbzMwU2JCQzZaQ0ZzUDJZSFVyb1hBMkhKSW96N0ZiMGVsRU1B?oc=5",
+   "published": "2026-11-16T09:25:21-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b9440ffdb808890d4162564ab863e717137750d9",
+   "title": "Morgan Stanley raises global equities to 'maximum overweight' on cheap valuations, earnings strength",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ3J4U2xyQnlXT2xOVHU3LVlOODhtZDRaSVV5WTcwbzBERE41Sy1meWRLQk1aRThLTURuRlQtRkgwRG1JOWNmYl9sYkFOMEdnRjBaV0NvcXI5bUVwVldhZk5SMGMzRTRDcGtiMElOZ3hYbVFmbVJLZ2RRV0NRUmtwRU5xWkhJOWRzN1JxaWloUHp6cnE0WWdoYjJsRVNHRDI3dFRXTV9DaVRvQWV5dnVKTUkzZzFWZC1nY1E?oc=5",
+   "published": "2026-11-16T07:13:53-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7af44cbb0178838ec24a393c51a2c685c2aabe7c",
+   "title": "Barclays joins Morgan Stanley in seeing S&P 500 at 8,700 by end-2027",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUl9EZ0JZMjdIMTJIc194SnVqVy0yem9qdEpFelhUTjJXOF9iWnpZTzcta3hQSlA3eGZSMEJQUWVZaGJkUEh6a1lTVWlRYjR6VFRWWEN6eHZVRGRRYkVXYTZ0SnBsVnMySkUxbkxiZ1laUUR1SW5NR2pXZ2ZWY2NweHFrRFh4OEtlN3BVZUxHWlFSTzNnZk41SUhvYURvZ19fcUlxS3Zza1c2T25vLUVpTWo0RTBhWGE5dVRCTFBRaw?oc=5",
+   "published": "2026-11-16T07:02:25-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f18477be33eeac3b0adc718428dcca420cbbc2cf",
+   "title": "From AI to oil, here are Goldman and Morgan Stanley’s outlooks for 2027",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOUN0T0ludy11cVJVRDI0MWY0STVHeUtCVjVpYUhxeHVkRjFnVDFaNHloWGJybC12bEw5Z282ZHg4YTBoUXVEdGJYNEZXTk9nYjRSTWx1Q2FONi1vbVBzYUpJclZQdU8ybnV2a241ZXloVnBpeFgtb1BWdVVtZmZhME00VUR2WDZkaDBKM1dPcw?oc=5",
+   "published": "2026-11-16T05:28:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a5f8ec91afd1bc60a60fd9369a1039a14c1037f9",
+   "title": "Morgan Stanley raises S&P 500 target on earnings growth, lower oil and AI adoption",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUjNnWFdkSGdJVWN6OXJ6QXpfQVRKeEo1MS1fdU1vSm9WY1NaZmU3NWtaQWhsSnFTRTl4bGVseXpkRlVsX0tyS0REYzJxUkRXT3R0TVVPYWVCeDJWaEZlbHpoalF0ZWVRM0pmZEV6N1ptTTZoUWNrRmVXMWcyWDNmWm9RNzZKZ0xZWlVwOS15cnFURllEYnJfb0pPc0FrMERZaXlBd0ZoWUZlSjBmcnJkeW5BSThBYzBwUnFWTHEtMEl5b0VYOERReTFvWXRoM1haQjFR?oc=5",
+   "published": "2026-11-16T03:38:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f372e22fb074e2ae4997e63567a1f906446b8bee",
+   "title": "Morgan Stanley Preferreds: Series O Now Yields Over ~7% At A Significant Discount To Par",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWWxFOGYtMTRLOExUYldGUi1RT21KRWFxU3RDcGdNb2ZyNnlMR21samhacE5iR0FzaTZSZkVSV25BcVlDM1VYbS1HZm1MMzcxTEZXbTdNYnZCb290QzZKZFhHUzZuWUJrdVNiR0JlcnhIYWtjRXZGeGotclhMLWE4Z0o0RlJoYjFDblVPczIyVUF0UUpBWDJXSVdMb2plWmo1V2tldi0ybEV4eHVWR2ViNmNGcE11VDhsV18xbmZKZkdEQkZvYUg0bW1EWm5WNmhIUThkMEpR?oc=5",
+   "published": "2026-11-15T23:11:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de159d0e634bf68a535c93fb7bc03ea351718bc0",
+   "title": "Morgan Stanley ‘Max Overweight’ Global Stocks on Intact AI Cycle",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTnNqSmlybDd1SGExVzVjRTFtcmNINnhpRVVHd2xFa3ZhZEtDalJHeGgxeHdZUW5XYnhmQVFneVpuSU9xak9LT0NZN2ZUcDBiTEs2bXhuNVgzMk1YWVplbXBMbzJqV19TdlJVTk9LQkpncEJoeU42d1BkajhSay1XMEJzOGlVcXZ1NmlQMDNFTzJ4VXVwT2U0eEE2bEpwejhDUGNicmowVzlfd2t0bUdQZzBLUUNFUW9waHRscVA3eXptcmYxTHBoNlYxWlMwQWJKWnc?oc=5",
+   "published": "2026-11-15T20:48:00-05:00",
+   "also": [
+    "GuruFocus"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ed354dac310b80c08b22c0887aea697c1146ada2",
+   "title": "Morgan Stanley’s Q3 filing reveals $5.6 billion SpaceX stock surprise",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PcEFIa2o0SkN2LXA4ZGRDMVFyTUtNZWVDV2RZVVc1LWhXUUpVS2l2LUg5SmdBekRuc1hZUXhKV09LMy1ueWJfYTgxWXhSZ09YNDduOU5rdmo3RklIQW1adlRYOEQweUJuLVlycGQ2MW1QeEpwYmxR?oc=5",
+   "published": "2026-11-15T18:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f9d7dcf6dfefee2675b8dc1ec03ee295b3e6b8ac",
+   "title": "Morgan Stanley Declares Dividends on Its Preferred Stock",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:c8efe452f2e45:0-morgan-stanley-declares-dividends-on-its-preferred-stock/",
+   "published": "2026-11-13T16:30:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "b89940d04b387d1f49e23bf6cceaea96a84c10a2",
+   "title": "Morgan Stanley Private Markets & Alternatives Fund-Balanced Offers To Repurchase Up To 3% Of Net Assets",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1CV:0-morgan-stanley-private-markets-alternatives-fund-balanced-offers-to-repurchase-up-to-3-of-net-assets/",
+   "published": "2026-11-13T15:21:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a41a0ba3160b8ff49f9d6a6ba58461c07e7dbc27",
+   "title": "Baird, Morgan Stanley sour on Nvidia as CEO affair controversy deepens",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVVFZRkRxczJkVHdhU0pCMUlmd0tpdGFjdFBkRjhPY3NiLXJtMmYwX1hfNkM1MEdCd2hjalRhWFhYOUtRanJUcHhyY2RXeFJYbGpZRWZIVVRGSml5cFN0MnkyWkFuaUppMGp6b3l0YmRWWTNGVHkwOV9LaFVOdkFxMjJXSmpzQmZkRU5ad1Zob0tvYkgzd1Bkb2VfT0RWQ0lrZWNR?oc=5",
+   "published": "2026-11-11T12:04:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "827ca3397ae2e6b86c0db7764e9b2bde90588482",
+   "title": "Morgan Stanley Adds to Its 'Funnel' With Vinyl Equity Acquisition",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261109012582:0-morgan-stanley-adds-to-its-funnel-with-vinyl-equity-acquisition-barrons-com/",
+   "published": "2026-11-09T16:49:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "89d8d2cfc7ffd10c2df559a1d076eeb22c36264e",
+   "title": "Morgan Stanley to Acquire Digital-Native Transfer Agent Vinyl Equity",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:67074855612d6:0-morgan-stanley-to-acquire-digital-native-transfer-agent-vinyl-equity/",
+   "published": "2026-11-09T09:15:00-05:00",
+   "also": [
+    "TradingView",
+    "dpa-AFX",
+    "Yahoo Finance"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "0e61a801aacb5ff101c50b116d185d284c4d1034",
+   "title": "Morgan Stanley to Buy Fintech Vinyl Equity in Wealth Expansion",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV3pkREFra09TUkVJeFZYbFZ3SUYxc2lVVzZWQkl2SmlDVGZBOHRTZnF4OFp3ako3REZqZ1dCaTNrOVRMQ1o3RG9FTGQyVWo2eTIzWExJaWlvWkpvSzZDRnVmQ21lbUJfQi1BNWRjcmNFYnRGekhKMG44VkQ1dUpxZnBPNDdLcXRsbVhaUzdTRHJRdUhEZVpFWVNTM3J5cDFHVm5Kb01tY3NnclJyMk5pbFVEQQ?oc=5",
+   "published": "2026-11-09T08:45:00-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a57ddcf6b87cc1f4df875be0522d64e3023c121b",
+   "title": "The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcnNXMDMwNzFabjg0UDdwNVFSdE10SW9nWThUaXJTbGFaTFFlRjBsamtUN19FTUhBa3ZHQ0Vtem11NkZpb1pyOWdMR21TaklYR2R2ZjdHZmpyVDV5NmpjRExRbEhURDNJSjc2YnNCdERiS0VqV2VRUG9uazBqd0lNV3NEdnZYckpxbE9qV0UxRmlMNm9xdnFoR1lEb1ZoMThYLVZ3cDM1UGpDeDRvT3BzRjdvX3lhdnlvSjlycVZ0TUdaelF2WHJlSVRiR0NqSWNKZ0R3UHF4U0FwaGVmd3JaV2o4ZXlZaUhUWVRkV3hhdnQyMW8?oc=5",
+   "published": "2026-11-09T05:26:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

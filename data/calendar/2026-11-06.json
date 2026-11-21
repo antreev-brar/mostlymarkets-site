@@ -1,0 +1,93 @@
+[
+{
+"ticker": "MRNA",
+"name": "Moderna, Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": null,
+"n_estimates": 7,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.38,
+"surprise_pct": 134.55,
+"mktcap": 101481767000.0
+},
+{
+"ticker": "HUM",
+"name": "Humana Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": null,
+"n_estimates": 10,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": null,
+"surprise_pct": 32.04,
+"mktcap": 52083634000.0
+},
+{
+"ticker": "VST",
+"name": "Vistra Corp.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 2.94,
+"n_estimates": 4,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 3.23,
+"surprise_pct": 9.86,
+"mktcap": 41887273000.0
+},
+{
+"ticker": "PPL",
+"name": "PPL Corporation",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 0.53,
+"n_estimates": 5,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.54,
+"surprise_pct": 1.89,
+"mktcap": 26941106200.0
+},
+{
+"ticker": "BEN",
+"name": "Franklin Templeton, Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 0.78,
+"n_estimates": 6,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.94,
+"surprise_pct": 20.51,
+"mktcap": 17137434600.0
+},
+{
+"ticker": "CHTR",
+"name": "Charter Communications, Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 9.08,
+"n_estimates": 4,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 21.7,
+"surprise_pct": 138.99,
+"mktcap": 13528164400.0
+},
+{
+"ticker": "OKLO",
+"name": "Oklo Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": null,
+"n_estimates": 6,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": null,
+"surprise_pct": 3.45,
+"mktcap": 4380715500.0
+}
+]

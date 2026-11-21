@@ -1,0 +1,404 @@
+{
+ "ticker": "MSFT",
+ "updated": "2026-11-21T14:00:47-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "8b5907311a223867ed939ebf452d1e7a53a72736",
+   "title": "How to Protect Yourself From Scammers Exploiting Outage Chaos - Family & Tech",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261121001642:0-how-to-protect-yourself-from-scammers-exploiting-outage-chaos-family-tech-wsj/",
+   "published": "2026-11-21T11:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7acd9bb5067084022477a3a6c03b7f9c467437ba",
+   "title": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: ‘We’re Going to Put A Tremendous Tax On Them’",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:790a9bff6094b:0-trump-has-a-message-for-big-tech-firms-like-amazon-google-and-microsoft-building-data-centers-abroad-we-re-going-to-put-a-tremendous-tax-on-them/",
+   "published": "2026-11-21T00:35:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "abd2ac563700a5c1741c5fa7ec5a47329e54ff6b",
+   "title": "Danaher, Microsoft Partner on AI Platform for Scientific Instruments",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261120003983:0-danaher-microsoft-partner-on-ai-platform-for-scientific-instruments/",
+   "published": "2026-11-20T08:15:00-05:00",
+   "also": [
+    "dpa-AFX",
+    "Benzinga"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bdd76d038b4da30ab33156d6f34cf3f56c9502f1",
+   "title": "Danaher Collaborates With Microsoft To Make Scientific Instruments Agentically Connected And Laboratories More Intelligent",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABJXFJG:0-danaher-collaborates-with-microsoft-to-make-scientific-instruments-agentically-connected-and-laboratories-more-intelligent/",
+   "published": "2026-11-20T08:04:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6dab5c5b69338593e1fcc99d8f54fc79c51b12c0",
+   "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xNUN1dEs4N0hEbVFCd3JKNGlNTTkycmp5al82X1RBdWxPSzgxc181eF8zZHpyWHVtYlR3OWlxMTFySzlKQjVLNUg1aWFJLUVQa3c3enFtMER5QUd6OUZ0VzNvQ3o?oc=5",
+   "published": "2026-11-20T02:34:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2864ef4fa43be18c14034405b21a2627225a676d",
+   "title": "Trump ousts cyber director after tech outages spark criticism",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N4701EN:0-trump-ousts-cyber-director-after-tech-outages-spark-criticism/",
+   "published": "2026-11-19T17:36:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6fac184e8c7d68d458b790c981fc1f2c8c68fcfa",
+   "title": "Microsoft Is Off Its Record High. Next Week Could See the Stock Reignited.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83cmJyRlBjMDBWU21ycUZoMzJTZXRiYml1RVpnRHZ6emprSmNFNUVIYk5oYm45VUJXdkJHSm5DVm5lamdUQjZ3QVl2UTcyRzZvc0lsWE9sWGFFeE52VUE2TlBJUExqandxbktlcjNiU01XNGRCbHc?oc=5",
+   "published": "2026-11-19T09:42:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7b18d3dde8cbe1b20f814bf6fb051ec9578fe2b0",
+   "title": "Hexaware Technologies Says Co Renews Microsoft Azure Expert MSP Accreditation After 2026 Audit",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4700SM:0-hexaware-technologies-says-co-renews-microsoft-azure-expert-msp-accreditation-after-2026-audit/",
+   "published": "2026-11-19T06:40:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e0683f5e9cf067b50b76590c7a3e6ba4d7bfc229",
+   "title": "Orlen Signs Agreements With AWS, Microsoft and IBM on AI, Cloud, Cybersecurity and Data Analytics",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4700SG:0-orlen-signs-agreements-with-aws-microsoft-and-ibm-on-ai-cloud-cybersecurity-and-data-analytics/",
+   "published": "2026-11-19T06:14:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c980d57d78d595042080bf086452fc74dbfd62bd",
+   "title": "Microsoft's Nadella Warns Outages May Become More Than a Blip",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261118009445:0-microsoft-s-nadella-warns-outages-may-become-more-than-a-blip-wsj/",
+   "published": "2026-11-18T17:58:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9535832bb2e9d30d00d2c94fab0780e9ddcaa776",
+   "title": "US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Z0J8:0-us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-china-s-bytedance/",
+   "published": "2026-11-18T15:06:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0f7de28f56010f2549b21f65d2ec521d4375f421",
+   "title": "Five Takeaways From House Hearing on Threats to the U.S.",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261118006471:0-five-takeaways-from-house-hearing-on-threats-to-the-u-s-wsj/",
+   "published": "2026-11-18T13:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "292752c758c004f8a87b2e00621bbf2cf49518ae",
+   "title": "Patching in the AI age may underlie some of the major tech outages, experts say",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Z17T:0-patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say/",
+   "published": "2026-11-18T12:07:10-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0a678056a30b4fae9b7dc8ef5a7dcce7e5e77ee2",
+   "title": "Microsoft and Intel Deepen Collaboration to Deliver Differentiated Azure Infrastructure",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:6225b5fcf050b:0-microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+   "published": "2026-11-18T11:47:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "56a67fddbc9655d10160645c781cf859e4d3738f",
+   "title": "Microsoft, Intel expand ties with long-term Azure infrastructure deal",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4674275-microsoft-intel-expand-ties-with-long-term-azure-infrastructure-deal",
+   "published": "2026-11-18T11:42:56-05:00",
+   "also": [
+    "TradingView",
+    "Reuters",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "60a7e8534df66c2f6ca874c52c6f7d7f3c08aa62",
+   "title": "Microsoft Makes Its AI Case After Global Outage and Anthropic Challenge",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFpRb0pNc3JnOWUtNUpLVDNYUklWY1EzcUc5eGFacUtWenhsdVI2MWh3VkRlTUtjZGxsa1NPRVMtaTRzdEVKbHpveDloWS1TdEtvWVF4S21jOHczMzlOM0dhUXY3Q215cWhoX21yMmtFUzlWVzd6VnlLa0NRSnhabkg5ODZURWpLTklaMGxn?oc=5",
+   "published": "2026-11-18T10:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d4fdd27f15e72c7616b9244d9309182c1b9d3962",
+   "title": "Bytedance Is In Talks To Expand Microsoft Azure Contract For OpenAI Models By An Additional Roughly $500 Million- The Information",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Z0XG:0-bytedance-is-in-talks-to-expand-microsoft-azure-contract-for-openai-models-by-an-additional-roughly-500-million-the-information/",
+   "published": "2026-11-18T09:05:21-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "78aff0d6311014346996a33ee403b417b42f270d",
+   "title": "Rubrik Announces Protection For Microsoft Azure Cosmos Db",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA5C0784:0-rubrik-announces-protection-for-microsoft-azure-cosmos-db/",
+   "published": "2026-11-18T09:01:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4244df314e842ff1eb5d3fbf0ffb73fb18d4d4a6",
+   "title": "Baseten Brings High-Performance Inference For Open Models To Microsoft Foundry",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3RSFDT:0-baseten-brings-high-performance-inference-for-open-models-to-microsoft-foundry/",
+   "published": "2026-11-17T18:16:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2dcde13fc7c299917eb61784748e3ab44ca77deb",
+   "title": "Microsoft, Other Organizations Launch AI Transparency Initiative",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA7YSKNB:0-microsoft-other-organizations-launch-ai-transparency-initiative/",
+   "published": "2026-11-17T13:41:56-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a72b78d88e7896198717da654006644223880c8d",
+   "title": "Microsoft Launches Mai Code 2 On Github Copilot",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N42X06C:0-microsoft-launches-mai-code-2-on-github-copilot/",
+   "published": "2026-11-17T13:25:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "00cac288fee0d9affa27e2ef7f0d842b9b4e32a6",
+   "title": "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Y15F:0-microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai/",
+   "published": "2026-11-17T13:11:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f5696f68d5b74241d41935b8f4d2d81f4fa4b534",
+   "title": "Classified U.S. Intelligence System Is Down for Now, U.S. Officials Say",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261117006478:0-classified-u-s-intelligence-system-is-down-for-now-u-s-officials-say-wsj/",
+   "published": "2026-11-17T12:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "df58e9e92ec001366646592889ca5b5bdfb0091a",
+   "title": "Third Point Reports Share Stake In Microsoft, Nvidia & Meta Platforms",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X1KE:0-third-point-reports-share-stake-in-microsoft-nvidia-meta-platforms/",
+   "published": "2026-11-16T16:58:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a4a906872e785a81c8f87ad59718986c6ab0de66",
+   "title": "Viking Global Dissolves Share Stake In Microsoft and GM, Raises in Tesla and TSMC",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X1KC:0-viking-global-dissolves-share-stake-in-microsoft-and-gm-raises-in-tesla-and-tsmc/",
+   "published": "2026-11-16T16:49:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "40916cc087d108f9ba0b4748656d0f62363de563",
+   "title": "Thiel Macro Reports Stake In Microsoft, Raises Vista Energy, Dissolves American Electric Power",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X1MS:0-thiel-macro-reports-stake-in-microsoft-raises-vista-energy-dissolves-american-electric-power/",
+   "published": "2026-11-16T16:34:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6f69a7fc5101cc43059e03b1dc7a58a67211b4ce",
+   "title": "MIT sues Microsoft for patent infringement over data center technology",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46X122:0-mit-sues-microsoft-for-patent-infringement-over-data-center-technology/",
+   "published": "2026-11-16T12:00:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ba0ce87839b12f24fd01117de8218456f576b821",
+   "title": "Microsoft Data Shows Claude Is Stalling Against Copilot In Office- The Information",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X0OR:0-microsoft-data-shows-claude-is-stalling-against-copilot-in-office-the-information/",
+   "published": "2026-11-16T11:04:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c3bba796c8e731d9de602bd03a9986045682e73c",
+   "title": "Why the Microsoft Outage Came at the Worst Possible Time for the Stock",
+   "source": "Barron's",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113003393:0-why-the-microsoft-outage-came-at-the-worst-possible-time-for-the-stock-barrons-com/",
+   "published": "2026-11-14T10:05:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aa082fd98940e599dc6fde4c58936a2a5437e6e7",
+   "title": "The Chaos and Unexpected Joys of a 19-Hour Global Email Outage",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113011740:0-the-chaos-and-unexpected-joys-of-a-19-hour-global-email-outage-wsj/",
+   "published": "2026-11-14T05:01:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "72d538e5c41e4af755965cbf711f23a268d70b25",
+   "title": "Microsoft says all services restored after global outage",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46V01U:0-microsoft-says-all-services-restored-after-global-outage/",
+   "published": "2026-11-14T01:49:27-05:00",
+   "also": [
+    "WSJ",
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "85c2dba887cf6a3b0d50677284a33c9226faf35a",
+   "title": "Microsoft says consumer products services recovered on Friday",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46V06F:0-microsoft-says-consumer-products-services-recovered-on-friday/",
+   "published": "2026-11-14T00:10:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b00584a5c4dc64011afc2fea7145937ca97ec736",
+   "title": "Widespread Microsoft Outage Roils Businesses, Governments and More",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261113005065:0-widespread-microsoft-outage-roils-businesses-governments-and-more-wsj/",
+   "published": "2026-11-13T07:59:00-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "638b335a77a0661041417e32427f099e58cff393",
+   "title": "Microsoft stock slips as global outage knocks out Outlook, Teams, and Copilot",
+   "source": "Quartz",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZy1KS2lPYjZlU3hyNXhSMVlZdlEzTDZYaHhYbUJRMnhFVEpZWURSOHNWaW5mYk12Uko3b3haR1Vjd0xOUVNXWk5Kb19fRnFfYVJjaU02M1F6dWo5M1dnMUFxeGQ4NVdXUnlGa1ZJVXlxMF9yNVhMbmFNdFE1eGlzcnRRTDM4UQ?oc=5",
+   "published": "2026-11-13T07:53:31-05:00",
+   "also": [
+    "GuruFocus",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9c6a9a595413a001b5df94a5a34a447ffe0f4cb9",
+   "title": "Microsoft stock down; cybersecurity gains as outage disrupts Outlook, Teams",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4672253-microsoft-stock-down-cybersecurity-gains-as-outage-disrupts-outlook-teams",
+   "published": "2026-11-13T06:57:21-05:00",
+   "also": [
+    "GuruFocus",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bd38885d9a189eea3d3c47e888479a904702d898",
+   "title": "Cerebras Stock: Earnings Beat and New Microsoft Partnership",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GV3pHZXI5bHdjSjFjc2JBMEF0UGNGZTBYVUgzZzZ6Smd0dGhTdUdyYzd2QzVYbnBrUkRweWhSWW9OQ1ZWVWotWXlBbHFob05kWUtqSmVwOEhZXzh6azBFZ0haOTh3eXYzazZ3SFluUDRWRW5FYi1EY0FtOA?oc=5",
+   "published": "2026-11-12T18:02:00-05:00",
+   "also": [
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c16c3515c328921170960bf2a23bfa1bbf06cc10",
+   "title": "Microsoft outage hits Outlook, Teams and Copilot worldwide",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46T1BY:0-microsoft-outage-hits-outlook-teams-and-copilot-worldwide/",
+   "published": "2026-11-12T14:24:44-05:00",
+   "also": [
+    "Cointelegraph",
+    "Yahoo Finance",
+    "GuruFocus",
+    "Quartz",
+    "TradingView",
+    "Benzinga"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1e3a540dde21e861db456c26a753a4e078e96c77",
+   "title": "Ohio State University And Microsoft Announce Five-Year Strategic Partnership",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA6BKD36:0-ohio-state-university-and-microsoft-announce-five-year-strategic-partnership/",
+   "published": "2026-11-10T13:02:10-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a7d3273a3a736486d21358f1a320b2f5a669717d",
+   "title": "Microsoft tumbles as Anthropic unveils office tools ahead of IPO",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4669998-microsoft-tumbles-as-anthropic-unveils-office-tools-ahead-of-ipo",
+   "published": "2026-11-10T12:53:27-05:00",
+   "also": [
+    "Quartz",
+    "Business Insider",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2be87e0a7a82cfdaf63f5299908f7b26a13d28a8",
+   "title": "Microsoft top Nvidia's market cap for first time since June 2025",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46R17Z:0-microsoft-top-nvidia-s-market-cap-for-first-time-since-june-2025/",
+   "published": "2026-11-10T11:55:55-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "ticker": "BAC",
+ "updated": "2026-11-21T14:00:59-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "0ad13d3716bcb03b269df931e6b8735fde62a492",
+   "title": "Bank of America sells $2,623 of Neuberger Municipal Fund stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0hWR1NhNWlOQlR2OFZaMHZnandib1ZXWHZicEM2eDJHSFNqem14TTVxcVJtVnl6SzlzTzBWSmRZU2FQSkV4cV9HMmI4MndZQ1dYNkFTRGIxWnhIeVgxTl94enc1bmV4RFFDYVd3WDlyWlVMUFVaNGZBaFdZck50TU9fWG9KMU9oS3VWYWxvVVgzYnItalZMS3paUEpVd0h6TzRubW43TzZ5c3JRWWhQQWlUN3ZYMF9hSEhTWjVCVlhhUlU?oc=5",
+   "published": "2026-11-21T08:44:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e106ced3cfa9e939fbd0112d13b2d75519d4986b",
+   "title": "Bank of America doubles down on Amazon stock ahead of 2027",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWkFERUtSYWlGVFRpRG1zTlptQUs2cTF4RjhTMmp0X2l6REZCaVlHSHllc0dpUElKMGhLVVQ1UFE3WVNFTzMxVTdyUDA0TFNlSENCandPeVJiOXMxT1FzbHY2NUNuRHo1WXA5TU5TblhpS3BjTHhrY2JhcnF6VG12VUotTGw2eVB3U3QxTEhTT1FUZGFrUlZadGJMTmJkQ3c0OTNJ?oc=5",
+   "published": "2026-11-21T08:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "44a3d89d3cf86a35b01a5ecd68db2846fa66087e",
+   "title": "Roblox CFO admits ‘limited data’ on GTA 6 as BofA urges patience",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5BbmNrcGRjdFFmbWJtYV9LdE0za2s5SFJfVGVpUGZNeUtTdjllMHZGbmNXZmlfUFVrZlkxVkpzTjZJdWVYdFE3cUdqRXVrOEtNeE1xckJSZjUtU2tYT2ZBeFlNNTVndjlRaEpHclZ1aG02SVUyX1gybmZn?oc=5",
+   "published": "2026-11-20T20:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ee84e003d49511e34ebd42a4240ca5e34211dff7",
+   "title": "Bank of America sells $4,554 in BNY Mellon municipals stock",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXZTQnNJaFFQRWlON0EzWVJVTmI4WVpGSjlXU1FSWWVNOWg3WTVBUnJkY2FEMjN0ajJHUng5STh0Vk9BNWZZVEZMWEgyb0ZqQUJROFlmLXFaOURWZVNGc0tyZUdFdGc3d0xua1FiTXNkUG5sOFp6M0pLRk5ycDFSZUlZR2tWeWpXZzc0X01nV1I4T0Q4RVFtN1UtQm5teUNiSUotdUZZOFh2UERBT3FjOTNvMDBJdjlZWkNybllKZw?oc=5",
+   "published": "2026-11-20T15:30:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6d91b8e792210ae853e684aee4cc13d059b532c0",
+   "title": "Nature's Sunshine Products Enters Amended And Restated Loan Agreement With Bank Of America",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4710KT:0-nature-s-sunshine-products-enters-amended-and-restated-loan-agreement-with-bank-of-america/",
+   "published": "2026-11-20T12:41:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dec5809fa1d3e24dcd455987435ac31877973c85",
+   "title": "A hard landing could be triggered by aggressive rate hikes – BofA",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4675213-a-hard-landing-could-be-triggered-by-aggressive-rate-hikes-bofa",
+   "published": "2026-11-20T10:45:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8d73f1101aa4fbf5ed673cb3cc36fed1202e6c30",
+   "title": "Dan Loeb and 9 Other Big Funds Bought Bank of America Last Quarter, While 16 Sold. Who’s Right?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONTEzdmhpTV9WOHI3OU1IQzhZR3pVM0I2VGNJS0FHWWIwWUpWampEY1I0VlF1SVF5UEctS1BrUUJtOVZENy1WUkU2NHBTUG1NMW1vTlNNUVZIYVBYSWYxN2V2bzRtVEVqclhfU2MySXNWeUtQVEt4NG95Tk9Oa0JaYTdDRDlqZVUwRkhrR0JB?oc=5",
+   "published": "2026-11-20T09:57:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0ea17ef73ab451546d028b8da54a90c6a283ed80",
+   "title": "Can Bank of America Sustain Its Robust Capital Returns in 2027?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3033221/can-bank-of-america-sustain-its-robust-capital-returns-in-2027?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cquick_take-3033221",
+   "published": "2026-11-20T09:32:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0ce338df48ae5c81ee488bcfc8919c855a2d040c",
+   "title": "2 questions will decide risk assets heading into 2027, BofA’s Hartnett says",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa281Rk1oaG1RblQ4N2lpZWRHWGNmVVZDWFM3R1BLWkZiLUpLY0EtSDY4QWtYdXZFNk82Ym5lSDM0VXBCc0NsLWFoQUEwaTVmdUlndHBSbm5WV2VxUEFGTWw2U3BfTEhBamEwWjI3aVVWM2hEOU1hanpMTEVMRFJzXzc1M1l1aVN2ZW5oRmtVaVJ1QjhsQU1DQmxITQ?oc=5",
+   "published": "2026-11-20T08:56:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ef2201936dff8d1fde058340bd2cec4d65339e83",
+   "title": "Bank of America Updates Fourth Quarter 2027 Earnings Call Time",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:f3f67153df19a:0-bank-of-america-updates-fourth-quarter-2027-earnings-call-time/",
+   "published": "2026-11-20T08:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "7a2d94ed4e622c1a844558d11dd6efb17161b78d",
+   "title": "BofA cuts Bath & Body Works stock price target on tariff concerns",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbk5BMEp0MzdPN05aZ1hwME94WXNsaXhuS2UwVTMzZHZqaVo4cnRrYUx5QUNEUUx0LTVYSzlJcDlTQmVod1dMWnZTR3pSbGpsb0diQTdpZGF1X2QybXVLUGFIbTlsS0d5R19RS282YXNjWnNtV3lfMkUxcHBEdThEOFFobDA5Rll6c1FrVkZzNFFha3NFNFJ3UGU1cktUTGo1aGl2czY1ZWZIZkFOVXc2eUdsUzVQSXppSE44ZS13QldrQQ?oc=5",
+   "published": "2026-11-20T05:59:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b0ac9b0eadd73d1bf75f57235dee820e4f79cad9",
+   "title": "Bank of America banker Stewart Barry to join Allen & Company, sources say",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Z1L2:0-bank-of-america-banker-stewart-barry-to-join-allen-company-sources-say/",
+   "published": "2026-11-19T14:08:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6a5ee1d44a4089febfb2ac2d62e005f39af4d048",
+   "title": "Bank of America Chicago Marathon and Nike Extend Partnership Through 2036",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:ff8069a66dde3:0-bank-of-america-chicago-marathon-and-nike-extend-partnership-through-2036/",
+   "published": "2026-11-19T11:50:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "bb745b31861ff9755c2c9c4d72e6e6f9de1fdfac",
+   "title": "BofA Securities resumes Paychex stock coverage with neutral rating",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSzIxakdVSVA1YkZESUEwNEV0RnhUMWhUdlJXdGJYTVFsUy1SYVJ4eklwT2RaNHl1dkx3RV95TFg3Y3VKbmxBVkd3ZDU3TzJxTFFjQVczSFM1TmxTT1BDdjIyenBvd01WQ1BOWHBPSmdldVVBcWZ2MUJEYnNVeFp0Tk5nXzd3RlFmWlYtZGRLLUVaSWRxMW1HcFNFckhQVDdZVlV5XzJCOXlZNURFVW1FcE44OTk5YlRSWFgxWVExVkVwZlpo?oc=5",
+   "published": "2026-11-19T07:10:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7605c413e3dfd2f1779c98d8363ce213f0b9245f",
+   "title": "BofA reinstates Cognizant stock with neutral rating on AI risks",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdTk0cXFZZU1fY2Ixd1QzN2UxeXZnbWkxWi05UTdIUy1FaUYwM1lOVk9LSThKU215aVJQYjU3Vnl0ajBublFZWE5JUXl4anJsZW9OVHZFX3FkTXVZblE4eXZSRWQ2dzlsX2d5VE1saXByZDJfY2d1ckFMeThubmFVX05lNHZCeDdRYmlSQXNXLVJMRlhQRnJBc2FmamtWb1lIN25pYUVqeUZHcE56Z1BqUHlkeHFnUUs2X3p1dGYxQmE?oc=5",
+   "published": "2026-11-19T07:10:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b9eb4042176c8778c3135dcdcbf1d1e1751203f",
+   "title": "Buffett’s Berkshire cuts BofA stake, adds to America's most-awarded airline",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVlZTOXNvSVByVEMydG9JUmhqMG9TbW1lTVMwOHJ5MGMzckFSWkh5Z2pGOFJVYXltQ0lyclE1SmpwajR5aElxSnR5dDFPTXpZYlZjTE9Za2cxR1VOWjRGc08zNHNsS0NyaXliSk9GeTA4Ry1YLS1la1ZfLTh2bjZhNVVhQzI4ZzV3bjVCUlZkWTRKTi1PYUNZVmFpeVVueGM?oc=5",
+   "published": "2026-11-18T18:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "620e9121ffabb11252e235fd74b6e1c5b24caa34",
+   "title": "Alaska Air Group Refreshes Atmos™ Rewards Visa® Business Card with Bank of America, Offering Higher Earn Rates and New Travel Benefits",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNekc4aWNENE5tOG5hdG9WOWlfeW41cWt3ODg1RE1XVHExOFFnTmFxblR6a2JiVlBnSm02aDN1bTNrcDF3ZHVGaG9YZHI5YjNmLU1tM0FXMTMzbWhRYXZCLVh2aGJfX2I1bDZ1YXVSc2JiQTJxcUo2a0lkX1hnRThadlJ6T24xeE9f?oc=5",
+   "published": "2026-11-18T11:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "17f388ce7884d86001b0e0d79477ff7a78365c93",
+   "title": "Bank of America (BAC) Study Finds 84% Of Small Firms Now Use AI",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaDlpQXE2M3F0MXhHYUVaZGY2eWlHa2pWTWRkTV9JTHllSktucTBYekM4YXl3blNnS2hlQ082UUxpZkFWZWl5QUtMRUVSUUE3NG1CT0N2VWpRdWg5Y080U1dNcF94RVVwSFdWNEVTWS0xU3dfYlk4WUZrX3RlR2JhUWJHTDFlMkFpTWd2RlZJSl9WdWhqMjlRVQ?oc=5",
+   "published": "2026-11-17T22:10:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "56e489ea79969da710313c2be3c378dfa43503ee",
+   "title": "Is the bubble popping? BofA fund manager survey sees tech cut by the most since 2006",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdnlOdUNheTNhTGhnd0NoV3NObWE5Tkt4MGlnd0JjVURnS3ZzZVJuZDR5VmtCZE9GTm1kNzlQWlBnTnFsUnJPc05rcW9nQzFIbWxrb0FlNTBsNkJaM0NCUHpLQkZMaWFfcjVrTmYzNUk5cEg1RkMxQ1ZibTlqbDZ3aGlVZlNqSUpuSDNIdGJnaUV6NWlSVnU5YVZzeHg3UQ?oc=5",
+   "published": "2026-11-17T11:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0591834c588d14c5e108997649334be6179e30c3",
+   "title": "Bank of America doubles down on SpaceX after Starship milestone",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZGUzbWRhUGE0X19rYV83bFlYZG9VY2lXLWJBR2hEVjlYTjVNUElFelQ0YWJ6QkNiQnRXVEVmbF9oQTdvMGVCcG1IajZsY1EtVEhfeDVOVjZGSVlLa2dkYXZHaUg5emFhZ3cyVzY1eVY5S2dpZU1LZnJPSlJ4V1AxMUVHd3RpbklFUVF6R0RxX1ZrVy1BY1BsLU40QUNmOUVteEJqeVlsS0lxUQ?oc=5",
+   "published": "2026-11-17T10:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f3e089e4136327affb127b52d851b7657c20c160",
+   "title": "Bank Of America Business Owner Report 91% Business Owners Say Costs Rose Over Past 12 Months",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N3S006Q:0-bank-of-america-business-owner-report-91-business-owners-say-costs-rose-over-past-12-months/",
+   "published": "2026-11-17T09:05:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7e8d93ebf1f44ddf0adfb952dfb6698d9774955a",
+   "title": "Bank of America Study: Business Owners Bet on Growth and AI Despite Rising Costs",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR2RvY0dnX1B1RTZ3VlU0RHhkRWdyUVFZVzRSaVdJR0NLTXZTV29hVUZuLTRuOFJZb0lGQnVfNzBVQ0pabHpxaV83XzlwQVpHeXlxb2FCeHBiNkhycHJpamJNN0l5VzJuYnAybWc0MEM1TWFXZEt1WUlMVW01Ml9GRkxqNVlKQ2dqbHBLZllzalhmZTFTZV81clNEZjRmd1F2?oc=5",
+   "published": "2026-11-17T09:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c49445ae03e2f45839cb77c3731a2087916fe53a",
+   "title": "Berkshire Sells 27.5M Bank of America Shares: Should Investors Worry?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNS3ZFVGRiLTFfbVFrc0JvYXV2N1hjbmFhQndTdG5EMjFuZXdzU0NDRmx6Q0hSa0QzaERpQ3NZdXlWTlpPUFZQY3VKajdrZXJDcmdRLW9pMHpGNWxmbjJZRXhBZ2lPaEo0WHFwV05FOVh0SmY5ZXFySXdtb2Z0eUI1WA?oc=5",
+   "published": "2026-11-17T08:59:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d026a8f9a8edc59005a615583079063a0dcf43aa",
+   "title": "Berkshire Hathaway raised its Delta Air Lines stake 12% and cut Bank of America holding",
+   "source": "Quartz",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9acTlrUWJlQjhqY2ptUnRjV0locUU5YkEzdG9JbUtmajdRa2FFNmFpeEVHdXBZUlVwMDdVcXZ6bEtCd3JkQVUwTWRzS2JVbzhpMU9LY3VPaF9RSkducXZVdWVJX01Za212Slc2Tkx5d3JJSVhGRjNIaWZiQWg?oc=5",
+   "published": "2026-11-17T08:19:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "60354cfaf767877e4e24cf54e27eac882803e232",
+   "title": "Berkshire Hathaway 13F: Sales Outweighed Purchases; Swapping Bank of America Stock for Lennar",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdmdiajF3SkI1V2Z0enpmcllyeGwxaE9iUTJMRXI3dEF1czZlekxONWppN1I1MkV6dUNmWVB6TVMtSVdYbThjTDNVZVUtZV9rYmE3bm00cEJ3VzBLa0Frbm1CZjJYSEtyUFB4dnl1NDBkTzBKZjdLNDZScVBaQjAxRHFZd05PUFJTRldnVWJJZWVOaUR3STlTaHVuZWltYUx2NVhWV2pNZ1lqQVZYdVhtWXVRZTd2dWJGMzd3?oc=5",
+   "published": "2026-11-17T05:10:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b8557e13c23041db63e420e2b8effc5f2c3db35e",
+   "title": "Bank of America doubles down on Nvidia ahead of earnings",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX0NOYlF3UHhqYmx3akJMamhMSnNhR1BsbU9lTnFvN21yV01RcFZ4UGpmUGpyTTlzaFBKSjctalNiY0VyUncxbHRpMzRTd2RuOXlKZTl5SWhOMFk2MEkwdHNtMzhiUGVXYVhDTmkybnl6RjYybmRzTF96Y3ZWem5ueFFtYlB5a2JWSzhqQ2drVnBHVXhDQVJqbnlaOVZyblNDZ0FtZEdBajE3Rmc?oc=5",
+   "published": "2026-11-17T05:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cab1ac20ceb2a068db95da75e3f310f4adbf5043",
+   "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUkFBWE9IRkI1TWdwRUtKMExiRGctc3Rtbk9WLTI2a2FZUjRzZk5vcEt0MjBOSGp6d2thT0ZkUjlDZWNucHptSkdrN2xwdXpsRDJ1WHhfWUl6TUxmakM4RWJWRGp6bTlmd1gzTUVZSXlod0I3bE5oN0pnZHd1N3M5NmIxMWNLMWd4NHNUdW51aEtfTHFDVTNIUXVZTG40VlpIcEtRT3Fn?oc=5",
+   "published": "2026-11-16T18:02:47-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "accbff6a8d9624a7fd6b2c52c10c18ed11a5254a",
+   "title": "Chase, Bank of America, Wells Fargo Customers Report Banking Problems",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObjAzMG50cm9JUFhqYUZBb2JKdTJsUzZQWUpaTWJJc0pZS2lNUDJLSldZQjllUlloVG9xSng4eHNOdndBUW1GcmE3XzdHY1Z1V3Y4Njc2TXY1MndBMHA2aTIweTR3VXR6RFpIeVFMQWdwZ3lOWU90ei01VVJOQ0tGYTdEcVkzUHRTaGdJVFF3ZlAtOGhaX25GcGJzTmxxc1VyMjRfVmRsaThTNE54U0hGdGxORzc0RUNUdlNV?oc=5",
+   "published": "2026-11-16T17:43:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0158baf2887516c9aece28eaf368ed34a98a119e",
+   "title": "Berkshire Sold Bank of America and VeriSign Stock in Q3, and Bought Lennar and Delta",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOGEtMkdZTzcxc1hnMTFWdGJuSkNuVkJyODYweXAtblA2LXVSUUdCVnFjQ25HRWdkYm5zaWdqME9pOE9BVlZLWDgtRmpJM2ZvZGZKcUVSX0xKWjdPUDJjT3lVcjRsUFlkTkxLNXFrTTZTelpTd0JOb19mM2ZHTU5qUGo3NFV3U3dMcjRQOE90NEw?oc=5",
+   "published": "2026-11-16T17:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5781f56fa6dd30fc57e5c2a98f2b05970429b0a7",
+   "title": "Berkshire lowers Bank of America, Capital One stakes",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46U189:0-berkshire-lowers-bank-of-america-capital-one-stakes/",
+   "published": "2026-11-16T16:43:22-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b637f09c69b2dbae3991e4bdc0001a3369106b34",
+   "title": "JPMorgan, BofA, Wells Fargo, other banks trade lower amid user reports indicating problems",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVWNFXzhUZ184SWp2TkR3VV9WUzdaVFpWT0ZmZUczNXI2WmZudzdRS0pHUHdxb1BsYnBrdGhOUS1HT1UtdmpsVFVRNG5JaE5RZHJvQ0VTdWlMR21uSHhiTms4ek44UjU2bTRualAtLXVma1FVaWlHLTB5NzdMQjRlLXlnUlZ2azh0OW5UMHRDcThfU2xveWllbXFSOGJlamd1MFg5LTlpOXZlSV9ySkFMT2tzN3Z3RWVkVFJMZmR1UEZWSDA?oc=5",
+   "published": "2026-11-16T14:44:27-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b34dd2533cae7aa3125265e39ec654b4e8f5d673",
+   "title": "Berkshire’s Third-Quarter Stock Moves Due Today. It Could Have Sold Bank of America.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0t3aWhzSzdPTDBIZFM1WmVRQTVDRkhsWjUzbnRYSTJ3d3FXTktvZ2M5eFhfWmxTTjJqdzV4d3l4UjIyOGk1SjA0VnhfTlhzc2ZyRkF5Z2g5VE1kVVVtNnI0dnlNOHk3WHFTYS15aEdwbXNlc05jM3hyby1PbW40cnRTM05CYm52dWc?oc=5",
+   "published": "2026-11-16T12:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "193cbf3ab10f4c45dfd2ac9af81f1c26ca4bb2d1",
+   "title": "Bank of America hires Evercore's Stapleton to lead activism defense, memo",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46X0OX:0-bank-of-america-hires-evercore-s-stapleton-to-lead-activism-defense-memo/",
+   "published": "2026-11-16T11:24:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8f6110078bbc3e009005ce5f9c7f3db52d342258",
+   "title": "Bank of America resets AMD stock price target as Nvidia CEO exits",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTkJZQXJQbWVNOVE4SWRtdlZfSTYtcEJVN1hvTGFpTkpmdGswajMwNUMwX1BEeUY3SWZTc3phN1JVUkxMWXJIY3NudTBWWktVNDdEVGp3NmZZdHplUFRFODdWYzlvN1Z6N3R3bU4xMFg1dTBvS1ZhcExidTBWdkl2YQ?oc=5",
+   "published": "2026-11-13T12:13:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "133bd38d4fca4251acbd2fc202669fc25eee26e1",
+   "title": "BofA adds January 2027 Fed rate hike to forecast",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U1WU:0-bofa-adds-january-2027-fed-rate-hike-to-forecast/",
+   "published": "2026-11-13T09:16:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "aa0b81b51ac8e8d6dcb17321ca4ebb93c7245f83",
+   "title": "Bank of America 13D update: an active investor changed its stake",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000575/0000070858-26-000575-index.htm",
+   "published": "2026-11-10T15:09:51-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "431ed192be3d18fb1120e6505db26b25fde910e5",
+   "title": "Micron, Nvidia and Lam Research Removed From BofA's Top Stock Li",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1dkUVB5OERuWjBGMTBLaUxZMnFDZ2p3N1NYMGpYTHZVU2JHYWZZUTFEZ1Bhbnh6czhMeDYxbFBIeEJqRjM3VEIyb3lMa0ZGWm1nZ0QweENYR2Y2aWFtNjVUeWVtTWFGNlhFVzQzS2hWTDF2cUdNdE5xLU9rc055Tm9GUkJHX3A2Mm94NWZnWmx2RGtMMmlBRmxPYWE2NnJfX0dEOU5R?oc=5",
+   "published": "2026-11-10T10:38:44-05:00",
+   "also": [
+    "Yahoo Finance",
+    "TradingView",
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1c19f78ef716e3a5410e90a972e5bc379f5200cb",
+   "title": "Bank Of America Brings Erewhon Membership To BofA Rewards",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46R12Q:0-bank-of-america-brings-erewhon-membership-to-bofa-rewards/",
+   "published": "2026-11-10T10:23:05-05:00",
+   "also": [
+    "PR Newswire"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3347a98604695a5c6ea59da70eeb40fb92e46adb",
+   "title": "Berkshire Hathaway May Have Sold More Bank of America Stock in the Third Quarter",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2FpLURCYkVHLVVNQUNCSmI4bHFoR3dzdDNkSmhvVnMtb2dWaFZPbjFNbVFhYnVOc0dINllFZGF3UV9vREtmOFFFY20wNXlPNTFtbWluSEtLOXdHVHp1TUZoOElFM1RnV1Z3RjhJTGt2WWQ0YVhUMFZwRDhlT1NYXzhKbEQyTkNlSG9CTS01V1FjSDNDLTV0czV4bk11UQ?oc=5",
+   "published": "2026-11-09T16:54:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "137717138894cd187eca240c8fd8ebf6cfd6cb9b",
+   "title": "Bank of America 13D update: an active investor changed its stake",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000570/0000070858-26-000570-index.htm",
+   "published": "2026-11-09T15:33:27-05:00",
+   "also": [],
+   "kind": "filing"
+  }
+ ]
+}

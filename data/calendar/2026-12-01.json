@@ -1,0 +1,93 @@
+[
+{
+"ticker": "CRWD",
+"name": "CrowdStrike Holdings, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 0.0,
+"n_estimates": 13,
+"eps_last_year": null,
+"last_year_date": "12/02/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 249287180000.0
+},
+{
+"ticker": "MRVL",
+"name": "Marvell Technology, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 0.79,
+"n_estimates": 12,
+"eps_last_year": 0.62,
+"last_year_date": "12/02/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 121424339000.0
+},
+{
+"ticker": "NTAP",
+"name": "NetApp, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 2.14,
+"n_estimates": 8,
+"eps_last_year": 1.63,
+"last_year_date": "11/25/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 33426585600.0
+},
+{
+"ticker": "CPRT",
+"name": "Copart, Inc.",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 0.41,
+"n_estimates": 4,
+"eps_last_year": 0.41,
+"last_year_date": "11/20/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 28588025900.0
+},
+{
+"ticker": "MDB",
+"name": "MongoDB, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 0.08,
+"n_estimates": 9,
+"eps_last_year": null,
+"last_year_date": "12/01/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 23926038500.0
+},
+{
+"ticker": "CRDO",
+"name": "Credo Technology Group Holding Ltd",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 1.03,
+"n_estimates": 6,
+"eps_last_year": 0.44,
+"last_year_date": "12/01/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 22133217300.0
+},
+{
+"ticker": "NIO",
+"name": "NIO Inc.",
+"time": "bmo",
+"quarter": "Sep/2026",
+"eps_forecast": null,
+"n_estimates": 1,
+"eps_last_year": null,
+"last_year_date": "11/25/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 6665074200.0
+}
+]

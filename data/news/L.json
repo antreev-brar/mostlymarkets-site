@@ -1,0 +1,38 @@
+{
+ "ticker": "L",
+ "updated": "2026-11-20T06:08:03-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "cb0b63a1ddf64a6c012a5604df4b7af318c194ee",
+   "title": "Loews declares $0.0625 dividend",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4669974-loews-declares-0_0625-dividend",
+   "published": "2026-11-10T12:00:13-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f706141f52845f3ab2c33dde364ec6295f59871b",
+   "title": "LOEWS CORPORATION ANNOUNCES QUARTERLY DIVIDEND ON COMMON STOCK",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:613f54a6ecf78:0-loews-corporation-announces-quarterly-dividend-on-common-stock/",
+   "published": "2026-11-10T11:08:00-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "898122c3bfbe7376535f886e5a0e55b7aafc7919",
+   "title": "Weekly Recap: Q3 revenue rises, earnings fall and book value diverges",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:799be52ce684f:0-weekly-recap-q3-revenue-rises-earnings-fall-and-book-value-diverges/",
+   "published": "2026-11-09T06:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

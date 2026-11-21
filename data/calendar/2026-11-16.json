@@ -1,0 +1,28 @@
+[
+{
+"ticker": "BIDU",
+"name": "Baidu, Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 0.57,
+"n_estimates": 2,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.58,
+"surprise_pct": 1.75,
+"mktcap": 23548887000.0
+},
+{
+"ticker": "TSN",
+"name": "Tyson Foods, Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 0.65,
+"n_estimates": 4,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.61,
+"surprise_pct": -6.15,
+"mktcap": 22136064000.0
+}
+]

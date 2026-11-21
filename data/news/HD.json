@@ -1,0 +1,406 @@
+{
+ "ticker": "HD",
+ "updated": "2026-11-21T14:00:58-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "7c82c37be5eba29ca7a32e59d74a15139e61f611",
+   "title": "Home Depot chair Edward Decker sells $6.55M in shares",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM0NkQWotTU5wcE9SRHdHUlpSOENISDR5V2l2dlhsc1A3amxpeDU1UlJkUHpzYW1UZzFWZzhUVWw5dWVvMS1Uc3B4bmFTY3JRRlFPWkllX1dWa1dwUzRtbVFuWXFadzhJbG9hYzEyZ0w3bE9VZlFWbHlVQ0RmSEhpNHRSeVZ4d1FFeW0tYkJadTRESWg4VlREMEJRQi1HM3pFeFFQNEhnVl9KNnhwVVl5ZVpGZndZUzQ?oc=5",
+   "published": "2026-11-20T22:52:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "478775209229addac3751c8e15019363643c2425",
+   "title": "Home Depot files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026075287/hd-20261101.htm",
+   "published": "2026-11-20T16:21:23-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "e91892c41b564cf30b7891eecd3d8916fae07145",
+   "title": "Home Depot vs. Lowe's: Which stock has the edge after earnings and our support?",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOENhQ1cxNEhlWTlYMkxNUS1WdC1oUWFNd3k4LV96RHYyS1lucWUyYnRDWnd1RzFURUtkVFlFa3ZaN2N4c29feExvTGxVRXJPWUJKVGxXcmJUbnhZZkJmTmVLazR2U3NtRTVUTWw2Y1lhRm84WE8yMDVJUlZDOWhxbWF1aFBybUR4V3FzM1FBQklyQnFESnB0aVQxMlQtN0Ftc2lCbWJEYnhjYUlaSDRDN01B?oc=5",
+   "published": "2026-11-20T13:23:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a969ce5203408eb2a8d894a70e99d5f7d5f2f7db",
+   "title": "The Home Depot Declares Quarterly Dividend Of $2.33",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUAC8RD3Q:0-the-home-depot-declares-quarterly-dividend-of-2-33/",
+   "published": "2026-11-19T16:21:49-05:00",
+   "also": [
+    "TradingView",
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7434624e4ae73d71b77f4ec804bb99de54a749f3",
+   "title": "Build A 52% Return In Weeks With Home Depot Stock As The Foundation",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYUxubjlISFl5T3JfejlKc2lLekZnUnJ1YkwwV1FhNjBpbWtZbVdpYmM5ZXNEM3VlbEt0LXZhalBtYmZ3UWpPSUhzOTRGbi10eXlLQnJwMWhPR2tsc1BNaWZ2QVlBejA3dmFqWVVLOVFtNGlORnBWREZYSkF6RmRGeG40SDV0QW1wcVhuNFNGZmdvenFlQjcyNlloWUw5bTJ2cEZuQWpSMXprZXE4Wk1hX1Z4aU5aT0hvWHhDOA?oc=5",
+   "published": "2026-11-19T13:52:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "00f63591c8dca5c195e01883473f0c1bbc873295",
+   "title": "Home Depot hands the CEO job to its numbers man as shares dip",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGxVaEJNakRBQVIzMHJBY0V2OThzaG9QU191dEdicWFFMFAxSThGVG4xRmlHUXNOSHlCTU1oNG5uMWtKWThOWGFaMkZldGJJOGZuSEtxNmxiMjNaRXJMbkl2Y1dJeWJ3dVFvZDVZNHNTZzA4QXJ2VTBncHBJQ2xwdUFUSkNXOU0?oc=5",
+   "published": "2026-11-18T17:20:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0c3a909ed298d88e7ddc9040505e5a7a4aaac1da",
+   "title": "Home Depot: I Reiterate My Hold Rating After Q3, The Time To Upgrade Is Not Yet Nigh (HD)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVDF1cHVXcmJyUmctbGtoRW0yX2pJeVc4Tnprc1ZGMzJuZlZ6VDA5OWJBbEl6S3laZ3dmaUlhY3VZVy15UXVYbWNQQ0pTNE5oQTMtT1pyOFQ0NDRmU0VJb0ZWeURzbHlMSUZ6b2hSTnN0by1RVEZqdFFvMkNHU0x6MDNSSUdhOUNiS294RlVIUHdNaDcxbXpHN2ViMjFfRzlqRFUwNEZRb0hqSzJxbGRBNnJBeTdQUmJ0VVBtM2VQbE0?oc=5",
+   "published": "2026-11-18T13:53:10-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6b11a30a338edecb8ffcd799a746b474e53f4a38",
+   "title": "Home Depot Posts Strongest Comps In 4 Years, Analysts Revise Price Targets",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOV04ta0JPVXh0LXJUMmNwbVRZQWNiV055d0N5aHZvZFJCQnFUOGdHS1VEQ3lmSGcwREhpbUEzYndQZXFGd0FFWWdDdVQ2X1RfbGZxQlBnaTZzY3oyaU9HeVRMSWd5M0pURDB0QndCZE9rT2xqR3VsR2tBamNQSVBpdkJTb0E1Rm1XajlBU2lucnU0bnltY2J3QnBPeENaWndWakwwOVEyVHlyR0EydnpDT2tLMjZ3bWlVYmpZVmluT29kaFZUOTZQaHZoNHhhSFc3ckVxNHhmejBWd2dnTVJBUUFn?oc=5",
+   "published": "2026-11-18T11:22:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cc318adeec883b34a70ecb93fd40de6227aacc78",
+   "title": "RBC Capital lowers Home Depot stock price target on margin pressure",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNURFNHJLOWpvbWxwNUpVUmhxYlBvYUppeHV0VkUzU0xScGkzMUI2dVZOQWpyX2tKajJNcXVEdVpIc3VPdGFPVkVRU2Z3ZnoyVmFiU1dfbWtZMndmUU05T05ESkx3ajFZcVpkeUhock1qLW1mWnBYSkpLRHFCM2RYc1BkcGRzVmdVcC1KRXV0Z2p3aE05RzQxeFFUdUVNX085WU5UbUg1Z1E4RThpazV4X2dVN3prdld6cUEyNlRxd2hFZ0hsYlE?oc=5",
+   "published": "2026-11-18T09:14:18-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "346fd9a88100309f565082b40ca1cae917a9c60a",
+   "title": "Lowe's Retreats On Outlook, Home Depot Stock Eases After Earnings",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc3l5Uy1ZalV6YzcxZmZONEhiZktqRHlHRGx4LXhhV0JiU2x6SndLWW5rdU1HUzFuTW10NEdfTUlzRGEyYUZSdjJYUXB6NWp6YUhaemhmNUpaWGwzNWdqZk5ocDhGZHBOY1kzVnJQMFVIbzNDTzlzZFRPSlJZRVNIQ3Z0UUtOb1Z1M2pTdFdHZGM3Z2pvSU9HVmpMZ2pfZEdMU0p4WFVWdlpoVWxzeGZod2xVNGl4OWhzNE1OdjNValFWUmFPdFE?oc=5",
+   "published": "2026-11-18T08:52:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "23368c8282b9e979e1e108a6fa1104195a9d064a",
+   "title": "Home Depot Analysts Revise Their Forecasts Following Q3 Results",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUzhrYTBvbmxQcWtJYzJ3Z2VhOHMzRjJnT1lvSEFKbjZXUzF0dnpoTk93N1g4ZHNLV3U1R1dOOVFGLUcwcGVjYXRuTGxoS2ZPQWg0alYyVTFNOGpNY2VVT2JqaDR4XzNZdGl1Qk51M2l2NHJkQ1JiOVE4TFhHc085b3VNckRNZl9SUktTdXBhZDhkYzBJMGJjTmNGc25uVmotTnBfcjdFQUlNM2ZVUlg2WkZKVUtWZmtMSFJQYXN3VWdIZ1BhNEJHWEJnQ0ZGNTcySEFSZw?oc=5",
+   "published": "2026-11-18T08:49:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fb9abcfb0bfae127465386618a4eeb7ede93544a",
+   "title": "Home Depot Q3 Earnings: Early Signs Of Recovery (Rating Downgrade)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNnk0UjFjUW1ITEJJMV9vOXBvMXlKZWlxTFk3amprcTY0cTUwVnB3Z3RDbHg5LTVaSnZ5dXRyR29YRF9hSTFCZklsWVdZYlJSQVUxQ0pFVWFZbG9tQWk0NTBILXI3WmpPSmJZaVBKTUc0bkJoZjYwV3ZlT0JKaU9uY1BtU1V0WUFGWlFxSXNGVmEtR1YyMjJNNjExUnFwWWxrMGRGOXo1Qldra1RIT1FOTFZ3?oc=5",
+   "published": "2026-11-18T08:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0d1a99f55b8fea44233428725e2e6c91353dd6d3",
+   "title": "JPMorgan cuts Home Depot stock price target on leverage concerns",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWmRNUi1sbVY3ZUJlTWFlamVHRno1MkFVMGM2T196MkRUS29pa000cW12TXdsODhuQUladkpRdVF5a0Y1bmZhZ21CWWJ2WGxkdC1qWk9sdkZjUUh5Y0JyaDJKcnF6UXJwVXVFTkpvSUl4SkZhNFBKaUI3MmZiYlJrWVJOV19ET1Rlcm5VN1pNTnZEc0JQTnh6TTNYQll3MUVpWUZ1eDhmMll0QTE0blhjSXI1cGdWM2JTZ0NMZ29UTWphZw?oc=5",
+   "published": "2026-11-18T08:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c997d1f8b6154dc89dfae6ca098081ef9910ae59",
+   "title": "What analysts are saying about Home Depot after earnings",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4674105-what-analysts-are-saying-about-home-depot-after-earnings",
+   "published": "2026-11-18T07:37:18-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9c31e5f3be4bb059ea66ba85b9f9d0c6943676ca",
+   "title": "Bernstein raises Home Depot stock price target on share gains",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMmI5Um5fdkV6YlhCbmR4dVg2UEdYT3FNdHptYk1aZ2JrazRJTGliOU0wS3Zzelk2T2RUUUZreEw5MTdXRWcySVRndVhsdExtc2VHcFcwX2E5TDNOeG84OF9kWnktMUMzZlJEcG5obXhPYzQxb1BsaUt1TU5QVkh1aS16M2lvOHE2ajloeHJSckRLd240ZDZkdDR4RVlNR3pzamJTRXJYV3l4OWQxbnZMeUNKUWxtTE4td3l2bVF3?oc=5",
+   "published": "2026-11-18T06:17:37-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7334e6a5a1d4d944d1087cb28c90ea580c3a16bd",
+   "title": "A sluggish housing market has held back Home Depot. Here's Cramer's advice on the stock now",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlprcV84cjFRWDFPSkNKNEE3MkgxVnNpR3NuQUVTZzhHbXFYenpoVHJ4UHRiUUh2ZG9WdG5sQ1hPV1JUUVBNSlA5aTNaOGJyNUJIb3lKa0lWaHVLdWxaSlJTSW5iTnRDcXk0MDRkNVFCMDhPTC1CeWloanBFcS1sUmZwNGJlaU1hd2pLSmZjUjFQZ0xTbU5N?oc=5",
+   "published": "2026-11-17T18:53:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7e19cf11007b5789bba7c7fdc5113535ae12bcb4",
+   "title": "Lowe’s Steps Up to the Plate After Home Depot Defies Housing Slump",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE04N2R3ekY2dDg0ZHF5MGNGMklrRlotblVYZnk5SkhIZWFWQ3B1ZlVNSlhqaUNrVEd5QnpLdDI3U2h0UTJzdXdaekF2R1hiTVpvYTRGMXhPSGIwZkwtMDhjYTR2bHA5c0lISUQwM1JNSkxUck9PbTJj?oc=5",
+   "published": "2026-11-17T17:41:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e38e5bf55861935d361d0cdbf3f93f1139e7f407",
+   "title": "Premarket movers: Nvidia, Red Cat fall; Home Depot, SpaceX gains",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdEo3eDZhcjFQQ0RjNU81QklrUzNKdUE4QTVLSUgyZUtuZmVLam1FNm5WYWhJd3EtNWszQ0thMlRUM250SlVRZlFjeTBIMGFCNFU1OG8zbWI3anE3U1QzZ2NpdUNXcVl1VTBndVVNOVhfTVRLazF6c0M0VFk1MUY3Q254SjZGbVhXTXNpQzZtQk1iUVg5OXlGLWhpV21XYkJpc3d0eWhnTGR0WFhaeFZKT0FVVUxpS0xI?oc=5",
+   "published": "2026-11-17T17:05:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "812761fee84d73340df864f6ae39416c0c062e82",
+   "title": "Why Home Depot shares are falling despite an earnings beat — and how to proceed",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLXlMT1VOXzNVVmFPV1VYY2VvR1M3SGdoYnpKb003c1RObmo4QXdaeHg0TVVSX3pBN29udkN4X1BMTDVsZHozQ2s0blZmNHhYM3p3LW5GUlJfZWVaNERtM1JfOEZGaUpFNzJMUmROUnFZeFY3WFlGZXU5bVI5R2FLb1FKWV9PTmVQZHR5MWNnTV84U0tZT1V6QlVSZGVnRlN0bXdJY3ZVZTg3ZnVDM1N1REtqQ3Q2RjVXckJuYWJRTjBpVVRxUjN3?oc=5",
+   "published": "2026-11-17T13:32:59-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "22674a3325c36effb5f0ce2f67b3cbc6e056d3f8",
+   "title": "What Home Depot (HD) Said on Its Q3 Earnings Call",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-what-home-depot-hd-said-on-its-q3-earnings-call-2026-11-17/",
+   "published": "2026-11-17T12:14:20-05:00",
+   "also": [
+    "Zacks",
+    "Yahoo Finance",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "7c4a0774c7b47b2316b400a00e504bb0d4c48ba3",
+   "title": "Home Depot Earnings Top Estimates but New CEO Grabs Attention",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iYXU4Q2hFQUVOWnI2eUNqUnlNNVIzU1NNQzQ2Z0ZDNWJYZC1zOFkyOVdBRmo3SDRwY2Z0SE1Xa18xODM2dG9oZzVOSFdWX3lleFpKRjdzWjZfMzM3cTQzZ1o0RWtVTzdaaW1RSU5pZV9ULXdvRjNmN2JQdUJJUQ?oc=5",
+   "published": "2026-11-17T11:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "34f7444a300d383ac01766df53122172802448c8",
+   "title": "Cramer's Mad Dash: Home Depot",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHTUUzaTRkdFMtNWZham4xeEJILXhDS24tVGdhQXRPOW9hbkNTdWF2SFlZb05mVGZCU1N4Z2FjRlJxdjRBeGRuT3AzNWQ5a0NSdVZMNy05QTlXUXlhZk1yenp0QUR1LS0tSnhvNllTQjZwaXlUeVZtV21n?oc=5",
+   "published": "2026-11-17T09:29:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "082e04b40456babd9ccbe81e1563de31e509e13c",
+   "title": "Nvidia, Home Depot, SpaceX, Sandisk, Disney, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1odzFsZEloUVctYWFCU0FXdE9zRnlWdkNjZUs4aTgzYlBsQzh2bXF6MF92RkVETGV4M0MzR0dxQTQ2clJ2cWhKaEhGUkpkNHpOVlR5Zk5tRHFaZUxLNkNVTDJvaWs?oc=5",
+   "published": "2026-11-17T06:40:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "01983f50c3b94bebca81e9b92872419a4ab8a6d5",
+   "title": "Home Depot’s Q3 2026 sales beat estimates",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/hd/news/earnings/home-depots-q3-2026-sales-beat-estimates",
+   "published": "2026-11-17T06:33:04-05:00",
+   "also": [
+    "MarketBeat",
+    "Zacks",
+    "Yahoo Finance",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e864aee3d0cbf48141b374d0edda3ab656fe96ba",
+   "title": "Home Depot names CFO McPhail as next CEO, lifts sales outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVnZBT1BucExBYWRSMjV4YUpkNF9JaVk1UEtKMldHeDQyOElYUlpLc1JCam5TY1lZakVhNjRXMlh3cWQ3RTFkYUNQNW9IWnVGb2ZYaC1HRVRMRC1HY0RHYmJzeU1jazdQV1lXVFJiZ0Jva29pcXlHQzkzXzQxZHBYeVRpanNaVFAtZmFfdm9rY0FKMlJNdTRhTUg0Q0NBc2pEY3J4SU9LVFlmQ0U?oc=5",
+   "published": "2026-11-17T06:27:07-05:00",
+   "also": [
+    "GuruFocus",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c631ee612e0b72ff16d44e944e33764c44420217",
+   "title": "Home Depot Taps CFO Richard McPhail as CEO — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261117002438:0-home-depot-taps-cfo-richard-mcphail-as-ceo-company-talk/",
+   "published": "2026-11-17T06:21:00-05:00",
+   "also": [
+    "dpa-AFX",
+    "Yahoo Finance",
+    "Stocktwits",
+    "Benzinga"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "527d814531ef7e4789ab4c56825b55fa25c40915",
+   "title": "Home Depot 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000184/0000354950-26-000184-index.htm",
+   "published": "2026-11-17T06:18:03-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "5ae2c57c6915a9c5744d198d0ca4fe67cede178c",
+   "title": "Home Depot 8-K: executive or board changes, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000182/0000354950-26-000182-index.htm",
+   "published": "2026-11-17T06:08:09-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "6444ec45452d51ef9e76b2359d38edf602e3a606",
+   "title": "BRIEF-Home Depot Q3 Net Income USD 3,713 Million",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-17:newsml_PLXMF5DLR:0-brief-home-depot-q3-net-income-usd-3-713-million/",
+   "published": "2026-11-17T06:06:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d609c7e77b0a8a764ee5f8bdc52ca95edbd53e95",
+   "title": "Home Depot names Richard McPhail CEO, Ann-Marie Campbell president and COO",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4673537-home-depot-names-richard-mcphail-ceo-ann-marie-campbell-president-and-coo",
+   "published": "2026-11-17T06:00:48-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ad3ea79ac21970f0e75cfa964753112fdc2e7e8a",
+   "title": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:bf08e8d182d85:0-the-home-depot-announces-third-quarter-fiscal-2026-results-updates-fiscal-2026-guidance/",
+   "published": "2026-11-17T06:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "a3a753c42ad79b7d5b5b2afbeea573102696c48b",
+   "title": "Home Depot names finance chief McPhail as CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Y0PA:0-home-depot-names-finance-chief-mcphail-as-ceo/",
+   "published": "2026-11-17T05:59:12-05:00",
+   "also": [
+    "Dow Jones",
+    "Bloomberg",
+    "GuruFocus",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ab88f8769d866bd3ebef84ba4b41674f7b173418",
+   "title": "Home Depot names insider McPhail CEO amid weak consumer spending",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Y0PA:0-home-depot-names-insider-mcphail-ceo-amid-weak-consumer-spending/",
+   "published": "2026-11-17T05:59:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1cbcee6cef285fac163bc7dddae5702e586e5de4",
+   "title": "Home Depot names insider McPhail CEO, bets on sustained sales recovery",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46Y0PA:0-home-depot-names-insider-mcphail-ceo-bets-on-sustained-sales-recovery/",
+   "published": "2026-11-17T05:59:12-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d92cfa90ee889e1f8483534a9a1096a60afacbe1",
+   "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QTzNuX1BGWUJiUFl0OU9kcWlLS1pRdnYwczFWN1BaVGFPdVlSMkNSLVZqRFVqcDgxNGZkN2pKUzBxSmxfck9MQW4wS19Nc1R4M1dobFhwd1h5cEoyc0tZM2EwaVVNVUFrUVphSGVMc296bEM5a1HSAXtBVV95cUxOcXZSZnVHbzQ0NUU4OFFNZGIyRGJfTW9kS24wMTh2WEhWMmJsQ18xdTFRU1N6cXNsNlJZUG5STGRQLTlnNmZXLU5uLUF0bG1TOUY0R3YyS2JWMEZvb3hURi1pTnJrdkd6LVZJR3hMeHozaEhmZVNldmxwQTQ?oc=5",
+   "published": "2026-11-17T05:46:34-05:00",
+   "also": [
+    "Stock Story"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b4f5adb6ccec7d5b5909e09ac68f0bee848b3fb5",
+   "title": "The Home Depot Names Richard McPhail as CEO, Effective November 23, 2026",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:6acb1fa941396:0-the-home-depot-names-richard-mcphail-as-ceo-effective-november-23-2026/",
+   "published": "2026-11-17T05:43:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "de21806ce893bc739d4fe5ebb4537a25cca0fbd8",
+   "title": "Watch Disney Up on Adjusted EPS Beat; Home Depot Down on Guidance | Stock Movers",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ2V3eDRSdXdBOVJqM2Y5bVRLMlRLRHpvOVpVenhWUXc3OGUxTGJwWEs5clNLVWQyTWhudWdhb3lXZGd1RGNKbnJWVnQtaXRlSFUzYU1QSnZGQmF2YUlCNlZHbl9keVNhd0g3bUI5cU1tRmxmUE84WE1YSEI1b3FBTTNySHVWX1dhdEdJNnBJOGdkR3FZQUlDZTNsMTZ0MTRHVWpfUUl0ZTlJYS1RdlE?oc=5",
+   "published": "2026-11-16T19:00:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bd943e83f47adce29af3f95ff383488d63f189ec",
+   "title": "Home Depot Earnings Will Test If Home Improvement Can Outrun a Sluggish Housing Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYjlOb0NpN0xqdWJGdGViZURaeXozTmRPQnlhcHc5QnhMX21DT0h5VEVKWV83bl9oZU9YUEt1MHFiSTdiZGVpNUlOV3dHX2s1ZXBjeGg2MjFUaXNmZm01ZzBOWFpaakl1b3lncG0xQzI3OVNzcVdMWEw0MlRsN2wxQ01vZFNKejBLTm9pbnFqREtodkVFaTQ3X0Y3RlEyYkdWWUtIYVU5UTdoS0xIWlh4NWN6ME13VmNVX09WRTRoMlhqRzhLc1hZ?oc=5",
+   "published": "2026-11-16T17:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b415d10f9a5deb96274ddb932a0e6267453967a6",
+   "title": "Home Depot Q3 preview: What to expect",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4673162-home-depot-q3-preview-what-to-expect",
+   "published": "2026-11-16T12:15:50-05:00",
+   "also": [
+    "GuruFocus"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "91172032195e8c97e75af2292e76260bb8d0473b",
+   "title": "Lowe’s Stock Cut to Sell as It Struggles to Catch Up to Home Depot",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMzRSb3NmMndaLWFvZVlySm1IMnpwelpHSkE3ckRZcERyQTlHcUZZSkhibmxBVC10ZW1JN1pseXBWYURSa3l2Y3J0OWVjd2RhRlJrcTBZbXU2X0dPc2JvWUExZFRvN19qV2dWalBySE9oS1E4aWlNa1NBSG1fNmdaRkluZ3JVZw?oc=5",
+   "published": "2026-11-13T10:40:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

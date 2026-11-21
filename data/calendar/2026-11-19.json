@@ -1,0 +1,93 @@
+[
+{
+"ticker": "WMT",
+"name": "Walmart Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.64,
+"n_estimates": 13,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.65,
+"surprise_pct": 1.56,
+"mktcap": 999969390000.0
+},
+{
+"ticker": "BABA",
+"name": "Alibaba Group Holding Limited",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 1.56,
+"n_estimates": 2,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 1.04,
+"surprise_pct": -33.33,
+"mktcap": 201817309000.0
+},
+{
+"ticker": "PDD",
+"name": "PDD Holdings Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 2.61,
+"n_estimates": 2,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 2.99,
+"surprise_pct": 14.56,
+"mktcap": 122412098000.0
+},
+{
+"ticker": "INTU",
+"name": "Intuit Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 2.47,
+"n_estimates": 9,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 2.91,
+"surprise_pct": 17.81,
+"mktcap": 82848506000.0
+},
+{
+"ticker": "ROST",
+"name": "Ross Stores, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.85,
+"n_estimates": 7,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 1.91,
+"surprise_pct": 3.24,
+"mktcap": 70241354000.0
+},
+{
+"ticker": "KEYS",
+"name": "Keysight Technologies Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 3.09,
+"n_estimates": 2,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 3.36,
+"surprise_pct": 8.74,
+"mktcap": 47910277000.0
+},
+{
+"ticker": "WSM",
+"name": "Williams-Sonoma, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 2.18,
+"n_estimates": 11,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 2.19,
+"surprise_pct": 0.46,
+"mktcap": 25989152800.0
+}
+]

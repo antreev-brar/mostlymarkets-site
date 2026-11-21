@@ -1,0 +1,384 @@
+{
+ "ticker": "JNJ",
+ "updated": "2026-11-21T14:00:55-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "12cd8f52a5167621d8d09698a08468d2ab1263d5",
+   "title": "JP Morgan maintains Johnson & Johnson at Neutral, raises price target to $300 from $285",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:2e3adf097043a:0-jp-morgan-maintains-johnson-johnson-at-neutral-raises-price-target-to-300-from-285/",
+   "published": "2026-11-20T12:36:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "369c741321e162d5edd4d976d8c3502781223945",
+   "title": "Dividend Roundup: Nvidia, Disney, Merck, Johnson & Johnson and more",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4675149-dividend-roundup-nvidia-disney-merck-johnson-johnson-and-more",
+   "published": "2026-11-20T08:51:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4fd2b5f02f7717aca22cdffc31f07dd9d1aeec5c",
+   "title": "J&J - Reports Tremfya Demonstrates Mri-Confirmed Improvements In Spinal Pain And Stiffness",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN47101U:0-j-j-reports-tremfya-demonstrates-mri-confirmed-improvements-in-spinal-pain-and-stiffness/",
+   "published": "2026-11-20T08:12:39-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "173db4779b46c707766b65f789d18f8df0842959",
+   "title": "3 ETFs That Give You Johnson & Johnson In Different Doses",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVBOVE9lU2pieUUyd01SNWczV21XZE9nLTZfZGs1Q1Y0bndqN1Q1ZHpLVFduek9pTTZyNG1uNUFVcHZtaVIwamRRUmNrRUhwWlhySDh1Q3o0dmlLQTZLUk9zWXdfaGRSOWFtX1BOLU85WXM1NFhDd09KcUJVTTdQSEJwVkc2c3JBTlBsdmZEVkJuVFlrOHRuSw?oc=5",
+   "published": "2026-11-20T07:11:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "572b5be5bb220e214102781f2a88e66e38769326",
+   "title": "Stock Screening Made Simple: A Closer Look",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3032854/stock-screening-made-simple-a-closer-look?cid=CS-TRADINGVIEW-FT-stocks_in_the_news-3032854",
+   "published": "2026-11-19T19:08:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d37a0c0c531ab76df93fffdb94dc544f4ab5deb8",
+   "title": "Johnson & Johnson Delivered 'Immaculate' Prostate Cancer Data at ESMO. Here's Why Investors Should Care",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRDIxV0kwN2JkUHlNampHUjlxVXk4TkNqeU1DYkREZDRzbm9oUV9vbkwxM0d0S2U5MHhKcTF1NlQxTGdWc1ZNcG05MGJrcmdpdmdPakdqTUNGWUVvaFVTTFhrSV92OTlPUVNETEZlcXNOUG5pd0pBX1BUWjBRVVNuOG9ucmZ5d3RsajZiVWNNeW1UX2VvOXdkeg?oc=5",
+   "published": "2026-11-19T18:45:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "19516fc30fdc26f26c1d38df40d2f27511fdb981",
+   "title": "StoneX raises J&J Snack Foods stock price target on earnings beat",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWVlOZ0lPQ1NmTkhpdzNQOUdIWmR0ekI0RjljZWk0aUs5Yzc4QWdraF9qY3pWMDVmZnU1bi14MmVtUDVJdE5YaEVoRzVSc21YUndCNXBmQlM0U0FfS1l2bklfaFJqbVYzX1pFbEtMSFJ3RVFOSjBTQy1JVWVLWTVMQWZfS09xbHJXaG5Cd2tBS3l5Y0ZYWlh3Q19rUDNiekJ2OEtHbnBNRTM1eU9pN1VrdDhaNGZuTUZpVTBqcHUyWVVIQQ?oc=5",
+   "published": "2026-11-19T13:04:24-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "70e70bdeead5ab4f3b5cc81cc8a49deb260d32c8",
+   "title": "What Does Johnson & Johnson (JNJ) Appeal Loss Mean For Investors?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLTJFd1hCSXYzVzFqV2lkT0NCRnlUVmVJVGx1d1JTYTlQZGZYN3cwcDZ3cnVFc2s0MVQ0ZEtoMXFRajlaQ3VjV3ZFV3JVaVRLVnBSS25ic1dnVzMxdWRvY3EtN0JBbXU0aW1wcjNlTXdjYmhYVEdkRjZ5d0I0VHZCRExBMF9nY3kxTTR0Wmt2NW9kQ3RvQUVz?oc=5",
+   "published": "2026-11-19T10:17:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7d21a299064624cb99d8b495495825d622f19021",
+   "title": "Johnson & Johnson Begins Ottava Surgical Robot Rollout With First Hospital Installation in Texas",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRXRaZmNpa1c1Y3ZqUWFJWmhJOElPbHFSeVlsNnN2WDF5VEI2VjlPbVJmZHVrSkZWLXE0anRnUkZHOGRYdG5pVjNrLWZ1RllDczZFbXQ2T2xKcTV6RVhma25FSzVtcVJ5eTdFTDlLcEU4N1VYR2ZEdW5HQzBXbHJVXy0xZHBIRk83OE5sb0pMd2ZfcmlBdXY5LTI2b2FoU053?oc=5",
+   "published": "2026-11-19T09:27:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f5b9fadbe5f4aafde61f7908d1366dc531007ad9",
+   "title": "Johnson & Johnson Announces First Commercial Installation Of The Ottava™ Robotic Surgical System At Memorial Hermann Health System",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUAB8RCN:0-johnson-johnson-announces-first-commercial-installation-of-the-ottava-robotic-surgical-system-at-memorial-hermann-health-system/",
+   "published": "2026-11-19T08:59:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "afcfef38273f22fdeae874dac1cc3c04980c76cf",
+   "title": "Johnson & Johnson (JNJ) Begins OTTAVA Commercial Launch at First U.S. Hospital",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:2a63ba4d626e8:0-johnson-johnson-jnj-begins-ottava-commercial-launch-at-first-u-s-hospital/",
+   "published": "2026-11-19T08:51:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e096523977467596aa8710473a53bc58c5d6495d",
+   "title": "Johnson & Johnson Seeks U.S. FDA Approval For Caplyta In Bipolar Mania, Marking Fifth Potential Indication",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA2NC41V:0-johnson-johnson-seeks-u-s-fda-approval-for-caplyta-in-bipolar-mania-marking-fifth-potential-indication/",
+   "published": "2026-11-19T08:22:20-05:00",
+   "also": [
+    "Dow Jones",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "333598b1f9936294a908b5e0f92d7ce51441eba4",
+   "title": "J&J Snack Foods Corp. Q4 2026 Earnings Call Summary",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGNXbmlhZl90ajI0Q1dPS2d3amVaQjBnNExjUTdrV1RaQU13bkxweW1mRG0xT0twYklVajAzRU01NVlzUFI5VHlucnVRU2Y2WGdBTi1KQVZSZkh6RlFNeXlwdzdoQVlOcElLeGdBX3pEaDRwWjVzU2Vjb21mMlhiR3Q1UGVsNF93MDVqcHJn?oc=5",
+   "published": "2026-11-18T17:04:47-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e58d9f0d03af86be70967b034ee9e16dbd08bb8e",
+   "title": "J&J Snack Foods Shares Rise 3.4% as Fourth-Quarter Earnings Beat Forecasts and Gross Margin Improves",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSE5nZFQ4azE5Q1Z5bXA2bXl2WXVINlVpZWVjekFaYWhYQXZGUktSOU9mTWxQWUI4b2lkN2FZVWFzd0lGa1llVmtyQ0FaZ2lnTkN4TFBtTTJjeTcwbG5hcUpHMHBlMU94WkJyYWZZTVVkdVI4aWREZ1o5VlRySmlOS3RTdFdpTXk0SW9WS2pLT0w?oc=5",
+   "published": "2026-11-18T09:36:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d38c1ae726825ec43e1409e627433341ee31616a",
+   "title": "J&J to Acquire Ollin Biosciences: A Look at Its Recent Buyouts",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3031219/j-j-to-acquire-ollin-biosciences-a-look-at-its-recent-buyouts?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cquick_take-3031219",
+   "published": "2026-11-17T09:43:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0a15fb1c63f06fa03a01ffcb5aec6019930fefcb",
+   "title": "Wall Street Analysts Think Johnson & Johnson (JNJ) Is a Good Investment: Is It?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZnN2NlhyQmM2MVlVR1BPY0xITm11cVo0VTFkZlA1bHYwMFR5NklJdkMzcnIzTGpKWE5rSks3YVRNWTJDNWgxa01QVndUVFRORGk5N0lXRXk2a2h6SEpNcDFRR0tRUTNWVV9xY3RpUkhFamJIM2sxaG5ndE52bHpyX000YkVKZDZOaEtUQVdDNW1QRUtRaWFrWjZLR2JiQzdr?oc=5",
+   "published": "2026-11-17T08:30:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e7533da98ae2f619dd8c1e5e64cfc06fd19f46c7",
+   "title": "Trial lawyer Lanier joins investor lawsuit over J&J's talc disclosures",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46N0U9:0-trial-lawyer-lanier-joins-investor-lawsuit-over-j-j-s-talc-disclosures/",
+   "published": "2026-11-16T19:11:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a0810589dd530805464fd37c5e39c8d0b982fb75",
+   "title": "Johnson & Johnson (JNJ) Eyes Ollin Biosciences, Is It 19% Overvalued?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOTVQcDRGbDIzMjh6U1VqbTJ3NkVwSnp4eDNxbDVoMkMxWDdLZjMyX3F2MFV1YVd2cnVWVURwa1BpbHp1RHAySXo5aXJmNVJ5RUhQY0FweEhRNUdaN1hUVzZSRTBzQ3lfUG4yVk9takpOQXZ0MWFCWFJSZWR5NzhjX0R0TGppZw?oc=5",
+   "published": "2026-11-16T16:12:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5456b8572d8746b6ef6984c5d85d406055d273e5",
+   "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOek1YUnU3MkZUQWl6NWUxelEzOUdUdHRPbkdYbTFaVS03ZndibW5ZTUUyNkMwNllNS0RWS21HZGowRjZQZTVDZW5KMTgtajM0M2d2UE1qc1BrZ1BVM2RmdnpPT0FTQjZIYkhPSWluRS1WN0E1Q2U0ckF4TnlGNGpiVEduaVhBN0ZXRndtVjNaVW9mbnotSHJyUi1oeVloNHpOcWdqV3BMWmU?oc=5",
+   "published": "2026-11-16T15:59:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d0fcb851b98d90b55f91462b97c35cc12863630d",
+   "title": "Jim Cramer says J&J is a 'metaphor for what's working' in the stock market",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV3BFVXd0OUlBVGtaZUh3ODVDYWczd01uQVZyWm03NGFZMzBUMU5PMmJhY2Nwb21pcW9OdmJyOENFSlZwMXJDTWRTMEJ2bjRidkNvWmtpci16TkdxTkt5LXA5MHFOVjBtOHZma0ZHMUtYQlhENXJkT00zREN4VG1vR2pmMXVfNWQtSmZibGtLNXFyNjBxck40N01vT1hTQ0ZoQTh6eDFDb19lcFM3Q19jcGZkTjFxbDE0cnVfQVp3?oc=5",
+   "published": "2026-11-16T14:39:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e192a399ac9f822637681a9ef5940e9cbf235dbf",
+   "title": "Johnson & Johnson Inks $2.2B Deal for Eye Drug Developer Ollin Biosciences",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQzNqS0hJNUltSk5DbHFOTk0yb1NQeTdFdTdveWpXZG5sUGdkR0dwaS1xWHF2Ym1ubFYySXB4YTdEM2VBSTMydld3UUNFMUNfUEhTcTR5aUotbVRTeTFUcENodUtCV2JHYkJSaXZfMTdQSHBOT1YxNktSNFVxUzRueXFuOVZISi13eWxURlFRV3NXc2U2Y0xCSlNNMEkwTjJSMWVrZzJuQXRFX1JFSU1iSGJteWZNQQ?oc=5",
+   "published": "2026-11-16T12:56:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ddf313c4a76df85a4fe8a24f007a4e35f72062c",
+   "title": "J&J bets $2.2B on Ollin’s vision loss drug",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0weDJFWjJhcGZjODRmWXlhUUc2Y0J6QUJpWV9CUWZZdFoyTmh1amxZbk1LTS1mbG1WQXVWZGxWMjlTVGJOYmttSnFRdllSVTQtQkFqNHZxNFpGaDJsRldxQ1dXdjZ6WG5HeWJJSkJ4OXFnT0dLYXVoWWt5cjdLb0k?oc=5",
+   "published": "2026-11-16T11:57:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4b391db77f6cf7ea39cbab94cf775a0a3fc68784",
+   "title": "Innovent Biologics Says Ollin Biosciences Enters Definitive Agreement To Be Bought By Johnson & Johnson",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X141:0-innovent-biologics-says-ollin-biosciences-enters-definitive-agreement-to-be-bought-by-johnson-johnson/",
+   "published": "2026-11-16T09:26:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "251731123f568e665c633ec43be1302d4532cbb1",
+   "title": "Johnson & Johnson To Acquire Ollin Biosciences And Late-Stage Bispecific Antibody With Best-In-Class Potential In Ophthalmology",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA31VQS9:0-johnson-johnson-to-acquire-ollin-biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology/",
+   "published": "2026-11-16T08:57:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "275b85001516cabd37a50333a2103af05661d2dc",
+   "title": "J&J Bets $2.2B on Eye Drug That Targets Two Disease Pathways — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261116005139:0-j-j-bets-2-2b-on-eye-drug-that-targets-two-disease-pathways-company-talk/",
+   "published": "2026-11-16T08:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3eb2a8416ae50919170e1861221423755df33495",
+   "title": "J&J Says Blackstone Will Bankroll Retinal Drug in $750M Funding Deal — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261116005140:0-j-j-says-blackstone-will-bankroll-retinal-drug-in-750m-funding-deal-company-talk/",
+   "published": "2026-11-16T08:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5ab6b0c4bb8dd46913ab295baecb9d0f7d99f98f",
+   "title": "J&J's New Eye Drug Uses Smaller Antibody Format for Longer Dosing — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261116005141:0-j-j-s-new-eye-drug-uses-smaller-antibody-format-for-longer-dosing-company-talk/",
+   "published": "2026-11-16T08:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "95a6c91d0ff95190d82987de75a048dffb029230",
+   "title": "Why Is Johnson & Johnson (JNJ) Showcasing New Blood Cancer Data At ASH?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeDZGeTNfb3BzNkVjNHhvdlpHa2NSVlNHcWRTMzB3bHZabzlIeXBjd2tJUUhqNDBXZEg0RF9OSzRCSWF3OXBFR1p3bmpzVzVsbEVPa1lwRWVEcVlmeUUzQnFkbk90WDlqd3o2UGh1OTBLRzFPaTc4MWV4N1lPOGI0LWVYcE1TQk1jZDlORzhDSWpkTkN3Unp6eFZMRQ?oc=5",
+   "published": "2026-11-16T08:06:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2b707047516e6f2eb83147fb3f132586ca5bf042",
+   "title": "J&J strikes $2.2 billion buyout deal for eye disease biotech",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46X0XV:0-j-j-strikes-2-2-billion-buyout-deal-for-eye-disease-biotech/",
+   "published": "2026-11-16T08:02:53-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "300a5e0cc0b23681d3e89af256b04cf5d7c3df37",
+   "title": "Premarket movers: Nvidia, Intel fall; J&J gains",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFgwSWlaWmdocWl2T1pZV0FFNnlhMkk5Nk9la0hMaGlBT21GSEhzUE9ZNVFza1FYYTBoQi0tdlNlbWRGZC0yNTJqbWVXUkVHSWR0SXk1TEMwWERhbWttREVESWhkZUl4M18wcHl1eVdyNFFtbW9wZmxtMVl5NEdPVlhNd1lmdmxxR3pKZlVWN2g2NWVSWkdPdTZFM0E4akl3MXc?oc=5",
+   "published": "2026-11-16T07:30:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "feeae84fbc0bbe7134a5be7be3ccc9b437c0d636",
+   "title": "Does Johnson & Johnson Stock's Valuation Make Sense?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV1p2WjhKRTBLVjFWVTZ3Z3FUQUczU1NPaXV2NnZmSTEyUk1jSmRnenlTb1FIR2t3WVlZNE5DQk9HdHNvWExKUWhoeDJyMEZuSk5kQ2VZR2ZuUHdCbGliVXdJZWF3b2Z0RXBiZFhRZjFZX3lqWjJhYzJwaFhUVDBqalB1bU10YzE4SmVjQnd1ekdGcFEyX2U5QUUyX2RMeFhPRThMYQ?oc=5",
+   "published": "2026-11-16T03:08:05-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1ed172cc5c44afb70a9e2781db575d109d216fd6",
+   "title": "J&J in discussions to buy Ollin Biosciences for up to $3.4B - report",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4672820-jj-in-discussions-to-buy-ollin-biosciences-for-up-to-34b---report",
+   "published": "2026-11-16T00:21:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fea1e8f5d50283d1cbef8e0142c7e208ea628364",
+   "title": "J&J looks to buy Ollin Biosciences for up to $3.4 billion, FT says By Reuters",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTlRrSEtCRXRhanJpbG9zc0NRQ0dwZy1zbzBlZkdkTlYxekVpRG1hdF9IeFl3c0lKQ0IxeG9tenVSdWFGWWFUZFFBRU01eFN0em95MDFMSV9MM0FHR0l6dHRtal9xRlVDbVdGZG10ZjQ3UlJrb0hPcUNvVlBtTGRqNjFKX2NEMVJMb2kzQjlLbG5QemUzdVlZaGplOHd2QTJEbXNqb3RPaE5UMWwyNFZuYUhUWGdwSDlUMmEw?oc=5",
+   "published": "2026-11-15T21:40:23-05:00",
+   "also": [
+    "Reuters",
+    "Yahoo Finance",
+    "BayStreet"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "c5426ec2472d8eea1675ed4a0afc2156722c6159",
+   "title": "J&J in talks to buy eye disease biotech Ollin for $3.4 bln, FT reports",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN3NHN2tOOWNsZHpCMDdUV3lYVHVTRFdhcFBqX2RiT2J5VDVudVNZNEg0VnZzMDhjTGZMRDhQWnJTaXF3aWpkYkJ2R0VpcTktekV3ZzEtNTVLSVM1V2JPNWsza1Z6dkd2U3drQS1abTNadkdpdk16ODRtUGZCakt5OHpiNmN1dWRRSkpzaVhyaUo2anZGNUxCT3NMN1JmOEZZSC1Sb3lRSXlxTFdWaEFPN0N0ZmlVSDBoN1VXSDNRenI?oc=5",
+   "published": "2026-11-15T19:57:09-05:00",
+   "also": [
+    "WSJ"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4e58f26b8b21c313032172c66445accf8546d40a",
+   "title": "Johnson & Johnson Looking To Buy Eye Disease Biotech Ollin Biosciences For Up To $3.4 Billion - FT",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46V012:0-johnson-johnson-looking-to-buy-eye-disease-biotech-ollin-biosciences-for-up-to-3-4-billion-ft/",
+   "published": "2026-11-15T19:04:06-05:00",
+   "also": [
+    "Yahoo Finance",
+    "Dow Jones",
+    "WSJ"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d57ff6baf39deda0dddd94345b22297b3c03bf0a",
+   "title": "Johnson & Johnson EVP sells $3.7M in shares after option exercise",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUGdEc3gydGh0M2JqNWFHck5jSG15NzBMVExFcWxlcXZsa2ZHeDA4VGhiZW43bzRrZ3VaTFV6LUJaRWZWallzLUI3UGZIY1VjT1B6ODNVeEFvVU8tY0FIVUVBYmtvWDdSRFVtdm1VaF9FMTZqMGJpU0hlUUladVRqWENnS05VUkU5V0Y4MjVfamp6THUtZUpYNVQ5eWJyME9oUUZ3VnhsNWo1QWpBUnA3MUhPWHE0MGhvYTN2UFJpbVdaQllqWEE?oc=5",
+   "published": "2026-11-14T00:35:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7da48a15e1d2992a34f30079df9c529f6f228293",
+   "title": "Johnson & Johnson Reports Favorable Data For Bipolar Study",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHgxUDhXUllGamNCbkZ2QlhuZVJiazhLb1lIdmpWSFFOYkxDbTZDTUw4M0swREhRVV8wOVlibDNZclFqbkNVMGlEUTFlUGRGWklKN0EwMEtwamlRYVdtRnhOeFMyVUdZZDZOODBKMUNzNUp1REdtdXpKTnJxUWR0Xy1uWWgxN0lDb1dqVE9ITFY4X1R2YV9ZaDVVb0F5T0gwbmFBZ1oyN3o2dTBSU1FtM29B?oc=5",
+   "published": "2026-11-11T12:32:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b726e7f12f41919f5226d6178c261e701fa3f697",
+   "title": "J&J eyes US nod for Caplyta in bipolar mania after second trial win",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46R136:0-j-j-eyes-us-nod-for-caplyta-in-bipolar-mania-after-second-trial-win/",
+   "published": "2026-11-10T09:10:11-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e590fad49c8321c383d4303b9169e9cfa26b3295",
+   "title": "Johnson & Johnson Announces CAPLYTA (Lumateperone) Shows Significant And Rapid Improvement In Bipolar Mania In Second Pivotal Phase 3 Study",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA4ZB4YJ:0-johnson-johnson-announces-caplyta-lumateperone-shows-significant-and-rapid-improvement-in-bipolar-mania-in-second-pivotal-phase-3-study/",
+   "published": "2026-11-10T08:21:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ac2bff596aae675b98937ea72a002dbcd364fd3b",
+   "title": "Stocks extend recovery from Thursday's sell-off. Plus, new trial data from Lilly, J&J",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV1VXUkxRdTdLZXItTkV0MVZxZXBid0kxU0ZVaE1fQVJ5Yk5vMGdtbFkyNl9qa1BHVjJ3MkZJX0VpazJOcjY2WGZnckliQWxqeTI4Vk13cDhCZnZfZkFsdWZlMzV6OUg5bXRQU2phajhSV3pZWUdpb3A0LWlZZGxEX3RWTWJCU1IxeU04Z3E2akFHYWRvaThPREZFSHJJUTJxSlZFTXlaY1Ffa2JscDMycHJxSFUydTRDMkwxdmtKdEdEeGVzekM3cE9Ecmk?oc=5",
+   "published": "2026-11-09T15:02:19-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}
