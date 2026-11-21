@@ -585,6 +585,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-21": {
+"created": "2026-11-21T06:06:49-05:00",
+"day": "2026-11-21",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-10-31": {
 "created": "2026-10-31T15:18:41-04:00",
 "day": "2026-10-31",
@@ -3011,6 +3017,14 @@
 "BRK.B"
 ]
 },
+"news-BRK.B-2026-11-21-intuit-selling-mailchimp-for-3-68-billio": {
+"created": "2026-11-21T06:06:49-05:00",
+"day": "2026-11-21",
+"kind": "news",
+"tickers": [
+"BRK.B"
+]
+},
 "news-BX-2026-11-02-blackstone-to-invest-3-10-billion-for-49": {
 "created": "2026-11-02T04:01:11-05:00",
 "day": "2026-11-02",
@@ -3156,6 +3170,14 @@
 "kind": "news",
 "tickers": [
 "CVX"
+]
+},
+"news-DE-2026-11-21-deere-de-acquires-an-ai-crop-monitoring": {
+"created": "2026-11-21T06:06:49-05:00",
+"day": "2026-11-21",
+"kind": "news",
+"tickers": [
+"DE"
 ]
 },
 "news-DHR-2026-11-21-did-microsoft-ai-partnership-just-shift": {
