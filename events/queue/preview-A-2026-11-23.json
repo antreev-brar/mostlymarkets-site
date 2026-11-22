@@ -1,0 +1,100 @@
+{
+ "id": "preview-A-2026-11-23",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-22T12:01:48-05:00",
+ "expires": "2026-11-23T15:30:00-05:00",
+ "tickers": [
+  "A"
+ ],
+ "headline_hint": "What to expect from Agilent Technologies's (A) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-22T12:00:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "A",
+   "name": "Agilent Technologies, Inc.",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.72,
+   "n_estimates": 7,
+   "eps_last_year": 1.59,
+   "last_year_date": "11/24/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 49433403000.0
+  },
+  "report_date": "2026-11-23",
+  "quote": {
+   "price": 170.38,
+   "change_pct": -2.83,
+   "prev_close": 175.34,
+   "time": "2026-11-20",
+   "mktcap": "48.035B",
+   "pe": 33.58,
+   "fpe": 25.97,
+   "yr_high": 182.99,
+   "yr_low": 108.35,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 170.0,
+    "change_pct": -0.22,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "A",
+   "name": "Agilent Technologies",
+   "date": "2026-11-20",
+   "close": 170.38,
+   "prev_close": 175.34,
+   "change_pct": -2.83,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 36,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -3.04
+   },
+   "ytd_pct": 25.21,
+   "return_1m_pct": -2.02,
+   "return_6m_pct": 48.21,
+   "return_1y_pct": 17.99,
+   "high_52w": {
+    "close": 181.48,
+    "date": "2026-10-28"
+   },
+   "low_52w": {
+    "close": 110.24,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 6.12,
+   "thousand_dollars_5y_ago_now": 1037,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 1882469,
+   "volume_vs_20d_avg": 0.93,
+   "sentences": [
+    "Agilent Technologies's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 3.0%.",
+    "The stock is up 25.2% this year, and at $170.38 it sits 6.1% below its 52-week closing high of $181.48 from 28 October 2026.",
+    "$1,000 invested in Agilent Technologies five years ago would be worth $1,037 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-18/3-momentum-stocks-we-like-and-1-wed-skip-regeneron-agilent-allegion-and-thermo-fisher/",
+    "date": "2026-11-18",
+    "title": "3 Momentum Stocks We Like and 1 We'd Skip: Regeneron, Agilent, Allegion and Thermo Fisher",
+    "type": "list",
+    "tickers": [
+     "REGN",
+     "A",
+     "ALLE",
+     "TMO"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}

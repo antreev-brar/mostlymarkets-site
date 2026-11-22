@@ -1,0 +1,99 @@
+{
+ "id": "weekahead-2026-11-22",
+ "kind": "week-ahead",
+ "story_type": "analysis",
+ "priority": 40,
+ "created": "2026-11-22T12:01:48-05:00",
+ "expires": "2026-11-23T09:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "The Week Ahead: <the big tests for stocks>",
+ "instructions": "Day by day: the big reporters and the economic calendar.",
+ "quotes_asof": "2026-11-22T12:00:08-05:00",
+ "pack": {
+  "week": [
+   {
+    "date": "2026-11-23",
+    "reporters": [
+     {
+      "ticker": "HPE",
+      "time": "amc",
+      "eps_forecast": 1.18
+     },
+     {
+      "ticker": "A",
+      "time": "amc",
+      "eps_forecast": 1.72
+     },
+     {
+      "ticker": "J",
+      "time": "amc",
+      "eps_forecast": 2.11
+     }
+    ]
+   },
+   {
+    "date": "2026-11-24",
+    "reporters": [
+     {
+      "ticker": "DELL",
+      "time": "amc",
+      "eps_forecast": 6.55
+     },
+     {
+      "ticker": "BHP",
+      "time": "unknown",
+      "eps_forecast": null
+     },
+     {
+      "ticker": "ADI",
+      "time": "bmo",
+      "eps_forecast": 3.89
+     },
+     {
+      "ticker": "MDT",
+      "time": "bmo",
+      "eps_forecast": 1.34
+     },
+     {
+      "ticker": "ADSK",
+      "time": "amc",
+      "eps_forecast": 2.27
+     },
+     {
+      "ticker": "WDAY",
+      "time": "amc",
+      "eps_forecast": 1.28
+     },
+     {
+      "ticker": "DLTR",
+      "time": "bmo",
+      "eps_forecast": 0.89
+     },
+     {
+      "ticker": "HPQ",
+      "time": "amc",
+      "eps_forecast": 0.74
+     }
+    ]
+   },
+   {
+    "date": "2026-11-25",
+    "reporters": [
+     {
+      "ticker": "DE",
+      "time": "bmo",
+      "eps_forecast": 4.07
+     }
+    ]
+   },
+   {
+    "date": "2026-11-26",
+    "reporters": []
+   },
+   {
+    "date": "2026-11-27",
+    "reporters": []
+   }
+  ]
+ }
+}

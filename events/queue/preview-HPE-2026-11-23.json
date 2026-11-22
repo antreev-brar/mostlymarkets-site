@@ -1,0 +1,154 @@
+{
+ "id": "preview-HPE-2026-11-23",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-22T12:01:48-05:00",
+ "expires": "2026-11-23T15:30:00-05:00",
+ "tickers": [
+  "HPE"
+ ],
+ "headline_hint": "What to expect from Hewlett Packard Enterprise's (HPE) earnings",
+ "instructions": "Reports Monday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-22T12:00:08-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise Company",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.18,
+   "n_estimates": 7,
+   "eps_last_year": 0.54,
+   "last_year_date": "12/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 60386374000.0
+  },
+  "report_date": "2026-11-23",
+  "quote": {
+   "price": 40.91,
+   "change_pct": -10.07,
+   "prev_close": 45.49,
+   "time": "2026-11-20",
+   "mktcap": "54.307B",
+   "pe": 21.31,
+   "fpe": 8.78,
+   "yr_high": 73.56,
+   "yr_low": 19.84,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 41.97,
+    "change_pct": 2.58,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "date": "2026-11-20",
+   "close": 40.91,
+   "prev_close": 45.49,
+   "change_pct": -10.07,
+   "moves_over_5pct_last_year": 42,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 7,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -11.84
+   },
+   "ytd_pct": 70.32,
+   "return_1m_pct": -26.25,
+   "return_6m_pct": 8.86,
+   "return_1y_pct": 98.59,
+   "high_52w": {
+    "close": 73.46,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 20.0,
+    "date": "2026-02-23"
+   },
+   "pct_below_52w_high": 44.31,
+   "thousand_dollars_5y_ago_now": 2843,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 21529770,
+   "volume_vs_20d_avg": 1.49,
+   "sentences": [
+    "Hewlett Packard Enterprise's shares moved 5% or more on 42 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 11.8%.",
+    "The stock is up 70.3% this year, and at $40.91 it sits 44.3% below its 52-week closing high of $73.46 from 9 October 2026.",
+    "$1,000 invested in Hewlett Packard Enterprise five years ago would be worth $2,843 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-22/",
+    "date": "2026-11-22",
+    "title": "Dell's AI Orders and Wednesday's Inflation Data Will Test a Market in Correction",
+    "type": "daily",
+    "tickers": [
+     "DELL",
+     "NVDA",
+     "HPE",
+     "ADI",
+     "CLX",
+     "AMZN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/dell-coreweave-and-bloom-energy-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Dell, CoreWeave and Bloom Energy Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "CRWV",
+     "BE",
+     "HPE",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/why-dell-technologies-dell-stock-is-falling-today/",
+    "date": "2026-11-16",
+    "title": "Why Dell Technologies (DELL) Stock Is Falling Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "SMCI",
+     "HPE",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/3-under-50-stocks-wed-skip-and-1-we-like-amcor-keurig-dr-pepper-hpe-monster/",
+    "date": "2026-11-08",
+    "title": "3 Under $50 Stocks We'd Skip and 1 We Like: Amcor, Keurig Dr Pepper, HPE and Monster",
+    "type": "list",
+    "tickers": [
+     "MNST",
+     "AMCR",
+     "KDP",
+     "HPE"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/astera-labs-monolithic-power-and-credo-shares-jump-what-happened/",
+    "date": "2026-11-03",
+    "title": "Astera Labs, Monolithic Power and Credo Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MPWR",
+     "ALAB",
+     "CRDO",
+     "AMD",
+     "DELL",
+     "SNDK",
+     "HPE"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}
