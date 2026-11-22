@@ -88,5 +88,8 @@
    "/news/2026-11-19/coherent-astera-labs-and-intel-shares-jump-what-happened/",
    "/news/2026-11-19/amd-amd-shares-plunge-after-hunterbrook-shorts-it-over-china-links/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-21T22:36:59-05:00",
+ "reason": "already covered: the 18A-P customer news (18 Nov) is in our 2026-11-18 brief; headline is a recap piece"
 }
