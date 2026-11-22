@@ -88,5 +88,8 @@
    "/news/2026-11-19/coherent-astera-labs-and-intel-shares-jump-what-happened/",
    "/news/2026-11-19/amd-amd-shares-plunge-after-hunterbrook-shorts-it-over-china-links/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-22T06:36:12-05:00",
+ "reason": "already covered: /news/2026-11-18/intel-intc-says-it-has-signed-its-first-outside-customer-for-18a-p-chips/ (weekend headline is a recap of the same 18A-P customer news)"
 }
