@@ -472,6 +472,12 @@
 "kind": "breakdown",
 "tickers": []
 },
+"breakdown-2026-11-22-1": {
+"created": "2026-11-22T11:01:47-05:00",
+"day": "2026-11-22",
+"kind": "breakdown",
+"tickers": []
+},
 "daily-2026-11-01": {
 "created": "2026-11-01T08:26:05-05:00",
 "day": "2026-11-01",
@@ -2814,6 +2820,14 @@
 "news-AVGO-2026-11-13-broadcom-avgo-stock-gets-a-fresh-ai-open": {
 "created": "2026-11-13T04:01:11-05:00",
 "day": "2026-11-13",
+"kind": "news",
+"tickers": [
+"AVGO"
+]
+},
+"news-AVGO-2026-11-22-broadcom-avgo-faces-reported-ai-chip-ord": {
+"created": "2026-11-22T11:01:47-05:00",
+"day": "2026-11-22",
 "kind": "news",
 "tickers": [
 "AVGO"

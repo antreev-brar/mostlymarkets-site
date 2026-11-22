@@ -1,0 +1,92 @@
+{
+ "id": "news-AVGO-2026-11-22-broadcom-avgo-faces-reported-ai-chip-ord",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-22T11:01:47-05:00",
+ "expires": "2026-11-22T21:01:47-05:00",
+ "tickers": [
+  "AVGO"
+ ],
+ "headline_hint": "Broadcom: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-22T11:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Broadcom (AVGO) Faces Reported AI Chip Order Cut From A Major Customer",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNam9zYmNqUncyd2Y0XzJwNXppbm02NmRPaE5SS0VwVFlScmFLRGQwTjBJQlhuTnIySk15SWVKRmxuaGNwRWk2UGdmN08xenBpbDVqeXRJSWpVdi0wVkMzVDdMZWdvcERCb3FmdHN4VWZHVlE1VnFzY01idlVQNVhHR29BQkFvbkdIRHI4RGhLeUR6UkdXR3NqeUtlQQ?oc=5",
+    "published": "2026-11-22T10:08:05-05:00",
+    "also": []
+   },
+   {
+    "title": "Why Broadcom Stock Could Double by 2030",
+    "source": "The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWZjLXozRmJxWUVmX3FEbXZWTTVVaGhOMndJS1JUcmU5Y0JIenpfN044SHVGT09yMENwOF9oamlHR2d6eXVfWTZkaWI5elRoYTMxZlpoYjdWRE12MUMzTWNhdmtjUjhSdWJCYjlNeU1kdm5fUzlTa2tZVDFYcml5RE5xN3lxazhKd3c?oc=5",
+    "published": "2026-11-22T09:00:02-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 304.41,
+   "change_pct": -12.19,
+   "prev_close": 346.65,
+   "time": "2026-11-20",
+   "mktcap": "1.453T",
+   "pe": 38.86,
+   "fpe": 17.6,
+   "yr_high": 495.0,
+   "yr_low": 289.77,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 311.5,
+    "change_pct": 2.33,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "date": "2026-11-20",
+   "close": 304.41,
+   "prev_close": 346.65,
+   "change_pct": -12.19,
+   "moves_over_5pct_last_year": 20,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-04",
+    "change_pct": -12.59
+   },
+   "ytd_pct": -12.05,
+   "return_1m_pct": -5.83,
+   "return_6m_pct": -26.5,
+   "return_1y_pct": -14.11,
+   "high_52w": {
+    "close": 481.57,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 291.53,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 36.79,
+   "thousand_dollars_5y_ago_now": 5353,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 60112570,
+   "volume_vs_20d_avg": 2.13,
+   "sentences": [
+    "Broadcom's shares moved 5% or more on 20 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 June 2026, when the stock fell 12.6%.",
+    "The stock is down 12.1% this year, and at $304.41 it sits 36.8% below its 52-week closing high of $481.57 from 2 June 2026.",
+    "$1,000 invested in Broadcom five years ago would be worth $5,353 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-21/",
+   "/news/2026-11-20/wall-street-bet-amd-would-win-nvidias-china-crisis-now-it-is-pricing-china-risk-across-the-chip-chain/",
+   "/news/2026-11-20/stock-market-today-the-s-p-500-enters-a-correction-as-nvidia-sinks-14/"
+  ]
+ }
+}
