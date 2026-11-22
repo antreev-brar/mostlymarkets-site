@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-22-3",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-22T15:01:39-05:00",
+ "expires": "2026-11-22T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Fast-Grower Stocks We'd Skip and 1 We Like",
+ "instructions": "Theme: Fast-Grower, screened on revenue growth over the last 12 months. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-22T15:00:08-05:00",
+ "pack": {
+  "theme": "fast-growers",
+  "screen": "revenue growth over the last 12 months",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "metric": 272.4,
+    "price": 79.24,
+    "pe": 5.1,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 28971000000,
+     "revenue_growth_yoy_pct": 272.4,
+     "gross_margin_pct": 80.0,
+     "operating_margin_pct": 72.5,
+     "net_margin_pct": 67.0,
+     "eps_diluted": 124.47,
+     "ocf": 17546000000,
+     "fcf": 17365000000,
+     "fcf_margin_pct": 59.9
+    }
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "industry": "Communications Equipment",
+    "metric": 103.2,
+    "price": 460.54,
+    "pe": -5.91,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3742800000,
+     "revenue_growth_yoy_pct": 103.2,
+     "gross_margin_pct": 45.9,
+     "operating_margin_pct": 23.5,
+     "net_margin_pct": -175.8,
+     "eps_diluted": -77.83,
+     "ocf": 961200000,
+     "fcf": 356300000,
+     "fcf_margin_pct": 9.5
+    }
+   },
+   {
+    "ticker": "BLK",
+    "name": "BlackRock",
+    "industry": "Asset Management & Custody Banks",
+    "metric": 86.9,
+    "price": 1101.72,
+    "pe": 26.27,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 28542000000,
+     "revenue_growth_yoy_pct": 86.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 32.5,
+     "net_margin_pct": 24.2,
+     "eps_diluted": 43.98,
+     "ocf": 5230000000,
+     "fcf": 4784000000,
+     "fcf_margin_pct": 16.8
+    }
+   },
+   {
+    "ticker": "WAT",
+    "name": "Waters",
+    "industry": "Life Sciences Tools & Services",
+    "metric": 80.7,
+    "price": 440.45,
+    "pe": 189.9,
+    "ttm": {
+     "end": "2026-10-03",
+     "revenue": 5611362000,
+     "revenue_growth_yoy_pct": 80.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 4.7,
+     "net_margin_pct": 1.8,
+     "eps_diluted": 2.33,
+     "ocf": 479555000,
+     "fcf": 290810000,
+     "fcf_margin_pct": 5.2
+    }
+   },
+   {
+    "ticker": "RDDT",
+    "name": "Reddit",
+    "industry": "Interactive Media & Services",
+    "metric": 62.2,
+    "price": 85.33,
+    "pe": 17.47,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3088880000,
+     "revenue_growth_yoy_pct": 62.2,
+     "gross_margin_pct": 91.5,
+     "operating_margin_pct": 29.4,
+     "net_margin_pct": 32.1,
+     "eps_diluted": 4.89,
+     "ocf": 1204733000,
+     "fcf": 1198116000,
+     "fcf_margin_pct": 38.8
+    }
+   },
+   {
+    "ticker": "CPT",
+    "name": "Camden Property Trust",
+    "industry": "Multi-Family Residential REITs",
+    "metric": 61.9,
+    "price": 95.8,
+    "pe": 8.97,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 14933000,
+     "revenue_growth_yoy_pct": 61.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 7484.5,
+     "eps_diluted": 10.74,
+     "ocf": 712828000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "BG",
+    "name": "Bunge Global",
+    "industry": "Agricultural Products & Services",
+    "metric": 55.5,
+    "price": 90.9,
+    "pe": 17.63,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 93468000000,
+     "revenue_growth_yoy_pct": 55.5,
+     "gross_margin_pct": 5.1,
+     "operating_margin_pct": null,
+     "net_margin_pct": 1.2,
+     "eps_diluted": 5.95,
+     "ocf": -955000000,
+     "fcf": -2656000000,
+     "fcf_margin_pct": -2.8
+    }
+   },
+   {
+    "ticker": "CVNA",
+    "name": "Carvana",
+    "industry": "Automotive Retail",
+    "metric": 50.3,
+    "price": 63.85,
+    "pe": 33.4,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 27451000000,
+     "revenue_growth_yoy_pct": 50.3,
+     "gross_margin_pct": 19.0,
+     "operating_margin_pct": 8.7,
+     "net_margin_pct": 6.2,
+     "eps_diluted": null,
+     "ocf": 1330000000,
+     "fcf": 1113000000,
+     "fcf_margin_pct": 4.1
+    }
+   },
+   {
+    "ticker": "SNPS",
+    "name": "Synopsys",
+    "industry": "Application Software",
+    "metric": 46.3,
+    "price": 396.17,
+    "pe": 70.08,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 9416465000,
+     "revenue_growth_yoy_pct": 46.3,
+     "gross_margin_pct": 72.4,
+     "operating_margin_pct": 8.5,
+     "net_margin_pct": 11.4,
+     "eps_diluted": 5.65,
+     "ocf": 2938341000,
+     "fcf": 2747706000,
+     "fcf_margin_pct": 29.2
+    }
+   },
+   {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "industry": "Pharmaceuticals",
+    "metric": 45.5,
+    "price": 1347.11,
+    "pe": 43.73,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 86462000000,
+     "revenue_growth_yoy_pct": 45.5,
+     "gross_margin_pct": 83.6,
+     "operating_margin_pct": null,
+     "net_margin_pct": 31.9,
+     "eps_diluted": 30.81,
+     "ocf": 30645000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "RBRK",
+    "name": "Rubrik",
+    "industry": "Systems Software",
+    "metric": 42.4,
+    "price": 106.73,
+    "pe": -84.25,
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 1542178000,
+     "revenue_growth_yoy_pct": 42.4,
+     "gross_margin_pct": 80.2,
+     "operating_margin_pct": -18.3,
+     "net_margin_pct": -16.5,
+     "eps_diluted": -1.26,
+     "ocf": 337064000,
+     "fcf": 303905000,
+     "fcf_margin_pct": 19.7
+    }
+   },
+   {
+    "ticker": "SOFI",
+    "name": "SoFi Technologies",
+    "industry": "Consumer Finance",
+    "metric": 42.3,
+    "price": 12.48,
+    "pe": 22.95,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 4729194000,
+     "revenue_growth_yoy_pct": 42.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 15.6,
+     "eps_diluted": 0.55,
+     "ocf": -10208770000,
+     "fcf": -10540748000,
+     "fcf_margin_pct": -222.9
+    }
+   },
+   {
+    "ticker": "PHM",
+    "name": "PulteGroup",
+    "industry": "Homebuilding",
+    "metric": -9.3,
+    "price": 124.67,
+    "pe": 13.31,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 15976123000,
+     "revenue_growth_yoy_pct": -9.3,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 11.2,
+     "eps_diluted": 9.36,
+     "ocf": 1408093000,
+     "fcf": 1298557000,
+     "fcf_margin_pct": 8.1
+    }
+   },
+   {
+    "ticker": "NVR",
+    "name": "NVR",
+    "industry": "Homebuilding",
+    "metric": -10.8,
+    "price": 5468.04,
+    "pe": 15.07,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 9322457000,
+     "revenue_growth_yoy_pct": -10.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 11.2,
+     "eps_diluted": 362.77,
+     "ocf": 851824000,
+     "fcf": 818245000,
+     "fcf_margin_pct": 8.8
+    }
+   },
+   {
+    "ticker": "ECHO",
+    "name": "EchoStar",
+    "industry": "Wireless Telecommunication Services",
+    "metric": -19.8,
+    "price": 84.26,
+    "pe": 3.08,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 12167278000,
+     "revenue_growth_yoy_pct": -19.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 2.3,
+     "net_margin_pct": 81.3,
+     "eps_diluted": 27.39,
+     "ocf": -83955000,
+     "fcf": -532754000,
+     "fcf_margin_pct": -4.4
+    }
+   },
+   {
+    "ticker": "COIN",
+    "name": "Coinbase",
+    "industry": "Financial Exchanges & Data",
+    "metric": -26.6,
+    "price": 101.97,
+    "pe": -35.88,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5629761000,
+     "revenue_growth_yoy_pct": -26.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 3.6,
+     "net_margin_pct": -12.5,
+     "eps_diluted": -2.8,
+     "ocf": 1409211000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   }
+  ]
+ }
+}
