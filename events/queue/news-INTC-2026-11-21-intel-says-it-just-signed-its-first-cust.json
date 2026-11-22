@@ -1,0 +1,92 @@
+{
+ "id": "news-INTC-2026-11-21-intel-says-it-just-signed-its-first-cust",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-21T22:02:06-05:00",
+ "expires": "2026-11-22T08:02:06-05:00",
+ "tickers": [
+  "INTC"
+ ],
+ "headline_hint": "Intel: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-21T22:00:12-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Intel Says It Just Signed Its First Customer for Its Most Advanced Chipmaking Process. The Stock Is Still More Than 60% Below Its June Record.",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUdFaWdQMmxtLVJ5eHppUDR2d3JZZEVLOXNYX2kwWElXSnFQX0xqLTlrY2k0Qjc3eDAyNXJQOGUzQm1QQWNmSEstOHRQT2I2d3lLbUYxeXBEeENSenZvM1QzZi1OQzJ2VkRBbWtPVjRQTHdNeEd2d0lEOEFORkFHOU9pOWg2d1B0YkRBYnF3ZjQwNmN6azM5Ng?oc=5",
+    "published": "2026-11-21T21:07:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Intel's Turnaround Story Remains Firmly Intact, Buy The Panic",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNEZpcFVidUVqWlFzQlB2U2U2TDZWYURaNmJNOVpzLWZyX0pjYWZMblQ2NmljQ01LUVk5cWFKQkNSUTZZZFFmejdKeEJfT1JDYXdYd2dseW52S21keGVWTXBNVGNLNlBVanVLUkdsSzNjSFBxbmxXRUswYzFEU3RXOGxlak56Uy1hcW1HZTRSVnhTR0FnMklVaTR4ZXI3cGhoTFE?oc=5",
+    "published": "2026-11-21T20:45:47-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 51.28,
+   "change_pct": -7.97,
+   "prev_close": 55.72,
+   "time": "2026-11-20",
+   "mktcap": "272.553B",
+   "pe": -21.44,
+   "fpe": 40.73,
+   "yr_high": 142.35,
+   "yr_low": 32.89,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 53.03,
+    "change_pct": 3.42,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "INTC",
+   "name": "Intel",
+   "date": "2026-11-20",
+   "close": 51.28,
+   "prev_close": 55.72,
+   "change_pct": -7.97,
+   "moves_over_5pct_last_year": 72,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 29,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -10.33
+   },
+   "ytd_pct": 38.97,
+   "return_1m_pct": -40.02,
+   "return_6m_pct": -57.21,
+   "return_1y_pct": 46.06,
+   "high_52w": {
+    "close": 140.94,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 33.62,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 63.62,
+   "thousand_dollars_5y_ago_now": 1036,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 208735600,
+   "volume_vs_20d_avg": 1.42,
+   "sentences": [
+    "Intel's shares moved 5% or more on 72 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 10.3%.",
+    "The stock is up 39.0% this year, and at $51.28 it sits 63.6% below its 52-week closing high of $140.94 from 22 June 2026.",
+    "$1,000 invested in Intel five years ago would be worth $1,036 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-20/wall-street-bet-amd-would-win-nvidias-china-crisis-now-it-is-pricing-china-risk-across-the-chip-chain/",
+   "/news/2026-11-19/coherent-astera-labs-and-intel-shares-jump-what-happened/",
+   "/news/2026-11-19/amd-amd-shares-plunge-after-hunterbrook-shorts-it-over-china-links/"
+  ]
+ }
+}
