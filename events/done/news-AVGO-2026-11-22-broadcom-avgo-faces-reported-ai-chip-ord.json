@@ -88,5 +88,8 @@
    "/news/2026-11-20/wall-street-bet-amd-would-win-nvidias-china-crisis-now-it-is-pricing-china-risk-across-the-chip-chain/",
    "/news/2026-11-20/stock-market-today-the-s-p-500-enters-a-correction-as-nvidia-sinks-14/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-22T12:37:09-05:00",
+ "reason": "already covered: 2026-11-20-broadcom-avgo-shares-sink-after-a-report-that-google-cut-its-2027-tpu-orders (same reported Google TPU order cut)"
 }
