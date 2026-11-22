@@ -472,12 +472,6 @@
 "kind": "breakdown",
 "tickers": []
 },
-"daily-2026-10-31": {
-"created": "2026-10-31T15:18:41-04:00",
-"day": "2026-10-31",
-"kind": "daily",
-"outcome": "already-written"
-},
 "daily-2026-11-01": {
 "created": "2026-11-01T08:26:05-05:00",
 "day": "2026-11-01",
@@ -602,12 +596,6 @@
 "day": "2026-11-21",
 "kind": "daily",
 "tickers": []
-},
-"list-2026-10-31": {
-"created": "2026-10-31T15:18:41-04:00",
-"day": "2026-10-31",
-"kind": "list",
-"outcome": "already-written"
 },
 "list-2026-11-02": {
 "created": "2026-11-02T11:30:16-05:00",
@@ -3356,6 +3344,14 @@
 "news-INTC-2026-11-21-intel-says-it-just-signed-its-first-cust": {
 "created": "2026-11-21T22:02:06-05:00",
 "day": "2026-11-21",
+"kind": "news",
+"tickers": [
+"INTC"
+]
+},
+"news-INTC-2026-11-22-intel-says-it-just-signed-its-first-cust": {
+"created": "2026-11-22T00:01:55-05:00",
+"day": "2026-11-22",
 "kind": "news",
 "tickers": [
 "INTC"
