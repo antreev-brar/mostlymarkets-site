@@ -2595,6 +2595,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-22": {
+"created": "2026-11-22T07:01:44-05:00",
+"day": "2026-11-22",
+"kind": "narrative",
+"tickers": []
+},
 "news-AAPL-2026-11-02-apple-s-1-trillion-rally-leaves-no-room": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -2652,6 +2658,14 @@
 "news-AAPL-2026-11-17-popular-websites-subverted-in-bid-to-ste": {
 "created": "2026-11-17T01:01:58-05:00",
 "day": "2026-11-17",
+"kind": "news",
+"tickers": [
+"AAPL"
+]
+},
+"news-AAPL-2026-11-22-apple-inc-aapl-stock-price-news-quote-an": {
+"created": "2026-11-22T07:01:44-05:00",
+"day": "2026-11-22",
 "kind": "news",
 "tickers": [
 "AAPL"
@@ -3984,6 +3998,14 @@
 "news-PLTR-2026-11-03-apple-and-palantir-shares-slide-in-prema": {
 "created": "2026-11-03T05:01:42-05:00",
 "day": "2026-11-03",
+"kind": "news",
+"tickers": [
+"PLTR"
+]
+},
+"news-PLTR-2026-11-22-stanley-druckenmiller-and-16-other-big-f": {
+"created": "2026-11-22T07:01:44-05:00",
+"day": "2026-11-22",
 "kind": "news",
 "tickers": [
 "PLTR"

@@ -1,0 +1,92 @@
+{
+ "id": "news-AAPL-2026-11-22-apple-inc-aapl-stock-price-news-quote-an",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-22T07:01:44-05:00",
+ "expires": "2026-11-22T17:01:44-05:00",
+ "tickers": [
+  "AAPL"
+ ],
+ "headline_hint": "Apple: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-22T07:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Apple Weekly Recap: Palmer Luckey Criticism, Leadership Changes, Insider Selling and AI Rivalry - Apple",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbllySktUaldIZ1pxS241QkJ2V0xxS1p1ZkNqT2pFa3RRQ0lZcFR6Ym9NOEVRaVdzeGJqVFRmQnJzUVJSM05ISkhLbndBb01IS3NXR3g5eVQ0bnctOEtOa1ZiSW1XZ1oyR05sTEN4a2htUW11QnlkZk9sYXE3bFdEZmROQTZPeVdNTmZKdy1zanFYbFBHcEFmLVRKckZTazVGTlE0ZTZuOWZHTHZBSGMxdmc3S1c?oc=5",
+    "published": "2026-11-22T06:00:07-05:00",
+    "also": []
+   },
+   {
+    "title": "Apple Inc. (AAPL) stock price, news, quote and history",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RekFrNTdjZWx5T0FxTHdGWE9RWlJEakdYdWtNRkJNOGdka3FSdkdwWEgzYUgtanJUb0llSVdZdW5QTE9Mb3pPUGI0LV9jcXpvRVE?oc=5",
+    "published": "2026-11-22T03:03:15-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 342.56,
+   "change_pct": -1.9,
+   "prev_close": 349.21,
+   "time": "2026-11-20",
+   "mktcap": "4.978T",
+   "pe": 38.17,
+   "fpe": 37.6,
+   "yr_high": 360.83,
+   "yr_low": 243.42,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 344.87,
+    "change_pct": 0.67,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "date": "2026-11-20",
+   "close": 342.56,
+   "prev_close": 349.21,
+   "change_pct": -1.9,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 42,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-03",
+    "change_pct": -1.9
+   },
+   "ytd_pct": 26.01,
+   "return_1m_pct": -1.63,
+   "return_6m_pct": 10.93,
+   "return_1y_pct": 27.55,
+   "high_52w": {
+    "close": 356.27,
+    "date": "2026-11-13"
+   },
+   "low_52w": {
+    "close": 246.63,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 3.85,
+   "thousand_dollars_5y_ago_now": 2134,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 80692550,
+   "volume_vs_20d_avg": 1.69,
+   "sentences": [
+    "Apple's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 November 2026, when the stock fell 1.9%.",
+    "The stock is up 26.0% this year, and at $342.56 it sits 3.9% below its 52-week closing high of $356.27 from 13 November 2026.",
+    "$1,000 invested in Apple five years ago would be worth $2,134 today."
+   ]
+  },
+  "recent_stories": [
+   "/daily/2026-11-21/",
+   "/news/2026-11-21/bulls-vs-bears-on-the-s-p-500s-correction-is-the-bottom-close-or-still-ahead/",
+   "/news/2026-11-14/bulls-vs-bears-on-apple-aapl-is-safety-worth-40-times-earnings/"
+  ]
+ }
+}
