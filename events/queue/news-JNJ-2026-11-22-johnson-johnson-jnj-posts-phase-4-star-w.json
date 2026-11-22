@@ -1,0 +1,92 @@
+{
+ "id": "news-JNJ-2026-11-22-johnson-johnson-jnj-posts-phase-4-star-w",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-22T13:01:46-05:00",
+ "expires": "2026-11-22T23:01:46-05:00",
+ "tickers": [
+  "JNJ"
+ ],
+ "headline_hint": "Johnson & Johnson: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-22T13:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Johnson & Johnson (JNJ) Posts Phase 4 STAR Win In Psoriatic Arthritis",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbkd0WkkyOVJaR2tWdFlfZmZtVWVUUHZhemtXb3pVMUdWMVJPRkVINERtWDJSYVJTVFNHY1FKaGE5b1pLSGFGSnZWbTVHai12LVpiVVJMb0hNbDhrYk1QR2lDdTZkdDJNQnhINk50QVAwOFk0bEVrNGQ1a3RFclZacUFGdFFZMkc3RmFfc3IydXk0WVZoSGpz?oc=5",
+    "published": "2026-11-22T11:06:03-05:00",
+    "also": []
+   },
+   {
+    "title": "Notable healthcare headlines for the week: Health insurers, Pfizer, and J&J in focus",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4675353-notable-healthcare-headlines-for-the-week-health-insurers-pfizer-and-j-and-j-in-focus",
+    "published": "2026-11-22T09:05:21-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 270.47,
+   "change_pct": 1.25,
+   "prev_close": 267.14,
+   "time": "2026-11-20",
+   "mktcap": "651.105B",
+   "pe": 41.05,
+   "fpe": 24.85,
+   "yr_high": 290.25,
+   "yr_low": 199.91,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 270.52,
+    "change_pct": 0.02,
+    "time": "2026-11-20"
+   }
+  },
+  "facts": {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "date": "2026-11-20",
+   "close": 270.47,
+   "prev_close": 267.14,
+   "change_pct": 1.25,
+   "moves_over_5pct_last_year": 1,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 79,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 2.13
+   },
+   "ytd_pct": 30.69,
+   "return_1m_pct": 1.07,
+   "return_6m_pct": 15.42,
+   "return_1y_pct": 33.56,
+   "high_52w": {
+    "close": 285.75,
+    "date": "2026-11-13"
+   },
+   "low_52w": {
+    "close": 199.96,
+    "date": "2025-12-09"
+   },
+   "pct_below_52w_high": 5.35,
+   "thousand_dollars_5y_ago_now": 1660,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 11925380,
+   "volume_vs_20d_avg": 1.58,
+   "sentences": [
+    "Johnson & Johnson's shares moved 5% or more on 1 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 2.1%.",
+    "The stock is up 30.7% this year, and at $270.47 it sits 5.3% below its 52-week closing high of $285.75 from 13 November 2026.",
+    "$1,000 invested in Johnson & Johnson five years ago would be worth $1,660 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-16/johnson-johnson-jnj-agrees-to-buy-ollin-for-2-2-billion-upfront/",
+   "/news/2026-11-15/johnson-johnson-jnj-is-in-talks-to-buy-eye-drug-developer-ollin-for-up-to-3-4-billion/",
+   "/news/2026-11-07/johnson-johnson-jnj-says-its-psoriasis-pill-icotyde-also-eased-arthritis-in-a-late-stage-trial/"
+  ]
+ }
+}

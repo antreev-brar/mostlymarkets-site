@@ -3462,6 +3462,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-JNJ-2026-11-22-johnson-johnson-jnj-posts-phase-4-star-w": {
+"created": "2026-11-22T13:01:46-05:00",
+"day": "2026-11-22",
+"kind": "news",
+"tickers": [
+"JNJ"
+]
+},
 "news-JPM-2026-11-02-microsoft-nvidia-jpmorgan-among-50-us-gi": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
