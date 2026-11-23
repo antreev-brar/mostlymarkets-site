@@ -1,0 +1,159 @@
+{
+ "id": "preview-DELL-2026-11-24",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-23T17:30:16-05:00",
+ "expires": "2026-11-24T15:30:00-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "What to expect from Dell Technologies's (DELL) earnings",
+ "instructions": "Reports Tuesday after the close. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-23T17:30:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "DELL",
+   "name": "Dell Technologies Inc.",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 6.55,
+   "n_estimates": 8,
+   "eps_last_year": 2.35,
+   "last_year_date": "11/25/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 176768664000.0
+  },
+  "report_date": "2026-11-24",
+  "quote": {
+   "price": 334.91,
+   "change_pct": 20.46,
+   "prev_close": 278.02,
+   "time": "2026-11-23T16:10:00.000-0500",
+   "mktcap": "212.94B",
+   "pe": 19.43,
+   "fpe": 11.74,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 337.42,
+    "change_pct": 0.75,
+    "time": "2026-11-23T17:29:54.982-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-23",
+   "close": 334.91,
+   "prev_close": 278.02,
+   "change_pct": 20.46,
+   "moves_over_5pct_last_year": 56,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 3,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-05-29",
+    "change_pct": 32.76
+   },
+   "ytd_pct": 166.05,
+   "return_1m_pct": -26.63,
+   "return_6m_pct": 9.78,
+   "return_1y_pct": 185.27,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 43.08,
+   "thousand_dollars_5y_ago_now": 6126,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 14210425,
+   "volume_vs_20d_avg": 1.81,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 56 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 May 2026, when the stock rose 32.8%.",
+    "The stock is up 166.1% this year, and at $334.91 it sits 43.1% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $6,126 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/why-dell-technologies-dell-stock-is-soaring-today/",
+    "date": "2026-11-23",
+    "title": "Why Dell Technologies (DELL) Stock Is Soaring Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "SMCI",
+     "HPE",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-23/stock-market-today-nvidia-adds-952-billion-as-jensen-huang-returns-and-the-nasdaq-jumps-6-5/",
+    "date": "2026-11-23",
+    "title": "Stock Market Today: Nvidia Adds $952 Billion as Jensen Huang Returns and the Nasdaq Jumps 6.5%",
+    "type": "market-wrap",
+    "tickers": [
+     "NVDA",
+     "DELL",
+     "CRDO",
+     "CRWD",
+     "ORCL",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-11-23/hewlett-packard-enterprise-hpe-beats-q4-estimates-as-server-sales-nearly-double/",
+    "date": "2026-11-23",
+    "title": "Hewlett Packard Enterprise (HPE) Beats Q4 Estimates as Server Sales Nearly Double",
+    "type": "earnings-recap",
+    "tickers": [
+     "HPE",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-23/",
+    "date": "2026-11-23",
+    "title": "CrowdStrike Bet $43.9 Billion on Zscaler as Futures Bounced Back From Friday's Rout",
+    "type": "daily",
+    "tickers": [
+     "CRWD",
+     "ZS",
+     "NVDA",
+     "HPE",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-23/bulls-vs-bears-on-nvidia-nvda-after-huangs-return-is-the-crisis-over/",
+    "date": "2026-11-23",
+    "title": "Bulls vs Bears on Nvidia (NVDA) After Huang's Return: Is the Crisis Over?",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "TSM",
+     "DELL"
+    ]
+   }
+  ],
+  "last_recap": [
+   {
+    "path": "/news/2026-11-23/hewlett-packard-enterprise-hpe-beats-q4-estimates-as-server-sales-nearly-double/",
+    "date": "2026-11-23",
+    "title": "Hewlett Packard Enterprise (HPE) Beats Q4 Estimates as Server Sales Nearly Double",
+    "type": "earnings-recap",
+    "tickers": [
+     "HPE",
+     "DELL"
+    ]
+   }
+  ]
+ }
+}

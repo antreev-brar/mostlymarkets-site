@@ -1,0 +1,87 @@
+{
+ "id": "preview-MDT-2026-11-24",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-23T17:30:16-05:00",
+ "expires": "2026-11-24T09:00:00-05:00",
+ "tickers": [
+  "MDT"
+ ],
+ "headline_hint": "What to expect from Medtronic's (MDT) earnings",
+ "instructions": "Reports Tuesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-23T17:30:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "MDT",
+   "name": "Medtronic plc",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.34,
+   "n_estimates": 8,
+   "eps_last_year": 1.36,
+   "last_year_date": "11/18/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 127837045000.0
+  },
+  "report_date": "2026-11-24",
+  "quote": {
+   "price": 100.72,
+   "change_pct": 0.78,
+   "prev_close": 99.94,
+   "time": "2026-11-23T16:10:00.000-0500",
+   "mktcap": "128.838B",
+   "pe": 24.79,
+   "fpe": 16.76,
+   "yr_high": 106.33,
+   "yr_low": 73.31,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 99.5,
+    "change_pct": -1.21,
+    "time": "2026-11-23T16:46:03.789-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MDT",
+   "name": "Medtronic",
+   "date": "2026-11-23",
+   "close": 100.72,
+   "prev_close": 99.94,
+   "change_pct": 0.78,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 141,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-13",
+    "change_pct": 1.85
+   },
+   "ytd_pct": 4.85,
+   "return_1m_pct": 5.57,
+   "return_6m_pct": 29.79,
+   "return_1y_pct": 1.38,
+   "high_52w": {
+    "close": 105.35,
+    "date": "2025-11-25"
+   },
+   "low_52w": {
+    "close": 73.75,
+    "date": "2026-06-02"
+   },
+   "pct_below_52w_high": 4.39,
+   "thousand_dollars_5y_ago_now": 888,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 8879730,
+   "volume_vs_20d_avg": 1.2,
+   "sentences": [
+    "Medtronic's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 November 2026, when the stock rose 1.9%.",
+    "The stock is up 4.8% this year, and at $100.72 it sits 4.4% below its 52-week closing high of $105.35 from 25 November 2025.",
+    "$1,000 invested in Medtronic five years ago would be worth $888 today."
+   ]
+  },
+  "recent_stories": [],
+  "last_recap": []
+ }
+}

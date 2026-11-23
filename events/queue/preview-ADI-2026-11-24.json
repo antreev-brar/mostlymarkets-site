@@ -1,0 +1,130 @@
+{
+ "id": "preview-ADI-2026-11-24",
+ "kind": "earnings-preview",
+ "story_type": "earnings-preview",
+ "priority": 40,
+ "created": "2026-11-23T17:30:16-05:00",
+ "expires": "2026-11-24T09:00:00-05:00",
+ "tickers": [
+  "ADI"
+ ],
+ "headline_hint": "What to expect from Analog Devices's (ADI) earnings",
+ "instructions": "Reports Tuesday before the open. Consensus EPS is in the calendar row.",
+ "quotes_asof": "2026-11-23T17:30:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "ADI",
+   "name": "Analog Devices, Inc.",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 3.89,
+   "n_estimates": 10,
+   "eps_last_year": 2.26,
+   "last_year_date": "11/25/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 167620887000.0
+  },
+  "report_date": "2026-11-24",
+  "quote": {
+   "price": 378.75,
+   "change_pct": 9.49,
+   "prev_close": 345.92,
+   "time": "2026-11-23T16:00:00.000-0500",
+   "mktcap": "183.529B",
+   "pe": 43.38,
+   "fpe": 23.36,
+   "yr_high": 445.91,
+   "yr_low": 229.29,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 377.0,
+    "change_pct": -0.46,
+    "time": "2026-11-23T16:39:51.403-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ADI",
+   "name": "Analog Devices",
+   "date": "2026-11-23",
+   "close": 378.75,
+   "prev_close": 345.92,
+   "change_pct": 9.49,
+   "moves_over_5pct_last_year": 14,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2025-04-09",
+    "change_pct": 18.39
+   },
+   "ytd_pct": 39.66,
+   "return_1m_pct": -3.15,
+   "return_6m_pct": -9.81,
+   "return_1y_pct": 68.18,
+   "high_52w": {
+    "close": 445.48,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 232.32,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 14.98,
+   "thousand_dollars_5y_ago_now": 2076,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 7859645,
+   "volume_vs_20d_avg": 1.5,
+   "sentences": [
+    "Analog Devices's shares moved 5% or more on 14 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 April 2025, when the stock rose 18.4%.",
+    "The stock is up 39.7% this year, and at $378.75 it sits 15.0% below its 52-week closing high of $445.48 from 22 June 2026.",
+    "$1,000 invested in Analog Devices five years ago would be worth $2,076 today."
+   ]
+  },
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-22/the-week-ahead-dell-hpe-pce-inflation-and-a-thanksgiving-short-week/",
+    "date": "2026-11-22",
+    "title": "The Week Ahead: Dell, HPE, PCE Inflation and a Thanksgiving Short Week",
+    "type": "analysis",
+    "tickers": [
+     "DELL",
+     "HPE",
+     "ADI",
+     "DE",
+     "A",
+     "WDAY",
+     "ADSK",
+     "HPQ"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-22/",
+    "date": "2026-11-22",
+    "title": "Dell's AI Orders and Wednesday's Inflation Data Will Test a Market in Correction",
+    "type": "daily",
+    "tickers": [
+     "DELL",
+     "NVDA",
+     "HPE",
+     "ADI",
+     "CLX",
+     "AMZN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-micron-western-digital-analog-devices-and-amd/",
+    "date": "2026-11-16",
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip: Micron, Western Digital, Analog Devices and AMD",
+    "type": "list",
+    "tickers": [
+     "MU",
+     "WDC",
+     "ADI",
+     "AMD"
+    ]
+   }
+  ],
+  "last_recap": []
+ }
+}
