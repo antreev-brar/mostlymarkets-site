@@ -3128,6 +3128,14 @@
 "BX"
 ]
 },
+"news-BX-2026-11-23-brookfield-agrees-to-buy-pgp-glass-from": {
+"created": "2026-11-23T02:01:08-05:00",
+"day": "2026-11-23",
+"kind": "news",
+"tickers": [
+"BX"
+]
+},
 "news-BX-2026-11-23-brookfield-says-co-to-acquire-pgp-glass": {
 "created": "2026-11-23T01:01:11-05:00",
 "day": "2026-11-23",
@@ -3152,6 +3160,12 @@
 "C"
 ]
 },
+"news-C-2026-11-23-citi-s-35-billion-uk-error-could-complic": {
+"created": "2026-11-23T02:01:08-05:00",
+"day": "2026-11-23",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-CEG-2026-11-11-constellation-energy-ceg-stock-cools-aft": {
 "created": "2026-11-11T00:03:04-05:00",
 "day": "2026-11-11",
@@ -3166,6 +3180,14 @@
 "kind": "news",
 "tickers": [
 "CEG"
+]
+},
+"news-COP-2026-11-23-var-energi-to-acquire-conocophillips-nor": {
+"created": "2026-11-23T02:01:08-05:00",
+"day": "2026-11-23",
+"kind": "news",
+"tickers": [
+"COP"
 ]
 },
 "news-COST-2026-11-06-mapping-the-market-costco-has-momentum-t": {
@@ -3999,6 +4021,14 @@
 "news-NVS-2026-11-19-novartis-targets-5-annual-sales-growth-t": {
 "created": "2026-11-19T02:01:16-05:00",
 "day": "2026-11-19",
+"kind": "news",
+"tickers": [
+"NVS"
+]
+},
+"news-NVS-2026-11-23-novartis-announces-positive-phase-iii-le": {
+"created": "2026-11-23T02:01:08-05:00",
+"day": "2026-11-23",
 "kind": "news",
 "tickers": [
 "NVS"
