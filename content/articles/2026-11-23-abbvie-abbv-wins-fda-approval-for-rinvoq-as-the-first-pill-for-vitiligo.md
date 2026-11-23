@@ -2,7 +2,7 @@
 title = "AbbVie (ABBV) Wins FDA Approval for Rinvoq in Vitiligo, the First Pill for It"
 dek = "The FDA approved AbbVie's Rinvoq on Monday for nonsegmental vitiligo, the first systemic treatment for it; 25% of patients regained most facial pigment at 48 weeks, against 6% on placebo."
 type = "brief"
-published = 2026-11-23T17:36:00-05:00
+published = 2026-11-23T17:31:00-05:00
 author = "claire-okafor"
 tickers = ["ABBV"]
 moves = [
