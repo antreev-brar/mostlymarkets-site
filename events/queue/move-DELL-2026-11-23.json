@@ -1,0 +1,141 @@
+{
+ "id": "move-DELL-2026-11-23",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 95,
+ "created": "2026-11-23T10:01:26-05:00",
+ "expires": "2026-11-24T12:00:00-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "Why Dell Technologies (DELL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-23T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 329.5,
+   "change_pct": 18.52,
+   "prev_close": 278.02,
+   "time": "2026-11-23T09:53:10.597-0500",
+   "mktcap": "209.50B",
+   "pe": 19.12,
+   "fpe": 11.55,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 376.53,
+    "change_pct": 35.43,
+    "time": "2026-11-23T09:30:00.033-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-20",
+   "close": 278.02,
+   "prev_close": 312.54,
+   "change_pct": -11.04,
+   "moves_over_5pct_last_year": 55,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 10,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -14.89
+   },
+   "ytd_pct": 120.86,
+   "return_1m_pct": -38.62,
+   "return_6m_pct": -5.82,
+   "return_1y_pct": 132.89,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 52.75,
+   "thousand_dollars_5y_ago_now": 5053,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 12615860,
+   "volume_vs_20d_avg": 1.69,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 55 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 14.9%.",
+    "The stock is up 120.9% this year, and at $278.02 it sits 52.8% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $5,053 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/daily/2026-11-23/",
+    "date": "2026-11-23",
+    "title": "CrowdStrike Bet $43.9 Billion on Zscaler as Futures Bounced Back From Friday's Rout",
+    "type": "daily",
+    "tickers": [
+     "CRWD",
+     "ZS",
+     "NVDA",
+     "HPE",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/why-wall-street-thinks-the-fed-wont-rescue-this-sell-off/",
+    "date": "2026-11-22",
+    "title": "Why Wall Street Thinks the Fed Won't Rescue This Sell-Off",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "DELL",
+     "LEN",
+     "WMT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/the-week-ahead-dell-hpe-pce-inflation-and-a-thanksgiving-short-week/",
+    "date": "2026-11-22",
+    "title": "The Week Ahead: Dell, HPE, PCE Inflation and a Thanksgiving Short Week",
+    "type": "analysis",
+    "tickers": [
+     "DELL",
+     "HPE",
+     "ADI",
+     "DE",
+     "A",
+     "WDAY",
+     "ADSK",
+     "HPQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/hewlett-packard-enterprise-hpe-reports-earnings-tomorrow-what-to-watch/",
+    "date": "2026-11-22",
+    "title": "Hewlett Packard Enterprise (HPE) Reports Earnings Tomorrow: What to Watch",
+    "type": "earnings-preview",
+    "tickers": [
+     "HPE",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-22/",
+    "date": "2026-11-22",
+    "title": "Dell's AI Orders and Wednesday's Inflation Data Will Test a Market in Correction",
+    "type": "daily",
+    "tickers": [
+     "DELL",
+     "NVDA",
+     "HPE",
+     "ADI",
+     "CLX",
+     "AMZN"
+    ]
+   }
+  ]
+ }
+}

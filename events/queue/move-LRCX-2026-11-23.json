@@ -1,0 +1,144 @@
+{
+ "id": "move-LRCX-2026-11-23",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 92,
+ "created": "2026-11-23T10:01:26-05:00",
+ "expires": "2026-11-24T12:00:00-05:00",
+ "tickers": [
+  "LRCX"
+ ],
+ "headline_hint": "Why Lam Research (LRCX) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-23T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 207.43,
+   "change_pct": 13.18,
+   "prev_close": 183.27,
+   "time": "2026-11-23T09:56:59.619-0500",
+   "mktcap": "259.116B",
+   "pe": 30.86,
+   "fpe": 20.32,
+   "yr_high": 438.5,
+   "yr_low": 144.43,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 217.01,
+    "change_pct": 18.41,
+    "time": "2026-11-23T09:29:58.986-0500"
+   }
+  },
+  "facts": {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "date": "2026-11-20",
+   "close": 183.27,
+   "prev_close": 203.68,
+   "change_pct": -10.02,
+   "moves_over_5pct_last_year": 59,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 7,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -16.36
+   },
+   "ytd_pct": 7.06,
+   "return_1m_pct": -20.37,
+   "return_6m_pct": -39.98,
+   "return_1y_pct": 23.17,
+   "high_52w": {
+    "close": 433.33,
+    "date": "2026-06-30"
+   },
+   "low_52w": {
+    "close": 139.59,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 57.71,
+   "thousand_dollars_5y_ago_now": 2844,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 23875750,
+   "volume_vs_20d_avg": 1.82,
+   "sentences": [
+    "Lam Research's shares moved 5% or more on 59 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 16.4%.",
+    "The stock is up 7.1% this year, and at $183.27 it sits 57.7% below its 52-week closing high of $433.33 from 30 June 2026.",
+    "$1,000 invested in Lam Research five years ago would be worth $2,844 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Semiconductor Materials & Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-20/micron-arista-and-celestica-shares-slide-what-happened/",
+    "date": "2026-11-20",
+    "title": "Micron, Arista and Celestica Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MU",
+     "ANET",
+     "CLS",
+     "CRDO",
+     "ALAB",
+     "AMAT",
+     "LRCX",
+     "TER",
+     "AVGO",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/teradyne-lam-research-and-asml-shares-slide-what-happened/",
+    "date": "2026-11-16",
+    "title": "Teradyne, Lam Research and ASML Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "TER",
+     "LRCX",
+     "ASML",
+     "KLAC",
+     "AMAT",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/bulls-vs-bears-on-ai-spending-semianalysis-cut-28-morgan-stanley-says-the-cycle-is-intact/",
+    "date": "2026-11-16",
+    "title": "Bulls vs Bears on AI Spending: SemiAnalysis Cut 28%, Morgan Stanley Says the Cycle Is Intact",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "MU",
+     "AVGO",
+     "LRCX",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/applied-materials-amat-tops-q4-estimates-as-memory-chipmakers-spend-more/",
+    "date": "2026-11-13",
+    "title": "Applied Materials (AMAT) Tops Q4 Estimates as Memory Chipmakers Spend More",
+    "type": "earnings-recap",
+    "tickers": [
+     "AMAT",
+     "LRCX",
+     "KLAC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/3-beaten-down-quality-stocks-we-like-and-1-wed-skip-insulet-reddit-lam/",
+    "date": "2026-11-07",
+    "title": "3 Beaten-Down Quality Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "PODD",
+     "RDDT",
+     "LRCX",
+     "BSX"
+    ]
+   }
+  ]
+ }
+}

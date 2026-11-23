@@ -1,0 +1,148 @@
+{
+ "id": "basket-semiconductors-up-2026-11-23",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-23T10:01:26-05:00",
+ "expires": "2026-11-23T23:59:00-05:00",
+ "tickers": [
+  "NVDA",
+  "CRDO",
+  "ALAB",
+  "MRVL",
+  "TSM"
+ ],
+ "headline_hint": "NVDA, CRDO, ALAB shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-23T10:00:09-05:00",
+ "pack": {
+  "industry": "Semiconductors",
+  "quotes": {
+   "NVDA": {
+    "price": 163.16,
+    "change_pct": 29.98,
+    "prev_close": 125.53,
+    "time": "2026-11-23T09:51:40.480-0500",
+    "mktcap": "3.932T",
+    "pe": 17.53,
+    "fpe": 11.32,
+    "yr_high": 243.37,
+    "yr_low": 124.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 167.06,
+     "change_pct": 33.08,
+     "time": "2026-11-23T09:30:00.005-0500"
+    }
+   },
+   "CRDO": {
+    "price": 119.02,
+    "change_pct": 19.19,
+    "prev_close": 99.86,
+    "time": "2026-11-23T09:53:02.564-0500",
+    "mktcap": "22.37B",
+    "pe": 42.51,
+    "fpe": 16.28,
+    "yr_high": 308.67,
+    "yr_low": 86.49,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 126.2,
+     "change_pct": 26.38,
+     "time": "2026-11-23T09:29:59.909-0500"
+    }
+   },
+   "ALAB": {
+    "price": 211.96,
+    "change_pct": 17.53,
+    "prev_close": 180.35,
+    "time": "2026-11-23T09:59:59.597-0500",
+    "mktcap": "37.047B",
+    "pe": 84.1,
+    "fpe": 30.93,
+    "yr_high": 499.48,
+    "yr_low": 97.89,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 216.54,
+     "change_pct": 20.07,
+     "time": "2026-11-23T09:29:52.591-0500"
+    }
+   },
+   "MRVL": {
+    "price": 143.51,
+    "change_pct": 17.36,
+    "prev_close": 122.28,
+    "time": "2026-11-23T09:56:58.831-0500",
+    "mktcap": "126.00B",
+    "pe": 47.36,
+    "fpe": 25.49,
+    "yr_high": 329.88,
+    "yr_low": 70.69,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 145.91,
+     "change_pct": 19.32,
+     "time": "2026-11-23T09:29:59.910-0500"
+    }
+   },
+   "TSM": {
+    "price": 369.92,
+    "change_pct": 16.07,
+    "prev_close": 318.71,
+    "time": "2026-11-23T10:00:02.017-0500",
+    "mktcap": "1.919T",
+    "pe": 24.0,
+    "fpe": 16.56,
+    "yr_high": 487.47,
+    "yr_low": 273.08,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 386.56,
+     "change_pct": 21.29,
+     "time": "2026-11-23T09:29:58.768-0500"
+    }
+   }
+  },
+  "facts": {
+   "NVDA": {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "date": "2026-11-20",
+    "close": 125.53,
+    "prev_close": 145.98,
+    "change_pct": -14.01,
+    "moves_over_5pct_last_year": 10,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 1,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2025-01-27",
+     "change_pct": -16.97
+    },
+    "ytd_pct": -32.69,
+    "return_1m_pct": -40.85,
+    "return_6m_pct": -41.7,
+    "return_1y_pct": -32.7,
+    "high_52w": {
+     "close": 239.24,
+     "date": "2026-10-06"
+    },
+    "low_52w": {
+     "close": 125.53,
+     "date": "2026-11-20"
+    },
+    "pct_below_52w_high": 47.53,
+    "thousand_dollars_5y_ago_now": 3806,
+    "five_years_ago_date": "2021-11-19",
+    "volume": 633418400,
+    "volume_vs_20d_avg": 2.44,
+    "sentences": [
+     "Nvidia's shares moved 5% or more on 10 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 27 January 2025, when the stock fell 17.0%.",
+     "The stock is down 32.7% this year, and at $125.53 it sits 47.5% below its 52-week closing high of $239.24 from 6 October 2026.",
+     "$1,000 invested in Nvidia five years ago would be worth $3,806 today."
+    ]
+   }
+  }
+ }
+}

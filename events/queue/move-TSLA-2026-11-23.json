@@ -1,0 +1,126 @@
+{
+ "id": "move-TSLA-2026-11-23",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 90,
+ "created": "2026-11-23T10:01:26-05:00",
+ "expires": "2026-11-24T12:00:00-05:00",
+ "tickers": [
+  "TSLA"
+ ],
+ "headline_hint": "Why Tesla (TSLA) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-23T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 387.49,
+   "change_pct": 12.05,
+   "prev_close": 345.82,
+   "time": "2026-11-23T10:00:01.812-0500",
+   "mktcap": "1.532T",
+   "pe": 465.73,
+   "fpe": 196.7,
+   "yr_high": 498.83,
+   "yr_low": 297.38,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 374.74,
+    "change_pct": 8.36,
+    "time": "2026-11-23T09:29:58.190-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "date": "2026-11-20",
+   "close": 345.82,
+   "prev_close": 374.41,
+   "change_pct": -7.64,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -10.77
+   },
+   "ytd_pct": -23.1,
+   "return_1m_pct": -7.68,
+   "return_6m_pct": -18.82,
+   "return_1y_pct": -14.4,
+   "high_52w": {
+    "close": 489.88,
+    "date": "2025-12-16"
+   },
+   "low_52w": {
+    "close": 298.32,
+    "date": "2026-07-29"
+   },
+   "pct_below_52w_high": 29.41,
+   "thousand_dollars_5y_ago_now": 912,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 46244290,
+   "volume_vs_20d_avg": 1.28,
+   "sentences": [
+    "Tesla's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 10.8%.",
+    "The stock is down 23.1% this year, and at $345.82 it sits 29.4% below its 52-week closing high of $489.88 from 16 December 2025.",
+    "$1,000 invested in Tesla five years ago would be worth $912 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Automobile Manufacturers",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-20/tesla-tsla-files-for-a-3-1-billion-polysilicon-plant-in-texas/",
+    "date": "2026-11-20",
+    "title": "Tesla (TSLA) Files Plans for a $3.1 Billion Polysilicon Plant in Texas",
+    "type": "brief",
+    "tickers": [
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/italy-approves-teslas-tsla-supervised-self-driving-system-the-first-big-eu-market/",
+    "date": "2026-11-20",
+    "title": "Italy Approves Tesla's (TSLA) Supervised Self-Driving System, the First Big EU Market",
+    "type": "brief",
+    "tickers": [
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/musk-says-nvidia-nvda-will-lose-critical-deals-without-jensen-huang/",
+    "date": "2026-11-15",
+    "title": "Musk Says Nvidia (NVDA) Will Lose 'Critical' Deals Without Jensen Huang",
+    "type": "brief",
+    "tickers": [
+     "NVDA",
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-14/tesla-tsla-opens-cybercab-sales-to-select-buyers-at-29-990/",
+    "date": "2026-11-14",
+    "title": "Tesla (TSLA) Opens Cybercab Sales to Select Buyers at $29,990",
+    "type": "brief",
+    "tickers": [
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-07/tesla-tsla-trades-at-196-times-earnings-on-a-3-margin-is-the-business-worth-it/",
+    "date": "2026-11-07",
+    "title": "Tesla (TSLA) Trades at 196 Times Earnings on a 3% Margin. Is the Business Worth It?",
+    "type": "breakdown",
+    "tickers": [
+     "TSLA",
+     "GM",
+     "F",
+     "RIVN",
+     "TM"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "move-ORCL-2026-11-23",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 90,
+ "created": "2026-11-23T10:01:26-05:00",
+ "expires": "2026-11-24T12:00:00-05:00",
+ "tickers": [
+  "ORCL"
+ ],
+ "headline_hint": "Why Oracle (ORCL) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-23T10:00:09-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 113.59,
+   "change_pct": 12.25,
+   "prev_close": 101.19,
+   "time": "2026-11-23T09:51:40.458-0500",
+   "mktcap": "353.257B",
+   "pe": 17.83,
+   "fpe": 13.3,
+   "yr_high": 250.25,
+   "yr_low": 100.25,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 117.0,
+    "change_pct": 15.62,
+    "time": "2026-11-23T09:29:59.199-0500"
+   }
+  },
+  "facts": {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "date": "2026-11-20",
+   "close": 101.19,
+   "prev_close": 110.57,
+   "change_pct": -8.48,
+   "moves_over_5pct_last_year": 42,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 14,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-02",
+    "change_pct": -8.76
+   },
+   "ytd_pct": -48.08,
+   "return_1m_pct": -19.4,
+   "return_6m_pct": -47.32,
+   "return_1y_pct": -55.13,
+   "high_52w": {
+    "close": 248.15,
+    "date": "2026-06-01"
+   },
+   "low_52w": {
+    "close": 101.19,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 59.22,
+   "thousand_dollars_5y_ago_now": 1077,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 47790410,
+   "volume_vs_20d_avg": 1.17,
+   "sentences": [
+    "Oracle's shares moved 5% or more on 42 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 November 2026, when the stock fell 8.8%.",
+    "The stock is down 48.1% this year, and at $101.19 it sits 59.2% below its 52-week closing high of $248.15 from 1 June 2026.",
+    "$1,000 invested in Oracle five years ago would be worth $1,077 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-22/bulls-vs-bears-on-the-ai-sell-off-is-the-bubble-bursting-or-deflating/",
+    "date": "2026-11-22",
+    "title": "Bulls vs Bears on the AI Sell-Off: Is the Bubble Bursting or Deflating?",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-21/oracle-orcl-has-a-664-billion-backlog-and-no-free-cash-is-the-business-broken/",
+    "date": "2026-11-21",
+    "title": "Oracle (ORCL) Has a $664 Billion Backlog and No Free Cash. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "ORCL",
+     "MSFT",
+     "AMZN",
+     "GOOGL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/oracle-orcl-says-its-openai-data-center-deal-is-fully-funded-after-an-8-drop/",
+    "date": "2026-11-20",
+    "title": "Oracle (ORCL) Says Its OpenAI Data-Center Deal Is Fully Funded After an 8% Drop",
+    "type": "brief",
+    "tickers": [
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/the-average-stock-is-up-while-the-s-p-500-is-down-wall-street-is-betting-techs-lead-is-over/",
+    "date": "2026-11-19",
+    "title": "The Average Stock Is Up While the S&P 500 Is Down. Wall Street Is Betting Tech's Lead Is Over",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "LLY",
+     "COST",
+     "WMT",
+     "PG",
+     "MSFT",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/wall-street-is-betting-ais-1-trillion-money-loop-breaks-at-the-neoclouds-nvidias-report-will-test-it/",
+    "date": "2026-11-16",
+    "title": "Wall Street Is Betting AI's $1 Trillion Money Loop Breaks at the Neoclouds. Nvidia Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "META"
+    ]
+   }
+  ]
+ }
+}
