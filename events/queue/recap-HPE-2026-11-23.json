@@ -1,0 +1,154 @@
+{
+ "id": "recap-HPE-2026-11-23",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-23T16:15:16-05:00",
+ "expires": "2026-11-24T20:00:00-05:00",
+ "tickers": [
+  "HPE"
+ ],
+ "headline_hint": "Hewlett Packard Enterprise (HPE) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-23T16:15:11-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise Company",
+   "time": "amc",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.18,
+   "n_estimates": 7,
+   "eps_last_year": 0.54,
+   "last_year_date": "12/04/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 54306583000.0
+  },
+  "quote": {
+   "price": 48.02,
+   "change_pct": 17.38,
+   "prev_close": 40.91,
+   "time": "2026-11-23T16:10:00.000-0500",
+   "mktcap": "63.745B",
+   "pe": 25.02,
+   "fpe": 10.29,
+   "yr_high": 73.56,
+   "yr_low": 19.84,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 46.7,
+    "change_pct": -2.75,
+    "time": "2026-11-23T16:15:04.253-0500"
+   }
+  },
+  "facts": {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "date": "2026-11-23",
+   "close": 48.02,
+   "prev_close": 40.91,
+   "change_pct": 17.38,
+   "moves_over_5pct_last_year": 43,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 2,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-06-02",
+    "change_pct": 19.47
+   },
+   "ytd_pct": 99.92,
+   "return_1m_pct": -15.29,
+   "return_6m_pct": 26.17,
+   "return_1y_pct": 139.86,
+   "high_52w": {
+    "close": 73.46,
+    "date": "2026-10-09"
+   },
+   "low_52w": {
+    "close": 20.0,
+    "date": "2026-02-23"
+   },
+   "pct_below_52w_high": 34.63,
+   "thousand_dollars_5y_ago_now": 3242,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 36316789,
+   "volume_vs_20d_avg": 2.47,
+   "sentences": [
+    "Hewlett Packard Enterprise's shares moved 5% or more on 43 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 2 June 2026, when the stock rose 19.5%.",
+    "The stock is up 99.9% this year, and at $48.02 it sits 34.6% below its 52-week closing high of $73.46 from 9 October 2026.",
+    "$1,000 invested in Hewlett Packard Enterprise five years ago would be worth $3,242 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/why-dell-technologies-dell-stock-is-soaring-today/",
+    "date": "2026-11-23",
+    "title": "Why Dell Technologies (DELL) Stock Is Soaring Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "SMCI",
+     "HPE",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-23/",
+    "date": "2026-11-23",
+    "title": "CrowdStrike Bet $43.9 Billion on Zscaler as Futures Bounced Back From Friday's Rout",
+    "type": "daily",
+    "tickers": [
+     "CRWD",
+     "ZS",
+     "NVDA",
+     "HPE",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/the-week-ahead-dell-hpe-pce-inflation-and-a-thanksgiving-short-week/",
+    "date": "2026-11-22",
+    "title": "The Week Ahead: Dell, HPE, PCE Inflation and a Thanksgiving Short Week",
+    "type": "analysis",
+    "tickers": [
+     "DELL",
+     "HPE",
+     "ADI",
+     "DE",
+     "A",
+     "WDAY",
+     "ADSK",
+     "HPQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/hewlett-packard-enterprise-hpe-reports-earnings-tomorrow-what-to-watch/",
+    "date": "2026-11-22",
+    "title": "Hewlett Packard Enterprise (HPE) Reports Earnings Tomorrow: What to Watch",
+    "type": "earnings-preview",
+    "tickers": [
+     "HPE",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-22/",
+    "date": "2026-11-22",
+    "title": "Dell's AI Orders and Wednesday's Inflation Data Will Test a Market in Correction",
+    "type": "daily",
+    "tickers": [
+     "DELL",
+     "NVDA",
+     "HPE",
+     "ADI",
+     "CLX",
+     "AMZN"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/0001645590-26-000097-index.htm"
+ }
+}
