@@ -1,0 +1,625 @@
+{
+ "id": "daily-2026-11-23",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-23T05:02:31-05:00",
+ "expires": "2026-11-23T10:30:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the week's big test>",
+ "instructions": "The Monday edition. Weekend news that moves stocks today, then the thread: 6 to 8 takes on what this week will decide (the big reporters, the data, the Fed), each with one chart or stat block. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-23T05:00:08-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 6910.39,
+    "change": -265.44,
+    "change_pct": -3.7,
+    "prev_close": 6910.39,
+    "open": 7150.39,
+    "high": 7198.67,
+    "low": 6882.66,
+    "volume": 0,
+    "time": "2026-11-20",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 22617.733,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "prev_close": 22617.733,
+    "open": 23592.669,
+    "high": 23837.764,
+    "low": 22513.013,
+    "volume": 0,
+    "time": "2026-11-20",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 48147.33,
+    "change": -949.73,
+    "change_pct": -1.93,
+    "prev_close": 48147.33,
+    "open": 49071.82,
+    "high": 49594.9,
+    "low": 47998.86,
+    "volume": 1167163269,
+    "time": "2026-11-20",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2581.79,
+    "change": -73.316,
+    "change_pct": -2.76,
+    "prev_close": 2581.79,
+    "open": 2641.16,
+    "high": 2665.137,
+    "low": 2577.091,
+    "volume": 0,
+    "time": "2026-11-20",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2303.46,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 30.36,
+    "change": -5.53,
+    "change_pct": -15.41,
+    "prev_close": 35.89,
+    "open": 31.38,
+    "high": 31.48,
+    "low": 29.96,
+    "volume": 0,
+    "time": "2026-11-23T05:00:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.96,
+    "change": 0.048,
+    "change_pct": 0.9772,
+    "prev_close": 4.912,
+    "open": 4.944,
+    "high": 4.972,
+    "low": 4.942,
+    "volume": 0,
+    "time": "2026-11-23T05:00:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.69,
+    "change": 0.077,
+    "change_pct": -0.1406,
+    "prev_close": 4.613,
+    "open": 4.664,
+    "high": 4.696,
+    "low": 4.655,
+    "volume": 0,
+    "time": "2026-11-23T04:59:39.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 83.34,
+    "change": -0.07,
+    "change_pct": -0.08,
+    "prev_close": 83.41,
+    "open": 83.67,
+    "high": 83.95,
+    "low": 82.5,
+    "volume": 41506,
+    "time": "2026-11-23T04:50:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 92.25,
+    "change": -0.32,
+    "change_pct": -0.35,
+    "prev_close": 92.57,
+    "open": 92.2,
+    "high": 93.12,
+    "low": 91.46,
+    "volume": 57625,
+    "time": "2026-11-23T10:50:06.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3615.8,
+    "change": 100.4,
+    "change_pct": 2.86,
+    "prev_close": 3515.4,
+    "open": 3570.5,
+    "high": 3636.4,
+    "low": 3552.3,
+    "volume": 89662,
+    "time": "2026-11-23T04:50:03.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3552.3,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 61358.34,
+    "change": 709.15,
+    "change_pct": 1.17,
+    "prev_close": 60649.19,
+    "open": 60824.01,
+    "high": 61842.52,
+    "low": 60298.92,
+    "volume": 0,
+    "time": "2026-11-23T05:00:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 97915.9,
+    "yr_low": 57737.35,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 103.818,
+    "change": 0.011,
+    "change_pct": 0.01,
+    "prev_close": 103.807,
+    "open": 103.84,
+    "high": 103.853,
+    "low": 103.475,
+    "volume": 0,
+    "time": "2026-11-23T05:00:07.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 103.97,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-11-20",
+  "moves": [
+   {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "close": 81.31,
+    "change_pct": -16.11,
+    "our_stories": [
+     "/news/2026-11-22/bulls-vs-bears-on-the-ai-sell-off-is-the-bubble-bursting-or-deflating/",
+     "/news/2026-11-20/stocks-making-the-biggest-moves-yesterday-williams-sonoma-pdd-nebius-twilio-and-amd/"
+    ]
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 79.24,
+    "change_pct": -16.05,
+    "our_stories": [
+     "/news/2026-11-21/wall-street-is-betting-the-memory-boom-has-peaked-microns-17-december-report-will-test-it/"
+    ]
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "close": 201.8,
+    "change_pct": -16.0,
+    "our_stories": [
+     "/news/2026-11-20/micron-arista-and-celestica-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "close": 142.39,
+    "change_pct": -15.3,
+    "our_stories": []
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 99.86,
+    "change_pct": -15.2,
+    "our_stories": [
+     "/news/2026-11-20/micron-arista-and-celestica-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 180.35,
+    "change_pct": -14.77,
+    "our_stories": [
+     "/news/2026-11-20/micron-arista-and-celestica-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "ARM",
+    "name": "Arm Holdings",
+    "close": 152.2,
+    "change_pct": -14.09,
+    "our_stories": []
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "close": 125.53,
+    "change_pct": -14.01,
+    "our_stories": [
+     "/news/2026-11-22/why-wall-street-thinks-the-fed-wont-rescue-this-sell-off/",
+     "/news/2026-11-22/nyt-says-us-intelligence-tracked-megaspeed-executives-contacts-with-chinas-spy-agency-nvda/",
+     "/daily/2026-11-22/"
+    ]
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "close": 460.54,
+    "change_pct": -13.94,
+    "our_stories": []
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "close": 594.51,
+    "change_pct": -13.89,
+    "our_stories": [
+     "/news/2026-11-21/wall-street-is-betting-the-memory-boom-has-peaked-microns-17-december-report-will-test-it/",
+     "/daily/2026-11-21/",
+     "/news/2026-11-20/stock-market-today-the-s-p-500-enters-a-correction-as-nvidia-sinks-14/"
+    ]
+   },
+   {
+    "ticker": "AMD",
+    "name": "AMD",
+    "close": 424.39,
+    "change_pct": -13.25,
+    "our_stories": [
+     "/daily/2026-11-21/",
+     "/news/2026-11-20/wall-street-bet-amd-would-win-nvidias-china-crisis-now-it-is-pricing-china-risk-across-the-chip-chain/",
+     "/news/2026-11-20/stocks-making-the-biggest-moves-yesterday-williams-sonoma-pdd-nebius-twilio-and-amd/"
+    ]
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "close": 187.22,
+    "change_pct": -12.9,
+    "our_stories": []
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "2 Under-$50 Stocks We Like and 1 We'd Skip: EQT, UiPath and Cava",
+    "path": "/news/2026-11-22/2-under-50-stocks-we-like-and-1-wed-skip-eqt-uipath-and-cava/",
+    "type": "list",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "3 Fast-Grower Stocks We'd Skip and 1 We Like: Waters, Carvana, Rubrik and Eli Lilly",
+    "path": "/news/2026-11-22/3-fast-grower-stocks-wed-skip-and-1-we-like-waters-carvana-rubrik-and-eli-lilly/",
+    "type": "list",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "3 Momentum Stocks We Like and 1 We'd Skip: Veeva, IQVIA, Dollar Tree and Moderna",
+    "path": "/news/2026-11-22/3-momentum-stocks-we-like-and-1-wed-skip-veeva-iqvia-dollar-tree-and-moderna/",
+    "type": "list",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Bessent Says the US Still Needs Answers From Nvidia (NVDA) on Its China Chip Sales",
+    "path": "/news/2026-11-22/bessent-says-the-us-still-needs-answers-from-nvidia-nvda-on-its-china-chip-sales/",
+    "type": "brief",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "BHP Group (BHP) Plans to Double Its South Australia Copper Output by 2040",
+    "path": "/news/2026-11-22/bhp-group-bhp-plans-to-double-its-south-australia-copper-output-by-2040/",
+    "type": "brief",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Bulls vs Bears on the AI Sell-Off: Is the Bubble Bursting or Deflating?",
+    "path": "/news/2026-11-22/bulls-vs-bears-on-the-ai-sell-off-is-the-bubble-bursting-or-deflating/",
+    "type": "viewpoints",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Dell Technologies (DELL) Is 53% Below Its High Before Tuesday's Report. Is the Business Broken?",
+    "path": "/news/2026-11-22/dell-technologies-dell-is-53-below-its-high-before-tuesdays-report-is-the-business-broken/",
+    "type": "breakdown",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Dell's AI Orders and Wednesday's Inflation Data Will Test a Market in Correction",
+    "path": "/daily/2026-11-22/",
+    "type": "daily",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Hewlett Packard Enterprise (HPE) Reports Earnings Tomorrow: What to Watch",
+    "path": "/news/2026-11-22/hewlett-packard-enterprise-hpe-reports-earnings-tomorrow-what-to-watch/",
+    "type": "earnings-preview",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "NYT Says US Tracked Spy-Agency Contacts of Nvidia (NVDA) Customer's Executive",
+    "path": "/news/2026-11-22/nyt-says-us-intelligence-tracked-megaspeed-executives-contacts-with-chinas-spy-agency-nvda/",
+    "type": "brief",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Take-Two (TTWO) Just Had the Biggest Launch Ever. Is the Business Worth the Price?",
+    "path": "/news/2026-11-22/take-two-ttwo-just-had-the-biggest-launch-ever-is-the-business-worth-the-price/",
+    "type": "breakdown",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Take-Two (TTWO) Says GTA VI Took $3.79 Billion on Its First Day",
+    "path": "/news/2026-11-22/take-two-ttwo-says-gta-vi-took-3-79-billion-on-its-first-day/",
+    "type": "brief",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "The Week Ahead: Dell, HPE, PCE Inflation and a Thanksgiving Short Week",
+    "path": "/news/2026-11-22/the-week-ahead-dell-hpe-pce-inflation-and-a-thanksgiving-short-week/",
+    "type": "analysis",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "What to Expect From Agilent's (A) Q4 Earnings",
+    "path": "/news/2026-11-22/what-to-expect-from-agilents-a-q4-earnings/",
+    "type": "earnings-preview",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Why Wall Street Thinks the Fed Won't Rescue This Sell-Off",
+    "path": "/news/2026-11-22/why-wall-street-thinks-the-fed-wont-rescue-this-sell-off/",
+    "type": "narrative",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "2 Compounder Stocks We Like and 1 We'd Skip: TransDigm, Microsoft and Gartner",
+    "path": "/news/2026-11-21/2-compounder-stocks-we-like-and-1-wed-skip-transdigm-microsoft-and-gartner/",
+    "type": "list",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "3 Dividend Stocks We'd Skip and 1 We Like: General Mills, Ford, Alexandria and T. Rowe Price",
+    "path": "/news/2026-11-21/3-dividend-stocks-wed-skip-and-1-we-like-general-mills-ford-alexandria-and-t-rowe-price/",
+    "type": "list",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "3 Value Stocks We Like and 1 We'd Skip: Steel Dynamics, VICI, Marathon and FIS",
+    "path": "/news/2026-11-21/3-value-stocks-we-like-and-1-wed-skip-steel-dynamics-vici-marathon-petroleum-and-fis/",
+    "type": "list",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "Amazon (AMZN) Nears a Deal for AI Startup Decart Worth Up to $7.5 Billion",
+    "path": "/news/2026-11-21/amazon-amzn-nears-a-deal-for-ai-startup-decart-worth-up-to-7-5-billion/",
+    "type": "brief",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "Bulls vs Bears on the S&P 500's Correction: Is the Bottom Close or Still Ahead?",
+    "path": "/news/2026-11-21/bulls-vs-bears-on-the-s-p-500s-correction-is-the-bottom-close-or-still-ahead/",
+    "type": "viewpoints",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "California's Nvidia (NVDA) Probe Covers Possible Criminal Violations, Bonta Says",
+    "path": "/news/2026-11-21/californias-nvidia-nvda-probe-covers-possible-criminal-violations-bonta-says/",
+    "type": "brief",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "Nvidia Beat and Lost 23% in the S&P 500's Worst Week Since April 2025",
+    "path": "/daily/2026-11-21/",
+    "type": "daily",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "Oracle (ORCL) Has a $664 Billion Backlog and No Free Cash. Is the Business Broken?",
+    "path": "/news/2026-11-21/oracle-orcl-has-a-664-billion-backlog-and-no-free-cash-is-the-business-broken/",
+    "type": "breakdown",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "Wall Street Is Betting the Memory Boom Has Peaked. Micron's 17 December Report Will Test It",
+    "path": "/news/2026-11-21/wall-street-is-betting-the-memory-boom-has-peaked-microns-17-december-report-will-test-it/",
+    "type": "narrative",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "Zscaler (ZS) Is a Takeover Target. What Would CrowdStrike Be Buying?",
+    "path": "/news/2026-11-21/zscaler-zs-is-a-takeover-target-what-would-crowdstrike-be-buying/",
+    "type": "breakdown",
+    "date": "2026-11-21"
+   },
+   {
+    "title": "2 Stocks We Like After Their Earnings and 1 We'd Skip: Ross Stores, TJX and Target",
+    "path": "/news/2026-11-20/2-stocks-we-like-after-their-earnings-and-1-wed-skip-ross-stores-tjx-and-target/",
+    "type": "list",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip: Keysight, TI, Corning and Marvell",
+    "path": "/news/2026-11-20/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-keysight-texas-instruments-corning-and-marvell/",
+    "type": "list",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "3 Cash Machine Stocks We Like and 1 We'd Skip: Mastercard, CME, MSCI and SBA",
+    "path": "/news/2026-11-20/3-cash-machine-stocks-we-like-and-1-wed-skip-mastercard-cme-msci-and-sba/",
+    "type": "list",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "3 Under-the-Radar Stocks We'd Skip and 1 We Like: Rivian, MP, Tempus AI and Verisk",
+    "path": "/news/2026-11-20/3-under-the-radar-stocks-wed-skip-and-1-we-like-rivian-mp-materials-tempus-ai-and-verisk/",
+    "type": "list",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Alibaba (BABA) Is Sued by Shareholders Over Its Ties to Megaspeed",
+    "path": "/news/2026-11-20/alibaba-baba-is-sued-by-shareholders-over-its-ties-to-megaspeed/",
+    "type": "brief",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Anthropic's Debut Couldn't Stop a Sixth Straight Loss, and Chip Stocks Lead Futures Lower",
+    "path": "/daily/2026-11-20/",
+    "type": "daily",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Arista Networks (ANET) Is 22% Below Its High. Is the Business Broken?",
+    "path": "/news/2026-11-20/arista-networks-anet-is-22-below-its-high-is-the-business-broken/",
+    "type": "breakdown",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Broadcom (AVGO) Shares Sink After a Report That Google Cut Its 2027 TPU Orders",
+    "path": "/news/2026-11-20/broadcom-avgo-shares-sink-after-a-report-that-google-cut-its-2027-tpu-orders/",
+    "type": "why-it-moved",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Bulls vs Bears on Anthropic After Its Debut: Can Growth Justify the Price?",
+    "path": "/news/2026-11-20/bulls-vs-bears-on-anthropic-after-its-debut-can-growth-justify-the-price/",
+    "type": "viewpoints",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Citigroup (C) Underestimated Risky Assets by $35 Billion at a UK Trading Unit",
+    "path": "/news/2026-11-20/citigroup-c-underestimated-risky-assets-by-35-billion-at-a-uk-trading-unit/",
+    "type": "brief",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "FirstEnergy (FE) Raises Its Five-Year Spending Plan to $38 Billion",
+    "path": "/news/2026-11-20/firstenergy-fe-raises-its-five-year-spending-plan-to-38-billion/",
+    "type": "brief",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Global Payments (GPN) Jumps 12% as GTCR Weighs a $50 Billion Buyout",
+    "path": "/news/2026-11-20/global-payments-gpn-jumps-12-as-gtcr-weighs-a-50-billion-buyout/",
+    "type": "brief",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Italy Approves Tesla's (TSLA) Supervised Self-Driving System, the First Big EU Market",
+    "path": "/news/2026-11-20/italy-approves-teslas-tsla-supervised-self-driving-system-the-first-big-eu-market/",
+    "type": "brief",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Merck (MRK) Says Its Sac-TMT Drug Extended Survival in a Late-Stage Stomach Cancer Trial",
+    "path": "/news/2026-11-20/merck-mrk-says-its-sac-tmt-cancer-drug-extended-survival-in-a-phase-3-stomach-cancer-trial/",
+    "type": "brief",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Micron, Arista and Celestica Shares Slide: What Happened",
+    "path": "/news/2026-11-20/micron-arista-and-celestica-shares-slide-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-20"
+   }
+  ],
+  "reporting_today": [
+   {
+    "ticker": "HPE",
+    "time": "amc",
+    "eps_forecast": 1.18
+   },
+   {
+    "ticker": "A",
+    "time": "amc",
+    "eps_forecast": 1.72
+   },
+   {
+    "ticker": "J",
+    "time": "amc",
+    "eps_forecast": 2.11
+   }
+  ]
+ }
+}
