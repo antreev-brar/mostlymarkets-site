@@ -252,5 +252,8 @@
     "name": "US dollar index"
    }
   }
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-23T09:26:28-05:00",
+ "reason": "no top-tier release today"
 }
