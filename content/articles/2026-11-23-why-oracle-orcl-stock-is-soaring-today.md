@@ -2,7 +2,7 @@
 title = "Why Oracle (ORCL) Stock Is Soaring Today"
 dek = "Oracle jumped 16.7% in early trading Monday, after saying its OpenAI data centers are fully funded and as Jensen Huang's return to Nvidia lifted AI stocks."
 type = "why-it-moved"
-published = 2026-11-23T10:41:00-05:00
+published = 2026-11-23T10:30:00-05:00
 author = "dev-malhotra"
 tickers = ["ORCL", "NVDA"]
 reason = "Sector move"

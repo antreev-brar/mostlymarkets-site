@@ -2,7 +2,7 @@
 title = "Why Dell Technologies (DELL) Stock Is Soaring Today"
 dek = "Dell jumped 22.6% by 10:15 a.m. ET Monday, a day before its results, as Nvidia's reinstatement of Jensen Huang revived AI-server stocks; Super Micro rose 19.6% and HPE 15.0%."
 type = "why-it-moved"
-published = 2026-11-23T10:34:00-05:00
+published = 2026-11-23T10:29:00-05:00
 author = "marcus-lindqvist"
 tickers = ["DELL", "SMCI", "HPE", "NVDA"]
 reason = "Peer news"
