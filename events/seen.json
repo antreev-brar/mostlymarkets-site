@@ -312,16 +312,6 @@
 "DELL"
 ]
 },
-"breakdown-2026-11-01-1": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "breakdown"
-},
-"breakdown-2026-11-01-2": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "breakdown"
-},
 "breakdown-2026-11-02-1": {
 "created": "2026-11-02T11:01:09-05:00",
 "day": "2026-11-02",
@@ -483,11 +473,6 @@
 "day": "2026-11-22",
 "kind": "breakdown",
 "tickers": []
-},
-"daily-2026-11-01": {
-"created": "2026-11-01T08:26:05-05:00",
-"day": "2026-11-01",
-"kind": "daily"
 },
 "daily-2026-11-02": {
 "created": "2026-11-02T05:01:44-05:00",
@@ -2503,11 +2488,6 @@
 "kind": "movers",
 "outcome": "already-written"
 },
-"narrative-2026-11-01": {
-"created": "2026-11-01T08:26:05-05:00",
-"day": "2026-11-01",
-"kind": "narrative"
-},
 "narrative-2026-11-02": {
 "created": "2026-11-02T07:01:13-05:00",
 "day": "2026-11-02",
@@ -2823,11 +2803,6 @@
 "tickers": [
 "ARM"
 ]
-},
-"news-ASML-2026-11-01-is-asml-holding-nasdaqgs-asml-still-unde": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "news"
 },
 "news-AVGO-2026-11-12-amd-broadcom-rally-as-nvidia-faces-a-maj": {
 "created": "2026-11-12T07:01:07-05:00",
@@ -3153,11 +3128,6 @@
 "BX"
 ]
 },
-"news-C-2026-11-01-citigroup-c-adds-james-flanagan-to-its-b": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "news"
-},
 "news-C-2026-11-17-citigroup-boosting-global-corporate-bank": {
 "created": "2026-11-17T02:02:00-05:00",
 "day": "2026-11-17",
@@ -3457,11 +3427,6 @@
 "tickers": [
 "INTU"
 ]
-},
-"news-JNJ-2026-11-01-j-j-reports-positive-survival-and-outcom": {
-"created": "2026-11-01T08:26:05-05:00",
-"day": "2026-11-01",
-"kind": "news"
 },
 "news-JNJ-2026-11-06-johnson-johnson-announces-u-s-fda-approv": {
 "created": "2026-11-06T00:01:39-05:00",
@@ -3977,6 +3942,12 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-NVDA-2026-11-23-taiwan-uncertainty-could-put-u-s-tech-st": {
+"created": "2026-11-23T00:01:48-05:00",
+"day": "2026-11-23",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
 "created": "2026-11-04T05:01:57-05:00",
 "day": "2026-11-04",
@@ -4062,11 +4033,6 @@
 "tickers": [
 "PFE"
 ]
-},
-"news-PLTR-2026-11-01-jobs-midterm-elections-apple-palantir-mc": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "news"
 },
 "news-PLTR-2026-11-02-stock-market-today-dow-jones-s-p-500-fut": {
 "created": "2026-11-02T06:04:17-05:00",
@@ -4472,11 +4438,6 @@
 "A"
 ]
 },
-"preview-AAPL-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
-},
 "preview-AMAT-2026-11-12": {
 "created": "2026-11-11T17:30:15-05:00",
 "day": "2026-11-11",
@@ -4603,16 +4564,6 @@
 "ETN"
 ]
 },
-"preview-ETR-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
-},
-"preview-FANG-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
-},
 "preview-FERG-2026-11-09": {
 "created": "2026-11-08T12:01:41-05:00",
 "day": "2026-11-08",
@@ -4677,11 +4628,6 @@
 "LOW"
 ]
 },
-"preview-MAR-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
-},
 "preview-MCD-2026-11-04": {
 "created": "2026-11-03T17:30:15-05:00",
 "day": "2026-11-03",
@@ -4730,11 +4676,6 @@
 "NVDA"
 ]
 },
-"preview-O-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
-},
 "preview-OXY-2026-11-09": {
 "created": "2026-11-08T12:01:41-05:00",
 "day": "2026-11-08",
@@ -4774,11 +4715,6 @@
 "tickers": [
 "PH"
 ]
-},
-"preview-PLTR-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
 },
 "preview-QCOM-2026-11-04": {
 "created": "2026-11-03T17:30:15-05:00",
@@ -4858,11 +4794,6 @@
 "TTWO"
 ]
 },
-"preview-VRTX-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
-},
 "preview-VYLR-2026-11-11": {
 "created": "2026-11-10T17:30:16-05:00",
 "day": "2026-11-10",
@@ -4870,11 +4801,6 @@
 "tickers": [
 "VYLR"
 ]
-},
-"preview-WMB-2026-11-02": {
-"created": "2026-11-01T19:46:23-05:00",
-"day": "2026-11-01",
-"kind": "earnings-preview"
 },
 "preview-WMT-2026-11-19": {
 "created": "2026-11-18T17:30:14-05:00",
@@ -4949,11 +4875,6 @@
 "tickers": [
 "AAPL"
 ]
-},
-"recap-ABBV-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
 },
 "recap-ABNB-2026-11-05": {
 "created": "2026-11-05T16:15:13-05:00",
@@ -5075,11 +4996,6 @@
 "ARM"
 ]
 },
-"recap-AZN-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-BABA-2026-11-19": {
 "created": "2026-11-19T08:01:24-05:00",
 "day": "2026-11-19",
@@ -5120,11 +5036,6 @@
 "BKNG"
 ]
 },
-"recap-BP-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-BR-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
@@ -5149,16 +5060,6 @@
 "CAH"
 ]
 },
-"recap-CBOE-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
-"recap-CCJ-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-CDW-2026-11-04": {
 "created": "2026-11-04T09:45:31-05:00",
 "day": "2026-11-04",
@@ -5175,11 +5076,6 @@
 "CEG"
 ]
 },
-"recap-CHD-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-CI-2026-11-05": {
 "created": "2026-11-05T06:30:15-05:00",
 "day": "2026-11-05",
@@ -5187,11 +5083,6 @@
 "tickers": [
 "CI"
 ]
-},
-"recap-CL-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
 },
 "recap-CMI-2026-11-05": {
 "created": "2026-11-05T08:01:15-05:00",
@@ -5256,11 +5147,6 @@
 "tickers": [
 "CVS"
 ]
-},
-"recap-D-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
 },
 "recap-DD-2026-11-03": {
 "created": "2026-11-03T09:30:15-05:00",
@@ -5374,11 +5260,6 @@
 "EW"
 ]
 },
-"recap-EXC-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-EXPD-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
@@ -5434,11 +5315,6 @@
 "tickers": [
 "FOXA"
 ]
-},
-"recap-GD-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
 },
 "recap-GWW-2026-11-04": {
 "created": "2026-11-04T08:01:14-05:00",
@@ -5536,11 +5412,6 @@
 "KMB"
 ]
 },
-"recap-KVUE-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-L-2026-11-02": {
 "created": "2026-11-02T06:15:14-05:00",
 "day": "2026-11-02",
@@ -5564,11 +5435,6 @@
 "tickers": [
 "LOW"
 ]
-},
-"recap-LYB-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
 },
 "recap-LYV-2026-11-05": {
 "created": "2026-11-05T16:30:13-05:00",
@@ -5825,11 +5691,6 @@
 "tickers": [
 "QCOM"
 ]
-},
-"recap-REGN-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
 },
 "recap-RKLB-2026-11-09": {
 "created": "2026-11-09T16:15:16-05:00",
@@ -6111,11 +5972,6 @@
 "WSM"
 ]
 },
-"recap-XOM-2026-10-30": {
-"created": "2026-11-01T01:04:20-05:00",
-"day": "2026-11-01",
-"kind": "earnings-recap"
-},
 "recap-XYZ-2026-11-03": {
 "created": "2026-11-03T16:15:23-05:00",
 "day": "2026-11-03",
@@ -6185,11 +6041,6 @@
 "RL",
 "VTRS"
 ]
-},
-"viewpoints-2026-11-01": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "viewpoints"
 },
 "viewpoints-2026-11-02": {
 "created": "2026-11-02T10:01:14-05:00",
@@ -6280,11 +6131,6 @@
 "day": "2026-11-22",
 "kind": "viewpoints",
 "tickers": []
-},
-"weekahead-2026-11-01": {
-"created": "2026-11-01T14:41:07-05:00",
-"day": "2026-11-01",
-"kind": "week-ahead"
 },
 "weekahead-2026-11-08": {
 "created": "2026-11-08T12:01:41-05:00",
