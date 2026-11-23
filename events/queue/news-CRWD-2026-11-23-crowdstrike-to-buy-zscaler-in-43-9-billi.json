@@ -1,0 +1,143 @@
+{
+ "id": "news-CRWD-2026-11-23-crowdstrike-to-buy-zscaler-in-43-9-billi",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-23T06:04:10-05:00",
+ "expires": "2026-11-23T16:04:10-05:00",
+ "tickers": [
+  "CRWD"
+ ],
+ "headline_hint": "CrowdStrike: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-23T06:00:07-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "CrowdStrike to Buy Zscaler in $43.9 Billion Stock Swap",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc25MX1dwRE9Lc3haUV91TTdFS3ZhT2VUTXgxTHNPdWpmQXowdE1OVHJWMC16YjFFRTRldy1xWWxvRUpNT3JwenpwZTFvd3ZHSVB3SmtPQU9IT2JjSC1BSTZ6aVdCRHhWZzVHaHNiWEZsYXExR2xiZFRaX1VZMHJscktPVHpzeWZSRGJOZ1JOUXV3bV9tRDVmMUZNR2pvdw?oc=5",
+    "published": "2026-11-23T05:54:26-05:00",
+    "also": [
+     "Reuters",
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "CRWD: Record growth and cash flow accompany a proposed $43.9B Zscaler acquisition",
+    "source": "Quartr",
+    "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:4074901:0-crwd-record-growth-and-cash-flow-accompany-a-proposed-43-9b-zscaler-acquisition/",
+    "published": "2026-11-23T05:53:16-05:00",
+    "also": []
+   },
+   {
+    "title": "Crowdstrike To Acquire Zscaler, Bringing Network Security And Zero Trust To The Falcon Platform",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUABTZBJP:0-crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/",
+    "published": "2026-11-23T05:52:37-05:00",
+    "also": [
+     "Dow Jones"
+    ]
+   },
+   {
+    "title": "CrowdStrike Q3 revenue beats estimates; to acquire Zscaler",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N47409P:0-crowdstrike-q3-revenue-beats-estimates-to-acquire-zscaler/",
+    "published": "2026-11-23T05:42:10-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike bets on network security with $43.9 billion Zscaler deal",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4740H5:0-crowdstrike-bets-on-network-security-with-43-9-billion-zscaler-deal/",
+    "published": "2026-11-23T05:39:53-05:00",
+    "also": [
+     "Investing.com"
+    ]
+   },
+   {
+    "title": "CrowdStrike Reaches $44 Billion CyberSecurity Deal for Zscaler",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkFJTko4elVPRkJqM1J5WWo1LXpSVFBaVEZ4UDRvb0g5Rkl3bGZ4emltR2dwd3B1TGlSTE9pUFlfeEZ0U3pVdnRKS3ZrNXVhckJLS0VxOFRFOXJKWFBqYXZjbFVJQUJodjd2VnRiZGJGMVAtdEtMT1ZvSmRMNkVtMmo5QTdOOUZhQ01pTXhRUjFGQXc3Yzc1aU5SOE5KWmw2enJzRmo1Z3lDdDNwdS1MUVNn?oc=5",
+    "published": "2026-11-23T05:38:04-05:00",
+    "also": []
+   },
+   {
+    "title": "CrowdStrike to buy Zscaler in ~$43.9B all-stock deal",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4675424-crowdstrike-to-buy-zscaler-in-439b-all-stock-deal",
+    "published": "2026-11-23T05:35:37-05:00",
+    "also": [
+     "TradingView"
+    ]
+   },
+   {
+    "title": "CrowdStrike: Combined Company to Begin With More Than $10 Billion Annual Recurring Revenue >CRWD ZS",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261123002584_20261123002619:0-crowdstrike-combined-company-to-begin-with-more-than-10-billion-annual-recurring-revenue-crwd-zs/",
+    "published": "2026-11-23T05:33:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 229.44,
+   "change_pct": -5.76,
+   "prev_close": 229.44,
+   "time": "2026-11-20",
+   "mktcap": "234.932B",
+   "pe": 4018.21,
+   "fpe": 162.26,
+   "yr_high": 286.99,
+   "yr_low": 85.68,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 211.04,
+    "change_pct": -8.02,
+    "time": "2026-11-23T05:59:39.902-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "date": "2026-11-20",
+   "close": 229.44,
+   "prev_close": 243.46,
+   "change_pct": -5.76,
+   "moves_over_5pct_last_year": 34,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 24,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -9.88
+   },
+   "ytd_pct": 95.78,
+   "return_1m_pct": -3.57,
+   "return_6m_pct": 38.33,
+   "return_1y_pct": 76.29,
+   "high_52w": {
+    "close": 278.86,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 87.56,
+    "date": "2026-02-24"
+   },
+   "pct_below_52w_high": 17.72,
+   "thousand_dollars_5y_ago_now": 3562,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 12907430,
+   "volume_vs_20d_avg": 1.4,
+   "sentences": [
+    "CrowdStrike's shares moved 5% or more on 34 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 9.9%.",
+    "The stock is up 95.8% this year, and at $229.44 it sits 17.7% below its 52-week closing high of $278.86 from 6 October 2026.",
+    "$1,000 invested in CrowdStrike five years ago would be worth $3,562 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-21/zscaler-zs-is-a-takeover-target-what-would-crowdstrike-be-buying/",
+   "/news/2026-11-20/zscaler-zs-jumps-18-after-hours-on-report-crowdstrike-is-in-talks-to-buy-it/",
+   "/news/2026-11-19/rubrik-zscaler-and-crowdstrike-shares-jump-what-happened/"
+  ]
+ }
+}

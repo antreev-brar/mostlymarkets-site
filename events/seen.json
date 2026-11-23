@@ -3266,6 +3266,14 @@
 "CRWD"
 ]
 },
+"news-CRWD-2026-11-23-crowdstrike-to-buy-zscaler-in-43-9-billi": {
+"created": "2026-11-23T06:04:10-05:00",
+"day": "2026-11-23",
+"kind": "news",
+"tickers": [
+"CRWD"
+]
+},
 "news-CSCO-2026-11-13-us-stock-futures-edge-lower-as-nvidia-le": {
 "created": "2026-11-13T06:09:37-05:00",
 "day": "2026-11-13",
@@ -3718,6 +3726,14 @@
 "MS"
 ]
 },
+"news-MS-2026-11-23-morgan-stanley-s-wilson-says-buying-oppo": {
+"created": "2026-11-23T06:04:10-05:00",
+"day": "2026-11-23",
+"kind": "news",
+"tickers": [
+"MS"
+]
+},
 "news-MSFT-2026-11-05-microsoft-rejects-multibillion-dollar-ai": {
 "created": "2026-11-05T01:01:14-05:00",
 "day": "2026-11-05",
@@ -3983,6 +3999,12 @@
 "news-NVDA-2026-11-18-nvidia-expands-manufacturing-capacity-wi": {
 "created": "2026-11-18T00:02:08-05:00",
 "day": "2026-11-18",
+"kind": "news",
+"outcome": "already-written"
+},
+"news-NVDA-2026-11-23-nvidia-stock-bounces-as-trump-administra": {
+"created": "2026-11-23T06:04:10-05:00",
+"day": "2026-11-23",
 "kind": "news",
 "outcome": "already-written"
 },
@@ -4479,6 +4501,12 @@
 "news-V-2026-11-18-visa-says-co-expands-agentic-ready-to-he": {
 "created": "2026-11-18T00:02:08-05:00",
 "day": "2026-11-18",
+"kind": "news",
+"outcome": "already-written"
+},
+"news-ZS-2026-11-23-crowdstrike-to-buy-zscaler-in-43-9-billi": {
+"created": "2026-11-23T06:04:10-05:00",
+"day": "2026-11-23",
 "kind": "news",
 "outcome": "already-written"
 },
