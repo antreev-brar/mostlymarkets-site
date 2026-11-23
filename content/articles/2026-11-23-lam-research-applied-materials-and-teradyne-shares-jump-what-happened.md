@@ -2,7 +2,7 @@
 title = "Lam Research, Applied Materials and Teradyne Shares Jump: What Happened"
 dek = "Lam Research rose 15.2%, Applied Materials 13.8% and Teradyne 15.4% by 10:15 a.m. ET Monday, as Jensen Huang's return to Nvidia lifted the chip-equipment makers that fell hardest this autumn."
 type = "why-it-moved"
-published = 2026-11-23T10:55:00-05:00
+published = 2026-11-23T10:28:00-05:00
 author = "dev-malhotra"
 tickers = ["LRCX", "AMAT", "TER", "KLAC", "ASML", "NVDA"]
 reason = "Peer news"

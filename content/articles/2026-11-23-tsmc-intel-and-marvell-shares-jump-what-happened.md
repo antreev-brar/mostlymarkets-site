@@ -2,7 +2,7 @@
 title = "TSMC, Intel and Marvell Shares Jump: What Happened"
 dek = "TSMC rose 15.9%, Intel 14.4% and Marvell 20.5% by 10:15 a.m. ET Monday as Nvidia's reinstatement of Jensen Huang set off a rebound across AI chip stocks."
 type = "why-it-moved"
-published = 2026-11-23T10:40:00-05:00
+published = 2026-11-23T10:21:00-05:00
 author = "dev-malhotra"
 tickers = ["TSM", "INTC", "MRVL", "CRDO", "ALAB", "NVDA"]
 reason = "Peer news"
