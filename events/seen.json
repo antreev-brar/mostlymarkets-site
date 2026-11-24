@@ -4950,6 +4950,14 @@
 "ABNB"
 ]
 },
+"recap-ADI-2026-11-24": {
+"created": "2026-11-24T07:15:14-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"ADI"
+]
+},
 "recap-ADM-2026-11-03": {
 "created": "2026-11-03T08:01:15-05:00",
 "day": "2026-11-03",
@@ -5068,6 +5076,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "BABA"
+]
+},
+"recap-BBY-2026-11-24": {
+"created": "2026-11-24T07:15:14-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"BBY"
 ]
 },
 "recap-BDX-2026-11-05": {
