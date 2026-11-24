@@ -1,0 +1,132 @@
+{
+ "id": "movers-2026-11-23",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-24T09:01:20-05:00",
+ "expires": "2026-11-24T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Monday 23 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-24T09:00:11-05:00",
+ "pack": {
+  "session": "2026-11-23",
+  "moves": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "close": 165.05,
+    "change_pct": 31.48,
+    "our_stories": [
+     "/daily/2026-11-24/",
+     "/news/2026-11-23/why-tesla-tsla-stock-is-soaring-today/",
+     "/news/2026-11-23/why-oracle-orcl-stock-is-soaring-today/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 222.12,
+    "change_pct": 23.16,
+    "our_stories": [
+     "/news/2026-11-23/tsmc-intel-and-marvell-shares-jump-what-happened/"
+    ]
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 122.46,
+    "change_pct": 22.63,
+    "our_stories": [
+     "/news/2026-11-23/tsmc-intel-and-marvell-shares-jump-what-happened/",
+     "/news/2026-11-23/stock-market-today-nvidia-adds-952-billion-as-jensen-huang-returns-and-the-nasdaq-jumps-6-5/"
+    ]
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "close": 48.33,
+    "change_pct": 22.32,
+    "our_stories": [
+     "/news/2026-11-23/nvidias-crisis-has-moved-from-its-boss-to-its-books-what-the-evidence-says/"
+    ]
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "close": 334.91,
+    "change_pct": 20.46,
+    "our_stories": [
+     "/news/2026-11-24/wall-street-is-betting-on-an-ai-gadget-upgrade-the-units-say-its-mostly-price/",
+     "/daily/2026-11-24/",
+     "/news/2026-11-24/hpe-hpe-slides-11-5-before-the-open-as-it-sees-ai-server-margins-falling-to-14/"
+    ]
+   },
+   {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "close": 97.8,
+    "change_pct": 20.28,
+    "our_stories": [
+     "/news/2026-11-23/nvidias-crisis-has-moved-from-its-boss-to-its-books-what-the-evidence-says/"
+    ]
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "close": 707.7,
+    "change_pct": 19.04,
+    "our_stories": [
+     "/news/2026-11-24/wall-street-is-betting-on-an-ai-gadget-upgrade-the-units-say-its-mostly-price/",
+     "/daily/2026-11-24/",
+     "/news/2026-11-23/stock-market-today-nvidia-adds-952-billion-as-jensen-huang-returns-and-the-nasdaq-jumps-6-5/"
+    ]
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "close": 144.74,
+    "change_pct": 18.37,
+    "our_stories": [
+     "/news/2026-11-23/tsmc-intel-and-marvell-shares-jump-what-happened/"
+    ]
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "close": 544.38,
+    "change_pct": 18.2,
+    "our_stories": []
+   },
+   {
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "close": 168.15,
+    "change_pct": 18.09,
+    "our_stories": []
+   },
+   {
+    "ticker": "ZS",
+    "name": "Zscaler",
+    "close": 229.24,
+    "change_pct": 17.67,
+    "our_stories": [
+     "/news/2026-11-24/crowdstrike-crwd-beats-q3-estimates-with-record-new-business-but-zscaler-sinks-the-stock/",
+     "/news/2026-11-23/crowdstrike-crwd-bets-its-pricey-stock-on-zscaler-is-the-business-worth-it/",
+     "/news/2026-11-23/crowdstrike-crwd-agrees-to-buy-zscaler-for-43-9-billion-in-stock/"
+    ]
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "close": 48.02,
+    "change_pct": 17.38,
+    "our_stories": [
+     "/daily/2026-11-24/",
+     "/news/2026-11-24/hpe-hpe-slides-11-5-before-the-open-as-it-sees-ai-server-margins-falling-to-14/",
+     "/news/2026-11-23/why-dell-technologies-dell-stock-is-soaring-today/"
+    ]
+   }
+  ]
+ }
+}
