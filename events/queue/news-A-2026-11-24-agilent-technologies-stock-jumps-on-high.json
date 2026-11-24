@@ -1,0 +1,106 @@
+{
+ "id": "news-A-2026-11-24-agilent-technologies-stock-jumps-on-high",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T06:15:15-05:00",
+ "expires": "2026-11-24T16:15:15-05:00",
+ "tickers": [
+  "A"
+ ],
+ "headline_hint": "Agilent Technologies: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T06:15:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Agilent Technologies Stock Jumps on Higher Demand for Its Lab Devices",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3NFY2tpLUctemM5eERwT2lJZ2QwQ1V0OU9BQlJ2d3NGS2xyZXNIR3NqWFhtLVBDeFR0Y0Y3M2t4dW4tM0JZb016dGtPUUtsakx4b3FiZ1B6dlZ3QlZCTDJXSG5rNjdLRFB3eFFhNExyWmxiZnJRdXJ0WGI4NE92TmtBcXJkenVMNW1V?oc=5",
+    "published": "2026-11-24T05:56:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Why Agilent Shares Are Trading Higher By Around 7%; Here Are 20 Stocks Moving Premarket",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbXgyVlhmRlI3dVF2b2luZ3ExajNianNMNC1oWUhlUDN3U1RuaFo0N2NvM1JqX2oyN0ZQdUdkYXBhRlRFb3kySEdoOU1WUlNPWHUxU0g1dE9JbUlPU21EM3hkX3d3ZDNHNHZabFZRc3pFcHctNWlkdnA0VU1RN2Q0RGJmQzlyVUFDU2t6eEI4NUFlUFhyaldldV9JSnhFSWhuVDEyVkE0cGZQNjJXc29DeGhlMlJHRFFkTmhpcTRlc3k1bXhGaWFneHpTRHUtVkFzOTJoQ2o5YmJSWGUtMS13?oc=5",
+    "published": "2026-11-24T04:57:16-05:00",
+    "also": []
+   },
+   {
+    "title": "Agilent: 3 Growth Drivers Could Keep This Rally Going",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYzEyUHBFN283U1l2R2o5TnJrU2tRZGtPV0hHM2MtTzlRUXJrMVk5S0l5WW9vOUh2WlFld1RxUlZPeXVESHZOVHBkbkxKalFHT2tldmJ2NVI3Z3JBZWxtckl2TnlpeHBYQWNxZWVFSmxiNkx5bVEtM0dwWXcyUWZCWDRIMkJpQ3lPZGd3aDFVcHRLcXlBelZwanZfeGotdw?oc=5",
+    "published": "2026-11-24T04:45:42-05:00",
+    "also": []
+   },
+   {
+    "title": "Key facts: Agilent Q4 beat; analysts lift target to $191",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:ecf81b2d8a248:0-key-facts-agilent-q4-beat-analysts-lift-target-to-191/",
+    "published": "2026-11-24T03:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 176.04,
+   "change_pct": 3.32,
+   "prev_close": 176.04,
+   "time": "2026-11-23",
+   "mktcap": "49.631B",
+   "pe": 34.7,
+   "fpe": 26.83,
+   "yr_high": 182.99,
+   "yr_low": 108.35,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 188.0,
+    "change_pct": 6.79,
+    "time": "2026-11-24T04:12:59.823-0500"
+   }
+  },
+  "facts": {
+   "ticker": "A",
+   "name": "Agilent Technologies",
+   "date": "2026-11-23",
+   "close": 176.04,
+   "prev_close": 170.38,
+   "change_pct": 3.32,
+   "moves_over_5pct_last_year": 2,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 18,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-09-24",
+    "change_pct": 4.55
+   },
+   "ytd_pct": 29.37,
+   "return_1m_pct": 1.72,
+   "return_6m_pct": 52.97,
+   "return_1y_pct": 21.36,
+   "high_52w": {
+    "close": 181.48,
+    "date": "2026-10-28"
+   },
+   "low_52w": {
+    "close": 110.24,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 3.0,
+   "thousand_dollars_5y_ago_now": 1137,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 2692310,
+   "volume_vs_20d_avg": 1.33,
+   "sentences": [
+    "Agilent Technologies's shares moved 5% or more on 2 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 24 September 2026, when the stock rose 4.5%.",
+    "The stock is up 29.4% this year, and at $176.04 it sits 3.0% below its 52-week closing high of $181.48 from 28 October 2026.",
+    "$1,000 invested in Agilent Technologies five years ago would be worth $1,137 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-23/agilent-a-beats-q4-estimates-as-life-sciences-sales-grow-12/",
+   "/news/2026-11-22/what-to-expect-from-agilents-a-q4-earnings/",
+   "/news/2026-11-22/the-week-ahead-dell-hpe-pce-inflation-and-a-thanksgiving-short-week/"
+  ]
+ }
+}
