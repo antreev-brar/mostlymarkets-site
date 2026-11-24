@@ -2,7 +2,7 @@
 title = "Best Buy (BBY) Beats Q3 Estimates With Its Best Comparable Sales in Five Years"
 dek = "Best Buy's comparable sales rose 6.1% against the 2.3% expected, revenue of $10.24 billion beat estimates, and a raised forecast lifted the stock 4% before the open."
 type = "earnings-recap"
-published = 2026-11-24T08:24:00-05:00
+published = 2026-11-24T07:32:00-05:00
 author = "claire-okafor"
 tickers = ["BBY", "AAPL"]
 event = "recap-BBY-2026-11-24"

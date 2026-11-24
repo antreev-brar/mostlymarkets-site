@@ -2,7 +2,7 @@
 title = "Dollar Tree (DLTR) Beats Q3 Estimates as Traffic Rises and Raises Its Profit Forecast"
 dek = "Dollar Tree's adjusted EPS of $1.16 beat the $0.91 expected, comparable sales rose 4.6% on more shoppers, and a higher profit forecast sent the stock up 12.3% before the open."
 type = "earnings-recap"
-published = 2026-11-24T08:10:00-05:00
+published = 2026-11-24T07:31:00-05:00
 author = "claire-okafor"
 tickers = ["DLTR", "DG"]
 event = "recap-DLTR-2026-11-24"

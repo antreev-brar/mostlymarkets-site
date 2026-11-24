@@ -2,7 +2,7 @@
 title = "Medtronic (MDT) Q2 Revenue Misses as Heart Devices Grow 10% and It Holds Its Forecast"
 dek = "Medtronic's revenue rose 4.5% to $9.36 billion, short of the $9.48 billion expected, while adjusted EPS of $1.34 edged past estimates and the full-year outlook stayed put."
 type = "earnings-recap"
-published = 2026-11-24T07:44:00-05:00
+published = 2026-11-24T07:29:00-05:00
 author = "claire-okafor"
 tickers = ["MDT", "BSX"]
 event = "recap-MDT-2026-11-24"

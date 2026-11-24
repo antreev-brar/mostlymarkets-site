@@ -2,7 +2,7 @@
 title = "Analog Devices (ADI) Beats Q4 Estimates, but a Flat Q1 Forecast Sends Shares Down 8%"
 dek = "Analog Devices' revenue rose 42% to $4.37 billion and adjusted EPS of $4.06 beat estimates, but a forecast of $3.82 a share for next quarter cut the stock 7.7% before the open."
 type = "earnings-recap"
-published = 2026-11-24T07:58:00-05:00
+published = 2026-11-24T07:30:00-05:00
 author = "dev-malhotra"
 tickers = ["ADI", "TXN"]
 event = "recap-ADI-2026-11-24"
