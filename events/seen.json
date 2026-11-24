@@ -5104,6 +5104,14 @@
 "ADM"
 ]
 },
+"recap-ADSK-2026-11-24": {
+"created": "2026-11-24T16:15:19-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"ADSK"
+]
+},
 "recap-AFL-2026-11-04": {
 "created": "2026-11-04T16:30:13-05:00",
 "day": "2026-11-04",
@@ -5390,6 +5398,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "DDOG"
+]
+},
+"recap-DELL-2026-11-24": {
+"created": "2026-11-24T16:15:19-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"DELL"
 ]
 },
 "recap-DIS-2026-11-17": {
@@ -6096,6 +6112,14 @@
 "WAT"
 ]
 },
+"recap-WDAY-2026-11-24": {
+"created": "2026-11-24T16:15:19-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"WDAY"
+]
+},
 "recap-WMT-2026-11-19": {
 "created": "2026-11-19T07:45:15-05:00",
 "day": "2026-11-19",
@@ -6385,6 +6409,12 @@
 "wrap-2026-11-23": {
 "created": "2026-11-23T16:15:16-05:00",
 "day": "2026-11-23",
+"kind": "market-wrap",
+"tickers": []
+},
+"wrap-2026-11-24": {
+"created": "2026-11-24T16:15:19-05:00",
+"day": "2026-11-24",
 "kind": "market-wrap",
 "tickers": []
 }
