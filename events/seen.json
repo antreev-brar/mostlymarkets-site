@@ -604,6 +604,12 @@
 "kind": "daily",
 "tickers": []
 },
+"daily-2026-11-24": {
+"created": "2026-11-24T05:02:32-05:00",
+"day": "2026-11-24",
+"kind": "daily",
+"tickers": []
+},
 "list-2026-11-03-1": {
 "created": "2026-11-03T07:30:13-05:00",
 "day": "2026-11-03",
@@ -3549,6 +3555,14 @@
 "news-JPM-2026-11-23-jpmorgan-chase-jpm-ceo-warns-uk-tax-rise": {
 "created": "2026-11-23T03:01:09-05:00",
 "day": "2026-11-23",
+"kind": "news",
+"tickers": [
+"JPM"
+]
+},
+"news-JPM-2026-11-24-jpmorgan-chase-jpm-stock-still-looks-lik": {
+"created": "2026-11-24T05:02:32-05:00",
+"day": "2026-11-24",
 "kind": "news",
 "tickers": [
 "JPM"
