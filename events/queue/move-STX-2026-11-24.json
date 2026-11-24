@@ -1,0 +1,140 @@
+{
+ "id": "move-STX-2026-11-24",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 67,
+ "created": "2026-11-24T10:01:17-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [
+  "STX"
+ ],
+ "headline_hint": "Why Seagate Technology (STX) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-24T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 489.97,
+   "change_pct": -5.79,
+   "prev_close": 520.1,
+   "time": "2026-11-24T10:00:07.238-0500",
+   "mktcap": "112.477B",
+   "pe": 25.74,
+   "fpe": 10.4,
+   "yr_high": 1145.0,
+   "yr_low": 242.91,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 502.99,
+    "change_pct": -3.29,
+    "time": "2026-11-24T09:30:00.005-0500"
+   }
+  },
+  "facts": {
+   "ticker": "STX",
+   "name": "Seagate Technology",
+   "date": "2026-11-23",
+   "close": 520.1,
+   "prev_close": 457.01,
+   "change_pct": 13.8,
+   "moves_over_5pct_last_year": 74,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-01-28",
+    "change_pct": 19.14
+   },
+   "ytd_pct": 88.86,
+   "return_1m_pct": -17.51,
+   "return_6m_pct": -38.51,
+   "return_1y_pct": 116.26,
+   "high_52w": {
+    "close": 1094.04,
+    "date": "2026-06-22"
+   },
+   "low_52w": {
+    "close": 237.49,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 52.46,
+   "thousand_dollars_5y_ago_now": 5120,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 5252369,
+   "volume_vs_20d_avg": 0.87,
+   "sentences": [
+    "Seagate Technology's shares moved 5% or more on 74 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 28 January 2026, when the stock rose 19.1%.",
+    "The stock is up 88.9% this year, and at $520.10 it sits 52.5% below its 52-week closing high of $1,094.04 from 22 June 2026.",
+    "$1,000 invested in Seagate Technology five years ago would be worth $5,120 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Technology Hardware, Storage & Peripherals",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/micron-mu-jumps-19-as-citi-sizes-the-nvidia-financing-risk-at-12-of-dram-demand/",
+    "date": "2026-11-23",
+    "title": "Micron (MU) Jumps 19% as Citi Sizes the Nvidia Financing Risk at 12% of DRAM Demand",
+    "type": "brief",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC",
+     "STX",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-21/wall-street-is-betting-the-memory-boom-has-peaked-microns-17-december-report-will-test-it/",
+    "date": "2026-11-21",
+    "title": "Wall Street Is Betting the Memory Boom Has Peaked. Micron's 17 December Report Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC",
+     "STX",
+     "NVDA",
+     "AMAT"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/western-digital-seagate-and-sandisk-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Western Digital, Seagate and Sandisk Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "WDC",
+     "STX",
+     "SNDK",
+     "MU"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/sandisk-seagate-and-western-digital-shares-slide-what-happened/",
+    "date": "2026-11-16",
+    "title": "Sandisk, Seagate and Western Digital Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "SNDK",
+     "STX",
+     "WDC",
+     "MU",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-broadcom-amphenol-seagate-supermicro/",
+    "date": "2026-11-08",
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "AVGO",
+     "APH",
+     "STX",
+     "SMCI"
+    ]
+   }
+  ]
+ }
+}

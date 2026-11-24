@@ -1,0 +1,143 @@
+{
+ "id": "move-NBIS-2026-11-24",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 64,
+ "created": "2026-11-24T10:01:17-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [
+  "NBIS"
+ ],
+ "headline_hint": "Why Nebius Group (NBIS) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-24T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 90.16,
+   "change_pct": -7.81,
+   "prev_close": 97.8,
+   "time": "2026-11-24T10:00:06.284-0500",
+   "mktcap": "26.408B",
+   "pe": -1785.35,
+   "fpe": -24.68,
+   "yr_high": 299.86,
+   "yr_low": 73.52,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 95.17,
+    "change_pct": -2.69,
+    "time": "2026-11-24T09:30:01.162-0500"
+   }
+  },
+  "facts": {
+   "ticker": "NBIS",
+   "name": "Nebius Group",
+   "date": "2026-11-23",
+   "close": 97.8,
+   "prev_close": 81.31,
+   "change_pct": 20.28,
+   "moves_over_5pct_last_year": 104,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 3,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-12",
+    "change_pct": 34.14
+   },
+   "ytd_pct": 16.84,
+   "return_1m_pct": -38.39,
+   "return_6m_pct": -52.99,
+   "return_1y_pct": 15.55,
+   "high_52w": {
+    "close": 286.69,
+    "date": "2026-06-18"
+   },
+   "low_52w": {
+    "close": 73.87,
+    "date": "2026-02-05"
+   },
+   "pct_below_52w_high": 65.89,
+   "thousand_dollars_5y_ago_now": 1298,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 52119700,
+   "volume_vs_20d_avg": 1.67,
+   "sentences": [
+    "Nebius Group's shares moved 5% or more on 104 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 12 August 2026, when the stock rose 34.1%.",
+    "The stock is up 16.8% this year, and at $97.80 it sits 65.9% below its 52-week closing high of $286.69 from 18 June 2026.",
+    "$1,000 invested in Nebius Group five years ago would be worth $1,298 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/nvidias-crisis-has-moved-from-its-boss-to-its-books-what-the-evidence-says/",
+    "date": "2026-11-23",
+    "title": "Nvidia's (NVDA) Crisis Has Moved From Its Boss to Its Books: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "AMD",
+     "AVGO",
+     "ARM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/bulls-vs-bears-on-the-ai-sell-off-is-the-bubble-bursting-or-deflating/",
+    "date": "2026-11-22",
+    "title": "Bulls vs Bears on the AI Sell-Off: Is the Bubble Bursting or Deflating?",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/stocks-making-the-biggest-moves-yesterday-williams-sonoma-pdd-nebius-twilio-and-amd/",
+    "date": "2026-11-20",
+    "title": "Stocks Making the Biggest Moves Yesterday: Williams-Sonoma, PDD, Nebius, Twilio and AMD",
+    "type": "movers",
+    "tickers": [
+     "WSM",
+     "PDD",
+     "NBIS",
+     "TWLO",
+     "AMD"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-18/",
+    "date": "2026-11-18",
+    "title": "Nvidia's $130 Billion Forecast Lifts Futures After Software Led a Fourth Straight Loss",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRM",
+     "MSFT",
+     "CRWV",
+     "NBIS",
+     "LOW"
+    ]
+   },
+   {
+    "path": "/news/2026-11-16/wall-street-is-betting-ais-1-trillion-money-loop-breaks-at-the-neoclouds-nvidias-report-will-test-it/",
+    "date": "2026-11-16",
+    "title": "Wall Street Is Betting AI's $1 Trillion Money Loop Breaks at the Neoclouds. Nvidia Will Test It",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL",
+     "MSFT",
+     "META"
+    ]
+   }
+  ]
+ }
+}

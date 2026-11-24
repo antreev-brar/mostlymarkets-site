@@ -1,0 +1,74 @@
+{
+ "id": "move-SKYD-2026-11-24",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 63,
+ "created": "2026-11-24T10:01:17-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [
+  "SKYD"
+ ],
+ "headline_hint": "Why Skydance (SKYD) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-24T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 6.67,
+   "change_pct": 7.58,
+   "prev_close": 6.2,
+   "time": "2026-11-24T10:00:08.310-0500",
+   "mktcap": "33.645B",
+   "pe": -25.4,
+   "fpe": 247.04,
+   "yr_high": 13.16,
+   "yr_low": 6.17,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 6.43,
+    "change_pct": 3.71,
+    "time": "2026-11-24T09:14:31.789-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SKYD",
+   "name": "Skydance",
+   "date": "2026-11-23",
+   "close": 6.33,
+   "prev_close": 6.2,
+   "change_pct": 2.1,
+   "moves_over_5pct_last_year": 22,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 108,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-09",
+    "change_pct": 8.61
+   },
+   "ytd_pct": -42.38,
+   "return_1m_pct": -18.53,
+   "return_6m_pct": -25.55,
+   "return_1y_pct": -50.76,
+   "high_52w": {
+    "close": 13.13,
+    "date": "2025-11-28"
+   },
+   "low_52w": {
+    "close": 6.2,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 51.8,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 12579330,
+   "volume_vs_20d_avg": 0.75,
+   "sentences": [
+    "Skydance's shares moved 5% or more on 22 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 9 November 2026, when the stock rose 8.6%.",
+    "The stock is down 42.4% this year, and at $6.33 it sits 51.8% below its 52-week closing high of $13.13 from 28 November 2025."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Movies & Entertainment",
+  "recent_stories": []
+ }
+}

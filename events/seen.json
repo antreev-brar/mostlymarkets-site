@@ -93,6 +93,17 @@
 "KLAC"
 ]
 },
+"basket-semiconductor-materials-equipment-down-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "basket",
+"tickers": [
+"TER",
+"KLAC",
+"AMAT",
+"LRCX"
+]
+},
 "basket-semiconductor-materials-equipment-up-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
@@ -195,6 +206,18 @@
 "ALAB",
 "ARM",
 "AVGO"
+]
+},
+"basket-semiconductors-down-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "basket",
+"tickers": [
+"CRDO",
+"MPWR",
+"AMD",
+"ALAB",
+"MU"
 ]
 },
 "basket-semiconductors-up-2026-11-03": {
@@ -1595,6 +1618,14 @@
 "COHR"
 ]
 },
+"move-CPNG-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"tickers": [
+"CPNG"
+]
+},
 "move-CRM-2026-11-17": {
 "created": "2026-11-17T10:45:14-05:00",
 "day": "2026-11-17",
@@ -1626,6 +1657,14 @@
 "move-CRWV-2026-11-19": {
 "created": "2026-11-19T10:01:22-05:00",
 "day": "2026-11-19",
+"kind": "why-it-moved",
+"tickers": [
+"CRWV"
+]
+},
+"move-CRWV-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
 "kind": "why-it-moved",
 "tickers": [
 "CRWV"
@@ -1710,6 +1749,12 @@
 "tickers": [
 "DELL"
 ]
+},
+"move-DELL-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"outcome": "already-written"
 },
 "move-DKNG-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
@@ -1935,6 +1980,14 @@
 "MP"
 ]
 },
+"move-MRNA-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"tickers": [
+"MRNA"
+]
+},
 "move-MSFT-2026-11-04": {
 "created": "2026-11-04T10:01:17-05:00",
 "day": "2026-11-04",
@@ -2032,6 +2085,14 @@
 "day": "2026-11-16",
 "kind": "why-it-moved",
 "outcome": "already-written"
+},
+"move-NBIS-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"tickers": [
+"NBIS"
+]
 },
 "move-NEM-2026-11-18": {
 "created": "2026-11-18T10:01:06-05:00",
@@ -2141,6 +2202,14 @@
 "PANW"
 ]
 },
+"move-PINS-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"tickers": [
+"PINS"
+]
+},
 "move-PLTR-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
@@ -2200,6 +2269,14 @@
 "move-SKYD-2026-11-10": {
 "created": "2026-11-10T10:01:22-05:00",
 "day": "2026-11-10",
+"kind": "why-it-moved",
+"tickers": [
+"SKYD"
+]
+},
+"move-SKYD-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
 "kind": "why-it-moved",
 "tickers": [
 "SKYD"
@@ -2265,6 +2342,14 @@
 "SNDK"
 ]
 },
+"move-SNDK-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"tickers": [
+"SNDK"
+]
+},
 "move-STX-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
@@ -2292,6 +2377,14 @@
 "move-STX-2026-11-19": {
 "created": "2026-11-19T10:01:22-05:00",
 "day": "2026-11-19",
+"kind": "why-it-moved",
+"tickers": [
+"STX"
+]
+},
+"move-STX-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
 "kind": "why-it-moved",
 "tickers": [
 "STX"
@@ -2368,6 +2461,12 @@
 "tickers": [
 "TSM"
 ]
+},
+"move-TSM-2026-11-24": {
+"created": "2026-11-24T10:01:17-05:00",
+"day": "2026-11-24",
+"kind": "why-it-moved",
+"outcome": "already-written"
 },
 "move-TTWO-2026-11-18": {
 "created": "2026-11-18T10:01:06-05:00",

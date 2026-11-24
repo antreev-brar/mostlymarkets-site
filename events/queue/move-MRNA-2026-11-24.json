@@ -1,0 +1,127 @@
+{
+ "id": "move-MRNA-2026-11-24",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 69,
+ "created": "2026-11-24T10:01:17-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [
+  "MRNA"
+ ],
+ "headline_hint": "Why Moderna (MRNA) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-24T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 226.36,
+   "change_pct": 6.73,
+   "prev_close": 212.08,
+   "time": "2026-11-24T10:00:05.707-0500",
+   "mktcap": "91.59B",
+   "pe": -31.9,
+   "fpe": -36.32,
+   "yr_high": 280.8,
+   "yr_low": 23.55,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 213.5,
+    "change_pct": 0.67,
+    "time": "2026-11-24T09:30:01.149-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MRNA",
+   "name": "Moderna",
+   "date": "2026-11-23",
+   "close": 212.08,
+   "prev_close": 195.0,
+   "change_pct": 8.76,
+   "moves_over_5pct_last_year": 68,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 21,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 13.11
+   },
+   "ytd_pct": 619.16,
+   "return_1m_pct": 5.99,
+   "return_6m_pct": 350.95,
+   "return_1y_pct": 848.48,
+   "high_52w": {
+    "close": 269.0,
+    "date": "2026-11-09"
+   },
+   "low_52w": {
+    "close": 23.72,
+    "date": "2025-11-21"
+   },
+   "pct_below_52w_high": 21.16,
+   "thousand_dollars_5y_ago_now": 767,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 8207966,
+   "volume_vs_20d_avg": 0.77,
+   "sentences": [
+    "Moderna's shares moved 5% or more on 68 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 13.1%.",
+    "The stock is up 619.2% this year, and at $212.08 it sits 21.2% below its 52-week closing high of $269.00 from 9 November 2026.",
+    "$1,000 invested in Moderna five years ago would be worth $767 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Biotechnology",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-22/3-momentum-stocks-we-like-and-1-wed-skip-veeva-iqvia-dollar-tree-and-moderna/",
+    "date": "2026-11-22",
+    "title": "3 Momentum Stocks We Like and 1 We'd Skip: Veeva, IQVIA, Dollar Tree and Moderna",
+    "type": "list",
+    "tickers": [
+     "VEEV",
+     "IQV",
+     "DLTR",
+     "MRNA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/moderna-mrna-sinks-7-as-it-plans-4-billion-a-year-of-cash-costs-for-a-cancer-push/",
+    "date": "2026-11-13",
+    "title": "Moderna (MRNA) Sinks 7% as It Plans $4 Billion a Year of Cash Costs for a Cancer Push",
+    "type": "brief",
+    "tickers": [
+     "MRNA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/moderna-mrna-swings-to-a-q3-profit-and-raises-its-sales-outlook/",
+    "date": "2026-11-06",
+    "title": "Moderna (MRNA) Swings to a Q3 Profit and Raises Its Sales Outlook",
+    "type": "earnings-recap",
+    "tickers": [
+     "MRNA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/moderna-mrna-and-gsk-settle-their-vaccine-patent-fight-with-no-payments/",
+    "date": "2026-11-06",
+    "title": "Moderna (MRNA) and GSK Settle Their Vaccine Patent Fight With No Payments",
+    "type": "brief",
+    "tickers": [
+     "MRNA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/3-momentum-stocks-we-like-and-1-wed-skip/",
+    "date": "2026-11-06",
+    "title": "3 Momentum Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "VEEV",
+     "MPC",
+     "WDAY",
+     "MRNA"
+    ]
+   }
+  ]
+ }
+}

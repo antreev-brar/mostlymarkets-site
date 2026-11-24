@@ -1,0 +1,141 @@
+{
+ "id": "move-CRWV-2026-11-24",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 64,
+ "created": "2026-11-24T10:01:17-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [
+  "CRWV"
+ ],
+ "headline_hint": "Why CoreWeave (CRWV) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-24T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 44.49,
+   "change_pct": -7.95,
+   "prev_close": 48.33,
+   "time": "2026-11-24T10:00:02.263-0500",
+   "mktcap": "24.742B",
+   "pe": -9.18,
+   "fpe": -19.72,
+   "yr_high": 138.25,
+   "yr_low": 39.28,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 46.51,
+    "change_pct": -3.77,
+    "time": "2026-11-24T09:30:01.039-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CRWV",
+   "name": "CoreWeave",
+   "date": "2026-11-23",
+   "close": 48.33,
+   "prev_close": 39.51,
+   "change_pct": 22.32,
+   "moves_over_5pct_last_year": 100,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 3,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-11",
+    "change_pct": 24.71
+   },
+   "ytd_pct": -32.51,
+   "return_1m_pct": -10.89,
+   "return_6m_pct": -54.36,
+   "return_1y_pct": -30.17,
+   "high_52w": {
+    "close": 137.98,
+    "date": "2026-05-06"
+   },
+   "low_52w": {
+    "close": 39.51,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 64.97,
+   "thousand_dollars_5y_ago_now": null,
+   "five_years_ago_date": null,
+   "volume": 95210030,
+   "volume_vs_20d_avg": 1.36,
+   "sentences": [
+    "CoreWeave's shares moved 5% or more on 100 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 11 November 2026, when the stock rose 24.7%.",
+    "The stock is down 32.5% this year, and at $48.33 it sits 65.0% below its 52-week closing high of $137.98 from 6 May 2026."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-24/stocks-making-the-biggest-moves-yesterday-nvidia-astera-labs-credo-coreweave-and-dell/",
+    "date": "2026-11-24",
+    "title": "Stocks Making the Biggest Moves Yesterday: Nvidia, Astera Labs, Credo, CoreWeave and Dell",
+    "type": "movers",
+    "tickers": [
+     "NVDA",
+     "ALAB",
+     "CRDO",
+     "CRWV",
+     "DELL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-23/nvidias-crisis-has-moved-from-its-boss-to-its-books-what-the-evidence-says/",
+    "date": "2026-11-23",
+    "title": "Nvidia's (NVDA) Crisis Has Moved From Its Boss to Its Books: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "AMD",
+     "AVGO",
+     "ARM"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/bulls-vs-bears-on-the-ai-sell-off-is-the-bubble-bursting-or-deflating/",
+    "date": "2026-11-22",
+    "title": "Bulls vs Bears on the AI Sell-Off: Is the Bubble Bursting or Deflating?",
+    "type": "viewpoints",
+    "tickers": [
+     "NVDA",
+     "CRWV",
+     "NBIS",
+     "ORCL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/dell-coreweave-and-bloom-energy-shares-jump-what-happened/",
+    "date": "2026-11-19",
+    "title": "Dell, CoreWeave and Bloom Energy Shares Jump: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "DELL",
+     "CRWV",
+     "BE",
+     "HPE",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-18/",
+    "date": "2026-11-18",
+    "title": "Nvidia's $130 Billion Forecast Lifts Futures After Software Led a Fourth Straight Loss",
+    "type": "daily",
+    "tickers": [
+     "NVDA",
+     "CRM",
+     "MSFT",
+     "CRWV",
+     "NBIS",
+     "LOW"
+    ]
+   }
+  ]
+ }
+}

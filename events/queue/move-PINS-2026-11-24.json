@@ -1,0 +1,114 @@
+{
+ "id": "move-PINS-2026-11-24",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 83,
+ "created": "2026-11-24T10:01:17-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [
+  "PINS"
+ ],
+ "headline_hint": "Why Pinterest (PINS) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-24T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 19.47,
+   "change_pct": 15.21,
+   "prev_close": 16.9,
+   "time": "2026-11-24T10:00:06.575-0500",
+   "mktcap": "11.166B",
+   "pe": 78.16,
+   "fpe": 9.15,
+   "yr_high": 27.96,
+   "yr_low": 13.84,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 16.85,
+    "change_pct": -0.3,
+    "time": "2026-11-24T09:23:36.321-0500"
+   }
+  },
+  "facts": {
+   "ticker": "PINS",
+   "name": "Pinterest",
+   "date": "2026-11-23",
+   "close": 16.9,
+   "prev_close": 16.33,
+   "change_pct": 3.49,
+   "moves_over_5pct_last_year": 26,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 58,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 4.22
+   },
+   "ytd_pct": -34.72,
+   "return_1m_pct": -24.28,
+   "return_6m_pct": -12.57,
+   "return_1y_pct": -31.88,
+   "high_52w": {
+    "close": 27.79,
+    "date": "2025-12-10"
+   },
+   "low_52w": {
+    "close": 15.42,
+    "date": "2026-02-13"
+   },
+   "pct_below_52w_high": 39.19,
+   "thousand_dollars_5y_ago_now": 405,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 9367237,
+   "volume_vs_20d_avg": 0.67,
+   "sentences": [
+    "Pinterest's shares moved 5% or more on 26 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 4.2%.",
+    "The stock is down 34.7% this year, and at $16.90 it sits 39.2% below its 52-week closing high of $27.79 from 10 December 2025.",
+    "$1,000 invested in Pinterest five years ago would be worth $405 today."
+   ]
+  },
+  "sector": "Communication Services",
+  "industry": "Interactive Media & Services",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/3-value-stocks-wed-skip-and-1-we-like-valero-devon-pinterest-and-omnicom/",
+    "date": "2026-11-17",
+    "title": "3 Value Stocks We'd Skip and 1 We Like: Valero, Devon, Pinterest and Omnicom",
+    "type": "list",
+    "tickers": [
+     "OMC",
+     "VLO",
+     "DVN",
+     "PINS"
+    ]
+   },
+   {
+    "path": "/news/2026-11-01/ai-is-moving-ad-money-away-from-google-search-what-the-evidence-says/",
+    "date": "2026-11-01",
+    "title": "AI Is Moving Ad Money Away From Google Search: What the Evidence Says",
+    "type": "narrative",
+    "tickers": [
+     "GOOGL",
+     "META",
+     "RDDT",
+     "PINS"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/stocks-making-the-biggest-moves-after-hours-intel-reddit-stryker-pinterest-and-amazon/",
+    "date": "2026-10-29",
+    "title": "Stocks Making the Biggest Moves After Hours: Intel, Reddit, Stryker, Pinterest and Amazon",
+    "type": "movers",
+    "tickers": [
+     "INTC",
+     "RDDT",
+     "SYK",
+     "PINS",
+     "AMZN",
+     "TWLO"
+    ]
+   }
+  ]
+ }
+}
