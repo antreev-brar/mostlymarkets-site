@@ -4314,6 +4314,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-TSLA-2026-11-24-spacex-and-tesla-entrusts-five-directors": {
+"created": "2026-11-24T01:01:05-05:00",
+"day": "2026-11-24",
+"kind": "news",
+"tickers": [
+"TSLA"
+]
+},
 "news-TSM-2026-11-10-tsmc-s-october-sales-jump-as-global-chip": {
 "created": "2026-11-10T02:01:04-05:00",
 "day": "2026-11-10",

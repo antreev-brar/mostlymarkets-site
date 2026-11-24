@@ -1,0 +1,92 @@
+{
+ "id": "news-TSLA-2026-11-24-spacex-and-tesla-entrusts-five-directors",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T01:01:05-05:00",
+ "expires": "2026-11-24T11:01:05-05:00",
+ "tickers": [
+  "TSLA"
+ ],
+ "headline_hint": "Tesla: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T01:00:07-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "SpaceX and Tesla entrusts five directors for merger talks, FT reports",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N475095:0-spacex-and-tesla-entrusts-five-directors-for-merger-talks-ft-reports/",
+    "published": "2026-11-24T00:17:49-05:00",
+    "also": []
+   },
+   {
+    "title": "SpaceX-Tesla: the directors negotiating the biggest merger ever",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeEdHa3JaV1FnaExBWDEtY1FaT0hubE5OcXZHSDNFNlRWYkw4Nk5YbWtmRkxIaTVUMHRLZ042V1llZlV2VWRaZ2pieEpKbXFpNlZtNHNWY0tWWDI2YWNrMjFPd1EySzVXWnh2ZGJqRzNIbDZXUUE1Wnc3ZFI0dFlhWHR4N3k?oc=5",
+    "published": "2026-11-24T00:01:20-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 385.46,
+   "change_pct": 11.46,
+   "prev_close": 385.46,
+   "time": "2026-11-23",
+   "mktcap": "1.524T",
+   "pe": 463.29,
+   "fpe": 195.67,
+   "yr_high": 498.83,
+   "yr_low": 297.38,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 388.15,
+    "change_pct": 0.7,
+    "time": "2026-11-23"
+   }
+  },
+  "facts": {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "date": "2026-11-20",
+   "close": 345.82,
+   "prev_close": 374.41,
+   "change_pct": -7.64,
+   "moves_over_5pct_last_year": 17,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 4,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -10.77
+   },
+   "ytd_pct": -23.1,
+   "return_1m_pct": -7.68,
+   "return_6m_pct": -18.82,
+   "return_1y_pct": -14.4,
+   "high_52w": {
+    "close": 489.88,
+    "date": "2025-12-16"
+   },
+   "low_52w": {
+    "close": 298.32,
+    "date": "2026-07-29"
+   },
+   "pct_below_52w_high": 29.41,
+   "thousand_dollars_5y_ago_now": 912,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 46244290,
+   "volume_vs_20d_avg": 1.28,
+   "sentences": [
+    "Tesla's shares moved 5% or more on 17 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 10.8%.",
+    "The stock is down 23.1% this year, and at $345.82 it sits 29.4% below its 52-week closing high of $489.88 from 16 December 2025.",
+    "$1,000 invested in Tesla five years ago would be worth $912 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-23/why-tesla-tsla-stock-is-soaring-today/",
+   "/news/2026-11-20/tesla-tsla-files-for-a-3-1-billion-polysilicon-plant-in-texas/",
+   "/news/2026-11-20/italy-approves-teslas-tsla-supervised-self-driving-system-the-first-big-eu-market/"
+  ]
+ }
+}
