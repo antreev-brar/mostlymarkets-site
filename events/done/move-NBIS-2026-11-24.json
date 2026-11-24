@@ -139,5 +139,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-24T10:30:45-05:00",
+ "reason": "covered in the CoreWeave and Nebius basket story: 2026-11-24-coreweave-and-nebius-shares-slide-what-happened"
 }
