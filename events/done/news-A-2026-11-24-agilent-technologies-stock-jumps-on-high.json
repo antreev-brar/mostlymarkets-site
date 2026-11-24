@@ -102,5 +102,8 @@
    "/news/2026-11-22/what-to-expect-from-agilents-a-q4-earnings/",
    "/news/2026-11-22/the-week-ahead-dell-hpe-pce-inflation-and-a-thanksgiving-short-week/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-24T06:31:52-05:00",
+ "reason": "covered by our Agilent Q4 recap"
 }
