@@ -2888,6 +2888,14 @@
 "BA"
 ]
 },
+"news-BA-2026-11-24-china-southern-airlines-unit-to-buy-50-b": {
+"created": "2026-11-24T06:09:32-05:00",
+"day": "2026-11-24",
+"kind": "news",
+"tickers": [
+"BA"
+]
+},
 "news-BABA-2026-11-07-alibaba-just-gained-12-in-a-week-as-the": {
 "created": "2026-11-07T10:01:34-05:00",
 "day": "2026-11-07",
@@ -3669,6 +3677,14 @@
 "news-META-2026-11-20-apple-seems-to-be-building-its-own-ai-ag": {
 "created": "2026-11-20T06:09:45-05:00",
 "day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"META"
+]
+},
+"news-META-2026-11-24-ai-agents-could-trigger-financial-regula": {
+"created": "2026-11-24T06:09:32-05:00",
+"day": "2026-11-24",
 "kind": "news",
 "tickers": [
 "META"
@@ -5150,6 +5166,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "CPNG"
+]
+},
+"recap-CRWD-2026-11-23": {
+"created": "2026-11-24T06:09:32-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"CRWD"
 ]
 },
 "recap-CRWV-2026-11-10": {

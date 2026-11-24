@@ -1,0 +1,106 @@
+{
+ "id": "news-BA-2026-11-24-china-southern-airlines-unit-to-buy-50-b",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T06:09:32-05:00",
+ "expires": "2026-11-24T16:09:32-05:00",
+ "tickers": [
+  "BA"
+ ],
+ "headline_hint": "Boeing: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T06:00:10-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Trump Teases Massive Boeing-China Deal",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYnMtY2tVd1BmRjljaTRKWk5uaGp2cDZCZkwzd3lxdjBVcGJWTEJDTENoZU1HdjNXdDlBLXphRDZWOWV4U25GWFV6cHhSMS1xQ1U0MncxOUZTc3dXMDRzc1d3Q003ZUwtRXlINzlSRzRxUV9ORGhCVEs0ZnFQdG5NV04wb3RJbk5ueUotbVRPNnZwOVJOMThqZnRfWlZndUJ1MjNvcFY3QnU4NGVacjlrSUtQTTNYOVE?oc=5",
+    "published": "2026-11-24T05:31:55-05:00",
+    "also": []
+   },
+   {
+    "title": "China Southern Airlines unit to buy 50 Boeing 737-8 aircraft",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4750SW:0-china-southern-airlines-unit-to-buy-50-boeing-737-8-aircraft/",
+    "published": "2026-11-24T05:00:07-05:00",
+    "also": []
+   },
+   {
+    "title": "Key facts: Boeing Wins F/A-XX, PAC-3 Contracts; China May Buy 250 Jets",
+    "source": "TradingView",
+    "url": "https://www.tradingview.com/news/tradingview:7fcc785a7c61b:0-key-facts-boeing-wins-f-a-xx-pac-3-contracts-china-may-buy-250-jets/",
+    "published": "2026-11-24T03:00:00-05:00",
+    "also": []
+   },
+   {
+    "title": "BA, NOC, LMT, KTOS Stocks Draw Bullish Call From Mizuho: Analyst Calls The Group \u2018Underappreciated\u2019 Defense Plays",
+    "source": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/ba-noc-lmt-ktos-stocks-bullish-call-mizuho-group-underappreciated-defense-plays/cNbr6tER9k4",
+    "published": "2026-11-24T02:24:04-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 160.73,
+   "change_pct": 0.14,
+   "prev_close": 155.89,
+   "time": "2026-11-23",
+   "mktcap": "127.37B",
+   "pe": 17.1,
+   "fpe": -472.73,
+   "yr_high": 254.35,
+   "yr_low": 155.56,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 160.01,
+    "change_pct": 2.64,
+    "time": "2026-11-23"
+   }
+  },
+  "facts": {
+   "ticker": "BA",
+   "name": "Boeing",
+   "date": "2026-11-23",
+   "close": 162.39,
+   "prev_close": 155.89,
+   "change_pct": 4.17,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 13,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-08-03",
+    "change_pct": 8.03
+   },
+   "ytd_pct": -25.21,
+   "return_1m_pct": -13.78,
+   "return_6m_pct": -25.82,
+   "return_1y_pct": -9.47,
+   "high_52w": {
+    "close": 252.15,
+    "date": "2026-01-23"
+   },
+   "low_52w": {
+    "close": 155.89,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 35.6,
+   "thousand_dollars_5y_ago_now": 777,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 7642227,
+   "volume_vs_20d_avg": 0.71,
+   "sentences": [
+    "Boeing's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 3 August 2026, when the stock rose 8.0%.",
+    "The stock is down 25.2% this year, and at $162.39 it sits 35.6% below its 52-week closing high of $252.15 from 23 January 2026.",
+    "$1,000 invested in Boeing five years ago would be worth $777 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-15/ula-rocket-fails-and-destroys-40-amazon-amzn-leo-internet-satellites/",
+   "/news/2026-10-28/stocks-making-the-biggest-moves-yesterday-xylem-sofi-pentair-celestica-and-boeing/",
+   "/news/2026-10-27/boeing-ba-shares-slide-after-it-delays-its-737-production-ramp/"
+  ]
+ }
+}
