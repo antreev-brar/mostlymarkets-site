@@ -2,7 +2,7 @@
 title = "Skydance (SKYD) Shares Rise After UBS Drops Its Sell Rating"
 dek = "Skydance rose 5.4% by 10:30 a.m. ET Tuesday after UBS lifted it to neutral from sell, citing the Warner Bros. deal, and a director's purchases of the stock came to light."
 type = "why-it-moved"
-published = 2026-11-24T10:36:00-05:00
+published = 2026-11-24T10:32:00-05:00
 author = "claire-okafor"
 tickers = ["SKYD"]
 reason = "Analyst upgrade"
