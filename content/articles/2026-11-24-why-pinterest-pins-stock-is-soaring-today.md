@@ -2,7 +2,7 @@
 title = "Why Pinterest (PINS) Stock Is Soaring Today"
 dek = "Pinterest jumped 12.5% by 10:15 a.m. ET Tuesday after a filing beefed up executives' payouts in a takeover, which traders read as a hint of a sale. No deal has been reported."
 type = "why-it-moved"
-published = 2026-11-24T10:40:00-05:00
+published = 2026-11-24T10:28:00-05:00
 author = "dev-malhotra"
 tickers = ["PINS"]
 reason = "Management"

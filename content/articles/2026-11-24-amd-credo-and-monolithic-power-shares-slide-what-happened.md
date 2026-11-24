@@ -2,7 +2,7 @@
 title = "AMD, Credo and Monolithic Power Shares Slide: What Happened"
 dek = "Chip stocks gave back part of Monday's Huang-return rally: AMD fell 9.1% and Credo 9.5% by 10:15 a.m. ET, and AMD is now below where it started the week."
 type = "why-it-moved"
-published = 2026-11-24T10:45:00-05:00
+published = 2026-11-24T10:29:00-05:00
 author = "dev-malhotra"
 tickers = ["AMD", "CRDO", "MPWR", "TER", "KLAC", "AMAT", "NVDA"]
 reason = "Sector move"

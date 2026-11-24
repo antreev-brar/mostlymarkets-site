@@ -2,7 +2,7 @@
 title = "CoreWeave (CRWV) and Nebius (NBIS) Shares Slide: What Happened"
 dek = "CoreWeave fell 8.0% and Nebius 9.4% by 10:15 a.m. ET as Monday's rebound faded and HPE said it won't finance neocloud customers, reviving the question of who funds AI clouds."
 type = "why-it-moved"
-published = 2026-11-24T11:05:00-05:00
+published = 2026-11-24T10:30:00-05:00
 author = "dev-malhotra"
 tickers = ["CRWV", "NBIS", "HPE", "NVDA"]
 reason = "Peer news"

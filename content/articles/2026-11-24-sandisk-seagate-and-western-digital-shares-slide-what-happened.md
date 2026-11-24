@@ -2,7 +2,7 @@
 title = "Sandisk, Seagate and Western Digital Shares Slide: What Happened"
 dek = "Storage stocks gave back Monday's Nvidia-relief gains: Sandisk fell 10.5% by 10:15 a.m. ET, erasing its whole Monday rise, as Seagate lost 7.0% and Western Digital 5.8%."
 type = "why-it-moved"
-published = 2026-11-24T10:55:00-05:00
+published = 2026-11-24T10:29:30-05:00
 author = "dev-malhotra"
 tickers = ["SNDK", "STX", "WDC", "MU", "NVDA"]
 reason = "Sector move"
