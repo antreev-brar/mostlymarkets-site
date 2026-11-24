@@ -1206,6 +1206,13 @@
 "theme": "high-margin",
 "tickers": []
 },
+"list-2026-11-24-4": {
+"created": "2026-11-24T16:30:17-05:00",
+"day": "2026-11-24",
+"kind": "list",
+"theme": "compounders",
+"tickers": []
+},
 "macro-2026-11-03": {
 "created": "2026-11-03T09:01:07-05:00",
 "day": "2026-11-03",
@@ -5558,6 +5565,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "HPE"
+]
+},
+"recap-HPQ-2026-11-24": {
+"created": "2026-11-24T16:30:17-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"HPQ"
 ]
 },
 "recap-HUM-2026-11-06": {
