@@ -5240,6 +5240,14 @@
 "DIS"
 ]
 },
+"recap-DLTR-2026-11-24": {
+"created": "2026-11-24T06:45:14-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"DLTR"
+]
+},
 "recap-DUK-2026-11-05": {
 "created": "2026-11-05T06:09:29-05:00",
 "day": "2026-11-05",
@@ -5494,6 +5502,14 @@
 "kind": "earnings-recap",
 "tickers": [
 "MCK"
+]
+},
+"recap-MDT-2026-11-24": {
+"created": "2026-11-24T06:45:14-05:00",
+"day": "2026-11-24",
+"kind": "earnings-recap",
+"tickers": [
+"MDT"
 ]
 },
 "recap-MELI-2026-11-04": {

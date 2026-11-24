@@ -1,0 +1,98 @@
+{
+ "id": "recap-MDT-2026-11-24",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 74,
+ "created": "2026-11-24T06:45:14-05:00",
+ "expires": "2026-11-25T20:00:00-05:00",
+ "tickers": [
+  "MDT"
+ ],
+ "headline_hint": "Medtronic (MDT) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-24T06:45:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "MDT",
+   "name": "Medtronic plc",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 1.34,
+   "n_estimates": 8,
+   "eps_last_year": 1.36,
+   "last_year_date": "11/18/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 127837045000.0
+  },
+  "quote": {
+   "price": 100.72,
+   "change_pct": 0.78,
+   "prev_close": 100.72,
+   "time": "2026-11-23",
+   "mktcap": "128.838B",
+   "pe": 24.79,
+   "fpe": 16.76,
+   "yr_high": 106.33,
+   "yr_low": 73.31,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 96.43,
+    "change_pct": -4.26,
+    "time": "2026-11-24T06:44:06.830-0500"
+   }
+  },
+  "facts": {
+   "ticker": "MDT",
+   "name": "Medtronic",
+   "date": "2026-11-23",
+   "close": 100.72,
+   "prev_close": 99.94,
+   "change_pct": 0.78,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 141,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-13",
+    "change_pct": 1.85
+   },
+   "ytd_pct": 4.85,
+   "return_1m_pct": 5.57,
+   "return_6m_pct": 29.79,
+   "return_1y_pct": 1.38,
+   "high_52w": {
+    "close": 105.35,
+    "date": "2025-11-25"
+   },
+   "low_52w": {
+    "close": 73.75,
+    "date": "2026-06-02"
+   },
+   "pct_below_52w_high": 4.39,
+   "thousand_dollars_5y_ago_now": 888,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 9453210,
+   "volume_vs_20d_avg": 1.28,
+   "sentences": [
+    "Medtronic's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 13 November 2026, when the stock rose 1.9%.",
+    "The stock is up 4.8% this year, and at $100.72 it sits 4.4% below its 52-week closing high of $105.35 from 25 November 2025.",
+    "$1,000 invested in Medtronic five years ago would be worth $888 today."
+   ]
+  },
+  "sector": "Health Care",
+  "industry": "Health Care Equipment",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/what-to-expect-from-medtronics-mdt-q2-earnings/",
+    "date": "2026-11-23",
+    "title": "What to Expect From Medtronic's (MDT) Q2 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "MDT"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026075604/0001628280-26-075604-index.htm"
+ }
+}

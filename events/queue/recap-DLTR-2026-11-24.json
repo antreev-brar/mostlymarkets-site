@@ -1,0 +1,114 @@
+{
+ "id": "recap-DLTR-2026-11-24",
+ "kind": "earnings-recap",
+ "story_type": "earnings-recap",
+ "priority": 67,
+ "created": "2026-11-24T06:45:14-05:00",
+ "expires": "2026-11-25T20:00:00-05:00",
+ "tickers": [
+  "DLTR"
+ ],
+ "headline_hint": "Dollar Tree (DLTR) Oct/2026 results vs estimates",
+ "instructions": "Recap: lead with revenue and EPS against consensus (name the provider), the 1-3 numbers investors watch for this company, guidance, and the stock's reaction with its session. Use release_text as the primary source when present.",
+ "quotes_asof": "2026-11-24T06:45:09-05:00",
+ "pack": {
+  "calendar": {
+   "ticker": "DLTR",
+   "name": "Dollar Tree, Inc.",
+   "time": "bmo",
+   "quarter": "Oct/2026",
+   "eps_forecast": 0.89,
+   "n_estimates": 10,
+   "eps_last_year": 1.21,
+   "last_year_date": "12/03/2025",
+   "eps_actual": null,
+   "surprise_pct": null,
+   "mktcap": 25885476900.0
+  },
+  "quote": {
+   "price": 139.1,
+   "change_pct": 0.83,
+   "prev_close": 139.1,
+   "time": "2026-11-23",
+   "mktcap": "26.099B",
+   "pe": 16.93,
+   "fpe": 20.24,
+   "yr_high": 148.54,
+   "yr_low": 85.88,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 156.25,
+    "change_pct": 12.33,
+    "time": "2026-11-24T06:40:43.738-0500"
+   }
+  },
+  "facts": {
+   "ticker": "DLTR",
+   "name": "Dollar Tree",
+   "date": "2026-11-23",
+   "close": 139.1,
+   "prev_close": 137.96,
+   "change_pct": 0.83,
+   "moves_over_5pct_last_year": 12,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 180,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-18",
+    "change_pct": 1.95
+   },
+   "ytd_pct": 13.08,
+   "return_1m_pct": 11.0,
+   "return_6m_pct": 48.45,
+   "return_1y_pct": 41.14,
+   "high_52w": {
+    "close": 147.0,
+    "date": "2026-11-04"
+   },
+   "low_52w": {
+    "close": 86.8,
+    "date": "2026-05-13"
+   },
+   "pct_below_52w_high": 5.37,
+   "thousand_dollars_5y_ago_now": 961,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 3739043,
+   "volume_vs_20d_avg": 1.69,
+   "sentences": [
+    "Dollar Tree's shares moved 5% or more on 12 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 18 November 2026, when the stock rose 1.9%.",
+    "The stock is up 13.1% this year, and at $139.10 it sits 5.4% below its 52-week closing high of $147.00 from 4 November 2026.",
+    "$1,000 invested in Dollar Tree five years ago would be worth $961 today."
+   ]
+  },
+  "sector": "Consumer Staples",
+  "industry": "Consumer Staples Merchandise Retail",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/what-to-expect-from-tuesdays-earnings-autodesk-workday-dollar-tree-hp-and-best-buy/",
+    "date": "2026-11-23",
+    "title": "What to Expect From Tuesday's Earnings: Autodesk, Workday, Dollar Tree and 2 More",
+    "type": "preview-roundup",
+    "tickers": [
+     "ADSK",
+     "WDAY",
+     "DLTR",
+     "HPQ",
+     "BBY"
+    ]
+   },
+   {
+    "path": "/news/2026-11-22/3-momentum-stocks-we-like-and-1-wed-skip-veeva-iqvia-dollar-tree-and-moderna/",
+    "date": "2026-11-22",
+    "title": "3 Momentum Stocks We Like and 1 We'd Skip: Veeva, IQVIA, Dollar Tree and Moderna",
+    "type": "list",
+    "tickers": [
+     "VEEV",
+     "IQV",
+     "DLTR",
+     "MRNA"
+    ]
+   }
+  ],
+  "sec_filing": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000136/0000935703-26-000136-index.htm"
+ }
+}
