@@ -1,0 +1,101 @@
+{
+ "id": "news-META-2026-11-24-uk-s-ico-says-meta-commits-to-voluntary",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T04:01:06-05:00",
+ "expires": "2026-11-24T14:01:06-05:00",
+ "tickers": [
+  "META"
+ ],
+ "headline_hint": "Meta: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T04:00:07-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Meta won't issue Class C shares during shareholder litigation",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4675998-meta-wont-issue-class-c-shares-during-shareholder-litigation",
+    "published": "2026-11-24T03:37:17-05:00",
+    "also": []
+   },
+   {
+    "title": "UK's ICO Says Meta Commits To Voluntary Monitoring And Reporting Scheme For Muse AI",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN47513J:0-uk-s-ico-says-meta-commits-to-voluntary-monitoring-and-reporting-scheme-for-muse-ai/",
+    "published": "2026-11-24T03:10:48-05:00",
+    "also": []
+   },
+   {
+    "title": "Sainsbury Launches Muse AI Agent From Meta For UK Customers",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN475139:0-sainsbury-launches-muse-ai-agent-from-meta-for-uk-customers/",
+    "published": "2026-11-24T02:43:09-05:00",
+    "also": [
+     "dpa-AFX"
+    ]
+   }
+  ],
+  "quote": {
+   "price": 597.6,
+   "change_pct": 6.55,
+   "prev_close": 597.6,
+   "time": "2026-11-23",
+   "mktcap": "1.552T",
+   "pe": 23.47,
+   "fpe": 18.68,
+   "yr_high": 779.82,
+   "yr_low": 520.26,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 596.1,
+    "change_pct": -0.25,
+    "time": "2026-11-24T04:00:02.127-0500"
+   }
+  },
+  "facts": {
+   "ticker": "META",
+   "name": "Meta",
+   "date": "2026-11-20",
+   "close": 560.84,
+   "prev_close": 596.22,
+   "change_pct": -5.93,
+   "moves_over_5pct_last_year": 18,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 13,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-22",
+    "change_pct": -6.98
+   },
+   "ytd_pct": -15.04,
+   "return_1m_pct": -13.56,
+   "return_6m_pct": -8.1,
+   "return_1y_pct": -4.99,
+   "high_52w": {
+    "close": 777.59,
+    "date": "2026-09-24"
+   },
+   "low_52w": {
+    "close": 525.72,
+    "date": "2026-03-27"
+   },
+   "pct_below_52w_high": 27.87,
+   "thousand_dollars_5y_ago_now": 1624,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 25687220,
+   "volume_vs_20d_avg": 1.22,
+   "sentences": [
+    "Meta's shares moved 5% or more on 18 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 22 October 2026, when the stock fell 7.0%.",
+    "The stock is down 15.0% this year, and at $560.84 it sits 27.9% below its 52-week closing high of $777.59 from 24 September 2026.",
+    "$1,000 invested in Meta five years ago would be worth $1,624 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-20/youtube-nears-a-3-billion-settlement-with-us-school-districts-over-addiction-claims/",
+   "/news/2026-11-20/arista-networks-anet-is-22-below-its-high-is-the-business-broken/",
+   "/news/2026-11-18/meta-meta-pauses-its-class-c-share-plan-until-shareholder-lawsuits-are-settled/"
+  ]
+ }
+}

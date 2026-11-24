@@ -1,0 +1,88 @@
+{
+ "id": "news-HSBC-2026-11-24-hsbc-bought-back-10-000-shares-for-hk-1",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T04:01:06-05:00",
+ "expires": "2026-11-24T14:01:06-05:00",
+ "tickers": [
+  "HSBC"
+ ],
+ "headline_hint": "HSBC: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T04:00:07-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "HSBC Bought Back 10,000 Shares For HK$1.3 Million On Nov 23, HKEX Filing Shows",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4751EF:0-hsbc-bought-back-10-000-shares-for-hk-1-3-million-on-nov-23-hkex-filing-shows/",
+    "published": "2026-11-24T03:44:33-05:00",
+    "also": []
+   },
+   {
+    "title": "JPMorgan and HSBC trade digital gold in London for the first time - Bloomberg News",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4750G8:0-jpmorgan-and-hsbc-trade-digital-gold-in-london-for-the-first-time-bloomberg-news/",
+    "published": "2026-11-24T03:17:51-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 83.01,
+   "change_pct": 3.74,
+   "prev_close": 83.01,
+   "time": "2026-11-23",
+   "mktcap": "284.226B",
+   "pe": 10.82,
+   "fpe": null,
+   "yr_high": 107.92,
+   "yr_low": 68.69,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 83.31,
+    "change_pct": 0.36,
+    "time": "2026-11-23"
+   }
+  },
+  "facts": {
+   "ticker": "HSBC",
+   "name": "HSBC",
+   "date": "2026-11-20",
+   "close": 80.02,
+   "prev_close": 83.35,
+   "change_pct": -4.0,
+   "moves_over_5pct_last_year": 5,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 12,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-10-27",
+    "change_pct": -5.7
+   },
+   "ytd_pct": 1.72,
+   "return_1m_pct": -12.92,
+   "return_6m_pct": -13.04,
+   "return_1y_pct": 15.74,
+   "high_52w": {
+    "close": 107.86,
+    "date": "2026-08-03"
+   },
+   "low_52w": {
+    "close": 67.56,
+    "date": "2025-11-20"
+   },
+   "pct_below_52w_high": 25.81,
+   "thousand_dollars_5y_ago_now": 2750,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 3200689,
+   "volume_vs_20d_avg": 1.66,
+   "sentences": [
+    "HSBC's shares moved 5% or more on 5 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 27 October 2026, when the stock fell 5.7%.",
+    "The stock is up 1.7% this year, and at $80.02 it sits 25.8% below its 52-week closing high of $107.86 from 3 August 2026.",
+    "$1,000 invested in HSBC five years ago would be worth $2,750 today."
+   ]
+  },
+  "recent_stories": []
+ }
+}

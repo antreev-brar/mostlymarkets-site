@@ -3430,6 +3430,14 @@
 "HSBC"
 ]
 },
+"news-HSBC-2026-11-24-hsbc-bought-back-10-000-shares-for-hk-1": {
+"created": "2026-11-24T04:01:06-05:00",
+"day": "2026-11-24",
+"kind": "news",
+"tickers": [
+"HSBC"
+]
+},
 "news-IBM-2026-11-12-ai-stocks-are-sinking-why-is-smart-money": {
 "created": "2026-11-12T03:01:09-05:00",
 "day": "2026-11-12",
@@ -3647,6 +3655,14 @@
 "news-META-2026-11-20-apple-seems-to-be-building-its-own-ai-ag": {
 "created": "2026-11-20T06:09:45-05:00",
 "day": "2026-11-20",
+"kind": "news",
+"tickers": [
+"META"
+]
+},
+"news-META-2026-11-24-uk-s-ico-says-meta-commits-to-voluntary": {
+"created": "2026-11-24T04:01:06-05:00",
+"day": "2026-11-24",
 "kind": "news",
 "tickers": [
 "META"
@@ -4376,6 +4392,14 @@
 "kind": "news",
 "outcome": "already-written"
 },
+"news-TSM-2026-11-24-tsmc-unit-seeks-texas-property-tax-limit": {
+"created": "2026-11-24T04:01:06-05:00",
+"day": "2026-11-24",
+"kind": "news",
+"tickers": [
+"TSM"
+]
+},
 "news-TTWO-2026-11-10-take-two-stock-jumps-as-ceo-calls-the-ne": {
 "created": "2026-11-10T06:15:12-05:00",
 "day": "2026-11-10",
@@ -4411,6 +4435,14 @@
 "news-UBS-2026-11-18-ubs-group-swx-ubsg-dropped-so-what-is-dr": {
 "created": "2026-11-18T00:02:08-05:00",
 "day": "2026-11-18",
+"kind": "news",
+"tickers": [
+"UBS"
+]
+},
+"news-UBS-2026-11-24-swiss-lawmakers-debate-ubs-rules-as-talk": {
+"created": "2026-11-24T04:01:06-05:00",
+"day": "2026-11-24",
 "kind": "news",
 "tickers": [
 "UBS"
