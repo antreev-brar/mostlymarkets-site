@@ -136,5 +136,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-24T10:30:02-05:00",
+ "reason": "covered in the storage basket story: 2026-11-24-sandisk-seagate-and-western-digital-shares-slide-what-happened"
 }
