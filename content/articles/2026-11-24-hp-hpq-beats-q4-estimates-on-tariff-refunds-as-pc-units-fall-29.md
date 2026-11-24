@@ -2,7 +2,7 @@
 title = "HP (HPQ) Beats Q4 Estimates on Tariff Refunds as PC Units Fall 29%"
 dek = "HP's revenue rose 9.3% to $16.0 billion and adjusted EPS of $0.83 beat the $0.74 expected, but 15 cents of it came from tariff refunds while PC units fell 29% on memory costs."
 type = "earnings-recap"
-published = 2026-11-24T16:36:00-05:00
+published = 2026-11-24T16:33:30-05:00
 author = "marcus-lindqvist"
 tickers = ["HPQ", "DELL"]
 themes = ["memory-cycle", "tariffs"]
