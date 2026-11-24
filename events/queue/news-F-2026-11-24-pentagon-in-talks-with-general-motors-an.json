@@ -1,0 +1,101 @@
+{
+ "id": "news-F-2026-11-24-pentagon-in-talks-with-general-motors-an",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T06:30:14-05:00",
+ "expires": "2026-11-24T16:30:14-05:00",
+ "tickers": [
+  "F"
+ ],
+ "headline_hint": "Ford Motor: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T06:30:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Pentagon holds drone talks with GM, Ford, Magna: WSJ",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4676046-pentagon-holds-drone-talks-with-gm-ford-magna-wsj",
+    "published": "2026-11-24T05:59:26-05:00",
+    "also": []
+   },
+   {
+    "title": "Pentagon in Talks With General Motors and Ford to Make Military Drones",
+    "source": "WSJ",
+    "url": "https://www.tradingview.com/news/DJN_DN20261124001771:0-pentagon-in-talks-with-general-motors-and-ford-to-make-military-drones-wsj/",
+    "published": "2026-11-24T05:30:00-05:00",
+    "also": [
+     "Reuters"
+    ]
+   },
+   {
+    "title": "Jim Farley\u2019s Ford Makes Unexpected Space Move, Eyes $1.8 Trillion Opportunity With New Bet Against Elon Musk\u2019s SpaceX",
+    "source": "Benzinga",
+    "url": "https://www.tradingview.com/news/benzinga:e25d7454e094b:0-jim-farley-s-ford-makes-unexpected-space-move-eyes-1-8-trillion-opportunity-with-new-bet-against-elon-musk-s-spacex/",
+    "published": "2026-11-24T02:39:08-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 11.65,
+   "change_pct": 4.3,
+   "prev_close": 11.65,
+   "time": "2026-11-23",
+   "mktcap": "46.521B",
+   "pe": -5.88,
+   "fpe": 6.5,
+   "yr_high": 17.78,
+   "yr_low": 11.05,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 11.72,
+    "change_pct": 0.6,
+    "time": "2026-11-24T06:29:22.695-0500"
+   }
+  },
+  "facts": {
+   "ticker": "F",
+   "name": "Ford Motor",
+   "date": "2026-11-23",
+   "close": 11.65,
+   "prev_close": 11.17,
+   "change_pct": 4.3,
+   "moves_over_5pct_last_year": 6,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 14,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-05-29",
+    "change_pct": 4.74
+   },
+   "ytd_pct": -11.2,
+   "return_1m_pct": 0.43,
+   "return_6m_pct": -23.96,
+   "return_1y_pct": -6.12,
+   "high_52w": {
+    "close": 17.44,
+    "date": "2026-05-29"
+   },
+   "low_52w": {
+    "close": 11.17,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 33.2,
+   "thousand_dollars_5y_ago_now": 577,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 59545800,
+   "volume_vs_20d_avg": 1.33,
+   "sentences": [
+    "Ford Motor's shares moved 5% or more on 6 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 29 May 2026, when the stock rose 4.7%.",
+    "The stock is down 11.2% this year, and at $11.65 it sits 33.2% below its 52-week closing high of $17.44 from 29 May 2026.",
+    "$1,000 invested in Ford Motor five years ago would be worth $577 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-21/3-dividend-stocks-wed-skip-and-1-we-like-general-mills-ford-alexandria-and-t-rowe-price/",
+   "/news/2026-11-07/tesla-tsla-trades-at-196-times-earnings-on-a-3-margin-is-the-business-worth-it/",
+   "/news/2026-11-06/toyota-tm-soars-as-q2-profit-jumps-34-and-it-raises-its-forecast-to-3-9-trillion-yen/"
+  ]
+ }
+}
