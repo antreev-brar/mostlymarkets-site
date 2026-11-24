@@ -252,5 +252,8 @@
     "name": "US dollar index"
    }
   }
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-24T09:27:58-05:00",
+ "reason": "no top-tier release today (PCE, GDP and claims are due Wednesday 25 November)"
 }
