@@ -1,0 +1,92 @@
+{
+ "id": "news-DELL-2026-11-24-dell-technologies-dell-roars-back-gets-2",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-24T00:01:51-05:00",
+ "expires": "2026-11-24T10:01:51-05:00",
+ "tickers": [
+  "DELL"
+ ],
+ "headline_hint": "Dell Technologies: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-24T00:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Dell Technologies (DELL) Roars Back, Gets 2 Major Catalysts Working in Its Favor",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMnlFTGN4MGViaEdFdTNDQzJZVkJHbzBUYldsWHZiQ3JKUzdoQXExdERUOWtlZmI4TVQxQnppZUl1MHpIaGE0N3NhUF9iZVdEbTBSNEFPQkIwanVWNUdEVVZPbXBCVDE0UjRDMnVjTjdXQXJPbWl6S2pOYUJWQlNqLXhxQWx6SG9IWmJoTjZZYXRpMVU1V1FpTGdHVHlfZUE?oc=5",
+    "published": "2026-11-23T22:09:00-05:00",
+    "also": []
+   },
+   {
+    "title": "NVDA, DELL, OTLY, ZM, KYMR: 5 Trending Stocks Today",
+    "source": "Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdW5GeUpCdkN1Q2tTMDBuMWM2OTV1R0hZWTkwWmRBNlB2ajJZOXFadGtpcWNmLUVISnFjS0Yzbmk3ZHhaVWVSeG96TmdleWZFTWhNOFJOVDM3Mm12Wi12cXNCanRZUWd4RXU3R3pPUExybkNPWm82RHByLUlBWk1wN3J5Y1RWcko0X1V2X3FFMHlJdV9DdWMtc2pVY1FKSXVTQjVWeXE3aXVjWnppRGQ1VFZ4TnhHQTJkbVFxbmRGYl8zYWk0QnJWa19UdHJzRGdLbFRYNUZLQUtGckpnSkhWaFNNMkRJbDk3WU9TdlRsYnlvY21kREthazlDVWRDendnRU9J?oc=5",
+    "published": "2026-11-23T20:02:22-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 334.91,
+   "change_pct": 20.46,
+   "prev_close": 334.91,
+   "time": "2026-11-23",
+   "mktcap": "212.94B",
+   "pe": 19.43,
+   "fpe": 11.74,
+   "yr_high": 595.51,
+   "yr_low": 110.22,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 338.49,
+    "change_pct": 1.07,
+    "time": "2026-11-23"
+   }
+  },
+  "facts": {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "date": "2026-11-20",
+   "close": 278.02,
+   "prev_close": 312.54,
+   "change_pct": -11.04,
+   "moves_over_5pct_last_year": 55,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 10,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-05",
+    "change_pct": -14.89
+   },
+   "ytd_pct": 120.86,
+   "return_1m_pct": -38.62,
+   "return_6m_pct": -5.82,
+   "return_1y_pct": 132.89,
+   "high_52w": {
+    "close": 588.4,
+    "date": "2026-09-17"
+   },
+   "low_52w": {
+    "close": 111.07,
+    "date": "2026-01-20"
+   },
+   "pct_below_52w_high": 52.75,
+   "thousand_dollars_5y_ago_now": 5053,
+   "five_years_ago_date": "2021-11-19",
+   "volume": 12615860,
+   "volume_vs_20d_avg": 1.69,
+   "sentences": [
+    "Dell Technologies's shares moved 5% or more on 55 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 5 November 2026, when the stock fell 14.9%.",
+    "The stock is up 120.9% this year, and at $278.02 it sits 52.8% below its 52-week closing high of $588.40 from 17 September 2026.",
+    "$1,000 invested in Dell Technologies five years ago would be worth $5,053 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-23/why-dell-technologies-dell-stock-is-soaring-today/",
+   "/news/2026-11-23/what-to-expect-from-dell-technologies-dell-q3-earnings/",
+   "/news/2026-11-23/stock-market-today-nvidia-adds-952-billion-as-jensen-huang-returns-and-the-nasdaq-jumps-6-5/"
+  ]
+ }
+}
