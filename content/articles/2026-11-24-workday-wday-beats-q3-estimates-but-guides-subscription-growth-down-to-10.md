@@ -2,7 +2,7 @@
 title = "Workday (WDAY) Beats Q3 Estimates but Guides Subscription Growth Down to 10%"
 dek = "Workday's adjusted EPS of $2.82 beat the $2.74 expected and revenue rose 11.2% to $2.705 billion, but its forecast of 10% subscription growth next quarter sent the stock down 4.9% after hours."
 type = "earnings-recap"
-published = 2026-11-24T17:45:00-05:00
+published = 2026-11-24T16:32:00-05:00
 author = "dev-malhotra"
 tickers = ["WDAY", "ADSK"]
 themes = ["software-ai"]

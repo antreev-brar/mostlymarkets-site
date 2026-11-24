@@ -2,7 +2,7 @@
 title = "Dell Technologies (DELL) Beats Q3 Estimates as Revenue Doubles and Its AI Backlog Hits $132 Billion"
 dek = "Dell's revenue rose 103% to $54.9 billion against the $49.3 billion expected, adjusted EPS of $9.45 beat $6.59, and it raised its full-year revenue forecast to $202 billion."
 type = "earnings-recap"
-published = 2026-11-24T17:05:00-05:00
+published = 2026-11-24T16:29:40-05:00
 author = "marcus-lindqvist"
 tickers = ["DELL", "HPE", "NVDA"]
 themes = ["ai-capex"]

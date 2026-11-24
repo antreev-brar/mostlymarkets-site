@@ -2,7 +2,7 @@
 title = "Autodesk (ADSK) Beats Q3 Estimates as Revenue Grows 17%, but the Shares Slip After Hours"
 dek = "Autodesk's revenue rose 17% to $2.16 billion against the $2.13 billion expected and adjusted EPS of $3.20 beat $3.07, but the stock fell 5.0% after hours as of 4:15 p.m. ET."
 type = "earnings-recap"
-published = 2026-11-24T17:25:00-05:00
+published = 2026-11-24T16:30:50-05:00
 author = "dev-malhotra"
 tickers = ["ADSK", "WDAY"]
 themes = ["software-ai"]

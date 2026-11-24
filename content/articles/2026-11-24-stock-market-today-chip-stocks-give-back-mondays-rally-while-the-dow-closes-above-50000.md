@@ -2,7 +2,7 @@
 title = "Stock Market Today: Chip Stocks Give Back Monday's Rally While the Dow Closes Above 50,000"
 dek = "The Nasdaq fell 1.5% on Tuesday as Nvidia slid 5.9% and Analog Devices plunged 17.4%, while the Dow rose 0.9% to 50,018.70 as money moved into health care and consumer stocks."
 type = "market-wrap"
-published = 2026-11-24T16:40:00-05:00
+published = 2026-11-24T16:28:30-05:00
 author = "nora-whitfield"
 tickers = ["NVDA", "ADI", "HPE", "MU", "DLTR", "AMGN"]
 themes = ["chip-selloff", "nvidia-leadership", "ai-capex"]
