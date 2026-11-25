@@ -86,5 +86,8 @@
   "recent_stories": [
    "/news/2026-11-14/3-momentum-stocks-wed-skip-and-1-we-like-charles-river-best-buy-snowflake-factset/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-25T06:32:50-05:00",
+ "reason": "no news: a valuation opinion piece and an earnings-date note"
 }
