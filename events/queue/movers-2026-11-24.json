@@ -1,0 +1,138 @@
+{
+ "id": "movers-2026-11-24",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-25T09:01:23-05:00",
+ "expires": "2026-11-25T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Tuesday 24 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-25T09:00:09-05:00",
+ "pack": {
+  "session": "2026-11-24",
+  "moves": [
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "close": 312.95,
+    "change_pct": -17.37,
+    "our_stories": [
+     "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+     "/daily/2026-11-25/",
+     "/news/2026-11-24/stock-market-today-chip-stocks-give-back-mondays-rally-while-the-dow-closes-above-50000/"
+    ]
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "close": 40.19,
+    "change_pct": -16.31,
+    "our_stories": [
+     "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+     "/news/2026-11-24/stock-market-today-chip-stocks-give-back-mondays-rally-while-the-dow-closes-above-50000/",
+     "/daily/2026-11-24/"
+    ]
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "close": 191.3,
+    "change_pct": -13.88,
+    "our_stories": [
+     "/news/2026-11-24/stocks-making-the-biggest-moves-yesterday-nvidia-astera-labs-credo-coreweave-and-dell/"
+    ]
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo Technology",
+    "close": 106.46,
+    "change_pct": -13.07,
+    "our_stories": [
+     "/news/2026-11-24/stocks-making-the-biggest-moves-yesterday-nvidia-astera-labs-credo-coreweave-and-dell/",
+     "/news/2026-11-24/amd-credo-and-monolithic-power-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "close": 42.605,
+    "change_pct": -11.85,
+    "our_stories": [
+     "/news/2026-11-24/stocks-making-the-biggest-moves-yesterday-nvidia-astera-labs-credo-coreweave-and-dell/",
+     "/news/2026-11-24/coreweave-and-nebius-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "close": 295.28,
+    "change_pct": -11.83,
+    "our_stories": [
+     "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+     "/daily/2026-11-25/",
+     "/news/2026-11-24/wall-street-is-betting-on-an-ai-gadget-upgrade-the-units-say-its-mostly-price/"
+    ]
+   },
+   {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "close": 258.44,
+    "change_pct": -11.25,
+    "our_stories": [
+     "/news/2026-11-24/analog-devices-adi-is-30-below-its-high-after-a-flat-forecast-is-the-business-broken/",
+     "/news/2026-11-24/analog-devices-adi-beats-q4-estimates-but-a-flat-q1-forecast-sends-shares-down-8/"
+    ]
+   },
+   {
+    "ticker": "DLTR",
+    "name": "Dollar Tree",
+    "close": 154.65,
+    "change_pct": 11.18,
+    "our_stories": [
+     "/news/2026-11-24/stock-market-today-chip-stocks-give-back-mondays-rally-while-the-dow-closes-above-50000/",
+     "/news/2026-11-24/dollar-tree-dltr-beats-q3-estimates-as-traffic-rises-and-raises-its-profit-forecast/"
+    ]
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 77.95,
+    "change_pct": -11.13,
+    "our_stories": [
+     "/news/2026-11-24/sandisk-seagate-and-western-digital-shares-slide-what-happened/",
+     "/news/2026-11-24/3-compounder-stocks-we-like-and-1-wed-skip-amphenol-cadence-monster-and-sandisk/"
+    ]
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "close": 629.79,
+    "change_pct": -11.01,
+    "our_stories": [
+     "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+     "/daily/2026-11-25/",
+     "/news/2026-11-24/wall-street-is-betting-on-an-ai-gadget-upgrade-the-units-say-its-mostly-price/"
+    ]
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems",
+    "close": 1190.16,
+    "change_pct": -10.77,
+    "our_stories": [
+     "/news/2026-11-24/amd-credo-and-monolithic-power-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "close": 87.31,
+    "change_pct": -10.73,
+    "our_stories": [
+     "/news/2026-11-24/coreweave-and-nebius-shares-slide-what-happened/"
+    ]
+   }
+  ]
+ }
+}
