@@ -2890,6 +2890,12 @@
 "BA"
 ]
 },
+"news-BA-2026-11-25-boeing-malaysia-aviation-group-to-place": {
+"created": "2026-11-25T03:01:12-05:00",
+"day": "2026-11-25",
+"kind": "news",
+"outcome": "already-written"
+},
 "news-BA-2026-11-25-malaysia-airlines-parent-orders-10-boein": {
 "created": "2026-11-25T01:01:19-05:00",
 "day": "2026-11-25",
@@ -3367,6 +3373,14 @@
 "news-GOOGL-2026-11-12-alphabet-s-debut-hong-kong-singapore-bon": {
 "created": "2026-11-12T00:03:18-05:00",
 "day": "2026-11-12",
+"kind": "news",
+"tickers": [
+"GOOGL"
+]
+},
+"news-GOOGL-2026-11-25-malaysia-regulator-files-lawsuits-agains": {
+"created": "2026-11-25T03:01:12-05:00",
+"day": "2026-11-25",
 "kind": "news",
 "tickers": [
 "GOOGL"
@@ -4172,6 +4186,14 @@
 "kind": "news",
 "tickers": [
 "SNDK"
+]
+},
+"news-SNOW-2026-11-25-snowflake-snow-stock-looks-rich-relative": {
+"created": "2026-11-25T03:01:12-05:00",
+"day": "2026-11-25",
+"kind": "news",
+"tickers": [
+"SNOW"
 ]
 },
 "news-SONY-2026-11-05-sony-fiscal-q2-earnings-snapshot": {

@@ -1,0 +1,106 @@
+{
+ "id": "news-GOOGL-2026-11-25-malaysia-regulator-files-lawsuits-agains",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-25T03:01:12-05:00",
+ "expires": "2026-11-25T13:01:12-05:00",
+ "tickers": [
+  "GOOGL"
+ ],
+ "headline_hint": "Alphabet: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-25T03:00:08-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Malaysia Regulator Sues Google, Seeks Nearly $150 Million Over YouTube Content",
+    "source": "Dow Jones",
+    "url": "https://www.tradingview.com/news/DJN_DN20261125001266:0-malaysia-regulator-sues-google-seeks-nearly-150-million-over-youtube-content/",
+    "published": "2026-11-25T02:56:00-05:00",
+    "also": []
+   },
+   {
+    "title": "Google cancels ABC\u2019s $15M deal as it turns off publisher funding: AFR",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4676461-google-cancels-abcs-15m-deal-as-it-turns-off-publisher-funding-afr",
+    "published": "2026-11-25T02:28:54-05:00",
+    "also": []
+   },
+   {
+    "title": "Malaysia regulator files lawsuits against Google seeking $146 million over 'harmful' content",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N47608U:0-malaysia-regulator-files-lawsuits-against-google-seeking-146-million-over-harmful-content/",
+    "published": "2026-11-25T00:37:06-05:00",
+    "also": []
+   },
+   {
+    "title": "With AI, Alphabet Talks The Talk, But I\u2019m Unimpressed By How It Walks The Walk",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSlpPNlc0LV9YUVJkNWFmQUJ5QW5HeUxERTR0dTRwdGFqaW55SG9jbUZ4Y0UwTk95em0zX0JXZXhDemV4am1waU5IdC1sdEtzVl9kQ3V0Tlg1YTRiVHd3TDZfMHdNRG9JYVd2QTVCeUx3NlNDbHpIejhqLUZQd2dKMkR3S3VtVlZVMVhTbDJHeDdWQmIzaUxaZlVjT2dlM3Z6RDIzV0FjTTdTLUxsOW9XWG5FLVV2NjQ?oc=5",
+    "published": "2026-11-25T00:11:04-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 279.05,
+   "change_pct": -1.08,
+   "prev_close": 279.05,
+   "time": "2026-11-24",
+   "mktcap": "3.354T",
+   "pe": 14.57,
+   "fpe": 20.33,
+   "yr_high": 408.61,
+   "yr_low": 264.22,
+   "ext": {
+    "session": "POST_MKT_PREV",
+    "price": 278.88,
+    "change_pct": -0.06,
+    "time": "2026-11-24"
+   }
+  },
+  "facts": {
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "date": "2026-11-23",
+   "close": 282.1,
+   "prev_close": 265.29,
+   "change_pct": 6.34,
+   "moves_over_5pct_last_year": 7,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 5,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-07-31",
+    "change_pct": 6.73
+   },
+   "ytd_pct": -9.87,
+   "return_1m_pct": -11.9,
+   "return_6m_pct": -27.46,
+   "return_1y_pct": -2.54,
+   "high_52w": {
+    "close": 402.62,
+    "date": "2026-05-13"
+   },
+   "low_52w": {
+    "close": 265.29,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 29.93,
+   "thousand_dollars_5y_ago_now": 1935,
+   "five_years_ago_date": "2021-11-23",
+   "volume": 44375550,
+   "volume_vs_20d_avg": 0.98,
+   "sentences": [
+    "Alphabet's shares moved 5% or more on 7 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 31 July 2026, when the stock rose 6.7%.",
+    "The stock is down 9.9% this year, and at $282.10 it sits 29.9% below its 52-week closing high of $402.62 from 13 May 2026.",
+    "$1,000 invested in Alphabet five years ago would be worth $1,935 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-24/anthropic-falls-below-its-83-ipo-price-for-the-first-time/",
+   "/news/2026-11-23/alphabet-googl-rises-5-7-but-nvidia-takes-back-its-place-in-market-value/",
+   "/news/2026-11-22/take-two-ttwo-just-had-the-biggest-launch-ever-is-the-business-worth-the-price/"
+  ]
+ }
+}
