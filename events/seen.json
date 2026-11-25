@@ -1158,6 +1158,13 @@
 "theme": "compounders",
 "tickers": []
 },
+"list-2026-11-25-1": {
+"created": "2026-11-25T07:30:15-05:00",
+"day": "2026-11-25",
+"kind": "list",
+"theme": "dividend-payers",
+"tickers": []
+},
 "macro-2026-11-04": {
 "created": "2026-11-04T09:01:07-05:00",
 "day": "2026-11-04",
