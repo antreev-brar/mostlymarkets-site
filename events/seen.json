@@ -1208,6 +1208,13 @@
 "theme": "value",
 "tickers": []
 },
+"list-2026-11-25-4": {
+"created": "2026-11-25T16:30:54-05:00",
+"day": "2026-11-25",
+"kind": "list",
+"theme": "ai-infrastructure",
+"tickers": []
+},
 "macro-2026-11-04": {
 "created": "2026-11-04T09:01:07-05:00",
 "day": "2026-11-04",
