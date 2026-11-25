@@ -1,0 +1,119 @@
+{
+ "id": "move-CLS-2026-11-25",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-25T10:01:27-05:00",
+ "expires": "2026-11-27T12:00:00-05:00",
+ "tickers": [
+  "CLS"
+ ],
+ "headline_hint": "Why Celestica (CLS) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-25T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 176.34,
+   "change_pct": -10.32,
+   "prev_close": 196.64,
+   "time": "2026-11-25T09:59:58.765-0500",
+   "mktcap": "22.239B",
+   "pe": 16.68,
+   "fpe": 9.65,
+   "yr_high": 474.03,
+   "yr_low": 169.54,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 183.0,
+    "change_pct": -6.94,
+    "time": "2026-11-25T09:30:00.314-0500"
+   }
+  },
+  "facts": {
+   "ticker": "CLS",
+   "name": "Celestica",
+   "date": "2026-11-24",
+   "close": 196.64,
+   "prev_close": 213.31,
+   "change_pct": -7.81,
+   "moves_over_5pct_last_year": 75,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 35,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-20",
+    "change_pct": -16.0
+   },
+   "ytd_pct": -33.48,
+   "return_1m_pct": -20.28,
+   "return_6m_pct": -45.03,
+   "return_1y_pct": -29.79,
+   "high_52w": {
+    "close": 472.4,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 196.64,
+    "date": "2026-11-24"
+   },
+   "pct_below_52w_high": 58.37,
+   "thousand_dollars_5y_ago_now": 17479,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 2979227,
+   "volume_vs_20d_avg": 0.74,
+   "sentences": [
+    "Celestica's shares moved 5% or more on 75 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 20 November 2026, when the stock fell 16.0%.",
+    "The stock is down 33.5% this year, and at $196.64 it sits 58.4% below its 52-week closing high of $472.40 from 2 June 2026.",
+    "$1,000 invested in Celestica five years ago would be worth $17,479 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Electronic Manufacturing Services",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-20/micron-arista-and-celestica-shares-slide-what-happened/",
+    "date": "2026-11-20",
+    "title": "Micron, Arista and Celestica Shares Slide: What Happened",
+    "type": "why-it-moved",
+    "tickers": [
+     "MU",
+     "ANET",
+     "CLS",
+     "CRDO",
+     "ALAB",
+     "AMAT",
+     "LRCX",
+     "TER",
+     "AVGO",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/3-fast-grower-stocks-we-like-and-1-wed-skip-celestica-bloom-energy-talen-and-coreweave/",
+    "date": "2026-11-13",
+    "title": "3 Fast-Grower Stocks We Like and 1 We'd Skip: Celestica, Bloom Energy, Talen and CoreWeave",
+    "type": "list",
+    "tickers": [
+     "CLS",
+     "BE",
+     "TLN",
+     "CRWV"
+    ]
+   },
+   {
+    "path": "/news/2026-10-28/stocks-making-the-biggest-moves-yesterday-xylem-sofi-pentair-celestica-and-boeing/",
+    "date": "2026-10-28",
+    "title": "Stocks Making the Biggest Moves Yesterday: Xylem, SoFi, Pentair, Celestica and Boeing",
+    "type": "movers",
+    "tickers": [
+     "XYL",
+     "SOFI",
+     "PNR",
+     "CLS",
+     "BA"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "move-APH-2026-11-25",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 66,
+ "created": "2026-11-25T10:01:27-05:00",
+ "expires": "2026-11-27T12:00:00-05:00",
+ "tickers": [
+  "APH"
+ ],
+ "headline_hint": "Why Amphenol (APH) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-25T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 69.45,
+   "change_pct": -5.47,
+   "prev_close": 73.47,
+   "time": "2026-11-25T10:00:00.863-0500",
+   "mktcap": "171.49B",
+   "pe": 30.2,
+   "fpe": 19.99,
+   "yr_high": 89.93,
+   "yr_low": 59.01,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 69.71,
+    "change_pct": -5.12,
+    "time": "2026-11-25T09:30:00.967-0500"
+   }
+  },
+  "facts": {
+   "ticker": "APH",
+   "name": "Amphenol",
+   "date": "2026-11-24",
+   "close": 73.47,
+   "prev_close": 77.41,
+   "change_pct": -5.09,
+   "moves_over_5pct_last_year": 29,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 28,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-20",
+    "change_pct": -7.79
+   },
+   "ytd_pct": 8.73,
+   "return_1m_pct": -2.39,
+   "return_6m_pct": 4.78,
+   "return_1y_pct": 11.66,
+   "high_52w": {
+    "close": 88.62,
+    "date": "2026-10-06"
+   },
+   "low_52w": {
+    "close": 59.58,
+    "date": "2026-03-30"
+   },
+   "pct_below_52w_high": 17.1,
+   "thousand_dollars_5y_ago_now": 3486,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 16463430,
+   "volume_vs_20d_avg": 1.0,
+   "sentences": [
+    "Amphenol's shares moved 5% or more on 29 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 20 November 2026, when the stock fell 7.8%.",
+    "The stock is up 8.7% this year, and at $73.47 it sits 17.1% below its 52-week closing high of $88.62 from 6 October 2026.",
+    "$1,000 invested in Amphenol five years ago would be worth $3,486 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Electronic Components",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-24/3-compounder-stocks-we-like-and-1-wed-skip-amphenol-cadence-monster-and-sandisk/",
+    "date": "2026-11-24",
+    "title": "3 Compounder Stocks We Like and 1 We'd Skip: Amphenol, Cadence, Monster and Sandisk",
+    "type": "list",
+    "tickers": [
+     "APH",
+     "CDNS",
+     "MNST",
+     "SNDK"
+    ]
+   },
+   {
+    "path": "/news/2026-11-08/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-broadcom-amphenol-seagate-supermicro/",
+    "date": "2026-11-08",
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "AVGO",
+     "APH",
+     "STX",
+     "SMCI"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/amphenol-aph-tops-q3-estimates-as-ai-datacom-sales-more-than-double/",
+    "date": "2026-10-29",
+    "title": "Amphenol (APH) Tops Q3 Estimates as AI Datacom Sales More Than Double",
+    "type": "earnings-recap",
+    "tickers": [
+     "APH"
+    ]
+   }
+  ]
+ }
+}

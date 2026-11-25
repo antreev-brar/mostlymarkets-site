@@ -1,0 +1,130 @@
+{
+ "id": "basket-semiconductor-materials-equipment-down-2026-11-25",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-25T10:01:27-05:00",
+ "expires": "2026-11-25T23:59:00-05:00",
+ "tickers": [
+  "LRCX",
+  "AMAT",
+  "TER",
+  "KLAC"
+ ],
+ "headline_hint": "LRCX, AMAT, TER shares slide: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-25T10:00:10-05:00",
+ "pack": {
+  "industry": "Semiconductor Materials & Equipment",
+  "quotes": {
+   "LRCX": {
+    "price": 180.44,
+    "change_pct": -8.01,
+    "prev_close": 196.16,
+    "time": "2026-11-25T10:00:05.704-0500",
+    "mktcap": "225.40B",
+    "pe": 26.85,
+    "fpe": 17.68,
+    "yr_high": 438.5,
+    "yr_low": 145.5,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 183.0,
+     "change_pct": -6.71,
+     "time": "2026-11-25T09:29:27.688-0500"
+    }
+   },
+   "AMAT": {
+    "price": 301.39,
+    "change_pct": -6.91,
+    "prev_close": 323.76,
+    "time": "2026-11-25T10:00:00.169-0500",
+    "mktcap": "239.182B",
+    "pe": 23.87,
+    "fpe": 15.51,
+    "yr_high": 739.67,
+    "yr_low": 233.14,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 301.43,
+     "change_pct": -6.9,
+     "time": "2026-11-25T09:30:01.613-0500"
+    }
+   },
+   "TER": {
+    "price": 200.44,
+    "change_pct": -6.0,
+    "prev_close": 213.22,
+    "time": "2026-11-25T10:00:08.052-0500",
+    "mktcap": "31.293B",
+    "pe": 23.01,
+    "fpe": 18.82,
+    "yr_high": 487.91,
+    "yr_low": 160.36,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 198.26,
+     "change_pct": -7.02,
+     "time": "2026-11-25T09:30:01.285-0500"
+    }
+   },
+   "KLAC": {
+    "price": 126.58,
+    "change_pct": -5.29,
+    "prev_close": 133.65,
+    "time": "2026-11-25T10:00:04.737-0500",
+    "mktcap": "164.929B",
+    "pe": 31.68,
+    "fpe": 20.32,
+    "yr_high": 307.37,
+    "yr_low": 110.74,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 125.11,
+     "change_pct": -6.39,
+     "time": "2026-11-25T09:30:00.256-0500"
+    }
+   }
+  },
+  "facts": {
+   "LRCX": {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "date": "2026-11-24",
+    "close": 196.16,
+    "prev_close": 209.76,
+    "change_pct": -6.48,
+    "moves_over_5pct_last_year": 60,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 34,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-11-20",
+     "change_pct": -10.02
+    },
+    "ytd_pct": 14.59,
+    "return_1m_pct": -17.41,
+    "return_6m_pct": -38.49,
+    "return_1y_pct": 37.51,
+    "high_52w": {
+     "close": 433.33,
+     "date": "2026-06-30"
+    },
+    "low_52w": {
+     "close": 150.38,
+     "date": "2025-11-24"
+    },
+    "pct_below_52w_high": 54.73,
+    "thousand_dollars_5y_ago_now": 2969,
+    "five_years_ago_date": "2021-11-24",
+    "volume": 13983810,
+    "volume_vs_20d_avg": 1.0,
+    "sentences": [
+     "Lam Research's shares moved 5% or more on 60 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 20 November 2026, when the stock fell 10.0%.",
+     "The stock is up 14.6% this year, and at $196.16 it sits 54.7% below its 52-week closing high of $433.33 from 30 June 2026.",
+     "$1,000 invested in Lam Research five years ago would be worth $2,969 today."
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "move-TSLA-2026-11-25",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 73,
+ "created": "2026-11-25T10:01:27-05:00",
+ "expires": "2026-11-27T12:00:00-05:00",
+ "tickers": [
+  "TSLA"
+ ],
+ "headline_hint": "Why Tesla (TSLA) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-25T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 364.68,
+   "change_pct": -5.2,
+   "prev_close": 384.68,
+   "time": "2026-11-25T10:00:08.882-0500",
+   "mktcap": "1.441T",
+   "pe": 438.32,
+   "fpe": 184.93,
+   "yr_high": 498.83,
+   "yr_low": 297.38,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 370.51,
+    "change_pct": -3.68,
+    "time": "2026-11-25T09:29:59.980-0500"
+   }
+  },
+  "facts": {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "date": "2026-11-24",
+   "close": 384.68,
+   "prev_close": 385.46,
+   "change_pct": -0.2,
+   "moves_over_5pct_last_year": 18,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 232,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-20",
+    "change_pct": -7.64
+   },
+   "ytd_pct": -14.46,
+   "return_1m_pct": -1.77,
+   "return_6m_pct": -12.64,
+   "return_1y_pct": -1.64,
+   "high_52w": {
+    "close": 489.88,
+    "date": "2025-12-16"
+   },
+   "low_52w": {
+    "close": 298.32,
+    "date": "2026-07-29"
+   },
+   "pct_below_52w_high": 21.47,
+   "thousand_dollars_5y_ago_now": 1034,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 28792920,
+   "volume_vs_20d_avg": 0.79,
+   "sentences": [
+    "Tesla's shares moved 5% or more on 18 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 20 November 2026, when the stock fell 7.6%.",
+    "The stock is down 14.5% this year, and at $384.68 it sits 21.5% below its 52-week closing high of $489.88 from 16 December 2025.",
+    "$1,000 invested in Tesla five years ago would be worth $1,034 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Automobile Manufacturers",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-24/tesla-tsla-and-spacex-name-five-directors-to-negotiate-a-merger/",
+    "date": "2026-11-24",
+    "title": "Tesla (TSLA) and SpaceX Name Five Directors to Negotiate a Merger",
+    "type": "brief",
+    "tickers": [
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-23/why-tesla-tsla-stock-is-soaring-today/",
+    "date": "2026-11-23",
+    "title": "Why Tesla (TSLA) Stock Is Soaring Today",
+    "type": "why-it-moved",
+    "tickers": [
+     "TSLA",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/tesla-tsla-files-for-a-3-1-billion-polysilicon-plant-in-texas/",
+    "date": "2026-11-20",
+    "title": "Tesla (TSLA) Files Plans for a $3.1 Billion Polysilicon Plant in Texas",
+    "type": "brief",
+    "tickers": [
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/italy-approves-teslas-tsla-supervised-self-driving-system-the-first-big-eu-market/",
+    "date": "2026-11-20",
+    "title": "Italy Approves Tesla's (TSLA) Supervised Self-Driving System, the First Big EU Market",
+    "type": "brief",
+    "tickers": [
+     "TSLA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-15/musk-says-nvidia-nvda-will-lose-critical-deals-without-jensen-huang/",
+    "date": "2026-11-15",
+    "title": "Musk Says Nvidia (NVDA) Will Lose 'Critical' Deals Without Jensen Huang",
+    "type": "brief",
+    "tickers": [
+     "NVDA",
+     "TSLA"
+    ]
+   }
+  ]
+ }
+}

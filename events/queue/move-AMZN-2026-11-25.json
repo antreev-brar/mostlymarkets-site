@@ -1,0 +1,132 @@
+{
+ "id": "move-AMZN-2026-11-25",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 71,
+ "created": "2026-11-25T10:01:27-05:00",
+ "expires": "2026-11-27T12:00:00-05:00",
+ "tickers": [
+  "AMZN"
+ ],
+ "headline_hint": "Why Amazon (AMZN) stock is down today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-25T10:00:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 240.87,
+   "change_pct": -4.53,
+   "prev_close": 252.29,
+   "time": "2026-11-25T10:00:00.388-0500",
+   "mktcap": "2.605T",
+   "pe": 19.47,
+   "fpe": 24.4,
+   "yr_high": 287.2,
+   "yr_low": 196.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 243.13,
+    "change_pct": -3.63,
+    "time": "2026-11-25T09:30:01.523-0500"
+   }
+  },
+  "facts": {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "date": "2026-11-24",
+   "close": 252.29,
+   "prev_close": 255.39,
+   "change_pct": -1.21,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 132,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-20",
+    "change_pct": -4.1
+   },
+   "ytd_pct": 9.3,
+   "return_1m_pct": 1.28,
+   "return_6m_pct": -7.2,
+   "return_1y_pct": 14.32,
+   "high_52w": {
+    "close": 284.02,
+    "date": "2026-08-03"
+   },
+   "low_52w": {
+    "close": 198.79,
+    "date": "2026-02-13"
+   },
+   "pct_below_52w_high": 11.17,
+   "thousand_dollars_5y_ago_now": 1409,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 33920750,
+   "volume_vs_20d_avg": 0.63,
+   "sentences": [
+    "Amazon's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 20 November 2026, when the stock fell 4.1%.",
+    "The stock is up 9.3% this year, and at $252.29 it sits 11.2% below its 52-week closing high of $284.02 from 3 August 2026.",
+    "$1,000 invested in Amazon five years ago would be worth $1,409 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Broadline Retail",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-25/walmarts-wmt-flipkart-loses-its-ceo-of-nearly-10-years-ahead-of-a-planned-ipo/",
+    "date": "2026-11-25",
+    "title": "Walmart's (WMT) Flipkart Loses Its CEO of Nearly 10 Years Ahead of a Planned IPO",
+    "type": "brief",
+    "tickers": [
+     "WMT",
+     "AMZN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-24/anthropic-falls-below-its-83-ipo-price-for-the-first-time/",
+    "date": "2026-11-24",
+    "title": "Anthropic Falls Below Its $83 IPO Price for the First Time",
+    "type": "brief",
+    "tickers": [
+     "AMZN",
+     "GOOGL"
+    ]
+   },
+   {
+    "path": "/news/2026-11-23/amazon-amzn-agrees-to-buy-decarts-ai-technology-and-team-for-its-trainium-chips/",
+    "date": "2026-11-23",
+    "title": "Amazon (AMZN) Agrees to Buy Decart's AI Technology and Team for Its Trainium Chips",
+    "type": "brief",
+    "tickers": [
+     "AMZN",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/daily/2026-11-22/",
+    "date": "2026-11-22",
+    "title": "Dell's AI Orders and Wednesday's Inflation Data Will Test a Market in Correction",
+    "type": "daily",
+    "tickers": [
+     "DELL",
+     "NVDA",
+     "HPE",
+     "ADI",
+     "CLX",
+     "AMZN"
+    ]
+   },
+   {
+    "path": "/news/2026-11-21/oracle-orcl-has-a-664-billion-backlog-and-no-free-cash-is-the-business-broken/",
+    "date": "2026-11-21",
+    "title": "Oracle (ORCL) Has a $664 Billion Backlog and No Free Cash. Is the Business Broken?",
+    "type": "breakdown",
+    "tickers": [
+     "ORCL",
+     "MSFT",
+     "AMZN",
+     "GOOGL"
+    ]
+   }
+  ]
+ }
+}
