@@ -1,0 +1,321 @@
+{
+ "id": "list-2026-11-25-2",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-25T10:30:14-05:00",
+ "expires": "2026-11-25T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Stocks We'd Skip After Their Earnings and 1 We Like",
+ "instructions": "Theme: After Earnings, screened on companies worth $10bn+ that reported results in the last seven days and that we recapped. Pick 1 to like and 3 to skip from pack.candidates (picks block: skip: A, B, C / like: E). Each stock's case starts from the quarter it just reported (link our recap in candidates[].our_recap), then the long-run numbers. Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-25T10:30:09-05:00",
+ "pack": {
+  "theme": "after-earnings",
+  "screen": "companies worth $10bn+ that reported results in the last seven days and that we recapped",
+  "like": 1,
+  "skip": 3,
+  "candidates": [
+   {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "industry": "Systems Software",
+    "our_recap": {
+     "title": "CrowdStrike (CRWD) Beats Q3 Estimates With Record New Business, but Zscaler Sinks the Stock",
+     "path": "/news/2026-11-24/crowdstrike-crwd-beats-q3-estimates-with-record-new-business-but-zscaler-sinks-the-stock/",
+     "date": "2026-11-24"
+    },
+    "quote": {
+     "price": 196.49,
+     "change_pct": -6.81,
+     "prev_close": 210.86,
+     "time": "2026-11-25T10:30:02.249-0500",
+     "mktcap": "202.502B",
+     "pe": 1717.57,
+     "fpe": 128.17,
+     "yr_high": 286.99,
+     "yr_low": 85.68,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 200.94,
+      "change_pct": -4.7,
+      "time": "2026-11-25T09:29:31.239-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-10-31",
+     "revenue": 5745320000,
+     "revenue_growth_yoy_pct": 25.9,
+     "gross_margin_pct": 75.4,
+     "operating_margin_pct": -1.2,
+     "net_margin_pct": 1.7,
+     "eps_diluted": 0.1,
+     "ocf": 2284250000,
+     "fcf": 1796992000,
+     "fcf_margin_pct": 31.3
+    }
+   },
+   {
+    "ticker": "DE",
+    "name": "Deere &",
+    "industry": "Agricultural & Farm Machinery",
+    "our_recap": {
+     "title": "Deere (DE) Misses Q4 Estimates and Guides 2027 Profit Below Forecasts as Big-Farm Sales Fall 15%",
+     "path": "/news/2026-11-25/deere-de-misses-q4-estimates-as-big-farm-sales-fall-15-but-sees-a-2027-recovery/",
+     "date": "2026-11-25"
+    },
+    "quote": {
+     "price": 627.49,
+     "change_pct": 2.24,
+     "prev_close": 613.76,
+     "time": "2026-11-25T10:30:00.435-0500",
+     "mktcap": "169.186B",
+     "pe": 34.88,
+     "fpe": 29.97,
+     "yr_high": 721.22,
+     "yr_low": 455.91,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 587.89,
+      "change_pct": -4.22,
+      "time": "2026-11-25T09:30:01.447-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-08-02",
+     "revenue": 47982000000,
+     "revenue_growth_yoy_pct": 8.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 10.2,
+     "eps_diluted": 18.0,
+     "ocf": 7245000000,
+     "fcf": 6021000000,
+     "fcf_margin_pct": 12.5
+    }
+   },
+   {
+    "ticker": "PDD",
+    "name": "PDD Holdings",
+    "industry": "Broadline Retail",
+    "our_recap": {
+     "title": "PDD Holdings (PDD) Misses Q3 Revenue Estimates but Beats on Profit as It Cuts Marketing",
+     "path": "/news/2026-11-19/pdd-holdings-pdd-misses-q3-revenue-estimates-but-beats-on-profit-as-it-cuts-marketing/",
+     "date": "2026-11-19"
+    },
+    "quote": {
+     "price": 85.41,
+     "change_pct": -2.08,
+     "prev_close": 87.22,
+     "time": "2026-11-25T10:30:06.216-0500",
+     "mktcap": "121.572B",
+     "pe": 9.15,
+     "fpe": 6.96,
+     "yr_high": 125.36,
+     "yr_low": 71.94,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 86.09,
+      "change_pct": -1.3,
+      "time": "2026-11-25T09:30:00.529-0500"
+     }
+    },
+    "ttm": {}
+   },
+   {
+    "ticker": "MDT",
+    "name": "Medtronic",
+    "industry": "Health Care Equipment",
+    "our_recap": {
+     "title": "Medtronic (MDT) Q2 Revenue Misses as Heart Devices Grow 10% and It Holds Its Forecast",
+     "path": "/news/2026-11-24/medtronic-mdt-q2-revenue-misses-as-heart-devices-grow-10-and-it-holds-its-forecast/",
+     "date": "2026-11-24"
+    },
+    "quote": {
+     "price": 94.83,
+     "change_pct": -1.36,
+     "prev_close": 96.13,
+     "time": "2026-11-25T10:30:00.278-0500",
+     "mktcap": "121.297B",
+     "pe": 18.23,
+     "fpe": 15.47,
+     "yr_high": 106.33,
+     "yr_low": 73.31,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 96.06,
+      "change_pct": -0.07,
+      "time": "2026-11-25T08:55:54.332-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 37541000000,
+     "revenue_growth_yoy_pct": 9.8,
+     "gross_margin_pct": 65.0,
+     "operating_margin_pct": 18.1,
+     "net_margin_pct": 13.9,
+     "eps_diluted": 4.07,
+     "ocf": 8035000000,
+     "fcf": 6132000000,
+     "fcf_margin_pct": 16.3
+    }
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "our_recap": {
+     "title": "Hewlett Packard Enterprise (HPE) Beats Q4 Estimates as Server Sales Nearly Double",
+     "path": "/news/2026-11-23/hewlett-packard-enterprise-hpe-beats-q4-estimates-as-server-sales-nearly-double/",
+     "date": "2026-11-23"
+    },
+    "quote": {
+     "price": 38.68,
+     "change_pct": -3.76,
+     "prev_close": 40.19,
+     "time": "2026-11-25T10:30:03.298-0500",
+     "mktcap": "50.903B",
+     "pe": 12.6,
+     "fpe": 7.55,
+     "yr_high": 73.56,
+     "yr_low": 19.84,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 37.62,
+      "change_pct": -6.39,
+      "time": "2026-11-25T09:30:00.797-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 41871000000,
+     "revenue_growth_yoy_pct": 26.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 6.2,
+     "net_margin_pct": 6.7,
+     "eps_diluted": 1.96,
+     "ocf": 6694000000,
+     "fcf": 4156000000,
+     "fcf_margin_pct": 9.9
+    }
+   },
+   {
+    "ticker": "WDAY",
+    "name": "Workday",
+    "industry": "Application Software",
+    "our_recap": {
+     "title": "Workday (WDAY) Beats Q3 Estimates but Guides Subscription Growth Down to 10%",
+     "path": "/news/2026-11-24/workday-wday-beats-q3-estimates-but-guides-subscription-growth-down-to-10/",
+     "date": "2026-11-24"
+    },
+    "quote": {
+     "price": 182.27,
+     "change_pct": 1.7,
+     "prev_close": 179.23,
+     "time": "2026-11-25T10:30:01.064-0500",
+     "mktcap": "43.927B",
+     "pe": 35.72,
+     "fpe": 14.46,
+     "yr_high": 236.8,
+     "yr_low": 110.36,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 168.42,
+      "change_pct": -6.03,
+      "time": "2026-11-25T09:27:52.096-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-10-31",
+     "revenue": 10428000000,
+     "revenue_growth_yoy_pct": 13.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 11.1,
+     "net_margin_pct": 11.9,
+     "eps_diluted": 4.95,
+     "ocf": 3228000000,
+     "fcf": 2985000000,
+     "fcf_margin_pct": 28.6
+    }
+   },
+   {
+    "ticker": "ZS",
+    "name": "Zscaler",
+    "industry": "Systems Software",
+    "our_recap": {
+     "title": "Zscaler (ZS) Beats Q1 Estimates as Growth Slows to 20% and Drops Its Forecast for CrowdStrike",
+     "path": "/news/2026-11-24/zscaler-zs-beats-q1-estimates-as-growth-slows-to-20-and-drops-its-forecast-for-crowdstrike/",
+     "date": "2026-11-24"
+    },
+    "quote": {
+     "price": 216.47,
+     "change_pct": -6.54,
+     "prev_close": 231.62,
+     "time": "2026-11-25T10:30:06.450-0500",
+     "mktcap": "35.529B",
+     "pe": -441.51,
+     "fpe": 42.68,
+     "yr_high": 291.8,
+     "yr_low": 114.63,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 222.29,
+      "change_pct": -4.03,
+      "time": "2026-11-25T09:30:00.606-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 3352523000,
+     "revenue_growth_yoy_pct": 25.4,
+     "gross_margin_pct": 76.8,
+     "operating_margin_pct": -4.0,
+     "net_margin_pct": -1.9,
+     "eps_diluted": -0.39,
+     "ocf": 1129654000,
+     "fcf": 852350000,
+     "fcf_margin_pct": 25.4
+    }
+   },
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "industry": "Technology Hardware, Storage & Peripherals",
+    "our_recap": {
+     "title": "HP (HPQ) Beats Q4 Estimates on Tariff Refunds as PC Units Fall 29%",
+     "path": "/news/2026-11-24/hp-hpq-beats-q4-estimates-on-tariff-refunds-as-pc-units-fall-29/",
+     "date": "2026-11-24"
+    },
+    "quote": {
+     "price": 31.05,
+     "change_pct": 11.11,
+     "prev_close": 27.94,
+     "time": "2026-11-25T10:30:03.701-0500",
+     "mktcap": "27.996B",
+     "pe": 11.84,
+     "fpe": 9.93,
+     "yr_high": 36.23,
+     "yr_low": 17.56,
+     "ext": {
+      "session": "PRE_MKT",
+      "price": 30.0,
+      "change_pct": 7.37,
+      "time": "2026-11-25T09:30:01.290-0500"
+     }
+    },
+    "ttm": {
+     "end": "2026-07-31",
+     "revenue": 59162000000,
+     "revenue_growth_yoy_pct": 8.1,
+     "gross_margin_pct": 19.9,
+     "operating_margin_pct": 5.4,
+     "net_margin_pct": 4.1,
+     "eps_diluted": 2.62,
+     "ocf": 4668000000,
+     "fcf": 3881000000,
+     "fcf_margin_pct": 6.6
+    }
+   }
+  ]
+ }
+}

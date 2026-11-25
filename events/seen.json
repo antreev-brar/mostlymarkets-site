@@ -1188,6 +1188,13 @@
 "theme": "dividend-payers",
 "tickers": []
 },
+"list-2026-11-25-2": {
+"created": "2026-11-25T10:30:14-05:00",
+"day": "2026-11-25",
+"kind": "list",
+"theme": "after-earnings",
+"tickers": []
+},
 "macro-2026-11-04": {
 "created": "2026-11-04T09:01:07-05:00",
 "day": "2026-11-04",
