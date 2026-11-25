@@ -2724,6 +2724,14 @@
 "ACN"
 ]
 },
+"news-ADI-2026-11-25-analog-devices-adi-takes-a-major-beating": {
+"created": "2026-11-25T04:01:09-05:00",
+"day": "2026-11-25",
+"kind": "news",
+"tickers": [
+"ADI"
+]
+},
 "news-AMAT-2026-11-10-amtech-intel-applied-materials-amd-and-k": {
 "created": "2026-11-10T00:01:32-05:00",
 "day": "2026-11-10",
@@ -2790,6 +2798,12 @@
 },
 "news-AMZN-2026-11-25-amazon-to-launch-amazon-autos-in-uk-in-e": {
 "created": "2026-11-25T02:01:13-05:00",
+"day": "2026-11-25",
+"kind": "news",
+"outcome": "already-written"
+},
+"news-AMZN-2026-11-25-meta-and-amazon-discuss-ending-muse-shop": {
+"created": "2026-11-25T04:01:09-05:00",
 "day": "2026-11-25",
 "kind": "news",
 "outcome": "already-written"
@@ -4339,6 +4353,12 @@
 "tickers": [
 "TSLA"
 ]
+},
+"news-TSLA-2026-11-25-eu-postpones-discussion-to-approve-tesla": {
+"created": "2026-11-25T04:01:09-05:00",
+"day": "2026-11-25",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-TSM-2026-11-10-tsmc-s-october-sales-jump-as-global-chip": {
 "created": "2026-11-10T02:01:04-05:00",
