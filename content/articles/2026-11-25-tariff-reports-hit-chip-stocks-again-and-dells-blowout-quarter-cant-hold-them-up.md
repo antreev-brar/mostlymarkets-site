@@ -17,6 +17,7 @@ cover_brief = "A busy maximalist cartoon of a crowded old canal lock on a grey d
 cover_alt = "A cartoon of a CHIPS barge dropping as a canal lock drains, under a TARIFFS banner on the footbridge"
 cover_text = ["CHIPS", "TARIFFS"]
 sources = [
+  "https://www.investing.com/news/stock-market-news/deere-forecasts-fiscal-2027-net-income-below-estimates-5050370",
   "https://www.investing.com/news/economy-news/nasdaq-futures-slide-over-2-on-fresh-us-tariff-concerns-inflation-data-in-focus-5050138",
   "https://cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
   "https://invezz.com/news/2026/11/25/nasdaq-futures-today-pce-trump-tariffs-dell-november-25/",
@@ -125,7 +126,7 @@ President Trump told the New York Post that Huang should not plead the Fifth and
 
 All times ET. Markets close on Thursday, 26 November, for Thanksgiving and at 1 p.m. on Friday.
 
-- **Wednesday, 25 November, before the open:** Deere ($DE) reported fourth-quarter net income of **$3.89 a share**, below the $4.07 Zacks expected, on sales down 2% to $12.1 billion, and forecast fiscal 2027 net income of $4.50 billion to $5.25 billion, its release said. The stock is down 3.9% before the open ([our preview](/news/2026-11-24/deere-de-reports-earnings-tomorrow-what-to-watch/); recap to follow).
+- **Wednesday, 25 November, before the open:** Deere ($DE) reported fourth-quarter net income of **$3.89 a share**, below the $4.07 Zacks expected, on sales down 2% to $12.1 billion, and forecast fiscal 2027 net income of $4.50 billion to $5.25 billion, below the $5.91 billion analysts expected, according to LSEG data cited by Reuters. The stock is down 3.9% before the open ([our recap](/news/2026-11-25/deere-de-misses-q4-estimates-as-big-farm-sales-fall-15-but-sees-a-2027-recovery/)).
 - **Wednesday, 8:30 a.m.:** October PCE inflation. RBC expects headline and core prices up 0.3% on the month, taking the yearly rates to 3.8% and 3.3%, Coinotag and CoinCentral reported. Fed funds futures price a December hike at about 95% to near 100%.
 - **This week:** the tariff announcement could come at any time, Reuters reported. Black Friday trading is a half day.
 - **Later:** OPEC+ meets on 29 November, Huang's House interview is on 1 December and the Fed decides on 9 December.

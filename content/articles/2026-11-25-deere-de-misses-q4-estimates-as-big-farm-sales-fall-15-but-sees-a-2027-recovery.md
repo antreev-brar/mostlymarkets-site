@@ -1,6 +1,6 @@
 +++
-title = "Deere (DE) Misses Q4 Estimates as Big-Farm Sales Fall 15%, but Sees a 2027 Recovery"
-dek = "Deere earned $3.89 a share against the $4.03 expected as large-farm machine sales fell 15%, and forecast 2027 net income of $4.50 billion to $5.25 billion. The stock fell 3.9% before the open."
+title = "Deere (DE) Misses Q4 Estimates and Guides 2027 Profit Below Forecasts as Big-Farm Sales Fall 15%"
+dek = "Deere earned $3.89 a share against the $4.03 expected as big-farm sales fell 15%, and forecast 2027 net income of $4.50 billion to $5.25 billion, short of the $5.91 billion expected. The stock fell 3.9% early."
 type = "earnings-recap"
 published = 2026-11-25T06:32:36-05:00
 author = "theo-park"
@@ -14,6 +14,8 @@ cover_brief = "A busy maximalist cartoon of a crowded old grain elevator yard at
 cover_alt = "A cartoon of a DEERE combine tipping into a muddy ditch under a BIG AG DOWN 15% banner as a small lawn tractor zips past"
 cover_text = ["DEERE", "BIG AG DOWN 15%"]
 sources = [
+  "https://www.investing.com/news/stock-market-news/deere-forecasts-fiscal-2027-net-income-below-estimates-5050370",
+  "https://piqmarkets.com/story/deere-forecasts-fiscal-2027-net-income-below-analyst-estimates",
   "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm",
   "https://www.prnewswire.com/news-releases/deere-reports-net-income-of-1-051-billion-for-fourth-quarter-4-860-billion-for-fiscal-year-302950434.html",
   "https://www.investing.com/news/earnings/deere-stock-slides-as-q4-earnings-miss-estimates-despite-revenue-beat-5050377",
@@ -23,7 +25,7 @@ sources = [
 ]
 +++
 
-Deere ($DE) said before the open on Wednesday that it earned **$3.89 a share** in its fiscal fourth quarter, below the $4.03 consensus cited by Investing.com and the $4.07 Zacks had, and down from $3.93 a year earlier. Net sales and revenues fell 2% to $12.12 billion as sales of big farm machines dropped 15%. The stock was down 3.9% at $589.87 before the open as of 6:16 a.m. ET, in our data, after falling 3.0% on Tuesday.
+Deere ($DE) said before the open on Wednesday that it earned **$3.89 a share** in its fiscal fourth quarter, below the $4.03 consensus cited by Investing.com and the $4.07 Zacks had, and down from $3.93 a year earlier. Net sales and revenues fell 2% to $12.12 billion as sales of big farm machines dropped 15%, and its 2027 profit forecast fell short of estimates. The stock was down 3.9% at $589.87 before the open as of 6:16 a.m. ET, in our data, after falling 3.0% on Tuesday.
 
 ```chart
 {"kind": "bars", "labels": ["Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "Q4 FY26"],
@@ -39,7 +41,7 @@ Deere (DE) Q4 FY2026 highlights
 - **Equipment net sales:** $10.51 billion, down 0.6%
 - **Production & Precision Ag (large farm machines):** sales down 15% to $4.02 billion; operating margin 10.1%, from 12.7%
 - **Small Ag & Turf:** sales up 10% to $2.70 billion; operating margin 8.6%, from 1.0%
-- **Fiscal 2027 guidance:** net income of $4.50 billion to $5.25 billion, including a $0.25 billion to $0.40 billion pension charge; fiscal 2026 was $4.86 billion
+- **Fiscal 2027 guidance:** net income of $4.50 billion to $5.25 billion vs analyst estimates of $5.91 billion (LSEG), including a $0.25 billion to $0.40 billion pension charge; fiscal 2026 was $4.86 billion
 - **Market value:** $165.5 billion at Tuesday's close
 ```
 
@@ -53,13 +55,13 @@ The finance arm was a drag. Financial Services net income fell 21% to $231 milli
 
 ## The outlook
 
-Deere forecast fiscal 2027 net income of **$4.50 billion to $5.25 billion**. The midpoint, $4.875 billion, is about flat with fiscal 2026's $4.86 billion, but it carries a one-time pension charge of $0.25 billion to $0.40 billion; before that charge, the midpoint is about $5.2 billion, or 7% growth, by our arithmetic.
+Deere forecast fiscal 2027 net income of **$4.50 billion to $5.25 billion**, below the $5.91 billion analysts expected, according to LSEG data cited by Reuters. The midpoint, $4.875 billion, is about flat with fiscal 2026's $4.86 billion, but it carries a one-time pension charge of $0.25 billion to $0.40 billion; before that charge, the midpoint is about $5.2 billion, or 7% growth, by our arithmetic, still about 12% short of the consensus.
 
 Deere expects US and Canadian large-farm machinery sales to rise 5% to 15%, and its own large-ag sales by the same range. "We're seeing early signs of improvement in large agriculture, led by North America," Chief Executive John May said, adding that "continued uncertainty in key end markets" meant a wider range than usual. Europe is forecast flat to down 5%.
 
 ## Our take
 
-Deere's quarter was weaker than expected where it matters most, big-farm machines, but its first 2027 outlook calls the bottom of that cycle. The stock trades at 29.3 times forward earnings, against 19.9 times for its industrial peers, in our data, so the price already assumes the recovery; a range this wide gives it little cover if farm incomes don't turn. The company also booked $383 million of tariff recoveries in fiscal 2026, which won't repeat, and fresh tariff plans reported this morning add a cost question for 2027.
+Deere's quarter was weaker than expected where it matters most, big-farm machines, and its first 2027 outlook calls the bottom of that cycle but not the rebound analysts had pencilled in. The stock trades at 29.3 times forward earnings, against 19.9 times for its industrial peers, in our data, so the price already assumes the recovery; a range this wide gives it little cover if farm incomes don't turn. The company also booked $383 million of tariff recoveries in fiscal 2026, which won't repeat, and fresh tariff plans reported this morning add a cost question for 2027.
 
 ## What the market is telling us
 
