@@ -2,7 +2,7 @@
 title = "Celestica, Arista and Bloom Energy Shares Slide: What Happened"
 dek = "Celestica fell 13.1%, Bloom Energy 11.6% and Arista 8.0% by 10:30 a.m. ET as the AI sell-off hit the companies that build and power data centers."
 type = "why-it-moved"
-published = 2026-11-25T11:32:00-05:00
+published = 2026-11-25T10:32:47-05:00
 author = "dev-malhotra"
 tickers = ["CLS", "BE", "ANET", "APH", "VRT"]
 reason = "Sector move"

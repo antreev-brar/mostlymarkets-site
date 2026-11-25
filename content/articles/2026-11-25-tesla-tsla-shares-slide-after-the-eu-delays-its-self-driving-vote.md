@@ -2,7 +2,7 @@
 title = "Tesla (TSLA) Shares Slide After the EU Delays Its Self-Driving Vote"
 dek = "Tesla fell 5.7% to $362.80 by 10:30 a.m. ET after the EU pushed its vote on Tesla's supervised self-driving software to 15 December, in a falling market."
 type = "why-it-moved"
-published = 2026-11-25T11:22:00-05:00
+published = 2026-11-25T10:32:06-05:00
 author = "marcus-lindqvist"
 tickers = ["TSLA"]
 reason = "Legal or regulatory"

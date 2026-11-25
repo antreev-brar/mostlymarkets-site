@@ -2,7 +2,7 @@
 title = "Lam Research, Applied Materials and ASML Shares Slide: What Happened"
 dek = "Lam fell 9.8%, Applied Materials 8.4% and ASML 6.3% by 10:15 a.m. ET as the chip rout met a US bill that would curb tool sales to China."
 type = "why-it-moved"
-published = 2026-11-25T11:02:00-05:00
+published = 2026-11-25T10:30:25-05:00
 author = "dev-malhotra"
 tickers = ["LRCX", "AMAT", "ASML", "TER", "KLAC"]
 reason = "Sector move"

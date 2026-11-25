@@ -2,7 +2,7 @@
 title = "Micron, Astera Labs and Credo Shares Slide: What Happened"
 dek = "Micron fell 9.8%, Astera Labs 9.8% and Credo 10.5% by 10:15 a.m. ET as the AI chip rout ran into a third day on new tariff plans and hotter inflation."
 type = "why-it-moved"
-published = 2026-11-25T10:52:00-05:00
+published = 2026-11-25T10:29:30-05:00
 author = "dev-malhotra"
 tickers = ["MU", "ALAB", "CRDO", "NVDA", "ARM"]
 reason = "Sector move"

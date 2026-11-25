@@ -2,7 +2,7 @@
 title = "Why Oracle (ORCL) Stock Is Down Today"
 dek = "Oracle fell 8.0% to $100.72 by 10:15 a.m. ET, below any close in the past year, as the cost of insuring its debt hit a record 356 basis points."
 type = "why-it-moved"
-published = 2026-11-25T11:12:00-05:00
+published = 2026-11-25T10:31:17-05:00
 author = "marcus-lindqvist"
 tickers = ["ORCL", "CRWV", "GOOGL"]
 reason = "Sector move"
