@@ -1,0 +1,90 @@
+{
+ "id": "news-KHC-2026-11-26-kraft-heinz-khc-climbed-but-what-is-draw",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-26T06:10:01-05:00",
+ "expires": "2026-11-26T16:10:01-05:00",
+ "tickers": [
+  "KHC"
+ ],
+ "headline_hint": "Kraft Heinz: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-26T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Kraft Heinz (KHC) Climbed, But What Is Drawing Fresh Attention?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3hKMlhKM3lDSGlIOEVWMTBJbmt0UmJtUU1Zd3BqZWsyYW5Td1I5aUFYbDc3eS1OSElFZFFUZklQSmRKLVpSTHZJU3JUdERlVTZ4dk5TRlhhbXNQcm5XQm5TWkdOUDMzcGRRUXJVNUI4RlNhM1FtTnlrb1lWZFlLRFFseGR3Vl9kWDVacTBha1kzbzFIcDkzalVNRC0?oc=5",
+    "published": "2026-11-26T03:09:35-05:00",
+    "also": []
+   },
+   {
+    "title": "Kraft Heinz (KHC) Stock Looks Fairly Valued On Its Sales Base",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdDVRbnIwNTRLdkFQM3VjR3M3UTBEaVhLZllHWndUX3dzMWFfNWgtcTh0XzN3WVZOTDRZUGc1ellyVFNmLWVjYWhCZEFKZk12ZDMzdDNtQmVUR1NTNDA2ZmVtVGxqYTJua05OT2lXZjlPSi05WGxCOWh2QVRuY0dqSWxQWmowNnA3SlRzcVBmOFVzckU5R0Zz?oc=5",
+    "published": "2026-11-26T02:14:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 26.51,
+   "change_pct": 3.68,
+   "prev_close": 25.57,
+   "time": "2026-11-25",
+   "mktcap": "31.383B",
+   "pe": -9.06,
+   "fpe": 13.58,
+   "yr_high": 28.09,
+   "yr_low": 21.04,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 26.48,
+    "change_pct": -0.11,
+    "time": "2026-11-25"
+   }
+  },
+  "facts": {
+   "ticker": "KHC",
+   "name": "Kraft Heinz",
+   "date": "2026-11-25",
+   "close": 26.51,
+   "prev_close": 25.57,
+   "change_pct": 3.68,
+   "moves_over_5pct_last_year": 3,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 8,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-04",
+    "change_pct": 3.75
+   },
+   "ytd_pct": 9.32,
+   "return_1m_pct": 10.18,
+   "return_6m_pct": 8.34,
+   "return_1y_pct": 5.07,
+   "high_52w": {
+    "close": 27.62,
+    "date": "2026-07-29"
+   },
+   "low_52w": {
+    "close": 21.21,
+    "date": "2026-03-23"
+   },
+   "pct_below_52w_high": 4.02,
+   "thousand_dollars_5y_ago_now": 753,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 17670420,
+   "volume_vs_20d_avg": 1.15,
+   "sentences": [
+    "Kraft Heinz's shares moved 5% or more on 3 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 4 November 2026, when the stock rose 3.8%.",
+    "The stock is up 9.3% this year, and at $26.51 it sits 4.0% below its 52-week closing high of $27.62 from 29 July 2026.",
+    "$1,000 invested in Kraft Heinz five years ago would be worth $753 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-16/3-under-50-stocks-wed-skip-and-1-we-like-draftkings-figma-kraft-heinz-and-celsius/"
+  ]
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "news-AVGO-2026-11-26-broadcom-sinks-15-in-a-week-to-a-52-week",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-26T06:10:01-05:00",
+ "expires": "2026-11-26T16:10:01-05:00",
+ "tickers": [
+  "AVGO"
+ ],
+ "headline_hint": "Broadcom: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-26T06:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Broadcom: The Google Scare Is Overdone",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdUF3VUlRdS04S09Pd1UwaWlMaXdtX2gyREFGQ1MyTmNEa19tT2J6MnctTEl5ejZqdjFaMkhfdVhMVTdzSV9KTFBQVFpBZlQza05fenQzWVdCWlMzWndoOXhFci0xNUJqdmJsVUVEaU12anR1cTlLcktQWTBMVTRIY3EwTTk?oc=5",
+    "published": "2026-11-26T04:37:54-05:00",
+    "also": []
+   },
+   {
+    "title": "Broadcom Sinks 15% in a Week to a 52-Week Low as Google Reportedly Cuts TPU Orders. Is the Selling Overdone?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZkZ1eUxPVzY3dWlyeXNlRFprblBwZ0VLaGxUYVBXNllpejdMc19CbDdkMnhKWFMzQlVUanZzUndwZjJNSm9LZkdCWFh0WHdrc19VZzJ0cnByWk9Uc2ZicTYtZUthT0dpM3gzenRxM2t5cXhwamFDMlhvSFJxWnJUT043UXU1LWJla1o1b0Y2Sm5FWm50?oc=5",
+    "published": "2026-11-26T03:30:34-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 300.86,
+   "change_pct": -0.07,
+   "prev_close": 301.08,
+   "time": "2026-11-25",
+   "mktcap": "1.436T",
+   "pe": 38.41,
+   "fpe": 17.37,
+   "yr_high": 495.0,
+   "yr_low": 278.0,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 304.0,
+    "change_pct": 1.04,
+    "time": "2026-11-25"
+   }
+  },
+  "facts": {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "date": "2026-11-25",
+   "close": 300.86,
+   "prev_close": 301.08,
+   "change_pct": -0.07,
+   "moves_over_5pct_last_year": 19,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 245,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-24",
+    "change_pct": -3.98
+   },
+   "ytd_pct": -13.07,
+   "return_1m_pct": -12.11,
+   "return_6m_pct": -29.47,
+   "return_1y_pct": -20.4,
+   "high_52w": {
+    "close": 481.57,
+    "date": "2026-06-02"
+   },
+   "low_52w": {
+    "close": 291.53,
+    "date": "2026-11-05"
+   },
+   "pct_below_52w_high": 37.53,
+   "thousand_dollars_5y_ago_now": 5385,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 34349550,
+   "volume_vs_20d_avg": 1.08,
+   "sentences": [
+    "Broadcom's shares moved 5% or more on 19 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 24 November 2026, when the stock fell 4.0%.",
+    "The stock is down 13.1% this year, and at $300.86 it sits 37.5% below its 52-week closing high of $481.57 from 2 June 2026.",
+    "$1,000 invested in Broadcom five years ago would be worth $5,385 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+   "/news/2026-11-24/2-ai-infrastructure-stocks-we-like-and-1-wed-skip-broadcom-lam-research-and-coherent/",
+   "/news/2026-11-23/nvidias-crisis-has-moved-from-its-boss-to-its-books-what-the-evidence-says/"
+  ]
+ }
+}
