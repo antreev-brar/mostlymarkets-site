@@ -1,0 +1,551 @@
+{
+ "id": "daily-2026-11-26",
+ "kind": "daily",
+ "story_type": "daily",
+ "priority": 96,
+ "created": "2026-11-26T06:30:14-05:00",
+ "expires": "2026-11-26T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Mostly Markets Daily: <the story while markets are shut>",
+ "instructions": "Markets are closed today (Thursday 26 November). Tell the story Wall Street is chewing on and set up the next session: a narrative lede, then 6 to 8 takes, each one claim with one chart or stat block, What's next and The numbers. Follow the daily template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-26T06:30:09-05:00",
+ "pack": {
+  "markets": {
+   ".SPX": {
+    "price": 7182.78,
+    "change": -18.31,
+    "change_pct": -0.25,
+    "prev_close": 7182.78,
+    "open": 7060.33,
+    "high": 7199.31,
+    "low": 6970.11,
+    "volume": 0,
+    "time": "2026-11-25",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 7844.52,
+    "yr_low": 6316.91,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "S&P 500"
+   },
+   ".IXIC": {
+    "price": 23585.802,
+    "change": -147.733,
+    "change_pct": -0.62,
+    "prev_close": 23585.802,
+    "open": 22948.482,
+    "high": 23627.452,
+    "low": 22632.396,
+    "volume": 1775854598,
+    "time": "2026-11-25",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 27722.75,
+    "yr_low": 20690.25,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Nasdaq Composite"
+   },
+   ".DJI": {
+    "price": 50182.95,
+    "change": 164.25,
+    "change_pct": 0.33,
+    "prev_close": 50182.95,
+    "open": 49469.86,
+    "high": 50395.24,
+    "low": 48913.74,
+    "volume": 754711074,
+    "time": "2026-11-25",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 54744.33,
+    "yr_low": 45057.28,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Dow Jones Industrial Average"
+   },
+   ".RUT": {
+    "price": 2704.061,
+    "change": 19.119,
+    "change_pct": 0.71,
+    "prev_close": 2704.061,
+    "open": 2662.546,
+    "high": 2710.051,
+    "low": 2623.776,
+    "volume": 0,
+    "time": "2026-11-25",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 3069.71,
+    "yr_low": 2404.99,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Russell 2000"
+   },
+   ".VIX": {
+    "price": 27.06,
+    "change": -1.23,
+    "change_pct": -4.35,
+    "prev_close": 28.29,
+    "open": 27.18,
+    "high": 27.54,
+    "low": 26.59,
+    "volume": 0,
+    "time": "2026-11-26T06:30:01.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 35.3,
+    "yr_low": 13.38,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "VIX"
+   },
+   "US10Y": {
+    "price": 4.864,
+    "change": -0.038,
+    "change_pct": -0.7752,
+    "prev_close": 4.902,
+    "open": 4.924,
+    "high": 4.93,
+    "low": 4.799,
+    "volume": 0,
+    "time": "2026-11-25T17:05:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.37,
+    "yr_low": 3.93,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "10-year Treasury yield"
+   },
+   "US2Y": {
+    "price": 4.65,
+    "change": -0.021,
+    "change_pct": 0.043,
+    "prev_close": 4.671,
+    "open": 4.677,
+    "high": 4.681,
+    "low": 4.577,
+    "volume": 0,
+    "time": "2026-11-25T17:05:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5.03,
+    "yr_low": 3.37,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "2-year Treasury yield"
+   },
+   "@CL.1": {
+    "price": 84.37,
+    "change": 0.69,
+    "change_pct": 0.82,
+    "prev_close": 83.68,
+    "open": 84.09,
+    "high": 85.23,
+    "low": 83.16,
+    "volume": 48821,
+    "time": "2026-11-26T06:20:05.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 119.48,
+    "yr_low": 54.98,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "WTI crude oil"
+   },
+   "@LCO.1": {
+    "price": 94.98,
+    "change": 0.37,
+    "change_pct": 0.39,
+    "prev_close": 94.61,
+    "open": 94.6,
+    "high": 96.2,
+    "low": 93.48,
+    "volume": 31218,
+    "time": "2026-11-26T12:20:05.000+0100",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 126.41,
+    "yr_low": 58.72,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Brent crude oil"
+   },
+   "@GC.1": {
+    "price": 3563.7,
+    "change": 27.9,
+    "change_pct": 0.79,
+    "prev_close": 3535.8,
+    "open": 3590.3,
+    "high": 3604.9,
+    "low": 3549.9,
+    "volume": 7056,
+    "time": "2026-11-26T06:18:00.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 5586.2,
+    "yr_low": 3502.9,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Gold"
+   },
+   "BTC.CM=": {
+    "price": 60563.0,
+    "change": 567.04,
+    "change_pct": 0.95,
+    "prev_close": 59995.96,
+    "open": 60213.8,
+    "high": 61419.84,
+    "low": 59862.93,
+    "volume": 0,
+    "time": "2026-11-26T06:30:06.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 97915.9,
+    "yr_low": 55142.16,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "Bitcoin"
+   },
+   ".DXY": {
+    "price": 103.775,
+    "change": 0.11,
+    "change_pct": 0.11,
+    "prev_close": 103.665,
+    "open": 103.726,
+    "high": 103.84,
+    "low": 103.667,
+    "volume": 0,
+    "time": "2026-11-26T06:30:08.000-0500",
+    "mktcap": null,
+    "pe": null,
+    "fpe": null,
+    "yr_high": 104.53,
+    "yr_low": 95.55,
+    "dividend_yield": null,
+    "ext": null,
+    "status": "REG_MKT",
+    "name": "US dollar index"
+   }
+  },
+  "session": "2026-11-25",
+  "moves": [
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "close": 31.15,
+    "change_pct": 11.49,
+    "our_stories": [
+     "/news/2026-11-25/stock-market-today-the-dow-erases-a-1100-point-drop-as-tariffs-and-ai-fears-fade-by-the-close/",
+     "/news/2026-11-25/3-stocks-wed-skip-after-their-earnings-and-1-we-like-hp-hpe-deere-and-workday/"
+    ]
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "close": 26.02,
+    "change_pct": 10.25,
+    "our_stories": []
+   },
+   {
+    "ticker": "CHTR",
+    "name": "Charter Communications",
+    "close": 147.27,
+    "change_pct": 8.39,
+    "our_stories": []
+   },
+   {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "close": 343.05,
+    "change_pct": 7.43,
+    "our_stories": []
+   },
+   {
+    "ticker": "CDW",
+    "name": "CDW",
+    "close": 174.97,
+    "change_pct": 6.59,
+    "our_stories": []
+   },
+   {
+    "ticker": "PINS",
+    "name": "Pinterest",
+    "close": 19.71,
+    "change_pct": 6.54,
+    "our_stories": []
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "close": 333.105,
+    "change_pct": 6.44,
+    "our_stories": [
+     "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+     "/daily/2026-11-25/",
+     "/news/2026-11-25/stocks-making-the-biggest-moves-yesterday-analog-devices-hpe-astera-labs-credo-and-coreweave/"
+    ]
+   },
+   {
+    "ticker": "EXE",
+    "name": "Expand Energy",
+    "close": 86.77,
+    "change_pct": 5.75,
+    "our_stories": []
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "close": 185.01,
+    "change_pct": -5.68,
+    "our_stories": [
+     "/news/2026-11-25/lam-research-applied-materials-and-asml-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 73.61,
+    "change_pct": -5.57,
+    "our_stories": []
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "close": 103.88,
+    "change_pct": -5.13,
+    "our_stories": [
+     "/news/2026-11-25/why-oracle-orcl-stock-is-down-today/",
+     "/news/2026-11-25/the-debate-over-ai-debt-is-the-credit-market-right-to-sound-the-alarm/",
+     "/news/2026-11-25/stock-market-today-the-dow-erases-a-1100-point-drop-as-tariffs-and-ai-fears-fade-by-the-close/"
+    ]
+   },
+   {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "close": 23.54,
+    "change_pct": 5.09,
+    "our_stories": []
+   }
+  ],
+  "stories_since": [
+   {
+    "title": "Nvidia (NVDA) Halts Server Shipments to Four Southeast Asian Countries, FT Says",
+    "path": "/news/2026-11-26/nvidia-nvda-halts-server-shipments-to-four-southeast-asian-countries-ft-says/",
+    "type": "brief",
+    "date": "2026-11-26"
+   },
+   {
+    "title": "2 Dividend Stocks We Like and 1 We'd Skip: Pfizer, LyondellBasell and Amcor",
+    "path": "/news/2026-11-25/2-dividend-stocks-we-like-and-1-wed-skip-pfizer-lyondellbasell-and-amcor/",
+    "type": "list",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "3 AI Infrastructure Stocks We Like and 1 We'd Skip: Seagate, Eaton, KLA and Supermicro",
+    "path": "/news/2026-11-25/3-ai-infrastructure-stocks-we-like-and-1-wed-skip-seagate-eaton-kla-and-supermicro/",
+    "type": "list",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "3 Stocks We'd Skip After Their Earnings and 1 We Like: HP, HPE, Deere and Workday",
+    "path": "/news/2026-11-25/3-stocks-wed-skip-after-their-earnings-and-1-we-like-hp-hpe-deere-and-workday/",
+    "type": "list",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "3 Value Stocks We Like and 1 We'd Skip: MetLife, Huntington, Phillips 66 and Strategy",
+    "path": "/news/2026-11-25/3-value-stocks-we-like-and-1-wed-skip-metlife-huntington-phillips-66-and-strategy/",
+    "type": "list",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Allstate (ALL) Says a Three-Day Systems Outage Has Restricted Customer Access",
+    "path": "/news/2026-11-25/allstate-all-says-a-three-day-systems-outage-has-restricted-access-for-customers/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Bristol Myers Squibb's (BMY) Sotyktu Wins 1 of 2 Phase 3 Lupus Trials",
+    "path": "/news/2026-11-25/bristol-myers-squibbs-bmy-sotyktu-wins-1-of-2-phase-3-lupus-trials/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Celestica, Arista and Bloom Energy Shares Slide: What Happened",
+    "path": "/news/2026-11-25/celestica-arista-and-bloom-energy-shares-slide-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Core PCE Inflation Rose to 3.3% in October, a Tenth Above Forecasts, Before a Fed Hike",
+    "path": "/news/2026-11-25/core-pce-inflation-rose-to-3-3-in-october-a-tenth-above-forecasts-before-a-fed-hike/",
+    "type": "macro",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Deere (DE) Misses Q4 Estimates and Guides 2027 Profit Below Forecasts as Big-Farm Sales Fall 15%",
+    "path": "/news/2026-11-25/deere-de-misses-q4-estimates-as-big-farm-sales-fall-15-but-sees-a-2027-recovery/",
+    "type": "earnings-recap",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Johnson & Johnson (JNJ) Is Up 34% This Year. Is the Business Worth the Premium?",
+    "path": "/news/2026-11-25/johnson-johnson-jnj-is-up-34-this-year-is-the-business-worth-the-premium/",
+    "type": "breakdown",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Judge Halts the FCC's Early Review of Disney's (DIS) ABC Station Licenses",
+    "path": "/news/2026-11-25/judge-halts-the-fccs-early-review-of-disneys-dis-abc-station-licenses/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Lam Research, Applied Materials and ASML Shares Slide: What Happened",
+    "path": "/news/2026-11-25/lam-research-applied-materials-and-asml-shares-slide-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Micron, Astera Labs and Credo Shares Slide: What Happened",
+    "path": "/news/2026-11-25/micron-astera-labs-and-credo-shares-slide-what-happened/",
+    "type": "why-it-moved",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Palo Alto Networks (PANW) Slides After Hours as a Former Executive Alleges Accounting Fraud",
+    "path": "/news/2026-11-25/palo-alto-networks-panw-slides-after-hours-as-a-former-executive-alleges-accounting-fraud/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "S&P Puts Nvidia's (NVDA) AA Rating on Watch for a Downgrade Over Governance",
+    "path": "/news/2026-11-25/sp-puts-nvidias-nvda-aa-rating-on-watch-for-a-downgrade-over-governance/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Starbucks (SBUX) Hires Banks to Sell Its Japan Business, Worth Several Billion Dollars",
+    "path": "/news/2026-11-25/starbucks-sbux-hires-banks-to-sell-its-japan-business-worth-several-billion-dollars/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Stock Market Today: The Dow Erases a 1,100-Point Drop as Tariff and AI Fears Fade by the Close",
+    "path": "/news/2026-11-25/stock-market-today-the-dow-erases-a-1100-point-drop-as-tariffs-and-ai-fears-fade-by-the-close/",
+    "type": "market-wrap",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Stocks Making the Biggest Moves Yesterday: Analog Devices, HPE, Astera Labs, Credo and CoreWeave",
+    "path": "/news/2026-11-25/stocks-making-the-biggest-moves-yesterday-analog-devices-hpe-astera-labs-credo-and-coreweave/",
+    "type": "movers",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Targa Resources (TRGP) Is in Talks to Buy Kinetik, a $9 Billion Permian Pipeline Rival",
+    "path": "/news/2026-11-25/targa-resources-trgp-is-in-talks-to-buy-kinetik-a-9-billion-permian-pipeline-rival/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Tariff Reports Hit Chip Stocks Again, and Dell's Blowout Quarter Can't Hold Them Up",
+    "path": "/daily/2026-11-25/",
+    "type": "daily",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Tesla (TSLA) Shares Slide After the EU Delays Its Self-Driving Vote",
+    "path": "/news/2026-11-25/tesla-tsla-shares-slide-after-the-eu-delays-its-self-driving-vote/",
+    "type": "why-it-moved",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "The Debate Over AI Debt: Is the Credit Market Right to Sound the Alarm?",
+    "path": "/news/2026-11-25/the-debate-over-ai-debt-is-the-credit-market-right-to-sound-the-alarm/",
+    "type": "viewpoints",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Trump Floats a US Stake in Nvidia (NVDA) and Says a Huang Pardon Is 'Always an Option'",
+    "path": "/news/2026-11-25/trump-floats-a-us-stake-in-nvidia-nvda-and-says-a-huang-pardon-is-always-an-option/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "US Proposes Tariffs on 14 Trading Partners, With 20% on China and a 15% Cap for Taiwan",
+    "path": "/news/2026-11-25/us-proposes-tariffs-on-14-trading-partners-with-20-on-china-and-a-15-cap-for-taiwan/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "US Readies New Tariffs on 16 Economies, and Nasdaq Futures Fall 2.2%",
+    "path": "/news/2026-11-25/us-readies-new-tariffs-on-16-economies-and-nasdaq-futures-fall-2-2/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "US Third-Quarter GDP Growth Is Revised Up to 4.3% From 3.4%",
+    "path": "/news/2026-11-25/us-third-quarter-gdp-growth-is-revised-up-to-4-3-from-3-4/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Vertex (VRTX) Slides After Hours as the FDA Delays Its Kidney Drug Decision to February",
+    "path": "/news/2026-11-25/vertex-vrtx-slides-after-hours-as-the-fda-delays-its-kidney-drug-decision-to-february/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Wall Street Is Pricing AI Hardware at Its Peak. Dell's (DELL) Record Didn't Change That",
+    "path": "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+    "type": "narrative",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Walmart's (WMT) Flipkart Loses Its CEO of Nearly 10 Years Ahead of a Planned IPO",
+    "path": "/news/2026-11-25/walmarts-wmt-flipkart-loses-its-ceo-of-nearly-10-years-ahead-of-a-planned-ipo/",
+    "type": "brief",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Why Amazon (AMZN) Stock Is Falling Today",
+    "path": "/news/2026-11-25/why-amazon-amzn-stock-is-falling-today/",
+    "type": "why-it-moved",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Why Oracle (ORCL) Stock Is Down Today",
+    "path": "/news/2026-11-25/why-oracle-orcl-stock-is-down-today/",
+    "type": "why-it-moved",
+    "date": "2026-11-25"
+   }
+  ],
+  "reporting_today": []
+ }
+}
