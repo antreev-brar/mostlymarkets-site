@@ -9,26 +9,6 @@
 "SAP"
 ]
 },
-"basket-application-software-up-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "basket",
-"tickers": [
-"INTU",
-"ADSK",
-"SAP"
-]
-},
-"basket-broadline-retail-up-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "basket",
-"tickers": [
-"AMZN",
-"BABA",
-"MELI"
-]
-},
 "basket-communications-equipment-down-2026-11-13": {
 "created": "2026-11-13T10:15:15-05:00",
 "day": "2026-11-13",
@@ -341,12 +321,6 @@
 "DELL"
 ]
 },
-"breakdown-2026-11-04-1": {
-"created": "2026-11-04T11:01:05-05:00",
-"day": "2026-11-04",
-"kind": "breakdown",
-"tickers": []
-},
 "breakdown-2026-11-05-1": {
 "created": "2026-11-05T11:01:12-05:00",
 "day": "2026-11-05",
@@ -509,12 +483,6 @@
 "kind": "breakdown",
 "tickers": []
 },
-"daily-2026-11-04": {
-"created": "2026-11-04T05:01:57-05:00",
-"day": "2026-11-04",
-"kind": "daily",
-"tickers": []
-},
 "daily-2026-11-05": {
 "created": "2026-11-05T05:02:11-05:00",
 "day": "2026-11-05",
@@ -639,34 +607,6 @@
 "created": "2026-11-25T05:02:32-05:00",
 "day": "2026-11-25",
 "kind": "daily",
-"tickers": []
-},
-"list-2026-11-04-1": {
-"created": "2026-11-04T07:30:15-05:00",
-"day": "2026-11-04",
-"kind": "list",
-"theme": "dividend-payers",
-"tickers": []
-},
-"list-2026-11-04-2": {
-"created": "2026-11-04T10:30:13-05:00",
-"day": "2026-11-04",
-"kind": "list",
-"theme": "after-earnings",
-"tickers": []
-},
-"list-2026-11-04-3": {
-"created": "2026-11-04T13:30:14-05:00",
-"day": "2026-11-04",
-"kind": "list",
-"theme": "profitable-small-caps",
-"tickers": []
-},
-"list-2026-11-04-4": {
-"created": "2026-11-04T16:30:13-05:00",
-"day": "2026-11-04",
-"kind": "list",
-"theme": "under-50",
 "tickers": []
 },
 "list-2026-11-05-1": {
@@ -1215,12 +1155,6 @@
 "theme": "ai-infrastructure",
 "tickers": []
 },
-"macro-2026-11-04": {
-"created": "2026-11-04T09:01:07-05:00",
-"day": "2026-11-04",
-"kind": "macro-check",
-"tickers": []
-},
 "macro-2026-11-05": {
 "created": "2026-11-05T09:01:14-05:00",
 "day": "2026-11-05",
@@ -1310,14 +1244,6 @@
 "day": "2026-11-25",
 "kind": "macro-check",
 "tickers": []
-},
-"move-AAPL-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"AAPL"
-]
 },
 "move-ACHR-2026-11-10": {
 "created": "2026-11-10T10:01:22-05:00",
@@ -1739,14 +1665,6 @@
 "DDOG"
 ]
 },
-"move-DELL-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"DELL"
-]
-},
 "move-DELL-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
@@ -1817,14 +1735,6 @@
 "DKNG"
 ]
 },
-"move-DUOL-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"DUOL"
-]
-},
 "move-FCX-2026-11-18": {
 "created": "2026-11-18T10:01:06-05:00",
 "day": "2026-11-18",
@@ -1841,28 +1751,12 @@
 "FICO"
 ]
 },
-"move-FIX-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"FIX"
-]
-},
 "move-FIX-2026-11-18": {
 "created": "2026-11-18T10:01:06-05:00",
 "day": "2026-11-18",
 "kind": "why-it-moved",
 "tickers": [
 "FIX"
-]
-},
-"move-GEV-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"GEV"
 ]
 },
 "move-GEV-2026-11-09": {
@@ -1879,14 +1773,6 @@
 "kind": "why-it-moved",
 "tickers": [
 "GEV"
-]
-},
-"move-GOOGL-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"GOOGL"
 ]
 },
 "move-GOOGL-2026-11-23": {
@@ -1943,14 +1829,6 @@
 "kind": "why-it-moved",
 "tickers": [
 "IONQ"
-]
-},
-"move-ISRG-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"ISRG"
 ]
 },
 "move-KDP-2026-11-12": {
@@ -2023,14 +1901,6 @@
 "kind": "why-it-moved",
 "tickers": [
 "MRNA"
-]
-},
-"move-MSFT-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"MSFT"
 ]
 },
 "move-MSTR-2026-11-12": {
@@ -2273,14 +2143,6 @@
 "PLTR"
 ]
 },
-"move-PWR-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"PWR"
-]
-},
 "move-RKLB-2026-11-13": {
 "created": "2026-11-13T10:01:17-05:00",
 "day": "2026-11-13",
@@ -2443,14 +2305,6 @@
 "TEM"
 ]
 },
-"move-TRMB-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "why-it-moved",
-"tickers": [
-"TRMB"
-]
-},
 "move-TSLA-2026-11-05": {
 "created": "2026-11-05T10:01:09-05:00",
 "day": "2026-11-05",
@@ -2567,12 +2421,6 @@
 "WDC"
 ]
 },
-"movers-2026-11-03": {
-"created": "2026-11-04T09:01:07-05:00",
-"day": "2026-11-04",
-"kind": "movers",
-"tickers": []
-},
 "movers-2026-11-04": {
 "created": "2026-11-05T09:01:14-05:00",
 "day": "2026-11-05",
@@ -2662,12 +2510,6 @@
 "day": "2026-11-20",
 "kind": "movers",
 "outcome": "already-written"
-},
-"narrative-2026-11-04": {
-"created": "2026-11-04T07:01:07-05:00",
-"day": "2026-11-04",
-"kind": "narrative",
-"tickers": []
 },
 "narrative-2026-11-05": {
 "created": "2026-11-05T07:01:14-05:00",
@@ -2913,30 +2755,6 @@
 "kind": "news",
 "tickers": [
 "AMAT"
-]
-},
-"news-AMD-2026-11-04-amd-s-openai-meta-chip-deals-trigger-1-b": {
-"created": "2026-11-04T00:01:51-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"AMD"
-]
-},
-"news-AMD-2026-11-04-amd-shares-jump-as-ai-driven-data-center": {
-"created": "2026-11-04T05:01:57-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"AMD"
-]
-},
-"news-AMD-2026-11-04-amd-super-micro-shares-jump-after-hours": {
-"created": "2026-11-04T01:01:17-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"AMD"
 ]
 },
 "news-AMD-2026-11-20-anthropic-shares-fall-nearly-6-in-premar": {
@@ -3205,22 +3023,6 @@
 "kind": "news",
 "outcome": "already-written"
 },
-"news-BP-2026-11-04-bp-appoints-emma-lewis-to-lead-downstrea": {
-"created": "2026-11-04T03:01:07-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"BP"
-]
-},
-"news-BP-2026-11-04-bp-names-emma-lewis-as-head-of-downstrea": {
-"created": "2026-11-04T04:01:08-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"BP"
-]
-},
 "news-BP-2026-11-05-bp-sells-5-stake-in-aker-bp-for-1-billio": {
 "created": "2026-11-05T04:02:59-05:00",
 "day": "2026-11-05",
@@ -3410,12 +3212,6 @@
 "tickers": [
 "CRM"
 ]
-},
-"news-CRWD-2026-11-04-crowdstrike-extends-the-agentic-soc-to-d": {
-"created": "2026-11-04T05:30:13-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"outcome": "already-written"
 },
 "news-CRWD-2026-11-19-crowdstrike-crwd-is-getting-investor-att": {
 "created": "2026-11-19T00:01:55-05:00",
@@ -4195,29 +3991,11 @@
 "kind": "news",
 "outcome": "already-written"
 },
-"news-NVO-2026-11-04-european-shares-rise-as-democrats-take-u": {
-"created": "2026-11-04T05:01:57-05:00",
-"day": "2026-11-04",
+"news-NVDA-2026-11-26-kioxia-and-nvidia-collaborate-to-expand": {
+"created": "2026-11-26T00:02:04-05:00",
+"day": "2026-11-26",
 "kind": "news",
-"tickers": [
-"NVO"
-]
-},
-"news-NVO-2026-11-04-novo-nordisk-q3-adj-operating-profit-inc": {
-"created": "2026-11-04T03:01:07-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"NVO"
-]
-},
-"news-NVO-2026-11-04-novo-nordisk-s-wegovy-pill-beats-forecas": {
-"created": "2026-11-04T02:01:14-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"NVO"
-]
+"outcome": "already-written"
 },
 "news-NVO-2026-11-13-novo-seeks-fda-ema-approval-for-once-dai": {
 "created": "2026-11-13T06:15:13-05:00",
@@ -4251,26 +4029,12 @@
 "NVS"
 ]
 },
-"news-ORCL-2026-11-04-oracle-abandons-7-billion-tencent-ai-dea": {
-"created": "2026-11-04T01:01:17-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"outcome": "already-written"
-},
 "news-ORCL-2026-11-15-oracle-stock-and-us-ai-data-center-winne": {
 "created": "2026-11-15T15:03:51-05:00",
 "day": "2026-11-15",
 "kind": "news",
 "tickers": [
 "ORCL"
-]
-},
-"news-PANW-2026-11-04-binance-hack-puts-palo-alto-networks-sto": {
-"created": "2026-11-04T00:01:51-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"tickers": [
-"PANW"
 ]
 },
 "news-PFE-2026-11-14-pfizer-innovent-glp-1-drugs-added-to-chi": {
@@ -4448,12 +4212,6 @@
 "tickers": [
 "TMUS"
 ]
-},
-"news-TSLA-2026-11-04-tesla-spacex-shares-take-early-hit-as-mi": {
-"created": "2026-11-04T01:01:17-05:00",
-"day": "2026-11-04",
-"kind": "news",
-"outcome": "already-written"
 },
 "news-TSLA-2026-11-06-is-it-the-end-of-the-cybertruck-elon-mus": {
 "created": "2026-11-06T06:09:20-05:00",
@@ -4745,14 +4503,6 @@
 "CEG"
 ]
 },
-"preview-COP-2026-11-05": {
-"created": "2026-11-04T17:30:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-preview",
-"tickers": [
-"COP"
-]
-},
 "preview-CSCO-2026-11-12": {
 "created": "2026-11-11T17:30:15-05:00",
 "day": "2026-11-11",
@@ -4905,36 +4655,12 @@
 "PDD"
 ]
 },
-"preview-PH-2026-11-05": {
-"created": "2026-11-04T17:30:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-preview",
-"tickers": [
-"PH"
-]
-},
 "preview-SE-2026-11-10": {
 "created": "2026-11-09T17:30:57-05:00",
 "day": "2026-11-09",
 "kind": "earnings-preview",
 "tickers": [
 "SE"
-]
-},
-"preview-SO-2026-11-05": {
-"created": "2026-11-04T17:30:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-preview",
-"tickers": [
-"SO"
-]
-},
-"preview-SONY-2026-11-05": {
-"created": "2026-11-04T17:30:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-preview",
-"tickers": [
-"SONY"
 ]
 },
 "preview-TDG-2026-11-10": {
@@ -4983,21 +4709,6 @@
 "kind": "earnings-preview",
 "tickers": [
 "WMT"
-]
-},
-"previews-2026-11-05": {
-"created": "2026-11-04T17:30:14-05:00",
-"day": "2026-11-04",
-"kind": "preview-roundup",
-"tickers": [
-"ABNB",
-"DUK",
-"MNST",
-"NET",
-"CI",
-"EOG",
-"SPG",
-"APD"
 ]
 },
 "previews-2026-11-06": {
@@ -5064,22 +4775,6 @@
 "ADSK"
 ]
 },
-"recap-AFL-2026-11-04": {
-"created": "2026-11-04T16:30:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"AFL"
-]
-},
-"recap-ALL-2026-11-04": {
-"created": "2026-11-04T16:30:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"ALL"
-]
-},
 "recap-AMAT-2026-11-12": {
 "created": "2026-11-12T16:03:35-05:00",
 "day": "2026-11-12",
@@ -5094,22 +4789,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "APD"
-]
-},
-"recap-APP-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"APP"
-]
-},
-"recap-ARM-2026-11-04": {
-"created": "2026-11-04T17:01:45-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"ARM"
 ]
 },
 "recap-BABA-2026-11-19": {
@@ -5168,14 +4847,6 @@
 "CAH"
 ]
 },
-"recap-CDW-2026-11-04": {
-"created": "2026-11-04T09:45:31-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"CDW"
-]
-},
 "recap-CEG-2026-11-09": {
 "created": "2026-11-09T07:01:04-05:00",
 "day": "2026-11-09",
@@ -5200,28 +4871,12 @@
 "CMI"
 ]
 },
-"recap-COHR-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"COHR"
-]
-},
 "recap-COP-2026-11-05": {
 "created": "2026-11-05T07:15:14-05:00",
 "day": "2026-11-05",
 "kind": "earnings-recap",
 "tickers": [
 "COP"
-]
-},
-"recap-COR-2026-11-04": {
-"created": "2026-11-04T06:45:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"COR"
 ]
 },
 "recap-CRWD-2026-11-23": {
@@ -5246,22 +4901,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "CSCO"
-]
-},
-"recap-CVS-2026-11-04": {
-"created": "2026-11-04T06:45:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"CVS"
-]
-},
-"recap-DDOG-2026-11-04": {
-"created": "2026-11-04T07:15:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"DDOG"
 ]
 },
 "recap-DE-2026-11-25": {
@@ -5328,14 +4967,6 @@
 "ED"
 ]
 },
-"recap-EMR-2026-11-04": {
-"created": "2026-11-04T07:01:07-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"EMR"
-]
-},
 "recap-EOG-2026-11-05": {
 "created": "2026-11-05T16:30:13-05:00",
 "day": "2026-11-05",
@@ -5352,44 +4983,12 @@
 "EVRG"
 ]
 },
-"recap-EW-2026-11-04": {
-"created": "2026-11-04T16:30:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"EW"
-]
-},
-"recap-EXPE-2026-11-04": {
-"created": "2026-11-04T16:01:11-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"EXPE"
-]
-},
 "recap-FERG-2026-11-09": {
 "created": "2026-11-09T07:01:04-05:00",
 "day": "2026-11-09",
 "kind": "earnings-recap",
 "tickers": [
 "FERG"
-]
-},
-"recap-FIS-2026-11-04": {
-"created": "2026-11-04T07:45:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"FIS"
-]
-},
-"recap-GWW-2026-11-04": {
-"created": "2026-11-04T08:01:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"GWW"
 ]
 },
 "recap-HD-2026-11-17": {
@@ -5448,14 +5047,6 @@
 "KEYS"
 ]
 },
-"recap-KHC-2026-11-04": {
-"created": "2026-11-04T07:15:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"KHC"
-]
-},
 "recap-KKR-2026-11-09": {
 "created": "2026-11-09T07:01:04-05:00",
 "day": "2026-11-09",
@@ -5488,14 +5079,6 @@
 "LYV"
 ]
 },
-"recap-MCD-2026-11-04": {
-"created": "2026-11-04T07:15:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"MCD"
-]
-},
 "recap-MCHP-2026-11-05": {
 "created": "2026-11-05T16:30:13-05:00",
 "day": "2026-11-05",
@@ -5504,44 +5087,12 @@
 "MCHP"
 ]
 },
-"recap-MCK-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"MCK"
-]
-},
 "recap-MDT-2026-11-24": {
 "created": "2026-11-24T06:45:14-05:00",
 "day": "2026-11-24",
 "kind": "earnings-recap",
 "tickers": [
 "MDT"
-]
-},
-"recap-MELI-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"MELI"
-]
-},
-"recap-MET-2026-11-04": {
-"created": "2026-11-04T16:30:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"MET"
-]
-},
-"recap-MLM-2026-11-04": {
-"created": "2026-11-04T07:15:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"MLM"
 ]
 },
 "recap-MNST-2026-11-05": {
@@ -5558,14 +5109,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "MRNA"
-]
-},
-"recap-MSI-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"MSI"
 ]
 },
 "recap-NBIS-2026-11-12": {
@@ -5606,14 +5149,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "NVDA"
-]
-},
-"recap-NVO-2026-11-04": {
-"created": "2026-11-04T08:01:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"NVO"
 ]
 },
 "recap-OXY-2026-11-09": {
@@ -5662,22 +5197,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "PPL"
-]
-},
-"recap-Q-2026-11-04": {
-"created": "2026-11-04T06:09:14-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"Q"
-]
-},
-"recap-QCOM-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"QCOM"
 ]
 },
 "recap-RKLB-2026-11-09": {
@@ -5776,14 +5295,6 @@
 "TJX"
 ]
 },
-"recap-TKO-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"TKO"
-]
-},
 "recap-TM-2026-11-04": {
 "created": "2026-11-05T06:09:29-05:00",
 "day": "2026-11-05",
@@ -5798,14 +5309,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "TM"
-]
-},
-"recap-TOST-2026-11-03": {
-"created": "2026-11-04T10:45:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"TOST"
 ]
 },
 "recap-TRGP-2026-11-05": {
@@ -5830,22 +5333,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "TTWO"
-]
-},
-"recap-UBER-2026-11-04": {
-"created": "2026-11-04T07:01:07-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"UBER"
-]
-},
-"recap-VMRK-2026-11-04": {
-"created": "2026-11-04T17:01:45-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"VMRK"
 ]
 },
 "recap-VMRK-2026-11-05": {
@@ -5904,14 +5391,6 @@
 "WSM"
 ]
 },
-"recap-ZBH-2026-11-04": {
-"created": "2026-11-04T09:30:13-05:00",
-"day": "2026-11-04",
-"kind": "earnings-recap",
-"tickers": [
-"ZBH"
-]
-},
 "recap-ZS-2026-11-23": {
 "created": "2026-11-24T12:02:04-05:00",
 "day": "2026-11-24",
@@ -5926,19 +5405,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "ZTS"
-]
-},
-"roundup-2026-11-04-amc": {
-"created": "2026-11-04T17:01:45-05:00",
-"day": "2026-11-04",
-"kind": "earnings-roundup",
-"tickers": [
-"ATO",
-"CPAY",
-"ES",
-"STE",
-"AMCR",
-"PTC"
 ]
 },
 "roundup-2026-11-05-amc": {
@@ -5965,12 +5431,6 @@
 "RL",
 "VTRS"
 ]
-},
-"viewpoints-2026-11-04": {
-"created": "2026-11-04T10:01:17-05:00",
-"day": "2026-11-04",
-"kind": "viewpoints",
-"tickers": []
 },
 "viewpoints-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
@@ -6078,12 +5538,6 @@
 "created": "2026-11-22T12:01:48-05:00",
 "day": "2026-11-22",
 "kind": "week-ahead",
-"tickers": []
-},
-"wrap-2026-11-04": {
-"created": "2026-11-04T16:15:15-05:00",
-"day": "2026-11-04",
-"kind": "market-wrap",
 "tickers": []
 },
 "wrap-2026-11-05": {
