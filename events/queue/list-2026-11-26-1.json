@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-26-1",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-26T08:01:26-05:00",
+ "expires": "2026-11-26T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "3 Under $50 Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Under $50, screened on revenue growth over the last 12 months among stocks under $50 a share with positive free cash flow. Pick 3 to like and 1 to skip from pack.candidates (picks block: like: A, B, C / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-26T08:00:13-05:00",
+ "pack": {
+  "theme": "under-50",
+  "screen": "revenue growth over the last 12 months among stocks under $50 a share with positive free cash flow",
+  "like": 3,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "industry": "Soft Drinks & Non-alcoholic Beverages",
+    "metric": 43.0,
+    "price": 35.63,
+    "pe": 32.57,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 23128000000,
+     "revenue_growth_yoy_pct": 43.0,
+     "gross_margin_pct": 48.0,
+     "operating_margin_pct": 15.6,
+     "net_margin_pct": 7.1,
+     "eps_diluted": 1.09,
+     "ocf": 2932000000,
+     "fcf": 2327000000,
+     "fcf_margin_pct": 10.1
+    }
+   },
+   {
+    "ticker": "CRCL",
+    "name": "Circle Internet Group",
+    "industry": "Transaction & Payment Processing Services",
+    "metric": 25.7,
+    "price": 48.27,
+    "pe": 25.18,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3030568000,
+     "revenue_growth_yoy_pct": 25.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 11.3,
+     "net_margin_pct": 15.3,
+     "eps_diluted": 4.63,
+     "ocf": 772073000,
+     "fcf": 740687000,
+     "fcf_margin_pct": 24.4
+    }
+   },
+   {
+    "ticker": "KEY",
+    "name": "KeyCorp",
+    "industry": "Regional Banks",
+    "metric": 25.1,
+    "price": 20.22,
+    "pe": 11.17,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7974000000,
+     "revenue_growth_yoy_pct": 25.1,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 26.6,
+     "eps_diluted": 1.82,
+     "ocf": 1637000000,
+     "fcf": 1516000000,
+     "fcf_margin_pct": 19.0
+    }
+   },
+   {
+    "ticker": "CSGP",
+    "name": "CoStar Group",
+    "industry": "Real Estate Services",
+    "metric": 20.2,
+    "price": 34.02,
+    "pe": 78.24,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 3674000000,
+     "revenue_growth_yoy_pct": 20.2,
+     "gross_margin_pct": 78.3,
+     "operating_margin_pct": 5.8,
+     "net_margin_pct": 4.9,
+     "eps_diluted": 0.44,
+     "ocf": 617000000,
+     "fcf": 422000000,
+     "fcf_margin_pct": 11.5
+    }
+   },
+   {
+    "ticker": "BIRK",
+    "name": "Birkenstock",
+    "industry": "Footwear",
+    "metric": 14.7,
+    "price": 35.73,
+    "pe": 17.05,
+    "ttm": {
+     "end": "2025-12-31",
+     "revenue": 2137611000,
+     "revenue_growth_yoy_pct": 14.7,
+     "gross_margin_pct": 58.3,
+     "operating_margin_pct": 26.4,
+     "net_margin_pct": 17.7,
+     "eps_diluted": 2.03,
+     "ocf": 367678000,
+     "fcf": 268465000,
+     "fcf_margin_pct": 12.6
+    }
+   },
+   {
+    "ticker": "SNAP",
+    "name": "Snap",
+    "industry": "Interactive Media & Services",
+    "metric": 13.8,
+    "price": 5.04,
+    "pe": -50.55,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 6566716000,
+     "revenue_growth_yoy_pct": 13.8,
+     "gross_margin_pct": 59.1,
+     "operating_margin_pct": -1.8,
+     "net_margin_pct": -2.3,
+     "eps_diluted": -0.09,
+     "ocf": 983055000,
+     "fcf": 776554000,
+     "fcf_margin_pct": 11.8
+    }
+   },
+   {
+    "ticker": "IVZ",
+    "name": "Invesco",
+    "industry": "Asset Management & Custody Banks",
+    "metric": 13.7,
+    "price": 28.1,
+    "pe": -39.62,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7135300000,
+     "revenue_growth_yoy_pct": 13.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": -4.5,
+     "net_margin_pct": -1.2,
+     "eps_diluted": -0.71,
+     "ocf": 1877600000,
+     "fcf": 1777100000,
+     "fcf_margin_pct": 24.9
+    }
+   },
+   {
+    "ticker": "MKC",
+    "name": "McCormick &",
+    "industry": "Packaged Foods & Meats",
+    "metric": 13.2,
+    "price": 49.85,
+    "pe": 9.01,
+    "ttm": {
+     "end": "2026-08-31",
+     "revenue": 7685700000,
+     "revenue_growth_yoy_pct": 13.2,
+     "gross_margin_pct": 39.1,
+     "operating_margin_pct": 13.4,
+     "net_margin_pct": 19.4,
+     "eps_diluted": 5.53,
+     "ocf": 1140800000,
+     "fcf": 925900000,
+     "fcf_margin_pct": 12.0
+    }
+   },
+   {
+    "ticker": "KMI",
+    "name": "Kinder Morgan",
+    "industry": "Oil & Gas Storage & Transportation",
+    "metric": 11.7,
+    "price": 31.69,
+    "pe": 19.67,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 18344000000,
+     "revenue_growth_yoy_pct": 11.7,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 29.0,
+     "net_margin_pct": 19.6,
+     "eps_diluted": 1.62,
+     "ocf": 6733000000,
+     "fcf": 3082000000,
+     "fcf_margin_pct": 16.8
+    }
+   },
+   {
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill",
+    "industry": "Restaurants",
+    "metric": 7.9,
+    "price": 37.4,
+    "pe": 35.05,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 12713477000,
+     "revenue_growth_yoy_pct": 7.9,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 14.1,
+     "net_margin_pct": 10.8,
+     "eps_diluted": 1.07,
+     "ocf": 2347982000,
+     "fcf": 1509930000,
+     "fcf_margin_pct": 11.9
+    }
+   },
+   {
+    "ticker": "NWSA",
+    "name": "News Corp (Class A)",
+    "industry": "Publishing",
+    "metric": 7.8,
+    "price": 26.08,
+    "pe": 23.23,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 9165000000,
+     "revenue_growth_yoy_pct": 7.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": null,
+     "net_margin_pct": 6.8,
+     "eps_diluted": 1.12,
+     "ocf": 1165000000,
+     "fcf": 718000000,
+     "fcf_margin_pct": 7.8
+    }
+   },
+   {
+    "ticker": "CHWY",
+    "name": "Chewy",
+    "industry": "Specialty Retail",
+    "metric": 5.9,
+    "price": 20.47,
+    "pe": 31.29,
+    "ttm": {
+     "end": "2026-08-02",
+     "revenue": 13068700000,
+     "revenue_growth_yoy_pct": 5.9,
+     "gross_margin_pct": 29.9,
+     "operating_margin_pct": 2.5,
+     "net_margin_pct": 2.1,
+     "eps_diluted": 0.66,
+     "ocf": 717200000,
+     "fcf": 568100000,
+     "fcf_margin_pct": 4.3
+    }
+   },
+   {
+    "ticker": "MGM",
+    "name": "MGM Resorts",
+    "industry": "Casinos & Gaming",
+    "metric": 2.6,
+    "price": 34.65,
+    "pe": 13.33,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 17722869000,
+     "revenue_growth_yoy_pct": 2.6,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 7.0,
+     "net_margin_pct": 3.9,
+     "eps_diluted": 2.62,
+     "ocf": 2314061000,
+     "fcf": 1399900000,
+     "fcf_margin_pct": 7.9
+    }
+   },
+   {
+    "ticker": "HAL",
+    "name": "Halliburton",
+    "industry": "Oil & Gas Equipment & Services",
+    "metric": 1.5,
+    "price": 31.61,
+    "pe": 13.24,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 22476000000,
+     "revenue_growth_yoy_pct": 1.5,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 12.6,
+     "net_margin_pct": 8.9,
+     "eps_diluted": 2.39,
+     "ocf": 2630000000,
+     "fcf": 1600000000,
+     "fcf_margin_pct": 7.1
+    }
+   },
+   {
+    "ticker": "SW",
+    "name": "Smurfit Westrock",
+    "industry": "Paper & Plastic Packaging Products & Materials",
+    "metric": 1.1,
+    "price": 41.65,
+    "pe": 46.45,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 31484000000,
+     "revenue_growth_yoy_pct": 1.1,
+     "gross_margin_pct": 17.4,
+     "operating_margin_pct": 4.6,
+     "net_margin_pct": 1.5,
+     "eps_diluted": 0.89,
+     "ocf": 3038000000,
+     "fcf": 852000000,
+     "fcf_margin_pct": 2.7
+    }
+   },
+   {
+    "ticker": "HRL",
+    "name": "Hormel Foods",
+    "industry": "Packaged Foods & Meats",
+    "metric": 0.7,
+    "price": 23.09,
+    "pe": 37.12,
+    "ttm": {
+     "end": "2026-07-26",
+     "revenue": 12146911000,
+     "revenue_growth_yoy_pct": 0.7,
+     "gross_margin_pct": 15.7,
+     "operating_margin_pct": 4.7,
+     "net_margin_pct": 2.8,
+     "eps_diluted": 0.63,
+     "ocf": 1091658000,
+     "fcf": 780869000,
+     "fcf_margin_pct": 6.4
+    }
+   }
+  ]
+ }
+}
