@@ -2643,6 +2643,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-26": {
+"created": "2026-11-26T07:01:25-05:00",
+"day": "2026-11-26",
+"kind": "narrative",
+"tickers": []
+},
 "news-A-2026-11-24-agilent-technologies-stock-jumps-on-high": {
 "created": "2026-11-24T06:15:15-05:00",
 "day": "2026-11-24",
@@ -3573,6 +3579,14 @@
 "JPM"
 ]
 },
+"news-JPM-2026-11-26-what-is-jpmorgan-chase-jpm-saying-with-i": {
+"created": "2026-11-26T07:01:25-05:00",
+"day": "2026-11-26",
+"kind": "news",
+"tickers": [
+"JPM"
+]
+},
 "news-KHC-2026-11-26-kraft-heinz-khc-climbed-but-what-is-draw": {
 "created": "2026-11-26T06:10:01-05:00",
 "day": "2026-11-26",
@@ -4157,6 +4171,14 @@
 "kind": "news",
 "tickers": [
 "SCHW"
+]
+},
+"news-SHOP-2026-11-26-shopify-nasdaqgs-shop-rebound-rekindles": {
+"created": "2026-11-26T07:01:25-05:00",
+"day": "2026-11-26",
+"kind": "news",
+"tickers": [
+"SHOP"
 ]
 },
 "news-SNDK-2026-11-08-ai-stocks-like-nvidia-micron-and-sandisk": {
