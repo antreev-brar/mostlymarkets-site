@@ -88,5 +88,8 @@
    "/news/2026-11-15/ula-rocket-fails-and-destroys-40-amazon-amzn-leo-internet-satellites/",
    "/news/2026-10-28/stocks-making-the-biggest-moves-yesterday-xylem-sofi-pentair-celestica-and-boeing/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-26T09:27:12-05:00",
+ "reason": "noise: an opinion piece on hypothetical Brazil aircraft-tariff risk (aircraft remain exempt; no new action found) and a Zacks recap of orders we covered on 24 Nov"
 }
