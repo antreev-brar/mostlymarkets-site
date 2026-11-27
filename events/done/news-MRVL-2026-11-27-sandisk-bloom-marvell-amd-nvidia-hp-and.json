@@ -88,5 +88,8 @@
    "/news/2026-11-23/tsmc-intel-and-marvell-shares-jump-what-happened/",
    "/news/2026-11-20/broadcom-avgo-shares-sink-after-a-report-that-google-cut-its-2027-tpu-orders/"
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-27T06:31:09-05:00",
+ "reason": "part of the sector-wide chip rebound covered in the Daily; no company news"
 }

@@ -1,30 +1,30 @@
 {
- "id": "news-HSBC-2026-11-27-hsbc-holdings-lse-hsba-could-be-18-below",
+ "id": "news-HSBC-2026-11-27-hsbc-bought-back-total-200-000-shares-fo",
  "kind": "news",
  "story_type": "brief",
  "priority": 58,
- "created": "2026-11-27T02:01:06-05:00",
- "expires": "2026-11-27T12:01:06-05:00",
+ "created": "2026-11-27T04:01:11-05:00",
+ "expires": "2026-11-27T14:01:11-05:00",
  "tickers": [
   "HSBC"
  ],
  "headline_hint": "HSBC: <what just happened>",
  "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
- "quotes_asof": "2026-11-27T02:00:07-05:00",
+ "quotes_asof": "2026-11-27T04:00:08-05:00",
  "pack": {
   "headlines": [
+   {
+    "title": "HSBC Bought Back Total 200,000 Shares For GBP 2.5 Million On Other Exchange, HKEX Filing",
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN477171:0-hsbc-bought-back-total-200-000-shares-for-gbp-2-5-million-on-other-exchange-hkex-filing/",
+    "published": "2026-11-27T03:44:17-05:00",
+    "also": []
+   },
    {
     "title": "HSBC Holdings (LSE:HSBA) Could Be 18% Below Fair Value Following Buyback \u0577\u0561\u0580\u0578\u0582\u0576\u0561\u056fation",
     "source": "Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUFhvNUpXRUphVXJFZnE0NTYxM0pKamxJczJObFBMdjBLeldyZ2NzRFE4VG5iMTNCTDBaV3RXVGNma1NqYk5XTmh3dUwtdVZOTmRNdTYycXdlVzNzMzRKeFJNbkdSaXBhUXgwRFliNkZIVUdqVHlJUS01YmZsRURKTTdSX1R5RXFucDR5MTB6SXVuVEp3Ulh5dg?oc=5",
     "published": "2026-11-27T01:10:00-05:00",
-    "also": []
-   },
-   {
-    "title": "Buzzing Stocks: Kalyan Jewellers jumps 2% on HSBC's 'Buy' call; IGI gains 3% after block deal",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV0w0QXo1UUd0S3lrUHJpRzJETlNRNDltcmNWOEZXLXN0Mlp6SUF5ZUpPRGVjaWN5aWNPY01UNlNiVndMYnhJUkMzNHR0eGVUUjVQRkpGT2dpUzZTeEpzYXNnSGd2UU91MnZ6Ui1wZ0pRdFJiRTV4LXVYN3dlSFRkVjhDMk9fcTUxNkR6WkVOLUN1bXVTTnk1UkhSTEh3ZU1qZUFhODRWMTZLeHl0Z1lEaTZOY1lWWDNpNEd6UWR4UE5wSFJvODZ5SEJ5RV9uRDc3WmJGUzQ4X1lxaGt2endIWkVCSEQ?oc=5",
-    "published": "2026-11-26T23:29:00-05:00",
     "also": []
    }
   ],
@@ -39,7 +39,7 @@
    "yr_high": 107.92,
    "yr_low": 70.77,
    "ext": {
-    "session": "POST_MKT",
+    "session": "POST_MKT_PREV",
     "price": 81.81,
     "change_pct": 0.0,
     "time": "2026-11-25"
@@ -84,5 +84,8 @@
    ]
   },
   "recent_stories": []
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-27T06:31:09-05:00",
+ "reason": "routine daily buyback filing, not material"
 }
