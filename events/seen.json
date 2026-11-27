@@ -1,4 +1,14 @@
 {
+"basket-aerospace-defense-up-2026-11-27": {
+"created": "2026-11-27T10:30:17-05:00",
+"day": "2026-11-27",
+"kind": "basket",
+"tickers": [
+"AXON",
+"HONA",
+"RKLB"
+]
+},
 "basket-application-software-down-2026-11-17": {
 "created": "2026-11-17T10:01:22-05:00",
 "day": "2026-11-17",
@@ -1145,6 +1155,13 @@
 "day": "2026-11-27",
 "kind": "list",
 "theme": "beaten-down-quality",
+"tickers": []
+},
+"list-2026-11-27-2": {
+"created": "2026-11-27T10:30:17-05:00",
+"day": "2026-11-27",
+"kind": "list",
+"theme": "momentum",
 "tickers": []
 },
 "macro-2026-11-06": {

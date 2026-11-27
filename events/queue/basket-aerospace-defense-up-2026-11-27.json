@@ -1,0 +1,112 @@
+{
+ "id": "basket-aerospace-defense-up-2026-11-27",
+ "kind": "basket",
+ "story_type": "why-it-moved",
+ "priority": 60,
+ "created": "2026-11-27T10:30:17-05:00",
+ "expires": "2026-11-27T23:59:00-05:00",
+ "tickers": [
+  "AXON",
+  "HONA",
+  "RKLB"
+ ],
+ "headline_hint": "AXON, HONA, RKLB shares jump: what happened",
+ "instructions": "Basket story: one shared cause for several stocks in the same industry. Confirm the cause in two outlets; if each stock moved for its own reason, write single stories for the two biggest instead.",
+ "quotes_asof": "2026-11-27T10:30:11-05:00",
+ "pack": {
+  "industry": "Aerospace & Defense",
+  "quotes": {
+   "AXON": {
+    "price": 364.94,
+    "change_pct": 6.38,
+    "prev_close": 343.05,
+    "time": "2026-11-27T10:29:59.971-0500",
+    "mktcap": "29.718B",
+    "pe": 116.83,
+    "fpe": 42.88,
+    "yr_high": 665.07,
+    "yr_low": 289.69,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 353.0,
+     "change_pct": 2.9,
+     "time": "2026-11-27T09:20:49.505-0500"
+    }
+   },
+   "HONA": {
+    "price": 166.0,
+    "change_pct": 5.17,
+    "prev_close": 157.84,
+    "time": "2026-11-27T10:30:00.156-0500",
+    "mktcap": "52.627B",
+    "pe": 25.96,
+    "fpe": null,
+    "yr_high": 297.5,
+    "yr_low": 147.4,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 160.24,
+     "change_pct": 1.52,
+     "time": "2026-11-27T09:30:00.019-0500"
+    }
+   },
+   "RKLB": {
+    "price": 49.37,
+    "change_pct": 5.0,
+    "prev_close": 47.02,
+    "time": "2026-11-27T10:30:07.901-0500",
+    "mktcap": "31.203B",
+    "pe": -134.49,
+    "fpe": -329.13,
+    "yr_high": 151.0,
+    "yr_low": 39.98,
+    "ext": {
+     "session": "PRE_MKT",
+     "price": 49.39,
+     "change_pct": 5.04,
+     "time": "2026-11-27T09:30:01.050-0500"
+    }
+   }
+  },
+  "facts": {
+   "AXON": {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "date": "2026-11-25",
+    "close": 343.05,
+    "prev_close": 319.32,
+    "change_pct": 7.43,
+    "moves_over_5pct_last_year": 46,
+    "sessions_in_year": 252,
+    "biggest_move_rank_in_year": 17,
+    "last_move_at_least_this_big_same_direction": {
+     "date": "2026-08-07",
+     "change_pct": 9.29
+    },
+    "ytd_pct": -39.6,
+    "return_1m_pct": -19.45,
+    "return_6m_pct": -21.91,
+    "return_1y_pct": -34.61,
+    "high_52w": {
+     "close": 645.72,
+     "date": "2026-08-19"
+    },
+    "low_52w": {
+     "close": 291.14,
+     "date": "2026-11-20"
+    },
+    "pct_below_52w_high": 46.87,
+    "thousand_dollars_5y_ago_now": 1907,
+    "five_years_ago_date": "2021-11-24",
+    "volume": 2023563,
+    "volume_vs_20d_avg": 1.12,
+    "sentences": [
+     "Axon Enterprise's shares moved 5% or more on 46 of the last 252 sessions.",
+     "The last move at least this big in the same direction was on 7 August 2026, when the stock rose 9.3%.",
+     "The stock is down 39.6% this year, and at $343.05 it sits 46.9% below its 52-week closing high of $645.72 from 19 August 2026.",
+     "$1,000 invested in Axon Enterprise five years ago would be worth $1,907 today."
+    ]
+   }
+  }
+ }
+}
