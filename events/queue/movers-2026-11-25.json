@@ -1,0 +1,116 @@
+{
+ "id": "movers-2026-11-25",
+ "kind": "movers",
+ "story_type": "movers",
+ "priority": 55,
+ "created": "2026-11-27T09:01:29-05:00",
+ "expires": "2026-11-27T12:00:00-05:00",
+ "tickers": [],
+ "headline_hint": "Stocks Making the Biggest Moves Yesterday",
+ "instructions": "Yesterday (Wednesday 25 November)'s five biggest moves among companies worth $10bn+, one paragraph each. Link each to our story about it when one exists.",
+ "quotes_asof": "2026-11-27T09:00:11-05:00",
+ "pack": {
+  "session": "2026-11-25",
+  "moves": [
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "close": 31.15,
+    "change_pct": 11.49,
+    "our_stories": [
+     "/daily/2026-11-26/",
+     "/news/2026-11-25/stock-market-today-the-dow-erases-a-1100-point-drop-as-tariffs-and-ai-fears-fade-by-the-close/",
+     "/news/2026-11-25/3-stocks-wed-skip-after-their-earnings-and-1-we-like-hp-hpe-deere-and-workday/"
+    ]
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile",
+    "close": 26.02,
+    "change_pct": 10.25,
+    "our_stories": []
+   },
+   {
+    "ticker": "CHTR",
+    "name": "Charter Communications",
+    "close": 147.27,
+    "change_pct": 8.39,
+    "our_stories": []
+   },
+   {
+    "ticker": "AXON",
+    "name": "Axon Enterprise",
+    "close": 343.05,
+    "change_pct": 7.43,
+    "our_stories": []
+   },
+   {
+    "ticker": "CDW",
+    "name": "CDW",
+    "close": 174.97,
+    "change_pct": 6.59,
+    "our_stories": []
+   },
+   {
+    "ticker": "PINS",
+    "name": "Pinterest",
+    "close": 19.71,
+    "change_pct": 6.54,
+    "our_stories": []
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "close": 333.105,
+    "change_pct": 6.44,
+    "our_stories": [
+     "/news/2026-11-25/wall-street-is-pricing-ai-hardware-at-its-peak-dells-record-didnt-change-that/",
+     "/daily/2026-11-25/",
+     "/news/2026-11-25/stocks-making-the-biggest-moves-yesterday-analog-devices-hpe-astera-labs-credo-and-coreweave/"
+    ]
+   },
+   {
+    "ticker": "EXE",
+    "name": "Expand Energy",
+    "close": 86.77,
+    "change_pct": 5.75,
+    "our_stories": []
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "close": 185.01,
+    "change_pct": -5.68,
+    "our_stories": [
+     "/news/2026-11-27/dutch-government-vows-to-fight-us-bill-that-would-curb-asmls-china-sales/",
+     "/news/2026-11-25/lam-research-applied-materials-and-asml-shares-slide-what-happened/"
+    ]
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "close": 73.61,
+    "change_pct": -5.57,
+    "our_stories": []
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "close": 103.88,
+    "change_pct": -5.13,
+    "our_stories": [
+     "/news/2026-11-26/wall-street-is-betting-the-tech-rout-is-nearly-over-4-numbers-will-decide-it/",
+     "/news/2026-11-25/why-oracle-orcl-stock-is-down-today/",
+     "/news/2026-11-25/the-debate-over-ai-debt-is-the-credit-market-right-to-sound-the-alarm/"
+    ]
+   },
+   {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "close": 23.54,
+    "change_pct": 5.09,
+    "our_stories": []
+   }
+  ]
+ }
+}
