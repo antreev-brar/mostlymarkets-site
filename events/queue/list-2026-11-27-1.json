@@ -1,0 +1,340 @@
+{
+ "id": "list-2026-11-27-1",
+ "kind": "list",
+ "story_type": "list",
+ "priority": 48,
+ "created": "2026-11-27T07:30:15-05:00",
+ "expires": "2026-11-27T23:59:00-05:00",
+ "tickers": [],
+ "headline_hint": "2 Beaten-Down Quality Stocks We Like and 1 We'd Skip",
+ "instructions": "Theme: Beaten-Down Quality, screened on distance below the 52-week high, among profitable companies. Pick 2 to like and 1 to skip from pack.candidates (picks block: like: A, B / skip: E). Every reason must rest on a dated number from data/fundamentals or the latest results, and on what changed recently (the stock's latest news in data/news/<T>.json). The candidates leave out the stocks in our lists of the last 14 days. Follow the list template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-27T07:30:10-05:00",
+ "pack": {
+  "theme": "beaten-down-quality",
+  "screen": "distance below the 52-week high, among profitable companies",
+  "like": 2,
+  "skip": 1,
+  "candidates": [
+   {
+    "ticker": "CIEN",
+    "name": "Ciena",
+    "industry": "Communications Equipment",
+    "metric": 61.3,
+    "price": 242.79,
+    "pe": 54.18,
+    "ttm": {
+     "end": "2026-08-01",
+     "revenue": 6020894000,
+     "revenue_growth_yoy_pct": 32.6,
+     "gross_margin_pct": 44.1,
+     "operating_margin_pct": 12.3,
+     "net_margin_pct": 10.9,
+     "eps_diluted": 4.48,
+     "ocf": 1054683000,
+     "fcf": 814362000,
+     "fcf_margin_pct": 13.5
+    }
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "industry": "Communications Equipment",
+    "metric": 58.0,
+    "price": 476.58,
+    "pe": -6.12,
+    "ttm": {
+     "end": "2026-09-26",
+     "revenue": 3742800000,
+     "revenue_growth_yoy_pct": 103.2,
+     "gross_margin_pct": 45.9,
+     "operating_margin_pct": 23.5,
+     "net_margin_pct": -175.8,
+     "eps_diluted": -77.83,
+     "ocf": 961200000,
+     "fcf": 356300000,
+     "fcf_margin_pct": 9.5
+    }
+   },
+   {
+    "ticker": "FSLR",
+    "name": "First Solar",
+    "industry": "Semiconductors",
+    "metric": 53.5,
+    "price": 147.88,
+    "pe": 8.56,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5014151000,
+     "revenue_growth_yoy_pct": -0.7,
+     "gross_margin_pct": 49.3,
+     "operating_margin_pct": 37.7,
+     "net_margin_pct": 37.1,
+     "eps_diluted": 17.28,
+     "ocf": 839179000,
+     "fcf": 232790000,
+     "fcf_margin_pct": 4.6
+    }
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport-McMoRan",
+    "industry": "Copper",
+    "metric": 39.2,
+    "price": 48.55,
+    "pe": 20.47,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 26462000000,
+     "revenue_growth_yoy_pct": 1.8,
+     "gross_margin_pct": 28.1,
+     "operating_margin_pct": 27.6,
+     "net_margin_pct": 22.3,
+     "eps_diluted": 2.38,
+     "ocf": 6217000000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "LII",
+    "name": "Lennox International",
+    "industry": "Building Products",
+    "metric": 38.9,
+    "price": 349.97,
+    "pe": 15.83,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 5447900000,
+     "revenue_growth_yoy_pct": 1.9,
+     "gross_margin_pct": 32.6,
+     "operating_margin_pct": 18.8,
+     "net_margin_pct": 13.8,
+     "eps_diluted": 21.55,
+     "ocf": 989300000,
+     "fcf": 835700000,
+     "fcf_margin_pct": 15.3
+    }
+   },
+   {
+    "ticker": "CEG",
+    "name": "Constellation Energy",
+    "industry": "Electric Utilities",
+    "metric": 37.9,
+    "price": 235.28,
+    "pe": 18.86,
+    "ttm": {
+     "end": "2026-06-30",
+     "revenue": 31270000000,
+     "revenue_growth_yoy_pct": 26.0,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 14.7,
+     "net_margin_pct": 11.1,
+     "eps_diluted": 10.25,
+     "ocf": 4206000000,
+     "fcf": 309000000,
+     "fcf_margin_pct": 1.0
+    }
+   },
+   {
+    "ticker": "WYNN",
+    "name": "Wynn Resorts",
+    "industry": "Casinos & Gaming",
+    "metric": 35.3,
+    "price": 86.08,
+    "pe": 23.56,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 7268731000,
+     "revenue_growth_yoy_pct": 2.2,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 14.2,
+     "net_margin_pct": 5.2,
+     "eps_diluted": 3.49,
+     "ocf": 1220218000,
+     "fcf": 515283000,
+     "fcf_margin_pct": 7.1
+    }
+   },
+   {
+    "ticker": "BA",
+    "name": "Boeing",
+    "industry": "Aerospace & Defense",
+    "metric": 34.7,
+    "price": 164.53,
+    "pe": 17.5,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 94913000000,
+     "revenue_growth_yoy_pct": 17.5,
+     "gross_margin_pct": 9.4,
+     "operating_margin_pct": 10.3,
+     "net_margin_pct": 8.1,
+     "eps_diluted": 9.4,
+     "ocf": 4012000000,
+     "fcf": 16000000,
+     "fcf_margin_pct": 0.0
+    }
+   },
+   {
+    "ticker": "LDOS",
+    "name": "Leidos",
+    "industry": "Diversified Support Services",
+    "metric": 34.1,
+    "price": 130.62,
+    "pe": 11.7,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 17745000000,
+     "revenue_growth_yoy_pct": 2.7,
+     "gross_margin_pct": 17.4,
+     "operating_margin_pct": 11.5,
+     "net_margin_pct": 8.0,
+     "eps_diluted": 11.18,
+     "ocf": 2112000000,
+     "fcf": 1959000000,
+     "fcf_margin_pct": 11.0
+    }
+   },
+   {
+    "ticker": "XYL",
+    "name": "Xylem",
+    "industry": "Industrial Machinery & Supplies & Components",
+    "metric": 34.0,
+    "price": 96.42,
+    "pe": 21.31,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 9059000000,
+     "revenue_growth_yoy_pct": 1.9,
+     "gross_margin_pct": 39.8,
+     "operating_margin_pct": 15.1,
+     "net_margin_pct": 11.9,
+     "eps_diluted": 4.52,
+     "ocf": 1272000000,
+     "fcf": 921000000,
+     "fcf_margin_pct": 10.2
+    }
+   },
+   {
+    "ticker": "TRMB",
+    "name": "Trimble",
+    "industry": "Application Software",
+    "metric": 33.8,
+    "price": 55.25,
+    "pe": -78.8,
+    "ttm": {
+     "end": "2026-10-02",
+     "revenue": 3848500000,
+     "revenue_growth_yoy_pct": 6.9,
+     "gross_margin_pct": 69.6,
+     "operating_margin_pct": 16.5,
+     "net_margin_pct": -4.1,
+     "eps_diluted": -0.7,
+     "ocf": 825000000,
+     "fcf": 798300000,
+     "fcf_margin_pct": 20.7
+    }
+   },
+   {
+    "ticker": "EME",
+    "name": "Emcor",
+    "industry": "Construction & Engineering",
+    "metric": 33.4,
+    "price": 628.72,
+    "pe": 18.16,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 19837766000,
+     "revenue_growth_yoy_pct": 22.1,
+     "gross_margin_pct": 19.6,
+     "operating_margin_pct": 10.4,
+     "net_margin_pct": 7.8,
+     "eps_diluted": 34.63,
+     "ocf": 1611035000,
+     "fcf": 1482102000,
+     "fcf_margin_pct": 7.5
+    }
+   },
+   {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "industry": "Personal Care Products",
+    "metric": 0.0,
+    "price": 173.23,
+    "pe": 26.1,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 87923000000,
+     "revenue_growth_yoy_pct": 3.5,
+     "gross_margin_pct": 49.8,
+     "operating_margin_pct": 22.6,
+     "net_margin_pct": 18.2,
+     "eps_diluted": 6.61,
+     "ocf": 19915000000,
+     "fcf": 15340000000,
+     "fcf_margin_pct": 17.4
+    }
+   },
+   {
+    "ticker": "WEC",
+    "name": "WEC Energy Group",
+    "industry": "Electric Utilities",
+    "metric": 0.0,
+    "price": 119.09,
+    "pe": 21.62,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 10324000000,
+     "revenue_growth_yoy_pct": 8.1,
+     "gross_margin_pct": 65.9,
+     "operating_margin_pct": 23.5,
+     "net_margin_pct": 17.6,
+     "eps_diluted": 5.5,
+     "ocf": 3837700000,
+     "fcf": null,
+     "fcf_margin_pct": null
+    }
+   },
+   {
+    "ticker": "WM",
+    "name": "Waste Management",
+    "industry": "Environmental & Facilities Services",
+    "metric": 0.0,
+    "price": 247.29,
+    "pe": 32.44,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 26070000000,
+     "revenue_growth_yoy_pct": 5.2,
+     "gross_margin_pct": 40.4,
+     "operating_margin_pct": 18.4,
+     "net_margin_pct": 11.8,
+     "eps_diluted": 7.63,
+     "ocf": 6565000000,
+     "fcf": 3740000000,
+     "fcf_margin_pct": 14.3
+    }
+   },
+   {
+    "ticker": "WTW",
+    "name": "Willis Towers Watson",
+    "industry": "Insurance Brokers",
+    "metric": 0.0,
+    "price": 352.56,
+    "pe": 21.49,
+    "ttm": {
+     "end": "2026-09-30",
+     "revenue": 10274000000,
+     "revenue_growth_yoy_pct": 4.8,
+     "gross_margin_pct": null,
+     "operating_margin_pct": 22.0,
+     "net_margin_pct": 15.2,
+     "eps_diluted": 16.35,
+     "ocf": 1984000000,
+     "fcf": 1743000000,
+     "fcf_margin_pct": 17.0
+    }
+   }
+  ]
+ }
+}
