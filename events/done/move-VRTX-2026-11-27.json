@@ -126,5 +126,8 @@
     ]
    }
   ]
- }
+ },
+ "outcome": "skipped",
+ "closed": "2026-11-27T10:27:55-05:00",
+ "reason": "already covered: 25 Nov story on the same FDA delay (vertex-vrtx-slides-after-hours...), plus today's Daily"
 }
