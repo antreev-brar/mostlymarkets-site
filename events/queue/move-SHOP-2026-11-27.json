@@ -1,0 +1,121 @@
+{
+ "id": "move-SHOP-2026-11-27",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 68,
+ "created": "2026-11-27T10:01:31-05:00",
+ "expires": "2026-11-30T12:00:00-05:00",
+ "tickers": [
+  "SHOP"
+ ],
+ "headline_hint": "Why Shopify (SHOP) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-27T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 141.43,
+   "change_pct": 6.02,
+   "prev_close": 133.4,
+   "time": "2026-11-27T10:00:04.344-0500",
+   "mktcap": "181.953B",
+   "pe": 86.25,
+   "fpe": 63.48,
+   "yr_high": 180.88,
+   "yr_low": 94.0,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 138.84,
+    "change_pct": 4.08,
+    "time": "2026-11-27T09:30:00.361-0500"
+   }
+  },
+  "facts": {
+   "ticker": "SHOP",
+   "name": "Shopify",
+   "date": "2026-11-25",
+   "close": 133.4,
+   "prev_close": 132.31,
+   "change_pct": 0.82,
+   "moves_over_5pct_last_year": 47,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 199,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-23",
+    "change_pct": 8.55
+   },
+   "ytd_pct": -17.13,
+   "return_1m_pct": -19.55,
+   "return_6m_pct": 15.97,
+   "return_1y_pct": -14.11,
+   "high_52w": {
+    "close": 179.22,
+    "date": "2026-10-12"
+   },
+   "low_52w": {
+    "close": 95.4,
+    "date": "2026-05-13"
+   },
+   "pct_below_52w_high": 25.57,
+   "thousand_dollars_5y_ago_now": 819,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 7338283,
+   "volume_vs_20d_avg": 0.86,
+   "sentences": [
+    "Shopify's shares moved 5% or more on 47 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 November 2026, when the stock rose 8.6%.",
+    "The stock is down 17.1% this year, and at $133.40 it sits 25.6% below its 52-week closing high of $179.22 from 12 October 2026.",
+    "$1,000 invested in Shopify five years ago would be worth $819 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Internet Services & Infrastructure",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-06/2-stocks-we-like-after-their-earnings-and-1-wed-skip/",
+    "date": "2026-11-06",
+    "title": "2 Stocks We Like After Their Earnings and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "ANET",
+     "VRTX",
+     "SHOP"
+    ]
+   },
+   {
+    "path": "/news/2026-11-03/shopify-shop-q3-gmv-and-subscriptions-miss-and-the-stock-sinks-15/",
+    "date": "2026-11-03",
+    "title": "Shopify (SHOP) Q3: GMV and Subscriptions Miss, and the Stock Sinks 15%",
+    "type": "earnings-recap",
+    "tickers": [
+     "SHOP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-31/the-week-ahead-for-stocks-apple-amd-the-midterms-and-the-jobs-report/",
+    "date": "2026-10-31",
+    "title": "The Week Ahead for Stocks: Apple, AMD, the Midterms and the Jobs Report",
+    "type": "analysis",
+    "tickers": [
+     "AAPL",
+     "AMD",
+     "ARM",
+     "QCOM",
+     "PLTR",
+     "SHOP",
+     "UBER",
+     "COP"
+    ]
+   },
+   {
+    "path": "/news/2026-10-29/what-to-expect-from-shopifys-shop-q3-earnings/",
+    "date": "2026-10-29",
+    "title": "What to Expect From Shopify's (SHOP) Q3 Earnings",
+    "type": "earnings-preview",
+    "tickers": [
+     "SHOP"
+    ]
+   }
+  ]
+ }
+}

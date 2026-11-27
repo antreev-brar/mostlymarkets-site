@@ -1435,6 +1435,14 @@
 "BABA"
 ]
 },
+"move-BABA-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"BABA"
+]
+},
 "move-BE-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
@@ -1558,6 +1566,14 @@
 "move-COHR-2026-11-19": {
 "created": "2026-11-19T10:01:22-05:00",
 "day": "2026-11-19",
+"kind": "why-it-moved",
+"tickers": [
+"COHR"
+]
+},
+"move-COHR-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
 "kind": "why-it-moved",
 "tickers": [
 "COHR"
@@ -1983,6 +1999,14 @@
 "NOW"
 ]
 },
+"move-NU-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"NU"
+]
+},
 "move-NVDA-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
@@ -2093,6 +2117,14 @@
 "SAP"
 ]
 },
+"move-SHOP-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"SHOP"
+]
+},
 "move-SKYD-2026-11-10": {
 "created": "2026-11-10T10:01:22-05:00",
 "day": "2026-11-10",
@@ -2174,6 +2206,14 @@
 "day": "2026-11-25",
 "kind": "why-it-moved",
 "outcome": "already-written"
+},
+"move-SNDK-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"SNDK"
+]
 },
 "move-STX-2026-11-11": {
 "created": "2026-11-11T10:01:13-05:00",
@@ -2305,6 +2345,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "UNH"
+]
+},
+"move-VRTX-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"VRTX"
 ]
 },
 "move-WDC-2026-11-16": {
@@ -5228,6 +5276,12 @@
 "viewpoints-2026-11-25": {
 "created": "2026-11-25T10:01:27-05:00",
 "day": "2026-11-25",
+"kind": "viewpoints",
+"tickers": []
+},
+"viewpoints-2026-11-27": {
+"created": "2026-11-27T10:01:31-05:00",
+"day": "2026-11-27",
 "kind": "viewpoints",
 "tickers": []
 },

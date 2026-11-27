@@ -1,0 +1,132 @@
+{
+ "id": "move-BABA-2026-11-27",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 70,
+ "created": "2026-11-27T10:01:31-05:00",
+ "expires": "2026-11-30T12:00:00-05:00",
+ "tickers": [
+  "BABA"
+ ],
+ "headline_hint": "Why Alibaba (BABA) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-27T10:00:11-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 89.73,
+   "change_pct": 4.02,
+   "prev_close": 86.26,
+   "time": "2026-11-27T10:00:01.159-0500",
+   "mktcap": "223.225B",
+   "pe": 12.59,
+   "fpe": 10.72,
+   "yr_high": 181.1,
+   "yr_low": 80.96,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 89.78,
+    "change_pct": 4.08,
+    "time": "2026-11-27T09:30:00.723-0500"
+   }
+  },
+  "facts": {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "date": "2026-11-25",
+   "close": 86.26,
+   "prev_close": 84.86,
+   "change_pct": 1.65,
+   "moves_over_5pct_last_year": 14,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 116,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-23",
+    "change_pct": 6.12
+   },
+   "ytd_pct": -41.15,
+   "return_1m_pct": -13.95,
+   "return_6m_pct": -31.63,
+   "return_1y_pct": -46.33,
+   "high_52w": {
+    "close": 177.18,
+    "date": "2026-01-22"
+   },
+   "low_52w": {
+    "close": 81.08,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 51.32,
+   "thousand_dollars_5y_ago_now": 632,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 13099520,
+   "volume_vs_20d_avg": 0.98,
+   "sentences": [
+    "Alibaba's shares moved 5% or more on 14 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 November 2026, when the stock rose 6.1%.",
+    "The stock is down 41.1% this year, and at $86.26 it sits 51.3% below its 52-week closing high of $177.18 from 22 January 2026.",
+    "$1,000 invested in Alibaba five years ago would be worth $632 today."
+   ]
+  },
+  "sector": "Consumer Discretionary",
+  "industry": "Broadline Retail",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-23/us-blacklists-alibabas-baba-singapore-unit-and-megaspeed-over-chip-diversion-risk/",
+    "date": "2026-11-23",
+    "title": "US Blacklists Alibaba's (BABA) Singapore Unit and Megaspeed Over Chip Diversion Risk",
+    "type": "brief",
+    "tickers": [
+     "BABA",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/wall-street-bet-amd-would-win-nvidias-china-crisis-now-it-is-pricing-china-risk-across-the-chip-chain/",
+    "date": "2026-11-20",
+    "title": "Wall Street Bet AMD Would Win Nvidia's China Crisis. Now It Is Pricing China Risk Across Chips",
+    "type": "narrative",
+    "tickers": [
+     "AMD",
+     "NVDA",
+     "AVGO",
+     "TSM",
+     "BABA",
+     "SMCI",
+     "INTC"
+    ]
+   },
+   {
+    "path": "/news/2026-11-20/alibaba-baba-is-sued-by-shareholders-over-its-ties-to-megaspeed/",
+    "date": "2026-11-20",
+    "title": "Alibaba (BABA) Is Sued by Shareholders Over Its Ties to Megaspeed",
+    "type": "brief",
+    "tickers": [
+     "BABA",
+     "NVDA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/tsmc-tsm-and-samsung-halt-some-chip-shipments-to-chinese-customers-under-new-us-curbs/",
+    "date": "2026-11-19",
+    "title": "TSMC (TSM) and Samsung Halt Some Chip Shipments to Chinese Customers Under New US Curbs",
+    "type": "brief",
+    "tickers": [
+     "TSM",
+     "BABA"
+    ]
+   },
+   {
+    "path": "/news/2026-11-19/pdd-holdings-pdd-misses-q3-revenue-estimates-but-beats-on-profit-as-it-cuts-marketing/",
+    "date": "2026-11-19",
+    "title": "PDD Holdings (PDD) Misses Q3 Revenue Estimates but Beats on Profit as It Cuts Marketing",
+    "type": "earnings-recap",
+    "tickers": [
+     "PDD",
+     "BABA",
+     "JD"
+    ]
+   }
+  ]
+ }
+}
