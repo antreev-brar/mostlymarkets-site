@@ -3280,6 +3280,14 @@
 "HSBC"
 ]
 },
+"news-HSBC-2026-11-27-hsbc-holdings-lse-hsba-could-be-18-below": {
+"created": "2026-11-27T02:01:06-05:00",
+"day": "2026-11-27",
+"kind": "news",
+"tickers": [
+"HSBC"
+]
+},
 "news-IBM-2026-11-12-ai-stocks-are-sinking-why-is-smart-money": {
 "created": "2026-11-12T03:01:09-05:00",
 "day": "2026-11-12",
@@ -3965,6 +3973,12 @@
 "tickers": [
 "RIO"
 ]
+},
+"news-SAP-2026-11-27-sap-flags-security-incident-says-no-evid": {
+"created": "2026-11-27T02:01:06-05:00",
+"day": "2026-11-27",
+"kind": "news",
+"outcome": "already-written"
 },
 "news-SBUX-2026-11-08-jim-cramer-starbucks-stock-goes-to-125-a": {
 "created": "2026-11-08T08:01:38-05:00",
