@@ -297,6 +297,16 @@
 "DELL"
 ]
 },
+"basket-technology-hardware-storage-peripherals-up-2026-11-27": {
+"created": "2026-11-27T10:15:15-05:00",
+"day": "2026-11-27",
+"kind": "basket",
+"tickers": [
+"SNDK",
+"P",
+"DELL"
+]
+},
 "breakdown-2026-11-06-1": {
 "created": "2026-11-06T11:01:12-05:00",
 "day": "2026-11-06",
@@ -1243,6 +1253,14 @@
 "AEM"
 ]
 },
+"move-AEM-2026-11-27": {
+"created": "2026-11-27T10:15:15-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"AEM"
+]
+},
 "move-AMD-2026-11-06": {
 "created": "2026-11-06T10:01:11-05:00",
 "day": "2026-11-06",
@@ -1797,6 +1815,22 @@
 "IONQ"
 ]
 },
+"move-IONQ-2026-11-27": {
+"created": "2026-11-27T10:15:15-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"IONQ"
+]
+},
+"move-IP-2026-11-27": {
+"created": "2026-11-27T10:15:15-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"IP"
+]
+},
 "move-KDP-2026-11-12": {
 "created": "2026-11-12T10:01:09-05:00",
 "day": "2026-11-12",
@@ -2099,6 +2133,14 @@
 "kind": "why-it-moved",
 "tickers": [
 "PLTR"
+]
+},
+"move-QBTS-2026-11-27": {
+"created": "2026-11-27T10:15:15-05:00",
+"day": "2026-11-27",
+"kind": "why-it-moved",
+"tickers": [
+"QBTS"
 ]
 },
 "move-RKLB-2026-11-13": {

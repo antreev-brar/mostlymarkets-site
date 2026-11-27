@@ -1,0 +1,123 @@
+{
+ "id": "move-IONQ-2026-11-27",
+ "kind": "why-it-moved",
+ "story_type": "why-it-moved",
+ "priority": 61,
+ "created": "2026-11-27T10:15:15-05:00",
+ "expires": "2026-11-30T12:00:00-05:00",
+ "tickers": [
+  "IONQ"
+ ],
+ "headline_hint": "Why IonQ (IONQ) stock is up today",
+ "instructions": "The move is happening now. Use the latest quote; if the session has closed by the time you write, use the close and say so.",
+ "quotes_asof": "2026-11-27T10:15:10-05:00",
+ "pack": {
+  "session": "regular",
+  "quote": {
+   "price": 25.09,
+   "change_pct": 6.58,
+   "prev_close": 23.54,
+   "time": "2026-11-27T10:15:04.101-0500",
+   "mktcap": "11.614B",
+   "pe": 37.34,
+   "fpe": -15.63,
+   "yr_high": 73.65,
+   "yr_low": 20.28,
+   "ext": {
+    "session": "PRE_MKT",
+    "price": 24.77,
+    "change_pct": 5.23,
+    "time": "2026-11-27T09:29:58.834-0500"
+   }
+  },
+  "facts": {
+   "ticker": "IONQ",
+   "name": "IonQ",
+   "date": "2026-11-25",
+   "close": 23.54,
+   "prev_close": 22.4,
+   "change_pct": 5.09,
+   "moves_over_5pct_last_year": 84,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 82,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-23",
+    "change_pct": 12.64
+   },
+   "ytd_pct": -47.54,
+   "return_1m_pct": -28.56,
+   "return_6m_pct": -66.44,
+   "return_1y_pct": -49.66,
+   "high_52w": {
+    "close": 72.07,
+    "date": "2026-05-29"
+   },
+   "low_52w": {
+    "close": 20.72,
+    "date": "2026-11-20"
+   },
+   "pct_below_52w_high": 67.34,
+   "thousand_dollars_5y_ago_now": 907,
+   "five_years_ago_date": "2021-11-24",
+   "volume": 23116940,
+   "volume_vs_20d_avg": 0.97,
+   "sentences": [
+    "IonQ's shares moved 5% or more on 84 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 November 2026, when the stock rose 12.6%.",
+    "The stock is down 47.5% this year, and at $23.54 it sits 67.3% below its 52-week closing high of $72.07 from 29 May 2026.",
+    "$1,000 invested in IonQ five years ago would be worth $907 today."
+   ]
+  },
+  "sector": "Information Technology",
+  "industry": "Computer Hardware",
+  "recent_stories": [
+   {
+    "path": "/news/2026-11-17/2-fast-grower-stocks-we-like-and-1-wed-skip-credo-astera-labs-and-ionq/",
+    "date": "2026-11-17",
+    "title": "2 Fast-Grower Stocks We Like and 1 We'd Skip: Credo, Astera Labs and IonQ",
+    "type": "list",
+    "tickers": [
+     "CRDO",
+     "ALAB",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-13/ionq-ionq-replaces-its-finance-chief-with-commvaults-gary-merrill/",
+    "date": "2026-11-13",
+    "title": "IonQ (IONQ) Replaces Its Finance Chief With Commvault's Gary Merrill",
+    "type": "brief",
+    "tickers": [
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-06/stock-market-today-chips-win-back-part-of-thursdays-rout-as-the-dow-slips/",
+    "date": "2026-11-06",
+    "title": "Stock Market Today: Chips Win Back Part of Thursday's Rout as the Dow Slips",
+    "type": "market-wrap",
+    "tickers": [
+     "AMD",
+     "MU",
+     "INTC",
+     "NVDA",
+     "AXON",
+     "TEAM",
+     "IONQ"
+    ]
+   },
+   {
+    "path": "/news/2026-11-02/3-fast-grower-stocks-we-like-and-1-wed-skip/",
+    "date": "2026-11-02",
+    "title": "3 Fast-Grower Stocks We Like and 1 We'd Skip",
+    "type": "list",
+    "tickers": [
+     "CRDO",
+     "ALAB",
+     "NVDA",
+     "IONQ"
+    ]
+   }
+  ]
+ }
+}
