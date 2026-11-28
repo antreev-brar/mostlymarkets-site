@@ -2519,6 +2519,12 @@
 "kind": "narrative",
 "tickers": []
 },
+"narrative-2026-11-28": {
+"created": "2026-11-28T07:01:49-05:00",
+"day": "2026-11-28",
+"kind": "narrative",
+"tickers": []
+},
 "news-A-2026-11-24-agilent-technologies-stock-jumps-on-high": {
 "created": "2026-11-24T06:15:15-05:00",
 "day": "2026-11-24",
@@ -4006,6 +4012,14 @@
 "news-SHOP-2026-11-26-shopify-nasdaqgs-shop-rebound-rekindles": {
 "created": "2026-11-26T07:01:25-05:00",
 "day": "2026-11-26",
+"kind": "news",
+"tickers": [
+"SHOP"
+]
+},
+"news-SHOP-2026-11-28-shopify-shop-stock-may-be-17-stretched-d": {
+"created": "2026-11-28T07:01:49-05:00",
+"day": "2026-11-28",
 "kind": "news",
 "tickers": [
 "SHOP"
