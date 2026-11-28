@@ -1,0 +1,41 @@
+[
+{
+"ticker": "COST",
+"name": "Costco Wholesale Corporation",
+"time": "amc",
+"quarter": "Nov/2026",
+"eps_forecast": 4.89,
+"n_estimates": 11,
+"eps_last_year": 4.34,
+"last_year_date": "12/11/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 481597424000.0
+},
+{
+"ticker": "CIEN",
+"name": "Ciena Corporation",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 1.77,
+"n_estimates": 8,
+"eps_last_year": 0.64,
+"last_year_date": "12/11/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 34429690000.0
+},
+{
+"ticker": "BIRK",
+"name": "Birkenstock Holding plc",
+"time": "bmo",
+"quarter": "Sep/2026",
+"eps_forecast": 0.51,
+"n_estimates": 9,
+"eps_last_year": 0.6,
+"last_year_date": "12/18/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 5899959300.0
+}
+]

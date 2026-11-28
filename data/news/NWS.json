@@ -1,0 +1,207 @@
+{
+ "ticker": "NWS",
+ "updated": "2026-11-27T06:08:30-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "6e74d9f9d767c8733c863ea657ea0ef056ce3282",
+   "title": "News Corporation (NWS) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBS2pOUkJCeS0tT1h0N1FabG9fcy1VZE1ZcHJHSTR6XzNadzRTQ2ktSFZLa2FuS2lMbUYxUTljVHRBMFdYSnh3bzBRbTNJeUdL?oc=5",
+   "published": "2026-11-25T11:01:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a20425d4e09346e0ea1cd1191252a901690760ae",
+   "title": "News Corp Reports $588.5 Million Used Under $1 Billion Buyback Program",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:734228172a2d3:0-news-corp-reports-588-5-million-used-under-1-billion-buyback-program/",
+   "published": "2026-11-25T06:13:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3ebbf7a3b44959b53f2dd34671cf96af4a4c0627",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000269/0001564708-26-000269-index.htm",
+   "published": "2026-11-24T18:47:50-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "e0aad144529a1bf985d5b97c3812d8c173d2e53c",
+   "title": "News Corp Reports $1.24 Million in Buybacks Across Class A and Class B Shares",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d4173aaa596fd:0-news-corp-reports-1-24-million-in-buybacks-across-class-a-and-class-b-shares/",
+   "published": "2026-11-24T06:13:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "56ee9d516e239d9414632f6aa69fa08ae02a7767",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000268/0001564708-26-000268-index.htm",
+   "published": "2026-11-23T19:26:27-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "0177fe867ac8c81810d1f453a3c69bd4df2d3d0e",
+   "title": "One-Third of Young Adults Already Home for the Holidays",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261123006936:0-one-third-of-young-adults-already-home-for-the-holidays-market-talk/",
+   "published": "2026-11-23T12:50:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1c82ee9cc4464130d3dd335d0498076d9b8d9648",
+   "title": "News Reports $1 Billion Buyback; Cumulative Purchases Reach $586 Million",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:23461b1214e02:0-news-reports-1-billion-buyback-cumulative-purchases-reach-586-million/",
+   "published": "2026-11-23T07:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "62bbbb31c16dabf288cb3a8ef9097c9b285e25df",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000267/0001564708-26-000267-index.htm",
+   "published": "2026-11-23T07:18:00-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "38d5f792d246ab1b7c2599e99ff2b44da4f44067",
+   "title": "News Corp Reports $1.25 Million in Share Buybacks Under $1 Billion Program",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:2f9fe04dd0df4:0-news-corp-reports-1-25-million-in-share-buybacks-under-1-billion-program/",
+   "published": "2026-11-20T06:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2e109a30332a599d1af2331a1729abbd592a4e00",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000266/0001564708-26-000266-index.htm",
+   "published": "2026-11-19T20:06:23-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "638dad381ebbe3333aa2a0339c317c51299d0c4b",
+   "title": "A Look at News Corp (NWSA) After 3.1% Decline -- GF Value $29.48 vs Price $25.31",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORU54TXJYYS1lWFVKaWIyWGtDZnVQWkt4SDhadk9qYkthcFZrYmtJNElER2tKWGFkWTZET3pORHBLQkFSZktsejlFWFJIeHFXRDlWRnFZcno5TW1Gc1hZNVAtaHo0MlRlcG02eXBldGpXMUttekNMbVBobm9PM1V1T0tNWWlyWDNIQzhfZ0RDWlB0T0pYZEZZT0NTZTY3NW5hWmtrTnJHWHRBaW5G?oc=5",
+   "published": "2026-11-19T18:37:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bd512da076ee821d1d6356d5abbc45dda266e4d1",
+   "title": "News Corp Repurchased 40,961 Shares on Nov. 18 Under $1 Billion Program",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:158859c305d51:0-news-corp-repurchased-40-961-shares-on-nov-18-under-1-billion-program/",
+   "published": "2026-11-19T07:24:00-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "dbe015c9f09c4d85588318f99222065ba447c5df",
+   "title": "NWS: AI licensing, digital growth and disciplined capital allocation anchor the strategy",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4702236:0-nws-ai-licensing-digital-growth-and-disciplined-capital-allocation-anchor-the-strategy/",
+   "published": "2026-11-19T06:28:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "25d3f0b42fb4d9a5aeb43a5e99a203e41eb9317e",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000265/0001564708-26-000265-index.htm",
+   "published": "2026-11-18T21:14:25-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "0101d3fe39c2ee56e7fe5edd2404a260ffd93ed8",
+   "title": "News Corp maintains $1 billion share repurchase program, provides update to ASX",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPN3BIY3pWcTRoMmRBM0g3TFR4TTFVdWtlMmRiZm1xNDdPMW1ZQnBqWG9CclJCb0hlaGtpRG5lYW53UUNETnVWTlJ0ZWxidEVyMllLcmM3M3lhelN0bTB5ZHZ4UGRRcHZobFFObi1nSTZJVFRzU1V5STZoWVBTdTVDb09leXdzVkdQcEhGY190VUpfUlcwZUhfUGdOUUJ6R2czcXVJUjlrUDRRck1UTlVjN3lIVndFbTJnY3V6QWZBaDJNbmd2MEd2bE9oWDBWZw?oc=5",
+   "published": "2026-11-18T06:39:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ade46a8d1cf2406d0abbe715fc99d1afbed525d2",
+   "title": "News Corp Reports Daily Share Repurchases; $582.2 Million Used Under $1 Billion Program",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:77fd6097a3a0b:0-news-corp-reports-daily-share-repurchases-582-2-million-used-under-1-billion-program/",
+   "published": "2026-11-18T06:03:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "de1d350f730a1a22afbe097ac3eeb3633d9f4a13",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000264/0001564708-26-000264-index.htm",
+   "published": "2026-11-17T18:35:07-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "c3a03fa1ff446dddf06a87664e42fded5c88159f",
+   "title": "News Corp Repurchased 40,961 Shares as $1 Billion Buyback Continues",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:2e2e216d02c0c:0-news-corp-repurchased-40-961-shares-as-1-billion-buyback-continues/",
+   "published": "2026-11-17T06:13:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "af3d3046a522b60c6cb73e216cb7f5cce8f9c1e3",
+   "title": "News Corporation (NWS) stock price, news, quote and history",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PdFBfdGo2bFIwQVhaV0xicTNsTV9hUnpyTFQxMnU5X1Bld25wYTd5dWctNmV1RTZneWVZbFUxc0dkWlFlbktoSzhlbEsySzZ4?oc=5",
+   "published": "2026-11-17T06:02:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5243b93cd1edd9e027808a40e400bca527e2aa47",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000263/0001564708-26-000263-index.htm",
+   "published": "2026-11-16T20:07:56-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "89cda1c723bbc764acce1b1bef2193dcb24dd4c4",
+   "title": "News Corp Reports $1.12 Million in Share Repurchases on Nov. 12",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:124a7c477c008:0-news-corp-reports-1-12-million-in-share-repurchases-on-nov-12/",
+   "published": "2026-11-16T08:13:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1a185b289eec738acca7a7535b05fcf28178b954",
+   "title": "News Corp 8-K: other events",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000262/0001564708-26-000262-index.htm",
+   "published": "2026-11-16T08:08:59-05:00",
+   "also": [],
+   "kind": "filing"
+  }
+ ]
+}

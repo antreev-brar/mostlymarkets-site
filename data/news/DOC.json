@@ -1,0 +1,25 @@
+{
+ "ticker": "DOC",
+ "updated": "2026-11-27T06:07:07-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "ab4e9e2476065ce93b2624043e07d162e80a9846",
+   "title": "Mizuho maintains Healthpeak Properties at Outperform, lowers price target to $23 from $24",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:478e7198ab0cf:0-mizuho-maintains-healthpeak-properties-at-outperform-lowers-price-target-to-23-from-24/",
+   "published": "2026-11-16T12:56:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20babe14efbacfdd5748d231bad4041d1ecc2a67",
+   "title": "Wells Fargo maintains Healthpeak Properties at Equal-Weight, raises price target to $20 from $19",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:a3278e5f31c3b:0-wells-fargo-maintains-healthpeak-properties-at-equal-weight-raises-price-target-to-20-from-19/",
+   "published": "2026-11-16T09:15:32-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

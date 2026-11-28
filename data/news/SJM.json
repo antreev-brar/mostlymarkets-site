@@ -1,0 +1,364 @@
+{
+ "ticker": "SJM",
+ "updated": "2026-11-27T06:08:58-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "92a629e27acab66f98b170d889dca9da59c241e1",
+   "title": "TD Cowen raises J.M. Smucker stock price target to $138 on strong demand",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcHBXY29Ua2psTzUyeEFGSm9YVzFpbTIxNm1tdThYSjZhbGdtZ2JDR09RVlpXTWV0M2djY0pIR1JwajcyR3Q1cDJnT2dNbjg2NmNJU2p6SmpvQndJaGRIR1JiZElBQjFEeTFCLVNZX2pWdnE3VUZqQTViX0tiajBobTYxQy1fcTJjQ2IxNFh2MlA4NV9XTXdRTDR4SlhTSmNVd20yZmEyQVZZSXVmZ3FKRFZnTHpFRjdJaHBjX0xUUndQeE4tcWxEcw?oc=5",
+   "published": "2026-11-25T10:26:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "cb9187ae8fc1210dd9b38a34502a4d5b52428414",
+   "title": "UBS maintains JM Smucker at Buy, raises price target to $154 from $153",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:1447a1cf43770:0-ubs-maintains-jm-smucker-at-buy-raises-price-target-to-154-from-153/",
+   "published": "2026-11-25T10:10:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bbb3760a61f53b977c9245c535613b527bb2311e",
+   "title": "Stifel maintains JM Smucker at Hold, raises price target to $136 from $132",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:1e04b34d32913:0-stifel-maintains-jm-smucker-at-hold-raises-price-target-to-136-from-132/",
+   "published": "2026-11-25T09:00:25-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5bfb14a318840d54427c3099e38e06f489fa56f3",
+   "title": "J. M. Smucker Q3 CY2026 deep dive: Mixed volumes and cost benefits shape outlook",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/sjm/news/earnings-call/j-m-smucker-q3-cy2026-deep-dive-mixed-volumes-and-cost-benefits-shape-outlook",
+   "published": "2026-11-25T00:31:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e80478cfe54b829ec94dad02d32605b2f41e0559",
+   "title": "J.M. Smucker 4Q 2026: Revenue $2.28B, EPS $2.32 — 10-Q Summary",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:96adfca85d1fa:0-j-m-smucker-4q-2026-revenue-2-28b-eps-2-32-10-q-summary/",
+   "published": "2026-11-24T16:21:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "30ec9ec93329e24ee9f81d161d5d7cd943280a30",
+   "title": "SJM: Tariff refunds and lower costs lifted adjusted earnings despite softer Q2 sales",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:4075271:0-sjm-tariff-refunds-and-lower-costs-lifted-adjusted-earnings-despite-softer-q2-sales/",
+   "published": "2026-11-24T16:16:44-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a222d7eb4bda0d94d1a284c4f8f4e4aca6d6f3f1",
+   "title": "J.M. Smucker files its 10-Q quarterly report",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000111/sjm-20261031.htm",
+   "published": "2026-11-24T16:15:32-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "23e56461aa3f1fb05ed4278bc914047e6c1445eb",
+   "title": "J.M. Smucker Q2 Earnings: A Mixed Quarter With Some Good News For Long-Term Investors",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbHF3cHFFMWNuSmN6Z3AxY2FYRXhldklmX2MxM0hNeGFyMDdKbEVmRkJGSFFYTEZQYUtXckd3YXdDWEQ3ajl4aWVlREJKWkN4NXFfblhtNkdoSGhHN0pYbzA5bGlZM0tnVmh3UmdYWTFPZ3M1ZHU0ZG1wTThOV01oS1ZaajdiSVhEVV9NRlBxMWJJUlMzUUt3T3hTOXlCOVBPNjF1VmdzYzRwYUttS0E4RldfbWQ5bzA?oc=5",
+   "published": "2026-11-24T14:47:41-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "985ea81f0fc0afdfa0f677b5671b462d4163696a",
+   "title": "SJM: Adjusted EPS guidance rose to $11 as strong brands offset H2 capacity and cost pressures",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4799977:0-sjm-adjusted-eps-guidance-rose-to-11-as-strong-brands-offset-h2-capacity-and-cost-pressures/",
+   "published": "2026-11-24T11:05:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "784405d30b1c38137763090e90441e16a5fa5524",
+   "title": "Smucker Beats Q2 Earnings Estimates on Lower Costs, Raises View",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3034652/smucker-beats-q2-earnings-estimates-on-lower-costs-raises-view?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_article-3034652",
+   "published": "2026-11-24T10:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "823157b3cac1bfb22a752ebd9157d27318af2047",
+   "title": "J.M. Smucker Reports Second-Quarter Earnings Above Expectations and Raises Annual Profit Guidance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQzh4Z0l5ODlEc3lhLXpUYXNYTEpTREk2TVl5ZFFoaDkzcDdkeE14RDZwWlpSTmk5eDR6MkhhelpZalVEMm40eDFhNUdDU3BURE9SeWs3Z2g1Rk9Gc2h6aE1UakQ0TFA2anVoWG8xOTZxY09DSFdCY3pRNmRHUDR1c2N6d3hwRmRVa1cza3p5UTlzWWw0Snc?oc=5",
+   "published": "2026-11-24T09:20:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "deb459dbc696f77dff31dd9a482ccec44970ce24",
+   "title": "J.M. Smucker Stock Falls Despite Q2 Earnings Beat",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ182NWxNMkpMdkhJN1VYQUVqc2ZWVFBrbnJ5Qzc0TkxZTlpzSk1WVlV0TDREalo0SGtWV3VEMGJTT3FpVFRKQjE1M00xN1NJOTIybC1QbGNCODh4T0pSemhPSkVvcExXMjVpTjlTT1BueE5sWWRoMm5jUlI1T3lpTHhZMl9RYXF4WE9HLXNtV1dhU3QxOUFTSUpPZlBRZVFPdjBFQVJEMUM?oc=5",
+   "published": "2026-11-24T09:02:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bb899f3eb55c9fb88d6b1a2eda83276c6a9e0949",
+   "title": "J.M. Smucker beats Q2 estimates but stock slips on guidance",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ0FhSTlVdGktTVVwVXZhRVZjRkcyNFNaYjRfbTZOQVhudXd1TkFQbUFKblJ0Q1ZiS2lRUmFVTjJ1RldnOHRobmhJQ1k4TnRYNkZOQTFJUl9pcm1HUDJKTmc3emg0VGcwUm81bFQ2dW1XV1BaMDVUY0RGOF94bG1aUThZU1ZFZ09QWmdEZFhIMktWTjZNTDJ3UURDYzAzd2h5bER2bnRjWmQ?oc=5",
+   "published": "2026-11-24T08:49:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "29128d55c9927d49ec2c8c739cb1723bb9f61399",
+   "title": "SJM: Adjusted EPS rose 52%; FY27 EPS outlook lifted to $10.80-$11.20",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4797150:0-sjm-adjusted-eps-rose-52-fy27-eps-outlook-lifted-to-10-80-11-20/",
+   "published": "2026-11-24T08:26:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5f9f42b7aac325f40eaed3f5c8d076dc3c11a221",
+   "title": "J.M Smucker Raises Full-Year Forecast on Tariff Refunds Even as Sales Slip",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261124003134:0-j-m-smucker-raises-full-year-forecast-on-tariff-refunds-even-as-sales-slip/",
+   "published": "2026-11-24T07:39:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ebf51313f5ecb88170c08da7216d1b7f23a67690",
+   "title": "J.M. Smucker Increases FY27 Adj. EPS Outlook",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:f96fa4b349a51:0-j-m-smucker-increases-fy27-adj-eps-outlook/",
+   "published": "2026-11-24T07:32:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ae5596d7fabcb44c453399ed399874840170b1fc",
+   "title": "J.M. Smucker raises profit guidance after accelerating earnings growth",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676087-jm-smucker-raises-profit-guidance-after-accelerating-earnings-growth",
+   "published": "2026-11-24T07:22:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "146f2d5c4f523caede517945fcaddce81fd8368b",
+   "title": "The J. M. Smucker Company Announces Advance In Q2 Profit",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:5fdefa2dc3d0c:0-the-j-m-smucker-company-announces-advance-in-q2-profit/",
+   "published": "2026-11-24T07:19:45-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5cc77fcd1aad44d6bb6f3e0cb571ca4d43d61fa1",
+   "title": "J.M. Smucker Posts $2.32 Diluted EPS, Raises Fiscal 2027 Earnings Outlook",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:064f3e557242f:0-j-m-smucker-posts-2-32-diluted-eps-raises-fiscal-2027-earnings-outlook/",
+   "published": "2026-11-24T07:13:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3fb17dda62c651ed067a03fa1f6037ddf7f0ad1e",
+   "title": "J. M. Smucker reports Q3 CY2026 in line with expectations",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/sjm/news/earnings/j-m-smucker-reports-q3-cy2026-in-line-with-expectations",
+   "published": "2026-11-24T07:09:50-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "64508e978d2d8cdd91d3af7eb6870af7d223bc26",
+   "title": "J.M. Smucker Q2 revenue and profit beat estimates, lifts FY adj EPS outlook",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N4750HW:0-j-m-smucker-q2-revenue-and-profit-beat-estimates-lifts-fy-adj-eps-outlook/",
+   "published": "2026-11-24T07:09:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0177661adcb0e473344099e42ac6408317bb7485",
+   "title": "SJM: Adjusted EPS rose 52% as tariff refunds lifted results; FY27 EPS guidance increased",
+   "source": "Quartr",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:4440081:0-sjm-adjusted-eps-rose-52-as-tariff-refunds-lifted-results-fy27-eps-guidance-increased/",
+   "published": "2026-11-24T07:07:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ba4d42c9129d2b34f3aaba2ddcadfe71aa9ff677",
+   "title": "J.M. Smucker 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000110/0000091419-26-000110-index.htm",
+   "published": "2026-11-24T07:04:40-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "7e83b0abf1247bc3ce9724525c4ea4b904603f0a",
+   "title": "BRIEF-The J. M. Smucker Company Q2 Adjusted EPS USD 3.2 Vs. IBES Estimate USD 2.56",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-24:newsml_PLX0Z9FGW:0-brief-the-j-m-smucker-company-q2-adjusted-eps-usd-3-2-vs-ibes-estimate-usd-2-56/",
+   "published": "2026-11-24T07:01:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4e175623b92662ee099cf1173c02350b4359dc3f",
+   "title": "The J.M. Smucker Co. Announces Fiscal Year 2027 Second Quarter Results and Updates Full-Year Fiscal 2027 Outlook",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:e73d60cab7997:0-the-j-m-smucker-co-announces-fiscal-year-2027-second-quarter-results-and-updates-full-year-fiscal-2027-outlook/",
+   "published": "2026-11-24T07:00:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "e668b05befce9dcac9e6d5d7c466ec069229f38a",
+   "title": "The J.M. Smucker Co. (SJM) Raises FY2027 Adjusted EPS Outlook",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:adce8bd632c71:0-the-j-m-smucker-co-sjm-raises-fy2027-adjusted-eps-outlook/",
+   "published": "2026-11-24T07:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "45b3866b5c6e1c233b9bc0ea846585ddfc7b530e",
+   "title": "SJM Q2'26 Earnings: EPS estimate is 2.56 USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:6d8ce76134667:0-sjm-q2-26-earnings-eps-estimate-is-2-56-usd/",
+   "published": "2026-11-23T07:00:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6889a99f4755da388d4682144fadcbfd98b91020",
+   "title": "J. M. Smucker earnings: What to look for",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/sjm/news/earnings/j-m-smucker-earnings-what-to-look-for",
+   "published": "2026-11-22T22:00:49-05:00",
+   "also": [
+    "MarketBeat",
+    "TradingView",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "63ae57658c8e67430a6e0041d83e5ea4300545ef",
+   "title": "J.M. Smucker or Coca-Cola: Only One Gets My Dividend Dollars for the Next 10 Years",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZTFnb2h2eFpNd0ZKcURWdkJhSTZfd3JpbXVjMlNaSk52Y1RCTGd0Q3FFeWY0NXhxX1h6Z1AzV3VUcVQwVVJIMVRfbDhhSjNNUGljOU1hY19pUzlwRHJqS0NURzRfbXZCMzlzU1A0YWtIUWZhSDY2NGc3TGNoaGRnUE9qTG1kRHl5YzNjNkE3SQ?oc=5",
+   "published": "2026-11-20T09:57:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "57d5faca8a234688c3cb5bd48999a670842997b4",
+   "title": "A Navy Fighter Pilot's Worst Fear: Forgetting His Uncrustables",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261120002830:0-a-navy-fighter-pilot-s-worst-fear-forgetting-his-uncrustables-wsj/",
+   "published": "2026-11-20T05:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8c5f26630af3f8a6c330454951441bea6a20a644",
+   "title": "Will SJM Continue Its Positive Earnings Surprise Streak in Q2?",
+   "source": "Zacks",
+   "url": "https://www.zacks.com/stock/news/3032352/will-sjm-continue-its-positive-earnings-surprise-streak-in-q2?cid=CS-TRADINGVIEW-FT-analyst_blog%7Cearnings_preview-3032352",
+   "published": "2026-11-19T08:28:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e7622fb5e36b37105d510df205f768b00464c0d0",
+   "title": "J.M. Smucker Q2 Preview: Volumes And Margin Resilience To Be In Focus",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaV9TOHU5ZmlnMVluOEEyRjZkRWtWMzlGbUtzZE1hcXlIX2dYVGNOSjNJVmtZRVYtT3M3eDhjZVV2N1l3NmhsdGxqTFhYbnFkekJlRnZlNk5fMmJSNWlhWU0zblZ0S2tUWVNpUGR4QjhZeXEyeU1TYTJ0RHJuTWVjVGNkMTBoNEhEempqTFdKSmU3UFQxd0FHQkNOeUVmT3JKc19F?oc=5",
+   "published": "2026-11-18T15:50:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3765f25b7b5c53dd81ee0ed4acaa046b308c33d7",
+   "title": "Looking for a Growth Stock? 3 Reasons Why Smucker (SJM) is a Solid Choice",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa3RRbEZpSXhxbWNQX1RaTHFmN1RqOTJiNjVWa3JyejhvZmpWU0VuSGxvTjVaZVk4S0ZTTC1OR3FWNzZSTFhYTURoQTN5THlSbDhCX0tTbVBLV1ROZGJuQnV3a0h2bGJXTDNsUjJfaXpEUXpuM2VDa3hFdTF0MlNoYVFiNjc0UVY1UUNKOFBOcGNXOGpkS0l6VThzMA?oc=5",
+   "published": "2026-11-18T11:45:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "506960c213226d9e66acf3ef7c41430b462c604f",
+   "title": "UBS maintains JM Smucker at Buy, raises price target to $153 from $149",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:7b278db6115a0:0-ubs-maintains-jm-smucker-at-buy-raises-price-target-to-153-from-149/",
+   "published": "2026-11-18T10:25:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc7af1a15885d184c3ec53dd666e700b63026739",
+   "title": "Smucker (SJM) Stock Could Be Overvalued As Earnings Face A 40% Rally",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZFBCX1YxXzFJU3RZVUtmc0UwMjdmb2FXRWpEb0dJRzF1MnFHeWRPVDZ5dmlHd21qWjBkb2E5SGw1WHBibmloOEZYSk1hR3FHd3RVMFZNRDlvZHZ6WVJNWG8wdGl0azhaQlVuOEhjRTZVR1JqYnVWSHU1NEo4UG9naVRqU0l1dnFpYzJTZDlfTWtWQ0ltQ0NTRDhBZHAydlRw?oc=5",
+   "published": "2026-11-17T14:14:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "06d710c66cc8f1e73e6865aef990e6a967aabfbd",
+   "title": "J. M. Smucker (SJM) Raises Dividend Again With Valuation Still In Focus",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkT240dnRUVDB4cmI2ak9RbmxUb3FycEFGWHM4Nkx2dkFvTzlGZHRLdFpZM0tFd0VXYndiSWh1aHdRUW9FTDNzUWtOZHBkS1ZwSHkxQ0Z3TU9iRWxxdzlEUkFvLXdhWFctbzJyaU9sLW03U01VRk9idS1tSQ?oc=5",
+   "published": "2026-11-17T13:10:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e71bcb043df31598327c064730c65abeabed5b6c",
+   "title": "SJM Q2'26 Earnings: revenue estimate is 2.27B USD",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:d8e4b8341235c:0-sjm-q2-26-earnings-revenue-estimate-is-2-27b-usd/",
+   "published": "2026-11-17T07:00:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "7f3f5039a93991fcfad938575b285ac118011eac",
+   "title": "J. M. Smucker (SJM) Expected to Announce Earnings on Tuesday",
+   "source": "MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSzg1U2NvU3FoQkxhUWFnbjR3UE9wTTFxNW1kcUR6Z3lwa3ZubElwTExUVlRMMVI1djNNT1NlQ3Z4ZWFWNy1pWFBSVXk1dDhsN3pPR1hCWDA0V0dLUkU3SG1qMGpPeERjSm5Cd0ctWmljYndkYXFNUmd4NGxsSVdCQW5KaVZCaW1xeEFZSTRPTE02NXFPTEhzN2RCQlVUc0VmSlBIS05WWTNXYl9aaWF2cW5ReVlJM0lIODVr?oc=5",
+   "published": "2026-11-17T02:46:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f983699395d12cc3ff270776d270044b6a28983f",
+   "title": "JP Morgan maintains JM Smucker at Overweight, raises price target to $150 from $149",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:dbfee2fb81df9:0-jp-morgan-maintains-jm-smucker-at-overweight-raises-price-target-to-150-from-149/",
+   "published": "2026-11-16T13:07:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

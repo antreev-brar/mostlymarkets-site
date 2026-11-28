@@ -1,0 +1,381 @@
+{
+ "ticker": "GOOG",
+ "updated": "2026-11-28T14:00:46-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "53c4de97ab84602d2a2839e6da28e6abf97a0fc9",
+   "title": "Google triggers backlash with changes to agent access for gmail, other apps- The Information",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N47901Y:0-google-triggers-backlash-with-changes-to-agent-access-for-gmail-other-apps-the-information/",
+   "published": "2026-11-28T10:04:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5855fa8c5c8815483754857de583f25fb8d685a7",
+   "title": "Elon Musk says Google willing to rent more compute from SpaceX",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4677117-musk-says-google-willing-rent-spacex-compute",
+   "published": "2026-11-28T08:53:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d05f004fa4fa728cda2dde4fce0a1261d4d1e941",
+   "title": "Musk says Google is interested in renting more computing capacity from SpaceX",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N47900F:0-musk-says-google-is-interested-in-renting-more-computing-capacity-from-spacex/",
+   "published": "2026-11-28T04:02:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1716a457aa3ee2f043bc22c5ef2c367f848d7e04",
+   "title": "SA analyst upgrades/downgrades: NVDA, MSFT, GOOG, SNDK",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4677045-sa-analyst-upgrades-downgrades-nvda-msft-goog-sndk",
+   "published": "2026-11-27T09:41:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a601a79aea7626fff8c32919233b6af8b60b8944",
+   "title": "Alphabet: Buy The AI Spending Dip (NASDAQ:GOOG)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSGRUdzRzcHVpUEtLX21GRzRDSWpCd2FITHYzYmM5TFVyT1JaT0ZwaWVtaC1uT0Q3Szk2NEhfTXQ2eVR3S2RpWFJUYnoyYXh6VnlXcTZ0UGNYNHYwb2V2YmVCU2JTSGNRUmtlb20xUUtEREV2NGd0djdydkJhMk9HbGhJeFA0ZlB1QUdCVE1LWmpvTkg2QVBiUW1xbm0?oc=5",
+   "published": "2026-11-27T09:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a63989d98ddac9de4b6d01e2527c5882565b4c0c",
+   "title": "How much GOOGL stock does Alphabet CEO Sundar Pichai own?",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVl5RldCQTRvVTFlZDNQTHAwN3ZkQWxFaG1Ld2pRNnBmbmtvUTQyRlJpaUdrdUVwLUpVZFo0QWlFM1k0b3BES3Njb25IRFM5cGcxdXl1UVJVNUlOOF9JV0FxeDd2Zzk0bTUyZzYzMHVIV3g2a0VzNWh1MlIwZ1ZmU0QtV040cnkySWxmT1ktalNfb2JQTjZz?oc=5",
+   "published": "2026-11-27T08:57:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d366a3cdaf164e3a4dfb0ecc36ee713ec02b50a1",
+   "title": "Telegram Slams Apple, Google Over 30% App Store Fees: ‘Still Beg You to Pay for Cloud Storage on a $1,200 Phone’",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:1d755b38d094b:0-telegram-slams-apple-google-over-30-app-store-fees-still-beg-you-to-pay-for-cloud-storage-on-a-1-200-phone/",
+   "published": "2026-11-27T04:16:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "920ef7d4ebd5b2e24e08c965e3327f636f6444b3",
+   "title": "Los Angeles disables Google AI search features as school pushback grows",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676929-los-angeles-disables-google-ai-search-features-as-school-pushback-grows",
+   "published": "2026-11-27T00:59:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "59ab5214884e3a242d4768c18040f2da95eefe64",
+   "title": "Reddit Is Beating Amazon in AI Holiday Gift Search - Amazon.com (NASDAQ:AMZN), Alphabet (NASDAQ:GOOGL), A",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeU5VNlB2WnRsYU55Q0UtNkJKUXZmUWc1Y1ZXQmt2Nms0VXhEVmdPSy1FR3FwYkIwTXlwenFaeGF4bU9TQW9BaGdLQ3M1dDRyOGdUcUhTeU5pSEVhcS1NWXoyXzNfR1ZyWXdJd011UlV1WHA5bDAzWHBUYThfNXFzLUZvLUlPVkswZDVMOVh1ejJYQlYwSE5Cc3JrUQ?oc=5",
+   "published": "2026-11-26T15:20:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e9e65a6283546abb3cf24c19276d2341141ace1e",
+   "title": "Google’s Amazon Blind Spot: Gemini Recommends It More Than Any Retailer, But Never Links to It",
+   "source": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:19364ffcd094b:0-google-s-amazon-blind-spot-gemini-recommends-it-more-than-any-retailer-but-never-links-to-it/",
+   "published": "2026-11-26T14:20:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "246bbe137f84c78869311d8d74d32000fc691d5b",
+   "title": "Alphabet: You're Getting Anthropic For Free",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQzNvRE5fN2dsRWdoNGdFcDRHT3U3ZGN1dGpTdFFwV2lCYlAtUnNfc0w2V3ZGMmtEcFBNQVR0Uzl3WnRQN1N5S0hIMVVBMUNhaXFNREF4bGY3Xy00dlg3c1paRGhTT3lzNTFZLTd5U3Z0RWJPcGhRcDF2aXV0eWl3Z1JwVWRRbHBMVVR3TmVQTlNPM0huY2xkTWVxQzBUWXRocUpV?oc=5",
+   "published": "2026-11-26T12:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6169bc7b3d72ab051293efbc4f036fb8ca1cdeea",
+   "title": "How Alphabet Stacks Up Against Meta Platforms And Reddit, And The Rest Of The Interactive Media & Services Sector.",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVk9NLTVrRzBBT0RNcGk4RmhmdEZmdlh1a1pWS0kyNERnQXk5QnlIbl9TUGMzeXh2U2JJa252UjE5LThBb2htM3U4b0VRMVVPdmtGMzJvaFdwQTg1bUZJVFlLN01wNU5DNmlKZm0zcm5yNEM4c0dIdzcyREZ2dzdseGJQUVlFOE5JOGI3ZDZPSnJCa3dSdWxSNGdlX0NEMThHeHcyQkE3MGFtM21UY1dETkhLMlFvQXhYaTBiR3Vtb1ZtTnZSSmpoZUtocXppb01SNzBIRnRrSGxzVmgyelRSc2dyaGg2TXN1SlRN?oc=5",
+   "published": "2026-11-26T10:30:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0887e846882769ea919b437b9631d169fcf8be91",
+   "title": "Alphabet: Upgrade To A Hold After 35% Fall",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT3YtNUNkd0tkUlZyWWdkWlNQTUg4dTJWcVlqMjczamROSmxUUHBYOVU2UDZsOVUtTXpXSExIN3ItcGdkQWdVc3RST2pub0VNZm1salE1X2JWRVBFUFEyYkxEb2J4Q3BSQ0g3OEZMb1UyRFF3TXhqMFZIdGJxOTY5QWlRLXR1aHhOdmE2MHU4eGNGTXc?oc=5",
+   "published": "2026-11-26T08:05:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2e9da7edf1803fa0592846b97639b966d5f12d6c",
+   "title": "Broadcom: The Google Scare Is Overdone",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdUF3VUlRdS04S09Pd1UwaWlMaXdtX2gyREFGQ1MyTmNEa19tT2J6MnctTEl5ejZqdjFaMkhfdVhMVTdzSV9KTFBQVFpBZlQza05fenQzWVdCWlMzWndoOXhFci0xNUJqdmJsVUVEaU12anR1cTlLcktQWTBMVTRIY3EwTTk?oc=5",
+   "published": "2026-11-26T04:37:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c0d42d0623904815aede1169bfa877e77fa41e98",
+   "title": "Alphabet Is Most Beat Down AI Company",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUkpQbHhiTTBNWXFjX2VJSEk2QzZHMnRQbjFJM05pM25UemRwMWctTXR0d0ZacllCekRGUVJEYzhIVURpTk9MamJteXRtVzFSNk15bVNhS19XUHJFSmVEcWhNcTAyY0Nkc2ZsU21QOUlQNVlxR055NVRmZ0FYLTFuQkg0T0JUMktOWUZFYnRQVlZEOHdlLV9VOUdzQmFsQmN2cWpqZGlJWWhxWWpycGFHLU1IaWF1SjQ?oc=5",
+   "published": "2026-11-25T10:27:00-05:00",
+   "also": [
+    "The Motley Fool",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d1146419c50da817533197b031a8023f4f774458",
+   "title": "Malaysia regulator files lawsuits against Google seeking $146 million over 'harmful' content",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N47608U:0-malaysia-regulator-files-lawsuits-against-google-seeking-146-million-over-harmful-content/",
+   "published": "2026-11-25T00:37:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "03223abcd14b7f1524153160563309df62660175",
+   "title": "Waymo says recall prompted by 11 new incidents of robotaxis entering closed freeway lanes",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N475185:0-waymo-says-recall-prompted-by-11-new-incidents-of-robotaxis-entering-closed-freeway-lanes/",
+   "published": "2026-11-24T09:27:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d69efb84f0d7fd429895356551421ad554752aad",
+   "title": "Waymo recalls more than 4,000 vehicles over two software issues",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N47517S:0-waymo-recalls-more-than-4-000-vehicles-over-two-software-issues/",
+   "published": "2026-11-24T08:43:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "555d413872079a327299b5d0e97d5cbe7c15fb20",
+   "title": "Waymo Is Recalling 4,488 U.S. Vehicles - NHTSA",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_AQN2MUYL1:0-waymo-is-recalling-4-488-u-s-vehicles-nhtsa/",
+   "published": "2026-11-24T08:17:19-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8a5a52133d57f5c6912a29c98ea929fcedac581f",
+   "title": "EU leaders' chair proposes new cuts to EU 2028-2034 budget draft, suggests digital tax",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N47203F:0-eu-leaders-chair-proposes-new-cuts-to-eu-2028-2034-budget-draft-suggests-digital-tax/",
+   "published": "2026-11-21T07:47:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c1f1a4bcc4fc7c63c44640f60442654c65dbc3dd",
+   "title": "New AI Releases Help Google Avoid Worst of Tech Rout",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261120008537:0-new-ai-releases-help-google-avoid-worst-of-tech-rout-wsj/",
+   "published": "2026-11-20T16:44:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a34c12016d5565aab7699b29d9cf1539510a2fa1",
+   "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N4710X2:0-waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control/",
+   "published": "2026-11-20T15:52:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cb0e7427caf09fc4b840fc78eacafe525502e6e7",
+   "title": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmEtQVFCYWx5emI3RElNeHhOU3VNbGphc0JWdnRJR200azRLcVNualJvOTZEX1BCQ2s5TXFtRHdWVDF6SFNFWXFiMEVXb1dOc0dxOUVlVjFFU1hoRjBDSjh2cUVKb0pVZzN1SEhDdmdmRlBKcnByVmI1T2NCeU41YnMzNkFRN1NISkxLWmZhOFduTmlZZ0VyXzB3Y2w2WVM2RWR4U2MtZFYwWHlrblh2YzVUeGFTRWtIbFE?oc=5",
+   "published": "2026-11-20T15:02:40-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "119e8139669ee3a45938ff736f16c6df8f6a847b",
+   "title": "Alphabet just overtook Nvidia in market value for the first time in over 2 years",
+   "source": "MarketWatch",
+   "url": "https://www.tradingview.com/news/DJN_SN20261120007868:0-alphabet-just-overtook-nvidia-in-market-value-for-the-first-time-in-over-2-years/",
+   "published": "2026-11-20T14:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8e5bdbbb761cf355d1d78eaf496ea809c3381875",
+   "title": "Youtube Finalizing Multibillion-Dollar Settlement With Schools Over Social Media Addiction Claims- Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4710YB:0-youtube-finalizing-multibillion-dollar-settlement-with-schools-over-social-media-addiction-claims-bloomberg-news/",
+   "published": "2026-11-20T13:00:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2c3cc5a1f0036ab57d97d124360c5f3a52dd1387",
+   "title": "Broadcom Stock Falls on Report Google is Cutting AI Chip Shipments",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Cd2w3NzJtb0xha0ZJazRHS09nRUVPanNPN192RmRWOGVxdW52QThWZzVwbG9VVmNpT1F6MkZaQVdjV09aMU9razJCVUpfckppUllpQWZCN3hIeHh6VkhhLWRWRC11QWRkSjhMaFlQQ1pyWVFCZ0VsQ2RiWmw?oc=5",
+   "published": "2026-11-20T12:42:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ab25e97e9b9805b887d37a6508626434621bb5b9",
+   "title": "Nvidia's share slide knocks it below Alphabet in valuation",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR1lHWVFlSnZTcW9OVTZGU0lwdDdreE5TSm94Z0FTZDktRHRLOEU0LVBTTHpOZ1lYYmFCZ041UWUtTEh6VEFhczZFd2xlSjNLRlNNMHhDd2tFcDl2N1BIMndRY1VaN09HeHowT0hVblhkd1ZpUGxTakdwVFk4cjFWTzlTRnJQeWNGUW92YUxWUG9XR3BzM0hrZDdaWU5vUHJyMVdRcDktdWNMSUlkLS1Nek1SZjYxQQ?oc=5",
+   "published": "2026-11-20T10:31:27-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4caedd1964f67af52303f1210104c11f2b08ed16",
+   "title": "Automus Announces Partnership With Google Cloud To Help Accelerate Agentic Transformation",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4710JM:0-automus-announces-partnership-with-google-cloud-to-help-accelerate-agentic-transformation/",
+   "published": "2026-11-20T06:56:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "07a2d66d05ac16d47c82b13e7bdf55a85c3ae908",
+   "title": "Alphabet Files For Pricing Term Sheet Of C$6.00B Of Notes In Four Tranches Filing",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN47101A:0-alphabet-files-for-pricing-term-sheet-of-c-6-00b-of-notes-in-four-tranches-filing/",
+   "published": "2026-11-20T06:49:30-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a079f0365e181cc6c0cb1505c1fa7608c8b0b350",
+   "title": "Alphabet raises $4.19 billion in Canadian bond offering",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4710T8:0-alphabet-raises-4-19-billion-in-canadian-bond-offering/",
+   "published": "2026-11-20T06:29:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "798afed9af309e2d0fecdcb36f7250237c06b1a5",
+   "title": "Alphabet plans to raise C$6 billion in Canadian debt offering",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4710T2:0-alphabet-plans-to-raise-c-6-billion-in-canadian-debt-offering/",
+   "published": "2026-11-20T06:13:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cb97bd85d37e1cf1857ccff1cf33ee917c23e9fe",
+   "title": "Cramer: My favorite chartist sees two major signs of a rally brewing in Alphabet stock",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd1NpVlByZC1xZWxaeU1lbVc5T05GWGVqUDdkcXUxTmt5NXNyUHo5c3ZGaEM5NHExYVZ0UC0xX1RpbDU5WlBlUEY0RG5VdTNmZ0JWQkNlS04zNmJxcmtPb01FX1g2cTdPNHFJYmNSWnZRQ3dxTHFBd0E1a3N1RjlXMTFtdzFteE0?oc=5",
+   "published": "2026-11-19T18:38:35-05:00",
+   "also": [
+    "24/7 Wall St.",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "69c91019657364b133e13e07d5ba2555380f4bd6",
+   "title": "Alphabet To Raise At Least $3.5 Billion With Canadian Debt Sale- Bloomberg News",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4700WE:0-alphabet-to-raise-at-least-3-5-billion-with-canadian-debt-sale-bloomberg-news/",
+   "published": "2026-11-19T11:39:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "20620898f03e6580ed8612cff63f44f0d5f00c8a",
+   "title": "Anthropic's Giant Shareholders: Amazon and Google",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261119006661:0-anthropic-s-giant-shareholders-amazon-and-google-wsj/",
+   "published": "2026-11-19T11:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "04b901df56bebc114336321f513da6760f7e37c5",
+   "title": "Google Announces $10 Million To Support Energy Affordability In Oregon",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4700TH:0-google-announces-10-million-to-support-energy-affordability-in-oregon/",
+   "published": "2026-11-19T09:04:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "42ed424f1a632e71234363a027c22a84a3e94a9d",
+   "title": "Google picks Bezos' Blue Origin to launch AI computing satellites in 2029",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4700V1:0-google-picks-bezos-blue-origin-to-launch-ai-computing-satellites-in-2029/",
+   "published": "2026-11-19T08:59:38-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f5496a04a85b57b42e32065268a4f63e23d9f83e",
+   "title": "Blue Origin Says Co And Google Have Entered Into A Launch Services Agreement For Project Suncatcher",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4700OI:0-blue-origin-says-co-and-google-have-entered-into-a-launch-services-agreement-for-project-suncatcher/",
+   "published": "2026-11-19T07:55:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c02f11f7e610f7dc373f2d41652363d94818064f",
+   "title": "Google Stock Is in a Slump. 2 Reasons the Comeback Could Start Today.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10WDdwclZjV3ltY3NHVm9ia044N0huUnBJZGgtN1FkalNkajRpS1R4XzFjYjg3ajRXS0hwWDdvbHdPQ0k5eWxhSHBuOS1Da2x5S285MFJ1QVVwN2Nob2pLQlZmYVlwQ1ljT2VOaXBPMWMzU3dkaE5Wbg?oc=5",
+   "published": "2026-11-19T07:14:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4ab8e4eb6aca36e051556f135f96f527082efc18",
+   "title": "Amazon, Google to Have About 28% of Anthropic Stock After IPO",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2pZZmdyc0t4VzZKQ21zUWRjVENMam14ZG1qQ2ludXhhSmxGbUF5NVNmX1h0a1B2SlBMNEVZWmRZRDZSbFQyTWZKMHZuZzJrNk13Z21iaV9nbGxBaVlwTmJ4cVVMdnVYSUZrRHJNcF9ObGVyZ19MbzEzeElOcmtNTmRfSGtEOUlkNGRWZENESVliWUtfd3lyQ1ZmY0FYWTNiRzduZW02QjhyOWx6UUFN?oc=5",
+   "published": "2026-11-17T08:03:17-05:00",
+   "also": [
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "acd346d1b793a1e31f2e312b480ee3a2d1865510",
+   "title": "Google To Give Japan Early Access To Frontier AI For Cybersecurity, Nikkei Reports",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X0UH:0-google-to-give-japan-early-access-to-frontier-ai-for-cybersecurity-nikkei-reports/",
+   "published": "2026-11-16T20:15:49-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  }
+ ]
+}

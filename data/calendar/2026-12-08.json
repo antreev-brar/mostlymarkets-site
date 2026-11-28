@@ -1,0 +1,67 @@
+[
+{
+"ticker": "SNPS",
+"name": "Synopsys, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 3.09,
+"n_estimates": 6,
+"eps_last_year": 1.9,
+"last_year_date": "12/10/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 77630087000.0
+},
+{
+"ticker": "AZO",
+"name": "AutoZone, Inc.",
+"time": "bmo",
+"quarter": "Nov/2026",
+"eps_forecast": 35.98,
+"n_estimates": 10,
+"eps_last_year": 31.04,
+"last_year_date": "12/09/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 54792540000.0
+},
+{
+"ticker": "CASY",
+"name": "Caseys General Stores, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 5.92,
+"n_estimates": 7,
+"eps_last_year": 5.53,
+"last_year_date": "12/09/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 25807806500.0
+},
+{
+"ticker": "GME",
+"name": "GameStop Corporation",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.2,
+"n_estimates": 1,
+"eps_last_year": 0.24,
+"last_year_date": "12/09/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 13606391800.0
+},
+{
+"ticker": "LULU",
+"name": "lululemon athletica inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 0.98,
+"n_estimates": 10,
+"eps_last_year": 2.59,
+"last_year_date": "12/11/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 11345026000.0
+}
+]

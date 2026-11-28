@@ -1,0 +1,41 @@
+[
+{
+"ticker": "CRM",
+"name": "Salesforce, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 2.41,
+"n_estimates": 13,
+"eps_last_year": 2.66,
+"last_year_date": "12/03/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 162303836000.0
+},
+{
+"ticker": "SNOW",
+"name": "Snowflake Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": null,
+"n_estimates": 11,
+"eps_last_year": null,
+"last_year_date": "12/03/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 94451614000.0
+},
+{
+"ticker": "AI",
+"name": "C3.ai, Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": null,
+"n_estimates": 6,
+"eps_last_year": null,
+"last_year_date": "12/03/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 1607798530.0
+}
+]

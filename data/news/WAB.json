@@ -1,0 +1,54 @@
+{
+ "ticker": "WAB",
+ "updated": "2026-11-27T06:09:33-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "4090425dd91ecebf367003c223e640adbdd1c9e8",
+   "title": "Wabtec evp operations Gregory Sbrocco sells $280,782 in shares",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDhPLUZfbDBMSUdjNHlBRFFyTkdQaVJpcTdRTDJXblJEQzItSXJsc29yME91MXQ2U29wT2NsSmMzdHdVeUphTEVpUHp6djFGM25LdU1zaTY5bHFCSFJ4cTRSY2ZBcWlqdzFmSzRFbVFpMFBhb2hXaFdIZXNUckhzN2ZtLXhpZkhhM1RiN0NRTElzNmVIWERJV1pvMTdDV1pNUk0xMHZjYmhmcmhFbENJcEJQLXNWSUcxS285aVhmZ2N5V2M?oc=5",
+   "published": "2026-11-21T21:01:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cd6412db41e794a03843ddd016916bf98f42cf4a",
+   "title": "Westinghouse Air Brake Technologies elects Richard J. Freeland to board",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:be24a2f4df714:0-westinghouse-air-brake-technologies-elects-richard-j-freeland-to-board/",
+   "published": "2026-11-20T08:13:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d1731f6d14ff4c84eae025dd644b1977ea86b9ed",
+   "title": "Wabtec 8-K: executive or board changes, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000114036126045007/0001140361-26-045007-index.htm",
+   "published": "2026-11-20T08:10:46-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "5eef96d267c4bbf53e84e45ce92cd13c377e4998",
+   "title": "Wabtec Corporation Appoints Rich J. Freeland to the Board of Directors",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:a41e3e4d6ad02:0-wabtec-corporation-appoints-rich-j-freeland-to-the-board-of-directors/",
+   "published": "2026-11-20T07:00:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "0c2edde5aa5452f386c8d59726858b2a46e4d225",
+   "title": "Heavy transportation equipment stocks Q3 teardown: Wabtec vs the rest",
+   "source": "Stock Story",
+   "url": "https://stockstory.org/us/stocks/nyse/wab/news/earnings/heavy-transportation-equipment-stocks-q3-teardown-wabtec-vs-the-rest",
+   "published": "2026-11-15T22:34:11-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

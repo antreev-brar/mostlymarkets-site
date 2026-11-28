@@ -1,0 +1,383 @@
+{
+ "ticker": "A",
+ "updated": "2026-11-27T06:06:06-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "9b4f4db1ae2140bc3905ac628f35c86e8bd1e181",
+   "title": "Agilent and Chulalongkorn University Open First Experience Center in Thailand",
+   "source": "PR Newswire",
+   "url": "https://www.tradingview.com/news/prnewswire:21c59d452cae2:0-agilent-and-chulalongkorn-university-open-first-experience-center-in-thailand/",
+   "published": "2026-11-25T21:30:00-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "press-release"
+  },
+  {
+   "id": "7862c37bf2a2d657f1a61d5892fad862b6edf858",
+   "title": "Deutsche Bank maintains Agilent Technologies at Buy, raises price target to $210 from $190",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:f0265bf174175:0-deutsche-bank-maintains-agilent-technologies-at-buy-raises-price-target-to-210-from-190/",
+   "published": "2026-11-25T12:22:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "df6049159ade3873239ead57cc803ba9021e28d2",
+   "title": "Agilent Technologies (A) Stock Hits New 52-Week High",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONXZyV2I4UnEtNkE5NlRXVXhzX3FQOEpicnNtR1FsQlBfazM2amkzYUxNVDFIUFktdkpYeUdkREV1NnhudF9pUjhfakYwTFdZeHNneU9kMlR1WS1KRmhPMkpwR0xnNl9Ra2t6WEx5cnN6UlZ4TnZBbWZEbWdSUmpUb29CSDlZVFowME9PREktOWFlTWVldGY3QUFWdUtuUQ?oc=5",
+   "published": "2026-11-24T22:23:27-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "06648c92b2fc42a1e949a4c2fa5bb5e0df912823",
+   "title": "Agilent Technologies, Inc.: 12-Monats-Kursziel auf $199,89 angehoben, Aufwärtspotenzial von 14%",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZHJiYzgzMlczRl9EcDhJb3Vhb0pabXljV3ZoYk5PYkdIQUZVbGxFcFdjYktuSUw5TktFeWpHNEFrVWVpMmI2OTh5N3RKTldiTm9sV2dRNjdoY0NsUmlDVUtuekFxY1BONnh6dC1UdVVwWjlPY0NKTm9OcWhmZ09tUU01eEQtZFk?oc=5",
+   "published": "2026-11-24T17:20:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "61270ec6b25a09040657efad91b048ea6dcc73bf",
+   "title": "Agilent Technologies Posts Strong Q4 Driven By China",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbWVycE5ycDg4UlpvQlJpYmUzQ3pxRWt6UGdNYnI5S1hGeHltTE1peGRvRzVMYVdSUTg1VkNvR1Q2V0ZncGhNdE1TZ0VIZHpJY1RIczktQzBfXzJrNjIweTlrNHRWZjNxU2x5VTVXSW0yR2VLLTloZ0h1ZEhXTTl5MXRRVHk5ZEdrcXBWWm5oamlBWW9YdXRuNy1QcGh1Snc2Rm1sOV9IOXVScEkwYkliV1Z6LXZxSWpkdDZ2MGVwWDJKZ3A4QWc?oc=5",
+   "published": "2026-11-24T16:21:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "adc05681b04f4964eeece19cf4392b33fa1c67d6",
+   "title": "Agilent (A) Stock Looks Rich Even After Strong Demand Update",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeFd3bDFEM2haYTlBRUMwMElzOE8zbUdLNml6Q0ZGdWFIUk43Q2M2TWRuUjFHaU81ai1GWXZnZmp1MkdDTmVCUDVxMWRNVnlVTXZId1U1Y0V0Ul93NFFuc0w5V29UZ1d2UWltZmI5aWJPNGdvb1NMTkliQWw4UWxOWUlhcXBqR0t1WU8weHluRUdWdG1TQ1ZTWHJ3?oc=5",
+   "published": "2026-11-24T14:07:33-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d2645a3c72e4de38737c2785965016e77d8bfe7f",
+   "title": "Agilent earnings analysis: questions answered and next catalysts",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd1MxbjR1QkJIMVJ6T1BHQlpIYlZLZUYzZ01UQThGMnNIOWlaenhMVEozYWNuN2JZQW5lOEh6RTlLV2ZLeXhkOTdCc0h6dk4xQmRkMUVmWVFacFZrRTQzUVhadk5hT2hvalJ0YUtHSS03ZlF0c0kzQXFZOXM5cGxTWk4waF9CQ3lpZXdiSVRkUUx5cnJmMElqRnhxeVdUY0hMRXpkcVpqRzJxdzVOVkhSSUlPYnRsYmhtZFd4WTNOMi1pR3c?oc=5",
+   "published": "2026-11-24T13:07:20-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4091ebe4d7b36638f2ca5fabff565f7e79c419dd",
+   "title": "Citigroup maintains Agilent Technologies at Buy, raises price target to $205 from $190",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:8bf6155645f47:0-citigroup-maintains-agilent-technologies-at-buy-raises-price-target-to-205-from-190/",
+   "published": "2026-11-24T13:00:23-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0cc27695758ef2948578ddc6827c43a1d2985272",
+   "title": "Why Agilent (A) Stock Is Up Today: Analysts Raise Targets After Record Quarter",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR2JrYmdvcW9adTZpS0Z1S2luMWhWQjJNWGVKZlhVR1VaRVM5bGotNnlLYUwxamZoUEJJZ21nc01NUkhHb29Za0wwR2syN0tQVEpYc1R2SzVQbnhzeEdxWkxYRVJmQ3h2a1E5NlNjaXBxOHNQNkNJYmlhbXhYc0NqOE4yNENGVURqcUxYQ3BpbHYzekFiUzFvS2FYbU03S2hJTVVwcFZFanN6eWt3eFB5bERSWDE?oc=5",
+   "published": "2026-11-24T11:07:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "843f2f1b888c71dc57c7738467481be23971258a",
+   "title": "JP Morgan maintains Agilent Technologies at Overweight, raises price target to $225 from $195",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:18faedc59834b:0-jp-morgan-maintains-agilent-technologies-at-overweight-raises-price-target-to-225-from-195/",
+   "published": "2026-11-24T10:44:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "64833c220cb7ab5ebdd5be9cfdeb9729097fc235",
+   "title": "Stifel maintains Agilent Technologies at Buy, raises price target to $205 from $180",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:789942f4b4515:0-stifel-maintains-agilent-technologies-at-buy-raises-price-target-to-205-from-180/",
+   "published": "2026-11-24T10:38:07-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "65f24afa877adcafa7a58852693a95e5e8193ca9",
+   "title": "Agilent: Record Highs Backed By Fundamental Strength",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDBsVThDUF9vZ1lSNmZqclJZR3RBZ2xfaUdVNExaVnFoZlk2SGxLbERFTnJwN2I3TDh2cEg1YXNuYlN0THhXcXRGWjhoYTk5VmNVTnYxNlZlNDAwbWVmUS1WTHhGMURxOEFYMlJDWU81ZUlLZ1BRLWNTLXBGNzgzS0FlY3JtTmI1bHp5RkVkTU00X2ZzNlk4?oc=5",
+   "published": "2026-11-24T10:29:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bd272befc4ad611fe5cba84b14fc15d96c8a310e",
+   "title": "Agilent Technologies (A) Brings Pan Heme Blood Cancer Profiling Into One Workflow",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS1hNNVpudmVHQ0owNXhkQWg3SkVuVU9kSmF4Z0NMd0haTU9jRF9LVFJRR1E5WjVUV2tlUDFVdVRhR2hGSGw3NHRMU2xuTUs2N21hSzRBTFpENEd5UVNySktNNnRoMFJOb0FmVFJfY2ppdFhqMXhFN25uVDd0Nmh2Y1hPdkZJVTZaREo0Y3NtWkZmclV1OEJ5QWZERXhIdw?oc=5",
+   "published": "2026-11-24T10:11:35-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fea60735a7f6149dfd5c7fb2d434405a8f154477",
+   "title": "Bernstein maintains Agilent Technologies at Outperform, raises price target to $210 from $200",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:ca5752989a2a3:0-bernstein-maintains-agilent-technologies-at-outperform-raises-price-target-to-210-from-200/",
+   "published": "2026-11-24T09:50:34-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e67595655281cd3ddfcfeba7fef9d7a049445bef",
+   "title": "TD Cowen maintains Agilent Technologies at Buy, raises price target to $205 from $196",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:360b023ba04a5:0-td-cowen-maintains-agilent-technologies-at-buy-raises-price-target-to-205-from-196/",
+   "published": "2026-11-24T09:11:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9b8a07478ee907c88698551f294e1a73aa473187",
+   "title": "Agilent Q4 Earnings Call Maps Out Growth From Lab Upgrades",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0JHQVljLXVSVVl4UUpmUTd5UkhDTl9LcW1vYVQ1Zm1yLVFwaTFvdkZKZDZHSEYya2JBV0JMd3RGQlUtX0RCUVNxR0k0d2tjNWJLRXFiZ25HOTFfcXNRM095WjkyMGFsNVBDWGRFWjFtMUdEUmxvS3VKa1FIaWhwQWNpdkNqemVHT2lEWXNIclc1dVJXWFZaMmtPOTVVLUtlMjRYczhTNEVmZm1GUUxyWXpmek4?oc=5",
+   "published": "2026-11-24T09:00:00-05:00",
+   "also": [
+    "MarketBeat",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "5b088a0c75bc8b813fef6fbfd2e986f80c648698",
+   "title": "These Analysts Boost Their Forecasts On Agilent After Better-Than-Expected Q4 Results",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQcWhNdElOcF9PdDVYaWszN3UydHNOQlVBc0ZObmFyWWF1SGRuUGs4RHludUJsbmpValdxaURhS3d3ZzBDOUM1MGJTWXVIWDl3UUVyU0w3bnp6d09Vd2tZcElKbldJRTRTMmhoSmVMby1SNzZjOXlQR0pGY25XZGRjSmxjVG5ORVo5dUlvcWtqQ1JHV0ltOEhaMmZzOTU2YjluVm5CZXB0ZEFPemNkV0NieTNmTjJKUGZaNjNqaXhGSElsckd1enhYek9tYWRLUWIwSEZRUnRoNzlYLXdySXp3OFhwQXVoTVZ4bmROTGxCa2EwZw?oc=5",
+   "published": "2026-11-24T08:58:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c78513ca0cae6a53334a0ec46e9ee06f96134023",
+   "title": "Bernstein raises Agilent stock price target on strong earnings beat",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3BhZWozVEYyZy11LWJBTHlnRV9rUzBadmMzWXZrNHVYTGplOFNiMDZ5S3pINjZwR2VoYzJTODFzczF2NjZacmFPZE9jWmdQdjJlNVBrd1IxSTlxc2M3LXkxZm4zMWtQR0J3RHlVRTdjLWJReDgxaEdvNG1QMEltWGlaejJic2ZERmlWNWdIbHhodUVyWkpON2tBQ1dIbHNmeFZQU2M4Z2FhM3pETi1uOGNsdGZFeTFhSE1HLTdGcFBnMjBJZkE?oc=5",
+   "published": "2026-11-24T08:52:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "40408ebc716743172bcc0ab643c1a7addd9ea0f9",
+   "title": "Agilent Technologies, Inc. Q4 2026 Earnings Call Summary",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORzlNYndsZktCd2IyY3dkM2FEeTZNVWFnNkhzSzJyR0o1LVJURW1HODNabnVOb3U3bXZpeGRaTmVxTjZnM2dDZzlBSnc5RmVObGphMUptOG0yb3QwT0NDVG11UU4ydC1NUEJXbDlHaExuN1ZsWDhUak5vQjFkaExIVXRSTTlzcjU0TVc0UFpSYXlfRUQ0bUEtNzMtMTh3UQ?oc=5",
+   "published": "2026-11-24T08:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8eaf1fdd61d1a19b34b117e5e6b6c8955240614c",
+   "title": "RBC Capital raises Agilent stock price target on momentum outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN19jUVpTVU9UeFVpaUhmbi1Bb3RZbFhZQVhjdFFEVGZiWldmem40MzQwWGdqSXRkRVN6R21PNDQ0cm95SGpxVDBhV2I0Y0NrUER0V3M5UnRZUHRGQ3Z5ZFNEV2R4NzRta3JjWVFkc1J5TGZ1ZVQ1VGsxMjhkQWd3YVgyQXFacUp3d2laOVRaWlViM2dYWjh4UXd1bUNDUjIxNjk5R3VBNmZaOUQ1UDlkNURxZFMxenFfRFYwQUZlQi0zQVE?oc=5",
+   "published": "2026-11-24T08:04:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b6686575e2485bc5766540f06372e06f6b306a7f",
+   "title": "TD Cowen raises Agilent stock price target on strong Q4 results",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMnNsMUJycWdfNkEteTc1SkM3SFBiS3MzRVNMQTI2SFQtSXF6TFIxWFlRTDlKenZXZzdOUjVfb3RzcUp2Ry1QTDlDMUx2OHEtS3I3QU53WDNFTGpmZVE5bTJPZ3cyTjU2MFc5cWtabVBoZmJJbl9KTXRxWlRJZXFxVVhOcFFUWkt2TEtEajZtdlhyLS04NHA4akNRS2FtazBYRHpKQlJ5ZTRmMWxMVHFtSDNHYzJmZGFwa0F4Y2JKMW8?oc=5",
+   "published": "2026-11-24T08:04:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "072d5c1f24641ccadf04273e32a94153ad6076f8",
+   "title": "Baird maintains Agilent Technologies at Outperform, raises price target to $208 from $195",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/news/tradingview:dc1ca4dd22efc:0-baird-maintains-agilent-technologies-at-outperform-raises-price-target-to-208-from-195/",
+   "published": "2026-11-24T07:13:52-05:00",
+   "also": [
+    "Investing.com"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "491d491194042e3d850cfe4da7f08761b1583201",
+   "title": "Agilent Technologies Stock Jumps on Higher Demand for Its Lab Devices",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3NFY2tpLUctemM5eERwT2lJZ2QwQ1V0OU9BQlJ2d3NGS2xyZXNIR3NqWFhtLVBDeFR0Y0Y3M2t4dW4tM0JZb016dGtPUUtsakx4b3FiZ1B6dlZ3QlZCTDJXSG5rNjdLRFB3eFFhNExyWmxiZnJRdXJ0WGI4NE92TmtBcXJkenVMNW1V?oc=5",
+   "published": "2026-11-24T05:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8a0c4475cb13f8a7f77bf818c91f0bab9e0b5545",
+   "title": "Why Agilent Shares Are Trading Higher By Around 7%; Here Are 20 Stocks Moving Premarket",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbXgyVlhmRlI3dVF2b2luZ3ExajNianNMNC1oWUhlUDN3U1RuaFo0N2NvM1JqX2oyN0ZQdUdkYXBhRlRFb3kySEdoOU1WUlNPWHUxU0g1dE9JbUlPU21EM3hkX3d3ZDNHNHZabFZRc3pFcHctNWlkdnA0VU1RN2Q0RGJmQzlyVUFDU2t6eEI4NUFlUFhyaldldV9JSnhFSWhuVDEyVkE0cGZQNjJXc29DeGhlMlJHRFFkTmhpcTRlc3k1bXhGaWFneHpTRHUtVkFzOTJoQ2o5YmJSWGUtMS13?oc=5",
+   "published": "2026-11-24T04:57:16-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2c2f0a7b5cafe0673ef7e7bb76a6890684e364dc",
+   "title": "Agilent: 3 Growth Drivers Could Keep This Rally Going",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYzEyUHBFN283U1l2R2o5TnJrU2tRZGtPV0hHM2MtTzlRUXJrMVk5S0l5WW9vOUh2WlFld1RxUlZPeXVESHZOVHBkbkxKalFHT2tldmJ2NVI3Z3JBZWxtckl2TnlpeHBYQWNxZWVFSmxiNkx5bVEtM0dwWXcyUWZCWDRIMkJpQ3lPZGd3aDFVcHRLcXlBelZwanZfeGotdw?oc=5",
+   "published": "2026-11-24T04:45:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dcdb9ad5b3954c581fa49f8bf6dd850be8f88648",
+   "title": "Why is Agilent Technologies stock surging today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSm5tVXd4dlRabTJJS2lwUlpRTHU0V3EycE5JbjYyZ284MjUtZDdkWFQzZnliWklyT2FkTUM2OEJHWTBBZGxYSEVUbzVnckRJNC1kbHFjTlUwT0VoWXJNMlQyTnpfNDVmVjNZanBOZG5tR2pZTGw4enE0ZUxENjk0WTlFSFNiN2pFUzlLazBULUVZWmI2QU9Rb0xnNU9XV180em0wdUs2Rl9wRFpUbHc?oc=5",
+   "published": "2026-11-23T18:12:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "96d4504088e26c6c8d3077522414d50edac6ec6b",
+   "title": "Agilent Technologies (A) Surges Nearly 7% After Q4 Earnings Beat and Strong FY27 Outlook",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekE2WFpsUV9SeTFleFZtN2Q2Z1hhUjVlSnFuMHhrc21NRjVYMXZpa2o2dE9QRlBVU3V5VWNQRjRsM0ZZUnBTY0R0NTV4dEFyZ2hDWmFDclVneEJlS0MzUFBCeVZub2dOQmZzTHJ1MV9MZ0s5SFpMWU85Nk15UVF0Y0F6b2pvVFI5cnpESFdTYWxLaXR6c015SjItd084YzFYYjhMUE9oaUo2czVIby1UZlN6RHdWWkxLcXkwWE54ejcxUQ?oc=5",
+   "published": "2026-11-23T18:05:33-05:00",
+   "also": [
+    "Yahoo Finance",
+    "MarketBeat"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "62bf9a6f6515a2006b31244cc98e7890c13c4beb",
+   "title": "Agilent jumps on double quarterly beats, guidance",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4675944-agilent-jumps-on-double-quarterly-beats-guidance",
+   "published": "2026-11-23T17:40:09-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b851fa57929505a0d4f3490b1a4985a19531f7f5",
+   "title": "Agilent (A) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOU1WT0piNk8xS2VWTmZNeE0xcEtFdFBseVRDYVIwbDdWMUNUWEVMdmxXUnlyOVllTWpMakxLUGpYcGhFUEJIQmJZSkpabTRTVWNiUk9xX0tfWi1CaVlQVHJWclNvWm5TeTFlQlpoRHprZFVSR3VBUGNPaW5ULVR0Z2FOTF8zNUhQaHk0Yy0tXzJKY1dDclF2M1hYWTk?oc=5",
+   "published": "2026-11-23T17:00:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "30589e5c40b9fb2dd1050bd257404abdd5ddd2bb",
+   "title": "Agilent Technologies earnings beat by $0.13, revenue topped estimates",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONnpnNmNfQTNMS05GTXNPR2ZVelN6OUxmOTR3U3BnampiQ0xySjJJOEFuU21NdlBsdFQtVmJ1eXdRbVpVTTgyRGpreEJvV0pfaG4wY3pRdHRFRFdBS01hUy00bTBkUDdCcEhGN0hGMTg2UmdaY1Rrc0pacEd0NnBJMWIzNnFBOFhCUEU2WmoyaUxOWlRoV1FjdHZoRjFEUkMxRU1OZVpIdUFwVjhFbmRqbzAwMlo?oc=5",
+   "published": "2026-11-23T16:38:42-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4d0b251f5ba07a1980024eac2c56501c5b4df50f",
+   "title": "Agilent Technologies 4Q Profit Up; Guidance for Fiscal Year, 1Q Ahead of Estimates",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261123008909:0-agilent-technologies-4q-profit-up-guidance-for-fiscal-year-1q-ahead-of-estimates/",
+   "published": "2026-11-23T16:31:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9ed8c79492b588a34d404e8225353a6489876a60",
+   "title": "Agilent Q4 preliminary revenue beats estimates on broad segment growth",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N474119:0-agilent-q4-preliminary-revenue-beats-estimates-on-broad-segment-growth/",
+   "published": "2026-11-23T16:21:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "74b79240debb8b4411b0cd872e6b6b6dda9167c7",
+   "title": "Agilent Technologies 8-K: quarterly results",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000082/0001090872-26-000082-index.htm",
+   "published": "2026-11-23T16:06:20-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "59bd121d94ad42375554fc124241512be9731f96",
+   "title": "BRIEF-Agilent Q4 Revenue USD 2,040 Million Vs. IBES Estimate USD 1,988 Million",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-23:newsml_PLXQRX4D9:0-brief-agilent-q4-revenue-usd-2-040-million-vs-ibes-estimate-usd-1-988-million/",
+   "published": "2026-11-23T16:06:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4bfdea6e3ea49ba6d809a101b4358e975014b47d",
+   "title": "Agilent Reports Fourth-Quarter Fiscal Year 2026 Financial Results",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:24211bd0b3593:0-agilent-reports-fourth-quarter-fiscal-year-2026-financial-results/",
+   "published": "2026-11-23T16:05:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  },
+  {
+   "id": "e0bcc9c386e057427d51e67ab45077025cba586d",
+   "title": "Top Wall Street Forecasters Revamp Agilent Expectations Ahead Of Q4 Earnings",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSzg5UHFpOFZRZGhVM1hmek85bE9VRmpyaE9udVBrSG5jY3I2d1c2QTRiRWVWTGI1OGRZN1JLejdlN3BkVFJZRW9CU09DM0FJSDB6UDI0NkxON29yQTJSY0lwN2J3a0pUVTR3MTE3NzBvWXhqMklseEFDaklNTmtiSXBOdzVfLUhBVVBVTXVyMWZ0VExndnVLMzluamFiUTdHMHFnaWp4SU4zRkNIMWRYNkJJWk1lalJYN3JRcWxvSXZSWnl2dGQ4QmUwQUFQNzdyVG1JMklpN3J2WEdNZ19oWkFhUGtHV2pw?oc=5",
+   "published": "2026-11-23T06:50:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9ab4fe655cf12dc50ca4ae49f8dbba4ebb3734c1",
+   "title": "Agilent Technologies 8-K: executive or board changes",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1090872/000119312526470278/0001193125-26-470278-index.htm",
+   "published": "2026-11-20T16:15:14-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "483ecba94586842295ebdeee1b43ad0b20e35aec",
+   "title": "Here's How Much $1000 Invested In Agilent Technologies 15 Years Ago Would Be Worth Today",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaGRwdHZIaF9uLU9OeUk0Vm5Ha2luYktWUUZtelB1b29iNmdVREJpaEsxQ2RRcVhNeVNXQVBHb1FxX2lKT2dlVjFTZlhyMURBb3BxVE1aS0l3YkJuNWFwMFg1T3doZUpMNU9TaGhrc0N3MzdXU0UtZDBLOFk1eHZWLTdndWozTHVheXlPaTY2TzMxUnFnVjBUY2huRFM4Tm51dzBCRjQ0Umh2SGR3MWdPOEwtMXpZWjU2TWVWMW1iaVFPQnBVNHVlVQ?oc=5",
+   "published": "2026-11-19T16:18:54-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f8ec048c7b8876ef60aa7e277e930fa6420bbeda",
+   "title": "Agilent Raises Quarterly Cash Dividend by Almost 3%",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261118008865:0-agilent-raises-quarterly-cash-dividend-by-almost-3/",
+   "published": "2026-11-18T16:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "69b4aab44d8a2ec3bca16c31175eb42d8d85815f",
+   "title": "Agilent Announces Cash Dividend of 26.25 Cents per Share",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:80ad25bfffd4b:0-agilent-announces-cash-dividend-of-26-25-cents-per-share/",
+   "published": "2026-11-18T16:15:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}

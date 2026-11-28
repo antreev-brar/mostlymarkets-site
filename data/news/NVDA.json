@@ -1,0 +1,487 @@
+{
+ "ticker": "NVDA",
+ "updated": "2026-11-28T14:00:46-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "d9c53d314cca686674b5f1c3a6e12c811568326c",
+   "title": "The Other Nvidia Romance With an Executive at a Company Linked to China",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2JKcnNFYk5jM09EUEZXNjdqZ1N6V05CbnNQR1gzd09nUlhzRVpTSlM4ZjM4SG1uVXExci1OWWdCY05oNkpTOVFjbzk5amIyeHNzdHNpejM1THVZNFdYVWw5dGx3MFF6YndNbGVnN0dTbHNuVDdSSlQwVWl4MDRadXVxbkJyV0FnVEhjNDlVN21JRDVKRkpGeQ?oc=5",
+   "published": "2026-11-28T03:01:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dc6196eaa1311b428ea32f020627f90adfe8f7a6",
+   "title": "The High Political Cost of Trump's Loyalty to Jensen Huang",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261127005369:0-the-high-political-cost-of-trump-s-loyalty-to-jensen-huang-wsj/",
+   "published": "2026-11-27T21:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e2054bb5d66abe545b61f442cbb518f52fac9b02",
+   "title": "Trump’s Nvidia intervention has a cost for US stocks",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUjltZWJOXzNQRVU0WXZNN3VaLUN5OW9YVk9odVhDSlU2eVM5Q0QzUzltSG1rMVpyTDJrdlZCQVgxaW9tSlU2YVZhdUhKbExLeVg3NFRpZ1ItNTZ3ODQySkktdlY0WmFEd29BbHJJR0MwWllqMlVhUDhFdTJIU1ZsRmZ0MTE?oc=5",
+   "published": "2026-11-27T13:26:25-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "480ee33767261ddb119f5857f7cbdbd85da92e12",
+   "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWh2ems4azAwYlZLLXh2X20zd0RsLWR4RFc1N1BmZ0NQTFpka096dVROdlZlYkV3SUQwcFdTNldWci1lZk9UeGlrTHNQRWo0RS15eE41Qm53N3c0LVBXNm9UOVJDV2RCUmQ1cmRIcW5xdEZMam5pakRtV0ZtY1FwSldDUmJTbG5rZnhmZVNybU5HWGRyRFB0V3l6NDJmZXBhYWVjai0tazBpN1hibE85bjFDRWV0WEdHcm9CZUJvWllEY0RrajlqZw?oc=5",
+   "published": "2026-11-27T10:52:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b7cd1604902950452d82a244df3902888607dca6",
+   "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14UUVNa2RYOGJ2eHdTeDh6WnpuZFJrU2ViWTVwak00dUxXU1R2RlI1YW9INk12TTBwbnNhS1pWMl9Kc0UxaWFoVU1mY3lLRjd0UWpEanExVHVOM2pWc01qMExaRWM?oc=5",
+   "published": "2026-11-27T09:56:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "be9dc20c6333d2d478ab1d9e1b88792c565fa4d4",
+   "title": "Nvidia Stock Looks to Be Finding a Floor With Huang 2.0",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qVUI0cGtEYUtyUERNQk1nMElsa0dsZzBGOUJoM0Z3SGFpZE1saHJ3QTVBM0N5M29ISzJhc3RhaUw4cmkwa2Q4UHBoV3V1TzA3LTlHU3dpMEF3d0dJd0YxVDIzWXM5eWhUY24xSVkxeEFkR25R?oc=5",
+   "published": "2026-11-27T07:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "dfa318669b9f6225ab46a1a5d361916ee7f8e445",
+   "title": "Nvidia’s stock has tumbled 27% over one chaotic month. The next big test lies in the week ahead",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeURNTkpvdzc0bWdfT2lqa1k5OHMtYm8yWnBCQUllWk45bUp2d0lVazFWV3hQTUVMWVRVdjV3c0d3MFBJUWxfb0RRY283eXE5M3U5ektvSnhfV1FFNkpST3Rvb0JYRWw3bmVlMUVWMHZlSEQxOUFkVXEwV19zNi1ZXzJNMWhNblpLUW9DV29NcHljT3VJNnRLeWZwanRSMGl1X0c2YUVwaGlWX3hUOWEzZUI2VVA3R2ZIV3BZcEZjQThzMk1yWThBUFl2bmI2Y1ZV?oc=5",
+   "published": "2026-11-27T07:29:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4d039a8ba9965c369ac373eb5b67bf60662ba2d5",
+   "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261126003263:0-nvidia-tells-partners-to-pause-shipments-to-southeast-asia-wsj/",
+   "published": "2026-11-26T11:04:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8f53b3746e63e540a72f447eab64742071b3608e",
+   "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4770AO:0-nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports/",
+   "published": "2026-11-26T00:18:30-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "43635583ee144558dd80873caed2095c3327fa86",
+   "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX3hDYWJpU2lxTUdLTHdlWHFqRHJUcmtTOWFuQkFRTlUyZTJBcGdNMWR3N3d1YlJIV05kWk1mU21JSDZmSVpZR1BlanpqRzFXSkg3NkxkeElWcHM0Q2Y4eFJKb3Fha29XakxYNFJ4cXExZHo4MFVDOHdDbENrQWs0d0lqQ3Z5cEVDRVBQR1hNNWZxSmhiUll4NFg1amZlU01oWm9fN2hkUFBBNkdKT21v?oc=5",
+   "published": "2026-11-25T14:54:35-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Business Insider",
+    "CNBC"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "71f29481a74c6efdf99fc7d7934eb540d232d192",
+   "title": "S&P Warns Nvidia of Potential Rating Downgrade",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125006496:0-s-p-warns-nvidia-of-potential-rating-downgrade-wsj/",
+   "published": "2026-11-25T14:15:00-05:00",
+   "also": [
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "a97abb1a4045cbe13a4186c216e304337c68143b",
+   "title": "No Evidence China Orchestrated Jensen Huang's Affair, Officials Brief Congress",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125005384:0-no-evidence-china-orchestrated-jensen-huang-s-affair-officials-brief-congress-wsj/",
+   "published": "2026-11-25T11:31:00-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d290d604094da108bd4ebb9f7d2202b884fd2dd8",
+   "title": "Why the Nvidia Rally Fizzled",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0NWUDNEQW9Uc2E3LVNHekVBblRIS3lpbzc3V01JQVBZWXpWd0Nsel91NlZZbWtsQWU3MWx2bkhybmJzWmVyT1ExRmNxWWk5SnRUV0tHTDY3WlZVSGw4amRxRTJ2eGEzNjlJVGd5Wlg1ZjFWZ0N1c3ZQUjQxTkNxd0JDenp5UQ?oc=5",
+   "published": "2026-11-25T07:53:22-05:00",
+   "also": [
+    "Reuters",
+    "The Block",
+    "CNBC"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9adcf501a3f98222f6848ceb92776d862d590fd8",
+   "title": "Nvidia bounce fades",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4750ZW:0-nvidia-bounce-fades/",
+   "published": "2026-11-24T17:00:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b7fde50e2c2b5a54ce0850e32d364c55e09b94b2",
+   "title": "The Retail Investors Who Believed Nvidia’s Board—and Got Burned by Its U-Turn",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWlFlMDJyN1daWmpBcWlPdU1jMTFxLU1UNGEyOW14YjB1RXQtRFJScE5ud0FWd3N1YmdFXzlYZ2lPRWp5M2kzc2RyZDB6c1VpUUlaZlkwV2ZLUEZWWEhESVd4anl5bWVwWkJhRnlnMVhKb1ROTG9waU5HVTh4UUhTRUsyYkJBN3VlT2Zxc0RxWGFodE1teGt5b1dHUjV3ZHNhZ3VDdy0yYjdEajI2aGlFSTd5NVZiNTZ0RF9z?oc=5",
+   "published": "2026-11-24T16:53:00-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2398369b5100779388acac32f070fd37f40ae912",
+   "title": "Nvidia Stock Is Falling Again. Why the Jensen Jubilation Is Already Fading.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2eG8tdTlDV1hsNU4tQ2JMRzROTWRubTAwLVd5MWxKcVR0WEFUTGlDMk1UWDZodWZxanVGbU05S1NVZTFNaE1VaGc2b0dkUXhmeGtTTVVPbjFWRl9QSGRjVjRPNExTRGpCRjVyazA5M1EzTVI1dkE?oc=5",
+   "published": "2026-11-24T13:16:00-05:00",
+   "also": [
+    "The Motley Fool",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d720ccbaaea0ebeba83068649c0626d413d9de47",
+   "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52aUdsdjBXTkFjSkg1UVpmamJ6cXNsRWxPSGRGZXNMOFNuRWFHZEdudVdnQ2pRS0xKbFJvRUJmYldqSEl6UzFseHJWZzdENkNrbEdXd05yWEpyU3NOQjM3TVNjZUcyYVlKZ0RGTFlPVWF2T2hvX0tUVdIBfkFVX3lxTE9jTGJUVzdZamlIUjdnZlVNYkVhaDJ4MzY5MmpTZUpGMl9GRjZDSTNGR2FGenRsN0djalZxbjlrWUNCUXFOME9HdHdVTzdPTE9KT28wei1iTXl3bUxLSTZKRm1VWGhXVlhFQUpRMTV4ak9tUUtGdXZ6b29YNWhCQQ?oc=5",
+   "published": "2026-11-24T04:12:05-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ae044c4d2c84e3d7ea74abee352636b947aba1f0",
+   "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N47506B:0-asian-stocks-rally-as-huang-s-return-to-nvidia-revives-the-ai-trade/",
+   "published": "2026-11-24T01:17:24-05:00",
+   "also": [
+    "Dow Jones",
+    "Business Insider",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "31ac28463f722bf990be3ae2bdce9d6346d20e03",
+   "title": "Trump made up to $15mn on Nvidia shares after Huang’s return",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOTVXN3ZnNk1vM0tIYXhEUmJBdXdLVjAyRFhldGZxTk5MQ2dZSk1MS2N1dUZDQXZDcExvY281Sm85clMzUlNtcV9TS29pSURsclE3R3N4VVpTTGZtR294MzhSVmU4VE13dmF5cGEzR3d6WWFRa0wzTU11cXltX3dUZUlVdTY?oc=5",
+   "published": "2026-11-23T17:21:44-05:00",
+   "also": [
+    "The Guardian"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "447f632994be69afed5e2bbc620f0a6f0af9f98b",
+   "title": "Nvidia shares surge more than 30%, add $1T in market cap, as Jensen Huang returns",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4675565-nvidia-reinstates-jensen-huang-as-ceo",
+   "published": "2026-11-23T16:05:43-05:00",
+   "also": [
+    "The Motley Fool",
+    "Yahoo Finance",
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8758a512ced89303911619325eb35237d92274a0",
+   "title": "Wall Street soars as Nvidia reinstates Huang, dollar jumps",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N4740LW:0-wall-street-soars-as-nvidia-reinstates-huang-dollar-jumps/",
+   "published": "2026-11-23T12:05:12-05:00",
+   "also": [
+    "Seeking Alpha",
+    "Axios",
+    "Politico",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "6790eaf882640a9679d846d75b69f3149c19459a",
+   "title": "Wall Street analysts scramble to upgrade Nvidia’s stock after Huang’s return",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYjRkQWN2WS14N2RwdGhnbHk3T1lhOEpDNDFwNlY1blBqOUFoa3JjelFjdFJRb1hZVEdzUE9uM3Q4TmJvWlN3eFotd2ZWTWQtU2lTX2J1akRkNzVQd21ZaF90TW10blQzUDlCTmVlb29mZ3RxNll3RUR1dFpJRm9jTUljZlFRSlBMekVUU3JUWFEyQl9XdWt5MmhlYkZad1pVQVEyLXR3?oc=5",
+   "published": "2026-11-23T11:41:20-05:00",
+   "also": [
+    "WSJ"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "07ede9d479cf15eb96a05aab7f319606b4f108b8",
+   "title": "Nasdaq Jumps, Nvidia Surges After Huang Returns as CEO",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmRrWGlNNEhKN1FYMEt2NmxkREM3N2toWEt1QW9NOW5ULUt5MHpuRmdjMnI2MnpzbnFIdVdTcFhXMEJDZkNFenAxSWM5aWdaYVZyLVFwTjhFODJ0dUNIWGdmdkZ2ZFhBSnE4YjJZYXFDSWRZc3NTcHJSb0FvcEduX3Y4M1JINDZRaDlKMEZLbkJjLXRMMGM0Skt6V2FXZXlTZFV3bE93?oc=5",
+   "published": "2026-11-23T09:58:00-05:00",
+   "also": [
+    "Bloomberg",
+    "Dow Jones",
+    "Forbes",
+    "NBC News",
+    "The Washington Post",
+    "Invezz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b9a68b62fd3cc50c451142578fe2d55bf92d5db6",
+   "title": "Nvidia Board Reinstates Jensen Huang as CEO",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261123004917:0-nvidia-board-reinstates-jensen-huang-as-ceo-wsj/",
+   "published": "2026-11-23T09:35:00-05:00",
+   "also": [
+    "GlobeNewswire",
+    "CNBC",
+    "Benzinga",
+    "CNN",
+    "CBS News",
+    "Fortune"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f2d7ae03763815736957ad366fb4d8b9a37c3fd2",
+   "title": "Trump says he assured Nvidia that Jensen Huang posed no national security threat",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N4740HK:0-trump-says-he-assured-nvidia-that-jensen-huang-posed-no-national-security-threat/",
+   "published": "2026-11-23T09:27:06-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "e0043b6b461317859bbd7828024b84c32eb8a40f",
+   "title": "Nasdaq futures jump 6% as Nvidia reinstates Jensen Huang as CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4740XS:0-nasdaq-futures-jump-6-as-nvidia-reinstates-jensen-huang-as-ceo/",
+   "published": "2026-11-23T09:07:37-05:00",
+   "also": [
+    "Dow Jones"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "ff7bf290b2d2fcb5a8971b752bb6d2e820442697",
+   "title": "Nvidia Stock Rallies on Huang's Return",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261123004954:0-nvidia-stock-rallies-on-huang-s-return-wsj/",
+   "published": "2026-11-23T09:07:00-05:00",
+   "also": [
+    "Invezz",
+    "Dow Jones",
+    "The Washington Post",
+    "Yahoo Finance",
+    "Reuters"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bd31e13d0e049e4e628a5a8345059cb4d08c63a3",
+   "title": "Nvidia reinstates Jensen Huang as CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4740OL:0-nvidia-reinstates-jensen-huang-as-ceo/",
+   "published": "2026-11-23T08:58:21-05:00",
+   "also": [
+    "Benzinga",
+    "Cointelegraph",
+    "Stocktwits",
+    "Yahoo Finance",
+    "Financial Times",
+    "MarketWatch"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "87013a84db4615569152f6cdbb18302200d58be8",
+   "title": "Nvidia 8-K: executive or board changes",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/0001045810-26-000090-index.htm",
+   "published": "2026-11-23T08:57:54-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "3f447f4621f899c8f5c641d5991086caf94e9a6c",
+   "title": "Trump wants Jensen Huang back at Nvidia. What will it take to stop the tech selloff?",
+   "source": "MarketWatch",
+   "url": "https://www.tradingview.com/news/DJN_SN20261123005163:0-trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff/",
+   "published": "2026-11-23T07:26:00-05:00",
+   "also": [
+    "Investopedia"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "4a67219e4fe8e04b8aedba47d70575da56b9fe7d",
+   "title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNTE3UTJiTDJBdGEteFJpU1RwQjQ3NW56dVJyc2ZXcTd0M0V5b3hfMDZEdnEzaW9GNmJjV25iYl9Gb01jallBT2VMaDgxWndBdnU4WERzcXo5TEpKTU1EUGJXTTRxWFoyZ0dmSUJFenZrdG81ZWNkN0pXNmo5SDhWOHFuRkYyMHZjWmlDck1nS2toS0dhMnlmRWhWRFIyU2gyZ0lIaktGVEVjMDRoMkFzcWVyRkt4blFjRVpCOHNsb2s?oc=5",
+   "published": "2026-11-23T05:56:00-05:00",
+   "also": [
+    "Yahoo Finance",
+    "The Motley Fool",
+    "Fortune"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "04ad561b0999ea7c221262588d1cdc36320faee2",
+   "title": "Nvidia’s Stock Slide Deepens After Report of SEC Accounting Probe",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INVNuU2E4Z3Bsa0FYa0RqbHNYM3ZlS1lZV3BlODA2Q2F2ejlxMllHQnl2YzhmMm5IeW5RdU9tUzhGUUdlVTJtMUozbkJYZGZOMFpnMmRaWWxpRDY0OVF3a1JiTVBrZmNWMkJsTVotRERzWUZvQVNV?oc=5",
+   "published": "2026-11-20T15:42:17-05:00",
+   "also": [
+    "The Motley Fool",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "f1963dd8401ef24a06fec773a487efb416688def",
+   "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46Y26G:0-nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo/",
+   "published": "2026-11-17T17:07:06-05:00",
+   "also": [
+    "The Guardian",
+    "Yahoo Finance",
+    "WSJ"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "8b3519bc5d9b0b5c6daf4e418dfefa49d72ffd59",
+   "title": "Jensen Huang Says If Nvidia Board Decides That My Return Is In Best Interest Of Shareholders, Employees, Company, & America, I Would Be Honored To Return As CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Y0G9:0-jensen-huang-says-if-nvidia-board-decides-that-my-return-is-in-best-interest-of-shareholders-employees-company-america-i-would-be-honored-to-return-as-ceo/",
+   "published": "2026-11-17T11:07:46-05:00",
+   "also": [
+    "Stocktwits",
+    "Yahoo Finance",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9d389e62abc1b838cc2ca59ea102f99f961522dc",
+   "title": "Nvidia Board Of Directors Establishes National Security And Export Control Oversight Committee",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA4MM3FT:0-nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee/",
+   "published": "2026-11-17T05:02:57-05:00",
+   "also": [
+    "Stocktwits",
+    "TradingView",
+    "Seeking Alpha",
+    "Yahoo Finance",
+    "dpa-AFX"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "d0c60c666b3a4fa23808a48fdaf33c79c4f73d34",
+   "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZRkFudW1QLXhGVm5uaGtHOHFZeEFPdklQV3dVRDBrOTlUZWRqOHJHNk5ITU9uQzczRmI0R3hSOEJOaGtkZjBKS0xoa2x5QUdMbmRXVFlscHlrbXJLWm9pWG8xdndXYThvOG5mddIBckFVX3lxTE5zX3BydjZ1RlBGYVJhUnJxX0RNcC10Q2FndG0xcktFOXVSTXZINjBuTl9wM0FmVURFMzNEVnpEaGREVGs2TVNUNzN3WktmWEZDWTFJQ3A3NG9WaHZ1TzY1QUhEaDdfY1I3Z1c0VnFYWThFUQ?oc=5",
+   "published": "2026-11-16T12:38:07-05:00",
+   "also": [
+    "Reuters",
+    "WSJ",
+    "Benzinga",
+    "Asian News International",
+    "Dow Jones",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "bab6c8a22682b6991190b5899c4e294e10a2957a",
+   "title": "Trump backs potential return of Jensen Huang as Nvidia CEO",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46X0WZ:0-trump-backs-potential-return-of-jensen-huang-as-nvidia-ceo/",
+   "published": "2026-11-16T09:38:48-05:00",
+   "also": [
+    "GuruFocus",
+    "Seeking Alpha",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b0be2038beb5fe019c767d9237ebfe5b0ff943a6",
+   "title": "Trump's Nvidia stake grew to as much as $62 million, Washington Post reports",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46X0Q2:0-trump-s-nvidia-stake-grew-to-as-much-as-62-million-washington-post-reports/",
+   "published": "2026-11-16T07:10:01-05:00",
+   "also": [
+    "The Washington Post",
+    "Quartz",
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2e878f21f7c5260650043664809d9966e798ce0a",
+   "title": "Trump Administration to Name Nvidia Among AI 'National Champions'",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261115001541:0-trump-administration-to-name-nvidia-among-ai-national-champions-wsj/",
+   "published": "2026-11-15T22:59:00-05:00",
+   "also": [
+    "Reuters",
+    "Yahoo Finance",
+    "Invezz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "1df3928e48a77fb52240388454ea97773dde3866",
+   "title": "Jensen Huang Discusses Comeback As Nvidia CEO With Allies - FT",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2FB:0-jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft/",
+   "published": "2026-11-15T14:13:09-05:00",
+   "also": [
+    "Investing.com",
+    "Yahoo Finance",
+    "Asian News International",
+    "ShareCast"
+   ],
+   "kind": "news"
+  }
+ ]
+}

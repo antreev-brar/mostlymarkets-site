@@ -1,0 +1,383 @@
+{
+ "ticker": "DE",
+ "updated": "2026-11-28T14:01:30-05:00",
+ "exchange": "NYSE",
+ "items": [
+  {
+   "id": "f62cdf6ed5135d61eefc99498b1f2bb4edf66813",
+   "title": "Deere Management Points To Agrictultural Machinery Recovery",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZF9ya0lNSi1vaVNIUi1Ea2JJd3hPRTlmYU42Si1BQU1WUGU5RG1pNWdHUU9fc1FfNjA5Vlp0dURvY29zSlgtdVZtdWRMUktSY3djYkdLRGdnX09Kb0MzVzVLYjQ2RU83OWhTazV3SFpnWmQ5V2FLNnU2a0VUQzZza0RmeHg2dG9za1RvUnRadGJrQ0g3RXhLa0J2MU1VczVQVXZ0SnhyeGlmUjQzWXhRSWZR?oc=5",
+   "published": "2026-11-28T03:20:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "c3232255c99411e607505baed6eb258b2100dfe7",
+   "title": "Deal Dispatch: Starbucks, CrowdStrike, John Deere, Eli Lilly",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZHBpR2I5TzIyY0RiWENNTGVwMUlfZExuZVRwS0pGbjYzdjVVYWNvTjVmcHJRdXdEZHVDYmJ0RWdjOUt5YkNneXlwLWxGQjJWTU9maFBhb0xPSFAweExyTFhMSWVVTERQandpX2k3SEZEc09yTFBHVnVwSzF0XzduMEF6QXRPek9sdWctNVNURG5PSU0zUjlCS01OTFFQU291U2lNMDhLSTFNcGc?oc=5",
+   "published": "2026-11-27T11:39:29-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b531b396ed75344217cba3fc205431b87c5010e1",
+   "title": "Bernstein SocGen raises Deere stock price target to $640 on FY27 recovery outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORHY1UGRaTjZiTkJCRkE5VXBfSWZGU1UyQnZ4N3lwaTY0S3ZNdnZxYy12ckhRUFB5SGVyaUxZMWhKX3NqNVh2Wmt3S3IxUGZEeVg5X1JDaWxKTThUdHhNN3RTa0hDX0h6WVVIdExTSEdSWUV0cURIdXRKdWlnbUVwdllBQlRKTzBlZXNkSGdxNVBuVDFjSkZyWEt4dEowQ3pfMWJlY3RYaUxZTS1MejlLWFFfd21aRXJpSXZTZUxpVGNseEFlMGxIYjlPdEpyQkpfb2dSaWNLaw?oc=5",
+   "published": "2026-11-27T08:37:28-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "22117eca12b1374896179076c3cf5e6dfd33314c",
+   "title": "CNH Industrial Stock Gains Attention As Deere Lifts Farm Equipment Outlook",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOamFTUmlxX3NrQ0wzZGJFREc2V0MyTUVFcHh2VUdVOUhDTEx6TkQtZnExanBZVlMtREs1Tk5QX1VrazQzTlFqYWV1U0VIYnkyRzdyMmg4SzhnTDhLVS1sU2ozU3p1dHozOUJDdEdDcFdsY1FuT0JTekxKc3FFXzAyZkZQT2hDYlczSGloOW96VFZaVUZQZTJDM0J0Wlg1S3A2WHVz?oc=5",
+   "published": "2026-11-26T00:16:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cdbd2488675acffe695792962864756b41be4dfe",
+   "title": "Deere: 3 Key Takeaways for Long-Term Investors",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWXVQT2FCRENJT1Y4OGZXRDV4MnNWVWVUQlpBaVRtODgtTFBFZ00wX256aVlOdmMtUzh6NHhwOExwbTN3Q3ltN2hlcE50N1F0ZWlET2pzWGhSMDVmWlhqbE93S044NzlwYmpfZWNvamdiRDBfYmhvbVdKMGhsYzFveW9Jby1xOGJmUG5Dbk1BZHdPdWtRWEE?oc=5",
+   "published": "2026-11-25T17:58:32-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e2c69d48aaab3fd57e14fa0143689ecb90a3b4ed",
+   "title": "Deere's Profits Slip as Large Ag Equipment Sales Fall 15%",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMXBwV2VGOEk1MnFkQU5vTlNtQlBrVGlITjBBN2x1dG9LNTQydGhMdGJFekRsVUtNUE5oaEFRVTY5TWozdy1abk9BYkw3SmV0bXF3cFVSWU1sUndHbjYtdUdOVnp1eHg4bzJRcmxjalh5TzhzQTRJZ3Awc0ZuYmE2Rk9rbFNGU2NWd2V5dDJkdVVkd3dISlYwUA?oc=5",
+   "published": "2026-11-25T16:53:13-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "199467dbbbe009602167a87d81b605263ae8ec6e",
+   "title": "Deere Earnings: Large Ag Clearly Recovering in 2027, but Guidance Disappointing",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVHJOZ3E3LTZtNU1URG11TWdvbWx5YW4wUlEtUkNQeXZHNWhrQ2xVSGlpdkxQRWhEaTM4SWlua08zUFBsSkJaQ3I3YXhubGhnMVBidmlTcXhaRVlja3lKQmtBOGlySW5ZRXlXZzFFQ05SVHFJVEx4Wi1DRmNtaHhkUXNkdzZ5Z3dtdWtFVExhVFN6RXotS3FQUGg5QThTTS1ia0JUSW5GSkI3QnVkclpMSUh6VlJ3X3VlN29qVTNJSnpQYkpmUkFqMF80eHR4Z1pQNUUxSzNINE5BczJ5X1hJWENB?oc=5",
+   "published": "2026-11-25T16:45:37-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2630da2ac2395f473a297a0e9588a85b80acb73f",
+   "title": "Deere earnings analysis: questions answered and next catalysts",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVFFSRVc5VW1LcndRRmhpUGZkOHVLSUJhLUwwN2RTRS1ZWThGdmstazdJekRoSGxuWkEzd1pmM3hQbXY0UWl4SldTS0haS21BZUc1VENlVnFfU0xqNjhTX3pMQzcyazZpaVUzeXF6WDE1Z1hMOWlIbWNxODQzRUNoS1hfekxrUkpCU1U2RlUtd0hLNk1POTNNY3BTSS1pczdENVMwUzVYanZkNmM?oc=5",
+   "published": "2026-11-25T15:44:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "852e876a12e9815c8a466148b6942a40b55e5b80",
+   "title": "Why Is Deere (DE) Stock Up Today? Q4 Results and Strong Early Or",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTGcxaUdKbW1WOEluOTVzZk5TVnlZUGNMZy1DcDhsbDdRd2FDaXNIeEgzWWpENGphLS1WRUFqdUQ0ekJhXy03dlFQQkgwdVJ5eUZ3VGEzdkgzZU9XRXdBbW1YWURNTGR2Wm50VjJJMzZqaXF6VUVYcDdSanlLdHJZMF9SQklCNnpsc0h3ZnA2MHNrNzhqWjUtQzJPbEh1Z0lNdWExZjF4UQ?oc=5",
+   "published": "2026-11-25T14:08:56-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "34330c1d69c459172d8620400662db9d7aae84e7",
+   "title": "Deere's Guidance Disappoints on Small Agriculture, Construction Businesses",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125006401:0-deere-s-guidance-disappoints-on-small-agriculture-construction-businesses-market-talk/",
+   "published": "2026-11-25T13:53:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ce348b928567a306e23552ddb76cb7e224688981",
+   "title": "John Deere stock whipsaws on uncertain farm rebound",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHkyV084dWIxMlI0M2xEdkdnS25BT292MTVtT2ljSl9JMGxYN0dYQnV4eTNwdEhJbnBWM2xaYjdjWEY0b2diTzBwdmNWeHJVUmFjM253VC1jbkp4MHFxbFBLWEVBbjlZNFk5eW9oNTJSU185TTY4T2FBSk9FeTZzVlhyWVc2R01VMWViYTJxM2s3V0lEUVJSTldldHZxN0hSejMyVkNESVFtdUdzVDhhcFo2UG9nZw?oc=5",
+   "published": "2026-11-25T13:22:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1911506377734cfe2aa810f20e5f5822b5e7c66a",
+   "title": "Deere & Company Q4 Earnings Call Highlights",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlFna09pRzVTQVpmM1hvcHBZWUh6eGRwLTVRVWR5SG9ZWURrMU5qTTJRMzJoTDVsUWVCcW10NzMzck02WUpYcFpkTjZkbFZPQ19lY3ZKWjNzdFNaWFllTk5UUTVXNWJxcHM0bjNLU0gzWk9wenRheXU1TjN5Wk9uSHotV21wTkRpdmllaFhaNDhmdm5sOTJpQ2lnZw?oc=5",
+   "published": "2026-11-25T13:12:26-05:00",
+   "also": [
+    "Seeking Alpha"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b95f4f65ae776cb761e5862c11303193af2fdf9e",
+   "title": "Deere Shares Tick Up as Company Predicts Farm-Equipment Rebound",
+   "source": "WSJ",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125005930:0-deere-shares-tick-up-as-company-predicts-farm-equipment-rebound-wsj/",
+   "published": "2026-11-25T12:22:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "01305f1fe3ea3e5300a0498046d303b186e9f7d5",
+   "title": "Gold Down 3%; Deere Share Gain After Q4 Results",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQlVVcS1mcVpPM1lyWnI3VlJMUWVtZ2t0Xy1tUU5PSXF5SGVYaEd3ZHVlT0x4TWZsMkVUMG9GUnk0WTI1ZGNMNG5pOXRsMHoxaUpROUU3NFM3WktZdWhjb3EwdWJpaFZUNEJtTll4Rm1mRURxaTZTdzFnc000Y3hjUjc2ZDhwVk0tNm5Ua1E3aExwOW9kNjdzQkdyMEJiaVkwY0tSb1dhMktRdmxp?oc=5",
+   "published": "2026-11-25T12:03:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "511a0d3af8cd3ce78450025a63e9e9222f6e2a33",
+   "title": "Deere Exec Demand For North American Earthmoving Equipment Remains Strong. Supported In Part By Data Center Investment - Conf Call",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4761OX:0-deere-exec-demand-for-north-american-earthmoving-equipment-remains-strong-supported-in-part-by-data-center-investment-conf-call/",
+   "published": "2026-11-25T11:34:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "db3d007d113e2d83ded376101637ce0bafa038e0",
+   "title": "Deere Stock Slips as Large Agriculture Weakness Overshadows Revenue Beat",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOUQzcE1aOC1JdEd4TUtFQ040Q1ladmJzVlE1WnB2djJ6OG84Q0J2cFhKMzVveFA3MVVvN25tT1hOUWZUczMzZTlod1haVnk2bmwxR3owQ090Y1BtOFJVZTIyLXhobFBNNzQybnpsMXIzeDgtaFNzNmFhbExRTHdUZVpIdldmOVRyZlFydWg1NFl1SzlFeXduaHdLX1FpX2tIVGRfV2RMRC1UZklBX29JNHh0dm9ES0ZRc2NnQ3g0N1JteDF3OVZxUQ?oc=5",
+   "published": "2026-11-25T08:53:52-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "34840f1e84921994ab3a38e5942dcfb6b1287d17",
+   "title": "Deere profit misses estimates as farm weakness persists",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676550-deere-profit-misses-estimates-as-farm-weakness-persists",
+   "published": "2026-11-25T08:03:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "90cee8e887acbee7e39f68d8fdadb9b599505b53",
+   "title": "Anthropic, Nvidia, Dell, Workday, Deere, and More Stocks That Explain Today’s Market",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iQlFOSngtQlZtTnpMQ0J4MmJsNGRhN3JoX2dqeWQyV2FPMkp4a1Mzd2JZZFc2bFNyZjVmX2FMUTVBQnFQam9VRS15NllJU2hTV2RlLUlFN1l4cEhVVzR0a0YtSEs?oc=5",
+   "published": "2026-11-25T07:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "3e22cf106b579325eb42785a6bdaa8f464e4c642",
+   "title": "Deere 4Q Profit Falls as Large Agricultural Equipment Sales Decline",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125002790:0-deere-4q-profit-falls-as-large-agricultural-equipment-sales-decline/",
+   "published": "2026-11-25T06:55:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0adb88c19aa598db8b7bfab8d7ff9ba477e144f0",
+   "title": "Deere in charts: FQ4 Construction & Forestry climbs 12% Y/Y, production & precision ag net sales drops 15%",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676433-deere-in-charts-fq4-construction-forestry-climbs-12-yy-production-precision-ag-net-sales-drops-15",
+   "published": "2026-11-25T06:54:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "05239f7a434a450811578ff8d5efc246348ce2a6",
+   "title": "Deere And Co Q4 Profit Falls",
+   "source": "dpa-AFX",
+   "url": "https://www.tradingview.com/news/dpa_afx:6a507874eec5b:0-deere-and-co-q4-profit-falls/",
+   "published": "2026-11-25T06:39:17-05:00",
+   "also": [
+    "Quartz"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "2a496733da4c3e58bddf074d95a53e549c43b690",
+   "title": "Earnings Snapshot: Deere beats Q4 revenue expectations despite EPS miss; sets FY27 net income target at $4.50B–$5.25B",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676434-earnings-snapshot-deere-beats-q4-revenue-expectations-despite-eps-miss-sets-fy27-net-income-target-at-450b525b",
+   "published": "2026-11-25T06:36:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "a7c39c92120d3496b5443d870bb36873c0e81714",
+   "title": "Deere Q4 net sales slip yr/yr; flags one-time pension charge in 2027 outlook",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N4760GO:0-deere-q4-net-sales-slip-yr-yr-flags-one-time-pension-charge-in-2027-outlook/",
+   "published": "2026-11-25T06:25:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e27669f94155194832a34a07c5480e3fd580a487",
+   "title": "Deere's Pension Charge Shapes Fiscal 2027 Outlook — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125002623:0-deere-s-pension-charge-shapes-fiscal-2027-outlook-company-talk/",
+   "published": "2026-11-25T06:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "42d46a80052caa7827416790d989dfefa85169d6",
+   "title": "Deere's Small Ag & Turf Posts Margin Turnaround — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125002621:0-deere-s-small-ag-turf-posts-margin-turnaround-company-talk/",
+   "published": "2026-11-25T06:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d0d5f98b7bbd3b1d5a31379ba6c10f145510ca2d",
+   "title": "Deere's Tariff Recovery Offsets Production Costs — Company Talk",
+   "source": "Dow Jones",
+   "url": "https://www.tradingview.com/news/DJN_DN20261125002622:0-deere-s-tariff-recovery-offsets-production-costs-company-talk/",
+   "published": "2026-11-25T06:23:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "1a397b548c30331041612bad45a6a5d860b7bdea",
+   "title": "Deere forecasts 2027 profit below estimates as farm equipment recovery remains muted",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4760WO:0-deere-forecasts-2027-profit-below-estimates-as-farm-equipment-recovery-remains-muted/",
+   "published": "2026-11-25T06:22:24-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "094f56c0cd73534d83a9efd76220ab9109019e07",
+   "title": "Deere (DE) Q4 Earnings Miss Estimates",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWDRnNUt0eEtla25DTlJVb3VfaGhZb19PVFowaVNyOTdxWktGejI3bFR1Nml1enI4U21kdGw5RjRFZlVEYWlaTmNCcTBLT1hGcjBEN04tSGxMa0tfQ0RITVFqb3k4TUNmcHFNUFNpOTB1T0JnYU5SOXRVSnh5a2xZbll6TG5qOVVRS2dwMFY0WWNFWkozanIyUTU4ek1iUQ?oc=5",
+   "published": "2026-11-25T06:20:01-05:00",
+   "also": [
+    "Investing.com",
+    "Zacks",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "feb15d3d8e93ccfa8933cdc65b7cb4aa46b569c2",
+   "title": "Deere forecasts fiscal 2027 net income below estimates",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4760W8:0-deere-forecasts-fiscal-2027-net-income-below-estimates/",
+   "published": "2026-11-25T06:10:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "00ec1d0cf209831661d9cb004a2b9cb362ef3916",
+   "title": "BRIEF-Deere & Co Q4 Net Sales And Revenues USD 12,115 Million",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_PLXKQVTHQ:0-brief-deere-co-q4-net-sales-and-revenues-usd-12-115-million/",
+   "published": "2026-11-25T06:08:14-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "6309dedcd2a8fd801c66a83f57a73aa5288019db",
+   "title": "Deere 8-K: quarterly results, a Reg FD disclosure",
+   "source": "SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/0001104659-26-131741-index.htm",
+   "published": "2026-11-25T06:00:47-05:00",
+   "also": [],
+   "kind": "filing"
+  },
+  {
+   "id": "b048b091e35f100d75e63c7686eadeb5bb40aea9",
+   "title": "Deere Gears Up For Q4 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNTVYwbXFEZkg1RDZicDYtQTBpTDNQLW5tbGFkQ3dnV1hYeGhVMXIzM3pVNTViZjduZWtiR2tSS3RveW0yYTVleGJURmNTOTJ6SE9HU1paTUVHTExkQnNRYzdKWnQzT29nNUtETlFobGhadGplV2RQdkpvODJPaDhVbVVfcXpid3J2MlZZNE02V1JWQi11T1NuYnNyUFgtUGk3NmZ2TUc0MnJYWGJjNUtwelNiSlpNbjBEZVFiZWdLaUlZSkJNM211MWdvLW9SNnVSR3ZIUW1Cakt2LWl6UWFJeU9XVlpzTV9HUzd4VmlLQWtCLXl5X0lLQi14NGp2QU84TU9CNzNXaFV3bEpNR3Y4?oc=5",
+   "published": "2026-11-25T02:01:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "d03ce5f3eef5638ae0cdb0d3f47d79f81c05d9df",
+   "title": "Watch Deere Down on Earnings; Dell Lower Despite Server Sales | Stock Movers",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUQtWDlVbDk3SHNqVkZvS1IySzF0MUt6RzRibG1NWlR2b1RFejBFMEY1MG1zS1ViYjdOSXpQWHRHeGQ0LUd1LVljRXBEUXNrVW9JdmhFMnVsN0lVeW1VY0FLTDVXT3VrY2NrVlNZbmo1QUk2UTBNRVRMeEhMeTVYazFwdERqaWMtRWtlSWtWUENqbDB6Y1JKal9tN3AtVlg1dG5HZ1NhQ21KRDlGT2c?oc=5",
+   "published": "2026-11-24T19:00:00-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "3b4ee8b8d9d019dd536bf26dcd6f3dc89d7fec3a",
+   "title": "Deere Stock Is Up 32% This Year. Now Comes the Hard Part for 2027.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzSnBCdTFpVF9kelZJTm5SdjhDNWkyRXRHMkpVZFVoMjZzZ3o3OXkwRE9nclZmcjNzNVExUWZsOF94MS0ydVBvLWpkd3dNeU1ueW1mZXhscHc2SF91eklFb3FpekkwbjAtSGxERmxwN2JrUVlTUW1r?oc=5",
+   "published": "2026-11-24T17:15:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "123825cde6c6980b0f6e0b9a6f19863b4d2b9639",
+   "title": "Deere, Li Auto On Deck Wednesday As Farm Demand, EV Weakness Face Test",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWmh1ckJJTzhjWmRSNm16NldoeUlzSnV5T2VqRzlkWWxQaDlhYjJzTF9MM3NSOEkzQ3R0cmJDZG1jdnRYV1U1aU1vWXgwSEZ0YXBtbVNFQVg0LTF6SXFGc19EaVRsMmpBSFNhSldrdWlreGJ1NWd4UmdvbGgyZE9tb1ZvVWJQMHdrQ2hONWZYS0NRWDZDeTBVYUdOVEJIbkhaUU9jeFEwNmNaejVURHR2SDZwUQ?oc=5",
+   "published": "2026-11-24T16:57:06-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4a020b3a82dc8daba46081d6cb9df24fbb03848d",
+   "title": "Deere faces Q4 earnings test as investors look for signs of agri recovery",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676267-deere-faces-q4-earnings-test-as-investors-look-for-signs-of-agri-recovery",
+   "published": "2026-11-24T11:27:59-05:00",
+   "also": [
+    "Stock Story",
+    "TradingView",
+    "StockStory"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "48dd272fdc7505ef1b4b8ca8f44b16e7cad421f6",
+   "title": "Deere earnings up next: Can guidance ease downturn fears?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWVB0Z3h5bjlnMmkzNlVBTUZaeHNJNU8xQW51WTFGdXpZaUs0U1RSRy1ycEF0c2w3aTh0ZENYbVdJTzFCRl9JaDVITWhIa0dHT2I0bUpjTXRjcTdzWGZyS3hwZmhscnZ2VnRWczh3amZCVmRfN3NPUEtPTlRQdTBfN012OWQ4QmRkUEpqZEFtM3FmMkNQS2NNTGkzUldfWXhPT1NaNDJfWE9GbzBq?oc=5",
+   "published": "2026-11-24T09:45:36-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2ac419d871c866a2755064919161438cb880b0f5",
+   "title": "Deere-backed Verdova links farm data to biofuel grower payments",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4675890-deere-backed-verdova-links-farm-data-to-biofuel-grower-payments",
+   "published": "2026-11-23T16:39:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "8bd1975a4a367f62d00db91a2f18e44a86445044",
+   "title": "Dell Could Swing $25.2 Billion After Earnings - Deere (NYSE:DE), Zoom Communications (NASDAQ:ZM), Medtron",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObl9zaExxdXRxNWxOOTdHcTJRV2xBTG1uOXFEY29DU3FXMlBvejF1TGVNVlEyQXBSbmNNTDFJQWdnUmx1V29OaF9oVU1iNUNFZ2toekJUM3llR1A0NGdmbXRuN0ROX2pYSE1ad2lsMi1NTFA2UVlQRWVWandYblFDLTBORkRBTW1WcWJnZXB3UDkyUGNqcFhmWXZIRVFZWHRlaUE?oc=5",
+   "published": "2026-11-22T14:00:08-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2a787e73daa572a0b5aecc82b1d4586edfc26e83",
+   "title": "Inflation, Best Buy, Zoom, Dell, Deere, and More to Watch This Week",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWTdWRU9rX0ozSUVDYjdQX0hKMV9Ua25LOTN3Q2tpTWpvNlQwSDZQMTQ3ZjZ1cmgxMWdTSU9CTWRUWHd0Wk1qbDJ4Y20yY3NIN3JTRW5PX1ZUejRsZmVwSDVGcS1pTFFnM0ZuRzdveW1BOHBrVmhHS2xpTjRIY1JrR29ucFJYd2FBZVdR?oc=5",
+   "published": "2026-11-22T14:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  }
+ ]
+}

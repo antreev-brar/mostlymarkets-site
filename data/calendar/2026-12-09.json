@@ -1,0 +1,41 @@
+[
+{
+"ticker": "AVGO",
+"name": "Broadcom Inc.",
+"time": "amc",
+"quarter": "Oct/2026",
+"eps_forecast": 3.45,
+"n_estimates": 10,
+"eps_last_year": 1.61,
+"last_year_date": "12/11/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 1436194310000.0
+},
+{
+"ticker": "ADBE",
+"name": "Adobe Inc.",
+"time": "amc",
+"quarter": "Nov/2026",
+"eps_forecast": 5.11,
+"n_estimates": 12,
+"eps_last_year": 4.55,
+"last_year_date": "12/10/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 90617438000.0
+},
+{
+"ticker": "CHWY",
+"name": "Chewy, Inc.",
+"time": "bmo",
+"quarter": "Oct/2026",
+"eps_forecast": 0.2,
+"n_estimates": 8,
+"eps_last_year": 0.14,
+"last_year_date": "12/10/2025",
+"eps_actual": null,
+"surprise_pct": null,
+"mktcap": 8227450900.0
+}
+]

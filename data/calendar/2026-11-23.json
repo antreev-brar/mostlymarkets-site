@@ -1,0 +1,67 @@
+[
+{
+"ticker": "CRWD",
+"name": "CrowdStrike Holdings, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.0,
+"n_estimates": 13,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 0.05,
+"surprise_pct": null,
+"mktcap": 217311576000.0
+},
+{
+"ticker": "HPE",
+"name": "Hewlett Packard Enterprise Company",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.18,
+"n_estimates": 7,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 1.37,
+"surprise_pct": 16.1,
+"mktcap": 53350810000.0
+},
+{
+"ticker": "A",
+"name": "Agilent Technologies, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 1.72,
+"n_estimates": 7,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 1.86,
+"surprise_pct": 8.14,
+"mktcap": 51739582000.0
+},
+{
+"ticker": "ZS",
+"name": "Zscaler, Inc.",
+"time": "unknown",
+"quarter": "Oct/2026",
+"eps_forecast": 0.12,
+"n_estimates": 12,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": null,
+"surprise_pct": -125.0,
+"mktcap": 38015185000.0
+},
+{
+"ticker": "J",
+"name": "Jacobs Solutions Inc.",
+"time": "unknown",
+"quarter": "Sep/2026",
+"eps_forecast": 2.11,
+"n_estimates": 3,
+"eps_last_year": null,
+"last_year_date": null,
+"eps_actual": 2.2,
+"surprise_pct": 4.27,
+"mktcap": 17652742100.0
+}
+]

@@ -1,0 +1,374 @@
+{
+ "ticker": "NFLX",
+ "updated": "2026-11-28T14:01:09-05:00",
+ "exchange": "NASDAQ",
+ "items": [
+  {
+   "id": "0aac2940622e73d99125d6750cf8c9e52b24a134",
+   "title": "Got $1,400? This 17%-Yielding Dividend Stock Could Pay for Your Netflix Subscription.",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbmRuUFNBZ05JZWVCSnlVS0NZZUczMU9VWFM1a1VQT0VxNnhlTnRBN1JLR2ZmdEtsd0dTSGk2MUFSNE5YcU1wWlRJTTB2c0NiYks4dE5nbFNvSU9Yd19NTHEyYWJjc3M2N2RweU9YcFdGMmgzQ3E0ZjNtdUl1SUFxMGtuMGp5MHM2QkVSeXduMzBMZmpIaHNyZklJRUR1M2wxTVRfRU9COGk2N0ViVFEwdk52WE1pU0lCekZyUVp1Rno3V3FWMkE?oc=5",
+   "published": "2026-11-28T08:30:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "27a39cb5eac6101ef49a502f19d662bc28879e44",
+   "title": "Netflix (NFLX) Beats Stock Market Upswing: What Investors Need to Know",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaEZGWnVIVjdSdUNFNjNDa29udFlOTjRZcEtKN0hWM09jajViXzVQcUphMF9FdTFiVm1Bc2lLWWVXN3JMbXJ5STRPWHVTcGd2UUp5Skg0dF9EVjBCc2VOM0E5Y3ZuOWxkcFRiVHczakVzUXc0bjdSc1M3amZOdEVVU3g0MHVjc0gzNXQ5a0RnY29KY1Y0aWI0Rm04a0M?oc=5",
+   "published": "2026-11-27T16:45:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "26603ab6e5b24af61d6be63fca0d4b8811c920cb",
+   "title": "Is Netflix Stock Underperforming the Nasdaq?",
+   "source": "Barchart",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQW8yV3JFRHJFeG40OUNjbkp3dXZzRi1HZ1lNbGdUcEVFaU4xeUtqdmZWU3RQaXpxakVTeHc2LVhOajc0MDVJUFotSHJTS0dxVi1LX1hvelhPU09wNmF5S1RteUYxTnFQM3lVTDJ3UjdjNFRhMmNkT1lnWnpJOWpqRlp1czMxUUdGVzZVTVQybnA?oc=5",
+   "published": "2026-11-27T03:51:57-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "e7fbd7741904a7da4b1030b54c7bf17142b103a2",
+   "title": "Here's What Would Prove Me Wrong About Netflix Stock",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0xpNl9aMFJRbWpVWTdkQkpoTUhpd0ZYWDBHbUxTb2VFNzgwdUR1MXc4Z0lXZzNNOFRSRHZ1QWgxZUVsR042amdVQlU1dWgwMEJURHZMaThoTFpMS0tyTm0yaGRtMUtFd1NYQlEtR0hFVlFrckh3UUtPYlZRellpOXQxSW1FMUNoakN0X1gxTExuOGdzRGozZkxhRQ?oc=5",
+   "published": "2026-11-26T12:41:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b24ad455d35323b033be6d3515a64ab26752172c",
+   "title": "Netflix Stock and Higher Content Spend: Can Margins Hold Firm in 2027?",
+   "source": "Zacks",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZVNNYkdzUHZyd1RHSW5zZlF2RHpBN2lSTDFWZjI3NG4wbWlkdUkyOHJKa25ZX041Sm5HMWt2dXJhT05kV2hBVzcwR0l6b1BWNnVYVWVEb3EzMWx0SE1kQTJaZW04c2dxaUFHby01RW5XM09Ia2Q2dkU2YmFIWTJabkpmMDRDaEdzV190bmI3N2NOZ0c2ckNWSktSMGlLYXM4ay00X3pVTUw2YTlvSFE?oc=5",
+   "published": "2026-11-26T09:31:17-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "cef8e5d757f23150e06e425f6a5866ee04e550ae",
+   "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUlpUnRkWklaOEozU2g2QUxfUENSQ0NkYnBTaXFFRWhjbWtBV3JfZmRSbVozNF9LRldyOFZoZmtSMVgwa2dLQTNEb0ZheFNHNUhldVZ0QkV0YW9PY1J0c05MTjZHOGtZai15WGU1STRubmhkaDRCcHdqdGQyN2dPSkdOdnZYWFY4c0dxODREUGRpdVZ4SkJMNDdnRkZpQQ?oc=5",
+   "published": "2026-11-26T09:21:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fd5a41a6f60cd1b65a67f099092d8df32c40f182",
+   "title": "Spotify And Netflix: A Performance Dislocation",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVnBPbjdWOHZ0eFhWWTNSWlgxcDk3QlJaLXJ5dzlZUU9NNTRzVFNJU3NJejM1Sm1kc05mYzhWTHJJY3ROLWVuc0J5eEVtWHVpWldRazdxZ2l3UkdpZ3pUSWUybVdmdnJHSF9neGVrVzAybXphU1p4SkFhaXZfQjhzakhSeUVTc2VlcGg2VmxXZw?oc=5",
+   "published": "2026-11-26T09:10:39-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5e82d107f7f926cd8ff3e29b8de1222834b50554",
+   "title": "Netflix: This Stock Rarely Trades at Such an Attractive Price",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1NpeUd6RXdhMlhrTFRoUTZXSGNZeE1LSlhYNFZKSkxrVGV3TWRNWWNHSEhXYThOQVhRbE1NNjZvVFJXbVlSS1FleFFaTC1DdUhnUDhVX0tYMVJjZC1ub1FfclN4Ukpvc0RwQ3drU0J5cG1ac3FhM2dhcndDeGNFcUpoLTFlSFFYbG5iag?oc=5",
+   "published": "2026-11-26T05:14:01-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "deb6acab01a9b5041b0193c95dfc95ea6b4053b4",
+   "title": "NFLX Stock Dips Overnight: Retail Turns Bearish Ahead Of Earnings As Netflix Reels Under Growth Pressure",
+   "source": "Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeFZscWNYeFlyblNWM1JEcUVSNFRMQkpMWnNVUnplREFPNVoxU3p3MDRic1NHUlNBUFNSRmw1LWVqSVZLYy00Z2J6M1dnbEZ2RERPX0hyRmd2ZUxGQXNhcGpKc0ZOWEp0bTBCc05xTHl0Q0g2cm4xODJyQ0dDbU5lOTVYQWFSRGVSYmhpcGJENzhZV0Y4V3RvdzZzcU5SZHZLdUdjMnVTSDZYa0NtYVZkd2VVRFNTb0RBOEdWY2kwX0gySDYzNk91emtvV0dlb1hpUnBtN0oxU1ZIY2FXSWs1UU9haWprak9jS2E3VkFwMzBHVU9PeElHbFc4cw?oc=5",
+   "published": "2026-11-26T04:27:15-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "df38176ac2bd4e3de1c2593af87c3dd91e6255c0",
+   "title": "Cathie Wood’s ARK adds to Anthropics stock, trims Netflix",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWjNUNDUwamgwZkVnVFJRaUtQQzRpNGZfTHlpOXMxTFVseUJxRzZKT1NpZGNObnNFME0zaUliaFV3STVMYWlycVRLMUFWdy1zYWdRX1pYdVpkWngxLUhmbnF6S09tckJGQWlxN0o3OEFDTWRwM21idTFRZmlqanA2dlRKZmxEdlJkdXAzWXVZQ3h3QVJwd1BhQ1BGM0dILU9mVnZQT0VfUzVBMm9HOUQ5TURn?oc=5",
+   "published": "2026-11-25T20:15:38-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "516760b4c5c6dd715789ad2eaaa4e0dbfe7f7b11",
+   "title": "Netflix Inc (NFLX) Stock Price, Trades & News",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CWm1XZllfOU0xaVhVdjJ0bnVDWV85ZnZ0VWx4cXJ5ZmhscENZNUFaZ1J1UDRHSi1zU0V2dXdqSG0tVHBVTmUtbEkwaVMtdG1ybjdUVDdvOA?oc=5",
+   "published": "2026-11-25T16:20:45-05:00",
+   "also": [
+    "Yahoo Finance"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "dd11e4be6204ed8277ecb4928a29755b51607109",
+   "title": "Netflix Has 2 Growth Engines That Could Drive Its Stock Higher in 2027",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVN4SUFNQmtBLUNWLXhGMFc2NW9mWjRPOGsyaTZoVEdOZmt4V2duNUhSYWRpeFhRTWVrUktHQUx2dldzYkdiaXFOZktOdmpBNUpsSWtVU2pTcXduaHpISGxJeXJzMktHcmhGYndpMXBDVlU1RjNRcXZyeUZBbmxYTExSQlJTWWN4blBkRURzblhsZ0lMdGhsV1p2Yk5tMzdvS1REdzJvdFBtZHd5NnhzeTlzNlM?oc=5",
+   "published": "2026-11-25T13:04:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "121752e709c0065673fdfe007eff2944f80d2120",
+   "title": "ETFs Investing in Netflix, Inc. Stocks",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9laFFGdUJEM2ZpNTBvTDFVVDYySHl2STlPcXc0VWhvdlNpWF9FN3B5eEJuREhYWEltZDBaVXhVdzI2NVdOeXU4LWVpYzU1NTRieHk4WE9mRlNDQXMwUmlF?oc=5",
+   "published": "2026-11-25T08:43:04-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b6dbb306878ae40e6ceaabfec7f9838ec4f67948",
+   "title": "Netflix buys Hollywood's Radford Studios for $380M",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676551-netflix-buys-hollywoods-radford-studios-for-380m",
+   "published": "2026-11-25T08:30:07-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fefe834fe807a133cdb9d41c75c12c8f78b562c5",
+   "title": "What Could Netflix (NFLX) Gain From Owning The Radford Studio Center?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUG1sRjJ1ODlnai01cGZFTHhkNE5naXNRQTVORTRiNG13SnYzQXdPVXF1MlQ2aU1JeUNPcEVCVFVXczNvY1ZPbHFvWmhCNnBTRVdTZGtDSXpOMGRQNnJtemc0NVgxNk9EZ3FRQkxHZy1FaXBCZUVZLVdxOHZHTWt5REgwM2JpdVczSmR0RVpNQWNjT0l4OHVldGpIcjloc3c?oc=5",
+   "published": "2026-11-24T23:26:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fd0ad458a71223899a782e60663d29995a914232",
+   "title": "Cathie Wood Buys $62M in Anthropic Stock as Shares Slip Below IPO Price; Ark Sells Meta, Netflix and Pala",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQi1LTk1RUkpPV3VoY2VxWE9hUWFMN2lhT0Nnbld5aHc3N3p2ZUwyQk0zWXNfeU80ZVhMV1lXZm1GeHR2dlBBV0ROcHFYTE5UMFNFZ0p3S1JjZHd2T0J1ZFk1d1VxMWx6NkNiU2xrUWRFa0szRHdRYnBla09uZThJdXBfajZucEc5VHZWMnlsRDhqVDNQMTNJekdnbVB3RUs5MHRxRHhzRmdJRUV1V3BXR2dSWERrb1gyM0wzcnJCcXpaY2txSVZwQktIUmJZUFVLWlFnSHVPczhfaUhZSmF5dGxESEJNQkRFQm52Tmp0bXJ1M3l5VHhrYmE4Z2FnOGNIS3U4?oc=5",
+   "published": "2026-11-24T21:02:28-05:00",
+   "also": [
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "b778c0960ae80121dc6849aa5ac163955ebc8daf",
+   "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2d2SGtsY1h4TFY2QWJMbmxBUFhwc3hBcVNFQ1Nmb25FampaakkxeXNfTm9TM3RJZFVPX0JxN0VBc3psZUh5NFQtczZZcFB6TzFHTVJyZTRWLVFvcElUWDd6ejM0TDFQc3FSMGJKTTM5cllRTnRMMlFWLUZBaDdIaGQyYTFQX25kTGJVWk4wTmkxb0FRQUNVdjVGUjY?oc=5",
+   "published": "2026-11-24T18:00:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "bc25366337c001eeb14960a48d965f18fdad4ad6",
+   "title": "Netflix Acquires Radford Studio Lot for $380 Million",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbFk3S1VLWDNlaE1Ea3B3cnRMRGZoWTF0eGEyUlNMVmhBaFVfWENqaENxZGk1N2NqLVVXRHFXX2ZPdXJtRkZ2ajA2VjFtNm9Rc0xHM2xfb3JQelozenQxeUNGUUw2STZQbnVlVllYVjdYTFFKdGFPRmptcnJiYUd2TDJaLVhsRXQ4UzIySA?oc=5",
+   "published": "2026-11-24T15:17:33-05:00",
+   "also": [
+    "GuruFocus",
+    "TradingView"
+   ],
+   "kind": "news"
+  },
+  {
+   "id": "9f7805a83d3c461187f6eb23427cb2c22ce6a0af",
+   "title": "Netflix closing on Radford Studio Center after Goldman Sachs’ $380M credit bid",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGFaNDlMUnJVNGZNWkRGXzlSQkpoaFVvMERZT3VYY2p4dzA2YnhJcjlEbS0tT094ZlRxLUo3NTNlU2k1bGRyZ0xuWkQ4azhDb3hoXzRlNko3dHlPSWRiRm8zZEJULWhmeWJJM0JEWDE0RGNoRDZIZzlHSHpEb0ZEdVZsLS1rRHlDRFdqUGNNZk12Tl9abXkzVkV4MTg4QQ?oc=5",
+   "published": "2026-11-24T14:53:55-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "639f30cc12a86133b5e5d923aa10d45f989db8fe",
+   "title": "Netflix Faces Big Thanksgiving Week Test: Will Shareholders Be Rewarded?",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRzdPOTdGWTQ5QTJLcjUwLUlVYVR5NjROdE82aE9WNmV0LWFyeXI0Y2dGQkl2d2w2OUtpNFFRRnlMZVY2RjhfMzA0OGhaWmI1cTNfTVFrZy10UHJpbE9jNnVLRW5oSEsxeXZZMjlYSEh6TG9ZdXJwOFJrOWRPRDBIYUp2NkFnLVZ0Q0JtZ2sxUHFtTlZqcXZvclA4d3lWZkZneHJRVjZUX1puR09mMDZDZ2Z3dzVoUFBneUxGTDkydzNqZVo5WVRaelhzS3A5c1Zj?oc=5",
+   "published": "2026-11-24T13:58:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5bdb9d6b32464fa59522fdbe410c86cbd1f00f6f",
+   "title": "Netflix and BBC launch CBeebies trial hub for children's programming",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676282-netflix-and-bbc-lauch-cbeebies-trial-hub-for-childrens-programming",
+   "published": "2026-11-24T12:05:49-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "fc1050b8015378aea0cedd31914e124b2046ddeb",
+   "title": "Why is Netflix stock climbing today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMXg1RWhycmxISTRQdVVMWWJFUjFiQXhJT09hT1FyclBPcEczTk9NT2drS3hQVHVoZEs1Y1YxLU0xTlVia3Q4cU85YXh6V19meTVjeDRQR2FGUGNDRjZFMTR6OWlDZzlCMno0YzBFMHBBb0JGajItX2VyTnFjWDBSUEVaOTlQVmFfbzdHQnNpZm9jc0dSaERiZ21LS1BZdw?oc=5",
+   "published": "2026-11-24T10:17:18-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4f514c1bfc90ce77ac2f8932ae2fa9d4515a99a5",
+   "title": "Should You Invest in Netflix (NFLX) Based on Bullish Wall Street Views?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMzJTZkZyOHpUTkFDTDlLeHM2bTBJVktGTnJSQzM5ZGdvUDVHektpLVFGNVFGSEIxTzhTSDd1YmlLU3FVUkdkdzRELVpsYXNOaUpUYVJLLXBBdEJUSkxYbU51b1RwckZpakpFZ2dyUFpOVERfbGJ1cHE2b09nU0dPU0ZISTNpWGhqeDFYbjIxMGhvam9vVmdKZDVlRThJbWc?oc=5",
+   "published": "2026-11-24T08:30:03-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "baa305eb788e96dfe251dfff8e508c73b6ecebf8",
+   "title": "Netflix Cuts About 1,000 Jobs and Its Content Chief. YouTube Already Has Twice Its TV Share",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWhhR2dwUDM5anFnbjBRZndHV1dMSlNVamVMVVNCZExDVGpOYTExSzB5Y1NqWDlERG5Jek9CZkR5QmZkMDU0LVNzV2psTktNVW1mZkZvTVB1NGcwTDBzcE13SUcydlo0bVhsM3Vva25wMU9YTUM5dUtoUUtRQnhZbVBNek1fd1V5a0o4dFlJR09YcnRfTEE?oc=5",
+   "published": "2026-11-23T18:31:46-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "903cf2a781f24cc200058299c60d004aa62aba17",
+   "title": "How Investors May Respond To Netflix (NFLX) Big Investors Split",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZzNkNTRJTHN5VlRSeUhQM0M3UnQwazEwQjJfTzdFWGRzWnYzclljbS1wNl9lREJCbVlobHh3OGo2bTc2Mzh2ZGJFVWFHWWlLU1JQWGl0RUplVGxzQkRFNEhVVHAzbGQ0QUpwdEtpLXlqNUJkNllZV0w5Q2xGVEF2XzlWb0xzU0FXRndvV1BzbjdpUXhFVXF2X1d4dzZ6VHg1?oc=5",
+   "published": "2026-11-23T18:24:26-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "ef2ebd711587e224d9a14b973d47f58b51756200",
+   "title": "Here’s How Much You Would Have Made Owning Netflix Stock In The Last 10 Years",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa0JiRXg1VDhKczJJel9Ma1N4bjV5R24wLXI5WTFyQkZ4VnA0OFFUdjQtYVg4Mlg4WEtadW03NkM2VGVJZGlVeERBR1lSU01uY05iOVF0QmhKVGYyYW5kOVEycjRjYklKeFU4Z0ZUUHJCc1pncHJydDlsUXZKWmxyMXRqVW9fTDVoRC1FRm9yd3NncnBrZnNod0NwRFp0WXpSTDRLbWtlRDBvZFJyWTA3djRITmpFZw?oc=5",
+   "published": "2026-11-23T18:15:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "2120851f6bc43f4d0f378a08784804a28786cbff",
+   "title": "Bill Ackman Likes Netflix Under $60. Michael Burry Is Waiting for the High $30s. Who’s Right?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUWF2WjEyY2ZPczlNc2dBRDBobkoyNkNpUzNPSGZ1OXVCRkVuX1pRbldZd3IyVVRjekFtYXd2NDlIam1HMmpaN3V1N0U4czBvbTFfQl9Pc2hpOTZ5dWVFNUN3bWtZVmNjT2JQSGY5UGlXRUZheEEyUTV1a3dWTWwtczNYLTBQc0pUTEdTVW5rX1VKV2FmUGVyVjM5TDI?oc=5",
+   "published": "2026-11-23T14:28:58-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "30f55e63f6715ef0aa3fe33588bdee20f4fbcf21",
+   "title": "Netflix: Still Bullish At 15 Times Earnings As The Cash Flow Keeps Compounding",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOajFaUjEzdEtXd2l3dkZwQU1SYWhuWVI2VDVvTnJVc1JmWXdRaExjYkZXMDBsTzhUa2x0Y1FoYUNVSkxHMFhHV1Exam1lSUxDVlVqTG1yMS1xMzJhOWdMcmFSNkZtTVF0ekpEaEhleUd1ek5rbkV2UUFyUHdUV2JEdW91ZENRZkNkOUZJSkhGdXBjVEV6eXFBOWZIa0NKMDFnVEtOX2tERE0tZDMzcXBXVkVlRWd0SUIxOFE?oc=5",
+   "published": "2026-11-23T08:30:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "5dae419947424a4979b5f69402d827615c0a24cf",
+   "title": "Why is Netflix stock gaining today?",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNHVFVk12VWZ2LWVDUWV2UjVnUTdRUXNEUU1jclRQaUx0VWk4X3VzSFd3Yk40bTNvMlE4bzdJaWFhNGR5NlRKdllkdEJPcGRnaHVuVlM0MmgtNWYxMzM5QnlZeHM5YW5YNGxJZlBjMnU2RXJpZXozenFBdlpua29FNEp3OW1fNlF6NnR3cVoxU2hJX21QT2JxU3BaOVg?oc=5",
+   "published": "2026-11-23T07:32:48-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "4de3fc50f192d879b833aa1a9de2a661a74982ee",
+   "title": "Evercore ISI reiterates Netflix stock rating on survey strength",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcWpDX3pNVWk4LTNJZzRhcU9Oa2ViS3l0Q3hVdExlNWtrV1A1UlhvcWVzSWFYWnR1OEgzZUQ1cEtQRkhLNHh2b2d1NDdfdnlta25OTE51eUtjd3FPSHFLbmVFWDlibzlCcTNtT1VZa3BXTHFPT0pGUFYzSTFIZEpkWHduY1dGM2NMa19RUUxGUVZSUGxNSmdjS3A4bGN3WXlKWmw2TWdhWXB1bWFGWXhxcFVHbzhPVW1IS1ZZYk1xWWE?oc=5",
+   "published": "2026-11-23T05:52:56-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "31699ed07b16ca54c5ece8239037841414097092",
+   "title": "Michael Burry’s Netflix warning puts investors in a $39 dilemma",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYkQyTDU3ekl0dzBSSDRBUkUzeVVWUGZEbzFvcXUxbmF1VW5LNmFISU1ZZnhfOGRaWHIzX2dvbGRhb2xtSGJTMVlkeGRqMkUxeXo1VXgtT01XaUNkaWNkRHk0VG1pcF8tc09Kd3pqbkR1VUpwVFhKUVJHUWxvWlRrMmxSZjFqNXBGdXItaFJpZXFIcTBHVGVMdFRfVWZDWkpTbklR?oc=5",
+   "published": "2026-11-22T13:33:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "f9734a1adb51478b5eca6947fc8396cb14a1306b",
+   "title": "What's Going On With Netflix's Stock?",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcXU5dTFQLWdPTzk0cUhfWjA2LWVObHFLWEhOMGtWR19uSGREeHNvNUF3REp5ZHM3TDY1VnAwODJ6UTdPeEhCOGlXYkZjTE5yc0xtMDJaOGxibDBCQnZ6Q2lYNnJ4M0hQdlZydTRLNkxZUmJ1aXAxaDF6R09HZTBLcXktSUk4S3pTZ2ZaRjAxQjlock4yN2c?oc=5",
+   "published": "2026-11-22T12:20:02-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "27f16ae41d15094bf633164618ee3ed3e3145ea4",
+   "title": "Netflix Falls Below $60. Bill Ackman Explains Why That’s an Incredible Investment Opportunity.",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNms5aUFqSmw1RkF6YXM5N2lnT2tTbzFyOEJkTUZlWFRUWDNlM1daOG9ldmVuV3d6SlVZbU5wSS01QlM1NWRDc0hfS2NRSFE2NlN0WDhNUVU2eExSSWprZ1hUS0J6TmJyc0VnaHI3QVZtUEI5dUZnS2p1bHZTMzA5VTdpZmhQdHVIV0Z6cUtyYS1PQnRZY3Mw?oc=5",
+   "published": "2026-11-21T23:20:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "0934f3797bb3cf11dc6430e268bf36e436e56543",
+   "title": "Netflix (NFLX) Stock Price Target 2026 & Analyst Forecast",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92b2xuOThyRTdtczMzbWtsZjZUYTZpbTAzWWwyOXMxcWN5NmFkd2JrUXo0dUhvOGdncmJvVG92dGJPRi1FMURxT0tfMUZMa3UzSDZ2YWI4ZXkzLWxtMGc?oc=5",
+   "published": "2026-11-20T19:59:00-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "defa7a18ce5064fc0d4543d3dec262e04dc8f2b4",
+   "title": "Bernstein reiterates Netflix stock rating on growth outlook",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkNhNW5DT19vNmVNamNGM2pYdTc0bFRhZFN0ZVZpeG1GamxMLXB4QmZFNkhyX1p0a0JmbjNpQlNvS0tjMk4yTklxNXdIRk4tajZITmVjWEQ5OW9RdlRtYzJaMVA1a25RUGNzZlhDeVlOSm1FUVVMYnhndHhEZG9kVE5FT3JjVXk5TWhhaC1Mb0I1TjN5OWpJNVFMWWNLQUdvZVc2bm9kZ19hS0NBN2Z5UEo1anAtaHhyMlNj?oc=5",
+   "published": "2026-11-20T09:08:31-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "b73bf60f8a0dd3c5aeff7737edffb562ea1975b6",
+   "title": "Netflix Stock Hits Multi-Year Low: What's Happening?",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMHVCNUozaUhzdUY1eHRLUElOdTVNVHdTd09wMEgxaWIydEprRjhhNUl6VkY1RzdvYnRKQjRMczVjZnZ4TEVqUkgyWTVQTnhLSVRhMzVqc201dDZkS1pGLWUzcWpGeEdMOGk2UTBhV1pFaVAtWlBPYmZXZ0FIUHR4aUdpV0dSeU03RnR3eFlFWWlMYnc4WE1Oc2Yxc3NnbHdsd2szQVQyV0c4V3VYRnpn?oc=5",
+   "published": "2026-11-19T14:52:42-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "357a17876721084f22a84832e2e06975b429757d",
+   "title": "Netflix is considered the frontrunner to win the 2030 World Cup media rights",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4674858-netflix-is-considered-the-frontrunner-to-win-the-2030-world-cup-media-rights",
+   "published": "2026-11-19T14:26:47-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "63a6e35b8e6e40f9890256357e449633a415c8fc",
+   "title": "GTA 6 vs. Sam Bankman-Fried: Netflix Drops FTX Series on Same Day as Take-Two’s Blockbuster Launch",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcWNiRzF6N0I0bGtOVDlZQWJsRk9yVGhGZHE3U3c1X0ZwRmNmaDVMQXVoU1hZVlJteTA3Z2FsU0h2eXFab3R0X05iSS1ILWtoTUZXQ1dyT19paDVKOWN4S2VhX3JrTUp0SVNjLS1iQXdneVE1VktQbGV1SjFHeW1BMktMa3JsV3RDdWY1NXJTOWY2dGxFSDRJMkJxQk9Ebm81N1JkWnpiUE9JczdpTG9meGF5NjBMWmN4bmZ6eVV0OU1jNWVKay1IS0trUDRQLXZ2R0FnQ3RvdXlHaW9HLW1zRA?oc=5",
+   "published": "2026-11-19T08:15:22-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "482ef5906e0e255399e3343b701704680777dc88",
+   "title": "This Is A Dream Entry Point For Netflix Stock (Rating Upgrade)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbnh0TmFFRTI5cDFvS1JHX2piQng3aldyV2d5R2NiNG9XSVhKYzY0RDNOSUtoVFBOaEtrWmFzREJFSlo3VE9tX19QZWZqbFZZT1locHBsTDJONV90N1ZnczZSMHktMVQ0Z2pXSGIwT0RzZl8teU1zWEZDeEJPbEUzMDFFc1Rvcm51a0VMaWpNZ2pacEdoSTNEYUxuR2tzaGhoemhJ?oc=5",
+   "published": "2026-11-18T15:41:53-05:00",
+   "also": [],
+   "kind": "news"
+  },
+  {
+   "id": "9b49b685e7d6818ccd636d0a4de17299806d33b3",
+   "title": "Omdia: Netflix Beats YouTube in Daily Viewing Time Across Four Latin American Markets",
+   "source": "Business Wire",
+   "url": "https://www.tradingview.com/news/business_wire:c544043b7057d:0-omdia-netflix-beats-youtube-in-daily-viewing-time-across-four-latin-american-markets/",
+   "published": "2026-11-17T09:28:00-05:00",
+   "also": [],
+   "kind": "press-release"
+  }
+ ]
+}
