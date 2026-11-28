@@ -2,7 +2,7 @@
 title = "Bulls vs Bears on Micron (MU): Is 3.7 Times Earnings a Floor or a Trap?"
 dek = "In three days Citi called the memory rout overdone, BNP Paribas downgraded Micron on 2028 and UBS cut its target by a third. The stock rose 8.8% on the week at 3.7 times forward earnings."
 type = "viewpoints"
-published = 2026-11-28T13:05:00-05:00
+published = 2026-11-28T12:39:00-05:00
 author = "dev-malhotra"
 tickers = ["MU", "SNDK", "NVDA"]
 event = "viewpoints-2026-11-28"
