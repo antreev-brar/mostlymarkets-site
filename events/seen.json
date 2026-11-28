@@ -93,17 +93,6 @@
 "KLAC"
 ]
 },
-"basket-semiconductor-materials-equipment-up-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "basket",
-"tickers": [
-"LRCX",
-"KLAC",
-"AMAT",
-"TER"
-]
-},
 "basket-semiconductor-materials-equipment-up-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
@@ -209,18 +198,6 @@
 "NVDA"
 ]
 },
-"basket-semiconductors-up-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "basket",
-"tickers": [
-"AMD",
-"MU",
-"CRDO",
-"MRVL",
-"INTC"
-]
-},
 "basket-semiconductors-up-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
@@ -316,12 +293,6 @@
 "P",
 "DELL"
 ]
-},
-"breakdown-2026-11-06-1": {
-"created": "2026-11-06T11:01:12-05:00",
-"day": "2026-11-06",
-"kind": "breakdown",
-"tickers": []
 },
 "breakdown-2026-11-07-1": {
 "created": "2026-11-07T11:01:39-05:00",
@@ -485,12 +456,6 @@
 "kind": "breakdown",
 "tickers": []
 },
-"daily-2026-11-06": {
-"created": "2026-11-06T05:02:06-05:00",
-"day": "2026-11-06",
-"kind": "daily",
-"tickers": []
-},
 "daily-2026-11-07": {
 "created": "2026-11-07T06:06:45-05:00",
 "day": "2026-11-07",
@@ -615,34 +580,6 @@
 "created": "2026-11-27T05:02:41-05:00",
 "day": "2026-11-27",
 "kind": "daily",
-"tickers": []
-},
-"list-2026-11-06-1": {
-"created": "2026-11-06T07:30:14-05:00",
-"day": "2026-11-06",
-"kind": "list",
-"theme": "momentum",
-"tickers": []
-},
-"list-2026-11-06-2": {
-"created": "2026-11-06T10:30:15-05:00",
-"day": "2026-11-06",
-"kind": "list",
-"theme": "after-earnings",
-"tickers": []
-},
-"list-2026-11-06-3": {
-"created": "2026-11-06T13:30:14-05:00",
-"day": "2026-11-06",
-"kind": "list",
-"theme": "high-margin",
-"tickers": []
-},
-"list-2026-11-06-4": {
-"created": "2026-11-06T16:30:14-05:00",
-"day": "2026-11-06",
-"kind": "list",
-"theme": "dividend-payers",
 "tickers": []
 },
 "list-2026-11-07-1": {
@@ -1184,12 +1121,6 @@
 "theme": "cash-machines",
 "tickers": []
 },
-"macro-2026-11-06": {
-"created": "2026-11-06T09:01:11-05:00",
-"day": "2026-11-06",
-"kind": "macro-check",
-"tickers": []
-},
 "macro-2026-11-09": {
 "created": "2026-11-09T09:01:05-05:00",
 "day": "2026-11-09",
@@ -1298,14 +1229,6 @@
 "AEM"
 ]
 },
-"move-AMD-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"AMD"
-]
-},
 "move-AMD-2026-11-10": {
 "created": "2026-11-10T10:01:22-05:00",
 "day": "2026-11-10",
@@ -1328,14 +1251,6 @@
 "kind": "why-it-moved",
 "tickers": [
 "AMZN"
-]
-},
-"move-ANET-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"ANET"
 ]
 },
 "move-ANET-2026-11-09": {
@@ -1384,14 +1299,6 @@
 "kind": "why-it-moved",
 "tickers": [
 "APP"
-]
-},
-"move-ASML-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"ASML"
 ]
 },
 "move-ASML-2026-11-09": {
@@ -1464,14 +1371,6 @@
 "kind": "why-it-moved",
 "tickers": [
 "AVGO"
-]
-},
-"move-AXON-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"AXON"
 ]
 },
 "move-AXON-2026-11-20": {
@@ -1586,14 +1485,6 @@
 "CLS"
 ]
 },
-"move-COHR-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"COHR"
-]
-},
 "move-COHR-2026-11-09": {
 "created": "2026-11-09T10:01:18-05:00",
 "day": "2026-11-09",
@@ -1694,14 +1585,6 @@
 "DDOG"
 ]
 },
-"move-DELL-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"DELL"
-]
-},
 "move-DELL-2026-11-11": {
 "created": "2026-11-11T10:01:13-05:00",
 "day": "2026-11-11",
@@ -1747,14 +1630,6 @@
 "day": "2026-11-24",
 "kind": "why-it-moved",
 "outcome": "already-written"
-},
-"move-DKNG-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"DKNG"
-]
 },
 "move-FCX-2026-11-18": {
 "created": "2026-11-18T10:01:06-05:00",
@@ -1892,14 +1767,6 @@
 "LITE"
 ]
 },
-"move-LRCX-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"LRCX"
-]
-},
 "move-LRCX-2026-11-23": {
 "created": "2026-11-23T10:01:26-05:00",
 "day": "2026-11-23",
@@ -1953,14 +1820,6 @@
 "day": "2026-11-16",
 "kind": "why-it-moved",
 "outcome": "already-written"
-},
-"move-MU-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"tickers": [
-"MU"
-]
 },
 "move-MU-2026-11-11": {
 "created": "2026-11-11T10:01:13-05:00",
@@ -2228,12 +2087,6 @@
 "SMCI"
 ]
 },
-"move-SNDK-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "why-it-moved",
-"outcome": "already-written"
-},
 "move-SNDK-2026-11-11": {
 "created": "2026-11-11T10:01:13-05:00",
 "day": "2026-11-11",
@@ -2450,12 +2303,6 @@
 "WDC"
 ]
 },
-"movers-2026-11-05": {
-"created": "2026-11-06T09:01:11-05:00",
-"day": "2026-11-06",
-"kind": "movers",
-"tickers": []
-},
 "movers-2026-11-09": {
 "created": "2026-11-10T09:01:13-05:00",
 "day": "2026-11-10",
@@ -2522,12 +2369,6 @@
 "kind": "movers",
 "tickers": []
 },
-"movers-week-2026-11-06": {
-"created": "2026-11-06T16:45:19-05:00",
-"day": "2026-11-06",
-"kind": "movers",
-"tickers": []
-},
 "movers-week-2026-11-13": {
 "created": "2026-11-13T16:45:13-05:00",
 "day": "2026-11-13",
@@ -2545,12 +2386,6 @@
 "day": "2026-11-27",
 "kind": "movers",
 "outcome": "already-written"
-},
-"narrative-2026-11-06": {
-"created": "2026-11-06T07:01:09-05:00",
-"day": "2026-11-06",
-"kind": "narrative",
-"tickers": []
 },
 "narrative-2026-11-07": {
 "created": "2026-11-07T07:01:33-05:00",
@@ -3214,14 +3049,6 @@
 "COP"
 ]
 },
-"news-COST-2026-11-06-mapping-the-market-costco-has-momentum-t": {
-"created": "2026-11-06T06:15:13-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"COST"
-]
-},
 "news-COST-2026-11-14-costco-wholesale-cost-director-resigned": {
 "created": "2026-11-14T08:01:48-05:00",
 "day": "2026-11-14",
@@ -3412,22 +3239,6 @@
 "GS"
 ]
 },
-"news-HSBC-2026-11-06-hsbc-announces-issuance-of-perpetual-sub": {
-"created": "2026-11-06T00:01:39-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"HSBC"
-]
-},
-"news-HSBC-2026-11-06-hsbc-bought-back-total-170-000-shares-on": {
-"created": "2026-11-06T06:15:13-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"HSBC"
-]
-},
 "news-HSBC-2026-11-20-hsbc-bought-back-10-000-shares-on-nov-19": {
 "created": "2026-11-20T06:09:45-05:00",
 "day": "2026-11-20",
@@ -3506,14 +3317,6 @@
 "kind": "news",
 "tickers": [
 "INTU"
-]
-},
-"news-JNJ-2026-11-06-johnson-johnson-announces-u-s-fda-approv": {
-"created": "2026-11-06T00:01:39-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"JNJ"
 ]
 },
 "news-JNJ-2026-11-07-j-j-s-once-daily-pill-eases-psoriatic-ar": {
@@ -3688,14 +3491,6 @@
 "MCK"
 ]
 },
-"news-MET-2026-11-06-chesnara-agrees-to-buy-100-of-metlife-uk": {
-"created": "2026-11-06T06:09:20-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"MET"
-]
-},
 "news-META-2026-11-15-italy-fines-meta-805-million-why-the-leg": {
 "created": "2026-11-15T10:01:38-05:00",
 "day": "2026-11-15",
@@ -3866,30 +3661,6 @@
 "kind": "news",
 "tickers": [
 "MU"
-]
-},
-"news-NBIS-2026-11-06-nebius-group-nv-ydx-hm-stock-price-news": {
-"created": "2026-11-06T06:30:14-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"NBIS"
-]
-},
-"news-NET-2026-11-06-cloudflare-stock-surges-after-earnings-w": {
-"created": "2026-11-06T06:09:20-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"NET"
-]
-},
-"news-NVDA-2026-11-06-nvidia-stock-rises-on-dip-buying-3-reaso": {
-"created": "2026-11-06T06:09:20-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"NVDA"
 ]
 },
 "news-NVDA-2026-11-09-before-the-bell-europe-futures-soft-nvid": {
@@ -4306,22 +4077,6 @@
 "TMUS"
 ]
 },
-"news-TSLA-2026-11-06-is-it-the-end-of-the-cybertruck-elon-mus": {
-"created": "2026-11-06T06:09:20-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"TSLA"
-]
-},
-"news-TSLA-2026-11-06-tesla-to-wind-down-cybertruck-production": {
-"created": "2026-11-06T02:01:08-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"TSLA"
-]
-},
 "news-TSLA-2026-11-07-musk-says-efficiency-improvements-coming": {
 "created": "2026-11-07T15:01:44-05:00",
 "day": "2026-11-07",
@@ -4504,14 +4259,6 @@
 "UBS"
 ]
 },
-"news-USB-2026-11-06-ai-wipeout-in-focus-u-s-employment-data": {
-"created": "2026-11-06T06:16:09-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"USB"
-]
-},
 "news-USB-2026-11-16-u-s-stock-futures-fall-as-investors-awai": {
 "created": "2026-11-16T03:01:04-05:00",
 "day": "2026-11-16",
@@ -4526,14 +4273,6 @@
 "kind": "news",
 "tickers": [
 "USB"
-]
-},
-"news-V-2026-11-06-visa-acceptance-platform-enables-jaywan": {
-"created": "2026-11-06T03:01:09-05:00",
-"day": "2026-11-06",
-"kind": "news",
-"tickers": [
-"V"
 ]
 },
 "news-V-2026-11-18-visa-says-co-expands-agentic-ready-to-he": {
@@ -4962,14 +4701,6 @@
 "DLTR"
 ]
 },
-"recap-ECHO-2026-11-06": {
-"created": "2026-11-06T08:01:13-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"ECHO"
-]
-},
 "recap-FERG-2026-11-09": {
 "created": "2026-11-09T07:01:04-05:00",
 "day": "2026-11-09",
@@ -5000,14 +4731,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "HPQ"
-]
-},
-"recap-HUM-2026-11-06": {
-"created": "2026-11-06T06:15:13-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"HUM"
 ]
 },
 "recap-INTU-2026-11-19": {
@@ -5056,14 +4779,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "MDT"
-]
-},
-"recap-MRNA-2026-11-06": {
-"created": "2026-11-06T07:01:09-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"MRNA"
 ]
 },
 "recap-NBIS-2026-11-12": {
@@ -5130,14 +4845,6 @@
 "PDD"
 ]
 },
-"recap-PPL-2026-11-06": {
-"created": "2026-11-06T08:01:13-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"PPL"
-]
-},
 "recap-RKLB-2026-11-09": {
 "created": "2026-11-09T16:15:16-05:00",
 "day": "2026-11-09",
@@ -5186,14 +4893,6 @@
 "TJX"
 ]
 },
-"recap-TM-2026-11-05": {
-"created": "2026-11-06T06:09:20-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"TM"
-]
-},
 "recap-TSN-2026-11-16": {
 "created": "2026-11-16T07:45:14-05:00",
 "day": "2026-11-16",
@@ -5208,22 +4907,6 @@
 "kind": "earnings-recap",
 "tickers": [
 "TTWO"
-]
-},
-"recap-VMRK-2026-11-05": {
-"created": "2026-11-06T06:09:20-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"VMRK"
-]
-},
-"recap-VST-2026-11-06": {
-"created": "2026-11-06T07:15:14-05:00",
-"day": "2026-11-06",
-"kind": "earnings-recap",
-"tickers": [
-"VST"
 ]
 },
 "recap-VYLR-2026-11-11": {
@@ -5273,12 +4956,6 @@
 "tickers": [
 "ZS"
 ]
-},
-"viewpoints-2026-11-06": {
-"created": "2026-11-06T10:01:11-05:00",
-"day": "2026-11-06",
-"kind": "viewpoints",
-"tickers": []
 },
 "viewpoints-2026-11-07": {
 "created": "2026-11-07T10:01:34-05:00",
@@ -5386,12 +5063,6 @@
 "created": "2026-11-22T12:01:48-05:00",
 "day": "2026-11-22",
 "kind": "week-ahead",
-"tickers": []
-},
-"wrap-2026-11-06": {
-"created": "2026-11-06T16:15:14-05:00",
-"day": "2026-11-06",
-"kind": "market-wrap",
 "tickers": []
 },
 "wrap-2026-11-09": {
