@@ -1,0 +1,91 @@
+{
+ "id": "news-MS-2026-11-28-is-morgan-stanley-ms-fully-priced-for-it",
+ "kind": "news",
+ "story_type": "brief",
+ "priority": 58,
+ "created": "2026-11-28T04:02:12-05:00",
+ "expires": "2026-11-28T14:02:12-05:00",
+ "tickers": [
+  "MS"
+ ],
+ "headline_hint": "Morgan Stanley: <what just happened>",
+ "instructions": "Fresh headlines name this company. If the news is material (results, guidance, a deal, a big contract, regulation, a management change, a product that matters to the numbers), write a brief: what happened, why it matters, what to watch, sourced twice. If it's noise or already in another story, skip it with the reason. Follow the brief template in docs/STYLE.md.",
+ "quotes_asof": "2026-11-28T04:00:09-05:00",
+ "pack": {
+  "headlines": [
+   {
+    "title": "Is Morgan Stanley (MS) Fully Priced For Its Capital Returns?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa3d3dHd3SXNhTG9HRjRoWFM5Sk1lMzJzY0FhSkdWeENrV2lmckZMOTJIYnFxaUF5T21QOGdOXzBwYVlBRS1FcEpDd3BrXzhRZzFsZnZmOXlQbUwzOVhLbjU1SVlWU3M4cGJSSVN4OVYyZ0lWSDA5SmRydTNhZmtpU01HdEIwd0tDZmFBNncyQkJfY3V1NG40OTI0RQ?oc=5",
+    "published": "2026-11-28T03:09:48-05:00",
+    "also": []
+   },
+   {
+    "title": "Key facts: Morgan Stanley below 5%; Societe Generale crosses threshold",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRmFKc0ZGQmx5ZkN0VndSaDQyQ0tGclc3T0dNTWJHbTFhbUQ4TGZvdElPcVMyZkI1bm8tOEtzd0dtTHRpWmdTZVJTbWxtdUdNbDJTZ2R2d0lRbHhzNVAtRl9UdjdFbEt5cDBGUEtkTG14WWZLSGhOWkt6dlh4VjkxRUxaZmFZWDlIVW5ha3c2cGpNS2dxWkw2bUVuczFvTEZJSzh0ZktveWZsRUtReFQwMEU3RTI4Ujl6dlFYZTJzSkVwazR2b3pQNQ?oc=5",
+    "published": "2026-11-28T03:00:00-05:00",
+    "also": []
+   }
+  ],
+  "quote": {
+   "price": 170.88,
+   "change_pct": 1.99,
+   "prev_close": 167.55,
+   "time": "2026-11-27",
+   "mktcap": "267.093B",
+   "pe": 13.55,
+   "fpe": 12.84,
+   "yr_high": 232.25,
+   "yr_low": 152.8,
+   "ext": {
+    "session": "POST_MKT",
+    "price": 171.5,
+    "change_pct": 0.36,
+    "time": "2026-11-27"
+   }
+  },
+  "facts": {
+   "ticker": "MS",
+   "name": "Morgan Stanley",
+   "date": "2026-11-27",
+   "close": 170.88,
+   "prev_close": 167.55,
+   "change_pct": 1.99,
+   "moves_over_5pct_last_year": 4,
+   "sessions_in_year": 252,
+   "biggest_move_rank_in_year": 62,
+   "last_move_at_least_this_big_same_direction": {
+    "date": "2026-11-23",
+    "change_pct": 4.18
+   },
+   "ytd_pct": -3.75,
+   "return_1m_pct": -10.12,
+   "return_6m_pct": -17.85,
+   "return_1y_pct": 3.29,
+   "high_52w": {
+    "close": 228.55,
+    "date": "2026-07-15"
+   },
+   "low_52w": {
+    "close": 154.37,
+    "date": "2026-03-12"
+   },
+   "pct_below_52w_high": 25.23,
+   "thousand_dollars_5y_ago_now": 1745,
+   "five_years_ago_date": "2021-11-26",
+   "volume": 3366270,
+   "volume_vs_20d_avg": 0.49,
+   "sentences": [
+    "Morgan Stanley's shares moved 5% or more on 4 of the last 252 sessions.",
+    "The last move at least this big in the same direction was on 23 November 2026, when the stock rose 4.2%.",
+    "The stock is down 3.8% this year, and at $170.88 it sits 25.2% below its 52-week closing high of $228.55 from 15 July 2026.",
+    "$1,000 invested in Morgan Stanley five years ago would be worth $1,745 today."
+   ]
+  },
+  "recent_stories": [
+   "/news/2026-11-21/bulls-vs-bears-on-the-s-p-500s-correction-is-the-bottom-close-or-still-ahead/",
+   "/daily/2026-11-16/"
+  ]
+ }
+}
