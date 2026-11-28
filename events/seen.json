@@ -1127,6 +1127,13 @@
 "theme": "cash-machines",
 "tickers": []
 },
+"list-2026-11-28-1": {
+"created": "2026-11-28T08:01:57-05:00",
+"day": "2026-11-28",
+"kind": "list",
+"theme": "high-margin",
+"tickers": []
+},
 "macro-2026-11-09": {
 "created": "2026-11-09T09:01:05-05:00",
 "day": "2026-11-09",
@@ -4019,6 +4026,14 @@
 },
 "news-SHOP-2026-11-28-shopify-shop-stock-may-be-17-stretched-d": {
 "created": "2026-11-28T07:01:49-05:00",
+"day": "2026-11-28",
+"kind": "news",
+"tickers": [
+"SHOP"
+]
+},
+"news-SHOP-2026-11-28-why-shopify-stock-has-investors-watching": {
+"created": "2026-11-28T08:01:57-05:00",
 "day": "2026-11-28",
 "kind": "news",
 "tickers": [
